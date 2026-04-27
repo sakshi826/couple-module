@@ -4,7 +4,7 @@ import { useEffect } from "react";
 const Index = () => {
   const navigate = useNavigate();
   useEffect(() => {
-    navigate("/intro", { replace: true });
+    navigate("intro", { replace: true });
   }, [navigate]);
   return null;
 };
