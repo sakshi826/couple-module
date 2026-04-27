@@ -68,8 +68,12 @@ function App() {
               await sql`CREATE TABLE IF NOT EXISTS sleep_audit_logs (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, date DATE NOT NULL, quality INTEGER, duration DECIMAL, factors TEXT[], created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
               await sql`CREATE TABLE IF NOT EXISTS sleep_window_planner_entries (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, bedtime TIME, wake_time TIME, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
               await sql`CREATE TABLE IF NOT EXISTS repair_reconnect_entries (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, step TEXT, reflection TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
-              await sql`CREATE TABLE IF NOT EXISTS memory_box_entries (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, content TEXT, image_url TEXT, date DATE, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
-              await sql`CREATE TABLE IF NOT EXISTS continuing_bonds_entries (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, content TEXT, category TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
+              await sql`CREATE TABLE IF NOT EXISTS memory_box_entries (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, memory_data JSONB NOT NULL, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
+              await sql`CREATE TABLE IF NOT EXISTS continuing_bonds_entries (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, bond_data JSONB NOT NULL, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
+
+              // Ensure columns exist if tables were created with old schema
+              try { await sql`ALTER TABLE memory_box_entries ADD COLUMN IF NOT EXISTS memory_data JSONB`; } catch(e) {}
+              try { await sql`ALTER TABLE continuing_bonds_entries ADD COLUMN IF NOT EXISTS bond_data JSONB`; } catch(e) {}
               await sql`CREATE TABLE IF NOT EXISTS gentle_wishes (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, wish TEXT NOT NULL, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
               await sql`CREATE TABLE IF NOT EXISTS window_of_tolerance_logs (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, state TEXT, factors TEXT[], created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
               await sql`CREATE TABLE IF NOT EXISTS narrative_entries (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, title TEXT, content TEXT NOT NULL, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
