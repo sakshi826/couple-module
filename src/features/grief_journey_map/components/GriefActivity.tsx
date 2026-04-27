@@ -169,6 +169,3 @@ const GriefActivity = () => {
 };
 
 export default GriefActivity;
-
-
-export default GriefActivity;
