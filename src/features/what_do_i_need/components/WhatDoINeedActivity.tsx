@@ -1,6 +1,6 @@
 import { useState, useCallback, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ChevronLeft, Clock, X, Heart } from "lucide-react";
+import { HeartHandshake, Leaf, MessageSquare, Users, Lightbulb, Anchor, ShieldCheck, Award, Search, Mic, Sun, Smartphone, Ban, HelpCircle, Sparkles, BookOpen, Clock, X, Heart } from "lucide-react";
 import ProgressDots from "@/features/what_do_i_need/components/ProgressDots";
 import NeedChip from "@/features/what_do_i_need/components/NeedChip";
 import MicroAcknowledgement from "@/features/what_do_i_need/components/MicroAcknowledgement";
@@ -9,30 +9,33 @@ import { neon } from "@neondatabase/serverless";
 import { toast } from "sonner";
 
 const NEEDS = [
-  { label: "Emotional support", emoji: "🤗" },
-  { label: "Space / time for myself", emoji: "🌿" },
-  { label: "Clear communication", emoji: "💬" },
-  { label: "Reassurance", emoji: "🫂" },
-  { label: "Understanding", emoji: "💛" },
-  { label: "Stability", emoji: "⚓" },
-  { label: "Honesty", emoji: "🪞" },
-  { label: "Respect", emoji: "✊" },
-  { label: "Clarity about the relationship", emoji: "🔍" },
+  { label: "Emotional support", icon: HeartHandshake },
+  { label: "Space / time for myself", icon: Leaf },
+  { label: "Clear communication", icon: MessageSquare },
+  { label: "Reassurance", icon: Users },
+  { label: "Understanding", icon: Lightbulb },
+  { label: "Stability", icon: Anchor },
+  { label: "Honesty", icon: ShieldCheck },
+  { label: "Respect", icon: Award },
+  { label: "Clarity about relationship", icon: Search },
 ];
+
+const NEED_ICON_MAP: Record<string, any> = {};
+NEEDS.forEach((n) => { NEED_ICON_MAP[n.label] = n.icon; });
 
 const NEED_EMOJI_MAP: Record<string, string> = {};
 NEEDS.forEach((n) => { NEED_EMOJI_MAP[n.label] = n.emoji; });
 
 const PROMPTS: Record<string, string> = {
-  "Clear communication": "💬 What would clearer communication look like for you?",
-  "Emotional support": "🤗 What kind of support would actually help you right now?",
-  "Space / time for myself": "🌿 What would having that space look like for you?",
-  "Reassurance": "🫂 What kind of reassurance would feel meaningful?",
-  "Understanding": "💛 What would feeling truly understood look like?",
-  "Stability": "⚓ What would stability feel like in your life right now?",
-  "Honesty": "🪞 What would more honesty look like in your situation?",
-  "Respect": "✊ What does respect look like for you right now?",
-  "Clarity about the relationship": "🔍 What kind of clarity would help you most?",
+  "Clear communication": "What would clearer communication look like for you?",
+  "Emotional support": "What kind of support would actually help you right now?",
+  "Space / time for myself": "What would having that space look like for you?",
+  "Reassurance": "What kind of reassurance would feel meaningful?",
+  "Understanding": "What would feeling truly understood look like?",
+  "Stability": "What would stability feel like in your life right now?",
+  "Honesty": "What would more honesty look like in your situation?",
+  "Respect": "What does respect look like for you right now?",
+  "Clarity about relationship": "What kind of clarity would help you most?",
 };
 
 const REFLECTION_HINTS: Record<string, string[]> = {
@@ -76,7 +79,7 @@ const REFLECTION_HINTS: Record<string, string[]> = {
     "Respect would look like...",
     "I need people to...",
   ],
-  "Clarity about the relationship": [
+  "Clarity about relationship": [
     "I need to know if...",
     "What confuses me is...",
     "I want us to be clear about...",
@@ -90,11 +93,11 @@ const DEFAULT_HINTS = [
 ];
 
 const ACTION_CHIPS = [
-  { label: "Say something honestly", emoji: "🗣️" },
-  { label: "Take some time for myself", emoji: "🧘" },
-  { label: "Reach out to someone", emoji: "📱" },
-  { label: "Set a small boundary", emoji: "🚧" },
-  { label: "Not sure yet", emoji: "🤔" },
+  { label: "Say something honestly", icon: Mic },
+  { label: "Take time for myself", icon: Sun },
+  { label: "Reach out to someone", icon: Smartphone },
+  { label: "Set a small boundary", icon: Ban },
+  { label: "Not sure yet", icon: HelpCircle },
 ];
 
 const pageVariants = {
@@ -247,8 +250,8 @@ const WhatDoINeedActivity = () => {
     }
   };
 
-  const dynamicPrompt = PROMPTS[primaryNeed] || "🌱 What would this look like in a real situation?";
-  const primaryEmoji = NEED_EMOJI_MAP[primaryNeed] || "🌱";
+  const dynamicPrompt = PROMPTS[primaryNeed] || "What would this look like in a real situation?";
+  const PrimaryIcon = NEED_ICON_MAP[primaryNeed] || Sparkles;
 
   return (
     <PremiumLayout
@@ -284,28 +287,34 @@ const WhatDoINeedActivity = () => {
                 </div>
                 {history.length === 0 ? (
                   <p className="text-sm text-muted-foreground text-center py-8">
-                    No reflections yet. Complete an activity to see your history here. 🌱
+                    No reflections yet. Complete an activity to see your history here.
                   </p>
                 ) : (
                   <div className="space-y-3">
-                    {history.map((item, i) => (
-                      <div key={i} className="rounded-2xl p-4 bg-slate-50 border border-slate-100">
-                        <div className="flex items-center justify-between mb-1">
-                          <span className="text-sm font-medium text-foreground">
-                            {item.emoji} {item.primaryNeed}
-                          </span>
-                          <span className="text-xs text-muted-foreground">{item.date}</span>
+                    {history.map((item, i) => {
+                      const HistoryIcon = NEED_ICON_MAP[item.primaryNeed] || Sparkles;
+                      return (
+                        <div key={i} className="rounded-2xl p-4 bg-slate-50 border border-slate-100">
+                          <div className="flex items-center justify-between mb-1">
+                            <div className="flex items-center gap-2">
+                              <HistoryIcon size={16} className="text-primary" />
+                              <span className="text-sm font-medium text-foreground">
+                                {item.primaryNeed}
+                              </span>
+                            </div>
+                            <span className="text-xs text-muted-foreground">{item.date}</span>
+                          </div>
+                          {item.reflection && (
+                            <p className="text-sm text-muted-foreground mt-1 line-clamp-2">"{item.reflection}"</p>
+                          )}
+                          {item.action && (
+                            <p className="text-xs mt-2 text-primary font-bold">
+                              → {item.action}
+                            </p>
+                          )}
                         </div>
-                        {item.reflection && (
-                          <p className="text-sm text-muted-foreground mt-1 line-clamp-2">"{item.reflection}"</p>
-                        )}
-                        {item.action && (
-                          <p className="text-xs mt-2 text-primary">
-                            → {item.action}
-                          </p>
-                        )}
-                      </div>
-                    ))}
+                      );
+                    })}
                   </div>
                 )}
               </motion.div>
@@ -336,7 +345,7 @@ const WhatDoINeedActivity = () => {
                 className="flex-1 flex flex-col items-center justify-center text-center gap-5 py-10"
               >
                 <motion.div {...fadeUp} transition={{ delay: 0.05 }}>
-                  <span className="text-5xl">🧘‍♀️</span>
+                  <Sparkles size={48} className="text-primary" />
                 </motion.div>
 
                 <motion.h1
@@ -353,7 +362,7 @@ const WhatDoINeedActivity = () => {
                   transition={{ delay: 0.25 }}
                 >
                   <p>Sometimes, we focus so much on everything around us that we lose track of what we need.</p>
-                  <p>This is a moment to pause and check in with yourself. 🌸</p>
+                  <p>This is a moment to pause and check in with yourself.</p>
                 </motion.div>
 
                 <motion.div {...fadeUp} transition={{ delay: 0.55 }} className="w-full mt-4">
@@ -385,7 +394,8 @@ const WhatDoINeedActivity = () => {
                         {NEEDS.map((need) => (
                           <NeedChip
                             key={need.label}
-                            label={`${need.emoji} ${need.label}`}
+                            label={need.label}
+                            icon={need.icon}
                             selected={selectedNeeds.includes(need.label)}
                             onToggle={() => toggleNeed(need.label)}
                           />
@@ -395,7 +405,8 @@ const WhatDoINeedActivity = () => {
                           .map((need) => (
                             <NeedChip
                               key={need}
-                              label={`✨ ${need}`}
+                              label={need}
+                              icon={Sparkles}
                               selected
                               onToggle={() => toggleNeed(need)}
                             />
@@ -406,7 +417,7 @@ const WhatDoINeedActivity = () => {
                           value={customNeed}
                           onChange={(e) => setCustomNeed(e.target.value)}
                           onKeyDown={(e) => e.key === "Enter" && addCustomNeed()}
-                          placeholder="✏️ Something else..."
+                          placeholder="Something else..."
                           className="flex-1 max-w-[200px] border border-slate-200 rounded-full py-2.5 px-4 text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all"
                         />
                         {customNeed.trim() && (
@@ -435,7 +446,8 @@ const WhatDoINeedActivity = () => {
                         {selectedNeeds.map((need) => (
                           <NeedChip
                             key={need}
-                            label={`${NEED_EMOJI_MAP[need] || "✨"} ${need}`}
+                            label={need}
+                            icon={NEED_ICON_MAP[need] || Sparkles}
                             selected={primaryNeed === need}
                             onToggle={() => selectPrimary(need)}
                           />
@@ -450,12 +462,12 @@ const WhatDoINeedActivity = () => {
                         ✦ Your focus right now
                       </p>
                       <motion.div
-                        className="w-full p-8 rounded-3xl bg-white border-2 border-primary/10 shadow-sm"
+                        className="w-full p-8 rounded-3xl bg-white border-2 border-primary/10 shadow-sm flex flex-col items-center"
                         initial={{ scale: 0.9, opacity: 0 }}
                         animate={{ scale: 1, opacity: 1 }}
                         transition={{ duration: 0.5, ease: "easeOut" }}
                       >
-                        <span className="text-3xl mb-3 block">{primaryEmoji}</span>
+                        <PrimaryIcon size={48} className="text-primary mb-4" />
                         <p className="text-lg font-semibold text-foreground">{primaryNeed}</p>
                       </motion.div>
                       <MicroAcknowledgement message="🌱 Let's explore this a bit more." show />
@@ -488,7 +500,7 @@ const WhatDoINeedActivity = () => {
                       <textarea
                         value={reflection}
                         onChange={(e) => setReflection(e.target.value)}
-                        placeholder={hints[placeholderIdx] + " 🌸"}
+                        placeholder={hints[placeholderIdx]}
                         rows={6}
                         className="w-full p-5 border border-slate-200 rounded-2xl text-base leading-relaxed focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all resize-none"
                       />
@@ -512,7 +524,8 @@ const WhatDoINeedActivity = () => {
                         {ACTION_CHIPS.map((action) => (
                           <NeedChip
                             key={action.label}
-                            label={`${action.emoji} ${action.label}`}
+                            label={action.label}
+                            icon={action.icon}
                             selected={selectedAction === action.label}
                             onToggle={() => setSelectedAction(action.label === selectedAction ? "" : action.label)}
                           />
@@ -524,7 +537,7 @@ const WhatDoINeedActivity = () => {
                           setCustomAction(e.target.value);
                           if (e.target.value) setSelectedAction("");
                         }}
-                        placeholder="✏️ Or write your own..."
+                        placeholder="Or write your own..."
                         className="w-full p-4 border border-slate-200 rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all"
                       />
                       {(selectedAction || customAction.trim()) && (
@@ -546,8 +559,8 @@ const WhatDoINeedActivity = () => {
                         transition={{ duration: 0.5 }}
                       >
                         <p className="text-sm text-muted-foreground">Right now, you need:</p>
-                        <div className="flex items-center justify-center gap-2">
-                          <span className="text-2xl">{primaryEmoji}</span>
+                        <div className="flex flex-col items-center justify-center gap-2">
+                          <PrimaryIcon size={32} className="text-primary" />
                           <p className="text-lg font-semibold text-foreground">{primaryNeed}</p>
                         </div>
                       </motion.div>
