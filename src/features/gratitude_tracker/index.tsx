@@ -13,7 +13,7 @@ import AuthGuard from "./components/AuthGuard";
 import MoodSelection from "./pages/MoodSelection";
 import GratitudeEntry from "./pages/GratitudeEntry";
 import ReviewEntry from "./pages/ReviewEntry";
-import History from "./pages/History";
+import GratitudeHistory from "./pages/History";
 import NotFound from "./pages/NotFound";
 import Token from "./pages/Token";
 
@@ -29,7 +29,7 @@ const App = () => {
             <Route path="" element={<AuthGuard><GratitudeEntry /></AuthGuard>} />
             <Route path="mood" element={<AuthGuard><MoodSelection /></AuthGuard>} />
             <Route path="review" element={<AuthGuard><ReviewEntry /></AuthGuard>} />
-            <Route path="history" element={<AuthGuard><History /></AuthGuard>} />
+            <Route path="history" element={<AuthGuard><GratitudeHistory /></AuthGuard>} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </TooltipProvider>

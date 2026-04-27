@@ -21,7 +21,7 @@ import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 const WEEKDAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
-const History = () => {
+const GratitudeHistory = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const [currentMonth, setCurrentMonth] = useState(new Date());
@@ -250,4 +250,4 @@ const History = () => {
   );
 };
 
-export default History;
+export default GratitudeHistory;
