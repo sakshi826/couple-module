@@ -63,6 +63,3 @@ const SleepApp = () => {
 };
 
 export default SleepApp;
-
-
-export default SleepApp;

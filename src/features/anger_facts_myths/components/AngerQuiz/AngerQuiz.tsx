@@ -263,13 +263,3 @@ const AngerQuiz = () => {
 };
 
 export default AngerQuiz;
-> window.history.back()}
-            />
-          )}
-        </AnimatePresence>
-      </div>
-    </div>
-  );
-};
-
-export default AngerQuiz;

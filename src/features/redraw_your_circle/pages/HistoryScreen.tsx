@@ -182,8 +182,3 @@ const HistoryScreen = () => {
 };
 
 export default HistoryScreen;
-
-  );
-};
-
-export default HistoryScreen;

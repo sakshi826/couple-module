@@ -120,6 +120,3 @@ const SleepWindow = ({ onExit }: SleepWindowProps) => {
 };
 
 export default SleepWindow;
-
-
-export default SleepWindow;

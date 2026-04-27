@@ -121,8 +121,3 @@ const ReflectionScreen = ({ names, onReset }: ReflectionScreenProps) => {
 };
 
 export default ReflectionScreen;
-
-  );
-};
-
-export default ReflectionScreen;

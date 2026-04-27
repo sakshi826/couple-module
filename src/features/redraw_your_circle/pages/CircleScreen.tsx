@@ -203,8 +203,3 @@ const CircleScreen = ({ names, onNamesChange }: CircleScreenProps) => {
 };
 
 export default CircleScreen;
-
-  );
-};
-
-export default CircleScreen;
