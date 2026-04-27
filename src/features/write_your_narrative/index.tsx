@@ -1,0 +1,27 @@
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { Route, Routes } from "react-router-dom";
+import { Toaster as Sonner } from "@/features/write_your_narrative/components/ui/sonner";
+import { Toaster } from "@/features/write_your_narrative/components/ui/toaster";
+import { TooltipProvider } from "@/features/write_your_narrative/components/ui/tooltip";
+import WritingNarrative from "./pages/WritingNarrative.tsx";
+import NotFound from "./pages/NotFound.tsx";
+
+const queryClient = new QueryClient();
+
+const App = () => (
+  <QueryClientProvider client={queryClient}>
+    <TooltipProvider>
+      <Toaster />
+      <Sonner />
+      
+        <Routes>
+          <Route path="/" element={<WritingNarrative />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      
+    </TooltipProvider>
+  </QueryClientProvider>
+);
+
+export default App;
+

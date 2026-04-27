@@ -1,0 +1,213 @@
+/* ===== Psychoeducation Activity Styles ===== */
+
+@keyframes pe-float-heart {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(-320px) scale(0.4);
+    opacity: 0;
+  }
+}
+
+@keyframes pe-exit-left {
+  from { transform: translateX(0); opacity: 1; }
+  to { transform: translateX(-100%); opacity: 0; }
+}
+
+@keyframes pe-enter-right {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes pe-exit-right {
+  from { transform: translateX(0); opacity: 1; }
+  to { transform: translateX(100%); opacity: 0; }
+}
+
+@keyframes pe-enter-left {
+  from { transform: translateX(-100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+/* Wrapper */
+.pe-wrapper {
+  min-height: 100vh;
+  background: #F5F0EB;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  box-sizing: border-box;
+}
+
+.pe-container {
+  width: 100%;
+  max-width: 390px;
+  position: relative;
+  padding-top: 44px;
+}
+
+/* Back button */
+.pe-back-button {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background: none;
+  border: none;
+  color: #B4B2A9;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 10;
+  padding: 8px 12px;
+  line-height: 1;
+}
+
+/* Viewport & slide */
+.pe-viewport {
+  overflow: hidden;
+  border-radius: 28px;
+}
+
+.pe-slide {
+  will-change: transform, opacity;
+}
+
+.pe-slide.pe-slide-exit-left {
+  animation: pe-exit-left 600ms ease-in-out forwards;
+}
+.pe-slide.pe-slide-enter-right {
+  animation: pe-enter-right 600ms ease-in-out forwards;
+}
+.pe-slide.pe-slide-exit-right {
+  animation: pe-exit-right 600ms ease-in-out forwards;
+}
+.pe-slide.pe-slide-enter-left {
+  animation: pe-enter-left 600ms ease-in-out forwards;
+}
+
+/* Card */
+.pe-card {
+  background: #FFFAF7;
+  border: 0.5px solid #EBE3DA;
+  border-radius: 28px;
+  padding: 36px 24px 32px;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* Decorative blobs */
+.pe-blob {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Floating hearts */
+.pe-floating-heart {
+  position: absolute;
+  bottom: 60px;
+  z-index: 0;
+  animation: pe-float-heart linear infinite;
+  pointer-events: none;
+}
+
+/* Content */
+.pe-card-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Badge */
+.pe-badge {
+  display: inline-block;
+  padding: 5px 14px;
+  border-radius: 100px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  margin-bottom: 20px;
+}
+
+/* Typography */
+.pe-subheading {
+  font-size: 13px;
+  color: #888780;
+  margin: 0 0 8px 0;
+}
+
+.pe-heading {
+  font-size: 21px;
+  font-weight: 600;
+  color: #2C2C2A;
+  line-height: 1.4;
+  margin: 0 0 18px 0;
+}
+
+.pe-body-text {
+  font-size: 14px;
+  color: #5F5E5A;
+  line-height: 1.75;
+  margin: 0 0 20px 0;
+}
+
+/* Highlight box */
+.pe-highlight-box {
+  border-left: 3px solid;
+  border-radius: 14px;
+  padding: 16px;
+  font-size: 13px;
+  font-style: italic;
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* Footer */
+.pe-card-footer {
+  position: relative;
+  z-index: 1;
+  margin-top: 28px;
+}
+
+/* Pagination */
+.pe-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+.pe-dot {
+  height: 5px;
+  width: 5px;
+  border-radius: 3px;
+  display: inline-block;
+  transition: width 300ms ease;
+}
+
+.pe-dot.pe-dot-active {
+  width: 20px;
+}
+
+/* Button */
+.pe-nav-button {
+  width: 100%;
+  border: none;
+  border-radius: 16px;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+  transition: opacity 200ms;
+  box-sizing: border-box;
+}
+
+.pe-nav-button:hover {
+  opacity: 0.9;
+}

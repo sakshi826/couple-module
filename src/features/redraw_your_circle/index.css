@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 30 25% 96%;
+    --foreground: 20 10% 16%;
+
+    --card: 30 30% 97%;
+    --card-foreground: 20 10% 16%;
+
+    --popover: 30 30% 97%;
+    --popover-foreground: 20 10% 16%;
+
+    --primary: 258 52% 58%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 30 28% 91%;
+    --secondary-foreground: 20 10% 16%;
+
+    --muted: 30 20% 88%;
+    --muted-foreground: 20 8% 46%;
+
+    --accent: 258 52% 58%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 56%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 30 18% 86%;
+    --input: 30 18% 86%;
+    --ring: 258 52% 58%;
+
+    --radius: 1rem;
+
+    --sidebar-background: 30 25% 96%;
+    --sidebar-foreground: 20 10% 16%;
+    --sidebar-primary: 258 52% 58%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 30 28% 91%;
+    --sidebar-accent-foreground: 20 10% 16%;
+    --sidebar-border: 30 18% 86%;
+    --sidebar-ring: 258 52% 58%;
+
+    --bubble-1: 258 45% 72%;
+    --bubble-2: 198 50% 68%;
+    --bubble-3: 340 45% 72%;
+    --bubble-4: 160 40% 65%;
+    --bubble-5: 32 55% 70%;
+
+    --gradient-warm: linear-gradient(135deg, hsl(258 52% 58%), hsl(340 45% 65%));
+    --gradient-soft: linear-gradient(135deg, hsl(258 45% 72% / 0.3), hsl(198 50% 68% / 0.3));
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap');
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

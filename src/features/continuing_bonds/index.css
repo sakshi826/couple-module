@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Nunito:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 50% 97%;
+    --foreground: 330 20% 27%;
+
+    --card: 30 40% 93%;
+    --card-foreground: 330 20% 27%;
+
+    --popover: 24 100% 95%;
+    --popover-foreground: 330 20% 27%;
+
+    --primary: 345 38% 75%;
+    --primary-foreground: 330 20% 20%;
+
+    --secondary: 290 30% 78%;
+    --secondary-foreground: 330 20% 20%;
+
+    --muted: 15 60% 90%;
+    --muted-foreground: 330 15% 45%;
+
+    --accent: 268 30% 64%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 345 30% 85%;
+    --input: 345 30% 88%;
+    --ring: 345 38% 75%;
+
+    --radius: 1rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Nunito', sans-serif;
+
+    --transition-gentle: 600ms cubic-bezier(0.4, 0, 0.2, 1);
+    --shadow-soft: 0 4px 20px -4px hsl(345 38% 75% / 0.2);
+    --shadow-card: 0 8px 30px -8px hsl(345 38% 75% / 0.15);
+  }
+
+  .dark {
+    --background: 330 20% 10%;
+    --foreground: 24 100% 95%;
+    --card: 330 20% 14%;
+    --card-foreground: 24 100% 95%;
+    --popover: 330 20% 10%;
+    --popover-foreground: 24 100% 95%;
+    --primary: 345 38% 75%;
+    --primary-foreground: 330 20% 10%;
+    --secondary: 290 30% 40%;
+    --secondary-foreground: 24 100% 95%;
+    --muted: 330 15% 20%;
+    --muted-foreground: 345 20% 70%;
+    --accent: 268 30% 50%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 330 15% 25%;
+    --input: 330 15% 25%;
+    --ring: 345 38% 75%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 600ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 600ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+
+  .animate-breathe {
+    animation: breathe 6s ease-in-out infinite;
+  }
+
+  .animate-float {
+    animation: float 4s ease-in-out infinite;
+  }
+
+  .animate-pulse-soft {
+    animation: pulseSoft 3s ease-in-out infinite;
+  }
+
+  .screen-transition {
+    animation: screenEnter 600ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes breathe {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.02); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes pulseSoft {
+  0%, 100% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.1); opacity: 1; }
+}
+
+@keyframes screenEnter {
+  from { opacity: 0; transform: translateY(12px) scale(0.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}

@@ -1,0 +1,188 @@
+import { useState, useCallback, useEffect } from "react";
+import WelcomeScreen from "./screens/WelcomeScreen";
+import ExplainScreen from "./screens/ExplainScreen";
+import CheckInScreen from "./screens/CheckInScreen";
+import ZoneScreen from "./screens/ZoneScreen";
+import ToolkitScreen from "./screens/ToolkitScreen";
+import HistoryModal from "./HistoryModal";
+import { PremiumLayout } from "@/components/shared/PremiumLayout";
+import { Activity, History, Save } from "lucide-react";
+import { neon } from "@neondatabase/serverless";
+import { toast } from "sonner";
+import { motion, AnimatePresence } from "framer-motion";
+
+const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
+
+export type ZoneType = "hyper" | "safe" | "hypo" | null;
+
+export interface CheckInEntry {
+  zone: ZoneType;
+  timestamp: Date;
+}
+
+export default function WindowApp() {
+  const [screen, setScreen] = useState(0);
+  const [selectedZone, setSelectedZone] = useState<ZoneType>(null);
+  const [showHistory, setShowHistory] = useState(false);
+  const [journal, setJournal] = useState("");
+  const [history, setHistory] = useState<CheckInEntry[]>([]);
+  const [weekTracker, setWeekTracker] = useState<(ZoneType)[]>([null, null, null, null, null, null, null]);
+  const [isSaving, setIsSaving] = useState(false);
+
+  useEffect(() => {
+    fetchHistory();
+  }, []);
+
+  const fetchHistory = async () => {
+    const userId = sessionStorage.getItem("user_id");
+    if (!userId || !DATABASE_URL) return;
+    try {
+      const sql = neon(DATABASE_URL);
+      const rows = await sql`SELECT check_in_data FROM window_of_tolerance_entries WHERE user_id = ${userId} ORDER BY created_at DESC`;
+      const fetchedHistory = rows.map(r => ({
+        ...r.check_in_data,
+        timestamp: new Date(r.check_in_data.timestamp)
+      } as CheckInEntry));
+      setHistory(fetchedHistory);
+      
+      // Update week tracker based on recent history
+      const newWeek = [null, null, null, null, null, null, null] as (ZoneType)[];
+      fetchedHistory.forEach(entry => {
+        const day = new Date(entry.timestamp).getDay();
+        const adjustedDay = day === 0 ? 6 : day - 1;
+        if (newWeek[adjustedDay] === null) newWeek[adjustedDay] = entry.zone;
+      });
+      setWeekTracker(newWeek);
+    } catch (error) {
+      console.error("Failed to fetch history:", error);
+    }
+  };
+
+  const navigate = useCallback((s: number) => {
+    setScreen(s);
+  }, []);
+
+  const handleCheckIn = useCallback((zone: ZoneType) => {
+    setSelectedZone(zone);
+  }, []);
+
+  const goToZoneScreen = useCallback(async () => {
+    if (!selectedZone) return;
+    setScreen(3);
+  }, [selectedZone]);
+
+  const handleSave = useCallback(async () => {
+    const userId = sessionStorage.getItem("user_id");
+    if (!userId || !DATABASE_URL) {
+      toast.error("Auth session missing or DB not configured");
+      return;
+    }
+
+    setIsSaving(true);
+    const entry: CheckInEntry = { zone: selectedZone, timestamp: new Date() };
+    const checkInData = { ...entry, journal };
+
+    try {
+      const sql = neon(DATABASE_URL);
+      await sql`INSERT INTO window_of_tolerance_entries (user_id, check_in_data) VALUES (${userId}, ${checkInData})`;
+      toast.success("Check-in preserved");
+      setHistory(prev => [entry, ...prev]);
+      setJournal("");
+      setSelectedZone(null);
+      setScreen(0);
+    } catch (error) {
+      console.error("Failed to save check-in:", error);
+      toast.error("Failed to preserve check-in");
+    } finally {
+      setIsSaving(false);
+    }
+  }, [selectedZone, journal]);
+
+  const titles = ["Check-in", "Explaining", "Monitoring", "The Zone", "Toolkit"];
+
+  return (
+    <PremiumLayout
+      title="Window of Tolerance"
+      subtitle={titles[screen]}
+      icon={<Activity className="w-6 h-6 text-primary" />}
+      onBack={screen > 0 ? () => setScreen(prev => prev - 1) : undefined}
+      actions={screen === 0 ? (
+        <button onClick={() => setShowHistory(true)} className="p-2 rounded-full hover:bg-slate-100 transition-colors text-slate-600">
+          <History size={20} />
+        </button>
+      ) : undefined}
+    >
+      <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4 min-h-[70vh]">
+        <div className="flex justify-center gap-2 mb-8">
+          {[0, 1, 2, 3, 4].map((i) => (
+            <div
+              key={i}
+              className={`h-2 rounded-full transition-all duration-300 ${i === screen ? "w-8 bg-primary" : "w-2 bg-slate-200"}`}
+            />
+          ))}
+        </div>
+
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={screen}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            className="flex-1 flex flex-col"
+          >
+            {screen === 0 && (
+              <WelcomeScreen
+                onBegin={() => navigate(1)}
+                onHistory={() => setShowHistory(true)}
+                onBack={() => window.history.back()}
+              />
+            )}
+            {screen === 1 && (
+              <ExplainScreen onBack={() => navigate(0)} onNext={() => navigate(2)} />
+            )}
+            {screen === 2 && (
+              <CheckInScreen
+                selected={selectedZone}
+                onSelect={handleCheckIn}
+                onBack={() => navigate(1)}
+                onNext={goToZoneScreen}
+              />
+            )}
+            {screen === 3 && (
+              <ZoneScreen
+                zone={selectedZone!}
+                onContinue={() => navigate(4)}
+                onBack={() => navigate(2)}
+              />
+            )}
+            {screen === 4 && (
+              <div className="flex-1 flex flex-col gap-6">
+                <ToolkitScreen
+                  journal={journal}
+                  onJournalChange={setJournal}
+                  weekTracker={weekTracker}
+                  onSave={handleSave}
+                  onBack={() => navigate(3)}
+                />
+                <button
+                  onClick={handleSave}
+                  disabled={isSaving}
+                  className="w-full bg-primary text-white py-5 rounded-[2rem] font-black text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] transition-all flex items-center justify-center gap-3"
+                >
+                  <Save size={20} />
+                  {isSaving ? "Preserving..." : "Preserve Reflection"}
+                </button>
+              </div>
+            )}
+          </motion.div>
+        </AnimatePresence>
+      </div>
+
+      {showHistory && (
+        <HistoryModal entries={history} onClose={() => setShowHistory(false)} />
+      )}
+    </PremiumLayout>
+  );
+}
+
+

@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 210 100% 97%;
+    --foreground: 209 80% 27%;
+
+    --card: 0 0% 100% / 0.7;
+    --card-foreground: 209 80% 27%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 209 80% 27%;
+
+    --primary: 209 75% 37%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 100% 92%;
+    --secondary-foreground: 209 75% 37%;
+
+    --muted: 210 100% 92%;
+    --muted-foreground: 209 68% 72%;
+
+    --accent: 210 100% 92%;
+    --accent-foreground: 209 75% 37%;
+
+    --destructive: 1 72% 58%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 209 60% 83%;
+    --input: 209 60% 83%;
+    --ring: 209 75% 37%;
+
+    --radius: 0.75rem;
+
+    --sleep-heading: 209 80% 27%;
+    --sleep-body: 209 72% 54%;
+    --sleep-muted: 209 68% 72%;
+    --sleep-pill-bg: 210 100% 92%;
+    --sleep-pill-text: 209 75% 37%;
+    --sleep-card-border: 209 60% 83%;
+    --sleep-green: 159 69% 37%;
+    --sleep-amber: 33 85% 55%;
+    --sleep-red: 1 72% 58%;
+    --sleep-frame: 210 60% 88%;
+    --sleep-progress-track: 210 100% 92%;
+    --sleep-progress-fill: 209 72% 54%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  /* Hide scrollbar for webkit */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}

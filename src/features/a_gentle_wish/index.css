@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+@layer base {
+  :root {
+    --background: 55 60% 96%;
+    --foreground: 270 25% 22%;
+
+    --card: 55 50% 91%;
+    --card-foreground: 270 25% 22%;
+
+    --popover: 55 60% 96%;
+    --popover-foreground: 270 25% 22%;
+
+    --primary: 265 40% 65%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 48 65% 72%;
+    --secondary-foreground: 270 25% 22%;
+
+    --muted: 55 35% 90%;
+    --muted-foreground: 270 15% 42%;
+
+    --accent: 275 35% 58%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 265 25% 82%;
+    --input: 265 25% 82%;
+    --ring: 265 40% 65%;
+
+    --radius: 1rem;
+
+    --sidebar-background: 55 60% 96%;
+    --sidebar-foreground: 270 25% 22%;
+    --sidebar-primary: 265 40% 65%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 48 65% 72%;
+    --sidebar-accent-foreground: 270 25% 22%;
+    --sidebar-border: 265 25% 82%;
+    --sidebar-ring: 265 40% 65%;
+
+    --grief-gradient: linear-gradient(135deg, hsl(265, 40%, 65%), hsl(48, 65%, 72%));
+    --grief-gradient-subtle: linear-gradient(180deg, hsl(55, 60%, 96%), hsl(55, 50%, 91%));
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

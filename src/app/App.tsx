@@ -61,6 +61,22 @@ function App() {
               await sql`CREATE TABLE IF NOT EXISTS gratitude_diary_entries (id SERIAL PRIMARY KEY, user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, date TEXT NOT NULL, feeling TEXT, gratitudes JSONB NOT NULL, created_at TIMESTAMP DEFAULT NOW())`;
               await sql`CREATE TABLE IF NOT EXISTS gratitude_tracker_entries (id UUID PRIMARY KEY, user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, date DATE NOT NULL, gratitude1 TEXT NOT NULL, gratitude2 TEXT, mood_emoji TEXT, mood_label TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
 
+              // New Activities Tables
+              await sql`CREATE TABLE IF NOT EXISTS unsent_letters (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, content TEXT NOT NULL, recipient TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
+              await sql`CREATE TABLE IF NOT EXISTS what_do_i_need_entries (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, needs JSONB NOT NULL, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
+              await sql`CREATE TABLE IF NOT EXISTS redraw_your_circle_entries (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, circles JSONB NOT NULL, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
+              await sql`CREATE TABLE IF NOT EXISTS sleep_audit_logs (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, date DATE NOT NULL, quality INTEGER, duration DECIMAL, factors TEXT[], created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
+              await sql`CREATE TABLE IF NOT EXISTS sleep_window_planner_entries (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, bedtime TIME, wake_time TIME, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
+              await sql`CREATE TABLE IF NOT EXISTS repair_reconnect_entries (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, step TEXT, reflection TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
+              await sql`CREATE TABLE IF NOT EXISTS memory_box_entries (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, content TEXT, image_url TEXT, date DATE, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
+              await sql`CREATE TABLE IF NOT EXISTS continuing_bonds_entries (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, content TEXT, category TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
+              await sql`CREATE TABLE IF NOT EXISTS gentle_wishes (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, wish TEXT NOT NULL, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
+              await sql`CREATE TABLE IF NOT EXISTS window_of_tolerance_logs (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, state TEXT, factors TEXT[], created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
+              await sql`CREATE TABLE IF NOT EXISTS narrative_entries (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, title TEXT, content TEXT NOT NULL, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
+              await sql`CREATE TABLE IF NOT EXISTS food_emotion_logs (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, food TEXT, emotion TEXT, situation TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
+              await sql`CREATE TABLE IF NOT EXISTS food_rules_challenges (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, rule TEXT, challenge TEXT, outcome TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
+              await sql`CREATE TABLE IF NOT EXISTS compassion_break_entries (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, suffering TEXT, common_humanity TEXT, self_kindness TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
+
               await sql`INSERT INTO users (id) VALUES (${user_id.toString()}) ON CONFLICT (id) DO NOTHING`;
             } catch (dbErr) {
               console.warn("DB Initialization skipped:", (dbErr as Error).message);

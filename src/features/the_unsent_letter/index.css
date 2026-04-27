@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300;1,9..40,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 350 30% 97%;
+    --foreground: 350 10% 18%;
+
+    --card: 350 25% 93%;
+    --card-foreground: 350 10% 18%;
+
+    --popover: 350 30% 97%;
+    --popover-foreground: 350 10% 18%;
+
+    --primary: 340 45% 65%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 20 40% 80%;
+    --secondary-foreground: 350 10% 18%;
+
+    --muted: 350 18% 91%;
+    --muted-foreground: 350 8% 48%;
+
+    --accent: 340 45% 65%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 60% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 350 15% 89%;
+    --input: 350 20% 93%;
+    --ring: 340 45% 65%;
+
+    --radius: 1rem;
+
+    --sidebar-background: 350 30% 97%;
+    --sidebar-foreground: 350 10% 18%;
+    --sidebar-primary: 340 45% 65%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 350 25% 93%;
+    --sidebar-accent-foreground: 350 10% 18%;
+    --sidebar-border: 350 15% 89%;
+    --sidebar-ring: 340 45% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'DM Sans', sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-micro {
+    @apply text-xs font-light text-muted-foreground;
+  }
+}

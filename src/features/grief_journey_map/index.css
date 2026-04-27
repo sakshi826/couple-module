@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 214 25% 95%;
+    --foreground: 210 25% 14%;
+
+    --card: 30 24% 96%;
+    --card-foreground: 210 25% 14%;
+
+    --popover: 30 24% 96%;
+    --popover-foreground: 210 25% 14%;
+
+    --primary: 211 47% 44%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 214 25% 90%;
+    --secondary-foreground: 210 25% 14%;
+
+    --muted: 214 20% 85%;
+    --muted-foreground: 210 16% 42%;
+
+    --accent: 150 38% 29%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 16 65% 46%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 30 18% 80%;
+    --input: 30 18% 80%;
+    --ring: 211 47% 44%;
+
+    --radius: 0.75rem;
+
+    /* Custom grief app tokens */
+    --grief-page: 214 25% 95%;
+    --grief-card: 30 24% 96%;
+    --grief-border: 30 18% 80%;
+    --grief-blue: 211 47% 44%;
+    --grief-blue-fg: 0 0% 100%;
+    --grief-green: 150 38% 29%;
+    --grief-green-fg: 0 0% 100%;
+    --grief-terra: 16 65% 46%;
+    --grief-text: 210 25% 14%;
+    --grief-text-muted: 210 16% 42%;
+    --grief-text-hint: 210 14% 60%;
+    --grief-highlight-bg: 211 47% 90%;
+    --grief-highlight-text: 211 50% 21%;
+    --grief-healing-bg: 145 30% 90%;
+    --grief-healing-text: 150 38% 29%;
+    --grief-dot-inactive: 211 35% 80%;
+    --grief-graph-bg: 214 30% 95%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .grief-slide-enter {
+    transition: transform 400ms ease-in-out;
+  }
+}

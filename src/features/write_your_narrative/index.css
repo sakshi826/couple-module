@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 36 20% 91%;
+    --foreground: 210 10% 25%;
+
+    --card: 40 27% 97%;
+    --card-foreground: 210 10% 25%;
+
+    --popover: 40 27% 97%;
+    --popover-foreground: 210 10% 25%;
+
+    --primary: 170 18% 58%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 160 18% 75%;
+    --secondary-foreground: 210 10% 25%;
+
+    --muted: 35 15% 92%;
+    --muted-foreground: 210 7% 52%;
+
+    --accent: 18 55% 80%;
+    --accent-foreground: 210 10% 25%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 33 16% 87%;
+    --input: 35 20% 95%;
+    --ring: 170 18% 58%;
+
+    --radius: 1.25rem;
+
+    --shadow-soft: 0 2px 16px 0 hsla(210, 10%, 25%, 0.04);
+    --font-heading: 'DM Serif Display', serif;
+    --font-body: 'Inter', sans-serif;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  25% { background-position: 100% 50%; }
+  50% { background-position: 100% 0%; }
+  75% { background-position: 0% 100%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient-shift {
+  background: linear-gradient(
+    135deg,
+    hsl(36 20% 91%),
+    hsl(33 16% 89%),
+    hsl(160 18% 90%),
+    hsl(18 30% 91%),
+    hsl(36 20% 91%)
+  );
+  animation: gradient-shift 20s ease-in-out infinite;
+}

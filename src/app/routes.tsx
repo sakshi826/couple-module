@@ -32,6 +32,34 @@ const StressTips = React.lazy(() => import("../features/stress_tips"));
 const VibeTracker = React.lazy(() => import("../features/vibe_tracker"));
 const WhatAreYourHabits = React.lazy(() => import("../features/what_are_your_habits"));
 
+// New Activities
+const MissingSomeone = React.lazy(() => import("../features/missing_someone"));
+const TheUnsentLetter = React.lazy(() => import("../features/the_unsent_letter"));
+const WhatDoINeed = React.lazy(() => import("../features/what_do_i_need"));
+const RedrawYourCircle = React.lazy(() => import("../features/redraw_your_circle"));
+const RelationshipPatternsUnpacked = React.lazy(() => import("../features/relationship_patterns_unpacked"));
+const SleepAudit = React.lazy(() => import("../features/sleep_audit"));
+const SleepGuide = React.lazy(() => import("../features/sleep_guide"));
+const SleepCycleGuide = React.lazy(() => import("../features/sleep_cycle_guide"));
+const SleepWindowPlanner = React.lazy(() => import("../features/sleep_window_planner"));
+const AngerFactsMyths = React.lazy(() => import("../features/anger_facts_myths"));
+const ThePausePractice = React.lazy(() => import("../features/the_pause_practice"));
+const TheAngerShameCycle = React.lazy(() => import("../features/the_anger_shame_cycle"));
+const RepairAndReconnect = React.lazy(() => import("../features/repair_and_reconnect"));
+const GriefJourneyMap = React.lazy(() => import("../features/grief_journey_map"));
+const MemoryBox = React.lazy(() => import("../features/memory_box"));
+const ContinuingBonds = React.lazy(() => import("../features/continuing_bonds"));
+const AGentleWish = React.lazy(() => import("../features/a_gentle_wish"));
+const WhyBrainGetsStuck = React.lazy(() => import("../features/why_brain_gets_stuck"));
+const WindowOfTolerance = React.lazy(() => import("../features/window_of_tolerance"));
+const SafeSpace = React.lazy(() => import("../features/safe_space"));
+const WriteYourNarrative = React.lazy(() => import("../features/write_your_narrative"));
+const FoodEmotionMap = React.lazy(() => import("../features/food_emotion_map"));
+const ChallengingFoodRules = React.lazy(() => import("../features/challenging_food_rules"));
+const UnderstandingControl = React.lazy(() => import("../features/understanding_control"));
+const CompassionBreak = React.lazy(() => import("../features/compassion_break"));
+
+
 function ProtectedLayout() {
   return (
     <AuthGuard>
@@ -84,7 +112,34 @@ export const router = createBrowserRouter([
           { path: "tools/self-care-bingo/*", element: withLoading(<SelfCareBingo />) },
           { path: "tips/stress-tips/*", element: withLoading(<StressTips />) },
           { path: "trackers/vibe-tracker/*", element: withLoading(<VibeTracker />) },
-          { path: "tools/what-are-your-habits/*", element: withLoading(<WhatAreYourHabits />) }
+          { path: "tools/what-are-your-habits/*", element: withLoading(<WhatAreYourHabits />) },
+          
+          { path: "tools/missing-someone/*", element: withLoading(<MissingSomeone />) },
+          { path: "tools/the-unsent-letter/*", element: withLoading(<TheUnsentLetter />) },
+          { path: "tools/what-do-i-need/*", element: withLoading(<WhatDoINeed />) },
+          { path: "tools/redraw-your-circle/*", element: withLoading(<RedrawYourCircle />) },
+          { path: "tools/relationship-patterns-unpacked/*", element: withLoading(<RelationshipPatternsUnpacked />) },
+          { path: "trackers/sleep-audit/*", element: withLoading(<SleepAudit />) },
+          { path: "tips/sleep-guide/*", element: withLoading(<SleepGuide />) },
+          { path: "tips/sleep-cycle-guide/*", element: withLoading(<SleepCycleGuide />) },
+          { path: "tools/sleep-window-planner/*", element: withLoading(<SleepWindowPlanner />) },
+          { path: "tips/anger-facts-myths/*", element: withLoading(<AngerFactsMyths />) },
+          { path: "exercises/the-pause-practice/*", element: withLoading(<ThePausePractice />) },
+          { path: "tips/the-anger-shame-cycle/*", element: withLoading(<TheAngerShameCycle />) },
+          { path: "tools/repair-and-reconnect/*", element: withLoading(<RepairAndReconnect />) },
+          { path: "tools/grief-journey-map/*", element: withLoading(<GriefJourneyMap />) },
+          { path: "tools/memory-box/*", element: withLoading(<MemoryBox />) },
+          { path: "tools/continuing-bonds/*", element: withLoading(<ContinuingBonds />) },
+          { path: "tools/a-gentle-wish/*", element: withLoading(<AGentleWish />) },
+          { path: "tips/why-brain-gets-stuck/*", element: withLoading(<WhyBrainGetsStuck />) },
+          { path: "exercises/window-of-tolerance/*", element: withLoading(<WindowOfTolerance />) },
+          { path: "exercises/safe-space/*", element: withLoading(<SafeSpace />) },
+          { path: "tools/write-your-narrative/*", element: withLoading(<WriteYourNarrative />) },
+          { path: "tools/food-emotion-map/*", element: withLoading(<FoodEmotionMap />) },
+          { path: "tools/challenging-food-rules/*", element: withLoading(<ChallengingFoodRules />) },
+          { path: "tools/understanding-control/*", element: withLoading(<UnderstandingControl />) },
+          { path: "exercises/compassion-break/*", element: withLoading(<CompassionBreak />) }
+
         ]
       },
       { path: "*", element: <Navigate to="/" replace /> },

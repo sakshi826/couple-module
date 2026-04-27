@@ -1,0 +1,209 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 60% 96%;
+    --foreground: 220 40% 20%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 40% 20%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 40% 20%;
+    --primary: 220 78% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 260 60% 57%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 220 30% 90%;
+    --muted-foreground: 220 20% 46%;
+    --accent: 280 60% 70%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 70% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 214 31% 91%;
+    --input: 214 31% 91%;
+    --ring: 220 78% 60%;
+    --radius: 0.5rem;
+
+    /* Sleep app tokens */
+    --sleep-blue: 220 78% 60%;
+    --sleep-purple: 260 60% 57%;
+    --sleep-bg-start: #ddeeff;
+    --sleep-bg-mid: #eee8ff;
+    --sleep-bg-end: #fde8ff;
+    --sleep-card-bg: rgba(255, 255, 255, 0.55);
+    --sleep-card-border: rgba(180, 200, 240, 0.5);
+    --sleep-insight-bg: rgba(255, 255, 255, 0.65);
+    --sleep-tip-bg: rgba(255, 255, 255, 0.75);
+    --sleep-star: #7090d0;
+    --sleep-text-dark: #1a2a4a;
+    --sleep-text-mid: #3a5070;
+    --sleep-text-muted: #8a9cbc;
+    --sleep-text-label: #4a6098;
+    --sleep-green: #28c878;
+    --sleep-red: #e05050;
+    --sleep-takeaway-start: rgba(220, 235, 255, 0.8);
+    --sleep-takeaway-end: rgba(230, 220, 255, 0.8);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+}
+
+/* Hide scrollbars but allow scrolling */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Sleep app gradient background */
+.sleep-bg {
+  background: linear-gradient(180deg, var(--sleep-bg-start) 0%, var(--sleep-bg-mid) 50%, var(--sleep-bg-end) 100%);
+  min-height: 100dvh;
+  position: fixed;
+  inset: 0;
+}
+
+/* Floating star sparkle */
+@keyframes sparkle {
+  0%, 100% { opacity: 0.08; transform: scale(1); }
+  50% { opacity: 0.55; transform: scale(1.6); }
+}
+
+.star-dot {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--sleep-star);
+  animation: sparkle 3s ease-in-out infinite;
+}
+
+/* Sleep card */
+.sleep-card {
+  background: var(--sleep-card-bg);
+  border: 1px solid var(--sleep-card-border);
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+}
+
+/* Frosted insight card */
+.insight-card {
+  background: var(--sleep-insight-bg);
+  border-left: 3px solid #4a7ee8;
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+}
+
+/* Tip card */
+.tip-card {
+  background: var(--sleep-tip-bg);
+  border-left: 3px solid #4a7ee8;
+  border-radius: 14px;
+}
+
+/* CTA button */
+.sleep-cta {
+  width: 100%;
+  background: linear-gradient(135deg, #4a7ee8, #7050d0);
+  border-radius: 18px;
+  padding: 14px;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.2s;
+}
+.sleep-cta:active {
+  opacity: 0.9;
+  transform: scale(0.98);
+}
+
+/* Progress dot */
+.progress-dot {
+  height: 6px;
+  border-radius: 3px;
+  transition: width 0.4s ease, background-color 0.4s ease;
+}
+
+/* Pill label */
+.pill-label {
+  background: rgba(74, 126, 232, 0.1);
+  color: #4a7ee8;
+  border-radius: 20px;
+  padding: 4px 14px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Slide transitions */
+@keyframes slide-left-in {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+@keyframes slide-left-out {
+  from { transform: translateX(0); opacity: 1; }
+  to { transform: translateX(-100%); opacity: 0; }
+}
+@keyframes slide-right-in {
+  from { transform: translateX(-100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+@keyframes slide-right-out {
+  from { transform: translateX(0); opacity: 1; }
+  to { transform: translateX(100%); opacity: 0; }
+}
+
+.slide-forward-enter {
+  animation: slide-left-in 500ms ease-in-out forwards;
+}
+.slide-forward-exit {
+  animation: slide-left-out 500ms ease-in-out forwards;
+}
+.slide-back-enter {
+  animation: slide-right-in 500ms ease-in-out forwards;
+}
+.slide-back-exit {
+  animation: slide-right-out 500ms ease-in-out forwards;
+}
+
+/* Tip fade in */
+@keyframes fade-slide-up {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.tip-animate {
+  animation: fade-slide-up 300ms ease forwards;
+}
+
+/* Takeaway card */
+.takeaway-card {
+  background: linear-gradient(135deg, var(--sleep-takeaway-start), var(--sleep-takeaway-end));
+  border: 1px solid rgba(140, 160, 240, 0.3);
+  border-radius: 16px;
+}
+
+/* Disruptor card */
+.disruptor-card {
+  background: var(--sleep-insight-bg);
+  border: 1px solid rgba(180, 200, 240, 0.4);
+  border-radius: 12px;
+}
+
+/* Option card */
+.option-card {
+  background: var(--sleep-card-bg);
+  border: 1px solid var(--sleep-card-border);
+  border-radius: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.option-card.selected {
+  background: rgba(74, 126, 232, 0.1);
+  border-color: #4a7ee8;
+}

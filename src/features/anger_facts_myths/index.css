@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 36 33% 97%;
+    --foreground: 192 22% 22%;
+    --card: 0 0% 100%;
+    --card-foreground: 192 22% 22%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 192 22% 22%;
+    --primary: 150 20% 51%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 36 33% 93%;
+    --secondary-foreground: 192 22% 22%;
+    --muted: 195 10% 40%;
+    --muted-foreground: 195 10% 40%;
+    --accent: 36 33% 93%;
+    --accent-foreground: 192 22% 22%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --myth: 0 50% 66%;
+    --myth-foreground: 0 0% 100%;
+    --fact: 120 73% 75%;
+    --fact-foreground: 192 22% 22%;
+    --success: 142 76% 36%;
+    --warning: 25 95% 53%;
+    --border: 27 25% 87%;
+    --input: 27 25% 87%;
+    --ring: 150 20% 51%;
+    --radius: 1.125rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Nunito', 'Segoe UI', system-ui, sans-serif;
+  }
+}
+
+@keyframes confetti-fall {
+  0% { transform: translateY(-10px) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+}
+
+@keyframes count-up {
+  0% { transform: scale(0.5); opacity: 0; }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.animate-count-up {
+  animation: count-up 0.6s ease-out forwards;
+}
