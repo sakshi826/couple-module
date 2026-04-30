@@ -16,6 +16,7 @@ const Confirmation = ({ onDone, onHistory }: Props) => {
         title={t("vibeLogged")}
         message={t("thankYou")}
         onRestart={onDone}
+        onHome={onDone}
         icon={<Heart size={48} fill="currentColor" className="text-primary" />}
     >
         <div className="flex flex-col gap-4 mt-8">
@@ -34,4 +35,3 @@ const Confirmation = ({ onDone, onHistory }: Props) => {
 };
 
 export default Confirmation;
-

@@ -1,3 +1,5 @@
+import { Sparkles, Heart, ChevronRight, CheckCircle2 } from "lucide-react";
+
 interface Props {
   reflection: string;
   setReflection: (v: string) => void;
@@ -7,57 +9,58 @@ interface Props {
 
 const ScreenLanding = ({ reflection, setReflection, onSave, onFinish }: Props) => {
   return (
-    <div className="text-center space-y-7">
-      <h1 className="font-heading text-2xl text-foreground">
-        You did something important 🌿
-      </h1>
+    <div className="flex-1 flex flex-col gap-8" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
+      <div className="text-center space-y-4">
+        <div className="w-20 h-20 bg-emerald-50 rounded-[2rem] flex items-center justify-center mx-auto mb-6 text-4xl shadow-inner">
+          🌿
+        </div>
+        <h1 className="text-3xl font-black text-slate-800 leading-tight">
+          You did something important.
+        </h1>
+        <p className="text-slate-500 font-medium text-base italic">Thank you for showing up for yourself.</p>
+      </div>
 
-      <div className="space-y-5 text-muted-foreground text-[15px] leading-[1.7]">
-        <p>Thank you for showing up for yourself.</p>
-        <div className="text-left bg-card rounded-[20px] px-5 py-4 border border-border shadow-[var(--shadow-soft)]">
-          <p className="text-foreground text-[14px] mb-3">
-            Let's take a moment to settle:
-          </p>
-          <ul className="space-y-2 text-muted-foreground text-[14px]">
-            <li>• Look around and name 3 things you can see</li>
-            <li>• Take a slow breath in… and out</li>
-          </ul>
+      <div className="bg-white border border-slate-100 rounded-[2.5rem] p-8 shadow-2xl shadow-slate-200/50 space-y-6">
+        <div className="flex items-center gap-4 text-slate-800 font-black text-lg">
+          <CheckCircle2 className="text-emerald-500" size={24} />
+          Let's take a moment to settle
+        </div>
+        
+        <div className="space-y-4">
+          <div className="flex items-start gap-4 p-4 rounded-2xl bg-slate-50 border border-slate-100">
+            <div className="w-8 h-8 rounded-xl bg-white flex items-center justify-center font-black text-slate-400 text-xs shadow-sm">1</div>
+            <p className="text-slate-600 text-sm font-medium leading-relaxed pt-1">
+              Look around and name 3 things you can see.
+            </p>
+          </div>
+          <div className="flex items-start gap-4 p-4 rounded-2xl bg-slate-50 border border-slate-100">
+            <div className="w-8 h-8 rounded-xl bg-white flex items-center justify-center font-black text-slate-400 text-xs shadow-sm">2</div>
+            <p className="text-slate-600 text-sm font-medium leading-relaxed pt-1">
+              Take a slow breath in… and out.
+            </p>
+          </div>
         </div>
       </div>
 
-      <div className="space-y-2">
-        <label className="text-foreground text-[14px] font-medium">
+      <div className="space-y-3">
+        <label className="text-slate-400 text-[10px] font-black uppercase tracking-[0.2em] pl-4">
           Right now, I feel:
         </label>
         <input
           type="text"
           value={reflection}
           onChange={(e) => setReflection(e.target.value)}
-          placeholder="..."
-          className="w-full bg-input rounded-[20px] px-5 py-3.5 text-foreground text-[15px] text-center placeholder:text-muted-foreground/50 border border-border focus:outline-none focus:ring-2 focus:ring-primary/30 transition-shadow font-body"
+          placeholder="A word or two..."
+          className="w-full bg-white border border-slate-100 rounded-3xl px-8 py-5 text-slate-800 text-lg font-black placeholder:text-slate-200 focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all shadow-xl shadow-slate-200/50 text-center"
         />
       </div>
 
-      <p className="text-muted-foreground text-[14px] leading-[1.7]">
-        You don't have to carry everything at once. You can come back whenever you feel ready.
+      <p className="text-center text-slate-400 text-[13px] leading-relaxed font-medium italic">
+        "You don't have to carry everything at once. You can come back whenever you feel ready."
       </p>
-
-      <div className="space-y-3">
-        <button
-          onClick={onSave}
-          className="w-full py-4 rounded-[20px] bg-primary text-primary-foreground font-body font-medium text-base shadow-[var(--shadow-soft)] hover:opacity-90 transition-opacity"
-        >
-          Save this
-        </button>
-        <button
-          onClick={onFinish}
-          className="w-full py-4 rounded-[20px] bg-card text-foreground font-body font-medium text-base border border-border hover:bg-secondary/30 transition-colors"
-        >
-          Finish
-        </button>
-      </div>
     </div>
   );
 };
 
 export default ScreenLanding;
+

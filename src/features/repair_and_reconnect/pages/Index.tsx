@@ -5,8 +5,8 @@ import IntroScreen from "@/features/repair_and_reconnect/components/repair/Intro
 import ChoosePersonScreen from "@/features/repair_and_reconnect/components/repair/ChoosePersonScreen";
 import ChooseApproachScreen from "@/features/repair_and_reconnect/components/repair/ChooseApproachScreen";
 import GuidedActionScreen from "@/features/repair_and_reconnect/components/repair/GuidedActionScreen";
-import CompletionScreen from "@/features/repair_and_reconnect/components/repair/CompletionScreen";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
+import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import { neon } from "@neondatabase/serverless";
 import { toast } from "sonner";
 
@@ -20,10 +20,11 @@ const Index = () => {
 
   const next = () => setStep((s) => s + 1);
   const reset = () => {
-    setStep(1);
+    setStep(0);
     setPerson("");
     setApproach("");
   };
+
   const done = async () => {
     const userId = sessionStorage.getItem("user_id");
     if (!userId || !DATABASE_URL) {
@@ -34,24 +35,32 @@ const Index = () => {
     }
 
     setIsSaving(true);
-    const repairData = { person, approach };
+    const repairData = { person, approach, completedAt: new Date().toISOString() };
 
     try {
       const sql = neon(DATABASE_URL);
       await sql`INSERT INTO repair_and_reconnect_entries (user_id, repair_data) VALUES (${userId}, ${repairData})`;
-      toast.success("Repair progress saved");
+      toast.success("Repair progress preserved");
+      setStep(4); // Go to complete
     } catch (error) {
       console.error("Failed to save repair entry:", error);
-      toast.error("Failed to save repair entry");
+      toast.error("Failed to preserve reflection");
     } finally {
       setIsSaving(false);
-      setStep(0);
-      setPerson("");
-      setApproach("");
     }
   };
 
-  const titles = ["Welcome", "Choose Person", "Choose Approach", "Guided Action", "Completion"];
+  if (step === 4) {
+    return (
+      <PremiumComplete
+        title="Connection Mended"
+        message={`You've taken a brave step toward repairing your connection with ${person || "someone important"}. Small, intentional actions build lasting bridges.`}
+        onRestart={reset}
+      />
+    );
+  }
+
+  const titles = ["Welcome", "Choose Person", "Choose Approach", "Guided Action", "Complete"];
 
   return (
     <PremiumLayout
@@ -60,12 +69,12 @@ const Index = () => {
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={step > 0 ? () => setStep(prev => prev - 1) : undefined}
     >
-      <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4">
-        <div className="flex justify-center gap-2 mb-8">
-          {[0, 1, 2, 3, 4].map((i) => (
+      <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4 min-h-[60vh]">
+        <div className="flex justify-center gap-2 mb-10">
+          {[0, 1, 2, 3].map((i) => (
             <div
               key={i}
-              className={`h-2 rounded-full transition-all duration-300 ${i === step ? "w-8 bg-primary" : "w-2 bg-slate-200"}`}
+              className={`h-1.5 rounded-full transition-all duration-500 ${i <= step ? "w-8 bg-primary" : "w-2 bg-slate-100"}`}
             />
           ))}
         </div>
@@ -76,7 +85,7 @@ const Index = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            transition={{ duration: 0.35, ease: "easeOut" }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
             className="flex-1 flex flex-col"
           >
             {step === 0 && <IntroScreen onStart={next} onBack={() => window.history.back()} />}
@@ -96,18 +105,15 @@ const Index = () => {
               />
             )}
             {step === 3 && (
-              <GuidedActionScreen approach={approach} person={person} onComplete={next} />
-            )}
-            {step === 4 && (
-              <div className="space-y-6">
-                <CompletionScreen onTryAnother={reset} onDone={done} />
+              <div className="flex-1 flex flex-col gap-8">
+                <GuidedActionScreen approach={approach} person={person} onComplete={done} />
                 <button
                   onClick={done}
                   disabled={isSaving}
-                  className="w-full bg-primary text-white py-5 rounded-[2rem] font-black text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] transition-all flex items-center justify-center gap-3"
+                  className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                 >
-                  <Save size={20} />
-                  {isSaving ? "Saving..." : "Save Progress"}
+                  <Save size={20} strokeWidth={3} />
+                  {isSaving ? "Preserving..." : "Complete & Save"}
                 </button>
               </div>
             )}

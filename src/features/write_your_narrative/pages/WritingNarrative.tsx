@@ -4,14 +4,15 @@ import ScreenWriting from "@/features/write_your_narrative/components/narrative/
 import ScreenLanding from "@/features/write_your_narrative/components/narrative/ScreenLanding";
 import ScreenPastEntries from "@/features/write_your_narrative/components/narrative/ScreenPastEntries";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
-import { BookOpen, History, Save } from "lucide-react";
+import { PremiumComplete } from "@/components/shared/PremiumComplete";
+import { BookOpen, History, Save, Sparkles } from "lucide-react";
 import { neon } from "@neondatabase/serverless";
 import { toast } from "sonner";
 import { motion, AnimatePresence } from "framer-motion";
 
 const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
 
-type Screen = "entry" | "writing" | "landing" | "history";
+type Screen = "entry" | "writing" | "landing" | "history" | "complete";
 
 interface SavedEntry {
   writing: string;
@@ -69,7 +70,7 @@ const WritingNarrative = () => {
       setEntries(prev => [entry, ...prev]);
       setWriting("");
       setReflection("");
-      goTo("history");
+      goTo("complete");
     } catch (error) {
       console.error("Failed to save narrative:", error);
       toast.error("Failed to preserve narrative");
@@ -78,7 +79,17 @@ const WritingNarrative = () => {
     }
   }, [writing, reflection, goTo]);
 
-  const titles: Record<Screen, string> = {
+  if (screen === "complete") {
+    return (
+      <PremiumComplete
+        title="Narrative Preserved"
+        message="You've taken a powerful step in telling your story. Your perspective matters, and your journey is uniquely yours."
+        onRestart={() => setScreen("entry")}
+      />
+    );
+  }
+
+  const titles: Record<string, string> = {
     entry: "Welcome",
     writing: "Expressing",
     landing: "Reflecting",
@@ -97,13 +108,14 @@ const WritingNarrative = () => {
         </button>
       ) : undefined}
     >
-      <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4 min-h-[70vh]">
+      <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4 min-h-[70vh]" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
         <AnimatePresence mode="wait">
           <motion.div
             key={screen}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
             className="flex-1 flex flex-col"
           >
             {screen === "entry" && (
@@ -121,7 +133,7 @@ const WritingNarrative = () => {
               />
             )}
             {screen === "landing" && (
-              <div className="flex-1 flex flex-col gap-6">
+              <div className="flex-1 flex flex-col gap-8 py-8">
                 <ScreenLanding
                   reflection={reflection}
                   setReflection={setReflection}
@@ -131,9 +143,9 @@ const WritingNarrative = () => {
                 <button
                   onClick={saveEntry}
                   disabled={isSaving}
-                  className="w-full bg-primary text-white py-5 rounded-[2rem] font-black text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] transition-all flex items-center justify-center gap-3"
+                  className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                 >
-                  <Save size={20} />
+                  <Save size={20} strokeWidth={3} />
                   {isSaving ? "Preserving..." : "Preserve Narrative"}
                 </button>
               </div>
@@ -150,5 +162,8 @@ const WritingNarrative = () => {
     </PremiumLayout>
   );
 };
+
+export default WritingNarrative;
+
 
 export default WritingNarrative;

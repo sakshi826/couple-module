@@ -22,23 +22,23 @@ export const PremiumIntro: React.FC<PremiumIntroProps> = ({
   children
 }) => {
   return (
-    <div className="flex flex-col items-center py-8 pb-28 min-h-[80vh]">
-      <div className="w-full max-w-lg space-y-8">
+    <div className="flex flex-col items-center py-12 pb-32 min-h-[80vh] selection:bg-primary/20" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
+      <div className="w-full max-w-lg space-y-12">
         {/* Hero Icon */}
         <motion.div
-          initial={{ scale: 0.8, opacity: 0, y: -10 }}
+          initial={{ scale: 0.8, opacity: 0, y: -20 }}
           animate={{ scale: 1, opacity: 1, y: 0 }}
-          transition={{ delay: 0.05, type: 'spring', stiffness: 200, damping: 18 }}
+          transition={{ delay: 0.05, type: 'spring', stiffness: 200, damping: 20 }}
           className="flex justify-center"
         >
-          <div className="relative">
-            <div className="w-24 h-24 bg-primary/10 rounded-3xl flex items-center justify-center text-primary shadow-lg shadow-primary/10 border-2 border-primary/20">
+          <div className="relative group">
+            <div className="w-24 h-24 bg-white rounded-[2rem] flex items-center justify-center text-primary shadow-2xl shadow-primary/10 border border-slate-100 transition-transform duration-500 group-hover:scale-110">
               {icon || <ArrowRight size={36} />}
             </div>
             <motion.div
-              animate={{ scale: [1, 1.15, 1], opacity: [0.2, 0.4, 0.2] }}
-              transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
-              className="absolute inset-0 rounded-3xl bg-primary/20 -z-10"
+              animate={{ scale: [1, 1.2, 1], opacity: [0.1, 0.2, 0.1] }}
+              transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
+              className="absolute inset-0 rounded-[2rem] bg-primary -z-10 blur-xl"
             />
           </div>
         </motion.div>
@@ -48,10 +48,10 @@ export const PremiumIntro: React.FC<PremiumIntroProps> = ({
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.15 }}
-          className="text-center space-y-3"
+          className="text-center space-y-4"
         >
-          <h1 className="text-4xl font-extrabold text-slate-900 leading-tight">{title}</h1>
-          <p className="text-base text-slate-500 font-medium leading-relaxed max-w-md mx-auto">{description}</p>
+          <h1 className="text-4xl font-black text-slate-900 leading-[1.1] tracking-tight">{title}</h1>
+          <p className="text-lg text-slate-500 font-medium leading-relaxed max-w-md mx-auto">{description}</p>
         </motion.div>
 
         {/* Benefits */}
@@ -68,12 +68,12 @@ export const PremiumIntro: React.FC<PremiumIntroProps> = ({
                 initial={{ opacity: 0, x: -10 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 + idx * 0.07 }}
-                className="flex items-center gap-4 p-4 bg-white rounded-2xl border-2 border-slate-100 shadow-sm"
+                className="flex items-center gap-4 p-5 bg-white rounded-2xl border border-slate-100 shadow-sm hover:shadow-md hover:border-primary/10 transition-all duration-300"
               >
                 <div className="w-8 h-8 rounded-xl bg-primary/10 text-primary flex items-center justify-center shrink-0">
-                  <CheckCircle2 size={16} />
+                  <CheckCircle2 size={16} strokeWidth={3} />
                 </div>
-                <span className="text-sm font-semibold text-slate-700">{benefit}</span>
+                <span className="text-sm font-bold text-slate-700">{benefit}</span>
               </motion.div>
             ))}
           </motion.div>
@@ -85,14 +85,14 @@ export const PremiumIntro: React.FC<PremiumIntroProps> = ({
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.45 }}
-            className="flex items-center justify-center gap-2 text-slate-400 text-sm font-bold"
+            className="flex items-center justify-center gap-2.5 text-slate-400 text-xs font-black uppercase tracking-widest"
           >
-            <Clock size={14} className="text-primary/60" />
-            <span>Estimated duration: <span className="text-primary">{duration}</span></span>
+            <Clock size={14} className="text-primary" strokeWidth={2.5} />
+            <span>Time to complete: <span className="text-slate-900">{duration}</span></span>
           </motion.div>
         )}
 
-        {/* Extra content slot (e.g., history link) */}
+        {/* Extra content slot */}
         {children && (
           <motion.div
             initial={{ opacity: 0, y: 10 }}
@@ -105,20 +105,21 @@ export const PremiumIntro: React.FC<PremiumIntroProps> = ({
       </div>
 
       {/* CTA Button — fixed at bottom */}
-      <div className="fixed bottom-0 left-0 right-0 p-6 bg-white/80 backdrop-blur-sm z-20 flex justify-center">
+      <div className="fixed bottom-0 left-0 right-0 p-6 bg-white/60 backdrop-blur-md z-20 flex justify-center border-t border-slate-100/50">
         <motion.button
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.55 }}
-          whileHover={{ scale: 1.01 }}
-          whileTap={{ scale: 0.99 }}
+          whileHover={{ scale: 1.02, y: -2 }}
+          whileTap={{ scale: 0.98 }}
           onClick={onStart}
-          className="w-full max-w-lg py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-lg shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all flex items-center justify-center gap-3"
+          className="w-full max-w-lg py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
         >
           Get Started
-          <ArrowRight size={20} />
+          <ArrowRight size={20} strokeWidth={3} />
         </motion.button>
       </div>
     </div>
   );
 };
+

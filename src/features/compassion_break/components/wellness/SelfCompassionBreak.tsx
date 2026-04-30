@@ -7,7 +7,8 @@ import ScreenKindResponse from "./ScreenKindResponse";
 import ScreenNoticeShift from "./ScreenNoticeShift";
 import ScreenSaveClose from "./ScreenSaveClose";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
-import { Heart, Save, History } from "lucide-react";
+import { PremiumComplete } from "@/components/shared/PremiumComplete";
+import { Heart, Save, Sparkles } from "lucide-react";
 import { neon } from "@neondatabase/serverless";
 import { toast } from "sonner";
 
@@ -39,6 +40,13 @@ const SelfCompassionBreak = () => {
   };
 
   const next = useCallback(() => setScreen((s) => s + 1), []);
+  const reset = useCallback(() => {
+    setScreen(0);
+    setBeforeIntensity(5);
+    setEmotions([]);
+    setKindSentence("");
+    setAfterIntensity(5);
+  }, []);
 
   const handleSave = async () => {
     const userId = sessionStorage.getItem("user_id");
@@ -61,7 +69,7 @@ const SelfCompassionBreak = () => {
       await sql`INSERT INTO compassion_break_entries (user_id, break_data) VALUES (${userId}, ${breakData})`;
       toast.success("Reflection preserved");
       setHistory(prev => [breakData, ...prev]);
-      setScreen(0);
+      setScreen(6); // Go to completion screen
     } catch (error) {
       console.error("Failed to save break:", error);
       toast.error("Failed to preserve reflection");
@@ -70,13 +78,23 @@ const SelfCompassionBreak = () => {
     }
   };
 
-  const titles = ["Check-in", "Identify", "Breathing", "Kindness", "Shift", "Reflect"];
+  const titles = ["Check-in", "Identify", "Breathing", "Kindness", "Shift", "Reflect", "Complete"];
+
+  if (screen === 6) {
+    return (
+      <PremiumComplete
+        title="Break Complete"
+        message="You took a moment to be kind to yourself. That gentle shift in perspective is a powerful step toward resilience."
+        onRestart={reset}
+      />
+    );
+  }
 
   const screens = [
     <ScreenPauseCheckIn
       key="s1"
       onContinue={(val) => { setBeforeIntensity(val); next(); }}
-      onExit={() => window.history.back()}
+      onExit={reset}
     />,
     <ScreenNameIt
       key="s2"
@@ -95,16 +113,8 @@ const SelfCompassionBreak = () => {
       <ScreenSaveClose
         data={{ beforeIntensity, afterIntensity, emotions, kindSentence }}
         onSave={handleSave}
-        onFinish={() => setScreen(0)}
+        onFinish={() => setScreen(6)}
       />
-      <button
-        onClick={handleSave}
-        disabled={isSaving}
-        className="w-full bg-primary text-white py-5 rounded-[2rem] font-black text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] transition-all flex items-center justify-center gap-3"
-      >
-        <Save size={20} />
-        {isSaving ? "Preserving..." : "Preserve Reflection"}
-      </button>
     </div>
   ];
 
@@ -114,8 +124,9 @@ const SelfCompassionBreak = () => {
       subtitle={titles[screen]}
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={screen > 0 ? () => setScreen(prev => prev - 1) : undefined}
+      onReset={screen > 0 ? reset : undefined}
     >
-      <div className="w-full max-w-md mx-auto flex flex-col px-4 py-2 min-h-[60vh]">
+      <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4 min-h-[70vh]" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
         <div className="flex justify-center gap-2 mb-10">
           {Array.from({ length: 6 }).map((_, i) => (
             <div

@@ -62,50 +62,42 @@ const Screen6Review = ({ entry, onEdit, onHistory, onHome }: Screen6Props) => {
       message={t('screens.review.subtitle')}
       onRestart={onHome}
     >
-      <div className="grid gap-3 w-full max-w-md mx-auto mt-8">
+      <div className="grid gap-3 w-full max-w-md mx-auto mt-10">
         {rows.map((r, i) => (
           <motion.div 
             key={r.label} 
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: i * 0.05 }}
-            className="flex items-center justify-between p-4 bg-slate-50 rounded-2xl border border-slate-100"
+            className="flex items-center justify-between p-6 bg-white rounded-[2rem] border-2 border-slate-50 shadow-sm"
           >
-            <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{r.label}</span>
-            <span className="text-sm font-bold text-slate-700">{r.value}</span>
+            <span className="text-[10px] font-black text-slate-300 uppercase tracking-[0.2em]">{r.label}</span>
+            <span className="text-base font-bold text-slate-700">{r.value}</span>
           </motion.div>
         ))}
 
-        <div className="flex flex-col gap-3 mt-4">
-            <motion.button
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                onClick={onEdit}
-                className="w-full py-4 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-600 font-bold shadow-sm flex items-center justify-center gap-2"
-            >
-                <Pencil size={18} />
-                {t('screens.review.editToday')}
-            </motion.button>
-            
-            <motion.button
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                onClick={onHistory}
-                className="w-full py-4 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-600 font-bold shadow-sm flex items-center justify-center gap-2"
-            >
-                <CalendarDays size={18} />
-                {t('screens.review.viewHistory')}
-            </motion.button>
-
-            <motion.button
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                onClick={onHome}
-                className="w-full py-4 rounded-[2rem] bg-slate-50 text-slate-400 font-bold flex items-center justify-center gap-2"
-            >
-                <Home size={18} />
-                {t('common.home')}
-            </motion.button>
+        <div className="flex flex-col gap-3 mt-8">
+            <div className="grid grid-cols-2 gap-3">
+                <motion.button
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.98 }}
+                    onClick={onEdit}
+                    className="py-5 rounded-2xl bg-white border-2 border-slate-100 text-slate-500 font-black text-[10px] uppercase tracking-widest shadow-sm flex items-center justify-center gap-2 hover:text-primary hover:border-primary/20 transition-all"
+                >
+                    <Pencil size={16} />
+                    {t('screens.review.editToday')}
+                </motion.button>
+                
+                <motion.button
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.98 }}
+                    onClick={onHistory}
+                    className="py-5 rounded-2xl bg-white border-2 border-slate-100 text-slate-500 font-black text-[10px] uppercase tracking-widest shadow-sm flex items-center justify-center gap-2 hover:text-primary hover:border-primary/20 transition-all"
+                >
+                    <CalendarDays size={16} />
+                    {t('screens.review.viewHistory')}
+                </motion.button>
+            </div>
         </div>
       </div>
     </PremiumComplete>

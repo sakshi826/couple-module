@@ -4,9 +4,9 @@ import { WelcomeScreen } from "./WelcomeScreen";
 import { ConnectionScreen } from "./ConnectionScreen";
 import { CarryForwardScreen } from "./CarryForwardScreen";
 import { ReflectionScreen } from "./ReflectionScreen";
-import { ClosingScreen } from "./ClosingScreen";
 import { PastEntries } from "./PastEntries";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
+import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import { Sparkles, History, Save } from "lucide-react";
 import { neon } from "@neondatabase/serverless";
 import { toast } from "sonner";
@@ -24,7 +24,7 @@ export interface ReflectionEntry {
 }
 
 const GriefActivity = () => {
-  const [screen, setScreen] = useState<"welcome" | "connection" | "carry" | "reflection" | "closing" | "past">("welcome");
+  const [screen, setScreen] = useState<"welcome" | "connection" | "carry" | "reflection" | "complete" | "past">("welcome");
   const [name, setName] = useState("");
   const [relation, setRelation] = useState("");
   const [wish, setWish] = useState("");
@@ -72,7 +72,7 @@ const GriefActivity = () => {
       await sql`INSERT INTO gentle_wish_entries (user_id, wish_data) VALUES (${userId}, ${JSON.stringify(entry)})`;
       toast.success("Wish preserved");
       setEntries(prev => [entry, ...prev]);
-      setScreen("reflection");
+      setScreen("complete");
     } catch (error) {
       console.error("Failed to save wish:", error);
       toast.error("Failed to preserve wish");
@@ -94,12 +94,25 @@ const GriefActivity = () => {
     setScreen("connection");
   };
 
+  if (screen === "complete") {
+    return (
+      <PremiumComplete
+        title="Gentle Care"
+        message={`There's no single way to carry someone you love. What stays with you, in your own way, is enough.`}
+        onRestart={() => {
+          resetForm();
+          setScreen("welcome");
+        }}
+      />
+    );
+  }
+
   const titles: Record<string, string> = {
     welcome: "Welcome",
     connection: "Honoring",
     carry: "Carry Forward",
     reflection: "Reflecting",
-    closing: "Gentle Care",
+    complete: "Complete",
     past: "History"
   };
 
@@ -156,14 +169,6 @@ const GriefActivity = () => {
                   onSave={saveEntry}
                   onSkip={saveEntry}
                 />
-                <button
-                  onClick={saveEntry}
-                  disabled={isSaving}
-                  className="w-full bg-primary text-white py-5 rounded-[2rem] font-black text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] transition-all flex items-center justify-center gap-3"
-                >
-                  <Save size={20} />
-                  {isSaving ? "Preserving..." : "Preserve Wish"}
-                </button>
               </div>
             )}
             {screen === "reflection" && (
@@ -172,15 +177,7 @@ const GriefActivity = () => {
                 wish={wish}
                 smallStep={smallStep}
                 onAddAnother={addAnother}
-                onFinish={() => setScreen("closing")}
-              />
-            )}
-            {screen === "closing" && (
-              <ClosingScreen
-                onExit={() => {
-                  resetForm();
-                  setScreen("welcome");
-                }}
+                onFinish={() => setScreen("complete")}
               />
             )}
             {screen === "past" && (

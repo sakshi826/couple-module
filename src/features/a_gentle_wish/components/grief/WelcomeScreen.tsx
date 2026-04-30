@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import { Button } from "@/features/a_gentle_wish/components/ui/button";
-import { Heart, BookOpen, ChevronLeft } from "lucide-react";
+import { Heart, BookOpen, ChevronLeft, ChevronRight, History } from "lucide-react";
 
 interface Props {
   onBegin: () => void;
@@ -9,64 +8,58 @@ interface Props {
 }
 
 export const WelcomeScreen = ({ onBegin, onViewPast, hasPastEntries }: Props) => (
-  <div className="flex-1 flex flex-col items-center justify-center text-center gap-8 relative">
-    <button
-      onClick={() => window.history.back()}
-      className="absolute top-6 left-6 text-muted-foreground hover:text-foreground transition-colors"
-      aria-label="Exit activity"
-    >
-      <ChevronLeft size={24} />
-    </button>
-    {hasPastEntries && (
-      <button
-        onClick={onViewPast}
-        className="absolute top-6 right-6 text-muted-foreground hover:text-foreground transition-colors"
-        aria-label="View past entries"
-      >
-        <BookOpen size={22} />
-      </button>
-    )}
-
+  <div className="flex-1 flex flex-col items-center text-center gap-10 py-10" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
     <motion.div
       initial={{ scale: 0.8, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
       transition={{ delay: 0.3, duration: 0.8, ease: "easeOut" }}
+      className="w-24 h-24 bg-rose-50 rounded-[2.5rem] flex items-center justify-center text-5xl shadow-2xl animate-pulse"
     >
-      <Heart className="w-12 h-12 text-primary mx-auto mb-2" strokeWidth={1.5} />
+      🕊️
     </motion.div>
 
-    <div className="space-y-3">
-      <h1 className="font-display text-2xl font-semibold text-foreground leading-snug">
-        One Thing They'd<br />Want for Me 🕊️
+    <div className="space-y-4">
+      <h1 className="text-4xl font-black text-slate-800 leading-tight">
+        One Thing They'd<br />Want for Me
       </h1>
+      <p className="text-slate-500 font-medium text-lg italic">Honoring their gentle wish</p>
     </div>
 
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.6, duration: 0.8 }}
-      className="space-y-4 text-base text-muted-foreground leading-relaxed max-w-xs"
+      className="space-y-6 text-slate-500 font-medium leading-relaxed max-w-xs mx-auto text-base"
     >
-      <p>Sometimes, even when someone is gone,<br />we can still feel what they wished for us.</p>
-      <p className="text-sm italic">
-        Take a slow breath in…<br />
-        …and gently breathe out.
-      </p>
-      <p className="text-sm">Go at your own pace. You can stop anytime.</p>
+      <p>Sometimes, even when someone is gone, we can still feel what they wished for us.</p>
+      
+      <div className="bg-white border border-slate-100 rounded-3xl p-6 shadow-xl shadow-slate-200/50 italic text-slate-400">
+        "Take a slow breath in…<br />
+        …and gently breathe out."
+      </div>
+      
+      <p className="text-sm font-black uppercase tracking-widest text-slate-300">Go at your own pace</p>
     </motion.div>
 
-    <motion.div
-      initial={{ opacity: 0, y: 10 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 1, duration: 0.6 }}
-      className="space-y-3 w-full max-w-xs"
-    >
-      <Button variant="grief" size="lg" className="w-full text-base py-6" onClick={onBegin}>
-        Begin
-      </Button>
-      <Button variant="griefSecondary" size="default" className="w-full" onClick={() => window.history.back()}>
-        Maybe later
-      </Button>
-    </motion.div>
+    <div className="w-full space-y-4">
+      <button
+        onClick={onBegin}
+        className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
+      >
+        Begin Reflection
+        <ChevronRight size={20} strokeWidth={3} />
+      </button>
+      
+      {hasPastEntries && (
+        <button
+          onClick={onViewPast}
+          className="w-full bg-white text-slate-600 py-5 rounded-2xl font-black text-lg border border-slate-200 hover:bg-slate-50 transition-all flex items-center justify-center gap-3 shadow-sm"
+        >
+          <History size={20} strokeWidth={3} />
+          View Past Reflections
+        </button>
+      )}
+    </div>
   </div>
 );
+

@@ -89,7 +89,7 @@ export default function WindowApp() {
       setHistory(prev => [entry, ...prev]);
       setJournal("");
       setSelectedZone(null);
-      setScreen(0);
+      setScreen(5); // Go to complete
     } catch (error) {
       console.error("Failed to save check-in:", error);
       toast.error("Failed to preserve check-in");
@@ -97,6 +97,16 @@ export default function WindowApp() {
       setIsSaving(false);
     }
   }, [selectedZone, journal]);
+
+  if (screen === 5) {
+    return (
+      <PremiumComplete
+        title="Check-in Complete"
+        message="You've successfully mapped your current state. Building awareness is the first step toward finding your balance."
+        onRestart={() => setScreen(0)}
+      />
+    );
+  }
 
   const titles = ["Check-in", "Explaining", "Monitoring", "The Zone", "Toolkit"];
 
@@ -112,12 +122,12 @@ export default function WindowApp() {
         </button>
       ) : undefined}
     >
-      <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4 min-h-[70vh]">
-        <div className="flex justify-center gap-2 mb-8">
+      <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4 min-h-[70vh]" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
+        <div className="flex justify-center gap-2 mb-10">
           {[0, 1, 2, 3, 4].map((i) => (
             <div
               key={i}
-              className={`h-2 rounded-full transition-all duration-300 ${i === screen ? "w-8 bg-primary" : "w-2 bg-slate-200"}`}
+              className={`h-1.5 rounded-full transition-all duration-500 ${i <= screen ? "w-8 bg-primary" : "w-2 bg-slate-100"}`}
             />
           ))}
         </div>
@@ -128,6 +138,7 @@ export default function WindowApp() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
             className="flex-1 flex flex-col"
           >
             {screen === 0 && (
@@ -156,7 +167,7 @@ export default function WindowApp() {
               />
             )}
             {screen === 4 && (
-              <div className="flex-1 flex flex-col gap-6">
+              <div className="flex-1 flex flex-col gap-8">
                 <ToolkitScreen
                   journal={journal}
                   onJournalChange={setJournal}
@@ -167,9 +178,9 @@ export default function WindowApp() {
                 <button
                   onClick={handleSave}
                   disabled={isSaving}
-                  className="w-full bg-primary text-white py-5 rounded-[2rem] font-black text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] transition-all flex items-center justify-center gap-3"
+                  className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                 >
-                  <Save size={20} />
+                  <Save size={20} strokeWidth={3} />
                   {isSaving ? "Preserving..." : "Preserve Reflection"}
                 </button>
               </div>

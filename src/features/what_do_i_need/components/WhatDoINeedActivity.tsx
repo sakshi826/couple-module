@@ -5,6 +5,7 @@ import ProgressDots from "@/features/what_do_i_need/components/ProgressDots";
 import NeedChip from "@/features/what_do_i_need/components/NeedChip";
 import MicroAcknowledgement from "@/features/what_do_i_need/components/MicroAcknowledgement";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
+import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import { neon } from "@neondatabase/serverless";
 import { toast } from "sonner";
 
@@ -22,9 +23,6 @@ const NEEDS = [
 
 const NEED_ICON_MAP: Record<string, any> = {};
 NEEDS.forEach((n) => { NEED_ICON_MAP[n.label] = n.icon; });
-
-const NEED_EMOJI_MAP: Record<string, string> = {};
-NEEDS.forEach((n) => { NEED_EMOJI_MAP[n.label] = n.emoji; });
 
 const PROMPTS: Record<string, string> = {
   "Clear communication": "What would clearer communication look like for you?",
@@ -101,13 +99,13 @@ const ACTION_CHIPS = [
 ];
 
 const pageVariants = {
-  initial: { opacity: 0, x: 40 },
+  initial: { opacity: 0, x: 20 },
   animate: { opacity: 1, x: 0 },
-  exit: { opacity: 0, x: -40 },
+  exit: { opacity: 0, x: -20 },
 };
 
 const fadeUp = {
-  initial: { opacity: 0, y: 16 },
+  initial: { opacity: 0, y: 12 },
   animate: { opacity: 1, y: 0 },
   exit: { opacity: 0, y: -8 },
 };
@@ -117,7 +115,6 @@ const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
 interface SavedReflection {
   date: string;
   primaryNeed: string;
-  emoji: string;
   reflection: string;
   action: string;
 }
@@ -147,7 +144,6 @@ const WhatDoINeedActivity = () => {
       setHistory(results.map(r => ({
         date: new Date(r.created_at).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }),
         primaryNeed: r.needs.primaryNeed,
-        emoji: r.needs.emoji,
         reflection: r.needs.reflection,
         action: r.needs.action,
       })));
@@ -160,7 +156,6 @@ const WhatDoINeedActivity = () => {
     fetchHistory();
   }, [fetchHistory]);
 
-  // Rotating placeholder
   const hints = REFLECTION_HINTS[primaryNeed] || DEFAULT_HINTS;
   useEffect(() => {
     if (step3Phase !== "reflect") return;
@@ -207,7 +202,6 @@ const WhatDoINeedActivity = () => {
 
     const needsData = {
       primaryNeed,
-      emoji: NEED_EMOJI_MAP[primaryNeed] || "🌱",
       reflection,
       action: selectedAction || customAction,
     };
@@ -218,24 +212,14 @@ const WhatDoINeedActivity = () => {
       toast.success("Reflection saved");
       setSaved(true);
       fetchHistory();
+      setScreen(4); // Go to complete
     } catch (error) {
       console.error("Failed to save reflection:", error);
       toast.error("Failed to save reflection");
     }
   };
 
-  const handleFinish = () => {
-    setScreen(1);
-    setSelectedNeeds([]);
-    setCustomNeed("");
-    setStep2Phase("select");
-    setPrimaryNeed("");
-    setReflection("");
-    setSelectedAction("");
-    setCustomAction("");
-    setStep3Phase("reflect");
-    setSaved(false);
-  };
+  const handleFinish = () => setScreen(4);
 
   const handleBack = () => {
     if (screen === 1) return;
@@ -250,6 +234,23 @@ const WhatDoINeedActivity = () => {
     }
   };
 
+  if (screen === 4) {
+    return (
+      <PremiumComplete
+        title="Check-in Complete"
+        message={`You've identified that you need "${primaryNeed}". Honoring your needs is a vital form of self-care.`}
+        onRestart={() => {
+          setScreen(1);
+          setSelectedNeeds([]);
+          setStep2Phase("select");
+          setPrimaryNeed("");
+          setReflection("");
+          setSaved(false);
+        }}
+      />
+    );
+  }
+
   const dynamicPrompt = PROMPTS[primaryNeed] || "What would this look like in a real situation?";
   const PrimaryIcon = NEED_ICON_MAP[primaryNeed] || Sparkles;
 
@@ -260,59 +261,77 @@ const WhatDoINeedActivity = () => {
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={screen === 1 ? undefined : handleBack}
     >
-      <div className="w-full max-w-md mx-auto flex flex-col relative overflow-hidden min-h-[70vh]">
+      <div className="w-full max-w-md mx-auto flex flex-col relative min-h-[70vh]">
+        {/* History Button */}
+        {screen === 1 && (
+          <div className="absolute top-0 right-0 z-20">
+            <button className="w-10 h-10 rounded-xl bg-white border border-slate-200 shadow-sm flex items-center justify-center hover:bg-slate-50 transition-all" title="Past reflections" onClick={() => setShowHistory(true)}>
+              <Clock className="w-5 h-5 text-slate-500" />
+            </button>
+          </div>
+        )}
+
         {/* History Modal */}
         <AnimatePresence>
           {showHistory && (
             <motion.div
-              className="fixed inset-0 z-50 flex items-end justify-center"
+              className="fixed inset-0 z-[60] flex items-end justify-center"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
             >
-              <div className="absolute inset-0 bg-black/20 backdrop-blur-sm" onClick={() => setShowHistory(false)} />
+              <div className="absolute inset-0 bg-slate-900/40 backdrop-blur-sm" onClick={() => setShowHistory(false)} />
               <motion.div
-                className="relative w-full max-w-md rounded-t-3xl p-6 pb-10 max-h-[75vh] overflow-y-auto"
-                style={{ background: "white" }}
+                className="relative w-full max-w-md bg-white rounded-t-[2.5rem] p-8 pb-12 max-h-[85vh] overflow-y-auto shadow-2xl"
                 initial={{ y: "100%" }}
                 animate={{ y: 0 }}
                 exit={{ y: "100%" }}
-                transition={{ type: "spring", damping: 25 }}
+                transition={{ type: "spring", damping: 25, stiffness: 200 }}
               >
-                <div className="flex items-center justify-between mb-5">
-                  <h3 className="text-lg font-semibold text-foreground">📖 Past Reflections</h3>
+                <div className="flex items-center justify-between mb-8">
+                  <h3 className="text-xl font-black text-slate-900">Past Reflections</h3>
                   <button onClick={() => setShowHistory(false)} className="w-10 h-10 rounded-full hover:bg-slate-100 flex items-center justify-center transition-colors">
-                    <X className="w-5 h-5" />
+                    <X className="w-5 h-5 text-slate-400" />
                   </button>
                 </div>
                 {history.length === 0 ? (
-                  <p className="text-sm text-muted-foreground text-center py-8">
-                    No reflections yet. Complete an activity to see your history here.
-                  </p>
+                  <div className="py-20 text-center space-y-4">
+                    <div className="w-16 h-16 bg-slate-50 rounded-full flex items-center justify-center mx-auto text-slate-300">
+                      <BookOpen size={32} />
+                    </div>
+                    <p className="text-slate-400 font-medium">No reflections yet.</p>
+                  </div>
                 ) : (
-                  <div className="space-y-3">
+                  <div className="space-y-4">
                     {history.map((item, i) => {
                       const HistoryIcon = NEED_ICON_MAP[item.primaryNeed] || Sparkles;
                       return (
-                        <div key={i} className="rounded-2xl p-4 bg-slate-50 border border-slate-100">
-                          <div className="flex items-center justify-between mb-1">
-                            <div className="flex items-center gap-2">
-                              <HistoryIcon size={16} className="text-primary" />
-                              <span className="text-sm font-medium text-foreground">
-                                {item.primaryNeed}
-                              </span>
+                        <motion.div 
+                          key={i} 
+                          initial={{ opacity: 0, y: 10 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          transition={{ delay: i * 0.05 }}
+                          className="rounded-2xl p-5 bg-slate-50 border border-slate-100"
+                        >
+                          <div className="flex items-center justify-between mb-3">
+                            <div className="flex items-center gap-2.5">
+                              <div className="w-8 h-8 rounded-lg bg-white shadow-sm flex items-center justify-center text-primary">
+                                <HistoryIcon size={16} />
+                              </div>
+                              <span className="font-bold text-slate-800">{item.primaryNeed}</span>
                             </div>
-                            <span className="text-xs text-muted-foreground">{item.date}</span>
+                            <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{item.date}</span>
                           </div>
                           {item.reflection && (
-                            <p className="text-sm text-muted-foreground mt-1 line-clamp-2">"{item.reflection}"</p>
+                            <p className="text-sm text-slate-600 italic leading-relaxed mb-3">"{item.reflection}"</p>
                           )}
                           {item.action && (
-                            <p className="text-xs mt-2 text-primary font-bold">
-                              → {item.action}
-                            </p>
+                            <div className="flex items-center gap-2 text-xs font-black text-primary uppercase tracking-wider">
+                              <ArrowRight size={12} strokeWidth={3} />
+                              <span>{item.action}</span>
+                            </div>
                           )}
-                        </div>
+                        </motion.div>
                       );
                     })}
                   </div>
@@ -323,15 +342,7 @@ const WhatDoINeedActivity = () => {
         </AnimatePresence>
 
         {/* Content */}
-        <div className="flex-1 flex flex-col px-5 pb-6">
-          {screen === 1 && (
-            <div className="absolute top-4 right-4 z-20">
-              <button className="w-10 h-10 rounded-full bg-white border border-slate-100 shadow-sm flex items-center justify-center hover:bg-slate-50 transition-all" title="Past reflections" onClick={() => setShowHistory(true)}>
-                <Clock className="w-5 h-5 text-slate-500" />
-              </button>
-            </div>
-          )}
-
+        <div className="flex-1 flex flex-col pt-4">
           <AnimatePresence mode="wait">
             {/* ===== SCREEN 1 ===== */}
             {screen === 1 && (
@@ -341,35 +352,32 @@ const WhatDoINeedActivity = () => {
                 initial="initial"
                 animate="animate"
                 exit="exit"
-                transition={{ duration: 0.4, ease: "easeOut" }}
-                className="flex-1 flex flex-col items-center justify-center text-center gap-5 py-10"
+                className="flex-1 flex flex-col items-center justify-center text-center gap-8 py-10"
               >
-                <motion.div {...fadeUp} transition={{ delay: 0.05 }}>
-                  <Sparkles size={48} className="text-primary" />
-                </motion.div>
-
-                <motion.h1
-                  className="text-2xl font-semibold text-foreground leading-tight"
-                  {...fadeUp}
-                  transition={{ delay: 0.12 }}
+                <motion.div 
+                  initial={{ scale: 0.8, opacity: 0 }}
+                  animate={{ scale: 1, opacity: 1 }}
+                  transition={{ type: 'spring', damping: 15 }}
+                  className="w-20 h-20 bg-primary/10 rounded-[2rem] flex items-center justify-center text-primary"
                 >
-                  What Do I Need Right Now?
-                </motion.h1>
+                  <Sparkles size={40} strokeWidth={2.5} />
+                </motion.div>
 
-                <motion.div
-                  className="space-y-3 text-base text-muted-foreground leading-relaxed"
-                  {...fadeUp}
-                  transition={{ delay: 0.25 }}
+                <div className="space-y-4">
+                  <h1 className="text-3xl font-black text-slate-900 leading-tight">What Do I Need <br/>Right Now?</h1>
+                  <p className="text-lg text-slate-500 font-medium leading-relaxed max-w-[280px] mx-auto">
+                    A moment to pause and listen to what your heart is asking for.
+                  </p>
+                </div>
+
+                <motion.button 
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                  onClick={() => setScreen(2)} 
+                  className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:bg-slate-800 transition-all mt-4"
                 >
-                  <p>Sometimes, we focus so much on everything around us that we lose track of what we need.</p>
-                  <p>This is a moment to pause and check in with yourself.</p>
-                </motion.div>
-
-                <motion.div {...fadeUp} transition={{ delay: 0.55 }} className="w-full mt-4">
-                  <button onClick={() => setScreen(2)} className="w-full bg-primary text-white py-4 rounded-2xl font-semibold hover:bg-primary/90 transition-all shadow-lg shadow-primary/20">
-                    Start →
-                  </button>
-                </motion.div>
+                  Start Check-in
+                </motion.button>
               </motion.div>
             )}
 
@@ -381,16 +389,15 @@ const WhatDoINeedActivity = () => {
                 initial="initial"
                 animate="animate"
                 exit="exit"
-                transition={{ duration: 0.4, ease: "easeOut" }}
-                className="flex-1 flex flex-col items-center text-center gap-5 pt-4 w-full"
+                className="flex-1 flex flex-col items-center gap-6 pt-4 w-full"
               >
                 <AnimatePresence mode="wait">
                   {step2Phase === "select" && (
-                    <motion.div key="s2-select" {...fadeUp} transition={{ duration: 0.4 }} className="w-full space-y-5 flex flex-col items-center">
-                      <h2 className="text-xl font-semibold text-foreground text-center w-full">
-                        🌿 What feels important right now?
+                    <motion.div key="s2-select" {...fadeUp} className="w-full space-y-8 flex flex-col items-center">
+                      <h2 className="text-2xl font-black text-slate-900 text-center">
+                        What feels important?
                       </h2>
-                      <div className="flex flex-wrap justify-center gap-2.5 w-full">
+                      <div className="flex flex-wrap justify-center gap-3 w-full">
                         {NEEDS.map((need) => (
                           <NeedChip
                             key={need.label}
@@ -412,37 +419,39 @@ const WhatDoINeedActivity = () => {
                             />
                           ))}
                       </div>
-                      <div className="flex items-center gap-2 justify-center w-full">
+                      <div className="flex items-center gap-3 w-full max-w-[280px]">
                         <input
                           value={customNeed}
                           onChange={(e) => setCustomNeed(e.target.value)}
                           onKeyDown={(e) => e.key === "Enter" && addCustomNeed()}
                           placeholder="Something else..."
-                          className="flex-1 max-w-[200px] border border-slate-200 rounded-full py-2.5 px-4 text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all"
+                          className="flex-1 bg-white border border-slate-200 rounded-xl py-3 px-4 text-sm font-bold focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all shadow-sm"
                         />
                         {customNeed.trim() && (
-                          <button onClick={addCustomNeed} className="text-sm font-medium text-primary">
-                            + Add
+                          <button onClick={addCustomNeed} className="text-sm font-black text-primary uppercase tracking-widest">
+                            Add
                           </button>
                         )}
                       </div>
-                      <MicroAcknowledgement message="✨ That makes sense." show={selectedNeeds.length > 0} />
                       {selectedNeeds.length > 0 && (
-                        <motion.div {...fadeUp} transition={{ delay: 0.2 }} className="w-full mt-4">
-                          <button onClick={goToPrioritize} className="w-full bg-primary text-white py-4 rounded-2xl font-semibold hover:bg-primary/90 transition-all">
-                            Continue →
-                          </button>
-                        </motion.div>
+                        <motion.button 
+                          initial={{ opacity: 0, y: 10 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          onClick={goToPrioritize} 
+                          className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:bg-slate-800 transition-all"
+                        >
+                          Continue
+                        </motion.button>
                       )}
                     </motion.div>
                   )}
 
                   {step2Phase === "prioritize" && (
-                    <motion.div key="s2-prioritize" {...fadeUp} transition={{ duration: 0.4 }} className="w-full space-y-5 flex flex-col items-center">
-                      <h2 className="text-xl font-semibold text-foreground">
-                        🎯 Which one feels most important?
+                    <motion.div key="s2-prioritize" {...fadeUp} className="w-full space-y-8 flex flex-col items-center">
+                      <h2 className="text-2xl font-black text-slate-900">
+                        Which one is primary?
                       </h2>
-                      <div className="flex flex-wrap justify-center gap-2.5 w-full">
+                      <div className="flex flex-wrap justify-center gap-3 w-full">
                         {selectedNeeds.map((need) => (
                           <NeedChip
                             key={need}
@@ -457,22 +466,22 @@ const WhatDoINeedActivity = () => {
                   )}
 
                   {step2Phase === "focus" && (
-                    <motion.div key="s2-focus" {...fadeUp} transition={{ duration: 0.5 }} className="w-full flex flex-col items-center gap-6 pt-8">
-                      <p className="text-sm text-muted-foreground uppercase tracking-wider font-medium">
-                        ✦ Your focus right now
-                      </p>
-                      <motion.div
-                        className="w-full p-8 rounded-3xl bg-white border-2 border-primary/10 shadow-sm flex flex-col items-center"
-                        initial={{ scale: 0.9, opacity: 0 }}
-                        animate={{ scale: 1, opacity: 1 }}
-                        transition={{ duration: 0.5, ease: "easeOut" }}
-                      >
-                        <PrimaryIcon size={48} className="text-primary mb-4" />
-                        <p className="text-lg font-semibold text-foreground">{primaryNeed}</p>
-                      </motion.div>
-                      <MicroAcknowledgement message="🌱 Let's explore this a bit more." show />
-                      <button onClick={goToScreen3} className="w-full bg-primary text-white py-4 rounded-2xl font-semibold hover:bg-primary/90 transition-all mt-4">
-                        Continue →
+                    <motion.div key="s2-focus" {...fadeUp} className="w-full flex flex-col items-center gap-8 pt-8">
+                      <div className="space-y-2 text-center">
+                        <p className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em]">Your focus right now</p>
+                        <motion.div
+                          className="w-full p-10 rounded-[3rem] bg-white border border-slate-100 shadow-2xl shadow-primary/5 flex flex-col items-center gap-4"
+                          initial={{ scale: 0.9, opacity: 0 }}
+                          animate={{ scale: 1, opacity: 1 }}
+                        >
+                          <div className="w-20 h-20 bg-primary/10 rounded-3xl flex items-center justify-center text-primary">
+                            <PrimaryIcon size={40} strokeWidth={2.5} />
+                          </div>
+                          <p className="text-2xl font-black text-slate-900">{primaryNeed}</p>
+                        </motion.div>
+                      </div>
+                      <button onClick={goToScreen3} className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:bg-slate-800 transition-all">
+                        Continue
                       </button>
                     </motion.div>
                   )}
@@ -488,13 +497,12 @@ const WhatDoINeedActivity = () => {
                 initial="initial"
                 animate="animate"
                 exit="exit"
-                transition={{ duration: 0.4, ease: "easeOut" }}
-                className="flex-1 flex flex-col items-center text-center gap-5 pt-4"
+                className="flex-1 flex flex-col items-center gap-6 pt-4"
               >
                 <AnimatePresence mode="wait">
                   {step3Phase === "reflect" && (
-                    <motion.div key="s3-reflect" {...fadeUp} transition={{ duration: 0.4 }} className="w-full space-y-5 flex flex-col items-center">
-                      <h2 className="text-xl font-semibold text-foreground">
+                    <motion.div key="s3-reflect" {...fadeUp} className="w-full space-y-6 flex flex-col items-center">
+                      <h2 className="text-2xl font-black text-slate-900 text-center leading-tight">
                         {dynamicPrompt}
                       </h2>
                       <textarea
@@ -502,25 +510,27 @@ const WhatDoINeedActivity = () => {
                         onChange={(e) => setReflection(e.target.value)}
                         placeholder={hints[placeholderIdx]}
                         rows={6}
-                        className="w-full p-5 border border-slate-200 rounded-2xl text-base leading-relaxed focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all resize-none"
+                        className="w-full p-6 bg-white border border-slate-200 rounded-3xl text-lg font-medium leading-relaxed focus:outline-none focus:ring-4 focus:ring-primary/10 transition-all resize-none shadow-sm"
                       />
-                      <MicroAcknowledgement message="💫 That's a meaningful insight." show={reflection.length > 10} />
-                      {reflection.trim() && (
-                        <motion.div {...fadeUp} transition={{ delay: 0.15 }} className="w-full">
-                          <button onClick={goToAction} className="w-full bg-primary text-white py-4 rounded-2xl font-semibold hover:bg-primary/90 transition-all">
-                            Continue →
-                          </button>
-                        </motion.div>
+                      {reflection.trim().length > 5 && (
+                        <motion.button 
+                          initial={{ opacity: 0, y: 10 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          onClick={goToAction} 
+                          className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:bg-slate-800 transition-all"
+                        >
+                          Continue
+                        </motion.button>
                       )}
                     </motion.div>
                   )}
 
                   {step3Phase === "action" && (
-                    <motion.div key="s3-action" {...fadeUp} transition={{ duration: 0.4 }} className="w-full space-y-5 flex flex-col items-center">
-                      <h2 className="text-xl font-semibold text-foreground">
-                        🌟 What's one small thing that might help?
+                    <motion.div key="s3-action" {...fadeUp} className="w-full space-y-8 flex flex-col items-center">
+                      <h2 className="text-2xl font-black text-slate-900 text-center">
+                        A small step forward?
                       </h2>
-                      <div className="flex flex-wrap justify-center gap-2.5">
+                      <div className="flex flex-wrap justify-center gap-3">
                         {ACTION_CHIPS.map((action) => (
                           <NeedChip
                             key={action.label}
@@ -538,51 +548,49 @@ const WhatDoINeedActivity = () => {
                           if (e.target.value) setSelectedAction("");
                         }}
                         placeholder="Or write your own..."
-                        className="w-full p-4 border border-slate-200 rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all"
+                        className="w-full p-5 bg-white border border-slate-200 rounded-2xl text-base font-bold focus:outline-none focus:ring-4 focus:ring-primary/10 transition-all shadow-sm"
                       />
                       {(selectedAction || customAction.trim()) && (
-                        <motion.div {...fadeUp} transition={{ delay: 0.15 }} className="w-full">
-                          <button onClick={goToClosing} className="w-full bg-primary text-white py-4 rounded-2xl font-semibold hover:bg-primary/90 transition-all">
-                            Continue →
-                          </button>
-                        </motion.div>
+                        <button onClick={goToClosing} className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:bg-slate-800 transition-all">
+                          Review Reflection
+                        </button>
                       )}
                     </motion.div>
                   )}
 
                   {step3Phase === "closing" && (
-                    <motion.div key="s3-closing" {...fadeUp} transition={{ duration: 0.5 }} className="w-full flex flex-col items-center gap-6 pt-4">
-                      <motion.div
-                        className="w-full p-6 rounded-3xl bg-slate-50 border border-slate-100 space-y-3"
-                        initial={{ scale: 0.95, opacity: 0 }}
-                        animate={{ scale: 1, opacity: 1 }}
-                        transition={{ duration: 0.5 }}
-                      >
-                        <p className="text-sm text-muted-foreground">Right now, you need:</p>
-                        <div className="flex flex-col items-center justify-center gap-2">
-                          <PrimaryIcon size={32} className="text-primary" />
-                          <p className="text-lg font-semibold text-foreground">{primaryNeed}</p>
+                    <motion.div key="s3-closing" {...fadeUp} className="w-full flex flex-col items-center gap-8 pt-4">
+                      <div className="w-full p-8 rounded-[2.5rem] bg-white border border-slate-100 shadow-2xl shadow-primary/5 space-y-6">
+                        <div className="space-y-1">
+                          <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">Primary Need</p>
+                          <div className="flex items-center gap-3">
+                            <PrimaryIcon size={20} className="text-primary" />
+                            <p className="text-xl font-black text-slate-900">{primaryNeed}</p>
+                          </div>
                         </div>
-                      </motion.div>
-                      <motion.div
-                        className="space-y-3 text-center"
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        transition={{ delay: 0.4 }}
-                      >
-                        <p className="text-base text-muted-foreground leading-relaxed">
-                          🌿 Even noticing this is a meaningful step.
-                        </p>
-                      </motion.div>
-                      <div className="w-full space-y-3 mt-4">
+                        
+                        <div className="space-y-1">
+                          <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">Your Insight</p>
+                          <p className="text-base text-slate-600 font-medium italic leading-relaxed">"{reflection}"</p>
+                        </div>
+
+                        {(selectedAction || customAction) && (
+                          <div className="space-y-1">
+                            <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">Small Action</p>
+                            <p className="text-base font-bold text-slate-800">{selectedAction || customAction}</p>
+                          </div>
+                        )}
+                      </div>
+                      
+                      <div className="w-full space-y-4">
                         <button
                           onClick={handleSave}
-                          className={`w-full py-4 rounded-2xl font-semibold transition-all ${saved ? "bg-slate-100 text-slate-500 cursor-default" : "bg-primary text-white hover:bg-primary/90 shadow-lg shadow-primary/20"}`}
+                          className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-xl shadow-slate-900/20 hover:bg-slate-800 transition-all"
                         >
-                          {saved ? "✅ Saved" : "💾 Save Reflection"}
+                          Save & Finish
                         </button>
-                        <button onClick={handleFinish} className="w-full py-4 rounded-2xl font-semibold text-slate-600 hover:bg-slate-50 transition-all border border-slate-200">
-                          🏠 Finish
+                        <button onClick={handleFinish} className="w-full py-5 rounded-2xl font-bold text-slate-500 hover:text-slate-900 transition-all">
+                          Finish without saving
                         </button>
                       </div>
                     </motion.div>
@@ -598,4 +606,3 @@ const WhatDoINeedActivity = () => {
 };
 
 export default WhatDoINeedActivity;
-

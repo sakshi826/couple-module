@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
-import { Moon, Clock, Save, History, Check } from "lucide-react";
+import { Moon, Clock, Save, History, Check, X } from "lucide-react";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
+import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import { neon } from "@neondatabase/serverless";
 import { toast } from "sonner";
 import StarsCanvas from "./StarsCanvas";
@@ -79,10 +80,7 @@ const SleepAudit = () => {
       await sql`INSERT INTO sleep_audit_entries (user_id, audit_data) VALUES (${userId}, ${auditData})`;
       toast.success("Audit saved");
       fetchHistory();
-      setScreen(0);
-      setSelected(new Set());
-      setRating(5);
-      setNote("");
+      setScreen(4); // Go to PremiumComplete
     } catch (error) {
       console.error("Failed to save audit:", error);
       toast.error("Failed to save audit");
@@ -94,6 +92,21 @@ const SleepAudit = () => {
   const scoreValue = 7 - selected.size;
   const scoreInfo = getScoreInfo(scoreValue);
 
+  if (screen === 4) {
+    return (
+      <PremiumComplete
+        title="Audit Complete"
+        message={`Your sleep score is ${scoreValue}/7. Understanding these patterns is the first step toward deeper, more restorative rest.`}
+        onRestart={() => {
+          setScreen(0);
+          setSelected(new Set());
+          setRating(5);
+          setNote("");
+        }}
+      />
+    );
+  }
+
   return (
     <PremiumLayout
       title="Sleep Audit"
@@ -101,7 +114,7 @@ const SleepAudit = () => {
       icon={<Moon className="w-6 h-6 text-primary" />}
       onBack={screen === 0 ? undefined : () => setScreen(prev => prev - 1)}
     >
-      <div className="relative w-full max-w-md mx-auto min-h-[70vh] flex flex-col px-6">
+      <div className="relative w-full max-w-md mx-auto min-h-[70vh] flex flex-col px-6 pb-12" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
         <StarsCanvas />
 
         <AnimatePresence mode="wait">
@@ -113,24 +126,26 @@ const SleepAudit = () => {
               exit={{ opacity: 0, y: -20 }}
               className="flex-1 flex flex-col items-center justify-center text-center gap-6 py-10"
             >
-              <span className="text-6xl">🌙</span>
-              <h1 className="text-2xl font-bold text-slate-800">Your Sleep Audit</h1>
-              <p className="text-base text-slate-600 leading-relaxed">
-                This short audit helps you understand what's affecting your sleep — and where small changes could make the biggest difference.
+              <div className="w-24 h-24 bg-white/10 backdrop-blur-md rounded-[2.5rem] border border-white/20 flex items-center justify-center text-6xl shadow-2xl">
+                🌙
+              </div>
+              <h1 className="text-3xl font-black text-white">Your Sleep Audit</h1>
+              <p className="text-lg text-slate-300 font-medium leading-relaxed max-w-[280px]">
+                Understand what's affecting your sleep and where small changes can help.
               </p>
               
-              <div className="w-full space-y-3 mt-4">
+              <div className="w-full space-y-4 mt-8">
                 <button
                   onClick={() => setScreen(1)}
-                  className="w-full bg-primary text-white py-4 rounded-2xl font-bold text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] transition-all"
+                  className="w-full bg-white text-slate-900 py-5 rounded-2xl font-black text-lg shadow-2xl hover:scale-[1.02] transition-all"
                 >
-                  Start Audit →
+                  Start Audit
                 </button>
                 <button
                   onClick={() => setShowHistory(true)}
-                  className="w-full bg-white text-slate-600 py-4 rounded-2xl font-bold text-lg border border-slate-200 hover:bg-slate-50 transition-all flex items-center justify-center gap-2"
+                  className="w-full bg-white/10 backdrop-blur-md text-white py-5 rounded-2xl font-black text-lg border border-white/10 hover:bg-white/20 transition-all flex items-center justify-center gap-3"
                 >
-                  <History size={20} />
+                  <History size={20} strokeWidth={2.5} />
                   Past Audits
                 </button>
               </div>
@@ -145,12 +160,12 @@ const SleepAudit = () => {
               exit={{ opacity: 0, x: -20 }}
               className="flex-1 flex flex-col gap-6 py-6"
             >
-              <div className="space-y-2">
-                <div className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider">
-                  Question 1 of 2
+              <div className="space-y-3">
+                <div className="inline-flex px-4 py-1.5 rounded-full bg-primary/20 text-white text-[10px] font-black uppercase tracking-[0.2em]">
+                  Phase 01
                 </div>
-                <h2 className="text-xl font-bold text-slate-800">How has your sleep been lately?</h2>
-                <p className="text-sm text-slate-500">Select all that apply to you</p>
+                <h2 className="text-2xl font-black text-white">How has your sleep been?</h2>
+                <p className="text-slate-400 font-medium">Select any that feel true for you lately</p>
               </div>
 
               <div className="flex flex-col gap-3">
@@ -164,18 +179,18 @@ const SleepAudit = () => {
                         active ? next.delete(i) : next.add(i);
                         setSelected(next);
                       }}
-                      className={`flex items-center gap-4 p-4 rounded-2xl text-left transition-all border-2 ${
-                        active ? "bg-primary/5 border-primary" : "bg-white border-slate-50"
+                      className={`flex items-center gap-4 p-5 rounded-2xl text-left transition-all border ${
+                        active ? "bg-white text-slate-900 border-white" : "bg-white/5 border-white/10 text-white hover:bg-white/10"
                       }`}
                     >
                       <span className="text-2xl">{o.emoji}</span>
-                      <span className={`flex-1 text-sm font-medium ${active ? "text-primary" : "text-slate-700"}`}>
+                      <span className="flex-1 text-sm font-bold leading-tight">
                         {o.text}
                       </span>
                       <div className={`w-6 h-6 rounded-lg flex items-center justify-center border-2 transition-all ${
-                        active ? "bg-primary border-primary" : "border-slate-200"
+                        active ? "bg-slate-900 border-slate-900" : "border-white/20"
                       }`}>
-                        {active && <Check size={14} className="text-white" />}
+                        {active && <Check size={14} className="text-white" strokeWidth={4} />}
                       </div>
                     </button>
                   );
@@ -184,9 +199,9 @@ const SleepAudit = () => {
 
               <button
                 onClick={() => setScreen(2)}
-                className="w-full bg-primary text-white py-4 rounded-2xl font-bold text-lg shadow-xl shadow-primary/20 mt-4 transition-all"
+                className="w-full bg-white text-slate-900 py-5 rounded-2xl font-black text-lg shadow-2xl mt-4 hover:bg-slate-50 transition-all"
               >
-                Next →
+                Continue
               </button>
             </motion.div>
           )}
@@ -199,26 +214,26 @@ const SleepAudit = () => {
               exit={{ opacity: 0, x: -20 }}
               className="flex-1 flex flex-col gap-8 py-6"
             >
-              <div className="space-y-2">
-                <div className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider">
-                  Question 2 of 2
+              <div className="space-y-3">
+                <div className="inline-flex px-4 py-1.5 rounded-full bg-primary/20 text-white text-[10px] font-black uppercase tracking-[0.2em]">
+                  Phase 02
                 </div>
-                <h2 className="text-xl font-bold text-slate-800">Rate your typical night's sleep</h2>
+                <h2 className="text-2xl font-black text-white">Rate your typical rest</h2>
               </div>
 
-              <div className="grid grid-cols-5 gap-2">
+              <div className="grid grid-cols-5 gap-3">
                 {[1, 2, 3, 4, 5].map(n => {
                   const active = rating === n;
                   return (
                     <button
                       key={n}
                       onClick={() => setRating(n)}
-                      className={`flex flex-col items-center py-4 rounded-2xl transition-all border-2 ${
-                        active ? "bg-amber-50 border-amber-400" : "bg-white border-slate-50"
+                      className={`flex flex-col items-center py-5 rounded-2xl transition-all border-2 ${
+                        active ? "bg-white border-white scale-105" : "bg-white/5 border-white/10 hover:bg-white/10"
                       }`}
                     >
-                      <span className={`text-xl font-bold ${active ? "text-amber-600" : "text-slate-400"}`}>{n}</span>
-                      <span className={`text-[10px] font-bold uppercase mt-1 ${active ? "text-amber-600" : "text-slate-300"}`}>
+                      <span className={`text-2xl font-black ${active ? "text-slate-900" : "text-white/40"}`}>{n}</span>
+                      <span className={`text-[8px] font-black uppercase mt-1 tracking-tighter ${active ? "text-slate-600" : "text-white/20"}`}>
                         {ratingLabels[n - 1]}
                       </span>
                     </button>
@@ -227,21 +242,21 @@ const SleepAudit = () => {
               </div>
 
               <div className="space-y-3">
-                <label className="text-sm font-bold text-slate-500 ml-1">Any specific concerns? (Optional)</label>
+                <label className="text-xs font-black text-slate-400 uppercase tracking-widest ml-1">Specific concerns?</label>
                 <textarea
                   value={note}
                   onChange={e => setNote(e.target.value)}
-                  placeholder="e.g. stress, noise, late-night scrolling..."
-                  className="w-full p-5 bg-white border-2 border-slate-50 rounded-3xl text-base outline-none focus:border-primary/20 transition-all resize-none shadow-sm"
+                  placeholder="Stress, noise, scrolling..."
+                  className="w-full p-6 bg-white/5 border border-white/10 rounded-3xl text-white font-medium outline-none focus:border-white/30 transition-all resize-none shadow-sm placeholder:text-white/20"
                   rows={4}
                 />
               </div>
 
               <button
                 onClick={() => setScreen(3)}
-                className="w-full bg-primary text-white py-4 rounded-2xl font-bold text-lg shadow-xl shadow-primary/20 transition-all"
+                className="w-full bg-white text-slate-900 py-5 rounded-2xl font-black text-lg shadow-2xl transition-all"
               >
-                See Results →
+                See Results
               </button>
             </motion.div>
           )}
@@ -254,59 +269,59 @@ const SleepAudit = () => {
               exit={{ opacity: 0, scale: 0.9 }}
               className="flex-1 flex flex-col items-center gap-6 py-6"
             >
-              <div className="p-8 rounded-[3rem] bg-white border border-slate-100 shadow-xl w-full flex flex-col items-center text-center">
-                <div className="relative w-32 h-32 flex items-center justify-center">
+              <div className="p-10 rounded-[3.5rem] bg-white border border-slate-100 shadow-2xl w-full flex flex-col items-center text-center">
+                <div className="relative w-36 h-36 flex items-center justify-center">
                   <svg className="w-full h-full -rotate-90">
                     <circle
-                      cx="64"
-                      cy="64"
-                      r="58"
+                      cx="72"
+                      cy="72"
+                      r="64"
                       fill="none"
                       stroke="#f1f5f9"
-                      strokeWidth="8"
+                      strokeWidth="10"
                     />
                     <motion.circle
-                      cx="64"
-                      cy="64"
-                      r="58"
+                      cx="72"
+                      cy="72"
+                      r="64"
                       fill="none"
                       stroke={scoreInfo.color}
-                      strokeWidth="8"
+                      strokeWidth="10"
                       strokeLinecap="round"
-                      strokeDasharray={2 * Math.PI * 58}
-                      initial={{ strokeDashoffset: 2 * Math.PI * 58 }}
-                      animate={{ strokeDashoffset: (2 * Math.PI * 58) * (1 - scoreValue / 7) }}
+                      strokeDasharray={2 * Math.PI * 64}
+                      initial={{ strokeDashoffset: 2 * Math.PI * 64 }}
+                      animate={{ strokeDashoffset: (2 * Math.PI * 64) * (1 - scoreValue / 7) }}
                       transition={{ duration: 1.5, ease: "easeOut" }}
                     />
                   </svg>
                   <div className="absolute flex flex-col items-center">
-                    <span className="text-4xl font-bold" style={{ color: scoreInfo.color }}>{scoreValue}</span>
-                    <span className="text-[10px] font-bold text-slate-400 uppercase">of 7</span>
+                    <span className="text-5xl font-black" style={{ color: scoreInfo.color }}>{scoreValue}</span>
+                    <span className="text-xs font-black text-slate-400 uppercase tracking-widest">of 7</span>
                   </div>
                 </div>
                 
-                <h3 className="text-xl font-bold mt-6" style={{ color: scoreInfo.color }}>{scoreInfo.status}</h3>
-                <p className="text-sm text-slate-600 mt-4 leading-relaxed italic">
+                <h3 className="text-2xl font-black mt-8" style={{ color: scoreInfo.color }}>{scoreInfo.status}</h3>
+                <p className="text-base text-slate-500 mt-4 leading-relaxed font-medium italic">
                   {scoreValue >= 6 ? "Your habits are solid! Small tweaks can make it even better." : 
                    scoreValue >= 4 ? "Some disruptions detected. Habit changes can help quickly." : 
                    "Several factors are impacting your sleep. We can work through them together."}
                 </p>
               </div>
 
-              <div className="w-full space-y-3 mt-4">
+              <div className="w-full space-y-4 mt-8">
                 <button
                   onClick={handleSave}
                   disabled={isSaving}
-                  className="w-full bg-primary text-white py-4 rounded-2xl font-bold text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] transition-all flex items-center justify-center gap-2"
+                  className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                 >
-                  <Save size={20} />
-                  {isSaving ? "Saving..." : "Save Result"}
+                  <Save size={20} strokeWidth={3} />
+                  {isSaving ? "Preserving..." : "Preserve Result"}
                 </button>
                 <button
                   onClick={() => setScreen(0)}
-                  className="w-full bg-slate-50 text-slate-600 py-4 rounded-2xl font-bold text-lg border border-slate-200 hover:bg-slate-100 transition-all"
+                  className="w-full py-5 rounded-2xl font-bold text-white/60 hover:text-white transition-all"
                 >
-                  Done
+                  Back to Intro
                 </button>
               </div>
             </motion.div>
@@ -320,44 +335,47 @@ const SleepAudit = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="fixed inset-0 z-50 flex items-end justify-center px-4 bg-slate-900/20 backdrop-blur-sm"
+              className="fixed inset-0 z-[60] flex items-end justify-center px-4 bg-slate-900/60 backdrop-blur-sm"
               onClick={() => setShowHistory(false)}
             >
               <motion.div
                 initial={{ y: "100%" }}
                 animate={{ y: 0 }}
                 exit={{ y: "100%" }}
-                className="bg-white w-full max-w-md rounded-t-[3rem] p-8 pb-12 shadow-2xl max-h-[75vh] overflow-y-auto"
+                className="bg-white w-full max-w-md rounded-t-[3rem] p-10 pb-16 shadow-2xl max-h-[80vh] overflow-y-auto"
                 onClick={e => e.stopPropagation()}
               >
-                <div className="flex items-center justify-between mb-8">
-                  <h3 className="text-xl font-bold text-slate-800">Past Audits</h3>
-                  <button onClick={() => setShowHistory(false)} className="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center">
-                    <X size={20} className="text-slate-400" />
+                <div className="flex items-center justify-between mb-10">
+                  <h3 className="text-2xl font-black text-slate-900">Past Audits</h3>
+                  <button onClick={() => setShowHistory(false)} className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center">
+                    <X size={20} className="text-slate-400" strokeWidth={3} />
                   </button>
                 </div>
 
                 {isLoadingHistory ? (
                   <div className="py-20 flex justify-center">
-                    <div className="w-8 h-8 border-4 border-primary/20 border-t-primary rounded-full animate-spin" />
+                    <div className="w-10 h-10 border-4 border-slate-100 border-t-slate-900 rounded-full animate-spin" />
                   </div>
                 ) : history.length === 0 ? (
-                  <div className="py-20 text-center">
-                    <p className="text-slate-500">No audits found yet.</p>
+                  <div className="py-20 text-center space-y-4">
+                    <div className="w-16 h-16 bg-slate-50 rounded-full flex items-center justify-center mx-auto text-slate-300">
+                      <History size={32} />
+                    </div>
+                    <p className="text-slate-400 font-medium">No audits preserved yet.</p>
                   </div>
                 ) : (
-                  <div className="space-y-3">
+                  <div className="space-y-4">
                     {history.map((e, i) => {
                       const info = getScoreInfo(e.score);
                       return (
-                        <div key={i} className="flex items-center justify-between p-5 rounded-3xl bg-slate-50 border border-slate-100">
+                        <div key={i} className="flex items-center justify-between p-6 rounded-[2rem] bg-slate-50 border border-slate-100">
                           <div>
-                            <p className="text-sm font-bold text-slate-800">{e.date}</p>
-                            <p className="text-xs font-bold uppercase tracking-wider mt-1" style={{ color: info.color }}>{info.status}</p>
+                            <p className="text-xs font-black text-slate-400 uppercase tracking-widest">{e.date}</p>
+                            <p className="text-sm font-bold mt-1" style={{ color: info.color }}>{info.status}</p>
                           </div>
                           <div className="flex flex-col items-end">
-                            <span className="text-2xl font-bold" style={{ color: info.color }}>{e.score}</span>
-                            <span className="text-[10px] font-bold text-slate-400 uppercase">of 7</span>
+                            <span className="text-3xl font-black" style={{ color: info.color }}>{e.score}</span>
+                            <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">of 7</span>
                           </div>
                         </div>
                       );
@@ -374,4 +392,3 @@ const SleepAudit = () => {
 };
 
 export default SleepAudit;
-

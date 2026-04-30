@@ -1,5 +1,5 @@
 import { useState, useCallback, useMemo, useEffect } from "react";
-import { RefreshCw, Trophy, Check, Sparkles as SparklesIcon } from "lucide-react";
+import { RefreshCw, Trophy, Check, Sparkles as SparklesIcon, ChevronRight } from "lucide-react";
 import confetti from "canvas-confetti";
 import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence } from "framer-motion";
@@ -40,11 +40,11 @@ const BingoGrid = ({ onWin }: BingoGridProps) => {
   ], [t]);
 
   const BINGO_LETTERS = [
-    { letter: "B", color: "#61DAFB" },
-    { letter: "I", color: "#61DAFB" },
-    { letter: "N", color: "#61DAFB" },
-    { letter: "G", color: "#61DAFB" },
-    { letter: "O", color: "#61DAFB" },
+    { letter: "B", color: "text-rose-500 bg-rose-50" },
+    { letter: "I", color: "text-blue-500 bg-blue-50" },
+    { letter: "N", color: "text-amber-500 bg-amber-50" },
+    { letter: "G", color: "text-emerald-500 bg-emerald-50" },
+    { letter: "O", color: "text-indigo-500 bg-indigo-50" },
   ];
 
   const [completed, setCompleted] = useState<Set<number>>(() => new Set([12])); // FREE SPACE
@@ -63,8 +63,8 @@ const BingoGrid = ({ onWin }: BingoGridProps) => {
   const fireBigCelebration = useCallback(() => {
     const end = Date.now() + 3000;
     const frame = () => {
-      confetti({ particleCount: 5, angle: 60, spread: 55, origin: { x: 0 }, colors: ["#61DAFB", "#FBBF24", "#94A3B8"] });
-      confetti({ particleCount: 5, angle: 120, spread: 55, origin: { x: 1 }, colors: ["#61DAFB", "#FBBF24", "#94A3B8"] });
+      confetti({ particleCount: 5, angle: 60, spread: 55, origin: { x: 0 }, colors: ["#4F46E5", "#10B981", "#FBBF24"] });
+      confetti({ particleCount: 5, angle: 120, spread: 55, origin: { x: 1 }, colors: ["#4F46E5", "#10B981", "#FBBF24"] });
       if (Date.now() < end) requestAnimationFrame(frame);
     };
     frame();
@@ -111,28 +111,28 @@ const BingoGrid = ({ onWin }: BingoGridProps) => {
   const progressPercent = (progress / 25) * 100;
 
   return (
-    <div className="flex flex-col items-center space-y-8">
-      <header className="text-center">
-        <h2 className="text-3xl font-extrabold text-slate-900 mb-1">Self-Care Bingo</h2>
-        <p className="text-slate-500 text-sm font-medium">
-            Complete a line of self-care activities to win!
+    <div className="flex flex-col items-center gap-8 py-4" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
+      <header className="text-center space-y-2">
+        <h2 className="text-3xl font-black text-slate-800 leading-tight">Self-Care Bingo</h2>
+        <p className="text-slate-500 font-medium text-base italic">
+            Complete a line of self-care to win!
         </p>
       </header>
 
       {/* Progress Section */}
-      <div className="w-full bg-white rounded-[2rem] border-2 border-slate-100 p-6 shadow-sm">
-        <div className="flex items-center justify-between mb-4">
-          <div className="flex items-center gap-2 font-bold text-slate-700 text-sm">
+      <div className="w-full bg-white rounded-[2.5rem] border border-slate-100 p-8 shadow-2xl shadow-slate-200/50">
+        <div className="flex items-center justify-between mb-6">
+          <div className="flex items-center gap-3 font-black text-slate-700 text-sm uppercase tracking-widest">
             <Trophy size={18} className="text-primary" />
-            Activities Completed
+            Activities Logged
           </div>
-          <span className="text-primary font-black text-sm">{progress}/25</span>
+          <span className="text-primary font-black text-lg">{progress}<span className="text-slate-300 text-sm">/25</span></span>
         </div>
-        <div className="h-3 rounded-full bg-slate-50 overflow-hidden">
+        <div className="h-2 rounded-full bg-slate-50 overflow-hidden">
           <motion.div 
             initial={{ width: 0 }}
             animate={{ width: `${progressPercent}%` }}
-            className="h-full bg-primary shadow-[0_0_12px_rgba(97,218,251,0.5)]" 
+            className="h-full bg-primary" 
           />
         </div>
       </div>
@@ -140,10 +140,10 @@ const BingoGrid = ({ onWin }: BingoGridProps) => {
       <div className="w-full space-y-4">
         {/* BINGO Header */}
         <div className="grid grid-cols-5 gap-3">
-          {BINGO_LETTERS.map(({ letter }) => (
+          {BINGO_LETTERS.map(({ letter, color }) => (
             <div
               key={letter}
-              className="bg-slate-50 text-slate-300 font-black text-xl py-3 rounded-2xl text-center border-2 border-transparent"
+              className={`font-black text-xl py-4 rounded-3xl text-center border border-slate-50 shadow-sm ${color}`}
             >
               {letter}
             </div>
@@ -163,19 +163,19 @@ const BingoGrid = ({ onWin }: BingoGridProps) => {
                 whileTap={{ scale: 0.95 }}
                 onClick={() => toggleTile(index)}
                 className={`
-                  relative aspect-square rounded-2xl border-2 p-2 flex flex-col items-center justify-center text-center
-                  transition-all duration-300 group
+                  relative aspect-square rounded-[1.5rem] border p-2 flex flex-col items-center justify-center text-center
+                  transition-all duration-500 group
                   ${isCompleted
                     ? isFreeSpace
-                      ? "bg-primary border-primary text-primary-foreground shadow-lg shadow-primary/20"
-                      : "bg-emerald-50 border-emerald-100 text-emerald-600 scale-[0.98]"
-                    : "bg-white border-slate-100 text-slate-700 hover:border-primary/50 hover:bg-slate-50 shadow-sm"
+                      ? "bg-slate-900 border-slate-900 text-white shadow-2xl shadow-slate-900/20"
+                      : "bg-emerald-50 border-emerald-100 text-emerald-600 shadow-sm"
+                    : "bg-white border-slate-100 text-slate-700 hover:border-primary/50 hover:bg-slate-50 shadow-xl shadow-slate-200/50"
                   }
                 `}
               >
-                <span className="text-2xl mb-1 group-hover:scale-110 transition-transform">{tile.emoji}</span>
-                <span className={`text-[8px] font-black uppercase tracking-tighter leading-none text-center ${
-                    isCompleted ? "opacity-40" : "opacity-100"
+                <span className="text-2xl mb-1 group-hover:scale-110 transition-transform duration-500">{tile.emoji}</span>
+                <span className={`text-[7px] font-black uppercase tracking-tighter leading-none text-center ${
+                    isCompleted ? "opacity-30" : "opacity-100"
                 }`}>
                   {tile.text}
                 </span>
@@ -185,9 +185,9 @@ const BingoGrid = ({ onWin }: BingoGridProps) => {
                         <motion.div 
                             initial={{ scale: 0, opacity: 0 }}
                             animate={{ scale: 1, opacity: 1 }}
-                            className="absolute -top-1 -right-1 w-5 h-5 bg-emerald-500 rounded-full flex items-center justify-center text-white border-2 border-white"
+                            className="absolute -top-1 -right-1 w-6 h-6 bg-emerald-500 rounded-2xl flex items-center justify-center text-white border-4 border-white shadow-lg"
                         >
-                            <Check size={10} strokeWidth={4} />
+                            <Check size={12} strokeWidth={4} />
                         </motion.div>
                     )}
                 </AnimatePresence>
@@ -198,17 +198,20 @@ const BingoGrid = ({ onWin }: BingoGridProps) => {
       </div>
 
       {/* New Board Button */}
-      <motion.button
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
-        onClick={resetBoard}
-        className="px-8 py-4 bg-slate-50 text-slate-400 font-bold rounded-2xl flex items-center gap-2 hover:bg-slate-100 transition-colors"
-      >
-        <RefreshCw size={18} />
-        {t('new_board')}
-      </motion.button>
+      <div className="w-full flex flex-col gap-4">
+        <button
+          onClick={resetBoard}
+          className="w-full bg-white text-slate-400 py-5 rounded-2xl font-black text-lg border border-slate-200 hover:bg-slate-50 transition-all flex items-center justify-center gap-3 shadow-sm"
+        >
+          <RefreshCw size={20} strokeWidth={3} />
+          {t('new_board')}
+        </button>
+      </div>
     </div>
   );
 };
+
+export default BingoGrid;
+
 
 export default BingoGrid;

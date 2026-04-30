@@ -119,21 +119,25 @@ const SessionScreen = ({ onComplete, onEnd }: Props) => {
       {/* Controls */}
       <div className="flex items-center gap-8 mt-16">
         <motion.button
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
           onClick={() => setPaused((p) => !p)}
-          className="w-16 h-16 rounded-2xl bg-white border-2 border-slate-100 flex items-center justify-center shadow-sm text-slate-700 transition-all"
+          className={`w-20 h-20 rounded-[2rem] flex items-center justify-center shadow-xl transition-all ${
+            paused 
+            ? "bg-primary text-white shadow-primary/20" 
+            : "bg-white text-slate-900 border-2 border-slate-100 shadow-slate-200"
+          }`}
         >
-          {paused ? <Play size={28} fill="currentColor" /> : <Pause size={28} fill="currentColor" />}
+          {paused ? <Play size={32} fill="currentColor" className="ml-1" /> : <Pause size={32} fill="currentColor" />}
         </motion.button>
         
         <motion.button
-          whileHover={{ scale: 1.1, rotate: 90 }}
-          whileTap={{ scale: 0.9 }}
+          whileHover={{ scale: 1.05, rotate: -90 }}
+          whileTap={{ scale: 0.95 }}
           onClick={onEnd}
-          className="w-16 h-16 rounded-2xl bg-slate-100 flex items-center justify-center text-slate-500 transition-all"
+          className="w-16 h-16 rounded-[1.5rem] bg-slate-50 text-slate-400 border-2 border-slate-100 flex items-center justify-center hover:bg-slate-100 hover:text-slate-600 transition-all shadow-sm"
         >
-          <RotateCcw size={28} />
+          <RotateCcw size={24} strokeWidth={3} />
         </motion.button>
       </div>
     </div>

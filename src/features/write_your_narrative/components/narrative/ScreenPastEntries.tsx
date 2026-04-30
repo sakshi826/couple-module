@@ -1,4 +1,4 @@
-import { ChevronLeft } from "lucide-react";
+import { ChevronLeft, History, BookOpen, ChevronRight } from "lucide-react";
 
 interface Entry {
   writing: string;
@@ -13,45 +13,63 @@ interface Props {
 
 const ScreenPastEntries = ({ entries, onBack }: Props) => {
   return (
-    <div className="relative text-center space-y-7">
-      <button
-        onClick={onBack}
-        className="absolute -top-2 -left-2 w-10 h-10 flex items-center justify-center rounded-full text-muted-foreground hover:text-foreground hover:bg-card transition-colors"
-        aria-label="Go back"
-      >
-        <ChevronLeft className="w-5 h-5" />
-      </button>
+    <div className="flex-1 flex flex-col gap-8" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
+      <div className="text-center space-y-2">
+        <h1 className="text-3xl font-black text-slate-800 leading-tight">
+          Your Journey 📝
+        </h1>
+        <p className="text-slate-500 font-medium text-base">Past narratives & reflections</p>
+      </div>
 
-      <div className="pt-12 space-y-6">
-        <h1 className="font-heading text-2xl text-foreground">Past entries 📝</h1>
-
+      <div className="flex-1 overflow-y-auto pr-2 space-y-6">
         {entries.length === 0 ? (
-          <p className="text-muted-foreground text-[15px] leading-[1.7]">
-            You haven't saved any entries yet. Take your time—there's no rush.
-          </p>
+          <div className="bg-white border border-slate-100 rounded-[2.5rem] p-12 text-center shadow-xl shadow-slate-200/50">
+            <div className="w-16 h-16 bg-slate-50 rounded-2xl flex items-center justify-center mx-auto mb-6 text-3xl">
+              ⏳
+            </div>
+            <p className="text-slate-500 font-medium text-base leading-relaxed">
+              You haven't saved any entries yet. Take your time—there's no rush.
+            </p>
+          </div>
         ) : (
-          <div className="space-y-4">
+          <div className="space-y-6">
             {entries.map((entry, i) => (
               <div
                 key={i}
-                className="text-left bg-card rounded-[20px] px-5 py-4 border border-border shadow-[var(--shadow-soft)] space-y-2"
+                className="bg-white border border-slate-100 rounded-[2.5rem] p-8 shadow-2xl shadow-slate-200/50 space-y-4 hover:shadow-primary/5 transition-all duration-300"
               >
-                <p className="text-muted-foreground text-[12px]">{entry.date}</p>
-                <p className="text-foreground text-[14px] leading-[1.7] line-clamp-3">
-                  {entry.writing || <span className="italic text-muted-foreground">No writing</span>}
-                </p>
-                {entry.reflection && (
-                  <p className="text-muted-foreground text-[13px] italic">
-                    Feeling: {entry.reflection}
+                <div className="flex items-center justify-between">
+                  <span className="px-4 py-1.5 rounded-full bg-slate-50 text-slate-400 text-[10px] font-black uppercase tracking-[0.2em]">
+                    {entry.date}
+                  </span>
+                  {entry.reflection && (
+                    <span className="text-primary font-black text-xs italic">
+                      {entry.reflection}
+                    </span>
+                  )}
+                </div>
+                <div className="relative">
+                  <div className="absolute left-0 top-0 bottom-0 w-1 bg-primary/20 rounded-full" />
+                  <p className="pl-6 text-slate-700 text-base leading-relaxed font-medium line-clamp-4">
+                    {entry.writing || <span className="italic text-slate-300">No writing preserved</span>}
                   </p>
-                )}
+                </div>
               </div>
             ))}
           </div>
         )}
       </div>
+
+      <button
+        onClick={onBack}
+        className="w-full bg-white text-slate-600 py-5 rounded-2xl font-black text-lg border border-slate-200 hover:bg-slate-50 transition-all flex items-center justify-center gap-3 shadow-sm"
+      >
+        <ChevronLeft size={20} strokeWidth={3} />
+        Back to Activity
+      </button>
     </div>
   );
 };
 
 export default ScreenPastEntries;
+

@@ -125,9 +125,9 @@ const Index = () => {
                       whileHover={{ scale: 1.01 }}
                       whileTap={{ scale: 0.99 }}
                       onClick={() => { fetchHistory(); setScreen("history"); }}
-                      className="w-full py-4 rounded-2xl bg-slate-50 text-slate-400 font-bold flex items-center justify-center gap-2 mt-4 hover:bg-slate-100 hover:text-slate-600 transition-colors"
+                      className="w-full py-5 rounded-2xl bg-white border-2 border-slate-100 text-slate-500 font-black text-xs uppercase tracking-widest flex items-center justify-center gap-3 mt-4 hover:text-primary hover:border-primary/20 hover:shadow-lg hover:shadow-slate-200/50 transition-all"
                   >
-                      <History size={18} />
+                      <History size={18} strokeWidth={2.5} />
                       {t('app.viewHistory')}
                   </motion.button>
               </PremiumIntro>

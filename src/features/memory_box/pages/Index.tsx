@@ -73,7 +73,7 @@ const Index = () => {
     try {
       const sql = neon(DATABASE_URL);
       await sql`INSERT INTO memory_box_entries (user_id, memory_data) VALUES (${userId}, ${newMemory})`;
-      toast.success("Memory preserved in your box");
+      toast.success("Memory preserved");
       setMemories(prev => [newMemory, ...prev]);
       setLastSaved(newMemory);
       setScreen(3);
@@ -99,6 +99,16 @@ const Index = () => {
     setScreen(0);
   };
 
+  if (screen === 5) {
+    return (
+      <PremiumComplete
+        title="Memory Preserved"
+        message={`You've safely placed a memory of ${name || "your loved one"} in your box. These moments of connection are yours to keep, always.`}
+        onRestart={resetAll}
+      />
+    );
+  }
+
   const titles = ["Your Box", "Honoring", "Expressing", "Preserved", "Gentle Care"];
 
   return (
@@ -113,12 +123,12 @@ const Index = () => {
         </button>
       ) : undefined}
     >
-      <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4 min-h-[70vh]">
-        <div className="flex justify-center gap-2 mb-8">
-          {[0, 1, 2, 3, 4].map((i) => (
+      <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4 min-h-[70vh]" style={{ fontFamily: 'Inter, system-ui, -apple-system, sans-serif' }}>
+        <div className="flex justify-center gap-2 mb-10">
+          {[0, 1, 2, 3].map((i) => (
             <div
               key={i}
-              className={`h-2 rounded-full transition-all duration-300 ${i === screen ? "w-8 bg-primary" : "w-2 bg-slate-200"}`}
+              className={`h-1.5 rounded-full transition-all duration-500 ${i <= screen ? "w-8 bg-primary" : "w-2 bg-slate-100"}`}
             />
           ))}
         </div>
@@ -145,7 +155,7 @@ const Index = () => {
             />
           )}
           {screen === 2 && (
-            <div className="flex-1 flex flex-col gap-6">
+            <div className="flex-1 flex flex-col gap-8">
               <ExpressionScreen
                 key="expression"
                 category={category}
@@ -161,9 +171,9 @@ const Index = () => {
               <button
                 onClick={saveMemory}
                 disabled={isSaving}
-                className="w-full bg-primary text-white py-5 rounded-[2rem] font-black text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] transition-all flex items-center justify-center gap-3"
+                className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
               >
-                <Save size={20} />
+                <Save size={20} strokeWidth={3} />
                 {isSaving ? "Preserving..." : "Preserve Memory"}
               </button>
             </div>
@@ -173,14 +183,14 @@ const Index = () => {
               key="memorybox"
               lastSaved={lastSaved}
               onAddAnother={resetForNew}
-              onFinish={() => setScreen(4)}
+              onFinish={() => setScreen(5)}
               onBack={() => setScreen(2)}
             />
           )}
           {screen === 4 && (
             <ClosingScreen
               key="closing"
-              onExit={resetAll}
+              onExit={() => setScreen(5)}
             />
           )}
         </AnimatePresence>
@@ -194,5 +204,8 @@ const Index = () => {
     </PremiumLayout>
   );
 };
+
+export default Index;
+
 
 export default Index;

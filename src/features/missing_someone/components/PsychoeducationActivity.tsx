@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { Heart, ChevronRight, ChevronLeft } from "lucide-react";
+import { Heart, ChevronRight, ChevronLeft, Sparkles, Brain } from "lucide-react";
 import FloatingHearts from "./FloatingHearts";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
+import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import { motion, AnimatePresence } from "framer-motion";
 
 const screen1Hearts = ["#F4C0D1", "#D4537E", "#ED93B1", "#F4C0D1", "#D4537E"];
@@ -10,40 +11,66 @@ const screen2Hearts = ["#CEC9F6", "#AFA9EC", "#CEC9F6", "#AFA9EC", "#CEC9F6"];
 const PsychoeducationActivity = () => {
   const [currentScreen, setCurrentScreen] = useState(0);
 
+  if (currentScreen === 2) {
+    return (
+      <PremiumComplete
+        title="Clarity Gained"
+        message="Understanding the chemistry of missing someone is the first step toward healing. Your feelings are valid, and your brain is simply doing its job to protect and process."
+        onRestart={() => setCurrentScreen(0)}
+      />
+    );
+  }
+
+  const subtitles = [
+    "Validation",
+    "Internal Wisdom",
+    "Complete"
+  ];
+
   return (
     <PremiumLayout
       title="Missing Someone"
-      subtitle="Understanding your emotions"
+      subtitle={subtitles[currentScreen]}
       icon={<Heart className="w-6 h-6 text-primary" />}
-      onBack={currentScreen > 0 ? () => setCurrentScreen(0) : undefined}
+      onBack={currentScreen > 0 ? () => setCurrentScreen(prev => prev - 1) : undefined}
     >
-      <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4">
+      <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4 min-h-[70vh]" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
+        <div className="flex justify-center gap-2 mb-10">
+          {[0, 1].map((i) => (
+            <div
+              key={i}
+              className={`h-1.5 rounded-full transition-all duration-500 ${i <= currentScreen ? "w-8 bg-primary" : "w-2 bg-slate-100"}`}
+            />
+          ))}
+        </div>
+
         <AnimatePresence mode="wait">
-          {currentScreen === 0 ? (
+          {currentScreen === 0 && (
             <motion.div
               key="screen1"
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -20 }}
-              className="flex-1 flex flex-col gap-6"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.6, ease: "easeOut" }}
+              className="flex-1 flex flex-col gap-8"
             >
-              <div className="relative overflow-hidden rounded-[2.5rem] bg-white border border-slate-100 p-8 shadow-xl shadow-slate-200/50 min-h-[450px]">
+              <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-8 shadow-2xl shadow-slate-200/50 min-h-[450px]">
                 <div className="absolute top-[-20px] right-[-20px] w-32 h-32 rounded-full bg-pink-100/50 blur-3xl" />
                 <div className="absolute bottom-[-20px] left-[-20px] w-32 h-32 rounded-full bg-amber-100/30 blur-3xl" />
                 <FloatingHearts colors={screen1Hearts} />
                 
                 <div className="relative z-10 space-y-6">
                   <div className="inline-block px-4 py-1.5 rounded-full bg-pink-50 text-pink-600 text-[10px] font-black uppercase tracking-widest">
-                    Psychoeducation
+                    Validation
                   </div>
                   
                   <div className="space-y-4">
                     <p className="text-slate-400 font-bold text-sm">It doesn't mean you're weak.</p>
-                    <h1 className="text-2xl font-black text-slate-800 leading-tight">
-                      Missing someone who hurt you is one of the most human things you can feel.
+                    <h1 className="text-3xl font-black text-slate-800 leading-tight">
+                      Missing someone who hurt you is deeply human.
                     </h1>
-                    <p className="text-slate-600 leading-relaxed text-base">
-                      You left. Or they left. And yet — you still reach for your phone hoping it's them. You still replay the good moments more than the painful ones. This contradiction isn't a flaw in you. It's rooted in how your brain processes love and loss.
+                    <p className="text-slate-600 leading-relaxed font-medium text-base">
+                      You left. Or they left. And yet — you still reach for your phone hoping it's them. You still replay the good moments more than the painful ones. This contradiction isn't a flaw. It's how your brain processes loss.
                     </p>
                   </div>
 
@@ -55,40 +82,40 @@ const PsychoeducationActivity = () => {
 
               <button
                 onClick={() => setCurrentScreen(1)}
-                className="w-full bg-primary text-white py-5 rounded-[2rem] font-black text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] transition-all flex items-center justify-center gap-3"
+                className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
               >
                 Next Step
-                <ChevronRight size={20} />
+                <ChevronRight size={20} strokeWidth={3} />
               </button>
             </motion.div>
-          ) : (
+          )}
+
+          {currentScreen === 1 && (
             <motion.div
               key="screen2"
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -20 }}
-              className="flex-1 flex flex-col gap-6"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.6, ease: "easeOut" }}
+              className="flex-1 flex flex-col gap-8"
             >
-              <div className="relative overflow-hidden rounded-[2.5rem] bg-white border border-slate-100 p-8 shadow-xl shadow-slate-200/50 min-h-[450px]">
+              <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-8 shadow-2xl shadow-slate-200/50 min-h-[450px]">
                 <div className="absolute top-[-20px] left-[-20px] w-32 h-32 rounded-full bg-indigo-100/50 blur-3xl" />
                 <div className="absolute bottom-[-20px] right-[-20px] w-32 h-32 rounded-full bg-pink-100/30 blur-3xl" />
                 <FloatingHearts colors={screen2Hearts} />
 
                 <div className="relative z-10 space-y-6">
                   <div className="inline-block px-4 py-1.5 rounded-full bg-indigo-50 text-indigo-600 text-[10px] font-black uppercase tracking-widest">
-                    Psychoeducation
+                    Brain Science
                   </div>
 
                   <div className="space-y-4">
-                    <p className="text-slate-400 font-bold text-sm">Here's what's happening inside you.</p>
-                    <h1 className="text-2xl font-black text-slate-800 leading-tight">
-                      Love creates a chemical bond — and losing it feels like withdrawal.
+                    <p className="text-slate-400 font-bold text-sm">Internal Wisdom</p>
+                    <h1 className="text-3xl font-black text-slate-800 leading-tight">
+                      Love creates a chemical bond.
                     </h1>
-                    <p className="text-slate-600 leading-relaxed text-sm">
-                      When you love someone, your brain releases dopamine, oxytocin, and serotonin. When the relationship ends, those chemicals drop. Your brain grieves — not just the person, but the feeling of being close to them.
-                    </p>
-                    <p className="text-slate-600 leading-relaxed text-sm">
-                      We also tend to remember love more than pain, unconsciously amplifying the warmth and softening the hurt.
+                    <p className="text-slate-600 leading-relaxed font-medium text-base">
+                      When you love someone, your brain releases dopamine, oxytocin, and serotonin. When it ends, those levels drop. Your brain grieves — not just the person, but the feeling of closeness.
                     </p>
                   </div>
 
@@ -99,23 +126,21 @@ const PsychoeducationActivity = () => {
               </div>
 
               <button
-                onClick={() => setCurrentScreen(0)}
-                className="w-full bg-indigo-500 text-white py-5 rounded-[2rem] font-black text-lg shadow-xl shadow-indigo-200/50 hover:scale-[1.02] transition-all flex items-center justify-center gap-3"
+                onClick={() => setCurrentScreen(2)}
+                className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
               >
-                <ChevronLeft size={20} />
-                Previous Step
+                Finish Reflection
+                <ChevronRight size={20} strokeWidth={3} />
               </button>
             </motion.div>
           )}
         </AnimatePresence>
-
-        <div className="flex justify-center gap-2 mt-8">
-          <div className={`h-2 rounded-full transition-all duration-300 ${currentScreen === 0 ? "w-8 bg-pink-400" : "w-2 bg-slate-200"}`} />
-          <div className={`h-2 rounded-full transition-all duration-300 ${currentScreen === 1 ? "w-8 bg-indigo-400" : "w-2 bg-slate-200"}`} />
-        </div>
       </div>
     </PremiumLayout>
   );
 };
+
+export default PsychoeducationActivity;
+
 
 export default PsychoeducationActivity;

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { Button } from "@/features/the_pause_practice/components/ui/button";
+import { PremiumComplete } from "../../../components/shared/PremiumComplete";
+import { Sparkles, RefreshCw } from "lucide-react";
 
 const scenarioMessages: Record<string, string> = {
   interrupts: "Next time someone interrupts you, try this before responding.",
@@ -19,74 +20,36 @@ const ResultScreen = ({ scenario, onTryAgain, onDone }: ResultScreenProps) => {
   const message = scenarioMessages[scenario] || scenarioMessages.other;
 
   return (
-    <motion.div
-      initial={{ opacity: 0, scale: 0.95 }}
-      animate={{ opacity: 1, scale: 1 }}
-      exit={{ opacity: 0 }}
-      transition={{ duration: 0.6, ease: "easeOut" }}
-      className="flex flex-col items-center justify-center min-h-screen px-8 text-center"
-    >
-      <motion.div
-        initial={{ scale: 0, rotate: -20 }}
-        animate={{ scale: 1, rotate: 0 }}
-        transition={{ delay: 0.2, type: "spring", stiffness: 150 }}
-        className="text-5xl mb-6"
+    <div className="w-full">
+      <PremiumComplete
+        title="That's the Pause"
+        message="You just created space between what you felt and how you respond. Even a small pause helps you reclaim your center."
+        onRestart={onTryAgain}
+        onHome={onDone}
+        icon={<Sparkles size={48} />}
       >
-        ✨
-      </motion.div>
-
-      <motion.h1
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.35 }}
-        className="text-2xl font-semibold text-foreground mb-4"
-      >
-        That's the Pause
-      </motion.h1>
-
-      <motion.p
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.5 }}
-        className="text-lg text-foreground/80 leading-relaxed mb-3 max-w-xs"
-      >
-        You just created space between what you felt and how you respond.
-      </motion.p>
-
-      <motion.div
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.65 }}
-        className="card-surface px-6 py-4 mb-4 max-w-xs"
-      >
-        <p className="text-foreground/90 text-sm leading-relaxed">
-          {message}
-        </p>
-      </motion.div>
-
-      <motion.p
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.8 }}
-        className="text-sm text-muted-foreground mb-10 max-w-xs italic"
-      >
-        It won't always feel easy—but even a small pause helps.
-      </motion.p>
-
-      <motion.div
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.95 }}
-        className="flex flex-col gap-3 w-full max-w-xs"
-      >
-        <Button variant="coral" size="lg" onClick={onTryAgain} className="py-6 text-base">
-          Try Again 🔁
-        </Button>
-        <Button variant="soft" size="lg" onClick={onDone} className="py-6 text-base">
-          Done ✔
-        </Button>
-      </motion.div>
-    </motion.div>
+        <div className="space-y-6 my-10">
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5 }}
+            className="p-8 bg-slate-900 rounded-[2.5rem] text-white shadow-2xl relative overflow-hidden group"
+          >
+            <div className="absolute top-0 right-0 p-8 text-white/5 pointer-events-none group-hover:scale-110 transition-transform">
+                <Sparkles size={120} strokeWidth={1} />
+            </div>
+            <p className="text-slate-400 text-[10px] font-black uppercase tracking-[0.3em] mb-4 relative z-10">Pro Tip</p>
+            <p className="text-xl font-bold italic leading-tight relative z-10">
+              "{message}"
+            </p>
+          </motion.div>
+          
+          <p className="text-slate-400 text-xs font-bold italic text-center">
+            It won't always feel easy—but consistency is key.
+          </p>
+        </div>
+      </PremiumComplete>
+    </div>
   );
 };
 

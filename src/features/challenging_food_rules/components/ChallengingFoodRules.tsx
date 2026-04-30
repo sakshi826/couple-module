@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Utensils, History, Save, ChevronRight, Heart } from "lucide-react";
+import { Utensils, History, Save, ChevronRight, Heart, Sparkles } from "lucide-react";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
+import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import { neon } from "@neondatabase/serverless";
 import { toast } from "sonner";
 
@@ -22,10 +23,7 @@ const SCREENS: Screen[] = [
   "intro",
   "identify",
   "feeling",
-  "impact",
   "challenge",
-  "permission",
-  "step",
   "takeaway",
   "close",
 ];
@@ -95,6 +93,26 @@ export default function ChallengingFoodRules() {
     }
   };
 
+  const resetFlow = () => {
+    setScreen("intro");
+    setRule("");
+    setCustomRule("");
+    setFeeling("");
+    setCustomFeeling("");
+    setChallengeChoice("");
+    setStepChoice("");
+  };
+
+  if (screen === "close") {
+    return (
+      <PremiumComplete
+        title="Awareness Gained"
+        message="Awareness is the first step toward freedom. You've taken a brave step in identifying and reflecting on a food rule. Carry this gentle understanding with you today."
+        onRestart={resetFlow}
+      />
+    );
+  }
+
   const selectedRule = rule === "__custom" ? customRule : rule;
   const selectedFeeling = feeling === "__custom" ? customFeeling : feeling;
   const selectedImpact = impact === "__custom" ? customImpact : impact;
@@ -120,19 +138,22 @@ export default function ChallengingFoodRules() {
     close: "Reflection"
   };
 
+  const currentIdx = SCREENS.indexOf(screen);
+
   return (
     <PremiumLayout
       title="Challenging Food Rules"
       subtitle={titles[screen]}
       icon={<Utensils className="w-6 h-6 text-primary" />}
-      onBack={screen !== "intro" ? () => setScreen("intro") : undefined}
+      onBack={currentIdx > 0 ? () => setScreen(SCREENS[currentIdx - 1]) : undefined}
+      onReset={currentIdx > 0 ? resetFlow : undefined}
     >
-      <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4 min-h-[70vh]">
-        <div className="flex justify-center gap-2 mb-8">
-          {SCREENS.map((s, i) => (
+      <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4 min-h-[70vh]" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
+        <div className="flex justify-center gap-2 mb-10">
+          {SCREENS.slice(0, 5).map((s, i) => (
             <div
               key={s}
-              className={`h-2 rounded-full transition-all duration-300 ${i <= SCREENS.indexOf(screen) ? "bg-primary" : "bg-slate-200"} ${i === SCREENS.indexOf(screen) ? "w-8" : "w-2"}`}
+              className={`h-1.5 rounded-full transition-all duration-500 ${i <= currentIdx ? "w-8 bg-primary" : "w-2 bg-slate-100"}`}
             />
           ))}
         </div>
@@ -143,33 +164,39 @@ export default function ChallengingFoodRules() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="flex-1 flex flex-col gap-6"
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            className="flex-1 flex flex-col gap-8"
           >
             {screen === "intro" && (
-              <div className="flex-1 flex flex-col gap-8 text-center justify-center">
-                <div className="relative overflow-hidden rounded-[2.5rem] bg-white border border-slate-100 p-8 shadow-xl shadow-slate-200/50">
-                  <div className="text-6xl mb-6 animate-bounce-slow">🌿</div>
-                  <h1 className="text-2xl font-black text-slate-800 mb-4 leading-tight">
+              <div className="flex-1 flex flex-col gap-10 text-center justify-center">
+                <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50">
+                  <div className="w-20 h-20 bg-primary/10 rounded-[2rem] flex items-center justify-center mx-auto mb-8 text-4xl">
+                    🌿
+                  </div>
+                  <h1 className="text-3xl font-black text-slate-800 mb-4 leading-tight">
                     Food rules aren't laws.
                   </h1>
-                  <p className="text-slate-600 leading-relaxed text-sm">
+                  <p className="text-slate-600 font-medium leading-relaxed text-base">
                     We all carry rules about food—some helpful, some not. This is a safe space to notice one rule and gently reflect on it.
                   </p>
                 </div>
                 <button
                   onClick={goNext}
-                  className="w-full bg-primary text-white py-5 rounded-[2rem] font-black text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] transition-all flex items-center justify-center gap-3"
+                  className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                 >
                   Let's Begin
-                  <ChevronRight size={20} />
+                  <ChevronRight size={20} strokeWidth={3} />
                 </button>
               </div>
             )}
 
             {screen === "identify" && (
-              <div className="space-y-6">
-                <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] text-center">Naming the rule</p>
-                <div className="space-y-3">
+              <div className="space-y-8">
+                <header className="text-center space-y-2">
+                  <span className="text-[10px] font-black text-slate-300 uppercase tracking-[0.2em]">Naming the rule</span>
+                  <h2 className="text-2xl font-black text-slate-800">What's the rule?</h2>
+                </header>
+                <div className="space-y-4">
                   {[
                     "I shouldn't eat after a certain time",
                     "Some foods are off-limits",
@@ -178,21 +205,21 @@ export default function ChallengingFoodRules() {
                     <button
                       key={opt}
                       onClick={() => setRule(opt)}
-                      className={`w-full text-left p-5 rounded-2xl border transition-all ${rule === opt ? "bg-primary text-white border-primary" : "bg-white border-slate-100 text-slate-700"}`}
+                      className={`w-full text-left p-6 rounded-2xl border-2 transition-all ${rule === opt ? "bg-primary/5 border-primary text-primary" : "bg-white border-slate-50 text-slate-600 hover:border-slate-200"}`}
                     >
-                      <span className="font-bold text-sm">{opt}</span>
+                      <span className="font-black text-base">{opt}</span>
                     </button>
                   ))}
                   <button
                     onClick={() => setRule("__custom")}
-                    className={`w-full text-left p-5 rounded-2xl border transition-all ${rule === "__custom" ? "bg-primary text-white border-primary" : "bg-white border-slate-100 text-slate-700"}`}
+                    className={`w-full text-left p-6 rounded-2xl border-2 transition-all ${rule === "__custom" ? "bg-primary/5 border-primary text-primary" : "bg-white border-slate-50 text-slate-600 hover:border-slate-200"}`}
                   >
-                    <span className="font-bold text-sm">Something else...</span>
+                    <span className="font-black text-base">Something else...</span>
                   </button>
                 </div>
                 {rule === "__custom" && (
-                  <input
-                    className="w-full bg-slate-50 border-none rounded-2xl p-4 text-sm"
+                  <textarea
+                    className="w-full bg-white border-2 border-slate-100 rounded-2xl p-6 text-base font-bold min-h-[120px] focus:border-primary/30 outline-none transition-all"
                     placeholder="Type your food rule..."
                     value={customRule}
                     onChange={(e) => setCustomRule(e.target.value)}
@@ -201,17 +228,21 @@ export default function ChallengingFoodRules() {
                 <button
                   onClick={goNext}
                   disabled={!selectedRule}
-                  className="w-full bg-primary text-white py-5 rounded-[2rem] font-black text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] transition-all disabled:opacity-50"
+                  className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all disabled:opacity-20 flex items-center justify-center gap-3"
                 >
                   Continue
+                  <ChevronRight size={20} strokeWidth={3} />
                 </button>
               </div>
             )}
 
             {screen === "feeling" && (
-              <div className="space-y-6">
-                <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] text-center">How it makes you feel</p>
-                <div className="grid grid-cols-2 gap-3">
+              <div className="space-y-8">
+                <header className="text-center space-y-2">
+                  <span className="text-[10px] font-black text-slate-300 uppercase tracking-[0.2em]">Emotional Impact</span>
+                  <h2 className="text-2xl font-black text-slate-800">How does this feel?</h2>
+                </header>
+                <div className="grid grid-cols-2 gap-4">
                   {[
                     "😟 Anxious",
                     "😌 In control",
@@ -223,93 +254,96 @@ export default function ChallengingFoodRules() {
                     <button
                       key={opt}
                       onClick={() => setFeeling(opt)}
-                      className={`p-4 rounded-2xl border text-center transition-all ${feeling === opt ? "bg-primary text-white border-primary" : "bg-white border-slate-100 text-slate-700"}`}
+                      className={`p-6 rounded-3xl border-2 text-center transition-all ${feeling === opt ? "bg-primary/5 border-primary text-primary shadow-lg shadow-primary/5" : "bg-white border-slate-50 text-slate-600 hover:border-slate-200"}`}
                     >
-                      <span className="font-bold text-xs">{opt}</span>
+                      <span className="font-black text-sm">{opt}</span>
                     </button>
                   ))}
                 </div>
                 <button
                   onClick={goNext}
                   disabled={!selectedFeeling}
-                  className="w-full bg-primary text-white py-5 rounded-[2rem] font-black text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] transition-all disabled:opacity-50"
+                  className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all disabled:opacity-20 flex items-center justify-center gap-3"
                 >
                   Next
+                  <ChevronRight size={20} strokeWidth={3} />
                 </button>
               </div>
             )}
 
             {screen === "challenge" && (
-              <div className="space-y-6">
-                <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] text-center">Soft Challenge</p>
+              <div className="space-y-8">
+                <header className="text-center space-y-2">
+                  <span className="text-[10px] font-black text-slate-300 uppercase tracking-[0.2em]">Soft Challenge</span>
+                  <h2 className="text-2xl font-black text-slate-800">Gently question...</h2>
+                </header>
                 <div className="space-y-4">
                   {Object.keys(reflections).map((opt) => (
-                    <div key={opt} className="space-y-2">
+                    <div key={opt} className="space-y-3">
                       <button
                         onClick={() => setChallengeChoice(opt)}
-                        className={`w-full text-left p-5 rounded-2xl border transition-all ${challengeChoice === opt ? "bg-slate-800 text-white border-slate-800" : "bg-white border-slate-100 text-slate-700"}`}
+                        className={`w-full text-left p-6 rounded-2xl border-2 transition-all ${challengeChoice === opt ? "bg-slate-800 text-white border-slate-800 shadow-xl" : "bg-white border-slate-50 text-slate-600 hover:border-slate-200"}`}
                       >
-                        <span className="font-bold text-sm">{opt}</span>
+                        <span className="font-black text-base">{opt}</span>
                       </button>
-                      {challengeChoice === opt && (
-                        <motion.div
-                          initial={{ opacity: 0, height: 0 }}
-                          animate={{ opacity: 1, height: "auto" }}
-                          className="bg-amber-50 rounded-2xl p-6 border border-amber-100"
-                        >
-                          <p className="text-amber-900 text-xs italic leading-relaxed">{reflections[opt]}</p>
-                        </motion.div>
-                      )}
+                      <AnimatePresence>
+                        {challengeChoice === opt && (
+                          <motion.div
+                            initial={{ opacity: 0, height: 0 }}
+                            animate={{ opacity: 1, height: "auto" }}
+                            exit={{ opacity: 0, height: 0 }}
+                            className="overflow-hidden"
+                          >
+                            <div className="bg-amber-50 rounded-2xl p-6 border border-amber-100">
+                              <p className="text-amber-900 text-sm font-bold italic leading-relaxed">{reflections[opt]}</p>
+                            </div>
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
                     </div>
                   ))}
                 </div>
                 <button
                   onClick={goNext}
                   disabled={!challengeChoice}
-                  className="w-full bg-primary text-white py-5 rounded-[2rem] font-black text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] transition-all disabled:opacity-50"
+                  className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all disabled:opacity-20 flex items-center justify-center gap-3"
                 >
                   Continue
+                  <ChevronRight size={20} strokeWidth={3} />
                 </button>
               </div>
             )}
 
             {screen === "takeaway" && (
-              <div className="flex-1 flex flex-col gap-8 text-center justify-center">
-                <div className="bg-white border border-slate-100 rounded-[2.5rem] p-8 shadow-xl shadow-slate-200/50 space-y-6 text-left">
-                  <span className="inline-block rounded-full bg-primary/10 text-primary px-3 py-1 text-[10px] font-black uppercase tracking-widest">
-                    Summary
-                  </span>
-                  <div className="space-y-4">
-                    <p className="text-sm"><span className="font-black text-slate-800">The Rule:</span> {selectedRule}</p>
-                    <p className="text-sm"><span className="font-black text-slate-800">The Feeling:</span> {selectedFeeling}</p>
-                    <p className="text-sm"><span className="font-black text-slate-800">The Impact:</span> {selectedImpact}</p>
+              <div className="flex-1 flex flex-col gap-10 text-center justify-center">
+                <div className="bg-white border border-slate-100 rounded-[3rem] p-10 shadow-2xl shadow-slate-200/50 space-y-8 text-left relative overflow-hidden">
+                   <div className="absolute top-0 right-0 p-8 text-primary/10">
+                    <Sparkles size={64} />
+                  </div>
+                  <header className="space-y-2">
+                    <span className="inline-block rounded-full bg-primary/5 text-primary px-4 py-1.5 text-[10px] font-black uppercase tracking-widest">
+                      Your Reflection
+                    </span>
+                    <h3 className="text-2xl font-black text-slate-800">Reflection Saved</h3>
+                  </header>
+                  <div className="space-y-6">
+                    <div className="space-y-1">
+                      <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest">The Rule</p>
+                      <p className="text-slate-700 font-bold text-lg">{selectedRule}</p>
+                    </div>
+                    <div className="space-y-1">
+                      <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest">The Feeling</p>
+                      <p className="text-slate-700 font-bold text-lg">{selectedFeeling}</p>
+                    </div>
                   </div>
                 </div>
                 <button
                   onClick={saveRule}
                   disabled={isSaving}
-                  className="w-full bg-primary text-white py-5 rounded-[2rem] font-black text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] transition-all flex items-center justify-center gap-3"
+                  className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                 >
-                  <Save size={20} />
+                  <Save size={20} strokeWidth={3} />
                   {isSaving ? "Preserving..." : "Preserve Reflection"}
-                </button>
-              </div>
-            )}
-
-            {screen === "close" && (
-              <div className="flex-1 flex flex-col gap-8 text-center justify-center">
-                <div className="bg-emerald-50 rounded-[2.5rem] p-8 border border-emerald-100 flex flex-col items-center gap-4">
-                  <Heart className="text-emerald-500 w-12 h-12" />
-                  <h2 className="text-xl font-black text-emerald-900">Take care.</h2>
-                  <p className="text-emerald-800 text-sm leading-relaxed">
-                    Awareness is the first step toward freedom. You can come back anytime to explore another rule.
-                  </p>
-                </div>
-                <button
-                  onClick={() => window.history.back()}
-                  className="w-full bg-slate-800 text-white py-5 rounded-[2rem] font-black text-lg shadow-xl hover:scale-[1.02] transition-all"
-                >
-                  Finish Session
                 </button>
               </div>
             )}
@@ -319,3 +353,4 @@ export default function ChallengingFoodRules() {
     </PremiumLayout>
   );
 }
+

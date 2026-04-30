@@ -5,9 +5,12 @@ import { SortThoughts } from "./SortThoughts";
 import { OneSmallStep } from "./OneSmallStep";
 import { Reflection } from "./Reflection";
 import { SavedThoughts, type SavedSession } from "./SavedThoughts";
-import { History, Loader2 } from "lucide-react";
+import { History, Loader2, Brain, Sparkles } from "lucide-react";
 import { initializeUser, fetchUserSessions, saveSession, deleteSession } from "../lib/db-service";
 import { LanguageSelector } from "./LanguageSelector";
+import { PremiumLayout } from "@/components/shared/PremiumLayout";
+import { PremiumComplete } from "@/components/shared/PremiumComplete";
+import { motion, AnimatePresence } from "framer-motion";
 
 import { ThoughtItem } from "./types";
 
@@ -86,7 +89,7 @@ const BrainDumpApp = () => {
 
     // Reset for new session
     setThoughts([]);
-    goTo(0);
+    goTo(5); // Completion Screen
   };
 
   const handleDeleteSession = async (id: string) => {
@@ -110,13 +113,30 @@ const BrainDumpApp = () => {
 
   if (showSaved) {
     return (
-      <div className="relative">
-        <SavedThoughts
-          sessions={savedSessions}
-          onBack={() => setShowSaved(false)}
-          onDelete={handleDeleteSession}
-        />
-      </div>
+      <PremiumLayout
+        title="Past Sessions"
+        subtitle="Your mental clarity journey"
+        icon={<History className="w-6 h-6 text-primary" />}
+        onBack={() => setShowSaved(false)}
+      >
+        <div className="w-full max-w-md mx-auto px-6 py-4">
+          <SavedThoughts
+            sessions={savedSessions}
+            onBack={() => setShowSaved(false)}
+            onDelete={handleDeleteSession}
+          />
+        </div>
+      </PremiumLayout>
+    );
+  }
+
+  if (screen === 5) {
+    return (
+      <PremiumComplete
+        title="Mind Decluttered"
+        message="You've successfully sorted your thoughts and identified actionable steps. A clearer mind leads to a calmer heart."
+        onRestart={() => goTo(0)}
+      />
     );
   }
 
@@ -128,32 +148,50 @@ const BrainDumpApp = () => {
     <Reflection key="reflect" onComplete={handleReflectionComplete} onBack={() => goTo(0)} />,
   ];
 
-  return (
-    <div className="relative w-full">
-      {screen === 0 && savedSessions.length > 0 && (
-        <div className="flex justify-center mb-6">
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            onClick={() => setShowSaved(true)}
-            className="flex items-center gap-2 text-slate-500 hover:text-primary font-bold text-xs uppercase tracking-widest transition-colors"
-          >
-            <History size={16} />
-            View Past Sessions
-          </motion.button>
-        </div>
-      )}
+  const subtitles = [
+    "Welcome",
+    "Mental Clearing",
+    "Sorting",
+    "Action Steps",
+    "Reflection"
+  ];
 
-      <div
-        className={`transition-all duration-500 ease-in-out ${
-          transitioning ? "opacity-0 translate-y-4" : "opacity-100 translate-y-0"
-        }`}
-      >
-        {screens[screen]}
+  return (
+    <PremiumLayout
+      title="Brain Dump & Sort"
+      subtitle={subtitles[screen]}
+      icon={<Brain className="w-6 h-6 text-primary" />}
+      onBack={screen > 0 ? () => goTo(screen - 1) : undefined}
+      actions={screen === 0 && savedSessions.length > 0 ? (
+        <button onClick={() => setShowSaved(true)} className="p-2 rounded-full hover:bg-slate-100 transition-colors text-slate-600">
+          <History size={20} />
+        </button>
+      ) : undefined}
+    >
+      <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4 min-h-[70vh]" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
+        <div className="flex justify-center gap-2 mb-10">
+          {[0, 1, 2, 3, 4].map((i) => (
+            <div
+              key={i}
+              className={`h-1.5 rounded-full transition-all duration-500 ${i <= screen ? "w-8 bg-primary" : "w-2 bg-slate-100"}`}
+            />
+          ))}
+        </div>
+
+        <div
+          className={`transition-all duration-500 ease-in-out flex-1 flex flex-col ${
+            transitioning ? "opacity-0 translate-y-4" : "opacity-100 translate-y-0"
+          }`}
+        >
+          {screens[screen]}
+        </div>
       </div>
-    </div>
+    </PremiumLayout>
   );
 };
+
+export default BrainDumpApp;
+
 
 export default BrainDumpApp;
 
