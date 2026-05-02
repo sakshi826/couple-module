@@ -50,18 +50,17 @@ const TodaySummary = () => {
     <PremiumLayout 
       title={t("summary_title")}
       icon={<Sparkles className="h-6 w-6" />}
-      onBack={() => {
-        if (window.parent !== window) {
-          window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
-        } else {
-          window.location.href = 'https://web.mantracare.com';
-        }
-      }}
     >
       <PremiumComplete
         title={t("today_energy", { label: labelMap[level] })}
         message={messages[level]}
-        onRestart={() => navigate("..")}
+        onRestart={() => navigate("/")}
+        onHome={() => {
+          if (window.parent !== window) {
+            window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
+          }
+          window.location.href = 'https://web.mantracare.com';
+        }}
         icon={<span className="text-6xl">{emojiMap[level]}</span>}
       >
         <div className="space-y-6 w-full max-w-md mx-auto mt-8">

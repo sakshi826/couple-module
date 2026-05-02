@@ -21,17 +21,15 @@ const AnimatedRoutes = () => {
   const location = useLocation();
 
   return (
-    <AnimatePresence mode="wait">
-      <PageTransition key={location.pathname}>
-        <Routes location={location}>
-          <Route path="/" element={<AuthGuard><EnergyCheckIn /></AuthGuard>} />
-          <Route path="/factors" element={<AuthGuard><EnergyFactors /></AuthGuard>} />
-          <Route path="/summary" element={<AuthGuard><TodaySummary /></AuthGuard>} />
-          <Route path="/weekly" element={<AuthGuard><WeeklyOverview /></AuthGuard>} />
-          <Route path="*" element={<AuthGuard><NotFound /></AuthGuard>} />
-        </Routes>
-      </PageTransition>
-    </AnimatePresence>
+    <PageTransition>
+      <Routes location={location}>
+        <Route path="/" element={<AuthGuard><EnergyCheckIn /></AuthGuard>} />
+        <Route path="/factors" element={<AuthGuard><EnergyFactors /></AuthGuard>} />
+        <Route path="/summary" element={<AuthGuard><TodaySummary /></AuthGuard>} />
+        <Route path="/weekly" element={<AuthGuard><WeeklyOverview /></AuthGuard>} />
+        <Route path="*" element={<AuthGuard><NotFound /></AuthGuard>} />
+      </Routes>
+    </PageTransition>
   );
 };
 
