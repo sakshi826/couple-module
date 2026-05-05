@@ -58,6 +58,7 @@ const FoodEmotionMap = React.lazy(() => import("../features/food_emotion_map"));
 const ChallengingFoodRules = React.lazy(() => import("../features/challenging_food_rules"));
 const UnderstandingControl = React.lazy(() => import("../features/understanding_control"));
 const CompassionBreak = React.lazy(() => import("../features/compassion_break"));
+const Resources = React.lazy(() => import("../features/resources"));
 
 
 function ProtectedLayout() {
@@ -138,7 +139,8 @@ export const router = createBrowserRouter([
           { path: "tools/food-emotion-map/*", element: withLoading(<FoodEmotionMap />) },
           { path: "tools/challenging-food-rules/*", element: withLoading(<ChallengingFoodRules />) },
           { path: "tools/understanding-control/*", element: withLoading(<UnderstandingControl />) },
-          { path: "exercises/compassion-break/*", element: withLoading(<CompassionBreak />) }
+          { path: "exercises/compassion-break/*", element: withLoading(<CompassionBreak />) },
+          { path: "resources/:concern/:type/*", element: withLoading(<Resources />) }
 
         ]
       },

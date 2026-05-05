@@ -1,0 +1,31 @@
+.prose {
+  @apply text-slate-700 leading-relaxed;
+}
+
+.prose p {
+  @apply mb-6;
+}
+
+.prose h1, .prose h2, .prose h3 {
+  @apply font-black text-slate-900 tracking-tight mt-10 mb-4;
+}
+
+.prose h2 {
+  @apply text-2xl;
+}
+
+.prose ul, .prose ol {
+  @apply mb-6 pl-6;
+}
+
+.prose li {
+  @apply mb-2;
+}
+
+.prose strong {
+  @apply font-black text-slate-900;
+}
+
+.prose blockquote {
+  @apply border-l-4 border-primary/20 pl-6 italic text-slate-500 my-8;
+}

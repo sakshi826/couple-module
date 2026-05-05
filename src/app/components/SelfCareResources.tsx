@@ -138,10 +138,10 @@ const topicDetails: Record<string, {
       { title: "Letter to Self", icon: Mail, url: "/tools/a-letter-to-self" },
     ],
     resources: [
-      { title: "Articles", count: 35, icon: Newspaper, url: "/concerns/depression/articles" },
+      { title: "Articles", count: 35, icon: Newspaper, url: "/resources/depression/articles" },
       { title: "Tips", count: 25, icon: Lightbulb, url: "/tips/depression-tips" },
-      { title: "Stories", count: 18, icon: BookMarked, url: "/concerns/depression/stories" },
-      { title: "Myths", count: 12, icon: HelpCircle, url: "/concerns/depression/myths" },
+      { title: "Stories", count: 18, icon: BookMarked, url: "/resources/depression/stories" },
+      { title: "Myths", count: 12, icon: HelpCircle, url: "/resources/depression/myths" },
     ],
   },
   anxiety: {
@@ -160,10 +160,10 @@ const topicDetails: Record<string, {
       { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
     ],
     resources: [
-      { title: "Articles", count: 30, icon: Newspaper, url: "/concerns/anxiety/articles" },
+      { title: "Articles", count: 30, icon: Newspaper, url: "/resources/anxiety/articles" },
       { title: "Tips", count: 22, icon: Lightbulb, url: "/tips/anxiety-tips" },
       { title: "Stories", count: 15, icon: BookMarked, url: "/tools/real-stories-to-overcome-anxiety" },
-      { title: "Myths", count: 10, icon: HelpCircle, url: "/concerns/anxiety/myths" },
+      { title: "Myths", count: 10, icon: HelpCircle, url: "/resources/anxiety/myths" },
     ],
   },
   stress: {
@@ -182,10 +182,10 @@ const topicDetails: Record<string, {
       { title: "Environment Optimization", icon: Compass, url: "/tools/environment-optimization" },
     ],
     resources: [
-      { title: "Articles", count: 28, icon: Newspaper, url: "/concerns/stress/articles" },
+      { title: "Articles", count: 28, icon: Newspaper, url: "/resources/stress/articles" },
       { title: "Tips", count: 20, icon: Lightbulb, url: "/tips/stress-tips" },
-      { title: "Stories", count: 10, icon: BookMarked, url: "/concerns/stress/stories" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "/concerns/stress/myths" },
+      { title: "Stories", count: 10, icon: BookMarked, url: "/resources/stress/stories" },
+      { title: "Myths", count: 6, icon: HelpCircle, url: "/resources/stress/myths" },
     ],
   },
   sleep: {
@@ -204,10 +204,10 @@ const topicDetails: Record<string, {
       { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
     ],
     resources: [
-      { title: "Articles", count: 20, icon: Newspaper, url: "/concerns/sleep/articles" },
+      { title: "Articles", count: 20, icon: Newspaper, url: "/resources/sleep/articles" },
       { title: "Tips", count: 15, icon: Lightbulb, url: "/tips/sleep-guide" },
-      { title: "Stories", count: 10, icon: BookMarked, url: "/concerns/sleep/stories" },
-      { title: "Myths", count: 7, icon: HelpCircle, url: "/concerns/sleep/myths" },
+      { title: "Stories", count: 10, icon: BookMarked, url: "/resources/sleep/stories" },
+      { title: "Myths", count: 7, icon: HelpCircle, url: "/resources/sleep/myths" },
     ],
   },
   adolescent: {
@@ -226,10 +226,10 @@ const topicDetails: Record<string, {
       { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
     ],
     resources: [
-      { title: "Articles", count: 18, icon: Newspaper, url: "/concerns/adolescent/articles" },
-      { title: "Tips", count: 14, icon: Lightbulb, url: "/concerns/adolescent/tips" },
-      { title: "Stories", count: 10, icon: BookMarked, url: "/concerns/adolescent/stories" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "/concerns/adolescent/myths" },
+      { title: "Articles", count: 18, icon: Newspaper, url: "/resources/adolescent/articles" },
+      { title: "Tips", count: 14, icon: Lightbulb, url: "/resources/adolescent/tips" },
+      { title: "Stories", count: 10, icon: BookMarked, url: "/resources/adolescent/stories" },
+      { title: "Myths", count: 6, icon: HelpCircle, url: "/resources/adolescent/myths" },
     ],
   },
   relationship: {
@@ -248,10 +248,10 @@ const topicDetails: Record<string, {
       { title: "Personal Mission Statement", icon: Compass, url: "/tools/personal-mission-statement" },
     ],
     resources: [
-      { title: "Articles", count: 22, icon: Newspaper, url: "/concerns/relationship/articles" },
-      { title: "Tips", count: 16, icon: Lightbulb, url: "/concerns/relationship/tips" },
-      { title: "Stories", count: 12, icon: BookMarked, url: "/concerns/relationship/stories" },
-      { title: "Myths", count: 8, icon: HelpCircle, url: "/concerns/relationship/myths" },
+      { title: "Articles", count: 22, icon: Newspaper, url: "/resources/relationship/articles" },
+      { title: "Tips", count: 16, icon: Lightbulb, url: "/resources/relationship/tips" },
+      { title: "Stories", count: 12, icon: BookMarked, url: "/resources/relationship/stories" },
+      { title: "Myths", count: 8, icon: HelpCircle, url: "/resources/relationship/myths" },
     ],
   },
   workplace: {
@@ -270,10 +270,10 @@ const topicDetails: Record<string, {
       { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
     ],
     resources: [
-      { title: "Articles", count: 25, icon: Newspaper, url: "/concerns/workplace/articles" },
-      { title: "Tips", count: 18, icon: Lightbulb, url: "/concerns/workplace/tips" },
-      { title: "Stories", count: 10, icon: BookMarked, url: "/concerns/workplace/stories" },
-      { title: "Myths", count: 7, icon: HelpCircle, url: "/concerns/workplace/myths" },
+      { title: "Articles", count: 25, icon: Newspaper, url: "/resources/workplace/articles" },
+      { title: "Tips", count: 18, icon: Lightbulb, url: "/resources/workplace/tips" },
+      { title: "Stories", count: 10, icon: BookMarked, url: "/resources/workplace/stories" },
+      { title: "Myths", count: 7, icon: HelpCircle, url: "/resources/workplace/myths" },
     ],
   },
   parenting: {
@@ -292,10 +292,10 @@ const topicDetails: Record<string, {
       { title: "Letter to Self", icon: Mail, url: "/tools/a-letter-to-self" },
     ],
     resources: [
-      { title: "Articles", count: 20, icon: Newspaper, url: "/concerns/parenting/articles" },
-      { title: "Tips", count: 15, icon: Lightbulb, url: "/concerns/parenting/tips" },
-      { title: "Stories", count: 10, icon: BookMarked, url: "/concerns/parenting/stories" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "/concerns/parenting/myths" },
+      { title: "Articles", count: 20, icon: Newspaper, url: "/resources/parenting/articles" },
+      { title: "Tips", count: 15, icon: Lightbulb, url: "/resources/parenting/tips" },
+      { title: "Stories", count: 10, icon: BookMarked, url: "/resources/parenting/stories" },
+      { title: "Myths", count: 6, icon: HelpCircle, url: "/resources/parenting/myths" },
     ],
   },
   anger: {
@@ -314,9 +314,9 @@ const topicDetails: Record<string, {
       { title: "Energy Tracker", icon: Zap, url: "/trackers/energy-tracker" },
     ],
     resources: [
-      { title: "Articles", count: 18, icon: Newspaper, url: "/concerns/anger/articles" },
+      { title: "Articles", count: 18, icon: Newspaper, url: "/resources/anger/articles" },
       { title: "Tips", count: 14, icon: Lightbulb, url: "/tips/anger-facts-myths" },
-      { title: "Stories", count: 8, icon: BookMarked, url: "/concerns/anger/stories" },
+      { title: "Stories", count: 8, icon: BookMarked, url: "/resources/anger/stories" },
       { title: "Myths", count: 5, icon: HelpCircle, url: "/tips/anger-facts-myths" },
     ],
   },
@@ -336,10 +336,10 @@ const topicDetails: Record<string, {
       { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
     ],
     resources: [
-      { title: "Articles", count: 16, icon: Newspaper, url: "/concerns/grief/articles" },
-      { title: "Tips", count: 12, icon: Lightbulb, url: "/concerns/grief/tips" },
-      { title: "Stories", count: 10, icon: BookMarked, url: "/concerns/grief/stories" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "/concerns/grief/myths" },
+      { title: "Articles", count: 16, icon: Newspaper, url: "/resources/grief/articles" },
+      { title: "Tips", count: 12, icon: Lightbulb, url: "/resources/grief/tips" },
+      { title: "Stories", count: 10, icon: BookMarked, url: "/resources/grief/stories" },
+      { title: "Myths", count: 6, icon: HelpCircle, url: "/resources/grief/myths" },
     ],
   },
   ptsd: {
@@ -358,10 +358,10 @@ const topicDetails: Record<string, {
       { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
     ],
     resources: [
-      { title: "Articles", count: 20, icon: Newspaper, url: "/concerns/ptsd/articles" },
-      { title: "Tips", count: 15, icon: Lightbulb, url: "/concerns/ptsd/tips" },
-      { title: "Stories", count: 10, icon: BookMarked, url: "/concerns/ptsd/stories" },
-      { title: "Myths", count: 7, icon: HelpCircle, url: "/concerns/ptsd/myths" },
+      { title: "Articles", count: 20, icon: Newspaper, url: "/resources/ptsd/articles" },
+      { title: "Tips", count: 15, icon: Lightbulb, url: "/resources/ptsd/tips" },
+      { title: "Stories", count: 10, icon: BookMarked, url: "/resources/ptsd/stories" },
+      { title: "Myths", count: 7, icon: HelpCircle, url: "/resources/ptsd/myths" },
     ],
   },
   acceptance: {
@@ -380,10 +380,10 @@ const topicDetails: Record<string, {
       { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
     ],
     resources: [
-      { title: "Articles", count: 16, icon: Newspaper, url: "/concerns/acceptance/articles" },
-      { title: "Tips", count: 12, icon: Lightbulb, url: "/concerns/acceptance/tips" },
-      { title: "Stories", count: 8, icon: BookMarked, url: "/concerns/acceptance/stories" },
-      { title: "Myths", count: 5, icon: HelpCircle, url: "/concerns/acceptance/myths" },
+      { title: "Articles", count: 16, icon: Newspaper, url: "/resources/acceptance/articles" },
+      { title: "Tips", count: 12, icon: Lightbulb, url: "/resources/acceptance/tips" },
+      { title: "Stories", count: 8, icon: BookMarked, url: "/resources/acceptance/stories" },
+      { title: "Myths", count: 5, icon: HelpCircle, url: "/resources/acceptance/myths" },
     ],
   },
   postpartum: {
@@ -402,10 +402,10 @@ const topicDetails: Record<string, {
       { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
     ],
     resources: [
-      { title: "Articles", count: 18, icon: Newspaper, url: "/concerns/postpartum/articles" },
-      { title: "Tips", count: 14, icon: Lightbulb, url: "/concerns/postpartum/tips" },
-      { title: "Stories", count: 10, icon: BookMarked, url: "/concerns/postpartum/stories" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "/concerns/postpartum/myths" },
+      { title: "Articles", count: 18, icon: Newspaper, url: "/resources/postpartum/articles" },
+      { title: "Tips", count: 14, icon: Lightbulb, url: "/resources/postpartum/tips" },
+      { title: "Stories", count: 10, icon: BookMarked, url: "/resources/postpartum/stories" },
+      { title: "Myths", count: 6, icon: HelpCircle, url: "/resources/postpartum/myths" },
     ],
   },
   sexuality: {
@@ -424,10 +424,10 @@ const topicDetails: Record<string, {
       { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
     ],
     resources: [
-      { title: "Articles", count: 16, icon: Newspaper, url: "/concerns/sexuality/articles" },
-      { title: "Tips", count: 12, icon: Lightbulb, url: "/concerns/sexuality/tips" },
-      { title: "Stories", count: 8, icon: BookMarked, url: "/concerns/sexuality/stories" },
-      { title: "Myths", count: 5, icon: HelpCircle, url: "/concerns/sexuality/myths" },
+      { title: "Articles", count: 16, icon: Newspaper, url: "/resources/sexuality/articles" },
+      { title: "Tips", count: 12, icon: Lightbulb, url: "/resources/sexuality/tips" },
+      { title: "Stories", count: 8, icon: BookMarked, url: "/resources/sexuality/stories" },
+      { title: "Myths", count: 5, icon: HelpCircle, url: "/resources/sexuality/myths" },
     ],
   },
   "eating-disorder": {
@@ -446,10 +446,10 @@ const topicDetails: Record<string, {
       { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
     ],
     resources: [
-      { title: "Articles", count: 18, icon: Newspaper, url: "/concerns/eating-disorder/articles" },
-      { title: "Tips", count: 14, icon: Lightbulb, url: "/concerns/eating-disorder/tips" },
-      { title: "Stories", count: 10, icon: BookMarked, url: "/concerns/eating-disorder/stories" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "/concerns/eating-disorder/myths" },
+      { title: "Articles", count: 18, icon: Newspaper, url: "/resources/eating-disorder/articles" },
+      { title: "Tips", count: 14, icon: Lightbulb, url: "/resources/eating-disorder/tips" },
+      { title: "Stories", count: 10, icon: BookMarked, url: "/resources/eating-disorder/stories" },
+      { title: "Myths", count: 6, icon: HelpCircle, url: "/resources/eating-disorder/myths" },
     ],
   },
   ocd: {
@@ -468,10 +468,10 @@ const topicDetails: Record<string, {
       { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
     ],
     resources: [
-      { title: "Articles", count: 20, icon: Newspaper, url: "/concerns/ocd/articles" },
-      { title: "Tips", count: 15, icon: Lightbulb, url: "/concerns/ocd/tips" },
-      { title: "Stories", count: 10, icon: BookMarked, url: "/concerns/ocd/stories" },
-      { title: "Myths", count: 7, icon: HelpCircle, url: "/concerns/ocd/myths" },
+      { title: "Articles", count: 20, icon: Newspaper, url: "/resources/ocd/articles" },
+      { title: "Tips", count: 15, icon: Lightbulb, url: "/resources/ocd/tips" },
+      { title: "Stories", count: 10, icon: BookMarked, url: "/resources/ocd/stories" },
+      { title: "Myths", count: 7, icon: HelpCircle, url: "/resources/ocd/myths" },
     ],
   },
 };
