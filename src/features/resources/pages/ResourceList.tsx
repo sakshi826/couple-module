@@ -34,27 +34,7 @@ const ResourceList = () => {
   return (
     <PremiumLayout title={title}>
       <div className="w-full space-y-12 pb-24">
-        <header className="space-y-6 pt-4">
-          <div className="flex items-center gap-3">
-            <span className={`px-4 py-1 rounded-full text-[10px] font-black uppercase tracking-[0.2em] ${colorClass}`}>
-              {type}
-            </span>
-            <span className="w-1 h-1 rounded-full bg-slate-300" />
-            <span className="text-slate-400 text-[10px] font-black uppercase tracking-[0.2em]">
-              {concern} Care
-            </span>
-          </div>
-          
-          <div className="space-y-3">
-            <h1 className="text-5xl font-black text-slate-900 leading-[1.1] tracking-tight">
-              {concern?.charAt(0).toUpperCase()}{concern?.slice(1)}<br/>
-              <span className="text-primary">{type?.charAt(0).toUpperCase()}{type?.slice(1)}</span>
-            </h1>
-            <p className="text-slate-500 text-lg font-bold leading-relaxed max-w-lg">
-              Explore curated {type} designed to help you navigate {concern} with clarity and compassion.
-            </p>
-          </div>
-        </header>
+
 
         <div className="grid gap-6">
           {resources.length > 0 ? (

@@ -498,7 +498,7 @@ export function SelfCareResources() {
 
   return (
     <div className="flex min-h-screen bg-[#F6F8FB]">
-      <MobileNav />
+
       <div className="flex-1 flex flex-col min-w-0 bg-[#F6F8FB]">
         <main className="max-w-4xl w-full mx-auto px-4 md:px-6 py-4 md:py-8 pt-[24px] md:pt-8">
           <AnimatePresence mode="wait">

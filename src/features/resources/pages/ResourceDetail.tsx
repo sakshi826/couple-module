@@ -120,26 +120,7 @@ const ResourceDetail = () => {
 
   const renderArticle = (article: Article) => (
     <div className="w-full space-y-12 pb-24">
-      <header className="space-y-8 pt-6">
-        <div className="flex items-center gap-4">
-          <span className="px-4 py-2 bg-emerald-50 text-emerald-600 rounded-full text-[10px] font-black uppercase tracking-[0.2em] flex items-center gap-2 border border-emerald-100">
-            <Tag size={12} strokeWidth={3} />
-            {article.tag}
-          </span>
-          <span className="text-slate-400 text-[10px] font-black uppercase tracking-[0.2em] flex items-center gap-2">
-            <Clock size={12} strokeWidth={3} />
-            {article.readTime}
-          </span>
-        </div>
-        
-        <h1 className="text-5xl font-black text-slate-900 leading-[1.1] tracking-tight">{article.title}</h1>
-        
-        {article.deck && (
-          <p className="text-2xl text-slate-500 font-bold leading-relaxed border-l-8 border-emerald-100 pl-10 italic">
-            {article.deck}
-          </p>
-        )}
-      </header>
+
 
       <article className="prose prose-slate max-w-none">
         <div 
@@ -169,18 +150,7 @@ const ResourceDetail = () => {
 
   const renderStory = (story: Story) => (
     <div className="w-full space-y-16 pb-24">
-      <header className="space-y-10 pt-6">
-        <div className="flex items-center gap-8">
-          <div className="w-24 h-24 rounded-[2.5rem] bg-amber-50 flex items-center justify-center text-amber-500 border-4 border-white shadow-2xl rotate-3">
-             <Quote size={48} fill="currentColor" opacity={0.2} />
-          </div>
-          <div className="space-y-2">
-            <h1 className="text-5xl font-black text-slate-900 tracking-tight">{story.name}, {story.age}</h1>
-            <p className="text-amber-500 font-black text-[11px] uppercase tracking-[0.3em] bg-amber-50 px-4 py-1.5 rounded-full inline-block border border-amber-100">
-                {story.identity}
-            </p>
-          </div>
-        </div>
+
         
         <div className="relative p-12 bg-white rounded-[4rem] border-2 border-slate-100 shadow-sm overflow-hidden group hover:border-amber-200 transition-all duration-500">
           <div className="absolute -top-10 -right-10 p-12 text-amber-50 pointer-events-none group-hover:text-amber-100/50 transition-colors duration-700">
@@ -231,13 +201,7 @@ const ResourceDetail = () => {
 
   const renderMyth = (myth: Myth) => (
     <div className="w-full space-y-16 pb-24">
-      <header className="space-y-8 pt-6">
-        <div className="inline-flex items-center gap-3 text-indigo-500 font-black text-[11px] uppercase tracking-[0.4em] bg-indigo-50 px-6 py-2 rounded-full border border-indigo-100">
-            <HelpCircle size={16} strokeWidth={3} />
-            The Common Myth
-        </div>
-        <h1 className="text-6xl font-black text-slate-900 leading-[1.1] tracking-tight">{myth.myth}</h1>
-      </header>
+
 
       <motion.section 
           initial={{ opacity: 0, scale: 0.9 }}
