@@ -220,11 +220,7 @@ const ResourceDetail = () => {
   );
 
   return (
-    <PremiumLayout 
-      title={resource.title} 
-      onSecondaryBack={() => navigate(-1)}
-      secondaryBackLabel={`Back to ${type}`}
-    >
+    <PremiumLayout title={resource.title}>
       <div className="max-w-3xl mx-auto">
         {resource.type === 'tips' && renderTip(resource as Tip)}
         {resource.type === 'articles' && renderArticle(resource as Article)}
