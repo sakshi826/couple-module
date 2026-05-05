@@ -71,7 +71,7 @@ const Index = () => {
                 transition={{ delay: i * 0.1 }}
                 whileHover={{ scale: 1.02, x: 5 }}
                 whileTap={{ scale: 0.98 }}
-                onClick={() => navigate(`/tip/${tip.id}`)}
+                onClick={() => navigate(`tip/${tip.id}`)}
                 className="w-full text-left p-6 rounded-[2.5rem] bg-white border-2 border-slate-100 shadow-sm hover:shadow-xl hover:shadow-primary/5 hover:border-primary/20 transition-all flex items-center gap-6 group"
               >
                 <div className="w-16 h-16 rounded-3xl bg-slate-50 flex items-center justify-center shrink-0 group-hover:bg-primary/10 transition-all">

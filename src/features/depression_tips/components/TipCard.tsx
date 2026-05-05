@@ -26,7 +26,7 @@ export default function TipCard({ tip, index }: { tip: Tip; index: number }) {
       transition={{ delay: index * 0.1 }}
       whileHover={{ scale: 1.02, x: 5 }}
       whileTap={{ scale: 0.98 }}
-      onClick={() => navigate(`/tip/${tip.id}`)}
+      onClick={() => navigate(`tip/${tip.id}`)}
       className="w-full text-left p-6 rounded-[2.5rem] bg-white border-2 border-slate-100 shadow-sm hover:shadow-md hover:border-primary/20 transition-all flex items-center gap-5 group"
     >
       <div className="w-14 h-14 rounded-2xl bg-slate-50 flex items-center justify-center shrink-0 group-hover:bg-primary/10 group-hover:text-primary transition-colors">

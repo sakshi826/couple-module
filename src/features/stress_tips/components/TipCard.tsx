@@ -16,7 +16,7 @@ const TipCard = ({ icon, iconClass, title, description, slug, delay = 0 }: TipCa
 
   return (
     <button
-      onClick={() => navigate(`/tip/${slug}`)}
+      onClick={() => navigate(`tip/${slug}`)}
       className="wellness-card w-full flex items-center gap-4 text-left"
       style={{ animationDelay: `${delay}ms` }}
     >
