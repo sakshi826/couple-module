@@ -1,44 +1,49 @@
-.prose {
-  color: #334155; /* slate-700 */
-  line-height: 1.625; /* leading-relaxed */
+@reference "../../styles/index.css";
+
+.article-content p {
+  margin-bottom: 2rem;
 }
 
-.prose p {
-  margin-bottom: 1.5rem; /* mb-6 */
+.article-content h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: #0f172a;
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
 }
 
-.prose h1, .prose h2, .prose h3 {
-  font-weight: 900; /* font-black */
-  color: #0f172a; /* slate-900 */
-  letter-spacing: -0.025em; /* tracking-tight */
-  margin-top: 2.5rem; /* mt-10 */
-  margin-bottom: 1rem; /* mb-4 */
+.article-content h3 {
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: #1e293b;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: -0.025em;
 }
 
-.prose h2 {
-  font-size: 1.5rem; /* text-2xl */
+.article-content ul, .article-content ol {
+  margin-bottom: 2rem;
+  padding-left: 2rem;
 }
 
-.prose ul, .prose ol {
-  margin-bottom: 1.5rem; /* mb-6 */
-  padding-left: 1.5rem; /* pl-6 */
+.article-content li {
+  margin-bottom: 1rem;
+  position: relative;
 }
 
-.prose li {
-  margin-bottom: 0.5rem; /* mb-2 */
+.article-content strong {
+  font-weight: 900;
+  color: #0f172a;
 }
 
-.prose strong {
-  font-weight: 900; /* font-black */
-  color: #0f172a; /* slate-900 */
-}
-
-.prose blockquote {
-  border-left-width: 4px;
-  border-left-color: rgba(97, 218, 251, 0.2); /* primary/20 - primary is #61DAFB */
-  padding-left: 1.5rem; /* pl-6 */
+.article-content blockquote {
+  border-left: 8px solid #f1f5f9;
+  padding-left: 2.5rem;
+  margin: 3rem 0;
   font-style: italic;
-  color: #64748b; /* slate-500 */
-  margin-top: 2rem;
-  margin-bottom: 2rem; /* my-8 */
+  color: #64748b;
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
