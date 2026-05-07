@@ -5,6 +5,8 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { TooltipProvider } from "@radix-ui/react-tooltip";
 import axios from "axios";
 import { neon } from "@neondatabase/serverless";
+import Loader from "../components/Loader";
+import { COLORS } from "../misc/Colors";
 
 const queryClient = new QueryClient();
 const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
@@ -143,9 +145,8 @@ function App() {
 
   if (!isAuthorized) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-white font-sans">
-        <div className="h-12 w-12 animate-spin rounded-full border-4 border-blue-600 border-t-transparent shadow-sm" aria-hidden="true"></div>
-        <span className="sr-only">Loading</span>
+      <div className="flex min-h-screen flex-col items-center justify-center bg-[#F8FAFC] font-sans">
+        <Loader size={45} color={COLORS.blueDark} />
       </div>
     );
   }

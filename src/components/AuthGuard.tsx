@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
+import Loader from './Loader';
+import { COLORS } from '../misc/Colors';
 
 export const AuthGuard: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [isAuthorized, setIsAuthorized] = useState(false);
@@ -31,9 +33,8 @@ export const AuthGuard: React.FC<{ children: React.ReactNode }> = ({ children })
 
   if (!isAuthorized) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-slate-50">
-        <div className="h-10 w-10 animate-spin rounded-full border-4 border-blue-600 border-t-transparent" aria-hidden="true"></div>
-        <span className="sr-only">Loading</span>
+      <div className="flex min-h-screen flex-col items-center justify-center bg-[#F8FAFC]">
+        <Loader size={45} color={COLORS.blueDark} />
       </div>
     );
   }

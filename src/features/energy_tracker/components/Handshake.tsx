@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import Loader from '@/components/Loader';
+import { COLORS } from '@/misc/Colors';
 
 interface HandshakeProps {
     onSuccess: () => void;
@@ -23,14 +25,12 @@ const Handshake: React.FC<HandshakeProps> = ({ onSuccess }) => {
 
     // Phase 8: Full screen loader to block UI during handshake
     return (
-        <div className="flex h-[100dvh] w-screen items-center justify-center bg-[#F6F8FB]">
-            <div className="flex flex-col items-center gap-6">
-                <div className="h-16 w-16 animate-spin rounded-full border-4 border-primary border-t-transparent -primary"></div>
-                <p className="text-sm font-semibold text-foreground/70 tracking-widest animate-pulse">
-                    SECURE AUTHENTICATION...
-                </p>
-                {error && <p className="text-destructive text-xs">{error}</p>}
-            </div>
+        <div className="flex h-[100dvh] w-screen flex-col items-center justify-center bg-[#F8FAFC]">
+            <Loader size={45} color={COLORS.blueDark} />
+            <p className="mt-4 text-xs font-semibold text-[#2954a1]/70 tracking-widest animate-pulse uppercase">
+                Secure Authentication
+            </p>
+            {error && <p className="text-destructive text-xs mt-2">{error}</p>}
         </div>
     );
 };

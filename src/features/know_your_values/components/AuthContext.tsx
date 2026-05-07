@@ -1,4 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
+import Loader from '@/components/Loader';
+import { COLORS } from '@/misc/Colors';
 
 interface AuthContextType {
     userId: string | null;
@@ -34,8 +36,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     return (
         <AuthContext.Provider value={{ userId, isAuthResolved }}>
             {isAuthResolved ? children : (
-                <div className=" flex items-center justify-center bg-transparent">
-                    <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary"></div>
+                <div className="flex min-h-screen flex-col items-center justify-center bg-[#F8FAFC]">
+                    <Loader size={45} color={COLORS.blueDark} />
                 </div>
             )}
         </AuthContext.Provider>

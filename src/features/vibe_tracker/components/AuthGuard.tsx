@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { neon, neonConfig } from "@neondatabase/serverless";
+import Loader from '@/components/Loader';
+import { COLORS } from '@/misc/Colors';
 
 // Disable the browser warning
 neonConfig.disableWarningInBrowsers = true;
@@ -53,11 +55,11 @@ export const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
 
     if (isLoading) {
         return (
-            <div className="flex items-center justify-center  bg-transparent">
-                <div className="flex flex-col items-center gap-4">
-                    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
-                    <p className="text-muted-foreground animate-pulse font-medium">Securing session...</p>
-                </div>
+            <div className="flex min-h-screen flex-col items-center justify-center bg-[#F8FAFC]">
+                <Loader size={45} color={COLORS.blueDark} />
+                <p className="mt-4 text-xs font-semibold text-[#2954a1]/70 tracking-widest animate-pulse uppercase">
+                    Securing session
+                </p>
             </div>
         );
     }

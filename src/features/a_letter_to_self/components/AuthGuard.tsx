@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { validateToken, setSessionUserId, getSessionUserId } from "../lib/auth";
 import { query } from "../lib/db";
-import { Loader2 } from "lucide-react";
+import Loader from '@/components/Loader';
+import { COLORS } from '@/misc/Colors';
 
 export const AuthGuard = ({ children }: { children: React.ReactNode }) => {
     const [isAuthResolved, setIsAuthResolved] = useState(false);
@@ -24,8 +25,8 @@ export const AuthGuard = ({ children }: { children: React.ReactNode }) => {
 
     if (!isAuthResolved) {
         return (
-            <div className=" flex items-center justify-center">
-                <Loader2 className="w-10 h-10 animate-spin text-primary" />
+            <div className="flex min-h-screen flex-col items-center justify-center bg-[#F8FAFC]">
+                <Loader size={45} color={COLORS.blueDark} />
             </div>
         );
     }
