@@ -3,8 +3,8 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, Send, CheckCircle2, History } from 'lucide-react';
 import { neon } from '@neondatabase/serverless';
-import Loader from '../components/Loader';
-import { COLORS } from '../misc/Colors';
+import Loader from '../../components/Loader';
+import { COLORS } from '../../misc/Colors';
 
 const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
 
