@@ -63,7 +63,8 @@ const NameYourMind = React.lazy(() => import("../features/name_your_mind"));
 const PredictionVsReality = React.lazy(() => import("../features/prediction_vs_reality"));
 const MindReadingCheck = React.lazy(() => import("../features/mind_reading_check"));
 const MySafeSpaceCanvas = React.lazy(() => import("../features/my_safe_space_canvas"));
-
+const GuidedSeries = React.lazy(() => import("./pages/GuidedSeries"));
+const GuidedActivity = React.lazy(() => import("./pages/GuidedActivity"));
 
 function ProtectedLayout() {
   return (
@@ -87,6 +88,8 @@ export const router = createBrowserRouter([
     path: "/",
     children: [
       { index: true, element: <SelfCareResources /> },
+      { path: "guided-series/:concern", element: withLoading(<GuidedSeries />) },
+      { path: "guided-series/:concern/:activityName", element: withLoading(<GuidedActivity />) },
       { path: "concerns/:concern/:type", element: <StaticContentViewer /> },
 
       {

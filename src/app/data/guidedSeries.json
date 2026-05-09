@@ -1,0 +1,1571 @@
+{
+  "Depression": {
+    "categories": [
+      {
+        "name": "Know about depression",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Assess your mood",
+            "icon": "Smile",
+            "color": "#FF6B6B"
+          },
+          {
+            "name": "Measuring my mood",
+            "description": "Measuring the highs and lows",
+            "icon": "Smile",
+            "color": "#FF6B6B"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "What are your habits?",
+            "description": "How does your everyday look like?",
+            "icon": "Clock",
+            "color": "#4DABF7"
+          },
+          {
+            "name": "Enjoyable Activities",
+            "description": "Choose people to talk",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Managing depression",
+        "activities": [
+          {
+            "name": "Your friends can help you through this phase",
+            "description": "Thinking time",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Your thoughts can create a positive change",
+            "description": "Enjoyable Activities",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": [
+          {
+            "name": "What are your habits?",
+            "description": "How does your everyday look like?",
+            "icon": "Clock",
+            "color": "#4DABF7"
+          },
+          {
+            "name": "Enjoyable Activities",
+            "description": "Choose people to talk",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Your friends can help you through this phase",
+            "description": "Thinking time",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Your thoughts can create a positive change",
+            "description": "Enjoyable Activities",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Let\u2019s start your day with something you love doing",
+            "description": "Reframing Thoughts",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Focusing on Physical Health",
+        "activities": [
+          {
+            "name": "Transforming your negative emotions to positive",
+            "description": "Thought Record",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Record the thoughts in your mind",
+            "description": "Take a step towards depression management.",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      }
+    ]
+  },
+  "Sleep": {
+    "categories": [
+      {
+        "name": "Know about sleep",
+        "activities": [
+          {
+            "name": "Start your day with the peace of mind!",
+            "description": "Affirmations",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Think positive & embrace positivity",
+            "description": "4-7-8 Breathing",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "Calm your nerves with long deep breaths",
+            "description": "Grounding",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Bring your attention to the present",
+            "description": "Take a step towards sleep management.",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Managing sleep",
+        "activities": [
+          {
+            "name": "Physical Activity Log",
+            "description": "Exercise is equally important for a peaceful mind",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": [
+          {
+            "name": "Start your day with the peace of mind!",
+            "description": "Affirmations",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Think positive & embrace positivity",
+            "description": "4-7-8 Breathing",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Calm your nerves with long deep breaths",
+            "description": "Grounding",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Focusing on Physical Health",
+        "activities": [
+          {
+            "name": "Bring your attention to the present",
+            "description": "Take a step towards sleep management.",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Physical Activity Log",
+            "description": "Exercise is equally important for a peaceful mind",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      }
+    ]
+  },
+  "Anxiety": {
+    "categories": [
+      {
+        "name": "Know about anxiety",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Assess your mood",
+            "icon": "Smile",
+            "color": "#FF6B6B"
+          },
+          {
+            "name": "What are your habits?",
+            "description": "How does your everyday look like?",
+            "icon": "Clock",
+            "color": "#4DABF7"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "Anxiety Check",
+            "description": "How does your everyday look like?",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Enjoyable Activities",
+            "description": "Choose People to Talk",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Managing anxiety",
+        "activities": [
+          {
+            "name": "Your friends can help you through this phase",
+            "description": "Thinking time",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Your thoughts can create a positive change",
+            "description": "Exploring my anxiety",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": [
+          {
+            "name": "Anxiety Check",
+            "description": "How does your everyday look like?",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Enjoyable Activities",
+            "description": "Choose People to Talk",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Your friends can help you through this phase",
+            "description": "Thinking time",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Your thoughts can create a positive change",
+            "description": "Exploring my anxiety",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Low mood can stop you from enjoying your company",
+            "description": "Reframing Thoughts",
+            "icon": "Smile",
+            "color": "#FF6B6B"
+          }
+        ]
+      },
+      {
+        "name": "Focusing on Physical Health",
+        "activities": [
+          {
+            "name": "Transforming your negative emotions to positive",
+            "description": "Self Care",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Taking care of yourself should be the first priority",
+            "description": "Take a step towards anxiety management.",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      }
+    ]
+  },
+  "Stress": {
+    "categories": [
+      {
+        "name": "Know about stress",
+        "activities": [
+          {
+            "name": "Assess your stress",
+            "description": "Measuring my stress",
+            "icon": "Smile",
+            "color": "#FF6B6B"
+          },
+          {
+            "name": "Know the main cause of your stress",
+            "description": "Noticing what impacts my PTSD",
+            "icon": "Brain",
+            "color": "#228BE6"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "What are your habits?",
+            "description": "How does your everyday look like?",
+            "icon": "Clock",
+            "color": "#4DABF7"
+          },
+          {
+            "name": "Assess your mood",
+            "description": "Observe the changes in your mood",
+            "icon": "Smile",
+            "color": "#FF6B6B"
+          }
+        ]
+      },
+      {
+        "name": "Managing stress",
+        "activities": [
+          {
+            "name": "Enjoyable Activities",
+            "description": "Choose people to talk",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Your friends can help you through this phase",
+            "description": "Thinking time",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": [
+          {
+            "name": "Enjoyable Activities",
+            "description": "Choose people to talk",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Your friends can help you through this phase",
+            "description": "Thinking time",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Your thoughts can create a positive change",
+            "description": "Enjoyable Activities",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Divert your mind by doing what you enjoy",
+            "description": "Write Your Story",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Transform your thoughts into stories",
+            "description": "You are Not Alone",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Focusing on Physical Health",
+        "activities": [
+          {
+            "name": "You are not the only one facing it",
+            "description": "Reframing Thoughts",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Transforming your negative emotions to positive",
+            "description": "Take a step towards stress management.",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      }
+    ]
+  },
+  "Adolescent": {
+    "categories": [
+      {
+        "name": "Know about adolescent",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Assess your mood",
+            "icon": "Smile",
+            "color": "#FF6B6B"
+          },
+          {
+            "name": "Choose people to talk",
+            "description": "Talking to your friends is sometimes all the Boost you need",
+            "icon": "Users",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "Laugh",
+            "description": "You need yourself to be happy",
+            "icon": "Zap",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Complete the sentences",
+            "description": "Know your kid\u2019s thinking process",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Managing adolescent",
+        "activities": [
+          {
+            "name": "Reframing Thoughts",
+            "description": "Transforming your negative emotions to positivity",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Self Care",
+            "description": "Taking care of yourself should be the first priority",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Assess your mood",
+            "icon": "Smile",
+            "color": "#FF6B6B"
+          },
+          {
+            "name": "Choose people to talk",
+            "description": "Talking to your friends is sometimes all the Boost you need",
+            "icon": "Users",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Laugh",
+            "description": "You need yourself to be happy",
+            "icon": "Zap",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Complete the sentences",
+            "description": "Know your kid\u2019s thinking process",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Focusing on Physical Health",
+        "activities": [
+          {
+            "name": "Reframing Thoughts",
+            "description": "Transforming your negative emotions to positivity",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Self Care",
+            "description": "Taking care of yourself should be the first priority",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      }
+    ]
+  },
+  "Relationship": {
+    "categories": [
+      {
+        "name": "Know about relationship",
+        "activities": [
+          {
+            "name": "Knowing Your Relationship",
+            "description": "Measuring your Satisfaction",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Are you satisfied with your relationship?",
+            "description": "Testing Your Bond",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "Know what kind of bond you share",
+            "description": "Managing Relationship",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Attachment Style",
+            "description": "What style of attachment you have?",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Managing relationship",
+        "activities": [
+          {
+            "name": "Enjoyable Activities",
+            "description": "How Well Do You Know Your Partner?",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Know your partner well",
+            "description": "My Mood Journal",
+            "icon": "Users",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": [
+          {
+            "name": "Are you satisfied with your relationship?",
+            "description": "Testing Your Bond",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Know what kind of bond you share",
+            "description": "Managing Relationship",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Attachment Style",
+            "description": "What style of attachment you have?",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Enjoyable Activities",
+            "description": "How Well Do You Know Your Partner?",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Know your partner well",
+            "description": "My Mood Journal",
+            "icon": "Users",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Focusing on Physical Health",
+        "activities": [
+          {
+            "name": "Note the changes and your moods",
+            "description": "Reframing Thoughts",
+            "icon": "Smile",
+            "color": "#FF6B6B"
+          },
+          {
+            "name": "Transform your negative emotions to positivity",
+            "description": "Take a step towards relationship management.",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      }
+    ]
+  },
+  "Workplace": {
+    "categories": [
+      {
+        "name": "Know about workplace",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Assess your mood",
+            "icon": "Smile",
+            "color": "#FF6B6B"
+          },
+          {
+            "name": "Issues at work",
+            "description": "Knowing your triggers",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "Resistance to change",
+            "description": "Knowing your triggers",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Enjoyable Activities",
+            "description": "Laugh!!!",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Managing workplace",
+        "activities": [
+          {
+            "name": "You need yourself to be happy",
+            "description": "Diary",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "A diary is the best tool to vent your emotions",
+            "description": "Count",
+            "icon": "Book",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": [
+          {
+            "name": "Issues at work",
+            "description": "Knowing your triggers",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Resistance to change",
+            "description": "Knowing your triggers",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Enjoyable Activities",
+            "description": "Laugh!!!",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "You need yourself to be happy",
+            "description": "Diary",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "A diary is the best tool to vent your emotions",
+            "description": "Count",
+            "icon": "Book",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Focusing on Physical Health",
+        "activities": [
+          {
+            "name": "A simple way to ease your anger",
+            "description": "Self Care",
+            "icon": "Brain",
+            "color": "#E64980"
+          },
+          {
+            "name": "Taking care of yourself should be the first priority",
+            "description": "Take a step towards workplace management.",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      }
+    ]
+  },
+  "Parenting": {
+    "categories": [
+      {
+        "name": "Know about parenting",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Assess your mood",
+            "icon": "Smile",
+            "color": "#FF6B6B"
+          },
+          {
+            "name": "Parenting Skills",
+            "description": "Think of ways you can appreciate your kids",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "Complete the sentences",
+            "description": "Know your kids thinking process",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Enjoyable Activities",
+            "description": "Let\u2019s start your day with something you love doing",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Managing parenting",
+        "activities": [
+          {
+            "name": "Self Care",
+            "description": "You should love yourself as you are",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Parenting JOJO",
+            "description": "Takes a lot of patience to raise a kid",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Assess your mood",
+            "icon": "Smile",
+            "color": "#FF6B6B"
+          },
+          {
+            "name": "Parenting Skills",
+            "description": "Think of ways you can appreciate your kids",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Complete the sentences",
+            "description": "Know your kids thinking process",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Enjoyable Activities",
+            "description": "Let\u2019s start your day with something you love doing",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Focusing on Physical Health",
+        "activities": [
+          {
+            "name": "Self Care",
+            "description": "You should love yourself as you are",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Parenting JOJO",
+            "description": "Takes a lot of patience to raise a kid",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      }
+    ]
+  },
+  "Anger": {
+    "categories": [
+      {
+        "name": "Know about anger",
+        "activities": [
+          {
+            "name": "Noticing what impacts my anger",
+            "description": "Assess your mood",
+            "icon": "Brain",
+            "color": "#E64980"
+          },
+          {
+            "name": "Anger Check",
+            "description": "Knowing your triggers",
+            "icon": "Brain",
+            "color": "#E64980"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "Enjoyable Activities",
+            "description": "Laugh!!!",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "You need yourself to be happy",
+            "description": "Anger Diary",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Managing anger",
+        "activities": [
+          {
+            "name": "A diary is the best tool to vent your anger",
+            "description": "Count",
+            "icon": "Book",
+            "color": "#E64980"
+          },
+          {
+            "name": "A simple way to ease your anger",
+            "description": "Self Care",
+            "icon": "Brain",
+            "color": "#E64980"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": [
+          {
+            "name": "Noticing what impacts my anger",
+            "description": "Assess your mood",
+            "icon": "Brain",
+            "color": "#E64980"
+          },
+          {
+            "name": "Anger Check",
+            "description": "Knowing your triggers",
+            "icon": "Brain",
+            "color": "#E64980"
+          },
+          {
+            "name": "Enjoyable Activities",
+            "description": "Laugh!!!",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "You need yourself to be happy",
+            "description": "Anger Diary",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "A diary is the best tool to vent your anger",
+            "description": "Count",
+            "icon": "Book",
+            "color": "#E64980"
+          }
+        ]
+      },
+      {
+        "name": "Focusing on Physical Health",
+        "activities": [
+          {
+            "name": "A simple way to ease your anger",
+            "description": "Self Care",
+            "icon": "Brain",
+            "color": "#E64980"
+          },
+          {
+            "name": "Taking care of yourself should be the first priority",
+            "description": "Take a step towards anger management.",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      }
+    ]
+  },
+  "Grief": {
+    "categories": [
+      {
+        "name": "Know about grief",
+        "activities": [
+          {
+            "name": "Knowing Grief",
+            "description": "Measuring my grief",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "How does your everyday look like?",
+            "description": "What are your habits?",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "How does your everyday look like?",
+            "description": "Managing Grief",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Assess your mood",
+            "description": "Observe the changes in your mood",
+            "icon": "Smile",
+            "color": "#FF6B6B"
+          }
+        ]
+      },
+      {
+        "name": "Managing grief",
+        "activities": [
+          {
+            "name": "Enjoyable Activities",
+            "description": "Choose People to Talk",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Talking to your loved ones can help you heal",
+            "description": "Grief Deck",
+            "icon": "Users",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": [
+          {
+            "name": "How does your everyday look like?",
+            "description": "Managing Grief",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Assess your mood",
+            "description": "Observe the changes in your mood",
+            "icon": "Smile",
+            "color": "#FF6B6B"
+          },
+          {
+            "name": "Enjoyable Activities",
+            "description": "Choose People to Talk",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Talking to your loved ones can help you heal",
+            "description": "Grief Deck",
+            "icon": "Users",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Helping you in your tough times",
+            "description": "Journal",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Focusing on Physical Health",
+        "activities": [
+          {
+            "name": "A diary is a man\u2019s best friend",
+            "description": "You are Not Alone",
+            "icon": "Book",
+            "color": "#339AF0"
+          },
+          {
+            "name": "You are not alone in this tough time",
+            "description": "Take a step towards grief management.",
+            "icon": "Users",
+            "color": "#339AF0"
+          }
+        ]
+      }
+    ]
+  },
+  "PTSD": {
+    "categories": [
+      {
+        "name": "Know about ptsd",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Measuring my mood",
+            "icon": "Smile",
+            "color": "#FF6B6B"
+          },
+          {
+            "name": "What are your habits?",
+            "description": "How does your everyday look like?",
+            "icon": "Clock",
+            "color": "#4DABF7"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Observe the changes in your mood",
+            "icon": "Smile",
+            "color": "#FF6B6B"
+          },
+          {
+            "name": "Enjoyable Activities",
+            "description": "Choose people to talk",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Managing ptsd",
+        "activities": [
+          {
+            "name": "Your friends can help you through this phase",
+            "description": "Thinking time",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Your thoughts can create a positive change",
+            "description": "Enjoyable Activities",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": [
+          {
+            "name": "Enjoyable Activities",
+            "description": "Choose people to talk",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Your friends can help you through this phase",
+            "description": "Thinking time",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Your thoughts can create a positive change",
+            "description": "Enjoyable Activities",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Divert your mind by doing what you enjoy",
+            "description": "Write Your Story",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Transform your thoughts into stories",
+            "description": "You are Not Alone",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Focusing on Physical Health",
+        "activities": [
+          {
+            "name": "You are not the only one facing it",
+            "description": "Reframing Thoughts",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Transforming your negative emotions to positive",
+            "description": "Take a step towards ptsd management.",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      }
+    ]
+  },
+  "Acceptance": {
+    "categories": [
+      {
+        "name": "Know about acceptance",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Assess your mood",
+            "icon": "Smile",
+            "color": "#FF6B6B"
+          },
+          {
+            "name": "What are your habits?",
+            "description": "How does your everyday look like?",
+            "icon": "Clock",
+            "color": "#4DABF7"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "Enjoyable Activities",
+            "description": "Today I will",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "How do you wanna spend your day?",
+            "description": "Love Me",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Managing acceptance",
+        "activities": [
+          {
+            "name": "Start loving yourself, before anyone else",
+            "description": "Enjoyable Activities",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Let\u2019s start your day with something you love doing",
+            "description": "Strengths & Weakness",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": [
+          {
+            "name": "What are your habits?",
+            "description": "How does your everyday look like?",
+            "icon": "Clock",
+            "color": "#4DABF7"
+          },
+          {
+            "name": "Enjoyable Activities",
+            "description": "Today I will",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "How do you wanna spend your day?",
+            "description": "Love Me",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Start loving yourself, before anyone else",
+            "description": "Enjoyable Activities",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Let\u2019s start your day with something you love doing",
+            "description": "Strengths & Weakness",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Focusing on Physical Health",
+        "activities": [
+          {
+            "name": "Overcome your weaknesses and grow stronger",
+            "description": "Self Care",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Taking care of yourself should be the first priority",
+            "description": "Take a step towards acceptance management.",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      }
+    ]
+  },
+  "Postpartum": {
+    "categories": [
+      {
+        "name": "Know about postpartum",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Measuring my mood",
+            "icon": "Smile",
+            "color": "#FF6B6B"
+          },
+          {
+            "name": "What are your habits?",
+            "description": "How does your everyday look like?",
+            "icon": "Clock",
+            "color": "#4DABF7"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Observe the changes in your mood",
+            "icon": "Smile",
+            "color": "#FF6B6B"
+          },
+          {
+            "name": "Managing Depression",
+            "description": "BMI Check",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Managing postpartum",
+        "activities": [
+          {
+            "name": "Body Mass Index check",
+            "description": "Weight",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Start loving yourself, before anyone else",
+            "description": "Enjoyable Activities",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": [
+          {
+            "name": "Start loving yourself, before anyone else",
+            "description": "Enjoyable Activities",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Choose people to talk",
+            "description": "Your friends can help you through this phase",
+            "icon": "Users",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Thinking time",
+            "description": "Your thoughts can create a positive change",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Enjoyable Activities",
+            "description": "Divert your mind by doing what you enjoy",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Write Your Story",
+            "description": "Transform your thoughts into stories",
+            "icon": "Book",
+            "color": "#FCC419"
+          }
+        ]
+      },
+      {
+        "name": "Focusing on Physical Health",
+        "activities": [
+          {
+            "name": "You are Not Alone",
+            "description": "You are not the only one facing it",
+            "icon": "Users",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Reframing Thoughts",
+            "description": "Transforming your negative emotions to positive",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      }
+    ]
+  },
+  "Sexuality": {
+    "categories": [
+      {
+        "name": "Know about sexuality",
+        "activities": [
+          {
+            "name": "Understanding Sexuality",
+            "description": "Testing Your Bond with your Partner",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "1 min",
+            "description": "Enjoyable Activities",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "Positive Body Image",
+            "description": "2 min",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Ask Yourself",
+            "description": "2 min",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Managing sexuality",
+        "activities": [
+          {
+            "name": "My Mood Journal",
+            "description": "2 min",
+            "icon": "Smile",
+            "color": "#FF6B6B"
+          },
+          {
+            "name": "Reframing Thoughts",
+            "description": "4 min",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": [
+          {
+            "name": "Understanding Sexuality",
+            "description": "Testing Your Bond with your Partner",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "1 min",
+            "description": "Enjoyable Activities",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Positive Body Image",
+            "description": "2 min",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Ask Yourself",
+            "description": "2 min",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Focusing on Physical Health",
+        "activities": [
+          {
+            "name": "My Mood Journal",
+            "description": "2 min",
+            "icon": "Smile",
+            "color": "#FF6B6B"
+          },
+          {
+            "name": "Reframing Thoughts",
+            "description": "4 min",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      }
+    ]
+  },
+  "Eating Disorder": {
+    "categories": [
+      {
+        "name": "Know about eating disorder",
+        "activities": [
+          {
+            "name": "Know about eating disorder",
+            "description": "Signs of Eating Disorder",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Do you know if you have an eating disorder?",
+            "description": "Do I have a disorder?",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "Check if you have an eating disorder?",
+            "description": "Noticing impacts",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "What are your habits?",
+            "description": "How does your everyday look like?",
+            "icon": "Clock",
+            "color": "#4DABF7"
+          }
+        ]
+      },
+      {
+        "name": "Managing eating disorder",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Observe the changes in your mood",
+            "icon": "Smile",
+            "color": "#FF6B6B"
+          },
+          {
+            "name": "Managing Disorder",
+            "description": "BMI Check",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": [
+          {
+            "name": "Managing Disorder",
+            "description": "BMI Check",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Body Mass Index check",
+            "description": "Weight",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Start loving yourself, before anyone else",
+            "description": "Enjoyable Activities",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "Write Your Story",
+            "description": "Transform your thoughts into stories",
+            "icon": "Book",
+            "color": "#FCC419"
+          },
+          {
+            "name": "Add your goals",
+            "description": "First step to achieve your goals is by writing them down",
+            "icon": "Target",
+            "color": "#FF922B"
+          }
+        ]
+      },
+      {
+        "name": "Focusing on Physical Health",
+        "activities": [
+          {
+            "name": "Enjoyable Activities",
+            "description": "Divert your mind by doing what you enjoy",
+            "icon": "Sparkles",
+            "color": "#339AF0"
+          },
+          {
+            "name": "You are Not Alone",
+            "description": "You are not the only one facing it",
+            "icon": "Users",
+            "color": "#339AF0"
+          }
+        ]
+      }
+    ]
+  }
+}

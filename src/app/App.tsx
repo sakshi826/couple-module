@@ -116,6 +116,7 @@ function App() {
         sql`CREATE TABLE IF NOT EXISTS prediction_vs_reality_entries (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, situation TEXT, prediction TEXT, emotions TEXT[], intensity INTEGER, reality TEXT, comparison TEXT, reflection TEXT, reframe TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`,
         sql`CREATE TABLE IF NOT EXISTS mind_reading_check_entries (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, situation TEXT, thought TEXT, evidence TEXT, alternatives JSONB, belief_level INTEGER, balanced_thought TEXT, action_step TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`,
         sql`CREATE TABLE IF NOT EXISTS my_safe_space_canvas_entries (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, name TEXT, reflection TEXT, image_data_url TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`,
+        sql`CREATE TABLE IF NOT EXISTS guided_series_logs (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, concern TEXT NOT NULL, activity_name TEXT NOT NULL, entry_data JSONB NOT NULL, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`,
       ];
 
       await Promise.allSettled(tables);
