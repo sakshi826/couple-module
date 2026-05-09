@@ -1,3 +1,4 @@
+import './index.css';
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Route, Routes } from "react-router-dom";
 import { Toaster as Sonner } from "@/features/continuing_bonds/components/ui/sonner";

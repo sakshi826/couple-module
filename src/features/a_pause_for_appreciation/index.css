@@ -56,15 +56,15 @@
 
 @layer base {
   * {
-    @apply border-border;
+    border-color: hsl(var(--border));
   }
 
   body {
-    @apply bg-background text-foreground font-body antialiased;
+
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-heading;
+
   }
 }
 
@@ -76,6 +76,6 @@
 
 
   .reflection-card {
-    @apply bg-card rounded-[var(--radius)] p-6 md:p-8;
+
   }
 }

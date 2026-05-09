@@ -74,11 +74,12 @@
 
 @layer base {
   * {
-    @apply border-border;
+    border-color: hsl(var(--border));
   }
 
   body {
-    @apply bg-background text-foreground;
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
     font-family: var(--font-sans);
   }
 
@@ -89,17 +90,17 @@
 
 @layer components {
   .wellness-card {
-    @apply bg-card rounded-2xl shadow-sm border border-border p-6;
+
   }
 
   .wellness-card-blue {
-    @apply rounded-2xl p-6;
+
     
     border: 1px solid hsl(var(--wellness-blue-light));
   }
 
   .wellness-callout {
-    @apply rounded-2xl p-6;
+
     
     border-left: 4px solid hsl(var(--wellness-blue));
   }
@@ -113,7 +114,7 @@
   }
 
   .section-container {
-    @apply max-w-5xl mx-auto px-5 md:px-8;
+
   }
 }
 

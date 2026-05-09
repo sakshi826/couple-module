@@ -65,11 +65,11 @@
 
 @layer base {
   * {
-    @apply border-border;
+    border-color: hsl(var(--border));
   }
 
   body {
-    @apply bg-background text-foreground antialiased;
+
     font-family: var(--font-sans);
   }
 }
@@ -90,15 +90,15 @@
 
 @layer components {
   .wellness-card {
-    @apply bg-card rounded-[var(--radius)] p-5 shadow-card transition-all duration-200;
+
   }
 
   .wellness-card:active {
-    @apply scale-[0.98];
+
   }
 
   .pastel-icon {
-    @apply w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0;
+
   }
 
   .pastel-icon-cyan {

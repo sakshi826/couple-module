@@ -1,8 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+}
+
 
 @layer base {
   :root {
@@ -58,11 +79,12 @@
 
 @layer base {
   * {
-    @apply border-border;
+    border-color: hsl(var(--border));
   }
 
   body {
-    @apply bg-background text-foreground;
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
     font-family: var(--font-body);
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
@@ -76,12 +98,12 @@
 
 @layer components {
   .wellness-card {
-    @apply bg-card rounded-[24px] p-6;
+
     box-shadow: var(--shadow-gentle);
   }
 
   .wellness-btn {
-    @apply w-full py-4 rounded-[20px] text-base font-medium transition-all duration-300;
+
     background: var(--gradient-calm);
     color: white;
     box-shadow: var(--shadow-gentle);
@@ -97,7 +119,7 @@
   }
 
   .wellness-btn-secondary {
-    @apply w-full py-4 rounded-[20px] text-base font-medium transition-all duration-300;
+
     background: transparent;
     color: hsl(var(--muted-foreground));
   }
@@ -107,7 +129,7 @@
   }
 
   .wellness-input {
-    @apply w-full rounded-[16px] px-4 py-3 text-base transition-all duration-300 outline-none;
+
     background: hsl(var(--input));
     border: 1.5px solid hsl(var(--border));
     color: hsl(var(--foreground));
@@ -119,7 +141,7 @@
   }
 
   .emotion-chip {
-    @apply px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 cursor-pointer select-none;
+
     background: hsl(var(--secondary));
     color: hsl(var(--foreground));
     border: 1.5px solid transparent;
