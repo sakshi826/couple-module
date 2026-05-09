@@ -572,7 +572,9 @@ export function SelfCareResources() {
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.98 }}
                         onClick={() => { 
-                          navigate(`/guided-series/${selectedTopic}`);
+                          if (detail.guidedSeriesUrl) {
+                            window.location.href = detail.guidedSeriesUrl;
+                          }
                         }}
                         className="w-full bg-[#F5FBFF] border-2 border-[#E0F2FE] rounded-2xl p-5 flex items-center justify-between hover:border-[#2D9CDB] hover:shadow-lg transition-all group"
                       >
