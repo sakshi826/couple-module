@@ -49,7 +49,7 @@ const Index = () => {
     
     return () => { reset(); setView("choose"); };
   };
-
+  return (
     <PremiumLayout 
       title={getTitle()} 
       onReset={view !== 'intro' ? () => { reset(); setView('intro'); } : undefined}
