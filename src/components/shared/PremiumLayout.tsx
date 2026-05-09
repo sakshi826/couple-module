@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ChevronLeft, RotateCcw } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 interface PremiumLayoutProps {
   children: React.ReactNode;
@@ -23,14 +23,31 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
   icon
 }) => {
   const navigate = useNavigate();
+  const location = useLocation();
+
+  const handleExit = () => {
+    if (window.parent !== window) {
+      window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
+    } else {
+      window.location.href = 'https://web.mantracare.com';
+    }
+  };
 
   const handleBack = () => {
     if (onBack) {
       onBack();
       return;
     }
-    // SPA navigation: Top-left chevron exits to parent dashboard without reload
-    navigate("/");
+
+    // If at the home hub or entered directly to this page
+    const isHome = location.pathname === "/" || location.pathname === "/therapy" || location.pathname === "/therapy/";
+    const isInitialPage = window.history.length <= 2; // Rough estimate for direct entry
+
+    if (isHome || isInitialPage) {
+      handleExit();
+    } else {
+      navigate("/");
+    }
   };
 
   return (
