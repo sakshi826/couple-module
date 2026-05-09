@@ -116,6 +116,7 @@ export default function WindowApp() {
       subtitle={titles[screen]}
       icon={<Activity className="w-6 h-6 text-primary" />}
       onBack={screen > 0 ? () => setScreen(prev => prev - 1) : undefined}
+      exitOnBack={screen === 0}
       actions={screen === 0 ? (
         <button onClick={() => setShowHistory(true)} className="p-2 rounded-full hover:bg-slate-100 transition-colors text-slate-600">
           <History size={20} />
@@ -145,7 +146,7 @@ export default function WindowApp() {
               <WelcomeScreen
                 onBegin={() => navigate(1)}
                 onHistory={() => setShowHistory(true)}
-                onBack={() => window.history.back()}
+                onBack={() => {}} // Rely on PremiumLayout header back
               />
             )}
             {screen === 1 && (

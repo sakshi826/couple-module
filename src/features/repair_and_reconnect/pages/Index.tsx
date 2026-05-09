@@ -65,7 +65,7 @@ const Index = () => {
   return (
     <PremiumLayout
       title="Repair & Reconnect"
-      subtitle={titles[step]}
+      subtitle={titles[step]} exitOnBack={step === 0}
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={step > 0 ? () => setStep(prev => prev - 1) : undefined}
     >
@@ -88,7 +88,7 @@ const Index = () => {
             transition={{ duration: 0.6, ease: "easeOut" }}
             className="flex-1 flex flex-col"
           >
-            {step === 0 && <IntroScreen onStart={next} onBack={() => window.history.back()} />}
+            {step === 0 && <IntroScreen onStart={next} onBack={() => {}} />}
             {step === 1 && (
               <ChoosePersonScreen
                 selected={person}

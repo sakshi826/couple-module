@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ChevronLeft, RotateCcw } from 'lucide-react';
 import { useNavigate, useLocation } from 'react-router-dom';
+import { handlePlatformExit } from '../../lib/navigation';
 
 interface PremiumLayoutProps {
   children: React.ReactNode;
@@ -28,11 +29,7 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
   const location = useLocation();
 
   const handleExit = () => {
-    if (window.parent !== window) {
-      window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
-    } else {
-      window.location.href = 'https://web.mantracare.com';
-    }
+    handlePlatformExit();
   };
 
   const handleBack = () => {

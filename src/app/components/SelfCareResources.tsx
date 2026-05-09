@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
+import { handlePlatformExit } from "../../lib/navigation";
 import { MobileNav } from "./MobileNav";
 import { 
   ChevronLeft, 
@@ -769,12 +770,10 @@ export function SelfCareResources() {
           >
             <div className="flex items-center gap-3 mb-2">
               <button
-                onClick={() => {
-                  if (window.parent !== window) {
-                    window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
-                  } else {
-                    window.location.href = 'https://web.mantracare.com';
-                  }
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  handlePlatformExit();
                 }}
                 className="flex items-center justify-center text-[#64748B] hover:text-[#043570] transition-colors"
               >

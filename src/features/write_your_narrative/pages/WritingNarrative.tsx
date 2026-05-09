@@ -102,6 +102,7 @@ const WritingNarrative = () => {
       subtitle={titles[screen]}
       icon={<BookOpen className="w-6 h-6 text-primary" />}
       onBack={screen !== "entry" ? () => setScreen("entry") : undefined}
+      exitOnBack={screen === "entry"}
       actions={screen === "entry" ? (
         <button onClick={() => setScreen("history")} className="p-2 rounded-full hover:bg-slate-100 transition-colors text-slate-600">
           <History size={20} />
@@ -121,7 +122,7 @@ const WritingNarrative = () => {
             {screen === "entry" && (
               <ScreenEntry
                 onContinue={() => goTo("writing")}
-                onBack={() => window.history.back()}
+                onBack={() => {}} // Rely on PremiumLayout header back
                 onHistory={() => goTo("history")}
               />
             )}
