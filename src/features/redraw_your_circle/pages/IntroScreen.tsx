@@ -51,7 +51,7 @@ const IntroScreen = () => {
         </p>
 
         <button
-          onClick={() => navigate("../circle")}
+          onClick={() => navigate("../circle", { replace: true })}
           className="mt-10 bg-primary text-primary-foreground font-medium px-8 py-3 rounded-full shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30 hover:scale-[1.02] transition-all duration-200"
         >
           Start →

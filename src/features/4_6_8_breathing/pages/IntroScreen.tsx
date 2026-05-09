@@ -13,7 +13,7 @@ const IntroScreen = () => {
       <PremiumIntro
         title={t('app_title')}
         description={t('intro_description')}
-        onStart={() => navigate("./breathe")}
+        onStart={() => navigate("./breathe", { replace: true })}
         icon={<Wind size={32} />}
         benefits={[
           "Calms the nervous system",

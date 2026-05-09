@@ -81,7 +81,7 @@ const GratitudeHistory = () => {
   return (
     <PremiumLayout 
       title="Your Journey" 
-      onBack={() => navigate("..")}
+      onBack={() => navigate("..", { replace: true })}
     >
       <div className="w-full space-y-8">
         {error && (
@@ -235,7 +235,7 @@ const GratitudeHistory = () => {
               <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                onClick={() => navigate("..")}
+                onClick={() => navigate("..", { replace: true })}
                 className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3"
               >
                 Create New Entry

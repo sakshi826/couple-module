@@ -481,6 +481,26 @@ export function SelfCareResources() {
   const navigate = useNavigate();
   const [selectedMood, setSelectedMood] = useState<string | null>(null);
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
+  const [searchTerm, setSearchTerm] = useState("");
+
+  useEffect(() => {
+    // Intercept browser back button to trigger platform exit
+    const handlePopState = (e: PopStateEvent) => {
+      // If we're at the root of self-care, exit. 
+      // If we're in a topic, just close the topic.
+      if (selectedTopic === null) {
+        handlePlatformExit();
+      } else {
+        setSelectedTopic(null);
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    
+    return () => {
+      window.removeEventListener('popstate', handlePopState);
+    };
+  }, [selectedTopic]);
 
   const container = {
     hidden: { opacity: 0 },

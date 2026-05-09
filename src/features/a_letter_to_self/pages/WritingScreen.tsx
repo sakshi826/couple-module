@@ -63,7 +63,7 @@ const WritingScreen = () => {
 
   const handleFinish = async () => {
     await doSave(content);
-    navigate("../check-in", { state: { entryId: entryRef.current.id } });
+    navigate("../check-in", { state: { entryId: entryRef.current.id }, replace: true });
   };
 
   const currentDate = new Date().toLocaleDateString("en-US", {
@@ -76,7 +76,7 @@ const WritingScreen = () => {
   return (
     <PremiumLayout 
         title="Write to Yourself" 
-        onBack={() => navigate("..")}
+        onBack={() => navigate("..", { replace: true })}
     >
       <div className="w-full space-y-10 pb-32">
         <header className="flex items-center justify-between">

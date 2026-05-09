@@ -28,13 +28,13 @@ const EmotionalCheckIn = () => {
       entry.updatedAt = new Date().toISOString();
       await saveEntry(entry);
     }
-    navigate("../complete");
+    navigate("../complete", { replace: true });
   };
 
   return (
     <PremiumLayout 
         title="Final Reflection" 
-        onBack={() => navigate("../write")}
+        onBack={() => navigate("../write", { replace: true })}
     >
       <div className="w-full space-y-10 pb-32">
         <header className="space-y-4">

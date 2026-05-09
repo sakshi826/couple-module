@@ -67,7 +67,7 @@ const CircleScreen = ({ names, onNamesChange }: CircleScreenProps) => {
       title="Redraw Your Circle"
       subtitle="Who is in your support system?"
       icon={<Users className="w-6 h-6 text-primary" />}
-      onBack={() => navigate("../intro")}
+      onBack={() => navigate("../intro", { replace: true })}
     >
       <div className="flex-1 flex flex-col items-center px-6 pb-8 relative z-10">
         <BackgroundOrbs />
@@ -140,7 +140,7 @@ const CircleScreen = ({ names, onNamesChange }: CircleScreenProps) => {
         </p>
 
         <button
-          onClick={() => navigate("../reflection")}
+          onClick={() => navigate("../reflection", { replace: true })}
           className="mt-8 bg-primary text-primary-foreground font-semibold px-12 py-4 rounded-2xl shadow-lg shadow-primary/20 hover:shadow-xl hover:scale-[1.02] transition-all"
         >
           Continue →

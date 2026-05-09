@@ -35,7 +35,7 @@ const ReflectionScreen = ({ names, onReset }: ReflectionScreenProps) => {
       await sql`INSERT INTO redraw_your_circle_entries (user_id, circles) VALUES (${userId}, ${circlesData})`;
       toast.success("Circle saved");
       onReset();
-      navigate("../history");
+      navigate("../history", { replace: true });
     } catch (error) {
       console.error("Failed to save circle:", error);
       toast.error("Failed to save circle");
@@ -46,7 +46,7 @@ const ReflectionScreen = ({ names, onReset }: ReflectionScreenProps) => {
 
   const handleFinish = () => {
     onReset();
-    navigate("../intro");
+    navigate("../intro", { replace: true });
   };
 
   return (
@@ -54,7 +54,7 @@ const ReflectionScreen = ({ names, onReset }: ReflectionScreenProps) => {
       title="Redraw Your Circle"
       subtitle="Final reflections"
       icon={<Users className="w-6 h-6 text-primary" />}
-      onBack={() => navigate("../circle")}
+      onBack={() => navigate("../circle", { replace: true })}
     >
       <div className="flex-1 flex flex-col items-center px-6 pb-8 text-center relative z-10">
         <BackgroundOrbs />

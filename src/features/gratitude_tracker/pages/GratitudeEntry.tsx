@@ -28,6 +28,7 @@ const GratitudeEntry = () => {
         date: todayISO(),
         editId: editState?.editId,
       },
+      replace: true
     });
   };
 

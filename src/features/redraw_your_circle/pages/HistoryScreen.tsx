@@ -54,7 +54,7 @@ const HistoryScreen = () => {
       title="History"
       subtitle="Your past circles"
       icon={<Users className="w-6 h-6 text-primary" />}
-      onBack={() => navigate("../intro")}
+      onBack={() => navigate("../intro", { replace: true })}
     >
       <div className="flex-1 px-6 pb-8 relative z-10">
         <BackgroundOrbs />

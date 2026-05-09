@@ -58,7 +58,7 @@ const ActiveBreathing = () => {
                 if (r >= totalRounds) {
                   clearTimer();
                   setStatus("idle");
-                  navigate("../complete");
+                  navigate("../complete", { replace: true });
                   return r;
                 }
                 return r + 1;
@@ -125,7 +125,7 @@ const ActiveBreathing = () => {
   return (
     <PremiumLayout 
       title="Mindful Breathing" 
-      onReset={() => { reset(); navigate(".."); }}
+      onReset={() => { reset(); navigate("..", { replace: true }); }}
     >
       <div className="flex flex-col items-center gap-10 py-6">
         {/* Progress Header */}

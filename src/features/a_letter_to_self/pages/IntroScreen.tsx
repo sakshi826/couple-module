@@ -15,7 +15,7 @@ const IntroScreen = () => {
         <PremiumIntro
           title={t("title")}
           description={t("intro_text")}
-          onStart={() => navigate("./write")}
+          onStart={() => navigate("./write", { replace: true })}
           icon={<Mail size={32} />}
           benefits={[
             t("no_judgments"),

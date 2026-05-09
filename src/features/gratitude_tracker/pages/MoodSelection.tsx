@@ -24,7 +24,7 @@ const MoodSelection = () => {
   const [isSaving, setIsSaving] = useState(false);
 
   if (!gratitude1) {
-    navigate("..");
+    navigate("..", { replace: true });
     return null;
   }
 
@@ -40,7 +40,7 @@ const MoodSelection = () => {
         mood: selected,
       };
       await saveEntry(entry);
-      navigate("../review", { state: { entryId: entry.id, entryDate: entry.date } });
+      navigate("../review", { state: { entryId: entry.id, entryDate: entry.date }, replace: true });
     } catch (error) {
       console.error("Save error:", error);
     } finally {
@@ -51,7 +51,7 @@ const MoodSelection = () => {
   return (
     <PremiumLayout 
       title="How are you feeling?" 
-      onBack={() => navigate("..", { state: location.state })}
+      onBack={() => navigate("..", { state: location.state, replace: true })}
     >
       <div className="w-full space-y-8">
         <header>

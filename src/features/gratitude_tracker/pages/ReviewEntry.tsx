@@ -25,7 +25,7 @@ const ReviewEntry = () => {
       setEntry(found || null);
       setIsLoading(false);
       if (!found && !isLoading) {
-        navigate("..");
+        navigate("..", { replace: true });
       }
     };
     fetchEntry();
@@ -53,6 +53,7 @@ const ReviewEntry = () => {
         gratitude1: entry.gratitude1,
         gratitude2: entry.gratitude2,
       },
+      replace: true
     });
   };
 
@@ -61,7 +62,7 @@ const ReviewEntry = () => {
       <PremiumComplete
         title={t("review.heading")}
         message="Your thoughts have been preserved. Gratitude is a powerful tool for happiness."
-        onRestart={() => navigate("..")}
+        onRestart={() => navigate("..", { replace: true })}
       >
         <div className="space-y-6 w-full max-w-md mx-auto">
           <motion.div
@@ -110,7 +111,7 @@ const ReviewEntry = () => {
             <motion.button
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              onClick={() => navigate("../history")}
+              onClick={() => navigate("../history", { replace: true })}
               className="flex-1 py-4 bg-white border-2 border-slate-100 text-slate-500 font-black text-xs uppercase tracking-widest rounded-2xl flex items-center justify-center gap-2 hover:bg-slate-50 transition-all"
             >
               <HistoryIcon size={16} />
