@@ -53,22 +53,21 @@ const Index = () => {
     }
   };
 
-  const getSecondaryBack = () => {
+  const getBackAction = () => {
     switch(screen) {
-      case 'checkin': return { label: "Back to Start", action: () => setScreen("intro") };
-      case 'reflection': return { label: "Back to Selection", action: () => setScreen("checkin") };
-      case 'history': return { label: "Back to Start", action: () => setScreen("intro") };
-      default: return null;
+      case 'reflection': return () => setScreen("checkin");
+      case 'checkin': return () => setScreen("intro");
+      case 'history': return () => setScreen("intro");
+      default: return undefined; // Triggers handleExit in PremiumLayout
     }
   };
-
-  const secBack = getSecondaryBack();
 
   return (
     <PremiumLayout 
       title={getTitle()} 
       onReset={screen !== 'intro' ? () => setScreen('intro') : undefined}
-      onBack={secBack?.action}
+      onBack={getBackAction()}
+      exitOnBack={screen === 'intro' || screen === 'confirmation'}
     >
       <div className="w-full">
         <AnimatePresence mode="wait">

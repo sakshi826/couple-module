@@ -40,6 +40,7 @@ const EnergyFactors = () => {
     <PremiumLayout 
       title={t("factors_title")}
       icon={<Sparkles className="h-6 w-6" />}
+      onBack={() => navigate("..")}
     >
       <div className="w-full">
         <h2 className="mb-1 text-xl font-bold text-slate-900">

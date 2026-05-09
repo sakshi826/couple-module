@@ -11,6 +11,7 @@ interface PremiumLayoutProps {
   onReset?: () => void;
   showBack?: boolean;
   icon?: React.ReactNode;
+  exitOnBack?: boolean;
 }
 
 export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
@@ -20,7 +21,8 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
   onBack,
   onReset,
   showBack = true,
-  icon
+  icon,
+  exitOnBack
 }) => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -39,11 +41,10 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
       return;
     }
 
-    // If at the home hub or entered directly to this page
-    const isHome = location.pathname === "/" || location.pathname === "/therapy" || location.pathname === "/therapy/";
-    const isInitialPage = window.history.length <= 2; // Rough estimate for direct entry
-
-    if (isHome || isInitialPage) {
+    // Default behavior if no custom onBack is provided
+    const isHub = location.pathname === "/" || location.pathname === "/therapy" || location.pathname === "/therapy/";
+    
+    if (exitOnBack || isHub) {
       handleExit();
     } else {
       navigate("/");

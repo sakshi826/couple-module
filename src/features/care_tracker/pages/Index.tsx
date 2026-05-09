@@ -94,12 +94,26 @@ const Index = () => {
     }
   };
 
-  return (
-    <PremiumLayout 
-      title={getTitle()} 
-      onBack={screen === 'history' ? () => setScreen('review') : undefined}
-      onReset={screen !== 'intro' ? resetFlow : undefined}
-    >
+    const getBackAction = () => {
+      switch(screen) {
+        case 'history': return () => setScreen('review');
+        case 'statement': return () => setScreen('mood');
+        case 'mood': return () => setScreen(entry.didSelfCare ? "duration" : "noSelfCare");
+        case 'duration': return () => setScreen("activities");
+        case 'activities': return () => setScreen("checkin");
+        case 'noSelfCare': return () => setScreen("checkin");
+        case 'checkin': return () => setScreen("intro");
+        default: return undefined; // Triggers handleExit in PremiumLayout
+      }
+    };
+
+    return (
+      <PremiumLayout 
+        title={getTitle()} 
+        onBack={getBackAction()}
+        onReset={screen !== 'intro' ? resetFlow : undefined}
+        exitOnBack={screen === 'intro' || screen === 'review'}
+      >
       <div className="w-full">
         <AnimatePresence mode="wait">
           <motion.div

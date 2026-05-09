@@ -50,6 +50,7 @@ const TodaySummary = () => {
     <PremiumLayout 
       title={t("summary_title")}
       icon={<Sparkles className="h-6 w-6" />}
+      exitOnBack={true}
     >
       <PremiumComplete
         title={t("today_energy", { label: labelMap[level] })}

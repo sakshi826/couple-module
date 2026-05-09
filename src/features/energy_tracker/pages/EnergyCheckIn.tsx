@@ -25,6 +25,8 @@ const EnergyCheckIn = () => {
     <PremiumLayout 
       title="Energy Check-in" 
       onReset={!showIntro ? () => setShowIntro(true) : undefined}
+      onBack={!showIntro ? () => setShowIntro(true) : undefined}
+      exitOnBack={showIntro}
     >
       <AnimatePresence mode="wait">
         {showIntro ? (

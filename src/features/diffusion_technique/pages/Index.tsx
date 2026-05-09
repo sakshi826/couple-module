@@ -36,19 +36,25 @@ const Index = () => {
     }
   };
 
-  const getSecondaryBack = () => {
-    if (view === "choose") return { label: t('label_back_to_start'), action: () => setView("intro") };
-    if (view !== "intro" && step !== 3) return { label: t('label_back_to_techniques'), action: () => { reset(); setView("choose"); } };
-    return null;
+  const getBackAction = () => {
+    if (view === "intro") return undefined; // Triggers handleExit in PremiumLayout
+    if (view === "choose") return () => setView("intro");
+    
+    // Sub-screens (sky, sell, name)
+    if (step > 1) {
+      // Don't allow going back from the final completion step into the activity
+      if (step === 4) return () => { reset(); setView("choose"); };
+      return () => setStep(step - 1);
+    }
+    
+    return () => { reset(); setView("choose"); };
   };
 
-  const secBack = getSecondaryBack();
-
-  return (
     <PremiumLayout 
       title={getTitle()} 
       onReset={view !== 'intro' ? () => { reset(); setView('intro'); } : undefined}
-      onBack={secBack?.action}
+      onBack={getBackAction()}
+      exitOnBack={view === 'intro'}
     >
       <div className="w-full">
         <AnimatePresence mode="wait">
