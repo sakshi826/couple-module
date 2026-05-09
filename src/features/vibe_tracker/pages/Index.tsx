@@ -68,8 +68,7 @@ const Index = () => {
     <PremiumLayout 
       title={getTitle()} 
       onReset={screen !== 'intro' ? () => setScreen('intro') : undefined}
-      onSecondaryBack={secBack?.action}
-      secondaryBackLabel={secBack?.label}
+      onBack={secBack?.action}
     >
       <div className="w-full">
         <AnimatePresence mode="wait">

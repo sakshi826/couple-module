@@ -33,8 +33,7 @@ export default function TechniqueDetail() {
   return (
     <PremiumLayout 
       title="Grounding Activity" 
-      onSecondaryBack={() => navigate(`../${langParam}`)}
-      secondaryBackLabel="Back to list"
+      onBack={() => navigate(`../${langParam}`)}
     >
       <div className="w-full space-y-10 pb-12">
         <div className="space-y-6">

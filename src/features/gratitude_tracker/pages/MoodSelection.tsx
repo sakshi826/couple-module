@@ -51,8 +51,7 @@ const MoodSelection = () => {
   return (
     <PremiumLayout 
       title="How are you feeling?" 
-      onSecondaryBack={() => navigate("..", { state: location.state })}
-      secondaryBackLabel="Back to entry"
+      onBack={() => navigate("..", { state: location.state })}
     >
       <div className="w-full space-y-8">
         <header>

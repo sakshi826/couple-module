@@ -33,9 +33,8 @@ const EmotionalCheckIn = () => {
 
   return (
     <PremiumLayout 
-        title="Check-in"
-        onSecondaryBack={() => navigate("../write")}
-        secondaryBackLabel="Back to writing"
+        title="Final Reflection" 
+        onBack={() => navigate("../write")}
     >
       <div className="w-full space-y-10 pb-32">
         <header className="space-y-4">

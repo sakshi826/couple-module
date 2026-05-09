@@ -75,9 +75,8 @@ const WritingScreen = () => {
 
   return (
     <PremiumLayout 
-        title="Compose Letter" 
-        onSecondaryBack={() => navigate("..")}
-        secondaryBackLabel="Back to start"
+        title="Write to Yourself" 
+        onBack={() => navigate("..")}
     >
       <div className="w-full space-y-10 pb-32">
         <header className="flex items-center justify-between">

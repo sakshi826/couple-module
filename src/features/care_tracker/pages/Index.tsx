@@ -97,10 +97,8 @@ const Index = () => {
   return (
     <PremiumLayout 
       title={getTitle()} 
-      onBack={() => navigate("/")}
+      onBack={screen === 'history' ? () => setScreen('review') : undefined}
       onReset={screen !== 'intro' ? resetFlow : undefined}
-      onSecondaryBack={screen === 'history' ? () => setScreen('review') : undefined}
-      secondaryBackLabel={screen === 'history' ? "Back to Review" : undefined}
     >
       <div className="w-full">
         <AnimatePresence mode="wait">

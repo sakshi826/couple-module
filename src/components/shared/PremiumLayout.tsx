@@ -9,8 +9,6 @@ interface PremiumLayoutProps {
   subtitle?: string;
   onBack?: () => void;
   onReset?: () => void;
-  onSecondaryBack?: () => void;
-  secondaryBackLabel?: string;
   showBack?: boolean;
   icon?: React.ReactNode;
 }
@@ -21,8 +19,6 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
   subtitle,
   onBack,
   onReset,
-  onSecondaryBack,
-  secondaryBackLabel,
   showBack = true,
   icon
 }) => {
@@ -82,16 +78,6 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
                 title="Reset Activity"
               >
                 <RotateCcw size={18} strokeWidth={2.5} />
-              </motion.button>
-            )}
-            {secondaryBackLabel && onSecondaryBack && (
-              <motion.button
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                onClick={onSecondaryBack}
-                className="px-5 py-2.5 rounded-xl bg-slate-900 text-white text-[10px] font-black uppercase tracking-[0.15em] hover:bg-slate-800 shadow-lg shadow-slate-900/10 transition-all"
-              >
-                {secondaryBackLabel}
               </motion.button>
             )}
           </div>

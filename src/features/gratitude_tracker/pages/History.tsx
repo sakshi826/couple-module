@@ -79,10 +79,9 @@ const GratitudeHistory = () => {
   };
 
   return (
-    <PremiumLayout
-      title="Gratitude History"
-      onSecondaryBack={() => navigate("..")}
-      secondaryBackLabel="Back to Journal"
+    <PremiumLayout 
+      title="Your Journey" 
+      onBack={() => navigate("..")}
     >
       <div className="w-full space-y-8">
         {error && (

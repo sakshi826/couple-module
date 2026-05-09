@@ -84,8 +84,7 @@ const PastLetters = () => {
     return (
       <PremiumLayout
         title="Letter Detail"
-        onSecondaryBack={() => setSelectedEntry(null)}
-        secondaryBackLabel="Back to list"
+        onBack={() => setSelectedEntry(null)}
       >
         <div className="w-full space-y-10 pb-12">
           <motion.div
@@ -154,8 +153,7 @@ const PastLetters = () => {
   return (
     <PremiumLayout
       title="My Letters"
-      onSecondaryBack={() => navigate("..")}
-      secondaryBackLabel="Back to start"
+      onBack={() => navigate("..")}
     >
       <div className="w-full space-y-10 pb-12">
         <header className="space-y-4">

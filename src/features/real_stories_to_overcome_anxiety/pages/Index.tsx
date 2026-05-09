@@ -29,8 +29,7 @@ const Index = () => {
   return (
     <PremiumLayout 
       title="Real Stories" 
-      onSecondaryBack={screen === "story" ? handleBackToStories : (screen === "selection" ? () => setScreen("intro") : undefined)}
-      secondaryBackLabel={screen === "story" ? "Back to list" : "Back to start"}
+      onBack={screen === "story" ? handleBackToStories : (screen === "selection" ? () => setScreen("intro") : undefined)}
       onReset={screen !== 'intro' ? () => setScreen('intro') : undefined}
     >
       <div className="w-full">

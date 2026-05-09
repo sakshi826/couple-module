@@ -26,8 +26,7 @@ const TipDetail = () => {
   return (
     <PremiumLayout 
       title="Tip Detail" 
-      onSecondaryBack={() => navigate("..")}
-      secondaryBackLabel="Back to tips"
+      onBack={() => navigate("..")}
     >
       <div className="w-full space-y-10 pb-12">
         <div className="flex items-center gap-6">

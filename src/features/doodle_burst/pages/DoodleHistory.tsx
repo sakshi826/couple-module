@@ -66,10 +66,9 @@ const DoodleHistory = () => {
   };
 
   return (
-    <PremiumLayout
-      title="Doodle Gallery"
-      onSecondaryBack={() => navigate("..")}
-      secondaryBackLabel="Back to Burst"
+    <PremiumLayout 
+      title="Doodle Gallery" 
+      onBack={() => navigate("..")}
     >
       <div className="w-full space-y-10">
         {/* Empty state */}
