@@ -1,5 +1,5 @@
 import { createI18nInstance } from '../../lib/i18n';
-import en from './en.json';
+import en from './i18n/en.json';
 
 const instance = createI18nInstance({
   en: { translation: en }
