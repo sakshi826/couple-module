@@ -16,7 +16,7 @@ export default function TechniqueDetail() {
 
   if (!technique) {
     return (
-      <PremiumLayout title="Grounding Detail">
+      <PremiumLayout title={t("app_title")}>
         <div className="flex flex-col items-center justify-center py-20 gap-4">
           <Loader2 className="w-10 h-10 animate-spin text-primary opacity-20" />
           <p className="text-slate-400 font-black text-[10px] uppercase tracking-widest">{t("Technique not found")}</p>
@@ -32,7 +32,7 @@ export default function TechniqueDetail() {
 
   return (
     <PremiumLayout 
-      title="Grounding Activity" 
+      title={t("app_title")} 
       onBack={() => navigate(`../${langParam}`)}
     >
       <div className="w-full space-y-10 pb-12">

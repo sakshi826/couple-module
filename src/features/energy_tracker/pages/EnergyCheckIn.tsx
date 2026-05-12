@@ -23,7 +23,7 @@ const EnergyCheckIn = () => {
 
   return (
     <PremiumLayout 
-      title="Energy Check-in" 
+      title={t("app_title")} 
       onReset={!showIntro ? () => setShowIntro(true) : undefined}
       onBack={!showIntro ? () => setShowIntro(true) : undefined}
       exitOnBack={showIntro}

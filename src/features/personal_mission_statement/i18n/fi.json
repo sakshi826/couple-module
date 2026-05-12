@@ -60,5 +60,8 @@
     "next": "Seuraava",
     "save": "Tallentaa",
     "loading": "Ladataan..."
-  }
+  },
+  "app_duration": "5–10 minuuttia",
+  "app_title": "Henkilökohtainen missiolausunto",
+  "app_description": "karuselli"
 }

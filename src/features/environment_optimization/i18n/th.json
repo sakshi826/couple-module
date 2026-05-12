@@ -43,5 +43,7 @@
     "next": "ต่อไป",
     "save": "บันทึก",
     "loading": "กำลังโหลด..."
-  }
+  },
+  "app_duration": "5 นาที",
+  "app_description": "ม้าหมุน"
 }

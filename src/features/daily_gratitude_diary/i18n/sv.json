@@ -44,5 +44,7 @@
     "loading": "Belastning..."
   },
   "app_complete_title": "Tacksamhet räddad",
-  "app_complete_message": "Att reflektera över vad du är tacksam för är ett kraftfullt sätt att skifta ditt fokus till det positiva."
+  "app_complete_message": "Att reflektera över vad du är tacksam för är ett kraftfullt sätt att skifta ditt fokus till det positiva.",
+  "app_duration": "3–5 minuter",
+  "app_description": "karusell"
 }

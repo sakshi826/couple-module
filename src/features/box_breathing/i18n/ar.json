@@ -32,5 +32,10 @@
   },
   "app_title": "تنفس الصندوق",
   "app_complete_title": "عمل رائع!",
-  "app_complete_message": "لقد أنهيت جلسة تنفس الصندوق. يجب أن تشعر بمزيد من التوازن والهدوء."
+  "app_complete_message": "لقد أنهيت جلسة تنفس الصندوق. يجب أن تشعر بمزيد من التوازن والهدوء.",
+  "app_duration": "5 دقائق",
+  "intro_p1": "inhale_4s",
+  "intro_p2": "hold_4s",
+  "intro_p3": "الزفير_4 ثوانٍ",
+  "app_description": "دوامة الخيل"
 }

@@ -60,5 +60,7 @@
     "next": "Berikutnya",
     "save": "Menyimpan",
     "loading": "Memuat..."
-  }
+  },
+  "app_title": "Catatan Aktivitas",
+  "app_description": "korsel"
 }

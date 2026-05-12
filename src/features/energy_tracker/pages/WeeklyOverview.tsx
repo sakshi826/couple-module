@@ -57,7 +57,7 @@ const WeeklyOverview = () => {
 
   return (
     <PremiumLayout 
-      title={t("weekly_title")}
+      title={t("app_title")}
       icon={<History className="h-6 w-6" />}
     >
       <div className="w-full">

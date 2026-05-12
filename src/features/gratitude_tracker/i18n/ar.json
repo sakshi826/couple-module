@@ -1,40 +1,23 @@
 {
-  "app.title": "متتبع الامتنان",
-  "app.description": "راقب امتنانك اليومي وحالتك المزاجية لتحسين صحتك النفسية",
-  "gratitude.heading": "ما الذي تشعر بالامتنان له اليوم؟",
-  "gratitude.subheading": "خذ لحظة للتفكير في الأشياء الجيدة، كبيرة كانت أم صغيرة.",
-  "gratitude.item1.label": "بند الامتنان 1",
-  "gratitude.item1.placeholder": "مثال: كوب شاي دافئ هذا الصباح...",
-  "gratitude.item2.label": "بند الامتنان 2",
-  "gratitude.item2.placeholder": "مثال: كلمة طيبة من صديق...",
-  "gratitude.optional": "(خياري)",
-  "common.continue": "يكمل",
-  "mood.heading": "كيف تشعر؟",
-  "mood.subheading": "اختر الحالة المزاجية التي تصفك بشكل أفضل الآن.",
-  "mood.save": "حفظ مدخل الامتنان",
-  "mood.happy": "سعيد",
-  "mood.calm": "هادئ",
-  "mood.neutral": "حيادي",
-  "mood.low": "قليل",
-  "mood.stressed": "متوتر",
-  "review.heading": "مشاركتك",
-  "review.date": "تاريخ",
-  "review.gratitude1": "الامتنان 1",
-  "review.gratitude2": "الامتنان ٢",
-  "review.mood": "مزاج",
-  "review.edit": "تعديل المدخل",
-  "review.history": "عرض السجل",
-  "history.heading": "تاريخ",
-  "history.back": "خلف",
-  "history.home": "انتقل إلى الصفحة الرئيسية",
-  "history.sun": "شمس",
-  "history.mon": "لي",
-  "history.tue": "الثلاثاء",
-  "history.wed": "تزوج",
-  "history.thu": "يجمع",
-  "history.fri": "الجمعة",
-  "history.sat": "قعد",
+  "app": {
+    "title": "متتبع الامتنان",
+    "description": "راقب امتنانك اليومي وحالتك المزاجية لتحسين صحتك النفسية"
+  },
+  "gratitude": {
+    "heading": "ما الذي تشعر بالامتنان له اليوم؟",
+    "subheading": "خذ لحظة للتفكير في الأشياء الجيدة، كبيرة كانت أم صغيرة.",
+    "item1": {
+      "label": "بند الامتنان 1",
+      "placeholder": "مثال: كوب شاي دافئ هذا الصباح..."
+    },
+    "item2": {
+      "label": "بند الامتنان 2",
+      "placeholder": "مثال: كلمة طيبة من صديق..."
+    },
+    "optional": "(خياري)"
+  },
   "common": {
+    "continue": "يكمل",
     "get_started": "ابدأ الآن",
     "start_over": "ابدأ من جديد",
     "finish_exit": "إنهاء العملية والخروج",
@@ -45,5 +28,42 @@
     "next": "التالي",
     "save": "يحفظ",
     "loading": "تحميل..."
-  }
+  },
+  "mood": {
+    "heading": "كيف تشعر؟",
+    "subheading": "اختر الحالة المزاجية التي تصفك بشكل أفضل الآن.",
+    "save": "حفظ مدخل الامتنان",
+    "happy": "سعيد",
+    "calm": "هادئ",
+    "neutral": "حيادي",
+    "low": "قليل",
+    "stressed": "متوتر"
+  },
+  "review": {
+    "heading": "مشاركتك",
+    "date": "تاريخ",
+    "gratitude1": "الامتنان 1",
+    "gratitude2": "الامتنان ٢",
+    "mood": "مزاج",
+    "edit": "تعديل المدخل",
+    "history": "عرض السجل"
+  },
+  "history": {
+    "heading": "تاريخ",
+    "back": "خلف",
+    "home": "انتقل إلى الصفحة الرئيسية",
+    "sun": "شمس",
+    "mon": "لي",
+    "tue": "الثلاثاء",
+    "wed": "تزوج",
+    "thu": "يجمع",
+    "fri": "الجمعة",
+    "sat": "قعد"
+  },
+  "app_duration": "2-3 دقائق",
+  "intro_p1": "حسّن صحتك النفسية",
+  "intro_p2": "ركز على الأشياء الإيجابية",
+  "intro_p3": "ابنِ عادة الامتنان الدائمة",
+  "app_description": "دوامة الخيل",
+  "app_title": "دفتر الامتنان"
 }

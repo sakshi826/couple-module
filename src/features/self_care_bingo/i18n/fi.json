@@ -62,5 +62,7 @@
     "loading": "Ladataan..."
   },
   "complete_title": "Bingo Master!",
-  "complete_message": "Onnittelen! Olet onnistuneesti suorittanut itsehoitolinjan. Mielesi ja kehosi ovat kiitos."
+  "complete_message": "Onnittelen! Olet onnistuneesti suorittanut itsehoitolinjan. Mielesi ja kehosi ovat kiitos.",
+  "app_duration": "Milloin tahansa",
+  "app_description": "karuselli"
 }

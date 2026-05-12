@@ -168,5 +168,7 @@
     "next": "Næste",
     "save": "Spare",
     "loading": "Indlæser..."
-  }
+  },
+  "app_title": "Jordforbindelse",
+  "app_description": "karrusel"
 }

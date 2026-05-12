@@ -58,5 +58,10 @@
     "thu": "Thu",
     "fri": "Fri",
     "sat": "Sat"
-  }
+  },
+  "app_duration": "2-3 minutes",
+  "intro_p1": "Improve your emotional wellbeing",
+  "intro_p2": "Focus on the positive things",
+  "intro_p3": "Build a lasting habit of gratitude",
+  "app_title": "Gratitude Journal"
 }

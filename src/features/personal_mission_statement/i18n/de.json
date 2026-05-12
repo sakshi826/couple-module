@@ -60,5 +60,8 @@
     "next": "Nächste",
     "save": "Speichern",
     "loading": "Laden..."
-  }
+  },
+  "app_duration": "5-10 Minuten",
+  "app_title": "Persönliches Leitbild",
+  "app_description": "Karussell"
 }

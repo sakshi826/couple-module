@@ -1,11 +1,11 @@
 {
   "app_title": "Unikierto-opas",
-  "pill_labels": [
-    "Johdanto",
-    "Neljä vaihetta",
-    "Uninen totuus",
-    "Entä sinä?"
-  ],
+  "pill_labels": {
+    "0": "Johdanto",
+    "1": "Neljä vaihetta",
+    "2": "Uninen totuus",
+    "3": "Entä sinä?"
+  },
   "s1": {
     "title": "Oletko koskaan nukkunut 8 tuntia ja silti tuntenut olosi kamalaksi?",
     "p1": "Kyse ei ole siitä, <1>kuinka kauan</1> nukut.",
@@ -18,32 +18,32 @@
   "s2": {
     "title": "Aivosi tekevät TÄTÄ joka yö 🌀",
     "desc": "Joka 90. minuutti aivosi kiertävät neljän vaiheen läpi — kuin soittolista toistuvasti. Napauta kutakin tutkiaksesi 👇",
-    "stages": [
-      {
+    "stages": {
+      "0": {
         "emoji": "🌊",
         "title": "Kevyt uni",
         "tag": "1–5 minuuttia · helposti heräävä",
         "body": "Vaivut uneen. Keho alkaa päästää irti, lihakset saattavat nykiä. Täältä on todella helppo herätä."
       },
-      {
+      "1": {
         "emoji": "💤",
         "title": "Sopeutuminen",
         "tag": "10–25 minuuttia · Todella unessa",
         "body": "Syke hidastuu, kehon lämpötila laskee. Olet kunnolla unessa — aivotoiminta alkaa hidastua."
       },
-      {
+      "2": {
         "emoji": "🔵",
         "title": "Syvä uni ⭐",
         "tag": "20–40 minuuttia · Kulta",
         "body": "Keho korjaa kudosta, rakentaa vastustuskyvyn. Fyysisesti parantavin vaihe — vaikea herätä."
       },
-      {
+      "3": {
         "emoji": "🌙",
         "title": "REM-uni",
         "tag": "10–60 minuuttia · Dream-tila",
         "body": "Aivot surisevat toiminnasta. Tunteet käsitellään, muistot lukittuvat. Tämän ohittaminen saa sinut sumuiseksi."
       }
-    ],
+    },
     "italic": "Syvä uni korjaa kehosi. REM korjaa mielesi.",
     "button": "Miksi sitten tunnen oloni edelleen tokkuraiseksi? →"
   },
@@ -55,66 +55,66 @@
       "deep": "Syvällä",
       "groggy": "😫 tokkurainen",
       "fresh": "😊 Tuore",
-      "cycles": [
-        "Sykli 1",
-        "Kausi 2",
-        "Kausi 3"
-      ]
+      "cycles": {
+        "0": "Sykli 1",
+        "1": "Kausi 2",
+        "2": "Kausi 3"
+      }
     },
     "disruptors_title": "Mikä häiritsee kiertojasi 👇",
-    "disruptors": [
-      {
+    "disruptors": {
+      "0": {
         "emoji": "📱",
         "text": "Näytöt ennen nukkumaanmenoa",
         "sub": "viivästyttää syvää unta"
       },
-      {
+      "1": {
         "emoji": "☕",
         "text": "Myöhäinen kofeiini",
         "sub": "Vähentää syvää unta jopa 20 %"
       },
-      {
+      "2": {
         "emoji": "⏰",
         "text": "Epäsäännölliset uniajat",
         "sub": "rikkoo luonnollisen rytmisi"
       },
-      {
+      "3": {
         "emoji": "😰",
         "text": "Stressi ja ahdistus",
         "sub": "Pitää sinut jumissa kevyessä unessa"
       }
-    ],
+    },
     "italic": "Tapasi muokkaavat suoraan, mihin vaiheisiin pääset.",
     "button": "Mitä tämä merkitsee minulle? →"
   },
   "s4": {
     "title": "Kumpi kuulostaa sinulta? 👇",
-    "options": [
-      {
+    "options": {
+      "0": {
         "emoji": "😩",
         "text": "Herään fyysisesti uupuneena",
         "sub": "Todennäköisesti kaipaa syvää unta",
         "tip": "Keskity säännölliseen uni- ja heräämisaikaan — kehosi tarvitsee säännöllisen rytmin päästäkseen syvään uneen."
       },
-      {
+      "1": {
         "emoji": "🌫️",
         "text": "Tunnen oloni henkisesti sumuiseksi tai alakuloiseksi",
         "sub": "todennäköisesti puuttuu REM-uni",
         "tip": "Kokeile rentoutua 30 minuuttia ennen nukkumaanmenoa — rauhallinen ennen nukkumaanmenorutiini suojaa REM-untasi."
       },
-      {
+      "2": {
         "emoji": "😤",
         "text": "Herään usein yöllä",
         "sub": "Syklit keskeytyvät jatkuvasti",
         "tip": "Viileä, pimeä ja hiljainen huone auttaa aivojasi pysymään syvemmissä vaiheissa ilman keskeytyksiä."
       },
-      {
+      "3": {
         "emoji": "😐",
         "text": "Voin hyvin, mutta en kovin hyvin",
         "sub": "Syklit ovat osittaisia, mutta eivät täydellisiä",
         "tip": "Yritä mennä nukkumaan 20 minuuttia aikaisemmin — saatat tarvita vain yhden täydellisen unisyklin lisää."
       }
-    ],
+    },
     "quote": "Uni ei ole pelkkää lepoa — se on aktiivista toipumista. Suojaa kiertosi ja koko päivän muutokset.",
     "button": "Valmista ✓"
   },
@@ -129,5 +129,6 @@
     "next": "Seuraava",
     "save": "Tallentaa",
     "loading": "Ladataan..."
-  }
+  },
+  "app_description": "karuselli"
 }

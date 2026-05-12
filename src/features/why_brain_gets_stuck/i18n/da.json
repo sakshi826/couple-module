@@ -10,20 +10,20 @@
   "s2": {
     "tag": "blide sandheder",
     "title": "Hjerneoverlevelseslogik",
-    "truths": [
-      {
+    "truths": {
+      "0": {
         "header": "Alarmen blev ved med at være tændt",
         "body": "Hypervigilans og let at blive forskrækket er ikke overreaktioner — din hjernes alarmsystem gør sit arbejde alt for godt."
       },
-      {
+      "1": {
         "header": "Flashbacks er minder",
         "body": "Triggere trækker din hjerne tilbage, fordi den aldrig fik signalet om, at truslen var ovre. Den prøver at beskytte dig."
       },
-      {
+      "2": {
         "header": "Kæmper for dig",
         "body": "Hvert symptom var engang en overlevelseshandling. Din hjerne gjorde, hvad den måtte for at holde dig i live."
       }
-    ],
+    },
     "healing": "Heling handler ikke om at glemme. Det handler om at hjælpe din hjerne med at lære, at du er sikker nu."
   },
   "common": {
@@ -37,5 +37,6 @@
     "next": "Næste",
     "save": "Spare",
     "loading": "Indlæser..."
-  }
+  },
+  "app_description": "karrusel"
 }

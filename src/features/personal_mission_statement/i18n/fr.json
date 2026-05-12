@@ -60,5 +60,8 @@
     "next": "Suivant",
     "save": "Sauvegarder",
     "loading": "Chargement..."
-  }
+  },
+  "app_duration": "5 à 10 minutes",
+  "app_title": "Déclaration de mission personnelle",
+  "app_description": "carrousel"
 }

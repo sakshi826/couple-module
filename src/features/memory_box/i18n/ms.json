@@ -1,12 +1,12 @@
 {
   "app_title": "Kotak Memori",
-  "screen_titles": [
-    "Kotak anda",
-    "Menghormati",
-    "Menyatakan",
-    "Dipelihara",
-    "Penjagaan Lembut"
-  ],
+  "screen_titles": {
+    "0": "Kotak anda",
+    "1": "Menghormati",
+    "2": "Menyatakan",
+    "3": "Dipelihara",
+    "4": "Penjagaan Lembut"
+  },
   "complete_title": "Ingatan Dipelihara",
   "complete_message": "Anda telah meletakkan memori {{name}} dengan selamat di dalam kotak anda. Detik-detik hubungan ini adalah milik anda untuk disimpan, sentiasa.",
   "auth_error": "Sesi pengesahan hilang atau DB tidak dikonfigurasikan",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Taipkan nama mereka...",
     "placeholder_relation": "Bagaimana anda mengenali mereka? (pilihan)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Detik gembira",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Sesuatu yang biasa mereka katakan",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "Kenangan harian yang kecil",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "Tempat yang mengingatkan anda tentang mereka",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "Sesuatu yang saya harap saya boleh katakan",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Teruskan →"
   },
   "expression": {
@@ -88,5 +88,6 @@
     "next": "Seterusnya",
     "save": "Simpan",
     "loading": "Memuatkan..."
-  }
+  },
+  "app_description": "karusel"
 }

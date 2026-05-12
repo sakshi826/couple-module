@@ -51,7 +51,7 @@ const HistoryScreen = () => {
 
   return (
     <PremiumLayout
-      title="History"
+      title={t("app_title")}
       subtitle="Your past circles"
       icon={<Users className="w-6 h-6 text-primary" />}
       onBack={() => navigate("../intro", { replace: true })}

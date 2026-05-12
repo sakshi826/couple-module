@@ -48,5 +48,11 @@
     "next": "הַבָּא",
     "save": "לְהַצִיל",
     "loading": "טְעִינָה..."
-  }
+  },
+  "app_duration": "5-10 דקות",
+  "intro_p1": "שלב_1",
+  "intro_p2": "שלב_2",
+  "intro_p3": "שלב_3",
+  "app_title": "דחיית מוח",
+  "app_description": "קרוסלה"
 }

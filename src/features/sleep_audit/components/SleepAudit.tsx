@@ -88,7 +88,7 @@ export default function SleepAudit() {
   if (screen === 4) {
     return (
       <PremiumComplete
-        title={t("complete.title")}
+        title={t("app_title")}
         message={t("complete.message", { score: scoreValue })}
         onRestart={() => {
           setScreen(0);
@@ -103,7 +103,7 @@ export default function SleepAudit() {
   return (
     <PremiumLayout
       title={t("app_title")}
-      subtitle={t("app_subtitle")}
+      subtitle={t("app_title")}
       icon={<Moon className="w-6 h-6 text-primary" />}
       onBack={screen === 0 ? undefined : () => setScreen(prev => prev - 1)}
     >

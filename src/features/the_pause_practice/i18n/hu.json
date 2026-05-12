@@ -10,52 +10,52 @@
   "scenario": {
     "title": "Mi vált ki téged?",
     "desc": "Válassz egy helyzetet, amivel azonosulsz",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "megszakítások",
         "label": "Valaki félbeszakít",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "Tervek",
         "label": "A dolgok nem úgy alakulnak, ahogy terveztek",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "figyelmen kívül hagyva",
         "label": "Úgy érzem, figyelmen kívül hagynak",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "túlterhelt",
         "label": "Túlterheltnek érzem magam",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "Gépelj meg saját...",
     "button": "Gyakorlás szünete →"
   },
   "hold": {
     "title": "Tartsd meg a szünetet ⏸️",
     "instructions": "Tartsd a kört 5 másodpercig",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "Nyomd és tartsd..."
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "Maradj vele..."
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "Te csinálod..."
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "Majdnem ott vagyunk..."
       }
-    ]
+    }
   },
   "result": {
     "title": "Ez a szünet",
@@ -81,5 +81,6 @@
     "next": "Következő",
     "save": "Megtakarítás",
     "loading": "Terhelés..."
-  }
+  },
+  "app_description": "körhinta"
 }

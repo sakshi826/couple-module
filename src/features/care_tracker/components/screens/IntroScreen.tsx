@@ -12,16 +12,11 @@ const IntroScreen = ({ onStart }: IntroScreenProps) => {
 
   return (
     <PremiumIntro
-      title={t("screens.intro.title")}
-      description={t("screens.intro.description")}
+      title={t("app_title")}
+      description={t("app_description")}
       onStart={onStart}
       icon={<Activity size={32} />}
-      benefits={[
-        t("screens.intro.benefits.0"),
-        t("screens.intro.benefits.1"),
-        t("screens.intro.benefits.2"),
-        t("screens.intro.benefits.3")
-      ]}
+      benefits={[t('intro_p1'), t('intro_p2'), t('intro_p3'), t('intro_p4')]}
       duration={t("screens.intro.duration")}
     />
   );

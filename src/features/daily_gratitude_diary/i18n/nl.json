@@ -44,5 +44,7 @@
     "loading": "Laden..."
   },
   "app_complete_title": "Dankbaarheid gered",
-  "app_complete_message": "Reflecteren op waar je dankbaar voor bent, is een krachtige manier om je focus op het positieve te richten."
+  "app_complete_message": "Reflecteren op waar je dankbaar voor bent, is een krachtige manier om je focus op het positieve te richten.",
+  "app_duration": "3-5 minuten",
+  "app_description": "carrousel"
 }

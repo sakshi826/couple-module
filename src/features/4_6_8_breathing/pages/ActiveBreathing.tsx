@@ -124,7 +124,7 @@ const ActiveBreathing = () => {
 
   return (
     <PremiumLayout 
-      title="Mindful Breathing" 
+      title={t("app_title")} 
       onReset={() => { reset(); navigate("..", { replace: true }); }}
     >
       <div className="flex flex-col items-center gap-10 py-6">

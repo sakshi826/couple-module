@@ -21,24 +21,24 @@
       "placeholder": "Bir isim gir...",
       "button": "Kayıt Adı"
     },
-    "prompts": [
-      "Neşe getiren bir kişi",
-      "Seni destekleyen biri",
-      "Konuşabileceğin bir kişi",
-      "Güvendiğiniz bir kişi",
-      "Sana ilham veren bir kişi"
-    ]
+    "prompts": {
+      "0": "Neşe getiren bir kişi",
+      "1": "Seni destekleyen biri",
+      "2": "Konuşabileceğin bir kişi",
+      "3": "Güvendiğiniz bir kişi",
+      "4": "Sana ilham veren bir kişi"
+    }
   },
   "reflection": {
     "subtitle": "Son Düşünceler",
     "title": "Ne fark ediyorsun?",
     "p_intro": "Bir an durup dairenize bakın. Fark edebilirsiniz:",
-    "list": [
-      "Bazı insanlar kendini diğerlerinden daha yakın hissediyor",
-      "Bazı bağlantılar güçlü hissettiriyor",
-      "Bazıları uzak veya belirsiz hissediyor",
-      "Boşluklar olabilir — ya da sadece birkaç anlamlı kişi olabilir"
-    ],
+    "list": {
+      "0": "Bazı insanlar kendini diğerlerinden daha yakın hissediyor",
+      "1": "Bazı bağlantılar güçlü hissettiriyor",
+      "2": "Bazıları uzak veya belirsiz hissediyor",
+      "3": "Boşluklar olabilir — ya da sadece birkaç anlamlı kişi olabilir"
+    },
     "italic": "Farkındalık, değer verdiğiniz bağlantıları kurmanın ilk adımıdır. 🧘",
     "label": "💭 Daha fazla bağlanmak isteyeceğin biri var mı?",
     "placeholder": "Düşüncelerinizi buraya yazın...",
@@ -69,5 +69,6 @@
     "next": "Sonraki",
     "save": "Kaydetmek",
     "loading": "Yükleniyor..."
-  }
+  },
+  "app_description": "atlıkarınca"
 }

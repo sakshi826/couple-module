@@ -73,13 +73,13 @@
     "confirmDelete": "Potwierdź usunięcie",
     "cancel": "Anulować",
     "delete": "Usuń wpis",
-    "prompts": [
-      "Jedna krótka chwila, która nie była napięta…",
-      "Jedno z działań Twojego partnera…",
-      "Jedna cecha, która pozostała niezmienna…",
-      "Zamiar",
-      "Emocjonalne zameldowanie"
-    ]
+    "prompts": {
+      "0": "Jedna krótka chwila, która nie była napięta…",
+      "1": "Jedno z działań Twojego partnera…",
+      "2": "Jedna cecha, która pozostała niezmienna…",
+      "3": "Zamiar",
+      "4": "Emocjonalne zameldowanie"
+    }
   },
   "common": {
     "get_started": "Zacznij",
@@ -92,5 +92,11 @@
     "next": "Następny",
     "save": "Ratować",
     "loading": "Załadunek..."
-  }
+  },
+  "app_duration": "3-5 minut",
+  "intro_p1": "Kultywuj wdzięczność",
+  "intro_p2": "Zredukuj stres",
+  "intro_p3": "Poprawić samopoczucie",
+  "app_title": "Odbijanie",
+  "app_description": "karuzela"
 }

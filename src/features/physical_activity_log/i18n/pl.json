@@ -60,5 +60,7 @@
     "next": "Następny",
     "save": "Ratować",
     "loading": "Załadunek..."
-  }
+  },
+  "app_title": "Dziennik aktywności",
+  "app_description": "karuzela"
 }

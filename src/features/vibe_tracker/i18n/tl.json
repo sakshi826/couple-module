@@ -51,5 +51,10 @@
     "next": "Susunod",
     "save": "I-save",
     "loading": "Naglo-load..."
-  }
+  },
+  "app_duration": "1-2 minuto",
+  "intro_p1": "Subaybayan ang iyong mga emosyonal na pattern",
+  "intro_p2": "Pagnilayan ang iyong kalooban ngayon",
+  "intro_p3": "Bumuo ng kamalayan sa emosyon",
+  "app_description": "karusel"
 }

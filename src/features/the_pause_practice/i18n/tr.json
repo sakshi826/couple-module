@@ -10,52 +10,52 @@
   "scenario": {
     "title": "Seni ne tetikliyor?",
     "desc": "Kendinizi ilişkilendirdiğiniz bir durumu seçin",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "kesintiler",
         "label": "Biri beni bölüyor",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "Planlar",
         "label": "İşler planlandığı gibi gitmiyor",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "görmezden gelindi",
         "label": "Görmezden gelilmiş hissediyorum",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "bunalmış",
         "label": "Kendimi bunalmış hissediyorum",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "Kendi yazın...",
     "button": "Pratik Duraklaması →"
   },
   "hold": {
     "title": "Duraklatmak ⏸️ için tutun",
     "instructions": "Çemberi 5 saniye tutun",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "Bas ve tut..."
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "Devam et..."
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "Yapıyorsun..."
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "Neredeyse geldik..."
       }
-    ]
+    }
   },
   "result": {
     "title": "İşte duraklama",
@@ -81,5 +81,6 @@
     "next": "Sonraki",
     "save": "Kaydetmek",
     "loading": "Yükleniyor..."
-  }
+  },
+  "app_description": "atlıkarınca"
 }

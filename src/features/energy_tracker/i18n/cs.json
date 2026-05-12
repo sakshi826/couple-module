@@ -55,5 +55,10 @@
     "next": "Další",
     "save": "Uložit",
     "loading": "Načítání..."
-  }
+  },
+  "app_duration": "1 minuta",
+  "intro_p1": "Identifikujte úniky energie",
+  "intro_p2": "Objevte časy špičkové produktivity",
+  "intro_p3": "Zjistěte, co vás dobíjí",
+  "app_description": "Sledujte svou energetickou hladinu během dne, abyste pochopili své vzorce a optimalizovali svou pohodu."
 }

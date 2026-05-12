@@ -48,5 +48,11 @@
     "next": "Næste",
     "save": "Spare",
     "loading": "Indlæser..."
-  }
+  },
+  "app_duration": "5-10 minutter",
+  "intro_p1": "trin_1",
+  "intro_p2": "trin_2",
+  "intro_p3": "trin_3",
+  "app_title": "Hjernedump",
+  "app_description": "karrusel"
 }

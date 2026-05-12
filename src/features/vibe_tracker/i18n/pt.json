@@ -51,5 +51,10 @@
     "next": "Próximo",
     "save": "Salvar",
     "loading": "Carregando..."
-  }
+  },
+  "app_duration": "1-2 minutos",
+  "intro_p1": "Acompanhe seus padrões emocionais.",
+  "intro_p2": "Reflita sobre seu estado de espírito hoje.",
+  "intro_p3": "Desenvolver a consciência emocional",
+  "app_description": "carrossel"
 }

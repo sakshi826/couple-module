@@ -42,5 +42,10 @@
     "next": "Další",
     "save": "Uložit",
     "loading": "Načítání..."
-  }
+  },
+  "app_duration": "60 sekund",
+  "intro_p1": "Popusťte uzdu své kreativitě",
+  "intro_p2": "Uvolněte nahromaděnou energii",
+  "intro_p3": "Okamžitý reset mozku",
+  "app_description": "kolotoč"
 }

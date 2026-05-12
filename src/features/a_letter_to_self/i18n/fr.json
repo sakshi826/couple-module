@@ -26,5 +26,11 @@
     "next": "Suivant",
     "save": "Sauvegarder",
     "loading": "Chargement..."
-  }
+  },
+  "app_duration": "10 à 15 minutes",
+  "intro_p1": "pas de jugement",
+  "intro_p2": "Un espace de réflexion",
+  "intro_p3": "Connectez-vous à votre futur moi",
+  "app_title": "Lettre à moi-même",
+  "app_description": "carrousel"
 }

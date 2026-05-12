@@ -165,5 +165,10 @@
   },
   "app_complete_title": "힘을 느끼세요",
   "app_complete_message": "매일 확언은 당신의 사고방식을 바꾸는 데 도움을 줍니다. 오늘 이 긍정적인 생각들을 가지고 다니세요.",
-  "app_title": "사고방식"
+  "app_title": "사고방식",
+  "app_duration": "2-3분",
+  "intro_p1": "공통.takeTime",
+  "intro_p2": "일반적인.자연스럽게 숨쉬기",
+  "intro_p3": "common.noRush",
+  "app_description": "회전목마"
 }

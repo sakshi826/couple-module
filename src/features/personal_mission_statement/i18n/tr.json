@@ -60,5 +60,8 @@
     "next": "Sonraki",
     "save": "Kaydetmek",
     "loading": "Yükleniyor..."
-  }
+  },
+  "app_duration": "5-10 dakika",
+  "app_title": "Kişisel Misyon Bildirisi",
+  "app_description": "atlıkarınca"
 }

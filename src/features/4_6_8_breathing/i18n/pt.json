@@ -35,5 +35,10 @@
     "next": "Próximo",
     "save": "Salvar",
     "loading": "Carregando..."
-  }
+  },
+  "app_duration": "3-5 minutos",
+  "intro_p1": "Acalma o sistema nervoso",
+  "intro_p2": "Reduz o estresse imediato",
+  "intro_p3": "Melhora o foco e a clareza.",
+  "app_description": "carrossel"
 }

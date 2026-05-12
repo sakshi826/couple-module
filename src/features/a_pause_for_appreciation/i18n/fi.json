@@ -73,13 +73,13 @@
     "confirmDelete": "Vahvista poisto",
     "cancel": "Peruuta",
     "delete": "Poista merkintä",
-    "prompts": [
-      "Yksi pieni hetki, joka ei tuntunut jännittyneeltä...",
-      "Yksi yritys, jonka kumppanisi on tehnyt...",
-      "Yksi ominaisuus, joka on pysynyt samana...",
-      "Tarkoitus",
-      "Tunteellinen tarkistus"
-    ]
+    "prompts": {
+      "0": "Yksi pieni hetki, joka ei tuntunut jännittyneeltä...",
+      "1": "Yksi yritys, jonka kumppanisi on tehnyt...",
+      "2": "Yksi ominaisuus, joka on pysynyt samana...",
+      "3": "Tarkoitus",
+      "4": "Tunteellinen tarkistus"
+    }
   },
   "common": {
     "get_started": "Aloita",
@@ -92,5 +92,11 @@
     "next": "Seuraava",
     "save": "Tallentaa",
     "loading": "Ladataan..."
-  }
+  },
+  "app_duration": "3–5 minuuttia",
+  "intro_p1": "Kasvata kiitollisuutta",
+  "intro_p2": "Vähennä stressiä",
+  "intro_p3": "Paranna hyvinvointia",
+  "app_title": "Heijastava",
+  "app_description": "karuselli"
 }

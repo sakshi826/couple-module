@@ -55,5 +55,8 @@
     "loading": "Caricamento..."
   },
   "app_complete_title": "Gioia Preservata",
-  "app_complete_message": "Hai richiamato e connesso con successo una fonte di gioia. Tieni con te questa sensazione mentre attraversi la giornata."
+  "app_complete_message": "Hai richiamato e connesso con successo una fonte di gioia. Tieni con te questa sensazione mentre attraversi la giornata.",
+  "app_duration": "5 minuti",
+  "app_title": "Attività gioiose",
+  "app_description": "giostra"
 }

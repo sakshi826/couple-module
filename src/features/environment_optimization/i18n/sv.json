@@ -43,5 +43,7 @@
     "next": "Nästa",
     "save": "Spara",
     "loading": "Belastning..."
-  }
+  },
+  "app_duration": "5 minuter",
+  "app_description": "karusell"
 }

@@ -62,5 +62,7 @@
     "loading": "Laden..."
   },
   "complete_title": "Bingo Meester!",
-  "complete_message": "Gefeliciteerd! Je hebt met succes een lijn van zelfzorg afgerond. Je geest en lichaam danken je."
+  "complete_message": "Gefeliciteerd! Je hebt met succes een lijn van zelfzorg afgerond. Je geest en lichaam danken je.",
+  "app_duration": "Altijd",
+  "app_description": "carrousel"
 }

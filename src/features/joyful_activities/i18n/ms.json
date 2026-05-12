@@ -55,5 +55,8 @@
     "loading": "Memuatkan..."
   },
   "app_complete_title": "Kegembiraan Dipelihara",
-  "app_complete_message": "Anda telah berjaya mengingati dan berhubung dengan sumber kegembiraan. Simpan perasaan ini bersama anda semasa anda bergerak melalui hari anda."
+  "app_complete_message": "Anda telah berjaya mengingati dan berhubung dengan sumber kegembiraan. Simpan perasaan ini bersama anda semasa anda bergerak melalui hari anda.",
+  "app_duration": "5 minit",
+  "app_title": "Aktiviti yang Menyeronokkan",
+  "app_description": "karusel"
 }

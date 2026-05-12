@@ -1,10 +1,10 @@
 {
   "app_title": "Saknar någon",
-  "subtitles": [
-    "Validering",
-    "Inre visdom",
-    "Komplett"
-  ],
+  "subtitles": {
+    "0": "Validering",
+    "1": "Inre visdom",
+    "2": "Komplett"
+  },
   "complete_title": "Klarhet vunnen",
   "complete_message": "Att förstå kemin i att sakna någon är det första steget mot läkning. Dina känslor är giltiga, och din hjärna gör helt enkelt sitt jobb för att skydda och bearbeta.",
   "screen1": {
@@ -34,5 +34,6 @@
     "next": "Nästa",
     "save": "Spara",
     "loading": "Belastning..."
-  }
+  },
+  "app_description": "karusell"
 }

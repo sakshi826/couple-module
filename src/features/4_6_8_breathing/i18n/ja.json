@@ -35,5 +35,10 @@
     "next": "次",
     "save": "保存",
     "loading": "読み込み中…"
-  }
+  },
+  "app_duration": "3～5分",
+  "intro_p1": "神経系を落ち着かせる",
+  "intro_p2": "即時のストレスを軽減する",
+  "intro_p3": "集中力と明瞭さを向上させる",
+  "app_description": "カルーセル"
 }

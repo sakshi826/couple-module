@@ -48,5 +48,11 @@
     "next": "Neste",
     "save": "Spare",
     "loading": "Laster inn..."
-  }
+  },
+  "app_duration": "5–10 minutter",
+  "intro_p1": "trinn_1",
+  "intro_p2": "trinn_2",
+  "intro_p3": "trinn_3",
+  "app_title": "Hjernedump",
+  "app_description": "karusell"
 }

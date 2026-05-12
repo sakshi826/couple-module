@@ -15,12 +15,12 @@
     "intro": {
       "title": "Pelacak Perawatan Diri",
       "description": "Lacak kebiasaan perawatan diri harian Anda dan lihat bagaimana pengaruhnya terhadap kesejahteraan Anda secara keseluruhan. Konsistensi adalah kunci untuk pikiran yang lebih sehat.",
-      "benefits": [
-        "Catat aktivitas perawatan diri harian",
-        "Lacak waktu yang dihabiskan untuk diri sendiri",
-        "Pantau pola suasana hati Anda",
-        "Melihat riwayat dan kemajuan"
-      ],
+      "benefits": {
+        "0": "Catat aktivitas perawatan diri harian",
+        "1": "Lacak waktu yang dihabiskan untuk diri sendiri",
+        "2": "Pantau pola suasana hati Anda",
+        "3": "Melihat riwayat dan kemajuan"
+      },
       "duration": "2-3 menit"
     },
     "checkin": {
@@ -117,19 +117,24 @@
       "Stressed": "Stres",
       "Tired": "Lelah"
     },
-    "positiveStatements": [
-      "Anda muncul untuk diri sendiri hari ini. Itu kuat. 🌿",
-      "Perawatan diri tidak egois - itu penting. Bagus. 💚",
-      "Setiap tindakan kecil kepedulian membangun Anda yang lebih kuat. 🌱",
-      "Anda berinvestasi pada diri sendiri hari ini. Itu penting. ✨",
-      "Merawat Anda adalah hal terbaik yang Anda lakukan hari ini. 🍃"
-    ],
-    "supportiveStatements": [
-      "Tidak apa-apa. Besok adalah awal yang baru. Bersikaplah lembut pada diri sendiri. 🤍",
-      "Tidak setiap hari akan sempurna, dan itu baik-baik saja. 🕊️",
-      "Anda melakukan yang terbaik. Itu selalu cukup. 💛",
-      "Istirahat juga merupakan bentuk perawatan diri. Berikan diri Anda rahmat. 🌸",
-      "Mengakui hari ini membutuhkan keberanian. Anda sudah tumbuh. 🌷"
-    ]
-  }
+    "positiveStatements": {
+      "0": "Anda muncul untuk diri sendiri hari ini. Itu kuat. 🌿",
+      "1": "Perawatan diri tidak egois - itu penting. Bagus. 💚",
+      "2": "Setiap tindakan kecil kepedulian membangun Anda yang lebih kuat. 🌱",
+      "3": "Anda berinvestasi pada diri sendiri hari ini. Itu penting. ✨",
+      "4": "Merawat Anda adalah hal terbaik yang Anda lakukan hari ini. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "Tidak apa-apa. Besok adalah awal yang baru. Bersikaplah lembut pada diri sendiri. 🤍",
+      "1": "Tidak setiap hari akan sempurna, dan itu baik-baik saja. 🕊️",
+      "2": "Anda melakukan yang terbaik. Itu selalu cukup. 💛",
+      "3": "Istirahat juga merupakan bentuk perawatan diri. Berikan diri Anda rahmat. 🌸",
+      "4": "Mengakui hari ini membutuhkan keberanian. Anda sudah tumbuh. 🌷"
+    }
+  },
+  "intro_p1": "layar.intro.manfaat.0",
+  "intro_p2": "layar.intro.manfaat.1",
+  "intro_p3": "layar.intro.manfaat.2",
+  "intro_p4": "layar.intro.manfaat.3",
+  "app_description": "korsel"
 }

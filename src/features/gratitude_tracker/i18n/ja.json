@@ -1,40 +1,23 @@
 {
-  "app.title": "感謝トラッカー",
-  "app.description": "毎日の感謝と気分を記録して、心の健康を改善しましょう",
-  "gratitude.heading": "今日は何に感謝していますか？",
-  "gratitude.subheading": "少し時間を取って、大きなことでも小さなことでも、良いことについて考えてみましょう。",
-  "gratitude.item1.label": "感謝アイテム1",
-  "gratitude.item1.placeholder": "例えば、今朝は温かいお茶を一杯。",
-  "gratitude.item2.label": "感謝アイテム2",
-  "gratitude.item2.placeholder": "例えば、友達からの優しい言葉…",
-  "gratitude.optional": "（オプション）",
-  "common.continue": "続く",
-  "mood.heading": "ご気分はいかがですか？",
-  "mood.subheading": "今のあなたの気分を最もよく表すものを選択してください。",
-  "mood.save": "感謝のエントリーを保存",
-  "mood.happy": "ハッピー",
-  "mood.calm": "落ち着いた",
-  "mood.neutral": "中性",
-  "mood.low": "低い",
-  "mood.stressed": "ストレス",
-  "review.heading": "あなたのエントリー",
-  "review.date": "日付",
-  "review.gratitude1": "感謝1",
-  "review.gratitude2": "感謝2",
-  "review.mood": "気分",
-  "review.edit": "エントリーを編集",
-  "review.history": "履歴を表示",
-  "history.heading": "歴史",
-  "history.back": "戻る",
-  "history.home": "ホームへ戻る",
-  "history.sun": "太陽",
-  "history.mon": "私の",
-  "history.tue": "火曜",
-  "history.wed": "水曜",
-  "history.thu": "集める",
-  "history.fri": "金曜",
-  "history.sat": "土",
+  "app": {
+    "title": "感謝トラッカー",
+    "description": "毎日の感謝と気分を記録して、心の健康を改善しましょう"
+  },
+  "gratitude": {
+    "heading": "今日は何に感謝していますか？",
+    "subheading": "少し時間を取って、大きなことでも小さなことでも、良いことについて考えてみましょう。",
+    "item1": {
+      "label": "感謝アイテム1",
+      "placeholder": "例えば、今朝は温かいお茶を一杯。"
+    },
+    "item2": {
+      "label": "感謝アイテム2",
+      "placeholder": "例えば、友達からの優しい言葉…"
+    },
+    "optional": "（オプション）"
+  },
   "common": {
+    "continue": "続く",
     "get_started": "さあ始めましょう",
     "start_over": "最初からやり直す",
     "finish_exit": "終了して退出",
@@ -45,5 +28,42 @@
     "next": "次",
     "save": "保存",
     "loading": "読み込み中…"
-  }
+  },
+  "mood": {
+    "heading": "ご気分はいかがですか？",
+    "subheading": "今のあなたの気分を最もよく表すものを選択してください。",
+    "save": "感謝のエントリーを保存",
+    "happy": "ハッピー",
+    "calm": "落ち着いた",
+    "neutral": "中性",
+    "low": "低い",
+    "stressed": "ストレス"
+  },
+  "review": {
+    "heading": "あなたのエントリー",
+    "date": "日付",
+    "gratitude1": "感謝1",
+    "gratitude2": "感謝2",
+    "mood": "気分",
+    "edit": "エントリーを編集",
+    "history": "履歴を表示"
+  },
+  "history": {
+    "heading": "歴史",
+    "back": "戻る",
+    "home": "ホームへ戻る",
+    "sun": "太陽",
+    "mon": "私の",
+    "tue": "火曜",
+    "wed": "水曜",
+    "thu": "集める",
+    "fri": "金曜",
+    "sat": "土"
+  },
+  "app_duration": "2～3分",
+  "intro_p1": "心の健康状態を改善する",
+  "intro_p2": "良い点に焦点を当てる",
+  "intro_p3": "感謝の習慣を身につけよう",
+  "app_description": "カルーセル",
+  "app_title": "感謝日記"
 }

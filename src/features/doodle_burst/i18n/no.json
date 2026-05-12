@@ -42,5 +42,10 @@
     "next": "Neste",
     "save": "Spare",
     "loading": "Laster inn..."
-  }
+  },
+  "app_duration": "60 sekunder",
+  "intro_p1": "Slipp løs kreativiteten din",
+  "intro_p2": "Slipp fri oppdemmet energi",
+  "intro_p3": "Øyeblikkelig hjernens tilbakestilling",
+  "app_description": "karusell"
 }

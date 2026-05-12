@@ -44,5 +44,7 @@
     "loading": "로딩 중..."
   },
   "app_complete_title": "감사함 절약",
-  "app_complete_message": "감사한 것을 되돌아보는 것은 긍정적인 방향으로 집중을 전환하는 강력한 방법입니다."
+  "app_complete_message": "감사한 것을 되돌아보는 것은 긍정적인 방향으로 집중을 전환하는 강력한 방법입니다.",
+  "app_duration": "3-5분",
+  "app_description": "회전목마"
 }

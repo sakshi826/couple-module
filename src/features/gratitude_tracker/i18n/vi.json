@@ -1,40 +1,23 @@
 {
-  "app.title": "Công cụ theo dõi lòng biết ơn",
-  "app.description": "Theo dõi lòng biết ơn và tâm trạng hàng ngày của bạn để có sức khỏe tinh thần tốt hơn.",
-  "gratitude.heading": "Hôm nay bạn cảm thấy biết ơn điều gì?",
-  "gratitude.subheading": "Hãy dành chút thời gian để suy ngẫm về những điều tốt đẹp, dù lớn hay nhỏ.",
-  "gratitude.item1.label": "Mục 1 về Lòng biết ơn",
-  "gratitude.item1.placeholder": "Ví dụ: Một tách trà nóng vào sáng nay...",
-  "gratitude.item2.label": "Mục 2 về Lòng biết ơn",
-  "gratitude.item2.placeholder": "Ví dụ: Một lời nói tử tế từ một người bạn...",
-  "gratitude.optional": "(không bắt buộc)",
-  "common.continue": "Tiếp tục",
-  "mood.heading": "Bạn cảm thấy thế nào?",
-  "mood.subheading": "Hãy chọn tâm trạng mô tả chính xác nhất bạn lúc này.",
-  "mood.save": "Lưu lại mục Lời cảm ơn",
-  "mood.happy": "Vui mừng",
-  "mood.calm": "Điềm tĩnh",
-  "mood.neutral": "Trung lập",
-  "mood.low": "Thấp",
-  "mood.stressed": "Căng thẳng",
-  "review.heading": "Bài dự thi của bạn",
-  "review.date": "Ngày",
-  "review.gratitude1": "Lòng biết ơn 1",
-  "review.gratitude2": "Lòng biết ơn 2",
-  "review.mood": "Tâm trạng",
-  "review.edit": "Chỉnh sửa mục nhập",
-  "review.history": "Xem lịch sử",
-  "history.heading": "Lịch sử",
-  "history.back": "Mặt sau",
-  "history.home": "Quay về trang chủ",
-  "history.sun": "Mặt trời",
-  "history.mon": "Của tôi",
-  "history.tue": "Thứ Ba",
-  "history.wed": "Thứ Tư",
-  "history.thu": "Thu",
-  "history.fri": "Thứ Sáu",
-  "history.sat": "Đã ngồi",
+  "app": {
+    "title": "Công cụ theo dõi lòng biết ơn",
+    "description": "Theo dõi lòng biết ơn và tâm trạng hàng ngày của bạn để có sức khỏe tinh thần tốt hơn."
+  },
+  "gratitude": {
+    "heading": "Hôm nay bạn cảm thấy biết ơn điều gì?",
+    "subheading": "Hãy dành chút thời gian để suy ngẫm về những điều tốt đẹp, dù lớn hay nhỏ.",
+    "item1": {
+      "label": "Mục 1 về Lòng biết ơn",
+      "placeholder": "Ví dụ: Một tách trà nóng vào sáng nay..."
+    },
+    "item2": {
+      "label": "Mục 2 về Lòng biết ơn",
+      "placeholder": "Ví dụ: Một lời nói tử tế từ một người bạn..."
+    },
+    "optional": "(không bắt buộc)"
+  },
   "common": {
+    "continue": "Tiếp tục",
     "get_started": "Bắt đầu",
     "start_over": "Bắt đầu lại",
     "finish_exit": "Hoàn thành & Lối ra",
@@ -45,5 +28,42 @@
     "next": "Kế tiếp",
     "save": "Cứu",
     "loading": "Đang tải..."
-  }
+  },
+  "mood": {
+    "heading": "Bạn cảm thấy thế nào?",
+    "subheading": "Hãy chọn tâm trạng mô tả chính xác nhất bạn lúc này.",
+    "save": "Lưu lại mục Lời cảm ơn",
+    "happy": "Vui mừng",
+    "calm": "Điềm tĩnh",
+    "neutral": "Trung lập",
+    "low": "Thấp",
+    "stressed": "Căng thẳng"
+  },
+  "review": {
+    "heading": "Bài dự thi của bạn",
+    "date": "Ngày",
+    "gratitude1": "Lòng biết ơn 1",
+    "gratitude2": "Lòng biết ơn 2",
+    "mood": "Tâm trạng",
+    "edit": "Chỉnh sửa mục nhập",
+    "history": "Xem lịch sử"
+  },
+  "history": {
+    "heading": "Lịch sử",
+    "back": "Mặt sau",
+    "home": "Quay về trang chủ",
+    "sun": "Mặt trời",
+    "mon": "Của tôi",
+    "tue": "Thứ Ba",
+    "wed": "Thứ Tư",
+    "thu": "Thu",
+    "fri": "Thứ Sáu",
+    "sat": "Đã ngồi"
+  },
+  "app_duration": "2-3 phút",
+  "intro_p1": "Cải thiện sức khỏe tinh thần của bạn",
+  "intro_p2": "Hãy tập trung vào những điều tích cực.",
+  "intro_p3": "Hãy xây dựng thói quen biết ơn lâu dài.",
+  "app_description": "vòng quay ngựa gỗ",
+  "app_title": "Nhật ký lòng biết ơn"
 }

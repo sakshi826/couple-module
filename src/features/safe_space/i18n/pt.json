@@ -1,57 +1,57 @@
 {
   "app_title": "Espaço Seguro",
-  "nav": [
-    "Check-in",
-    "Lembre Suavemente",
-    "Observação",
-    "Permanecendo no Presente",
-    "Avançando"
-  ],
+  "nav": {
+    "0": "Check-in",
+    "1": "Lembre Suavemente",
+    "2": "Observação",
+    "3": "Permanecendo no Presente",
+    "4": "Avançando"
+  },
   "s1": {
     "title": "Vamos encontrar um lugar que seja bom",
-    "description": [
-      "Antes de começarmos, reserve um momento para checar...",
-      "Como você está se sentindo agora?",
-      "Não estamos procurando um \"lugar seguro\" perfeito. Só algo que pareça um pouco calmo ou aceitável."
-    ],
+    "description": {
+      "0": "Antes de começarmos, reserve um momento para checar...",
+      "1": "Como você está se sentindo agora?",
+      "2": "Não estamos procurando um \"lugar seguro\" perfeito. Só algo que pareça um pouco calmo ou aceitável."
+    },
     "placeholder": "Como você está se sentindo agora?",
     "button": "Iniciar a visualização"
   },
   "s2": {
     "title": "Com delicadeza, traga isso à mente",
-    "description": [
-      "Pense em um lugar onde você se sentisse ao menos um pouco à vontade... Ou um lugar que você gostaria que existisse.",
-      "Agora coloque-se ali...",
-      "Você está sentado, em pé ou deitado?"
-    ],
+    "description": {
+      "0": "Pense em um lugar onde você se sentisse ao menos um pouco à vontade... Ou um lugar que você gostaria que existisse.",
+      "1": "Agora coloque-se ali...",
+      "2": "Você está sentado, em pé ou deitado?"
+    },
     "button": "Continue"
   },
   "s3": {
     "title": "Olhe ao redor devagar",
-    "description": [
-      "Dê uma olhada gentil ao redor...",
-      "Qual é uma coisa que você consegue ver?",
-      "Agora repare em um som... O que você ouve?"
-    ],
+    "description": {
+      "0": "Dê uma olhada gentil ao redor...",
+      "1": "Qual é uma coisa que você consegue ver?",
+      "2": "Agora repare em um som... O que você ouve?"
+    },
     "button": "Continue"
   },
   "s4": {
     "title": "Fique com isso",
-    "description": [
-      "O que há nesse lugar que faz com que pareça um pouco seguro ou legal?",
-      "Como você percebe isso...",
-      "Também chame sua atenção para a respiração."
-    ],
+    "description": {
+      "0": "O que há nesse lugar que faz com que pareça um pouco seguro ou legal?",
+      "1": "Como você percebe isso...",
+      "2": "Também chame sua atenção para a respiração."
+    },
     "breathe": "respire",
     "notice": "Se imaginar parece difícil, pense na ideia deste lugar.",
     "button": "Continue"
   },
   "s5": {
     "title": "Leve isso com você",
-    "description": [
-      "Perceba como você se sente agora. Até uma pequena mudança importa.",
-      "Veja se consegue carregar até 5% dessa sensação com você."
-    ],
+    "description": {
+      "0": "Perceba como você se sente agora. Até uma pequena mudança importa.",
+      "1": "Veja se consegue carregar até 5% dessa sensação com você."
+    },
     "placeholder": "Como você se sente agora?",
     "button": "Sessão Completa"
   },
@@ -70,5 +70,6 @@
     "next": "Próximo",
     "save": "Salvar",
     "loading": "Carregando..."
-  }
+  },
+  "app_description": "carrossel"
 }

@@ -48,5 +48,11 @@
     "next": "Seuraava",
     "save": "Tallentaa",
     "loading": "Ladataan..."
-  }
+  },
+  "app_duration": "5–10 minuuttia",
+  "intro_p1": "vaihe_1",
+  "intro_p2": "vaihe_2",
+  "intro_p3": "vaihe_3",
+  "app_title": "Aivodumpi",
+  "app_description": "karuselli"
 }

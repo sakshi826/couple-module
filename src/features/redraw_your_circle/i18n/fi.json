@@ -21,24 +21,24 @@
       "placeholder": "Syötä nimi...",
       "button": "Tallennettu nimi"
     },
-    "prompts": [
-      "Henkilö, joka tuo iloa",
-      "Henkilö, joka tukee sinua",
-      "Henkilö, jonka kanssa voit puhua",
-      "Henkilö, johon luotatte",
-      "Henkilö, joka inspiroi sinua"
-    ]
+    "prompts": {
+      "0": "Henkilö, joka tuo iloa",
+      "1": "Henkilö, joka tukee sinua",
+      "2": "Henkilö, jonka kanssa voit puhua",
+      "3": "Henkilö, johon luotatte",
+      "4": "Henkilö, joka inspiroi sinua"
+    }
   },
   "reflection": {
     "subtitle": "Lopulliset pohdinnat",
     "title": "Mitä huomaat?",
     "p_intro": "Ota hetki ja katso piiriäsi. Saatat huomata:",
-    "list": [
-      "Jotkut tuntevat olevansa läheisempiä kuin toiset",
-      "Jotkut yhteydet tuntuvat vahvoilta",
-      "Jotkut tuntuvat etäisiltä tai epäselvältä",
-      "Saattaa olla aukkoja — tai vain muutama merkittävä henkilö"
-    ],
+    "list": {
+      "0": "Jotkut tuntevat olevansa läheisempiä kuin toiset",
+      "1": "Jotkut yhteydet tuntuvat vahvoilta",
+      "2": "Jotkut tuntuvat etäisiltä tai epäselvältä",
+      "3": "Saattaa olla aukkoja — tai vain muutama merkittävä henkilö"
+    },
     "italic": "Tietoisuus on ensimmäinen askel kohti arvostettujen yhteyksien rakentamista. 🧘",
     "label": "💭 Onko joku, johon haluaisit tuntea enemmän yhteyttä?",
     "placeholder": "Kirjoita ajatuksesi tähän...",
@@ -69,5 +69,6 @@
     "next": "Seuraava",
     "save": "Tallentaa",
     "loading": "Ladataan..."
-  }
+  },
+  "app_description": "karuselli"
 }

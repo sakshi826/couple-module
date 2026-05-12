@@ -33,7 +33,7 @@ const ReviewEntry = () => {
 
   if (isLoading) {
     return (
-      <PremiumLayout title="Session Saved">
+      <PremiumLayout title={t("app_title")}>
         <div className="flex flex-col items-center justify-center min-h-[40vh] gap-4">
           <Loader2 className="w-10 h-10 animate-spin text-primary opacity-20" />
           <p className="text-slate-400 font-bold text-[10px] uppercase tracking-widest">Loading entry...</p>
@@ -58,9 +58,9 @@ const ReviewEntry = () => {
   };
 
   return (
-    <PremiumLayout title="Session Saved">
+    <PremiumLayout title={t("app_title")}>
       <PremiumComplete
-        title={t("review.heading")}
+        title={t("app_title")}
         message="Your thoughts have been preserved. Gratitude is a powerful tool for happiness."
         onRestart={() => navigate("..", { replace: true })}
       >

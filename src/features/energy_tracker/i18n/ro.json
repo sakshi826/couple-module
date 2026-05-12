@@ -55,5 +55,10 @@
     "next": "Următorul",
     "save": "Salva",
     "loading": "Încărcare..."
-  }
+  },
+  "app_duration": "1 minut",
+  "intro_p1": "Identificați pierderile de energie",
+  "intro_p2": "Descoperiți perioadele de productivitate maximă",
+  "intro_p3": "Află ce te reîncarcă",
+  "app_description": "Urmărește-ți nivelurile de energie pe parcursul zilei pentru a-ți înțelege tiparele și a-ți optimiza bunăstarea."
 }

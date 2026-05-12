@@ -32,5 +32,10 @@
   },
   "app_title": "Oddychanie pudełkowe",
   "app_complete_title": "Świetna robota!",
-  "app_complete_message": "Ukończyłeś sesję Box Breathing. Powinieneś czuć się bardziej zrównoważony i spokojny."
+  "app_complete_message": "Ukończyłeś sesję Box Breathing. Powinieneś czuć się bardziej zrównoważony i spokojny.",
+  "app_duration": "5 minut",
+  "intro_p1": "wdech_4s",
+  "intro_p2": "przytrzymaj_4s",
+  "intro_p3": "wydech_4s",
+  "app_description": "karuzela"
 }

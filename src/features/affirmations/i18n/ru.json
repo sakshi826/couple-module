@@ -165,5 +165,10 @@
   },
   "app_complete_title": "Чувствуй себя уверенно",
   "app_complete_message": "Ежедневные аффирмации помогают изменить ваше мышление. Держите эти позитивные мысли с собой сегодня.",
-  "app_title": "Мышление"
+  "app_title": "Мышление",
+  "app_duration": "2-3 минуты",
+  "intro_p1": "common.takeTime",
+  "intro_p2": "common.breatheNaturally",
+  "intro_p3": "common.noRush",
+  "app_description": "карусель"
 }

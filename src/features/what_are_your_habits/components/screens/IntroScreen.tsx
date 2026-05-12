@@ -7,16 +7,12 @@ const IntroScreen = ({ onNext }: { onNext: () => void }) => {
 
   return (
     <PremiumIntro
-      title={t('title')}
-      description={t('intro_description')}
+      title={t("app_title")}
+      description={t("app_description")}
       onStart={onNext}
       icon={<ListChecks size={32} />}
-      benefits={[
-        "Understand your daily patterns",
-        "Identify supportive habits",
-        "Create positive change"
-      ]}
-      duration="5 minutes"
+      benefits={[t('intro_p1'), t('intro_p2'), t('intro_p3')]}
+      duration={t('app_duration', "5 minutes")}
     />
   );
 };

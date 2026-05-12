@@ -58,7 +58,7 @@ const Screen6Review = ({ entry, onEdit, onHistory, onHome }: Screen6Props) => {
 
   return (
     <PremiumComplete
-      title={t('screens.review.title')}
+      title={t("app_title")}
       message={t('screens.review.subtitle')}
       onRestart={onHome}
     >

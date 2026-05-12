@@ -113,8 +113,8 @@ const Index = () => {
         {screen === "intro" && (
           <motion.div key="intro" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }}>
               <PremiumIntro
-                  title={t('app.title')}
-                  description={t('app.description1')}
+                  title={t("app_title")}
+                  description={t("app_description")}
                   onStart={() => setScreen("choose")}
                   icon={<Brain size={32} />}
                   benefits={[
@@ -265,7 +265,7 @@ const Index = () => {
         {screen === "summary" && savedReflection && (
           <motion.div key="summary" initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 0.98 }}>
               <PremiumComplete
-                  title={t('app.summaryTitle')}
+                  title={t("app_title")}
                   message={t('app.quote')}
                   onRestart={resetActivity}
                   icon={<Target size={48} className="text-primary" />}

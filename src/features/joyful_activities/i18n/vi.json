@@ -55,5 +55,8 @@
     "loading": "Đang tải..."
   },
   "app_complete_title": "Niềm vui được bảo tồn",
-  "app_complete_message": "Bạn đã nhớ lại thành công và kết nối với một nguồn niềm vui. Giữ cảm giác này bên mình khi bạn di chuyển trong ngày."
+  "app_complete_message": "Bạn đã nhớ lại thành công và kết nối với một nguồn niềm vui. Giữ cảm giác này bên mình khi bạn di chuyển trong ngày.",
+  "app_duration": "5 phút",
+  "app_title": "Các hoạt động vui vẻ",
+  "app_description": "vòng quay ngựa gỗ"
 }

@@ -48,5 +48,11 @@
     "next": "Próximo",
     "save": "Ahorrar",
     "loading": "Cargando..."
-  }
+  },
+  "app_duration": "5-10 minutos",
+  "intro_p1": "paso_1",
+  "intro_p2": "paso_2",
+  "intro_p3": "paso_3",
+  "app_title": "Volcado de cerebro",
+  "app_description": "carrusel"
 }

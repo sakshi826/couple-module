@@ -11,9 +11,9 @@ const CompletionScreen = () => {
   const [reflection, setReflection] = useState("");
 
   return (
-    <PremiumLayout title="Session Complete">
+    <PremiumLayout title={t("app_title")}>
       <PremiumComplete
-        title={t('you_did_it')}
+        title={t("app_title")}
         message={`${t('notice_body')} ${t('breath_slower')} ${t('chest_softer')}`}
         onRestart={() => navigate("../breathe")}
         icon={<Wind size={48} />}

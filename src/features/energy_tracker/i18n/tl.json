@@ -55,5 +55,10 @@
     "next": "Susunod",
     "save": "I-save",
     "loading": "Naglo-load..."
-  }
+  },
+  "app_duration": "1 minuto",
+  "intro_p1": "Tukuyin ang mga pag-agos ng enerhiya",
+  "intro_p2": "Tuklasin ang mga oras ng pinakamataas na produktibidad",
+  "intro_p3": "Alamin kung ano ang nagpapa-recharge sa iyo",
+  "app_description": "Subaybayan ang iyong mga antas ng enerhiya sa buong araw upang maunawaan ang iyong mga gawi at ma-optimize ang iyong kagalingan."
 }

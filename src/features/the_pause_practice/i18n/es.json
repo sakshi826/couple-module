@@ -10,52 +10,52 @@
   "scenario": {
     "title": "¿Qué te desencadena?",
     "desc": "Elige una situación con la que te identifiques",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "Interrupciones",
         "label": "Alguien me interrumpe",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "Planes",
         "label": "Las cosas no salen como planeaban",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "ignorado",
         "label": "Me siento ignorado",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "abrumado",
         "label": "Me siento abrumado",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "Escribe tu propia cosa...",
     "button": "Pausa de práctica →"
   },
   "hold": {
     "title": "Mantener en pausa ⏸️",
     "instructions": "Mantén el círculo durante 5 segundos",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "Pulsa y mantien..."
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "Sigue adelante..."
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "Lo estás haciendo..."
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "Casi llegamos..."
       }
-    ]
+    }
   },
   "result": {
     "title": "Esa es la pausa",
@@ -81,5 +81,6 @@
     "next": "Próximo",
     "save": "Ahorrar",
     "loading": "Cargando..."
-  }
+  },
+  "app_description": "carrusel"
 }

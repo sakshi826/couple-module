@@ -165,5 +165,10 @@
   },
   "app_complete_title": "Sinta-se Empoderado",
   "app_complete_message": "Afirmações diárias ajudam a reformular sua mentalidade. Carregue esses pensamentos positivos com você hoje.",
-  "app_title": "Mentalidade"
+  "app_title": "Mentalidade",
+  "app_duration": "2-3 minutos",
+  "intro_p1": "comum.leveTempo",
+  "intro_p2": "comum.respirarNaturalmente",
+  "intro_p3": "comum.sem pressa",
+  "app_description": "carrossel"
 }

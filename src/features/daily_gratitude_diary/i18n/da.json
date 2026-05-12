@@ -44,5 +44,7 @@
     "loading": "Indlæser..."
   },
   "app_complete_title": "Taknemmelighed reddet",
-  "app_complete_message": "At reflektere over, hvad du er taknemmelig for, er en stærk måde at flytte dit fokus til det positive."
+  "app_complete_message": "At reflektere over, hvad du er taknemmelig for, er en stærk måde at flytte dit fokus til det positive.",
+  "app_duration": "3-5 minutter",
+  "app_description": "karrusel"
 }

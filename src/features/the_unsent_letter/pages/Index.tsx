@@ -86,7 +86,7 @@ const Index = () => {
   return (
     <PremiumLayout
       title={t("app_title")}
-      subtitle={t("app_subtitle")}
+      subtitle={t("app_title")}
       icon={<Mail className="w-6 h-6 text-primary" />}
     >
       <div className="w-full max-w-md mx-auto min-h-[60vh] flex flex-col relative z-10">

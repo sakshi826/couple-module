@@ -21,24 +21,24 @@
       "placeholder": "Voer een naam in...",
       "button": "Naam opslaan"
     },
-    "prompts": [
-      "Iemand die vreugde brengt",
-      "Iemand die je steunt",
-      "Iemand met wie je kunt praten",
-      "Iemand die je vertrouwt",
-      "Iemand die je inspireert"
-    ]
+    "prompts": {
+      "0": "Iemand die vreugde brengt",
+      "1": "Iemand die je steunt",
+      "2": "Iemand met wie je kunt praten",
+      "3": "Iemand die je vertrouwt",
+      "4": "Iemand die je inspireert"
+    }
   },
   "reflection": {
     "subtitle": "Slotoverdenkingen",
     "title": "Wat valt je op?",
     "p_intro": "Neem even de tijd om naar je kring te kijken. Je zult het misschien opmerken:",
-    "list": [
-      "Sommige mensen voelen zich dichterbij dan anderen",
-      "Sommige connecties voelen sterk aan",
-      "Sommige voelen afstandelijk of onduidelijk aan",
-      "Er kunnen hiaten zijn — of slechts een paar betekenisvolle mensen"
-    ],
+    "list": {
+      "0": "Sommige mensen voelen zich dichterbij dan anderen",
+      "1": "Sommige connecties voelen sterk aan",
+      "2": "Sommige voelen afstandelijk of onduidelijk aan",
+      "3": "Er kunnen hiaten zijn — of slechts een paar betekenisvolle mensen"
+    },
     "italic": "Bewustzijn is de eerste stap naar het opbouwen van de connecties die je waardeert. 🧘",
     "label": "💭 Is er iemand met wie je je meer verbonden zou willen voelen?",
     "placeholder": "Schrijf hier je gedachten op...",
@@ -69,5 +69,6 @@
     "next": "Volgende",
     "save": "Redden",
     "loading": "Laden..."
-  }
+  },
+  "app_description": "carrousel"
 }

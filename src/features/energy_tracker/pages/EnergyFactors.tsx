@@ -38,7 +38,7 @@ const EnergyFactors = () => {
 
   return (
     <PremiumLayout 
-      title={t("factors_title")}
+      title={t("app_title")}
       icon={<Sparkles className="h-6 w-6" />}
       onBack={() => navigate("..")}
     >

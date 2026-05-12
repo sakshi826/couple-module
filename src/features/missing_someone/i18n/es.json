@@ -1,10 +1,10 @@
 {
   "app_title": "Falta a alguien",
-  "subtitles": [
-    "Validación",
-    "Sabiduría interna",
-    "Completo"
-  ],
+  "subtitles": {
+    "0": "Validación",
+    "1": "Sabiduría interna",
+    "2": "Completo"
+  },
   "complete_title": "Claridad adquirida",
   "complete_message": "Entender la química de echar de menos a alguien es el primer paso hacia la sanación. Tus sentimientos son válidos y tu cerebro simplemente hace su trabajo para proteger y procesar.",
   "screen1": {
@@ -34,5 +34,6 @@
     "next": "Próximo",
     "save": "Ahorrar",
     "loading": "Cargando..."
-  }
+  },
+  "app_description": "carrusel"
 }

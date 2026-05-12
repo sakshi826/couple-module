@@ -168,5 +168,7 @@
     "next": "Nästa",
     "save": "Spara",
     "loading": "Belastning..."
-  }
+  },
+  "app_title": "Grundstötning",
+  "app_description": "karusell"
 }

@@ -165,5 +165,10 @@
   },
   "app_complete_title": "Känn dig stärkt",
   "app_complete_message": "Dagliga affirmationer hjälper till att omforma ditt tankesätt. Bär med dig dessa positiva tankar idag.",
-  "app_title": "Tankesätt"
+  "app_title": "Tankesätt",
+  "app_duration": "2–3 minuter",
+  "intro_p1": "gemensam.takeTime",
+  "intro_p2": "common.breatheNaturally",
+  "intro_p3": "common.noRush",
+  "app_description": "karusell"
 }

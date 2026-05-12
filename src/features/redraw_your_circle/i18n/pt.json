@@ -21,24 +21,24 @@
       "placeholder": "Insira um nome...",
       "button": "Salvar Nome"
     },
-    "prompts": [
-      "Uma pessoa que traz alegria",
-      "Uma pessoa que te apoia",
-      "Uma pessoa com quem você possa conversar",
-      "Uma pessoa em quem você confia",
-      "Uma pessoa que te inspira"
-    ]
+    "prompts": {
+      "0": "Uma pessoa que traz alegria",
+      "1": "Uma pessoa que te apoia",
+      "2": "Uma pessoa com quem você possa conversar",
+      "3": "Uma pessoa em quem você confia",
+      "4": "Uma pessoa que te inspira"
+    }
   },
   "reflection": {
     "subtitle": "Reflexões finais",
     "title": "O que você percebe?",
     "p_intro": "Reserve um momento para olhar seu círculo. Você pode notar:",
-    "list": [
-      "Algumas pessoas se sentem mais próximas do que outras",
-      "Algumas conexões parecem fortes",
-      "Algumas parecem distantes ou pouco claras",
-      "Pode haver lacunas — ou apenas algumas pessoas significativas"
-    ],
+    "list": {
+      "0": "Algumas pessoas se sentem mais próximas do que outras",
+      "1": "Algumas conexões parecem fortes",
+      "2": "Algumas parecem distantes ou pouco claras",
+      "3": "Pode haver lacunas — ou apenas algumas pessoas significativas"
+    },
     "italic": "A consciência é o primeiro passo para construir as conexões que você valoriza. 🧘",
     "label": "💭 Tem alguém com quem você gostaria de se sentir mais conectado?",
     "placeholder": "Escreva seus pensamentos aqui...",
@@ -69,5 +69,6 @@
     "next": "Próximo",
     "save": "Salvar",
     "loading": "Carregando..."
-  }
+  },
+  "app_description": "carrossel"
 }

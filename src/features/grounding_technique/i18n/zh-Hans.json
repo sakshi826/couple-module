@@ -168,5 +168,7 @@
     "next": "下一个",
     "save": "节省",
     "loading": "加载中..."
-  }
+  },
+  "app_title": "接地",
+  "app_description": "旋转木马"
 }

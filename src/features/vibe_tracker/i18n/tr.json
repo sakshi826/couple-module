@@ -51,5 +51,10 @@
     "next": "Sonraki",
     "save": "Kaydetmek",
     "loading": "Yükleniyor..."
-  }
+  },
+  "app_duration": "1-2 dakika",
+  "intro_p1": "Duygusal kalıplarınızı takip edin.",
+  "intro_p2": "Bugünkü ruh halinizi düşünün.",
+  "intro_p3": "Duygusal farkındalığı geliştirin",
+  "app_description": "atlıkarınca"
 }

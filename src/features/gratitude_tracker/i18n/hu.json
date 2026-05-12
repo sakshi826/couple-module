@@ -58,5 +58,11 @@
     "thu": "Ősz",
     "fri": "Péntek",
     "sat": "Szombat"
-  }
+  },
+  "app_duration": "2-3 perc",
+  "intro_p1": "Javítsa érzelmi jólétét",
+  "intro_p2": "Koncentrálj a pozitív dolgokra",
+  "intro_p3": "Alakíts ki tartós hálaszokást",
+  "app_description": "körhinta",
+  "app_title": "Hálanapló"
 }

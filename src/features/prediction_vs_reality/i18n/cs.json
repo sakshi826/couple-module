@@ -4,11 +4,11 @@
   "intro": {
     "title": "Předpověď vs realita",
     "description": "Porovnejte své úzkostné předpovědi s tím, co se skutečně děje, abyste si vytvořili vyváženější pohled.",
-    "benefits": [
-      "Identifikujte úzkostné vzorce",
-      "Shromažďujte důkazy proti obavám",
-      "Omezte přemýšlení o budoucnosti"
-    ],
+    "benefits": {
+      "0": "Identifikujte úzkostné vzorce",
+      "1": "Shromažďujte důkazy proti obavám",
+      "2": "Omezte přemýšlení o budoucnosti"
+    },
     "duration": "4-5 minut",
     "view_past": "Zobrazit minulé reflexe"
   },
@@ -24,23 +24,23 @@
     "saved_title": "Reflexe zachráněna",
     "message": "Když se podíváte na fakta, pomáháte své mysli naučit se, že věci jsou často zvládnutelnější, než se zdají."
   },
-  "emotions": [
-    "Úzkostný",
-    "Nervózní",
-    "Bojím se",
-    "Přetížení",
-    "Neklid"
-  ],
+  "emotions": {
+    "0": "Úzkostný",
+    "1": "Nervózní",
+    "2": "Bojím se",
+    "3": "Přetížení",
+    "4": "Neklid"
+  },
   "intensity_labels": {
     "not_intense": "Ne intenzivní",
     "very_intense": "Velmi intenzivní"
   },
-  "comparison_options": [
-    "Dopadlo to téměř přesně tak, jak jsem čekal",
-    "Některé části byly správné, ale ne všechny",
-    "Bylo to dost jiné, než jsem čekal",
-    "Bylo to mnohem jednodušší/lepší, než jsem si představoval"
-  ],
+  "comparison_options": {
+    "0": "Dopadlo to téměř přesně tak, jak jsem čekal",
+    "1": "Některé části byly správné, ale ne všechny",
+    "2": "Bylo to dost jiné, než jsem čekal",
+    "3": "Bylo to mnohem jednodušší/lepší, než jsem si představoval"
+  },
   "screens": {
     "s1": {
       "title": "Vzpomínejte na nedávnou situaci",
@@ -101,5 +101,6 @@
     "next": "Další",
     "save": "Uložit",
     "loading": "Načítání..."
-  }
+  },
+  "app_description": "kolotoč"
 }

@@ -73,13 +73,13 @@
     "confirmDelete": "Konfirmasi Penghapusan",
     "cancel": "Membatalkan",
     "delete": "Hapus entri",
-    "prompts": [
-      "Satu momen kecil yang tidak terasa tegang…",
-      "Salah satu upaya yang telah dilakukan pasangan Anda…",
-      "Salah satu kualitas yang tetap konsisten…",
-      "Maksud",
-      "Pemeriksaan Emosional"
-    ]
+    "prompts": {
+      "0": "Satu momen kecil yang tidak terasa tegang…",
+      "1": "Salah satu upaya yang telah dilakukan pasangan Anda…",
+      "2": "Salah satu kualitas yang tetap konsisten…",
+      "3": "Maksud",
+      "4": "Pemeriksaan Emosional"
+    }
   },
   "common": {
     "get_started": "Mulai",
@@ -92,5 +92,11 @@
     "next": "Berikutnya",
     "save": "Menyimpan",
     "loading": "Memuat..."
-  }
+  },
+  "app_duration": "3-5 menit",
+  "intro_p1": "Pupuk rasa syukur",
+  "intro_p2": "Kurangi stres",
+  "intro_p3": "Meningkatkan kesejahteraan",
+  "app_title": "Merefleksikan",
+  "app_description": "korsel"
 }

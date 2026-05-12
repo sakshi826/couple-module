@@ -42,5 +42,10 @@
     "next": "下一个",
     "save": "节省",
     "loading": "加载中..."
-  }
+  },
+  "app_duration": "60秒",
+  "intro_p1": "释放你的创造力",
+  "intro_p2": "释放积压的能量",
+  "intro_p3": "立即重置大脑",
+  "app_description": "旋转木马"
 }

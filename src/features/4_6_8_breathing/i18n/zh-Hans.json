@@ -35,5 +35,10 @@
     "next": "下一个",
     "save": "节省",
     "loading": "加载中..."
-  }
+  },
+  "app_duration": "3-5分钟",
+  "intro_p1": "镇静神经系统",
+  "intro_p2": "减轻即时压力",
+  "intro_p3": "提高专注力和清晰度",
+  "app_description": "旋转木马"
 }

@@ -11,8 +11,8 @@ const IntroScreen = ({ onNext }: Props) => {
   
   return (
     <PremiumIntro
-      title={t('intro.title')}
-      description={t('intro.subtitle')}
+      title={t("app_title")}
+      description={t("app_description")}
       onStart={onNext}
       icon={<Heart size={32} />}
       benefits={[
@@ -20,7 +20,7 @@ const IntroScreen = ({ onNext }: Props) => {
         t('intro.p2'),
         t('intro.p3')
       ]}
-      duration="5 minutes"
+      duration={t('app_duration', "5 minutes")}
     />
   );
 };

@@ -55,5 +55,8 @@
     "loading": "Załadunek..."
   },
   "app_complete_title": "Radość zachowana",
-  "app_complete_message": "Udało ci się przypomnieć sobie i połączyć się ze źródłem radości. Zachowaj to uczucie ze sobą podczas codziennego życia."
+  "app_complete_message": "Udało ci się przypomnieć sobie i połączyć się ze źródłem radości. Zachowaj to uczucie ze sobą podczas codziennego życia.",
+  "app_duration": "5 minut",
+  "app_title": "Radosne działania",
+  "app_description": "karuzela"
 }

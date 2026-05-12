@@ -55,5 +55,10 @@
     "next": "Volgende",
     "save": "Redden",
     "loading": "Laden..."
-  }
+  },
+  "app_duration": "1 minuut",
+  "intro_p1": "Identificeer energieverspillingen",
+  "intro_p2": "Ontdek de momenten waarop uw productiviteit het hoogst is.",
+  "intro_p3": "Ontdek wat je energie geeft",
+  "app_description": "Houd je energieniveau gedurende de dag bij om je patronen te begrijpen en je welzijn te optimaliseren."
 }

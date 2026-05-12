@@ -62,5 +62,7 @@
     "loading": "Yükleniyor..."
   },
   "complete_title": "Bingo Usta!",
-  "complete_message": "Tebrikler! Bir özbakım hattını başarıyla tamamladın. Zihniniz ve bedeniniz için teşekkürler."
+  "complete_message": "Tebrikler! Bir özbakım hattını başarıyla tamamladın. Zihniniz ve bedeniniz için teşekkürler.",
+  "app_duration": "Her zaman",
+  "app_description": "atlıkarınca"
 }

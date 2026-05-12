@@ -51,5 +51,10 @@
     "next": "Következő",
     "save": "Megtakarítás",
     "loading": "Terhelés..."
-  }
+  },
+  "app_duration": "1-2 perc",
+  "intro_p1": "Kövesd nyomon az érzelmi mintáidat",
+  "intro_p2": "Gondold át a mai hangulatodat",
+  "intro_p3": "Érzelmi tudatosság fejlesztése",
+  "app_description": "körhinta"
 }

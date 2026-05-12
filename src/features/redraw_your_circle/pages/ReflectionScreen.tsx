@@ -56,7 +56,7 @@ const ReflectionScreen = ({ names, onReset }: ReflectionScreenProps) => {
   return (
     <PremiumLayout
       title={t("app_title")}
-      subtitle={t("reflection.subtitle")}
+      subtitle={t("app_title")}
       icon={<Users className="w-6 h-6 text-primary" />}
       onBack={() => navigate("../circle", { replace: true })}
     >

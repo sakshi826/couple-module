@@ -165,5 +165,10 @@
   },
   "app_complete_title": "Rasa Diperkasakan",
   "app_complete_message": "Pengesahan harian membantu membentuk semula pemikiran anda. Bawa pemikiran positif ini bersama anda hari ini.",
-  "app_title": "Pemikiran"
+  "app_title": "Pemikiran",
+  "app_duration": "2-3 minit",
+  "intro_p1": "common.takeTime",
+  "intro_p2": "biasa.bernafasSecara semula jadi",
+  "intro_p3": "common.noRush",
+  "app_description": "karusel"
 }

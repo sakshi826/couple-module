@@ -42,5 +42,10 @@
     "next": "Sonraki",
     "save": "Kaydetmek",
     "loading": "Yükleniyor..."
-  }
+  },
+  "app_duration": "60 saniye",
+  "intro_p1": "Yaratıcılığınızı serbest bırakın",
+  "intro_p2": "Biriken enerjiyi serbest bırakın",
+  "intro_p3": "Anında beyin sıfırlama",
+  "app_description": "atlıkarınca"
 }

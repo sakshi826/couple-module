@@ -103,7 +103,7 @@ export default function WindowApp() {
   if (screen === 5) {
     return (
       <PremiumComplete
-        title={t("complete.title")}
+        title={t("app_title")}
         message={t("complete.message")}
         onRestart={() => setScreen(0)}
       />

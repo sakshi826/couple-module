@@ -1,6 +1,6 @@
 {
   "intro_title": "A Moment to Reconnect",
-  "intro_p1": "When you're feeling depressed, anxious, or overwhelmed, it's easy to lose sight of what truly matters to you.",
+  "intro_p1": "Gain clarity on your path",
   "intro_p2": "A personal mission statement is not about pressure or productivity. It is a gentle reminder of your values — the kind of person you want to be, even during difficult seasons.",
   "intro_breath": "Take one slow breath.",
   "intro_no_wrong": "There are no right or wrong answers here.",
@@ -60,5 +60,7 @@
     "next": "Next",
     "save": "Save",
     "loading": "Loading..."
-  }
+  },
+  "app_duration": "5-10 minutes",
+  "app_title": "Personal Mission Statement"
 }

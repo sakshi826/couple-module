@@ -6,7 +6,7 @@ const PositiveSelfTalk = () => {
 
   return (
     <TipDetailLayout
-      title={t("tip_positive_self_talk")}
+      title={t("app_title")}
       whyItHelps={t("selftalk_why")}
       whatYouCanDo={[
         t("selftalk_step1"),

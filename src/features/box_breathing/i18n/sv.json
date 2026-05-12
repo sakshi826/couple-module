@@ -32,5 +32,10 @@
   },
   "app_title": "Boxandning",
   "app_complete_title": "Bra jobbat!",
-  "app_complete_message": "Du har slutfört Box Breathing-sessionen. Du borde känna dig mer balanserad och lugn."
+  "app_complete_message": "Du har slutfört Box Breathing-sessionen. Du borde känna dig mer balanserad och lugn.",
+  "app_duration": "5 minuter",
+  "intro_p1": "andas in_4s",
+  "intro_p2": "hold_4s",
+  "intro_p3": "andas ut_4s",
+  "app_description": "karusell"
 }

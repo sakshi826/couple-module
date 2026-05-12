@@ -43,5 +43,7 @@
     "next": "Następny",
     "save": "Ratować",
     "loading": "Załadunek..."
-  }
+  },
+  "app_duration": "5 minut",
+  "app_description": "karuzela"
 }

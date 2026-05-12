@@ -34,7 +34,7 @@ const GratitudeEntry = () => {
 
   return (
     <PremiumLayout 
-      title="Gratitude Journal" 
+      title={t("app_title")} 
       onReset={!showIntro ? () => setShowIntro(true) : undefined}
     >
       <AnimatePresence mode="wait">

@@ -60,5 +60,7 @@
     "next": "Seuraava",
     "save": "Tallentaa",
     "loading": "Ladataan..."
-  }
+  },
+  "app_title": "Toimintaloki",
+  "app_description": "karuselli"
 }

@@ -11,7 +11,7 @@ const FinalScreen = ({ onRestart }: FinalScreenProps) => {
 
   return (
     <PremiumComplete
-      title="Habit Reflection Complete"
+      title={t("app_title")}
       message={t('final_text')}
       onRestart={onRestart}
       icon={<CheckCircle2 size={48} />}

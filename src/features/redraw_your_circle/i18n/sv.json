@@ -21,24 +21,24 @@
       "placeholder": "Skriv in ett namn...",
       "button": "Spara namn"
     },
-    "prompts": [
-      "En person som sprider glädje",
-      "En person som stöttar dig",
-      "En person du kan prata med",
-      "En person du litar på",
-      "En person som inspirerar dig"
-    ]
+    "prompts": {
+      "0": "En person som sprider glädje",
+      "1": "En person som stöttar dig",
+      "2": "En person du kan prata med",
+      "3": "En person du litar på",
+      "4": "En person som inspirerar dig"
+    }
   },
   "reflection": {
     "subtitle": "Slutliga reflektioner",
     "title": "Vad märker du?",
     "p_intro": "Ta en stund och titta på din cirkel. Du kanske märker:",
-    "list": [
-      "Vissa känner sig närmare än andra",
-      "Vissa kopplingar känns starka",
-      "Vissa känns avlägsna eller oklara",
-      "Det kan finnas luckor – eller bara några få meningsfulla personer"
-    ],
+    "list": {
+      "0": "Vissa känner sig närmare än andra",
+      "1": "Vissa kopplingar känns starka",
+      "2": "Vissa känns avlägsna eller oklara",
+      "3": "Det kan finnas luckor – eller bara några få meningsfulla personer"
+    },
     "italic": "Medvetenhet är det första steget mot att bygga de kontakter du värdesätter. 🧘",
     "label": "💭 Finns det någon du skulle vilja känna dig mer kopplad med?",
     "placeholder": "Skriv dina tankar här...",
@@ -69,5 +69,6 @@
     "next": "Nästa",
     "save": "Spara",
     "loading": "Belastning..."
-  }
+  },
+  "app_description": "karusell"
 }

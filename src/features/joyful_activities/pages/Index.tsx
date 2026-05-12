@@ -34,7 +34,7 @@ const Index = () => {
   if (screen === 5) {
     return (
       <PremiumComplete
-        title={t("app_complete_title")}
+        title={t("app_title")}
         message={t("app_complete_message")}
         onRestart={goHome}
       />
@@ -43,7 +43,7 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title", "Joyful Activities")}
+      title={t("app_title")}
       icon={<Sparkles className="w-6 h-6 text-primary" />}
       onBack={screen > 1 && screen < 5 ? () => setScreen(prev => prev - 1) : undefined}
       onReset={screen > 1 && screen < 5 ? goHome : undefined}

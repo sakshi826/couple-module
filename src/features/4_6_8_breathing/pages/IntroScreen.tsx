@@ -9,18 +9,14 @@ const IntroScreen = () => {
   const { t } = useTranslation();
 
   return (
-    <PremiumLayout title={t('app_title')}>
+    <PremiumLayout title={t("app_title")}>
       <PremiumIntro
-        title={t('app_title')}
-        description={t('intro_description')}
+        title={t("app_title")}
+        description={t("app_description")}
         onStart={() => navigate("./breathe", { replace: true })}
         icon={<Wind size={32} />}
-        benefits={[
-          "Calms the nervous system",
-          "Reduces immediate stress",
-          "Improves focus and clarity"
-        ]}
-        duration="3-5 minutes"
+        benefits={[t('intro_p1'), t('intro_p2'), t('intro_p3')]}
+        duration={t('app_duration', "3-5 minutes")}
       />
     </PremiumLayout>
   );

@@ -32,5 +32,10 @@
   },
   "app_title": "Kutu Nefes Alma",
   "app_complete_title": "Harika iş!",
-  "app_complete_message": "Box Breath seansını tamamladın. Daha dengeli ve sakin hissetmelisin."
+  "app_complete_message": "Box Breath seansını tamamladın. Daha dengeli ve sakin hissetmelisin.",
+  "app_duration": "5 dakika",
+  "intro_p1": "nefes_4s",
+  "intro_p2": "tut_4s",
+  "intro_p3": "nefes_4s",
+  "app_description": "atlıkarınca"
 }

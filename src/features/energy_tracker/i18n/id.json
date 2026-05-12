@@ -55,5 +55,10 @@
     "next": "Berikutnya",
     "save": "Menyimpan",
     "loading": "Memuat..."
-  }
+  },
+  "app_duration": "1 menit",
+  "intro_p1": "Identifikasi pemborosan energi",
+  "intro_p2": "Temukan waktu produktivitas puncak.",
+  "intro_p3": "Pelajari apa yang dapat mengisi ulang energi Anda.",
+  "app_description": "Pantau tingkat energi Anda sepanjang hari untuk memahami pola dan mengoptimalkan kesejahteraan Anda."
 }

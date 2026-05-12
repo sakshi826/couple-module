@@ -26,5 +26,11 @@
     "next": "Volgende",
     "save": "Redden",
     "loading": "Laden..."
-  }
+  },
+  "app_duration": "10-15 minuten",
+  "intro_p1": "geen_oordelen",
+  "intro_p2": "Een ruimte voor reflectie",
+  "intro_p3": "Maak contact met je toekomstige zelf.",
+  "app_title": "Brief aan mezelf",
+  "app_description": "carrousel"
 }

@@ -10,52 +10,52 @@
   "scenario": {
     "title": "Was löst dich aus?",
     "desc": "Wähle eine Situation, mit der du dich identifizieren kannst",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "Unterbrechungen",
         "label": "Jemand unterbricht mich",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "Pläne",
         "label": "Die Dinge laufen nicht wie geplant",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "ignoriert",
         "label": "Ich fühle mich ignoriert",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "Überwältigt",
         "label": "Ich fühle mich überfordert",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "Tipp deine eigene...",
     "button": "Übe Pause →"
   },
   "hold": {
     "title": "Halten zum Pausieren ⏸️",
     "instructions": "Halte den Kreis für 5 Sekunden",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "Drücken und halten..."
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "Bleib dran..."
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "Du machst es..."
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "Fast da..."
       }
-    ]
+    }
   },
   "result": {
     "title": "Das ist die Pause",
@@ -81,5 +81,6 @@
     "next": "Nächste",
     "save": "Speichern",
     "loading": "Laden..."
-  }
+  },
+  "app_description": "Karussell"
 }

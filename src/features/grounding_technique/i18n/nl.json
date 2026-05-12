@@ -168,5 +168,7 @@
     "next": "Volgende",
     "save": "Redden",
     "loading": "Laden..."
-  }
+  },
+  "app_title": "Aarding",
+  "app_description": "carrousel"
 }

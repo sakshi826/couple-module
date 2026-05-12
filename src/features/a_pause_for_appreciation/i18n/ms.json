@@ -73,13 +73,13 @@
     "confirmDelete": "Sahkan Padam",
     "cancel": "Batal",
     "delete": "Padamkan entri",
-    "prompts": [
-      "Satu detik kecil yang tidak terasa tegang...",
-      "Satu usaha yang telah dilakukan oleh pasangan anda...",
-      "Satu kualiti yang kekal konsisten...",
-      "Niat",
-      "Daftar Masuk Emosi"
-    ]
+    "prompts": {
+      "0": "Satu detik kecil yang tidak terasa tegang...",
+      "1": "Satu usaha yang telah dilakukan oleh pasangan anda...",
+      "2": "Satu kualiti yang kekal konsisten...",
+      "3": "Niat",
+      "4": "Daftar Masuk Emosi"
+    }
   },
   "common": {
     "get_started": "Mulakan",
@@ -92,5 +92,11 @@
     "next": "Seterusnya",
     "save": "Simpan",
     "loading": "Memuatkan..."
-  }
+  },
+  "app_duration": "3-5 minit",
+  "intro_p1": "Pupuk rasa syukur",
+  "intro_p2": "Kurangkan tekanan",
+  "intro_p3": "Meningkatkan kesejahteraan",
+  "app_title": "Merenung",
+  "app_description": "karusel"
 }

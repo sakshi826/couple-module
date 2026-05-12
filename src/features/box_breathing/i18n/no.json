@@ -32,5 +32,10 @@
   },
   "app_title": "Bokspusting",
   "app_complete_title": "Flott jobba!",
-  "app_complete_message": "Du har fullført Box Breathing-økten. Du bør føle deg mer balansert og rolig."
+  "app_complete_message": "Du har fullført Box Breathing-økten. Du bør føle deg mer balansert og rolig.",
+  "app_duration": "5 minutter",
+  "intro_p1": "pust inn_4s",
+  "intro_p2": "hold_4s",
+  "intro_p3": "pust ut_4s",
+  "app_description": "karusell"
 }

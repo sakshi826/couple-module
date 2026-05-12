@@ -35,5 +35,10 @@
     "next": "Volgende",
     "save": "Redden",
     "loading": "Laden..."
-  }
+  },
+  "app_duration": "3-5 minuten",
+  "intro_p1": "Kalmeert het zenuwstelsel",
+  "intro_p2": "Vermindert acute stress",
+  "intro_p3": "Verbetert de concentratie en helderheid.",
+  "app_description": "carrousel"
 }

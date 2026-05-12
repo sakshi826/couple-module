@@ -73,13 +73,13 @@
     "confirmDelete": "Potvrdit smazání",
     "cancel": "Zrušit",
     "delete": "Smazat záznam",
-    "prompts": [
-      "Jeden malý okamžik, který nepůsobil napjatě...",
-      "Jeden pokus, který tvůj partner udělal...",
-      "Jedna vlastnost, která zůstala konzistentní...",
-      "Záměr",
-      "Emocionální kontrola"
-    ]
+    "prompts": {
+      "0": "Jeden malý okamžik, který nepůsobil napjatě...",
+      "1": "Jeden pokus, který tvůj partner udělal...",
+      "2": "Jedna vlastnost, která zůstala konzistentní...",
+      "3": "Záměr",
+      "4": "Emocionální kontrola"
+    }
   },
   "common": {
     "get_started": "Začít",
@@ -92,5 +92,11 @@
     "next": "Další",
     "save": "Uložit",
     "loading": "Načítání..."
-  }
+  },
+  "app_duration": "3–5 minut",
+  "intro_p1": "Pěstujte vděčnost",
+  "intro_p2": "Snižte stres",
+  "intro_p3": "Zlepšení pohody",
+  "app_title": "Odrážející",
+  "app_description": "kolotoč"
 }

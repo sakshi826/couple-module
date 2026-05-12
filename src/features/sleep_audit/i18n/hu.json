@@ -28,43 +28,43 @@
       }
     }
   },
-  "options": [
-    {
+  "options": {
+    "0": {
       "emoji": "🕐",
       "text": "Minden este nagyon különböző időpontokban fekszem le"
     },
-    {
+    "1": {
       "emoji": "💡",
       "text": "Az alvás környezetem nem sötét, csendes vagy kényelmes"
     },
-    {
+    "2": {
       "emoji": "📱",
       "text": "Közvetlenül alvás előtt görgetek a telefonomon"
     },
-    {
+    "3": {
       "emoji": "☕",
       "text": "Koffein vagy alkoholom van lefekvésnél közel"
     },
-    {
+    "4": {
       "emoji": "😵",
       "text": "Éjszaka felébredek, és nehezen tudok visszaaludni"
     },
-    {
+    "5": {
       "emoji": "🧠",
       "text": "Az agyam zaklatott a gondolatokkal, amikor próbálok aludni"
     },
-    {
+    "6": {
       "emoji": "😔",
       "text": "Ritkán érzem magam felfrissültnek egy éjszakai alvás után"
     }
-  ],
-  "rating_labels": [
-    "Nagyon szegény",
-    "Szegény",
-    "Rendben",
-    "Jó",
-    "Remek"
-  ],
+  },
+  "rating_labels": {
+    "0": "Nagyon szegény",
+    "1": "Szegény",
+    "2": "Rendben",
+    "3": "Jó",
+    "4": "Remek"
+  },
   "status_labels": {
     "track": "Főleg a pályán",
     "disruptions": "Néhány zavaró",
@@ -102,5 +102,6 @@
     "next": "Következő",
     "save": "Megtakarítás",
     "loading": "Terhelés..."
-  }
+  },
+  "app_description": "körhinta"
 }

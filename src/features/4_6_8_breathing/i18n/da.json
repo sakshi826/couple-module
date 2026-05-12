@@ -35,5 +35,10 @@
     "next": "Næste",
     "save": "Spare",
     "loading": "Indlæser..."
-  }
+  },
+  "app_duration": "3-5 minutter",
+  "intro_p1": "Beroliger nervesystemet",
+  "intro_p2": "Reducerer øjeblikkelig stress",
+  "intro_p3": "Forbedrer fokus og klarhed",
+  "app_description": "karrusel"
 }

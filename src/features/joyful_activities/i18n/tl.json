@@ -55,5 +55,8 @@
     "loading": "Naglo-load..."
   },
   "app_complete_title": "Napanatili ang Kagalakan",
-  "app_complete_message": "Matagumpay mong naalala at nakipag-ugnay sa isang mapagkukunan ng kagalakan. Panatilihin ang damdaming ito sa iyo habang gumagalaw ka sa iyong araw."
+  "app_complete_message": "Matagumpay mong naalala at nakipag-ugnay sa isang mapagkukunan ng kagalakan. Panatilihin ang damdaming ito sa iyo habang gumagalaw ka sa iyong araw.",
+  "app_duration": "5 minuto",
+  "app_title": "Mga Masayang Aktibidad",
+  "app_description": "karusel"
 }

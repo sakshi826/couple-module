@@ -18,7 +18,7 @@ const ResultScreen = ({ scenario, onTryAgain, onDone }: ResultScreenProps) => {
   return (
     <div className="w-full">
       <PremiumComplete
-        title={t("result.title")}
+        title={t("app_title")}
         message={t("result.message")}
         onRestart={onTryAgain}
         onHome={onDone}

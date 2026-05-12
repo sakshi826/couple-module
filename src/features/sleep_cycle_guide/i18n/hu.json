@@ -1,11 +1,11 @@
 {
   "app_title": "Alvási ciklus útmutató",
-  "pill_labels": [
-    "Bevezetés",
-    "A 4 szakasz",
-    "A kábult igazság",
-    "És te?"
-  ],
+  "pill_labels": {
+    "0": "Bevezetés",
+    "1": "A 4 szakasz",
+    "2": "A kábult igazság",
+    "3": "És te?"
+  },
   "s1": {
     "title": "Aludtál már 8 órát, és még mindig rosszul érezted magad?",
     "p1": "Nem arról van szó, hogy <1>meddig</1> alszol.",
@@ -18,32 +18,32 @@
   "s2": {
     "title": "Az agyad EZT csinálja minden este 🌀",
     "desc": "90 percenként az agyad négy szakaszon keresztül jár — mintha egy lejátszási lista ismétlődő. Érintsd meg mindegyiket, hogy felfedezd 👇",
-    "stages": [
-      {
+    "stages": {
+      "0": {
         "emoji": "🌊",
         "title": "Könnyű alvás",
         "tag": "1–5 perc · könnyen felébredő",
         "body": "Elaludsz. A test elkezd elengedni, az izmok rángatódhatnak. Innen nagyon könnyű felébredni."
       },
-      {
+      "1": {
         "emoji": "💤",
         "title": "A beilleszkedés",
         "tag": "10–25 perc · Igazán aludt",
         "body": "A pulzus lassul, a testhőmérséklet csökken. Rendesen alszol — az agyi aktivitás lassulásra kezd csökkenni."
       },
-      {
+      "2": {
         "emoji": "🔵",
         "title": "Mély alvás ⭐",
         "tag": "20–40 perc · Az arany",
         "body": "A test javítja a szöveteket, immunitást épít. A legfizikailag leggyógyítóbb szakasz — nehéz onnan felébredni."
       },
-      {
+      "3": {
         "emoji": "🌙",
         "title": "REM alvás",
         "tag": "10–60 perc · Álom mód",
         "body": "Az agyam zümmög az aktivitástól. Az érzelmek feldolgozódnak, az emlékek bezáródnak. Ha ezt kihagyod, ködös vagy."
       }
-    ],
+    },
     "italic": "A mély alvás meggyógyítja a testedet. A REM megjavítja az elmédet.",
     "button": "Szóval miért érzem még mindig magam kábultnak? →"
   },
@@ -55,66 +55,66 @@
       "deep": "mélyen",
       "groggy": "😫 kábító",
       "fresh": "😊 friss",
-      "cycles": [
-        "1. ciklus",
-        "2. ciklus",
-        "3. ciklus"
-      ]
+      "cycles": {
+        "0": "1. ciklus",
+        "1": "2. ciklus",
+        "2": "3. ciklus"
+      }
     },
     "disruptors_title": "Mi zavarja meg a ciklusodat 👇",
-    "disruptors": [
-      {
+    "disruptors": {
+      "0": {
         "emoji": "📱",
         "text": "Képernyők lefekvés előtt",
         "sub": "Késleli a mély alvást."
       },
-      {
+      "1": {
         "emoji": "☕",
         "text": "Késői koffein",
         "sub": "akár 20%-kal csökkenti a mély alvást."
       },
-      {
+      "2": {
         "emoji": "⏰",
         "text": "Szabálytalan alvási idők",
         "sub": "megtöri a természetes ritmusodat"
       },
-      {
+      "3": {
         "emoji": "😰",
         "text": "Stressz és szorongás",
         "sub": "Könnyű alvásban ragadnak"
       }
-    ],
+    },
     "italic": "A szokásaid közvetlenül meghatározzák, mely szintekre jutsz el.",
     "button": "Mit jelent ez számomra? →"
   },
   "s4": {
     "title": "Melyik hangzik hozzád? 👇",
-    "options": [
-      {
+    "options": {
+      "0": {
         "emoji": "😩",
         "text": "Fizikailag kimerülten ébredekem",
         "sub": "valószínűleg hiányzik a mély alvás",
         "tip": "Koncentrálj a következetes alvásra és ébredésre — a testednek rendszeres ritmusra van szüksége ahhoz, hogy mély alváshoz jusson."
       },
-      {
+      "1": {
         "emoji": "🌫️",
         "text": "Érzelmileg ködösnek vagy mélyen érzem magam",
         "sub": "valószínűleg hiányzik a REM alvás",
         "tip": "Próbálj meg lefekvés előtt 30 percet pihenni — egy nyugodt, alvás előtti rutin megvédi a REM alvást."
       },
-      {
+      "2": {
         "emoji": "😤",
         "text": "Éjszaka sokat ébredek.",
         "sub": "A ciklusok folyton megszakadnak",
         "tip": "Egy hűvös, sötét és csendes szoba segít az agyad mélyebb szakaszokban maradni zavartalanul."
       },
-      {
+      "3": {
         "emoji": "😐",
         "text": "Jól érzem magam, de nem túl jól",
         "sub": "a ciklusok részlegesek, de nem teljesek",
         "tip": "Próbálj meg 20 perccel korábban lefeküdni – lehet, hogy még egy teljes alvásciklusra van szükséged."
       }
-    ],
+    },
     "quote": "Az alvás nem csupán pihenés – hanem aktív felépülés. Védd a ciklusodat és a teljes napod változásait.",
     "button": "Kész ✓"
   },
@@ -129,5 +129,6 @@
     "next": "Következő",
     "save": "Megtakarítás",
     "loading": "Terhelés..."
-  }
+  },
+  "app_description": "körhinta"
 }

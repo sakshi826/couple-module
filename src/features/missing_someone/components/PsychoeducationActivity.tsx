@@ -16,7 +16,7 @@ const PsychoeducationActivity = () => {
   if (currentScreen === 2) {
     return (
       <PremiumComplete
-        title={t("complete_title")}
+        title={t("app_title")}
         message={t("complete_message")}
         onRestart={() => setCurrentScreen(0)}
       />

@@ -55,5 +55,8 @@
     "loading": "Memuat..."
   },
   "app_complete_title": "Kegembiraan Dipertahankan",
-  "app_complete_message": "Anda telah berhasil mengingat dan terhubung dengan sumber kegembiraan. Simpan perasaan ini bersama Anda saat Anda menjalani hari Anda."
+  "app_complete_message": "Anda telah berhasil mengingat dan terhubung dengan sumber kegembiraan. Simpan perasaan ini bersama Anda saat Anda menjalani hari Anda.",
+  "app_duration": "5 menit",
+  "app_title": "Aktivitas Menyenangkan",
+  "app_description": "korsel"
 }

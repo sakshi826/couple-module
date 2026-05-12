@@ -6,7 +6,7 @@ const Mindfulness = () => {
 
   return (
     <TipDetailLayout
-      title={t("tip_mindfulness")}
+      title={t("app_title")}
       whyItHelps={t("mindfulness_why")}
       whatYouCanDo={[
         t("mindfulness_step1"),

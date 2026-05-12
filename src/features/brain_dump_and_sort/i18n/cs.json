@@ -48,5 +48,11 @@
     "next": "Další",
     "save": "Uložit",
     "loading": "Načítání..."
-  }
+  },
+  "app_duration": "5–10 minut",
+  "intro_p1": "krok_1",
+  "intro_p2": "krok_2",
+  "intro_p3": "krok_3",
+  "app_title": "Výpis mozku",
+  "app_description": "kolotoč"
 }

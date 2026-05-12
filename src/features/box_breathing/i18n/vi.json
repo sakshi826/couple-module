@@ -32,5 +32,10 @@
   },
   "app_title": "Thở hộp",
   "app_complete_title": "Làm tốt lắm!",
-  "app_complete_message": "Bạn đã hoàn thành phiên Thở hộp. Bạn sẽ cảm thấy cân bằng và bình tĩnh hơn."
+  "app_complete_message": "Bạn đã hoàn thành phiên Thở hộp. Bạn sẽ cảm thấy cân bằng và bình tĩnh hơn.",
+  "app_duration": "5 phút",
+  "intro_p1": "hít_4 giây",
+  "intro_p2": "giữ 4 giây",
+  "intro_p3": "thở ra_4 giây",
+  "app_description": "vòng quay ngựa gỗ"
 }

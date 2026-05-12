@@ -14,7 +14,7 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title", "Environment Optimization Exercise")}
+      title={t("app_title")}
     >
       <div className="w-full">
         <AnimatePresence mode="wait">

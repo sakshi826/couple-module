@@ -48,5 +48,11 @@
     "next": "Următorul",
     "save": "Salva",
     "loading": "Încărcare..."
-  }
+  },
+  "app_duration": "5-10 minute",
+  "intro_p1": "pasul 1",
+  "intro_p2": "pasul 2",
+  "intro_p3": "pasul 3",
+  "app_title": "Descărcare de creiere",
+  "app_description": "carusel"
 }

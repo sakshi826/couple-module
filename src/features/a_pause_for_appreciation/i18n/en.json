@@ -92,5 +92,10 @@
     "next": "Next",
     "save": "Save",
     "loading": "Loading..."
-  }
+  },
+  "app_duration": "3-5 minutes",
+  "intro_p1": "Cultivate gratitude",
+  "intro_p2": "Reduce stress",
+  "intro_p3": "Improve well-being",
+  "app_title": "Reflecting"
 }

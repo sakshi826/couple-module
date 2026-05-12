@@ -42,5 +42,9 @@
     "next": "Next",
     "save": "Save",
     "loading": "Loading..."
-  }
+  },
+  "app_duration": "60 seconds",
+  "intro_p1": "Unleash your creativity",
+  "intro_p2": "Release pent-up energy",
+  "intro_p3": "Instant brain reset"
 }

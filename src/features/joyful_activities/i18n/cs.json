@@ -55,5 +55,8 @@
     "loading": "Načítání..."
   },
   "app_complete_title": "Radost zachována",
-  "app_complete_message": "Úspěšně jste si vzpomněli a spojili se se zdrojem radosti. Tento pocit si nejte u sebe, když procházíte dnem."
+  "app_complete_message": "Úspěšně jste si vzpomněli a spojili se se zdrojem radosti. Tento pocit si nejte u sebe, když procházíte dnem.",
+  "app_duration": "5 minut",
+  "app_title": "Radostné aktivity",
+  "app_description": "kolotoč"
 }

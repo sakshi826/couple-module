@@ -32,5 +32,10 @@
   },
   "app_title": "ボックス呼吸",
   "app_complete_title": "素晴らしい仕事です!",
-  "app_complete_message": "ボックス・ブリージング・セッションを完了しました。そうすれば、よりバランスが取れて落ち着いているはずです。"
+  "app_complete_message": "ボックス・ブリージング・セッションを完了しました。そうすれば、よりバランスが取れて落ち着いているはずです。",
+  "app_duration": "5分",
+  "intro_p1": "4秒間吸い込む",
+  "intro_p2": "hold_4s",
+  "intro_p3": "exhale_4s",
+  "app_description": "カルーセル"
 }

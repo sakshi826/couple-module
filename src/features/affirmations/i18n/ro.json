@@ -165,5 +165,10 @@
   },
   "app_complete_title": "Simte-te împuternicit",
   "app_complete_message": "Afirmațiile zilnice îți ajută la remodelarea mentalității. Poartă cu tine aceste gânduri pozitive astăzi.",
-  "app_title": "Mentalitate"
+  "app_title": "Mentalitate",
+  "app_duration": "2-3 minute",
+  "intro_p1": "common.takeTime",
+  "intro_p2": "common.breatheNatural",
+  "intro_p3": "common.noRush",
+  "app_description": "carusel"
 }

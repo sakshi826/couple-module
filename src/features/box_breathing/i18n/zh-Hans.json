@@ -32,5 +32,10 @@
   },
   "app_title": "箱式呼吸法",
   "app_complete_title": "干得好！",
-  "app_complete_message": "您已完成箱式呼吸练习。您应该会感觉更加平衡和平静。"
+  "app_complete_message": "您已完成箱式呼吸练习。您应该会感觉更加平衡和平静。",
+  "app_duration": "5分钟",
+  "intro_p1": "吸气_4秒",
+  "intro_p2": "保持4秒",
+  "intro_p3": "呼气_4秒",
+  "app_description": "旋转木马"
 }

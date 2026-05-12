@@ -32,5 +32,10 @@
   },
   "app_title": "Respiration en boîte",
   "app_complete_title": "Excellent travail !",
-  "app_complete_message": "Vous avez terminé la séance Box Breath. Vous devriez vous sentir plus équilibré et calme."
+  "app_complete_message": "Vous avez terminé la séance Box Breath. Vous devriez vous sentir plus équilibré et calme.",
+  "app_duration": "5 minutes",
+  "intro_p1": "inhaler_4s",
+  "intro_p2": "tenir_4s",
+  "intro_p3": "expirer_4s",
+  "app_description": "carrousel"
 }

@@ -55,5 +55,8 @@
     "loading": "Terhelés..."
   },
   "app_complete_title": "Megőrzött öröm",
-  "app_complete_message": "Sikeresen felidézted és kapcsolatot teremtettél az öröm forrásával. Tartsd magaddal ezt az érzést, miközben haladsz a nadon."
+  "app_complete_message": "Sikeresen felidézted és kapcsolatot teremtettél az öröm forrásával. Tartsd magaddal ezt az érzést, miközben haladsz a nadon.",
+  "app_duration": "5 perc",
+  "app_title": "Örömteli tevékenységek",
+  "app_description": "körhinta"
 }

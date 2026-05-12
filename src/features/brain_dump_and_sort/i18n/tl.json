@@ -48,5 +48,11 @@
     "next": "Susunod",
     "save": "I-save",
     "loading": "Naglo-load..."
-  }
+  },
+  "app_duration": "5-10 minuto",
+  "intro_p1": "hakbang_1",
+  "intro_p2": "hakbang_2",
+  "intro_p3": "hakbang_3",
+  "app_title": "Pagtatapon ng Utak",
+  "app_description": "karusel"
 }

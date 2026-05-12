@@ -61,8 +61,8 @@ const Index = () => {
           {view === "intro" && (
             <motion.div key="intro" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }}>
                 <PremiumIntro
-                    title={t('intro_title')}
-                    description={t('intro_desc1')}
+                    title={t("app_title")}
+                    description={t("app_description")}
                     onStart={() => setView("choose")}
                     icon={<Brain size={32} />}
                     benefits={[
@@ -170,7 +170,7 @@ const Index = () => {
                 {step === 4 && (
                     <motion.div key="sky4" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }}>
                         <PremiumComplete
-                            title={t('conclusion_sky_title')}
+                            title={t("app_title")}
                             message={t('conclusion_sky_desc1') + " " + t('conclusion_sky_desc2')}
                             onRestart={() => { reset(); setView("choose"); }}
                             icon={<Cloud size={48} />}
@@ -352,7 +352,7 @@ const Index = () => {
                 {step === 4 && (
                     <motion.div key="name4" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }}>
                         <PremiumComplete
-                            title={t('conclusion_name_title')}
+                            title={t("app_title")}
                             message={`${t('conclusion_name_desc1')} ${t('conclusion_name_desc2')}`}
                             onRestart={() => { reset(); setView("choose"); }}
                             icon={<BookOpen size={48} />}

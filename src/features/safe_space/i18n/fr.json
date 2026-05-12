@@ -1,57 +1,57 @@
 {
   "app_title": "Espace sécurisé",
-  "nav": [
-    "Enregistrement",
-    "Rappel doux",
-    "Observation",
-    "Rester présent",
-    "Aller de l’avant"
-  ],
+  "nav": {
+    "0": "Enregistrement",
+    "1": "Rappel doux",
+    "2": "Observation",
+    "3": "Rester présent",
+    "4": "Aller de l’avant"
+  },
   "s1": {
     "title": "Trouvons un endroit qui nous convient",
-    "description": [
-      "Avant de commencer, prenez un moment pour prendre de vos nouvelles...",
-      "Comment te sens-tu en ce moment ?",
-      "Nous ne cherchons pas un « endroit sûr » parfait. Juste quelque chose qui semble un peu calme ou acceptable."
-    ],
+    "description": {
+      "0": "Avant de commencer, prenez un moment pour prendre de vos nouvelles...",
+      "1": "Comment te sens-tu en ce moment ?",
+      "2": "Nous ne cherchons pas un « endroit sûr » parfait. Juste quelque chose qui semble un peu calme ou acceptable."
+    },
     "placeholder": "Comment te sens-tu en ce moment ?",
     "button": "Commencez la visualisation"
   },
   "s2": {
     "title": "Rappelle-le doucement",
-    "description": [
-      "Imagine un endroit où tu te sentais ne serait-ce qu’un peu à l’aise... Ou un endroit que vous souhaiteriez voir exister.",
-      "Maintenant, place-toi là...",
-      "Êtes-vous assis, debout ou allongé ?"
-    ],
+    "description": {
+      "0": "Imagine un endroit où tu te sentais ne serait-ce qu’un peu à l’aise... Ou un endroit que vous souhaiteriez voir exister.",
+      "1": "Maintenant, place-toi là...",
+      "2": "Êtes-vous assis, debout ou allongé ?"
+    },
     "button": "Continuez"
   },
   "s3": {
     "title": "Regarde autour de toi lentement",
-    "description": [
-      "Regarde doucement autour de toi...",
-      "Quelle est une chose que tu peux voir ?",
-      "Maintenant, remarquez un bruit... Qu’entendez-vous ?"
-    ],
+    "description": {
+      "0": "Regarde doucement autour de toi...",
+      "1": "Quelle est une chose que tu peux voir ?",
+      "2": "Maintenant, remarquez un bruit... Qu’entendez-vous ?"
+    },
     "button": "Continuez"
   },
   "s4": {
     "title": "Reste avec ça",
-    "description": [
-      "Qu’est-ce qui rend cet endroit un peu sûr ou acceptable ?",
-      "Comme tu le remarques...",
-      "Concentrez-vous aussi sur votre respiration."
-    ],
+    "description": {
+      "0": "Qu’est-ce qui rend cet endroit un peu sûr ou acceptable ?",
+      "1": "Comme tu le remarques...",
+      "2": "Concentrez-vous aussi sur votre respiration."
+    },
     "breathe": "respire",
     "notice": "Si imaginer vous semble difficile, pensez simplement à l’idée de cet endroit.",
     "button": "Continuez"
   },
   "s5": {
     "title": "Prends ça avec toi",
-    "description": [
-      "Remarquez ce que vous ressentez en ce moment. Même un petit changement compte.",
-      "Essaie de supporter ne serait-ce que 5 % de ce sentiment avec toi."
-    ],
+    "description": {
+      "0": "Remarquez ce que vous ressentez en ce moment. Même un petit changement compte.",
+      "1": "Essaie de supporter ne serait-ce que 5 % de ce sentiment avec toi."
+    },
     "placeholder": "Comment te sens-tu maintenant ?",
     "button": "Session complète"
   },
@@ -70,5 +70,6 @@
     "next": "Suivant",
     "save": "Sauvegarder",
     "loading": "Chargement..."
-  }
+  },
+  "app_description": "carrousel"
 }

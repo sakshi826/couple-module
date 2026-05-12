@@ -58,7 +58,7 @@ const Index = () => {
   if (screen === 2) {
     return (
       <PremiumComplete
-        title={t("complete_title")}
+        title={t("app_title")}
         message={t("complete_message")}
         onRestart={resetFlow}
       />
@@ -68,7 +68,7 @@ const Index = () => {
   return (
     <PremiumLayout
       title={t("app_title")}
-      subtitle={t("app_subtitle")}
+      subtitle={t("app_title")}
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={screen > 0 ? () => setScreen(prev => prev - 1) : undefined}
       onReset={screen > 0 ? resetFlow : undefined}

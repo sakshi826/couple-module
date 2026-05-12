@@ -64,5 +64,11 @@
     "next": "下一個",
     "save": "節省",
     "loading": "載入中..."
-  }
+  },
+  "app_duration": "5分鐘",
+  "intro_p1": "了解你的日常規律",
+  "intro_p2": "找出有益的習慣",
+  "intro_p3": "創造正向改變",
+  "app_title": "你有什麼生活習慣？",
+  "app_description": "旋轉木馬"
 }

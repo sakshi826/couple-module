@@ -14,7 +14,7 @@ export default function UnderstandingControl() {
   if (current === 3) {
     return (
       <PremiumComplete
-        title={t("complete.title")}
+        title={t("app_title")}
         message={t("complete.message")}
         onRestart={() => setCurrent(0)}
       />

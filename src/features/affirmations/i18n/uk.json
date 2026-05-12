@@ -165,5 +165,10 @@
   },
   "app_complete_title": "Відчуй силу",
   "app_complete_message": "Щоденні афірмації допомагають змінити ваше мислення. Носіть із собою ці позитивні думки сьогодні.",
-  "app_title": "Мислення"
+  "app_title": "Мислення",
+  "app_duration": "2-3 хвилини",
+  "intro_p1": "common.takeTime",
+  "intro_p2": "common.breatheNaturally",
+  "intro_p3": "common.noRush",
+  "app_description": "карусель"
 }

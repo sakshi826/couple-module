@@ -28,43 +28,43 @@
       }
     }
   },
-  "options": [
-    {
+  "options": {
+    "0": {
       "emoji": "🕐",
       "text": "Jeg legger meg på veldig forskjellige tider hver kveld"
     },
-    {
+    "1": {
       "emoji": "💡",
       "text": "Sovemiljøet mitt er verken mørkt, stille eller komfortabelt"
     },
-    {
+    "2": {
       "emoji": "📱",
       "text": "Jeg scroller på telefonen rett før jeg legger meg"
     },
-    {
+    "3": {
       "emoji": "☕",
       "text": "Jeg drikker koffein eller alkohol rett før leggetid"
     },
-    {
+    "4": {
       "emoji": "😵",
       "text": "Jeg våkner om natten og sliter med å sovne igjen"
     },
-    {
+    "5": {
       "emoji": "🧠",
       "text": "Tankene mine raser når jeg prøver å sove"
     },
-    {
+    "6": {
       "emoji": "😔",
       "text": "Jeg føler meg sjelden uthvilt etter en natts søvn"
     }
-  ],
-  "rating_labels": [
-    "Veldig fattig",
-    "Stakkars",
-    "Ok",
-    "Bra",
-    "Flott"
-  ],
+  },
+  "rating_labels": {
+    "0": "Veldig fattig",
+    "1": "Stakkars",
+    "2": "Ok",
+    "3": "Bra",
+    "4": "Flott"
+  },
   "status_labels": {
     "track": "For det meste på banen",
     "disruptions": "Noen forstyrrelser",
@@ -102,5 +102,6 @@
     "next": "Neste",
     "save": "Spare",
     "loading": "Laster inn..."
-  }
+  },
+  "app_description": "karusell"
 }

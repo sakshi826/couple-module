@@ -60,5 +60,8 @@
     "next": "다음",
     "save": "구하다",
     "loading": "로딩 중..."
-  }
+  },
+  "app_duration": "5-10분",
+  "app_title": "개인 사명 선언문",
+  "app_description": "회전목마"
 }

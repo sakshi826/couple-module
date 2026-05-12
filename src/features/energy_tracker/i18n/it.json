@@ -55,5 +55,10 @@
     "next": "Prossimo",
     "save": "Salva",
     "loading": "Caricamento..."
-  }
+  },
+  "app_duration": "1 minuto",
+  "intro_p1": "Individuare i dispendi energetici",
+  "intro_p2": "Scopri i momenti di massima produttività",
+  "intro_p3": "Scopri cosa ti ricarica",
+  "app_description": "Monitora i tuoi livelli di energia durante la giornata per comprenderne i ritmi e ottimizzare il tuo benessere."
 }

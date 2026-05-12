@@ -55,5 +55,10 @@
     "next": "Seuraava",
     "save": "Tallentaa",
     "loading": "Ladataan..."
-  }
+  },
+  "app_duration": "1 minuutti",
+  "intro_p1": "Tunnista energiankuluttajat",
+  "intro_p2": "Löydä huipputuottavuuden ajat",
+  "intro_p3": "Opi, mikä lataa sinut",
+  "app_description": "Seuraa energiatasojasi päivän mittaan ymmärtääksesi käyttäytymismallejasi ja optimoidaksesi hyvinvointiasi."
 }

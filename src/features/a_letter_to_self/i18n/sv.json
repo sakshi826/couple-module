@@ -26,5 +26,11 @@
     "next": "Nästa",
     "save": "Spara",
     "loading": "Belastning..."
-  }
+  },
+  "app_duration": "10–15 minuter",
+  "intro_p1": "inga_domar",
+  "intro_p2": "Ett utrymme för reflektion",
+  "intro_p3": "Anslut till ditt framtida jag",
+  "app_title": "Brev till mig själv",
+  "app_description": "karusell"
 }

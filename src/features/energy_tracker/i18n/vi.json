@@ -55,5 +55,10 @@
     "next": "Kế tiếp",
     "save": "Cứu",
     "loading": "Đang tải..."
-  }
+  },
+  "app_duration": "1 phút",
+  "intro_p1": "Xác định các yếu tố gây hao phí năng lượng.",
+  "intro_p2": "Khám phá thời điểm năng suất cao nhất",
+  "intro_p3": "Hãy tìm hiểu điều gì giúp bạn nạp lại năng lượng.",
+  "app_description": "Theo dõi mức năng lượng của bạn suốt cả ngày để hiểu rõ các thói quen của bản thân và tối ưu hóa sức khỏe."
 }

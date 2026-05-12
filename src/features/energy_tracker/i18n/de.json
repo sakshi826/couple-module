@@ -55,5 +55,10 @@
     "next": "Nächste",
     "save": "Speichern",
     "loading": "Laden..."
-  }
+  },
+  "app_duration": "1 Minute",
+  "intro_p1": "Energiefresser identifizieren",
+  "intro_p2": "Entdecke Zeiten höchster Produktivität",
+  "intro_p3": "Finde heraus, was dir neue Energie gibt.",
+  "app_description": "Verfolge deinen Energielevel über den Tag verteilt, um deine Muster zu verstehen und dein Wohlbefinden zu optimieren."
 }

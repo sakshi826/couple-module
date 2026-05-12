@@ -44,5 +44,7 @@
     "loading": "加载中..."
   },
   "app_complete_title": "感恩节已保存",
-  "app_complete_message": "反思你所感恩的事情，是将注意力转移到积极方面的重要方法。"
+  "app_complete_message": "反思你所感恩的事情，是将注意力转移到积极方面的重要方法。",
+  "app_duration": "3-5分钟",
+  "app_description": "旋转木马"
 }

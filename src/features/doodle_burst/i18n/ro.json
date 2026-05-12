@@ -42,5 +42,10 @@
     "next": "Următorul",
     "save": "Salva",
     "loading": "Încărcare..."
-  }
+  },
+  "app_duration": "60 de secunde",
+  "intro_p1": "Dezlănțuie-ți creativitatea",
+  "intro_p2": "Eliberează energia acumulată",
+  "intro_p3": "Resetare instantanee a creierului",
+  "app_description": "carusel"
 }

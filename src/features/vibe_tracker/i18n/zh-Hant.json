@@ -51,5 +51,10 @@
     "next": "下一個",
     "save": "節省",
     "loading": "載入中..."
-  }
+  },
+  "app_duration": "1-2分鐘",
+  "intro_p1": "追蹤你的情緒模式",
+  "intro_p2": "反思一下你今天的心情。",
+  "intro_p3": "培養情緒覺察力",
+  "app_description": "旋轉木馬"
 }

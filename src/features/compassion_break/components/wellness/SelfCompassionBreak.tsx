@@ -85,7 +85,7 @@ const SelfCompassionBreak = () => {
   if (screen === 6) {
     return (
       <PremiumComplete
-        title={t("complete_title")}
+        title={t("app_title")}
         message={t("complete_message")}
         onRestart={reset}
       />

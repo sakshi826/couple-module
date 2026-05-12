@@ -60,7 +60,7 @@ const GroundingExercise = () => {
   if (submitted) {
     return (
       <PremiumComplete
-        title={t("common.thank_you")}
+        title={t("app_title")}
         message={t("common.completion_message")}
         onRestart={() => {
           setCurrentStep(0);
@@ -82,15 +82,11 @@ const GroundingExercise = () => {
   if (currentStep === 0) {
     return (
       <PremiumIntro
-        title="Grounding Exercise"
+        title={t("app_title")}
         description={step.body}
         onStart={handleNext}
         icon={stepIcons[0]}
-        benefits={[
-            "Reduces anxiety quickly",
-            "Brings you back to the present",
-            "Calms the racing mind"
-        ]}
+        benefits={[t('intro_p1'), t('intro_p2'), t('intro_p3')]}
       />
     );
   }

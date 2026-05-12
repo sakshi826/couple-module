@@ -18,7 +18,7 @@ const TipDetailLayout = ({ title, whyItHelps, whatYouCanDo, extra }: TipDetailLa
 
   return (
     <PremiumLayout
-      title="Tip Detail"
+      title={t("app_title")}
       onBack={() => navigate("..")}
     >
       <div className="w-full space-y-10 pb-12">

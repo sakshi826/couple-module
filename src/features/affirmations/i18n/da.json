@@ -165,5 +165,10 @@
   },
   "app_complete_title": "Føl dig styrket",
   "app_complete_message": "Daglige bekræftelser hjælper med at omforme din tankegang. Tag disse positive tanker med dig i dag.",
-  "app_title": "Tankegang"
+  "app_title": "Tankegang",
+  "app_duration": "2-3 minutter",
+  "intro_p1": "fælles.takeTime",
+  "intro_p2": "almindelig.åndeNaturligt",
+  "intro_p3": "common.noRush",
+  "app_description": "karrusel"
 }

@@ -13,16 +13,12 @@ const IntroScreen: FC<IntroScreenProps> = ({ onStart }) => {
 
   return (
     <PremiumIntro
-      title={t('title')}
-      description={t('subtitle')}
+      title={t("app_title")}
+      description={t("app_description")}
       onStart={onStart}
       icon={<BookOpen size={32} />}
-      benefits={[
-        t('quote'),
-        "Real experiences from real people",
-        "Find strength in shared stories"
-      ]}
-      duration="5-10 minutes"
+      benefits={[t('intro_p1'), t('intro_p2')]}
+      duration={t('app_duration', "5-10 minutes")}
     />
   );
 };

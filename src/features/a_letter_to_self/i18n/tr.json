@@ -26,5 +26,11 @@
     "next": "Sonraki",
     "save": "Kaydetmek",
     "loading": "Yükleniyor..."
-  }
+  },
+  "app_duration": "10-15 dakika",
+  "intro_p1": "hiçbir yargı",
+  "intro_p2": "Düşünmek için bir alan",
+  "intro_p3": "Gelecekteki benliğinizle bağlantı kurun.",
+  "app_title": "Kendime Mektup",
+  "app_description": "atlıkarınca"
 }

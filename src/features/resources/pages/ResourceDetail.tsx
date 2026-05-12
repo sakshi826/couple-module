@@ -17,7 +17,7 @@ const ResourceDetail = () => {
 
   if (!resource) {
     return (
-      <PremiumLayout title={t("not_found.title")}>
+      <PremiumLayout title={t("app_title")}>
         <div className="flex flex-col items-center justify-center py-32 gap-6">
           <div className="w-20 h-20 rounded-full bg-slate-100 flex items-center justify-center text-slate-300">
             <HelpCircle size={40} />

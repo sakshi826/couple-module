@@ -62,5 +62,7 @@
     "loading": "로딩 중..."
   },
   "complete_title": "빙고 마스터!",
-  "complete_message": "축하해요! 당신은 자기 돌봄의 한 단계를 성공적으로 마쳤습니다. 마음과 몸이 감사합니다."
+  "complete_message": "축하해요! 당신은 자기 돌봄의 한 단계를 성공적으로 마쳤습니다. 마음과 몸이 감사합니다.",
+  "app_duration": "언제든지",
+  "app_description": "회전목마"
 }

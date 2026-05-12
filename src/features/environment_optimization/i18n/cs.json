@@ -43,5 +43,7 @@
     "next": "Další",
     "save": "Uložit",
     "loading": "Načítání..."
-  }
+  },
+  "app_duration": "5 minut",
+  "app_description": "kolotoč"
 }

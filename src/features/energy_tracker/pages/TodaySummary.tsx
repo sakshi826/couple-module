@@ -48,7 +48,7 @@ const TodaySummary = () => {
 
   return (
     <PremiumLayout 
-      title={t("summary_title")}
+      title={t("app_title")}
       icon={<Sparkles className="h-6 w-6" />}
       exitOnBack={true}
     >

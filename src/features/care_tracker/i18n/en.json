@@ -131,5 +131,9 @@
       "3": "Rest is also a form of self-care. Give yourself grace. 🌸",
       "4": "Acknowledging today takes courage. You're already growing. 🌷"
     }
-  }
+  },
+  "intro_p1": "screens.intro.benefits.0",
+  "intro_p2": "screens.intro.benefits.1",
+  "intro_p3": "screens.intro.benefits.2",
+  "intro_p4": "screens.intro.benefits.3"
 }

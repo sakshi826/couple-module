@@ -29,16 +29,12 @@ const Index = () => {
               className="w-full"
             >
               <PremiumIntro
-                title={t("app_title", "Box Breathing")}
-                description={t("technique_description")}
+                title={t("app_title")}
+                description={t("app_description")}
                 onStart={() => setScreen("session")}
                 icon={<Wind size={32} />}
-                benefits={[
-                  t("inhale_4s"),
-                  t("hold_4s"),
-                  t("exhale_4s")
-                ]}
-                duration="5 minutes"
+                benefits={[t('intro_p1'), t('intro_p2'), t('intro_p3')]}
+                duration={t('app_duration', "5 minutes")}
               />
             </motion.div>
           )}
@@ -65,7 +61,7 @@ const Index = () => {
               className="w-full"
             >
               <PremiumComplete
-                title={t("app_complete_title")}
+                title={t("app_title")}
                 message={t("app_complete_message")}
                 onRestart={() => setScreen("session")}
                 icon={<Wind size={48} />}

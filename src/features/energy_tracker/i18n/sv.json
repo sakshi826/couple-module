@@ -55,5 +55,10 @@
     "next": "Nästa",
     "save": "Spara",
     "loading": "Belastning..."
-  }
+  },
+  "app_duration": "1 minut",
+  "intro_p1": "Identifiera energibrist",
+  "intro_p2": "Upptäck toppproduktivitetstider",
+  "intro_p3": "Lär dig vad som laddar dig",
+  "app_description": "Följ dina energinivåer under dagen för att förstå dina mönster och optimera ditt välbefinnande."
 }

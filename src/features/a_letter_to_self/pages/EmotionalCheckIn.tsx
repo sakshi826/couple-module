@@ -33,7 +33,7 @@ const EmotionalCheckIn = () => {
 
   return (
     <PremiumLayout 
-        title="Final Reflection" 
+        title={t("app_title")} 
         onBack={() => navigate("../write", { replace: true })}
     >
       <div className="w-full space-y-10 pb-32">

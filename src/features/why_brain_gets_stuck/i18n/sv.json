@@ -10,20 +10,20 @@
   "s2": {
     "tag": "Milda sanningar",
     "title": "Hjärnans överlevnadslogik",
-    "truths": [
-      {
+    "truths": {
+      "0": {
         "header": "Larmet var fortfarande på",
         "body": "Hypervigilans och att lätt bli skrämd är inte överreaktioner – hjärnans larmsystem gör sitt jobb för bra."
       },
-      {
+      "1": {
         "header": "Tillbakablickar är minnen",
         "body": "Triggers drar tillbaka hjärnan eftersom den aldrig fick signalen att hotet var över. Den försöker skydda dig."
       },
-      {
+      "2": {
         "header": "Kämpar för dig",
         "body": "Varje symptom var en gång en överlevnadsakt. Din hjärna gjorde vad den behövde för att hålla dig vid liv."
       }
-    ],
+    },
     "healing": "Läkning handlar inte om att glömma. Det handlar om att hjälpa din hjärna att lära sig att du är trygg nu."
   },
   "common": {
@@ -37,5 +37,6 @@
     "next": "Nästa",
     "save": "Spara",
     "loading": "Belastning..."
-  }
+  },
+  "app_description": "karusell"
 }

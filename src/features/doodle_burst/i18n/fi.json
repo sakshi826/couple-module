@@ -42,5 +42,10 @@
     "next": "Seuraava",
     "save": "Tallentaa",
     "loading": "Ladataan..."
-  }
+  },
+  "app_duration": "60 sekuntia",
+  "intro_p1": "Vapauta luovuutesi",
+  "intro_p2": "Vapauta patoutunut energia",
+  "intro_p3": "Välitön aivojen nollaus",
+  "app_description": "karuselli"
 }

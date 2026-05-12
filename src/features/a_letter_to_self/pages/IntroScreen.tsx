@@ -10,19 +10,15 @@ const IntroScreen = () => {
   const { t } = useTranslation();
 
   return (
-    <PremiumLayout title="Letter to Self">
+    <PremiumLayout title={t("app_title")}>
       <div className="w-full">
         <PremiumIntro
-          title={t("title")}
-          description={t("intro_text")}
+          title={t("app_title")}
+          description={t("app_description")}
           onStart={() => navigate("./write", { replace: true })}
           icon={<Mail size={32} />}
-          benefits={[
-            t("no_judgments"),
-            "A space for reflection",
-            "Connect with your future self"
-          ]}
-          duration="10-15 minutes"
+          benefits={[t('intro_p1'), t('intro_p2'), t('intro_p3')]}
+          duration={t('app_duration', "10-15 minutes")}
         >
           <motion.div
             initial={{ opacity: 0 }}

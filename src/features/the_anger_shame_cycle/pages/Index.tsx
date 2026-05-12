@@ -7,7 +7,7 @@ const Index = () => {
   const { t } = useTranslation();
   return (
     <PremiumLayout 
-      title={t("app_title", "Anger-Shame Cycle")}
+      title={t("app_title")}
       icon={<Flame className="w-6 h-6 text-primary" />}
       exitOnBack={true}
     >

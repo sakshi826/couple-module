@@ -11,15 +11,11 @@ const IntroScreen = ({ onStart }: { onStart: () => void }) => {
   return (
     <PremiumIntro
       title={t("app_title")}
-      description="Track your energy levels throughout the day to understand your patterns and optimize your wellbeing."
+      description={t("app_description")}
       onStart={onStart}
       icon={<BatteryMedium size={32} />}
-      benefits={[
-        "Identify energy drains",
-        "Discover peak productivity times",
-        "Learn what recharges you"
-      ]}
-      duration="1 minute"
+      benefits={[t('intro_p1'), t('intro_p2'), t('intro_p3')]}
+      duration={t('app_duration', "1 minute")}
     >
       <div className="mt-8 text-center">
         <motion.button

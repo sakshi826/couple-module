@@ -105,7 +105,7 @@ const Index = () => {
   if (screen === 5) {
     return (
       <PremiumComplete
-        title={t("complete_title")}
+        title={t("app_title")}
         message={t("complete_message", { name: name || "your loved one" })}
         onRestart={resetAll}
       />

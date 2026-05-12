@@ -37,7 +37,7 @@ import {
   Pause,
   HelpCircle,
   ArrowRight,
-  Search
+  ArrowRight
 } from "lucide-react";
 
 interface TopicCard {
@@ -442,7 +442,6 @@ export function SelfCareResources() {
   const navigate = useNavigate();
   const { t } = useTranslation();
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
-  const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     const handlePopState = () => {
@@ -466,9 +465,7 @@ export function SelfCareResources() {
     show: { opacity: 1, y: 0 }
   };
 
-  const filteredTopics = topicCards.filter(topic => 
-    t(topic.labelKey).toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredTopics = topicCards;
 
   return (
     <div className="flex min-h-screen bg-[#F6F8FB]">
@@ -519,7 +516,7 @@ export function SelfCareResources() {
                           </div>
                           <div className="text-left">
                             <span className="block font-bold text-[#020817]">{t("hub.start_guided_series")}</span>
-                            <span className="text-xs text-[#64748B]">Step-by-step therapeutic journey</span>
+                            <span className="text-xs text-[#64748B]">{t("hub.guided_series_desc")}</span>
                           </div>
                         </div>
                         <ArrowRight size={20} className="text-[#64748B] group-hover:translate-x-1 transition-transform" />
@@ -562,19 +559,29 @@ export function SelfCareResources() {
                     <div className="space-y-4">
                       <h2 className="text-xl font-bold text-[#020817]">{t("hub.todos")}</h2>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        {detail.todos.map((todo, i) => (
-                          <motion.button
-                            key={i}
-                            whileHover={{ x: 4 }}
-                            onClick={() => todo.url?.startsWith('http') ? (window.location.href = todo.url) : navigate(todo.url!, { replace: true })}
-                            className="p-4 bg-white border border-slate-100 rounded-2xl flex items-center gap-4 hover:border-primary/20 transition-all"
-                          >
-                            <div className="w-10 h-10 rounded-xl bg-slate-50 text-slate-600 flex items-center justify-center">
-                              <todo.icon size={20} />
-                            </div>
-                            <span className="font-semibold text-slate-700">{t(todo.titleKey)}</span>
-                          </motion.button>
-                        ))}
+                        {detail.todos.map((todo, i) => {
+                          const colors = [
+                            { accent: '#3B82F6', bg: '#EFF6FF', iconBg: '#DBEAFE' },
+                            { accent: '#10B981', bg: '#F0FDF4', iconBg: '#D1FAE5' },
+                            { accent: '#F59E0B', bg: '#FFFBEB', iconBg: '#FEF3C7' },
+                            { accent: '#EC4899', bg: '#FDF2F8', iconBg: '#FCE7F3' }
+                          ];
+                          const color = colors[i % colors.length];
+                          return (
+                            <motion.button
+                              key={i}
+                              whileHover={{ x: 4 }}
+                              onClick={() => todo.url?.startsWith('http') ? (window.location.href = todo.url) : navigate(todo.url!, { replace: true })}
+                              className="p-4 rounded-2xl flex items-center gap-4 transition-all border border-transparent hover:shadow-sm"
+                              style={{ backgroundColor: color.bg }}
+                            >
+                              <div className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0" style={{ backgroundColor: color.iconBg }}>
+                                <todo.icon size={20} style={{ color: color.accent }} />
+                              </div>
+                              <span className="font-semibold text-slate-800">{t(todo.titleKey)}</span>
+                            </motion.button>
+                          );
+                        })}
                       </div>
                     </div>
                   )}
@@ -643,16 +650,6 @@ export function SelfCareResources() {
                   <p className="text-slate-500 font-medium ml-12">{t("hub.explore_tools")}</p>
                 </div>
 
-                <div className="relative group">
-                  <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-primary transition-colors" size={20} />
-                  <input
-                    type="text"
-                    placeholder={t("hub.search_placeholder")}
-                    className="w-full pl-12 pr-4 py-4 bg-white border border-slate-100 rounded-2xl shadow-sm focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all font-medium"
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                  />
-                </div>
 
                 <div className="space-y-4">
                   <h2 className="text-lg font-semibold text-slate-900">{t("hub.tools")}</h2>
@@ -667,7 +664,19 @@ export function SelfCareResources() {
                         key={tool.id}
                         variants={item}
                         whileHover={{ y: -2 }}
-                        onClick={() => tool.url?.startsWith('http') ? (window.location.href = tool.url) : navigate(tool.url!, { replace: true })}
+                        onClick={() => {
+                          if (tool.id === 'mindful-space') {
+                            if (window.parent !== window) {
+                              window.parent.postMessage({ action: 'mindful' }, 'https://web.mantracare.com');
+                            } else {
+                              window.location.href = 'https://web.mantracare.com';
+                            }
+                          } else if (tool.url?.startsWith('http')) {
+                            window.location.href = tool.url;
+                          } else {
+                            navigate(tool.url!, { replace: true });
+                          }
+                        }}
                         className="p-5 rounded-2xl text-white flex flex-col justify-between h-28 shadow-sm relative overflow-hidden group"
                         style={{ background: tool.bgColor }}
                       >
@@ -688,7 +697,19 @@ export function SelfCareResources() {
                       <motion.button
                         key={topic.id}
                         whileHover={{ y: -2 }}
-                        onClick={() => topic.url ? (window.location.href = topic.url) : setSelectedTopic(topic.id)}
+                        onClick={() => {
+                          if (topic.id === 'ocd') {
+                            if (window.parent !== window) {
+                              window.parent.postMessage({ action: 'ocd' }, 'https://web.mantracare.com');
+                            } else {
+                              window.location.href = 'https://web.mantracare.com';
+                            }
+                          } else if (topic.url) {
+                            window.location.href = topic.url;
+                          } else {
+                            setSelectedTopic(topic.id);
+                          }
+                        }}
                         className="p-6 bg-white border border-slate-100 rounded-2xl flex flex-col items-center gap-4 transition-all hover:shadow-md"
                       >
                         <div className="w-16 h-16 rounded-2xl flex items-center justify-center" style={{ backgroundColor: topic.bgColor }}>

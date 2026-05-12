@@ -44,5 +44,7 @@
     "loading": "Chargement..."
   },
   "app_complete_title": "La gratitude sauvée",
-  "app_complete_message": "Réfléchir à ce pour quoi vous êtes reconnaissant est une façon puissante de tourner votre attention vers le positif."
+  "app_complete_message": "Réfléchir à ce pour quoi vous êtes reconnaissant est une façon puissante de tourner votre attention vers le positif.",
+  "app_duration": "3 à 5 minutes",
+  "app_description": "carrousel"
 }

@@ -60,5 +60,7 @@
     "next": "Suivant",
     "save": "Sauvegarder",
     "loading": "Chargement..."
-  }
+  },
+  "app_title": "Journal d'activité",
+  "app_description": "carrousel"
 }

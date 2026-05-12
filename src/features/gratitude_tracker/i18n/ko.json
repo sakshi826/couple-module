@@ -1,40 +1,23 @@
 {
-  "app.title": "감사 추적기",
-  "app.description": "매일 감사한 일과 기분을 기록하여 정신 건강을 증진하세요.",
-  "gratitude.heading": "오늘 당신은 무엇에 감사하십니까?",
-  "gratitude.subheading": "크든 작든 좋았던 일들을 잠시 되돌아보세요.",
-  "gratitude.item1.label": "감사 항목 1",
-  "gratitude.item1.placeholder": "예: 오늘 아침 따뜻한 차 한 잔...",
-  "gratitude.item2.label": "감사 항목 2",
-  "gratitude.item2.placeholder": "예: 친구의 따뜻한 말 한마디...",
-  "gratitude.optional": "(선택 과목)",
-  "common.continue": "계속하다",
-  "mood.heading": "기분이 어떠세요?",
-  "mood.subheading": "지금 당신의 기분을 가장 잘 나타내는 감정을 선택하세요.",
-  "mood.save": "감사 글 저장",
-  "mood.happy": "행복하다",
-  "mood.calm": "침착한",
-  "mood.neutral": "중립적",
-  "mood.low": "낮은",
-  "mood.stressed": "스트레스 받은",
-  "review.heading": "참가작",
-  "review.date": "날짜",
-  "review.gratitude1": "감사 1",
-  "review.gratitude2": "감사 2",
-  "review.mood": "분위기",
-  "review.edit": "항목 수정",
-  "review.history": "기록 보기",
-  "history.heading": "역사",
-  "history.back": "뒤쪽에",
-  "history.home": "홈으로 가기",
-  "history.sun": "해",
-  "history.mon": "나의",
-  "history.tue": "화요일",
-  "history.wed": "수요일",
-  "history.thu": "모으다",
-  "history.fri": "금요일",
-  "history.sat": "앉았다",
+  "app": {
+    "title": "감사 추적기",
+    "description": "매일 감사한 일과 기분을 기록하여 정신 건강을 증진하세요."
+  },
+  "gratitude": {
+    "heading": "오늘 당신은 무엇에 감사하십니까?",
+    "subheading": "크든 작든 좋았던 일들을 잠시 되돌아보세요.",
+    "item1": {
+      "label": "감사 항목 1",
+      "placeholder": "예: 오늘 아침 따뜻한 차 한 잔..."
+    },
+    "item2": {
+      "label": "감사 항목 2",
+      "placeholder": "예: 친구의 따뜻한 말 한마디..."
+    },
+    "optional": "(선택 과목)"
+  },
   "common": {
+    "continue": "계속하다",
     "get_started": "시작하기",
     "start_over": "처음부터 다시 시작",
     "finish_exit": "완료 및 종료",
@@ -45,5 +28,42 @@
     "next": "다음",
     "save": "구하다",
     "loading": "로딩 중..."
-  }
+  },
+  "mood": {
+    "heading": "기분이 어떠세요?",
+    "subheading": "지금 당신의 기분을 가장 잘 나타내는 감정을 선택하세요.",
+    "save": "감사 글 저장",
+    "happy": "행복하다",
+    "calm": "침착한",
+    "neutral": "중립적",
+    "low": "낮은",
+    "stressed": "스트레스 받은"
+  },
+  "review": {
+    "heading": "참가작",
+    "date": "날짜",
+    "gratitude1": "감사 1",
+    "gratitude2": "감사 2",
+    "mood": "분위기",
+    "edit": "항목 수정",
+    "history": "기록 보기"
+  },
+  "history": {
+    "heading": "역사",
+    "back": "뒤쪽에",
+    "home": "홈으로 가기",
+    "sun": "해",
+    "mon": "나의",
+    "tue": "화요일",
+    "wed": "수요일",
+    "thu": "모으다",
+    "fri": "금요일",
+    "sat": "앉았다"
+  },
+  "app_duration": "2-3분",
+  "intro_p1": "정서적 웰빙을 향상시키세요",
+  "intro_p2": "긍정적인 면에 집중하세요",
+  "intro_p3": "감사하는 마음을 꾸준히 실천하는 습관을 들이세요",
+  "app_description": "회전목마",
+  "app_title": "감사 일기"
 }

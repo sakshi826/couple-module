@@ -68,7 +68,7 @@ const CircleScreen = ({ names, onNamesChange }: CircleScreenProps) => {
   return (
     <PremiumLayout
       title={t("app_title")}
-      subtitle={t("circle.subtitle")}
+      subtitle={t("app_title")}
       icon={<Users className="w-6 h-6 text-primary" />}
       onBack={() => navigate("../intro", { replace: true })}
     >

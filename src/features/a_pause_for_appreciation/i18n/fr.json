@@ -73,13 +73,13 @@
     "confirmDelete": "Confirmer la suppression",
     "cancel": "Annuler",
     "delete": "Supprimer l'entrée",
-    "prompts": [
-      "Un petit moment où l'on ne sentait aucune tension…",
-      "Un effort que votre partenaire a fait…",
-      "Une qualité qui est restée constante…",
-      "Intention",
-      "Bilan émotionnel"
-    ]
+    "prompts": {
+      "0": "Un petit moment où l'on ne sentait aucune tension…",
+      "1": "Un effort que votre partenaire a fait…",
+      "2": "Une qualité qui est restée constante…",
+      "3": "Intention",
+      "4": "Bilan émotionnel"
+    }
   },
   "common": {
     "get_started": "Commencer",
@@ -92,5 +92,11 @@
     "next": "Suivant",
     "save": "Sauvegarder",
     "loading": "Chargement..."
-  }
+  },
+  "app_duration": "3 à 5 minutes",
+  "intro_p1": "Cultivez la gratitude",
+  "intro_p2": "Réduisez le stress",
+  "intro_p3": "Améliorer le bien-être",
+  "app_title": "Réfléchir",
+  "app_description": "carrousel"
 }

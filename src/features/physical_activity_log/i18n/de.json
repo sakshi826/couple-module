@@ -60,5 +60,7 @@
     "next": "Nächste",
     "save": "Speichern",
     "loading": "Laden..."
-  }
+  },
+  "app_title": "Aktivitätsprotokoll",
+  "app_description": "Karussell"
 }

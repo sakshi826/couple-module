@@ -61,7 +61,7 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title", "Doodle Burst")}
+      title={t("app_title")}
     >
       <AnimatePresence mode="wait">
         {screen === "intro" && (
@@ -76,12 +76,8 @@ const Index = () => {
               description={t("intro_reason") + " " + t("intro_benefit")}
               onStart={startActivity}
               icon={<Palette size={32} />}
-              benefits={[
-                "Unleash your creativity",
-                "Release pent-up energy",
-                "Instant brain reset"
-              ]}
-              duration="60 seconds"
+              benefits={[t('intro_p1'), t('intro_p2'), t('intro_p3')]}
+              duration={t('app_duration', "60 seconds")}
             >
               <div className="mt-8 text-center">
                 <Link
@@ -151,7 +147,7 @@ const Index = () => {
             exit={{ opacity: 0 }}
           >
             <PremiumComplete
-              title={t("end_title")}
+              title={t("app_title")}
               message={t("end_saved")}
               onRestart={startActivity}
             >

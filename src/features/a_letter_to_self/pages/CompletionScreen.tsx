@@ -10,10 +10,10 @@ const CompletionScreen = () => {
   const { t } = useTranslation();
 
   return (
-    <PremiumLayout title="Session Complete">
+    <PremiumLayout title={t("app_title")}>
       <div className="w-full h-full">
         <PremiumComplete
-          title="Letter Saved Successfully"
+          title={t("app_title")}
           message="You showed up for yourself today. That matters more than perfection. Your letter has been saved and can be revisited anytime."
           onRestart={() => navigate("..")}
           icon={<Mail size={48} />}

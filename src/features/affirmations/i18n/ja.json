@@ -165,5 +165,10 @@
   },
   "app_complete_title": "力を感じてください",
   "app_complete_message": "毎日のアファメーションは、あなたの心の状態を変える助けになります。今日、これらの前向きな考えを持ち歩いてください。",
-  "app_title": "マインドセット"
+  "app_title": "マインドセット",
+  "app_duration": "2～3分",
+  "intro_p1": "共通.takeTime",
+  "intro_p2": "一般的な呼吸",
+  "intro_p3": "一般的。急がない",
+  "app_description": "カルーセル"
 }

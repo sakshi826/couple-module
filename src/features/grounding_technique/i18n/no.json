@@ -168,5 +168,7 @@
     "next": "Neste",
     "save": "Spare",
     "loading": "Laster inn..."
-  }
+  },
+  "app_title": "Jording",
+  "app_description": "karusell"
 }

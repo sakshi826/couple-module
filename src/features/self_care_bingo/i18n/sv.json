@@ -62,5 +62,7 @@
     "loading": "Belastning..."
   },
   "complete_title": "Bingo Mästare!",
-  "complete_message": "Grattis! Du har framgångsrikt genomfört en rad egenvård. Din kropp och ditt sinne tackar dig."
+  "complete_message": "Grattis! Du har framgångsrikt genomfört en rad egenvård. Din kropp och ditt sinne tackar dig.",
+  "app_duration": "När som helst",
+  "app_description": "karusell"
 }

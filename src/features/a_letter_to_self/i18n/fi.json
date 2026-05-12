@@ -26,5 +26,11 @@
     "next": "Seuraava",
     "save": "Tallentaa",
     "loading": "Ladataan..."
-  }
+  },
+  "app_duration": "10–15 minuuttia",
+  "intro_p1": "ei_tuomioita",
+  "intro_p2": "Tila pohdinnalle",
+  "intro_p3": "Yhdistä tulevaan itseesi",
+  "app_title": "Kirje itselle",
+  "app_description": "karuselli"
 }

@@ -12,7 +12,7 @@ const AffirmationScreen = ({ onGoHome }: Props) => {
     const { t } = useTranslation();
     return (
         <PremiumComplete
-            title={t('affirmation.title')}
+            title={t("app_title")}
             message={t('affirmation.p1')}
             onRestart={onGoHome}
             icon={<Heart size={48} fill="currentColor" className="text-primary" />}

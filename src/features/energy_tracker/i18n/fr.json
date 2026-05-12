@@ -55,5 +55,10 @@
     "next": "Suivant",
     "save": "Sauvegarder",
     "loading": "Chargement..."
-  }
+  },
+  "app_duration": "1 minute",
+  "intro_p1": "Identifier les pertes d'énergie",
+  "intro_p2": "Découvrez les périodes de productivité maximale",
+  "intro_p3": "Découvrez ce qui vous ressource",
+  "app_description": "Suivez vos niveaux d'énergie tout au long de la journée pour comprendre vos habitudes et optimiser votre bien-être."
 }

@@ -15,12 +15,12 @@
     "intro": {
       "title": "Rastreador de autocuidado",
       "description": "Haz un seguimiento de tus hábitos diarios de autocuidado y observa cómo afectan a tu bienestar general. La constancia es clave para una mente más sana.",
-      "benefits": [
-        "Registrar las actividades diarias de autocuidado",
-        "Registra el tiempo dedicado a ti mismo",
-        "Monitoriza tus patrones de ánimo",
-        "Ver historia y progreso"
-      ],
+      "benefits": {
+        "0": "Registrar las actividades diarias de autocuidado",
+        "1": "Registra el tiempo dedicado a ti mismo",
+        "2": "Monitoriza tus patrones de ánimo",
+        "3": "Ver historia y progreso"
+      },
       "duration": "2-3 minutos"
     },
     "checkin": {
@@ -117,19 +117,24 @@
       "Stressed": "Estresado",
       "Tired": "Cansado"
     },
-    "positiveStatements": [
-      "Hoy has estado presente por ti mismo. Eso es poderoso. 🌿",
-      "El autocuidado no es egoísta, es esencial. Bien hecho. 💚",
-      "Cada pequeño acto de cuidado construye un tú más fuerte. 🌱",
-      "Hoy has invertido en ti mismo. Eso importa. ✨",
-      "Cuidarte es lo mejor que has hecho hoy. 🍃"
-    ],
-    "supportiveStatements": [
-      "Está bien. Mañana es un nuevo comienzo. Sé amable contigo mismo. 🤍",
-      "No todos los días serán perfectos, y eso está perfectamente bien. 🕊️",
-      "Estás haciendo lo mejor que puedes. Eso siempre es suficiente. 💛",
-      "El descanso también es una forma de autocuidado. Sé comprensivo contigo mismo. 🌸",
-      "Reconocer hoy requiere valor. Ya estás creciendo. 🌷"
-    ]
-  }
+    "positiveStatements": {
+      "0": "Hoy has estado presente por ti mismo. Eso es poderoso. 🌿",
+      "1": "El autocuidado no es egoísta, es esencial. Bien hecho. 💚",
+      "2": "Cada pequeño acto de cuidado construye un tú más fuerte. 🌱",
+      "3": "Hoy has invertido en ti mismo. Eso importa. ✨",
+      "4": "Cuidarte es lo mejor que has hecho hoy. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "Está bien. Mañana es un nuevo comienzo. Sé amable contigo mismo. 🤍",
+      "1": "No todos los días serán perfectos, y eso está perfectamente bien. 🕊️",
+      "2": "Estás haciendo lo mejor que puedes. Eso siempre es suficiente. 💛",
+      "3": "El descanso también es una forma de autocuidado. Sé comprensivo contigo mismo. 🌸",
+      "4": "Reconocer hoy requiere valor. Ya estás creciendo. 🌷"
+    }
+  },
+  "intro_p1": "pantallas.introducción.beneficios.0",
+  "intro_p2": "pantallas.introducción.beneficios.1",
+  "intro_p3": "pantallas.introducción.beneficios.2",
+  "intro_p4": "pantallas.introducción.beneficios.3",
+  "app_description": "carrusel"
 }

@@ -19,7 +19,7 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title={t("title")} 
+      title={t("app_title")} 
       onReset={screen !== 'intro' ? () => setScreen('intro') : undefined}
     >
       <div className="w-full">
@@ -33,8 +33,8 @@ const Index = () => {
               className="w-full"
             >
               <PremiumIntro
-                title={t('title')}
-                description={t('description')}
+                title={t("app_title")}
+                description={t("app_description")}
                 onStart={() => setScreen("game")}
                 icon={<Sparkles size={32} />}
                 benefits={[
@@ -43,7 +43,7 @@ const Index = () => {
                   t('tip3_title'),
                   t('tip4_title')
                 ]}
-                duration="Anytime"
+                duration={t('app_duration', "Anytime")}
               />
             </motion.div>
           )}
@@ -69,7 +69,7 @@ const Index = () => {
               className="w-full"
             >
               <PremiumComplete
-                title={t("complete_title")}
+                title={t("app_title")}
                 message={t("complete_message")}
                 onRestart={() => setScreen("intro")}
                 icon={<Trophy size={48} />}

@@ -99,5 +99,6 @@
   "label_choose_technique": "Elige la técnica",
   "label_current_thought": "Tu pensamiento actual",
   "label_recurrent_thought": "El pensamiento recurrente",
-  "label_remember_to_say": "Recuerda decir:"
+  "label_remember_to_say": "Recuerda decir:",
+  "app_description": "carrusel"
 }

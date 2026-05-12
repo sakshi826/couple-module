@@ -67,7 +67,7 @@ const DoodleHistory = () => {
 
   return (
     <PremiumLayout 
-      title="Doodle Gallery" 
+      title={t("app_title")} 
       onBack={() => navigate("..")}
     >
       <div className="w-full space-y-10">

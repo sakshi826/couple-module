@@ -60,7 +60,7 @@ const SleepWindow = ({ onExit }: SleepWindowProps) => {
   if (screen === 4) {
     return (
       <PremiumComplete
-        title={t("complete.title")}
+        title={t("app_title")}
         message={t("complete.message")}
         onRestart={() => setScreen(1)}
       />

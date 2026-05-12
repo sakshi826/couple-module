@@ -60,5 +60,8 @@
     "next": "Volgende",
     "save": "Redden",
     "loading": "Laden..."
-  }
+  },
+  "app_duration": "5-10 minuten",
+  "app_title": "Persoonlijke missieverklaring",
+  "app_description": "carrousel"
 }

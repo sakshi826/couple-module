@@ -13,16 +13,12 @@ const IntroScreen = ({ onNext, onHistory }: IntroScreenProps) => {
 
   return (
     <PremiumIntro
-      title={t('intro_title')}
+      title={t("app_title")}
       description={t('intro_p1') + " " + t('intro_p2')}
       onStart={onNext}
       icon={<Target size={32} />}
-      benefits={[
-        t('intro_breath'),
-        t('intro_no_wrong'),
-        "Gain clarity on your path"
-      ]}
-      duration="5-10 minutes"
+      benefits={[t('intro_p1')]}
+      duration={t('app_duration', "5-10 minutes")}
     >
       <div className="mt-8 text-center">
         <motion.button

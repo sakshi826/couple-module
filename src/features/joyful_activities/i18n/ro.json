@@ -55,5 +55,8 @@
     "loading": "Încărcare..."
   },
   "app_complete_title": "Bucuria Păstrată",
-  "app_complete_message": "Ai reușit să-ți amintești și să te conectezi cu o sursă de bucurie. Păstrează acest sentiment cu tine pe parcursul zilei."
+  "app_complete_message": "Ai reușit să-ți amintești și să te conectezi cu o sursă de bucurie. Păstrează acest sentiment cu tine pe parcursul zilei.",
+  "app_duration": "5 minute",
+  "app_title": "Activități vesele",
+  "app_description": "carusel"
 }

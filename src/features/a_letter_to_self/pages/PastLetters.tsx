@@ -52,7 +52,7 @@ const PastLetters = () => {
 
   if (loading) {
     return (
-      <PremiumLayout title="My Letters">
+      <PremiumLayout title={t("app_title")}>
         <div className="flex flex-col items-center justify-center py-24 gap-4">
           <Loader2 className="w-10 h-10 animate-spin text-primary opacity-20" />
           <p className="text-slate-400 font-black text-[10px] uppercase tracking-widest">Loading Journey...</p>
@@ -63,7 +63,7 @@ const PastLetters = () => {
 
   if (error) {
     return (
-      <PremiumLayout title="My Letters">
+      <PremiumLayout title={t("app_title")}>
         <div className="text-center py-20">
           <p className="text-red-500 font-medium">{error}</p>
           <motion.button
@@ -83,7 +83,7 @@ const PastLetters = () => {
   if (selectedEntry) {
     return (
       <PremiumLayout
-        title="Letter Detail"
+        title={t("app_title")}
         onBack={() => setSelectedEntry(null)}
       >
         <div className="w-full space-y-10 pb-12">
@@ -152,7 +152,7 @@ const PastLetters = () => {
 
   return (
     <PremiumLayout
-      title="My Letters"
+      title={t("app_title")}
       onBack={() => navigate("..")}
     >
       <div className="w-full space-y-10 pb-12">

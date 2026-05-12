@@ -48,5 +48,11 @@
     "next": "Próximo",
     "save": "Salvar",
     "loading": "Carregando..."
-  }
+  },
+  "app_duration": "5 a 10 minutos",
+  "intro_p1": "passo_1",
+  "intro_p2": "passo_2",
+  "intro_p3": "passo_3",
+  "app_title": "Desabafo",
+  "app_description": "carrossel"
 }

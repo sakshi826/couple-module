@@ -55,5 +55,10 @@
     "next": "Próximo",
     "save": "Salvar",
     "loading": "Carregando..."
-  }
+  },
+  "app_duration": "1 minuto",
+  "intro_p1": "Identificar os desperdícios de energia",
+  "intro_p2": "Descubra os horários de pico de produtividade",
+  "intro_p3": "Descubra o que te recarrega.",
+  "app_description": "Monitore seus níveis de energia ao longo do dia para entender seus padrões e otimizar seu bem-estar."
 }

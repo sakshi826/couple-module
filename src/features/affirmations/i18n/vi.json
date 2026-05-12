@@ -165,5 +165,10 @@
   },
   "app_complete_title": "Cảm thấy được trao quyền",
   "app_complete_message": "Những lời khẳng định hàng ngày giúp định hình lại tư duy của bạn. Hãy mang theo những suy nghĩ tích cực này với bạn ngay hôm nay.",
-  "app_title": "Tư duy"
+  "app_title": "Tư duy",
+  "app_duration": "2-3 phút",
+  "intro_p1": "common.takeTime",
+  "intro_p2": "common.breatheNaturally",
+  "intro_p3": "common.noRush",
+  "app_description": "vòng quay ngựa gỗ"
 }

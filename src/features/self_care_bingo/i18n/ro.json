@@ -62,5 +62,7 @@
     "loading": "Încărcare..."
   },
   "complete_title": "Bingo Master!",
-  "complete_message": "Felicitări! Ai finalizat cu succes o linie de îngrijire personală. Mintea și corpul tău îți mulțumesc."
+  "complete_message": "Felicitări! Ai finalizat cu succes o linie de îngrijire personală. Mintea și corpul tău îți mulțumesc.",
+  "app_duration": "Oricând",
+  "app_description": "carusel"
 }

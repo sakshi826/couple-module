@@ -32,5 +32,10 @@
   },
   "app_title": "Box-Atmung",
   "app_complete_title": "Großartige Arbeit!",
-  "app_complete_message": "Du hast die Box Breathing-Sitzung abgeschlossen. Du solltest dich ausgeglichener und ruhiger fühlen."
+  "app_complete_message": "Du hast die Box Breathing-Sitzung abgeschlossen. Du solltest dich ausgeglichener und ruhiger fühlen.",
+  "app_duration": "5 Minuten",
+  "intro_p1": "inhale_4s",
+  "intro_p2": "hold_4s",
+  "intro_p3": "Ausatmen_4s",
+  "app_description": "Karussell"
 }

@@ -32,5 +32,10 @@
   },
   "app_title": "Respiración en caja",
   "app_complete_title": "¡Buen trabajo!",
-  "app_complete_message": "Has completado la sesión de Respiración en Caja. Deberías sentirte más equilibrado y tranquilo."
+  "app_complete_message": "Has completado la sesión de Respiración en Caja. Deberías sentirte más equilibrado y tranquilo.",
+  "app_duration": "5 minutos",
+  "intro_p1": "inhalar_4s",
+  "intro_p2": "mantener_4s",
+  "intro_p3": "exhalar_4s",
+  "app_description": "carrusel"
 }

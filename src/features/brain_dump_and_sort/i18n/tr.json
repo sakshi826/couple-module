@@ -48,5 +48,11 @@
     "next": "Sonraki",
     "save": "Kaydetmek",
     "loading": "Yükleniyor..."
-  }
+  },
+  "app_duration": "5-10 dakika",
+  "intro_p1": "adım_1",
+  "intro_p2": "adım_2",
+  "intro_p3": "adım_3",
+  "app_title": "Beyin Fırtınası",
+  "app_description": "atlıkarınca"
 }

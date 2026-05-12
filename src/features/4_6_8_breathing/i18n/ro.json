@@ -35,5 +35,10 @@
     "next": "Următorul",
     "save": "Salva",
     "loading": "Încărcare..."
-  }
+  },
+  "app_duration": "3-5 minute",
+  "intro_p1": "Calmează sistemul nervos",
+  "intro_p2": "Reduce stresul imediat",
+  "intro_p3": "Îmbunătățește concentrarea și claritatea",
+  "app_description": "carusel"
 }

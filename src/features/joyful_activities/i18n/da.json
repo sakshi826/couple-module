@@ -55,5 +55,8 @@
     "loading": "Indlæser..."
   },
   "app_complete_title": "Joy Preserved",
-  "app_complete_message": "Du har med succes genkaldt og forbundet dig med en kilde til glæde. Behold denne følelse med dig, mens du bevæger dig gennem din dag."
+  "app_complete_message": "Du har med succes genkaldt og forbundet dig med en kilde til glæde. Behold denne følelse med dig, mens du bevæger dig gennem din dag.",
+  "app_duration": "5 minutter",
+  "app_title": "Glædelige aktiviteter",
+  "app_description": "karrusel"
 }

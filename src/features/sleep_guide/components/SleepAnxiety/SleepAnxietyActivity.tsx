@@ -16,7 +16,7 @@ const SleepAnxietyActivity = () => {
   return (
     <PremiumLayout
       title={t("app_title")}
-      subtitle={t("app_subtitle")}
+      subtitle={t("app_title")}
       icon={<Moon className="w-6 h-6 text-primary" />}
       onBack={screen > 0 ? () => setScreen(0) : undefined}
     >

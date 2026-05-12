@@ -10,16 +10,12 @@ const IntroScreen = ({ onStart }: { onStart: () => void }) => {
 
   return (
     <PremiumIntro
-      title={t("gratitude.heading")}
-      description={t("gratitude.subheading")}
+      title={t("app_title")}
+      description={t("app_description")}
       onStart={onStart}
       icon={<Heart size={32} />}
-      benefits={[
-        "Improve your emotional wellbeing",
-        "Focus on the positive things",
-        "Build a lasting habit of gratitude"
-      ]}
-      duration="2-3 minutes"
+      benefits={[t('intro_p1'), t('intro_p2'), t('intro_p3')]}
+      duration={t('app_duration', "2-3 minutes")}
     >
       <div className="mt-8 text-center">
         <motion.button

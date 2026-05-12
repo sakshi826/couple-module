@@ -55,5 +55,10 @@
     "next": "Sonraki",
     "save": "Kaydetmek",
     "loading": "Yükleniyor..."
-  }
+  },
+  "app_duration": "1 dakika",
+  "intro_p1": "Enerji israf kaynaklarını belirleyin.",
+  "intro_p2": "En yüksek verimlilik zamanlarını keşfedin",
+  "intro_p3": "Sizi neyin canlandırdığını öğrenin.",
+  "app_description": "Gün boyunca enerji seviyelerinizi takip ederek alışkanlıklarınızı anlayın ve sağlığınızı en üst düzeye çıkarın."
 }

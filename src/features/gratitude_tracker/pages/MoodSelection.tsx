@@ -50,7 +50,7 @@ const MoodSelection = () => {
 
   return (
     <PremiumLayout 
-      title="How are you feeling?" 
+      title={t("app_title")} 
       onBack={() => navigate("..", { state: location.state, replace: true })}
     >
       <div className="w-full space-y-8">

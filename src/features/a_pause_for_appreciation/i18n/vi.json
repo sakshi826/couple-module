@@ -73,13 +73,13 @@
     "confirmDelete": "Xác nhận xóa",
     "cancel": "Hủy bỏ",
     "delete": "Xóa mục",
-    "prompts": [
-      "Một khoảnh khắc ngắn ngủi không hề gây căng thẳng…",
-      "Một nỗ lực mà đối tác của bạn đã thực hiện…",
-      "Một phẩm chất luôn được duy trì ổn định…",
-      "Chủ đích",
-      "Kiểm tra cảm xúc"
-    ]
+    "prompts": {
+      "0": "Một khoảnh khắc ngắn ngủi không hề gây căng thẳng…",
+      "1": "Một nỗ lực mà đối tác của bạn đã thực hiện…",
+      "2": "Một phẩm chất luôn được duy trì ổn định…",
+      "3": "Chủ đích",
+      "4": "Kiểm tra cảm xúc"
+    }
   },
   "common": {
     "get_started": "Bắt đầu",
@@ -92,5 +92,11 @@
     "next": "Kế tiếp",
     "save": "Cứu",
     "loading": "Đang tải..."
-  }
+  },
+  "app_duration": "3-5 phút",
+  "intro_p1": "Hãy nuôi dưỡng lòng biết ơn",
+  "intro_p2": "Giảm căng thẳng",
+  "intro_p3": "Cải thiện sức khỏe",
+  "app_title": "Phản chiếu",
+  "app_description": "vòng quay ngựa gỗ"
 }

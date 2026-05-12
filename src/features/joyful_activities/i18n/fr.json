@@ -55,5 +55,8 @@
     "loading": "Chargement..."
   },
   "app_complete_title": "Joie préservée",
-  "app_complete_message": "Vous avez réussi à vous souvenir et à vous connecter avec une source de joie. Gardez ce sentiment avec vous tout au long de votre journée."
+  "app_complete_message": "Vous avez réussi à vous souvenir et à vous connecter avec une source de joie. Gardez ce sentiment avec vous tout au long de votre journée.",
+  "app_duration": "5 minutes",
+  "app_title": "Activités joyeuses",
+  "app_description": "carrousel"
 }

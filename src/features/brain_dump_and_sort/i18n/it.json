@@ -48,5 +48,11 @@
     "next": "Prossimo",
     "save": "Salva",
     "loading": "Caricamento..."
-  }
+  },
+  "app_duration": "5-10 minuti",
+  "intro_p1": "passo_1",
+  "intro_p2": "passo_2",
+  "intro_p3": "passo_3",
+  "app_title": "Brain Dump",
+  "app_description": "giostra"
 }

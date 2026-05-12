@@ -62,5 +62,7 @@
     "loading": "Chargement..."
   },
   "complete_title": "Bingo Master !",
-  "complete_message": "Félicitations ! Vous avez réussi à mener une ligne de soins personnels. Votre esprit et votre corps, merci."
+  "complete_message": "Félicitations ! Vous avez réussi à mener une ligne de soins personnels. Votre esprit et votre corps, merci.",
+  "app_duration": "À tout moment",
+  "app_description": "carrousel"
 }

@@ -26,5 +26,11 @@
     "next": "다음",
     "save": "구하다",
     "loading": "로딩 중..."
-  }
+  },
+  "app_duration": "10-15분",
+  "intro_p1": "판단 없음",
+  "intro_p2": "성찰을 위한 공간",
+  "intro_p3": "미래의 자신과 소통하세요",
+  "app_title": "나 자신에게 보내는 편지",
+  "app_description": "회전목마"
 }

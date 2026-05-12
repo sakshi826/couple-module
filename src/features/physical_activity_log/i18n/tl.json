@@ -60,5 +60,7 @@
     "next": "Susunod",
     "save": "I-save",
     "loading": "Naglo-load..."
-  }
+  },
+  "app_title": "Talaan ng Aktibidad",
+  "app_description": "karusel"
 }

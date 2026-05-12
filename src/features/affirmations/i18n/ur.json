@@ -165,5 +165,10 @@
   },
   "app_complete_title": "خود کو بااختیار محسوس کریں",
   "app_complete_message": "روزانہ کی تصدیقات آپ کے ذہن کو بدلنے میں مدد دیتی ہیں۔ آج ہی یہ مثبت خیالات اپنے ساتھ لے کر چلیں۔",
-  "app_title": "ذہنیت"
+  "app_title": "ذہنیت",
+  "app_duration": "2-3 منٹ",
+  "intro_p1": "common.takeTime",
+  "intro_p2": "عام سانس قدرتی طور پر",
+  "intro_p3": "common.noRush",
+  "app_description": "carousel"
 }

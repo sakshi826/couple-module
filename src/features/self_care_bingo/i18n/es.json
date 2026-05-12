@@ -62,5 +62,7 @@
     "loading": "Cargando..."
   },
   "complete_title": "¡Bingo Master!",
-  "complete_message": "¡Enhorabuena! Has completado con éxito una línea de autocuidado. Tu mente y cuerpo, gracias."
+  "complete_message": "¡Enhorabuena! Has completado con éxito una línea de autocuidado. Tu mente y cuerpo, gracias.",
+  "app_duration": "En cualquier momento",
+  "app_description": "carrusel"
 }

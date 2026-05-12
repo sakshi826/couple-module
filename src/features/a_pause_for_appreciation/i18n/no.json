@@ -73,13 +73,13 @@
     "confirmDelete": "Bekreft Slett",
     "cancel": "Avbryt",
     "delete": "Slett oppføring",
-    "prompts": [
-      "Et lite øyeblikk som ikke føltes anspent...",
-      "En innsats partneren din har gjort...",
-      "En egenskap som har holdt seg konstant...",
-      "Intensjon",
-      "Følelsesmessig innsjekk"
-    ]
+    "prompts": {
+      "0": "Et lite øyeblikk som ikke føltes anspent...",
+      "1": "En innsats partneren din har gjort...",
+      "2": "En egenskap som har holdt seg konstant...",
+      "3": "Intensjon",
+      "4": "Følelsesmessig innsjekk"
+    }
   },
   "common": {
     "get_started": "Kom i gang",
@@ -92,5 +92,11 @@
     "next": "Neste",
     "save": "Spare",
     "loading": "Laster inn..."
-  }
+  },
+  "app_duration": "3–5 minutter",
+  "intro_p1": "Dyrk takknemlighet",
+  "intro_p2": "Reduser stress",
+  "intro_p3": "Forbedre velvære",
+  "app_title": "Reflekterende",
+  "app_description": "karusell"
 }

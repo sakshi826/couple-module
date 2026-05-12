@@ -22,7 +22,7 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title", "Personal Mission Statement")}
+      title={t("app_title")}
     >
       <div className="w-full">
         <AnimatePresence mode="wait">

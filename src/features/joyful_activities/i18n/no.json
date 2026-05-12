@@ -55,5 +55,8 @@
     "loading": "Laster inn..."
   },
   "app_complete_title": "Joy Preserved",
-  "app_complete_message": "Du har klart å huske og koble deg til en kilde til glede. Behold denne følelsen med deg mens du går gjennom dagen."
+  "app_complete_message": "Du har klart å huske og koble deg til en kilde til glede. Behold denne følelsen med deg mens du går gjennom dagen.",
+  "app_duration": "5 minutter",
+  "app_title": "Gledelige aktiviteter",
+  "app_description": "karusell"
 }

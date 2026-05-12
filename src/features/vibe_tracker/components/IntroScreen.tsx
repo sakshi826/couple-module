@@ -13,16 +13,12 @@ const IntroScreen = ({ onStart, onHistory }: Props) => {
 
   return (
     <PremiumIntro
-      title={t("vibeTracker")}
-      description={t("howAreYouFeeling")}
+      title={t("app_title")}
+      description={t("app_description")}
       onStart={onStart}
       icon={<Sparkles size={32} />}
-      benefits={[
-        "Track your emotional patterns",
-        "Reflect on your mood today",
-        "Build emotional awareness"
-      ]}
-      duration="1-2 minutes"
+      benefits={[t('intro_p1'), t('intro_p2'), t('intro_p3')]}
+      duration={t('app_duration', "1-2 minutes")}
     >
       <div className="mt-8 text-center">
         <motion.button

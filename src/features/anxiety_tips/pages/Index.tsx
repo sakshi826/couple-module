@@ -42,7 +42,7 @@ const Index = () => {
   ];
 
   return (
-    <PremiumLayout title={t("app_page_title")}>
+    <PremiumLayout title={t("app_title")}>
       <div className="w-full space-y-10">
         <header className="space-y-4">
           <div className="flex items-center gap-2 text-primary font-black text-[10px] uppercase tracking-[0.2em]">

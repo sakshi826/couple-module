@@ -24,7 +24,7 @@ const ChooseAreaScreen = ({ onStart }: ChooseAreaScreenProps) => {
       onStart={onStart}
       icon={<Home size={32} />}
       benefits={areas}
-      duration="5 minutes"
+      duration={t('app_duration')}
     />
   );
 };

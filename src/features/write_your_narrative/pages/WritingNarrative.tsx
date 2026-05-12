@@ -84,7 +84,7 @@ const WritingNarrative = () => {
   if (screen === "complete") {
     return (
       <PremiumComplete
-        title={t("complete.title")}
+        title={t("app_title")}
         message={t("complete.message")}
         onRestart={() => setScreen("entry")}
       />

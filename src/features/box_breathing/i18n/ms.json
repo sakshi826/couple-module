@@ -32,5 +32,10 @@
   },
   "app_title": "Pernafasan Kotak",
   "app_complete_title": "Kerja yang hebat!",
-  "app_complete_message": "Anda telah melengkapkan sesi Pernafasan Kotak. Anda harus berasa lebih seimbang dan tenang."
+  "app_complete_message": "Anda telah melengkapkan sesi Pernafasan Kotak. Anda harus berasa lebih seimbang dan tenang.",
+  "app_duration": "5 minit",
+  "intro_p1": "inhale_4s",
+  "intro_p2": "tahan_4s",
+  "intro_p3": "exhale_4s",
+  "app_description": "karusel"
 }

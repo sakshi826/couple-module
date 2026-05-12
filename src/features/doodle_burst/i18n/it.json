@@ -42,5 +42,10 @@
     "next": "Prossimo",
     "save": "Salva",
     "loading": "Caricamento..."
-  }
+  },
+  "app_duration": "60 secondi",
+  "intro_p1": "Scatena la tua creatività",
+  "intro_p2": "Sfoga l'energia repressa",
+  "intro_p3": "Ripristino cerebrale istantaneo",
+  "app_description": "giostra"
 }

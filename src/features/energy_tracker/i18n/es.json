@@ -55,5 +55,10 @@
     "next": "Próximo",
     "save": "Ahorrar",
     "loading": "Cargando..."
-  }
+  },
+  "app_duration": "1 minuto",
+  "intro_p1": "Identificar los fugas de energía",
+  "intro_p2": "Descubra los momentos de máxima productividad",
+  "intro_p3": "Aprende qué te recarga",
+  "app_description": "Controla tus niveles de energía a lo largo del día para comprender tus patrones y optimizar tu bienestar."
 }

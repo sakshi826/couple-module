@@ -165,5 +165,10 @@
   },
   "app_complete_title": "Poczuj się wzmocniony",
   "app_complete_message": "Codzienne afirmacje pomagają przekształcić twoje nastawienie. Zabierz ze sobą te pozytywne myśli już dziś.",
-  "app_title": "Nastawienie"
+  "app_title": "Nastawienie",
+  "app_duration": "2-3 minuty",
+  "intro_p1": "common.takeTime",
+  "intro_p2": "common.breatheNaturally",
+  "intro_p3": "common.noRush",
+  "app_description": "karuzela"
 }

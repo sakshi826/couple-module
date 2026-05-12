@@ -165,5 +165,10 @@
   },
   "app_complete_title": "Kendini Güçlendirilmiş Hisset",
   "app_complete_message": "Günlük onaylamalar zihniyetinizi yeniden şekillendirmeye yardımcı olur. Bu olumlu düşünceleri bugün yanınızda taşıyın.",
-  "app_title": "Zihniyet"
+  "app_title": "Zihniyet",
+  "app_duration": "2-3 dakika",
+  "intro_p1": "ortak.zaman",
+  "intro_p2": "ortak.doğal olarak nefes al",
+  "intro_p3": "ortak.acele yok",
+  "app_description": "atlıkarınca"
 }

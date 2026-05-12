@@ -32,7 +32,7 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title", "Mindset")}
+      title={t("app_title")}
       icon={<Sparkles className="w-6 h-6 text-primary" />}
       onBack={currentIdx > 0 && screen !== 'complete' ? () => setScreen(screenOrder[currentIdx - 1]) : undefined}
       onReset={currentIdx > 0 && screen !== 'complete' ? () => setScreen('intro') : undefined}
@@ -61,16 +61,12 @@ const Index = () => {
                 className="w-full flex-1 flex flex-col"
               >
                 <PremiumIntro
-                  title={t("common.beforeYouBegin")}
+                  title={t("app_title")}
                   description={t("common.introText1") + " " + t("common.introText2")}
                   onStart={handleBegin}
                   icon={<Sparkles size={32} />}
-                  benefits={[
-                    t("common.takeTime"),
-                    t("common.breatheNaturally"),
-                    t("common.noRush")
-                  ]}
-                  duration="2-3 minutes"
+                  benefits={[t('intro_p1'), t('intro_p2'), t('intro_p3')]}
+                  duration={t('app_duration', "2-3 minutes")}
                 />
               </motion.div>
             )}
@@ -116,7 +112,7 @@ const Index = () => {
                 className="w-full flex-1 flex flex-col"
               >
                 <PremiumComplete
-                  title={t("app_complete_title")}
+                  title={t("app_title")}
                   message={t("app_complete_message")}
                   onRestart={() => setScreen("feelings")}
                   icon={<Sparkles size={48} />}

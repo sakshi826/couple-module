@@ -48,5 +48,11 @@
     "next": "Suivant",
     "save": "Sauvegarder",
     "loading": "Chargement..."
-  }
+  },
+  "app_duration": "5 à 10 minutes",
+  "intro_p1": "étape_1",
+  "intro_p2": "étape_2",
+  "intro_p3": "étape_3",
+  "app_title": "Déversement de cerveau",
+  "app_description": "carrousel"
 }

@@ -48,5 +48,11 @@
     "next": "Következő",
     "save": "Megtakarítás",
     "loading": "Terhelés..."
-  }
+  },
+  "app_duration": "5-10 perc",
+  "intro_p1": "1. lépés",
+  "intro_p2": "2. lépés",
+  "intro_p3": "3. lépés",
+  "app_title": "Agylerakó",
+  "app_description": "körhinta"
 }

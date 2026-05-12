@@ -165,5 +165,10 @@
   },
   "app_complete_title": "Merasa Diberdayakan",
   "app_complete_message": "Afirmasi harian membantu membentuk kembali pola pikir Anda. Bawalah pikiran positif ini bersama Anda hari ini.",
-  "app_title": "Pola pikir"
+  "app_title": "Pola pikir",
+  "app_duration": "2-3 menit",
+  "intro_p1": "umum.luangkanwaktu",
+  "intro_p2": "umum.bernapasSecaraalami",
+  "intro_p3": "umum.tidakterburu-buru",
+  "app_description": "korsel"
 }

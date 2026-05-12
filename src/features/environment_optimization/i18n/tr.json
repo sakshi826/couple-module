@@ -43,5 +43,7 @@
     "next": "Sonraki",
     "save": "Kaydetmek",
     "loading": "Yükleniyor..."
-  }
+  },
+  "app_duration": "5 dakika",
+  "app_description": "atlıkarınca"
 }

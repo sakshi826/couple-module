@@ -48,5 +48,11 @@
     "next": "Nästa",
     "save": "Spara",
     "loading": "Belastning..."
-  }
+  },
+  "app_duration": "5–10 minuter",
+  "intro_p1": "steg_1",
+  "intro_p2": "steg_2",
+  "intro_p3": "steg_3",
+  "app_title": "Hjärndump",
+  "app_description": "karusell"
 }

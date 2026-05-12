@@ -98,8 +98,8 @@ export default function PredictionVsReality() {
     return (
       <PremiumLayout title={t("app_title")}>
         <PremiumIntro
-          title={t("intro.title")}
-          description={t("intro.description")}
+          title={t("app_title")}
+          description={t("app_description")}
           onStart={() => setScreen(1)}
           icon={<Activity size={32} />}
           benefits={t("intro.benefits", { returnObjects: true }) as string[]}
@@ -120,7 +120,7 @@ export default function PredictionVsReality() {
 
   if (screen === "history") {
     return (
-      <PremiumLayout title={t("history.title")} onBack={() => setScreen("intro")}>
+      <PremiumLayout title={t("app_title")} onBack={() => setScreen("intro")}>
         <div className="space-y-4 max-w-2xl mx-auto">
           {entries.length === 0 ? (
             <div className="text-center py-20 bg-white rounded-3xl border border-slate-100">
@@ -173,9 +173,9 @@ export default function PredictionVsReality() {
 
   if (screen === "complete") {
     return (
-      <PremiumLayout title={t("complete.title")} showBack={false}>
+      <PremiumLayout title={t("app_title")} showBack={false}>
         <PremiumComplete
-          title={t("complete.saved_title")}
+          title={t("app_title")}
           message={t("complete.message")}
           onRestart={reset}
         />

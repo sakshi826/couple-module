@@ -73,13 +73,13 @@
     "confirmDelete": "Bekræft Slet",
     "cancel": "Annuller",
     "delete": "Slet post",
-    "prompts": [
-      "Et lille øjeblik, der ikke føltes anspændt...",
-      "En indsats, din partner har gjort...",
-      "En egenskab, der har været konstant...",
-      "Intention",
-      "Følelsesmæssig tjek"
-    ]
+    "prompts": {
+      "0": "Et lille øjeblik, der ikke føltes anspændt...",
+      "1": "En indsats, din partner har gjort...",
+      "2": "En egenskab, der har været konstant...",
+      "3": "Intention",
+      "4": "Følelsesmæssig tjek"
+    }
   },
   "common": {
     "get_started": "Kom i gang",
@@ -92,5 +92,11 @@
     "next": "Næste",
     "save": "Spare",
     "loading": "Indlæser..."
-  }
+  },
+  "app_duration": "3-5 minutter",
+  "intro_p1": "Dyrk taknemmelighed",
+  "intro_p2": "Reducer stress",
+  "intro_p3": "Forbedre velvære",
+  "app_title": "Reflekterende",
+  "app_description": "karrusel"
 }

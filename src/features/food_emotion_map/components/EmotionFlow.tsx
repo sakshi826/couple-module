@@ -86,7 +86,7 @@ const EmotionFlow = () => {
   if (step === 7) {
     return (
       <PremiumComplete
-        title={t("complete_title")}
+        title={t("app_title")}
         message={t("complete_message")}
         onRestart={() => {
           setStep(0);

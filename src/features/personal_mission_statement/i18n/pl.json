@@ -60,5 +60,8 @@
     "next": "Następny",
     "save": "Ratować",
     "loading": "Załadunek..."
-  }
+  },
+  "app_duration": "5-10 minut",
+  "app_title": "Oświadczenie o misji osobistej",
+  "app_description": "karuzela"
 }

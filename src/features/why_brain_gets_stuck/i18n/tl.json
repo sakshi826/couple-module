@@ -10,20 +10,20 @@
   "s2": {
     "tag": "Magiliw na Katotohanan",
     "title": "Lohika ng kaligtasan ng utak",
-    "truths": [
-      {
+    "truths": {
+      "0": {
         "header": "Nanatiling naka-on ang alarma",
         "body": "Hypervigilance at nakakagulat madaling ay hindi overreaction - ang sistema ng alarma ng iyong utak ay ginagawa ang trabaho nito masyadong mahusay."
       },
-      {
+      "1": {
         "header": "Ang mga flashback ay alaala",
         "body": "Ang mga trigger ay humihila sa iyong utak pabalik dahil hindi ito nakatanggap ng signal na tapos na ang banta. Sinusubukan nitong protektahan ka."
       },
-      {
+      "2": {
         "header": "Nakikipaglaban para sa iyo",
         "body": "Ang bawat sintomas ay minsang isang kilos ng kaligtasan. Ginawa ng utak mo ang dapat niyang gawin para mabuhay ka."
       }
-    ],
+    },
     "healing": "Ang pagpapagaling ay hindi tungkol sa paglimot. Ito ay tungkol sa pagtulong sa iyong utak na malaman na ligtas ka ngayon."
   },
   "common": {
@@ -37,5 +37,6 @@
     "next": "Susunod",
     "save": "I-save",
     "loading": "Naglo-load..."
-  }
+  },
+  "app_description": "karusel"
 }

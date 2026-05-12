@@ -79,7 +79,7 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title", "Reflecting")}
+      title={t("app_title")}
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={currentIdx > 0 && screen !== 'closing' ? () => setScreen(screenOrder[currentIdx - 1]) : undefined}
       onReset={currentIdx > 0 && screen !== 'closing' ? resetFlow : undefined}

@@ -60,5 +60,8 @@
     "next": "Következő",
     "save": "Megtakarítás",
     "loading": "Terhelés..."
-  }
+  },
+  "app_duration": "5-10 perc",
+  "app_title": "Személyes küldetésnyilatkozat",
+  "app_description": "körhinta"
 }

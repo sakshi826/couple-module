@@ -35,5 +35,10 @@
     "next": "Próximo",
     "save": "Ahorrar",
     "loading": "Cargando..."
-  }
+  },
+  "app_duration": "3-5 minutos",
+  "intro_p1": "Calma el sistema nervioso",
+  "intro_p2": "Reduce el estrés inmediato",
+  "intro_p3": "Mejora la concentración y la claridad.",
+  "app_description": "carrusel"
 }

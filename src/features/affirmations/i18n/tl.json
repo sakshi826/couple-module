@@ -165,5 +165,10 @@
   },
   "app_complete_title": "Pakiramdam na may kapangyarihan",
   "app_complete_message": "Ang pang-araw-araw na pagpapatibay ay tumutulong na baguhin ang iyong pag-iisip. Dalhin ang mga positibong saloobin na ito sa iyo ngayon.",
-  "app_title": "Pag-iisip"
+  "app_title": "Pag-iisip",
+  "app_duration": "2-3 minuto",
+  "intro_p1": "common.takeTime",
+  "intro_p2": "common.breatheNatural",
+  "intro_p3": "common.noRush",
+  "app_description": "karusel"
 }

@@ -55,5 +55,10 @@
     "next": "Neste",
     "save": "Spare",
     "loading": "Laster inn..."
-  }
+  },
+  "app_duration": "1 minutt",
+  "intro_p1": "Identifiser energitap",
+  "intro_p2": "Oppdag topp produktivitetsperioder",
+  "intro_p3": "Lær hva som lader deg opp",
+  "app_description": "Spor energinivået ditt gjennom dagen for å forstå mønstrene dine og optimalisere velværet ditt."
 }

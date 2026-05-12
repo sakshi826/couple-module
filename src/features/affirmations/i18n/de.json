@@ -165,5 +165,10 @@
   },
   "app_complete_title": "Fühle dich ermächtigt",
   "app_complete_message": "Tägliche Affirmationen helfen dabei, deine Denkweise neu zu gestalten. Nimm diese positiven Gedanken heute mit dir.",
-  "app_title": "Denkweise"
+  "app_title": "Denkweise",
+  "app_duration": "2-3 Minuten",
+  "intro_p1": "common.takeTime",
+  "intro_p2": "common.breathNaturally",
+  "intro_p3": "common.noRush",
+  "app_description": "Karussell"
 }

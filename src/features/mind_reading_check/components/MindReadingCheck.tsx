@@ -66,8 +66,8 @@ export default function MindReadingCheck() {
     return (
       <PremiumLayout title={t("app_title")}>
         <PremiumIntro
-          title={t("intro.title")}
-          description={t("intro.description")}
+          title={t("app_title")}
+          description={t("app_description")}
           onStart={() => setScreen(1)}
           icon={<MessageCircle size={32} />}
           benefits={t("intro.benefits", { returnObjects: true }) as string[]}
@@ -88,7 +88,7 @@ export default function MindReadingCheck() {
 
   if (screen === "history") {
     return (
-      <PremiumLayout title={t("history.title")} onBack={() => setScreen("intro")}>
+      <PremiumLayout title={t("app_title")} onBack={() => setScreen("intro")}>
         <div className="space-y-4 max-w-lg mx-auto">
           {history.length === 0 ? (
             <div className="text-center py-20 bg-white rounded-3xl border border-slate-100 font-bold text-slate-400 uppercase tracking-widest text-xs">
@@ -120,9 +120,9 @@ export default function MindReadingCheck() {
 
   if (screen === "complete") {
     return (
-      <PremiumLayout title={t("complete.title")} showBack={false}>
+      <PremiumLayout title={t("app_title")} showBack={false}>
         <PremiumComplete
-          title={t("complete.great_insights")}
+          title={t("app_title")}
           message={t("complete.message")}
           onRestart={reset}
         />

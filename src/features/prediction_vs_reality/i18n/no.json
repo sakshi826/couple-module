@@ -4,11 +4,11 @@
   "intro": {
     "title": "Forutsigelse vs virkelighet",
     "description": "Sammenlign dine engstelige spådommer med det som faktisk skjer for å bygge et mer balansert perspektiv.",
-    "benefits": [
-      "Identifiser engstelige mønstre",
-      "Samle bevis mot frykt",
-      "Redusere fremtidig overtenking"
-    ],
+    "benefits": {
+      "0": "Identifiser engstelige mønstre",
+      "1": "Samle bevis mot frykt",
+      "2": "Redusere fremtidig overtenking"
+    },
     "duration": "4-5 minutter",
     "view_past": "Se tidligere refleksjoner"
   },
@@ -24,23 +24,23 @@
     "saved_title": "Refleksjon reddet",
     "message": "Ved å se på fakta hjelper du sinnet ditt å lære at ting ofte er mer håndterbare enn de ser ut til."
   },
-  "emotions": [
-    "Engstelig",
-    "Nervøs",
-    "Redd",
-    "Overveldet",
-    "Urolig"
-  ],
+  "emotions": {
+    "0": "Engstelig",
+    "1": "Nervøs",
+    "2": "Redd",
+    "3": "Overveldet",
+    "4": "Urolig"
+  },
   "intensity_labels": {
     "not_intense": "Ikke intenst",
     "very_intense": "Veldig intenst"
   },
-  "comparison_options": [
-    "Det ble nesten akkurat slik jeg hadde forventet",
-    "Noen deler var riktige, men ikke alt",
-    "Det var ganske annerledes enn jeg hadde forventet",
-    "Det var mye enklere/bedre enn jeg hadde forestilt meg"
-  ],
+  "comparison_options": {
+    "0": "Det ble nesten akkurat slik jeg hadde forventet",
+    "1": "Noen deler var riktige, men ikke alt",
+    "2": "Det var ganske annerledes enn jeg hadde forventet",
+    "3": "Det var mye enklere/bedre enn jeg hadde forestilt meg"
+  },
   "screens": {
     "s1": {
       "title": "Tenk på en nylig situasjon",
@@ -101,5 +101,6 @@
     "next": "Neste",
     "save": "Spare",
     "loading": "Laster inn..."
-  }
+  },
+  "app_description": "karusell"
 }

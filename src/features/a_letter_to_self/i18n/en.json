@@ -26,5 +26,10 @@
     "next": "Next",
     "save": "Save",
     "loading": "Loading..."
-  }
+  },
+  "app_duration": "10-15 minutes",
+  "intro_p1": "no_judgments",
+  "intro_p2": "A space for reflection",
+  "intro_p3": "Connect with your future self",
+  "app_title": "Letter to Self"
 }

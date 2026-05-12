@@ -165,5 +165,10 @@
   },
   "app_complete_title": "Νιώστε ενδυναμωμένοι",
   "app_complete_message": "Οι καθημερινές επιβεβαιώσεις βοηθούν στην αναμόρφωση της νοοτροπίας σας. Να έχετε μαζί σας αυτές τις θετικές σκέψεις σήμερα.",
-  "app_title": "Νοοτροπία"
+  "app_title": "Νοοτροπία",
+  "app_duration": "2-3 λεπτά",
+  "intro_p1": "common.takeTime",
+  "intro_p2": "common.breatheNaturally",
+  "intro_p3": "common.noRush",
+  "app_description": "στροβιλοδρόμιο"
 }

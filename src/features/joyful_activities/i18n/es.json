@@ -55,5 +55,8 @@
     "loading": "Cargando..."
   },
   "app_complete_title": "Alegría Preservada",
-  "app_complete_message": "Has recordado y conectado con una fuente de alegría. Lleva esta sensación contigo a medida que avanzas en el día."
+  "app_complete_message": "Has recordado y conectado con una fuente de alegría. Lleva esta sensación contigo a medida que avanzas en el día.",
+  "app_duration": "5 minutos",
+  "app_title": "Actividades alegres",
+  "app_description": "carrusel"
 }

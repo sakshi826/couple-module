@@ -55,5 +55,8 @@
     "loading": "로딩 중..."
   },
   "app_complete_title": "기쁨이 보존되다",
-  "app_complete_message": "당신은 기쁨의 원천을 성공적으로 기억하고 연결했습니다. 이 감정을 하루 동안 계속 유지하세요."
+  "app_complete_message": "당신은 기쁨의 원천을 성공적으로 기억하고 연결했습니다. 이 감정을 하루 동안 계속 유지하세요.",
+  "app_duration": "5분",
+  "app_title": "즐거운 활동",
+  "app_description": "회전목마"
 }

@@ -88,7 +88,7 @@ const ContinuingBonds = () => {
   if (screen === "complete") {
     return (
       <PremiumComplete
-        title={t("complete_title")}
+        title={t("app_title")}
         message={t("complete_message")}
         onRestart={reset}
       />

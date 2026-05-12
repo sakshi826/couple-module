@@ -55,5 +55,7 @@
     "loading": "Loading..."
   },
   "app_complete_title": "Joy Preserved",
-  "app_complete_message": "You've successfully recalled and connected with a source of joy. Keep this feeling with you as you move through your day."
+  "app_complete_message": "You've successfully recalled and connected with a source of joy. Keep this feeling with you as you move through your day.",
+  "app_duration": "5 minutes",
+  "app_title": "Joyful Activities"
 }

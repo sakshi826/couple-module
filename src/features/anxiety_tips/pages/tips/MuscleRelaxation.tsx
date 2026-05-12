@@ -6,7 +6,7 @@ const MuscleRelaxation = () => {
 
   return (
     <TipDetailLayout
-      title={t("tip_muscle_relaxation")}
+      title={t("app_title")}
       whyItHelps={t("muscle_why")}
       whatYouCanDo={[
         t("muscle_step1"),

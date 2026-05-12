@@ -26,5 +26,11 @@
     "next": "Neste",
     "save": "Spare",
     "loading": "Laster inn..."
-  }
+  },
+  "app_duration": "10–15 minutter",
+  "intro_p1": "ingen_dommer",
+  "intro_p2": "Et rom for refleksjon",
+  "intro_p3": "Koble deg til ditt fremtidige jeg",
+  "app_title": "Brev til seg selv",
+  "app_description": "karusell"
 }

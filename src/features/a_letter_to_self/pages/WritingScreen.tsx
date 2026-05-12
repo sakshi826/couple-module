@@ -75,7 +75,7 @@ const WritingScreen = () => {
 
   return (
     <PremiumLayout 
-        title="Write to Yourself" 
+        title={t("app_title")} 
         onBack={() => navigate("..", { replace: true })}
     >
       <div className="w-full space-y-10 pb-32">

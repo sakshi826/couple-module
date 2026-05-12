@@ -42,5 +42,10 @@
     "next": "다음",
     "save": "구하다",
     "loading": "로딩 중..."
-  }
+  },
+  "app_duration": "60초",
+  "intro_p1": "창의력을 마음껏 발휘하세요",
+  "intro_p2": "억눌렸던 에너지를 발산하세요",
+  "intro_p3": "즉각적인 두뇌 재설정",
+  "app_description": "회전목마"
 }

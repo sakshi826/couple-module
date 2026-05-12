@@ -13,16 +13,12 @@ const IntroScreen = ({ onBegin }: IntroScreenProps) => {
   return (
     <div className="w-full">
       <PremiumIntro
-        title={t("title")}
+        title={t("app_title")}
         description={t("subtitle") + " " + t("intro.text1") + " " + t("intro.text2")}
         onStart={onBegin}
         icon={<Heart size={32} />}
-        benefits={[
-          "Cultivate gratitude",
-          "Reduce stress",
-          "Improve well-being"
-        ]}
-        duration="3-5 minutes"
+        benefits={[t('intro_p1'), t('intro_p2'), t('intro_p3')]}
+        duration={t('app_duration', "3-5 minutes")}
       />
     </div>
   );

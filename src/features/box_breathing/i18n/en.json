@@ -32,5 +32,9 @@
   },
   "app_title": "Box Breathing",
   "app_complete_title": "Great Job!",
-  "app_complete_message": "You've completed the Box Breathing session. You should feel more balanced and calm."
+  "app_complete_message": "You've completed the Box Breathing session. You should feel more balanced and calm.",
+  "app_duration": "5 minutes",
+  "intro_p1": "inhale_4s",
+  "intro_p2": "hold_4s",
+  "intro_p3": "exhale_4s"
 }

@@ -165,5 +165,10 @@
   },
   "app_complete_title": "Sentez-vous puissant",
   "app_complete_message": "Les affirmations quotidiennes aident à remodeler votre état d’esprit. Emportez ces pensées positives avec vous aujourd’hui.",
-  "app_title": "Mentalité"
+  "app_title": "Mentalité",
+  "app_duration": "2-3 minutes",
+  "intro_p1": "courant.prendre du temps",
+  "intro_p2": "respirer naturellement",
+  "intro_p3": "commun.noRush",
+  "app_description": "carrousel"
 }

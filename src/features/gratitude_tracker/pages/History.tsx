@@ -80,7 +80,7 @@ const GratitudeHistory = () => {
 
   return (
     <PremiumLayout 
-      title="Your Journey" 
+      title={t("app_title")} 
       onBack={() => navigate("..", { replace: true })}
     >
       <div className="w-full space-y-8">

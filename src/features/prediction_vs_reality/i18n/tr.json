@@ -4,11 +4,11 @@
   "intro": {
     "title": "Tahmin ve Gerçeklik",
     "description": "Endişeli tahminlerinizi gerçekten olanlarla karşılaştırarak daha dengeli bir bakış açısı oluşturun.",
-    "benefits": [
-      "Kaygılı kalıpları belirleyin",
-      "Korkulara karşı kanıt toplama",
-      "Gelecekteki aşırı düşünmeyi azaltın"
-    ],
+    "benefits": {
+      "0": "Kaygılı kalıpları belirleyin",
+      "1": "Korkulara karşı kanıt toplama",
+      "2": "Gelecekteki aşırı düşünmeyi azaltın"
+    },
     "duration": "4-5 dakika",
     "view_past": "Geçmiş Yansımaları Gör"
   },
@@ -24,23 +24,23 @@
     "saved_title": "Yansıma Kaydedildi",
     "message": "Gerçeklere bakarak, zihninize şeylerin göründüğünden daha yönetilebilir olduğunu öğretmesine yardımcı oluyorsunuz."
   },
-  "emotions": [
-    "Endişeli",
-    "Gergin",
-    "Korkmuş",
-    "Bunalmış",
-    "Huzursuz"
-  ],
+  "emotions": {
+    "0": "Endişeli",
+    "1": "Gergin",
+    "2": "Korkmuş",
+    "3": "Bunalmış",
+    "4": "Huzursuz"
+  },
   "intensity_labels": {
     "not_intense": "Yoğun değil",
     "very_intense": "Çok yoğun"
   },
-  "comparison_options": [
-    "Neredeyse beklediğim gibi oldu",
-    "Bazı kısımlar doğruydu ama her şey değil",
-    "Beklediğimden oldukça farklıydı",
-    "Hayal ettiğimden çok daha kolay/daha iyiydi"
-  ],
+  "comparison_options": {
+    "0": "Neredeyse beklediğim gibi oldu",
+    "1": "Bazı kısımlar doğruydu ama her şey değil",
+    "2": "Beklediğimden oldukça farklıydı",
+    "3": "Hayal ettiğimden çok daha kolay/daha iyiydi"
+  },
   "screens": {
     "s1": {
       "title": "Son zamanlarda bir durumu düşünün",
@@ -101,5 +101,6 @@
     "next": "Sonraki",
     "save": "Kaydetmek",
     "loading": "Yükleniyor..."
-  }
+  },
+  "app_description": "atlıkarınca"
 }

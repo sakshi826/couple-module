@@ -35,5 +35,10 @@
     "next": "Nächste",
     "save": "Speichern",
     "loading": "Laden..."
-  }
+  },
+  "app_duration": "3-5 Minuten",
+  "intro_p1": "Beruhigt das Nervensystem",
+  "intro_p2": "Reduziert unmittelbaren Stress",
+  "intro_p3": "Verbessert Konzentration und Klarheit",
+  "app_description": "Karussell"
 }

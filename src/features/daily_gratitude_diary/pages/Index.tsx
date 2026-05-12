@@ -92,7 +92,7 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title", "Daily Gratitude Diary")}
+      title={t("app_title")}
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={currentIdx > 0 && screen !== 'closing' ? () => setScreen(screenOrder[currentIdx - 1]) : undefined}
       onReset={currentIdx > 0 && screen !== 'closing' ? resetFlow : undefined}
@@ -121,8 +121,8 @@ const Index = () => {
                 className="w-full flex-1 flex flex-col"
               >
                 <PremiumIntro
-                  title={t('app_title')}
-                  description={t('app_subtitle')}
+                  title={t("app_title")}
+                  description={t("app_description")}
                   onStart={() => setScreen("gratitude")}
                   icon={<Heart size={32} />}
                   benefits={[
@@ -130,7 +130,7 @@ const Index = () => {
                     t('intro_text_2'),
                     t('intro_text_3')
                   ]}
-                  duration="3-5 minutes"
+                  duration={t('app_duration', "3-5 minutes")}
                 >
                   <div className="mt-10 flex justify-center">
                       <motion.button
@@ -189,7 +189,7 @@ const Index = () => {
                 className="w-full flex-1 flex flex-col"
               >
                 <PremiumComplete
-                  title={t("app_complete_title")}
+                  title={t("app_title")}
                   message={t("app_complete_message")}
                   onRestart={resetFlow}
                   icon={<Sparkles size={48} />}

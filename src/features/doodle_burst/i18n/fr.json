@@ -42,5 +42,10 @@
     "next": "Suivant",
     "save": "Sauvegarder",
     "loading": "Chargement..."
-  }
+  },
+  "app_duration": "60 secondes",
+  "intro_p1": "Libérez votre créativité",
+  "intro_p2": "Libérez l'énergie accumulée",
+  "intro_p3": "Réinitialisation cérébrale instantanée",
+  "app_description": "carrousel"
 }

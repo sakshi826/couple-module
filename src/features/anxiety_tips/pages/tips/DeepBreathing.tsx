@@ -7,7 +7,7 @@ const DeepBreathing = () => {
 
   return (
     <TipDetailLayout
-      title={t("tip_deep_breathing")}
+      title={t("app_title")}
       whyItHelps={t("breathing_why")}
       whatYouCanDo={[
         t("breathing_step1"),

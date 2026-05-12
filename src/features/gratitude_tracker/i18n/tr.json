@@ -1,40 +1,23 @@
 {
-  "app.title": "Şükran Takipçisi",
-  "app.description": "Daha iyi bir ruh sağlığı için günlük şükran duygunuzu ve ruh halinizi takip edin.",
-  "gratitude.heading": "Bugün neye şükrediyorsunuz?",
-  "gratitude.subheading": "Küçük ya da büyük güzel şeyleri düşünmek için bir an ayırın.",
-  "gratitude.item1.label": "Teşekkür Maddesi 1",
-  "gratitude.item1.placeholder": "Örneğin, bu sabah sıcak bir fincan çay...",
-  "gratitude.item2.label": "Teşekkür Maddesi 2",
-  "gratitude.item2.placeholder": "Örneğin, bir arkadaştan gelen güzel bir söz...",
-  "gratitude.optional": "(isteğe bağlı)",
-  "common.continue": "Devam etmek",
-  "mood.heading": "Nasıl hissediyorsun?",
-  "mood.subheading": "Şu anki ruh halinizi en iyi tanımlayan seçeneği belirleyin.",
-  "mood.save": "Teşekkür Yazısını Kaydet",
-  "mood.happy": "Mutlu",
-  "mood.calm": "Sakinlik",
-  "mood.neutral": "Doğal",
-  "mood.low": "Düşük",
-  "mood.stressed": "Stresli",
-  "review.heading": "Girişiniz",
-  "review.date": "Tarih",
-  "review.gratitude1": "Şükran 1",
-  "review.gratitude2": "Şükran 2",
-  "review.mood": "Mod",
-  "review.edit": "Girişi Düzenle",
-  "review.history": "Geçmişi Görüntüle",
-  "history.heading": "Tarih",
-  "history.back": "Geri",
-  "history.home": "Ana sayfaya git",
-  "history.sun": "Güneş",
-  "history.mon": "Benim",
-  "history.tue": "Salı",
-  "history.wed": "Çarşamba",
-  "history.thu": "TOPLAMAK",
-  "history.fri": "Cuma",
-  "history.sat": "Doygunluk",
+  "app": {
+    "title": "Şükran Takipçisi",
+    "description": "Daha iyi bir ruh sağlığı için günlük şükran duygunuzu ve ruh halinizi takip edin."
+  },
+  "gratitude": {
+    "heading": "Bugün neye şükrediyorsunuz?",
+    "subheading": "Küçük ya da büyük güzel şeyleri düşünmek için bir an ayırın.",
+    "item1": {
+      "label": "Teşekkür Maddesi 1",
+      "placeholder": "Örneğin, bu sabah sıcak bir fincan çay..."
+    },
+    "item2": {
+      "label": "Teşekkür Maddesi 2",
+      "placeholder": "Örneğin, bir arkadaştan gelen güzel bir söz..."
+    },
+    "optional": "(isteğe bağlı)"
+  },
   "common": {
+    "continue": "Devam etmek",
     "get_started": "Başlayın",
     "start_over": "Baştan Başla",
     "finish_exit": "Bitir ve Çık",
@@ -45,5 +28,42 @@
     "next": "Sonraki",
     "save": "Kaydetmek",
     "loading": "Yükleniyor..."
-  }
+  },
+  "mood": {
+    "heading": "Nasıl hissediyorsun?",
+    "subheading": "Şu anki ruh halinizi en iyi tanımlayan seçeneği belirleyin.",
+    "save": "Teşekkür Yazısını Kaydet",
+    "happy": "Mutlu",
+    "calm": "Sakinlik",
+    "neutral": "Doğal",
+    "low": "Düşük",
+    "stressed": "Stresli"
+  },
+  "review": {
+    "heading": "Girişiniz",
+    "date": "Tarih",
+    "gratitude1": "Şükran 1",
+    "gratitude2": "Şükran 2",
+    "mood": "Mod",
+    "edit": "Girişi Düzenle",
+    "history": "Geçmişi Görüntüle"
+  },
+  "history": {
+    "heading": "Tarih",
+    "back": "Geri",
+    "home": "Ana sayfaya git",
+    "sun": "Güneş",
+    "mon": "Benim",
+    "tue": "Salı",
+    "wed": "Çarşamba",
+    "thu": "TOPLAMAK",
+    "fri": "Cuma",
+    "sat": "Doygunluk"
+  },
+  "app_duration": "2-3 dakika",
+  "intro_p1": "Duygusal sağlığınızı iyileştirin",
+  "intro_p2": "Olumlu şeylere odaklanın",
+  "intro_p3": "Minnettarlığı kalıcı bir alışkanlık haline getirin.",
+  "app_description": "atlıkarınca",
+  "app_title": "Şükran Günlüğü"
 }

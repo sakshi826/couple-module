@@ -44,5 +44,6 @@
     "loading": "Loading..."
   },
   "app_complete_title": "Gratitude Saved",
-  "app_complete_message": "Reflecting on what you're thankful for is a powerful way to shift your focus to the positive."
+  "app_complete_message": "Reflecting on what you're thankful for is a powerful way to shift your focus to the positive.",
+  "app_duration": "3-5 minutes"
 }

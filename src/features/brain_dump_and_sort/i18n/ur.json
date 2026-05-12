@@ -48,5 +48,11 @@
     "next": "اگلا",
     "save": "محفوظ کریں۔",
     "loading": "لوڈ ہو رہا ہے..."
-  }
+  },
+  "app_duration": "5-10 منٹ",
+  "intro_p1": "step_1",
+  "intro_p2": "step_2",
+  "intro_p3": "step_3",
+  "app_title": "برین ڈمپ",
+  "app_description": "carousel"
 }

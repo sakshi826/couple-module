@@ -62,5 +62,7 @@
     "loading": "Caricamento..."
   },
   "complete_title": "Bingo Master!",
-  "complete_message": "Congratulazioni! Hai completato con successo una linea di cura di sé. La tua mente e il tuo corpo grazie."
+  "complete_message": "Congratulazioni! Hai completato con successo una linea di cura di sé. La tua mente e il tuo corpo grazie.",
+  "app_duration": "In qualsiasi momento",
+  "app_description": "giostra"
 }

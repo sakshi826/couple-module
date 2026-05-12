@@ -1,12 +1,12 @@
 {
   "app_title": "Minneboks",
-  "screen_titles": [
-    "Din boks",
-    "Ære",
-    "Uttrykk",
-    "Bevart",
-    "Forsiktig pleie"
-  ],
+  "screen_titles": {
+    "0": "Din boks",
+    "1": "Ære",
+    "2": "Uttrykk",
+    "3": "Bevart",
+    "4": "Forsiktig pleie"
+  },
   "complete_title": "Minne bevart",
   "complete_message": "Du har trygt plassert et minne av {{name}} i boksen din. Disse øyeblikkene av tilknytning er alltid dine å beholde.",
   "auth_error": "Auth-sesjon mangler eller database ikke konfigurert",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Skriv inn navnet deres...",
     "placeholder_relation": "Hvordan kjenner du dem? (valgfritt)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Et lykkelig øyeblikk",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Noe de pleide å si",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "Et lite hverdagsminne",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "Et sted som minner deg om dem",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "Noe jeg skulle ønske jeg kunne si",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Fortsett →"
   },
   "expression": {
@@ -88,5 +88,6 @@
     "next": "Neste",
     "save": "Spare",
     "loading": "Laster inn..."
-  }
+  },
+  "app_description": "karusell"
 }

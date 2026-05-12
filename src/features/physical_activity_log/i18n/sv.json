@@ -60,5 +60,7 @@
     "next": "Nästa",
     "save": "Spara",
     "loading": "Belastning..."
-  }
+  },
+  "app_title": "Aktivitetslogg",
+  "app_description": "karusell"
 }

@@ -42,5 +42,10 @@
     "next": "Volgende",
     "save": "Redden",
     "loading": "Laden..."
-  }
+  },
+  "app_duration": "60 seconden",
+  "intro_p1": "Laat je creativiteit de vrije loop",
+  "intro_p2": "Laat opgekropte energie los",
+  "intro_p3": "Directe reset van je hersenen",
+  "app_description": "carrousel"
 }

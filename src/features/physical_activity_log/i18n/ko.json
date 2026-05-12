@@ -60,5 +60,7 @@
     "next": "다음",
     "save": "구하다",
     "loading": "로딩 중..."
-  }
+  },
+  "app_title": "활동 로그",
+  "app_description": "회전목마"
 }

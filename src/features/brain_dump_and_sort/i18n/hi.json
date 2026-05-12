@@ -48,5 +48,11 @@
     "next": "अगला",
     "save": "बचाना",
     "loading": "लोड हो रहा है..."
-  }
+  },
+  "app_duration": "5-10 मिनट",
+  "intro_p1": "स्टेप 1",
+  "intro_p2": "चरण दो",
+  "intro_p3": "चरण_3",
+  "app_title": "मस्तिष्क डंप",
+  "app_description": "हिंडोला"
 }

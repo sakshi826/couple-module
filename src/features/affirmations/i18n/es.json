@@ -165,5 +165,10 @@
   },
   "app_complete_title": "Siéntete empoderado",
   "app_complete_message": "Las afirmaciones diarias ayudan a remodelar tu mentalidad. Lleva contigo estos pensamientos positivos hoy.",
-  "app_title": "Mentalidad"
+  "app_title": "Mentalidad",
+  "app_duration": "2-3 minutos",
+  "intro_p1": "común.tómeseuntiempo",
+  "intro_p2": "común.respira naturalmente",
+  "intro_p3": "común.noRush",
+  "app_description": "carrusel"
 }

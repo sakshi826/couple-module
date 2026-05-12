@@ -51,7 +51,7 @@ const MissionScreen = ({ data, onEdit, onHome, onChange }: MissionScreenProps) =
 
   return (
     <PremiumComplete
-      title={t('mission_title')}
+      title={t("app_title")}
       message={t('mission_is_reminder')}
       onRestart={onHome}
     >

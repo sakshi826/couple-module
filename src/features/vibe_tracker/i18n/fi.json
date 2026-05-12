@@ -51,5 +51,10 @@
     "next": "Seuraava",
     "save": "Tallentaa",
     "loading": "Ladataan..."
-  }
+  },
+  "app_duration": "1–2 minuuttia",
+  "intro_p1": "Seuraa tunnemallejasi",
+  "intro_p2": "Mieti mielialaasi tänään",
+  "intro_p3": "Rakenna emotionaalista tietoisuutta",
+  "app_description": "karuselli"
 }

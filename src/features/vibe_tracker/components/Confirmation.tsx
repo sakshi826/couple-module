@@ -13,7 +13,7 @@ const Confirmation = ({ onDone, onHistory }: Props) => {
 
   return (
     <PremiumComplete
-        title={t("vibeLogged")}
+        title={t("app_title")}
         message={t("thankYou")}
         onRestart={onDone}
         onHome={onDone}

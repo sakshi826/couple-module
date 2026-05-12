@@ -60,5 +60,7 @@
     "next": "Další",
     "save": "Uložit",
     "loading": "Načítání..."
-  }
+  },
+  "app_title": "Záznam aktivit",
+  "app_description": "kolotoč"
 }

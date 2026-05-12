@@ -35,5 +35,10 @@
     "next": "Susunod",
     "save": "I-save",
     "loading": "Naglo-load..."
-  }
+  },
+  "app_duration": "3-5 minuto",
+  "intro_p1": "Pinapakalma ang sistema ng nerbiyos",
+  "intro_p2": "Binabawasan ang agarang stress",
+  "intro_p3": "Nagpapabuti ng pokus at kalinawan",
+  "app_description": "karusel"
 }

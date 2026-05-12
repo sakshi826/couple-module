@@ -172,7 +172,7 @@ const WhatDoINeedActivity = () => {
   if (screen === 4) {
     return (
       <PremiumComplete
-        title={t("complete.title")}
+        title={t("app_title")}
         message={t("complete.message", { need: primaryNeed })}
         onRestart={() => {
           setScreen(1);
@@ -192,7 +192,7 @@ const WhatDoINeedActivity = () => {
   return (
     <PremiumLayout
       title={t("app_title")}
-      subtitle={t("app_subtitle")}
+      subtitle={t("app_title")}
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={screen === 1 ? undefined : handleBack}
     >

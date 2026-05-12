@@ -42,5 +42,10 @@
     "next": "Nächste",
     "save": "Speichern",
     "loading": "Laden..."
-  }
+  },
+  "app_duration": "60 Sekunden",
+  "intro_p1": "Lass deiner Kreativität freien Lauf",
+  "intro_p2": "Entfesseln Sie aufgestaute Energie",
+  "intro_p3": "Sofortiger Gehirn-Reset",
+  "app_description": "Karussell"
 }

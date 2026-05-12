@@ -1,57 +1,57 @@
 {
   "app_title": "Spazio sicuro",
-  "nav": [
-    "Check-in",
-    "Richiamo delicatamente",
-    "Osservazione",
-    "Rimanere presenti",
-    "Avanzare"
-  ],
+  "nav": {
+    "0": "Check-in",
+    "1": "Richiamo delicatamente",
+    "2": "Osservazione",
+    "3": "Rimanere presenti",
+    "4": "Avanzare"
+  },
   "s1": {
     "title": "Troviamo un posto che vada bene",
-    "description": [
-      "Prima di cominciare, prenditi un momento per fare un check-in...",
-      "Come ti senti in questo momento?",
-      "Non cerchiamo un \"posto sicuro\" perfetto. Solo qualcosa che sembri anche solo un po' calmo o a posto."
-    ],
+    "description": {
+      "0": "Prima di cominciare, prenditi un momento per fare un check-in...",
+      "1": "Come ti senti in questo momento?",
+      "2": "Non cerchiamo un \"posto sicuro\" perfetto. Solo qualcosa che sembri anche solo un po' calmo o a posto."
+    },
     "placeholder": "Come ti senti in questo momento?",
     "button": "Inizio visualizzazione"
   },
   "s2": {
     "title": "Ricordatelo con delicatezza",
-    "description": [
-      "Pensa a un posto dove ti sentissi anche solo un po' a tuo agio... o un posto che vorresti esistesse.",
-      "Ora mettiti lì...",
-      "Sei seduto, in piedi o sdraiato?"
-    ],
+    "description": {
+      "0": "Pensa a un posto dove ti sentissi anche solo un po' a tuo agio... o un posto che vorresti esistesse.",
+      "1": "Ora mettiti lì...",
+      "2": "Sei seduto, in piedi o sdraiato?"
+    },
     "button": "Continua"
   },
   "s3": {
     "title": "Guarda intorno lentamente",
-    "description": [
-      "Dai un'occhiata delicata intorno...",
-      "Qual è una cosa che riesci a vedere?",
-      "Ora nota un suono... Cosa senti?"
-    ],
+    "description": {
+      "0": "Dai un'occhiata delicata intorno...",
+      "1": "Qual è una cosa che riesci a vedere?",
+      "2": "Ora nota un suono... Cosa senti?"
+    },
     "button": "Continua"
   },
   "s4": {
     "title": "Resta con questo",
-    "description": [
-      "Cosa c'è in questo posto che lo fa sentire anche solo un po' sicuro o a posto?",
-      "Come noti che...",
-      "Porta anche attenzione al respiro."
-    ],
+    "description": {
+      "0": "Cosa c'è in questo posto che lo fa sentire anche solo un po' sicuro o a posto?",
+      "1": "Come noti che...",
+      "2": "Porta anche attenzione al respiro."
+    },
     "breathe": "respira",
     "notice": "Se immaginare ti sembra difficile, pensa semplicemente all'idea di questo posto.",
     "button": "Continua"
   },
   "s5": {
     "title": "Porta questo con te",
-    "description": [
-      "Nota come ti senti in questo momento. Anche un piccolo turno conta.",
-      "Vedi se riesci a portare con te anche solo il 5% di questa sensazione."
-    ],
+    "description": {
+      "0": "Nota come ti senti in questo momento. Anche un piccolo turno conta.",
+      "1": "Vedi se riesci a portare con te anche solo il 5% di questa sensazione."
+    },
     "placeholder": "Come ti senti adesso?",
     "button": "Sessione completa"
   },
@@ -70,5 +70,6 @@
     "next": "Prossimo",
     "save": "Salva",
     "loading": "Caricamento..."
-  }
+  },
+  "app_description": "giostra"
 }

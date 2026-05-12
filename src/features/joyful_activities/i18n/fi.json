@@ -55,5 +55,8 @@
     "loading": "Ladataan..."
   },
   "app_complete_title": "Ilo säilynyt",
-  "app_complete_message": "Olet onnistuneesti muistanut ja yhdistynyt ilon lähteeseen. Pidä tämä tunne mukanasi päivän edetessä."
+  "app_complete_message": "Olet onnistuneesti muistanut ja yhdistynyt ilon lähteeseen. Pidä tämä tunne mukanasi päivän edetessä.",
+  "app_duration": "5 minuuttia",
+  "app_title": "Iloisia aktiviteetteja",
+  "app_description": "karuselli"
 }

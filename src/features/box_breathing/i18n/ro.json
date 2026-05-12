@@ -32,5 +32,10 @@
   },
   "app_title": "Respirația în cutie",
   "app_complete_title": "Bravo!",
-  "app_complete_message": "Ai terminat sesiunea Box Breathing. Ar trebui să te simți mai echilibrat și calm."
+  "app_complete_message": "Ai terminat sesiunea Box Breathing. Ar trebui să te simți mai echilibrat și calm.",
+  "app_duration": "5 minute",
+  "intro_p1": "inhale_4s",
+  "intro_p2": "mențineți_4 secunde",
+  "intro_p3": "exhale_4s",
+  "app_description": "carusel"
 }

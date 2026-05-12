@@ -12,7 +12,7 @@ const ClosingScreen = ({ onExit }: ClosingScreenProps) => {
 
   return (
     <PremiumComplete
-      title={t("closing.title")}
+      title={t("app_title")}
       message={t("closing.text1") + " " + t("closing.text2")}
       onRestart={onExit}
     />

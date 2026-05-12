@@ -32,5 +32,10 @@
   },
   "app_title": "Respirazione a scatola",
   "app_complete_title": "Ottimo lavoro!",
-  "app_complete_message": "Hai completato la sessione di Respirazione a Scatola. Dovresti sentirti più equilibrata e calma."
+  "app_complete_message": "Hai completato la sessione di Respirazione a Scatola. Dovresti sentirti più equilibrata e calma.",
+  "app_duration": "5 minuti",
+  "intro_p1": "inalare_4s",
+  "intro_p2": "hold_4s",
+  "intro_p3": "espira_4s",
+  "app_description": "giostra"
 }

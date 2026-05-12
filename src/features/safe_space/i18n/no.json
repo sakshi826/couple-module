@@ -1,57 +1,57 @@
 {
   "app_title": "Trygt rom",
-  "nav": [
-    "Innsjekk",
-    "Forsiktig gjenkall",
-    "Observasjon",
-    "Å være til stede",
-    "Fremover"
-  ],
+  "nav": {
+    "0": "Innsjekk",
+    "1": "Forsiktig gjenkall",
+    "2": "Observasjon",
+    "3": "Å være til stede",
+    "4": "Fremover"
+  },
   "s1": {
     "title": "La oss finne et sted som føles greit",
-    "description": [
-      "Før vi begynner, ta et øyeblikk til å sjekke inn...",
-      "Hvordan føler du deg akkurat nå?",
-      "Vi leter ikke etter et perfekt «trygt sted». Bare noe som føles bare litt rolig eller greit."
-    ],
+    "description": {
+      "0": "Før vi begynner, ta et øyeblikk til å sjekke inn...",
+      "1": "Hvordan føler du deg akkurat nå?",
+      "2": "Vi leter ikke etter et perfekt «trygt sted». Bare noe som føles bare litt rolig eller greit."
+    },
     "placeholder": "Hvordan føler du deg akkurat nå?",
     "button": "Start visualisering"
   },
   "s2": {
     "title": "Ta det forsiktig i tankene",
-    "description": [
-      "Tenk på et sted hvor du følte deg bare litt rolig... eller et sted du skulle ønske eksisterte.",
-      "Nå plasser deg der...",
-      "Sitter, står du eller ligger du ned?"
-    ],
+    "description": {
+      "0": "Tenk på et sted hvor du følte deg bare litt rolig... eller et sted du skulle ønske eksisterte.",
+      "1": "Nå plasser deg der...",
+      "2": "Sitter, står du eller ligger du ned?"
+    },
     "button": "Fortsett"
   },
   "s3": {
     "title": "Se deg rundt, sakte",
-    "description": [
-      "Ta en forsiktig titt rundt...",
-      "Hva er én ting du kan se?",
-      "Legg merke til en lyd... Hva hører du?"
-    ],
+    "description": {
+      "0": "Ta en forsiktig titt rundt...",
+      "1": "Hva er én ting du kan se?",
+      "2": "Legg merke til en lyd... Hva hører du?"
+    },
     "button": "Fortsett"
   },
   "s4": {
     "title": "Hold deg til dette",
-    "description": [
-      "Hva er det med dette stedet som får det til å føles bare litt trygt eller greit?",
-      "Som du legger merke til at...",
-      "Dra også oppmerksomheten mot pusten din."
-    ],
+    "description": {
+      "0": "Hva er det med dette stedet som får det til å føles bare litt trygt eller greit?",
+      "1": "Som du legger merke til at...",
+      "2": "Dra også oppmerksomheten mot pusten din."
+    },
     "breathe": "pust",
     "notice": "Hvis det føles vanskelig å forestille seg, tenk bare på ideen om dette stedet.",
     "button": "Fortsett"
   },
   "s5": {
     "title": "Ta dette med deg",
-    "description": [
-      "Legg merke til hvordan du føler deg akkurat nå. Selv en liten endring betyr noe.",
-      "Se om du kan bære med deg selv 5 % av denne følelsen."
-    ],
+    "description": {
+      "0": "Legg merke til hvordan du føler deg akkurat nå. Selv en liten endring betyr noe.",
+      "1": "Se om du kan bære med deg selv 5 % av denne følelsen."
+    },
     "placeholder": "Hvordan føler du deg nå?",
     "button": "Fullstendig sesjon"
   },
@@ -70,5 +70,6 @@
     "next": "Neste",
     "save": "Spare",
     "loading": "Laster inn..."
-  }
+  },
+  "app_description": "karusell"
 }

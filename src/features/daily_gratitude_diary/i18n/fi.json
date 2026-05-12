@@ -44,5 +44,7 @@
     "loading": "Ladataan..."
   },
   "app_complete_title": "Kiitollisuus pelastettu",
-  "app_complete_message": "Kiitollisuuden pohtiminen on voimakas tapa siirtää huomiosi positiiviseen."
+  "app_complete_message": "Kiitollisuuden pohtiminen on voimakas tapa siirtää huomiosi positiiviseen.",
+  "app_duration": "3–5 minuuttia",
+  "app_description": "karuselli"
 }

@@ -42,5 +42,10 @@
     "next": "Susunod",
     "save": "I-save",
     "loading": "Naglo-load..."
-  }
+  },
+  "app_duration": "60 segundo",
+  "intro_p1": "Ilabas ang iyong pagkamalikhain",
+  "intro_p2": "Ilabas ang nakakulong na enerhiya",
+  "intro_p3": "Agarang pag-reset ng utak",
+  "app_description": "karusel"
 }

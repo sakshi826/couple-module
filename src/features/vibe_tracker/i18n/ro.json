@@ -51,5 +51,10 @@
     "next": "Următorul",
     "save": "Salva",
     "loading": "Încărcare..."
-  }
+  },
+  "app_duration": "1-2 minute",
+  "intro_p1": "Urmărește-ți tiparele emoționale",
+  "intro_p2": "Reflectă asupra stării tale de spirit de astăzi",
+  "intro_p3": "Dezvoltați conștientizarea emoțională",
+  "app_description": "carusel"
 }

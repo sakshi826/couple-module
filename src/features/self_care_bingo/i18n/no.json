@@ -62,5 +62,7 @@
     "loading": "Laster inn..."
   },
   "complete_title": "Bingo-mester!",
-  "complete_message": "Gratulerer! Du har fullført en linje med egenomsorg. Sinn og kropp takker deg."
+  "complete_message": "Gratulerer! Du har fullført en linje med egenomsorg. Sinn og kropp takker deg.",
+  "app_duration": "Når som helst",
+  "app_description": "karusell"
 }

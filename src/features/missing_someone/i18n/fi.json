@@ -1,10 +1,10 @@
 {
   "app_title": "Kaipaan jotakuta",
-  "subtitles": [
-    "Validointi",
-    "Sisäinen viisaus",
-    "Täydellinen"
-  ],
+  "subtitles": {
+    "0": "Validointi",
+    "1": "Sisäinen viisaus",
+    "2": "Täydellinen"
+  },
   "complete_title": "Selkeys saavutettu",
   "complete_message": "Toisen ikävöimisen kemian ymmärtäminen on ensimmäinen askel kohti paranemista. Tunteesi ovat oikeutettuja, ja aivosi tekevät vain työtään suojellakseen ja käsitelläkseen niitä.",
   "screen1": {
@@ -34,5 +34,6 @@
     "next": "Seuraava",
     "save": "Tallentaa",
     "loading": "Ladataan..."
-  }
+  },
+  "app_description": "karuselli"
 }

@@ -55,5 +55,10 @@
     "next": "Next",
     "save": "Save",
     "loading": "Loading..."
-  }
+  },
+  "app_duration": "1 minute",
+  "intro_p1": "Identify energy drains",
+  "intro_p2": "Discover peak productivity times",
+  "intro_p3": "Learn what recharges you",
+  "app_description": "Track your energy levels throughout the day to understand your patterns and optimize your wellbeing."
 }

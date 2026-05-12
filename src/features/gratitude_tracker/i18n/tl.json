@@ -1,40 +1,23 @@
 {
-  "app.title": "Tagasubaybay ng Pasasalamat",
-  "app.description": "Subaybayan ang iyong pang-araw-araw na pasasalamat at kalooban para sa mas mahusay na kalusugang pangkaisipan",
-  "gratitude.heading": "Ano ang ipinagpapasalamat mo ngayon?",
-  "gratitude.subheading": "Maglaan ng ilang sandali upang pagnilayan ang mga magagandang bagay, malaki man o maliit.",
-  "gratitude.item1.label": "Aytem ng Pasasalamat 1",
-  "gratitude.item1.placeholder": "hal. Isang mainit na tasa ng tsaa ngayong umaga...",
-  "gratitude.item2.label": "Aytem ng Pasasalamat 2",
-  "gratitude.item2.placeholder": "hal. Isang mabuting salita mula sa isang kaibigan...",
-  "gratitude.optional": "(opsyonal)",
-  "common.continue": "Magpatuloy",
-  "mood.heading": "Kumusta ang pakiramdam mo?",
-  "mood.subheading": "Piliin ang mood na pinakamahusay na naglalarawan sa iyo ngayon.",
-  "mood.save": "I-save ang Entry ng Pasasalamat",
-  "mood.happy": "Masaya",
-  "mood.calm": "Kalmado",
-  "mood.neutral": "Neutral",
-  "mood.low": "Mababa",
-  "mood.stressed": "Na-stress",
-  "review.heading": "Ang Iyong Pagpasok",
-  "review.date": "Petsa",
-  "review.gratitude1": "Pasasalamat 1",
-  "review.gratitude2": "Pasasalamat 2",
-  "review.mood": "Mood",
-  "review.edit": "I-edit ang Entry",
-  "review.history": "Tingnan ang Kasaysayan",
-  "history.heading": "Kasaysayan",
-  "history.back": "Balik",
-  "history.home": "Pumunta sa Bahay",
-  "history.sun": "Araw",
-  "history.mon": "Aking",
-  "history.tue": "Martes",
-  "history.wed": "Miyerkules",
-  "history.thu": "Kolektahin",
-  "history.fri": "Biyernes",
-  "history.sat": "Sabado",
+  "app": {
+    "title": "Tagasubaybay ng Pasasalamat",
+    "description": "Subaybayan ang iyong pang-araw-araw na pasasalamat at kalooban para sa mas mahusay na kalusugang pangkaisipan"
+  },
+  "gratitude": {
+    "heading": "Ano ang ipinagpapasalamat mo ngayon?",
+    "subheading": "Maglaan ng ilang sandali upang pagnilayan ang mga magagandang bagay, malaki man o maliit.",
+    "item1": {
+      "label": "Aytem ng Pasasalamat 1",
+      "placeholder": "hal. Isang mainit na tasa ng tsaa ngayong umaga..."
+    },
+    "item2": {
+      "label": "Aytem ng Pasasalamat 2",
+      "placeholder": "hal. Isang mabuting salita mula sa isang kaibigan..."
+    },
+    "optional": "(opsyonal)"
+  },
   "common": {
+    "continue": "Magpatuloy",
     "get_started": "Magsimula",
     "start_over": "Magsimula Muli",
     "finish_exit": "Tapusin at Lumabas",
@@ -45,5 +28,42 @@
     "next": "Susunod",
     "save": "I-save",
     "loading": "Naglo-load..."
-  }
+  },
+  "mood": {
+    "heading": "Kumusta ang pakiramdam mo?",
+    "subheading": "Piliin ang mood na pinakamahusay na naglalarawan sa iyo ngayon.",
+    "save": "I-save ang Entry ng Pasasalamat",
+    "happy": "Masaya",
+    "calm": "Kalmado",
+    "neutral": "Neutral",
+    "low": "Mababa",
+    "stressed": "Na-stress"
+  },
+  "review": {
+    "heading": "Ang Iyong Pagpasok",
+    "date": "Petsa",
+    "gratitude1": "Pasasalamat 1",
+    "gratitude2": "Pasasalamat 2",
+    "mood": "Mood",
+    "edit": "I-edit ang Entry",
+    "history": "Tingnan ang Kasaysayan"
+  },
+  "history": {
+    "heading": "Kasaysayan",
+    "back": "Balik",
+    "home": "Pumunta sa Bahay",
+    "sun": "Araw",
+    "mon": "Aking",
+    "tue": "Martes",
+    "wed": "Miyerkules",
+    "thu": "Kolektahin",
+    "fri": "Biyernes",
+    "sat": "Sabado"
+  },
+  "app_duration": "2-3 minuto",
+  "intro_p1": "Pagbutihin ang iyong emosyonal na kagalingan",
+  "intro_p2": "Tumutok sa mga positibong bagay",
+  "intro_p3": "Bumuo ng pangmatagalang ugali ng pasasalamat",
+  "app_description": "karusel",
+  "app_title": "Talaarawan ng Pasasalamat"
 }

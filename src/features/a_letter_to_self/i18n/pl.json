@@ -26,5 +26,11 @@
     "next": "Następny",
     "save": "Ratować",
     "loading": "Załadunek..."
-  }
+  },
+  "app_duration": "10-15 minut",
+  "intro_p1": "brak_osądów",
+  "intro_p2": "Przestrzeń do refleksji",
+  "intro_p3": "Połącz się ze swoim przyszłym „ja”",
+  "app_title": "List do samego siebie",
+  "app_description": "karuzela"
 }

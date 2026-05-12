@@ -165,5 +165,10 @@
   },
   "app_complete_title": "Cítíte se posíleni",
   "app_complete_message": "Denní afirmace pomáhají přetvořit vaše myšlení. Noste tyto pozitivní myšlenky s sebou ještě dnes.",
-  "app_title": "Myšlení"
+  "app_title": "Myšlení",
+  "app_duration": "2–3 minuty",
+  "intro_p1": "common.takeTime",
+  "intro_p2": "common.breathePřirozeně",
+  "intro_p3": "common.noRush",
+  "app_description": "kolotoč"
 }

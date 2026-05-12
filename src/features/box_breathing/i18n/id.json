@@ -32,5 +32,10 @@
   },
   "app_title": "Pernapasan Kotak",
   "app_complete_title": "Kerja bagus!",
-  "app_complete_message": "Anda telah menyelesaikan sesi Box Breathing. Anda harus merasa lebih seimbang dan tenang."
+  "app_complete_message": "Anda telah menyelesaikan sesi Box Breathing. Anda harus merasa lebih seimbang dan tenang.",
+  "app_duration": "5 menit",
+  "intro_p1": "menghirup_4 detik",
+  "intro_p2": "tahan_4 detik",
+  "intro_p3": "hembuskan napas_4 detik",
+  "app_description": "korsel"
 }

@@ -32,5 +32,10 @@
   },
   "app_title": "Αναπνοή κουτιού",
   "app_complete_title": "Καλή δουλειά!",
-  "app_complete_message": "Ολοκληρώσατε τη συνεδρία Box Breathing. Θα πρέπει να αισθάνεστε πιο ισορροπημένοι και ήρεμοι."
+  "app_complete_message": "Ολοκληρώσατε τη συνεδρία Box Breathing. Θα πρέπει να αισθάνεστε πιο ισορροπημένοι και ήρεμοι.",
+  "app_duration": "5 λεπτά",
+  "intro_p1": "εισπνοή_4 δευτ.",
+  "intro_p2": "hold_4s",
+  "intro_p3": "εκπνοή_4 δευτ.",
+  "app_description": "στροβιλοδρόμιο"
 }

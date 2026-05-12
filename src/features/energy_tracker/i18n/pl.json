@@ -55,5 +55,10 @@
     "next": "Następny",
     "save": "Ratować",
     "loading": "Załadunek..."
-  }
+  },
+  "app_duration": "1 minuta",
+  "intro_p1": "Zidentyfikuj źródła poboru energii",
+  "intro_p2": "Odkryj godziny szczytowej produktywności",
+  "intro_p3": "Dowiedz się, co Cię doładowuje",
+  "app_description": "Monitoruj swój poziom energii w ciągu dnia, aby zrozumieć swoje wzorce i zoptymalizować swoje samopoczucie."
 }

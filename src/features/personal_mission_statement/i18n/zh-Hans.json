@@ -60,5 +60,8 @@
     "next": "下一个",
     "save": "节省",
     "loading": "加载中..."
-  }
+  },
+  "app_duration": "5-10分钟",
+  "app_title": "个人使命宣言",
+  "app_description": "旋转木马"
 }

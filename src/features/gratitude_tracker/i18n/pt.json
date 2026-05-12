@@ -1,40 +1,23 @@
 {
-  "app.title": "Rastreador de Gratidão",
-  "app.description": "Monitore sua gratidão e seu humor diariamente para um melhor bem-estar mental.",
-  "gratitude.heading": "Pelo que você é grato hoje?",
-  "gratitude.subheading": "Reserve um momento para refletir sobre as coisas boas, sejam elas grandes ou pequenas.",
-  "gratitude.item1.label": "Gratidão - Item 1",
-  "gratitude.item1.placeholder": "Por exemplo: Uma xícara de chá quente esta manhã...",
-  "gratitude.item2.label": "Gratidão - Item 2",
-  "gratitude.item2.placeholder": "Por exemplo: Uma palavra gentil de um amigo...",
-  "gratitude.optional": "(opcional)",
-  "common.continue": "Continuar",
-  "mood.heading": "Como você está se sentindo?",
-  "mood.subheading": "Selecione o estado de espírito que melhor descreve você neste momento.",
-  "mood.save": "Salvar entrada de gratidão",
-  "mood.happy": "Feliz",
-  "mood.calm": "Calma",
-  "mood.neutral": "Neutro",
-  "mood.low": "Baixo",
-  "mood.stressed": "Estressado",
-  "review.heading": "Sua entrada",
-  "review.date": "Data",
-  "review.gratitude1": "Gratidão 1",
-  "review.gratitude2": "Gratidão 2",
-  "review.mood": "Humor",
-  "review.edit": "Editar entrada",
-  "review.history": "Ver histórico",
-  "history.heading": "História",
-  "history.back": "Voltar",
-  "history.home": "Ir para a página inicial",
-  "history.sun": "Sol",
-  "history.mon": "Meu",
-  "history.tue": "ter",
-  "history.wed": "qua",
-  "history.thu": "Coletar",
-  "history.fri": "sex",
-  "history.sat": "Sentado",
+  "app": {
+    "title": "Rastreador de Gratidão",
+    "description": "Monitore sua gratidão e seu humor diariamente para um melhor bem-estar mental."
+  },
+  "gratitude": {
+    "heading": "Pelo que você é grato hoje?",
+    "subheading": "Reserve um momento para refletir sobre as coisas boas, sejam elas grandes ou pequenas.",
+    "item1": {
+      "label": "Gratidão - Item 1",
+      "placeholder": "Por exemplo: Uma xícara de chá quente esta manhã..."
+    },
+    "item2": {
+      "label": "Gratidão - Item 2",
+      "placeholder": "Por exemplo: Uma palavra gentil de um amigo..."
+    },
+    "optional": "(opcional)"
+  },
   "common": {
+    "continue": "Continuar",
     "get_started": "Comece agora",
     "start_over": "Recomeçar",
     "finish_exit": "Finalizar e sair",
@@ -45,5 +28,42 @@
     "next": "Próximo",
     "save": "Salvar",
     "loading": "Carregando..."
-  }
+  },
+  "mood": {
+    "heading": "Como você está se sentindo?",
+    "subheading": "Selecione o estado de espírito que melhor descreve você neste momento.",
+    "save": "Salvar entrada de gratidão",
+    "happy": "Feliz",
+    "calm": "Calma",
+    "neutral": "Neutro",
+    "low": "Baixo",
+    "stressed": "Estressado"
+  },
+  "review": {
+    "heading": "Sua entrada",
+    "date": "Data",
+    "gratitude1": "Gratidão 1",
+    "gratitude2": "Gratidão 2",
+    "mood": "Humor",
+    "edit": "Editar entrada",
+    "history": "Ver histórico"
+  },
+  "history": {
+    "heading": "História",
+    "back": "Voltar",
+    "home": "Ir para a página inicial",
+    "sun": "Sol",
+    "mon": "Meu",
+    "tue": "ter",
+    "wed": "qua",
+    "thu": "Coletar",
+    "fri": "sex",
+    "sat": "Sentado"
+  },
+  "app_duration": "2-3 minutos",
+  "intro_p1": "Melhore seu bem-estar emocional",
+  "intro_p2": "Concentre-se nas coisas positivas.",
+  "intro_p3": "Cultive o hábito duradouro da gratidão.",
+  "app_description": "carrossel",
+  "app_title": "Diário da Gratidão"
 }

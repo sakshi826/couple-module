@@ -14,8 +14,8 @@ const WelcomeScreen: React.FC<Props> = ({ onBegin, onShowHistory }) => {
   return (
     <div className="py-6">
       <PremiumIntro
-        title={t("welcome.title")}
-        description={t("welcome.description")}
+        title={t("app_title")}
+        description={t("app_description")}
         onStart={onBegin}
         icon={<Palette size={32} />}
         benefits={t("welcome.benefits", { returnObjects: true }) as string[]}

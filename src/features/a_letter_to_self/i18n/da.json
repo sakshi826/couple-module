@@ -26,5 +26,11 @@
     "next": "Næste",
     "save": "Spare",
     "loading": "Indlæser..."
-  }
+  },
+  "app_duration": "10-15 minutter",
+  "intro_p1": "ingen_domme",
+  "intro_p2": "Et rum til refleksion",
+  "intro_p3": "Forbind dig med dit fremtidige jeg",
+  "app_title": "Brev til sig selv",
+  "app_description": "karrusel"
 }

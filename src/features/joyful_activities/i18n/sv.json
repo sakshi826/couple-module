@@ -55,5 +55,8 @@
     "loading": "Belastning..."
   },
   "app_complete_title": "Joy bevarad",
-  "app_complete_message": "Du har framgångsrikt återkallat och kopplat till en källa till glädje. Behåll den här känslan när du går igenom dagen."
+  "app_complete_message": "Du har framgångsrikt återkallat och kopplat till en källa till glädje. Behåll den här känslan när du går igenom dagen.",
+  "app_duration": "5 minuter",
+  "app_title": "Glädjefyllda aktiviteter",
+  "app_description": "karusell"
 }

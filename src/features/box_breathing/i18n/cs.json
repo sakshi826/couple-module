@@ -32,5 +32,10 @@
   },
   "app_title": "Box Breathing",
   "app_complete_title": "Skvělá práce!",
-  "app_complete_message": "Dokončili jste trénink Box Breathing. Měl bys se cítit vyrovnanější a klidnější."
+  "app_complete_message": "Dokončili jste trénink Box Breathing. Měl bys se cítit vyrovnanější a klidnější.",
+  "app_duration": "5 minut",
+  "intro_p1": "inhale_4s",
+  "intro_p2": "hold_4s",
+  "intro_p3": "výdech_4s",
+  "app_description": "kolotoč"
 }

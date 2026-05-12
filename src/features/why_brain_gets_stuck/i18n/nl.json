@@ -10,20 +10,20 @@
   "s2": {
     "tag": "Zachte waarheden",
     "title": "Hersenoverlevingslogica",
-    "truths": [
-      {
+    "truths": {
+      "0": {
         "header": "Het alarm bleef aan",
         "body": "Hyperwaakzaamheid en snel schrikken zijn geen overreacties — het alarmsysteem van je hersenen doet zijn werk te goed."
       },
-      {
+      "1": {
         "header": "Flashbacks zijn herinneringen",
         "body": "Triggers trekken je brein terug omdat het nooit het signaal kreeg dat de dreiging voorbij was. Het probeert je te beschermen."
       },
-      {
+      "2": {
         "header": "Vechtend voor jou",
         "body": "Elk symptoom was ooit een overlevingsdaad. Je brein deed wat het moest doen om je in leven te houden."
       }
-    ],
+    },
     "healing": "Genezen gaat niet over vergeten. Het gaat erom je brein te helpen leren dat je nu veilig bent."
   },
   "common": {
@@ -37,5 +37,6 @@
     "next": "Volgende",
     "save": "Redden",
     "loading": "Laden..."
-  }
+  },
+  "app_description": "carrousel"
 }

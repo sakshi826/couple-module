@@ -55,5 +55,10 @@
     "next": "Næste",
     "save": "Spare",
     "loading": "Indlæser..."
-  }
+  },
+  "app_duration": "1 minut",
+  "intro_p1": "Identificer energidræn",
+  "intro_p2": "Opdag tidspunkter med høj produktivitet",
+  "intro_p3": "Lær hvad der genoplader dig",
+  "app_description": "Spor dit energiniveau i løbet af dagen for at forstå dine mønstre og optimere dit velbefindende."
 }

@@ -73,13 +73,13 @@
     "confirmDelete": "Silme işlemini onaylayın",
     "cancel": "İptal etmek",
     "delete": "Girişi sil",
-    "prompts": [
-      "Gerginlik hissettirmeyen küçük bir an…",
-      "Partnerinizin yaptığı bir girişim…",
-      "Değişmeden kalan bir özellik…",
-      "Niyet",
-      "Duygusal Durum Değerlendirmesi"
-    ]
+    "prompts": {
+      "0": "Gerginlik hissettirmeyen küçük bir an…",
+      "1": "Partnerinizin yaptığı bir girişim…",
+      "2": "Değişmeden kalan bir özellik…",
+      "3": "Niyet",
+      "4": "Duygusal Durum Değerlendirmesi"
+    }
   },
   "common": {
     "get_started": "Başlayın",
@@ -92,5 +92,11 @@
     "next": "Sonraki",
     "save": "Kaydetmek",
     "loading": "Yükleniyor..."
-  }
+  },
+  "app_duration": "3-5 dakika",
+  "intro_p1": "Şükran duygusunu geliştirin.",
+  "intro_p2": "Stresi azaltın",
+  "intro_p3": "İyilik halini iyileştirin",
+  "app_title": "Yansıtmak",
+  "app_description": "atlıkarınca"
 }

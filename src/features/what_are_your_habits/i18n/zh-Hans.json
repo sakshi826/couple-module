@@ -64,5 +64,11 @@
     "next": "下一个",
     "save": "节省",
     "loading": "加载中..."
-  }
+  },
+  "app_duration": "5分钟",
+  "intro_p1": "了解你的日常规律",
+  "intro_p2": "找出有益的习惯",
+  "intro_p3": "创造积极改变",
+  "app_title": "你有什么生活习惯？",
+  "app_description": "旋转木马"
 }

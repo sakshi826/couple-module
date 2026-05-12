@@ -32,5 +32,10 @@
   },
   "app_title": "박스 브리스킹",
   "app_complete_title": "정말 잘했어요!",
-  "app_complete_message": "박스 브리싱 세션을 완료하셨습니다. 더 균형 잡히고 차분함을 느낄 수 있을 거예요."
+  "app_complete_message": "박스 브리싱 세션을 완료하셨습니다. 더 균형 잡히고 차분함을 느낄 수 있을 거예요.",
+  "app_duration": "5분",
+  "intro_p1": "4초 동안 숨을 들이쉬세요",
+  "intro_p2": "hold_4s",
+  "intro_p3": "숨을 내쉬다_4초",
+  "app_description": "회전목마"
 }

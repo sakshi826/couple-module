@@ -42,5 +42,10 @@
     "next": "Następny",
     "save": "Ratować",
     "loading": "Załadunek..."
-  }
+  },
+  "app_duration": "60 sekund",
+  "intro_p1": "Uwolnij swoją kreatywność",
+  "intro_p2": "Uwolnij zgromadzoną energię",
+  "intro_p3": "Natychmiastowe resetowanie mózgu",
+  "app_description": "karuzela"
 }

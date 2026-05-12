@@ -21,24 +21,24 @@
       "placeholder": "Entrée un nom...",
       "button": "Enregistrer le nom"
     },
-    "prompts": [
-      "Une personne qui apporte de la joie",
-      "Une personne qui te soutient",
-      "Une personne à qui tu peux parler",
-      "Une personne en qui tu as confiance",
-      "Une personne qui vous inspire"
-    ]
+    "prompts": {
+      "0": "Une personne qui apporte de la joie",
+      "1": "Une personne qui te soutient",
+      "2": "Une personne à qui tu peux parler",
+      "3": "Une personne en qui tu as confiance",
+      "4": "Une personne qui vous inspire"
+    }
   },
   "reflection": {
     "subtitle": "Réflexions finales",
     "title": "Qu’est-ce que tu remarques ?",
     "p_intro": "Prenez un moment pour observer votre cercle. Vous remarquerez peut-être :",
-    "list": [
-      "Certaines personnes se sentent plus proches que d’autres",
-      "Certaines connexions semblent fortes",
-      "Certains paraissent distants ou peu clairs",
-      "Il peut y avoir des manques — ou seulement quelques personnes significatives"
-    ],
+    "list": {
+      "0": "Certaines personnes se sentent plus proches que d’autres",
+      "1": "Certaines connexions semblent fortes",
+      "2": "Certains paraissent distants ou peu clairs",
+      "3": "Il peut y avoir des manques — ou seulement quelques personnes significatives"
+    },
     "italic": "La conscience est la première étape pour construire les liens que vous valorisez. 🧘",
     "label": "💭 Y a-t-il quelqu’un avec qui tu aimerais te sentir plus connectée ?",
     "placeholder": "Écrivez vos pensées ici...",
@@ -69,5 +69,6 @@
     "next": "Suivant",
     "save": "Sauvegarder",
     "loading": "Chargement..."
-  }
+  },
+  "app_description": "carrousel"
 }

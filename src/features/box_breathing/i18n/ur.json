@@ -32,5 +32,10 @@
   },
   "app_title": "باکس بریتھنگ",
   "app_complete_title": "زبردست کام!",
-  "app_complete_message": "آپ نے باکس بریتھنگ سیشن مکمل کر لیا ہے۔ آپ کو زیادہ متوازن اور پرسکون محسوس کرنا چاہیے۔"
+  "app_complete_message": "آپ نے باکس بریتھنگ سیشن مکمل کر لیا ہے۔ آپ کو زیادہ متوازن اور پرسکون محسوس کرنا چاہیے۔",
+  "app_duration": "5 منٹ",
+  "intro_p1": "inhale_4s",
+  "intro_p2": "hold_4s",
+  "intro_p3": "exhale_4s",
+  "app_description": "carousel"
 }

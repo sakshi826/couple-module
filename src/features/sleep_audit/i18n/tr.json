@@ -28,43 +28,43 @@
       }
     }
   },
-  "options": [
-    {
+  "options": {
+    "0": {
       "emoji": "🕐",
       "text": "Her gece çok farklı saatlerde yatıyorum"
     },
-    {
+    "1": {
       "emoji": "💡",
       "text": "Uyku ortamım ne karanlık, ne sessiz ne de rahat"
     },
-    {
+    "2": {
       "emoji": "📱",
       "text": "Uyumadan hemen önce telefonumda kaydırıyorum"
     },
-    {
+    "3": {
       "emoji": "☕",
       "text": "Yatma vaktine yakın kafein veya alkol kullanıyorum"
     },
-    {
+    "4": {
       "emoji": "😵",
       "text": "Gece uyanıyorum ve tekrar uyumaya çalışmakta zorlanıyorum"
     },
-    {
+    "5": {
       "emoji": "🧠",
       "text": "Uyumaya çalıştığımda zihnim düşüncelerle dolup taşır"
     },
-    {
+    "6": {
       "emoji": "😔",
       "text": "Bir gece uykusundan sonra nadiren kendimi ferahlanmış hissederim"
     }
-  ],
-  "rating_labels": [
-    "Çok fakir",
-    "Zavallı",
-    "Tamam",
-    "İyi.",
-    "Harika"
-  ],
+  },
+  "rating_labels": {
+    "0": "Çok fakir",
+    "1": "Zavallı",
+    "2": "Tamam",
+    "3": "İyi.",
+    "4": "Harika"
+  },
   "status_labels": {
     "track": "Çoğunlukla pistte",
     "disruptions": "Bazı aksaklıklar",
@@ -102,5 +102,6 @@
     "next": "Sonraki",
     "save": "Kaydetmek",
     "loading": "Yükleniyor..."
-  }
+  },
+  "app_description": "atlıkarınca"
 }

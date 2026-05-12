@@ -6,7 +6,7 @@ const SeekSupport = () => {
 
   return (
     <TipDetailLayout
-      title={t("tip_seek_support")}
+      title={t("app_title")}
       whyItHelps={t("support_why")}
       whatYouCanDo={[
         t("support_step1"),

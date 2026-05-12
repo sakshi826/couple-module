@@ -1,40 +1,23 @@
 {
-  "app.title": "Suivi de la gratitude",
-  "app.description": "Suivez votre gratitude quotidienne et votre humeur pour un meilleur bien-être mental.",
-  "gratitude.heading": "De quoi êtes-vous reconnaissant aujourd'hui ?",
-  "gratitude.subheading": "Prenez un moment pour réfléchir aux bonnes choses, grandes ou petites.",
-  "gratitude.item1.label": "Article de gratitude 1",
-  "gratitude.item1.placeholder": "Par exemple, une bonne tasse de thé chaud ce matin...",
-  "gratitude.item2.label": "Article de gratitude 2",
-  "gratitude.item2.placeholder": "Par exemple, un mot gentil d'un ami...",
-  "gratitude.optional": "(facultatif)",
-  "common.continue": "Continuer",
-  "mood.heading": "Comment te sens-tu?",
-  "mood.subheading": "Sélectionnez l'humeur qui vous décrit le mieux en ce moment.",
-  "mood.save": "Enregistrer l'entrée de gratitude",
-  "mood.happy": "Heureux",
-  "mood.calm": "Calme",
-  "mood.neutral": "Neutre",
-  "mood.low": "Faible",
-  "mood.stressed": "Stressé",
-  "review.heading": "Votre entrée",
-  "review.date": "Date",
-  "review.gratitude1": "Gratitude 1",
-  "review.gratitude2": "Gratitude 2",
-  "review.mood": "Humeur",
-  "review.edit": "Modifier l'entrée",
-  "review.history": "Consulter l'historique",
-  "history.heading": "Histoire",
-  "history.back": "Dos",
-  "history.home": "Retour à l'accueil",
-  "history.sun": "Soleil",
-  "history.mon": "Mon",
-  "history.tue": "Mar",
-  "history.wed": "Épouser",
-  "history.thu": "Collecter",
-  "history.fri": "Ven",
-  "history.sat": "Assis",
+  "app": {
+    "title": "Suivi de la gratitude",
+    "description": "Suivez votre gratitude quotidienne et votre humeur pour un meilleur bien-être mental."
+  },
+  "gratitude": {
+    "heading": "De quoi êtes-vous reconnaissant aujourd'hui ?",
+    "subheading": "Prenez un moment pour réfléchir aux bonnes choses, grandes ou petites.",
+    "item1": {
+      "label": "Article de gratitude 1",
+      "placeholder": "Par exemple, une bonne tasse de thé chaud ce matin..."
+    },
+    "item2": {
+      "label": "Article de gratitude 2",
+      "placeholder": "Par exemple, un mot gentil d'un ami..."
+    },
+    "optional": "(facultatif)"
+  },
   "common": {
+    "continue": "Continuer",
     "get_started": "Commencer",
     "start_over": "Recommencer",
     "finish_exit": "Fin et sortie",
@@ -45,5 +28,42 @@
     "next": "Suivant",
     "save": "Sauvegarder",
     "loading": "Chargement..."
-  }
+  },
+  "mood": {
+    "heading": "Comment te sens-tu?",
+    "subheading": "Sélectionnez l'humeur qui vous décrit le mieux en ce moment.",
+    "save": "Enregistrer l'entrée de gratitude",
+    "happy": "Heureux",
+    "calm": "Calme",
+    "neutral": "Neutre",
+    "low": "Faible",
+    "stressed": "Stressé"
+  },
+  "review": {
+    "heading": "Votre entrée",
+    "date": "Date",
+    "gratitude1": "Gratitude 1",
+    "gratitude2": "Gratitude 2",
+    "mood": "Humeur",
+    "edit": "Modifier l'entrée",
+    "history": "Consulter l'historique"
+  },
+  "history": {
+    "heading": "Histoire",
+    "back": "Dos",
+    "home": "Retour à l'accueil",
+    "sun": "Soleil",
+    "mon": "Mon",
+    "tue": "Mar",
+    "wed": "Épouser",
+    "thu": "Collecter",
+    "fri": "Ven",
+    "sat": "Assis"
+  },
+  "app_duration": "2-3 minutes",
+  "intro_p1": "Améliorez votre bien-être émotionnel",
+  "intro_p2": "Concentrez-vous sur les aspects positifs.",
+  "intro_p3": "Cultivez une habitude durable de gratitude",
+  "app_description": "carrousel",
+  "app_title": "Journal de gratitude"
 }

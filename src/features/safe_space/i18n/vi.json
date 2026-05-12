@@ -1,57 +1,57 @@
 {
   "app_title": "Không gian an toàn",
-  "nav": [
-    "Nhận phòng",
-    "Nhẹ nhàng nhớ lại",
-    "Quan sát",
-    "Luôn hiện diện",
-    "Tiến lên phía trước"
-  ],
+  "nav": {
+    "0": "Nhận phòng",
+    "1": "Nhẹ nhàng nhớ lại",
+    "2": "Quan sát",
+    "3": "Luôn hiện diện",
+    "4": "Tiến lên phía trước"
+  },
   "s1": {
     "title": "Hãy tìm một nơi cảm thấy ổn",
-    "description": [
-      "Trước khi chúng ta bắt đầu, hãy dành một chút thời gian để kiểm tra...",
-      "Bạn cảm thấy thế nào ngay bây giờ?",
-      "Chúng tôi không tìm kiếm một \"nơi an toàn\" hoàn hảo. Chỉ là một cái gì đó cảm thấy bình tĩnh hoặc ổn một chút."
-    ],
+    "description": {
+      "0": "Trước khi chúng ta bắt đầu, hãy dành một chút thời gian để kiểm tra...",
+      "1": "Bạn cảm thấy thế nào ngay bây giờ?",
+      "2": "Chúng tôi không tìm kiếm một \"nơi an toàn\" hoàn hảo. Chỉ là một cái gì đó cảm thấy bình tĩnh hoặc ổn một chút."
+    },
     "placeholder": "Bạn cảm thấy thế nào ngay bây giờ?",
     "button": "Bắt đầu trực quan hóa"
   },
   "s2": {
     "title": "Nhẹ nhàng đưa nó vào tâm trí",
-    "description": [
-      "Hãy nghĩ về một nơi mà bạn cảm thấy thoải mái dù chỉ một chút... hoặc một nơi bạn muốn tồn tại.",
-      "Bây giờ hãy đặt mình ở đó...",
-      "Bạn đang ngồi, đứng hay nằm?"
-    ],
+    "description": {
+      "0": "Hãy nghĩ về một nơi mà bạn cảm thấy thoải mái dù chỉ một chút... hoặc một nơi bạn muốn tồn tại.",
+      "1": "Bây giờ hãy đặt mình ở đó...",
+      "2": "Bạn đang ngồi, đứng hay nằm?"
+    },
     "button": "Tiếp tục"
   },
   "s3": {
     "title": "Nhìn xung quanh từ từ",
-    "description": [
-      "Hãy nhẹ nhàng nhìn xung quanh...",
-      "Một điều bạn có thể nhìn thấy là gì?",
-      "Bây giờ hãy chú ý một âm thanh... Bạn nghe thấy gì?"
-    ],
+    "description": {
+      "0": "Hãy nhẹ nhàng nhìn xung quanh...",
+      "1": "Một điều bạn có thể nhìn thấy là gì?",
+      "2": "Bây giờ hãy chú ý một âm thanh... Bạn nghe thấy gì?"
+    },
     "button": "Tiếp tục"
   },
   "s4": {
     "title": "Ở lại với điều này",
-    "description": [
-      "Điều gì ở nơi này khiến nó cảm thấy an toàn hoặc ổn dù chỉ một chút?",
-      "Như bạn nhận thấy rằng...",
-      "cũng chú ý đến hơi thở của bạn."
-    ],
+    "description": {
+      "0": "Điều gì ở nơi này khiến nó cảm thấy an toàn hoặc ổn dù chỉ một chút?",
+      "1": "Như bạn nhận thấy rằng...",
+      "2": "cũng chú ý đến hơi thở của bạn."
+    },
     "breathe": "hít thở",
     "notice": "Nếu tưởng tượng cảm thấy khó khăn, chỉ cần nghĩ về ý tưởng về nơi này.",
     "button": "Tiếp tục"
   },
   "s5": {
     "title": "Mang theo bên mình",
-    "description": [
-      "Chú ý cảm giác của bạn ngay bây giờ. Ngay cả một sự thay đổi nhỏ cũng quan trọng.",
-      "Hãy xem liệu bạn có thể mang theo thậm chí 5% cảm giác này bên mình hay không."
-    ],
+    "description": {
+      "0": "Chú ý cảm giác của bạn ngay bây giờ. Ngay cả một sự thay đổi nhỏ cũng quan trọng.",
+      "1": "Hãy xem liệu bạn có thể mang theo thậm chí 5% cảm giác này bên mình hay không."
+    },
     "placeholder": "Bây giờ bạn cảm thấy thế nào?",
     "button": "Hoàn thành phiên"
   },
@@ -70,5 +70,6 @@
     "next": "Kế tiếp",
     "save": "Cứu",
     "loading": "Đang tải..."
-  }
+  },
+  "app_description": "vòng quay ngựa gỗ"
 }

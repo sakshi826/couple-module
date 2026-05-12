@@ -11,16 +11,12 @@ export const Welcome = ({ onStart }: Props) => {
   
   return (
     <PremiumIntro
-      title={t("welcome_title")}
+      title={t("app_title")}
       description={t("welcome_subtitle") + " " + t("welcome_desc")}
       onStart={onStart}
       icon={<Brain size={32} />}
-      benefits={[
-        t("step_1"),
-        t("step_2"),
-        t("step_3")
-      ]}
-      duration="5-10 minutes"
+      benefits={[t('intro_p1'), t('intro_p2'), t('intro_p3')]}
+      duration={t('app_duration', "5-10 minutes")}
     />
   );
 };

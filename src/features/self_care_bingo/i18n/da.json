@@ -62,5 +62,7 @@
     "loading": "Indlæser..."
   },
   "complete_title": "Bingo Mester!",
-  "complete_message": "Tillykke! Du har gennemført en række egenomsorgslinjer. Din krop og sind takker dig."
+  "complete_message": "Tillykke! Du har gennemført en række egenomsorgslinjer. Din krop og sind takker dig.",
+  "app_duration": "Når som helst",
+  "app_description": "karrusel"
 }

@@ -48,5 +48,11 @@
     "next": "Volgende",
     "save": "Redden",
     "loading": "Laden..."
-  }
+  },
+  "app_duration": "5-10 minuten",
+  "intro_p1": "stap_1",
+  "intro_p2": "stap_2",
+  "intro_p3": "stap_3",
+  "app_title": "Brainstormsessie",
+  "app_description": "carrousel"
 }

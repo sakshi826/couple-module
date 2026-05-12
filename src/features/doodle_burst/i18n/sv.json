@@ -42,5 +42,10 @@
     "next": "Nästa",
     "save": "Spara",
     "loading": "Belastning..."
-  }
+  },
+  "app_duration": "60 sekunder",
+  "intro_p1": "Släpp lös din kreativitet",
+  "intro_p2": "Frigör uppdämd energi",
+  "intro_p3": "Omedelbar hjärnåterställning",
+  "app_description": "karusell"
 }

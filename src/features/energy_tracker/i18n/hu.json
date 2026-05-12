@@ -55,5 +55,10 @@
     "next": "Következő",
     "save": "Megtakarítás",
     "loading": "Terhelés..."
-  }
+  },
+  "app_duration": "1 perc",
+  "intro_p1": "Azonosítsa az energiaelnyelőket",
+  "intro_p2": "Fedezze fel a csúcshatékonysági időszakokat",
+  "intro_p3": "Ismerd meg, mi tölt fel",
+  "app_description": "Kövesd nyomon az energiaszintedet a nap folyamán, hogy megértsd a mintáidat és optimalizáld a közérzetedet."
 }

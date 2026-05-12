@@ -57,7 +57,7 @@ const Index = () => {
   if (step === 4) {
     return (
       <PremiumComplete
-        title={t("complete.title")}
+        title={t("app_title")}
         message={t("complete.message", { person: personLabel })}
         onRestart={reset}
       />

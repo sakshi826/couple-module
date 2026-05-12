@@ -55,5 +55,8 @@
     "loading": "Yükleniyor..."
   },
   "app_complete_title": "Korunan Neşe",
-  "app_complete_message": "Başarıyla bir sevinç kaynağını hatırladın ve bağ kurdun. Gününüzde bu hissi yanınızda tutun."
+  "app_complete_message": "Başarıyla bir sevinç kaynağını hatırladın ve bağ kurdun. Gününüzde bu hissi yanınızda tutun.",
+  "app_duration": "5 dakika",
+  "app_title": "Neşeli Aktiviteler",
+  "app_description": "atlıkarınca"
 }

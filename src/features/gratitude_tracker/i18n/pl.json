@@ -1,40 +1,23 @@
 {
-  "app.title": "Śledzenie wdzięczności",
-  "app.description": "Śledź swoją codzienną wdzięczność i nastrój, aby poprawić swoje samopoczucie psychiczne",
-  "gratitude.heading": "Za co jesteś dziś wdzięczny?",
-  "gratitude.subheading": "Zatrzymaj się na chwilę i pomyśl o dobrych rzeczach, dużych i małych.",
-  "gratitude.item1.label": "Wdzięczność Element 1",
-  "gratitude.item1.placeholder": "np. Ciepła filiżanka herbaty dziś rano...",
-  "gratitude.item2.label": "Pozycja wdzięczności 2",
-  "gratitude.item2.placeholder": "np. Miłe słowo od przyjaciela...",
-  "gratitude.optional": "(optional)",
-  "common.continue": "Kontynuować",
-  "mood.heading": "Jak się czujesz?",
-  "mood.subheading": "Wybierz nastrój, który najlepiej Cię opisuje w tej chwili.",
-  "mood.save": "Zapisz wpis wdzięczności",
-  "mood.happy": "Szczęśliwy",
-  "mood.calm": "Spokój",
-  "mood.neutral": "Neutralny",
-  "mood.low": "Niski",
-  "mood.stressed": "Akcentowany",
-  "review.heading": "Twój wpis",
-  "review.date": "Data",
-  "review.gratitude1": "Wdzięczność 1",
-  "review.gratitude2": "Wdzięczność 2",
-  "review.mood": "Nastrój",
-  "review.edit": "Edytuj wpis",
-  "review.history": "Wyświetl historię",
-  "history.heading": "Historia",
-  "history.back": "Z powrotem",
-  "history.home": "Przejdź do strony głównej",
-  "history.sun": "Słoneczny",
-  "history.mon": "Mój",
-  "history.tue": "wtorek",
-  "history.wed": "Poślubić",
-  "history.thu": "Zbierać",
-  "history.fri": "Pt",
-  "history.sat": "Sobota",
+  "app": {
+    "title": "Śledzenie wdzięczności",
+    "description": "Śledź swoją codzienną wdzięczność i nastrój, aby poprawić swoje samopoczucie psychiczne"
+  },
+  "gratitude": {
+    "heading": "Za co jesteś dziś wdzięczny?",
+    "subheading": "Zatrzymaj się na chwilę i pomyśl o dobrych rzeczach, dużych i małych.",
+    "item1": {
+      "label": "Wdzięczność Element 1",
+      "placeholder": "np. Ciepła filiżanka herbaty dziś rano..."
+    },
+    "item2": {
+      "label": "Pozycja wdzięczności 2",
+      "placeholder": "np. Miłe słowo od przyjaciela..."
+    },
+    "optional": "(optional)"
+  },
   "common": {
+    "continue": "Kontynuować",
     "get_started": "Zacznij",
     "start_over": "Zacznij od nowa",
     "finish_exit": "Zakończ i wyjdź",
@@ -45,5 +28,42 @@
     "next": "Następny",
     "save": "Ratować",
     "loading": "Załadunek..."
-  }
+  },
+  "mood": {
+    "heading": "Jak się czujesz?",
+    "subheading": "Wybierz nastrój, który najlepiej Cię opisuje w tej chwili.",
+    "save": "Zapisz wpis wdzięczności",
+    "happy": "Szczęśliwy",
+    "calm": "Spokój",
+    "neutral": "Neutralny",
+    "low": "Niski",
+    "stressed": "Akcentowany"
+  },
+  "review": {
+    "heading": "Twój wpis",
+    "date": "Data",
+    "gratitude1": "Wdzięczność 1",
+    "gratitude2": "Wdzięczność 2",
+    "mood": "Nastrój",
+    "edit": "Edytuj wpis",
+    "history": "Wyświetl historię"
+  },
+  "history": {
+    "heading": "Historia",
+    "back": "Z powrotem",
+    "home": "Przejdź do strony głównej",
+    "sun": "Słoneczny",
+    "mon": "Mój",
+    "tue": "wtorek",
+    "wed": "Poślubić",
+    "thu": "Zbierać",
+    "fri": "Pt",
+    "sat": "Sobota"
+  },
+  "app_duration": "2-3 minuty",
+  "intro_p1": "Popraw swoje samopoczucie emocjonalne",
+  "intro_p2": "Skup się na pozytywnych rzeczach",
+  "intro_p3": "Zbuduj trwały nawyk wdzięczności",
+  "app_description": "karuzela",
+  "app_title": "Dziennik wdzięczności"
 }

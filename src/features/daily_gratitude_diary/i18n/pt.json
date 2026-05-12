@@ -44,5 +44,7 @@
     "loading": "Carregando..."
   },
   "app_complete_title": "Gratidão Salva",
-  "app_complete_message": "Refletir sobre o que você agradece é uma maneira poderosa de direcionar seu foco para o positivo."
+  "app_complete_message": "Refletir sobre o que você agradece é uma maneira poderosa de direcionar seu foco para o positivo.",
+  "app_duration": "3-5 minutos",
+  "app_description": "carrossel"
 }

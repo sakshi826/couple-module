@@ -43,5 +43,7 @@
     "next": "Nächste",
     "save": "Speichern",
     "loading": "Laden..."
-  }
+  },
+  "app_duration": "5 Minuten",
+  "app_description": "Karussell"
 }

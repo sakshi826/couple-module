@@ -4,11 +4,11 @@
   "intro": {
     "title": "Previsão vs Realidade",
     "description": "Compare suas previsões ansiosas com o que realmente acontece para construir uma perspectiva mais equilibrada.",
-    "benefits": [
-      "Identificar padrões de ansiedade",
-      "Colete evidências contra medos",
-      "Reduza o excesso de pensamento no futuro"
-    ],
+    "benefits": {
+      "0": "Identificar padrões de ansiedade",
+      "1": "Colete evidências contra medos",
+      "2": "Reduza o excesso de pensamento no futuro"
+    },
     "duration": "4-5 minutos",
     "view_past": "Veja reflexões passadas"
   },
@@ -24,23 +24,23 @@
     "saved_title": "Reflexão Salva",
     "message": "Ao olhar para os fatos, você está ajudando sua mente a aprender que as coisas muitas vezes são mais administráveis do que parecem."
   },
-  "emotions": [
-    "Ansioso",
-    "Nervoso",
-    "Assustado",
-    "Sobrecarregado",
-    "Inquieto"
-  ],
+  "emotions": {
+    "0": "Ansioso",
+    "1": "Nervoso",
+    "2": "Assustado",
+    "3": "Sobrecarregado",
+    "4": "Inquieto"
+  },
   "intensity_labels": {
     "not_intense": "Não intenso",
     "very_intense": "Muito intenso"
   },
-  "comparison_options": [
-    "Aconteceu quase exatamente como eu esperava",
-    "Algumas partes estavam certas, mas nem todas",
-    "Foi bem diferente do que eu esperava",
-    "Foi muito mais fácil/melhor do que eu imaginava"
-  ],
+  "comparison_options": {
+    "0": "Aconteceu quase exatamente como eu esperava",
+    "1": "Algumas partes estavam certas, mas nem todas",
+    "2": "Foi bem diferente do que eu esperava",
+    "3": "Foi muito mais fácil/melhor do que eu imaginava"
+  },
   "screens": {
     "s1": {
       "title": "Pense em uma situação recente",
@@ -101,5 +101,6 @@
     "next": "Próximo",
     "save": "Salvar",
     "loading": "Carregando..."
-  }
+  },
+  "app_description": "carrossel"
 }

@@ -22,7 +22,7 @@ export const Reflection = ({ onComplete, onBack }: Props) => {
 
   return (
     <PremiumComplete
-      title={t("reflection_title")}
+      title={t("app_title")}
       message={t("reflection_desc")}
       onRestart={() => onComplete(selected || "Finished")}
     >

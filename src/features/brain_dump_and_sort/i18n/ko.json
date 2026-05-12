@@ -48,5 +48,11 @@
     "next": "다음",
     "save": "구하다",
     "loading": "로딩 중..."
-  }
+  },
+  "app_duration": "5-10분",
+  "intro_p1": "단계_1",
+  "intro_p2": "2단계",
+  "intro_p3": "3단계",
+  "app_title": "생각나는 대로 적어봅니다",
+  "app_description": "회전목마"
 }

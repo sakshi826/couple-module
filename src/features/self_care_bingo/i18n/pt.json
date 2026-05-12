@@ -62,5 +62,7 @@
     "loading": "Carregando..."
   },
   "complete_title": "Mestre do Bingo!",
-  "complete_message": "Parabéns! Você completou com sucesso uma linha de autocuidado. Sua mente e corpo, obrigado."
+  "complete_message": "Parabéns! Você completou com sucesso uma linha de autocuidado. Sua mente e corpo, obrigado.",
+  "app_duration": "A qualquer momento",
+  "app_description": "carrossel"
 }
