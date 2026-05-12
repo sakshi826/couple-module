@@ -69,13 +69,12 @@ const topicCards: TopicCard[] = [
 ];
 
 const toolCards: TopicCard[] = [
-  { id: "box-breathing", icon: Wind, labelKey: "tools.box-breathing", bgColor: "#06b6d4", iconColor: "#00BCD4", url: "/exercises/box-breathing" },
-  { id: "gratitude-tracker", icon: Star, labelKey: "tools.gratitude-tracker", bgColor: "#fbbf24", iconColor: "#F9A825", url: "/trackers/gratitude-tracker" },
-  { id: "deep-breathing", icon: Activity, labelKey: "tools.deep-breathing", bgColor: "#f472b6", iconColor: "#EC407A", url: "/exercises/4-6-8-breathing" },
-  { id: "affirmations", icon: Smile, labelKey: "tools.affirmations", bgColor: "#06b6d4", iconColor: "#0EA5E9", url: "/tools/affirmations" },
-  { id: "mindful-space", icon: Compass, labelKey: "tools.mindful-space", bgColor: "#10b981", iconColor: "#66BB6A", url: "/tools/joyful-activities" },
-  { id: "letter-to-self", icon: Mail, labelKey: "tools.letter-to-self", bgColor: "#fb923c", iconColor: "#FF9800", url: "/tools/a-letter-to-self" },
-  { id: "sleep-tracker", icon: Moon, labelKey: "tools.sleep-tracker", bgColor: "#3b82f6", iconColor: "#3B82F6", url: "https://web.mantracare.com/app/sleep" },
+  { id: "box-breathing", icon: Wind, labelKey: "tools.box-breathing", bgColor: "linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)", iconColor: "#00BCD4", url: "/exercises/box-breathing" },
+  { id: "gratitude-tracker", icon: Star, labelKey: "tools.gratitude-tracker", bgColor: "linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%)", iconColor: "#F9A825", url: "/trackers/gratitude-tracker" },
+  { id: "deep-breathing", icon: Activity, labelKey: "tools.deep-breathing", bgColor: "linear-gradient(135deg, #f472b6 0%, #ec4899 100%)", iconColor: "#EC407A", url: "/exercises/4-6-8-breathing" },
+  { id: "affirmations", icon: Smile, labelKey: "tools.affirmations", bgColor: "linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)", iconColor: "#0EA5E9", url: "/tools/affirmations" },
+  { id: "mindful-space", icon: Compass, labelKey: "tools.mindful-space", bgColor: "linear-gradient(135deg, #10b981 0%, #059669 100%)", iconColor: "#66BB6A", url: "/tools/joyful-activities" },
+  { id: "letter-to-self", icon: Mail, labelKey: "tools.letter-to-self", bgColor: "linear-gradient(135deg, #fb923c 0%, #f97316 100%)", iconColor: "#FF9800", url: "/tools/a-letter-to-self" },
 ];
 
 const topicDetails: Record<string, {
@@ -83,7 +82,7 @@ const topicDetails: Record<string, {
   guidedSeriesUrl?: string;
   exercises: { titleKey: string; icon: any; url?: string; action?: string }[];
   todos: { titleKey: string; icon: any; url?: string }[];
-  resources: { titleKey: string; count: number | string; icon: any; url?: string }[];
+  resources: { titleKey: string; count: number; icon: any; url?: string }[];
 }> = {
   depression: {
     descKey: "topics.depression.desc",
@@ -101,10 +100,10 @@ const topicDetails: Record<string, {
       { titleKey: "tools.letter-to-self", icon: Mail, url: "/tools/a-letter-to-self" },
     ],
     resources: [
-      { titleKey: "hub.articles", count: 5, icon: Newspaper, url: "/resources/depression/articles" },
-      { titleKey: "hub.tips", count: "Pro", icon: Lightbulb, url: "/tips/depression-tips" },
-      { titleKey: "hub.stories", count: 7, icon: BookMarked, url: "/resources/depression/stories" },
-      { titleKey: "hub.myths", count: 6, icon: HelpCircle, url: "/resources/depression/myths" },
+      { titleKey: "hub.articles", count: 35, icon: Newspaper, url: "/resources/depression/articles" },
+      { titleKey: "hub.tips", count: 25, icon: Lightbulb, url: "/tips/depression-tips" },
+      { titleKey: "hub.stories", count: 18, icon: BookMarked, url: "/resources/depression/stories" },
+      { titleKey: "hub.myths", count: 12, icon: HelpCircle, url: "/resources/depression/myths" },
     ],
   },
   anxiety: {
@@ -117,16 +116,16 @@ const topicDetails: Record<string, {
       { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/exercises/diffusion-technique" },
     ],
     todos: [
-      { titleKey: "tools.vibe_tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
+      { titleKey: "trackers.vibe_tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
       { titleKey: "tools.know_values", icon: Brain, url: "/tools/know-your-values" },
-      { titleKey: "tools.thought_shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
+      { titleKey: "exercises.diffusion_technique", icon: RefreshCw, url: "/exercises/diffusion-technique" },
       { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
     ],
     resources: [
-      { titleKey: "hub.articles", count: 4, icon: Newspaper, url: "/resources/anxiety/articles" },
-      { titleKey: "hub.tips", count: "Pro", icon: Lightbulb, url: "/tips/anxiety-tips" },
-      { titleKey: "hub.stories", count: 7, icon: BookMarked, url: "/tools/real-stories-to-overcome-anxiety" },
-      { titleKey: "hub.myths", count: 6, icon: HelpCircle, url: "/resources/anxiety/myths" },
+      { titleKey: "hub.articles", count: 30, icon: Newspaper, url: "/resources/anxiety/articles" },
+      { titleKey: "hub.tips", count: 22, icon: Lightbulb, url: "/tips/anxiety-tips" },
+      { titleKey: "hub.stories", count: 15, icon: BookMarked, url: "/tools/real-stories-to-overcome-anxiety" },
+      { titleKey: "hub.myths", count: 10, icon: HelpCircle, url: "/resources/anxiety/myths" },
     ],
   },
   stress: {
@@ -139,33 +138,16 @@ const topicDetails: Record<string, {
       { titleKey: "exercises.5_4_3_2_1_grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
     ],
     todos: [
-      { titleKey: "tools.energy_tracker", icon: Zap, url: "/trackers/energy-tracker" },
+      { titleKey: "trackers.energy_tracker", icon: Zap, url: "/trackers/energy-tracker" },
       { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
       { titleKey: "tools.know_values", icon: Brain, url: "/tools/know-your-values" },
       { titleKey: "tools.environment_optimization", icon: Compass, url: "/tools/environment-optimization" },
     ],
     resources: [
-      { titleKey: "hub.articles", count: 4, icon: Newspaper, url: "/resources/stress/articles" },
-      { titleKey: "hub.tips", count: "Pro", icon: Lightbulb, url: "/tips/stress-tips" },
-      { titleKey: "hub.stories", count: 7, icon: BookMarked, url: "/resources/stress/stories" },
+      { titleKey: "hub.articles", count: 28, icon: Newspaper, url: "/resources/stress/articles" },
+      { titleKey: "hub.tips", count: 20, icon: Lightbulb, url: "/tips/stress-tips" },
+      { titleKey: "hub.stories", count: 10, icon: BookMarked, url: "/resources/stress/stories" },
       { titleKey: "hub.myths", count: 6, icon: HelpCircle, url: "/resources/stress/myths" },
-    ],
-  },
-  sleep: {
-    descKey: "topics.sleep.desc",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/sleep-better/slp-guided-series/",
-    exercises: [
-      { titleKey: "tips.sleep_guide", icon: Play, url: "/tips/sleep-guide" },
-      { titleKey: "tips.sleep_cycle", icon: Activity, url: "/tips/sleep-cycle-guide" },
-      { titleKey: "tools.sleep_window", icon: Compass, url: "/tools/sleep-window-planner" },
-    ],
-    todos: [
-      { titleKey: "tools.sleep-tracker", icon: Moon, url: "https://web.mantracare.com/app/sleep" },
-      { titleKey: "trackers.sleep_audit", icon: Star, url: "/trackers/sleep-audit" },
-    ],
-    resources: [
-      { titleKey: "hub.articles", count: 4, icon: Newspaper, url: "/resources/sleep/articles" },
-      { titleKey: "hub.tips", count: "Pro", icon: Lightbulb, url: "/tips/sleep-tips" },
     ],
   },
 };
@@ -300,6 +282,48 @@ export function SelfCareResources() {
                       </div>
                     </div>
                   )}
+
+                  {detail.resources && detail.resources.length > 0 && (
+                    <div className="space-y-6 pt-4">
+                      <h2 className="text-xl font-bold text-[#020817]">{t("hub.resources")}</h2>
+                      <div className="space-y-3">
+                        {detail.resources.map((res, i) => {
+                          const ResIcon = res.icon;
+                          const colors = [
+                            { accent: '#F59E0B', bg: '#FFFBEB', bar: '#FDE68A', iconBg: '#FEF3C7' },
+                            { accent: '#3B82F6', bg: '#EFF6FF', bar: '#BFDBFE', iconBg: '#DBEAFE' },
+                            { accent: '#A855F7', bg: '#FAF5FF', bar: '#E9D5FF', iconBg: '#F3E8FF' },
+                            { accent: '#10B981', bg: '#F0FDF4', bar: '#A7F3D0', iconBg: '#D1FAE5' }
+                          ];
+                          const color = colors[i % colors.length];
+                          return (
+                            <motion.button
+                              key={i}
+                              whileHover={{ x: 8, scale: 1.01 }}
+                              onClick={() => res.url?.startsWith('http') ? window.location.href = res.url : navigate(res.url!, { replace: true })}
+                              className="w-full rounded-2xl p-4 flex items-center gap-4 transition-all group relative overflow-hidden text-left"
+                              style={{ backgroundColor: color.bg }}
+                            >
+                              <div className="absolute left-0 top-0 bottom-0 w-1 group-hover:w-1.5 transition-all" style={{ backgroundColor: color.accent }}></div>
+                              <div className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform relative z-10" style={{ backgroundColor: color.iconBg }}>
+                                <ResIcon size={22} style={{ color: color.accent }} />
+                              </div>
+                              <div className="flex-1">
+                                <h3 className="text-sm font-semibold text-[#020817] mb-0.5 leading-tight">{t(res.titleKey)}</h3>
+                                <div className="flex items-center gap-2">
+                                  <div className="h-1 w-12 rounded-full group-hover:w-16 transition-all" style={{ backgroundColor: color.bar }}></div>
+                                  <span className="text-xs text-[#64748B] opacity-0 group-hover:opacity-100 transition-opacity">{t("hub.view_resource")}</span>
+                                </div>
+                              </div>
+                              <div className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:shadow-md transition-all" style={{ backgroundColor: color.iconBg }}>
+                                <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" style={{ color: color.accent }} />
+                              </div>
+                            </motion.button>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  )}
                 </motion.div>
               );
             })() : (
@@ -348,11 +372,14 @@ export function SelfCareResources() {
                         variants={item}
                         whileHover={{ y: -2 }}
                         onClick={() => tool.url?.startsWith('http') ? (window.location.href = tool.url) : navigate(tool.url!, { replace: true })}
-                        className="p-5 rounded-2xl text-white flex flex-col justify-between h-28 shadow-sm"
-                        style={{ backgroundColor: tool.bgColor }}
+                        className="p-5 rounded-2xl text-white flex flex-col justify-between h-28 shadow-sm relative overflow-hidden group"
+                        style={{ background: tool.bgColor }}
                       >
-                        <tool.icon size={28} />
-                        <span className="text-[11px] font-bold uppercase tracking-tight text-left leading-tight">{t(tool.labelKey)}</span>
+                        <tool.icon size={28} className="relative z-10" />
+                        <span className="text-[11px] font-bold uppercase tracking-tight text-left leading-tight relative z-10">{t(tool.labelKey)}</span>
+                        <div className="absolute -right-4 -bottom-4 opacity-10 group-hover:scale-125 transition-transform">
+                          <tool.icon size={80} />
+                        </div>
                       </motion.button>
                     ))}
                   </motion.div>
