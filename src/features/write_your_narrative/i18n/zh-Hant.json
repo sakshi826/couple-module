@@ -1,5 +1,5 @@
 {
-  "app_title": "你的敘事",
+  "app_title": "你的敘述",
   "nav": {
     "entry": "歡迎",
     "writing": "表達",
@@ -7,78 +7,78 @@
     "history": "你的旅程"
   },
   "entry": {
-    "title": "我們一步一步來。💛",
-    "description": [
-      "你不必今天就說出全部故事。只要一小部分就足夠了。",
-      "你現在很安全。你可以掌控你寫什麼——以及你不寫什麼。"
-    ],
-    "breath": "在開始前，請先深呼吸。",
+    "title": "讓我們一步一步來。 💛",
+    "description": {
+      "0": "今天你不必把你的故事全部講出來，只要說一小部分就夠了。",
+      "1": "你現在很安全。你可以掌控自己寫什麼，不寫什麼。"
+    },
+    "breath": "開始之前，請先深呼吸。",
     "button_ready": "我準備好了",
-    "button_history": "過去的敘述",
+    "button_history": "過去的敘事",
     "footer": "你的文字 • 你的節奏 • 你的故事"
   },
   "writing": {
-    "title": "寫下感覺還好 ✨",
-    "subtitle": "你的話語，你的節奏",
-    "prompt_label": "需要一個起點嗎？",
-    "prompts": [
-      {
-        "text": "我最記得的是......",
+    "title": "寫下你覺得舒服的事✨",
+    "subtitle": "你的言辭，你的節奏",
+    "prompt_label": "需要一個切入點嗎？",
+    "prompts": {
+      "0": {
+        "text": "我印象最深刻的是…",
         "emoji": "💭"
       },
-      {
-        "text": "那時，我感覺......",
+      "1": {
+        "text": "那時，我感覺…",
         "emoji": "🌊"
       },
-      {
-        "text": "從那之後，我注意到......",
+      "2": {
+        "text": "從那時起，我注意到…",
         "emoji": "🌱"
       }
-    ],
-    "placeholder": "從這裡開始寫作......",
-    "notice": "這沒有正確的做法。即使只有幾句話也足夠了。",
+    },
+    "placeholder": "從這裡開始寫作…",
+    "notice": "沒有固定的方法。就算只寫幾行也行。",
     "button": "完成寫作"
   },
   "landing": {
     "title": "你做了一件重要的事。",
-    "subtitle": "謝謝你為自己而來。",
-    "settle_title": "讓我們先冷靜一下",
-    "steps": [
-      "環顧四周，說出你能看到的三樣東西。",
-      "慢慢吸一口氣......然後吐出來。"
-    ],
-    "feeling_label": "現在，我感覺：",
-    "feeling_placeholder": "說幾句話......",
-    "quote": "「你不必一次扛起所有東西。你隨時準備好了都可以回來。」",
+    "subtitle": "感謝你為自己挺身而出。",
+    "settle_title": "我們先冷靜一下。",
+    "steps": {
+      "0": "環顧四周，說出你看到的3樣東西。",
+      "1": "慢慢吸氣……再慢慢吐氣。"
+    },
+    "feeling_label": "此刻，我的感受是：",
+    "feeling_placeholder": "一兩句話…",
+    "quote": "“你不必一次性承擔所有事情。等你準備好了，隨時都可以回來。”",
     "button_save": "保留敘事",
-    "button_preserving": "保存......"
+    "button_preserving": "保存…"
   },
   "history": {
-    "title": "你的旅程 📝",
-    "subtitle": "過去的敘述與反思",
-    "empty": "你還沒存任何紀錄。慢慢來——不急。",
-    "no_writing": "無文字保存",
-    "button_back": "重返活動"
+    "title": "你的旅程📝",
+    "subtitle": "過往的敘述與反思",
+    "empty": "您尚未儲存任何條目。請慢慢來，不用急。",
+    "no_writing": "沒有文字保存下來。",
+    "button_back": "返回活動"
   },
   "complete": {
-    "title": "敘事保存",
-    "message": "你在講述你的故事上邁出了強而有力的一步。你的觀點很重要，而你的旅程是獨一無二的。"
+    "title": "敘事得以保存",
+    "message": "你已經踏出了講述自己故事的重要一步。你的視角很重要，你的經驗也是獨一無二的。"
   },
   "toasts": {
-    "save_success": "敘事保存",
+    "save_success": "敘事得以保存",
     "save_error": "未能保留敘事",
-    "auth_error": "缺少認證會話或資料庫未設定"
+    "auth_error": "身份驗證會話缺失或資料庫未配置"
   },
   "common": {
-    "get_started": "開始",
+    "get_started": "開始使用",
     "start_over": "重新開始",
-    "finish_exit": "結束與退出",
+    "finish_exit": "結束並退出",
     "well_done": "做得好！",
-    "completion_message": "你已經成功完成了這個活動。花點時間欣賞你的進步。",
+    "completion_message": "您已成功完成此項活動。請花點時間欣賞一下您的成果。",
     "time_to_complete": "完成時間",
-    "back": "返回",
-    "next": "下一篇",
-    "save": "存檔",
-    "loading": "載入中......"
+    "back": "後退",
+    "next": "下一個",
+    "save": "節省",
+    "loading": "載入中..."
   }
 }

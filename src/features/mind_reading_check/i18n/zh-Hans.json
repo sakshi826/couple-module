@@ -1,88 +1,88 @@
 {
-  "app_title": "读心检查",
+  "app_title": "读心术检查",
   "intro": {
-    "title": "读心检查",
-    "description": "质疑你对别人想法的假设。",
-    "benefits": [
-      "别再往最坏的方向想了",
-      "识别有偏见的解释",
-      "建立更清晰的沟通"
-    ],
+    "title": "读心术检查",
+    "description": "质疑你对他人想法的假设。",
+    "benefits": {
+      "0": "不要总是往最坏的方面想。",
+      "1": "识别带有偏见的解读",
+      "2": "建立更清晰的沟通"
+    },
     "duration": "3-4分钟",
-    "view_past": "回顾往昔回顾"
+    "view_past": "回顾过往的思考"
   },
   "history": {
-    "title": "往昔回顾",
-    "no_entries": "还没有条目",
+    "title": "过往的反思",
+    "no_entries": "暂无条目",
     "belief_label": "信念：{{level}}%",
-    "balanced_thought_label": "平衡的思考"
+    "balanced_thought_label": "平衡思维"
   },
   "complete": {
     "title": "活动完成",
-    "great_insights": "很棒的见解！",
-    "message": "通过质疑你的假设，你正在建立一个更客观、更有同情心的心态。"
+    "great_insights": "很有见地！",
+    "message": "通过质疑你的假设，你正在培养一种更加客观和富有同情心的思维方式。"
   },
   "steps": {
-    "label": "第10步 {{current}}",
+    "label": "步骤 {{current}} 共 10 步",
     "step1": {
       "title": "发生了什么？",
-      "desc": "描述一下你最近感到被评判或不确定的时刻。",
-      "placeholder": "情况描述......"
+      "desc": "请描述一下你最近一次感到被评判或感到不安的时刻。",
+      "placeholder": "情况描述……"
     },
     "step2": {
       "title": "你当时在想什么？",
-      "desc": "你以为他们会怎么想你？",
-      "placeholder": "我以为他们在想......"
+      "desc": "你觉得他们会怎么看待你？",
+      "placeholder": "我猜他们当时在想……"
     },
     "step3": {
-      "title": "我们慢点",
-      "desc": "此刻，这个想法可能真实。但在接受它为事实之前，让我们退一步，更仔细地审视它。",
-      "button": "暂停与继续"
+      "title": "让我们放慢速度",
+      "desc": "现在，这种想法似乎很有道理。但在接受它为事实之前，让我们退后一步，仔细审视一下。",
+      "button": "暂停并继续"
     },
     "step4": {
       "title": "这是真的吗？",
-      "desc": "有没有明确的证据（事实，而非假设）支持这一观点？",
-      "placeholder": "我看到的证据是......"
+      "desc": "是否有明确的证据（事实，而非假设）支持这种观点？",
+      "placeholder": "我看到的证据表明……"
     },
     "step5": {
-      "title": "还能有什么别的事呢？",
-      "desc": "还有哪些其他可能的解释？",
-      "placeholder": "可能性{{num}}......"
+      "title": "还有什么其他可能的原因吗？",
+      "desc": "还有哪些其他两三种可能的解释？",
+      "placeholder": "可能性 {{num}}..."
     },
     "step6": {
-      "title": "检视你的信念",
-      "desc": "你现在有多坚信你最初的想法？",
-      "labels": [
-        "一点也不",
-        "完全是"
-      ]
+      "title": "审视你的信念",
+      "desc": "你现在对最初的想法有多坚定？",
+      "labels": {
+        "0": "一点也不",
+        "1": "完全地"
+      }
     },
     "step7": {
-      "title": "更为平衡的观点",
-      "desc": "写一个更公平、更不确定的想法。",
-      "placeholder": "一个更平衡的想法......"
+      "title": "更平衡的观点",
+      "desc": "写下一个你觉得更公平但又不太确定的想法。",
+      "placeholder": "更平衡的思考……"
     },
     "step8": {
-      "title": "下次见",
-      "desc": "你还能做些什么，而不是假设？",
-      "examples": [
-        "请多方确认",
-        "给它点时间",
-        "注意而不反应"
-      ],
-      "placeholder": "下次，我可以......"
+      "title": "下次",
+      "desc": "与其妄下断言，你还能做些什么？",
+      "examples": {
+        "0": "请求澄清",
+        "1": "给它一些时间",
+        "2": "注意到而不做出反应"
+      },
+      "placeholder": "下次，我就可以……"
     },
     "step9": {
       "title": "注意这种变化",
-      "desc": "你探索了不同的可能性，并为更平衡的视角创造了空间。",
-      "original_label": "原始思想",
-      "balanced_label": "平衡视角",
-      "button": "收尾反射"
+      "desc": "你探索了不同的可能性，并为更平衡的观点创造了空间。",
+      "original_label": "原创思想",
+      "balanced_label": "平衡的视角",
+      "button": "完成反思"
     },
     "step10": {
       "title": "一个小小的转变",
-      "desc": "你的脑海试图填补空白。但并非所有想法都是事实。退一步看事情能让你看得更清楚。",
-      "button": "完整活动"
+      "desc": "你的大脑会试图填补空白。但并非每个想法都是事实。退后一步，才能让你看得更清楚。",
+      "button": "完成活动"
     }
   },
   "buttons": {
@@ -90,15 +90,15 @@
     "restart": "重启"
   },
   "common": {
-    "get_started": "开始",
+    "get_started": "开始使用",
     "start_over": "重新开始",
-    "finish_exit": "终点与退场",
-    "well_done": "干得好！",
-    "completion_message": "你已经成功完成了这项活动。花点时间欣赏你的进步。",
-    "time_to_complete": "时间到了完成",
-    "back": "返回",
+    "finish_exit": "结束并退出",
+    "well_done": "做得好！",
+    "completion_message": "您已成功完成此项活动。请花点时间欣赏一下您的成果。",
+    "time_to_complete": "完成时间",
+    "back": "后退",
     "next": "下一个",
-    "save": "保存",
-    "loading": "加载中......"
+    "save": "节省",
+    "loading": "加载中..."
   }
 }

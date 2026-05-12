@@ -2,48 +2,48 @@
   "app_title": "資源",
   "not_found": {
     "title": "未找到",
-    "message": "找不到資源",
-    "description": "你要找的內容可能已經移動過。",
+    "message": "資源未找到",
+    "description": "您要尋找的內容可能已移動。",
     "button": "回去"
   },
   "list": {
-    "empty_title": "無 {{type}} 可用",
-    "empty_desc": "我們目前正在策劃更多相關資源。",
-    "footer": "Mantra Care • 循證資源"
+    "empty_title": "沒有 {{type}} 可用",
+    "empty_desc": "我們目前正在整理更多關於這個主題的資源。",
+    "footer": "Mantra Care •實證資源"
   },
   "detail": {
-    "loading": "載入中......",
+    "loading": "載入中...",
     "tip": {
-      "insight_label": "洞見",
-      "plan_title": "每日行動計畫",
-      "steps": "{{count}} 階梯",
-      "example_label": "實務範例",
+      "insight_label": "洞察",
+      "plan_title": "每日行動計劃",
+      "steps": "{{count}} 步",
+      "example_label": "練習範例",
       "instead_of": "而不是",
       "try_this": "試試這個"
     },
     "article": {
-      "final_thought": "最後的想法"
+      "final_thought": "最後想說"
     },
     "story": {
-      "reflection_label": "有個可以靜坐的東西",
-      "note_label": "作者的一則話"
+      "reflection_label": "可以坐下來一起坐坐",
+      "note_label": "作者的話"
     },
     "myth": {
       "truth_label": "科學真相",
-      "explanation_label": "詳細說明",
-      "insight_label": "重點見解"
+      "explanation_label": "詳細解釋",
+      "insight_label": "關鍵見解"
     }
   },
   "common": {
-    "get_started": "開始",
+    "get_started": "開始使用",
     "start_over": "重新開始",
-    "finish_exit": "結束與退出",
+    "finish_exit": "結束並退出",
     "well_done": "做得好！",
-    "completion_message": "你已經成功完成了這個活動。花點時間欣賞你的進步。",
+    "completion_message": "您已成功完成此項活動。請花點時間欣賞一下您的成果。",
     "time_to_complete": "完成時間",
-    "back": "返回",
-    "next": "下一篇",
-    "save": "存檔",
-    "loading": "載入中......"
+    "back": "後退",
+    "next": "下一個",
+    "save": "節省",
+    "loading": "載入中..."
   }
 }

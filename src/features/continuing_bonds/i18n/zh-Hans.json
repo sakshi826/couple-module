@@ -1,77 +1,77 @@
 {
   "app_title": "持续债券",
-  "welcome_title": "爱不会因为有人离开而结束。",
-  "welcome_subtitle": "你们之间的联系在很多方面依然存在。慢慢吸气，按自己的节奏来。",
+  "welcome_title": "爱不会因为某人的离去而结束。",
+  "welcome_subtitle": "你们之间的联系以多种方式延续着。深呼吸，按自己的节奏来。",
   "begin_button": "开始反思",
   "screen_titles": {
     "welcome": "欢迎",
-    "choose": "连接",
+    "choose": "联系",
     "bond": "行动",
-    "review": "反思",
-    "closing": "最后的关怀",
-    "complete": "保有的邦德"
+    "review": "反射",
+    "closing": "临终关怀",
+    "complete": "纽带得以维系"
   },
-  "choose_question": "你怎么还能感觉到这种联系？",
-  "write_heart": "发自内心地写......",
+  "choose_question": "你如何仍然感受到与外界的联系？",
+  "write_heart": "用心写作……",
   "continue_button": "继续",
-  "action_title": "连接行动",
-  "sharing_optional": "分享是可选的......",
-  "preserve_button": "保留反射",
-  "preserving": "保存......",
-  "preserved_title": "保存",
-  "preserved_subtitle": "“这种联系是你的一部分。你随时可以回来继续。”",
-  "finish_button": "先说完",
-  "add_another": "再加一个",
-  "closing_p1": "我们爱的人成为我们身份的一部分。🤍",
-  "closing_p2": "它们活在你的笑声、讲述的故事里，以及你感受到它们靠近的静谧时刻。",
-  "closing_p3": "无论你们的羁绊如何呈现——它是真实的，且重要。",
-  "save_exit_button": "保存与退出",
-  "complete_title": "保有的邦德",
-  "complete_message": "我们爱的人成为我们身份的一部分。你们的联系通过你们尊重的方式得以延续。",
-  "auth_error": "缺少认证会话或数据库未配置",
-  "save_success": "键反射保持",
-  "save_error": "未能保存反射",
-  "connection_options": [
-    {
-      "label": "穿越记忆",
-      "prompt": "你能分享一个你能感受到他们存在的记忆吗？",
-      "deeper": "他们身上有什么特别的特点让你难以忘怀？"
+  "action_title": "行动中的连接",
+  "sharing_optional": "分享是自愿的……",
+  "preserve_button": "保留倒影",
+  "preserving": "保存……",
+  "preserved_title": "保存完好",
+  "preserved_subtitle": "“这种联系是你的一部分。你可以随时重新建立联系。”",
+  "finish_button": "暂时结束",
+  "add_another": "添加另一个",
+  "closing_p1": "我们所爱的人会成为我们生命的一部分。🤍",
+  "closing_p2": "他们活在你的笑声里，你讲述的故事里，以及你感受到他们就在身边的静谧时刻里。",
+  "closing_p3": "无论你们之间的联系以何种形式展现——它都是真实的，而且意义重大。",
+  "save_exit_button": "保存并退出",
+  "complete_title": "纽带得以维系",
+  "complete_message": "我们所爱的人会成为我们生命的一部分。你以各种方式表达对他们的敬意，你们之间的联系也将延续下去。",
+  "auth_error": "身份验证会话缺失或数据库未配置",
+  "save_success": "键反射得以保留",
+  "save_error": "未能保留反射",
+  "connection_options": {
+    "0": {
+      "label": "透过回忆",
+      "prompt": "你能分享一段让你感受到他们存在的记忆吗？",
+      "deeper": "他们身上有什么特质让你印象最深刻？"
     },
-    {
-      "label": "在我说的和做的事里",
-      "prompt": "你在日常生活中承载着他们的哪一部分？",
-      "deeper": "这在你今天的生活中表现如何？"
+    "1": {
+      "label": "在我所说或所做的事情中",
+      "prompt": "你在日常生活中保留了其中的哪些部分？",
+      "deeper": "这在你的生活中是如何体现的？"
     },
-    {
-      "label": "在我日常生活的瞬间",
-      "prompt": "你一天中什么时候会感觉到它们闭合？",
-      "deeper": "他们身上有什么特别的特点让你难以忘怀？"
+    "2": {
+      "label": "在我日常生活的点点滴滴中",
+      "prompt": "你一天中什么时候会感到他们很亲近？",
+      "deeper": "他们身上有什么特质让你印象最深刻？"
     },
-    {
-      "label": "我还想告诉他们",
+    "3": {
+      "label": "我仍然想告诉他们",
       "prompt": "你还有什么想对他们说的吗？",
-      "deeper": "你现在最希望他们知道什么？"
+      "deeper": "你现在最想让他们知道什么？"
     },
-    {
-      "label": "在某种感觉或存在中",
-      "prompt": "他们的存在感如何仍然体现在你眼中？",
-      "deeper": "这在你今天的生活中表现如何？"
+    "4": {
+      "label": "在一种感觉或存在中",
+      "prompt": "他们的存在感在你身上还有怎样的体现？",
+      "deeper": "这在你的生活中是如何体现的？"
     }
-  ],
-  "bond_prompts": [
-    "你今天觉得与他们有哪一点小小的联系？",
-    "你做过什么，能承载他们的一部分？"
-  ],
+  },
+  "bond_prompts": {
+    "0": "今天，你觉得和他们之间有什么小小的联系？",
+    "1": "你做的哪些事情承载着他们的一部分记忆？"
+  },
   "common": {
-    "get_started": "开始",
+    "get_started": "开始使用",
     "start_over": "重新开始",
-    "finish_exit": "终点与退场",
-    "well_done": "干得好！",
-    "completion_message": "你已经成功完成了这项活动。花点时间欣赏你的进步。",
-    "time_to_complete": "时间到了完成",
-    "back": "返回",
+    "finish_exit": "结束并退出",
+    "well_done": "做得好！",
+    "completion_message": "您已成功完成此项活动。请花点时间欣赏一下您的成果。",
+    "time_to_complete": "完成时间",
+    "back": "后退",
     "next": "下一个",
-    "save": "保存",
-    "loading": "加载中......"
+    "save": "节省",
+    "loading": "加载中..."
   }
 }

@@ -8,12 +8,12 @@ const ENDPOINT = 'https://translation.googleapis.com/language/translate/v2';
 
 const TARGET_LANGUAGES = [
   'es', 'fr', 'de', 'pt', 'ru',
-  'zh-CN', 'zh-TW',
+  'zh-Hans', 'zh-Hant',
   'ja', 'ko',
   'ar', 'hi', 'bn',
   'id', 'tr', 'vi',
   'it', 'pl', 'th', 'tl',
-  'nl', 'sv', 'nb', 'da', 'fi',
+  'nl', 'sv', 'no', 'da', 'fi',
   'cs', 'el', 'ro', 'hu', 'uk',
   'he', 'ms', 'ta', 'te', 'ur'
 ];

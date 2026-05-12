@@ -1,51 +1,51 @@
 {
   "app_title": "悲伤之旅",
   "app_subtitle": "损失地图 • {{current}}/{{total}}",
-  "screen1_title": "你的悲伤没有错",
-  "screen1_desc": "悲伤不会是整齐的阶段降临并按计划离开的。它撞击、撤退，然后在你最意想不到的时候又回来。那不是你的缺点——那是悲伤。",
-  "screen1_quote": "“悲伤没有正确的方式。只有你自己的路。”",
-  "btn_tell_more": "告诉我更多",
+  "screen1_title": "你的悲伤并没有错。",
+  "screen1_desc": "悲伤不会按部就班地到来，也不会按计划离开。它会突然袭来，然后退却，在你最意想不到的时候再次袭来。这不是你的缺点——这就是悲伤。",
+  "screen1_quote": "“悲伤没有正确的方式，只有你自己的方式。”",
+  "btn_tell_more": "请告诉我更多",
   "screen2_tag": "真实情况",
-  "screen2_title": "悲伤有许多不同的面貌",
-  "screen2_desc": "这就是人们对悲伤的期待——而悲伤的真实面貌。",
-  "expectation_label": "期待",
+  "screen2_title": "悲伤有很多种表现形式。",
+  "screen2_desc": "这就是人们想象中的悲伤的样子——与悲伤的真实面貌截然不同。",
+  "expectation_label": "期望",
   "reality_label": "现实",
   "expectation_desc": "线性 • 可预测 • 清晰",
-  "reality_desc": "混乱 • 循环 • 人类",
-  "screen2_quote": "“这些浪潮都没错。他们全都是悲伤。”",
+  "reality_desc": "混乱的 • 循环的 • 人类",
+  "screen2_quote": "“这些浪潮没有错，它们都是悲伤。”",
   "btn_one_more": "还有一件事",
-  "screen3_tag": "温柔的真相",
-  "screen3_title": "值得知道",
-  "truths": [
-    {
+  "screen3_tag": "温柔的真理",
+  "screen3_title": "值得了解",
+  "truths": {
+    "0": {
       "emoji": "🗓️",
       "title": "没有截止日期",
-      "body": "损失保险没有截止日期。几个月甚至几年后还感受到它，并不意味着你被困住了——而是你曾经爱过。"
+      "body": "失去挚爱没有期限。几个月甚至几年后依然感到痛苦，并不意味着你无法摆脱——而是意味着你曾经爱过。"
     },
-    {
+    "1": {
       "emoji": "🌗",
-      "title": "矛盾的感受",
-      "body": "你可以想念某个人，感到宽慰。你可以笑，也可以悲伤。悲伤充满了相反的情绪。"
+      "title": "矛盾的情绪",
+      "body": "你可以思念某人，同时感到释然。你可以欢笑，也可以悲伤。悲伤本身就包含着矛盾的情感。"
     },
-    {
+    "2": {
       "emoji": "🤍",
       "title": "爱的转变",
-      "body": "痛苦与爱是分开的。其实是一样的，只是变形了。"
+      "body": "痛苦并非与爱分离，而是同一事物的另一种表现形式。"
     }
-  ],
-  "btn_finish": "收尾反射",
-  "complete_title": "旅程的尊重",
-  "complete_message": "你不必非得放手。你只是学会用不同的方式来承载它。你的旅程独特、合理且深刻人性化。",
+  },
+  "btn_finish": "完成反射",
+  "complete_title": "旅程荣耀",
+  "complete_message": "你不必就此放下，只需学会用不同的方式去面对。你的经历独一无二、意义非凡，并且饱含人性。",
   "common": {
-    "get_started": "开始",
+    "get_started": "开始使用",
     "start_over": "重新开始",
-    "finish_exit": "终点与退场",
-    "well_done": "干得好！",
-    "completion_message": "你已经成功完成了这项活动。花点时间欣赏你的进步。",
-    "time_to_complete": "时间到了完成",
-    "back": "返回",
+    "finish_exit": "结束并退出",
+    "well_done": "做得好！",
+    "completion_message": "您已成功完成此项活动。请花点时间欣赏一下您的成果。",
+    "time_to_complete": "完成时间",
+    "back": "后退",
     "next": "下一个",
-    "save": "保存",
-    "loading": "加载中......"
+    "save": "节省",
+    "loading": "加载中..."
   }
 }
