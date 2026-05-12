@@ -132,10 +132,6 @@
       "Tämän päivän tunnustaminen vaatii rohkeutta. Olet jo kasvamassa. 🌷"
     ]
   },
-  "intro_p1": "screens.intro.benefits.0",
-  "intro_p2": "näytöt.johdanto.edut.1",
-  "intro_p3": "näytöt.johdanto.edut.2",
-  "intro_p4": "näytöt.johdanto.edut.3",
-  "app_title": "Hoitoseuranta",
-  "app_description": "Hoitoseuranta"
+  "app_title": "Itsehoidon seuranta",
+  "app_description": "Seuraa päivittäisiä itsestäsi huolehtimiseen liittyviä tapojasi ja katso, miten ne vaikuttavat yleiseen hyvinvointiisi. Johdonmukaisuus on avain terveempään mieleen."
 }

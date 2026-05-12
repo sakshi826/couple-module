@@ -21,7 +21,6 @@
   "instructions": "Klik setiap aktivitas untuk menyelesaikannya. Dapatkan baris, kolom, atau diagonal untuk meneriakkan BINGO!",
   "progress_title": "📊 Kemajuan Anda",
   "progress_count": "{{count}} dari 25 aktivitas",
-  "new_board": "Dewan Baru",
   "tiles": {
     "walk": "Berjalan kaki selama 10 menit",
     "water": "Minum 8 gelas air",

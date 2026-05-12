@@ -21,7 +21,6 @@
   "instructions": "Clique em cada atividade para completá-la. Pegue uma fileira, coluna ou diagonal para gritar BINGO!",
   "progress_title": "📊 Seu Progresso",
   "progress_count": "{{count}} de 25 atividades",
-  "new_board": "Novo Conselho",
   "tiles": {
     "walk": "Faça uma caminhada de 10 minutos",
     "water": "Beba 8 copos de água",

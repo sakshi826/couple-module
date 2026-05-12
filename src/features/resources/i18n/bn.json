@@ -46,5 +46,28 @@
     "save": "সংরক্ষণ করুন",
     "loading": "লোড হচ্ছে..."
   },
-  "app_description": "সম্পদ"
+  "app_description": "সম্পদ",
+  "concerns": {
+    "acceptance": "গ্রহণযোগ্যতা",
+    "adolescent": "কিশোর",
+    "anger": "রাগ",
+    "anxiety": "উদ্বেগ",
+    "depression": "বিষণ্ণতা",
+    "eating-disorder": "খাওয়ার ব্যাধি",
+    "grief": "শোক",
+    "parenting": "অভিভাবকত্ব",
+    "postpartum": "প্রসবোত্তর",
+    "ptsd": "PTSD",
+    "relationship": "সম্পর্ক",
+    "sexuality": "যৌনতা",
+    "sleep": "ঘুম",
+    "stress": "চাপ",
+    "workplace": "কর্মক্ষেত্র"
+  },
+  "types": {
+    "stories": "গল্প",
+    "articles": "প্রবন্ধ",
+    "myths": "পৌরাণিক কাহিনী",
+    "tips": "টিপস"
+  }
 }

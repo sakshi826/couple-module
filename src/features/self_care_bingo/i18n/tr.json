@@ -21,7 +21,6 @@
   "instructions": "Her etkinliği tamamlamak için üzerine tıklayın. BİNGO diye bağırmak için bir satır, sütun veya çapraz bir düzen alın!",
   "progress_title": "📊 İlerlemeniz",
   "progress_count": "{{count}} 25 etkinlikten",
-  "new_board": "Yeni Yönetim Kurulu",
   "tiles": {
     "walk": "10 dakikalık bir yürüyüş yapın",
     "water": "8 bardak su iç",

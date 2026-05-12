@@ -46,5 +46,28 @@
     "save": "구하다",
     "loading": "로딩 중..."
   },
-  "app_description": "자원"
+  "app_description": "자원",
+  "concerns": {
+    "acceptance": "수락",
+    "adolescent": "한창 젊은",
+    "anger": "화",
+    "anxiety": "불안",
+    "depression": "우울증",
+    "eating-disorder": "섭식 장애",
+    "grief": "고통",
+    "parenting": "육아",
+    "postpartum": "산후",
+    "ptsd": "외상 후 스트레스 장애",
+    "relationship": "관계",
+    "sexuality": "성별",
+    "sleep": "잠",
+    "stress": "스트레스",
+    "workplace": "직장"
+  },
+  "types": {
+    "stories": "이야기들",
+    "articles": "조항",
+    "myths": "신화",
+    "tips": "팁"
+  }
 }

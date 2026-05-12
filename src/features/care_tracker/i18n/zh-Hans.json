@@ -132,10 +132,6 @@
       "承认今天需要勇气。你已经在成长了。🌷"
     ]
   },
-  "intro_p1": "screens.intro.benefits.0",
-  "intro_p2": "屏幕简介.好处.1",
-  "intro_p3": "屏幕简介.好处.2",
-  "intro_p4": "屏幕介绍 好处 3",
-  "app_title": "护理追踪器",
-  "app_description": "护理追踪器"
+  "app_title": "自我护理追踪器",
+  "app_description": "记录你的日常自我护理习惯，看看它们如何影响你的整体健康。持之以恒是保持心理健康的关键。"
 }

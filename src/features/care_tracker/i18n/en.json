@@ -132,10 +132,6 @@
       "4": "Acknowledging today takes courage. You're already growing. 🌷"
     }
   },
-  "intro_p1": "screens.intro.benefits.0",
-  "intro_p2": "screens.intro.benefits.1",
-  "intro_p3": "screens.intro.benefits.2",
-  "intro_p4": "screens.intro.benefits.3",
-  "app_title": "Care Tracker",
-  "app_description": "Care Tracker"
+  "app_title": "Self-Care Tracker",
+  "app_description": "Track your daily self-care habits and see how they impact your overall wellbeing. Consistency is key to a healthier mind."
 }

@@ -132,10 +132,6 @@
       "Bugün bunu kabul etmek cesaret gerektirir. Zaten büyüyorsun. 🌷"
     ]
   },
-  "intro_p1": "ekranlar.giriş.faydaları.0",
-  "intro_p2": "ekranlar.giriş.faydaları.1",
-  "intro_p3": "ekranlar.giriş.faydaları.2",
-  "intro_p4": "ekranlar.giriş.faydaları.3",
-  "app_title": "Bakım Takip Cihazı",
-  "app_description": "Bakım Takip Cihazı"
+  "app_title": "Öz Bakım Takipçisi",
+  "app_description": "Günlük öz bakım alışkanlıklarınızı takip edin ve bunların genel sağlığınız üzerindeki etkisini görün. Daha sağlıklı bir zihin için tutarlılık çok önemlidir."
 }

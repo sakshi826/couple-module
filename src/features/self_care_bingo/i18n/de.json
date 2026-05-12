@@ -21,7 +21,6 @@
   "instructions": "Klicken Sie auf jede Aktivität, um sie abzuschließen. Such dir eine Reihe, Spalte oder Diagonale, um BINGO zu rufen!",
   "progress_title": "📊 Dein Fortschritt",
   "progress_count": "{{count}} von 25 Aktivitäten",
-  "new_board": "Neuer Vorstand",
   "tiles": {
     "walk": "Mach einen 10-minütigen Spaziergang",
     "water": "Trinken Sie 8 Gläser Wasser",

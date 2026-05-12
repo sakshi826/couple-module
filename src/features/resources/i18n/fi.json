@@ -46,5 +46,28 @@
     "save": "Tallentaa",
     "loading": "Ladataan..."
   },
-  "app_description": "Resurssit"
+  "app_description": "Resurssit",
+  "concerns": {
+    "acceptance": "Hyväksyminen",
+    "adolescent": "Murrosikäinen",
+    "anger": "Suututtaa",
+    "anxiety": "Ahdistus",
+    "depression": "Masennus",
+    "eating-disorder": "Syömishäiriö",
+    "grief": "Suru",
+    "parenting": "Vanhemmuus",
+    "postpartum": "Synnytyksen jälkeinen",
+    "ptsd": "PTSD-oireyhtymä",
+    "relationship": "Suhde",
+    "sexuality": "Seksuaalisuus",
+    "sleep": "Nukkua",
+    "stress": "Korostaa",
+    "workplace": "Työpaikka"
+  },
+  "types": {
+    "stories": "Tarinoita",
+    "articles": "Artikkelit",
+    "myths": "Myytit",
+    "tips": "Vinkkejä"
+  }
 }

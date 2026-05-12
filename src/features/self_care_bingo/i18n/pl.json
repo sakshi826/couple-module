@@ -21,7 +21,6 @@
   "instructions": "Kliknij na każdą aktywność, aby ją wykonać. Weź rząd, kolumnę lub przekątną, żeby krzyczeć BINGO!",
   "progress_title": "📊 Twoje postępy",
   "progress_count": "{{count}} z 25 działań",
-  "new_board": "Nowa rada",
   "tiles": {
     "walk": "Wybierz się na 10-minutowy spacer",
     "water": "Wypij 8 szklanek wody",

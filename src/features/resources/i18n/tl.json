@@ -46,5 +46,28 @@
     "save": "I-save",
     "loading": "Naglo-load..."
   },
-  "app_description": "Mga Mapagkukunan"
+  "app_description": "Mga Mapagkukunan",
+  "concerns": {
+    "acceptance": "Pagtanggap",
+    "adolescent": "Kabataan",
+    "anger": "Galit",
+    "anxiety": "Pagkabalisa",
+    "depression": "Depresyon",
+    "eating-disorder": "Karamdaman sa Pagkain",
+    "grief": "Pighati",
+    "parenting": "Pagiging Magulang",
+    "postpartum": "Pagkatapos manganak",
+    "ptsd": "PTSD",
+    "relationship": "Relasyon",
+    "sexuality": "Sekswalidad",
+    "sleep": "Tulog",
+    "stress": "Stress",
+    "workplace": "Lugar ng Trabaho"
+  },
+  "types": {
+    "stories": "Mga Kwento",
+    "articles": "Mga Artikulo",
+    "myths": "Mga Mito",
+    "tips": "Mga Tip"
+  }
 }

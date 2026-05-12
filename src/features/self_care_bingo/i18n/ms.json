@@ -21,7 +21,6 @@
   "instructions": "Klik pada setiap aktiviti untuk menyelesaikannya. Dapatkan baris, lajur atau pepenjuru untuk menjerit BINGO!",
   "progress_title": "📊 Kemajuan Anda",
   "progress_count": "{{count}} daripada 25 aktiviti",
-  "new_board": "Lembaga Baru",
   "tiles": {
     "walk": "Berjalan kaki selama 10 minit",
     "water": "Minum 8 gelas air",

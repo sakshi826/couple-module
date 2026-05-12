@@ -46,5 +46,28 @@
     "save": "Cứu",
     "loading": "Đang tải..."
   },
-  "app_description": "Tài nguyên"
+  "app_description": "Tài nguyên",
+  "concerns": {
+    "acceptance": "Chấp nhận",
+    "adolescent": "Thanh niên",
+    "anger": "Sự tức giận",
+    "anxiety": "Sự lo lắng",
+    "depression": "Trầm cảm",
+    "eating-disorder": "Rối loạn ăn uống",
+    "grief": "Nỗi đau buồn",
+    "parenting": "Nuôi dạy con cái",
+    "postpartum": "Sau sinh",
+    "ptsd": "PTSD",
+    "relationship": "Mối quan hệ",
+    "sexuality": "Tình dục",
+    "sleep": "Ngủ",
+    "stress": "Nhấn mạnh",
+    "workplace": "Nơi làm việc"
+  },
+  "types": {
+    "stories": "Những câu chuyện",
+    "articles": "Bài viết",
+    "myths": "Những huyền thoại",
+    "tips": "Mẹo"
+  }
 }

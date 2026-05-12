@@ -46,5 +46,28 @@
     "save": "Ratować",
     "loading": "Załadunek..."
   },
-  "app_description": "Zasoby"
+  "app_description": "Zasoby",
+  "concerns": {
+    "acceptance": "Przyjęcie",
+    "adolescent": "Dorastający",
+    "anger": "Gniew",
+    "anxiety": "Lęk",
+    "depression": "Depresja",
+    "eating-disorder": "Zaburzenia odżywiania",
+    "grief": "Smutek",
+    "parenting": "Rodzicielstwo",
+    "postpartum": "Po porodzie",
+    "ptsd": "PTSD",
+    "relationship": "Relacja",
+    "sexuality": "Seksualność",
+    "sleep": "Spać",
+    "stress": "Stres",
+    "workplace": "Miejsce pracy"
+  },
+  "types": {
+    "stories": "Historie",
+    "articles": "Artykuły",
+    "myths": "Mity",
+    "tips": "Porady"
+  }
 }

@@ -46,5 +46,28 @@
     "save": "Зберегти",
     "loading": "Завантаження..."
   },
-  "app_description": "Ресурси"
+  "app_description": "Ресурси",
+  "concerns": {
+    "acceptance": "Прийняття",
+    "adolescent": "Підліток",
+    "anger": "Гнів",
+    "anxiety": "Тривога",
+    "depression": "Депресія",
+    "eating-disorder": "Розлад харчової поведінки",
+    "grief": "Горе",
+    "parenting": "Виховання дітей",
+    "postpartum": "Післяпологовий період",
+    "ptsd": "ПТСР",
+    "relationship": "Стосунки",
+    "sexuality": "Сексуальність",
+    "sleep": "Сон",
+    "stress": "Стрес",
+    "workplace": "Робоче місце"
+  },
+  "types": {
+    "stories": "Історії",
+    "articles": "Статті",
+    "myths": "Міфи",
+    "tips": "Поради"
+  }
 }

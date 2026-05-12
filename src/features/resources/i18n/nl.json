@@ -46,5 +46,28 @@
     "save": "Redden",
     "loading": "Laden..."
   },
-  "app_description": "Bronnen"
+  "app_description": "Bronnen",
+  "concerns": {
+    "acceptance": "Aanvaarding",
+    "adolescent": "Adolescent",
+    "anger": "Woede",
+    "anxiety": "Spanning",
+    "depression": "Depressie",
+    "eating-disorder": "Eetstoornis",
+    "grief": "Rouw",
+    "parenting": "Ouderschap",
+    "postpartum": "Postpartum",
+    "ptsd": "PTSS",
+    "relationship": "Relatie",
+    "sexuality": "Seksualiteit",
+    "sleep": "Slaap",
+    "stress": "Spanning",
+    "workplace": "Werkplek"
+  },
+  "types": {
+    "stories": "Verhalen",
+    "articles": "Artikelen",
+    "myths": "Mythen",
+    "tips": "Tips"
+  }
 }

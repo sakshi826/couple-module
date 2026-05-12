@@ -21,7 +21,6 @@
   "instructions": "Klik op elke activiteit om deze te voltooien. Krijg een rij, kolom of diagonaal om BINGO te roepen!",
   "progress_title": "📊 Jouw Vooruitgang",
   "progress_count": "{{count}} van 25 activiteiten",
-  "new_board": "Nieuwe Raad",
   "tiles": {
     "walk": "Maak een wandeling van 10 minuten",
     "water": "Drink 8 glazen water",

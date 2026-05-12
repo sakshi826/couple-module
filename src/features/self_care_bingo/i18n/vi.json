@@ -21,7 +21,6 @@
   "instructions": "Nhấp vào từng hoạt động để hoàn thành. Nhận một hàng, cột hoặc đường chéo để hét BINGO!",
   "progress_title": "📊 Tiến trình của bạn",
   "progress_count": "{{count}} của 25 hoạt động",
-  "new_board": "Bảng mới",
   "tiles": {
     "walk": "Đi bộ 10 phút",
     "water": "Uống 8 ly nước",

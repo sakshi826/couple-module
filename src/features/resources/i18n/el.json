@@ -46,5 +46,28 @@
     "save": "Εκτός",
     "loading": "Φόρτωση..."
   },
-  "app_description": "Πόροι"
+  "app_description": "Πόροι",
+  "concerns": {
+    "acceptance": "Αποδοχή",
+    "adolescent": "Εφηβος",
+    "anger": "Θυμός",
+    "anxiety": "Ανησυχία",
+    "depression": "Κατάθλιψη",
+    "eating-disorder": "Διατροφική διαταραχή",
+    "grief": "Θλίψη",
+    "parenting": "Γονική μέριμνα",
+    "postpartum": "Μετά τον τοκετό",
+    "ptsd": "Μετατραυματικό Στρες",
+    "relationship": "Σχέση",
+    "sexuality": "Σεξουαλικότητα",
+    "sleep": "Υπνος",
+    "stress": "Στρες",
+    "workplace": "Χώρος εργασίας"
+  },
+  "types": {
+    "stories": "Ιστορίες",
+    "articles": "Άρθρα",
+    "myths": "Μύθοι",
+    "tips": "Συμβουλές"
+  }
 }

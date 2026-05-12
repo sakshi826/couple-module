@@ -46,5 +46,28 @@
     "save": "Megtakarítás",
     "loading": "Terhelés..."
   },
-  "app_description": "Erőforrás"
+  "app_description": "Erőforrás",
+  "concerns": {
+    "acceptance": "Elfogadás",
+    "adolescent": "Serdülő",
+    "anger": "Harag",
+    "anxiety": "Szorongás",
+    "depression": "Depresszió",
+    "eating-disorder": "étkezési zavar",
+    "grief": "Bánat",
+    "parenting": "Szülői lét",
+    "postpartum": "Szülés utáni",
+    "ptsd": "Poszttraumás stressz szindróma (PTSD)",
+    "relationship": "Kapcsolat",
+    "sexuality": "Nemiség",
+    "sleep": "Alvás",
+    "stress": "Feszültség",
+    "workplace": "Munkahely"
+  },
+  "types": {
+    "stories": "Történetek",
+    "articles": "Cikkek",
+    "myths": "Mítoszok",
+    "tips": "Tippek"
+  }
 }

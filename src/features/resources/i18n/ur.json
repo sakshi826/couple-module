@@ -46,5 +46,28 @@
     "save": "محفوظ کریں۔",
     "loading": "لوڈ ہو رہا ہے..."
   },
-  "app_description": "وسائل"
+  "app_description": "وسائل",
+  "concerns": {
+    "acceptance": "قبولیت",
+    "adolescent": "کشور",
+    "anger": "غصہ",
+    "anxiety": "بے چینی",
+    "depression": "ڈپریشن",
+    "eating-disorder": "کھانے کی خرابی",
+    "grief": "غم",
+    "parenting": "پرورش",
+    "postpartum": "نفلی",
+    "ptsd": "پی ٹی ایس ڈی",
+    "relationship": "رشتہ",
+    "sexuality": "جنسیت",
+    "sleep": "سونا",
+    "stress": "تناؤ",
+    "workplace": "کام کی جگہ"
+  },
+  "types": {
+    "stories": "کہانیاں",
+    "articles": "مضامین",
+    "myths": "خرافات",
+    "tips": "تجاویز"
+  }
 }

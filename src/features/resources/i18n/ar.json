@@ -46,5 +46,28 @@
     "save": "يحفظ",
     "loading": "تحميل..."
   },
-  "app_description": "موارد"
+  "app_description": "موارد",
+  "concerns": {
+    "acceptance": "قبول",
+    "adolescent": "مراهق",
+    "anger": "الغضب",
+    "anxiety": "قلق",
+    "depression": "اكتئاب",
+    "eating-disorder": "اضطراب الأكل",
+    "grief": "حزن",
+    "parenting": "الأبوة والأمومة",
+    "postpartum": "فترة ما بعد الولادة",
+    "ptsd": "اضطراب ما بعد الصدمة",
+    "relationship": "علاقة",
+    "sexuality": "الجنسانية",
+    "sleep": "ينام",
+    "stress": "ضغط",
+    "workplace": "مكان العمل"
+  },
+  "types": {
+    "stories": "قصص",
+    "articles": "مقالات",
+    "myths": "الخرافات",
+    "tips": "نصائح"
+  }
 }

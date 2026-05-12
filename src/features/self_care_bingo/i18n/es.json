@@ -21,7 +21,6 @@
   "instructions": "Haz clic en cada actividad para completarla. ¡Consigue una fila, columna o diagonal para gritar BINGO!",
   "progress_title": "📊 Tu progreso",
   "progress_count": "{{count}} de 25 actividades",
-  "new_board": "Nueva Junta",
   "tiles": {
     "walk": "Da un paseo de 10 minutos",
     "water": "Bebe 8 vasos de agua",

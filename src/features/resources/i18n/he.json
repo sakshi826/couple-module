@@ -46,5 +46,28 @@
     "save": "לְהַצִיל",
     "loading": "טְעִינָה..."
   },
-  "app_description": "אֶמְצָעִי"
+  "app_description": "אֶמְצָעִי",
+  "concerns": {
+    "acceptance": "קַבָּלָה",
+    "adolescent": "מִתבַּגֵר",
+    "anger": "כַּעַס",
+    "anxiety": "חֲרָדָה",
+    "depression": "דִכָּאוֹן",
+    "eating-disorder": "הפרעת אכילה",
+    "grief": "צַעַר",
+    "parenting": "הורות",
+    "postpartum": "לאחר לידה",
+    "ptsd": "פוסט-טראומטולוגי",
+    "relationship": "קֶשֶׁר",
+    "sexuality": "מִינִיוּת",
+    "sleep": "לִישׁוֹן",
+    "stress": "לְהַדגִישׁ",
+    "workplace": "מקום עבודה"
+  },
+  "types": {
+    "stories": "סיפורים",
+    "articles": "מאמרים",
+    "myths": "מיתוסים",
+    "tips": "טיפים"
+  }
 }

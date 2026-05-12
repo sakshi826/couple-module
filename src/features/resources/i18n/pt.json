@@ -46,5 +46,28 @@
     "save": "Salvar",
     "loading": "Carregando..."
   },
-  "app_description": "Recursos"
+  "app_description": "Recursos",
+  "concerns": {
+    "acceptance": "Aceitação",
+    "adolescent": "Adolescente",
+    "anger": "Raiva",
+    "anxiety": "Ansiedade",
+    "depression": "Depressão",
+    "eating-disorder": "Transtorno alimentar",
+    "grief": "Pesar",
+    "parenting": "Educação dos filhos",
+    "postpartum": "Pós-parto",
+    "ptsd": "TEPT",
+    "relationship": "Relação",
+    "sexuality": "Sexualidade",
+    "sleep": "Dormir",
+    "stress": "Estresse",
+    "workplace": "Local de trabalho"
+  },
+  "types": {
+    "stories": "Histórias",
+    "articles": "Artigos",
+    "myths": "Mitos",
+    "tips": "Pontas"
+  }
 }

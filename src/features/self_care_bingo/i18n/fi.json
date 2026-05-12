@@ -21,7 +21,6 @@
   "instructions": "Klikkaa kutakin aktiviteettia suorittaaksesi sen. Hanki rivi, sarake tai diagonaali huutaaksesi BINGO!",
   "progress_title": "📊 Edistymisesi",
   "progress_count": "{{count}} 25 toiminnasta",
-  "new_board": "Uusi hallitus",
   "tiles": {
     "walk": "Lähde 10 minuutin kävelylle",
     "water": "Juo 8 lasillista vettä",

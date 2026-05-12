@@ -46,5 +46,28 @@
     "save": "சேமிக்கவும்",
     "loading": "ஏற்றப்படுகிறது..."
   },
-  "app_description": "வளங்கள்"
+  "app_description": "வளங்கள்",
+  "concerns": {
+    "acceptance": "ஏற்றுக்கொள்ளுதல்",
+    "adolescent": "இளம் பருவத்தினர்",
+    "anger": "கோபம்",
+    "anxiety": "கவலை",
+    "depression": "மனச்சோர்வு",
+    "eating-disorder": "உணவுக் கோளாறு",
+    "grief": "துக்கம்",
+    "parenting": "பெற்றோர் வளர்ப்பு",
+    "postpartum": "பிரசவத்திற்குப் பின்",
+    "ptsd": "PTSD",
+    "relationship": "உறவு",
+    "sexuality": "பாலியல்",
+    "sleep": "தூக்கம்",
+    "stress": "மன அழுத்தம்",
+    "workplace": "பணியிடம்"
+  },
+  "types": {
+    "stories": "கதைகள்",
+    "articles": "கட்டுரைகள்",
+    "myths": "கட்டுக்கதைகள்",
+    "tips": "குறிப்புகள்"
+  }
 }

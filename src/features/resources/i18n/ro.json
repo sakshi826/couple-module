@@ -46,5 +46,28 @@
     "save": "Salva",
     "loading": "Încărcare..."
   },
-  "app_description": "Resurse"
+  "app_description": "Resurse",
+  "concerns": {
+    "acceptance": "Acceptare",
+    "adolescent": "Adolescent",
+    "anger": "Furie",
+    "anxiety": "Anxietate",
+    "depression": "Depresie",
+    "eating-disorder": "Tulburare de alimentație",
+    "grief": "Durere",
+    "parenting": "Părinți",
+    "postpartum": "Postpartum",
+    "ptsd": "PTSD",
+    "relationship": "Relaţie",
+    "sexuality": "Sexualitate",
+    "sleep": "Dormi",
+    "stress": "Stres",
+    "workplace": "Locul de muncă"
+  },
+  "types": {
+    "stories": "Povești",
+    "articles": "Articole",
+    "myths": "Mituri",
+    "tips": "Sfaturi"
+  }
 }

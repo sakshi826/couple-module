@@ -21,7 +21,6 @@
   "instructions": "Klikk på hver aktivitet for å fullføre den. Få en rad, kolonne eller diagonal til å rope BINGO!",
   "progress_title": "📊 Din fremgang",
   "progress_count": "{{count}} av 25 aktiviteter",
-  "new_board": "Nytt styre",
   "tiles": {
     "walk": "Ta en 10-minutters spasertur",
     "water": "Drikk 8 glass vann",

@@ -46,5 +46,28 @@
     "save": "Save",
     "loading": "Loading..."
   },
-  "app_description": "Resources"
+  "app_description": "Resources",
+  "concerns": {
+    "acceptance": "Acceptance",
+    "adolescent": "Adolescent",
+    "anger": "Anger",
+    "anxiety": "Anxiety",
+    "depression": "Depression",
+    "eating-disorder": "Eating Disorder",
+    "grief": "Grief",
+    "parenting": "Parenting",
+    "postpartum": "Postpartum",
+    "ptsd": "PTSD",
+    "relationship": "Relationship",
+    "sexuality": "Sexuality",
+    "sleep": "Sleep",
+    "stress": "Stress",
+    "workplace": "Workplace"
+  },
+  "types": {
+    "stories": "Stories",
+    "articles": "Articles",
+    "myths": "Myths",
+    "tips": "Tips"
+  }
 }

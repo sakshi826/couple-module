@@ -46,5 +46,28 @@
     "save": "节省",
     "loading": "加载中..."
   },
-  "app_description": "资源"
+  "app_description": "资源",
+  "concerns": {
+    "acceptance": "验收",
+    "adolescent": "青少年",
+    "anger": "愤怒",
+    "anxiety": "焦虑",
+    "depression": "沮丧",
+    "eating-disorder": "饮食失调",
+    "grief": "悲伤",
+    "parenting": "育儿",
+    "postpartum": "产后",
+    "ptsd": "创伤后应激障碍",
+    "relationship": "关系",
+    "sexuality": "性欲",
+    "sleep": "睡觉",
+    "stress": "压力",
+    "workplace": "工作场所"
+  },
+  "types": {
+    "stories": "故事",
+    "articles": "文章",
+    "myths": "神话",
+    "tips": "尖端"
+  }
 }

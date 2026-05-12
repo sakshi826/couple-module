@@ -46,5 +46,28 @@
     "save": "บันทึก",
     "loading": "กำลังโหลด..."
   },
-  "app_description": "ทรัพยากร"
+  "app_description": "ทรัพยากร",
+  "concerns": {
+    "acceptance": "การยอมรับ",
+    "adolescent": "วัยรุ่น",
+    "anger": "ความโกรธ",
+    "anxiety": "ความวิตกกังวล",
+    "depression": "ภาวะซึมเศร้า",
+    "eating-disorder": "โรคการกินผิดปกติ",
+    "grief": "ความโศกเศร้า",
+    "parenting": "การเลี้ยงดูบุตร",
+    "postpartum": "หลังคลอด",
+    "ptsd": "โรค PTSD",
+    "relationship": "ความสัมพันธ์",
+    "sexuality": "เพศวิถี",
+    "sleep": "นอน",
+    "stress": "ความเครียด",
+    "workplace": "สถานที่ทำงาน"
+  },
+  "types": {
+    "stories": "เรื่องราว",
+    "articles": "บทความ",
+    "myths": "ความเชื่อผิดๆ",
+    "tips": "เคล็ดลับ"
+  }
 }

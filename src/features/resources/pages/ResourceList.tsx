@@ -76,7 +76,7 @@ const ResourceList = () => {
   const Icon = ICON_MAP[type || 'tips'] || BookOpen;
   const colorClass = COLOR_MAP[type || 'tips'] || 'text-primary bg-primary/10';
 
-  const title = `${concern?.charAt(0).toUpperCase()}${concern?.slice(1)} ${type?.charAt(0).toUpperCase()}${type?.slice(1)}`;
+  const title = `${t(`concerns.${concern}`)} ${t(`types.${type}`)}`;
 
   return (
     <PremiumLayout title={title}>

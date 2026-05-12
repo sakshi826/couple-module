@@ -132,10 +132,6 @@
       "承認今天需要勇氣。你已經在成長了。 🌷"
     ]
   },
-  "intro_p1": "screens.intro.benefits.0",
-  "intro_p2": "螢幕簡介.好處.1",
-  "intro_p3": "螢幕簡介.好處.2",
-  "intro_p4": "螢幕介紹 好處 3",
-  "app_title": "護理追蹤器",
-  "app_description": "護理追蹤器"
+  "app_title": "自我護理追蹤器",
+  "app_description": "記錄你的日常自我照護習慣，看看它們如何影響你的整體健康。持之以恆是維持心理健康的關鍵。"
 }

@@ -21,7 +21,6 @@
   "instructions": "Klicka på varje aktivitet för att slutföra den. Skaffa en rad, kolumn eller diagonal för att ropa BINGO!",
   "progress_title": "📊 Din utveckling",
   "progress_count": "{{count}} av 25 aktiviteter",
-  "new_board": "Ny styrelse",
   "tiles": {
     "walk": "Ta en 10-minuters promenad",
     "water": "Drick 8 glas vatten",

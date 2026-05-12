@@ -106,9 +106,17 @@ async function syncFeature(feature) {
         let existingContent = fs.existsSync(targetPath) ? JSON.parse(fs.readFileSync(targetPath, 'utf8')) : {};
         let flattenedTarget = flatten(existingContent);
 
+        // Purge keys from target that are not in EN
+        Object.keys(flattenedTarget).forEach(key => {
+            if (!flattenedEn.hasOwnProperty(key)) {
+                delete flattenedTarget[key];
+            }
+        });
+
         const missingKeys = [];
         const missingValues = [];
         const technicalKeys = ['answer', 'type', 'slug', 'id', 'url', 'icon', 'image'];
+        const forceUpdateKeys = ['app_title', 'app_description'];
         
         keys.forEach((key, i) => {
             const keyParts = key.split('.');
@@ -117,6 +125,13 @@ async function syncFeature(feature) {
             if (technicalKeys.includes(lastPart)) {
                 // Force copy technical keys as-is
                 flattenedTarget[key] = values[i];
+            } else if (forceUpdateKeys.includes(lastPart)) {
+                // If it's a title/desc, check if it needs update (this is tricky without original EN)
+                // For now, we'll only translate if missing, but we'll manually fix care_tracker
+                if (!flattenedTarget[key]) {
+                    missingKeys.push(key);
+                    missingValues.push(values[i]);
+                }
             } else if (!flattenedTarget[key]) {
                 missingKeys.push(key);
                 missingValues.push(values[i]);

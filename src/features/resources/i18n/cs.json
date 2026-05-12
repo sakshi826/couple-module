@@ -46,5 +46,28 @@
     "save": "Uložit",
     "loading": "Načítání..."
   },
-  "app_description": "Zdroje"
+  "app_description": "Zdroje",
+  "concerns": {
+    "acceptance": "Přijetí",
+    "adolescent": "Puberťák",
+    "anger": "Hněv",
+    "anxiety": "Úzkost",
+    "depression": "Deprese",
+    "eating-disorder": "Porucha příjmu potravy",
+    "grief": "Smutek",
+    "parenting": "Rodičovství",
+    "postpartum": "Poporodní",
+    "ptsd": "PTSD",
+    "relationship": "Vztah",
+    "sexuality": "Sexualita",
+    "sleep": "Spát",
+    "stress": "Stres",
+    "workplace": "Pracoviště"
+  },
+  "types": {
+    "stories": "Příběhy",
+    "articles": "Články",
+    "myths": "Mýty",
+    "tips": "Tipy"
+  }
 }

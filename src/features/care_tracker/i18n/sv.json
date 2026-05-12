@@ -132,10 +132,6 @@
       "Att erkänna idag kräver mod. Du växer redan. 🌷"
     ]
   },
-  "intro_p1": "screens.intro.benefits.0",
-  "intro_p2": "skärmar.introduktion.fördelar.1",
-  "intro_p3": "skärmar.introduktion.fördelar.2",
-  "intro_p4": "skärmar.introduktion.fördelar.3",
-  "app_title": "Vårdspårare",
-  "app_description": "Vårdspårare"
+  "app_title": "Självvårdsspårare",
+  "app_description": "Följ dina dagliga egenvårdsvanor och se hur de påverkar ditt allmänna välbefinnande. Konsekvens är nyckeln till ett hälsosammare sinne."
 }

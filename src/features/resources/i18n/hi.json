@@ -46,5 +46,28 @@
     "save": "बचाना",
     "loading": "लोड हो रहा है..."
   },
-  "app_description": "संसाधन"
+  "app_description": "संसाधन",
+  "concerns": {
+    "acceptance": "स्वीकार",
+    "adolescent": "किशोर",
+    "anger": "गुस्सा",
+    "anxiety": "चिंता",
+    "depression": "अवसाद",
+    "eating-disorder": "खाने में विकार",
+    "grief": "दु: ख",
+    "parenting": "पेरेंटिंग",
+    "postpartum": "प्रसवोत्तर",
+    "ptsd": "पीटीएसडी",
+    "relationship": "संबंध",
+    "sexuality": "लैंगिकता",
+    "sleep": "नींद",
+    "stress": "तनाव",
+    "workplace": "कार्यस्थल"
+  },
+  "types": {
+    "stories": "कहानियाँ",
+    "articles": "सामग्री",
+    "myths": "मिथकों",
+    "tips": "सुझावों"
+  }
 }

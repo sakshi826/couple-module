@@ -46,5 +46,28 @@
     "save": "Kaydetmek",
     "loading": "Yükleniyor..."
   },
-  "app_description": "Kaynaklar"
+  "app_description": "Kaynaklar",
+  "concerns": {
+    "acceptance": "Kabul",
+    "adolescent": "Ergen",
+    "anger": "Kızgınlık",
+    "anxiety": "Endişe",
+    "depression": "Depresyon",
+    "eating-disorder": "Yeme Bozukluğu",
+    "grief": "Yas",
+    "parenting": "Ebeveynlik",
+    "postpartum": "Doğum sonrası",
+    "ptsd": "TSSB",
+    "relationship": "İlişki",
+    "sexuality": "Cinsellik",
+    "sleep": "Uyumak",
+    "stress": "Stres",
+    "workplace": "İşyeri"
+  },
+  "types": {
+    "stories": "Hikayeler",
+    "articles": "Makaleler",
+    "myths": "Mitler",
+    "tips": "İpuçları"
+  }
 }

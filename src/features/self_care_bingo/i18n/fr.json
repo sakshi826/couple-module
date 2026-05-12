@@ -21,7 +21,6 @@
   "instructions": "Cliquez sur chaque activité pour la compléter. Prenez une rangée, une colonne ou une diagonale pour crier BINGO !",
   "progress_title": "📊 Votre progression",
   "progress_count": "{{count}} sur 25 activités",
-  "new_board": "Nouveau conseil d’administration",
   "tiles": {
     "walk": "Faire une promenade de 10 minutes",
     "water": "Bois 8 verres d’eau",

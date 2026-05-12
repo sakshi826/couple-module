@@ -46,5 +46,28 @@
     "save": "Salva",
     "loading": "Caricamento..."
   },
-  "app_description": "Risorse"
+  "app_description": "Risorse",
+  "concerns": {
+    "acceptance": "Accettazione",
+    "adolescent": "Adolescente",
+    "anger": "Rabbia",
+    "anxiety": "Ansia",
+    "depression": "Depressione",
+    "eating-disorder": "Disturbo alimentare",
+    "grief": "Dolore",
+    "parenting": "Genitorialità",
+    "postpartum": "Postparto",
+    "ptsd": "Disturbo da stress post-traumatico",
+    "relationship": "Relazione",
+    "sexuality": "Sessualità",
+    "sleep": "Sonno",
+    "stress": "Stress",
+    "workplace": "luogo di lavoro"
+  },
+  "types": {
+    "stories": "Abiti",
+    "articles": "Articoli",
+    "myths": "Miti",
+    "tips": "Suggerimenti"
+  }
 }

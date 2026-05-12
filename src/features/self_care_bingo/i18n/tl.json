@@ -21,7 +21,6 @@
   "instructions": "I-click ang bawat aktibidad upang makumpleto ito. Kumuha ng hilera, haligi, o dayagonal para sumigaw ng BINGO!",
   "progress_title": "📊 Ang Iyong Pag-unlad",
   "progress_count": "{{count}} ng 25 mga aktibidad",
-  "new_board": "Bagong Lupon",
   "tiles": {
     "walk": "Maglakad-lakad ng 10 minuto",
     "water": "Uminom ng 8 baso ng tubig",

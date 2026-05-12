@@ -21,7 +21,6 @@
   "instructions": "Kattints minden tevékenységre, hogy teljesítsd őket. Szerezz sort, oszlopot vagy átlót, hogy kiáldd a BINGO!",
   "progress_title": "📊 A fejlődésed",
   "progress_count": "{{count}} 25 tevékenységből",
-  "new_board": "Új Igazgatóság",
   "tiles": {
     "walk": "Sétálj egy 10 perces sétát",
     "water": "Igyál 8 pohár vizet",

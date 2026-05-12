@@ -132,10 +132,6 @@
       "Heute anzuerkennen erfordert Mut. Du wächst schon. 🌷"
     ]
   },
-  "intro_p1": "screens.intro.benefits.0",
-  "intro_p2": "screens.intro.benefits.1",
-  "intro_p3": "screens.intro.benefits.2",
-  "intro_p4": "screens.intro.benefits.3",
-  "app_title": "Pflege-Tracker",
-  "app_description": "Pflege-Tracker"
+  "app_title": "Selbstfürsorge-Tracker",
+  "app_description": "Verfolge deine täglichen Selbstfürsorgegewohnheiten und beobachte, wie sie sich auf dein allgemeines Wohlbefinden auswirken. Regelmäßigkeit ist der Schlüssel zu einem gesünderen Geist."
 }

@@ -21,7 +21,6 @@
   "instructions": "Klik på hver aktivitet for at fuldføre den. Få en række, kolonne eller diagonal til at råbe BINGO!",
   "progress_title": "📊 Din fremgang",
   "progress_count": "{{count}} af 25 aktiviteter",
-  "new_board": "Nyt Board",
   "tiles": {
     "walk": "Tag en 10-minutters gåtur",
     "water": "Drik 8 glas vand",

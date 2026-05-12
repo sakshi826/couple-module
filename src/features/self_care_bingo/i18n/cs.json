@@ -21,7 +21,6 @@
   "instructions": "Klikněte na každou aktivitu a dokončíte ji. Získejte řádek, sloupec nebo diagonálu, abyste mohli zakřičet BINGO!",
   "progress_title": "📊 Tvůj pokrok",
   "progress_count": "{{count}} z 25 aktivit",
-  "new_board": "Nová rada",
   "tiles": {
     "walk": "Jděte na desetiminutovou procházku",
     "water": "Vypij 8 sklenic vody",

@@ -21,7 +21,6 @@
   "instructions": "Apasă pe fiecare activitate pentru a o finaliza. Ia un rând, o coloană sau o diagonală ca să strigi BINGO!",
   "progress_title": "📊 Progresul tău",
   "progress_count": "{{count}} din 25 de activități",
-  "new_board": "Noul consiliu",
   "tiles": {
     "walk": "Fă o plimbare de 10 minute",
     "water": "Bea 8 pahare cu apă",

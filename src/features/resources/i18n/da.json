@@ -46,5 +46,28 @@
     "save": "Spare",
     "loading": "Indlæser..."
   },
-  "app_description": "Ressourcer"
+  "app_description": "Ressourcer",
+  "concerns": {
+    "acceptance": "Accept",
+    "adolescent": "Ungdom",
+    "anger": "Vrede",
+    "anxiety": "Angst",
+    "depression": "Depression",
+    "eating-disorder": "Spiseforstyrrelse",
+    "grief": "Sorg",
+    "parenting": "Forældreskab",
+    "postpartum": "Efter fødslen",
+    "ptsd": "PTSD",
+    "relationship": "Forhold",
+    "sexuality": "Seksualitet",
+    "sleep": "Sove",
+    "stress": "Stress",
+    "workplace": "Arbejdsplads"
+  },
+  "types": {
+    "stories": "Historier",
+    "articles": "Artikler",
+    "myths": "Myter",
+    "tips": "Tips"
+  }
 }

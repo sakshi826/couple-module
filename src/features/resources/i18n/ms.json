@@ -46,5 +46,28 @@
     "save": "Simpan",
     "loading": "Memuatkan..."
   },
-  "app_description": "Sumber"
+  "app_description": "Sumber",
+  "concerns": {
+    "acceptance": "Penerimaan",
+    "adolescent": "Remaja",
+    "anger": "Kemarahan",
+    "anxiety": "Kebimbangan",
+    "depression": "Kemurungan",
+    "eating-disorder": "Gangguan Makan",
+    "grief": "Kesedihan",
+    "parenting": "Keibubapaan",
+    "postpartum": "Selepas bersalin",
+    "ptsd": "PTSD",
+    "relationship": "Hubungan",
+    "sexuality": "Seksualiti",
+    "sleep": "Tidur",
+    "stress": "Tekanan",
+    "workplace": "Tempat kerja"
+  },
+  "types": {
+    "stories": "Cerita",
+    "articles": "Artikel",
+    "myths": "Mitos",
+    "tips": "Petua"
+  }
 }

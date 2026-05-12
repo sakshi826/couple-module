@@ -46,5 +46,28 @@
     "save": "Speichern",
     "loading": "Laden..."
   },
-  "app_description": "Ressourcen"
+  "app_description": "Ressourcen",
+  "concerns": {
+    "acceptance": "Annahme",
+    "adolescent": "Jugendlicher",
+    "anger": "Wut",
+    "anxiety": "Angst",
+    "depression": "Depression",
+    "eating-disorder": "Essstörung",
+    "grief": "Kummer",
+    "parenting": "Elternschaft",
+    "postpartum": "Wochenbett",
+    "ptsd": "PTSD",
+    "relationship": "Beziehung",
+    "sexuality": "Sexualität",
+    "sleep": "Schlafen",
+    "stress": "Stress",
+    "workplace": "Arbeitsplatz"
+  },
+  "types": {
+    "stories": "Geschichten",
+    "articles": "Artikel",
+    "myths": "Mythen",
+    "tips": "Tipps"
+  }
 }

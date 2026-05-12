@@ -46,5 +46,28 @@
     "save": "Spara",
     "loading": "Belastning..."
   },
-  "app_description": "Resurser"
+  "app_description": "Resurser",
+  "concerns": {
+    "acceptance": "Godtagande",
+    "adolescent": "Tonåring",
+    "anger": "Ilska",
+    "anxiety": "Ångest",
+    "depression": "Depression",
+    "eating-disorder": "Ätstörning",
+    "grief": "Sorg",
+    "parenting": "Föräldraskap",
+    "postpartum": "Efter förlossningen",
+    "ptsd": "PTSD",
+    "relationship": "Relation",
+    "sexuality": "Sexualitet",
+    "sleep": "Sova",
+    "stress": "Stress",
+    "workplace": "Arbetsplats"
+  },
+  "types": {
+    "stories": "Berättelser",
+    "articles": "Artiklar",
+    "myths": "Myter",
+    "tips": "Tips"
+  }
 }

@@ -132,10 +132,6 @@
       "Reconocer hoy requiere valor. Ya estás creciendo. 🌷"
     ]
   },
-  "intro_p1": "pantallas.introducción.beneficios.0",
-  "intro_p2": "pantallas.introducción.beneficios.1",
-  "intro_p3": "pantallas.introducción.beneficios.2",
-  "intro_p4": "pantallas.introducción.beneficios.3",
-  "app_title": "Rastreador de cuidados",
-  "app_description": "Rastreador de cuidados"
+  "app_title": "Rastreador de autocuidado",
+  "app_description": "Registra tus hábitos diarios de autocuidado y observa cómo influyen en tu bienestar general. La constancia es clave para una mente más sana."
 }

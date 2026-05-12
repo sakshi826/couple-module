@@ -46,5 +46,28 @@
     "save": "సేవ్ చేయండి",
     "loading": "లోడ్ అవుతోంది..."
   },
-  "app_description": "వనరులు"
+  "app_description": "వనరులు",
+  "concerns": {
+    "acceptance": "అంగీకారం",
+    "adolescent": "కౌమారదశలో",
+    "anger": "కోపం",
+    "anxiety": "ఆందోళన",
+    "depression": "డిప్రెషన్",
+    "eating-disorder": "ఆహార రుగ్మత",
+    "grief": "దుఃఖం",
+    "parenting": "పెంపకం",
+    "postpartum": "ప్రసవానంతర",
+    "ptsd": "PTSD",
+    "relationship": "సంబంధం",
+    "sexuality": "లైంగికత",
+    "sleep": "నిద్ర",
+    "stress": "ఒత్తిడి",
+    "workplace": "పని ప్రదేశం"
+  },
+  "types": {
+    "stories": "కథలు",
+    "articles": "వ్యాసాలు",
+    "myths": "పురాణాలు",
+    "tips": "చిట్కాలు"
+  }
 }

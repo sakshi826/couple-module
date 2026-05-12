@@ -21,7 +21,6 @@
   "instructions": "各アクティビティをクリックすると完了できます。列、列、斜めに「ビンゴ!」と叫びましょう。",
   "progress_title": "📊 あなたの進捗",
   "progress_count": "{{count}} 25の活動のうち",
-  "new_board": "新理事会",
   "tiles": {
     "walk": "10分ほど散歩しましょう",
     "water": "水を8杯飲んでください",

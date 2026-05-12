@@ -46,5 +46,28 @@
     "save": "Menyimpan",
     "loading": "Memuat..."
   },
-  "app_description": "Sumber daya"
+  "app_description": "Sumber daya",
+  "concerns": {
+    "acceptance": "Penerimaan",
+    "adolescent": "Remaja",
+    "anger": "Amarah",
+    "anxiety": "Kecemasan",
+    "depression": "Depresi",
+    "eating-disorder": "Gangguan Makan",
+    "grief": "Duka",
+    "parenting": "Pengasuhan Anak",
+    "postpartum": "Pascapersalinan",
+    "ptsd": "PTSD",
+    "relationship": "Hubungan",
+    "sexuality": "Seks",
+    "sleep": "Tidur",
+    "stress": "Menekankan",
+    "workplace": "Tempat kerja"
+  },
+  "types": {
+    "stories": "Cerita",
+    "articles": "Artikel",
+    "myths": "Mitos",
+    "tips": "Tips"
+  }
 }
