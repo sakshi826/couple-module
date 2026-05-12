@@ -32,16 +32,16 @@
   "not_found_text": "おっと！ページが見つかりません",
   "return_home": "ホームに戻る",
   "common": {
-    "get_started": "始めよう",
-    "start_over": "やり直し",
-    "finish_exit": "フィニッシュ&エグジット",
-    "well_done": "よくやった!",
-    "completion_message": "あなたはこの活動を無事に完了しました。自分の進歩を少しでも感じてみてください。",
-    "time_to_complete": "完了の時間だ",
+    "get_started": "さあ始めましょう",
+    "start_over": "最初からやり直す",
+    "finish_exit": "終了して退出",
+    "well_done": "よくやった！",
+    "completion_message": "このアクティビティは無事完了しました。これまでの成果をじっくりと味わってください。",
+    "time_to_complete": "完了までの時間",
     "back": "戻る",
     "next": "次",
-    "save": "セーブ",
-    "loading": "読み込み中..."
+    "save": "保存",
+    "loading": "読み込み中…"
   },
   "app_complete_title": "感謝の気持ちを救った",
   "app_complete_message": "感謝していることを振り返ることは、前向きな方向に意識を移す強力な方法です。"

@@ -2,13 +2,13 @@
   "common": {
     "get_started": "Aloita",
     "start_over": "Aloita alusta",
-    "finish_exit": "Maali ja uloskäynti",
+    "finish_exit": "Lopeta ja poistu",
     "well_done": "Hyvin tehty!",
-    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Ota hetki arvostaaksesi edistymistäsi.",
-    "time_to_complete": "Aika valmistua",
+    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Käytä hetki aikaa edistymisesi arvostamiseen.",
+    "time_to_complete": "Aikaa valmistua",
     "back": "Takaisin",
-    "next": "Seuraavaksi",
-    "save": "Tallenna",
+    "next": "Seuraava",
+    "save": "Tallentaa",
     "loading": "Ladataan..."
   },
   "screens": {

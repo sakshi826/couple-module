@@ -234,15 +234,15 @@
     "complete_button": "Completar y guardar"
   },
   "common": {
-    "get_started": "Empieza",
-    "start_over": "Empezar de nuevo",
-    "finish_exit": "Llegada y salida",
+    "get_started": "Comience",
+    "start_over": "Volver a empezar",
+    "finish_exit": "Finalizar y salir",
     "well_done": "¡Bien hecho!",
     "completion_message": "Has completado esta actividad con éxito. Tómate un momento para apreciar tu progreso.",
-    "time_to_complete": "Hora de completar",
+    "time_to_complete": "Tiempo para completar",
     "back": "Atrás",
-    "next": "Siguiente",
-    "save": "Salvar",
+    "next": "Próximo",
+    "save": "Ahorrar",
     "loading": "Cargando..."
   }
 }

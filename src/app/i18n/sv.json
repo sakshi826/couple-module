@@ -1,41 +1,41 @@
 {
   "common": {
     "get_started": "Kom igång",
-    "start_over": "Börja om",
-    "finish_exit": "Mål och utgång",
+    "start_over": "Börja om från början",
+    "finish_exit": "Slutför och avsluta",
     "well_done": "Bra jobbat!",
-    "completion_message": "Du har framgångsrikt slutfört denna aktivitet. Ta en stund och uppskatta dina framsteg.",
+    "completion_message": "Du har slutfört den här aktiviteten. Ta en stund för att uppskatta dina framsteg.",
     "time_to_complete": "Dags att slutföra",
     "back": "Tillbaka",
     "next": "Nästa",
     "save": "Spara",
-    "loading": "Laddar...",
-    "today": "Idag",
-    "yesterday": "Igår",
+    "loading": "Belastning...",
+    "today": "I dag",
+    "yesterday": "I går",
     "filters": "Filter",
     "see_all": "Se alla",
     "meditation": "Meditation",
     "guided": "Guidad",
-    "sleep": "Sömn",
+    "sleep": "Sova",
     "mindfulness": "Mindfulness",
-    "restore": "Återställ",
+    "restore": "Återställa",
     "curated": "Kuraterad av Mind",
-    "restorative": "Återställande",
+    "restorative": "Stärkande",
     "peace": "Fred",
-    "breath": "Andas",
+    "breath": "Andetag",
     "nature": "Natur",
-    "relax": "Slappna av",
+    "relax": "Koppla av",
     "time": {
-      "3min": "3 min",
-      "5min": "5 min",
-      "8min": "8 min",
-      "10min": "10 min",
-      "12min": "12 min",
-      "15min": "15 min",
-      "20min": "20 min",
-      "30min": "30 min",
-      "45min": "45 min",
-      "60min": "60 min"
+      "3min": "3 minuter",
+      "5min": "5 minuter",
+      "8min": "8 minuter",
+      "10min": "10 minuter",
+      "12min": "12 minuter",
+      "15min": "15 minuter",
+      "20min": "20 minuter",
+      "30min": "30 minuter",
+      "45min": "45 minuter",
+      "60min": "60 minuter"
     }
   },
   "hub": {
@@ -130,7 +130,11 @@
     "affirmations": "Affirmationer",
     "mindful-space": "Medvetet utrymme",
     "letter-to-self": "Ett brev till mig själv",
-    "sleep-tracker": "Sömnspårare"
+    "sleep-tracker": "Sömnspårare",
+    "real_stories_anxiety": "Verkliga berättelser för att övervinna ångest",
+    "brain_dump": "Hjärndumpning och sortering",
+    "sleep_window": "Sömnfönsterplanerare",
+    "a_letter_to_self": "Ett brev till mig själv"
   },
   "moods": {
     "great": "Toppen",
@@ -219,5 +223,25 @@
       "students": "Studenter",
       "affirmations": "Affirmationer"
     }
+  },
+  "tips": {
+    "depression_tips": "Tips för lindring av depression",
+    "anxiety_tips": "Tips för hantering av ångest",
+    "stress_tips": "Tips för stresshantering",
+    "sleep_guide": "Guide för bättre sömn",
+    "sleep_cycle": "Förstå sömncykler",
+    "sleep_tips": "Snabba sömntips"
+  },
+  "trackers": {
+    "vibe_tracker": "Vibe Tracker (Humör)",
+    "energy_tracker": "Energispårare",
+    "sleep_audit": "Sömnrevision",
+    "gratitude_diary": "Daglig tacksamhetsdagbok"
+  },
+  "exercises": {
+    "4_6_8_breathing": "4-6-8 Andning",
+    "5_4_3_2_1_grounding": "5-4-3-2-1 Jordning",
+    "box_breathing": "Boxandning",
+    "diffusion_technique": "Teknisk sändning"
   }
 }

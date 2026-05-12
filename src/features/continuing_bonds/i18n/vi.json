@@ -65,13 +65,13 @@
   "common": {
     "get_started": "Bắt đầu",
     "start_over": "Bắt đầu lại",
-    "finish_exit": "Kết thúc & Thoát",
-    "well_done": "Làm tốt lắm!",
-    "completion_message": "Bạn đã hoàn thành thành công hoạt động này. Hãy dành một chút thời gian để đánh giá cao sự tiến bộ của bạn.",
-    "time_to_complete": "Thời gian hoàn thành",
-    "back": "Quay lại",
+    "finish_exit": "Hoàn thành & Lối ra",
+    "well_done": "Làm tốt!",
+    "completion_message": "Bạn đã hoàn thành hoạt động này một cách thành công. Hãy dành chút thời gian để tự hào về những tiến bộ mình đã đạt được.",
+    "time_to_complete": "Đã đến lúc hoàn thành",
+    "back": "Mặt sau",
     "next": "Kế tiếp",
-    "save": "Lưu",
+    "save": "Cứu",
     "loading": "Đang tải..."
   }
 }

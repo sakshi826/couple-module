@@ -17,16 +17,16 @@
     "optional": "(volitelné)"
   },
   "common": {
-    "get_started": "Začněte",
+    "get_started": "Začít",
     "start_over": "Začít znovu",
-    "finish_exit": "Konec a výjezd",
+    "finish_exit": "Dokončit a ukončit",
     "well_done": "Dobrá práce!",
-    "completion_message": "Úspěšně jste tuto aktivitu dokončili. Věnujte chvíli ocenění svého pokroku.",
-    "time_to_complete": "Čas dokončit",
-    "back": "Zpět",
+    "completion_message": "Tuto aktivitu jste úspěšně dokončili. Chvíli si vážte svého pokroku.",
+    "time_to_complete": "Čas na dokončení",
+    "back": "Zadní",
     "next": "Další",
     "save": "Uložit",
-    "loading": "Načítám..."
+    "loading": "Načítání..."
   },
   "mood": {
     "heading": "Jak se cítíš?",

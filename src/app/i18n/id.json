@@ -1,30 +1,30 @@
 {
   "common": {
-    "get_started": "Memulai",
-    "start_over": "Mulai Dari Awal",
+    "get_started": "Mulai",
+    "start_over": "Mulai dari Awal",
     "finish_exit": "Selesai & Keluar",
-    "well_done": "Bagus!",
-    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
-    "time_to_complete": "Waktu untuk menyelesaikan",
+    "well_done": "Bagus sekali!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk mengapresiasi kemajuan Anda.",
+    "time_to_complete": "Waktu penyelesaian",
     "back": "Kembali",
-    "next": "Selanjutnya",
-    "save": "Simpan",
+    "next": "Berikutnya",
+    "save": "Menyimpan",
     "loading": "Memuat...",
     "today": "Hari ini",
     "yesterday": "Kemarin",
     "filters": "Filter",
     "see_all": "Lihat Semua",
     "meditation": "Meditasi",
-    "guided": "Dipandu",
+    "guided": "Terbimbing",
     "sleep": "Tidur",
-    "mindfulness": "Perhatian penuh",
-    "restore": "Pulihkan",
-    "curated": "Dikuratori oleh Mind",
-    "restorative": "Restoratif",
+    "mindfulness": "Kesadaran penuh",
+    "restore": "Memulihkan",
+    "curated": "Dikurasi oleh Mind",
+    "restorative": "Pemulihan",
     "peace": "Perdamaian",
-    "breath": "Nafas",
+    "breath": "Napas",
     "nature": "Alam",
-    "relax": "Bersantai",
+    "relax": "Santai",
     "time": {
       "3min": "3 menit",
       "5min": "5 menit",
@@ -130,7 +130,11 @@
     "affirmations": "Afirmasi",
     "mindful-space": "Ruang Sadar",
     "letter-to-self": "Surat Untuk Diri Sendiri",
-    "sleep-tracker": "Pelacak Tidur"
+    "sleep-tracker": "Pelacak Tidur",
+    "real_stories_anxiety": "Kisah Nyata untuk Mengatasi Kecemasan",
+    "brain_dump": "Curah Pendapat dan Pengurutan",
+    "sleep_window": "Perencana Jendela Tidur",
+    "a_letter_to_self": "Surat untuk Diri Sendiri"
   },
   "moods": {
     "great": "Bagus",
@@ -219,5 +223,25 @@
       "students": "Siswa",
       "affirmations": "Afirmasi"
     }
+  },
+  "tips": {
+    "depression_tips": "Tips Mengatasi Depresi",
+    "anxiety_tips": "Tips Mengelola Kecemasan",
+    "stress_tips": "Tips Mengelola Stres",
+    "sleep_guide": "Panduan Tidur Lebih Nyenyak",
+    "sleep_cycle": "Memahami Siklus Tidur",
+    "sleep_tips": "Tips Tidur Cepat"
+  },
+  "trackers": {
+    "vibe_tracker": "Pelacak Suasana Hati (Mood)",
+    "energy_tracker": "Pelacak Energi",
+    "sleep_audit": "Audit Tidur",
+    "gratitude_diary": "Buku Harian Rasa Syukur Harian"
+  },
+  "exercises": {
+    "4_6_8_breathing": "Pernapasan 4-6-8",
+    "5_4_3_2_1_grounding": "5-4-3-2-1 Pembumian",
+    "box_breathing": "Pernapasan Kotak",
+    "diffusion_technique": "Penyiaran Teknis"
   }
 }

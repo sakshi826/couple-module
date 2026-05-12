@@ -1,30 +1,30 @@
 {
   "common": {
-    "get_started": "始めよう",
-    "start_over": "やり直し",
-    "finish_exit": "フィニッシュ&エグジット",
-    "well_done": "よくやった!",
-    "completion_message": "あなたはこの活動を無事に完了しました。自分の進歩を少しでも感じてみてください。",
-    "time_to_complete": "完了の時間だ",
+    "get_started": "さあ始めましょう",
+    "start_over": "最初からやり直す",
+    "finish_exit": "終了して退出",
+    "well_done": "よくやった！",
+    "completion_message": "このアクティビティは無事完了しました。これまでの成果をじっくりと味わってください。",
+    "time_to_complete": "完了までの時間",
     "back": "戻る",
     "next": "次",
-    "save": "セーブ",
-    "loading": "読み込み中...",
-    "today": "現在",
+    "save": "保存",
+    "loading": "読み込み中…",
+    "today": "今日",
     "yesterday": "昨日",
     "filters": "フィルター",
-    "see_all": "全てを見る",
+    "see_all": "すべて表示",
     "meditation": "瞑想",
     "guided": "ガイド付き",
-    "sleep": "眠れ",
+    "sleep": "寝る",
     "mindfulness": "マインドフルネス",
-    "restore": "リストア",
-    "curated": "マインドによるキュレーション",
-    "restorative": "修復",
-    "peace": "平和を",
+    "restore": "復元する",
+    "curated": "Mindがキュレーション",
+    "restorative": "回復",
+    "peace": "平和",
     "breath": "呼吸",
     "nature": "自然",
-    "relax": "落ち着いて",
+    "relax": "リラックス",
     "time": {
       "3min": "3分",
       "5min": "5分",
@@ -130,7 +130,11 @@
     "affirmations": "アファメーション",
     "mindful-space": "マインドフル・スペース",
     "letter-to-self": "自分自身への手紙",
-    "sleep-tracker": "睡眠トラッカー"
+    "sleep-tracker": "睡眠トラッカー",
+    "real_stories_anxiety": "不安を克服するための実話",
+    "brain_dump": "ブレインダンプとソート",
+    "sleep_window": "睡眠時間プランナー",
+    "a_letter_to_self": "自分への手紙"
   },
   "moods": {
     "great": "素晴らしい",
@@ -219,5 +223,25 @@
       "students": "学生",
       "affirmations": "アファメーション"
     }
+  },
+  "tips": {
+    "depression_tips": "うつ病の緩和に関するヒント",
+    "anxiety_tips": "不安管理のヒント",
+    "stress_tips": "ストレス管理のヒント",
+    "sleep_guide": "より良い睡眠のためのガイド",
+    "sleep_cycle": "睡眠サイクルを理解する",
+    "sleep_tips": "睡眠を素早く取るためのヒント"
+  },
+  "trackers": {
+    "vibe_tracker": "バイブトラッカー（気分）",
+    "energy_tracker": "エネルギー追跡",
+    "sleep_audit": "睡眠監査",
+    "gratitude_diary": "日々の感謝日記"
+  },
+  "exercises": {
+    "4_6_8_breathing": "4-6-8呼吸法",
+    "5_4_3_2_1_grounding": "5-4-3-2-1 接地",
+    "box_breathing": "ボックスブリージング",
+    "diffusion_technique": "テクニカルブロードキャスティング"
   }
 }

@@ -1,30 +1,30 @@
 {
   "common": {
     "get_started": "شروع کریں",
-    "start_over": "دوبارہ شروع کریں",
-    "finish_exit": "فنش اینڈ ایگزٹ",
+    "start_over": "دوبارہ شروع کریں۔",
+    "finish_exit": "ختم کریں اور باہر نکلیں۔",
     "well_done": "شاباش!",
-    "completion_message": "آپ نے یہ سرگرمی کامیابی سے مکمل کر لی ہے۔ اپنی پیش رفت کی قدر کرنے کے لیے ایک لمحہ نکالیں۔",
+    "completion_message": "آپ نے یہ سرگرمی کامیابی سے مکمل کر لی ہے۔ اپنی ترقی کی تعریف کرنے کے لیے ایک لمحہ نکالیں۔",
     "time_to_complete": "مکمل ہونے کا وقت",
-    "back": "واپس",
+    "back": "پیچھے",
     "next": "اگلا",
-    "save": "سیو",
+    "save": "محفوظ کریں۔",
     "loading": "لوڈ ہو رہا ہے...",
     "today": "آج",
     "yesterday": "کل",
     "filters": "فلٹرز",
     "see_all": "سب دیکھیں",
     "meditation": "مراقبہ",
-    "guided": "رہنمائی",
-    "sleep": "نیند",
-    "mindfulness": "مائنڈفلنیس",
-    "restore": "بحالی",
-    "curated": "مائنڈ کی جانب سے ترتیب دیا گیا",
-    "restorative": "بحالی",
+    "guided": "رہنمائی کی۔",
+    "sleep": "سونا",
+    "mindfulness": "ذہن سازی",
+    "restore": "بحال کریں۔",
+    "curated": "دماغ کے ذریعے کیوریٹڈ",
+    "restorative": "بحال کرنے والا",
     "peace": "امن",
     "breath": "سانس",
-    "nature": "قدرت",
-    "relax": "پریشان نہ ہو",
+    "nature": "فطرت",
+    "relax": "آرام کرو",
     "time": {
       "3min": "3 منٹ",
       "5min": "5 منٹ",
@@ -130,7 +130,11 @@
     "affirmations": "تصدیقات",
     "mindful-space": "مائنڈفل اسپیس",
     "letter-to-self": "خود کو ایک خط",
-    "sleep-tracker": "سلیپ ٹریکر"
+    "sleep-tracker": "سلیپ ٹریکر",
+    "real_stories_anxiety": "بے چینی پر قابو پانے کے لیے حقیقی کہانیاں",
+    "brain_dump": "برین ڈمپ اور ترتیب دیں۔",
+    "sleep_window": "سلیپ ونڈو پلانر",
+    "a_letter_to_self": "خود کو ایک خط"
   },
   "moods": {
     "great": "زبردست",
@@ -219,5 +223,25 @@
       "students": "طلباء",
       "affirmations": "تصدیقات"
     }
+  },
+  "tips": {
+    "depression_tips": "ڈپریشن سے نجات کی تجاویز",
+    "anxiety_tips": "اضطراب کے انتظام کے نکات",
+    "stress_tips": "تناؤ کے انتظام کے نکات",
+    "sleep_guide": "سلیپ بیٹر گائیڈ",
+    "sleep_cycle": "نیند کے چکروں کو سمجھنا",
+    "sleep_tips": "فوری نیند کی تجاویز"
+  },
+  "trackers": {
+    "vibe_tracker": "وائب ٹریکر (موڈ)",
+    "energy_tracker": "انرجی ٹریکر",
+    "sleep_audit": "نیند کا آڈٹ",
+    "gratitude_diary": "روزانہ شکرگزار ڈائری"
+  },
+  "exercises": {
+    "4_6_8_breathing": "4-6-8 سانس لینا",
+    "5_4_3_2_1_grounding": "5-4-3-2-1 گراؤنڈنگ",
+    "box_breathing": "باکس سانس لینا",
+    "diffusion_technique": "تکنیکی نشریات"
   }
 }

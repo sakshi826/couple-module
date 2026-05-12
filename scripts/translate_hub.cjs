@@ -4,12 +4,11 @@ const axios = require('axios');
 require('dotenv').config();
 
 const API_KEY = process.env.AZURE_TRANSLATOR_KEY;
-const REGION = process.env.AZURE_TRANSLATOR_REGION || 'eastus';
-const ENDPOINT = 'https://api.cognitive.microsofttranslator.com/translate';
+const ENDPOINT = 'https://translation.googleapis.com/language/translate/v2';
 
 const TARGET_LANGUAGES = [
   'es', 'fr', 'de', 'pt', 'ru',
-  'zh-Hans', 'zh-Hant',
+  'zh-CN', 'zh-TW',
   'ja', 'ko',
   'ar', 'hi', 'bn',
   'id', 'tr', 'vi',
@@ -52,20 +51,23 @@ function unflatten(obj) {
 async function translateBatch(texts, targetLang) {
     if (texts.length === 0) return [];
     try {
+        const googleLang = targetLang === 'zh-Hans' ? 'zh-CN' : 
+                          targetLang === 'zh-Hant' ? 'zh-TW' : 
+                          targetLang === 'tl' ? 'tl' : targetLang;
+
         const response = await axios({
             url: ENDPOINT,
             method: 'post',
-            params: { 'api-version': '3.0', 'to': targetLang === 'tl' ? 'fil' : targetLang },
-            headers: {
-                'Ocp-Apim-Subscription-Key': API_KEY,
-                'Ocp-Apim-Subscription-Region': REGION,
-                'Content-type': 'application/json'
-            },
-            data: texts.map(text => ({ text }))
+            params: { key: API_KEY },
+            data: {
+                q: texts,
+                target: googleLang,
+                format: 'text'
+            }
         });
-        return response.data.map(res => res.translations[0].text);
+        return response.data.data.translations.map(res => res.translatedText);
     } catch (error) {
-        console.error(`Error translating to ${targetLang}:`, error.message);
+        console.error(`Error translating to ${targetLang}:`, error.response?.data?.error?.message || error.message);
         return null;
     }
 }

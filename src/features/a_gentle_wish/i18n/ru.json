@@ -50,15 +50,15 @@
   "welcome_subtitle": "welcome_subtitle",
   "welcome_title": "welcome_title",
   "common": {
-    "get_started": "Начните",
+    "get_started": "Начать",
     "start_over": "Начать заново",
     "finish_exit": "Финиш и выход",
-    "well_done": "Молодец!",
-    "completion_message": "Вы успешно выполнили это задание. Уделите минуту, чтобы оценить свой прогресс.",
-    "time_to_complete": "Время завершить",
+    "well_done": "Отличная работа!",
+    "completion_message": "Вы успешно выполнили это задание. Уделите немного времени, чтобы оценить свой прогресс.",
+    "time_to_complete": "Время выполнения",
     "back": "Назад",
-    "next": "Далее",
-    "save": "Сохранить",
+    "next": "Следующий",
+    "save": "Сохранять",
     "loading": "Загрузка..."
   }
 }

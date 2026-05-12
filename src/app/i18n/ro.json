@@ -1,41 +1,41 @@
 {
   "common": {
-    "get_started": "Începe",
-    "start_over": "Începeți de la zero",
-    "finish_exit": "Final și ieșire",
-    "well_done": "Bravo!",
-    "completion_message": "Ai finalizat cu succes această activitate. Ia-ți un moment să apreciezi progresul tău.",
-    "time_to_complete": "Timpul de finalizat",
-    "back": "Înapoi",
+    "get_started": "Începeți",
+    "start_over": "Începeți de la început",
+    "finish_exit": "Terminare și ieșire",
+    "well_done": "Bine făcut!",
+    "completion_message": "Ai finalizat cu succes această activitate. Acordă-ți un moment pentru a aprecia progresul.",
+    "time_to_complete": "Timpul de finalizare",
+    "back": "Spate",
     "next": "Următorul",
-    "save": "Salvează",
-    "loading": "Se încarcă...",
+    "save": "Salva",
+    "loading": "Încărcare...",
     "today": "Astăzi",
     "yesterday": "Ieri",
     "filters": "Filtre",
-    "see_all": "Vezi totul",
-    "meditation": "Meditația",
+    "see_all": "Vezi tot",
+    "meditation": "Meditaţie",
     "guided": "Ghidat",
-    "sleep": "Somn",
+    "sleep": "Dormi",
     "mindfulness": "Mindfulness",
-    "restore": "Restaurare",
-    "curated": "Curatoriată de Mind",
-    "restorative": "Restaurativ",
+    "restore": "Restabili",
+    "curated": "Curatoriat de Mind",
+    "restorative": "Restaurator",
     "peace": "Pace",
-    "breath": "Respirație",
+    "breath": "Suflare",
     "nature": "Natură",
-    "relax": "Relaxează-te",
+    "relax": "Relaxați-vă",
     "time": {
-      "3min": "3 min",
+      "3min": "3 minute",
       "5min": "5 minute",
       "8min": "8 minute",
       "10min": "10 minute",
-      "12min": "12 min",
+      "12min": "12 minute",
       "15min": "15 minute",
-      "20min": "20 min",
-      "30min": "30 min",
-      "45min": "45 min",
-      "60min": "60 min"
+      "20min": "20 de minute",
+      "30min": "30 de minute",
+      "45min": "45 de minute",
+      "60min": "60 de minute"
     }
   },
   "hub": {
@@ -130,7 +130,11 @@
     "affirmations": "Afirmații",
     "mindful-space": "Spațiul conștient",
     "letter-to-self": "O scrisoare către sine",
-    "sleep-tracker": "Tracker de somn"
+    "sleep-tracker": "Tracker de somn",
+    "real_stories_anxiety": "Povești reale pentru a depăși anxietatea",
+    "brain_dump": "Brain Dump and Sort",
+    "sleep_window": "Planificator de ferestre de somn",
+    "a_letter_to_self": "O scrisoare către sine"
   },
   "moods": {
     "great": "Grozav",
@@ -219,5 +223,25 @@
       "students": "Studenți",
       "affirmations": "Afirmații"
     }
+  },
+  "tips": {
+    "depression_tips": "Sfaturi pentru ameliorarea depresiei",
+    "anxiety_tips": "Sfaturi pentru gestionarea anxietății",
+    "stress_tips": "Sfaturi pentru gestionarea stresului",
+    "sleep_guide": "Ghid pentru un somn mai bun",
+    "sleep_cycle": "Înțelegerea ciclurilor de somn",
+    "sleep_tips": "Sfaturi rapide pentru somn"
+  },
+  "trackers": {
+    "vibe_tracker": "Monitorizare vibrații (Dispoziție)",
+    "energy_tracker": "Monitorizare energie",
+    "sleep_audit": "Auditul somnului",
+    "gratitude_diary": "Jurnal zilnic de recunoștință"
+  },
+  "exercises": {
+    "4_6_8_breathing": "4-6-8 Respirație",
+    "5_4_3_2_1_grounding": "5-4-3-2-1 Împământare",
+    "box_breathing": "Respirație în cutie",
+    "diffusion_technique": "Radiodifuziune tehnică"
   }
 }

@@ -59,15 +59,15 @@
     "auth_error": "Hitelesítési alkalom hiányzik vagy adatbázis nincs konfigurálva"
   },
   "common": {
-    "get_started": "Kezdj el",
-    "start_over": "Kezdj újrakezdeni",
+    "get_started": "Kezdés",
+    "start_over": "Újrakezdés",
     "finish_exit": "Befejezés és kilépés",
-    "well_done": "Szép munka!",
-    "completion_message": "Sikeresen teljesítetted ezt a feladatot. Szánj egy pillanatot, hogy értékeld a fejlődésedet.",
-    "time_to_complete": "Ideje befejezni",
-    "back": "Hátra",
+    "well_done": "Gratulálok!",
+    "completion_message": "Sikeresen elvégezted ezt a feladatot. Szánj egy percet arra, hogy értékeled az előrehaladásodat.",
+    "time_to_complete": "Elkészítési idő",
+    "back": "Vissza",
     "next": "Következő",
-    "save": "Mentés",
-    "loading": "Betöltés..."
+    "save": "Megtakarítás",
+    "loading": "Terhelés..."
   }
 }

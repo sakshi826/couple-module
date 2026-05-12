@@ -32,15 +32,15 @@
   "share_doodle": "Share Doodle",
   "share_text": "I loved this doodle burst activity at TherapyMantra, you can try too just download the app to explore for yourself\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888",
   "common": {
-    "get_started": "ابدأ",
+    "get_started": "ابدأ الآن",
     "start_over": "ابدأ من جديد",
-    "finish_exit": "النهاية والخروج",
-    "well_done": "عمل رائع!",
-    "completion_message": "لقد أنجزت هذا النشاط بنجاح. خذ لحظة لتقدير تقدمك.",
-    "time_to_complete": "حان وقت الإكمال",
-    "back": "العودة",
+    "finish_exit": "إنهاء العملية والخروج",
+    "well_done": "أحسنت!",
+    "completion_message": "لقد أكملت هذا النشاط بنجاح. خذ لحظة لتقدير تقدمك.",
+    "time_to_complete": "الوقت اللازم للإنجاز",
+    "back": "خلف",
     "next": "التالي",
-    "save": "حفظ",
-    "loading": "جار التحميل..."
+    "save": "يحفظ",
+    "loading": "تحميل..."
   }
 }

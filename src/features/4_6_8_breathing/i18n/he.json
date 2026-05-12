@@ -25,15 +25,15 @@
   "not_found_text": "אופס! העמוד לא נמצא",
   "return_home": "חזרה הביתה",
   "common": {
-    "get_started": "תתחילו",
-    "start_over": "התחלה מחדש",
+    "get_started": "התחל",
+    "start_over": "התחל מחדש",
     "finish_exit": "סיום ויציאה",
     "well_done": "כל הכבוד!",
-    "completion_message": "השלמת את הפעילות הזו בהצלחה. קח רגע להעריך את ההתקדמות שלך.",
-    "time_to_complete": "הגיע הזמן להשלים",
-    "back": "חזרה",
-    "next": "הבא",
-    "save": "שמור",
-    "loading": "טוען..."
+    "completion_message": "השלמת בהצלחה את הפעילות הזו. קחו רגע להעריך את ההתקדמות שלכם.",
+    "time_to_complete": "זמן להשלים",
+    "back": "בְּחֲזָרָה",
+    "next": "הַבָּא",
+    "save": "לְהַצִיל",
+    "loading": "טְעִינָה..."
   }
 }

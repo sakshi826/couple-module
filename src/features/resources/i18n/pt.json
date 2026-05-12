@@ -35,12 +35,12 @@
     }
   },
   "common": {
-    "get_started": "Comece",
+    "get_started": "Comece agora",
     "start_over": "Recomeçar",
-    "finish_exit": "Fim e Saída",
-    "well_done": "Parabéns!",
-    "completion_message": "Você completou esta atividade com sucesso. Reserve um momento para apreciar seu progresso.",
-    "time_to_complete": "Hora de concluir",
+    "finish_exit": "Finalizar e sair",
+    "well_done": "Bom trabalho!",
+    "completion_message": "Você concluiu esta atividade com sucesso. Reserve um momento para apreciar seu progresso.",
+    "time_to_complete": "Tempo para concluir",
     "back": "Voltar",
     "next": "Próximo",
     "save": "Salvar",

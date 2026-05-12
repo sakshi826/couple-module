@@ -1,30 +1,30 @@
 {
   "common": {
     "get_started": "시작하기",
-    "start_over": "처음부터 다시",
-    "finish_exit": "결승 및 퇴장",
-    "well_done": "잘했어요!",
-    "completion_message": "이 활동을 성공적으로 완료하셨습니다. 잠시 시간을 내어 자신의 진전을 감상해 보세요.",
-    "time_to_complete": "완성 시간입니다",
-    "back": "뒤로",
+    "start_over": "처음부터 다시 시작",
+    "finish_exit": "완료 및 종료",
+    "well_done": "잘하셨어요!",
+    "completion_message": "이 활동을 성공적으로 완료하셨습니다. 잠시 시간을 내어 지금까지의 성과를 되돌아보세요.",
+    "time_to_complete": "완료 시간",
+    "back": "뒤쪽에",
     "next": "다음",
-    "save": "저장",
+    "save": "구하다",
     "loading": "로딩 중...",
-    "today": "오늘날",
+    "today": "오늘",
     "yesterday": "어제",
     "filters": "필터",
     "see_all": "모두 보기",
-    "meditation": "명상",
+    "meditation": "심사 숙고",
     "guided": "가이드",
-    "sleep": "잠 자세요",
+    "sleep": "잠",
     "mindfulness": "마음챙김",
-    "restore": "복원",
-    "curated": "마인드 큐레이션",
-    "restorative": "회복",
+    "restore": "복원하다",
+    "curated": "Mind에서 엄선했습니다.",
+    "restorative": "강장제",
     "peace": "평화",
     "breath": "호흡",
     "nature": "자연",
-    "relax": "진정해.",
+    "relax": "안심하다",
     "time": {
       "3min": "3분",
       "5min": "5분",
@@ -130,7 +130,11 @@
     "affirmations": "확언",
     "mindful-space": "마음챙김 공간",
     "letter-to-self": "자기 자신에게 보내는 편지",
-    "sleep-tracker": "수면 추적기"
+    "sleep-tracker": "수면 추적기",
+    "real_stories_anxiety": "불안감을 극복하는 실제 이야기",
+    "brain_dump": "브레인스토밍 및 분류",
+    "sleep_window": "수면 시간 계획표",
+    "a_letter_to_self": "나 자신에게 보내는 편지"
   },
   "moods": {
     "great": "좋아요",
@@ -219,5 +223,25 @@
       "students": "학생들",
       "affirmations": "확언"
     }
+  },
+  "tips": {
+    "depression_tips": "우울증 완화 팁",
+    "anxiety_tips": "불안감 관리 팁",
+    "stress_tips": "스트레스 관리 팁",
+    "sleep_guide": "숙면 가이드",
+    "sleep_cycle": "수면 주기 이해하기",
+    "sleep_tips": "빠른 수면 팁"
+  },
+  "trackers": {
+    "vibe_tracker": "바이브 트래커(기분 추적기)",
+    "energy_tracker": "에너지 추적기",
+    "sleep_audit": "수면 감사",
+    "gratitude_diary": "매일 감사 일기"
+  },
+  "exercises": {
+    "4_6_8_breathing": "4-6-8 호흡법",
+    "5_4_3_2_1_grounding": "5-4-3-2-1 접지",
+    "box_breathing": "박스 브리딩",
+    "diffusion_technique": "기술 방송"
   }
 }

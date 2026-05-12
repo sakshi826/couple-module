@@ -34,14 +34,14 @@
   "language_selector": "Dil Seçin",
   "common": {
     "get_started": "Başlayın",
-    "start_over": "Yeniden Başla",
-    "finish_exit": "Bitiş ve Çıkış",
-    "well_done": "Aferin!",
-    "completion_message": "Bu etkinliği başarıyla tamamladın. İlerlemenin takdir edilmesini bir an ayır.",
-    "time_to_complete": "Tamamlanma zamanı",
+    "start_over": "Baştan Başla",
+    "finish_exit": "Bitir ve Çık",
+    "well_done": "Tebrikler!",
+    "completion_message": "Bu etkinliği başarıyla tamamladınız. İlerlemenizi takdir etmek için bir an ayırın.",
+    "time_to_complete": "Tamamlama süresi",
     "back": "Geri",
-    "next": "Sıradaki",
-    "save": "Kayd et",
+    "next": "Sonraki",
+    "save": "Kaydetmek",
     "loading": "Yükleniyor..."
   }
 }

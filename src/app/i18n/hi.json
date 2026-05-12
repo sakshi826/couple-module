@@ -1,28 +1,28 @@
 {
   "common": {
     "get_started": "शुरू हो जाओ",
-    "start_over": "शुरू करो",
-    "finish_exit": "समाप्त करें और निकास करें",
-    "well_done": "बहुत बढ़िया!",
-    "completion_message": "आपने इस गतिविधि को सफलतापूर्वक पूरा कर लिया है. अपनी प्रगति की सराहना करने के लिए कुछ समय निकालें।",
-    "time_to_complete": "पूरा करने का समय",
-    "back": "शर्त लगाना",
+    "start_over": "प्रारंभ करें",
+    "finish_exit": "समाप्त करें और बाहर निकलें",
+    "well_done": "बहुत अच्छा!",
+    "completion_message": "आपने यह गतिविधि सफलतापूर्वक पूरी कर ली है। अपनी प्रगति की सराहना करने के लिए कुछ समय निकालें।",
+    "time_to_complete": "पूरा करने में लगने वाला समय",
+    "back": "पीछे",
     "next": "अगला",
-    "save": "सहेजें",
+    "save": "बचाना",
     "loading": "लोड हो रहा है...",
-    "today": "आजकल",
+    "today": "आज",
     "yesterday": "कल",
     "filters": "फिल्टर",
     "see_all": "सभी देखें",
     "meditation": "ध्यान",
-    "guided": "गाइड-निर्देशित",
+    "guided": "गाइडेड",
     "sleep": "नींद",
-    "mindfulness": "सचेतनता",
+    "mindfulness": "सचेतन",
     "restore": "पुनर्स्थापित करना",
-    "curated": "मन द्वारा क्यूरेट किया गया",
-    "restorative": "स्वास्थ्यवर्द्धक",
+    "curated": "माइंड द्वारा क्यूरेटेड",
+    "restorative": "मज़बूत कर देनेवाला",
     "peace": "शांति",
-    "breath": "श्‍वसन क्रिया",
+    "breath": "साँस",
     "nature": "प्रकृति",
     "relax": "आराम करना",
     "time": {
@@ -130,7 +130,11 @@
     "affirmations": "पुष्टि",
     "mindful-space": "माइंडफुल स्पेस",
     "letter-to-self": "स्वयं के लिए एक पत्र",
-    "sleep-tracker": "स्लीप ट्रैकर"
+    "sleep-tracker": "स्लीप ट्रैकर",
+    "real_stories_anxiety": "चिंता पर काबू पाने के लिए सच्ची कहानियाँ",
+    "brain_dump": "विचारों का संग्रह और वर्गीकरण",
+    "sleep_window": "नींद विंडो प्लानर",
+    "a_letter_to_self": "स्वयं को लिखा गया एक पत्र"
   },
   "moods": {
     "great": "शानदार",
@@ -219,5 +223,25 @@
       "students": "छात्र",
       "affirmations": "पुष्टि"
     }
+  },
+  "tips": {
+    "depression_tips": "अवसाद से राहत पाने के टिप्स",
+    "anxiety_tips": "चिंता प्रबंधन के सुझाव",
+    "stress_tips": "तनाव प्रबंधन युक्तियाँ",
+    "sleep_guide": "बेहतर नींद के लिए मार्गदर्शिका",
+    "sleep_cycle": "नींद के चक्रों को समझना",
+    "sleep_tips": "नींद के लिए त्वरित सुझाव"
+  },
+  "trackers": {
+    "vibe_tracker": "वाइब ट्रैकर (मूड)",
+    "energy_tracker": "ऊर्जा ट्रैकर",
+    "sleep_audit": "नींद ऑडिट",
+    "gratitude_diary": "दैनिक कृतज्ञता डायरी"
+  },
+  "exercises": {
+    "4_6_8_breathing": "4-6-8 श्वास",
+    "5_4_3_2_1_grounding": "5-4-3-2-1 ग्राउंडिंग",
+    "box_breathing": "बॉक्स ब्रीदिंग",
+    "diffusion_technique": "तकनीकी प्रसारण"
   }
 }

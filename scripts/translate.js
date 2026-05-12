@@ -6,12 +6,11 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const API_KEY = process.env.AZURE_TRANSLATOR_KEY;
-const REGION = process.env.AZURE_TRANSLATOR_REGION || 'eastus';
-const ENDPOINT = 'https://api.cognitive.microsofttranslator.com/translate';
+const ENDPOINT = 'https://translation.googleapis.com/language/translate/v2';
 
 const TARGET_LANGUAGES = [
   'es', 'fr', 'de', 'pt', 'ru',
-  'zh-Hans', 'zh-Hant',
+  'zh-CN', 'zh-TW',
   'ja', 'ko',
   'ar', 'hi', 'bn',
   'id', 'tr', 'vi',
@@ -20,10 +19,6 @@ const TARGET_LANGUAGES = [
   'cs', 'el', 'ro', 'hu', 'uk',
   'he', 'ms', 'ta', 'te', 'ur'
 ];
-
-const AZURE_CODE_MAPPING = {
-  'tl': 'fil',
-};
 
 // Helper to flatten/unflatten JSON
 function flatten(obj, prefix = '') {
@@ -80,7 +75,9 @@ function restoreInterpolation(text, placeholders) {
 async function translateBatch(texts, targetLang) {
   if (texts.length === 0) return [];
 
-  const azureLang = AZURE_CODE_MAPPING[targetLang] || targetLang;
+  const googleLang = targetLang === 'zh-Hans' ? 'zh-CN' : 
+                    targetLang === 'zh-Hant' ? 'zh-TW' : 
+                    targetLang === 'tl' ? 'tl' : targetLang;
 
   const body = texts.map(text => {
     const { protectedText, placeholders } = protectInterpolation(text);
@@ -91,23 +88,19 @@ async function translateBatch(texts, targetLang) {
     const response = await axios({
       url: ENDPOINT,
       method: 'post',
-      params: {
-        'api-version': '3.0',
-        'to': azureLang
-      },
-      headers: {
-        'Ocp-Apim-Subscription-Key': API_KEY,
-        'Ocp-Apim-Subscription-Region': REGION,
-        'Content-type': 'application/json'
-      },
-      data: body.map(b => ({ text: b.text }))
+      params: { key: API_KEY },
+      data: {
+        q: body.map(b => b.text),
+        target: googleLang,
+        format: 'text'
+      }
     });
 
-    return response.data.map((res, i) => {
-      return restoreInterpolation(res.translations[0].text, body[i].placeholders);
+    return response.data.data.translations.map((res, i) => {
+      return restoreInterpolation(res.translatedText, body[i].placeholders);
     });
   } catch (error) {
-    console.error(`Error translating to ${targetLang}:`, error.response?.data || error.message);
+    console.error(`Error translating to ${targetLang}:`, error.response?.data?.error?.message || error.message);
     throw error;
   }
 }

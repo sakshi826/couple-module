@@ -1,30 +1,30 @@
 {
   "common": {
-    "get_started": "Commencez",
-    "start_over": "Recommencer à zéro",
+    "get_started": "Commencer",
+    "start_over": "Recommencer",
     "finish_exit": "Fin et sortie",
-    "well_done": "Bravo !",
-    "completion_message": "Vous avez réussi cette activité. Prenez un moment pour apprécier vos progrès.",
-    "time_to_complete": "Il est temps de terminer",
-    "back": "Retour",
+    "well_done": "Bien joué!",
+    "completion_message": "Vous avez terminé cette activité avec succès. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Temps écoulé",
+    "back": "Dos",
     "next": "Suivant",
     "save": "Sauvegarder",
     "loading": "Chargement...",
-    "today": "Aujourd’hui",
+    "today": "Aujourd'hui",
     "yesterday": "Hier",
     "filters": "Filtres",
     "see_all": "Voir tout",
     "meditation": "Méditation",
     "guided": "Guidé",
-    "sleep": "Dors",
-    "mindfulness": "Pleine conscience",
-    "restore": "Restauration",
+    "sleep": "Dormir",
+    "mindfulness": "pleine conscience",
+    "restore": "Restaurer",
     "curated": "Sélectionné par Mind",
-    "restorative": "Restauration",
+    "restorative": "réparateur",
     "peace": "Paix",
-    "breath": "Souffle",
+    "breath": "Haleine",
     "nature": "Nature",
-    "relax": "Détends-toi",
+    "relax": "Se détendre",
     "time": {
       "3min": "3 min",
       "5min": "5 min",
@@ -130,7 +130,11 @@
     "affirmations": "Affirmations",
     "mindful-space": "Espace de pleine conscience",
     "letter-to-self": "Une lettre à moi-même",
-    "sleep-tracker": "Suivi du sommeil"
+    "sleep-tracker": "Suivi du sommeil",
+    "real_stories_anxiety": "Des histoires vraies pour surmonter l'anxiété",
+    "brain_dump": "Vider et trier ses idées",
+    "sleep_window": "Planificateur de fenêtre de sommeil",
+    "a_letter_to_self": "Lettre à moi-même"
   },
   "moods": {
     "great": "Super",
@@ -219,5 +223,25 @@
       "students": "Étudiants",
       "affirmations": "Affirmations"
     }
+  },
+  "tips": {
+    "depression_tips": "Conseils pour soulager la dépression",
+    "anxiety_tips": "Conseils pour gérer l'anxiété",
+    "stress_tips": "Conseils pour gérer le stress",
+    "sleep_guide": "Guide pour mieux dormir",
+    "sleep_cycle": "Comprendre les cycles du sommeil",
+    "sleep_tips": "Conseils pour un sommeil rapide"
+  },
+  "trackers": {
+    "vibe_tracker": "Suivi de l'humeur",
+    "energy_tracker": "Suivi énergétique",
+    "sleep_audit": "Audit du sommeil",
+    "gratitude_diary": "Journal quotidien de gratitude"
+  },
+  "exercises": {
+    "4_6_8_breathing": "Respiration 4-6-8",
+    "5_4_3_2_1_grounding": "Mise à la terre 5-4-3-2-1",
+    "box_breathing": "Respiration en boîte",
+    "diffusion_technique": "Diffusion Technique"
   }
 }

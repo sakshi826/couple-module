@@ -2,13 +2,13 @@
   "common": {
     "get_started": "Kom i gang",
     "start_over": "Start forfra",
-    "finish_exit": "Afslutning og exit",
-    "well_done": "Godt gået!",
-    "completion_message": "Du har gennemført denne aktivitet med succes. Tag et øjeblik til at værdsætte dine fremskridt.",
-    "time_to_complete": "Tid til at gennemføre",
+    "finish_exit": "Afslut og afslut",
+    "well_done": "Godt klaret!",
+    "completion_message": "Du har gennemført denne aktivitet. Brug et øjeblik på at værdsætte dine fremskridt.",
+    "time_to_complete": "Tid til at færdiggøre",
     "back": "Tilbage",
     "next": "Næste",
-    "save": "Gem",
+    "save": "Spare",
     "loading": "Indlæser...",
     "today": "I dag",
     "yesterday": "I går",
@@ -16,26 +16,26 @@
     "see_all": "Se alle",
     "meditation": "Meditation",
     "guided": "Guidet",
-    "sleep": "Søvn",
+    "sleep": "Sove",
     "mindfulness": "Mindfulness",
-    "restore": "Genopret",
+    "restore": "Gendan",
     "curated": "Kurateret af Mind",
-    "restorative": "Genoprettende",
+    "restorative": "Restorativ",
     "peace": "Fred",
-    "breath": "Åndedrag",
+    "breath": "Ånde",
     "nature": "Natur",
     "relax": "Slap af",
     "time": {
-      "3min": "3 min",
-      "5min": "5 min",
-      "8min": "8 min",
-      "10min": "10 min",
-      "12min": "12 min",
-      "15min": "15 min",
-      "20min": "20 min",
-      "30min": "30 min",
-      "45min": "45 min",
-      "60min": "60 min"
+      "3min": "3 minutter",
+      "5min": "5 minutter",
+      "8min": "8 minutter",
+      "10min": "10 minutter",
+      "12min": "12 minutter",
+      "15min": "15 minutter",
+      "20min": "20 minutter",
+      "30min": "30 minutter",
+      "45min": "45 minutter",
+      "60min": "60 minutter"
     }
   },
   "hub": {
@@ -130,7 +130,11 @@
     "affirmations": "Bekræftelser",
     "mindful-space": "Mindful Space",
     "letter-to-self": "Et brev til mig selv",
-    "sleep-tracker": "Søvnsporer"
+    "sleep-tracker": "Søvnsporer",
+    "real_stories_anxiety": "Virkelige historier til at overvinde angst",
+    "brain_dump": "Hjernedump og sortering",
+    "sleep_window": "Søvnvindueplanlægger",
+    "a_letter_to_self": "Et brev til sig selv"
   },
   "moods": {
     "great": "Fedt",
@@ -219,5 +223,25 @@
       "students": "Studerende",
       "affirmations": "Bekræftelser"
     }
+  },
+  "tips": {
+    "depression_tips": "Tips til lindring af depression",
+    "anxiety_tips": "Tips til angsthåndtering",
+    "stress_tips": "Tips til stresshåndtering",
+    "sleep_guide": "Guide til bedre søvn",
+    "sleep_cycle": "Forståelse af søvncyklusser",
+    "sleep_tips": "Hurtige søvntips"
+  },
+  "trackers": {
+    "vibe_tracker": "Vibe Tracker (Humør)",
+    "energy_tracker": "Energisporer",
+    "sleep_audit": "Søvnrevision",
+    "gratitude_diary": "Daglig taknemmelighedsdagbog"
+  },
+  "exercises": {
+    "4_6_8_breathing": "4-6-8 Vejrtrækning",
+    "5_4_3_2_1_grounding": "5-4-3-2-1 Jordforbindelse",
+    "box_breathing": "Boksåndedræt",
+    "diffusion_technique": "Teknisk udsendelse"
   }
 }

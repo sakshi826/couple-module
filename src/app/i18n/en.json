@@ -129,7 +129,31 @@
     "affirmations": "Affirmations",
     "mindful-space": "Mindful Space",
     "letter-to-self": "A Letter To Self",
-    "sleep-tracker": "Sleep Tracker"
+    "sleep-tracker": "Sleep Tracker",
+    "real_stories_anxiety": "Real Stories to Overcome Anxiety",
+    "brain_dump": "Brain Dump and Sort",
+    "sleep_window": "Sleep Window Planner",
+    "a_letter_to_self": "A Letter to Self"
+  },
+  "tips": {
+    "depression_tips": "Depression Relief Tips",
+    "anxiety_tips": "Anxiety Management Tips",
+    "stress_tips": "Stress Management Tips",
+    "sleep_guide": "Sleep Better Guide",
+    "sleep_cycle": "Understanding Sleep Cycles",
+    "sleep_tips": "Quick Sleep Tips"
+  },
+  "trackers": {
+    "vibe_tracker": "Vibe Tracker (Mood)",
+    "energy_tracker": "Energy Tracker",
+    "sleep_audit": "Sleep Audit",
+    "gratitude_diary": "Daily Gratitude Diary"
+  },
+  "exercises": {
+    "4_6_8_breathing": "4-6-8 Breathing",
+    "5_4_3_2_1_grounding": "5-4-3-2-1 Grounding",
+    "box_breathing": "Box Breathing",
+    "diffusion_technique": "Diffusion Technique"
   },
   "moods": {
     "great": "Great",

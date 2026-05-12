@@ -24,13 +24,13 @@
     "button": "Tapusin ang Pagmumuni-muni"
   },
   "common": {
-    "get_started": "Email Address *",
-    "start_over": "Magsimulang Muli",
+    "get_started": "Magsimula",
+    "start_over": "Magsimula Muli",
     "finish_exit": "Tapusin at Lumabas",
-    "well_done": "Mahusay na ginawa!",
-    "completion_message": "Matagumpay mong nakumpleto ang aktibidad na ito. Maglaan ng ilang sandali upang pahalagahan ang iyong pag-unlad.",
-    "time_to_complete": "Oras na para makumpleto",
-    "back": "Bumalik",
+    "well_done": "Magaling!",
+    "completion_message": "Matagumpay mong natapos ang gawaing ito. Maglaan ng ilang sandali upang pahalagahan ang iyong pag-unlad.",
+    "time_to_complete": "Oras para makumpleto",
+    "back": "Balik",
     "next": "Susunod",
     "save": "I-save",
     "loading": "Naglo-load..."

@@ -50,15 +50,15 @@
   "history_back": "Ga terug",
   "history_delete_aria": "Verwijder deze reflectie",
   "common": {
-    "get_started": "Begin",
+    "get_started": "Aan de slag",
     "start_over": "Opnieuw beginnen",
-    "finish_exit": "Finish & Exit",
+    "finish_exit": "Voltooien en afsluiten",
     "well_done": "Goed gedaan!",
-    "completion_message": "Je hebt deze activiteit succesvol voltooid. Neem even de tijd om je vooruitgang te waarderen.",
-    "time_to_complete": "Tijd om af te ronden",
-    "back": "Achteruit",
+    "completion_message": "Je hebt deze activiteit succesvol afgerond. Neem even de tijd om je vooruitgang te bewonderen.",
+    "time_to_complete": "Tijd om te voltooien",
+    "back": "Rug",
     "next": "Volgende",
-    "save": "Sla op",
+    "save": "Redden",
     "loading": "Laden..."
   }
 }

@@ -33,15 +33,15 @@
   "return_home": "Zurück zur Startseite",
   "language_selector": "Sprache auswählen",
   "common": {
-    "get_started": "Leg los",
-    "start_over": "Neu anfangen",
-    "finish_exit": "Ziel und Ausgang",
+    "get_started": "Los geht's",
+    "start_over": "Von vorne beginnen",
+    "finish_exit": "Ziel & Ausgang",
     "well_done": "Gut gemacht!",
-    "completion_message": "Du hast diese Aktivität erfolgreich abgeschlossen. Nimm dir einen Moment Zeit, um deinen Fortschritt zu würdigen.",
-    "time_to_complete": "Zeit zum Abschluss",
+    "completion_message": "Sie haben diese Aufgabe erfolgreich abgeschlossen. Nehmen Sie sich einen Moment Zeit, um Ihren Fortschritt zu würdigen.",
+    "time_to_complete": "Zeit zum Fertigstellen",
     "back": "Zurück",
-    "next": "Als Nächstes",
+    "next": "Nächste",
     "save": "Speichern",
-    "loading": "Lädt..."
+    "loading": "Laden..."
   }
 }

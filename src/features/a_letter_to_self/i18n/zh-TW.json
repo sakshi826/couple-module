@@ -1,0 +1,30 @@
+{
+  "title": "💌 寫給自己的一封信",
+  "subtitle": "一份只為你準備的善意時刻",
+  "intro_text": "壓力會讓我們忘記自己有多強大。這項活動可以幫助你停下來，反思，並善待自己。",
+  "start_writing": "開始寫作 →",
+  "view_past_letters": "查看過往信件",
+  "no_judgments": "沒有評判，沒有壓力，只有你。",
+  "write_title": "寫給自己",
+  "write_placeholder": "親愛的自己，\n\n我知道這段時間很難熬…",
+  "save_letter": "保存信件",
+  "cancel": "取消",
+  "check_in_title": "你感覺怎麼樣？",
+  "complete_title": "信件已保存",
+  "complete_msg": "您的信件已安全保存。",
+  "home": "家",
+  "past_letters_title": "往期信件",
+  "empty_letters": "未找到過往信件。",
+  "common": {
+    "get_started": "開始使用",
+    "start_over": "重新開始",
+    "finish_exit": "結束並退出",
+    "well_done": "做得好！",
+    "completion_message": "您已成功完成此項活動。請花點時間欣賞一下您的成果。",
+    "time_to_complete": "完成時間",
+    "back": "後退",
+    "next": "下一個",
+    "save": "節省",
+    "loading": "載入中..."
+  }
+}

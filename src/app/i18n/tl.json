@@ -1,30 +1,30 @@
 {
   "common": {
-    "get_started": "Email Address *",
-    "start_over": "Magsimulang Muli",
+    "get_started": "Magsimula",
+    "start_over": "Magsimula Muli",
     "finish_exit": "Tapusin at Lumabas",
-    "well_done": "Mahusay na ginawa!",
-    "completion_message": "Matagumpay mong nakumpleto ang aktibidad na ito. Maglaan ng ilang sandali upang pahalagahan ang iyong pag-unlad.",
-    "time_to_complete": "Oras na para makumpleto",
-    "back": "Bumalik",
+    "well_done": "Magaling!",
+    "completion_message": "Matagumpay mong natapos ang gawaing ito. Maglaan ng ilang sandali upang pahalagahan ang iyong pag-unlad.",
+    "time_to_complete": "Oras para makumpleto",
+    "back": "Balik",
     "next": "Susunod",
     "save": "I-save",
     "loading": "Naglo-load...",
-    "today": "Ngayong araw",
+    "today": "Ngayon",
     "yesterday": "Kahapon",
-    "filters": "Mga filter",
-    "see_all": "Tingnan ang Lahat",
-    "meditation": "Pagmumuni-muni",
-    "guided": "Gabayan",
-    "sleep": "Pagtulog",
-    "mindfulness": "Pag-iisip",
+    "filters": "Mga Filter",
+    "see_all": "Tingnan Lahat",
+    "meditation": "Meditasyon",
+    "guided": "Ginagabayan",
+    "sleep": "Tulog",
+    "mindfulness": "Pagmumuni-muni",
     "restore": "Ibalik",
-    "curated": "Na-curate sa pamamagitan ng pag-iisip",
-    "restorative": "Pagpapanumbalik",
+    "curated": "Pinuri ng Isip",
+    "restorative": "Nakakapagpanumbalik",
     "peace": "Kapayapaan",
     "breath": "Hininga",
     "nature": "Kalikasan",
-    "relax": "Email Address *",
+    "relax": "Magrelaks",
     "time": {
       "3min": "3 minuto",
       "5min": "5 minuto",
@@ -130,7 +130,11 @@
     "affirmations": "Mga Pagpapatibay",
     "mindful-space": "Mindful Space",
     "letter-to-self": "Isang Liham Para sa Sarili",
-    "sleep-tracker": "Tagasubaybay ng Pagtulog"
+    "sleep-tracker": "Tagasubaybay ng Pagtulog",
+    "real_stories_anxiety": "Mga Totoong Kwento para Malabanan ang Pagkabalisa",
+    "brain_dump": "Pagtatapon at Pag-uuri ng Utak",
+    "sleep_window": "Tagaplano ng Bintana ng Pagtulog",
+    "a_letter_to_self": "Isang Liham para sa Sarili"
   },
   "moods": {
     "great": "Mahusay",
@@ -219,5 +223,25 @@
       "students": "Mga mag-aaral",
       "affirmations": "Mga Pagpapatibay"
     }
+  },
+  "tips": {
+    "depression_tips": "Mga Tip sa Pag-alis ng Depresyon",
+    "anxiety_tips": "Mga Tip sa Pamamahala ng Pagkabalisa",
+    "stress_tips": "Mga Tip sa Pamamahala ng Stress",
+    "sleep_guide": "Gabay sa Mas Mabuting Pagtulog",
+    "sleep_cycle": "Pag-unawa sa mga Siklo ng Pagtulog",
+    "sleep_tips": "Mga Tip sa Mabilis na Pagtulog"
+  },
+  "trackers": {
+    "vibe_tracker": "Tagasubaybay ng Vibe (Mood)",
+    "energy_tracker": "Tagasubaybay ng Enerhiya",
+    "sleep_audit": "Pag-audit ng Pagtulog",
+    "gratitude_diary": "Pang-araw-araw na Talaarawan ng Pasasalamat"
+  },
+  "exercises": {
+    "4_6_8_breathing": "4-6-8 Paghinga",
+    "5_4_3_2_1_grounding": "5-4-3-2-1 Pagsasanib",
+    "box_breathing": "Paghinga sa Kahon",
+    "diffusion_technique": "Teknikal na Pagsasahimpapawid"
   }
 }

@@ -1,30 +1,30 @@
 {
   "common": {
-    "get_started": "ابدأ",
+    "get_started": "ابدأ الآن",
     "start_over": "ابدأ من جديد",
-    "finish_exit": "النهاية والخروج",
-    "well_done": "عمل رائع!",
-    "completion_message": "لقد أنجزت هذا النشاط بنجاح. خذ لحظة لتقدير تقدمك.",
-    "time_to_complete": "حان وقت الإكمال",
-    "back": "العودة",
+    "finish_exit": "إنهاء العملية والخروج",
+    "well_done": "أحسنت!",
+    "completion_message": "لقد أكملت هذا النشاط بنجاح. خذ لحظة لتقدير تقدمك.",
+    "time_to_complete": "الوقت اللازم للإنجاز",
+    "back": "خلف",
     "next": "التالي",
-    "save": "حفظ",
-    "loading": "جار التحميل...",
+    "save": "يحفظ",
+    "loading": "تحميل...",
     "today": "اليوم",
     "yesterday": "أمس",
-    "filters": "المرشحات",
-    "see_all": "شاهد الجميع",
-    "meditation": "التأمل",
+    "filters": "الفلاتر",
+    "see_all": "عرض الكل",
+    "meditation": "تأمل",
     "guided": "موجه",
-    "sleep": "النوم",
+    "sleep": "ينام",
     "mindfulness": "اليقظة الذهنية",
-    "restore": "الاستعادة",
-    "curated": "منسق من قبل مايند",
-    "restorative": "الترميم",
-    "peace": "السلام",
-    "breath": "تنفس",
-    "nature": "الطبيعة",
-    "relax": "اهدأ",
+    "restore": "يعيد",
+    "curated": "من إعداد Mind",
+    "restorative": "ترميمي",
+    "peace": "سلام",
+    "breath": "يتنفس",
+    "nature": "طبيعة",
+    "relax": "يستريح",
     "time": {
       "3min": "3 دقائق",
       "5min": "5 دقائق",
@@ -130,7 +130,11 @@
     "affirmations": "التأكيدات",
     "mindful-space": "الفضاء الذهني",
     "letter-to-self": "رسالة إلى الذات",
-    "sleep-tracker": "متتبع النوم"
+    "sleep-tracker": "متتبع النوم",
+    "real_stories_anxiety": "قصص واقعية للتغلب على القلق",
+    "brain_dump": "تفريغ الأفكار وفرزها",
+    "sleep_window": "مخطط نافذة النوم",
+    "a_letter_to_self": "رسالة إلى نفسي"
   },
   "moods": {
     "great": "رائع",
@@ -219,5 +223,25 @@
       "students": "الطلاب",
       "affirmations": "التأكيدات"
     }
+  },
+  "tips": {
+    "depression_tips": "نصائح للتخفيف من الاكتئاب",
+    "anxiety_tips": "نصائح لإدارة القلق",
+    "stress_tips": "نصائح لإدارة التوتر",
+    "sleep_guide": "دليل النوم بشكل أفضل",
+    "sleep_cycle": "فهم دورات النوم",
+    "sleep_tips": "نصائح سريعة للنوم"
+  },
+  "trackers": {
+    "vibe_tracker": "متتبع الحالة المزاجية (Vibe Tracker)",
+    "energy_tracker": "متتبع الطاقة",
+    "sleep_audit": "تدقيق النوم",
+    "gratitude_diary": "مذكرات الامتنان اليومية"
+  },
+  "exercises": {
+    "4_6_8_breathing": "التنفس 4-6-8",
+    "5_4_3_2_1_grounding": "5-4-3-2-1 التأريض",
+    "box_breathing": "التنفس المربع",
+    "diffusion_technique": "البث التقني"
   }
 }

@@ -1,30 +1,30 @@
 {
   "common": {
-    "get_started": "Begin",
+    "get_started": "Aan de slag",
     "start_over": "Opnieuw beginnen",
-    "finish_exit": "Finish & Exit",
+    "finish_exit": "Voltooien en afsluiten",
     "well_done": "Goed gedaan!",
-    "completion_message": "Je hebt deze activiteit succesvol voltooid. Neem even de tijd om je vooruitgang te waarderen.",
-    "time_to_complete": "Tijd om af te ronden",
-    "back": "Achteruit",
+    "completion_message": "Je hebt deze activiteit succesvol afgerond. Neem even de tijd om je vooruitgang te bewonderen.",
+    "time_to_complete": "Tijd om te voltooien",
+    "back": "Rug",
     "next": "Volgende",
-    "save": "Sla op",
+    "save": "Redden",
     "loading": "Laden...",
-    "today": "Vandaag de dag",
+    "today": "Vandaag",
     "yesterday": "Gisteren",
     "filters": "Filters",
-    "see_all": "Bekijk alles",
+    "see_all": "Alles bekijken",
     "meditation": "Meditatie",
     "guided": "Begeleid",
     "sleep": "Slaap",
     "mindfulness": "Mindfulness",
-    "restore": "Herstel",
-    "curated": "Gecureerd door Mind",
+    "restore": "Herstellen",
+    "curated": "Samengesteld door Mind",
     "restorative": "Herstellend",
     "peace": "Vrede",
     "breath": "Adem",
     "nature": "Natuur",
-    "relax": "Ontspan",
+    "relax": "Ontspannen",
     "time": {
       "3min": "3 min",
       "5min": "5 min",
@@ -35,7 +35,7 @@
       "20min": "20 min",
       "30min": "30 min",
       "45min": "45 min",
-      "60min": "60 min"
+      "60min": "60 minuten"
     }
   },
   "hub": {
@@ -130,7 +130,11 @@
     "affirmations": "Affirmaties",
     "mindful-space": "Mindful Space",
     "letter-to-self": "Een Brief Aan Zichzelf",
-    "sleep-tracker": "Slaaptracker"
+    "sleep-tracker": "Slaaptracker",
+    "real_stories_anxiety": "Echte verhalen om angst te overwinnen",
+    "brain_dump": "Brainstormen en sorteren",
+    "sleep_window": "Slaapvensterplanner",
+    "a_letter_to_self": "Een brief aan mezelf"
   },
   "moods": {
     "great": "Geweldig",
@@ -219,5 +223,25 @@
       "students": "Studenten",
       "affirmations": "Affirmaties"
     }
+  },
+  "tips": {
+    "depression_tips": "Tips voor het verlichten van depressie",
+    "anxiety_tips": "Tips voor het omgaan met angst",
+    "stress_tips": "Tips voor stressmanagement",
+    "sleep_guide": "Gids voor beter slapen",
+    "sleep_cycle": "Inzicht in slaapcycli",
+    "sleep_tips": "Snelle slaaptips"
+  },
+  "trackers": {
+    "vibe_tracker": "Sfeertracker (Stemming)",
+    "energy_tracker": "Energietracker",
+    "sleep_audit": "Slaapaudit",
+    "gratitude_diary": "Dagboek van dankbaarheid"
+  },
+  "exercises": {
+    "4_6_8_breathing": "4-6-8 ademhaling",
+    "5_4_3_2_1_grounding": "5-4-3-2-1 Aarding",
+    "box_breathing": "Boxademhaling",
+    "diffusion_technique": "Technische uitzendingen"
   }
 }

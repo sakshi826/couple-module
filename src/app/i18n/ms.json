@@ -1,11 +1,11 @@
 {
   "common": {
-    "get_started": "Bermula",
-    "start_over": "Mulakan Semula",
+    "get_started": "Mulakan",
+    "start_over": "Mula Semula",
     "finish_exit": "Selesai & Keluar",
-    "well_done": "Syabas!",
-    "completion_message": "Anda telah berjaya menyelesaikan aktiviti ini. Luangkan sedikit masa untuk menghargai kemajuan anda.",
-    "time_to_complete": "Masa untuk melengkapkan",
+    "well_done": "Bagus!",
+    "completion_message": "Anda telah berjaya menyelesaikan aktiviti ini. Luangkan masa untuk menghargai kemajuan anda.",
+    "time_to_complete": "Masa untuk disiapkan",
     "back": "Kembali",
     "next": "Seterusnya",
     "save": "Simpan",
@@ -15,11 +15,11 @@
     "filters": "Penapis",
     "see_all": "Lihat Semua",
     "meditation": "Meditasi",
-    "guided": "Berpandu",
+    "guided": "Dipandu",
     "sleep": "Tidur",
     "mindfulness": "Kesedaran",
     "restore": "Pulihkan",
-    "curated": "Dipilih oleh Minda",
+    "curated": "Dikurasi oleh Minda",
     "restorative": "Pemulihan",
     "peace": "Keamanan",
     "breath": "Nafas",
@@ -130,7 +130,11 @@
     "affirmations": "Pengesahan",
     "mindful-space": "Ruang Kesedaran",
     "letter-to-self": "Surat Kepada Diri Sendiri",
-    "sleep-tracker": "Penjejak Tidur"
+    "sleep-tracker": "Penjejak Tidur",
+    "real_stories_anxiety": "Kisah Nyata untuk Mengatasi Kebimbangan",
+    "brain_dump": "Dump dan Sort Otak",
+    "sleep_window": "Perancang Tingkap Tidur",
+    "a_letter_to_self": "Surat untuk Diri Sendiri"
   },
   "moods": {
     "great": "Hebat",
@@ -219,5 +223,25 @@
       "students": "Pelajar",
       "affirmations": "Pengesahan"
     }
+  },
+  "tips": {
+    "depression_tips": "Petua Melegakan Kemurungan",
+    "anxiety_tips": "Petua Pengurusan Kebimbangan",
+    "stress_tips": "Petua Pengurusan Tekanan",
+    "sleep_guide": "Panduan Tidur Lebih Baik",
+    "sleep_cycle": "Memahami Kitaran Tidur",
+    "sleep_tips": "Petua Tidur Cepat"
+  },
+  "trackers": {
+    "vibe_tracker": "Penjejak Getaran (Mood)",
+    "energy_tracker": "Penjejak Tenaga",
+    "sleep_audit": "Audit Tidur",
+    "gratitude_diary": "Diari Kesyukuran Harian"
+  },
+  "exercises": {
+    "4_6_8_breathing": "Pernafasan 4-6-8",
+    "5_4_3_2_1_grounding": "Pembumian 5-4-3-2-1",
+    "box_breathing": "Pernafasan Kotak",
+    "diffusion_technique": "Penyiaran Teknikal"
   }
 }

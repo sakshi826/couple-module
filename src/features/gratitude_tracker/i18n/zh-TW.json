@@ -1,0 +1,62 @@
+{
+  "app": {
+    "title": "感恩追蹤器",
+    "description": "記錄每日感恩事項和情緒，以提升心理健康。"
+  },
+  "gratitude": {
+    "heading": "今天你最感恩的是什麼？",
+    "subheading": "花點時間想想那些美好的事情，無論大小。",
+    "item1": {
+      "label": "感恩事項 1",
+      "placeholder": "例如：今天早上喝了一杯熱茶…"
+    },
+    "item2": {
+      "label": "感恩事項 2",
+      "placeholder": "例如：朋友的一句鼓勵的話語…"
+    },
+    "optional": "（選修的）"
+  },
+  "common": {
+    "get_started": "開始使用",
+    "start_over": "重新開始",
+    "finish_exit": "結束並退出",
+    "well_done": "做得好！",
+    "completion_message": "您已成功完成此項活動。請花點時間欣賞一下您的成果。",
+    "time_to_complete": "完成時間",
+    "back": "後退",
+    "next": "下一個",
+    "save": "節省",
+    "loading": "載入中..."
+  },
+  "mood": {
+    "heading": "你感覺怎麼樣？",
+    "subheading": "選出最能形容你此刻心情的詞語。",
+    "save": "保存感恩條目",
+    "happy": "快樂的",
+    "calm": "冷靜的",
+    "neutral": "中性的",
+    "low": "低的",
+    "stressed": "壓力"
+  },
+  "review": {
+    "heading": "您的參賽作品",
+    "date": "日期",
+    "gratitude1": "感恩 1",
+    "gratitude2": "感恩2",
+    "mood": "情緒",
+    "edit": "編輯條目",
+    "history": "查看歷史記錄"
+  },
+  "history": {
+    "heading": "歷史",
+    "back": "後退",
+    "home": "回首頁",
+    "sun": "太陽",
+    "mon": "我的",
+    "tue": "星期二",
+    "wed": "星期三",
+    "thu": "收集",
+    "fri": "星期五",
+    "sat": "星期六"
+  }
+}

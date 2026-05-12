@@ -33,14 +33,14 @@
   "share_text": "I loved this doodle burst activity at TherapyMantra, you can try too just download the app to explore for yourself\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888",
   "common": {
     "get_started": "시작하기",
-    "start_over": "처음부터 다시",
-    "finish_exit": "결승 및 퇴장",
-    "well_done": "잘했어요!",
-    "completion_message": "이 활동을 성공적으로 완료하셨습니다. 잠시 시간을 내어 자신의 진전을 감상해 보세요.",
-    "time_to_complete": "완성 시간입니다",
-    "back": "뒤로",
+    "start_over": "처음부터 다시 시작",
+    "finish_exit": "완료 및 종료",
+    "well_done": "잘하셨어요!",
+    "completion_message": "이 활동을 성공적으로 완료하셨습니다. 잠시 시간을 내어 지금까지의 성과를 되돌아보세요.",
+    "time_to_complete": "완료 시간",
+    "back": "뒤쪽에",
     "next": "다음",
-    "save": "저장",
+    "save": "구하다",
     "loading": "로딩 중..."
   }
 }

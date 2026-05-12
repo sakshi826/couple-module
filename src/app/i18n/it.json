@@ -1,11 +1,11 @@
 {
   "common": {
-    "get_started": "Inizia",
-    "start_over": "Ricomincia",
-    "finish_exit": "Arrivo e uscita",
+    "get_started": "Inizia subito",
+    "start_over": "Ricominciare",
+    "finish_exit": "Termina ed esci",
     "well_done": "Ben fatto!",
     "completion_message": "Hai completato con successo questa attività. Prenditi un momento per apprezzare i tuoi progressi.",
-    "time_to_complete": "È ora di completare",
+    "time_to_complete": "Tempo di completamento",
     "back": "Indietro",
     "next": "Prossimo",
     "save": "Salva",
@@ -16,26 +16,26 @@
     "see_all": "Vedi tutto",
     "meditation": "Meditazione",
     "guided": "Guidato",
-    "sleep": "Dormi",
+    "sleep": "Sonno",
     "mindfulness": "Consapevolezza",
-    "restore": "Restauro",
-    "curated": "Curato da Mind",
-    "restorative": "Restaurativo",
+    "restore": "Ripristinare",
+    "curated": "Selezionato da Mind",
+    "restorative": "Rigenerante",
     "peace": "Pace",
     "breath": "Respiro",
     "nature": "Natura",
-    "relax": "Rilassati",
+    "relax": "Relax",
     "time": {
-      "3min": "3 min",
-      "5min": "5 min",
-      "8min": "8 min",
-      "10min": "10 min",
-      "12min": "12 min",
-      "15min": "15 min",
-      "20min": "20 min",
-      "30min": "30 min",
-      "45min": "45 min",
-      "60min": "60 min"
+      "3min": "3 minuti",
+      "5min": "5 minuti",
+      "8min": "8 minuti",
+      "10min": "10 minuti",
+      "12min": "12 minuti",
+      "15min": "15 minuti",
+      "20min": "20 minuti",
+      "30min": "30 minuti",
+      "45min": "45 minuti",
+      "60min": "60 minuti"
     }
   },
   "hub": {
@@ -130,7 +130,11 @@
     "affirmations": "Affermazioni",
     "mindful-space": "Spazio consapevole",
     "letter-to-self": "Una lettera a me stesso",
-    "sleep-tracker": "Sleep Tracker"
+    "sleep-tracker": "Sleep Tracker",
+    "real_stories_anxiety": "Storie vere per superare l'ansia",
+    "brain_dump": "Brain Dump and Sort",
+    "sleep_window": "Pianificatore della finestra del sonno",
+    "a_letter_to_self": "Una lettera a me stesso"
   },
   "moods": {
     "great": "Ottimo",
@@ -219,5 +223,25 @@
       "students": "Studenti",
       "affirmations": "Affermazioni"
     }
+  },
+  "tips": {
+    "depression_tips": "Consigli per alleviare la depressione",
+    "anxiety_tips": "Consigli per la gestione dell'ansia",
+    "stress_tips": "Consigli per la gestione dello stress",
+    "sleep_guide": "Guida per dormire meglio",
+    "sleep_cycle": "Comprendere i cicli del sonno",
+    "sleep_tips": "Consigli rapidi per dormire"
+  },
+  "trackers": {
+    "vibe_tracker": "Tracciatore di vibrazioni (stato d'animo)",
+    "energy_tracker": "Monitoraggio dell'energia",
+    "sleep_audit": "Analisi del sonno",
+    "gratitude_diary": "Diario quotidiano della gratitudine"
+  },
+  "exercises": {
+    "4_6_8_breathing": "Respirazione 4-6-8",
+    "5_4_3_2_1_grounding": "5-4-3-2-1 Messa a terra",
+    "box_breathing": "Box Breathing",
+    "diffusion_technique": "Trasmissioni tecniche"
   }
 }

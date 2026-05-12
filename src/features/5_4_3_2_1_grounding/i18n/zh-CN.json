@@ -36,11 +36,15 @@
     }
   ],
   "common": {
-    "thank_you": "谢谢",
-    "you_feel": "你的感受是：",
-    "completion_message": "你已经完成了冥想练习。在接下来的日子里，请带着这种专注当下的感觉继续你的生活。",
-    "start_again": "重新开始",
-    "reflection_question": "用一个词来形容你现在的感受？",
-    "reflection_placeholder": "例如：平静、释然、踏实……"
+    "get_started": "开始使用",
+    "start_over": "重新开始",
+    "finish_exit": "结束并退出",
+    "well_done": "做得好！",
+    "completion_message": "您已成功完成此项活动。请花点时间欣赏一下您的成果。",
+    "time_to_complete": "完成时间",
+    "back": "后退",
+    "next": "下一个",
+    "save": "节省",
+    "loading": "加载中..."
   }
 }

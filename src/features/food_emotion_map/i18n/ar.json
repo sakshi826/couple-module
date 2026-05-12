@@ -85,15 +85,15 @@
     }
   },
   "common": {
-    "get_started": "ابدأ",
+    "get_started": "ابدأ الآن",
     "start_over": "ابدأ من جديد",
-    "finish_exit": "النهاية والخروج",
-    "well_done": "عمل رائع!",
-    "completion_message": "لقد أنجزت هذا النشاط بنجاح. خذ لحظة لتقدير تقدمك.",
-    "time_to_complete": "حان وقت الإكمال",
-    "back": "العودة",
+    "finish_exit": "إنهاء العملية والخروج",
+    "well_done": "أحسنت!",
+    "completion_message": "لقد أكملت هذا النشاط بنجاح. خذ لحظة لتقدير تقدمك.",
+    "time_to_complete": "الوقت اللازم للإنجاز",
+    "back": "خلف",
     "next": "التالي",
-    "save": "حفظ",
-    "loading": "جار التحميل..."
+    "save": "يحفظ",
+    "loading": "تحميل..."
   }
 }

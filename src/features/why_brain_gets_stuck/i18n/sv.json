@@ -28,14 +28,14 @@
   },
   "common": {
     "get_started": "Kom igång",
-    "start_over": "Börja om",
-    "finish_exit": "Mål och utgång",
+    "start_over": "Börja om från början",
+    "finish_exit": "Slutför och avsluta",
     "well_done": "Bra jobbat!",
-    "completion_message": "Du har framgångsrikt slutfört denna aktivitet. Ta en stund och uppskatta dina framsteg.",
+    "completion_message": "Du har slutfört den här aktiviteten. Ta en stund för att uppskatta dina framsteg.",
     "time_to_complete": "Dags att slutföra",
     "back": "Tillbaka",
     "next": "Nästa",
     "save": "Spara",
-    "loading": "Laddar..."
+    "loading": "Belastning..."
   }
 }

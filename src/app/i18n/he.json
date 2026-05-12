@@ -1,30 +1,30 @@
 {
   "common": {
-    "get_started": "תתחילו",
-    "start_over": "התחלה מחדש",
+    "get_started": "התחל",
+    "start_over": "התחל מחדש",
     "finish_exit": "סיום ויציאה",
     "well_done": "כל הכבוד!",
-    "completion_message": "השלמת את הפעילות הזו בהצלחה. קח רגע להעריך את ההתקדמות שלך.",
-    "time_to_complete": "הגיע הזמן להשלים",
-    "back": "חזרה",
-    "next": "הבא",
-    "save": "שמור",
-    "loading": "טוען...",
-    "today": "היום",
-    "yesterday": "אתמול",
+    "completion_message": "השלמת בהצלחה את הפעילות הזו. קחו רגע להעריך את ההתקדמות שלכם.",
+    "time_to_complete": "זמן להשלים",
+    "back": "בְּחֲזָרָה",
+    "next": "הַבָּא",
+    "save": "לְהַצִיל",
+    "loading": "טְעִינָה...",
+    "today": "הַיוֹם",
+    "yesterday": "אֶתמוֹל",
     "filters": "מסננים",
-    "see_all": "ראו הכל",
-    "meditation": "מדיטציה",
-    "guided": "מונחה",
-    "sleep": "שינה",
+    "see_all": "ראה הכל",
+    "meditation": "מֶדִיטָצִיָה",
+    "guided": "מוּדרָך",
+    "sleep": "לִישׁוֹן",
     "mindfulness": "מיינדפולנס",
-    "restore": "שחזור",
-    "curated": "אוצר על ידי מיינד",
-    "restorative": "משקם",
-    "peace": "שלום",
-    "breath": "נשימה",
-    "nature": "טבע",
-    "relax": "תירגע",
+    "restore": "לְשַׁחְזֵר",
+    "curated": "אוצר על ידי Mind",
+    "restorative": "מַברִיא",
+    "peace": "שָׁלוֹם",
+    "breath": "נְשִׁימָה",
+    "nature": "טֶבַע",
+    "relax": "לְהִרָגַע",
     "time": {
       "3min": "3 דקות",
       "5min": "5 דקות",
@@ -130,7 +130,11 @@
     "affirmations": "אישורים",
     "mindful-space": "מרחב מיינדפול",
     "letter-to-self": "מכתב לעצמי",
-    "sleep-tracker": "מעקב שינה"
+    "sleep-tracker": "מעקב שינה",
+    "real_stories_anxiety": "סיפורים אמיתיים להתגברות על חרדה",
+    "brain_dump": "מיון ודחיפה של המוח",
+    "sleep_window": "מתכנן חלונות שינה",
+    "a_letter_to_self": "מכתב לעצמי"
   },
   "moods": {
     "great": "מעולה",
@@ -219,5 +223,25 @@
       "students": "תלמידים",
       "affirmations": "אישורים"
     }
+  },
+  "tips": {
+    "depression_tips": "טיפים להקלה על דיכאון",
+    "anxiety_tips": "טיפים לניהול חרדה",
+    "stress_tips": "טיפים לניהול מתחים",
+    "sleep_guide": "מדריך לישון טוב יותר",
+    "sleep_cycle": "הבנת מחזורי שינה",
+    "sleep_tips": "טיפים מהירים לשינה"
+  },
+  "trackers": {
+    "vibe_tracker": "מעקב ויברציות (מצב רוח)",
+    "energy_tracker": "מעקב אנרגיה",
+    "sleep_audit": "ביקורת שינה",
+    "gratitude_diary": "יומן הכרת תודה יומי"
+  },
+  "exercises": {
+    "4_6_8_breathing": "נשימה 4-6-8",
+    "5_4_3_2_1_grounding": "הארקה 5-4-3-2-1",
+    "box_breathing": "נשימה בקופסה",
+    "diffusion_technique": "שידור טכני"
   }
 }

@@ -2,40 +2,40 @@
   "common": {
     "get_started": "Aloita",
     "start_over": "Aloita alusta",
-    "finish_exit": "Maali ja uloskäynti",
+    "finish_exit": "Lopeta ja poistu",
     "well_done": "Hyvin tehty!",
-    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Ota hetki arvostaaksesi edistymistäsi.",
-    "time_to_complete": "Aika valmistua",
+    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Käytä hetki aikaa edistymisesi arvostamiseen.",
+    "time_to_complete": "Aikaa valmistua",
     "back": "Takaisin",
-    "next": "Seuraavaksi",
-    "save": "Tallenna",
+    "next": "Seuraava",
+    "save": "Tallentaa",
     "loading": "Ladataan...",
     "today": "Tänään",
     "yesterday": "Eilen",
     "filters": "Suodattimet",
-    "see_all": "Katso kaikki",
+    "see_all": "Näytä kaikki",
     "meditation": "Meditaatio",
     "guided": "Opastettu",
-    "sleep": "Nuku",
-    "mindfulness": "Tietoisuustaito",
-    "restore": "Restaurointi",
-    "curated": "Kuratoinut Mind",
-    "restorative": "Restoratiivinen",
+    "sleep": "Nukkua",
+    "mindfulness": "Tietoinen läsnäolo",
+    "restore": "Palauttaa",
+    "curated": "Mielen kuratoima",
+    "restorative": "Palauttava",
     "peace": "Rauha",
     "breath": "Hengitys",
     "nature": "Luonto",
-    "relax": "Rentoudu",
+    "relax": "Rentoutua",
     "time": {
-      "3min": "3 min",
-      "5min": "5 min",
-      "8min": "8 min",
-      "10min": "10 min",
-      "12min": "12 min",
-      "15min": "15 min",
-      "20min": "20 min",
-      "30min": "30 min",
-      "45min": "45 min",
-      "60min": "60 min"
+      "3min": "3 minuuttia",
+      "5min": "5 minuuttia",
+      "8min": "8 minuuttia",
+      "10min": "10 minuuttia",
+      "12min": "12 minuuttia",
+      "15min": "15 minuuttia",
+      "20min": "20 minuuttia",
+      "30min": "30 minuuttia",
+      "45min": "45 minuuttia",
+      "60min": "60 minuuttia"
     }
   },
   "hub": {
@@ -130,7 +130,11 @@
     "affirmations": "Vahvistukset",
     "mindful-space": "Tietoinen tila",
     "letter-to-self": "Kirje itselleni",
-    "sleep-tracker": "Uniseuranta"
+    "sleep-tracker": "Uniseuranta",
+    "real_stories_anxiety": "Tositarinoita ahdistuksen voittamiseksi",
+    "brain_dump": "Aivojen tyhjennys ja lajittelu",
+    "sleep_window": "Uni-ikkunasuunnittelija",
+    "a_letter_to_self": "Kirje itselle"
   },
   "moods": {
     "great": "Upea",
@@ -219,5 +223,25 @@
       "students": "Opiskelijat",
       "affirmations": "Vahvistukset"
     }
+  },
+  "tips": {
+    "depression_tips": "Masennuksen lievitysvinkkejä",
+    "anxiety_tips": "Ahdistuksen hallintavinkkejä",
+    "stress_tips": "Stressinhallintavinkkejä",
+    "sleep_guide": "Opas parempaan uneen",
+    "sleep_cycle": "Unisyklien ymmärtäminen",
+    "sleep_tips": "Nopeat univinkit"
+  },
+  "trackers": {
+    "vibe_tracker": "Tunnelman seuranta (mieliala)",
+    "energy_tracker": "Energiaseuranta",
+    "sleep_audit": "Uniauditointi",
+    "gratitude_diary": "Päivittäinen kiitollisuuspäiväkirja"
+  },
+  "exercises": {
+    "4_6_8_breathing": "4-6-8 Hengitys",
+    "5_4_3_2_1_grounding": "5-4-3-2-1 Maadoitus",
+    "box_breathing": "Laatikkohengitys",
+    "diffusion_technique": "Tekninen lähetystoiminta"
   }
 }

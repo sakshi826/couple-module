@@ -1,30 +1,30 @@
 {
   "common": {
     "get_started": "Başlayın",
-    "start_over": "Yeniden Başla",
-    "finish_exit": "Bitiş ve Çıkış",
-    "well_done": "Aferin!",
-    "completion_message": "Bu etkinliği başarıyla tamamladın. İlerlemenin takdir edilmesini bir an ayır.",
-    "time_to_complete": "Tamamlanma zamanı",
+    "start_over": "Baştan Başla",
+    "finish_exit": "Bitir ve Çık",
+    "well_done": "Tebrikler!",
+    "completion_message": "Bu etkinliği başarıyla tamamladınız. İlerlemenizi takdir etmek için bir an ayırın.",
+    "time_to_complete": "Tamamlama süresi",
     "back": "Geri",
-    "next": "Sıradaki",
-    "save": "Kayd et",
+    "next": "Sonraki",
+    "save": "Kaydetmek",
     "loading": "Yükleniyor...",
     "today": "Bugün",
     "yesterday": "Dün",
     "filters": "Filtreler",
-    "see_all": "Hepsini Gör",
+    "see_all": "Tümünü Gör",
     "meditation": "Meditasyon",
     "guided": "Rehberli",
-    "sleep": "Uyu",
+    "sleep": "Uyumak",
     "mindfulness": "Farkındalık",
-    "restore": "Restore",
-    "curated": "Mind tarafından küratörlüğü yapıldı",
-    "restorative": "Restoratif",
+    "restore": "Eski haline getirmek",
+    "curated": "Mind tarafından derlendi.",
+    "restorative": "Onarıcı",
     "peace": "Barış",
     "breath": "Nefes",
     "nature": "Doğa",
-    "relax": "Rahatla",
+    "relax": "Rahatlamak",
     "time": {
       "3min": "3 dakika",
       "5min": "5 dakika",
@@ -130,7 +130,11 @@
     "affirmations": "Onaylar",
     "mindful-space": "Farkındalık Alanı",
     "letter-to-self": "Kendime Bir Mektup",
-    "sleep-tracker": "Uyku İzleyicisi"
+    "sleep-tracker": "Uyku İzleyicisi",
+    "real_stories_anxiety": "Kaygıyı Yenmek İçin Gerçek Hikayeler",
+    "brain_dump": "Beyin Fırtınası ve Sıralama",
+    "sleep_window": "Uyku Süresi Planlayıcısı",
+    "a_letter_to_self": "Kendime Bir Mektup"
   },
   "moods": {
     "great": "Harika",
@@ -219,5 +223,25 @@
       "students": "Öğrenciler",
       "affirmations": "Onaylar"
     }
+  },
+  "tips": {
+    "depression_tips": "Depresyon Giderici İpuçları",
+    "anxiety_tips": "Kaygı Yönetimi İpuçları",
+    "stress_tips": "Stres Yönetimi İpuçları",
+    "sleep_guide": "Daha İyi Uyku Rehberi",
+    "sleep_cycle": "Uyku Döngülerini Anlamak",
+    "sleep_tips": "Hızlı Uyku İpuçları"
+  },
+  "trackers": {
+    "vibe_tracker": "Vibe Tracker (Ruh Hali)",
+    "energy_tracker": "Enerji Takip Cihazı",
+    "sleep_audit": "Uyku Denetimi",
+    "gratitude_diary": "Günlük Şükran Günlüğü"
+  },
+  "exercises": {
+    "4_6_8_breathing": "4-6-8 Nefes Alma",
+    "5_4_3_2_1_grounding": "5-4-3-2-1 Topraklama",
+    "box_breathing": "Kutu Nefesi",
+    "diffusion_technique": "Teknik Yayıncılık"
   }
 }

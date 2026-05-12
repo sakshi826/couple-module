@@ -36,15 +36,15 @@
     }
   ],
   "common": {
-    "get_started": "Memulai",
-    "start_over": "Mulai Dari Awal",
+    "get_started": "Mulai",
+    "start_over": "Mulai dari Awal",
     "finish_exit": "Selesai & Keluar",
-    "well_done": "Bagus!",
-    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
-    "time_to_complete": "Waktu untuk menyelesaikan",
+    "well_done": "Bagus sekali!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk mengapresiasi kemajuan Anda.",
+    "time_to_complete": "Waktu penyelesaian",
     "back": "Kembali",
-    "next": "Selanjutnya",
-    "save": "Simpan",
+    "next": "Berikutnya",
+    "save": "Menyimpan",
     "loading": "Memuat..."
   }
 }

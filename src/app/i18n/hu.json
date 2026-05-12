@@ -1,30 +1,30 @@
 {
   "common": {
-    "get_started": "Kezdj el",
-    "start_over": "Kezdj újrakezdeni",
+    "get_started": "Kezdés",
+    "start_over": "Újrakezdés",
     "finish_exit": "Befejezés és kilépés",
-    "well_done": "Szép munka!",
-    "completion_message": "Sikeresen teljesítetted ezt a feladatot. Szánj egy pillanatot, hogy értékeld a fejlődésedet.",
-    "time_to_complete": "Ideje befejezni",
-    "back": "Hátra",
+    "well_done": "Gratulálok!",
+    "completion_message": "Sikeresen elvégezted ezt a feladatot. Szánj egy percet arra, hogy értékeled az előrehaladásodat.",
+    "time_to_complete": "Elkészítési idő",
+    "back": "Vissza",
     "next": "Következő",
-    "save": "Mentés",
-    "loading": "Betöltés...",
+    "save": "Megtakarítás",
+    "loading": "Terhelés...",
     "today": "Ma",
     "yesterday": "Tegnap",
     "filters": "Szűrők",
-    "see_all": "Lásd mindet",
-    "meditation": "Meditáció",
+    "see_all": "Összes megtekintése",
+    "meditation": "Elmélkedés",
     "guided": "Vezetett",
-    "sleep": "Aludj",
+    "sleep": "Alvás",
     "mindfulness": "Tudatosság",
-    "restore": "Helyreállítás",
-    "curated": "Mind válogatása",
+    "restore": "Visszaállítás",
+    "curated": "Mind által kurált",
     "restorative": "Helyreállító",
     "peace": "Béke",
-    "breath": "Lélegzet",
+    "breath": "Lehelet",
     "nature": "Természet",
-    "relax": "Nyugodj meg",
+    "relax": "Pihenj",
     "time": {
       "3min": "3 perc",
       "5min": "5 perc",
@@ -130,7 +130,11 @@
     "affirmations": "Megerősítések",
     "mindful-space": "Tudatos tér",
     "letter-to-self": "Egy levél önmagunknak",
-    "sleep-tracker": "Alvásnyomkövető"
+    "sleep-tracker": "Alvásnyomkövető",
+    "real_stories_anxiety": "Valódi történetek a szorongás leküzdéséhez",
+    "brain_dump": "Agydump és rendezés",
+    "sleep_window": "Alvásablak-tervező",
+    "a_letter_to_self": "Egy levél önmagamnak"
   },
   "moods": {
     "great": "Remek",
@@ -219,5 +223,25 @@
       "students": "Diákok",
       "affirmations": "Megerősítések"
     }
+  },
+  "tips": {
+    "depression_tips": "Depresszió elleni tippek",
+    "anxiety_tips": "Szorongáskezelési tippek",
+    "stress_tips": "Stresszkezelési tippek",
+    "sleep_guide": "Jobb alvás útmutató",
+    "sleep_cycle": "Az alvási ciklusok megértése",
+    "sleep_tips": "Gyors alvási tippek"
+  },
+  "trackers": {
+    "vibe_tracker": "Hangulatkövető (hangulat)",
+    "energy_tracker": "Energiakövető",
+    "sleep_audit": "Alvásaudit",
+    "gratitude_diary": "Napi hálanapló"
+  },
+  "exercises": {
+    "4_6_8_breathing": "4-6-8 Légzés",
+    "5_4_3_2_1_grounding": "5-4-3-2-1 Földelés",
+    "box_breathing": "Dobozos légzés",
+    "diffusion_technique": "Műszaki műsorszórás"
   }
 }

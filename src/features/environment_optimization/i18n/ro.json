@@ -33,15 +33,15 @@
   "return_home": "Întoarcerea acasă",
   "language_selector": "Limbă selectată",
   "common": {
-    "get_started": "Începe",
-    "start_over": "Începeți de la zero",
-    "finish_exit": "Final și ieșire",
-    "well_done": "Bravo!",
-    "completion_message": "Ai finalizat cu succes această activitate. Ia-ți un moment să apreciezi progresul tău.",
-    "time_to_complete": "Timpul de finalizat",
-    "back": "Înapoi",
+    "get_started": "Începeți",
+    "start_over": "Începeți de la început",
+    "finish_exit": "Terminare și ieșire",
+    "well_done": "Bine făcut!",
+    "completion_message": "Ai finalizat cu succes această activitate. Acordă-ți un moment pentru a aprecia progresul.",
+    "time_to_complete": "Timpul de finalizare",
+    "back": "Spate",
     "next": "Următorul",
-    "save": "Salvează",
-    "loading": "Se încarcă..."
+    "save": "Salva",
+    "loading": "Încărcare..."
   }
 }

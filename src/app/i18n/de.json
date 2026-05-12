@@ -1,30 +1,30 @@
 {
   "common": {
-    "get_started": "Leg los",
-    "start_over": "Neu anfangen",
-    "finish_exit": "Ziel und Ausgang",
+    "get_started": "Los geht's",
+    "start_over": "Von vorne beginnen",
+    "finish_exit": "Ziel & Ausgang",
     "well_done": "Gut gemacht!",
-    "completion_message": "Du hast diese Aktivität erfolgreich abgeschlossen. Nimm dir einen Moment Zeit, um deinen Fortschritt zu würdigen.",
-    "time_to_complete": "Zeit zum Abschluss",
+    "completion_message": "Sie haben diese Aufgabe erfolgreich abgeschlossen. Nehmen Sie sich einen Moment Zeit, um Ihren Fortschritt zu würdigen.",
+    "time_to_complete": "Zeit zum Fertigstellen",
     "back": "Zurück",
-    "next": "Als Nächstes",
+    "next": "Nächste",
     "save": "Speichern",
-    "loading": "Lädt...",
+    "loading": "Laden...",
     "today": "Heute",
     "yesterday": "Gestern",
     "filters": "Filter",
-    "see_all": "Alles ansehen",
+    "see_all": "Alle anzeigen",
     "meditation": "Meditation",
     "guided": "Geführt",
-    "sleep": "Schlaf",
+    "sleep": "Schlafen",
     "mindfulness": "Achtsamkeit",
     "restore": "Wiederherstellen",
     "curated": "Kuratiert von Mind",
-    "restorative": "Restorativ",
+    "restorative": "Wiederherstellend",
     "peace": "Frieden",
-    "breath": "Atme",
+    "breath": "Atem",
     "nature": "Natur",
-    "relax": "Entspann dich",
+    "relax": "Entspannen",
     "time": {
       "3min": "3 Minuten",
       "5min": "5 Minuten",
@@ -130,7 +130,11 @@
     "affirmations": "Affirmationen",
     "mindful-space": "Achtsamer Raum",
     "letter-to-self": "Ein Brief an mich selbst",
-    "sleep-tracker": "Schlaftracker"
+    "sleep-tracker": "Schlaftracker",
+    "real_stories_anxiety": "Wahre Geschichten zur Überwindung von Angstzuständen",
+    "brain_dump": "Brainstorming und Sortieren",
+    "sleep_window": "Schlaffensterplaner",
+    "a_letter_to_self": "Ein Brief an mich selbst"
   },
   "moods": {
     "great": "Großartig",
@@ -219,5 +223,25 @@
       "students": "Schüler",
       "affirmations": "Affirmationen"
     }
+  },
+  "tips": {
+    "depression_tips": "Tipps zur Linderung von Depressionen",
+    "anxiety_tips": "Tipps zum Umgang mit Angstzuständen",
+    "stress_tips": "Tipps zum Stressmanagement",
+    "sleep_guide": "Ratgeber für besseren Schlaf",
+    "sleep_cycle": "Schlafzyklen verstehen",
+    "sleep_tips": "Schnelle Schlaftipps"
+  },
+  "trackers": {
+    "vibe_tracker": "Stimmungstracker",
+    "energy_tracker": "Energietracker",
+    "sleep_audit": "Schlafanalyse",
+    "gratitude_diary": "Tägliches Dankbarkeitstagebuch"
+  },
+  "exercises": {
+    "4_6_8_breathing": "4-6-8 Atmung",
+    "5_4_3_2_1_grounding": "5-4-3-2-1 Erdung",
+    "box_breathing": "Boxatmung",
+    "diffusion_technique": "Technischer Rundfunk"
   }
 }

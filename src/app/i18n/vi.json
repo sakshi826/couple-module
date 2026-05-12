@@ -2,24 +2,24 @@
   "common": {
     "get_started": "Bắt đầu",
     "start_over": "Bắt đầu lại",
-    "finish_exit": "Kết thúc & Thoát",
-    "well_done": "Làm tốt lắm!",
-    "completion_message": "Bạn đã hoàn thành thành công hoạt động này. Hãy dành một chút thời gian để đánh giá cao sự tiến bộ của bạn.",
-    "time_to_complete": "Thời gian hoàn thành",
-    "back": "Quay lại",
+    "finish_exit": "Hoàn thành & Lối ra",
+    "well_done": "Làm tốt!",
+    "completion_message": "Bạn đã hoàn thành hoạt động này một cách thành công. Hãy dành chút thời gian để tự hào về những tiến bộ mình đã đạt được.",
+    "time_to_complete": "Đã đến lúc hoàn thành",
+    "back": "Mặt sau",
     "next": "Kế tiếp",
-    "save": "Lưu",
+    "save": "Cứu",
     "loading": "Đang tải...",
     "today": "Hôm nay",
     "yesterday": "Hôm qua",
     "filters": "Bộ lọc",
     "see_all": "Xem tất cả",
-    "meditation": "Thiền định",
-    "guided": "Có hướng dẫn",
+    "meditation": "Thiền",
+    "guided": "Hướng dẫn",
     "sleep": "Ngủ",
     "mindfulness": "Chánh niệm",
     "restore": "Khôi phục",
-    "curated": "Giám tuyển bởi tâm trí",
+    "curated": "Được tuyển chọn bởi Mind",
     "restorative": "Phục hồi",
     "peace": "Hòa bình",
     "breath": "Hơi thở",
@@ -130,7 +130,11 @@
     "affirmations": "Lời khẳng định",
     "mindful-space": "Không gian chánh niệm",
     "letter-to-self": "Một lá thư gửi cho bản thân",
-    "sleep-tracker": "Theo dõi giấc ngủ"
+    "sleep-tracker": "Theo dõi giấc ngủ",
+    "real_stories_anxiety": "Những câu chuyện có thật về cách vượt qua lo âu",
+    "brain_dump": "Đổ hết ý tưởng và sắp xếp",
+    "sleep_window": "Lập kế hoạch cửa sổ ngủ",
+    "a_letter_to_self": "Một bức thư gửi chính mình"
   },
   "moods": {
     "great": "Tuyệt vời",
@@ -219,5 +223,25 @@
       "students": "Sinh viên",
       "affirmations": "Lời khẳng định"
     }
+  },
+  "tips": {
+    "depression_tips": "Mẹo giảm trầm cảm",
+    "anxiety_tips": "Mẹo quản lý lo âu",
+    "stress_tips": "Mẹo quản lý căng thẳng",
+    "sleep_guide": "Hướng dẫn ngủ ngon hơn",
+    "sleep_cycle": "Hiểu về chu kỳ giấc ngủ",
+    "sleep_tips": "Mẹo ngủ nhanh"
+  },
+  "trackers": {
+    "vibe_tracker": "Công cụ theo dõi tâm trạng (Vibe Tracker)",
+    "energy_tracker": "Công cụ theo dõi năng lượng",
+    "sleep_audit": "Kiểm tra giấc ngủ",
+    "gratitude_diary": "Nhật ký lòng biết ơn mỗi ngày"
+  },
+  "exercises": {
+    "4_6_8_breathing": "4-6-8 Hít thở",
+    "5_4_3_2_1_grounding": "5-4-3-2-1 Nối đất",
+    "box_breathing": "Hít thở theo hình hộp",
+    "diffusion_technique": "Phát thanh kỹ thuật"
   }
 }
