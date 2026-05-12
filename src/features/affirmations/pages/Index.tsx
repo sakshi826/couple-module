@@ -33,7 +33,7 @@ const Index = () => {
   return (
     <PremiumLayout 
       title={t("app_title", "Mindset")}
-      icon={<Sparkles className="w-6 h-6 text-primary" />}
+      icon={<Sparkles className="w-6 h-6 text-primary" />} >}
       onBack={currentIdx > 0 && screen !== 'complete' ? () => setScreen(screenOrder[currentIdx - 1]) : undefined}
       onReset={currentIdx > 0 && screen !== 'complete' ? () => setScreen('intro') : undefined}
     >

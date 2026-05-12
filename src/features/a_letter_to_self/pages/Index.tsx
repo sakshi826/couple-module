@@ -1,6 +1,8 @@
+import { useTranslation } from "react-i18next";
 // Update this page (the content is just a fallback if you fail to update the page)
 
 const Index = () => {
+  const { t } = useTranslation();
   return (
     <div className="flex  items-center justify-center bg-transparent">
       <div className="text-center">

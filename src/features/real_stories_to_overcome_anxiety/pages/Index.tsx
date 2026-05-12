@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import IntroScreen from "../components/IntroScreen";
 import StorySelectionScreen from "../components/StorySelectionScreen";
@@ -9,6 +10,7 @@ import { AnimatePresence, motion } from "framer-motion";
 type Screen = "intro" | "selection" | "story";
 
 const Index = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState<Screen>("intro");
   const [storyIndex, setStoryIndex] = useState(0);
 
@@ -28,10 +30,8 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title", " 
-      title={t("app_title", " 
-      title={t("app_title", " 
-      title={t("app_title", ")}story")} ? handleBackToStories : (screen === "selection" ? () => setScreen("intro") : undefined)}
+      title={t("app_title", "Wellness Activity")}
+      icon={<Sparkles className="w-6 h-6 text-primary" />} > setScreen("intro") : undefined)}
       onReset={screen !== 'intro' ? () => setScreen('intro') : undefined}
     >
       <div className="w-full">

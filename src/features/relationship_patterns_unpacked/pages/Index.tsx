@@ -66,10 +66,9 @@ const Index = () => {
   }
 
   return (
-    <PremiumLayout
-      title={t("app_title")}
-      subtitle={t("app_subtitle")}
-      icon={<Heart className="w-6 h-6 text-primary" />}
+    <PremiumLayout 
+      title={t("app_title", "Relationship Patterns")}
+      icon={<Heart className="w-6 h-6 text-primary" />} >}
       onBack={screen > 0 ? () => setScreen(prev => prev - 1) : undefined}
       onReset={screen > 0 ? resetFlow : undefined}
     >

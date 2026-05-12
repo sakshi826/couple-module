@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import IntroScreen from "../components/IntroScreen";
@@ -12,6 +13,7 @@ import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 type Screen = "intro" | "checkin" | "reflection" | "confirmation" | "history";
 
 const Index = () => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const [screen, setScreen] = useState<Screen>("intro");
   const [selectedVibe, setSelectedVibe] = useState("");

@@ -115,10 +115,9 @@ const Index = () => {
   const titles = t("screen_titles", { returnObjects: true }) as string[];
 
   return (
-    <PremiumLayout
-      title={t("app_title")}
-      subtitle={titles[screen]}
-      icon={<Heart className="w-6 h-6 text-primary" />}
+    <PremiumLayout 
+      title={t("app_title", "Memory Box")}
+      icon={<Heart className="w-6 h-6 text-primary" />} >}
       onBack={screen > 0 ? () => setScreen(prev => prev - 1) : undefined}
       actions={screen === 0 ? (
         <button onClick={() => setHistoryOpen(true)} className="p-2 rounded-full hover:bg-slate-100 transition-colors text-slate-600">

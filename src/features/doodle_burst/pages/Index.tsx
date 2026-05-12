@@ -61,10 +61,8 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title", " 
-      title={t("app_title", " 
-      title={t("app_title", " 
-      title={t("app_title", ")}wait")}>
+      title={t("app_title", "Doodle Burst")}
+      icon={<Sparkles className="w-6 h-6 text-primary" />} >
         {screen === "intro" && (
           <motion.div
             key="intro"

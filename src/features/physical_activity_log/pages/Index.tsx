@@ -7,7 +7,9 @@ import { Activity } from "lucide-react";
 const Index = () => {
   const { t } = useTranslation();
   return (
-    <PremiumLayout title={t("app_title", "Activity Log")} icon={<Activity className="w-6 h-6 text-primary" />}>
+    <PremiumLayout 
+      title={t("app_title", "Wellness Activity")}
+      icon={<Activity className="w-6 h-6 text-primary" />} >}>
       <main className="bg-transparent relative w-full">
         <TrackActivitySection />
       </main>
