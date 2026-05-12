@@ -134,7 +134,13 @@
     "real_stories_anxiety": "উদ্বেগ কাটিয়ে ওঠার বাস্তব গল্প",
     "brain_dump": "মস্তিষ্কের জঞ্জাল ও বিন্যাস",
     "sleep_window": "স্লিপ উইন্ডো প্ল্যানার",
-    "a_letter_to_self": "নিজেকে লেখা একটি চিঠি"
+    "a_letter_to_self": "নিজেকে লেখা একটি চিঠি",
+    "care_tracker": "দৈনিক আত্ম-যত্ন ট্র্যাকার",
+    "know_values": "আপনার মূল্যবোধ জানুন",
+    "doodle_burst": "ডুডল বার্স্ট",
+    "environment_optimization": "পরিবেশ অপ্টিমাইজেশন",
+    "personal-mission-statement": "ব্যক্তিগত লক্ষ্য বিবৃতি",
+    "physical_activity_log": "শারীরিক কার্যকলাপের লগ"
   },
   "moods": {
     "great": "দুর্দান্ত",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "৪-৬-৮ শ্বাসপ্রশ্বাস",
     "5_4_3_2_1_grounding": "৫-৪-৩-২-১ গ্রাউন্ডিং",
     "box_breathing": "বক্স শ্বাসপ্রশ্বাস",
-    "diffusion_technique": "প্রযুক্তিগত সম্প্রচার"
+    "diffusion_technique": "প্রযুক্তিগত সম্প্রচার",
+    "guided_imagery": "নির্দেশিত চিত্রকল্প",
+    "grounding_technique": "গ্রাউন্ডিং কৌশল",
+    "pause_appreciation": "প্রশংসার জন্য বিরতি"
   }
 }

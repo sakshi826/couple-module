@@ -134,7 +134,13 @@
     "real_stories_anxiety": "பதட்டத்தை வெல்வதற்கான உண்மைக் கதைகள்",
     "brain_dump": "மூளைக் கொட்டல் மற்றும் வகைப்படுத்தல்",
     "sleep_window": "தூக்க நேர திட்டமிடுபவர்",
-    "a_letter_to_self": "எனக்கு நானே எழுதிக்கொள்ளும் கடிதம்"
+    "a_letter_to_self": "எனக்கு நானே எழுதிக்கொள்ளும் கடிதம்",
+    "care_tracker": "தினசரி சுய பராமரிப்பு கண்காணிப்பான்",
+    "know_values": "உங்கள் மதிப்புகளை அறிந்து கொள்ளுங்கள்",
+    "doodle_burst": "டூடுல் பர்ஸ்ட்",
+    "environment_optimization": "சுற்றுச்சூழல் உகப்பாக்கம்",
+    "personal-mission-statement": "தனிப்பட்ட பணி அறிக்கை",
+    "physical_activity_log": "உடல் செயல்பாட்டுப் பதிவு"
   },
   "moods": {
     "great": "கிரேட்",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "4-6-8 சுவாசம்",
     "5_4_3_2_1_grounding": "5-4-3-2-1 கிரவுண்டிங்",
     "box_breathing": "பெட்டி சுவாசம்",
-    "diffusion_technique": "தொழில்நுட்ப ஒளிபரப்பு"
+    "diffusion_technique": "தொழில்நுட்ப ஒளிபரப்பு",
+    "guided_imagery": "வழிகாட்டப்பட்ட கற்பனை",
+    "grounding_technique": "கிரவுண்டிங் டெக்னிக்",
+    "pause_appreciation": "பாராட்டுக்காக ஒரு கணம் ஒதுக்குங்கள்"
   }
 }

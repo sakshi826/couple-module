@@ -134,7 +134,13 @@
     "real_stories_anxiety": "بے چینی پر قابو پانے کے لیے حقیقی کہانیاں",
     "brain_dump": "برین ڈمپ اور ترتیب دیں۔",
     "sleep_window": "سلیپ ونڈو پلانر",
-    "a_letter_to_self": "خود کو ایک خط"
+    "a_letter_to_self": "خود کو ایک خط",
+    "care_tracker": "ڈیلی سیلف کیئر ٹریکر",
+    "know_values": "اپنی اقدار کو جانیں۔",
+    "doodle_burst": "ڈوڈل برسٹ",
+    "environment_optimization": "ماحولیات کی اصلاح",
+    "personal-mission-statement": "ذاتی مشن کا بیان",
+    "physical_activity_log": "جسمانی سرگرمی لاگ"
   },
   "moods": {
     "great": "زبردست",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "4-6-8 سانس لینا",
     "5_4_3_2_1_grounding": "5-4-3-2-1 گراؤنڈنگ",
     "box_breathing": "باکس سانس لینا",
-    "diffusion_technique": "تکنیکی نشریات"
+    "diffusion_technique": "تکنیکی نشریات",
+    "guided_imagery": "گائیڈڈ امیجری",
+    "grounding_technique": "گراؤنڈ کرنے کی تکنیک",
+    "pause_appreciation": "تعریف کے لیے وقفہ کریں۔"
   }
 }

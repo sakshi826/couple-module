@@ -134,7 +134,13 @@
     "real_stories_anxiety": "Povești reale pentru a depăși anxietatea",
     "brain_dump": "Brain Dump and Sort",
     "sleep_window": "Planificator de ferestre de somn",
-    "a_letter_to_self": "O scrisoare către sine"
+    "a_letter_to_self": "O scrisoare către sine",
+    "care_tracker": "Monitorizare zilnică a îngrijirii personale",
+    "know_values": "Cunoaște-ți valorile",
+    "doodle_burst": "Doodle Burst",
+    "environment_optimization": "Optimizarea mediului",
+    "personal-mission-statement": "Declarație de misiune personală",
+    "physical_activity_log": "Jurnal de activitate fizică"
   },
   "moods": {
     "great": "Grozav",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "4-6-8 Respirație",
     "5_4_3_2_1_grounding": "5-4-3-2-1 Împământare",
     "box_breathing": "Respirație în cutie",
-    "diffusion_technique": "Radiodifuziune tehnică"
+    "diffusion_technique": "Radiodifuziune tehnică",
+    "guided_imagery": "Imagini ghidate",
+    "grounding_technique": "Tehnica de împământare",
+    "pause_appreciation": "Pauză pentru apreciere"
   }
 }

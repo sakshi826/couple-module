@@ -133,7 +133,13 @@
     "real_stories_anxiety": "Real Stories to Overcome Anxiety",
     "brain_dump": "Brain Dump and Sort",
     "sleep_window": "Sleep Window Planner",
-    "a_letter_to_self": "A Letter to Self"
+    "a_letter_to_self": "A Letter to Self",
+    "care_tracker": "Daily Self Care Tracker",
+    "know_values": "Know Your Values",
+    "doodle_burst": "Doodle Burst",
+    "environment_optimization": "Environment Optimization",
+    "personal-mission-statement": "Personal Mission Statement",
+    "physical_activity_log": "Physical Activity Log"
   },
   "tips": {
     "depression_tips": "Depression Relief Tips",
@@ -153,7 +159,10 @@
     "4_6_8_breathing": "4-6-8 Breathing",
     "5_4_3_2_1_grounding": "5-4-3-2-1 Grounding",
     "box_breathing": "Box Breathing",
-    "diffusion_technique": "Diffusion Technique"
+    "diffusion_technique": "Diffusion Technique",
+    "guided_imagery": "Guided Imagery",
+    "grounding_technique": "Grounding Technique",
+    "pause_appreciation": "Pause for Appreciation"
   },
   "moods": {
     "great": "Great",

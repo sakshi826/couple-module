@@ -134,7 +134,13 @@
     "real_stories_anxiety": "Prawdziwe historie o tym, jak pokonać lęk",
     "brain_dump": "Zrzut i sortowanie mózgu",
     "sleep_window": "Planer okien snu",
-    "a_letter_to_self": "List do samego siebie"
+    "a_letter_to_self": "List do samego siebie",
+    "care_tracker": "Codzienny rejestr samoopieki",
+    "know_values": "Poznaj swoje wartości",
+    "doodle_burst": "Doodle Burst",
+    "environment_optimization": "Optymalizacja środowiska",
+    "personal-mission-statement": "Oświadczenie o misji osobistej",
+    "physical_activity_log": "Dziennik aktywności fizycznej"
   },
   "moods": {
     "great": "Świetnie",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "4-6-8 Oddychanie",
     "5_4_3_2_1_grounding": "5-4-3-2-1 Uziemienie",
     "box_breathing": "Oddychanie pudełkowe",
-    "diffusion_technique": "Nadawanie techniczne"
+    "diffusion_technique": "Nadawanie techniczne",
+    "guided_imagery": "Wizualizacja kierowana",
+    "grounding_technique": "Technika uziemienia",
+    "pause_appreciation": "Zatrzymaj się na docenienie"
   }
 }

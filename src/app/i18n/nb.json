@@ -134,7 +134,13 @@
     "real_stories_anxiety": "Ekte historier for å overvinne angst",
     "brain_dump": "Hjernedump og sortering",
     "sleep_window": "Søvnvinduplanlegger",
-    "a_letter_to_self": "Et brev til seg selv"
+    "a_letter_to_self": "Et brev til seg selv",
+    "care_tracker": "Daglig egenomsorgssporing",
+    "know_values": "Kjenn dine verdier",
+    "doodle_burst": "Doodle Burst",
+    "environment_optimization": "Miljøoptimalisering",
+    "personal-mission-statement": "Personlig formålserklæring",
+    "physical_activity_log": "Logg for fysisk aktivitet"
   },
   "moods": {
     "great": "Flott",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "4-6-8 Pusting",
     "5_4_3_2_1_grounding": "5-4-3-2-1 Jording",
     "box_breathing": "Bokspusting",
-    "diffusion_technique": "Teknisk kringkasting"
+    "diffusion_technique": "Teknisk kringkasting",
+    "guided_imagery": "Guidet billedspråk",
+    "grounding_technique": "Jordingsteknikk",
+    "pause_appreciation": "Pause for takknemlighet"
   }
 }

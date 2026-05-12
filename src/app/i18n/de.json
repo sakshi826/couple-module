@@ -134,7 +134,13 @@
     "real_stories_anxiety": "Wahre Geschichten zur Überwindung von Angstzuständen",
     "brain_dump": "Brainstorming und Sortieren",
     "sleep_window": "Schlaffensterplaner",
-    "a_letter_to_self": "Ein Brief an mich selbst"
+    "a_letter_to_self": "Ein Brief an mich selbst",
+    "care_tracker": "Tägliche Selbstpflege-Tracker",
+    "know_values": "Kenne deine Werte",
+    "doodle_burst": "Doodle-Ausbruch",
+    "environment_optimization": "Umweltoptimierung",
+    "personal-mission-statement": "Persönliches Leitbild",
+    "physical_activity_log": "Protokoll der körperlichen Aktivität"
   },
   "moods": {
     "great": "Großartig",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "4-6-8 Atmung",
     "5_4_3_2_1_grounding": "5-4-3-2-1 Erdung",
     "box_breathing": "Boxatmung",
-    "diffusion_technique": "Technischer Rundfunk"
+    "diffusion_technique": "Technischer Rundfunk",
+    "guided_imagery": "Geführte Imagination",
+    "grounding_technique": "Erdungstechnik",
+    "pause_appreciation": "Einen Moment der Wertschätzung"
   }
 }

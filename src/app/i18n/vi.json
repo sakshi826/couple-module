@@ -134,7 +134,13 @@
     "real_stories_anxiety": "Những câu chuyện có thật về cách vượt qua lo âu",
     "brain_dump": "Đổ hết ý tưởng và sắp xếp",
     "sleep_window": "Lập kế hoạch cửa sổ ngủ",
-    "a_letter_to_self": "Một bức thư gửi chính mình"
+    "a_letter_to_self": "Một bức thư gửi chính mình",
+    "care_tracker": "Công cụ theo dõi chăm sóc bản thân hàng ngày",
+    "know_values": "Hãy hiểu rõ giá trị của bạn.",
+    "doodle_burst": "Doodle Burst",
+    "environment_optimization": "Tối ưu hóa môi trường",
+    "personal-mission-statement": "Tuyên ngôn sứ mệnh cá nhân",
+    "physical_activity_log": "Nhật ký hoạt động thể chất"
   },
   "moods": {
     "great": "Tuyệt vời",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "4-6-8 Hít thở",
     "5_4_3_2_1_grounding": "5-4-3-2-1 Nối đất",
     "box_breathing": "Hít thở theo hình hộp",
-    "diffusion_technique": "Phát thanh kỹ thuật"
+    "diffusion_technique": "Phát thanh kỹ thuật",
+    "guided_imagery": "Hình ảnh dẫn dắt",
+    "grounding_technique": "Kỹ thuật tiếp đất",
+    "pause_appreciation": "Dừng lại để trân trọng"
   }
 }

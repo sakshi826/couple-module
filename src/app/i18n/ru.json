@@ -134,7 +134,13 @@
     "real_stories_anxiety": "Реальные истории о том, как преодолеть тревогу",
     "brain_dump": "Вывалить и рассортировать мозги",
     "sleep_window": "Планировщик спального окна",
-    "a_letter_to_self": "Письмо самому себе"
+    "a_letter_to_self": "Письмо самому себе",
+    "care_tracker": "Ежедневный трекер заботы о себе",
+    "know_values": "Знай свои ценности",
+    "doodle_burst": "Взрыв каракулей",
+    "environment_optimization": "Оптимизация окружающей среды",
+    "personal-mission-statement": "Личное заявление о миссии",
+    "physical_activity_log": "Журнал физической активности"
   },
   "moods": {
     "great": "Отлично",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "Дыхание 4-6-8",
     "5_4_3_2_1_grounding": "5-4-3-2-1 Заземление",
     "box_breathing": "Дыхание по квадрату",
-    "diffusion_technique": "Техническое вещание"
+    "diffusion_technique": "Техническое вещание",
+    "guided_imagery": "Управляемая визуализация",
+    "grounding_technique": "Техника заземления",
+    "pause_appreciation": "Пауза для выражения признательности"
   }
 }

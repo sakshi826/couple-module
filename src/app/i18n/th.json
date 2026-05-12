@@ -134,7 +134,13 @@
     "real_stories_anxiety": "เรื่องราวจากประสบการณ์จริงเพื่อเอาชนะความวิตกกังวล",
     "brain_dump": "ระดมความคิดและจัดเรียง",
     "sleep_window": "โปรแกรมวางแผนช่วงเวลาการนอนหลับ",
-    "a_letter_to_self": "จดหมายถึงตัวเอง"
+    "a_letter_to_self": "จดหมายถึงตัวเอง",
+    "care_tracker": "บันทึกการดูแลตนเองประจำวัน",
+    "know_values": "รู้จักคุณค่าของตนเอง",
+    "doodle_burst": "ดูเดิลเบิร์สต์",
+    "environment_optimization": "การเพิ่มประสิทธิภาพด้านสิ่งแวดล้อม",
+    "personal-mission-statement": "คำแถลงภารกิจส่วนบุคคล",
+    "physical_activity_log": "บันทึกกิจกรรมทางกาย"
   },
   "moods": {
     "great": "ยอดเยี่ยม",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "การหายใจแบบ 4-6-8",
     "5_4_3_2_1_grounding": "5-4-3-2-1 การต่อลงดิน",
     "box_breathing": "การหายใจแบบกล่อง",
-    "diffusion_technique": "การออกอากาศทางเทคนิค"
+    "diffusion_technique": "การออกอากาศทางเทคนิค",
+    "guided_imagery": "การจินตนาการนำทาง",
+    "grounding_technique": "เทคนิคการลงดิน",
+    "pause_appreciation": "หยุดพักเพื่อแสดงความขอบคุณ"
   }
 }

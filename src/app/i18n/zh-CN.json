@@ -172,7 +172,13 @@
     "real_stories_anxiety": "克服焦虑的真实故事",
     "brain_dump": "头脑风暴与分类",
     "sleep_window": "睡眠窗口规划器",
-    "a_letter_to_self": "写给自己的一封信"
+    "a_letter_to_self": "写给自己的一封信",
+    "care_tracker": "每日自我护理追踪器",
+    "know_values": "了解你的价值观",
+    "doodle_burst": "涂鸦爆发",
+    "environment_optimization": "环境优化",
+    "personal-mission-statement": "个人使命宣言",
+    "physical_activity_log": "体育活动记录"
   },
   "moods": {
     "great": "伟大的",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "4-6-8 呼吸法",
     "5_4_3_2_1_grounding": "5-4-3-2-1 接地",
     "box_breathing": "箱式呼吸法",
-    "diffusion_technique": "技术广播"
+    "diffusion_technique": "技术广播",
+    "guided_imagery": "引导式意象",
+    "grounding_technique": "接地技巧",
+    "pause_appreciation": "稍作停顿以示赞赏"
   }
 }

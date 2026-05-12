@@ -134,7 +134,13 @@
     "real_stories_anxiety": "סיפורים אמיתיים להתגברות על חרדה",
     "brain_dump": "מיון ודחיפה של המוח",
     "sleep_window": "מתכנן חלונות שינה",
-    "a_letter_to_self": "מכתב לעצמי"
+    "a_letter_to_self": "מכתב לעצמי",
+    "care_tracker": "מעקב יומי אחר טיפול עצמי",
+    "know_values": "דע את הערכים שלך",
+    "doodle_burst": "פרץ שרבוטים",
+    "environment_optimization": "אופטימיזציה של סביבה",
+    "personal-mission-statement": "הצהרת משימה אישית",
+    "physical_activity_log": "יומן פעילות גופנית"
   },
   "moods": {
     "great": "מעולה",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "נשימה 4-6-8",
     "5_4_3_2_1_grounding": "הארקה 5-4-3-2-1",
     "box_breathing": "נשימה בקופסה",
-    "diffusion_technique": "שידור טכני"
+    "diffusion_technique": "שידור טכני",
+    "guided_imagery": "דמיון מודרך",
+    "grounding_technique": "טכניקת הארקה",
+    "pause_appreciation": "עצירה להערכה"
   }
 }

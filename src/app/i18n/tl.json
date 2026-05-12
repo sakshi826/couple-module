@@ -134,7 +134,13 @@
     "real_stories_anxiety": "Mga Totoong Kwento para Malabanan ang Pagkabalisa",
     "brain_dump": "Pagtatapon at Pag-uuri ng Utak",
     "sleep_window": "Tagaplano ng Bintana ng Pagtulog",
-    "a_letter_to_self": "Isang Liham para sa Sarili"
+    "a_letter_to_self": "Isang Liham para sa Sarili",
+    "care_tracker": "Pang-araw-araw na Tagasubaybay sa Pangangalaga sa Sarili",
+    "know_values": "Alamin ang Iyong mga Pinahahalagahan",
+    "doodle_burst": "Pagsabog ng Doodle",
+    "environment_optimization": "Pag-optimize ng Kapaligiran",
+    "personal-mission-statement": "Personal na Pahayag ng Misyon",
+    "physical_activity_log": "Talaan ng Pisikal na Aktibidad"
   },
   "moods": {
     "great": "Mahusay",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "4-6-8 Paghinga",
     "5_4_3_2_1_grounding": "5-4-3-2-1 Pagsasanib",
     "box_breathing": "Paghinga sa Kahon",
-    "diffusion_technique": "Teknikal na Pagsasahimpapawid"
+    "diffusion_technique": "Teknikal na Pagsasahimpapawid",
+    "guided_imagery": "Ginabayang Imahe",
+    "grounding_technique": "Teknik sa Pagsasandig",
+    "pause_appreciation": "Huminto para sa Pagpapahalaga"
   }
 }

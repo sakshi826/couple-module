@@ -134,7 +134,13 @@
     "real_stories_anxiety": "चिंता पर काबू पाने के लिए सच्ची कहानियाँ",
     "brain_dump": "विचारों का संग्रह और वर्गीकरण",
     "sleep_window": "नींद विंडो प्लानर",
-    "a_letter_to_self": "स्वयं को लिखा गया एक पत्र"
+    "a_letter_to_self": "स्वयं को लिखा गया एक पत्र",
+    "care_tracker": "दैनिक स्व-देखभाल ट्रैकर",
+    "know_values": "अपने मूल्यों को जानें",
+    "doodle_burst": "डूडल बर्स्ट",
+    "environment_optimization": "पर्यावरण अनुकूलन",
+    "personal-mission-statement": "व्यक्तिगत मिशन कथन",
+    "physical_activity_log": "शारीरिक गतिविधि लॉग"
   },
   "moods": {
     "great": "शानदार",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "4-6-8 श्वास",
     "5_4_3_2_1_grounding": "5-4-3-2-1 ग्राउंडिंग",
     "box_breathing": "बॉक्स ब्रीदिंग",
-    "diffusion_technique": "तकनीकी प्रसारण"
+    "diffusion_technique": "तकनीकी प्रसारण",
+    "guided_imagery": "निर्देशित कल्पना",
+    "grounding_technique": "ग्राउंडिंग तकनीक",
+    "pause_appreciation": "प्रशंसा के लिए विराम लें"
   }
 }

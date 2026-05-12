@@ -134,7 +134,13 @@
     "real_stories_anxiety": "Storie vere per superare l'ansia",
     "brain_dump": "Brain Dump and Sort",
     "sleep_window": "Pianificatore della finestra del sonno",
-    "a_letter_to_self": "Una lettera a me stesso"
+    "a_letter_to_self": "Una lettera a me stesso",
+    "care_tracker": "Monitoraggio quotidiano della cura di sé",
+    "know_values": "Conosci i tuoi valori",
+    "doodle_burst": "Esplosione di tabacco",
+    "environment_optimization": "Ottimizzazione ambientale",
+    "personal-mission-statement": "Dichiarazione di missione personale",
+    "physical_activity_log": "Registro dell'attività fisica"
   },
   "moods": {
     "great": "Ottimo",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "Respirazione 4-6-8",
     "5_4_3_2_1_grounding": "5-4-3-2-1 Messa a terra",
     "box_breathing": "Box Breathing",
-    "diffusion_technique": "Trasmissioni tecniche"
+    "diffusion_technique": "Trasmissioni tecniche",
+    "guided_imagery": "Visualizzazione guidata",
+    "grounding_technique": "Tecnica di messa a terra",
+    "pause_appreciation": "Una pausa di riflessione"
   }
 }

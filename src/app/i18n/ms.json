@@ -134,7 +134,13 @@
     "real_stories_anxiety": "Kisah Nyata untuk Mengatasi Kebimbangan",
     "brain_dump": "Dump dan Sort Otak",
     "sleep_window": "Perancang Tingkap Tidur",
-    "a_letter_to_self": "Surat untuk Diri Sendiri"
+    "a_letter_to_self": "Surat untuk Diri Sendiri",
+    "care_tracker": "Penjejak Penjagaan Diri Harian",
+    "know_values": "Ketahui Nilai Anda",
+    "doodle_burst": "Letupan Coretan",
+    "environment_optimization": "Pengoptimuman Persekitaran",
+    "personal-mission-statement": "Pernyataan Misi Peribadi",
+    "physical_activity_log": "Log Aktiviti Fizikal"
   },
   "moods": {
     "great": "Hebat",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "Pernafasan 4-6-8",
     "5_4_3_2_1_grounding": "Pembumian 5-4-3-2-1",
     "box_breathing": "Pernafasan Kotak",
-    "diffusion_technique": "Penyiaran Teknikal"
+    "diffusion_technique": "Penyiaran Teknikal",
+    "guided_imagery": "Imej Berpandu",
+    "grounding_technique": "Teknik Pembumian",
+    "pause_appreciation": "Berhenti sejenak untuk Penghargaan"
   }
 }

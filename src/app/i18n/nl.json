@@ -134,7 +134,13 @@
     "real_stories_anxiety": "Echte verhalen om angst te overwinnen",
     "brain_dump": "Brainstormen en sorteren",
     "sleep_window": "Slaapvensterplanner",
-    "a_letter_to_self": "Een brief aan mezelf"
+    "a_letter_to_self": "Een brief aan mezelf",
+    "care_tracker": "Dagelijkse zelfzorg-tracker",
+    "know_values": "Ken je waarden",
+    "doodle_burst": "Doodle Burst",
+    "environment_optimization": "Omgevingsoptimalisatie",
+    "personal-mission-statement": "Persoonlijke missieverklaring",
+    "physical_activity_log": "Logboek fysieke activiteit"
   },
   "moods": {
     "great": "Geweldig",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "4-6-8 ademhaling",
     "5_4_3_2_1_grounding": "5-4-3-2-1 Aarding",
     "box_breathing": "Boxademhaling",
-    "diffusion_technique": "Technische uitzendingen"
+    "diffusion_technique": "Technische uitzendingen",
+    "guided_imagery": "Geleide visualisatie",
+    "grounding_technique": "Aardingstechniek",
+    "pause_appreciation": "Een moment van bezinning"
   }
 }

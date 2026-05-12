@@ -172,7 +172,13 @@
     "real_stories_anxiety": "克服焦慮的真實故事",
     "brain_dump": "腦力激盪與分類",
     "sleep_window": "睡眠視窗規劃器",
-    "a_letter_to_self": "寫給自己的一封信"
+    "a_letter_to_self": "寫給自己的一封信",
+    "care_tracker": "每日自我照護追蹤器",
+    "know_values": "了解你的價值觀",
+    "doodle_burst": "塗鴉爆發",
+    "environment_optimization": "環境最佳化",
+    "personal-mission-statement": "個人使命宣言",
+    "physical_activity_log": "體育活動記錄"
   },
   "moods": {
     "great": "偉大的",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "4-6-8 呼吸法",
     "5_4_3_2_1_grounding": "5-4-3-2-1 接地",
     "box_breathing": "箱式呼吸法",
-    "diffusion_technique": "技術廣播"
+    "diffusion_technique": "技術廣播",
+    "guided_imagery": "引導意象",
+    "grounding_technique": "接地技巧",
+    "pause_appreciation": "稍作停頓以示讚賞"
   }
 }

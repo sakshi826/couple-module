@@ -134,7 +134,13 @@
     "real_stories_anxiety": "不安を克服するための実話",
     "brain_dump": "ブレインダンプとソート",
     "sleep_window": "睡眠時間プランナー",
-    "a_letter_to_self": "自分への手紙"
+    "a_letter_to_self": "自分への手紙",
+    "care_tracker": "毎日のセルフケアトラッカー",
+    "know_values": "自分の価値観を知る",
+    "doodle_burst": "落書きバースト",
+    "environment_optimization": "環境最適化",
+    "personal-mission-statement": "個人の使命声明",
+    "physical_activity_log": "身体活動記録"
   },
   "moods": {
     "great": "素晴らしい",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "4-6-8呼吸法",
     "5_4_3_2_1_grounding": "5-4-3-2-1 接地",
     "box_breathing": "ボックスブリージング",
-    "diffusion_technique": "テクニカルブロードキャスティング"
+    "diffusion_technique": "テクニカルブロードキャスティング",
+    "guided_imagery": "誘導イメージ療法",
+    "grounding_technique": "グラウンディングテクニック",
+    "pause_appreciation": "感謝のひとときを"
   }
 }

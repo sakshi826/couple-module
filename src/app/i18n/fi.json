@@ -134,7 +134,13 @@
     "real_stories_anxiety": "Tositarinoita ahdistuksen voittamiseksi",
     "brain_dump": "Aivojen tyhjennys ja lajittelu",
     "sleep_window": "Uni-ikkunasuunnittelija",
-    "a_letter_to_self": "Kirje itselle"
+    "a_letter_to_self": "Kirje itselle",
+    "care_tracker": "Päivittäinen itsehoidon seuranta",
+    "know_values": "Tunne arvosi",
+    "doodle_burst": "Doodle-purske",
+    "environment_optimization": "Ympäristön optimointi",
+    "personal-mission-statement": "Henkilökohtainen missiolausunto",
+    "physical_activity_log": "Liikunnan loki"
   },
   "moods": {
     "great": "Upea",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "4-6-8 Hengitys",
     "5_4_3_2_1_grounding": "5-4-3-2-1 Maadoitus",
     "box_breathing": "Laatikkohengitys",
-    "diffusion_technique": "Tekninen lähetystoiminta"
+    "diffusion_technique": "Tekninen lähetystoiminta",
+    "guided_imagery": "Ohjattu mielikuvitus",
+    "grounding_technique": "Maadoitustekniikka",
+    "pause_appreciation": "Pysähdy arvostamaan"
   }
 }

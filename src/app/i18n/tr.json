@@ -134,7 +134,13 @@
     "real_stories_anxiety": "Kaygıyı Yenmek İçin Gerçek Hikayeler",
     "brain_dump": "Beyin Fırtınası ve Sıralama",
     "sleep_window": "Uyku Süresi Planlayıcısı",
-    "a_letter_to_self": "Kendime Bir Mektup"
+    "a_letter_to_self": "Kendime Bir Mektup",
+    "care_tracker": "Günlük Öz Bakım Takipçisi",
+    "know_values": "Değerlerinizi Tanıyın",
+    "doodle_burst": "Doodle Patlaması",
+    "environment_optimization": "Çevre Optimizasyonu",
+    "personal-mission-statement": "Kişisel Misyon Bildirisi",
+    "physical_activity_log": "Fiziksel Aktivite Günlüğü"
   },
   "moods": {
     "great": "Harika",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "4-6-8 Nefes Alma",
     "5_4_3_2_1_grounding": "5-4-3-2-1 Topraklama",
     "box_breathing": "Kutu Nefesi",
-    "diffusion_technique": "Teknik Yayıncılık"
+    "diffusion_technique": "Teknik Yayıncılık",
+    "guided_imagery": "Yönlendirilmiş İmgeleme",
+    "grounding_technique": "Topraklama Tekniği",
+    "pause_appreciation": "Takdir için bir ara verin"
   }
 }

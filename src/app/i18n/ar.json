@@ -134,7 +134,13 @@
     "real_stories_anxiety": "قصص واقعية للتغلب على القلق",
     "brain_dump": "تفريغ الأفكار وفرزها",
     "sleep_window": "مخطط نافذة النوم",
-    "a_letter_to_self": "رسالة إلى نفسي"
+    "a_letter_to_self": "رسالة إلى نفسي",
+    "care_tracker": "متتبع العناية الذاتية اليومية",
+    "know_values": "اعرف قيمك",
+    "doodle_burst": "انفجار الخربشة",
+    "environment_optimization": "تحسين البيئة",
+    "personal-mission-statement": "بيان المهمة الشخصية",
+    "physical_activity_log": "سجل النشاط البدني"
   },
   "moods": {
     "great": "رائع",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "التنفس 4-6-8",
     "5_4_3_2_1_grounding": "5-4-3-2-1 التأريض",
     "box_breathing": "التنفس المربع",
-    "diffusion_technique": "البث التقني"
+    "diffusion_technique": "البث التقني",
+    "guided_imagery": "التصوير الموجه",
+    "grounding_technique": "تقنية التأريض",
+    "pause_appreciation": "وقفة تقدير"
   }
 }

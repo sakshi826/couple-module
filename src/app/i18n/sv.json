@@ -134,7 +134,13 @@
     "real_stories_anxiety": "Verkliga berättelser för att övervinna ångest",
     "brain_dump": "Hjärndumpning och sortering",
     "sleep_window": "Sömnfönsterplanerare",
-    "a_letter_to_self": "Ett brev till mig själv"
+    "a_letter_to_self": "Ett brev till mig själv",
+    "care_tracker": "Daglig egenvårdsspårare",
+    "know_values": "Känn dina värderingar",
+    "doodle_burst": "Klotterexplosion",
+    "environment_optimization": "Miljöoptimering",
+    "personal-mission-statement": "Personligt uppdragsbeskrivning",
+    "physical_activity_log": "Logg för fysisk aktivitet"
   },
   "moods": {
     "great": "Toppen",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "4-6-8 Andning",
     "5_4_3_2_1_grounding": "5-4-3-2-1 Jordning",
     "box_breathing": "Boxandning",
-    "diffusion_technique": "Teknisk sändning"
+    "diffusion_technique": "Teknisk sändning",
+    "guided_imagery": "Guidad bildspråk",
+    "grounding_technique": "Jordningsteknik",
+    "pause_appreciation": "Paus för uppskattning"
   }
 }

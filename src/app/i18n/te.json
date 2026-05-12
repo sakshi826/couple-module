@@ -134,7 +134,13 @@
     "real_stories_anxiety": "ఆందోళనను అధిగమించడానికి నిజమైన కథలు",
     "brain_dump": "బ్రెయిన్ డంప్ మరియు సార్ట్",
     "sleep_window": "స్లీప్ విండో ప్లానర్",
-    "a_letter_to_self": "నాకు నేను రాసుకున్న లేఖ"
+    "a_letter_to_self": "నాకు నేను రాసుకున్న లేఖ",
+    "care_tracker": "రోజువారీ స్వీయ సంరక్షణ ట్రాకర్",
+    "know_values": "మీ విలువలను తెలుసుకోండి",
+    "doodle_burst": "డూడుల్ బరస్ట్",
+    "environment_optimization": "పర్యావరణ ఆప్టిమైజేషన్",
+    "personal-mission-statement": "వ్యక్తిగత లక్ష్య ప్రకటన",
+    "physical_activity_log": "శారీరక కార్యకలాపాల లాగ్"
   },
   "moods": {
     "great": "గ్రేట్",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "4-6-8 శ్వాస",
     "5_4_3_2_1_grounding": "5-4-3-2-1 గ్రౌండింగ్",
     "box_breathing": "బాక్స్ బ్రీతింగ్",
-    "diffusion_technique": "సాంకేతిక ప్రసారం"
+    "diffusion_technique": "సాంకేతిక ప్రసారం",
+    "guided_imagery": "గైడెడ్ ఇమేజరీ",
+    "grounding_technique": "గ్రౌండింగ్ టెక్నిక్",
+    "pause_appreciation": "ప్రశంసల కోసం విరామం"
   }
 }

@@ -134,7 +134,13 @@
     "real_stories_anxiety": "Des histoires vraies pour surmonter l'anxiété",
     "brain_dump": "Vider et trier ses idées",
     "sleep_window": "Planificateur de fenêtre de sommeil",
-    "a_letter_to_self": "Lettre à moi-même"
+    "a_letter_to_self": "Lettre à moi-même",
+    "care_tracker": "Suivi quotidien des soins personnels",
+    "know_values": "Connaissez vos valeurs",
+    "doodle_burst": "Explosion de gribouillis",
+    "environment_optimization": "Optimisation de l'environnement",
+    "personal-mission-statement": "Déclaration de mission personnelle",
+    "physical_activity_log": "Journal d'activité physique"
   },
   "moods": {
     "great": "Super",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "Respiration 4-6-8",
     "5_4_3_2_1_grounding": "Mise à la terre 5-4-3-2-1",
     "box_breathing": "Respiration en boîte",
-    "diffusion_technique": "Diffusion Technique"
+    "diffusion_technique": "Diffusion Technique",
+    "guided_imagery": "Imagerie guidée",
+    "grounding_technique": "Technique d'ancrage",
+    "pause_appreciation": "Pause pour apprécier"
   }
 }

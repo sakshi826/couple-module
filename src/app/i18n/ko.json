@@ -137,7 +137,10 @@
     "a_letter_to_self": "나 자신에게 보내는 편지",
     "care_tracker": "셀프 케어 트래커",
     "know_values": "나의 가치 찾기",
-    "doodle_burst": "낙서 버스트"
+    "doodle_burst": "낙서 버스트",
+    "environment_optimization": "환경 최적화",
+    "personal-mission-statement": "개인 사명 선언문",
+    "physical_activity_log": "신체 활동 기록"
   },
   "moods": {
     "great": "좋아요",
@@ -247,6 +250,7 @@
     "box_breathing": "박스 브리딩",
     "diffusion_technique": "기술 방송",
     "guided_imagery": "가이드 이미지",
-    "grounding_technique": "접지 기법"
+    "grounding_technique": "접지 기법",
+    "pause_appreciation": "잠시 멈춰서 감사를 표현하세요"
   }
 }

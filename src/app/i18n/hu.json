@@ -134,7 +134,13 @@
     "real_stories_anxiety": "Valódi történetek a szorongás leküzdéséhez",
     "brain_dump": "Agydump és rendezés",
     "sleep_window": "Alvásablak-tervező",
-    "a_letter_to_self": "Egy levél önmagamnak"
+    "a_letter_to_self": "Egy levél önmagamnak",
+    "care_tracker": "Napi öngondoskodás-követő",
+    "know_values": "Ismerd az értékeidet",
+    "doodle_burst": "Doodle robbanás",
+    "environment_optimization": "Környezetoptimalizálás",
+    "personal-mission-statement": "Személyes küldetésnyilatkozat",
+    "physical_activity_log": "Fizikai aktivitás naplója"
   },
   "moods": {
     "great": "Remek",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "4-6-8 Légzés",
     "5_4_3_2_1_grounding": "5-4-3-2-1 Földelés",
     "box_breathing": "Dobozos légzés",
-    "diffusion_technique": "Műszaki műsorszórás"
+    "diffusion_technique": "Műszaki műsorszórás",
+    "guided_imagery": "Irányított képzelet",
+    "grounding_technique": "Földelési technika",
+    "pause_appreciation": "Szünet az elismerésért"
   }
 }

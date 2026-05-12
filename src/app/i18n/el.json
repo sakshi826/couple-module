@@ -134,7 +134,13 @@
     "real_stories_anxiety": "Πραγματικές Ιστορίες για να Ξεπεράσετε το Άγχος",
     "brain_dump": "Απομάκρυνση Εγκεφάλου και Ταξινόμηση",
     "sleep_window": "Σχεδιαστής παραθύρων ύπνου",
-    "a_letter_to_self": "Μια επιστολή στον εαυτό"
+    "a_letter_to_self": "Μια επιστολή στον εαυτό",
+    "care_tracker": "Ημερήσια παρακολούθηση αυτοφροντίδας",
+    "know_values": "Γνωρίστε τις αξίες σας",
+    "doodle_burst": "Doodle Burst",
+    "environment_optimization": "Βελτιστοποίηση Περιβάλλοντος",
+    "personal-mission-statement": "Προσωπική Δήλωση Αποστολής",
+    "physical_activity_log": "Αρχείο καταγραφής σωματικής δραστηριότητας"
   },
   "moods": {
     "great": "Εξαιρετική",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "4-6-8 Αναπνοή",
     "5_4_3_2_1_grounding": "5-4-3-2-1 Γείωση",
     "box_breathing": "Αναπνοή κουτιού",
-    "diffusion_technique": "Τεχνική Ραδιοτηλεόραση"
+    "diffusion_technique": "Τεχνική Ραδιοτηλεόραση",
+    "guided_imagery": "Καθοδηγούμενη απεικόνιση",
+    "grounding_technique": "Τεχνική γείωσης",
+    "pause_appreciation": "Παύση για Εκτίμηση"
   }
 }

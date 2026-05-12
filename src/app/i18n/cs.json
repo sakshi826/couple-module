@@ -134,7 +134,13 @@
     "real_stories_anxiety": "Skutečné příběhy k překonání úzkosti",
     "brain_dump": "Výpis a třídění mozku",
     "sleep_window": "Plánovač oken pro spaní",
-    "a_letter_to_self": "Dopis sobě"
+    "a_letter_to_self": "Dopis sobě",
+    "care_tracker": "Denní sledování péče o sebe",
+    "know_values": "Znejte své hodnoty",
+    "doodle_burst": "Výbuch čmáranic",
+    "environment_optimization": "Optimalizace prostředí",
+    "personal-mission-statement": "Osobní poslání",
+    "physical_activity_log": "Záznam fyzické aktivity"
   },
   "moods": {
     "great": "Skvělé",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "Dýchání 4-6-8",
     "5_4_3_2_1_grounding": "5-4-3-2-1 Uzemnění",
     "box_breathing": "Dýchání v krabici",
-    "diffusion_technique": "Technické vysílání"
+    "diffusion_technique": "Technické vysílání",
+    "guided_imagery": "Řízená představivost",
+    "grounding_technique": "Technika uzemnění",
+    "pause_appreciation": "Pauza pro uznání"
   }
 }

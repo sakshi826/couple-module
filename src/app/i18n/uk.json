@@ -134,7 +134,13 @@
     "real_stories_anxiety": "Реальні історії для подолання тривоги",
     "brain_dump": "Дамп мозку та сортування",
     "sleep_window": "Планувальник вікон для сну",
-    "a_letter_to_self": "Лист до себе"
+    "a_letter_to_self": "Лист до себе",
+    "care_tracker": "Щоденний трекер самодогляду",
+    "know_values": "Знай свої цінності",
+    "doodle_burst": "Вибух каракулів",
+    "environment_optimization": "Оптимізація середовища",
+    "personal-mission-statement": "Особиста місія",
+    "physical_activity_log": "Журнал фізичної активності"
   },
   "moods": {
     "great": "Чудово",
@@ -242,6 +248,9 @@
     "4_6_8_breathing": "Дихання 4-6-8",
     "5_4_3_2_1_grounding": "5-4-3-2-1 Заземлення",
     "box_breathing": "Дихання коробки",
-    "diffusion_technique": "Технічне мовлення"
+    "diffusion_technique": "Технічне мовлення",
+    "guided_imagery": "Керована візуалізація",
+    "grounding_technique": "Техніка заземлення",
+    "pause_appreciation": "Пауза для вдячності"
   }
 }
