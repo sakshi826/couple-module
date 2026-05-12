@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import ChooseAreaScreen from "../components/ChooseAreaScreen";
 import TimerScreen from "../components/TimerScreen";
@@ -8,14 +9,14 @@ import { AnimatePresence, motion } from "framer-motion";
 type Screen = "choose" | "timer" | "energy";
 
 const Index = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState<Screen>("choose");
 
   return (
     <PremiumLayout 
-      title={t("app_title", " 
-      title={t("app_title", " 
-      title={t("app_title", " 
-      title={t("app_title", ")}w-full")}>
+      title={t("app_title", "Environment Optimization Exercise")}
+    >
+      <div className="w-full">
         <AnimatePresence mode="wait">
           {screen === "timer" && (
             <motion.div

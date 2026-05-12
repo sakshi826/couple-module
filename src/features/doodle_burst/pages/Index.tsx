@@ -61,10 +61,9 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title", " 
-      title={t("app_title", " 
-      title={t("app_title", " 
-      title={t("app_title", ")}wait")}>
+      title={t("app_title", "Doodle Burst")}
+    >
+      <AnimatePresence mode="wait">
         {screen === "intro" && (
           <motion.div
             key="intro"

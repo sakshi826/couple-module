@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import IntroScreen from "../components/screens/IntroScreen";
 import ValuesScreen from "../components/screens/ValuesScreen";
@@ -9,6 +10,7 @@ import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 import { AnimatePresence, motion } from "framer-motion";
 
 const Index = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState(0);
   const [data, setData] = useState<MissionData>({
     values: [],
@@ -20,10 +22,9 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title", " 
-      title={t("app_title", " 
-      title={t("app_title", " 
-      title={t("app_title", ")}w-full")}>
+      title={t("app_title", "Personal Mission Statement")}
+    >
+      <div className="w-full">
         <AnimatePresence mode="wait">
           <motion.div
             key={screen}
