@@ -150,6 +150,292 @@ const topicDetails: Record<string, {
       { titleKey: "hub.myths", count: 6, icon: HelpCircle, url: "/resources/stress/myths" },
     ],
   },
+  sleep: {
+    descKey: "topics.sleep.desc",
+    guidedSeriesUrl: "https://app.mantracare.com/therapy/sleep/slp-guided-series/",
+    exercises: [
+      { titleKey: "tools.deep-breathing", icon: Play, url: "/exercises/4-6-8-breathing" },
+      { titleKey: "tools.box-breathing", icon: Wind, url: "/exercises/box-breathing" },
+      { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
+      { titleKey: "exercises.5_4_3_2_1_grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
+    ],
+    todos: [
+      { titleKey: "tools.sleep-tracker", icon: Moon, url: "/trackers/sleep" },
+      { titleKey: "trackers.energy_tracker", icon: Zap, url: "/trackers/energy-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "tools.know_values", icon: Brain, url: "/tools/know-your-values" },
+    ],
+    resources: [
+      { titleKey: "hub.articles", count: 20, icon: Newspaper, url: "/resources/sleep/articles" },
+      { titleKey: "hub.tips", count: 15, icon: Lightbulb, url: "/tips/sleep-tips" },
+      { titleKey: "hub.stories", count: 10, icon: BookMarked, url: "/resources/sleep/stories" },
+      { titleKey: "hub.myths", count: 7, icon: HelpCircle, url: "/resources/sleep/myths" },
+    ],
+  },
+  adolescent: {
+    descKey: "topics.adolescent.desc",
+    guidedSeriesUrl: "https://app.mantracare.com/therapy/adolescent/adlscnt-guided-series/",
+    exercises: [
+      { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
+      { titleKey: "tools.affirmations", icon: Smile, url: "/tools/affirmations" },
+      { titleKey: "tools.doodle_burst", icon: Pen, url: "/tools/doodle-burst" },
+      { titleKey: "tools.box-breathing", icon: Wind, url: "/exercises/box-breathing" },
+    ],
+    todos: [
+      { titleKey: "trackers.vibe_tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
+      { titleKey: "tools.gratitude-tracker", icon: Star, url: "/trackers/gratitude-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "tools.know_values", icon: Brain, url: "/tools/know-your-values" },
+    ],
+    resources: [
+      { titleKey: "hub.articles", count: 18, icon: Newspaper, url: "/resources/adolescent/articles" },
+      { titleKey: "hub.tips", count: 14, icon: Lightbulb, url: "/tips/adolescent-tips" },
+      { titleKey: "hub.stories", count: 10, icon: BookMarked, url: "/resources/adolescent/stories" },
+      { titleKey: "hub.myths", count: 6, icon: HelpCircle, url: "/resources/adolescent/myths" },
+    ],
+  },
+  relationship: {
+    descKey: "topics.relationship.desc",
+    guidedSeriesUrl: "https://app.mantracare.com/therapy/relationship/rln-guided-series/",
+    exercises: [
+      { titleKey: "tools.letter-to-self", icon: Mail, url: "/tools/a-letter-to-self" },
+      { titleKey: "tools.affirmations", icon: Smile, url: "/tools/affirmations" },
+      { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
+      { titleKey: "exercises.diffusion_technique", icon: RefreshCw, url: "/exercises/diffusion-technique" },
+    ],
+    todos: [
+      { titleKey: "tools.know_values", icon: Target, url: "/tools/know-your-values" },
+      { titleKey: "tools.gratitude-tracker", icon: Star, url: "/trackers/gratitude-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "tools.personal-mission-statement", icon: Compass, url: "/tools/personal-mission-statement" },
+    ],
+    resources: [
+      { titleKey: "hub.articles", count: 22, icon: Newspaper, url: "/resources/relationship/articles" },
+      { titleKey: "hub.tips", count: 16, icon: Lightbulb, url: "/tips/relationship-tips" },
+      { titleKey: "hub.stories", count: 12, icon: BookMarked, url: "/resources/relationship/stories" },
+      { titleKey: "hub.myths", count: 8, icon: HelpCircle, url: "/resources/relationship/myths" },
+    ],
+  },
+  workplace: {
+    descKey: "topics.workplace.desc",
+    guidedSeriesUrl: "https://app.mantracare.com/therapy/workplace/wrkplc-guided-series/",
+    exercises: [
+      { titleKey: "tools.box-breathing", icon: Wind, url: "/exercises/box-breathing" },
+      { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
+      { titleKey: "exercises.diffusion_technique", icon: RefreshCw, url: "/exercises/diffusion-technique" },
+      { titleKey: "tools.environment_optimization", icon: Compass, url: "/tools/environment-optimization" },
+    ],
+    todos: [
+      { titleKey: "tools.physical_activity_log", icon: Activity, url: "/trackers/physical-activity-log" },
+      { titleKey: "trackers.energy_tracker", icon: Zap, url: "/trackers/energy-tracker" },
+      { titleKey: "tools.know_values", icon: Brain, url: "/tools/know-your-values" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+    ],
+    resources: [
+      { titleKey: "hub.articles", count: 25, icon: Newspaper, url: "/resources/workplace/articles" },
+      { titleKey: "hub.tips", count: 18, icon: Lightbulb, url: "/tips/workplace-tips" },
+      { titleKey: "hub.stories", count: 10, icon: BookMarked, url: "/resources/workplace/stories" },
+      { titleKey: "hub.myths", count: 7, icon: HelpCircle, url: "/resources/workplace/myths" },
+    ],
+  },
+  parenting: {
+    descKey: "topics.parenting.desc",
+    guidedSeriesUrl: "https://app.mantracare.com/therapy/parenting/prntng-guided-series/",
+    exercises: [
+      { titleKey: "exercises.pause_appreciation", icon: Pause, url: "/trackers/a-pause-for-appreciation" },
+      { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
+      { titleKey: "tools.affirmations", icon: Smile, url: "/tools/affirmations" },
+      { titleKey: "exercises.5_4_3_2_1_grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
+    ],
+    todos: [
+      { titleKey: "tools.gratitude-tracker", icon: Star, url: "/trackers/gratitude-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "tools.know_values", icon: Brain, url: "/tools/know-your-values" },
+      { titleKey: "tools.letter-to-self", icon: Mail, url: "/tools/a-letter-to-self" },
+    ],
+    resources: [
+      { titleKey: "hub.articles", count: 20, icon: Newspaper, url: "/resources/parenting/articles" },
+      { titleKey: "hub.tips", count: 15, icon: Lightbulb, url: "/tips/parenting-tips" },
+      { titleKey: "hub.stories", count: 10, icon: BookMarked, url: "/resources/parenting/stories" },
+      { titleKey: "hub.myths", count: 6, icon: HelpCircle, url: "/resources/parenting/myths" },
+    ],
+  },
+  anger: {
+    descKey: "topics.anger.desc",
+    guidedSeriesUrl: "https://app.mantracare.com/therapy/anger/angr-guided-series/",
+    exercises: [
+      { titleKey: "tools.box-breathing", icon: Wind, url: "/exercises/box-breathing" },
+      { titleKey: "exercises.5_4_3_2_1_grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
+      { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/exercises/diffusion-technique" },
+      { titleKey: "tools.doodle_burst", icon: Pen, url: "/tools/doodle-burst" },
+    ],
+    todos: [
+      { titleKey: "trackers.vibe_tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
+      { titleKey: "tools.know_values", icon: Brain, url: "/tools/know-your-values" },
+      { titleKey: "exercises.diffusion_technique", icon: RefreshCw, url: "/exercises/diffusion-technique" },
+      { titleKey: "trackers.energy_tracker", icon: Zap, url: "/trackers/energy-tracker" },
+    ],
+    resources: [
+      { titleKey: "hub.articles", count: 18, icon: Newspaper, url: "/resources/anger/articles" },
+      { titleKey: "hub.tips", count: 14, icon: Lightbulb, url: "/tips/anger-tips" },
+      { titleKey: "hub.stories", count: 8, icon: BookMarked, url: "/resources/anger/stories" },
+      { titleKey: "hub.myths", count: 5, icon: HelpCircle, url: "/resources/anger/myths" },
+    ],
+  },
+  grief: {
+    descKey: "topics.grief.desc",
+    guidedSeriesUrl: "https://app.mantracare.com/therapy/grief/grf-guided-series/",
+    exercises: [
+      { titleKey: "tools.letter-to-self", icon: Mail, url: "/tools/a-letter-to-self" },
+      { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
+      { titleKey: "exercises.5_4_3_2_1_grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
+      { titleKey: "tools.affirmations", icon: Smile, url: "/tools/affirmations" },
+    ],
+    todos: [
+      { titleKey: "tools.gratitude-tracker", icon: Star, url: "/trackers/gratitude-tracker" },
+      { titleKey: "tools.know_values", icon: Brain, url: "/tools/know-your-values" },
+      { titleKey: "trackers.vibe_tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+    ],
+    resources: [
+      { titleKey: "hub.articles", count: 16, icon: Newspaper, url: "/resources/grief/articles" },
+      { titleKey: "hub.tips", count: 12, icon: Lightbulb, url: "/tips/grief-tips" },
+      { titleKey: "hub.stories", count: 10, icon: BookMarked, url: "/resources/grief/stories" },
+      { titleKey: "hub.myths", count: 6, icon: HelpCircle, url: "/resources/grief/myths" },
+    ],
+  },
+  ptsd: {
+    descKey: "topics.ptsd.desc",
+    guidedSeriesUrl: "https://app.mantracare.com/therapy/ptsd/ptsd-guided-series/",
+    exercises: [
+      { titleKey: "exercises.grounding_technique", icon: Compass, url: "/exercises/grounding-technique" },
+      { titleKey: "tools.box-breathing", icon: Wind, url: "/exercises/box-breathing" },
+      { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/exercises/diffusion-technique" },
+      { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
+    ],
+    todos: [
+      { titleKey: "trackers.vibe_tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
+      { titleKey: "tools.know_values", icon: Brain, url: "/tools/know-your-values" },
+      { titleKey: "trackers.energy_tracker", icon: Zap, url: "/trackers/energy-tracker" },
+      { titleKey: "exercises.diffusion_technique", icon: RefreshCw, url: "/exercises/diffusion-technique" },
+    ],
+    resources: [
+      { titleKey: "hub.articles", count: 20, icon: Newspaper, url: "/resources/ptsd/articles" },
+      { titleKey: "hub.tips", count: 15, icon: Lightbulb, url: "/tips/ptsd-tips" },
+      { titleKey: "hub.stories", count: 10, icon: BookMarked, url: "/resources/ptsd/stories" },
+      { titleKey: "hub.myths", count: 7, icon: HelpCircle, url: "/resources/ptsd/myths" },
+    ],
+  },
+  acceptance: {
+    descKey: "topics.acceptance.desc",
+    guidedSeriesUrl: "https://app.mantracare.com/therapy/acceptance/accpt-guided-series/",
+    exercises: [
+      { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/exercises/diffusion-technique" },
+      { titleKey: "tools.affirmations", icon: Smile, url: "/tools/affirmations" },
+      { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
+      { titleKey: "exercises.pause_appreciation", icon: Pause, url: "/trackers/a-pause-for-appreciation" },
+    ],
+    todos: [
+      { titleKey: "tools.letter-to-self", icon: Mail, url: "/tools/a-letter-to-self" },
+      { titleKey: "tools.know_values", icon: Target, url: "/tools/know-your-values" },
+      { titleKey: "tools.gratitude-tracker", icon: Star, url: "/trackers/gratitude-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+    ],
+    resources: [
+      { titleKey: "hub.articles", count: 16, icon: Newspaper, url: "/resources/acceptance/articles" },
+      { titleKey: "hub.tips", count: 12, icon: Lightbulb, url: "/tips/acceptance-tips" },
+      { titleKey: "hub.stories", count: 8, icon: BookMarked, url: "/resources/acceptance/stories" },
+      { titleKey: "hub.myths", count: 5, icon: HelpCircle, url: "/resources/acceptance/myths" },
+    ],
+  },
+  postpartum: {
+    descKey: "topics.postpartum.desc",
+    guidedSeriesUrl: "https://app.mantracare.com/therapy/postpartum/pstprtm-guided-series/",
+    exercises: [
+      { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
+      { titleKey: "tools.affirmations", icon: Smile, url: "/tools/affirmations" },
+      { titleKey: "tools.box-breathing", icon: Wind, url: "/exercises/box-breathing" },
+      { titleKey: "exercises.5_4_3_2_1_grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
+    ],
+    todos: [
+      { titleKey: "trackers.energy_tracker", icon: Zap, url: "/trackers/energy-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "tools.gratitude-tracker", icon: Star, url: "/trackers/gratitude-tracker" },
+      { titleKey: "tools.know_values", icon: Brain, url: "/tools/know-your-values" },
+    ],
+    resources: [
+      { titleKey: "hub.articles", count: 18, icon: Newspaper, url: "/resources/postpartum/articles" },
+      { titleKey: "hub.tips", count: 14, icon: Lightbulb, url: "/tips/postpartum-tips" },
+      { titleKey: "hub.stories", count: 10, icon: BookMarked, url: "/resources/postpartum/stories" },
+      { titleKey: "hub.myths", count: 6, icon: HelpCircle, url: "/resources/postpartum/myths" },
+    ],
+  },
+  sexuality: {
+    descKey: "topics.sexuality.desc",
+    guidedSeriesUrl: "https://therapy.mantracare.com/en/therapyapp/sexuality-guided-series/",
+    exercises: [
+      { titleKey: "tools.affirmations", icon: Smile, url: "/tools/affirmations" },
+      { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
+      { titleKey: "exercises.diffusion_technique", icon: RefreshCw, url: "/exercises/diffusion-technique" },
+      { titleKey: "tools.letter-to-self", icon: Mail, url: "/tools/a-letter-to-self" },
+    ],
+    todos: [
+      { titleKey: "tools.know_values", icon: Target, url: "/tools/know-your-values" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "trackers.vibe_tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
+      { titleKey: "tools.gratitude-tracker", icon: Star, url: "/trackers/gratitude-tracker" },
+    ],
+    resources: [
+      { titleKey: "hub.articles", count: 16, icon: Newspaper, url: "/resources/sexuality/articles" },
+      { titleKey: "hub.tips", count: 12, icon: Lightbulb, url: "/tips/sexuality-tips" },
+      { titleKey: "hub.stories", count: 8, icon: BookMarked, url: "/resources/sexuality/stories" },
+      { titleKey: "hub.myths", count: 5, icon: HelpCircle, url: "/resources/sexuality/myths" },
+    ],
+  },
+  "eating-disorder": {
+    descKey: "topics.eating-disorder.desc",
+    guidedSeriesUrl: "https://app.mantracare.com/therapy/eating-disorder/etn-guided-series/",
+    exercises: [
+      { titleKey: "exercises.5_4_3_2_1_grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
+      { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/exercises/diffusion-technique" },
+      { titleKey: "tools.affirmations", icon: Smile, url: "/tools/affirmations" },
+      { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
+    ],
+    todos: [
+      { titleKey: "trackers.energy_tracker", icon: Zap, url: "/trackers/energy-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "tools.know_values", icon: Brain, url: "/tools/know-your-values" },
+      { titleKey: "tools.gratitude-tracker", icon: Star, url: "/trackers/gratitude-tracker" },
+    ],
+    resources: [
+      { titleKey: "hub.articles", count: 18, icon: Newspaper, url: "/resources/eating-disorder/articles" },
+      { titleKey: "hub.tips", count: 14, icon: Lightbulb, url: "/tips/eating-disorder-tips" },
+      { titleKey: "hub.stories", count: 10, icon: BookMarked, url: "/resources/eating-disorder/stories" },
+      { titleKey: "hub.myths", count: 6, icon: HelpCircle, url: "/resources/eating-disorder/myths" },
+    ],
+  },
+  ocd: {
+    descKey: "topics.ocd.desc",
+    guidedSeriesUrl: "https://app.mantracare.com/therapy/ocd/ocd-guided-series/",
+    exercises: [
+      { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/exercises/diffusion-technique" },
+      { titleKey: "exercises.grounding_technique", icon: Compass, url: "/exercises/grounding-technique" },
+      { titleKey: "tools.box-breathing", icon: Wind, url: "/exercises/box-breathing" },
+      { titleKey: "tools.letter-to-self", icon: Mail, url: "/tools/a-letter-to-self" },
+    ],
+    todos: [
+      { titleKey: "tools.know_values", icon: Brain, url: "/tools/know-your-values" },
+      { titleKey: "trackers.vibe_tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "tools.gratitude-tracker", icon: Star, url: "/trackers/gratitude-tracker" },
+    ],
+    resources: [
+      { titleKey: "hub.articles", count: 20, icon: Newspaper, url: "/resources/ocd/articles" },
+      { titleKey: "hub.tips", count: 15, icon: Lightbulb, url: "/tips/ocd-tips" },
+      { titleKey: "hub.stories", count: 10, icon: BookMarked, url: "/resources/ocd/stories" },
+      { titleKey: "hub.myths", count: 7, icon: HelpCircle, url: "/resources/ocd/myths" },
+    ],
+  },
 };
 
 export function SelfCareResources() {
@@ -249,7 +535,17 @@ export function SelfCareResources() {
                           <motion.button
                             key={i}
                             whileHover={{ y: -4 }}
-                            onClick={() => ex.url?.startsWith('http') ? window.location.href = ex.url : navigate(ex.url!, { replace: true })}
+                            onClick={() => {
+                              if (ex.action === 'guided') {
+                                if (window.parent !== window) {
+                                  window.parent.postMessage({ action: 'guided' }, 'https://web.mantracare.com');
+                                } else {
+                                  window.location.href = ex.url!;
+                                }
+                                return;
+                              }
+                              ex.url?.startsWith('http') ? window.location.href = ex.url : navigate(ex.url!, { replace: true })
+                            }}
                             className="p-4 bg-white border border-slate-100 rounded-2xl shadow-sm hover:shadow-md transition-all text-left space-y-3"
                           >
                             <div className="w-10 h-10 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
