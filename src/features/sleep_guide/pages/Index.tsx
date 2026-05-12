@@ -1,4 +1,3 @@
-import { useTranslation } from "react-i18next";
 import SleepAnxietyActivity from '@/features/sleep_guide/components/SleepAnxiety/SleepAnxietyActivity';
 
 const Index = () => <SleepAnxietyActivity />;

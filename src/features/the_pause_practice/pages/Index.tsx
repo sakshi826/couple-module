@@ -30,9 +30,10 @@ const Index = () => {
   };
 
   return (
-    <PremiumLayout 
-      title={t("app_title", "Pause Practice")}
-      icon={<Timer className="w-6 h-6 text-primary" />} >}
+    <PremiumLayout
+      title={t("app_title")}
+      subtitle={t("app_subtitle")}
+      icon={<Timer className="w-6 h-6 text-primary" />}
       onBack={screen !== "intro" ? () => setScreen("intro") : undefined}
     >
       <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4">

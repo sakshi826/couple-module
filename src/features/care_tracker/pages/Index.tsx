@@ -1,4 +1,3 @@
-import { useTranslation } from "react-i18next";
 import React, { useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import { SelfCareEntry, saveEntryToDb, toLocalIsoDate } from "../lib/selfcare-data";
@@ -18,7 +17,6 @@ import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 type Screen = "intro" | "checkin" | "activities" | "duration" | "noSelfCare" | "mood" | "statement" | "review" | "history";
 
 const Index = () => {
-  const { t } = useTranslation();
   const navigate = useNavigate();
   const { userId } = useAuth();
   const [screen, setScreen] = useState<Screen>("intro");

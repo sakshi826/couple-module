@@ -15,8 +15,8 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title", "Box Breathing")}
-      icon={<Wind size={32} />} > setScreen('overview') : undefined}
+      title={t("app_title")} 
+      onReset={screen !== 'overview' ? () => setScreen('overview') : undefined}
     >
       <div className="w-full">
         <AnimatePresence mode="wait">

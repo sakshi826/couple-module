@@ -1,4 +1,3 @@
-import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import IntroScreen from "../components/screens/IntroScreen";
@@ -18,7 +17,6 @@ const pageVariants = {
 };
 
 const Index = () => {
-  const { t } = useTranslation();
   const [step, setStep] = useState(0);
 
   const next = () => setStep((s) => s + 1);
@@ -45,8 +43,10 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title", "Wellness Activity")}
-      icon={<Sparkles className="w-6 h-6 text-primary" />} >}
+      title={t("app_title", " 
+      title={t("app_title", " 
+      title={t("app_title", " 
+      title={t("app_title", ")}w-6 h-6 text-primary")} />}
       onBack={step > 0 && step < 6 ? () => setStep(prev => prev - 1) : undefined}
       onReset={step > 0 && step < 6 ? () => setStep(0) : undefined}
     >

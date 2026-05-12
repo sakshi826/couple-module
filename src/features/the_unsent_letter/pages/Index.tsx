@@ -84,9 +84,10 @@ const Index = () => {
     screen === "intro" ? 1 : screen === "writing" ? 2 : screen === "reflection" ? 3 : 1;
 
   return (
-    <PremiumLayout 
-      title={t("app_title", "The Unsent Letter")}
-      icon={<Mail className="w-6 h-6 text-primary" />} >}
+    <PremiumLayout
+      title={t("app_title")}
+      subtitle={t("app_subtitle")}
+      icon={<Mail className="w-6 h-6 text-primary" />}
     >
       <div className="w-full max-w-md mx-auto min-h-[60vh] flex flex-col relative z-10">
         <FloatingHearts />

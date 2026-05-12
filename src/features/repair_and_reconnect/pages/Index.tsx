@@ -73,9 +73,11 @@ const Index = () => {
   ];
 
   return (
-    <PremiumLayout 
-      title={t("app_title", "Repair & Reconnect")}
-      icon={<Heart className="w-6 h-6 text-primary" />} >}
+    <PremiumLayout
+      title={t("app_title")}
+      subtitle={titles[step]} 
+      exitOnBack={step === 0}
+      icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={step > 0 ? () => setStep(prev => prev - 1) : undefined}
     >
       <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4 min-h-[60vh]">

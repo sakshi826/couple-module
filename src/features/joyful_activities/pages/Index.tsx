@@ -1,4 +1,3 @@
-import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import IntroScreen from "../components/activity/IntroScreen";
 import RecallScreen from "../components/activity/RecallScreen";
@@ -13,7 +12,6 @@ import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 import { PremiumComplete } from "../../../components/shared/PremiumComplete";
 
 const Index = () => {
-  const { t } = useTranslation();
   const [screen, setScreen] = useState(1);
   const [data, setData] = useState<ActivityData>({
     activity: "",
@@ -52,8 +50,10 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title", "Wellness Activity")}
-      icon={<Sparkles className="w-6 h-6 text-primary" />} >}
+      title={t("app_title", " 
+      title={t("app_title", " 
+      title={t("app_title", " 
+      title={t("app_title", ")}w-6 h-6 text-primary")} />}
       onBack={screen > 1 && screen < 5 ? () => setScreen(prev => prev - 1) : undefined}
       onReset={screen > 1 && screen < 5 ? goHome : undefined}
     >
