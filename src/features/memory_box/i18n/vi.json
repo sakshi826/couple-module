@@ -1,0 +1,80 @@
+{
+  "app_title": "Hộp bộ nhớ",
+  "screen_titles": [
+    "Hộp của bạn",
+    "Tôn vinh",
+    "Thể hiện",
+    "Bảo quản",
+    "Chăm sóc nhẹ nhàng"
+  ],
+  "complete_title": "Bộ nhớ được bảo tồn",
+  "complete_message": "Bạn đã đặt một bộ nhớ về {{name}} vào hộp của mình một cách an toàn. Những khoảnh khắc kết nối này là của bạn để luôn lưu giữ.",
+  "auth_error": "Thiếu phiên xác thực hoặc cơ sở dữ liệu không được định cấu hình",
+  "save_success": "Bộ nhớ được bảo tồn",
+  "save_error": "Không bảo quản được bộ nhớ",
+  "preserving": "Bảo quản...",
+  "preserve_memory": "Bảo tồn bộ nhớ",
+  "welcome": {
+    "title": "Hộp ký ức của bạn",
+    "subtitle1": "Một không gian yên tĩnh để tưởng nhớ người bạn yêu thương. 🤍",
+    "subtitle2": "Hít một hơi chậm vào...",
+    "subtitle3": "… và nhẹ nhàng thở ra.",
+    "subtitle4": "Không có cách nào đúng hay sai để làm điều này.",
+    "subtitle5": "Đi theo tốc độ của riêng bạn. 🌿",
+    "begin": "Bắt đầu ✨",
+    "later": "Có thể sau này"
+  },
+  "who": {
+    "placeholder_name": "Nhập tên của họ...",
+    "placeholder_relation": "Làm thế nào để bạn biết họ? (tùy chọn)",
+    "categories": [
+      {
+        "label": "Khoảnh khắc hạnh phúc",
+        "emoji": "😊"
+      },
+      {
+        "label": "Một cái gì đó họ thường nói",
+        "emoji": "💬"
+      },
+      {
+        "label": "Một kỷ niệm nhỏ hàng ngày",
+        "emoji": "☕"
+      },
+      {
+        "label": "Một nơi khiến bạn nhớ đến chúng",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Một điều tôi ước mình có thể nói",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Tiếp tục →"
+  },
+  "expression": {
+    "title": "Thể hiện trí nhớ của bạn",
+    "memory_label": "Bản thân ký ức",
+    "memory_placeholder": "Viết về khoảnh khắc, cảm xúc hoặc chi tiết bạn muốn lưu giữ...",
+    "message_label": "Một tin nhắn cho họ (tùy chọn)",
+    "message_placeholder": "Bạn sẽ nói gì nếu bạn có thể nói chuyện với họ ngay bây giờ?",
+    "save": "Bảo tồn bộ nhớ",
+    "skip": "Bỏ qua ngay bây giờ",
+    "back": "Quay lại"
+  },
+  "box": {
+    "title": "Cất giấu an toàn",
+    "subtitle": "Ký ức về {{name}} này bây giờ là một phần trong bộ sưu tập của bạn.",
+    "add_another": "Thêm một bộ nhớ khác",
+    "finish": "Hoàn thành phản xạ"
+  },
+  "closing": {
+    "title": "Chăm sóc",
+    "subtitle": "Đóng hộp của bạn ngay bây giờ. Bạn có thể trở lại đây bất cứ lúc nào bạn cần để cảm thấy gần gũi với những kỷ niệm này.",
+    "exit": "Đóng hộp"
+  },
+  "history": {
+    "title": "Nội dung hộp",
+    "no_memories": "Hộp của bạn trống. Thêm kỷ niệm đầu tiên của bạn để bắt đầu bộ sưu tập của bạn.",
+    "search_placeholder": "Tìm kiếm kỷ niệm..."
+  }
+}

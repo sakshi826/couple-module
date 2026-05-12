@@ -1,0 +1,21 @@
+{
+  "app_title": "Guida al sonno",
+  "app_subtitle": "Comprendere l'ansia da sonno",
+  "tag": "Psicoeducazione",
+  "screen1": {
+    "intro": "Più ci provi, più diventa difficile.",
+    "title": "Cercare di costringerti a dormire è proprio ciò che ti tiene sveglio.",
+    "p1": "Ti sdrai, chiudi gli occhi — e il cervello si accende. Ripassando conversazioni. Guardando l'orologio.",
+    "p2": "Non è una debolezza. Si tratta di un fenomeno chiamato <1>ansia del sonno</1> — e colpisce milioni di persone.",
+    "quote": "\"L'ansia del sonno non riguarda il non essere stanchi. Si tratta del tuo sistema nervoso bloccato in modalità 'on'.\"",
+    "button": "Scopri di più"
+  },
+  "screen2": {
+    "intro": "Ecco la scienza dietro.",
+    "title": "Il tuo cervello ha imparato a trattare il letto come un luogo di stress — non di riposo.",
+    "p1": "La tua amigdala — il rilevatore di minacce del cervello — rimane attiva di notte, segnalando il pericolo nel momento in cui la testa tocca il cuscino.",
+    "p2": "Questo si chiama eccitazione <1>condizionata</1> — spiega perché ti senti esausto tutto il giorno, eppure sveglio al momento della nanna.",
+    "quote": "\"Il tuo cervello non è rotto. Ha semplicemente imparato la lezione sbagliata sull'ora di andare a letto — e può essere riinsegnata.\"",
+    "button": "Passo precedente"
+  }
+}

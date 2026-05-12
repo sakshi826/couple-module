@@ -1,13 +1,14 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-
-const EMOTIONS = ["anxious", "guilty", "overwhelmed", "tense", "tired", "sad"];
+import { useTranslation } from "react-i18next";
 
 interface Props {
   onContinue: (emotions: string[]) => void;
 }
 
 const ScreenNameIt = ({ onContinue }: Props) => {
+  const { t } = useTranslation();
+  const EMOTIONS = t("emotions_list", { returnObjects: true }) as string[];
   const [selected, setSelected] = useState<string[]>([]);
   const [custom, setCustom] = useState("");
 
@@ -36,7 +37,7 @@ const ScreenNameIt = ({ onContinue }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        Put it into words
+        {t("nameit_title")}
       </motion.h1>
 
       <motion.p
@@ -45,7 +46,7 @@ const ScreenNameIt = ({ onContinue }: Props) => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.15, duration: 0.6 }}
       >
-        Right now, I feel _______
+        {t("nameit_subtitle")}
       </motion.p>
 
       <motion.div
@@ -75,17 +76,17 @@ const ScreenNameIt = ({ onContinue }: Props) => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.45, duration: 0.6 }}
       >
-        <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-4">or type your own</p>
+        <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-4">{t("label_custom_emotion")}</p>
         <input
           type="text"
           className="w-full bg-slate-50 border-none rounded-2xl p-4 text-center text-lg font-bold text-slate-800 focus:ring-2 focus:ring-primary/20 transition-all shadow-inner"
-          placeholder="1–2 words"
+          placeholder={t("placeholder_emotion")}
           maxLength={30}
           value={custom}
           onChange={(e) => setCustom(e.target.value)}
         />
         <p className="text-xs text-slate-400 mt-4 italic">
-          Simple is enough.
+          {t("nameit_footer")}
         </p>
       </motion.div>
 
@@ -97,7 +98,7 @@ const ScreenNameIt = ({ onContinue }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 0.6 }}
       >
-        Continue
+        {t("continue_button")}
       </motion.button>
     </div>
   );

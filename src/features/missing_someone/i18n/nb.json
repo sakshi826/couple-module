@@ -1,0 +1,26 @@
+{
+  "app_title": "Savner noen",
+  "subtitles": [
+    "Validering",
+    "Indre visdom",
+    "Komplett"
+  ],
+  "complete_title": "Klarhet oppnådd",
+  "complete_message": "Å forstå kjemien i å savne noen er det første steget mot helbredelse. Følelsene dine er gyldige, og hjernen din gjør bare jobben sin for å beskytte og bearbeide.",
+  "screen1": {
+    "tag": "Validering",
+    "intro": "Det betyr ikke at du er svak.",
+    "title": "Å savne noen som har såret deg er dypt menneskelig.",
+    "desc": "Du dro. Eller de dro. Og likevel — du rekker fortsatt etter telefonen i håp om at det er dem. Du spiller fortsatt de gode øyeblikkene om igjen mer enn de smertefulle. Denne motsetningen er ikke en feil. Det er slik hjernen din bearbeider tap.",
+    "quote": "\"Du savner ikke bare personen. Du savner følelsen av å være bundet til dem.\"",
+    "button": "Neste steg"
+  },
+  "screen2": {
+    "tag": "Hjernevitenskap",
+    "intro": "Indre visdom",
+    "title": "Kjærlighet skaper et kjemisk bånd.",
+    "desc": "Når du elsker noen, frigjør hjernen din dopamin, oksytocin og serotonin. Når det slutter, faller nivåene. Hjernen din sørger — ikke bare personen, men følelsen av nærhet.",
+    "quote": "\"Å savne dem betyr ikke at du skal dra tilbake. Hjertet ditt sørger over et bånd — ikke nødvendigvis personen slik de virkelig var.\"",
+    "button": "Ferdig refleksjon"
+  }
+}

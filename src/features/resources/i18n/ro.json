@@ -1,0 +1,37 @@
+{
+  "app_title": "Resurse",
+  "not_found": {
+    "title": "Negăsit",
+    "message": "Resursă negăsită",
+    "description": "Conținutul pe care îl cauți s-ar putea să fi mutat.",
+    "button": "Întoarce-te"
+  },
+  "list": {
+    "empty_title": "Nu există {{type}} disponibilă",
+    "empty_desc": "În prezent, selectăm mai multe resurse pentru acest subiect.",
+    "footer": "Îngrijirea mantrei • Resurse bazate pe dovezi"
+  },
+  "detail": {
+    "loading": "Se încarcă...",
+    "tip": {
+      "insight_label": "Perspectiva",
+      "plan_title": "Plan de acțiune zilnic",
+      "steps": "{{count}} Pași",
+      "example_label": "Exemplu de practică",
+      "instead_of": "În loc de",
+      "try_this": "Încearcă asta"
+    },
+    "article": {
+      "final_thought": "Gând final"
+    },
+    "story": {
+      "reflection_label": "Ceva cu care să stai",
+      "note_label": "O notă a autorului"
+    },
+    "myth": {
+      "truth_label": "Adevărul științific",
+      "explanation_label": "Explicație detaliată",
+      "insight_label": "Perspective cheie"
+    }
+  }
+}

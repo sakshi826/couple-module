@@ -1,0 +1,58 @@
+{
+  "app_title": "Fakta & Mitos Kemarahan",
+  "welcome_title": "Mitos vs Fakta:\nEdisi Kemarahan",
+  "welcome_subtitle": "Fikir anda tahu kebenaran tentang kemarahan? Ada yang mitos. Ada yang fakta. Mari kita ketahui.",
+  "start_quiz": "Mulakan Kuiz",
+  "questions_count": "{{count}} Soalan • 2 Minit",
+  "question_nav": "Soalan {{current}} daripada {{total}}",
+  "knowledge_quiz": "Kuiz pengetahuan",
+  "myth_button": "MITOS",
+  "fact_button": "FAKTA",
+  "correct": "Betul!",
+  "incorrect": "Tak cukup!",
+  "its_a_myth": "Ia adalah mitos",
+  "its_a_fact": "Ia adalah fakta",
+  "example_label": "Contoh: {{example}}",
+  "see_results": "Lihat Keputusan",
+  "next_question": "Soalan Seterusnya",
+  "results_title": "Kuiz Lengkap!",
+  "expert_level": "Peringkat Pakar",
+  "great_progress": "Kemajuan Besar",
+  "learning_journey": "Perjalanan Pembelajaran",
+  "finish_activity": "Selesaikan Aktiviti",
+  "try_again": "Cuba lagi",
+  "complete_title": "Pengetahuan Dikuasai",
+  "complete_message": "Anda menjaringkan {{score}}/{{total}}! Anda telah mendapat pandangan berharga tentang kebenaran dan mitos kemarahan.",
+  "questions": [
+    {
+      "statement": "Kemarahan itu buruk. Jika anda berasa marah, ada sesuatu yang tidak kena dengan anda.",
+      "answer": "mitos",
+      "realFact": "Kemarahan adalah emosi yang normal dan sihat. Semua orang merasakannya. Ia bukan tanda bahawa ada sesuatu yang 'tidak kena' dengan anda — ia adalah isyarat bahawa sesuatu penting kepada anda. Apa yang penting ialah bagaimana anda bertindak balas terhadapnya, bukan sama ada anda merasakannya.",
+      "example": "Seorang veteran berasa marah apabila sempadan mereka dilintasi. Kemarahan itu sah - ia memberitahu mereka sesuatu yang penting."
+    },
+    {
+      "statement": "Kemarahan boleh menjadi isyarat bahawa sempadan anda telah dilalui.",
+      "answer": "Fakta",
+      "realFact": "Kemarahan adalah maklumat. Apabila anda merasakannya, ia patut bertanya: sempadan apa yang dilalui? Apakah keperluan yang tidak dipenuhi? Mendengar kemarahan anda — tanpa bertindak atas dorongan — membantu anda memahami diri anda dengan lebih baik dan mengambil tindakan yang bermakna.",
+      "example": "Anda berasa marah apabila rakan sekerja mengambil kredit untuk kerja anda. Kemarahan itu menunjukkan keperluan untuk pengiktirafan dan keadilan."
+    },
+    {
+      "statement": "Jika anda marah, anda perlu melepaskannya dengan menjerit atau memukul sesuatu.",
+      "answer": "mitos",
+      "realFact": "Ekspresi kemarahan yang sihat tidak bermakna penindasan ATAU letupan. Ia bermakna mengakui perasaan anda dan menyatakannya secara konstruktif — melalui kata-kata, jurnal, aktiviti fizikal atau saluran kreatif. Anda boleh menghormati kemarahan anda tanpa kemusnahan.",
+      "example": "Daripada menumbuk dinding, anda berlari atau menulis dengan tepat apa yang mengganggu anda. Kemarahan bergerak melalui anda tanpa menyebabkan kemudaratan."
+    },
+    {
+      "statement": "Belajar menguruskan kemarahan adalah tanda kekuatan emosi.",
+      "answer": "Fakta",
+      "realFact": "Orang yang mengusahakan pengurusan kemarahan mereka tidak lemah — mereka melakukan beberapa kerja emosi yang paling berani yang ada. Memilih untuk berhenti sebentar, merenung dan bertindak balas dengan teliti memerlukan lebih banyak kekuatan daripada bertindak balas atas dorongan hati.",
+      "example": "Menarik nafas dalam-dalam dan berkata 'Saya perlukan satu minit sebelum saya bertindak balas' pada saat yang panas adalah tindakan kawalan diri yang kuat."
+    },
+    {
+      "statement": "Jika seseorang membuat anda marah, itu salah mereka. Anda tidak mempunyai tanggungjawab.",
+      "answer": "mitos",
+      "realFact": "Orang lain boleh mencetuskan kemarahan anda, tetapi cara anda bertindak balas adalah tanggungjawab anda — dan kuasa anda. Mengambil pemilikan reaksi anda tidak bermakna orang lain betul. Ini bermakna anda memilih cara untuk muncul. Itulah pemerkasaan, bukan menyalahkan.",
+      "example": "Seseorang memotong anda dalam lalu lintas. Anda berasa marah - itu perkara biasa. Tetapi anda memilih sama ada untuk mengamuk atau menarik nafas. Pilihan di tangan anda."
+    }
+  ]
+}

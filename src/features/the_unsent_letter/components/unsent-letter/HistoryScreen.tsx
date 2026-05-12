@@ -1,6 +1,7 @@
 import { ArrowLeft } from "lucide-react";
 import { Letter } from "@/features/the_unsent_letter/pages/Index";
 import { format } from "date-fns";
+import { useTranslation } from "react-i18next";
 
 interface HistoryScreenProps {
   letters: Letter[];
@@ -8,6 +9,8 @@ interface HistoryScreenProps {
 }
 
 const HistoryScreen = ({ letters, onBack }: HistoryScreenProps) => {
+  const { t } = useTranslation();
+
   return (
     <div className="flex flex-col flex-1 px-6 py-8">
       {/* Header */}
@@ -18,7 +21,7 @@ const HistoryScreen = ({ letters, onBack }: HistoryScreenProps) => {
         >
           <ArrowLeft className="w-5 h-5 text-muted-foreground" />
         </button>
-        <h2 className="text-lg font-semibold text-foreground">Past Letters</h2>
+        <h2 className="text-lg font-semibold text-foreground">{t("history.title")}</h2>
       </div>
 
       {letters.length === 0 ? (
@@ -27,10 +30,10 @@ const HistoryScreen = ({ letters, onBack }: HistoryScreenProps) => {
             <span className="text-2xl">📝</span>
           </div>
           <p className="text-muted-foreground text-sm">
-            You haven't written any letters yet.
+            {t("history.empty_title")}
           </p>
           <p className="text-micro mt-1">
-            Your letters will appear here after you save them.
+            {t("history.empty_desc")}
           </p>
         </div>
       ) : (

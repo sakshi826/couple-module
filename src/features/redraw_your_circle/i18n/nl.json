@@ -1,0 +1,61 @@
+{
+  "app_title": "Teken je cirkel opnieuw",
+  "intro": {
+    "title": "Teken je cirkel opnieuw",
+    "p1": "Op verschillende momenten in het leven kan ons ondersteuningssysteem verschuiven. 🌱 Soms voelen we ons verbonden en gesteund. Andere keren voelt het soms afstandelijk of onduidelijk.",
+    "p2": "Deze activiteit is een plek om even stil te staan en naar de mensen om je heen te kijken — en te begrijpen wie zich momenteel onderdeel voelt van je omgeving. 💛",
+    "p3": "Er is hier geen goed of fout. Gewoon bewustzijn. ✨",
+    "italic": "🌿 Je kring kan veranderen — en dat is oké.",
+    "button": "Begin →"
+  },
+  "circle": {
+    "subtitle": "Wie zit er in jouw ondersteuningssysteem?",
+    "title": "Wie zit er nu in jouw kring? 🔮",
+    "desc": "Denk aan de mensen in je leven en waar ze voor je zijn.",
+    "instruction": "👆 Tik op elke bubbel en voeg iemand toe die in die ruimte in je leven past.",
+    "center_node": "Jij",
+    "italic": "🤍 Het is oké als je kring klein aanvoelt.",
+    "button": "Ga verder →",
+    "modal": {
+      "title": "Voeg een naam toe",
+      "placeholder": "Voer een naam in...",
+      "button": "Naam opslaan"
+    },
+    "prompts": [
+      "Iemand die vreugde brengt",
+      "Iemand die je steunt",
+      "Iemand met wie je kunt praten",
+      "Iemand die je vertrouwt",
+      "Iemand die je inspireert"
+    ]
+  },
+  "reflection": {
+    "subtitle": "Slotoverdenkingen",
+    "title": "Wat valt je op?",
+    "p_intro": "Neem even de tijd om naar je kring te kijken. Je zult het misschien opmerken:",
+    "list": [
+      "Sommige mensen voelen zich dichterbij dan anderen",
+      "Sommige connecties voelen sterk aan",
+      "Sommige voelen afstandelijk of onduidelijk aan",
+      "Er kunnen hiaten zijn — of slechts een paar betekenisvolle mensen"
+    ],
+    "italic": "Bewustzijn is de eerste stap naar het opbouwen van de connecties die je waardeert. 🧘",
+    "label": "💭 Is er iemand met wie je je meer verbonden zou willen voelen?",
+    "placeholder": "Schrijf hier je gedachten op...",
+    "save_button": "Reflectie opslaan",
+    "saving_button": "Redden...",
+    "skip_button": "Skip & Finish"
+  },
+  "history": {
+    "title": "Geschiedenis van Jouw Cirkels",
+    "subtitle": "Een overzicht van je ondersteuningssysteem in de loop van de tijd.",
+    "no_entries": "Nog geen cirkels opgeslagen.",
+    "reflection_label": "Reflectie:",
+    "back_button": "Terug naar huis"
+  },
+  "toasts": {
+    "save_success": "Cirkel gered",
+    "save_error": "Cirkel niet kunnen opslaan",
+    "auth_error": "Auth-sessie ontbreekt of database niet geconfigureerd"
+  }
+}

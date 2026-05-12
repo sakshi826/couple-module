@@ -1,0 +1,29 @@
+{
+  "app_title": "Warum das Gehirn stecken bleibt",
+  "app_subtitle": "Die Logik des Überlebens • {{step}}/{{total}}",
+  "s1": {
+    "title": "Dein Gehirn ist nicht kaputtgegangen. Es hat sich angepasst.",
+    "description": "Nach dem Trauma verkabelt sich dein Gehirn neu, um dich zu schützen. Es lernte, dass die Welt gefährlich sein konnte, also blieb es bereit. Das ist kein Fehler. Das ist Überleben.",
+    "quote": "\"PTBS ist kein Zeichen dafür, dass etwas mit dir nicht stimmt. Das ist ein Zeichen, dass dir etwas passiert ist.\"",
+    "button": "Erzähl mir mehr"
+  },
+  "s2": {
+    "tag": "sanfte Wahrheiten",
+    "title": "Gehirnüberlebenslogik",
+    "truths": [
+      {
+        "header": "Der Wecker blieb an",
+        "body": "Hypervigilanz und leicht zu erschrecken sind keine Überreaktionen – das Alarmsystem deines Gehirns erfüllt seine Arbeit zu gut."
+      },
+      {
+        "header": "Rückblenden sind Erinnerungen",
+        "body": "Auslöser ziehen dein Gehirn zurück, weil es nie das Signal bekam, dass die Bedrohung vorbei war. Es versucht, dich zu schützen."
+      },
+      {
+        "header": "Ich kämpfe für dich",
+        "body": "Jedes Symptom war einst ein Überlebensakt. Dein Gehirn tat, was es tun musste, um dich am Leben zu erhalten."
+      }
+    ],
+    "healing": "Heilung bedeutet nicht, zu vergessen. Es geht darum, deinem Gehirn zu helfen, zu lernen, dass du jetzt sicher bist."
+  }
+}

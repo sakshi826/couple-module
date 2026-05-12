@@ -1,0 +1,98 @@
+{
+  "app_title": "Kanvas Ruang Selamat",
+  "step_label": "Langkah {{current}} daripada 5",
+  "welcome": {
+    "title": "Tempat selamat anda sedang menunggu",
+    "description": "Bina tempat perlindungan anda sendiri melalui satu siri gesaan kreatif yang lembut. Kanvas kosong untuk fikiran dan perasaan anda.",
+    "benefits": [
+      "Ekspresikan diri anda melalui warna",
+      "Cipta alat pembumian visual",
+      "Selamat, peribadi dan peribadi"
+    ],
+    "duration": "10-15 minit",
+    "view_past": "Lihat Kolaj Masa Lalu"
+  },
+  "canvas": {
+    "prompts": [
+      {
+        "quote": "Apakah rupa langit di tempat selamat anda? Lukis warna, cahaya, atau perasaannya.",
+        "button": "Saya telah menambah → langit",
+        "hint": "Tiada cara yang betul - sebarang tanda sudah mencukupi."
+      },
+      {
+        "quote": "Bagaimana rasa tanah? Rumput, pasir, air, lantai kayu? Tambahkannya di bawah langit.",
+        "button": "Saya telah menambah tanah →",
+        "hint": "Fikirkan tentang apa yang dirasakan oleh kaki anda di tempat ini."
+      },
+      {
+        "quote": "Tambah satu perkara yang tergolong di sini - pokok, kerusi, tingkap, haiwan peliharaan, lampu. Apa-apa sahaja yang terasa betul.",
+        "button": "Saya telah menambah sesuatu →",
+        "hint": "Ia tidak semestinya kelihatan sempurna. Ia hanya perlu terasa benar."
+      },
+      {
+        "quote": "Apa yang membawa kemesraan atau keselesaan ke tempat ini? Cahaya, api, cahaya matahari, selimut? Tambahkannya di mana sahaja ia dirasakan betul.",
+        "button": "Saya telah menambah kehangatan →",
+        "hint": "Malah titik kecil warna dikira."
+      },
+      {
+        "quote": "Akhir sekali - tambah 3 hingga 5 perkataan yang tergolong di sini. Ketik lukisan anda untuk meletakkannya di mana-mana sahaja.",
+        "button": "Ini adalah kata-kata saya →",
+        "hint": ""
+      }
+    ],
+    "word_chips": [
+      "Keamanan",
+      "Laman Utama",
+      "Syurga",
+      "Tenang",
+      "Hangat",
+      "Cukup",
+      "Lembut",
+      "Selamat"
+    ],
+    "custom_word_placeholder": "+ anda sendiri",
+    "skip_prompt": "Langkau gesaan ini",
+    "type_here": "Taip di sini"
+  },
+  "save": {
+    "title": "Kekalkan tempat selamat anda",
+    "desc": "Berikan nama ciptaan anda dan refleksi ringkas.",
+    "preview_alt": "Kolaj tempat selamat anda",
+    "generating_preview": "Menjana Pratonton...",
+    "name_label": "Apa yang anda panggil tempat ini?",
+    "name_placeholder": "cth, My Sunday Meadow",
+    "reflection_label": "Mengapa tempat ini penting? (Pilihan)",
+    "reflection_placeholder": "Satu ayat lembut...",
+    "privacy_note": "Ini kekal peribadi - hanya boleh dilihat oleh anda dan ahli terapi anda.",
+    "button": "Simpan Tempat Selamat Saya",
+    "default_name": "Tempat Selamat Saya"
+  },
+  "grounding": {
+    "title": "Awak di sini. Anda selamat.",
+    "breathe_info": "4 · tahan · 4 · lepaskan · 6",
+    "done_message": "Syabas kerana muncul untuk diri sendiri hari ini.",
+    "durations": [
+      {
+        "label": "1 minit",
+        "seconds": "60"
+      },
+      {
+        "label": "3 minit",
+        "seconds": "180"
+      },
+      {
+        "label": "5 minit",
+        "seconds": "300"
+      }
+    ],
+    "phases": [
+      "Tarik nafas",
+      "Pegang",
+      "Lepaskan"
+    ]
+  },
+  "history": {
+    "title": "Tempat selamat yang lalu",
+    "no_collages": "Tiada kolaj yang disimpan lagi. Lengkapkan aktiviti untuk menyimpan aktiviti pertama anda."
+  }
+}

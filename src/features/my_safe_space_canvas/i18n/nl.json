@@ -1,0 +1,98 @@
+{
+  "app_title": "Safe Space Canvas",
+  "step_label": "Stap {{current}} van 5",
+  "welcome": {
+    "title": "Je veilige plek wacht op je",
+    "description": "Bouw je eigen toevluchtsoord door een reeks zachte, creatieve aanwijzingen. Een leeg canvas voor je gedachten en gevoelens.",
+    "benefits": [
+      "Druk jezelf uit via kleur",
+      "Maak een visueel grondingshulpmiddel",
+      "Veilig, privé en persoonlijk"
+    ],
+    "duration": "10-15 minuten",
+    "view_past": "Bekijk eerdere collages"
+  },
+  "canvas": {
+    "prompts": [
+      {
+        "quote": "Hoe ziet de lucht eruit op jouw veilige plek? Teken de kleur, het licht of het gevoel ervan.",
+        "button": "Ik heb de lucht toegevoegd →",
+        "hint": "Er is geen juiste manier — elke markering is genoeg."
+      },
+      {
+        "quote": "Hoe voelt de grond? Gras, zand, water, een houten vloer? Voeg het toe onder de lucht.",
+        "button": "Ik heb de grond toegevoegd →",
+        "hint": "Denk na over hoe je voeten voelen op deze plek."
+      },
+      {
+        "quote": "Voeg één ding toe dat hier thuishoort — een boom, een stoel, een raam, een huisdier, een lamp. Alles wat goed voelt.",
+        "button": "Ik heb iets toegevoegd →",
+        "hint": "Het hoeft er niet perfect uit te zien. Het moet gewoon waar aanvoelen."
+      },
+      {
+        "quote": "Wat brengt warmte of troost naar deze plek? Een licht, een vuur, zonlicht, een deken? Voeg het toe waar het goed voelt.",
+        "button": "Ik heb de warmte toegevoegd →",
+        "hint": "Zelfs een klein kleurvlekje telt mee."
+      },
+      {
+        "quote": "Tot slot — voeg 3 tot 5 woorden toe die hier thuishoren. Tik op je tekening om ze ergens te plaatsen.",
+        "button": "Dit zijn mijn woorden →",
+        "hint": ""
+      }
+    ],
+    "word_chips": [
+      "Vrede",
+      "Home",
+      "Hemel",
+      "Rustig",
+      "Warm",
+      "Genoeg",
+      "Zachtjes",
+      "Veilig"
+    ],
+    "custom_word_placeholder": "+ je eigen",
+    "skip_prompt": "sla deze prompt over",
+    "type_here": "Typ hier"
+  },
+  "save": {
+    "title": "Bewaar je veilige plek",
+    "desc": "Geef je creatie een naam en een korte reflectie.",
+    "preview_alt": "Jouw veilige plek-collage",
+    "generating_preview": "Vooruitblik genereren...",
+    "name_label": "Hoe noem je deze plek?",
+    "name_placeholder": "bijvoorbeeld Mijn Zondagse Weide",
+    "reflection_label": "Waarom is deze plek belangrijk? (Optioneel)",
+    "reflection_placeholder": "Eén zachte zin...",
+    "privacy_note": "Dit blijft privé — alleen zichtbaar voor jou en je therapeut.",
+    "button": "Red mijn veilige plek",
+    "default_name": "Mijn veilige plek"
+  },
+  "grounding": {
+    "title": "Je bent hier. Je bent veilig.",
+    "breathe_info": "4 · Wacht · 4 · Laat los · 6",
+    "done_message": "Goed gedaan dat je vandaag voor jezelf bent gekomen.",
+    "durations": [
+      {
+        "label": "1 min",
+        "seconds": "60"
+      },
+      {
+        "label": "3 min",
+        "seconds": "180"
+      },
+      {
+        "label": "5 min",
+        "seconds": "300"
+      }
+    ],
+    "phases": [
+      "Adem in",
+      "Houd vast",
+      "Laat los"
+    ]
+  },
+  "history": {
+    "title": "Voormalige veilige plaatsen",
+    "no_collages": "Nog geen opgeslagen collages. Voltooi de activiteit om je eerste activiteit op te slaan."
+  }
+}

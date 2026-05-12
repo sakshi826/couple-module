@@ -1,0 +1,21 @@
+{
+  "app_title": "Sleep Guide",
+  "app_subtitle": "Understanding sleep anxiety",
+  "tag": "Psychoeducation",
+  "screen1": {
+    "intro": "The harder you try, the harder it gets.",
+    "title": "Trying to force yourself to sleep is exactly what keeps you awake.",
+    "p1": "You lie down, close your eyes — and your brain switches on. Replaying conversations. Watching the clock.",
+    "p2": "This isn't a weakness. It's a phenomenon called <1>sleep anxiety</1> — and it affects millions of people.",
+    "quote": "\"Sleep anxiety isn't about not being tired. It's about your nervous system being stuck in 'on' mode.\"",
+    "button": "Learn More"
+  },
+  "screen2": {
+    "intro": "Here's the science behind it.",
+    "title": "Your brain has learned to treat your bed as a place of stress — not rest.",
+    "p1": "Your amygdala — the brain's threat detector — stays activated at night, signalling danger the moment your head hits the pillow.",
+    "p2": "This is called <1>conditioned arousal</1> — it explains why you feel exhausted all day, yet wide awake at bedtime.",
+    "quote": "\"Your brain isn't broken. It has simply learned the wrong lesson about bedtime — and it can be retaught.\"",
+    "button": "Previous Step"
+  }
+}

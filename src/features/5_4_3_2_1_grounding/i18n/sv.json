@@ -1,0 +1,46 @@
+{
+  "steps": [
+    {
+      "body": "Låt oss ta en kort paus tillsammans.\n\nUnder nästa minut finns det inget du behöver lösa, fixa eller svara på. Tillåt dig själv att sakta ner.\n\nSitt bekvämt, placera fötterna på marken om du kan, och ta ett långsamt andetag in... och andas långsamt ut.\n\nDet här är ditt ögonblick att återställa och återknyta till nuet.",
+      "button": "Börja"
+    },
+    {
+      "heading": "5 saker du kan se",
+      "body": "Titta långsamt omkring dig. Låt dina ögon röra sig mjukt över utrymmet. Lägg märke till färger, former, ljus, skuggor eller små detaljer som du kanske inte har lagt märke till tidigare.",
+      "button": "Nästa"
+    },
+    {
+      "heading": "4 saker du kan känna",
+      "body": "Rikta din uppmärksamhet mot din kropp. Känn hur dina fötter nuddar golvet, ryggen mot stolen, dina kläder mot huden eller luften runt dig. Erkänn fyra fysiska sensationer.",
+      "button": "Nästa"
+    },
+    {
+      "heading": "3 saker du kan höra",
+      "body": "Lyssna noga. Du kan höra avlägsna ljud, en fläkt, knappande, andning eller till och med tystnad. Identifiera tre ljud utan att döma dem.",
+      "button": "Nästa"
+    },
+    {
+      "heading": "2 saker du kan lukta",
+      "body": "Se om du kan känna någon doft i rummet. Om inget sticker ut, lägg bara märke till den neutrala doften av luften runt dig.",
+      "button": "Nästa"
+    },
+    {
+      "heading": "1 sak du kan smaka",
+      "body": "Var uppmärksam på smaken i munnen. Det kan vara subtilt eller neutralt – bara observera det.",
+      "button": "Nästa"
+    },
+    {
+      "heading": "Reflektion",
+      "body": "Ta ett långsamt andetag in... och andas ut försiktigt.",
+      "button": "Skicka in"
+    }
+  ],
+  "common": {
+    "thank_you": "Tack",
+    "you_feel": "Du känner:",
+    "completion_message": "Du har slutfört jordningsövningen. Bär med dig denna känsla av närvaro när du fortsätter din dag.",
+    "start_again": "Börja om",
+    "reflection_question": "Med ett ord, hur känner du just nu?",
+    "reflection_placeholder": "t.ex. lugn, lättad, jordad..."
+  }
+}

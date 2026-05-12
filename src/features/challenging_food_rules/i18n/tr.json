@@ -1,0 +1,56 @@
+{
+  "app_title": "Gıda Kurallarına Meydan Okumak",
+  "welcome_title": "Gıda kuralları yasa değildir.",
+  "welcome_subtitle": "Hepimiz yiyeceklerle ilgili kurallar taşırız—bazıları faydalı, bazıları değil. Burası, bir kuralı fark etmek ve nazikçe üzerine düşünmek için güvenli bir alan.",
+  "begin_button": "Başlayalım",
+  "screen_titles": {
+    "intro": "Nazik Farkındalık",
+    "identify": "Kuralın Adlandırılması",
+    "feeling": "Duygusal Etki",
+    "impact": "Fiziksel Etki",
+    "challenge": "Yumuşak Meydan Okuma",
+    "permission": "İzin Vermek",
+    "step": "Nazik Adımlar",
+    "takeaway": "Özet",
+    "close": "Yansıma"
+  },
+  "rule_label": "Kuralın adlandırılması",
+  "rule_question": "Kural nedir?",
+  "rule_options": [
+    "Belirli bir süreden sonra yemek yememeliyim",
+    "Bazı yiyecekler yasaktır",
+    "Porsiyonları sıkı kontrol etmem gerekiyor"
+  ],
+  "rule_something_else": "Başka bir şey...",
+  "rule_placeholder": "Yemek kuralını yaz...",
+  "feeling_label": "Duygusal Etki",
+  "feeling_question": "Bu nasıl hissettiriyor?",
+  "feeling_options": [
+    "😟 Endişeli",
+    "😌 Kontrolü ele aldı",
+    "😕 Suçlu",
+    "😣 Kısıtlı",
+    "😴 Yorgun",
+    "😐 Karışık"
+  ],
+  "challenge_label": "Yumuşak Meydan Okuma",
+  "challenge_question": "Nazikçe soru...",
+  "reflections": {
+    "Is this rule too strict?": "Bu esnek mi geliyor, yoksa mükemmel şekilde takip etmem için baskı mı yaratıyor?",
+    "Is this actually helping me?": "Bu kural iyi oluşunuzu destekliyor mu, yoksa stres veya suçluluk mı ekliyor?",
+    "What happens when I can't follow it?": "Bu kural planlandığı gibi gitmediğinde ne fark ediyorsunuz?"
+  },
+  "reflection_saved": "Yansıma Kaydedildi",
+  "your_reflection": "Yansıman",
+  "label_rule": "Kural",
+  "label_feeling": "Duygu",
+  "preserve_button": "Yansıtmayı Koruyun",
+  "preserving": "Koruma...",
+  "continue_button": "Devam et",
+  "next_button": "Sıradaki",
+  "complete_title": "Farkındalık Kazanıldı",
+  "complete_message": "Farkındalık, özgürlüğe giden ilk adımdır. Bir yiyecek kuralını belirlemede ve üzerinde düşünmede cesur bir adım attın. Bu nazik anlayışı bugün yanınızda taşıyın.",
+  "auth_error": "Doğrulama oturumu eksik veya veritabanı yapılandırılmadı",
+  "save_success": "Korunan yansıma",
+  "save_error": "Yansımayı koruyamadı"
+}

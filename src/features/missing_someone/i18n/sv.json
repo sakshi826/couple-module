@@ -1,0 +1,26 @@
+{
+  "app_title": "Saknar någon",
+  "subtitles": [
+    "Validering",
+    "Inre visdom",
+    "Komplett"
+  ],
+  "complete_title": "Klarhet vunnen",
+  "complete_message": "Att förstå kemin i att sakna någon är det första steget mot läkning. Dina känslor är giltiga, och din hjärna gör helt enkelt sitt jobb för att skydda och bearbeta.",
+  "screen1": {
+    "tag": "Validering",
+    "intro": "Det betyder inte att du är svag.",
+    "title": "Att sakna någon som sårat dig är djupt mänskligt.",
+    "desc": "Du gick. Eller så gick de. Och ändå — du sträcker dig fortfarande efter din telefon i hopp om att det är dem. Du spelar fortfarande om de bra stunderna mer än de smärtsamma. Denna motsägelse är ingen brist. Det är så din hjärna bearbetar förlust.",
+    "quote": "\"Man saknar inte bara personen. Du saknar känslan av att vara bunden till dem.\"",
+    "button": "Nästa steg"
+  },
+  "screen2": {
+    "tag": "Hjärnvetenskap",
+    "intro": "Inre visdom",
+    "title": "Kärlek skapar ett kemiskt band.",
+    "desc": "När du älskar någon frigör din hjärna dopamin, oxytocin och serotonin. När det tar slut sjunker nivåerna. Din hjärna sörjer – inte bara personen, utan känslan av närhet.",
+    "quote": "\"Att sakna dem betyder inte att du ska åka tillbaka. Ditt hjärta sörjer ett band — inte nödvändigtvis personen som de verkligen var.\"",
+    "button": "Färdig reflektion"
+  }
+}

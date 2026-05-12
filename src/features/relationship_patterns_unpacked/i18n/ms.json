@@ -1,0 +1,22 @@
+{
+  "app_title": "Corak Hubungan",
+  "app_subtitle": "Membongkar pelan tindakan anda",
+  "complete_title": "Kesedaran yang Diperoleh",
+  "complete_message": "Memahami corak anda ialah langkah pertama ke arah menulis semula. Anda membawa kuasa untuk memilih jalan yang berbeza.",
+  "screen1": {
+    "tag": "Penemuan Corak",
+    "intro": "Pernah berasa seperti anda pernah ke sini sebelum ini?",
+    "title": "Jika hubungan anda terus berakhir dengan cara yang sama - itu bukan nasib malang.",
+    "desc": "Hubungan yang kita pilih mengikut pelan tindakan yang ditulis lama sebelum kita jatuh cinta. Keakraban selalunya terasa seperti keselamatan, walaupun ia membawa kepada hujah lama yang sama.",
+    "quote": "\"Kami mengulangi corak bukan kerana kami rosak - tetapi kerana mereka terasa biasa.\"",
+    "button": "Teruskan Membongkar"
+  },
+  "screen2": {
+    "tag": "Templat",
+    "intro": "Ia bermula lebih awal daripada yang anda fikirkan.",
+    "title": "Hubungan terawal menjadi templat untuk semua yang berikut.",
+    "desc": "Cara penjaga anda bertindak balas terhadap keperluan anda secara senyap-senyap membentuk cara anda berhubung dengan orang lain sebagai orang dewasa. Ini adalah tindak balas yang dipelajari - dan ia boleh tidak dipelajari.",
+    "quote": "\"Corak anda masuk akal sekali. Persoalannya ialah - adakah ia masih berkhidmat kepada anda sekarang?\"",
+    "button": "Selesaikan Refleksi"
+  }
+}

@@ -1,19 +1,21 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 interface Props {
   onContinue: (intensity: number) => void;
   onExit: () => void;
 }
 
-const getFeedback = (value: number) => {
-  if (value <= 3) return "You're doing okay.";
-  if (value <= 6) return "Thanks for noticing that.";
-  return "That sounds really heavy right now.";
-};
-
 const ScreenPauseCheckIn = ({ onContinue, onExit }: Props) => {
+  const { t } = useTranslation();
   const [intensity, setIntensity] = useState(5);
+
+  const getFeedback = (value: number) => {
+    if (value <= 3) return t("feedback_calm");
+    if (value <= 6) return t("feedback_noticing");
+    return t("feedback_heavy");
+  };
 
   return (
     <div className="flex flex-col items-center text-center px-4 py-6">
@@ -23,7 +25,7 @@ const ScreenPauseCheckIn = ({ onContinue, onExit }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
-        Let's pause for a moment 💛
+        {t("pause_title")}
       </motion.h1>
 
       <motion.p
@@ -32,9 +34,7 @@ const ScreenPauseCheckIn = ({ onContinue, onExit }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.15, ease: "easeOut" }}
       >
-        Take a slow breath.
-        <br />
-        Let's check in with how you're feeling right now.
+        {t("pause_description")}
       </motion.p>
 
       <motion.div
@@ -44,7 +44,7 @@ const ScreenPauseCheckIn = ({ onContinue, onExit }: Props) => {
         transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
       >
         <p className="text-sm font-bold text-slate-400 mb-6 uppercase tracking-widest">
-          How intense does this feel?
+          {t("intensity_label")}
         </p>
 
         <div className="relative mb-6">
@@ -60,8 +60,8 @@ const ScreenPauseCheckIn = ({ onContinue, onExit }: Props) => {
             }}
           />
           <div className="flex justify-between text-xs font-black text-slate-300 mt-3">
-            <span>CALM</span>
-            <span>INTENSE</span>
+            <span>{t("label_calm")}</span>
+            <span>{t("label_intense")}</span>
           </div>
         </div>
 
@@ -84,7 +84,7 @@ const ScreenPauseCheckIn = ({ onContinue, onExit }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.5 }}
       >
-        Continue
+        {t("continue_button")}
       </motion.button>
     </div>
   );

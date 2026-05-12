@@ -1,0 +1,93 @@
+{
+  "app_title": "Előrejelzés vs valóság",
+  "step_label": "{{current}} a 8-as lépés",
+  "intro": {
+    "title": "Előrejelzés vs valóság",
+    "description": "Hasonlítsd össze szorongó előrejelzéseidet azzal, ami valójában történik, hogy kiegyensúlyozottabb nézőpontot alkossanak.",
+    "benefits": [
+      "Azonosítsd a szorongó mintákat",
+      "Bizonyítékok gyűjtése félelmek ellen",
+      "Csökkentsd a jövőbeli túlgondolást"
+    ],
+    "duration": "4-5 perc",
+    "view_past": "Tekints múltbeli visszatükröződéseket"
+  },
+  "history": {
+    "title": "Múltbeli visszatekintések",
+    "no_reflections": "Még nincs visszatükröződés.",
+    "prediction_label": "Előrejelzés",
+    "reality_label": "Valóság",
+    "reflection_label": "Elmélkedés:"
+  },
+  "complete": {
+    "title": "Tevékenység befejezve",
+    "saved_title": "Visszaemlékezés mentve",
+    "message": "A tények vizsgálatával segítesz az elmédnek, hogy megtanuld, hogy a dolgok gyakran kezelhetőbbek, mint amilyennek látszanak."
+  },
+  "emotions": [
+    "Aggódó",
+    "Ideges",
+    "Félve",
+    "Túlterhelt",
+    "Nyugtalan"
+  ],
+  "intensity_labels": {
+    "not_intense": "Nem intenzív",
+    "very_intense": "Nagyon intenzív"
+  },
+  "comparison_options": [
+    "Majdnem pont úgy alakult, amire számítottam",
+    "Néhány rész helyes volt, de nem minden",
+    "Egészen más volt, mint amire számítottam",
+    "Sokkal könnyebb/jobb volt, mint gondoltam"
+  ],
+  "screens": {
+    "s1": {
+      "title": "Gondolj egy friss helyzetre",
+      "desc": "Emlékezz egy nemrégiben történt pillanatra, amikor szorongottál vagy bizonytalan voltál.",
+      "placeholder": "Írd le a helyzetet..."
+    },
+    "s2": {
+      "title": "Mit gondoltál, mi fog történni?",
+      "desc": "Mit vártál vagy féltél abban a pillanatban?",
+      "placeholder": "Aggódtam, hogy..."
+    },
+    "s3": {
+      "title": "Hogy érezted magad?",
+      "desc": "Válaszd ki azokat az érzelmeket, amiket éreztél, és azok intenzitását."
+    },
+    "s4": {
+      "title": "Mi történt valójában?",
+      "desc": "Koncentrálj a tényekre, ami valójában történt.",
+      "placeholder": "A valóságban..."
+    },
+    "s5": {
+      "title": "Nézzük meg mindkettőt",
+      "expectation": "Elvárás",
+      "reality": "Valóság",
+      "question": "Mennyire közel állt az elvárásaihoz?"
+    },
+    "s6": {
+      "title": "Mit veszel észre?",
+      "desc": "Olyan rossz volt, mint gondoltad?",
+      "placeholder": "Észrevettem, hogy..."
+    },
+    "s7": {
+      "title": "Legközelebb",
+      "desc": "Mit tudnál magára emlékeztetni, ha ez újra megtörténik?",
+      "placeholder": "például: \"Talán nem lesz olyan rossz, mint elképzeltem.\""
+    },
+    "s8": {
+      "title": "Egy kis emlékeztető",
+      "desc": "Az elméd próbál felkészíteni – de nem mindig jósolja meg pontosan. Minden alkalommal, amikor megállsz és átnézed a tényeket, kitartást építesz.",
+      "button": "Mentsd meg a visszatükrözést",
+      "discard": "Dobás bejegyzés"
+    }
+  },
+  "buttons": {
+    "continue": "Folytatás"
+  },
+  "toasts": {
+    "saved": "Visszatükröződés mentve van!"
+  }
+}

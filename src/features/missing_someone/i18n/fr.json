@@ -1,0 +1,26 @@
+{
+  "app_title": "Quelqu’un manquant",
+  "subtitles": [
+    "Validation",
+    "Sagesse intérieure",
+    "Complet"
+  ],
+  "complete_title": "Clarté acquise",
+  "complete_message": "Comprendre la chimie du manque de quelqu’un est la première étape vers la guérison. Tes sentiments sont valides, et ton cerveau fait simplement son travail pour protéger et traiter.",
+  "screen1": {
+    "tag": "Validation",
+    "intro": "Cela ne veut pas dire que vous êtes faible.",
+    "title": "Quelqu’un qui t’a blessé est profondément humain.",
+    "desc": "Tu es parti. Ou ils sont partis. Et pourtant — tu continues à attraper ton téléphone en espérant que ce soit eux. On rejoue encore plus les bons moments que les douloureux. Cette contradiction n’est pas un défaut. C’est la façon dont ton cerveau traite la perte.",
+    "quote": "« On ne se contente pas de manquer la personne. Le sentiment d’être lié à eux te manque. »",
+    "button": "Étape suivante"
+  },
+  "screen2": {
+    "tag": "Neurosciences",
+    "intro": "Sagesse intérieure",
+    "title": "L’amour crée un lien chimique.",
+    "desc": "Quand on aime quelqu’un, son cerveau libère de la dopamine, de l’ocytocine et de la sérotonine. Quand il se termine, ces niveaux chutent. Votre cerveau fait son deuil — pas seulement la personne, mais aussi le sentiment de proximité.",
+    "quote": "« Les regretter ne veut pas dire que tu devrais y retourner. Ton cœur est en deuil d’un lien — pas forcément de la personne telle qu’elle était vraiment. »",
+    "button": "Réflexion de finition"
+  }
+}

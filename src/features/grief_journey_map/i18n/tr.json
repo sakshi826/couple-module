@@ -1,0 +1,39 @@
+{
+  "app_title": "Yas Yolculuğu",
+  "app_subtitle": "Kayıp haritası • {{current}}/{{total}}",
+  "screen1_title": "Yanlış yas tutmuyorsun",
+  "screen1_desc": "Yas düzenli aşamalarda gelmez ve zamanında gitmez. Geri çarpıyor, geri çekiliyor ve en beklemediğiniz anda geri geliyor. Bu sende bir kusur değil — bu yas gibi.",
+  "screen1_quote": "\"Yas tutmanın doğru yolu yok. Sadece senin yolun var.\"",
+  "btn_tell_more": "Daha fazla anlatır mısınız?",
+  "screen2_tag": "Gerçek resim",
+  "screen2_title": "Yas birçok yüzü taşır",
+  "screen2_desc": "İnsanlar yasın nasıl görünmesini beklerken — aslında ne olduğunu düşünmüş gibi değil.",
+  "expectation_label": "Beklenti",
+  "reality_label": "Gerçek",
+  "expectation_desc": "Doğrusal • Öngörülebilir • Açık",
+  "reality_desc": "Kaotik • Döngü • İnsan",
+  "screen2_quote": "\"Bu dalgaların hiçbiri yanlış değil. Hepsi bir keder.\"",
+  "btn_one_more": "Bir şey daha",
+  "screen3_tag": "Nazik gerçekler",
+  "screen3_title": "Bilmeye değer",
+  "truths": [
+    {
+      "emoji": "🗓️",
+      "title": "Son teslim tarihi yok",
+      "body": "Kayıp için son kullanma tarihi yok. Aylar ya da yıllar sonra hissetmek, sıkıştığın anlamına gelmez — sevdiğin anlamına gelir."
+    },
+    {
+      "emoji": "🌗",
+      "title": "Çelişkili duygular",
+      "body": "Birini özleyebilir ve rahatlayabilirsin. Gülebilir ve yas tutabilirsin. Yas zıtlarını taşır."
+    },
+    {
+      "emoji": "🤍",
+      "title": "Aşkın dönüşümü",
+      "body": "Acı, sevgiden ayrı değildir. Aynı şey, dönüşmüş."
+    }
+  ],
+  "btn_finish": "Finish Reflection",
+  "complete_title": "Yolculuk Onurlandırıldı",
+  "complete_message": "Devam etmek zorunda değilsin. Sadece farklı taşımayı öğreniyorsun. Yolculuğun benzersiz, geçerli ve derin bir insan."
+}

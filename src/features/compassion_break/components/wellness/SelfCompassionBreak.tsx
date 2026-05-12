@@ -1,5 +1,6 @@
 import { useState, useCallback, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import ScreenPauseCheckIn from "./ScreenPauseCheckIn";
 import ScreenNameIt from "./ScreenNameIt";
 import ScreenBreathe from "./ScreenBreathe";
@@ -15,6 +16,7 @@ import { toast } from "sonner";
 const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
 
 const SelfCompassionBreak = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState(0);
   const [beforeIntensity, setBeforeIntensity] = useState(5);
   const [emotions, setEmotions] = useState<string[]>([]);
@@ -51,7 +53,7 @@ const SelfCompassionBreak = () => {
   const handleSave = async () => {
     const userId = sessionStorage.getItem("user_id");
     if (!userId || !DATABASE_URL) {
-      toast.error("Auth session missing or DB not configured");
+      toast.error(t("auth_error"));
       return;
     }
 
@@ -67,24 +69,24 @@ const SelfCompassionBreak = () => {
     try {
       const sql = neon(DATABASE_URL);
       await sql`INSERT INTO compassion_break_entries (user_id, break_data) VALUES (${userId}, ${breakData})`;
-      toast.success("Reflection preserved");
+      toast.success(t("save_success"));
       setHistory(prev => [breakData, ...prev]);
       setScreen(6); // Go to completion screen
     } catch (error) {
       console.error("Failed to save break:", error);
-      toast.error("Failed to preserve reflection");
+      toast.error(t("save_error"));
     } finally {
       setIsSaving(false);
     }
   };
 
-  const titles = ["Check-in", "Identify", "Breathing", "Kindness", "Shift", "Reflect", "Complete"];
+  const titles = t("screen_titles", { returnObjects: true }) as string[];
 
   if (screen === 6) {
     return (
       <PremiumComplete
-        title="Break Complete"
-        message="You took a moment to be kind to yourself. That gentle shift in perspective is a powerful step toward resilience."
+        title={t("complete_title")}
+        message={t("complete_message")}
         onRestart={reset}
       />
     );
@@ -120,7 +122,7 @@ const SelfCompassionBreak = () => {
 
   return (
     <PremiumLayout
-      title="Compassion Break"
+      title={t("app_title")}
       subtitle={titles[screen]}
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={screen > 0 ? () => setScreen(prev => prev - 1) : undefined}

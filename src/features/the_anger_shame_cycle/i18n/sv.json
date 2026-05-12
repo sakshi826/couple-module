@@ -1,0 +1,72 @@
+{
+  "app_title": "Ilska-skamcykeln",
+  "app_subtitle": "Att förstå loopen • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Varför kommer ilskan hela tiden tillbaka?",
+      "description": "Det kanske inte är ditt humör. Det finns en dold loop mellan ilska och skam – och när du väl ser den förändras allt.",
+      "quote": "\"De flesta försöker fixa ilskan. Men skam är det som tyst håller det igång.\"",
+      "button": "Låt oss utforska"
+    },
+    "s2": {
+      "tag": "Cykeln",
+      "title": "Loopen förklarades",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Ilska uppstår"
+        },
+        {
+          "emoji": "😔",
+          "label": "Skam: \"Jag är dålig\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "Skammen begravs"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Vreden bryter ut igen"
+        }
+      ],
+      "button": "Jag ser det"
+    },
+    "s3": {
+      "tag": "Vad händer",
+      "title": "Två känslor, en fälla",
+      "anger": {
+        "title": "🔥 Ilska",
+        "desc": "En sekundär känsla — under liv finns smärta, rädsla eller avvisande. Det är larmet, inte branden."
+      },
+      "shame": {
+        "title": "😔 Skam",
+        "desc": "\"Jag är dålig\" — inte bara \"Jag gjorde något dåligt.\" Den gömmer sig, tystar och håller cykeln snurrande."
+      },
+      "button": "Att bryta sig fri"
+    },
+    "s4": {
+      "tag": "Avbrott",
+      "title": "Avbryt cykeln",
+      "steps": [
+        {
+          "title": "Namnge källan",
+          "desc": "Fråga: 'Vad känner jag egentligen?' Skadad? Rädd? Osedd? Att namnge den försvagar den."
+        },
+        {
+          "title": "Medkänslapaus",
+          "desc": "Handen på bröstet. Säg: 'Det här är svårt. Jag är människa. Jag klarar det här.'"
+        },
+        {
+          "title": "Reparera med grace",
+          "desc": "Gör bot om det behövs – men snurra inte iväg. Du är inte ditt sämsta ögonblick."
+        }
+      ],
+      "notice": "Att märka cykeln är redan första steget. Du gör jobbet.",
+      "button": "Fullständig aktivitet"
+    }
+  },
+  "complete": {
+    "title": "Cykeln avbruten",
+    "message": "Du har fått medvetenheten att se sambandet mellan ilska och skam. Detta är grunden för varaktig känslomässig frihet."
+  }
+}

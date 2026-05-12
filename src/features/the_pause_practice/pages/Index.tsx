@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 import { Timer } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import IntroScreen from "@/features/the_pause_practice/components/IntroScreen";
 import ScenarioScreen from "@/features/the_pause_practice/components/ScenarioScreen";
 import HoldScreen from "@/features/the_pause_practice/components/HoldScreen";
@@ -10,6 +11,7 @@ import { PremiumLayout } from "@/components/shared/PremiumLayout";
 type Screen = "intro" | "scenario" | "hold" | "result";
 
 const Index = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState<Screen>("intro");
   const [scenario, setScenario] = useState("other");
 
@@ -29,8 +31,8 @@ const Index = () => {
 
   return (
     <PremiumLayout
-      title="Pause Practice"
-      subtitle="Master the space between"
+      title={t("app_title")}
+      subtitle={t("app_subtitle")}
       icon={<Timer className="w-6 h-6 text-primary" />}
       onBack={screen !== "intro" ? () => setScreen("intro") : undefined}
     >

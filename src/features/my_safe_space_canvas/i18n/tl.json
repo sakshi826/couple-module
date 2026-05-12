@@ -1,0 +1,98 @@
+{
+  "app_title": "Ligtas na Space Canvas",
+  "step_label": "Hakbang {{current}} ng 5",
+  "welcome": {
+    "title": "Naghihintay ang iyong ligtas na lugar",
+    "description": "Bumuo ng iyong sariling santuwaryo sa pamamagitan ng isang serye ng mga banayad na malikhaing pahiwatig. Isang blangko na canvas para sa iyong mga saloobin at damdamin.",
+    "benefits": [
+      "Ipahayag ang Iyong Sarili Sa Pamamagitan ng Kulay",
+      "Lumikha ng isang Visual Grounding Tool",
+      "Ligtas, pribado, at personal"
+    ],
+    "duration": "10-15 minuto",
+    "view_past": "Tingnan ang Mga Nakaraang Collage"
+  },
+  "canvas": {
+    "prompts": [
+      {
+        "quote": "Ano ang hitsura ng kalangitan sa iyong ligtas na lugar? Gumuhit ng kulay, liwanag, o damdamin nito.",
+        "button": "Idinagdag ko ang langit →",
+        "hint": "Walang tamang paraan - anumang marka ay sapat."
+      },
+      {
+        "quote": "Ano ang pakiramdam ng lupa? Damo, buhangin, tubig, sahig na gawa sa kahoy? Idagdag ito sa ibaba ng kalangitan.",
+        "button": "Idinagdag ko ang lupa →",
+        "hint": "Isipin kung ano ang nararamdaman ng iyong mga paa sa lugar na ito."
+      },
+      {
+        "quote": "Idagdag ang isang bagay na nararapat dito - isang puno, isang upuan, isang bintana, isang alagang hayop, isang lampara. Anumang bagay na nararamdaman na tama.",
+        "button": "May idinagdag ako →",
+        "hint": "Hindi ito kailangang magmukhang perpekto. Kailangan lang itong makaramdam ng totoo."
+      },
+      {
+        "quote": "Ano ang nagdudulot ng init o kaginhawahan sa lugar na ito? Isang ilaw, isang apoy, sikat ng araw, isang kumot? Idagdag ito kahit saan mo naramdaman na tama.",
+        "button": "Idinagdag ko ang init →",
+        "hint": "Kahit na ang isang maliit na tuldok ng kulay ay binibilang."
+      },
+      {
+        "quote": "Sa wakas - magdagdag ng 3 hanggang 5 mga salita na nabibilang dito. I-tap ang iyong pagguhit upang ilagay ang mga ito kahit saan.",
+        "button": "Ito ang aking mga salita →",
+        "hint": ""
+      }
+    ],
+    "word_chips": [
+      "Kapayapaan",
+      "Tahanan",
+      "Langit",
+      "Kalmado",
+      "Mainit",
+      "Sapat na",
+      "Magiliw",
+      "Ligtas"
+    ],
+    "custom_word_placeholder": "+ ang iyong sariling",
+    "skip_prompt": "laktawan ang prompt na ito",
+    "type_here": "I-type dito"
+  },
+  "save": {
+    "title": "Panatilihin ang iyong ligtas na lugar",
+    "desc": "Bigyan ang iyong nilikha ng isang pangalan at isang maikling pagmumuni-muni.",
+    "preview_alt": "Ang iyong ligtas na lugar collage",
+    "generating_preview": "Pagbuo ng Preview...",
+    "name_label": "Ano ang tawag mo sa lugar na ito?",
+    "name_placeholder": "E.G., Ang Aking Linggo Meadow",
+    "reflection_label": "Bakit mahalaga ang lugar na ito? (Opsyonal)",
+    "reflection_placeholder": "Isang banayad na pangungusap ...",
+    "privacy_note": "Ito ay nananatiling pribado - nakikita lamang sa iyo at sa iyong therapist.",
+    "button": "I-save ang Aking Ligtas na Lugar",
+    "default_name": "Ang Aking Ligtas na Lugar"
+  },
+  "grounding": {
+    "title": "Narito ka. Ligtas ka.",
+    "breathe_info": "4 · hold · 4 · pabayaan · 6",
+    "done_message": "Mahusay na ginawa para sa pagpapakita para sa iyong sarili ngayon.",
+    "durations": [
+      {
+        "label": "1 minuto",
+        "seconds": "60"
+      },
+      {
+        "label": "3 minuto",
+        "seconds": "180"
+      },
+      {
+        "label": "5 minuto",
+        "seconds": "300"
+      }
+    ],
+    "phases": [
+      "Huminga sa",
+      "Hawakan",
+      "Pabayaan"
+    ]
+  },
+  "history": {
+    "title": "Mga nakaraan na ligtas na lugar",
+    "no_collages": "Wala pang naka-save na collage. Kumpletuhin ang aktibidad upang mai-save ang iyong unang aktibidad."
+  }
+}

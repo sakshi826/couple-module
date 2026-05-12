@@ -1,0 +1,65 @@
+{
+  "app_title": "Obligasi Berkelanjutan",
+  "welcome_title": "Cinta tidak berakhir ketika seseorang pergi.",
+  "welcome_subtitle": "Koneksi yang Anda bagikan berlanjut dalam banyak hal. Tarik napas perlahan, dan lakukan dengan kecepatan Anda sendiri.",
+  "begin_button": "Mulai Refleksi",
+  "screen_titles": {
+    "welcome": "Selamat datang",
+    "choose": "Koneksi",
+    "bond": "Tindakan",
+    "review": "Refleksi",
+    "closing": "Perawatan Akhir",
+    "complete": "Ikatan Dipertahankan"
+  },
+  "choose_question": "Bagaimana Anda masih merasa terhubung?",
+  "write_heart": "Tulis dari hati...",
+  "continue_button": "Lanjutkan",
+  "action_title": "Menghubungkan dalam tindakan",
+  "sharing_optional": "Berbagi bersifat opsional...",
+  "preserve_button": "Mempertahankan Refleksi",
+  "preserving": "Melestarikan...",
+  "preserved_title": "Diawetkan",
+  "preserved_subtitle": "\"Koneksi ini adalah bagian dari Anda. Kamu bisa kembali ke sana kapan saja.\"",
+  "finish_button": "Selesaikan untuk saat ini",
+  "add_another": "Tambahkan Yang Lain",
+  "closing_p1": "Orang yang kita cintai menjadi bagian dari siapa kita. 🤍",
+  "closing_p2": "Mereka hidup dalam cara Anda tertawa, cerita yang Anda ceritakan, dan saat-saat tenang ketika Anda merasakannya dekat.",
+  "closing_p3": "Bagaimanapun ikatan Anda muncul — itu nyata, dan itu penting.",
+  "save_exit_button": "Simpan & Keluar",
+  "complete_title": "Ikatan Dipertahankan",
+  "complete_message": "Orang yang kita cintai menjadi bagian dari siapa kita. Hubungan Anda berlanjut dengan cara Anda menghormati mereka.",
+  "auth_error": "Sesi autentikasi hilang atau DB tidak dikonfigurasi",
+  "save_success": "Refleksi ikatan dipertahankan",
+  "save_error": "Gagal mempertahankan refleksi",
+  "connection_options": [
+    {
+      "label": "Melalui kenangan",
+      "prompt": "Bisakah Anda berbagi kenangan di mana Anda merasakan kehadiran mereka?",
+      "deeper": "Apa satu hal tentang mereka yang tetap bersama Anda?"
+    },
+    {
+      "label": "Dalam hal-hal yang saya katakan atau lakukan",
+      "prompt": "Bagian apa dari mereka yang Anda bawa dalam kehidupan sehari-hari Anda?",
+      "deeper": "Bagaimana ini muncul dalam hidup Anda hari ini?"
+    },
+    {
+      "label": "Di saat-saat kehidupan sehari-hari saya",
+      "prompt": "Kapan Anda merasa mereka dekat di siang hari Anda?",
+      "deeper": "Apa satu hal tentang mereka yang tetap bersama Anda?"
+    },
+    {
+      "label": "Dalam apa yang masih ingin saya katakan kepada mereka",
+      "prompt": "Apakah ada sesuatu yang masih ingin Anda katakan kepada mereka?",
+      "deeper": "Apa yang paling Anda ingin mereka ketahui sekarang?"
+    },
+    {
+      "label": "Dalam perasaan atau kehadiran",
+      "prompt": "Bagaimana kehadiran mereka masih muncul untuk Anda?",
+      "deeper": "Bagaimana ini muncul dalam hidup Anda hari ini?"
+    }
+  ],
+  "bond_prompts": [
+    "Apa salah satu cara kecil Anda merasa terhubung dengan mereka hari ini?",
+    "Apa sesuatu yang Anda lakukan yang membawa bagian dari mereka?"
+  ]
+}

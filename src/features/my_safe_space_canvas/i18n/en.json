@@ -1,0 +1,76 @@
+{
+  "app_title": "Safe Space Canvas",
+  "step_label": "Step {{current}} of 5",
+  "welcome": {
+    "title": "Your safe place is waiting",
+    "description": "Build your own sanctuary through a series of gentle creative prompts. A blank canvas for your thoughts and feelings.",
+    "benefits": [
+      "Express yourself through color",
+      "Create a visual grounding tool",
+      "Safe, private, and personal"
+    ],
+    "duration": "10-15 minutes",
+    "view_past": "View Past Collages"
+  },
+  "canvas": {
+    "prompts": [
+      {
+        "quote": "What does the sky look like in your safe place? Draw its colour, light, or feeling.",
+        "button": "I've added the sky →",
+        "hint": "There's no right way — any mark is enough."
+      },
+      {
+        "quote": "What does the ground feel like? Grass, sand, water, a wooden floor? Add it below the sky.",
+        "button": "I've added the ground →",
+        "hint": "Think about what your feet feel in this place."
+      },
+      {
+        "quote": "Add one thing that belongs here — a tree, a chair, a window, a pet, a lamp. Anything that feels right.",
+        "button": "I've added something →",
+        "hint": "It doesn't have to look perfect. It just has to feel true."
+      },
+      {
+        "quote": "What brings warmth or comfort to this place? A light, a fire, sunlight, a blanket? Add it wherever it feels right.",
+        "button": "I've added the warmth →",
+        "hint": "Even a small dot of colour counts."
+      },
+      {
+        "quote": "Finally — add 3 to 5 words that belong here. Tap your drawing to place them anywhere.",
+        "button": "These are my words →",
+        "hint": ""
+      }
+    ],
+    "word_chips": ["Peace", "Home", "Heaven", "Calm", "Warm", "Enough", "Gentle", "Safe"],
+    "custom_word_placeholder": "+ your own",
+    "skip_prompt": "skip this prompt",
+    "type_here": "Type here"
+  },
+  "save": {
+    "title": "Preserve your safe place",
+    "desc": "Give your creation a name and a brief reflection.",
+    "preview_alt": "Your safe place collage",
+    "generating_preview": "Generating Preview...",
+    "name_label": "What do you call this place?",
+    "name_placeholder": "e.g., My Sunday Meadow",
+    "reflection_label": "Why does this place matter? (Optional)",
+    "reflection_placeholder": "One gentle sentence...",
+    "privacy_note": "This stays private — only visible to you and your therapist.",
+    "button": "Save My Safe Place",
+    "default_name": "My Safe Place"
+  },
+  "grounding": {
+    "title": "You're here. You're safe.",
+    "breathe_info": "4 · hold · 4 · let go · 6",
+    "done_message": "Well done for showing up for yourself today.",
+    "durations": [
+      { "label": "1 min", "seconds": 60 },
+      { "label": "3 min", "seconds": 180 },
+      { "label": "5 min", "seconds": 300 }
+    ],
+    "phases": ["Breathe in", "Hold", "Let go"]
+  },
+  "history": {
+    "title": "Past safe places",
+    "no_collages": "No saved collages yet. Complete the activity to save your first one."
+  }
+}

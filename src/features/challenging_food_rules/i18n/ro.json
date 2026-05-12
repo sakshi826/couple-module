@@ -1,0 +1,56 @@
+{
+  "app_title": "Reguli alimentare provocatoare",
+  "welcome_title": "Regulile privind mâncarea nu sunt legi.",
+  "welcome_subtitle": "Toți avem reguli legate de mâncare — unele utile, altele nu. Acesta este un spațiu sigur pentru a observa o regulă și a reflecta blând asupra ei.",
+  "begin_button": "Să începem",
+  "screen_titles": {
+    "intro": "Conștientizare blândă",
+    "identify": "Denumirea regulii",
+    "feeling": "Impact emoțional",
+    "impact": "Impact fizic",
+    "challenge": "Provocare moale",
+    "permission": "Acordarea permisiunii",
+    "step": "Pași blânzi",
+    "takeaway": "Rezumat",
+    "close": "Reflecție"
+  },
+  "rule_label": "Denumirea regulii",
+  "rule_question": "Care e regula?",
+  "rule_options": [
+    "Nu ar trebui să mănânc după o anumită oră",
+    "Unele alimente sunt interzise",
+    "Trebuie să controlez porțiunile strict"
+  ],
+  "rule_something_else": "Altceva...",
+  "rule_placeholder": "Scrie-ți regula alimentară...",
+  "feeling_label": "Impact emoțional",
+  "feeling_question": "Cum se simte asta?",
+  "feeling_options": [
+    "😟 Anxios",
+    "😌 În control",
+    "😕 Vinovat",
+    "😣 Restricționat",
+    "😴 Obosit",
+    "😐 Mixt"
+  ],
+  "challenge_label": "Provocare moale",
+  "challenge_question": "Întrebare blândă...",
+  "reflections": {
+    "Is this rule too strict?": "Se simte flexibil sau creează presiune să urmez totul perfect?",
+    "Is this actually helping me?": "Această regulă îți susține bunăstarea sau adaugă stres sau vinovăție?",
+    "What happens when I can't follow it?": "Ce observi când această regulă nu merge conform planului?"
+  },
+  "reflection_saved": "Reflecție salvată",
+  "your_reflection": "Reflecția ta",
+  "label_rule": "Regula",
+  "label_feeling": "Sentimentul",
+  "preserve_button": "Păstrează reflecția",
+  "preserving": "Păstrând...",
+  "continue_button": "Continuă",
+  "next_button": "Următorul",
+  "complete_title": "Conștientizare dobândită",
+  "complete_message": "Conștientizarea este primul pas spre libertate. Ai făcut un pas curajos identificând și reflectând asupra unei reguli alimentare. Poartă această înțelegere blândă cu tine astăzi.",
+  "auth_error": "Sesiune de autentificare lipsă sau bază de date neconfigurată",
+  "save_success": "Reflecție păstrată",
+  "save_error": "A eșuat să păstreze reflexia"
+}

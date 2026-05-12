@@ -1,0 +1,22 @@
+{
+  "app_title": "Mô hình mối quan hệ",
+  "app_subtitle": "Giải nén bản thiết kế của bạn",
+  "complete_title": "Nhận thức đạt được",
+  "complete_message": "Hiểu các mẫu của bạn là bước đầu tiên để viết lại chúng. Bạn mang sức mạnh để chọn một con đường khác.",
+  "screen1": {
+    "tag": "Khám phá mẫu",
+    "intro": "Bạn đã bao giờ cảm thấy như bạn đã từng ở đây trước đây chưa?",
+    "title": "Nếu các mối quan hệ của bạn tiếp tục kết thúc theo cùng một cách - đó không phải là xui xẻo.",
+    "desc": "Các mối quan hệ chúng ta chọn tuân theo một kế hoạch chi tiết được viết từ lâu trước khi chúng ta yêu. Sự quen thuộc thường giống như sự an toàn, ngay cả khi nó dẫn đến những cuộc tranh cãi cũ.",
+    "quote": "\"Chúng tôi lặp lại các mô hình không phải vì chúng tôi bị phá vỡ - mà vì chúng cảm thấy quen thuộc.\"",
+    "button": "Tiếp tục giải nén"
+  },
+  "screen2": {
+    "tag": "Mẫu",
+    "intro": "Nó bắt đầu sớm hơn bạn nghĩ.",
+    "title": "Các mối quan hệ sớm nhất trở thành khuôn mẫu cho tất cả những gì tiếp theo.",
+    "desc": "Cách người chăm sóc của bạn đáp ứng nhu cầu của bạn đã âm thầm định hình cách bạn liên hệ với người khác khi trưởng thành. Đây là những câu trả lời đã học được - và chúng có thể không được học.",
+    "quote": "\"Mô hình của bạn đã có ý nghĩa một lần. Câu hỏi đặt ra là - nó có còn phục vụ bạn bây giờ không?\"",
+    "button": "Hoàn thành phản xạ"
+  }
+}

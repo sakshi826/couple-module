@@ -1,0 +1,26 @@
+{
+  "app_title": "Chybí mi někdo",
+  "subtitles": [
+    "Validace",
+    "Vnitřní moudrost",
+    "Dokončeno"
+  ],
+  "complete_title": "Jasnost získaná",
+  "complete_message": "Pochopení chemie postrádání někoho je prvním krokem k uzdravení. Vaše pocity jsou platné a váš mozek jen plní svou práci – chrání a zpracovává.",
+  "screen1": {
+    "tag": "Validace",
+    "intro": "To neznamená, že jsi slabý.",
+    "title": "Chybí vám někdo, kdo vám ublížil, je hluboce lidské.",
+    "desc": "Odešel jsi. Nebo odešli. A přesto — stále saháš po telefonu a doufáš, že jsou to oni. Stále si přehráváte víc dobré chvíle než ty bolestivé. Tento rozpor není chyba. Je to způsob, jakým mozek zpracovává ztrátu.",
+    "quote": "\"Nejenže ti chybí člověk. Chybí ti pocit, že jsi s nimi spojen.\"",
+    "button": "Další krok"
+  },
+  "screen2": {
+    "tag": "Věda o mozku",
+    "intro": "Vnitřní moudrost",
+    "title": "Láska vytváří chemické pouto.",
+    "desc": "Když někoho milujete, mozek uvolňuje dopamin, oxytocin a serotonin. Když skončí, tyto úrovně klesnou. Mozek truchlí — nejen nad člověkem, ale i nad pocitem blízkosti.",
+    "quote": "\"To, že ti chybí, neznamená, že bys měl jít zpátky. Tvé srdce truchlí nad poutem — ne nutně nad osobou, jaká skutečně byla.\"",
+    "button": "Finish Reflection"
+  }
+}

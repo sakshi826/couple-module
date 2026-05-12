@@ -1,0 +1,93 @@
+{
+  "app_title": "Prédiction vs Réalité",
+  "step_label": "Étape {{current}} de 8",
+  "intro": {
+    "title": "Prédiction vs Réalité",
+    "description": "Comparez vos prédictions anxieuses à ce qui se passe réellement pour construire une perspective plus équilibrée.",
+    "benefits": [
+      "Identifier les schémas anxieux",
+      "Rassembler des preuves contre les peurs",
+      "Réduire la suranalyse à l’avenir"
+    ],
+    "duration": "4-5 minutes",
+    "view_past": "Voir les réflexions passées"
+  },
+  "history": {
+    "title": "Réflexions passées",
+    "no_reflections": "Aucune réflexion sauvegardée pour l’instant.",
+    "prediction_label": "Prédiction",
+    "reality_label": "Réalité",
+    "reflection_label": "Réflexion :"
+  },
+  "complete": {
+    "title": "Activité terminée",
+    "saved_title": "Réflexion sauvegardée",
+    "message": "En regardant les faits, vous aidez votre esprit à comprendre que les choses sont souvent plus gérables qu’elles n’en ont l’air."
+  },
+  "emotions": [
+    "Anxieux",
+    "Nerveux",
+    "Effrayé",
+    "Submergé",
+    "Mal à l’aise"
+  ],
+  "intensity_labels": {
+    "not_intense": "Pas intense",
+    "very_intense": "Très intense"
+  },
+  "comparison_options": [
+    "Ça s’est passé presque exactement comme je l’avais imaginé",
+    "Certaines parties étaient justes, mais pas toutes",
+    "C’était assez différent de ce à quoi je m’attendais",
+    "C’était bien plus facile/meilleur que ce que j’imaginais"
+  ],
+  "screens": {
+    "s1": {
+      "title": "Pensez à une situation récente",
+      "desc": "Rappelez-vous un moment récent où vous vous êtes senti anxieux ou incertain.",
+      "placeholder": "Décrivez la situation..."
+    },
+    "s2": {
+      "title": "Qu’est-ce que tu pensais qu’il allait se passer ?",
+      "desc": "Qu’attendais-tu ou craignais-tu à ce moment-là ?",
+      "placeholder": "J’avais peur que..."
+    },
+    "s3": {
+      "title": "Comment vous êtes-vous senti ?",
+      "desc": "Sélectionnez les émotions que vous avez ressenties et leur intensité."
+    },
+    "s4": {
+      "title": "Que s’est-il réellement passé ?",
+      "desc": "Concentrez-vous sur les faits de ce qui s’est réellement passé.",
+      "placeholder": "En réalité..."
+    },
+    "s5": {
+      "title": "Regardons les deux",
+      "expectation": "Attentes",
+      "reality": "Réalité",
+      "question": "À quel point vos attentes étaient-elles proches ?"
+    },
+    "s6": {
+      "title": "Qu’est-ce que tu remarques ?",
+      "desc": "Est-ce que c’était aussi mauvais que tu l’imaginais ?",
+      "placeholder": "Je remarque que..."
+    },
+    "s7": {
+      "title": "La prochaine fois",
+      "desc": "Que pourriez-vous vous rappeler si cela se reproduit ?",
+      "placeholder": "par exemple, « Peut-être que ce ne sera pas aussi terrible que je l’imagine. »"
+    },
+    "s8": {
+      "title": "Un petit rappel",
+      "desc": "Votre esprit essaie de vous préparer — mais il ne prédit pas toujours avec précision. Chaque fois que vous prenez une pause pour regarder les faits, vous renforcez votre résilience.",
+      "button": "Sauvegarder la réflexion",
+      "discard": "Entrée à la défausse"
+    }
+  },
+  "buttons": {
+    "continue": "Continuez"
+  },
+  "toasts": {
+    "saved": "Réflexion sauvée !"
+  }
+}

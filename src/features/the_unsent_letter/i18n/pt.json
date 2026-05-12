@@ -1,0 +1,50 @@
+{
+  "app_title": "A Carta Não Enviada",
+  "app_subtitle": "Libere seus pensamentos de forma segura e privada",
+  "intro": {
+    "title": "A Carta Não Enviada",
+    "description": [
+      "Às vezes, há coisas que gostaríamos de poder dizer — mas nunca tivemos a chance.",
+      "Isso podia ser porque não parecia seguro, o momento não era o certo ou as palavras eram difíceis demais de dizer em voz alta.",
+      "Essa atividade oferece um espaço privado para colocar esses pensamentos em palavras.",
+      "Você não precisa enviar essa carta. Isso é só para você — para expressar, liberar e entender melhor seus sentimentos."
+    ],
+    "notice": "Escreva livremente. Ninguém mais vai ver isso.",
+    "button": "Comece a escrever →"
+  },
+  "writing": {
+    "title": "Escreva o que você tem guardado",
+    "desc": "Você pode escrever para seu parceiro, ex-parceiro ou até mesmo para o próprio relacionamento. Não existe um jeito certo ou errado de fazer isso.",
+    "prompts": [
+      "Eu me sinto...",
+      "Queria...",
+      "Eu nunca disse...",
+      "O que me machucou...",
+      "O que eu precisava..."
+    ],
+    "placeholder": "Querido ____,\nEu queria dizer...",
+    "notice": "Você pode pausar e voltar a qualquer momento.",
+    "button": "Continue →"
+  },
+  "reflection": {
+    "title": "Tire um momento com isso",
+    "description": [
+      "Você acabou de colocar seus pensamentos e sentimentos em palavras — isso exige coragem.",
+      "Você pode notar uma mistura de emoções agora, e isso está completamente bem.",
+      "Antes de seguir em frente, respire fundo e cheque você mesmo com delicadeza."
+    ],
+    "notice": "Isso era para sua cura, não para enviar.",
+    "save_button": "Carta de Salvar",
+    "finish_button": "Fim"
+  },
+  "history": {
+    "title": "Cartas Passadas",
+    "empty_title": "Você ainda não escreveu nenhuma carta.",
+    "empty_desc": "Suas cartas aparecerão aqui depois que você as salvar."
+  },
+  "toasts": {
+    "save_success": "Carta salva no seu diário particular",
+    "save_error": "Falhou em salvar a carta",
+    "auth_error": "Sessão de autenticação ausente ou banco de dados não configurado"
+  }
+}

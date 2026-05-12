@@ -1,0 +1,72 @@
+{
+  "app_title": "La tua narrazione",
+  "nav": {
+    "entry": "Benvenuto",
+    "writing": "Espressione",
+    "landing": "Riflettendo",
+    "history": "Il tuo viaggio"
+  },
+  "entry": {
+    "title": "Facciamo un passo alla volta. 💛",
+    "description": [
+      "Non devi raccontare tutta la tua storia oggi. Basta, anche solo una piccola parte.",
+      "Sei al sicuro adesso. Hai il controllo su ciò che scrivi—e su ciò che non scrivi."
+    ],
+    "breath": "Fai un respiro lento prima di cominciare.",
+    "button_ready": "Sono pronto",
+    "button_history": "Narrazioni passate",
+    "footer": "Le tue parole • Il tuo ritmo • La tua storia"
+  },
+  "writing": {
+    "title": "Scrivi ciò che ti sembra a posto ✨",
+    "subtitle": "Le tue parole, il tuo passo",
+    "prompt_label": "Hai bisogno di un punto di partenza?",
+    "prompts": [
+      {
+        "text": "Quello che ricordo di più è...",
+        "emoji": "💭"
+      },
+      {
+        "text": "In quel momento, mi sono sentito...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "Da allora, ho notato...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "Inizia a scrivere qui...",
+    "notice": "Non c'è un modo giusto per farlo. Anche poche battute bastano.",
+    "button": "Termina la scrittura"
+  },
+  "landing": {
+    "title": "Hai fatto qualcosa di importante.",
+    "subtitle": "Grazie per esserti presentata per te stessa.",
+    "settle_title": "Facciamo un momento per sistemarci",
+    "steps": [
+      "Guarda intorno e nomina 3 cose che riesci a vedere.",
+      "Fai un respiro lento... e fuori."
+    ],
+    "feeling_label": "In questo momento, mi sento:",
+    "feeling_placeholder": "Una parola o due...",
+    "quote": "\"Non devi portare tutto insieme. Puoi tornare quando ti sentirai pronto.\"",
+    "button_save": "Preserva la narrazione",
+    "button_preserving": "Preservare..."
+  },
+  "history": {
+    "title": "Il tuo viaggio 📝",
+    "subtitle": "Narrazioni e riflessioni passate",
+    "empty": "Non hai ancora salvato nessuna voce. Prenditi il tuo tempo—non c'è fretta.",
+    "no_writing": "Nessuna scritta conservata",
+    "button_back": "Ritorno all'attività"
+  },
+  "complete": {
+    "title": "Narrazione conservata",
+    "message": "Hai fatto un passo potente nel raccontare la tua storia. La tua prospettiva conta, e il tuo percorso è unicamente tuo."
+  },
+  "toasts": {
+    "save_success": "Narrazione preservata",
+    "save_error": "Non è riuscito a preservare la narrazione",
+    "auth_error": "Sessione di autenticazione mancante o DB non configurato"
+  }
+}

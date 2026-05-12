@@ -1,0 +1,45 @@
+{
+  "intro": {
+    "title": "Sevdiğiniz Aktiviteler",
+    "subtitle": "Mutlu Anları Yeniden Keşfetmek",
+    "p1": "Kendinizi kötü hissederken, kaygılı veya bunalmış hissederken, size neyin neşe getirdiğini hatırlamak zor olabilir.",
+    "p2": "Bu etkinlik daha fazlasını yapmak için değil. Hafif, sakin veya anlamlı hissettiren küçük anları fark etmekle ilgilidir.",
+    "p3": "Mutlu hissetmek için hiçbir baskı yok. Sadece biraz da olsa iyi hissettiren şeyleri keşfediyoruz.",
+    "button": "Başla"
+  },
+  "recall": {
+    "title": "Bir Anı Düşünün",
+    "p1": "Bir an düşünün — yakın ya da uzak — en ufak bir zevk, huzur ya da rahatlık hissettiğin bir anı. Büyük olması gerekmez.",
+    "input1_label": "Sevdiğim (ya da eskiden keyif aldığım) bir aktivite...",
+    "input1_placeholder": "örneğin parkta yürümek",
+    "input2_label": "Bunu yaptığımda genellikle kendimi...",
+    "input2_placeholder": "örneğin sakin ve mevcut",
+    "button": "Devam et"
+  },
+  "meaning": {
+    "title": "Bunu anlamlı kılan nedir?",
+    "p1": "Bazen aktivitenin kendisi tek sevinç kaynağı değildir. Duygu, çevre ya da etrafındaki bağ olabilir.",
+    "input1_label": "Bunu seviyorum çünkü...",
+    "input1_placeholder": "örneğin bana özgürlük hissi veriyor",
+    "input2_label": "Bu etkinlik bana daha çok hissettiriyor...",
+    "input2_placeholder": "örneğin bağlı ve topraklanmış",
+    "input3_label": "Bana...",
+    "input3_placeholder": "Örneğin, çocukken yazlar",
+    "button": "Yansımamı Kurtar"
+  },
+  "smallStep": {
+    "title": "Küçük bir İleriye Adım",
+    "p1": "Her şeyi bir anda değiştirmene gerek yok.",
+    "p2": "Bu aktiviteyle küçük bir şekilde yeniden bağ kurmak mümkün olur mu?",
+    "input1_label": "Bu hafta atabileceğim küçük bir adım şu...",
+    "input1_placeholder": "örneğin 10 dakikalık bir yürüyüşe çıkın",
+    "button_save": "Kayd et",
+    "button_home": "Eve git"
+  },
+  "affirmation": {
+    "title": "Güzel bir adım attın",
+    "p1": "Sana mutluluk getiren şeyle — en küçük şekilde bile — yeniden bağ kurmak, kendine karşı bir iyilik eylemidir.",
+    "p2": "Hafif ve huzur anlarını hak ediyorsun. Kalbinizi tok hissettiren şeyleri beslemeye devam edin. 💛",
+    "button": "Eve Dönüş"
+  }
+}

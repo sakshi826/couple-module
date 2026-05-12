@@ -1,0 +1,26 @@
+{
+  "app_title": "Kehilangan Seseorang",
+  "subtitles": [
+    "Pengesahan",
+    "Kebijaksanaan dalaman",
+    "Lengkap"
+  ],
+  "complete_title": "Kejelasan yang diperoleh",
+  "complete_message": "Memahami kimia kehilangan seseorang adalah langkah pertama ke arah penyembuhan. Perasaan anda sah, dan otak anda hanya melakukan tugasnya untuk melindungi dan memproses.",
+  "screen1": {
+    "tag": "Pengesahan",
+    "intro": "Ia tidak bermakna anda lemah.",
+    "title": "Kehilangan seseorang yang menyakiti anda adalah sangat manusiawi.",
+    "desc": "Anda pergi. Atau mereka pergi. Namun — anda masih mencapai telefon anda dengan harapan ia adalah mereka. Anda masih memainkan semula detik-detik baik lebih daripada yang menyakitkan. Percanggahan ini bukan kecacatan. Begitulah cara otak anda memproses kehilangan.",
+    "quote": "\"Anda tidak hanya merindui orang itu. Anda merindui perasaan terikat dengan mereka.\"",
+    "button": "Langkah seterusnya"
+  },
+  "screen2": {
+    "tag": "Sains Otak",
+    "intro": "Kebijaksanaan dalaman",
+    "title": "Cinta mewujudkan ikatan kimia.",
+    "desc": "Apabila anda mencintai seseorang, otak anda mengeluarkan dopamin, oksitosin, dan serotonin. Apabila ia berakhir, tahap tersebut menurun. Otak anda bersedih - bukan sahaja orang itu, tetapi perasaan kedekatan.",
+    "quote": "\"Merindui mereka tidak bermakna anda perlu kembali. Hati anda berduka dengan ikatan - tidak semestinya orang itu sebagaimana adanya.\"",
+    "button": "Selesaikan Refleksi"
+  }
+}

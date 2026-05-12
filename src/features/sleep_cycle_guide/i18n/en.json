@@ -1,0 +1,101 @@
+{
+  "app_title": "Sleep Cycle Guide",
+  "pill_labels": [
+    "Introduction",
+    "The 4 stages",
+    "The groggy truth",
+    "What about you?"
+  ],
+  "s1": {
+    "title": "Ever sleep 8 hours and still feel terrible?",
+    "p1": "It's not about <1>how long</1> you sleep.",
+    "p2": "It's about <1>where</1> in your sleep cycle you wake up.",
+    "p3": "One thing changes when you understand this — everything.",
+    "insight": "💡 Your brain is actually more active during REM sleep than when you're fully awake!",
+    "duration": "Takes 3 minutes · lasts a lifetime",
+    "button": "Wait, really? Tell me more →"
+  },
+  "s2": {
+    "title": "Your brain does THIS every night 🌀",
+    "desc": "Every 90 minutes, your brain cycles through 4 stages — like a playlist on repeat. Tap each to explore 👇",
+    "stages": [
+      {
+        "emoji": "🌊",
+        "title": "Light sleep",
+        "tag": "1–5 mins · easily woken",
+        "body": "You're drifting off. Body starts to let go, muscles may twitch. Very easy to wake up from here."
+      },
+      {
+        "emoji": "💤",
+        "title": "Settling in",
+        "tag": "10–25 mins · truly asleep",
+        "body": "Heart rate slows, body temperature drops. You're properly asleep — brain activity begins to slow down."
+      },
+      {
+        "emoji": "🔵",
+        "title": "Deep sleep ⭐",
+        "tag": "20–40 mins · the gold",
+        "body": "Body repairs tissue, builds immunity. The most physically restorative stage — hard to wake from."
+      },
+      {
+        "emoji": "🌙",
+        "title": "REM sleep",
+        "tag": "10–60 mins · dream mode",
+        "body": "Brain buzzes with activity. Emotions get processed, memories lock in. Skipping this leaves you foggy."
+      }
+    ],
+    "italic": "Deep sleep fixes your body. REM fixes your mind.",
+    "button": "So why do I still feel groggy? →"
+  },
+  "s3": {
+    "title": "Waking mid-cycle = zombie mode 🧟",
+    "p1": "Dragged out of deep sleep by an alarm? Your brain literally hasn't finished what it was doing. That foggy heavy feeling? That's <1>sleep inertia</1>.",
+    "wave": {
+      "light": "light",
+      "deep": "deep",
+      "groggy": "😫 groggy",
+      "fresh": "😊 fresh",
+      "cycles": ["Cycle 1", "Cycle 2", "Cycle 3"]
+    },
+    "disruptors_title": "What disrupts your cycles 👇",
+    "disruptors": [
+      { "emoji": "📱", "text": "Screens before bed", "sub": "delays deep sleep" },
+      { "emoji": "☕", "text": "Late caffeine", "sub": "cuts deep sleep by up to 20%" },
+      { "emoji": "⏰", "text": "Irregular sleep times", "sub": "breaks your natural rhythm" },
+      { "emoji": "😰", "text": "Stress & anxiety", "sub": "keeps you stuck in light sleep" }
+    ],
+    "italic": "Your habits directly shape which stages you reach.",
+    "button": "What does this mean for me? →"
+  },
+  "s4": {
+    "title": "Which one sounds like you? 👇",
+    "options": [
+      {
+        "emoji": "😩",
+        "text": "I wake up physically exhausted",
+        "sub": "probably missing deep sleep",
+        "tip": "Focus on a consistent sleep and wake time — your body needs a regular rhythm to reach deep sleep."
+      },
+      {
+        "emoji": "🌫️",
+        "text": "I feel emotionally foggy or low",
+        "sub": "probably missing REM sleep",
+        "tip": "Try winding down 30 mins before bed — a calm pre-sleep routine protects your REM sleep."
+      },
+      {
+        "emoji": "😤",
+        "text": "I wake up a lot during the night",
+        "sub": "cycles keep getting interrupted",
+        "tip": "A cool, dark and quiet room helps your brain stay in deeper stages without interruption."
+      },
+      {
+        "emoji": "😐",
+        "text": "I feel okay but not great",
+        "sub": "cycles are partial but not complete",
+        "tip": "Try going to bed 20 mins earlier — you may just need one more complete sleep cycle."
+      }
+    ],
+    "quote": "Sleep isn't just rest — it's active recovery. Protect your cycles and your whole day changes.",
+    "button": "Done ✓"
+  }
+}

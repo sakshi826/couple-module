@@ -1,0 +1,188 @@
+{
+  "app_title": "Tetingkap Toleransi",
+  "screens": {
+    "welcome": {
+      "title": "Tetingkap Toleransi",
+      "subtitle": "Fahami sistem saraf anda.\nCari jalan kembali ke ketenangan.",
+      "description": "Aktiviti lembut ini akan membantu anda memahami di mana sistem saraf anda sekarang — dan memberi anda alat untuk mencari keseimbangan. Pergi mengikut kadar anda sendiri. Anda selamat di sini.",
+      "callout": "✨ Tarik nafas. Anda berada di tempat yang betul.",
+      "button": "Mari kita mulakan →",
+      "disclaimer": "Aktiviti ini adalah alat sokongan, bukan pengganti terapi profesional."
+    },
+    "explain": {
+      "title": "Sistem Saraf Anda Mempunyai Tetingkap",
+      "zones": {
+        "hyper": {
+          "label": "Hiperrangsangan",
+          "desc": "Terharu, panik, di luar kawalan.",
+          "tag": "🔴 Merah"
+        },
+        "safe": {
+          "label": "Zon Selamat",
+          "desc": "Tenang, hadir, boleh berfikir dengan jelas.",
+          "tag": "🟢 Hijau"
+        },
+        "hypo": {
+          "label": "Hypoarousal",
+          "desc": "Kebas, terputus, berkabus.",
+          "tag": "🔵 Biru"
+        }
+      },
+      "footer": "Trauma boleh menolak anda keluar dari tingkap anda. Ini membantu anda mengenali di mana anda berada dan masuk semula.",
+      "back": "← Kembali",
+      "next": "→ seterusnya"
+    },
+    "checkin": {
+      "title": "Di mana awak sekarang?",
+      "subtitle": "Tarik nafas. Kemudian pilih dengan jujur di mana anda berada sekarang.",
+      "footer": "Tiada jawapan yang salah. Ini hanyalah titik permulaan anda.",
+      "back": "← Kembali",
+      "next": "→ seterusnya",
+      "zones": {
+        "hyper": {
+          "label": "Di Atas Tetingkap Saya",
+          "desc": "Saya berasa cemas, panik, marah, atau terharu."
+        },
+        "safe": {
+          "label": "Di dalam Tingkap Saya",
+          "desc": "Saya berasa tenang, hadir dan berasas."
+        },
+        "hypo": {
+          "label": "Di bawah tetingkap saya",
+          "desc": "Saya berasa kebas, berkabus, atau terputus."
+        }
+      }
+    },
+    "zone": {
+      "hyper": {
+        "title": "Di Atas Tetingkap Anda",
+        "subtitle": "Sistem saraf anda berada dalam keadaan berlebihan. Tidak mengapa. Mari kita bawa anda kembali dengan lembut.",
+        "feelings": [
+          "Jantung berdegup kencang",
+          "Pernafasan cetek",
+          "Panik atau kemarahan",
+          "Fikiran berlumba",
+          "Kegelisahan"
+        ],
+        "tools": [
+          {
+            "name": "Pernafasan Kotak",
+            "desc": "Tarik nafas 4, bulan 4, hembus nafas 4, bulan 4. Ulangi 4 kali."
+          },
+          {
+            "name": "5-4-3-2-1 Pembumian",
+            "desc": "5 perkara melihat, 4 sentuhan, 3 mendengar, 2 bau, 1 rasa."
+          },
+          {
+            "name": "Kaki di Lantai",
+            "desc": "Tekan kaki ke bawah, katakan: 'Saya di sini. Saya selamat. Ini akan berlalu.'"
+          }
+        ],
+        "button": "Saya berasa sedikit lebih tenang →",
+        "footer": "Anda selamat. Ambil masa awak."
+      },
+      "hypo": {
+        "title": "Di bawah tetingkap anda",
+        "subtitle": "Sistem saraf anda telah menjadi senyap. Ia melindungi anda. Mari kita bangunkan semula dengan lembut.",
+        "feelings": [
+          "Kebas",
+          "Memutuskan sambungan",
+          "Keletihan yang melampau",
+          "Rasa tidak nyata",
+          "Kerataan"
+        ],
+        "tools": [
+          {
+            "name": "Pergerakan Lembut",
+            "desc": "Berdiri, berjalan perlahan-lahan, ayunkan lengan. Biarkan badan anda bangun."
+          },
+          {
+            "name": "Bunyi Berirama",
+            "desc": "Mainkan muzik dengan rentak yang mantap, ketuk kaki."
+          },
+          {
+            "name": "Bercakap dengan Kuat",
+            "desc": "Sebut nama anda, lokasi, tarikh hari ini dengan kuat. Libatkan semula otak berfikir."
+          }
+        ],
+        "button": "Saya berasa lebih hadir →",
+        "footer": "Anda melakukannya dengan hebat. Ambil langkah demi langkah."
+      },
+      "safe": {
+        "title": "Di Dalam Tetingkap Anda",
+        "subtitle": "Anda berada di zon selamat anda. Di sinilah penyembuhan, sambungan, dan pertumbuhan berlaku. Syabas.",
+        "feelings": [
+          "Sekarang & sedar",
+          "Pernafasan yang stabil",
+          "Pemikiran yang jelas",
+          "Bersambung"
+        ],
+        "tools": [
+          {
+            "name": "Teruskan Bernafas Perlahan",
+            "desc": "Masuk melalui hidung, keluar melalui mulut."
+          },
+          {
+            "name": "Renungkan",
+            "desc": "Apa yang membantu anda tinggal di sini? Tuliskannya."
+          },
+          {
+            "name": "Belas kasihan diri",
+            "desc": "'Sistem saraf saya menjalankan tugasnya. Saya tidak patah. Saya sedang sembuh.'"
+          }
+        ],
+        "button": "Teruskan ke Kit Alat Saya →",
+        "footer": "Anda layak dijaga dan disembuhkan."
+      }
+    },
+    "toolkit": {
+      "title": "🧰 Kit Alat Peribadi Anda",
+      "subtitle": "Alat pilihan anda — disimpan dan sedia pada bila-bila masa anda memerlukannya.",
+      "tools_list": [
+        "🌬️ Pernafasan Kotak",
+        "🖐️ 5-4-3-2-1",
+        "🦶 Kaki di Lantai",
+        "🚶 Pergerakan Lembut",
+        "🎵 Muzik",
+        "💬 Bercakap dengan Kuat"
+      ],
+      "journal_label": "📝 Refleksi Hari Ini",
+      "journal_desc": "Apakah satu saat hari ini apabila anda perasan sistem saraf anda berubah - dan apa yang anda lakukan mengenainya?",
+      "journal_placeholder": "Tulis di sini...",
+      "history_label": "📊 Sepintas Lalu Minggu Anda",
+      "save_button": "Simpan & Selesaikan ✓",
+      "footer": "Perjalanan anda penting. Kembali bila-bila masa anda memerlukan sokongan.",
+      "preserving": "Memelihara...",
+      "preserve_button": "Kekalkan Refleksi"
+    }
+  },
+  "nav": [
+    "Daftar masuk",
+    "Menerangkan",
+    "Pemantauan",
+    "Zon",
+    "Kit alat"
+  ],
+  "history": {
+    "title": "Sejarah daftar masuk",
+    "empty": "Belum ada daftar masuk."
+  },
+  "toasts": {
+    "save_success": "Daftar masuk dipelihara",
+    "save_error": "Gagal mengekalkan daftar masuk",
+    "auth_error": "Sesi pengesahan hilang atau DB tidak dikonfigurasikan"
+  },
+  "complete": {
+    "title": "Daftar masuk Lengkap",
+    "message": "Anda telah berjaya memetakan keadaan semasa anda. Membina kesedaran ialah langkah pertama ke arah mencari keseimbangan anda."
+  },
+  "days": [
+    "Saya",
+    "Selasa",
+    "Rabu",
+    "Musim luruh",
+    "Jumaat",
+    "Sabtu",
+    "Matahari"
+  ]
+}

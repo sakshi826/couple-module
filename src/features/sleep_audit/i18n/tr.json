@@ -1,0 +1,94 @@
+{
+  "app_title": "Uyku Denetimi",
+  "app_subtitle": "Dinlendiğini anla",
+  "intro": {
+    "title": "Uyku Denetiminiz",
+    "description": "Uykunuzu neyin etkilediğini ve küçük değişikliklerin nerede yardımcı olabileceğini anlayın.",
+    "start_button": "Denetime Başla",
+    "history_button": "Geçmiş Denetimler"
+  },
+  "screens": {
+    "s1": {
+      "phase": "Faz 01",
+      "title": "Uykun nasıl?",
+      "desc": "Son zamanlarda sizin için doğru gelen olanları seçin"
+    },
+    "s2": {
+      "phase": "Faz 02",
+      "title": "Tipik dinlenmenizi değerlendirin",
+      "label": "Özel endişeleriniz var mı?",
+      "placeholder": "Stres, gürültü, kaydırma..."
+    },
+    "s3": {
+      "score_label": "7",
+      "recommendations": {
+        "solid": "Alışkanlıkların sağlam! Küçük ayarlamalar daha da iyi hale getirebilir.",
+        "some": "Bazı aksaklıklar tespit edildi. Alışkanlık değişiklikleri hızlı yardımcı olabilir.",
+        "many": "Uykunuzu etkileyen birkaç faktör vardır. Bunları birlikte aşabiliriz."
+      }
+    }
+  },
+  "options": [
+    {
+      "emoji": "🕐",
+      "text": "Her gece çok farklı saatlerde yatıyorum"
+    },
+    {
+      "emoji": "💡",
+      "text": "Uyku ortamım ne karanlık, ne sessiz ne de rahat"
+    },
+    {
+      "emoji": "📱",
+      "text": "Uyumadan hemen önce telefonumda kaydırıyorum"
+    },
+    {
+      "emoji": "☕",
+      "text": "Yatma vaktine yakın kafein veya alkol kullanıyorum"
+    },
+    {
+      "emoji": "😵",
+      "text": "Gece uyanıyorum ve tekrar uyumaya çalışmakta zorlanıyorum"
+    },
+    {
+      "emoji": "🧠",
+      "text": "Uyumaya çalıştığımda zihnim düşüncelerle dolup taşır"
+    },
+    {
+      "emoji": "😔",
+      "text": "Bir gece uykusundan sonra nadiren kendimi ferahlanmış hissederim"
+    }
+  ],
+  "rating_labels": [
+    "Çok fakir",
+    "Zavallı",
+    "Tamam",
+    "İyi.",
+    "Harika"
+  ],
+  "status_labels": {
+    "track": "Çoğunlukla pistte",
+    "disruptions": "Bazı aksaklıklar",
+    "attention": "Dikkat gerektiriyor"
+  },
+  "buttons": {
+    "continue": "Devam et",
+    "see_results": "Sonuçları Gör",
+    "preserve": "Koruma Sonucu",
+    "preserving": "Koruma...",
+    "back_to_intro": "Girişe Geri Dön"
+  },
+  "history": {
+    "title": "Geçmiş Denetimler",
+    "no_entries": "Henüz bir denetim korunmamıştır.",
+    "score_label": "7"
+  },
+  "complete": {
+    "title": "Denetim Tamamlandı",
+    "message": "Uyku puanınız {{score}}/7'dir. Bu kalıpları anlamak, daha derin, daha iyileştirici dinlenmeye doğru ilk adımdır."
+  },
+  "toasts": {
+    "save_success": "Denetim kaydedildi",
+    "save_error": "Denetimi kaydedemedi",
+    "auth_error": "Doğrulama oturumu eksik veya veritabanı yapılandırılmadı"
+  }
+}

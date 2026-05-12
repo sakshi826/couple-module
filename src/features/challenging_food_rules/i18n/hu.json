@@ -1,0 +1,56 @@
+{
+  "app_title": "Étkezési szabályok megtámadása",
+  "welcome_title": "Az élelmiszerszabályok nem törvények.",
+  "welcome_subtitle": "Mindannyian szabályokat hordozunk az ételre vonatkozóan – némelyik hasznos, mások nem. Ez egy biztonságos hely, ahol észrevehetsz egy szabályt, és finoman átgondolhatod azt.",
+  "begin_button": "Kezdjük el",
+  "screen_titles": {
+    "intro": "Gyengéd tudatosság",
+    "identify": "A szabály elnevezése",
+    "feeling": "Érzelmi hatás",
+    "impact": "Fizikai hatás",
+    "challenge": "Soft Challenge",
+    "permission": "Engedély adása",
+    "step": "Gyengéd lépések",
+    "takeaway": "Összefoglaló",
+    "close": "Reflektív"
+  },
+  "rule_label": "A szabály elnevezése",
+  "rule_question": "Mi a szabály?",
+  "rule_options": [
+    "Egy bizonyos idő után nem kellene ennem",
+    "Néhány étel tilos",
+    "Szigorúan kell szabályoznom az adagokat"
+  ],
+  "rule_something_else": "Valami más...",
+  "rule_placeholder": "Írd be az ételszabályodat...",
+  "feeling_label": "Érzelmi hatás",
+  "feeling_question": "Milyen érzés ez?",
+  "feeling_options": [
+    "😟 Aggódó",
+    "😌 Irányítás alatt",
+    "😕 Bűnös",
+    "😣 Korlátozott",
+    "😴 Fáradt",
+    "😐 Vegyes"
+  ],
+  "challenge_label": "Soft Challenge",
+  "challenge_question": "Óvatosan kérdezd...",
+  "reflections": {
+    "Is this rule too strict?": "Ez rugalmasnak tűnik, vagy nyomást gyakorol arra, hogy tökéletesen követjük?",
+    "Is this actually helping me?": "Ez a szabály támogatja a jólétedet, vagy stresszt vagy bűntudatot okoz?",
+    "What happens when I can't follow it?": "Mit veszel észre, ha ez a szabály nem a tervek szerint alakul?"
+  },
+  "reflection_saved": "Visszaemlékezés mentve",
+  "your_reflection": "A tükörképed",
+  "label_rule": "A szabály",
+  "label_feeling": "Az érzés",
+  "preserve_button": "Megőrzés a reflektorálás",
+  "preserving": "Megőrizve...",
+  "continue_button": "Folytatás",
+  "next_button": "Következő",
+  "complete_title": "Tudatosság",
+  "complete_message": "A tudatosság az első lépés a szabadság felé. Bátor lépést tettél abban, hogy azonosítasz és átgondoltál egy ételszabályt. Vidd magaddal ezt a gyengéd megértést ma ma.",
+  "auth_error": "Hitelesítési alkalom hiányzik vagy adatbázis nincs konfigurálva",
+  "save_success": "Megőrzés",
+  "save_error": "Nem sikerült megőrizni a reflektorfényt"
+}

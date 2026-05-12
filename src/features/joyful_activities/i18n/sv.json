@@ -1,0 +1,45 @@
+{
+  "intro": {
+    "title": "Aktiviteter du tycker om",
+    "subtitle": "Återupptäckt av glädjefyllda stunder",
+    "p1": "När du känner dig nere, orolig eller överväldigad kan det vara svårt att minnas vad som ger dig glädje.",
+    "p2": "Den här aktiviteten handlar inte om att göra mer. Det handlar om att lägga märke till små ögonblick som känns lätta, lugna eller meningsfulla.",
+    "p3": "Det finns ingen press att känna sig lycklig. Vi utforskar helt enkelt vad som känns ens lite bra.",
+    "button": "Börja"
+  },
+  "recall": {
+    "title": "Tänk på ett ögonblick",
+    "p1": "Ta en stund för att minnas en tid – nyligen eller avlägsen – då du kände ens en liten känsla av glädje, frid eller trygghet. Det behöver inte vara stort.",
+    "input1_label": "En aktivitet jag tycker om (eller brukade tycka om) är...",
+    "input1_placeholder": "t.ex. promenera i parken",
+    "input2_label": "När jag gör så här känner jag mig oftast...",
+    "input2_placeholder": "t.ex. lugn och närvarande",
+    "button": "Fortsätt"
+  },
+  "meaning": {
+    "title": "Vad gör det meningsfullt?",
+    "p1": "Ibland är aktiviteten i sig inte den enda källan till glädje. Det kan vara känslan, miljön eller kontakten runt den.",
+    "input1_label": "Jag tycker om det här för att...",
+    "input1_placeholder": "Till exempel ger det mig en känsla av frihet",
+    "input2_label": "Den här aktiviteten får mig att känna mig mer...",
+    "input2_placeholder": "t.ex. ansluten och jordad",
+    "input3_label": "Det påminner mig om...",
+    "input3_placeholder": "t.ex. Summers som barn",
+    "button": "Rädda min spegelbild"
+  },
+  "smallStep": {
+    "title": "Ett litet steg framåt",
+    "p1": "Du behöver inte ändra allt på en gång.",
+    "p2": "Skulle det kännas möjligt att återknyta till denna aktivitet på ett litet sätt?",
+    "input1_label": "Ett litet steg jag kan ta den här veckan är...",
+    "input1_placeholder": "T.ex. ta en 10-minuters promenad",
+    "button_save": "Spara",
+    "button_home": "Gå hem"
+  },
+  "affirmation": {
+    "title": "Du tog ett vackert steg",
+    "p1": "Att återknyta kontakten med det som ger dig glädje – även på det minsta sättet – är en vänlig handling mot dig själv.",
+    "p2": "Du förtjänar stunder av lätthet och frid. Fortsätt vårda det som får ditt hjärta att kännas fullt. 💛",
+    "button": "Tillbaka hem"
+  }
+}

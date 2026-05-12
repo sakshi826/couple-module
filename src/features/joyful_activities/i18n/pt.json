@@ -1,0 +1,45 @@
+{
+  "intro": {
+    "title": "Atividades que você gosta",
+    "subtitle": "Redescobrindo Momentos Alegres",
+    "p1": "Quando você se sente pra baixo, ansioso ou sobrecarregado, pode ser difícil lembrar o que traz alegria.",
+    "p2": "Essa atividade não é sobre fazer mais. Trata-se de notar pequenos momentos que parecem leves, calmos ou significativos.",
+    "p3": "Não há pressão para se sentir feliz. Estamos simplesmente explorando o que faz sentir ao menos um pouco de bom.",
+    "button": "Início"
+  },
+  "recall": {
+    "title": "Pense um Momento",
+    "p1": "Reserve um momento para lembrar de um momento — recente ou distante — em que você sentiu ao menos um pequeno sentimento de prazer, paz ou conforto. Não precisa ser grande.",
+    "input1_label": "Uma atividade que eu gosto (ou costumava gostar) é...",
+    "input1_placeholder": "Por exemplo, caminhar no parque",
+    "input2_label": "Quando faço isso, geralmente me sinto...",
+    "input2_placeholder": "por exemplo, calmo e presente",
+    "button": "Continue"
+  },
+  "meaning": {
+    "title": "O que torna isso significativo?",
+    "p1": "Às vezes, a própria atividade não é a única fonte de alegria. Pode ser o sentimento, o ambiente ou a conexão ao redor dele.",
+    "input1_label": "Eu gosto disso porque...",
+    "input1_placeholder": "Por exemplo, isso me dá uma sensação de liberdade",
+    "input2_label": "Essa atividade me ajuda a me sentir mais...",
+    "input2_placeholder": "por exemplo, conectado e aterrado",
+    "input3_label": "Me lembra de...",
+    "input3_placeholder": "por exemplo, verões quando criança",
+    "button": "Salve Meu Reflexo"
+  },
+  "smallStep": {
+    "title": "Um Pequeno Passo Adiante",
+    "p1": "Você não precisa mudar tudo de uma vez.",
+    "p2": "Seria possível me reconectar com essa atividade, de forma pequena?",
+    "input1_label": "Um pequeno passo que eu poderia dar esta semana é...",
+    "input1_placeholder": "Por exemplo, fazer uma caminhada de 10 minutos",
+    "button_save": "Salvar",
+    "button_home": "Vá para Casa"
+  },
+  "affirmation": {
+    "title": "Você deu um passo lindo",
+    "p1": "Reconectar-se com o que te traz alegria — mesmo que seja de menor forma — é um ato de bondade consigo mesmo.",
+    "p2": "Você merece momentos de leveza e paz. Continue cuidando do que faz seu coração se sentir cheio. 💛",
+    "button": "De volta ao Lar"
+  }
+}

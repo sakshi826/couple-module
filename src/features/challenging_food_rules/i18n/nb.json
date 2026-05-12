@@ -1,0 +1,56 @@
+{
+  "app_title": "Utfordring av matregler",
+  "welcome_title": "Matregler er ikke lover.",
+  "welcome_subtitle": "Vi har alle regler om mat—noen hjelpsomme, andre ikke. Dette er et trygt rom for å legge merke til én regel og reflektere forsiktig over den.",
+  "begin_button": "La oss begynne",
+  "screen_titles": {
+    "intro": "Mild bevissthet",
+    "identify": "Navngivning av regelen",
+    "feeling": "Følelsesmessig påvirkning",
+    "impact": "Fysisk påvirkning",
+    "challenge": "Myk utfordring",
+    "permission": "Å gi tillatelse",
+    "step": "Myke skritt",
+    "takeaway": "Sammendrag",
+    "close": "Refleksjon"
+  },
+  "rule_label": "Navngivning av regelen",
+  "rule_question": "Hva er regelen?",
+  "rule_options": [
+    "Jeg burde ikke spise etter en viss tid",
+    "Noen matvarer er forbudt område",
+    "Jeg må kontrollere deler strengt"
+  ],
+  "rule_something_else": "Noe annet...",
+  "rule_placeholder": "Skriv inn matregelen din...",
+  "feeling_label": "Følelsesmessig påvirkning",
+  "feeling_question": "Hvordan føles dette?",
+  "feeling_options": [
+    "😟 Engstelig",
+    "😌 I kontroll",
+    "😕 Skyldig",
+    "😣 Begrenset",
+    "😴 Trøtt",
+    "😐 Blandet"
+  ],
+  "challenge_label": "Myk utfordring",
+  "challenge_question": "Forsiktig spørsmål...",
+  "reflections": {
+    "Is this rule too strict?": "Føles dette fleksibelt, eller skaper det press for å følge det perfekt?",
+    "Is this actually helping me?": "Støtter denne regelen ditt velvære, eller gir det deg stress eller skyldfølelse?",
+    "What happens when I can't follow it?": "Hva legger du merke til når denne regelen ikke går som planlagt?"
+  },
+  "reflection_saved": "Refleksjon reddet",
+  "your_reflection": "Ditt speilbilde",
+  "label_rule": "Regelen",
+  "label_feeling": "Følelsen",
+  "preserve_button": "Bevar refleksjon",
+  "preserving": "Bevare...",
+  "continue_button": "Fortsett",
+  "next_button": "Neste",
+  "complete_title": "Bevissthet oppnådd",
+  "complete_message": "Bevissthet er det første steget mot frihet. Du har tatt et modig steg ved å identifisere og reflektere over en matregel. Bær denne milde forståelsen med deg i dag.",
+  "auth_error": "Auth-sesjon mangler eller database ikke konfigurert",
+  "save_success": "Refleksjon bevart",
+  "save_error": "Klarte ikke å bevare refleksjonen"
+}

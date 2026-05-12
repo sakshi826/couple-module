@@ -1,0 +1,62 @@
+{
+  "app_title": "Veilige Ruimte",
+  "nav": [
+    "Inchecken",
+    "Zachtjes Terugroepen",
+    "Observeren",
+    "Aanwezig blijven",
+    "Vooruit gaan"
+  ],
+  "s1": {
+    "title": "Laten we een plek zoeken die goed voelt",
+    "description": [
+      "Voordat we beginnen, neem even de tijd om in te checken...",
+      "Hoe voel je je nu?",
+      "We zoeken niet naar een perfecte \"veilige plek\". Gewoon iets dat zelfs maar een beetje kalm of oké aanvoelt."
+    ],
+    "placeholder": "Hoe voel je je nu?",
+    "button": "Begin met visualiseren"
+  },
+  "s2": {
+    "title": "Herinner het voorzichtig",
+    "description": [
+      "Denk aan een plek waar je je ook maar een beetje op je gemak voelde... Of een plek waarvan je zou willen dat die bestond.",
+      "Plaats jezelf daar nu...",
+      "Zit je, sta je of lig je?"
+    ],
+    "button": "Ga verder"
+  },
+  "s3": {
+    "title": "Kijk langzaam om je heen",
+    "description": [
+      "Kijk voorzichtig om je heen...",
+      "Wat is één ding dat je kunt zien?",
+      "Let nu op een geluid... Wat hoor je?"
+    ],
+    "button": "Ga verder"
+  },
+  "s4": {
+    "title": "Blijf hierbij",
+    "description": [
+      "Wat is het aan deze plek dat het ook maar een beetje veilig of oké doet voelen?",
+      "Zoals je merkt dat...",
+      "Breng ook je aandacht naar je ademhaling."
+    ],
+    "breathe": "Adem in",
+    "notice": "Als het moeilijk is om je voor te stellen, denk dan eens aan het idee van deze plek.",
+    "button": "Ga verder"
+  },
+  "s5": {
+    "title": "Neem dit mee",
+    "description": [
+      "Let op hoe je je nu voelt. Zelfs een kleine verandering doet ertoe.",
+      "Kijk of je zelfs maar 5% van dit gevoel met je mee kunt nemen."
+    ],
+    "placeholder": "Hoe voel je je nu?",
+    "button": "Volledige sessie"
+  },
+  "complete": {
+    "title": "Sessie voltooid",
+    "message": "Deze veilige plek is altijd voor je beschikbaar. Je kunt hier terugkomen wanneer je een moment van rust nodig hebt."
+  }
+}

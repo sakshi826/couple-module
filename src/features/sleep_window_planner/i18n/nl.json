@@ -1,0 +1,95 @@
+{
+  "app_title": "Slaapraamplanner",
+  "pill_labels": [
+    "Bouw je raam",
+    "Stel je tijden vast",
+    "Jouw slaapvenster"
+  ],
+  "screen1": {
+    "title": "Je slaapvenster is belangrijker dan je denkt",
+    "p1": "Een slaapvenster is de vaste tijd tussen het moment dat je gaat slapen en het moment dat je wakker wordt. Het consistent houden — zelfs in het weekend — is een van de krachtigste dingen die je voor je slaap kunt doen.",
+    "p2": "Deze tool helpt je om de jouwe in minder dan 2 minuten te bouwen.",
+    "insight": "Zelfs een verschil van 1 uur in slaaptijden in het weekend kan je gevoel de hele week verstoren.",
+    "meta": "Simpel. Persoonlijk. Effectief.",
+    "button": "Laten we de mijne bouwen →"
+  },
+  "screen2": {
+    "title": "Laten we je slaapvenster instellen",
+    "step1": {
+      "title": "STAP 1 — OPSTAANTIJD",
+      "desc": "Hoe laat moet je de meeste dagen opstaan?"
+    },
+    "step2": {
+      "title": "STAP 2 — SLAAPDUUR",
+      "desc": "Hoeveel uur slaap wil je?"
+    },
+    "live_window": {
+      "bedtime": "Bedtijd",
+      "waketime": "Wakker worden",
+      "duration": "{{hours}} uren slaap"
+    },
+    "italic": "De meeste volwassenen hebben 7–9 uur nodig. Kies wat goed voelt.",
+    "button": "Zie mijn slaapvenster →"
+  },
+  "screen3": {
+    "title": "Jouw slaapvenster 🌙",
+    "result": {
+      "bedtime": "Bedtijd",
+      "waketime": "Wakker worden",
+      "duration": "Duur",
+      "hours": "{{hours}} Uren"
+    },
+    "accordion1": {
+      "title": "3 manieren om het te beschermen",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Ontspan 30 minuten voor je bedtijd"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Elke dag dezelfde wakkertijd — ja, ook in het weekend"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Vermijd dutjes langer dan 20 minuten na 15.00 uur"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Zet je vanavond voor één ding",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Leg mijn telefoon weg voor het slapengaan"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Begin met een afbouwroutine"
+        },
+        {
+          "emoji": "💡",
+          "text": "Dim het licht een uur voor het slapengaan"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Maak mijn takenlijst vroeg af"
+        }
+      ]
+    },
+    "quote": "Consistentie is krachtiger dan perfectie. De ene goede nacht bouwt de volgende op.",
+    "button": "Red mijn slaapvenster ✓",
+    "saved_button": "✓ Slaapvenster gered!",
+    "adjust_times": "Tijden aanpassen"
+  },
+  "complete": {
+    "title": "Window Created",
+    "message": "Je ideale slaapvenster is in kaart gebracht. Consistentie is de sleutel tot diepe, herstellende rust."
+  },
+  "toasts": {
+    "save_success": "Slaapvenster opgeslagen",
+    "save_error": "Slaapvenster niet opgeslagen",
+    "auth_error": "Auth-sessie ontbreekt of database niet geconfigureerd",
+    "saving": "Redden..."
+  }
+}

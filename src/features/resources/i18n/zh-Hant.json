@@ -1,0 +1,37 @@
+{
+  "app_title": "資源",
+  "not_found": {
+    "title": "未找到",
+    "message": "找不到資源",
+    "description": "你要找的內容可能已經移動過。",
+    "button": "回去"
+  },
+  "list": {
+    "empty_title": "無 {{type}} 可用",
+    "empty_desc": "我們目前正在策劃更多相關資源。",
+    "footer": "Mantra Care • 循證資源"
+  },
+  "detail": {
+    "loading": "載入中......",
+    "tip": {
+      "insight_label": "洞見",
+      "plan_title": "每日行動計畫",
+      "steps": "{{count}} 階梯",
+      "example_label": "實務範例",
+      "instead_of": "而不是",
+      "try_this": "試試這個"
+    },
+    "article": {
+      "final_thought": "最後的想法"
+    },
+    "story": {
+      "reflection_label": "有個可以靜坐的東西",
+      "note_label": "作者的一則話"
+    },
+    "myth": {
+      "truth_label": "科學真相",
+      "explanation_label": "詳細說明",
+      "insight_label": "重點見解"
+    }
+  }
+}

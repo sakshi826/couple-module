@@ -1,0 +1,94 @@
+{
+  "app_title": "睡眠審核",
+  "app_subtitle": "了解你的休息",
+  "intro": {
+    "title": "你的睡眠審核",
+    "description": "了解影響你睡眠的原因，以及小幅度的改變能幫助你的地方。",
+    "start_button": "開始審核",
+    "history_button": "過去的審核"
+  },
+  "screens": {
+    "s1": {
+      "phase": "第一階段",
+      "title": "你最近睡得怎麼樣？",
+      "desc": "選擇任何最近讓你感覺真實的"
+    },
+    "s2": {
+      "phase": "第二階段",
+      "title": "評估你的典型休息",
+      "label": "有什麼具體的疑慮嗎？",
+      "placeholder": "壓力、噪音、滑手機......"
+    },
+    "s3": {
+      "score_label": "共7",
+      "recommendations": {
+        "solid": "你的習慣很紮實！只要微調就能讓它更出色。",
+        "some": "偵測到一些干擾。改變習慣能迅速改善。",
+        "many": "有幾個因素影響你的睡眠。我們可以一起克服這些問題。"
+      }
+    }
+  },
+  "options": [
+    {
+      "emoji": "🕐",
+      "text": "我每晚睡覺的時間都差很多"
+    },
+    {
+      "emoji": "💡",
+      "text": "我的睡眠環境既不黑暗、安靜也不舒適"
+    },
+    {
+      "emoji": "📱",
+      "text": "我睡前會滑手機"
+    },
+    {
+      "emoji": "☕",
+      "text": "我睡前會喝咖啡因或酒精"
+    },
+    {
+      "emoji": "😵",
+      "text": "我半夜醒來，難以再入睡"
+    },
+    {
+      "emoji": "🧠",
+      "text": "當我試著入睡時，腦中充滿了各種想法"
+    },
+    {
+      "emoji": "😔",
+      "text": "我很少在睡一覺後感到精神爽快"
+    }
+  ],
+  "rating_labels": [
+    "非常貧窮",
+    "可憐",
+    "好",
+    "很好",
+    "太好了"
+  ],
+  "status_labels": {
+    "track": "大部分時間都在賽道上",
+    "disruptions": "部分中斷",
+    "attention": "需要關注"
+  },
+  "buttons": {
+    "continue": "繼續",
+    "see_results": "參見結果",
+    "preserve": "保留結果",
+    "preserving": "保存......",
+    "back_to_intro": "回到引言"
+  },
+  "history": {
+    "title": "過去的審核",
+    "no_entries": "目前還沒有保存任何審計紀錄。",
+    "score_label": "共7"
+  },
+  "complete": {
+    "title": "審核完成",
+    "message": "你的睡眠分數是 {{score}}/7。理解這些模式是邁向更深層、更具修復性休息的第一步。"
+  },
+  "toasts": {
+    "save_success": "審核已保存",
+    "save_error": "未能保存審計",
+    "auth_error": "缺少認證會話或資料庫未設定"
+  }
+}

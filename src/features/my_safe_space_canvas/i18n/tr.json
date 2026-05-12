@@ -1,0 +1,98 @@
+{
+  "app_title": "Güvenli Alan Tuvalı",
+  "step_label": "5'ten {{current}} adım",
+  "welcome": {
+    "title": "Güvenli yerin seni bekliyor",
+    "description": "Nazik yaratıcı önerilerle kendi sığınağınızı inşa edin. Düşüncelerin ve duyguların için boş bir tuval.",
+    "benefits": [
+      "Kendinizi renklerle ifade edin",
+      "Görsel bir temellendirme aracı oluşturun",
+      "Güvenli, özel ve kişisel"
+    ],
+    "duration": "10-15 dakika",
+    "view_past": "Geçmiş Kolajları Görüntüleyin"
+  },
+  "canvas": {
+    "prompts": [
+      {
+        "quote": "Güvenli yerinde gökyüzü nasıl görünüyor? Rengini, ışığını veya hissini çiz.",
+        "button": "Gökyüzü ekledim →",
+        "hint": "Doğru bir yol yok — herhangi bir işaret yeterlidir."
+      },
+      {
+        "quote": "Zemin nasıl hissettiriyor? Çim, kum, su, ahşap zemin mi? Gökyüzünün altına ekle.",
+        "button": "Zemin ekledim →",
+        "hint": "Bu yerde ayaklarınızın nasıl hissettiğini düşünün."
+      },
+      {
+        "quote": "Buraya ait olan bir şey ekleyin — bir ağaç, bir sandalye, bir pencere, bir evcil hayvan, bir lamba. Doğru hissettiren her şey.",
+        "button": "Bir şey ekledim →",
+        "hint": "Mükemmel görünmek zorunda değil. Sadece gerçek hissettirmesi gerekiyor."
+      },
+      {
+        "quote": "Buraya sıcaklık ya da rahatlık getiren nedir? Bir ışık, bir ateş, güneş ışığı, bir battaniye? Doğru hissettiğiniz yere ekleyin.",
+        "button": "Sıcaklık ekledim →",
+        "hint": "Küçük bir renk noktası bile önemlidir."
+      },
+      {
+        "quote": "Son olarak — buraya ait olan 3 ila 5 kelime ekleyin. Çiziminize dokunarak onları istediğiniz bir yere yerleştirin.",
+        "button": "Bunlar benim sözlerim →",
+        "hint": ""
+      }
+    ],
+    "word_chips": [
+      "Barış",
+      "Ana Sayfa",
+      "Cennet",
+      "Sakin",
+      "Sıcak",
+      "Yeter",
+      "Nazik",
+      "Güvenli"
+    ],
+    "custom_word_placeholder": "+ kendi başına",
+    "skip_prompt": "Bu istemi atla",
+    "type_here": "Buraya yazın"
+  },
+  "save": {
+    "title": "Güvenli yerinizi koruyun",
+    "desc": "Yaratımınıza bir isim verin ve kısa bir düşünce verin.",
+    "preview_alt": "Senin güvenli yer kolajın",
+    "generating_preview": "Önizleme oluşturuluyor...",
+    "name_label": "Buraya ne diyorsun?",
+    "name_placeholder": "örneğin, My Sunday Meadow",
+    "reflection_label": "Burası neden önemli? (İsteğe bağlı)",
+    "reflection_placeholder": "Nazik bir cümle...",
+    "privacy_note": "Bu özel kalır — sadece siz ve terapistiniz tarafından görülebilir.",
+    "button": "Güvenli Yerimi Kurtar",
+    "default_name": "Benim Güvenli Yerim"
+  },
+  "grounding": {
+    "title": "Buradasın. Güvendesin.",
+    "breathe_info": "4 · Tut · 4 · bırak · 6",
+    "done_message": "Bugün kendiniz için ortaya çıktığınız için tebrikler.",
+    "durations": [
+      {
+        "label": "1 dakika",
+        "seconds": "60"
+      },
+      {
+        "label": "3 dakika",
+        "seconds": "180"
+      },
+      {
+        "label": "5 dakika",
+        "seconds": "300"
+      }
+    ],
+    "phases": [
+      "Nefes al",
+      "Bekle",
+      "Bırak"
+    ]
+  },
+  "history": {
+    "title": "Güvenli yerlerin ötesinden",
+    "no_collages": "Henüz kaydedilmiş kolaj yok. İlk etkinliğinizi kaydetmek için etkinliği tamamlayın."
+  }
+}

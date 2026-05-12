@@ -1,0 +1,37 @@
+{
+  "app_title": "Resurser",
+  "not_found": {
+    "title": "Ej hittad",
+    "message": "Resurs ej hittad",
+    "description": "Innehållet du letar efter kan ha flyttats.",
+    "button": "Gå tillbaka"
+  },
+  "list": {
+    "empty_title": "Ingen {{type}} tillgänglig",
+    "empty_desc": "Vi kurerar för närvarande fler resurser för detta ämne.",
+    "footer": "Mantravård • Evidensbaserade resurser"
+  },
+  "detail": {
+    "loading": "Laddar...",
+    "tip": {
+      "insight_label": "Insikten",
+      "plan_title": "Daglig handlingsplan",
+      "steps": "{{count}} Steg",
+      "example_label": "Övningsexempel",
+      "instead_of": "Istället för",
+      "try_this": "Prova det här"
+    },
+    "article": {
+      "final_thought": "Sluttanken"
+    },
+    "story": {
+      "reflection_label": "Något att sitta med",
+      "note_label": "En notis från författaren"
+    },
+    "myth": {
+      "truth_label": "Den vetenskapliga sanningen",
+      "explanation_label": "Detaljerad förklaring",
+      "insight_label": "Viktig insikt"
+    }
+  }
+}

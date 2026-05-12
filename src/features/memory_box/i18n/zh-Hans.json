@@ -1,0 +1,80 @@
+{
+  "app_title": "记忆盒",
+  "screen_titles": [
+    "你的盒子",
+    "致敬",
+    "表达",
+    "保存",
+    "温柔关怀"
+  ],
+  "complete_title": "记忆保存",
+  "complete_message": "你已经安全地将{{name}}的记忆放入你的盒子里。这些连接的时刻永远属于你。",
+  "auth_error": "缺少认证会话或数据库未配置",
+  "save_success": "记忆保存",
+  "save_error": "未能保存记忆",
+  "preserving": "保存......",
+  "preserve_memory": "保存记忆",
+  "welcome": {
+    "title": "你的记忆盒",
+    "subtitle1": "一个安静的空间，用来缅怀你所爱的人。🤍",
+    "subtitle2": "慢慢吸一口气......",
+    "subtitle3": "…轻轻呼气。",
+    "subtitle4": "这没有绝对的对错。",
+    "subtitle5": "按自己的节奏来。🌿",
+    "begin": "开始 ✨",
+    "later": "也许以后再说"
+  },
+  "who": {
+    "placeholder_name": "输入他们的名字......",
+    "placeholder_relation": "你怎么认识他们的？（可选）",
+    "categories": [
+      {
+        "label": "一个幸福的时刻",
+        "emoji": "😊"
+      },
+      {
+        "label": "他们曾经说过的话",
+        "emoji": "💬"
+      },
+      {
+        "label": "一个日常的小记忆",
+        "emoji": "☕"
+      },
+      {
+        "label": "一个让你想起他们的地方",
+        "emoji": "🏡"
+      },
+      {
+        "label": "我真希望能说出这样的话",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "继续→"
+  },
+  "expression": {
+    "title": "表达你的记忆",
+    "memory_label": "记忆本身",
+    "memory_placeholder": "写下那一刻、感受，或者你想保留的细节......",
+    "message_label": "给他们的信息（可选）",
+    "message_placeholder": "如果你现在能和他们说话，你会说些什么？",
+    "save": "保存记忆",
+    "skip": "暂时跳过",
+    "back": "返回"
+  },
+  "box": {
+    "title": "被安然收纳",
+    "subtitle": "这段{{name}}的记忆现已成为您的收藏的一部分。",
+    "add_another": "添加另一个记忆",
+    "finish": "收尾反射"
+  },
+  "closing": {
+    "title": "照顾",
+    "subtitle": "暂时关上你的盒子。你需要随时回来，感受这些记忆的亲近感。",
+    "exit": "关闭盒子"
+  },
+  "history": {
+    "title": "盒子内容",
+    "no_memories": "你的盒子是空的。添加你的第一个记忆，开始你的收藏。",
+    "search_placeholder": "搜寻记忆......"
+  }
+}

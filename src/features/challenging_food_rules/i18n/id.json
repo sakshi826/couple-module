@@ -1,0 +1,56 @@
+{
+  "app_title": "Aturan Makanan yang Menantang",
+  "welcome_title": "Aturan makanan bukanlah hukum.",
+  "welcome_subtitle": "Kita semua membawa aturan tentang makanan—ada yang membantu, ada yang tidak. Ini adalah ruang yang aman untuk memperhatikan satu aturan dan merenungkannya dengan lembut.",
+  "begin_button": "Mari kita mulai",
+  "screen_titles": {
+    "intro": "Kesadaran Lembut",
+    "identify": "Penamaan Aturan",
+    "feeling": "Dampak Emosional",
+    "impact": "Dampak Fisik",
+    "challenge": "Tantangan Lunak",
+    "permission": "Memberikan Izin",
+    "step": "Langkah Lembut",
+    "takeaway": "Ringkasan",
+    "close": "Refleksi"
+  },
+  "rule_label": "Memberi nama aturan",
+  "rule_question": "Apa aturannya?",
+  "rule_options": [
+    "Saya tidak boleh makan setelah waktu tertentu",
+    "Beberapa makanan terlarang",
+    "Saya perlu mengontrol porsi secara ketat"
+  ],
+  "rule_something_else": "Sesuatu yang lain...",
+  "rule_placeholder": "Ketik aturan makanan Anda...",
+  "feeling_label": "Dampak Emosional",
+  "feeling_question": "Bagaimana rasanya ini?",
+  "feeling_options": [
+    "😟 Cemas",
+    "😌 Dalam kendali",
+    "😕 Bersalah",
+    "😣 Dibatasi",
+    "😴 Lelah",
+    "😐 Campuran"
+  ],
+  "challenge_label": "Tantangan Lunak",
+  "challenge_question": "Pertanyaan dengan lembut ...",
+  "reflections": {
+    "Is this rule too strict?": "Apakah ini terasa fleksibel, atau apakah itu menciptakan tekanan untuk mengikutinya dengan sempurna?",
+    "Is this actually helping me?": "Apakah aturan ini mendukung kesejahteraan Anda, atau menambah stres atau rasa bersalah?",
+    "What happens when I can't follow it?": "Apa yang Anda perhatikan ketika aturan ini tidak berjalan sesuai rencana?"
+  },
+  "reflection_saved": "Refleksi Disimpan",
+  "your_reflection": "Refleksi Anda",
+  "label_rule": "Aturan",
+  "label_feeling": "Perasaan",
+  "preserve_button": "Mempertahankan Refleksi",
+  "preserving": "Melestarikan...",
+  "continue_button": "Lanjutkan",
+  "next_button": "Selanjutnya",
+  "complete_title": "Kesadaran yang Diperoleh",
+  "complete_message": "Kesadaran adalah langkah pertama menuju kebebasan. Anda telah mengambil langkah berani dalam mengidentifikasi dan merenungkan aturan makanan. Bawalah pengertian lembut ini bersama Anda hari ini.",
+  "auth_error": "Sesi autentikasi hilang atau DB tidak dikonfigurasi",
+  "save_success": "Refleksi dipertahankan",
+  "save_error": "Gagal mempertahankan refleksi"
+}

@@ -1,0 +1,51 @@
+{
+  "app_title": "Anger-Shame Cycle",
+  "app_subtitle": "Understanding the loop • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Why does anger keep coming back?",
+      "description": "It might not be your temper. There's a hidden loop between anger and shame — and once you see it, everything changes.",
+      "quote": "\"Most people try to fix the anger. But shame is what quietly keeps it going.\"",
+      "button": "Let's explore"
+    },
+    "s2": {
+      "tag": "the cycle",
+      "title": "The loop explained",
+      "nodes": [
+        { "emoji": "🔥", "label": "Anger surfaces" },
+        { "emoji": "😔", "label": "Shame: \"I'm bad\"" },
+        { "emoji": "🤐", "label": "Shame gets buried" },
+        { "emoji": "🔥", "label": "Anger erupts again" }
+      ],
+      "button": "I see it"
+    },
+    "s3": {
+      "tag": "What's happening",
+      "title": "Two emotions, one trap",
+      "anger": {
+        "title": "🔥 Anger",
+        "desc": "A secondary emotion — underneath lives hurt, fear, or rejection. It's the alarm, not the fire."
+      },
+      "shame": {
+        "title": "😔 Shame",
+        "desc": "\"I am bad\" — not just \"I did something bad.\" It hides, silences, and keeps the cycle spinning."
+      },
+      "button": "Breaking Free"
+    },
+    "s4": {
+      "tag": "Interruption",
+      "title": "Interrupt the cycle",
+      "steps": [
+        { "title": "Name the source", "desc": "Ask: 'What am I actually feeling?' Hurt? Scared? Unseen? Naming it weakens it." },
+        { "title": "Compassion pause", "desc": "Hand on chest. Say: 'This is hard. I'm human. I can get through this.'" },
+        { "title": "Repair with grace", "desc": "Make amends if needed — but don't spiral. You're not your worst moment." }
+      ],
+      "notice": "Noticing the cycle is already the first step. You're doing the work.",
+      "button": "Complete Activity"
+    }
+  },
+  "complete": {
+    "title": "Cycle Interrupted",
+    "message": "You've gained the awareness to see the link between anger and shame. This is the foundation for lasting emotional freedom."
+  }
+}

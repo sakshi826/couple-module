@@ -1,0 +1,56 @@
+{
+  "app_title": "挑戰食物規則",
+  "welcome_title": "食物規則不是法律。",
+  "welcome_subtitle": "我們每個人都有關於食物的規則——有些有用，有些則不然。這是一個安全的空間，讓人注意到一條規則並溫和反思它。",
+  "begin_button": "讓我們開始吧",
+  "screen_titles": {
+    "intro": "溫柔覺察",
+    "identify": "規則命名",
+    "feeling": "情感衝擊",
+    "impact": "物理影響",
+    "challenge": "軟挑戰賽",
+    "permission": "給予許可",
+    "step": "輕柔的腳步",
+    "takeaway": "摘要",
+    "close": "反思"
+  },
+  "rule_label": "規則命名",
+  "rule_question": "規則是什麼？",
+  "rule_options": [
+    "我不應該在某個時間後再吃東西",
+    "有些食物是禁止進入的",
+    "我必須嚴格控制份量"
+  ],
+  "rule_something_else": "還有別的東西......",
+  "rule_placeholder": "輸入你的食物規則......",
+  "feeling_label": "情感衝擊",
+  "feeling_question": "感覺如何？",
+  "feeling_options": [
+    "😟 焦慮",
+    "😌 掌控一切",
+    "😕 有罪",
+    "😣 限制",
+    "😴 累了",
+    "😐 混合"
+  ],
+  "challenge_label": "軟挑戰賽",
+  "challenge_question": "溫柔地問......",
+  "reflections": {
+    "Is this rule too strict?": "這感覺柔軟嗎？還是會產生必須完美遵守的壓力？",
+    "Is this actually helping me?": "這條規則是支持你的身心健康，還是增加壓力或罪惡感？",
+    "What happens when I can't follow it?": "當這條規則不如預期時，你會注意到什麼？"
+  },
+  "reflection_saved": "省略",
+  "your_reflection": "你的倒影",
+  "label_rule": "規則",
+  "label_feeling": "感覺",
+  "preserve_button": "保留反射",
+  "preserving": "保存......",
+  "continue_button": "繼續",
+  "next_button": "下一篇",
+  "complete_title": "認知提升",
+  "complete_message": "覺察是邁向自由的第一步。你勇敢地認出並反思一條食物規則。今天就帶著這份溫柔的理解同行。",
+  "auth_error": "缺少認證會話或資料庫未設定",
+  "save_success": "反射保存",
+  "save_error": "未能保存反射"
+}

@@ -1,0 +1,29 @@
+{
+  "app_title": "Tại sao não bị mắc kẹt",
+  "app_subtitle": "Logic của sự sống còn • {{step}}/{{total}}",
+  "s1": {
+    "title": "Bộ não của bạn không bị hỏng. Nó đã thích nghi.",
+    "description": "Sau chấn thương, não của bạn tự nối lại để giữ an toàn cho bạn. Nó học được rằng thế giới có thể nguy hiểm, vì vậy nó luôn sẵn sàng. Đó không phải là một lỗ hổng. Đó là sự sống còn.",
+    "quote": "\"PTSD không phải là dấu hiệu cho thấy có điều gì đó không ổn với bạn. Đó là dấu hiệu cho thấy có điều gì đó đã xảy ra với bạn.\"",
+    "button": "Cho tôi biết thêm"
+  },
+  "s2": {
+    "tag": "Sự thật nhẹ nhàng",
+    "title": "Logic sinh tồn của não bộ",
+    "truths": [
+      {
+        "header": "Báo thức vẫn sáng",
+        "body": "Cảnh giác quá mức và dễ giật mình không phải là phản ứng thái quá - hệ thống báo động của não bạn đang làm quá tốt công việc của nó."
+      },
+      {
+        "header": "Hồi tưởng là ký ức",
+        "body": "Kích hoạt kéo não của bạn trở lại vì nó không bao giờ nhận được tín hiệu rằng mối đe dọa đã kết thúc. Nó đang cố gắng bảo vệ bạn."
+      },
+      {
+        "header": "Chiến đấu vì bạn",
+        "body": "Mỗi triệu chứng đã từng là một hành động sinh tồn. Bộ não của bạn đã làm những gì nó phải làm để giữ cho bạn sống."
+      }
+    ],
+    "healing": "Chữa lành không phải là quên. Đó là về việc giúp bộ não của bạn biết rằng bạn đã an toàn ngay bây giờ."
+  }
+}

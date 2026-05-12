@@ -1,0 +1,37 @@
+{
+  "app_title": "Ressourcer",
+  "not_found": {
+    "title": "Ikke fundet",
+    "message": "Ressource ikke fundet",
+    "description": "Det indhold, du leder efter, kan være flyttet.",
+    "button": "Gå tilbage"
+  },
+  "list": {
+    "empty_title": "Ingen {{type}} tilgængelig",
+    "empty_desc": "Vi kuraterer i øjeblikket flere ressourcer til dette emne.",
+    "footer": "Mantra-pleje • evidensbaserede ressourcer"
+  },
+  "detail": {
+    "loading": "Indlæser...",
+    "tip": {
+      "insight_label": "Indsigten",
+      "plan_title": "Daglig handlingsplan",
+      "steps": "{{count}} Trin",
+      "example_label": "Øvelseseksempel",
+      "instead_of": "I stedet for",
+      "try_this": "Prøv det her"
+    },
+    "article": {
+      "final_thought": "Afsluttende tanke"
+    },
+    "story": {
+      "reflection_label": "Noget at sidde med",
+      "note_label": "En note fra forfatteren"
+    },
+    "myth": {
+      "truth_label": "Den videnskabelige sandhed",
+      "explanation_label": "Detaljeret forklaring",
+      "insight_label": "Nøgleindsigt"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "app_title": "Lähteet",
+  "not_found": {
+    "title": "Ei löytynyt",
+    "message": "Resurssi ei löytynyt",
+    "description": "Etsimäsi sisältö on saattanut siirtyä.",
+    "button": "Mene takaisin"
+  },
+  "list": {
+    "empty_title": "Ei {{type}} saatavilla",
+    "empty_desc": "Kuratoimme parhaillaan lisää resursseja tähän aiheeseen.",
+    "footer": "Mantra-hoito • Näyttöön perustuvat resurssit"
+  },
+  "detail": {
+    "loading": "Ladataan...",
+    "tip": {
+      "insight_label": "Oivallus",
+      "plan_title": "Päivittäinen toimintasuunnitelma",
+      "steps": "{{count}} Askeleet",
+      "example_label": "Harjoitusesimerkki",
+      "instead_of": "Sijasta",
+      "try_this": "Kokeile tätä"
+    },
+    "article": {
+      "final_thought": "Viimeinen ajatus"
+    },
+    "story": {
+      "reflection_label": "Jotain, minkä kanssa istua",
+      "note_label": "Kirjoittajan huomautus"
+    },
+    "myth": {
+      "truth_label": "Tieteellinen totuus",
+      "explanation_label": "Yksityiskohtainen selitys",
+      "insight_label": "Keskeinen oivallus"
+    }
+  }
+}

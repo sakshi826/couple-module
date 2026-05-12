@@ -1,0 +1,39 @@
+{
+  "app_title": "Grief Journey",
+  "app_subtitle": "The map of loss • {{current}}/{{total}}",
+  "screen1_title": "You're not grieving wrong",
+  "screen1_desc": "Grief doesn't arrive in neat stages and leave on schedule. It crashes in, retreats, and comes back when you least expect it. That's not a flaw in you — that's grief.",
+  "screen1_quote": "\"There is no right way to grieve. There is only your way.\"",
+  "btn_tell_more": "Tell me more",
+  "screen2_tag": "the real picture",
+  "screen2_title": "Grief wears many faces",
+  "screen2_desc": "This is what people expect grief to look like — vs what it actually is.",
+  "expectation_label": "The Expectation",
+  "reality_label": "The Reality",
+  "expectation_desc": "Linear • Predictable • Clear",
+  "reality_desc": "Chaotic • Looping • Human",
+  "screen2_quote": "\"None of these waves are wrong. All of them are grief.\"",
+  "btn_one_more": "One more thing",
+  "screen3_tag": "gentle truths",
+  "screen3_title": "Worth knowing",
+  "truths": [
+    {
+      "emoji": "🗓️",
+      "title": "No deadline",
+      "body": "There's no expiry date on loss. Feeling it months or years later doesn't mean you're stuck — it means you loved."
+    },
+    {
+      "emoji": "🌗",
+      "title": "Contradictory feelings",
+      "body": "You can miss someone and feel relieved. You can laugh and grieve. Grief holds opposites."
+    },
+    {
+      "emoji": "🤍",
+      "title": "Love's transformation",
+      "body": "The pain isn't separate from the love. It's the same thing, transformed."
+    }
+  ],
+  "btn_finish": "Finish Reflection",
+  "complete_title": "Journey Honored",
+  "complete_message": "You don't have to move on. You just learn to carry it differently. Your journey is unique, valid, and deeply human."
+}

@@ -1,0 +1,92 @@
+{
+  "app_title": "Gondolatolvasó Ellenőrzés",
+  "intro": {
+    "title": "Gondolatolvasó Ellenőrzés",
+    "description": "Kérdőjelezd meg azokat a feltételezéseket, amiket mások gondolkodnak.",
+    "benefits": [
+      "Ne feltételezd a legrosszabbat",
+      "Elfogult értelmezések azonosítása",
+      "Tisztább kommunikáció kialakítása"
+    ],
+    "duration": "3-4 perc",
+    "view_past": "Tekints múltbeli visszatükröződéseket"
+  },
+  "history": {
+    "title": "Múltbeli visszatekintések",
+    "no_entries": "Még nincs bejegyzés",
+    "belief_label": "Hit: {{level}}%",
+    "balanced_thought_label": "Kiegyensúlyozott gondolkodás"
+  },
+  "complete": {
+    "title": "Tevékenység befejezve",
+    "great_insights": "Remek meglátások!",
+    "message": "Ha megkérdőjelezed a feltételezéseidet, objektívebb és együttérzőbb elmét építesz."
+  },
+  "steps": {
+    "label": "Lépés {{current}} a 10-ből",
+    "step1": {
+      "title": "Mi történt?",
+      "desc": "Írj le egy friss pillanatot, amikor megítélve vagy bizonytalan voltál.",
+      "placeholder": "A helyzet leírása..."
+    },
+    "step2": {
+      "title": "Mi járt az eszedben?",
+      "desc": "Mit gondoltál rólad?",
+      "placeholder": "Azt hittem, azt gondolják..."
+    },
+    "step3": {
+      "title": "Lassítsuk le",
+      "desc": "Most ez a gondolat igaznak tűnhet. De mielőtt tényként elfogadnánk, lépjünk hátra, és nézzük meg közelebbről.",
+      "button": "Szünet és folytatás"
+    },
+    "step4": {
+      "title": "Ez igaz?",
+      "desc": "Van valami egyértelmű bizonyíték (tények, nem feltételezések), ami ezt a nézetet alátámasztja?",
+      "placeholder": "A bizonyítékok, amiket látok..."
+    },
+    "step5": {
+      "title": "Mi más lehetne még?",
+      "desc": "Mik a további 2–3 lehetséges magyarázat?",
+      "placeholder": "Lehetőség {{num}}..."
+    },
+    "step6": {
+      "title": "Nézd meg a hitedet",
+      "desc": "Mennyire hiszel most az eredeti gondolatodban?",
+      "labels": [
+        "Egyáltalán nem",
+        "Teljesen"
+      ]
+    },
+    "step7": {
+      "title": "Kiegyensúlyozottabb nézet",
+      "desc": "Írj egy olyan gondolatot, ami igazságosabbnak és kevésbé biztosnak tűnik.",
+      "placeholder": "Egy kiegyensúlyozottabb gondolat..."
+    },
+    "step8": {
+      "title": "Legközelebb",
+      "desc": "Mit tehetnél ahelyett, hogy feltételeznéd?",
+      "examples": [
+        "Kérj tisztázást",
+        "Adj neki egy kis időt",
+        "Értesítés reagálás nélkül"
+      ],
+      "placeholder": "Legközelebb tudnék..."
+    },
+    "step9": {
+      "title": "Figyeld meg a változást",
+      "desc": "Különböző lehetőségeket kutattál, és teret teremtettél egy kiegyensúlyozottabb nézőpontnak.",
+      "original_label": "Eredeti gondolat",
+      "balanced_label": "Kiegyensúlyozott nézőpont",
+      "button": "Finish Reflection"
+    },
+    "step10": {
+      "title": "Egy kis váltás",
+      "desc": "Az elméd próbálja kitölteni a hiányosságokat. De nem minden gondolat tény. Ha egy lépést hátralépsz, tisztán látod a dolgokat.",
+      "button": "Teljes tevékenység"
+    }
+  },
+  "buttons": {
+    "continue": "Folytatás",
+    "restart": "Újraindítás"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "app": {
+    "title": "感恩追踪器",
+    "description": "记录你的每日感恩和情绪，以提升心理健康"
+  },
+  "gratitude": {
+    "heading": "你今天感恩什么？",
+    "subheading": "花点时间反思那些美好的事物，无论大小。",
+    "item1": {
+      "label": "感恩条目1",
+      "placeholder": "例如，今天早上喝了一杯热茶......"
+    },
+    "item2": {
+      "label": "感恩物品二",
+      "placeholder": "例如：朋友的一句好话......"
+    },
+    "optional": "（可选）"
+  },
+  "common": {
+    "continue": "继续"
+  },
+  "mood": {
+    "heading": "你感觉怎么样？",
+    "subheading": "选择最能代表你此刻的心情。",
+    "save": "保存感恩条目",
+    "happy": "开心",
+    "calm": "平静",
+    "neutral": "中性",
+    "low": "低",
+    "stressed": "压力"
+  },
+  "review": {
+    "heading": "你的参赛作品",
+    "date": "日期",
+    "gratitude1": "感恩 1",
+    "gratitude2": "感恩 2",
+    "mood": "情绪",
+    "edit": "编辑条目",
+    "history": "查看历史"
+  },
+  "history": {
+    "heading": "历史",
+    "back": "返回",
+    "home": "回到家",
+    "sun": "太阳",
+    "mon": "我的",
+    "tue": "星期二",
+    "wed": "结婚",
+    "thu": "秋季",
+    "fri": "星期五",
+    "sat": "星期六"
+  }
+}

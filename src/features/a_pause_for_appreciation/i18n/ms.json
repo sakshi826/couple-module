@@ -1,0 +1,84 @@
+{
+  "title": "Jeda untuk Penghargaan",
+  "subtitle": "Refleksi Berpandu 5–7 Minit",
+  "nav": {
+    "history": "Sejarah",
+    "home": "Laman Utama"
+  },
+  "intro": {
+    "text1": "Apabila hubungan berasa tegang, ia boleh menjadi mudah untuk memberi tumpuan hanya pada perkara yang tidak berfungsi. Refleksi ini menawarkan jeda singkat - bukan untuk mengabaikan kebimbangan, tetapi untuk meluaskan perspektif dengan lembut.",
+    "text2": "Tidak ada harapan untuk berasa bersyukur. Perhatikan sahaja apa yang muncul.",
+    "begin": "Mulakan",
+    "viewHistory": "Lihat Sejarah"
+  },
+  "breathing": {
+    "title": "Tiba dan Selesai",
+    "description": "Sebelum meneruskan, biarkan diri anda berhenti sebentar. Momen ini bukan tentang menyelesaikan apa-apa. Ia adalah mengenai mewujudkan ruang.",
+    "instruction": "Ikuti irama pernafasan di bawah.",
+    "inhale": "Tarik nafas... {{counter}}…",
+    "hold": "Tahan...",
+    "exhale": "Tarik nafas... {{counter}}…",
+    "affirmation": "\"Saya boleh mengakui apa yang terasa sukar dan masih tetap terbuka untuk perhatian.\"",
+    "continue": "Teruskan"
+  },
+  "reflection": {
+    "step": "Langkah {{step}} daripada {{total}}",
+    "prompts": {
+      "p1": "Satu detik kecil baru-baru ini dengan pasangan anda yang tidak berasa tegang adalah...",
+      "p1_ex": "\"Kami mengadakan perbualan ringkas dan tenang pada waktu petang.\"",
+      "p2": "Satu usaha yang telah dilakukan oleh pasangan anda - walaupun tidak sempurna - adalah...",
+      "p2_ex": "\"Mereka cuba menjelaskan perasaan mereka dan bukannya menarik diri.\"",
+      "p3": "Satu kualiti dalam pasangan anda yang kekal konsisten dari semasa ke semasa ialah...",
+      "p3_ex": "\"Mereka terus menunjukkan dedikasi terhadap tanggungjawab kami.\""
+    },
+    "placeholder": "Tulis refleksi anda di sini...",
+    "next": "Seterusnya",
+    "finish": "Selesai"
+  },
+  "intention": {
+    "step": "Langkah 4 daripada 4",
+    "title": "Bagaimana anda mahu mengadakan refleksi ini?",
+    "options": {
+      "private": "Saya lebih suka merahsiakan refleksi ini.",
+      "share_part": "Saya boleh memilih untuk berkongsi sebahagian daripada ini dengan pasangan saya.",
+      "share_full": "Saya ingin berkongsi refleksi ini sepenuhnya.",
+      "save_later": "Saya akan menyimpan ini untuk perbualan kemudian."
+    },
+    "continue": "Teruskan"
+  },
+  "checkin": {
+    "title": "Semasa anda menyelesaikan refleksi ini, kenyataan manakah yang terasa paling tepat?",
+    "statements": {
+      "s1": "Saya berasa sedikit lebih terbuka terhadap pasangan saya sekarang.",
+      "s2": "Saya tidak perasan banyak perubahan, tetapi saya bersedia untuk terus sedar.",
+      "s3": "Saya mendapati ini agak sukar untuk diselesaikan.",
+      "s4": "Saya mengalami sedikit kemesraan semasa refleksi.",
+      "s5": "Saya perasan penentangan, dan itu terasa penting untuk diakui.",
+      "s6": "Saya merasakan kelembutan yang halus berbanding sebelum saya bermula."
+    },
+    "finish": "Selesai & Simpan"
+  },
+  "closing": {
+    "title": "Refleksi Lengkap",
+    "text1": "Jeda ini tidak memadamkan cabaran. Ia hanya mengembalikan keseimbangan dalam cara hubungan itu dilihat.",
+    "text2": "Walaupun seketika seketika menyedari secara beransur-ansur boleh melembutkan ketegaran emosi dan mewujudkan ruang untuk perbualan yang lebih sihat.",
+    "save": "Simpan ke Refleksi",
+    "viewHistory": "Lihat Sejarah",
+    "exit": "Keluar"
+  },
+  "history": {
+    "title": "Sejarah Refleksi Anda",
+    "noReflections": "Tiada refleksi disimpan lagi. Sesi anda yang telah selesai akan dipaparkan di sini.",
+    "back": "Kembali ke Mula",
+    "confirmDelete": "Sahkan Padam",
+    "cancel": "Batal",
+    "delete": "Padamkan entri",
+    "prompts": [
+      "Satu detik kecil yang tidak terasa tegang...",
+      "Satu usaha yang telah dilakukan oleh pasangan anda...",
+      "Satu kualiti yang kekal konsisten...",
+      "Niat",
+      "Daftar Masuk Emosi"
+    ]
+  }
+}

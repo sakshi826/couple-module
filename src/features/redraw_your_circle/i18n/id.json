@@ -1,0 +1,61 @@
+{
+  "app_title": "Gambar Ulang Lingkaran Anda",
+  "intro": {
+    "title": "Gambar Ulang Lingkaran Anda",
+    "p1": "Pada titik yang berbeda dalam kehidupan, sistem pendukung kita dapat bergeser. 🌱 Terkadang kita merasa terhubung dan didukung. Di lain waktu, hal-hal mungkin terasa jauh atau tidak jelas.",
+    "p2": "Aktivitas ini adalah ruang untuk berhenti sejenak dan melihat orang-orang di sekitar Anda — dan memahami siapa yang saat ini merasa menjadi bagian dari lingkaran Anda. 💛",
+    "p3": "Tidak ada yang benar atau salah di sini. Hanya kesadaran. ✨",
+    "italic": "🌿 Lingkaran Anda dapat berubah — dan tidak apa-apa.",
+    "button": "Mulai →"
+  },
+  "circle": {
+    "subtitle": "Siapa yang ada dalam sistem pendukung Anda?",
+    "title": "Siapa yang Ada di Lingkaran Anda Saat Ini? 🔮",
+    "desc": "Pikirkan tentang orang-orang dalam hidup Anda dan di mana mereka muncul untuk Anda.",
+    "instruction": "👆 Ketuk setiap gelembung dan tambahkan seseorang yang sesuai dengan ruang itu dalam hidup Anda.",
+    "center_node": "Anda",
+    "italic": "🤍 Tidak apa-apa jika lingkaran Anda terasa kecil.",
+    "button": "Lanjutkan →",
+    "modal": {
+      "title": "Menambahkan nama",
+      "placeholder": "Masukkan nama...",
+      "button": "Simpan Nama"
+    },
+    "prompts": [
+      "Seseorang yang membawa sukacita",
+      "Seseorang yang mendukung Anda",
+      "Seseorang yang dapat Anda ajak bicara",
+      "Orang yang Anda percayai",
+      "Seseorang yang menginspirasi Anda"
+    ]
+  },
+  "reflection": {
+    "subtitle": "Refleksi akhir",
+    "title": "Apa yang Anda perhatikan?",
+    "p_intro": "Luangkan waktu sejenak untuk melihat lingkaran Anda. Anda mungkin melihat:",
+    "list": [
+      "Beberapa orang merasa lebih dekat dari yang lain",
+      "Beberapa koneksi terasa kuat",
+      "Beberapa terasa jauh atau tidak jelas",
+      "Mungkin ada kesenjangan — atau hanya beberapa orang yang berarti"
+    ],
+    "italic": "Kesadaran adalah langkah pertama untuk membangun koneksi yang Anda hargai. 🧘",
+    "label": "💭 Apakah ada orang yang ingin Anda rasakan lebih terhubung?",
+    "placeholder": "Tuliskan pendapat Anda di sini...",
+    "save_button": "Simpan Refleksi",
+    "saving_button": "Menghemat...",
+    "skip_button": "Lewati & Selesaikan"
+  },
+  "history": {
+    "title": "Sejarah Lingkaran Anda",
+    "subtitle": "Catatan sistem pendukung Anda dari waktu ke waktu.",
+    "no_entries": "Belum ada lingkaran yang disimpan.",
+    "reflection_label": "Refleksi:",
+    "back_button": "Kembali ke Beranda"
+  },
+  "toasts": {
+    "save_success": "Lingkaran disimpan",
+    "save_error": "Gagal menyimpan lingkaran",
+    "auth_error": "Sesi autentikasi hilang atau DB tidak dikonfigurasi"
+  }
+}

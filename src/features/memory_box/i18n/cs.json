@@ -1,0 +1,80 @@
+{
+  "app_title": "Paměťová krabice",
+  "screen_titles": [
+    "Tvoje krabice",
+    "Ocenění",
+    "Vyjadřování",
+    "Zachováno",
+    "Jemná péče"
+  ],
+  "complete_title": "Paměť zachována",
+  "complete_message": "Bezpečně jsi uložil vzpomínku na {{name}} do své krabice. Tyto okamžiky spojení jsou vaše, abyste si je vždy nechal.",
+  "auth_error": "Chybějící autentizační relace nebo nekonfigurovaná databáze",
+  "save_success": "Paměť zachována",
+  "save_error": "Nepodařilo se zachovat paměť",
+  "preserving": "Uchování...",
+  "preserve_memory": "Uchovejte paměť",
+  "welcome": {
+    "title": "Tvoje paměťová krabička",
+    "subtitle1": "Tiché místo, kde si můžete vzpomenout na někoho, koho milujete. 🤍",
+    "subtitle2": "Pomalu se nadechni...",
+    "subtitle3": "… a jemně vydechnout.",
+    "subtitle4": "Neexistuje správný nebo špatný způsob, jak to udělat.",
+    "subtitle5": "Jděte vlastním tempem. 🌿",
+    "begin": "Začátek ✨",
+    "later": "Možná později"
+  },
+  "who": {
+    "placeholder_name": "Napište jejich jméno...",
+    "placeholder_relation": "Jak je znáš? (volitelné)",
+    "categories": [
+      {
+        "label": "Šťastný okamžik",
+        "emoji": "😊"
+      },
+      {
+        "label": "Něco, co dřív říkali",
+        "emoji": "💬"
+      },
+      {
+        "label": "Malá každodenní vzpomínka",
+        "emoji": "☕"
+      },
+      {
+        "label": "Místo, které vám je připomíná",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Něco, co bych si přál říct",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Pokračujte →"
+  },
+  "expression": {
+    "title": "Vyjádření vaší paměti",
+    "memory_label": "Samotná vzpomínka",
+    "memory_placeholder": "Pište o okamžiku, pocitu nebo detailu, který chcete zachovat...",
+    "message_label": "Vzkaz pro ně (volitelné)",
+    "message_placeholder": "Co byste řekl, kdybyste s nimi mohl mluvit hned teď?",
+    "save": "Uchovejte paměť",
+    "skip": "Zatím přeskočte",
+    "back": "Zpět"
+  },
+  "box": {
+    "title": "Bezpečně schované",
+    "subtitle": "Tato vzpomínka na {{name}} je nyní součástí vaší sbírky.",
+    "add_another": "Přidat další vzpomínku",
+    "finish": "Finish Reflection"
+  },
+  "closing": {
+    "title": "Péče",
+    "subtitle": "Zatím zavírám krabici. Můžeš se sem kdykoli vrátit, abys se cítil blízko těmto vzpomínkám.",
+    "exit": "Zavřít krabici"
+  },
+  "history": {
+    "title": "Obsah krabice",
+    "no_memories": "Tvoje krabice je prázdná. Přidejte svou první vzpomínku a začněte svou sbírku.",
+    "search_placeholder": "Hledejte vzpomínky..."
+  }
+}

@@ -1,106 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { toast } from "sonner";
-
-const approachData: Record<string, {
-  emoji: string;
-  title: string;
-  why: string;
-  insight: string;
-  howTitle: string;
-  howBody: string;
-  prompts: string[];
-  promptLabel: string;
-  editLabel: string;
-  showCopy: boolean;
-  safetyLine: string;
-}> = {
-  message: {
-    emoji: "💬",
-    title: "Send a Simple Message",
-    why: "A simple message can break the silence and show the other person you still care.",
-    insight: "Reaching out—even imperfectly—is almost always received better than we expect.",
-    howTitle: "Start small",
-    howBody: "You don't need to write an essay. A few honest words can open the door to reconnection.",
-    prompts: [
-      "Hey, I've been thinking about you. Hope you're doing okay.",
-      "I know things were tense—just wanted to say I care.",
-      "I'm sorry about earlier. Can we talk when you're ready?",
-    ],
-    promptLabel: "Choose a starting point:",
-    editLabel: "Make it yours:",
-    showCopy: true,
-    safetyLine: "You don't have to send anything right now. 💛",
-  },
-  acknowledge: {
-    emoji: "🫶",
-    title: "Acknowledge What Happened",
-    why: "Acknowledging what happened shows maturity and helps the other person feel seen.",
-    insight: "People don't need you to be perfect—they need to know you noticed.",
-    howTitle: "Name it gently",
-    howBody: "You can acknowledge without taking all the blame. Just name what happened honestly.",
-    prompts: [
-      "I know things got heated between us. I want you to know I noticed.",
-      "I realize I may have come across harshly. That wasn't my intention.",
-      "I've been reflecting on what happened, and I wish I'd handled it differently.",
-    ],
-    promptLabel: "Choose a starting point:",
-    editLabel: "Make it yours:",
-    showCopy: true,
-    safetyLine: "You don't have to send anything right now. 💛",
-  },
-  pause: {
-    emoji: "⏸️",
-    title: "Take a Pause Next Time",
-    why: "Committing to a pause gives you space to respond rather than react.",
-    insight: "A 6-second pause is often enough to shift from reaction to reflection.",
-    howTitle: "🧘 Plan your pause",
-    howBody: "Think of a simple cue—like taking a breath or stepping away briefly—before responding.",
-    prompts: [
-      "Next time I feel upset, I'll take a deep breath before responding.",
-      "I'll try saying 'Give me a moment' instead of reacting immediately.",
-      "I'll step away for a few minutes to collect my thoughts.",
-    ],
-    promptLabel: "Pick a commitment that feels right:",
-    editLabel: "Write your own intention:",
-    showCopy: false,
-    safetyLine: "Take your time—there's no rush. 💛",
-  },
-  letgo: {
-    emoji: "🍃",
-    title: "Let It Go for Now",
-    why: "Sometimes the kindest thing you can do is release the weight of the situation.",
-    insight: "Letting go isn't giving up—it's choosing peace over being right.",
-    howTitle: "🕊️ Release gently",
-    howBody: "You don't have to forget. Just decide that this doesn't need to control how you feel anymore.",
-    prompts: [
-      "I'm choosing to let this go—not because it didn't matter, but because my peace matters more.",
-      "I release the need to be right about this. I choose connection.",
-      "This situation doesn't define our relationship. I'm moving forward.",
-    ],
-    promptLabel: "Choose what resonates:",
-    editLabel: "Write what feels true for you:",
-    showCopy: false,
-    safetyLine: "Take your time—there's no rush. 💛",
-  },
-  reflect: {
-    emoji: "💭",
-    title: "Just Reflect",
-    why: "Reflection builds self-awareness, which is the foundation of every healthy relationship.",
-    insight: "Journaling or even thinking through what happened helps you process emotions without pressure.",
-    howTitle: "🔍 Look inward",
-    howBody: "Ask yourself: What was I really feeling underneath the anger? Often it's hurt, fear, or disappointment.",
-    prompts: [
-      "Underneath my anger, I think I was feeling hurt.",
-      "I realize I was reacting out of fear of not being heard.",
-      "What I really needed was to feel respected and valued.",
-    ],
-    promptLabel: "Choose what resonates:",
-    editLabel: "Write your own reflection:",
-    showCopy: false,
-    safetyLine: "This is just for you—no one else needs to see this. 💛",
-  },
-};
+import { useTranslation } from "react-i18next";
 
 interface Props {
   approach: string;
@@ -109,10 +10,22 @@ interface Props {
 }
 
 const GuidedActionScreen = ({ approach, onComplete }: Props) => {
-  const data = approachData[approach] || approachData.message;
+  const { t } = useTranslation();
   const [revealed, setRevealed] = useState(false);
+
+  const data = t(`guided_action.actions.${approach}`, { returnObjects: true }) as any;
+  const emojiMap: Record<string, string> = {
+    message: "💬",
+    acknowledge: "🫶",
+    pause: "⏸️",
+    letgo: "🍃",
+    reflect: "💭"
+  };
+
   const [selectedMsg, setSelectedMsg] = useState(0);
-  const [editedMsg, setEditedMsg] = useState(data.prompts[0]);
+  const [editedMsg, setEditedMsg] = useState(data?.prompts?.[0] || "");
+
+  if (!data) return null;
 
   const handleSelectMsg = (i: number) => {
     setSelectedMsg(i);
@@ -121,8 +34,12 @@ const GuidedActionScreen = ({ approach, onComplete }: Props) => {
 
   const handleCopy = () => {
     navigator.clipboard.writeText(editedMsg);
-    toast.success("Message copied!");
+    toast.success(t("toasts.copy_success"));
   };
+
+  const safetyLine = approach === "pause" ? t("guided_action.safety_line_pause") : 
+                    approach === "reflect" ? t("guided_action.safety_line_reflect") : 
+                    t("guided_action.safety_line_default");
 
   return (
     <div className="space-y-5">
@@ -134,7 +51,7 @@ const GuidedActionScreen = ({ approach, onComplete }: Props) => {
           transition={{ delay: 0.1, duration: 0.4 }}
           className="text-4xl"
         >
-          {data.emoji}
+          {emojiMap[approach] || "✨"}
         </motion.div>
         <h2 className="font-heading text-lg font-semibold text-foreground">{data.title}</h2>
         <p className="font-body text-sm text-muted-foreground leading-relaxed">{data.why}</p>
@@ -157,7 +74,7 @@ const GuidedActionScreen = ({ approach, onComplete }: Props) => {
               exit={{ opacity: 0 }}
               className="font-body text-xs text-primary"
             >
-              Tap to see how ✨
+              {t("guided_action.tap_reveal")}
             </motion.p>
           ) : (
             <motion.p
@@ -176,7 +93,7 @@ const GuidedActionScreen = ({ approach, onComplete }: Props) => {
       <div className="space-y-2">
         <p className="font-heading text-sm font-medium text-foreground">{data.promptLabel}</p>
         <div className="space-y-2">
-          {data.prompts.map((msg, i) => (
+          {data.prompts.map((msg: string, i: number) => (
             <motion.button
               key={i}
               initial={{ opacity: 0, x: -10 }}
@@ -206,25 +123,25 @@ const GuidedActionScreen = ({ approach, onComplete }: Props) => {
 
       {/* Actions */}
       <div className="flex gap-3">
-        {data.showCopy && (
+        {(approach === "message" || approach === "acknowledge") && (
           <button
             onClick={handleCopy}
             className="flex-1 glass-card py-3 font-heading text-sm font-medium text-foreground hover:scale-[1.02] active:scale-[0.98] transition-all"
           >
-            📋 Copy Message
+            {t("guided_action.copy_button")}
           </button>
         )}
         <button
           onClick={onComplete}
           className="flex-1 btn-gradient py-3 font-heading text-sm font-medium hover:scale-[1.02] active:scale-[0.98] transition-all"
         >
-          I'm Done →
+          {t("guided_action.done_button")}
         </button>
       </div>
 
       {/* Safety line */}
       <p className="font-body text-xs text-muted-foreground text-center italic">
-        {data.safetyLine}
+        {safetyLine}
       </p>
     </div>
   );

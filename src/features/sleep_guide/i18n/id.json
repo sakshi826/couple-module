@@ -1,0 +1,21 @@
+{
+  "app_title": "Panduan Tidur",
+  "app_subtitle": "Memahami kecemasan tidur",
+  "tag": "Psikoedukasi",
+  "screen1": {
+    "intro": "Semakin keras Anda mencoba, semakin sulit.",
+    "title": "Mencoba memaksa diri untuk tidur adalah apa yang membuat Anda tetap terjaga.",
+    "p1": "Anda berbaring, menutup mata Anda - dan otak Anda menyala. Memutar ulang percakapan. Memperhatikan jam.",
+    "p2": "Ini bukan kelemahan. Ini adalah fenomena yang disebut <1>kecemasan tidur</1> - dan itu mempengaruhi jutaan orang.",
+    "quote": "\"Kecemasan tidur bukan tentang tidak lelah. Ini tentang sistem saraf Anda terjebak dalam mode 'aktif'.\"",
+    "button": "Pelajari Lebih Lanjut"
+  },
+  "screen2": {
+    "intro": "Inilah ilmu di baliknya.",
+    "title": "Otak Anda telah belajar memperlakukan tempat tidur Anda sebagai tempat stres - bukan istirahat.",
+    "p1": "Amigdala Anda - detektor ancaman otak - tetap aktif di malam hari, menandakan bahaya saat kepala Anda menyentuh bantal.",
+    "p2": "Ini disebut gairah <1>conditioned</1> - ini menjelaskan mengapa Anda merasa lelah sepanjang hari, namun terjaga lebar sebelum tidur.",
+    "quote": "\"Otakmu tidak rusak. Itu hanya belajar pelajaran yang salah tentang waktu tidur - dan itu dapat diajarkan kembali.\"",
+    "button": "Langkah sebelumnya"
+  }
+}

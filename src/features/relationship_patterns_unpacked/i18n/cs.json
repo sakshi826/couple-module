@@ -1,0 +1,22 @@
+{
+  "app_title": "Vzorce vztahů",
+  "app_subtitle": "Rozbalování vašeho plánu",
+  "complete_title": "Získané povědomí",
+  "complete_message": "Pochopení svých vzorců je prvním krokem k jejich přepisování. Neseš moc zvolit si jinou cestu.",
+  "screen1": {
+    "tag": "Objevování vzorů",
+    "intro": "Už jste někdy měli pocit, že jste tu už byli?",
+    "title": "Pokud vaše vztahy pořád končí stejným způsobem — není to smůla.",
+    "desc": "Vztahy, které si vybíráme, následují plán napsaný dávno předtím, než jsme se do sebe zamilovali. Známé často působí jako bezpečí, i když vede k těm samým starým hádkám.",
+    "quote": "\"Opakujeme vzorce ne proto, že jsme zlomení — ale protože nám připadají povědomé.\"",
+    "button": "Pokračujte v rozbalování"
+  },
+  "screen2": {
+    "tag": "Šablona",
+    "intro": "Začíná to dřív, než si myslíte.",
+    "title": "Nejranější vztahy se stávají vzorem pro vše, co následuje.",
+    "desc": "Způsob, jakým vaši pečovatelé tiše reagovali na vaše potřeby, formoval váš vztah k ostatním jako dospělému. Jsou to naučené reakce — a lze je odnaučit.",
+    "quote": "\"Tvůj vzor dával smysl kdysi. Otázka je — slouží ti to teď?\"",
+    "button": "Finish Reflection"
+  }
+}

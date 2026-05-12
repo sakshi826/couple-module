@@ -1,0 +1,56 @@
+{
+  "app_title": "אתגר חוקי המזון",
+  "welcome_title": "חוקי אוכל הם לא חוקים.",
+  "welcome_subtitle": "לכולנו יש חוקים לגבי אוכל—חלקם מועילים, חלקם לא. זהו מקום בטוח לשים לב לכלל אחד ולהרהר בו בעדינות.",
+  "begin_button": "בואו נתחיל",
+  "screen_titles": {
+    "intro": "מודעות עדינה",
+    "identify": "מתן שם לחוק",
+    "feeling": "השפעה רגשית",
+    "impact": "השפעה פיזית",
+    "challenge": "אתגר רך",
+    "permission": "מתן אישור",
+    "step": "צעדים עדינים",
+    "takeaway": "תקציר",
+    "close": "השתקפות"
+  },
+  "rule_label": "מתן שם לכלל",
+  "rule_question": "מה הכלל?",
+  "rule_options": [
+    "אני לא אמור לאכול אחרי זמן מסוים",
+    "חלק מהמאכלים אסורים",
+    "אני צריך לשלוט בחלקים בקפדנות"
+  ],
+  "rule_something_else": "משהו אחר...",
+  "rule_placeholder": "תכתוב את כלל האוכל שלך...",
+  "feeling_label": "השפעה רגשית",
+  "feeling_question": "איך זה מרגיש?",
+  "feeling_options": [
+    "😟 חרד",
+    "😌 בשליטה",
+    "😕 אשם",
+    "😣 מוגבל",
+    "😴 עייף",
+    "😐 מעורב"
+  ],
+  "challenge_label": "אתגר רך",
+  "challenge_question": "שאלה בעדינות...",
+  "reflections": {
+    "Is this rule too strict?": "האם זה מרגיש גמיש, או שזה יוצר לחץ לעקוב אחריו בצורה מושלמת?",
+    "Is this actually helping me?": "האם הכלל הזה תומך ברווחתך, או מוסיף לחץ או אשמה?",
+    "What happens when I can't follow it?": "מה אתה מבחין כשהכלל הזה לא מתנהל כמתוכנן?"
+  },
+  "reflection_saved": "השתקפות נשמרה",
+  "your_reflection": "ההשתקפות שלך",
+  "label_rule": "הכלל",
+  "label_feeling": "ההרגשה",
+  "preserve_button": "שימור רפלקציה",
+  "preserving": "שימור...",
+  "continue_button": "המשך",
+  "next_button": "הבא",
+  "complete_title": "מודעות שהושגה",
+  "complete_message": "מודעות היא הצעד הראשון לעבר חירות. עשית צעד אמיץ בזיהוי והרהור על כלל האוכל. קחו איתכם את ההבנה העדינה הזו היום.",
+  "auth_error": "סשן אימות חסר או מסד נתונים לא מוגדר",
+  "save_success": "השתקפות נשמרת",
+  "save_error": "נכשל בשימור ההשתקפות"
+}

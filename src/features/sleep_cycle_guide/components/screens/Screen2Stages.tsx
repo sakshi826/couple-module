@@ -1,44 +1,26 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 interface Props { onNext: () => void }
 
-const stages = [
-  {
-    emoji: "🌊", title: "Light sleep", tag: "1–5 mins · easily woken",
-    body: "You're drifting off. Body starts to let go, muscles may twitch. Very easy to wake up from here.",
-    bg: "#ddeeff",
-  },
-  {
-    emoji: "💤", title: "Settling in", tag: "10–25 mins · truly asleep",
-    body: "Heart rate slows, body temperature drops. You're properly asleep — brain activity begins to slow down.",
-    bg: "#dde8ff",
-  },
-  {
-    emoji: "🔵", title: "Deep sleep ⭐", tag: "20–40 mins · the gold",
-    body: "Body repairs tissue, builds immunity. The most physically restorative stage — hard to wake from.",
-    bg: "#d8d0ff",
-  },
-  {
-    emoji: "🌙", title: "REM sleep", tag: "10–60 mins · dream mode",
-    body: "Brain buzzes with activity. Emotions get processed, memories lock in. Skipping this leaves you foggy.",
-    bg: "#ead8ff",
-  },
-];
-
 const Screen2Stages = ({ onNext }: Props) => {
+  const { t } = useTranslation();
   const [open, setOpen] = useState<number | null>(null);
+
+  const stages = t("s2.stages", { returnObjects: true }) as any[];
+  const bgs = ["#ddeeff", "#dde8ff", "#d8d0ff", "#ead8ff"];
 
   return (
     <div className="flex flex-col h-full px-5 py-2 overflow-y-auto" style={{ scrollbarWidth: "none" }}>
       <h1 className="text-lg font-semibold mb-1" style={{ color: "#1a2a4a" }}>
-        Your brain does THIS every night 🌀
+        {t("s2.title")}
       </h1>
       <p className="text-xs mb-3" style={{ color: "#3a5070" }}>
-        Every 90 minutes, your brain cycles through 4 stages — like a playlist on repeat. Tap each to explore 👇
+        {t("s2.desc")}
       </p>
 
       <div className="flex flex-col gap-2 mb-3">
-        {stages.map((s, i) => {
+        {Array.isArray(stages) && stages.map((s, i) => {
           const isOpen = open === i;
           return (
             <div key={i} className="sleep-card overflow-hidden">
@@ -48,7 +30,7 @@ const Screen2Stages = ({ onNext }: Props) => {
               >
                 <div
                   className="flex items-center justify-center shrink-0"
-                  style={{ width: 34, height: 34, borderRadius: 10, background: s.bg }}
+                  style={{ width: 34, height: 34, borderRadius: 10, background: bgs[i] }}
                 >
                   <span className="text-sm">{s.emoji}</span>
                 </div>
@@ -81,11 +63,11 @@ const Screen2Stages = ({ onNext }: Props) => {
       </div>
 
       <p className="text-xs italic text-center mb-3" style={{ color: "#8a9cbc" }}>
-        Deep sleep fixes your body. REM fixes your mind.
+        {t("s2.italic")}
       </p>
 
       <button className="sleep-cta mt-auto shrink-0" onClick={onNext}>
-        So why do I still feel groggy? →
+        {t("s2.button")}
       </button>
     </div>
   );

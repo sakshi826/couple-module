@@ -1,0 +1,61 @@
+{
+  "app_title": "Muling Gumuhit ng Iyong Bilog",
+  "intro": {
+    "title": "Muling Gumuhit ng Iyong Bilog",
+    "p1": "Sa iba't ibang yugto ng buhay, maaaring magbago ang ating sistema ng suporta. 🌱 Minsan pakiramdam namin konektado at suportado. Sa ibang pagkakataon, ang mga bagay ay maaaring pakiramdam malayo o hindi malinaw.",
+    "p2": "Ang aktibidad na ito ay isang puwang upang i-pause at tingnan ang mga tao sa paligid mo - at maunawaan kung sino ang kasalukuyang nararamdaman na bahagi ng iyong bilog. 💛",
+    "p3": "Walang tama o mali dito. Kamalayan lang. ✨",
+    "italic": "🌿 Ang iyong bilog ay maaaring magbago - at okay lang iyon.",
+    "button": "Simulan ang →"
+  },
+  "circle": {
+    "subtitle": "Sino ang nasa iyong sistema ng suporta?",
+    "title": "Sino ang nasa iyong bilog ngayon? 🔮",
+    "desc": "Isipin ang mga tao sa iyong buhay at kung saan sila nagpapakita para sa iyo.",
+    "instruction": "👆 I-tap ang bawat bubble at magdagdag ng isang tao na akma sa puwang na iyon sa iyong buhay.",
+    "center_node": "Ikaw",
+    "italic": "🤍 Okay lang kung parang maliit lang ang bilog mo.",
+    "button": "Magpatuloy →",
+    "modal": {
+      "title": "Email Address *",
+      "placeholder": "Ipasok ang isang pangalan ...",
+      "button": "I-save ang Pangalan"
+    },
+    "prompts": [
+      "Isang taong nagdudulot ng kagalakan",
+      "Isang Taong Sumusuporta sa Iyo",
+      "Isang taong pwede mong kausapin",
+      "Taong pinagkakatiwalaan mo",
+      "Isang taong nagbibigay-inspirasyon sa iyo"
+    ]
+  },
+  "reflection": {
+    "subtitle": "Pangwakas na pagmumuni-muni",
+    "title": "Ano ang napapansin mo?",
+    "p_intro": "Maglaan ng ilang sandali upang tingnan ang iyong bilog. Maaari mong mapansin:",
+    "list": [
+      "Ang ilang mga tao ay mas malapit kaysa sa iba",
+      "Ang ilang mga koneksyon ay pakiramdam malakas",
+      "Ang ilan ay nakakaramdam ng malayo o hindi malinaw",
+      "Maaaring may mga puwang - o ilang makabuluhang mga tao lamang"
+    ],
+    "italic": "Ang kamalayan ay ang unang hakbang patungo sa pagbuo ng mga koneksyon na pinahahalagahan mo. 🧘",
+    "label": "💭 Mayroon bang sinuman na nais mong maramdaman na mas konektado?",
+    "placeholder": "Isulat ang iyong mga saloobin dito ...",
+    "save_button": "I-save ang Pagmumuni-muni",
+    "saving_button": "Pag-save ...",
+    "skip_button": "Email Address *"
+  },
+  "history": {
+    "title": "Kasaysayan ng Iyong Circles",
+    "subtitle": "Isang talaan ng iyong sistema ng suporta sa paglipas ng panahon.",
+    "no_entries": "Wala pang mga bilog na nai-save.",
+    "reflection_label": "Pagmumuni-muni:",
+    "back_button": "Bumalik sa Tahanan"
+  },
+  "toasts": {
+    "save_success": "Nai-save ang bilog",
+    "save_error": "Nabigo na i-save ang bilog",
+    "auth_error": "Nawawala ang session ng auth o hindi naka-configure ang DB"
+  }
+}

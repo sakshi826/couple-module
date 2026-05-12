@@ -1,9 +1,9 @@
 import { useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import ProgressDots from "@/features/redraw_your_circle/components/ProgressDots";
 import BackgroundOrbs from "@/features/redraw_your_circle/components/BackgroundOrbs";
-import { PROMPTS } from "@/features/redraw_your_circle/lib/circleStore";
 import { Info, X, Users } from "lucide-react";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 
@@ -36,9 +36,12 @@ interface CircleScreenProps {
 }
 
 const CircleScreen = ({ names, onNamesChange }: CircleScreenProps) => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const [inputValue, setInputValue] = useState("");
+
+  const PROMPTS = t("circle.prompts", { returnObjects: true }) as string[];
 
   const handleBubbleTap = useCallback(
     (index: number) => {
@@ -64,27 +67,27 @@ const CircleScreen = ({ names, onNamesChange }: CircleScreenProps) => {
 
   return (
     <PremiumLayout
-      title="Redraw Your Circle"
-      subtitle="Who is in your support system?"
+      title={t("app_title")}
+      subtitle={t("circle.subtitle")}
       icon={<Users className="w-6 h-6 text-primary" />}
       onBack={() => navigate("../intro", { replace: true })}
     >
       <div className="flex-1 flex flex-col items-center px-6 pb-8 relative z-10">
         <BackgroundOrbs />
-        <ProgressDots current={2} />
+        <div className="mt-4"><ProgressDots current={2} /></div>
 
         <h2 className="text-xl font-semibold text-foreground mt-6 mb-2 text-center">
-          Who's In Your Circle Right Now? 🔮
+          {t("circle.title")}
         </h2>
         <p className="text-sm text-muted-foreground text-center max-w-xs mb-2">
-          Think about the people in your life and where they show up for you.
+          {t("circle.desc")}
         </p>
 
         {/* Instruction bar */}
         <div className="bg-white/80 backdrop-blur-sm rounded-2xl px-4 py-2.5 flex items-center gap-2 max-w-xs mb-6 border border-slate-100 shadow-sm">
           <Info className="w-4 h-4 text-primary flex-shrink-0" />
           <span className="text-xs text-muted-foreground">
-            👆 Tap each bubble and add someone who fits that space in your life.
+            {t("circle.instruction")}
           </span>
         </div>
 
@@ -92,11 +95,11 @@ const CircleScreen = ({ names, onNamesChange }: CircleScreenProps) => {
         <div className="relative w-72 h-72 mx-auto mt-4">
           {/* Center node */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-primary shadow-lg shadow-primary/30 flex items-center justify-center z-10">
-            <span className="text-sm font-semibold text-primary-foreground">You</span>
+            <span className="text-sm font-semibold text-primary-foreground">{t("circle.center_node")}</span>
           </div>
 
           {/* Floating bubbles */}
-          {PROMPTS.map((prompt, i) => {
+          {Array.isArray(PROMPTS) && PROMPTS.map((prompt, i) => {
             const { x, y } = getPos(POSITIONS[i].angle, POSITIONS[i].r);
             const hasName = !!names[String(i)];
 
@@ -136,14 +139,14 @@ const CircleScreen = ({ names, onNamesChange }: CircleScreenProps) => {
         </div>
 
         <p className="text-xs text-muted-foreground mt-6 italic text-center">
-          🤍 It's okay if your circle feels small.
+          {t("circle.italic")}
         </p>
 
         <button
           onClick={() => navigate("../reflection", { replace: true })}
           className="mt-8 bg-primary text-primary-foreground font-semibold px-12 py-4 rounded-2xl shadow-lg shadow-primary/20 hover:shadow-xl hover:scale-[1.02] transition-all"
         >
-          Continue →
+          {t("circle.button")}
         </button>
       </div>
 
@@ -167,7 +170,7 @@ const CircleScreen = ({ names, onNamesChange }: CircleScreenProps) => {
             >
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-base font-bold text-slate-800">
-                  {BUBBLE_EMOJIS[activeIndex]} Add a name
+                  {BUBBLE_EMOJIS[activeIndex]} {t("circle.modal.title")}
                 </h3>
                 <button
                   onClick={() => setActiveIndex(null)}
@@ -184,7 +187,7 @@ const CircleScreen = ({ names, onNamesChange }: CircleScreenProps) => {
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
                 onKeyDown={(e) => e.key === "Enter" && handleSave()}
-                placeholder="Enter a name…"
+                placeholder={t("circle.modal.placeholder")}
                 autoFocus
                 className="w-full bg-slate-50 border-2 border-transparent rounded-2xl px-6 py-4 text-base text-slate-700 placeholder:text-slate-400 outline-none focus:bg-white focus:border-primary/20 transition-all"
               />
@@ -192,7 +195,7 @@ const CircleScreen = ({ names, onNamesChange }: CircleScreenProps) => {
                 onClick={handleSave}
                 className="mt-6 w-full bg-primary text-white font-bold py-4 rounded-2xl shadow-lg shadow-primary/20 hover:opacity-90 transition-opacity"
               >
-                Save Name
+                {t("circle.modal.button")}
               </button>
             </motion.div>
           </motion.div>

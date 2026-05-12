@@ -1,5 +1,6 @@
-import { useState, useCallback } from "react";
+import { useState } from "react";
 import { Moon } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import Screen1Hook from "./screens/Screen1Hook";
 import Screen2Stages from "./screens/Screen2Stages";
 import Screen3Groggy from "./screens/Screen3Groggy";
@@ -11,6 +12,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const TOTAL_SCREENS = 4;
 
 const SleepApp = () => {
+  const { t } = useTranslation();
   const [currentScreen, setCurrentScreen] = useState(0);
 
   const goNext = () => setCurrentScreen(prev => Math.min(prev + 1, TOTAL_SCREENS - 1));
@@ -23,11 +25,11 @@ const SleepApp = () => {
     <Screen4Reflection key={3} />,
   ];
 
-  const pillLabels = ["Introduction", "The 4 stages", "The groggy truth", "What about you?"];
+  const pillLabels = t("pill_labels", { returnObjects: true }) as string[];
 
   return (
     <PremiumLayout
-      title="Sleep Cycle Guide"
+      title={t("app_title")}
       subtitle={pillLabels[currentScreen]}
       icon={<Moon className="w-6 h-6 text-primary" />}
       onBack={currentScreen > 0 ? goBack : undefined}

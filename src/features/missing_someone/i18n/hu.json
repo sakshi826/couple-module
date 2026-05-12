@@ -1,0 +1,26 @@
+{
+  "app_title": "Hiányzik valaki",
+  "subtitles": [
+    "Validáció",
+    "Belső bölcsesség",
+    "Teljes"
+  ],
+  "complete_title": "Tisztánlátás",
+  "complete_message": "A hiányzás kémiájának megértése az első lépés a gyógyulás felé. Az érzéseid érvényesek, és az agyad egyszerűen csak a munkáját végzi, hogy megvédje és feldolgozza őket.",
+  "screen1": {
+    "tag": "Validáció",
+    "intro": "Ez nem jelenti azt, hogy gyenge vagy.",
+    "title": "Hiányolni valakit, aki bántott, mélyen emberi dolog.",
+    "desc": "Elmentél. Vagy elmentek. És mégis — még mindig a telefonodért nyúlsz, remélve, hogy ők az. Még mindig többet játszod a jó pillanatokat, mint a fájdalmasokat. Ez az ellentmondás nem hibá. Ez az, ahogyan az agyad feldolgozza a veszteséget.",
+    "quote": "\"Nem csak hiányzik az illető. Hiányzik az érzés, hogy kötődsz hozzájuk.\"",
+    "button": "Következő lépés"
+  },
+  "screen2": {
+    "tag": "Agytudomány",
+    "intro": "Belső bölcsesség",
+    "title": "A szerelem kémiai köteléket teremt.",
+    "desc": "Ha szeretsz valakit, az agyad dopamint, oxitocint, valamint szerotonint bocsát ki. Amikor véget ér, ezek a szintek csökkennek. Az agyad gyászol — nem csak az embert, hanem a közelség érzését is.",
+    "quote": "\"Ha hiányoznak nekik, nem jelenti azt, hogy vissza kellene menned. A szíved gyászolja a köteléket — nem feltétlenül azt az embert, amilyen valójában volt.\"",
+    "button": "Finish Reflection"
+  }
+}

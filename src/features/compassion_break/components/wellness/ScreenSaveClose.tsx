@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Heart, Save } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 interface CheckInData {
   beforeIntensity: number;
@@ -15,6 +16,7 @@ interface Props {
 }
 
 const ScreenSaveClose = ({ data, onSave, onFinish }: Props) => {
+  const { t } = useTranslation();
   return (
     <div className="flex flex-col items-center text-center px-4 py-6">
       <motion.h1
@@ -23,7 +25,7 @@ const ScreenSaveClose = ({ data, onSave, onFinish }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        Keep this with you 💫
+        {t("save_title")}
       </motion.h1>
 
       <motion.p
@@ -32,8 +34,7 @@ const ScreenSaveClose = ({ data, onSave, onFinish }: Props) => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.15, duration: 0.6 }}
       >
-        You took a moment to respond to yourself differently.
-        That matters more than it seems.
+        {t("save_subtitle")}
       </motion.p>
 
       <motion.div
@@ -46,21 +47,21 @@ const ScreenSaveClose = ({ data, onSave, onFinish }: Props) => {
           <Heart size={80} fill="currentColor" className="text-primary" />
         </div>
 
-        <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-6 text-left">Your check-in</p>
+        <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-6 text-left">{t("label_your_checkin")}</p>
         <div className="space-y-4 text-sm text-left relative z-10">
           <div className="flex justify-between items-center">
-            <span className="text-slate-400 font-bold">Intensity Shift</span>
+            <span className="text-slate-400 font-bold">{t("label_intensity_shift")}</span>
             <div className="flex items-center gap-2">
               <span className="text-slate-400 line-through">{data.beforeIntensity}</span>
               <span className="text-primary font-black text-lg">→ {data.afterIntensity}</span>
             </div>
           </div>
           <div className="flex justify-between items-center">
-            <span className="text-slate-400 font-bold">Feelings</span>
+            <span className="text-slate-400 font-bold">{t("label_feelings")}</span>
             <span className="text-slate-700 font-black uppercase tracking-tight">{data.emotions.join(", ")}</span>
           </div>
           <div className="pt-6 border-t border-slate-50 mt-2">
-            <p className="text-slate-400 font-bold text-[10px] uppercase tracking-widest mb-2">Your kind words</p>
+            <p className="text-slate-400 font-bold text-[10px] uppercase tracking-widest mb-2">{t("label_your_kind_words")}</p>
             <p className="text-slate-800 font-bold text-lg leading-relaxed italic">"{data.kindSentence}"</p>
           </div>
         </div>
@@ -77,13 +78,13 @@ const ScreenSaveClose = ({ data, onSave, onFinish }: Props) => {
           onClick={onSave}
         >
           <Save size={20} />
-          Save & Finish
+          {t("save_finish_button")}
         </button>
         <button
           className="w-full py-5 rounded-[2rem] bg-slate-50 text-slate-400 font-black text-lg border border-slate-100 hover:bg-slate-100 transition-all"
           onClick={onFinish}
         >
-          Finish without saving
+          {t("finish_no_save_button")}
         </button>
       </motion.div>
     </div>

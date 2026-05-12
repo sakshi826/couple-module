@@ -1,12 +1,13 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-
+import { useTranslation } from "react-i18next";
 
 interface Props {
   onContinue: (sentence: string) => void;
 }
 
 const ScreenKindResponse = ({ onContinue }: Props) => {
+  const { t } = useTranslation();
   const [text, setText] = useState("");
 
   return (
@@ -17,7 +18,7 @@ const ScreenKindResponse = ({ onContinue }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        Try a kinder voice
+        {t("kindness_title")}
       </motion.h1>
 
       <motion.p
@@ -26,8 +27,7 @@ const ScreenKindResponse = ({ onContinue }: Props) => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.15, duration: 0.6 }}
       >
-        Write one sentence you need to hear right now.
-        Say it like you would to a dear friend.
+        {t("kindness_subtitle")}
       </motion.p>
 
       <motion.div
@@ -36,10 +36,10 @@ const ScreenKindResponse = ({ onContinue }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.35, duration: 0.6 }}
       >
-        <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-4">Your message to yourself</p>
+        <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-4">{t("label_kind_message")}</p>
         <textarea
           className="w-full bg-slate-50 border-none rounded-2xl p-6 text-center text-lg font-bold text-slate-800 focus:ring-2 focus:ring-primary/20 transition-all shadow-inner resize-none min-h-[160px]"
-          placeholder="I am doing my best..."
+          placeholder={t("placeholder_kind_message")}
           value={text}
           onChange={(e) => setText(e.target.value)}
           autoFocus
@@ -54,7 +54,7 @@ const ScreenKindResponse = ({ onContinue }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.55, duration: 0.6 }}
       >
-        Continue
+        {t("continue_button")}
       </motion.button>
     </div>
   );

@@ -1,0 +1,56 @@
+{
+  "app_title": "Challenging Food Rules",
+  "welcome_title": "Food rules aren't laws.",
+  "welcome_subtitle": "We all carry rules about food—some helpful, some not. This is a safe space to notice one rule and gently reflect on it.",
+  "begin_button": "Let's Begin",
+  "screen_titles": {
+    "intro": "Gentle Awareness",
+    "identify": "Naming the Rule",
+    "feeling": "Emotional Impact",
+    "impact": "Physical Impact",
+    "challenge": "Soft Challenge",
+    "permission": "Giving Permission",
+    "step": "Gentle Steps",
+    "takeaway": "Summary",
+    "close": "Reflection"
+  },
+  "rule_label": "Naming the rule",
+  "rule_question": "What's the rule?",
+  "rule_options": [
+    "I shouldn't eat after a certain time",
+    "Some foods are off-limits",
+    "I need to control portions strictly"
+  ],
+  "rule_something_else": "Something else...",
+  "rule_placeholder": "Type your food rule...",
+  "feeling_label": "Emotional Impact",
+  "feeling_question": "How does this feel?",
+  "feeling_options": [
+    "😟 Anxious",
+    "😌 In control",
+    "😕 Guilty",
+    "😣 Restricted",
+    "😴 Tired",
+    "😐 Mixed"
+  ],
+  "challenge_label": "Soft Challenge",
+  "challenge_question": "Gently question...",
+  "reflections": {
+    "Is this rule too strict?": "Does this feel flexible, or does it create pressure to follow it perfectly?",
+    "Is this actually helping me?": "Does this rule support your well-being, or add stress or guilt?",
+    "What happens when I can't follow it?": "What do you notice when this rule doesn't go as planned?"
+  },
+  "reflection_saved": "Reflection Saved",
+  "your_reflection": "Your Reflection",
+  "label_rule": "The Rule",
+  "label_feeling": "The Feeling",
+  "preserve_button": "Preserve Reflection",
+  "preserving": "Preserving...",
+  "continue_button": "Continue",
+  "next_button": "Next",
+  "complete_title": "Awareness Gained",
+  "complete_message": "Awareness is the first step toward freedom. You've taken a brave step in identifying and reflecting on a food rule. Carry this gentle understanding with you today.",
+  "auth_error": "Auth session missing or DB not configured",
+  "save_success": "Reflection preserved",
+  "save_error": "Failed to preserve reflection"
+}

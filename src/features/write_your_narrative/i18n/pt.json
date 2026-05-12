@@ -1,0 +1,72 @@
+{
+  "app_title": "Sua Narrativa",
+  "nav": {
+    "entry": "Bem-vindo",
+    "writing": "Expressando",
+    "landing": "Refletindo",
+    "history": "Sua Jornada"
+  },
+  "entry": {
+    "title": "Vamos um passo de cada vez. 💛",
+    "description": [
+      "Você não precisa contar toda a sua história hoje. Só uma pequena parte já é suficiente.",
+      "Você está seguro agora. Você está no controle do que escreve — e do que não escreve."
+    ],
+    "breath": "Respire fundo antes de começarmos.",
+    "button_ready": "Estou pronto",
+    "button_history": "Narrativas Passadas",
+    "footer": "Suas palavras • Seu ritmo • Sua história"
+  },
+  "writing": {
+    "title": "Escreva o que parecer bem ✨",
+    "subtitle": "Suas palavras, seu ritmo",
+    "prompt_label": "Precisa de um ponto de partida?",
+    "prompts": [
+      {
+        "text": "O que mais lembro é...",
+        "emoji": "💭"
+      },
+      {
+        "text": "Naquela época, eu me senti...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "Desde então, percebi...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "Comece a escrever aqui...",
+    "notice": "Não existe um jeito certo de fazer isso. Até algumas falas já são suficientes.",
+    "button": "Finalizar a Escrita"
+  },
+  "landing": {
+    "title": "Você fez algo importante.",
+    "subtitle": "Obrigado por estar presente por você mesmo.",
+    "settle_title": "Vamos aproveitar um momento para nos acomodar",
+    "steps": [
+      "Olhe ao redor e cite 3 coisas que você consegue ver.",
+      "Respire fundo... e desligado."
+    ],
+    "feeling_label": "Neste momento, eu sinto:",
+    "feeling_placeholder": "Uma palavra ou duas...",
+    "quote": "\"Você não precisa carregar tudo de uma vez. Você pode voltar quando se sentir pronto.\"",
+    "button_save": "Preserve a Narrativa",
+    "button_preserving": "Preservando..."
+  },
+  "history": {
+    "title": "Sua Jornada 📝",
+    "subtitle": "Narrativas e reflexões do passado",
+    "empty": "Você ainda não salvou nenhuma entrada. Vá com calma — não há pressa.",
+    "no_writing": "Nenhuma escrita preservada",
+    "button_back": "Voltar à atividade"
+  },
+  "complete": {
+    "title": "Narrativa Preservada",
+    "message": "Você deu um passo poderoso ao contar sua história. Sua perspectiva importa, e sua jornada é únicamente sua."
+  },
+  "toasts": {
+    "save_success": "Narrativa preservada",
+    "save_error": "Falhou em preservar a narrativa",
+    "auth_error": "Sessão de autenticação ausente ou banco de dados não configurado"
+  }
+}

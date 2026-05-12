@@ -1,0 +1,39 @@
+{
+  "app_title": "Sorgreisen",
+  "app_subtitle": "Kartet over tap • {{current}}/{{total}}",
+  "screen1_title": "Du sørger ikke på feil måte",
+  "screen1_desc": "Sorg kommer ikke i ryddige faser og drar ikke som planlagt. Det krasjer inn, trekker seg tilbake, og kommer tilbake når du minst venter det. Det er ikke en feil ved deg — det er sorg.",
+  "screen1_quote": "\"Det finnes ingen riktig måte å sørge på. Det finnes bare din vei.\"",
+  "btn_tell_more": "Fortell meg mer",
+  "screen2_tag": "Det virkelige bildet",
+  "screen2_title": "Sorg bærer mange ansikter",
+  "screen2_desc": "Dette er hvordan folk forventer at sorg skal se ut — i motsetning til hvordan det faktisk er.",
+  "expectation_label": "Forventningen",
+  "reality_label": "Virkeligheten",
+  "expectation_desc": "Lineær • Forutsigbar • Klar",
+  "reality_desc": "Kaotisk • Looping • Menneskelig",
+  "screen2_quote": "\"Ingen av disse bølgene er feil. Alle er sorg.\"",
+  "btn_one_more": "En ting til",
+  "screen3_tag": "Milde sannheter",
+  "screen3_title": "Verdt å vite",
+  "truths": [
+    {
+      "emoji": "🗓️",
+      "title": "Ingen frist",
+      "body": "Det finnes ingen utløpsdato for tap. Å kjenne det måneder eller år senere betyr ikke at du sitter fast — det betyr at du elsket."
+    },
+    {
+      "emoji": "🌗",
+      "title": "Motstridende følelser",
+      "body": "Du kan savne noen og føle deg lettet. Du kan le og sørge. Sorg har motsetninger."
+    },
+    {
+      "emoji": "🤍",
+      "title": "Kjærlighetens forvandling",
+      "body": "Smerten er ikke adskilt fra kjærligheten. Det er det samme, forvandlet."
+    }
+  ],
+  "btn_finish": "Ferdig refleksjon",
+  "complete_title": "Journey Honored",
+  "complete_message": "Du trenger ikke gå videre. Du lærer bare å bære det annerledes. Din reise er unik, gyldig og dypt menneskelig."
+}

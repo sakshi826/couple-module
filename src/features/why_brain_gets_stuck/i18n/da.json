@@ -1,0 +1,29 @@
+{
+  "app_title": "Hvorfor hjernen sidder fast",
+  "app_subtitle": "Overlevelseslogikken • {{step}}/{{total}}",
+  "s1": {
+    "title": "Din hjerne gik ikke i stykker. Den tilpassede sig.",
+    "description": "Efter traumer omprogrammerer din hjerne sig selv for at holde dig sikker. Den lærte, at verden kunne være farlig, så den forblev klar. Det er ikke en fejl. Det er overlevelse.",
+    "quote": "\"PTSD er ikke et tegn på, at der er noget galt med dig. Det er et tegn på, at der er sket dig noget.\"",
+    "button": "Fortæl mig mere"
+  },
+  "s2": {
+    "tag": "blide sandheder",
+    "title": "Hjerneoverlevelseslogik",
+    "truths": [
+      {
+        "header": "Alarmen blev ved med at være tændt",
+        "body": "Hypervigilans og let at blive forskrækket er ikke overreaktioner — din hjernes alarmsystem gør sit arbejde alt for godt."
+      },
+      {
+        "header": "Flashbacks er minder",
+        "body": "Triggere trækker din hjerne tilbage, fordi den aldrig fik signalet om, at truslen var ovre. Den prøver at beskytte dig."
+      },
+      {
+        "header": "Kæmper for dig",
+        "body": "Hvert symptom var engang en overlevelseshandling. Din hjerne gjorde, hvad den måtte for at holde dig i live."
+      }
+    ],
+    "healing": "Heling handler ikke om at glemme. Det handler om at hjælpe din hjerne med at lære, at du er sikker nu."
+  }
+}

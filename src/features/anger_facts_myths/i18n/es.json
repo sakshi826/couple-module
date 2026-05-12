@@ -1,0 +1,58 @@
+{
+  "app_title": "Hechos y mitos sobre la ira",
+  "welcome_title": "Mito vs Hecho:\nEdición Anger",
+  "welcome_subtitle": "¿Crees que sabes la verdad sobre la ira? Algunos son mitos. Algunos son hechos. Vamos a averiguarlo.",
+  "start_quiz": "Start Quiz",
+  "questions_count": "{{count}} Preguntas • 2 minutos",
+  "question_nav": "Pregunta {{current}} de {{total}}",
+  "knowledge_quiz": "Quiz de conocimiento",
+  "myth_button": "MITO",
+  "fact_button": "HECHO",
+  "correct": "¡Correcto!",
+  "incorrect": "¡No del todo!",
+  "its_a_myth": "Es un mito",
+  "its_a_fact": "Es un hecho",
+  "example_label": "Ejemplo: {{example}}",
+  "see_results": "Ver resultados",
+  "next_question": "Siguiente pregunta",
+  "results_title": "¡Quiz completado!",
+  "expert_level": "Nivel Experto",
+  "great_progress": "Gran progreso",
+  "learning_journey": "Viaje de aprendizaje",
+  "finish_activity": "Actividad de Finalización",
+  "try_again": "Inténtalo de nuevo",
+  "complete_title": "Conocimiento dominado",
+  "complete_message": "¡Has conseguido {{score}}/{{total}}! Has obtenido una valiosa comprensión de las verdades y mitos de la ira.",
+  "questions": [
+    {
+      "statement": "La ira es mala. Si te sientes enfadado, algo te pasa.",
+      "answer": "Mito",
+      "realFact": "La ira es una emoción normal y saludable. Todo el mundo lo siente. No es una señal de que algo esté 'mal' en ti, es una señal de que algo te importa. Lo que importa es cómo respondes a ello, no si lo sientes.",
+      "example": "Un veterano se enfada cuando se cruza sus límites. Esa ira es válida — les está diciendo algo importante."
+    },
+    {
+      "statement": "La ira puede ser una señal de que se han cruzado tus límites.",
+      "answer": "Hecho",
+      "realFact": "La ira es información. Cuando lo sientes, merece la pena preguntarte: ¿qué límite se cruzó? ¿Qué necesidad no se está cubriendo? Escuchar tu enfado — sin actuar por impulso — te ayuda a entenderte mejor y a tomar acciones significativas.",
+      "example": "Te enfadas cuando un compañero se atribuye el mérito de tu trabajo. Esa ira apunta a la necesidad de reconocimiento y justicia."
+    },
+    {
+      "statement": "Si estás enfadado, tienes que desahogarte gritando o golpeando cosas.",
+      "answer": "Mito",
+      "realFact": "Una expresión sana de ira no significa supresión Ni explosión. Significa reconocer tus sentimientos y expresarlos de forma constructiva — a través de palabras, escribiendo en un diario, actividad física o vías creativas. Puedes honrar tu ira sin destruirla.",
+      "example": "En vez de golpear una pared, sales a correr o escribes exactamente qué te molesta. La rabia se mueve por ti sin causar daño."
+    },
+    {
+      "statement": "Aprender a gestionar la ira es un signo de fortaleza emocional.",
+      "answer": "Hecho",
+      "realFact": "Las personas que trabajan en el control de su ira no son débiles — están haciendo uno de los trabajos emocionales más valientes que existen. Elegir pausar, reflexionar y responder de forma reflexiva requiere mucha más fuerza que reaccionar por impulso.",
+      "example": "Respirar hondo y decir 'necesito un minuto antes de responder' en un momento de acaloración es un acto poderoso de autocontrol."
+    },
+    {
+      "statement": "Si alguien te enfada, es culpa suya. No tienes ninguna responsabilidad.",
+      "answer": "Mito",
+      "realFact": "Otras personas pueden desencadenar tu ira, pero cómo respondas es tu responsabilidad — y tu poder. Hacerse responsable de tus reacciones no significa que la otra persona tuviera razón. Significa que tú eliges cómo presentarte. Eso es empoderamiento, no culpa.",
+      "example": "Alguien te corta el paso en el tráfico. Te sientes enfadada — eso es normal. Pero tú eliges si enfurecerte o respirar. La elección es tuya."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "app_title": "Waarom het brein vastloopt",
+  "app_subtitle": "De logica van overleven • {{step}}/{{total}}",
+  "s1": {
+    "title": "Je brein is niet kapot. Het paste zich aan.",
+    "description": "Na trauma herbedraad je brein zichzelf om je veilig te houden. Het leerde dat de wereld gevaarlijk kon zijn, dus bleef het klaar. Dat is geen fout. Dat is overleven.",
+    "quote": "\"PTSS is geen teken dat er iets mis is met jou. Het is een teken dat er iets met je is gebeurd.\"",
+    "button": "Vertel me meer"
+  },
+  "s2": {
+    "tag": "Zachte waarheden",
+    "title": "Hersenoverlevingslogica",
+    "truths": [
+      {
+        "header": "Het alarm bleef aan",
+        "body": "Hyperwaakzaamheid en snel schrikken zijn geen overreacties — het alarmsysteem van je hersenen doet zijn werk te goed."
+      },
+      {
+        "header": "Flashbacks zijn herinneringen",
+        "body": "Triggers trekken je brein terug omdat het nooit het signaal kreeg dat de dreiging voorbij was. Het probeert je te beschermen."
+      },
+      {
+        "header": "Vechtend voor jou",
+        "body": "Elk symptoom was ooit een overlevingsdaad. Je brein deed wat het moest doen om je in leven te houden."
+      }
+    ],
+    "healing": "Genezen gaat niet over vergeten. Het gaat erom je brein te helpen leren dat je nu veilig bent."
+  }
+}

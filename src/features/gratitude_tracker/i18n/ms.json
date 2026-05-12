@@ -1,0 +1,53 @@
+{
+  "app": {
+    "title": "Penjejak Kesyukuran",
+    "description": "Jejaki rasa syukur dan mood harian anda untuk kesejahteraan mental yang lebih baik"
+  },
+  "gratitude": {
+    "heading": "Apa yang anda syukuri hari ini?",
+    "subheading": "Luangkan sedikit masa untuk merenung perkara baik, besar atau kecil.",
+    "item1": {
+      "label": "Perkara Kesyukuran 1",
+      "placeholder": "cth secawan teh hangat pagi ini..."
+    },
+    "item2": {
+      "label": "Perkara Kesyukuran 2",
+      "placeholder": "cth Perkataan yang baik daripada rakan..."
+    },
+    "optional": "(pilihan)"
+  },
+  "common": {
+    "continue": "Teruskan"
+  },
+  "mood": {
+    "heading": "Bagaimana keadaan awak?",
+    "subheading": "Pilih mood yang paling menggambarkan anda sekarang.",
+    "save": "Simpan Penyertaan Kesyukuran",
+    "happy": "Gembira",
+    "calm": "Tenang",
+    "neutral": "Neutral",
+    "low": "Rendah",
+    "stressed": "Tertekan"
+  },
+  "review": {
+    "heading": "Penyertaan anda",
+    "date": "Tarikh",
+    "gratitude1": "Kesyukuran 1",
+    "gratitude2": "Kesyukuran 2",
+    "mood": "Mood",
+    "edit": "Edit Entri",
+    "history": "Lihat Sejarah"
+  },
+  "history": {
+    "heading": "Sejarah",
+    "back": "Kembali",
+    "home": "Pergi ke Laman Utama",
+    "sun": "Matahari",
+    "mon": "Saya",
+    "tue": "Selasa",
+    "wed": "Rabu",
+    "thu": "Musim luruh",
+    "fri": "Jumaat",
+    "sat": "Sabtu"
+  }
+}

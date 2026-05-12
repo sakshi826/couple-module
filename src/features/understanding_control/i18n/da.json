@@ -1,0 +1,60 @@
+{
+  "app_title": "Forståelse af kontrol",
+  "app_subtitle": "Overlevelsesstrategi • {{step}}/3",
+  "screens": [
+    {
+      "headline": "Hvorfor kontrol kan føles så stærk",
+      "paragraphs": [
+        "For mange, der oplever spisevanskeligheder, kan kontrol føles som en måde at skabe tryghed på.",
+        "Når livet føles uforudsigeligt eller følelsesmæssigt intenst, kan fokus på mad, vægt eller rutiner give en følelse af struktur og sikkerhed.",
+        "Det handler ikke om viljestyrke eller disciplin. Det handler om at prøve at stabilisere sig selv, når tingene føles usikre.",
+        "På denne måde bliver kontrol en mestringsstrategi — noget, der hjælper dig med at føle dig jordet, selvom det kun er midlertidigt."
+      ],
+      "microcopy": "Du er ikke alene om at have det sådan.",
+      "cta": "Fortsæt"
+    },
+    {
+      "headline": "Forskellige måder kontrol fremstår på",
+      "intro": "Behovet for kontrol ser ikke ens ud for alle, men det viser sig ofte i mønstre som:",
+      "bullets": [
+        {
+          "text": "Strenge eller ufleksible madregler"
+        },
+        {
+          "text": "Skal følge rutinerne præcist"
+        },
+        {
+          "text": "Angst når planer ændrer sig"
+        },
+        {
+          "text": "At forbinde selvværd med form/vægt"
+        }
+      ],
+      "outro": "Med tiden kan disse blive stive, fylde mentalt og gøre det sværere at tilpasse sig.",
+      "microcopy": "Det, der starter som kontrol, kan langsomt føles kontrollerende.",
+      "cta": "Fortsæt"
+    },
+    {
+      "headline": "Under kontrollen",
+      "intro": "Trangen til at kontrollere har ofte dybere rødder. Det kan forbindes med:",
+      "bullets": [
+        {
+          "text": "Følelsesmæssigt oversvømmet"
+        },
+        {
+          "text": "Ønsker forudsigelighed"
+        },
+        {
+          "text": "Et behov for stabilitet og sikkerhed"
+        }
+      ],
+      "insight": "Kontrol er ikke problemet – det er den strategi, dit sind har fundet for at håndtere det. Med tid og støtte er andre måder at føle sig tryg på mulige.",
+      "microcopy": "Forståelse er et stærkt første skridt.",
+      "cta": "Læs færdig"
+    }
+  ],
+  "complete": {
+    "title": "Opnået bevidsthed",
+    "message": "At forstå rødderne til kontrol er et modigt første skridt mod at finde nye måder at føle sig tryg og stabil på."
+  }
+}

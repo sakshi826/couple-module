@@ -1,0 +1,21 @@
+{
+  "relax": "Nyugodj meg",
+  "about_technique": "Erről a technikáról",
+  "technique_description": "A doboz légzési egy egyszerű 4-4-4-4 mintázatot alkalmaz — belélegzés, tartás, kilégzés, tartás — mindegyik négy másodpercig. Aktiválja a paraszimpatikus idegrendszeredet, csökkenti a stresszt, és visszavisz egy nyugodt, fókuszált állapotba.",
+  "how_to_practice": "Hogyan gyakoroljunk",
+  "inhale_4s": "Lélegezz be 4 másodpercig",
+  "hold_4s": "Tartsd 4 másodpercig",
+  "exhale_4s": "Kilélegezz 4 másodpercig",
+  "repeat_cycle": "Ismételd meg a ciklust",
+  "start_breathing": "Kezdj el légezni",
+  "breathe_in": "Lélegezz be",
+  "hold": "Tartsd meg",
+  "breathe_out": "Lélegezz ki",
+  "feeling_calmer": "Nyugodtabbnak érzed magad",
+  "session_complete_msg": "Nagyszerű munka volt a légzési alkalmad befejezésével. Szánj egy pillanatot, hogy figyeld meg, hogyan érzi magát a tested — könnyebb, stabilabb, nyugodtabb.",
+  "start_again": "Kezdj újra",
+  "back": "Hátra",
+  "not_found_404": "404",
+  "page_not_found": "Hoppá! Oldal nem talált meg",
+  "return_home": "Hazatérés"
+}

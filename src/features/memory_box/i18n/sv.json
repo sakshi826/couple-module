@@ -1,0 +1,80 @@
+{
+  "app_title": "Minneslåda",
+  "screen_titles": [
+    "Din låda",
+    "Hedersbetygelser",
+    "Uttryck",
+    "Bevarat",
+    "Varsam vård"
+  ],
+  "complete_title": "Bevarat minne",
+  "complete_message": "Du har säkert placerat ett minne av {{name}} i din låda. Dessa stunder av kontakt är alltid dina att behålla.",
+  "auth_error": "Auth-session saknas eller databas inte konfigurerad",
+  "save_success": "Bevarat minne",
+  "save_error": "Misslyckades med att bevara minnet",
+  "preserving": "Bevara...",
+  "preserve_memory": "Bevara minnet",
+  "welcome": {
+    "title": "Din minneslåda",
+    "subtitle1": "En tyst plats för att minnas någon du älskar. 🤍",
+    "subtitle2": "Ta ett långsamt andetag in...",
+    "subtitle3": "… och andas ut försiktigt.",
+    "subtitle4": "Det finns inget rätt eller fel sätt att göra detta på.",
+    "subtitle5": "Ta det i din egen takt. 🌿",
+    "begin": "Börja ✨",
+    "later": "Kanske senare"
+  },
+  "who": {
+    "placeholder_name": "Skriv deras namn...",
+    "placeholder_relation": "Hur känner du dem? (valfritt)",
+    "categories": [
+      {
+        "label": "Ett lyckligt ögonblick",
+        "emoji": "😊"
+      },
+      {
+        "label": "Något de brukade säga",
+        "emoji": "💬"
+      },
+      {
+        "label": "Ett litet vardagsminne",
+        "emoji": "☕"
+      },
+      {
+        "label": "En plats som påminner dig om dem",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Något jag önskar att jag kunde säga",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Fortsätt →"
+  },
+  "expression": {
+    "title": "Uttrycker ditt minne",
+    "memory_label": "Själva minnet",
+    "memory_placeholder": "Skriv om ögonblicket, känslan eller detaljen du vill behålla...",
+    "message_label": "Ett meddelande till dem (valfritt)",
+    "message_placeholder": "Vad skulle du säga om du kunde prata med dem just nu?",
+    "save": "Bevara minnet",
+    "skip": "Hoppa över för nu",
+    "back": "Tillbaka"
+  },
+  "box": {
+    "title": "Säkert undanstoppad",
+    "subtitle": "Detta minne av {{name}} är nu en del av din samling.",
+    "add_another": "Lägg till ett minne till",
+    "finish": "Färdig reflektion"
+  },
+  "closing": {
+    "title": "Ta hand om dig",
+    "subtitle": "Stänger din låda för tillfället. Du kan återvända hit när du vill känna dig nära dessa minnen.",
+    "exit": "Stäng Box"
+  },
+  "history": {
+    "title": "Innehåll i lådan",
+    "no_memories": "Din låda är tom. Lägg till ditt första minne för att börja din samling.",
+    "search_placeholder": "Sök minnen..."
+  }
+}

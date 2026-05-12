@@ -1,0 +1,56 @@
+{
+  "title": "Jaké máte zvyky?",
+  "intro_description": "Malé denní návyky ovlivňují stres. Pojďme si to vaše prozkoumat jemně.",
+  "start_activity": "Začněte aktivitu",
+  "body_title": "🧍 ♀️ Vaše každodenní rutina pro tělo",
+  "body_subtitle": "Která z těchto věcí mi v poslední době přišla trochu divná? (Vyberte kterékoli, které se týkají)",
+  "continue": "Pokračovat",
+  "body_options": [
+    "Špatně spím",
+    "Můj spánkový režim je nepravidelný",
+    "Někdy vynechávám jídlo",
+    "Když jsem ve stresu, jím víc než obvykle",
+    "Moc se nehýbu ani necvičím",
+    "Ven moc nechodím",
+    "Moje rutina osobní péče se změnila",
+    "Můj denní režim je stabilní"
+  ],
+  "mind_title": "🧠 Vaše myšlenkové vzorce",
+  "mind_options": [
+    "Pořád to přemýšlím moc",
+    "Často si představuji nejhorší možný scénář",
+    "Jsem na sebe přísný",
+    "Cítím se provinile za věci, které jsem udělal nebo neudělal",
+    "Stále se bojím",
+    "Těžko se mi uvolní",
+    "Moje myšlenky jsou zvládnutelné"
+  ],
+  "coping_title": "🌊 Jak reagujete na stres",
+  "coping_options": [
+    "Vyhýbám se úkolům, když jsem ve stresu",
+    "Hodně scrolluji po telefonu, abych se rozptýlil",
+    "Trávím čas sama, abych to zvládla",
+    "Když jsem ve stresu, vrhám se do práce",
+    "Mluvím s někým o tom, jak se cítím",
+    "Dělám dechová cvičení, abych se uklidnil",
+    "Dívám se na televizi nebo hraju hry, abych se rozptýlil",
+    "Nevím, jak reaguji na stres"
+  ],
+  "reflection_title": "✍️ Reflexe",
+  "question_stress": "Který zvyk vám později zvyšuje stres?",
+  "question_calm": "Který z těchto zvyků by vám mohl pomoci cítit se klidněji?",
+  "see_insight": "Viz můj pohled",
+  "insight_title": "Navrhované kroky",
+  "insight_description": "Klepněte níže a podívejte se na jednoduché návyky, které mohou pomoci snížit stres.",
+  "show_suggestions": "Tipy na pořady",
+  "commit": "Commit",
+  "suggestions": [
+    "Zkus dnes večer jít spát trochu dřív",
+    "Dnes vyjděte ven na čerstvý vzduch",
+    "Dej si pauzu od scrollování na chvíli",
+    "Mluv k sobě laskavě",
+    "Dokonči úkol, který jsi odkládal"
+  ],
+  "final_text": "Na drobných změnách záleží. Konzistence vytváří klid.",
+  "finish": "Konec"
+}

@@ -1,24 +1,27 @@
+import { useTranslation } from "react-i18next";
+
 interface Props {
   onBack: () => void;
   onNext: () => void;
 }
 
 export default function ExplainScreen({ onBack, onNext }: Props) {
+  const { t } = useTranslation();
   return (
     <section className="space-y-6" aria-label="What is the Window of Tolerance">
-      <h2 className="font-display text-2xl font-bold text-foreground text-center">Your Nervous System Has a Window</h2>
+      <h2 className="font-display text-2xl font-bold text-foreground text-center">{t("screens.explain.title")}</h2>
 
       {/* Window Diagram */}
       <div className="flex justify-center">
         <div className="w-[120px] rounded-2xl overflow-hidden border border-border" style={{ boxShadow: "var(--shadow-soft)" }}>
           <div className="h-[80px] flex items-center justify-center text-sm font-medium" style={{ background: "linear-gradient(180deg, hsl(0 55% 66%), hsl(0 55% 72%))", color: "white" }}>
-            🔴 Red
+            {t("screens.explain.zones.hyper.tag")}
           </div>
           <div className="h-[80px] flex items-center justify-center text-sm font-medium" style={{ background: "linear-gradient(180deg, hsl(150 20% 48%), hsl(150 20% 55%))", color: "white" }}>
-            🟢 Green
+            {t("screens.explain.zones.safe.tag")}
           </div>
           <div className="h-[80px] flex items-center justify-center text-sm font-medium" style={{ background: "linear-gradient(180deg, hsl(207 35% 58%), hsl(207 35% 65%))", color: "white" }}>
-            🔵 Blue
+            {t("screens.explain.zones.hypo.tag")}
           </div>
         </div>
       </div>
@@ -27,28 +30,28 @@ export default function ExplainScreen({ onBack, onNext }: Props) {
         <div className="flex gap-3 items-start">
           <span className="text-lg mt-0.5">🔴</span>
           <div>
-            <p className="font-semibold text-sm text-foreground">Hyperarousal</p>
-            <p className="text-sm text-muted-foreground">Overwhelmed, panicked, out of control.</p>
+            <p className="font-semibold text-sm text-foreground">{t("screens.explain.zones.hyper.label")}</p>
+            <p className="text-sm text-muted-foreground">{t("screens.explain.zones.hyper.desc")}</p>
           </div>
         </div>
         <div className="flex gap-3 items-start">
           <span className="text-lg mt-0.5">🟢</span>
           <div>
-            <p className="font-semibold text-sm text-foreground">Safe Zone</p>
-            <p className="text-sm text-muted-foreground">Calm, present, able to think clearly.</p>
+            <p className="font-semibold text-sm text-foreground">{t("screens.explain.zones.safe.label")}</p>
+            <p className="text-sm text-muted-foreground">{t("screens.explain.zones.safe.desc")}</p>
           </div>
         </div>
         <div className="flex gap-3 items-start">
           <span className="text-lg mt-0.5">🔵</span>
           <div>
-            <p className="font-semibold text-sm text-foreground">Hypoarousal</p>
-            <p className="text-sm text-muted-foreground">Numb, disconnected, foggy.</p>
+            <p className="font-semibold text-sm text-foreground">{t("screens.explain.zones.hypo.label")}</p>
+            <p className="text-sm text-muted-foreground">{t("screens.explain.zones.hypo.desc")}</p>
           </div>
         </div>
       </div>
 
       <p className="text-sm text-foreground/80 leading-relaxed text-center">
-        Trauma can push you out of your window. This helps you recognize where you are and get back inside.
+        {t("screens.explain.footer")}
       </p>
 
       <div className="flex gap-3">
@@ -56,13 +59,13 @@ export default function ExplainScreen({ onBack, onNext }: Props) {
           onClick={onBack}
           className="flex-1 py-3.5 rounded-2xl border border-border text-foreground font-medium hover:bg-muted transition-all duration-300 hover:-translate-y-0.5"
         >
-          ← Back
+          {t("screens.explain.back")}
         </button>
         <button
           onClick={onNext}
           className="flex-1 py-3.5 rounded-2xl bg-primary text-primary-foreground font-medium hover:opacity-90 transition-all duration-300 hover:-translate-y-0.5"
         >
-          Next →
+          {t("screens.explain.next")}
         </button>
       </div>
     </section>

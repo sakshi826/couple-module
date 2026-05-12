@@ -1,0 +1,80 @@
+{
+  "app_title": "Nimeä mielesi",
+  "intro": {
+    "title": "Kohtaa mielesi",
+    "description": "Opettele etääntymään ylivoimaisista ajatuksista antamalla sisäiselle äänellesi nimi.",
+    "benefits": [
+      "Luo henkinen etäisyys",
+      "Vähennä kovien ajatusten voimaa",
+      "Huomaa ajatuksia ilman, että ne ovat niitä"
+    ],
+    "duration": "2–3 minuuttia",
+    "view_past": "Katso aiemmat merkinnät"
+  },
+  "history": {
+    "title": "Aiemmat merkinnät",
+    "no_entries": "Ei vielä merkintöjä.",
+    "reflection_label": "Pohdinta: {{text}}"
+  },
+  "complete": {
+    "title": "Toiminta suoritettu",
+    "great_job": "Hyvää työtä!",
+    "message": "Olet onnistuneesti nimennyt mielesi ja luonut tilaa itsesi ja ajatustesi välille.",
+    "footer": "Muista: Sinun ei tarvitse uskoa jokaista ajatusta, jonka mielesi sinulle antaa."
+  },
+  "subtitles": {
+    "concept": "Näkökulma",
+    "input_thought": "Ilmoitus",
+    "input_name": "Nimi",
+    "practice": "Harjoitukset"
+  },
+  "screens": {
+    "concept": {
+      "title": "Pieni muutos",
+      "example": "\"En ole tarpeeksi hyvä\"",
+      "desc": "Kun ajatus nousee esiin, se tuntuu usein siltä kuin se olisi <0>sinä</0>. Mutta entä jos voisit astua taaksepäin ja <1>huomaa</1> sen sijaan?"
+    },
+    "input_thought": {
+      "title": "Aloitetaan oikealla ajatuksella",
+      "desc": "Mikä on yksi ajatus, joka on vaivannut sinua viime aikoina?",
+      "placeholder": "Kirjoita se täsmälleen niin kuin se tulee mieleen..."
+    },
+    "input_name": {
+      "title": "Luo etäisyyttä",
+      "desc": "Anna mielellesi nimi, joka auttaa erottautumaan näistä ajatuksista.",
+      "placeholder": "Tai kirjoittaa itse...",
+      "examples": [
+        "Kriitikko",
+        "Yliajattelija",
+        "Worry FM",
+        "Yliajattelukone",
+        "Sisäinen kriitikko",
+        "Mitä jos -generaattori",
+        "Draamaohjaaja"
+      ]
+    },
+    "practice": {
+      "title": "Kokeile tätä vuoroa",
+      "instead_of": "Sijasta",
+      "try_saying": "Yritä sanoa",
+      "is_telling_me": "{{name}} kertoo minulle:",
+      "guide": "Toista tämä lause itsellesi varovasti 4–5 kertaa omaan tahtiin.",
+      "button": "Olen valmis"
+    },
+    "reflection": {
+      "title": "Mitä huomasit?",
+      "desc": "Miltä ajatus tuntui, kun sille annettiin nimen?",
+      "options": [
+        "Ajatus tuntui hieman vähemmän intensiiviseltä kuin aiemmin",
+        "Tuntui, että minulla oli etäisyyttä ajatukseen.",
+        "Se tuntui yhä yhtä vahvalta kuin ennen",
+        "En ole varma, mikä muuttui, jos mitään"
+      ],
+      "button": "Täydellinen pohdinta"
+    }
+  },
+  "buttons": {
+    "continue": "Jatka",
+    "restart": "Uudelleenkäynnistys"
+  }
+}

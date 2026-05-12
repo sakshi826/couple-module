@@ -1,0 +1,43 @@
+{
+  "vibeTracker": "Vibe Tracker",
+  "howAreYouFeeling": "Hur mår du just nu?",
+  "describeOwnVibe": "Eller beskriva din egen stämning",
+  "rightNowIFeel": "Just nu känner jag mig...",
+  "saveVibe": "Spara Vibe",
+  "pauseAndReflect": "Pausa och reflektera",
+  "typeThoughts": "Skriv dina tankar här...",
+  "submitReflection": "Skicka in reflektion",
+  "next": "Nästa",
+  "vibeLogged": "Vibe loggad",
+  "thankYou": "Tack för att du pausade och märkte det. Även denna lilla incheckning spelar roll.",
+  "done": "Klart",
+  "today": "Idag",
+  "yesterday": "Igår",
+  "viewHistory": "Visa historik",
+  "history": "Historia",
+  "yourJourney": "Din resa",
+  "noVibes": "Inga vibbar loggade än",
+  "startFirstCheckIn": "Börja din första incheckning för att se din resa utvecklas här.",
+  "vibes": {
+    "Calm": "Lugn",
+    "Light": "Ljus",
+    "Driven": "Driven",
+    "Content": "Innehåll",
+    "Steady": "Stadigt",
+    "Tender": "Tender",
+    "Heavy": "Tungt",
+    "Thoughtful": "Eftertänksamt",
+    "Restless": "Rastlös",
+    "Drained": "Tömd"
+  },
+  "prompts": {
+    "needing": "Vad kan du behöva just nu?",
+    "happened": "Vad hände innan den här känslan dök upp?",
+    "speak": "Om denna känsla kunde tala, vad skulle den säga?",
+    "notice": "Var märker du den här känslan i kroppen?",
+    "sitOrShift": "Är det här något du vill sitta med eller flytta försiktigt?",
+    "ease": "Vad skulle ge dig ens 10 % mer lätthet?",
+    "kindness": "Vilken liten vänlighet kan du ge dig själv idag?",
+    "supported": "Vad skulle hjälpa dig att känna dig stöttad just nu?"
+  }
+}

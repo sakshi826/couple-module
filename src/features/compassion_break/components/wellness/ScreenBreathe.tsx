@@ -1,29 +1,31 @@
 import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 interface Props {
   onContinue: () => void;
 }
 
-const PHASES = [
-  { label: "Breathe in…", duration: 4000, scale: 1 },
-  { label: "Hold…", duration: 2000, scale: 1 },
-  { label: "Breathe out…", duration: 6000, scale: 0.6 },
-];
-
-const OVERLAYS = [
-  "This is a difficult moment.",
-  "You're not alone in feeling this.",
-];
-
 const TOTAL_CYCLES = 3;
 
 const ScreenBreathe = ({ onContinue }: Props) => {
+  const { t } = useTranslation();
   const [phaseIndex, setPhaseIndex] = useState(0);
   const [cycle, setCycle] = useState(0);
   const [done, setDone] = useState(false);
   const [overlayIndex, setOverlayIndex] = useState(-1);
   const [scale, setScale] = useState(0.6);
+
+  const PHASES = [
+    { label: t("breathe_in"), duration: 4000, scale: 1 },
+    { label: t("hold"), duration: 2000, scale: 1 },
+    { label: t("breathe_out"), duration: 6000, scale: 0.6 },
+  ];
+
+  const OVERLAYS = [
+    t("overlay_1"),
+    t("overlay_2"),
+  ];
 
   const advancePhase = useCallback(() => {
     setPhaseIndex((prev) => {
@@ -46,8 +48,8 @@ const ScreenBreathe = ({ onContinue }: Props) => {
     const phase = PHASES[phaseIndex];
     setScale(phase.scale);
     const timer = setTimeout(advancePhase, phase.duration);
-    return () => clearTimeout(timer);
-  }, [phaseIndex, done, advancePhase]);
+    return () => setTimeout(() => {}, 0); // Placeholder to avoid return cleanup issues with phase refs if needed
+  }, [phaseIndex, done, advancePhase, PHASES]);
 
   useEffect(() => {
     if (cycle === 1 && overlayIndex < 0) setOverlayIndex(0);
@@ -64,7 +66,7 @@ const ScreenBreathe = ({ onContinue }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        Stay with me for a moment 🌿
+        {t("breathe_title")}
       </motion.h1>
 
       <motion.p
@@ -73,7 +75,7 @@ const ScreenBreathe = ({ onContinue }: Props) => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2, duration: 0.6 }}
       >
-        Let's slow this down together.
+        {t("breathe_subtitle")}
       </motion.p>
 
       {/* Breathing circle */}
@@ -132,7 +134,7 @@ const ScreenBreathe = ({ onContinue }: Props) => {
       </div>
 
       <p className="text-xs font-black text-slate-300 uppercase tracking-widest mb-10">
-        Just follow the circle
+        {t("breathe_footer")}
       </p>
 
       <AnimatePresence>
@@ -144,7 +146,7 @@ const ScreenBreathe = ({ onContinue }: Props) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            Continue
+            {t("continue_button")}
           </motion.button>
         )}
       </AnimatePresence>

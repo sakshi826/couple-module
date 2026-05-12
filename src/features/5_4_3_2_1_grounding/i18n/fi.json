@@ -1,0 +1,46 @@
+{
+  "steps": [
+    {
+      "body": "Pidetään lyhyt tauko yhdessä.\n\nSeuraavan minuutin ajan ei ole mitään, mitä sinun pitäisi ratkaista, korjata tai vastata. Anna itsesi vain hidastaa.\n\nIstu mukavasti, aseta jalkasi maahan jos voit, ja hengitä lempeästi sisään... ja hengitä hitaasti ulos.\n\nTämä on sinun hetkesi nollata ja yhdistyä nykyhetkeen uudelleen.",
+      "button": "Aloita"
+    },
+    {
+      "heading": "5 asiaa, jotka voit nähdä",
+      "body": "Katso hitaasti ympärillesi. Anna katseesi liikkua lempeästi tilassa. Huomaa värejä, muotoja, valoa, varjoja tai pieniä yksityiskohtia, joihin et ehkä ole aiemmin kiinnittänyt huomiota.",
+      "button": "Seuraavaksi"
+    },
+    {
+      "heading": "4 asiaa, jotka voit tuntea",
+      "body": "Kiinnitä huomiosi kehoosi. Tunne jalkasi koskettavat lattiaa, selkäsi tuolia vasten, vaatteesi ihollasi tai ympäröivän ilman. Tunnusta neljä fyysistä tunnetta.",
+      "button": "Seuraavaksi"
+    },
+    {
+      "heading": "3 asiaa, joita voit kuulla",
+      "body": "Kuuntele tarkasti. Saatat kuulla kaukaisia ääniä, tuuletinta, näppäilyä, hengitystä tai jopa hiljaisuutta. Tunnista kolme ääntä tuomitsematta niitä.",
+      "button": "Seuraavaksi"
+    },
+    {
+      "heading": "2 asiaa, jotka haistat",
+      "body": "Katso, voitko havaita huoneesta hajua. Jos mikään ei erotu, huomaa vain ympärilläsi olevan ilman neutraali tuoksu.",
+      "button": "Seuraavaksi"
+    },
+    {
+      "heading": "Yksi asia, jonka voit maistaa",
+      "body": "Kiinnitä huomiota suussasi olevaan makuun. Se voi olla hienovaraista tai neutraalia — tarkkaile sitä vain.",
+      "button": "Seuraavaksi"
+    },
+    {
+      "heading": "Heijastus",
+      "body": "Hengitä hitaasti sisään... ja hengitä lempeästi ulos.",
+      "button": "Lähetä"
+    }
+  ],
+  "common": {
+    "thank_you": "Kiitos",
+    "you_feel": "Tunnet:",
+    "completion_message": "Olet suorittanut maadoittumisharjoituksen. Kanna tätä läsnäolon tunnetta mukanasi jatkaessasi päivääsi.",
+    "start_again": "Aloita alusta",
+    "reflection_question": "Yhdellä sanalla, miltä sinusta tuntuu juuri nyt?",
+    "reflection_placeholder": "esim. rauhallinen, helpottunut, maanläheinen..."
+  }
+}

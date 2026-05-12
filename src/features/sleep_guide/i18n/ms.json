@@ -1,0 +1,21 @@
+{
+  "app_title": "Panduan Tidur",
+  "app_subtitle": "Memahami kebimbangan tidur",
+  "tag": "Psikoedukasi",
+  "screen1": {
+    "intro": "Semakin sukar anda mencuba, semakin sukar.",
+    "title": "Cuba memaksa diri anda tidur adalah apa yang membuatkan anda terjaga.",
+    "p1": "Anda berbaring, tutup mata anda - dan otak anda dihidupkan. Memainkan semula perbualan. Menonton jam.",
+    "p2": "Ini bukan kelemahan. Ia adalah fenomena yang dipanggil <1>kebimbangan tidur</1> - dan ia memberi kesan kepada berjuta-juta orang.",
+    "quote": "\"Kebimbangan tidur bukan tentang tidak letih. Ia mengenai sistem saraf anda terperangkap dalam mod 'hidup'.\"",
+    "button": "Ketahui lebih lanjut"
+  },
+  "screen2": {
+    "intro": "Inilah sains di sebaliknya.",
+    "title": "Otak anda telah belajar untuk merawat katil anda sebagai tempat tekanan - bukan rehat.",
+    "p1": "Amigdala anda - pengesan ancaman otak - kekal diaktifkan pada waktu malam, menandakan bahaya sebaik sahaja kepala anda terkena bantal.",
+    "p2": "Ini dipanggil rangsangan <1>conditioned</1> — ia menjelaskan mengapa anda berasa letih sepanjang hari, namun terjaga pada waktu tidur.",
+    "quote": "\"Otak anda tidak rosak. Ia hanya mempelajari pelajaran yang salah tentang waktu tidur - dan ia boleh diajar semula.\"",
+    "button": "Langkah Terdahulu"
+  }
+}

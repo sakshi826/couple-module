@@ -1,0 +1,58 @@
+{
+  "app_title": "Fakta och myter om ilska",
+  "welcome_title": "Myt vs Fakta:\nAnger Edition",
+  "welcome_subtitle": "Tror du att du vet sanningen om ilska? Vissa är myter. Vissa är fakta. Låt oss ta reda på det.",
+  "start_quiz": "Start Quiz",
+  "questions_count": "{{count}} Frågor • 2 minuter",
+  "question_nav": "Fråga {{current}} i {{total}}",
+  "knowledge_quiz": "Kunskapsquiz",
+  "myth_button": "MYTEN",
+  "fact_button": "FAKTUM",
+  "correct": "Korrekt!",
+  "incorrect": "Inte riktigt!",
+  "its_a_myth": "Det är en myt",
+  "its_a_fact": "Det är ett faktum",
+  "example_label": "Exempel: {{example}}",
+  "see_results": "Se resultat",
+  "next_question": "Nästa fråga",
+  "results_title": "Quiz klart!",
+  "expert_level": "Expertnivå",
+  "great_progress": "Stora framsteg",
+  "learning_journey": "Läranderesa",
+  "finish_activity": "Slutaktivitet",
+  "try_again": "Försök igen",
+  "complete_title": "Kunskap behärskad",
+  "complete_message": "Du gjorde mål {{score}}/{{total}}! Du har fått värdefulla insikter i ilskets sanningar och myter.",
+  "questions": [
+    {
+      "statement": "Ilska är dåligt. Om du känner dig arg är det något fel på dig.",
+      "answer": "Myt",
+      "realFact": "Ilska är en normal, hälsosam känsla. Alla känner det. Det är inte ett tecken på att något är 'fel' med dig – det är en signal om att något är viktigt för dig. Det som räknas är hur du reagerar på det, inte om du känner det.",
+      "example": "En veteran blir arg när deras gränser överskrids. Den ilskan är giltig – den säger dem något viktigt."
+    },
+    {
+      "statement": "Ilska kan vara en signal om att dina gränser har överskridits.",
+      "answer": "Faktum",
+      "realFact": "Ilska är information. När du känner det är det värt att fråga: vilken gräns korsades? Vilket behov tillgodoses inte? Att lyssna på din ilska – utan att agera impulsivt – hjälper dig att förstå dig själv bättre och ta meningsfulla åtgärder.",
+      "example": "Du blir arg när en kollega tar åt sig äran för ditt arbete. Den ilskan pekar på ett behov av erkännande och rättvisa."
+    },
+    {
+      "statement": "Om du är arg måste du släppa ut det genom att skrika eller slå på saker.",
+      "answer": "Myt",
+      "realFact": "Ett hälsosamt uttryck för ilska betyder inte undertryckande ELLER explosion. Det innebär att erkänna dina känslor och uttrycka dem konstruktivt – genom ord, dagboksförande, fysisk aktivitet eller kreativa utlopp. Du kan hedra din ilska utan förstörelse.",
+      "example": "Istället för att slå i en vägg går du ut på en löprunda eller skriver ner exakt vad som stör dig. Vreden går genom dig utan att orsaka skada."
+    },
+    {
+      "statement": "Att lära sig hantera ilska är ett tecken på emotionell styrka.",
+      "answer": "Faktum",
+      "realFact": "Personer som jobbar på sin ilskehantering är inte svaga – de gör något av det modigaste känslomässiga arbetet som finns. Att välja att pausa, reflektera och svara eftertänksamt kräver mycket mer styrka än att reagera impulsivt.",
+      "example": "Att ta ett djupt andetag och säga 'jag behöver en minut innan jag svarar' i ett hett ögonblick är en kraftfull handling av självkontroll."
+    },
+    {
+      "statement": "Om någon gör dig arg är det deras fel. Du har inget ansvar.",
+      "answer": "Myt",
+      "realFact": "Andra kan trigga din ilska, men hur du reagerar är ditt ansvar – och din makt. Att ta ansvar för dina reaktioner betyder inte att den andra personen hade rätt. Det betyder att du väljer hur du ska dyka upp. Det är egenmakt, inte skuld.",
+      "example": "Någon skär av dig i trafiken. Du känner dig arg – det är normalt. Men du väljer om du vill rasa eller ta ett andetag. Valet är ditt."
+    }
+  ]
+}

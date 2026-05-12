@@ -1,0 +1,22 @@
+{
+  "app_title": "Relasjonsmønstre",
+  "app_subtitle": "Pakker ut blåkopien din",
+  "complete_title": "Bevissthet oppnådd",
+  "complete_message": "Å forstå mønstrene dine er det første steget mot å omskrive dem. Du bærer kraften til å velge en annen vei.",
+  "screen1": {
+    "tag": "Mønsteroppdagelse",
+    "intro": "Har du noen gang følt at du har vært her før?",
+    "title": "Hvis forholdene dine fortsetter å ende på samme måte — er det ikke uflaks.",
+    "desc": "Forholdene vi velger følger en plan skrevet lenge før vi noen gang forelsket oss. Kjennskap føles ofte som trygghet, selv når det fører til de samme gamle kranglene.",
+    "quote": "\"Vi gjentar mønstre ikke fordi vi er ødelagte — men fordi de føles kjente.\"",
+    "button": "Fortsett å pakke ut"
+  },
+  "screen2": {
+    "tag": "Malen",
+    "intro": "Det starter tidligere enn du tror.",
+    "title": "De tidligste forholdene blir malen for alt som følger.",
+    "desc": "Måten omsorgspersonene dine svarte på dine behov på, formet stille hvordan du forholder deg til andre som voksen. Dette er innlærte svar — og de kan avlæres.",
+    "quote": "\"Mønsteret ditt ga mening en gang. Spørsmålet er — tjener det deg fortsatt nå?\"",
+    "button": "Ferdig refleksjon"
+  }
+}

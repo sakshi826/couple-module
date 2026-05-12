@@ -1,0 +1,72 @@
+{
+  "app_title": "Chu kỳ giận dữ-xấu hổ",
+  "app_subtitle": "Hiểu vòng lặp • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Tại sao sự tức giận tiếp tục quay trở lại?",
+      "description": "Đó có thể không phải là tính khí của bạn. Có một vòng lặp ẩn giữa tức giận và xấu hổ - và một khi bạn nhìn thấy nó, mọi thứ sẽ thay đổi.",
+      "quote": "\"Hầu hết mọi người cố gắng sửa chữa cơn giận. Nhưng xấu hổ là thứ lặng lẽ giữ cho nó tiếp tục.\"",
+      "button": "Hãy cùng khám phá"
+    },
+    "s2": {
+      "tag": "chu kỳ",
+      "title": "Vòng lặp được giải thích",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Sự tức giận nổi lên"
+        },
+        {
+          "emoji": "😔",
+          "label": "Xấu hổ: \"Tôi xấu\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "Xấu hổ bị chôn vùi"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Sự tức giận lại bùng nổ"
+        }
+      ],
+      "button": "Tôi thấy nó"
+    },
+    "s3": {
+      "tag": "Điều gì đang xảy ra",
+      "title": "Hai cảm xúc, một cái bẫy",
+      "anger": {
+        "title": "🔥 Tức giận",
+        "desc": "Một cảm xúc thứ cấp - bên dưới cuộc sống bị tổn thương, sợ hãi hoặc bị từ chối. Đó là báo động, không phải lửa."
+      },
+      "shame": {
+        "title": "😔 Xấu hổ",
+        "desc": "\"Tôi xấu\" - không chỉ là \"Tôi đã làm điều gì đó xấu\". Nó ẩn nấp, im lặng và giữ cho chu kỳ quay."
+      },
+      "button": "Thoát khỏi"
+    },
+    "s4": {
+      "tag": "Gián đoạn",
+      "title": "Làm gián đoạn chu kỳ",
+      "steps": [
+        {
+          "title": "Đặt tên cho nguồn",
+          "desc": "Hỏi: \"Tôi thực sự cảm thấy gì?\". Bị thương? Sợ hãi? Không nhìn thấy? Đặt tên cho nó làm suy yếu nó."
+        },
+        {
+          "title": "Tạm dừng lòng trắc ẩn",
+          "desc": "Tay đặt trên ngực. Hãy nói: 'Điều này rất khó. Tôi là con người. Tôi có thể vượt qua điều này.'"
+        },
+        {
+          "title": "Sửa chữa với ân điển",
+          "desc": "Sửa đổi nếu cần - nhưng đừng xoắn ốc. Bạn không phải là khoảnh khắc tồi tệ nhất của bạn."
+        }
+      ],
+      "notice": "Nhận thấy chu kỳ đã là bước đầu tiên. Bạn đang làm công việc.",
+      "button": "Hoàn thành hoạt động"
+    }
+  },
+  "complete": {
+    "title": "Chu kỳ bị gián đoạn",
+    "message": "Bạn đã nhận thức được mối liên hệ giữa tức giận và xấu hổ. Đây là nền tảng cho sự tự do cảm xúc lâu dài."
+  }
+}

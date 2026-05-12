@@ -1,0 +1,188 @@
+{
+  "app_title": "Tolerancia ablaka",
+  "screens": {
+    "welcome": {
+      "title": "Tolerancia ablaka",
+      "subtitle": "Értsd meg az idegrendszeredet.\nTaláld meg az utat a nyugalmába.",
+      "description": "Ez a gyengéd tevékenység segít megérteni, hol tart most az idegrendszered — és eszközöket ad az egyensúly megtalálásához. Menj a saját tempódban. Itt biztonságban vagy.",
+      "callout": "✨ Vegyél egy mély levegőt. Jó helyen vagy.",
+      "button": "Kezdjük →",
+      "disclaimer": "Ez a tevékenység támogató eszköz, nem helyettesíti a szakmai terápiát."
+    },
+    "explain": {
+      "title": "Az idegrendszerednek van egy ablaka",
+      "zones": {
+        "hyper": {
+          "label": "Hiperizgalom",
+          "desc": "Elárasztott, pánikban, kontrollálhatatlan.",
+          "tag": "🔴 Piros"
+        },
+        "safe": {
+          "label": "Biztonságos zóna",
+          "desc": "Nyugodt, jelen van, tisztán gondolkodni.",
+          "tag": "🟢 Zöld"
+        },
+        "hypo": {
+          "label": "Hipoarousal",
+          "desc": "Zsibbadt, elszakadt, ködös.",
+          "tag": "🔵 Kék"
+        }
+      },
+      "footer": "A trauma kitaszíthat az ablakodból. Ez segít felismerni, hol tartasz, és visszajuthatsz a befelé.",
+      "back": "← Vissza",
+      "next": "Következő →"
+    },
+    "checkin": {
+      "title": "Hol vagy most?",
+      "subtitle": "Vegyél egy mély levegőt. Akkor őszintén válaszd ki, hol vagy most.",
+      "footer": "Nincs rossz válasz. Ez csak a kiindulópontod.",
+      "back": "← Vissza",
+      "next": "Következő →",
+      "zones": {
+        "hyper": {
+          "label": "Az ablakom felett",
+          "desc": "Szorongónak, pániknak, dühösnek vagy túlterheltnek érzem magam."
+        },
+        "safe": {
+          "label": "Az ablakomban",
+          "desc": "Nyugodtnak, jelen vagyok és megnyugtatottnak érzem magam."
+        },
+        "hypo": {
+          "label": "Az ablakom alatt",
+          "desc": "Zsibbadtnak, ködösnek vagy elszakadtnak érzem magam."
+        }
+      }
+    },
+    "zone": {
+      "hyper": {
+        "title": "Az ablakod fölött",
+        "subtitle": "Az idegrendszered túlpörög. Ez rendben van. Hozzuk vissza óvatosan.",
+        "feelings": [
+          "Szív dobogása",
+          "Sekély légzés",
+          "Pánik vagy düh",
+          "Száguldó gondolatok",
+          "Nyugtalanság"
+        ],
+        "tools": [
+          {
+            "name": "Doboz légzési",
+            "desc": "Inhale 4, hold 4, exhale 4, hold 4. Repeat 4 times."
+          },
+          {
+            "name": "5-4-3-2-1 Földre ütés",
+            "desc": "5 dolog lát, 4 érintés, 3 hallás, 2 szag, 1 íz."
+          },
+          {
+            "name": "Láb a padlón",
+            "desc": "Nyomd le a lábat, mondd: 'Itt vagyok. Biztonságban vagyok. Ez el fog múlni.\""
+          }
+        ],
+        "button": "Kicsit nyugodtabbnak érzem magam →",
+        "footer": "Biztonságban vagy. Ne siess."
+      },
+      "hypo": {
+        "title": "Az ablakod alatt",
+        "subtitle": "Az idegrendszered elcsendesedett. Megvéd téged. Ébresztsük fel óvatosan.",
+        "feelings": [
+          "Zsibbadás",
+          "Megszakítás",
+          "Extrém fáradtság",
+          "Valószerűtlennek érzem magam",
+          "Laposság"
+        ],
+        "tools": [
+          {
+            "name": "Gyengéd mozgás",
+            "desc": "Állj fel, lassan sétálj, lendítsd a karjait. Hagyd, hogy a tested felébredjen."
+          },
+          {
+            "name": "Ritmikus hangzás",
+            "desc": "Játssz zenét egyenletes ütemmel, ütögtön lábakkal végig."
+          },
+          {
+            "name": "Beszélj hangosan",
+            "desc": "Mondd ki hangosan a neved, a helyszíned, a mai dátum. Kapcsold újra a gondolkodó agyat."
+          }
+        ],
+        "button": "Kicsit jelen vagyok →",
+        "footer": "Nagyon jól csinálod. Lépésről lépésre haladj."
+      },
+      "safe": {
+        "title": "Az ablakodban",
+        "subtitle": "A saját biztonságos zónádban vagy. Itt történik a gyógyulás, a kapcsolat és a fejlődés. Szép munka.",
+        "feelings": [
+          "Jelen és tudatos",
+          "Egyenletes légzés",
+          "Tiszta gondolkodás",
+          "Kapcsolt"
+        ],
+        "tools": [
+          {
+            "name": "Légezz lassan.",
+            "desc": "Orron keresztül be, szájon keresztül ki."
+          },
+          {
+            "name": "Reflektálj",
+            "desc": "Mi segített abban, hogy itt maradj? Írd le."
+          },
+          {
+            "name": "Önrészvét",
+            "desc": "'Az idegrendszerem végezte a dolgát. Nem vagyok törött. Gyógyulok.'"
+          }
+        ],
+        "button": "Folytasd a Toolkit →",
+        "footer": "Megérdemel vagy a gondoskodásra és a gyógyulásra."
+      }
+    },
+    "toolkit": {
+      "title": "🧰 A személyes eszköztárod",
+      "subtitle": "A kedvenc eszközeid — bármikor elmentettek és készen állnak, amikor szükséged van rájuk.",
+      "tools_list": [
+        "🌬️ Doboz légzési",
+        "🖐️ 5-4-3-2-1",
+        "🦶 Láb a padlón",
+        "🚶 Gyengéd mozgás",
+        "🎵 Zene",
+        "💬 Beszélj hangosan"
+      ],
+      "journal_label": "📝 A mai visszatekintés",
+      "journal_desc": "Mi volt az a pillanat, amikor észrevetted, hogy az idegrendszered megváltozik — és mit tettél ellene?",
+      "journal_placeholder": "Írj ide...",
+      "history_label": "📊 A heted egy pillantásra",
+      "save_button": "Mentés és befejezés ✓",
+      "footer": "Az utad számít. Gyere vissza, amikor támogatásra van szükséged.",
+      "preserving": "Megőrizve...",
+      "preserve_button": "Megőrzés a reflektorálás"
+    }
+  },
+  "nav": [
+    "Bejelentkezés",
+    "Magyarázat",
+    "Megfigyelés",
+    "A zóna",
+    "Eszköztár"
+  ],
+  "history": {
+    "title": "Bejelentkezési történet",
+    "empty": "Még nincs bejelentkezés."
+  },
+  "toasts": {
+    "save_success": "A bejelentkezés megőrzése",
+    "save_error": "Nem sikerült megőrizni a bejelentkezést",
+    "auth_error": "Hitelesítési alkalom hiányzik vagy adatbázis nincs konfigurálva"
+  },
+  "complete": {
+    "title": "Bejelentkezés befejezve",
+    "message": "Sikeresen feltérképezted a jelenlegi állapotodat. A tudatosság építése az első lépés az egyensúly megtalálása felé."
+  },
+  "days": [
+    "Az én",
+    "Kedd",
+    "Szerda",
+    "Ősz",
+    "Péntek",
+    "Szombat",
+    "Sun"
+  ]
+}

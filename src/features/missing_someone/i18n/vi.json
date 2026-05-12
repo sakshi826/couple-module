@@ -1,0 +1,26 @@
+{
+  "app_title": "Thiếu ai đó",
+  "subtitles": [
+    "Xác nhận",
+    "Trí tuệ nội tâm",
+    "Hoàn thành"
+  ],
+  "complete_title": "Độ rõ ràng đạt được",
+  "complete_message": "Hiểu được phản ứng hóa học của việc bỏ lỡ ai đó là bước đầu tiên để chữa lành. Cảm xúc của bạn là hợp lệ, và bộ não của bạn chỉ đơn giản là làm công việc của nó để bảo vệ và xử lý.",
+  "screen1": {
+    "tag": "Xác nhận",
+    "intro": "Nó không có nghĩa là bạn yếu đuối.",
+    "title": "Nhớ một người làm tổn thương bạn là một con người sâu sắc.",
+    "desc": "Bạn đã rời đi. Hoặc họ rời đi. Tuy nhiên, bạn vẫn với lấy điện thoại của mình với hy vọng đó là họ. Bạn vẫn lặp lại những khoảnh khắc tốt đẹp hơn là những khoảnh khắc đau đớn. Mâu thuẫn này không phải là một lỗ hổng. Đó là cách não của bạn xử lý sự mất mát.",
+    "quote": "\"Bạn không chỉ nhớ người đó. Bạn nhớ cảm giác được gắn bó với họ.\"",
+    "button": "Bước tiếp theo"
+  },
+  "screen2": {
+    "tag": "Khoa học não bộ",
+    "intro": "Trí tuệ nội tâm",
+    "title": "Tình yêu tạo ra một liên kết hóa học.",
+    "desc": "Khi bạn yêu ai đó, não của bạn sẽ giải phóng dopamine, oxytocin và serotonin. Khi nó kết thúc, các cấp độ đó giảm xuống. Bộ não của bạn đau buồn - không chỉ con người, mà còn là cảm giác gần gũi.",
+    "quote": "\"Bỏ lỡ chúng không có nghĩa là bạn nên quay lại. Trái tim bạn đang đau buồn về một mối quan hệ - không nhất thiết phải là con người thực sự của họ.\"",
+    "button": "Hoàn thành phản xạ"
+  }
+}

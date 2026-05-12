@@ -1,0 +1,29 @@
+{
+  "app_title": "Varför hjärnan fastnar",
+  "app_subtitle": "Överlevnadslogiken • {{step}}/{{total}}",
+  "s1": {
+    "title": "Din hjärna gick inte sönder. Den anpassade sig.",
+    "description": "Efter traumat omprogrammerar din hjärna sig för att hålla dig säker. Den lärde sig att världen kunde vara farlig, så den höll sig redo. Det är inget fel. Det är överlevnad.",
+    "quote": "\"PTSD är inget tecken på att något är fel på dig. Det är ett tecken på att något har hänt dig.\"",
+    "button": "Berätta mer"
+  },
+  "s2": {
+    "tag": "Milda sanningar",
+    "title": "Hjärnans överlevnadslogik",
+    "truths": [
+      {
+        "header": "Larmet var fortfarande på",
+        "body": "Hypervigilans och att lätt bli skrämd är inte överreaktioner – hjärnans larmsystem gör sitt jobb för bra."
+      },
+      {
+        "header": "Tillbakablickar är minnen",
+        "body": "Triggers drar tillbaka hjärnan eftersom den aldrig fick signalen att hotet var över. Den försöker skydda dig."
+      },
+      {
+        "header": "Kämpar för dig",
+        "body": "Varje symptom var en gång en överlevnadsakt. Din hjärna gjorde vad den behövde för att hålla dig vid liv."
+      }
+    ],
+    "healing": "Läkning handlar inte om att glömma. Det handlar om att hjälpa din hjärna att lära sig att du är trygg nu."
+  }
+}

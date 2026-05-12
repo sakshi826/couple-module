@@ -1,0 +1,94 @@
+{
+  "app_title": "Slaapcontrole",
+  "app_subtitle": "Begrijp je rust",
+  "intro": {
+    "title": "Jouw slaapcontrole",
+    "description": "Begrijp wat je slaap beïnvloedt en waar kleine veranderingen kunnen helpen.",
+    "start_button": "Start Audit",
+    "history_button": "Eerdere audits"
+  },
+  "screens": {
+    "s1": {
+      "phase": "Fase 01",
+      "title": "Hoe is je slaap geweest?",
+      "desc": "Kies er een die de laatste tijd voor jou klopt"
+    },
+    "s2": {
+      "phase": "Fase 02",
+      "title": "Beoordeel je gemiddelde rust",
+      "label": "Specifieke zorgen?",
+      "placeholder": "Stress, lawaai, scrollen..."
+    },
+    "s3": {
+      "score_label": "van 7",
+      "recommendations": {
+        "solid": "Je habits zijn solide! Kleine aanpassingen kunnen het nog beter maken.",
+        "some": "Enkele verstoringen gedetecteerd. Gewoonteveranderingen kunnen snel helpen.",
+        "many": "Verschillende factoren beïnvloeden je slaap. We kunnen er samen doorheen werken."
+      }
+    }
+  },
+  "options": [
+    {
+      "emoji": "🕐",
+      "text": "Ik ga elke avond op heel verschillende tijden naar bed"
+    },
+    {
+      "emoji": "💡",
+      "text": "Mijn slaapomgeving is niet donker, stil of comfortabel"
+    },
+    {
+      "emoji": "📱",
+      "text": "Ik scroll op mijn telefoon vlak voordat ik ga slapen"
+    },
+    {
+      "emoji": "☕",
+      "text": "Ik drink cafeïne of alcohol vlak voor bedtijd"
+    },
+    {
+      "emoji": "😵",
+      "text": "Ik word 's nachts wakker en heb moeite om weer in slaap te vallen"
+    },
+    {
+      "emoji": "🧠",
+      "text": "Mijn gedachten razen als ik probeer te slapen"
+    },
+    {
+      "emoji": "😔",
+      "text": "Ik voel me zelden verfrist na een nacht slaap"
+    }
+  ],
+  "rating_labels": [
+    "Heel arm",
+    "Arme",
+    "Oké",
+    "Goed",
+    "Geweldig"
+  ],
+  "status_labels": {
+    "track": "Grotendeels op de baan",
+    "disruptions": "Enkele verstoringen",
+    "attention": "Heeft aandacht nodig"
+  },
+  "buttons": {
+    "continue": "Ga verder",
+    "see_results": "Zie resultaten",
+    "preserve": "Behoud Resultaat",
+    "preserving": "Bewaren...",
+    "back_to_intro": "Terug naar de intro"
+  },
+  "history": {
+    "title": "Eerdere audits",
+    "no_entries": "Er zijn nog geen audits bewaard gebleven.",
+    "score_label": "van 7"
+  },
+  "complete": {
+    "title": "Audit voltooid",
+    "message": "Je slaapscore is {{score}}/7. Het begrijpen van deze patronen is de eerste stap naar diepere, meer herstellende rust."
+  },
+  "toasts": {
+    "save_success": "Audit opgeslagen",
+    "save_error": "Audit niet opgeslagen",
+    "auth_error": "Auth-sessie ontbreekt of database niet geconfigureerd"
+  }
+}

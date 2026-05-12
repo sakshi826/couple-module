@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Heart, Save } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import IntroScreen from "@/features/repair_and_reconnect/components/repair/IntroScreen";
 import ChoosePersonScreen from "@/features/repair_and_reconnect/components/repair/ChoosePersonScreen";
 import ChooseApproachScreen from "@/features/repair_and_reconnect/components/repair/ChooseApproachScreen";
@@ -13,6 +14,7 @@ import { toast } from "sonner";
 const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
 
 const Index = () => {
+  const { t } = useTranslation();
   const [step, setStep] = useState(0);
   const [person, setPerson] = useState("");
   const [approach, setApproach] = useState("");
@@ -40,32 +42,41 @@ const Index = () => {
     try {
       const sql = neon(DATABASE_URL);
       await sql`INSERT INTO repair_and_reconnect_entries (user_id, repair_data) VALUES (${userId}, ${repairData})`;
-      toast.success("Repair progress preserved");
+      toast.success(t("toasts.save_success"));
       setStep(4); // Go to complete
     } catch (error) {
       console.error("Failed to save repair entry:", error);
-      toast.error("Failed to preserve reflection");
+      toast.error(t("toasts.save_error"));
     } finally {
       setIsSaving(false);
     }
   };
 
+  const personLabel = person ? (t(`choose_person.options.${person}`) || person) : t("complete.default_person");
+
   if (step === 4) {
     return (
       <PremiumComplete
-        title="Connection Mended"
-        message={`You've taken a brave step toward repairing your connection with ${person || "someone important"}. Small, intentional actions build lasting bridges.`}
+        title={t("complete.title")}
+        message={t("complete.message", { person: personLabel })}
         onRestart={reset}
       />
     );
   }
 
-  const titles = ["Welcome", "Choose Person", "Choose Approach", "Guided Action", "Complete"];
+  const titles = [
+    t("steps.welcome"),
+    t("steps.choose_person"),
+    t("steps.choose_approach"),
+    t("steps.guided_action"),
+    t("steps.complete")
+  ];
 
   return (
     <PremiumLayout
-      title="Repair & Reconnect"
-      subtitle={titles[step]} exitOnBack={step === 0}
+      title={t("app_title")}
+      subtitle={titles[step]} 
+      exitOnBack={step === 0}
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={step > 0 ? () => setStep(prev => prev - 1) : undefined}
     >
@@ -88,7 +99,7 @@ const Index = () => {
             transition={{ duration: 0.6, ease: "easeOut" }}
             className="flex-1 flex flex-col"
           >
-            {step === 0 && <IntroScreen onStart={next} onBack={() => {}} />}
+            {step === 0 && <IntroScreen onStart={next} />}
             {step === 1 && (
               <ChoosePersonScreen
                 selected={person}
@@ -113,7 +124,7 @@ const Index = () => {
                   className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                 >
                   <Save size={20} strokeWidth={3} />
-                  {isSaving ? "Preserving..." : "Complete & Save"}
+                  {isSaving ? t("toasts.preserving") : t("toasts.complete_button")}
                 </button>
               </div>
             )}

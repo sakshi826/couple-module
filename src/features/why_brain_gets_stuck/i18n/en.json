@@ -1,0 +1,29 @@
+{
+  "app_title": "Why Brain Gets Stuck",
+  "app_subtitle": "The logic of survival • {{step}}/{{total}}",
+  "s1": {
+    "title": "Your brain didn't break. It adapted.",
+    "description": "After trauma, your brain rewires itself to keep you safe. It learned that the world could be dangerous, so it stayed ready. That's not a flaw. That's survival.",
+    "quote": "\"PTSD isn't a sign that something is wrong with you. It's a sign that something happened to you.\"",
+    "button": "Tell me more"
+  },
+  "s2": {
+    "tag": "gentle truths",
+    "title": "Brain survival logic",
+    "truths": [
+      {
+        "header": "The alarm stayed on",
+        "body": "Hypervigilance and startling easily aren't overreactions — your brain's alarm system is doing its job too well."
+      },
+      {
+        "header": "Flashbacks are memory",
+        "body": "Triggers pull your brain back because it never got the signal that the threat was over. It's trying to protect you."
+      },
+      {
+        "header": "Fighting for you",
+        "body": "Every symptom was once an act of survival. Your brain did what it had to do to keep you alive."
+      }
+    ],
+    "healing": "Healing isn't about forgetting. It's about helping your brain learn that you're safe now."
+  }
+}

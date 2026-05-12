@@ -1,0 +1,46 @@
+{
+  "steps": [
+    {
+      "body": "Mari kita berhenti sebentar bersama-sama.\n\nUntuk minit seterusnya, tiada apa yang anda perlukan untuk menyelesaikan, membetulkan atau bertindak balas. Biarkan diri anda perlahan.\n\nDuduk dengan selesa, letakkan kaki anda di atas tanah jika anda boleh, dan tarik nafas perlahan-lahan dalam... dan perlahan-lahan menghembuskan nafas.\n\nIni adalah masa anda untuk menetapkan semula dan berhubung semula dengan masa kini.",
+      "button": "Mulakan"
+    },
+    {
+      "heading": "5 Perkara yang Anda Boleh Lihat",
+      "body": "Perlahan-lahan lihat sekeliling anda. Biarkan mata anda bergerak perlahan-lahan merentasi ruang. Perhatikan warna, bentuk, cahaya, bayang-bayang atau butiran kecil yang mungkin tidak anda perhatikan sebelum ini.",
+      "button": "Seterusnya"
+    },
+    {
+      "heading": "4 Perkara yang Anda Boleh Rasa",
+      "body": "Bawa perhatian anda kepada badan anda. Rasakan kaki anda menyentuh lantai, punggung anda pada kerusi, pakaian anda pada kulit anda atau udara di sekeliling anda. Mengakui empat sensasi fizikal.",
+      "button": "Seterusnya"
+    },
+    {
+      "heading": "3 Perkara yang Anda Boleh Dengar",
+      "body": "Dengar dengan teliti. Anda mungkin mendengar bunyi jauh, kipas, menaip, bernafas, atau bahkan senyap. Kenal pasti tiga bunyi tanpa menilainya.",
+      "button": "Seterusnya"
+    },
+    {
+      "heading": "2 Perkara yang Anda Boleh Menghidu",
+      "body": "Lihat jika anda boleh mengesan sebarang bau di dalam bilik. Jika tiada apa-apa yang menonjol, perhatikan bau neutral udara di sekeliling anda.",
+      "button": "Seterusnya"
+    },
+    {
+      "heading": "1 Perkara yang Anda Boleh Rasa",
+      "body": "Beri perhatian kepada rasa di dalam mulut anda. Ia boleh menjadi halus atau neutral — perhatikan sahaja.",
+      "button": "Seterusnya"
+    },
+    {
+      "heading": "Refleksi",
+      "body": "Tarik nafas perlahan dalam... dan menarik nafas perlahan-lahan.",
+      "button": "Hantar"
+    }
+  ],
+  "common": {
+    "thank_you": "Terima kasih",
+    "you_feel": "Anda rasa:",
+    "completion_message": "Anda telah menyelesaikan latihan pembumian. Bawa rasa kehadiran ini bersama anda semasa anda meneruskan hari anda.",
+    "start_again": "Mulakan Semula",
+    "reflection_question": "Dalam satu perkataan, bagaimana perasaan anda sekarang?",
+    "reflection_placeholder": "cth tenang, lega, berasas..."
+  }
+}

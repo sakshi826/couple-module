@@ -1,0 +1,39 @@
+{
+  "app_title": "Jornada do Luto",
+  "app_subtitle": "O mapa da perda • {{current}}/{{total}}",
+  "screen1_title": "Você não está sofrendo errado",
+  "screen1_desc": "O luto não chega em etapas ordenadas e não vai no cronograma. Ele entra com força, recua e volta quando você menos espera. Isso não é uma falha sua — isso é luto.",
+  "screen1_quote": "\"Não existe uma maneira certa de lamentar. Só existe o seu caminho.\"",
+  "btn_tell_more": "Me conte mais",
+  "screen2_tag": "A Realidade",
+  "screen2_title": "O luto tem muitos rostos",
+  "screen2_desc": "É assim que as pessoas esperam que o luto seja — em vez do que ele realmente é.",
+  "expectation_label": "A Expectativa",
+  "reality_label": "A Realidade",
+  "expectation_desc": "Linear • Previsível • Claro",
+  "reality_desc": "Caótico • Looping • Humano",
+  "screen2_quote": "\"Nenhuma dessas ondas está errada. Todos eles são luto.\"",
+  "btn_one_more": "Mais uma coisa",
+  "screen3_tag": "verdades gentis",
+  "screen3_title": "Vale a pena saber",
+  "truths": [
+    {
+      "emoji": "🗓️",
+      "title": "Sem prazo",
+      "body": "Não há data de validade para a perda. Sentir isso meses ou anos depois não significa que você está preso — significa que você amou."
+    },
+    {
+      "emoji": "🌗",
+      "title": "Sentimentos contraditórios",
+      "body": "Você pode sentir falta de alguém e se sentir aliviado. Você pode rir e lamentar. O luto tem opostos."
+    },
+    {
+      "emoji": "🤍",
+      "title": "Transformação do amor",
+      "body": "A dor não é separada do amor. É a mesma coisa, transformada."
+    }
+  ],
+  "btn_finish": "Reflexão do Acabamento",
+  "complete_title": "Jornada Honrada",
+  "complete_message": "Você não precisa seguir em frente. Você só aprende a carregar de forma diferente. Sua jornada é única, válida e profundamente humana."
+}

@@ -1,0 +1,131 @@
+{
+  "common": {
+    "continue": "Teruskan",
+    "back": "Kembali",
+    "home": "Kembali ke Laman Utama",
+    "yes": "Ya",
+    "no": "Tidak",
+    "date": "Tarikh"
+  },
+  "screens": {
+    "intro": {
+      "title": "Penjejak Penjagaan Diri",
+      "description": "Jejaki tabiat penjagaan diri harian anda dan lihat bagaimana ia memberi kesan kepada kesejahteraan anda secara keseluruhan. Konsistensi adalah kunci kepada minda yang lebih sihat.",
+      "benefits": [
+        "Log aktiviti penjagaan diri harian",
+        "Jejaki masa yang dihabiskan untuk diri sendiri",
+        "Pantau corak mood anda",
+        "Lihat sejarah dan kemajuan"
+      ],
+      "duration": "2-3 minit"
+    },
+    "checkin": {
+      "title": "Daftar Masuk 🌿 Penjagaan Diri",
+      "subtitle": "Bagaimana anda menjaga diri anda hari ini?",
+      "question": "Adakah anda mengamalkan penjagaan diri hari ini? *",
+      "description": "Penjagaan diri ialah sebarang aktiviti yang kita lakukan dengan sengaja untuk menjaga kesihatan mental, emosi dan fizikal kita."
+    },
+    "activities": {
+      "title": "Aktiviti 🎯 anda",
+      "subtitle": "Aktiviti penjagaan diri manakah yang anda lakukan hari ini?"
+    },
+    "duration": {
+      "title": "Masa yang Dihabiskan ⏱️",
+      "subtitle": "Berapa lama anda menghabiskan masa untuk penjagaan diri? (pilihan)"
+    },
+    "noSelfCare": {
+      "title": "Tidak mengapa 💛",
+      "subtitle": "Mari kita fahami apa yang berlaku hari ini.",
+      "question1": "Apa yang menghalang penjagaan diri hari ini? (pilihan)",
+      "question2": "Apakah jenis penjagaan diri yang akan membantu? (pilihan)"
+    },
+    "mood": {
+      "title": "Bagaimana keadaan awak? 🫧",
+      "subtitle": "Pilih mood semasa anda (pilihan)"
+    },
+    "review": {
+      "title": "Penyertaan 📋 anda",
+      "subtitle": "Berikut ialah ringkasan daftar masuk hari ini",
+      "didSelfCare": "Adakah penjagaan diri?",
+      "activities": "Aktiviti",
+      "duration": "Tempoh",
+      "mood": "Mood",
+      "challenges": "Dihalang oleh",
+      "whatHelps": "Akan membantu",
+      "viewHistory": "Sejarah Mingguan",
+      "editToday": "Edit Entri",
+      "summary": "Ringkasan"
+    },
+    "history": {
+      "title": "Sejarah 📅 Mingguan",
+      "subtitle": "Tiada penyertaan dalam tempoh 7 hari yang lalu"
+    },
+    "notfound": {
+      "title": "404",
+      "subtitle": "Ups! Halaman tidak dijumpai",
+      "returnHome": "Kembali ke Rumah"
+    }
+  },
+  "data": {
+    "activities": {
+      "Exercise": "Senaman",
+      "Meditation": "Meditasi",
+      "Journaling": "Jurnal",
+      "Reading": "Membaca",
+      "Rest / Nap": "Rehat / Tidur siang",
+      "Skincare": "Penjagaan kulit",
+      "Healthy Meal": "Makanan Sihat",
+      "Nature / Walk": "Alam semula jadi / berjalan kaki",
+      "Social Time": "Masa Sosial",
+      "Hobby": "Hobi",
+      "Therapy": "Terapi",
+      "Digital Detox": "Detoks Digital"
+    },
+    "durations": {
+      "< 10 minutes": "< 10 minit",
+      "10–30 minutes": "10–30 minit",
+      "30–60 minutes": "30–60 minit",
+      "1+ hour": "1+ jam"
+    },
+    "reasons": {
+      "Busy schedule": "Jadual sibuk",
+      "Low energy": "Tenaga rendah",
+      "Stress": "Tekanan",
+      "Forgot": "Terlupa",
+      "No motivation": "Tiada motivasi",
+      "Not feeling well": "Tidak berasa sihat",
+      "Lack of time": "Kekurangan masa",
+      "Emotional overwhelm": "Keterlaluan emosi"
+    },
+    "helpfulTypes": {
+      "Rest": "Rehat",
+      "Relaxation": "Relaksasi",
+      "Physical activity": "Aktiviti fizikal",
+      "Talking to someone": "Bercakap dengan seseorang",
+      "Quiet time": "Masa yang tenang",
+      "Creative activity": "Aktiviti kreatif"
+    },
+    "moods": {
+      "Happy": "Gembira",
+      "Calm": "Tenang",
+      "Neutral": "Neutral",
+      "Low": "Rendah",
+      "Stressed": "Tertekan",
+      "Tired": "Letih"
+    },
+    "positiveStatements": [
+      "Anda muncul untuk diri sendiri hari ini. Itu berkuasa. 🌿",
+      "Penjagaan diri tidak mementingkan diri sendiri - ia penting. Syabas. 💚",
+      "Setiap tindakan penjagaan kecil membina anda yang lebih kuat. 🌱",
+      "Anda melabur dalam diri anda hari ini. Itu penting. ✨",
+      "Menjaga anda adalah perkara terbaik yang anda lakukan hari ini. 🍃"
+    ],
+    "supportiveStatements": [
+      "Tak mengapa. Esok adalah permulaan yang baru. Bersikap lembut dengan diri sendiri. 🤍",
+      "Tidak setiap hari akan sempurna, dan itu tidak mengapa. 🕊️",
+      "Anda melakukan yang terbaik. Itu sentiasa mencukupi. 💛",
+      "Rehat juga merupakan satu bentuk penjagaan diri. Berikan diri anda rahmat. 🌸",
+      "Mengakui hari ini memerlukan keberanian. Anda sudah berkembang. 🌷"
+    ]
+  }
+}

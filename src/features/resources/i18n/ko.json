@@ -1,0 +1,37 @@
+{
+  "app_title": "자료",
+  "not_found": {
+    "title": "찾지 못했습니다",
+    "message": "리소스를 찾을 수 없습니다",
+    "description": "찾고 계신 콘텐츠가 이동했을 수도 있습니다.",
+    "button": "돌아가"
+  },
+  "list": {
+    "empty_title": "{{type}} 없음",
+    "empty_desc": "현재 이 주제에 대한 더 많은 자료를 준비 중입니다.",
+    "footer": "만트라 케어 • 근거 기반 자료"
+  },
+  "detail": {
+    "loading": "로딩 중...",
+    "tip": {
+      "insight_label": "인사이트",
+      "plan_title": "일일 행동 계획",
+      "steps": "{{count}} 계단들",
+      "example_label": "연습 예시",
+      "instead_of": "대신",
+      "try_this": "이거 해보세요"
+    },
+    "article": {
+      "final_thought": "최종 생각"
+    },
+    "story": {
+      "reflection_label": "앉아 있을 무언가가 필요해",
+      "note_label": "작가의 노트"
+    },
+    "myth": {
+      "truth_label": "과학적 진실",
+      "explanation_label": "상세 설명",
+      "insight_label": "주요 통찰"
+    }
+  }
+}

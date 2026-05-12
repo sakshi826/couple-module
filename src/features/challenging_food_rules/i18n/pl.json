@@ -1,0 +1,56 @@
+{
+  "app_title": "Kwestionowanie zasad żywieniowych",
+  "welcome_title": "Zasady żywieniowe to nie prawo.",
+  "welcome_subtitle": "Wszyscy nosimy zasady dotyczące jedzenia—niektóre pomocne, inne nie. To bezpieczne miejsce, by zauważyć jedną zasadę i delikatnie się nad nią zastanowić.",
+  "begin_button": "Zacznijmy",
+  "screen_titles": {
+    "intro": "Delikatna świadomość",
+    "identify": "Nadawanie nazwy reguły",
+    "feeling": "Wpływ emocjonalny",
+    "impact": "Wpływ fizyczny",
+    "challenge": "Soft Challenge",
+    "permission": "Udzielanie zgody",
+    "step": "Delikatne kroki",
+    "takeaway": "Podsumowanie",
+    "close": "Refleksja"
+  },
+  "rule_label": "Nadawanie nazwy reguły",
+  "rule_question": "Jaka jest zasada?",
+  "rule_options": [
+    "Nie powinienem jeść po określonym czasie",
+    "Niektóre produkty są niedostępne",
+    "Muszę ściśle kontrolować porcje"
+  ],
+  "rule_something_else": "Coś jeszcze...",
+  "rule_placeholder": "Wpisz swoją zasadę dotyczącą jedzenia...",
+  "feeling_label": "Wpływ emocjonalny",
+  "feeling_question": "Jak się z tym czujesz?",
+  "feeling_options": [
+    "😟 Niespokojny",
+    "😌 Kontrolujący",
+    "😕 Winny",
+    "😣 Ograniczone",
+    "😴 Zmęczony",
+    "😐 Mieszane"
+  ],
+  "challenge_label": "Soft Challenge",
+  "challenge_question": "Delikatnie pytaj...",
+  "reflections": {
+    "Is this rule too strict?": "Czy to wydaje się elastyczne, czy raczej wywiera presję, by idealnie go dostosować?",
+    "Is this actually helping me?": "Czy ta zasada wspiera twoje dobro, czy dodaje stresu lub poczucia winy?",
+    "What happens when I can't follow it?": "Co zauważasz, gdy ta zasada nie idzie zgodnie z planem?"
+  },
+  "reflection_saved": "Zachowano odbicie",
+  "your_reflection": "Twoje odbicie",
+  "label_rule": "Reguła",
+  "label_feeling": "To uczucie",
+  "preserve_button": "Zachowaj odbicie",
+  "preserving": "Konserwowanie...",
+  "continue_button": "Kontynuuj",
+  "next_button": "Następny",
+  "complete_title": "Zdobyta świadomość",
+  "complete_message": "Świadomość to pierwszy krok ku wolności. Podjęliście odważny krok, wskazując i zastanawiając się nad zasadą dotyczącą jedzenia. Noś to łagodne zrozumienie ze sobą dzisiaj.",
+  "auth_error": "Brakuje sesji uwierzytelniania lub baza danych nie skonfigurowana",
+  "save_success": "Zachowane odbicie",
+  "save_error": "Nie udało się zachować odbicia"
+}

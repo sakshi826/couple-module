@@ -1,0 +1,53 @@
+{
+  "app": {
+    "title": "Hála Követő",
+    "description": "Kövesd a napi háládat és hangulatodat a jobb mentális egészség érdekében"
+  },
+  "gratitude": {
+    "heading": "Miért vagy ma hálás?",
+    "subheading": "Szánj egy pillanatot, hogy átgondold a jó dolgokat, legyenek azok nagyok vagy kicsiek.",
+    "item1": {
+      "label": "Hála 1. pont",
+      "placeholder": "például ma reggel egy meleg csésze teát..."
+    },
+    "item2": {
+      "label": "Hála 2. tétel",
+      "placeholder": "Például egy kedves szó egy baráttól..."
+    },
+    "optional": "(opcionális)"
+  },
+  "common": {
+    "continue": "Folytatás"
+  },
+  "mood": {
+    "heading": "Hogy érzed magad?",
+    "subheading": "Válaszd ki azt a hangulatot, ami most a legjobban leírja.",
+    "save": "Mentsd meg a hála bejegyzés",
+    "happy": "Boldog",
+    "calm": "Nyugodt",
+    "neutral": "Semleges",
+    "low": "Alacsony",
+    "stressed": "Stresszes"
+  },
+  "review": {
+    "heading": "A belépésed",
+    "date": "Dátum",
+    "gratitude1": "Hála 1",
+    "gratitude2": "Hála 2",
+    "mood": "Hangulat",
+    "edit": "Szerkesztés bejegyzés",
+    "history": "Nézd meg a történelemet"
+  },
+  "history": {
+    "heading": "Történelem",
+    "back": "Hátra",
+    "home": "Menj haza",
+    "sun": "Sun",
+    "mon": "Az én",
+    "tue": "Kedd",
+    "wed": "Szerda",
+    "thu": "Ősz",
+    "fri": "Péntek",
+    "sat": "Szombat"
+  }
+}

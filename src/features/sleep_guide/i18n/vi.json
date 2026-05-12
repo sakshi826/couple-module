@@ -1,0 +1,21 @@
+{
+  "app_title": "Hướng dẫn về giấc ngủ",
+  "app_subtitle": "Hiểu về chứng lo lắng khi ngủ",
+  "tag": "Tâm lý giáo dục",
+  "screen1": {
+    "intro": "Bạn càng cố gắng, nó càng khó hơn.",
+    "title": "Cố gắng ép bản thân ngủ chính xác là điều khiến bạn tỉnh táo.",
+    "p1": "Bạn nằm xuống, nhắm mắt lại - và não của bạn bật lên. Phát lại các cuộc trò chuyện. Xem đồng hồ.",
+    "p2": "Đây không phải là một điểm yếu. Đó là một hiện tượng được gọi là <1>lo lắng khi ngủ</1> - và nó ảnh hưởng đến hàng triệu người.",
+    "quote": "\"Lo lắng về giấc ngủ không phải là không mệt mỏi. Đó là về hệ thống thần kinh của bạn bị mắc kẹt ở chế độ 'bật'.\"",
+    "button": "Tìm hiểu thêm"
+  },
+  "screen2": {
+    "intro": "Đây là khoa học đằng sau nó.",
+    "title": "Bộ não của bạn đã học cách coi giường của bạn như một nơi căng thẳng - không phải nghỉ ngơi.",
+    "p1": "Hạch hạnh nhân của bạn - máy phát hiện mối đe dọa của não - vẫn được kích hoạt vào ban đêm, báo hiệu nguy hiểm ngay khi đầu bạn chạm vào gối.",
+    "p2": "Điều này được gọi là <1>kích thích có điều kiện</1> - nó giải thích tại sao bạn cảm thấy kiệt sức cả ngày, nhưng vẫn tỉnh táo trước khi đi ngủ.",
+    "quote": "\"Bộ não của bạn không bị hỏng. Nó chỉ đơn giản là học được bài học sai về giờ đi ngủ - và nó có thể được lặp lại.\"",
+    "button": "Bước trước"
+  }
+}

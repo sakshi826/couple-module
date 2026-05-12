@@ -1,0 +1,37 @@
+{
+  "app_title": "Bronnen",
+  "not_found": {
+    "title": "Niet gevonden",
+    "message": "Bron niet gevonden",
+    "description": "De content die je zoekt is misschien verhuisd.",
+    "button": "Ga terug"
+  },
+  "list": {
+    "empty_title": "Geen {{type}} beschikbaar",
+    "empty_desc": "We zijn momenteel bezig met het samenstellen van meer bronnen voor dit onderwerp.",
+    "footer": "Mantra Care • Evidence-based Resources"
+  },
+  "detail": {
+    "loading": "Laden...",
+    "tip": {
+      "insight_label": "Het Inzicht",
+      "plan_title": "Dagelijks Actieplan",
+      "steps": "{{count}} Stappen",
+      "example_label": "Oefenvoorbeeld",
+      "instead_of": "In plaats van",
+      "try_this": "Probeer dit eens"
+    },
+    "article": {
+      "final_thought": "Eindgedachte"
+    },
+    "story": {
+      "reflection_label": "Iets om mee te zitten",
+      "note_label": "Een opmerking van de auteur"
+    },
+    "myth": {
+      "truth_label": "De Wetenschappelijke Waarheid",
+      "explanation_label": "Gedetailleerde uitleg",
+      "insight_label": "Belangrijke inzichten"
+    }
+  }
+}

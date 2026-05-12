@@ -1,0 +1,65 @@
+{
+  "app_title": "Trái phiếu tiếp tục",
+  "welcome_title": "Tình yêu không kết thúc khi ai đó ra đi.",
+  "welcome_subtitle": "Kết nối bạn đã chia sẻ tiếp tục theo nhiều cách. Hít thở chậm và đi theo tốc độ của riêng bạn.",
+  "begin_button": "Bắt đầu suy ngẫm",
+  "screen_titles": {
+    "welcome": "Chào mừng",
+    "choose": "Kết nối",
+    "bond": "Hoạt động",
+    "review": "Suy ngẫm",
+    "closing": "Chăm sóc cuối cùng",
+    "complete": "Trái phiếu được bảo tồn"
+  },
+  "choose_question": "Làm thế nào để bạn vẫn cảm thấy được kết nối?",
+  "write_heart": "Viết từ trái tim...",
+  "continue_button": "Tiếp tục",
+  "action_title": "Kết nối trong thực tế",
+  "sharing_optional": "Chia sẻ là tùy chọn...",
+  "preserve_button": "Duy trì sự phản chiếu",
+  "preserving": "Bảo quản...",
+  "preserved_title": "Bảo quản",
+  "preserved_subtitle": "\"Sự kết nối này là một phần của bạn. Bạn có thể quay lại bất cứ lúc nào.\"",
+  "finish_button": "Hoàn thành ngay bây giờ",
+  "add_another": "Thêm một",
+  "closing_p1": "Những người chúng ta yêu thương trở thành một phần của con người chúng ta. 🤍",
+  "closing_p2": "Chúng sống mãi trong cách bạn cười, những câu chuyện bạn kể và những khoảnh khắc yên tĩnh khi bạn cảm thấy chúng ở gần.",
+  "closing_p3": "Tuy nhiên, mối quan hệ của bạn xuất hiện - nó là có thật và nó quan trọng.",
+  "save_exit_button": "Lưu & thoát",
+  "complete_title": "Trái phiếu được bảo tồn",
+  "complete_message": "Những người chúng ta yêu thương trở thành một phần của con người chúng ta. Kết nối của bạn tiếp tục theo cách bạn tôn vinh họ.",
+  "auth_error": "Thiếu phiên xác thực hoặc cơ sở dữ liệu không được định cấu hình",
+  "save_success": "Phản chiếu trái phiếu được bảo tồn",
+  "save_error": "Không giữ được phản xạ",
+  "connection_options": [
+    {
+      "label": "Qua ký ức",
+      "prompt": "Bạn có thể chia sẻ một kỷ niệm mà bạn cảm nhận được sự hiện diện của họ không?",
+      "deeper": "Một điều ở họ ở lại với bạn là gì?"
+    },
+    {
+      "label": "Trong những điều tôi nói hoặc làm",
+      "prompt": "Bạn mang phần nào của chúng trong cuộc sống hàng ngày?",
+      "deeper": "Điều này thể hiện như thế nào trong cuộc sống của bạn ngày nay?"
+    },
+    {
+      "label": "Trong những khoảnh khắc của cuộc sống hàng ngày của tôi",
+      "prompt": "Khi nào bạn cảm thấy họ gần gũi trong ngày của bạn?",
+      "deeper": "Một điều ở họ ở lại với bạn là gì?"
+    },
+    {
+      "label": "Trong những gì tôi vẫn muốn nói với họ",
+      "prompt": "Có điều gì bạn vẫn muốn nói với họ không?",
+      "deeper": "Bạn muốn họ biết điều gì nhất ngay bây giờ?"
+    },
+    {
+      "label": "Trong một cảm giác hoặc sự hiện diện",
+      "prompt": "Sự hiện diện của họ vẫn hiển thị cho bạn như thế nào?",
+      "deeper": "Điều này thể hiện như thế nào trong cuộc sống của bạn ngày nay?"
+    }
+  ],
+  "bond_prompts": [
+    "Một cách nhỏ mà bạn cảm thấy kết nối với họ ngày hôm nay là gì?",
+    "Điều gì bạn làm mang một phần của chúng?"
+  ]
+}

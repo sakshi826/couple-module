@@ -1,0 +1,22 @@
+{
+  "app_title": "Suhdemallit",
+  "app_subtitle": "Suunnitelman purkaminen",
+  "complete_title": "Tietoisuuden lisääminen",
+  "complete_message": "Kaavojesi ymmärtäminen on ensimmäinen askel kohti niiden uudelleenkirjoittamista. Sinulla on valta valita toinen polku.",
+  "screen1": {
+    "tag": "Kaavojen löytäminen",
+    "intro": "Oletko koskaan tuntenut, että olet ollut täällä ennen?",
+    "title": "Jos suhteesi päättyvät samalla tavalla — se ei ole huonoa onnea.",
+    "desc": "Valitsemamme suhteet noudattavat kaavaa, joka on kirjoitettu kauan ennen kuin rakastuimme. Tuttuus tuntuu usein turvalta, vaikka se johtaisi samoihin vanhoihin riitoihin.",
+    "quote": "\"Toistamme kaavoja emme siksi, että olisimme rikki — vaan koska ne tuntuvat tutuilta.\"",
+    "button": "Jatka purkamista"
+  },
+  "screen2": {
+    "tag": "Mallipohja",
+    "intro": "Se alkaa aikaisemmin kuin luulet.",
+    "title": "Varhaisimmat suhteet muodostavat mallin kaikelle myöhemmälle.",
+    "desc": "Tapa, jolla hoitajasi vastasivat tarpeisiisi, muovasi hiljaa tapaasi suhtautua muihin aikuisena. Nämä ovat opittuja vastauksia — ja ne voi unohtaa.",
+    "quote": "\"Kuviosi oli joskus järkevä. Kysymys kuuluu — palveleeko se sinua vielä?\"",
+    "button": "Viimeistelyn heijastus"
+  }
+}

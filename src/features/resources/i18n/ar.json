@@ -1,0 +1,37 @@
+{
+  "app_title": "الموارد",
+  "not_found": {
+    "title": "لم يعثر عليه",
+    "message": "لم يتم العثور على مورد",
+    "description": "المحتوى الذي تبحث عنه قد يكون قد تحرك.",
+    "button": "الرجوع للخلف"
+  },
+  "list": {
+    "empty_title": "لا يوجد {{type}} متوفر",
+    "empty_desc": "نحن حاليا نقوم بتنسيق المزيد من الموارد لهذا الموضوع.",
+    "footer": "رعاية المانترا • موارد قائمة على الأدلة"
+  },
+  "detail": {
+    "loading": "جار التحميل...",
+    "tip": {
+      "insight_label": "البصيرة",
+      "plan_title": "خطة العمل اليومية",
+      "steps": "{{count}} الخطوات",
+      "example_label": "مثال تدريبي",
+      "instead_of": "بدلا من",
+      "try_this": "جرب هذا"
+    },
+    "article": {
+      "final_thought": "الفكرة النهائية"
+    },
+    "story": {
+      "reflection_label": "شيء للجلوس معه",
+      "note_label": "ملاحظة من المؤلف"
+    },
+    "myth": {
+      "truth_label": "الحقيقة العلمية",
+      "explanation_label": "شرح مفصل",
+      "insight_label": "وجهة نظر رئيسية"
+    }
+  }
+}

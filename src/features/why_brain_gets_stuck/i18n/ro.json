@@ -1,0 +1,29 @@
+{
+  "app_title": "De ce se blochează creierul",
+  "app_subtitle": "Logica supraviețuirii • {{step}}/{{total}}",
+  "s1": {
+    "title": "Creierul tău nu s-a stricat. S-a adaptat.",
+    "description": "După traumă, creierul tău se reconfigurează pentru a te proteja. A învățat că lumea poate fi periculoasă, așa că a rămas pregătit. Asta nu e un defect. Asta e supraviețuirea.",
+    "quote": "\"PTSD-ul nu e un semn că ceva nu e în regulă cu tine. E un semn că ți s-a întâmplat ceva.\"",
+    "button": "Spune-mi mai multe"
+  },
+  "s2": {
+    "tag": "Adevăruri blânde",
+    "title": "Logica supraviețuirii cerebrale",
+    "truths": [
+      {
+        "header": "Alarma a rămas pornită",
+        "body": "Hipervigilența și surprizele ușor nu sunt reacții exagerate — sistemul de alarmă al creierului tău își face treaba prea bine."
+      },
+      {
+        "header": "Flashback-urile sunt amintiri",
+        "body": "Trăgacile îți trag creierul înapoi pentru că nu a primit niciodată semnalul că amenințarea s-a încheiat. Încearcă să te protejeze."
+      },
+      {
+        "header": "Luptând pentru tine",
+        "body": "Fiecare simptom a fost odată un act de supraviețuire. Creierul tău a făcut ce trebuia ca să te țină în viață."
+      }
+    ],
+    "healing": "Vindecarea nu înseamnă să uiți. Este vorba despre a-ți ajuta creierul să învețe că acum ești în siguranță."
+  }
+}

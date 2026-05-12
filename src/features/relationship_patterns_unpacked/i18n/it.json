@@ -1,0 +1,22 @@
+{
+  "app_title": "Modelli di Relazione",
+  "app_subtitle": "Svelare il tuo progetto",
+  "complete_title": "Consapevolezza acquisita",
+  "complete_message": "Capire i tuoi schemi è il primo passo per riscriverli. Hai il potere di scegliere una strada diversa.",
+  "screen1": {
+    "tag": "Scoperta del modello",
+    "intro": "Ti è mai capitato di essere già stato qui?",
+    "title": "Se le tue relazioni continuano a finire allo stesso modo — non è sfortuna.",
+    "desc": "Le relazioni che scegliamo seguono un modello scritto molto prima che ci innamorassimo. La familiarità spesso sembra sicurezza, anche quando porta alle solite discussioni.",
+    "quote": "\"Ripetiamo schemi non perché siamo rotti — ma perché ci sembrano familiari.\"",
+    "button": "Continua a disfare le valigie"
+  },
+  "screen2": {
+    "tag": "Il Modello",
+    "intro": "Inizia prima di quanto pensi.",
+    "title": "Le prime relazioni diventano il modello per tutto ciò che seguono.",
+    "desc": "Il modo in cui i tuoi caregiver rispondevano ai tuoi bisogni in silenzio ha influenzato il modo in cui ti relazioni con gli altri da adulto. Queste sono risposte apprese — e possono essere disapprese.",
+    "quote": "\"Il tuo schema aveva senso una volta. La domanda è: ti serve ancora adesso?\"",
+    "button": "Riflessione finale"
+  }
+}

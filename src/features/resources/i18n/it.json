@@ -1,0 +1,37 @@
+{
+  "app_title": "Risorse",
+  "not_found": {
+    "title": "Non trovato",
+    "message": "Risorsa non trovata",
+    "description": "I contenuti che cerchi potrebbero essersi spostati.",
+    "button": "Torna indietro"
+  },
+  "list": {
+    "empty_title": "Nessun {{type}} disponibile",
+    "empty_desc": "Attualmente stiamo selezionando altre risorse per questo argomento.",
+    "footer": "Cura dei mantra • Risorse basate su evidenze"
+  },
+  "detail": {
+    "loading": "Caricamento...",
+    "tip": {
+      "insight_label": "L'intuizione",
+      "plan_title": "Piano d'azione quotidiano",
+      "steps": "{{count}} Passi",
+      "example_label": "Esempio di pratica",
+      "instead_of": "Invece di",
+      "try_this": "Prova questo"
+    },
+    "article": {
+      "final_thought": "Pensiero finale"
+    },
+    "story": {
+      "reflection_label": "Qualcosa con cui sedersi",
+      "note_label": "Una nota dell'autore"
+    },
+    "myth": {
+      "truth_label": "La verità scientifica",
+      "explanation_label": "Spiegazione dettagliata",
+      "insight_label": "Intuizione chiave"
+    }
+  }
+}

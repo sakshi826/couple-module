@@ -1,5 +1,6 @@
 import { useState, useCallback, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import IntroScreen from "@/features/the_unsent_letter/components/unsent-letter/IntroScreen";
 import WritingScreen from "@/features/the_unsent_letter/components/unsent-letter/WritingScreen";
 import ReflectionScreen from "@/features/the_unsent_letter/components/unsent-letter/ReflectionScreen";
@@ -26,6 +27,7 @@ const pageVariants = {
 const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
 
 const Index = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState<"intro" | "writing" | "reflection" | "history">("intro");
   const [letterContent, setLetterContent] = useState("");
   const [savedLetters, setSavedLetters] = useState<Letter[]>([]);
@@ -59,7 +61,7 @@ const Index = () => {
   const saveLetter = useCallback(async () => {
     const userId = sessionStorage.getItem("user_id");
     if (!userId || !DATABASE_URL) {
-      toast.error("Auth session missing or DB not configured");
+      toast.error(t("toasts.auth_error"));
       return;
     }
 
@@ -67,24 +69,24 @@ const Index = () => {
       try {
         const sql = neon(DATABASE_URL);
         await sql`INSERT INTO unsent_letters (user_id, content) VALUES (${userId}, ${letterContent})`;
-        toast.success("Letter saved to your private journal");
+        toast.success(t("toasts.save_success"));
         fetchLetters();
         setLetterContent("");
       } catch (error) {
         console.error("Failed to save letter:", error);
-        toast.error("Failed to save letter");
+        toast.error(t("toasts.save_error"));
       }
     }
     setScreen("history");
-  }, [letterContent, fetchLetters]);
+  }, [letterContent, fetchLetters, t]);
 
   const currentStep =
     screen === "intro" ? 1 : screen === "writing" ? 2 : screen === "reflection" ? 3 : 1;
 
   return (
     <PremiumLayout
-      title="The Unsent Letter"
-      subtitle="Release your thoughts safely and privately"
+      title={t("app_title")}
+      subtitle={t("app_subtitle")}
       icon={<Mail className="w-6 h-6 text-primary" />}
     >
       <div className="w-full max-w-md mx-auto min-h-[60vh] flex flex-col relative z-10">
@@ -151,4 +153,3 @@ const Index = () => {
 };
 
 export default Index;
-

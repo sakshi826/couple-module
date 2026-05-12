@@ -1,0 +1,37 @@
+{
+  "app_title": "Ressourcen",
+  "not_found": {
+    "title": "Nicht gefunden",
+    "message": "Ressource nicht gefunden",
+    "description": "Der Inhalt, den du suchst, könnte verschoben sein.",
+    "button": "Geh zurück"
+  },
+  "list": {
+    "empty_title": "Kein {{type}} verfügbar",
+    "empty_desc": "Wir kuratieren derzeit weitere Ressourcen zu diesem Thema.",
+    "footer": "Mantra-Pflege • evidenzbasierte Ressourcen"
+  },
+  "detail": {
+    "loading": "Lädt...",
+    "tip": {
+      "insight_label": "Die Einsicht",
+      "plan_title": "Täglicher Aktionsplan",
+      "steps": "{{count}} Schritte",
+      "example_label": "Übungsbeispiel",
+      "instead_of": "Anstelle von",
+      "try_this": "Probier das mal"
+    },
+    "article": {
+      "final_thought": "Faziter Gedanke"
+    },
+    "story": {
+      "reflection_label": "Etwas, womit man sitzen kann",
+      "note_label": "Eine Anmerkung des Autors"
+    },
+    "myth": {
+      "truth_label": "Die wissenschaftliche Wahrheit",
+      "explanation_label": "Detaillierte Erklärung",
+      "insight_label": "Wichtige Einblicke"
+    }
+  }
+}

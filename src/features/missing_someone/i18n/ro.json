@@ -1,0 +1,26 @@
+{
+  "app_title": "Lipsește pe cineva",
+  "subtitles": [
+    "Validare",
+    "Înțelepciunea Interioară",
+    "Complet"
+  ],
+  "complete_title": "Claritate dobândită",
+  "complete_message": "Înțelegerea chimiei de a-ți dori cineva este primul pas spre vindecare. Sentimentele tale sunt valide, iar creierul tău pur și simplu își face treaba de a proteja și procesa.",
+  "screen1": {
+    "tag": "Validare",
+    "intro": "Nu înseamnă că ești slab.",
+    "title": "Să-ți fie dor de cineva care te-a rănit este profund uman.",
+    "desc": "Ai plecat. Sau au plecat. Și totuși — încă întinzi mâna spre telefon sperând că sunt ei. Încă retrăiești mai mult momentele bune decât cele dureroase. Această contradicție nu este un defect. Este modul în care creierul tău procesează pierderea.",
+    "quote": "\"Nu doar că îți lipsește persoana. Îți lipsește senzația de a fi legat de ei.\"",
+    "button": "Pasul următor"
+  },
+  "screen2": {
+    "tag": "Știința creierului",
+    "intro": "Înțelepciunea Interioară",
+    "title": "Dragostea creează o legătură chimică.",
+    "desc": "Când iubești pe cineva, creierul tău eliberează dopamină, oxitocină și serotonină. Când se termină, acele niveluri scad. Creierul tău jelește — nu doar persoana, ci și sentimentul de apropiere.",
+    "quote": "\"Faptul că îi simți dor nu înseamnă că ar trebui să te întorci. Inima ta jelește o legătură — nu neapărat persoana așa cum a fost cu adevărat.\"",
+    "button": "Reflecția de finisaj"
+  }
+}

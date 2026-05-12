@@ -1,0 +1,45 @@
+{
+  "intro": {
+    "title": "Mga Aktibidad na Tinatangkilik Mo",
+    "subtitle": "Muling Pagtuklas ng Masasayang Sandali",
+    "p1": "Kapag ikaw ay nababalisa, nababalisa, o nababalisa, maaaring mahirap tandaan kung ano ang nagdudulot sa iyo ng kagalakan.",
+    "p2": "Ang aktibidad na ito ay hindi tungkol sa paggawa ng higit pa. Ito ay tungkol sa pagbibigay ng pansin sa maliliit na sandali na pakiramdam magaan, kalmado, o makabuluhan.",
+    "p3": "Walang pressure na maging masaya. Ginalugad lang namin kung ano ang nararamdaman kahit na bahagyang mabuti.",
+    "button": "Magsimula"
+  },
+  "recall": {
+    "title": "Mag-isip tungkol sa isang sandali",
+    "p1": "Paggahin hin panahon ha paghinumdom han usa nga panahon — bag-o la o hirayo — diin naramdaman mo bisan an gutiay nga pagbati han kalipay, kamurayawan, o pagliaw. Hindi ito kailangang maging malaki.",
+    "input1_label": "Ang isang aktibidad na nasisiyahan ako (o dati ay nasisiyahan sa) ay ...",
+    "input1_placeholder": "E.G Naglalakad sa Parke",
+    "input2_label": "Kapag ginagawa ko ito, karaniwan kong nararamdaman...",
+    "input2_placeholder": "E.G. Kalmado at Kasalukuyan",
+    "button": "Magpatuloy"
+  },
+  "meaning": {
+    "title": "Ano ang ginagawang makabuluhan ito?",
+    "p1": "Minsan hindi lamang ang aktibidad mismo ang pinagmumulan ng kagalakan. Maaaring ito ay ang damdamin, ang kapaligiran, o ang koneksyon sa paligid nito.",
+    "input1_label": "Nasisiyahan ako dito dahil...",
+    "input1_placeholder": "E.G Binibigyan Ako ng Isang Pakiramdam ng Kalayaan",
+    "input2_label": "Ang aktibidad na ito ay nakatutulong sa akin na makaramdam ng higit pa ...",
+    "input2_placeholder": "E. Konektado at naka-ground",
+    "input3_label": "Ipinapaalala nito sa akin ang ...",
+    "input3_placeholder": "Tag-init Bilang Isang Bata",
+    "button": "I-save ang Aking Pagmumuni-muni"
+  },
+  "smallStep": {
+    "title": "Isang Maliit na Hakbang Pasulong",
+    "p1": "Hindi mo kailangang baguhin ang lahat nang sabay-sabay.",
+    "p2": "Posible bang makipag-ugnay muli sa aktibidad na ito sa isang maliit na paraan?",
+    "input1_label": "Ang isang maliit na hakbang na maaari kong gawin sa linggong ito ay ...",
+    "input1_placeholder": "10 minutong paglalakad sa loob ng 10 minuto",
+    "button_save": "I-save",
+    "button_home": "Pumunta sa Bahay"
+  },
+  "affirmation": {
+    "title": "Gumawa ka ng isang napakagandang hakbang",
+    "p1": "Ang muling pagkonekta sa kung ano ang nagdudulot sa iyo ng kagalakan - kahit na sa pinakamaliit na paraan - ay isang gawa ng kabaitan sa iyong sarili.",
+    "p2": "Karapat-dapat ka sa mga sandali ng liwanag at kapayapaan. Ipagpatuloy ang pag-aalaga sa kung ano ang nagpapadama sa iyong puso. 💛",
+    "button": "Bumalik sa Tahanan"
+  }
+}

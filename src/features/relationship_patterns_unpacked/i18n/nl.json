@@ -1,0 +1,22 @@
+{
+  "app_title": "Relatiepatronen",
+  "app_subtitle": "Je blauwdruk uitpakken",
+  "complete_title": "Bewustwording",
+  "complete_message": "Je patronen begrijpen is de eerste stap om ze te herschrijven. Je draagt de kracht om een ander pad te kiezen.",
+  "screen1": {
+    "tag": "Patroonontdekking",
+    "intro": "Heb je ooit het gevoel gehad dat je hier eerder bent geweest?",
+    "title": "Als je relaties steeds op dezelfde manier eindigen — is dat geen pech.",
+    "desc": "De relaties die we kiezen volgen een blauwdruk die lang voor ons verliefd werd geschreven. Vertrouwdheid voelt vaak als veiligheid, zelfs als het leidt tot dezelfde oude ruzies.",
+    "quote": "\"We herhalen patronen niet omdat we gebroken zijn — maar omdat ze vertrouwd aanvoelen.\"",
+    "button": "Ga verder met uitpakken"
+  },
+  "screen2": {
+    "tag": "Het Sjabloon",
+    "intro": "Het begint eerder dan je denkt.",
+    "title": "De vroegste relaties worden het sjabloon voor alles wat volgt.",
+    "desc": "De manier waarop je verzorgers op je behoeften reageerden, heeft stilzwijgend gevormd hoe je als volwassene met anderen omgaat. Dit zijn aangeleerde reacties — en ze kunnen worden afgeleerd.",
+    "quote": "\"Je patroon klopte ooit. De vraag is — dient het je nu nog steeds?\"",
+    "button": "Eindreflectie"
+  }
+}

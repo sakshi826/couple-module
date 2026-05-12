@@ -1,35 +1,20 @@
 import { useState } from "react";
-
-const options = [
-  {
-    emoji: "😩", text: "I wake up physically exhausted", sub: "probably missing deep sleep",
-    tip: "Focus on a consistent sleep and wake time — your body needs a regular rhythm to reach deep sleep.",
-  },
-  {
-    emoji: "🌫️", text: "I feel emotionally foggy or low", sub: "probably missing REM sleep",
-    tip: "Try winding down 30 mins before bed — a calm pre-sleep routine protects your REM sleep.",
-  },
-  {
-    emoji: "😤", text: "I wake up a lot during the night", sub: "cycles keep getting interrupted",
-    tip: "A cool, dark and quiet room helps your brain stay in deeper stages without interruption.",
-  },
-  {
-    emoji: "😐", text: "I feel okay but not great", sub: "cycles are partial but not complete",
-    tip: "Try going to bed 20 mins earlier — you may just need one more complete sleep cycle.",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 const Screen4Reflection = () => {
+  const { t } = useTranslation();
   const [selected, setSelected] = useState<number | null>(null);
+
+  const options = t("s4.options", { returnObjects: true }) as any[];
 
   return (
     <div className="flex flex-col h-full px-5 py-2 overflow-y-auto" style={{ scrollbarWidth: "none" }}>
       <h1 className="text-lg font-semibold mb-3" style={{ color: "#1a2a4a" }}>
-        Which one sounds like you? 👇
+        {t("s4.title")}
       </h1>
 
       <div className="flex flex-col gap-2 mb-3">
-        {options.map((o, i) => (
+        {Array.isArray(options) && options.map((o, i) => (
           <button
             key={i}
             className={`option-card p-3 text-left ${selected === i ? "selected" : ""}`}
@@ -57,12 +42,12 @@ const Screen4Reflection = () => {
       <div className="takeaway-card p-4 mb-3">
         <span className="text-2xl leading-none" style={{ color: "#a0b0d8", fontFamily: "Georgia, serif" }}>"</span>
         <p className="text-xs italic leading-relaxed mt-1" style={{ color: "#3a4870" }}>
-          Sleep isn't just rest — it's active recovery. Protect your cycles and your whole day changes.
+          {t("s4.quote")}
         </p>
       </div>
 
       <button className="sleep-cta mt-auto shrink-0">
-        Done ✓
+        {t("s4.button")}
       </button>
     </div>
   );

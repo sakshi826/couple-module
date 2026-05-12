@@ -1,0 +1,29 @@
+{
+  "app_title": "Mengapa Otak Tersekat",
+  "app_subtitle": "Logik kelangsungan hidup • {{step}}/{{total}}",
+  "s1": {
+    "title": "Otak anda tidak pecah. Ia menyesuaikan diri.",
+    "description": "Selepas trauma, otak anda memasang semula dirinya untuk memastikan anda selamat. Ia belajar bahawa dunia boleh berbahaya, jadi ia tetap bersedia. Itu bukan kecacatan. Itulah kelangsungan hidup.",
+    "quote": "\"PTSD bukanlah tanda bahawa ada sesuatu yang tidak kena dengan anda. Ia adalah tanda bahawa sesuatu berlaku kepada anda.\"",
+    "button": "Beritahu saya lebih lanjut"
+  },
+  "s2": {
+    "tag": "kebenaran lembut",
+    "title": "Logik kelangsungan hidup otak",
+    "truths": [
+      {
+        "header": "Penggera kekal menyala",
+        "body": "Kewaspadaan dan mengejutkan dengan mudah bukanlah tindak balas yang berlebihan - sistem penggera otak anda melakukan tugasnya dengan sangat baik."
+      },
+      {
+        "header": "Kilas balik adalah kenangan",
+        "body": "Pencetus menarik otak anda ke belakang kerana ia tidak pernah mendapat isyarat bahawa ancaman itu telah berakhir. Ia cuba melindungi anda."
+      },
+      {
+        "header": "Berjuang untuk anda",
+        "body": "Setiap gejala pernah menjadi tindakan kelangsungan hidup. Otak anda melakukan apa yang perlu dilakukan untuk memastikan anda hidup."
+      }
+    ],
+    "healing": "Penyembuhan bukan tentang melupakan. Ia tentang membantu otak anda mengetahui bahawa anda selamat sekarang."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "app_title": "Spațiu sigur",
+  "nav": [
+    "Check-in",
+    "Recall blând",
+    "Observare",
+    "Rămânând prezent",
+    "Mergând înainte"
+  ],
+  "s1": {
+    "title": "Hai să găsim un loc care să se simtă bine",
+    "description": [
+      "Înainte să începem, luați un moment să verificați...",
+      "Cum te simți acum?",
+      "Nu căutăm un \"loc sigur\" perfect. Doar ceva care să se simtă măcar puțin liniștit sau în regulă."
+    ],
+    "placeholder": "Cum te simți acum?",
+    "button": "Începeți vizualizarea"
+  },
+  "s2": {
+    "title": "Adu-mi ușor aminte de asta",
+    "description": [
+      "Gândește-te la un loc unde te-ai simțit măcar puțin în largul tău... Sau un loc pe care ți-ai dori să existe.",
+      "Acum așază-te acolo...",
+      "Stai jos, stai în picioare sau stai întins?"
+    ],
+    "button": "Continuă"
+  },
+  "s3": {
+    "title": "Uită-te încet în jur",
+    "description": [
+      "Aruncă o privire blândă în jur...",
+      "Care este un lucru pe care îl poți vedea?",
+      "Acum observă un sunet... Ce auzi?"
+    ],
+    "button": "Continuă"
+  },
+  "s4": {
+    "title": "Rămâi cu asta",
+    "description": [
+      "Ce anume la acest loc îl face să pară măcar puțin sigur sau ok?",
+      "După cum observi asta...",
+      "De asemenea, adu-ți atenția asupra respirației."
+    ],
+    "breathe": "Respiră",
+    "notice": "Dacă imaginarea pare grea, gândește-te la ideea acestui loc.",
+    "button": "Continuă"
+  },
+  "s5": {
+    "title": "Ia asta cu tine",
+    "description": [
+      "Observă cum te simți acum. Chiar și o mică schimbare contează.",
+      "Vezi dacă poți duce cu tine măcar 5% din acest sentiment."
+    ],
+    "placeholder": "Cum te simți acum?",
+    "button": "Sesiunea completă"
+  },
+  "complete": {
+    "title": "Sesiunea încheiată",
+    "message": "Acest loc sigur este mereu disponibil pentru tine. Poți reveni aici oricând ai nevoie de un moment de liniște."
+  }
+}

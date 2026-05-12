@@ -1,9 +1,9 @@
 import { useState, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Textarea } from "@/features/safe_space/components/ui/textarea";
+import { useTranslation } from "react-i18next";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
-import { Shield, ChevronRight, Sparkles } from "lucide-react";
+import { Shield, ChevronRight } from "lucide-react";
 
 const transition = { duration: 0.6, ease: [0.4, 0, 0.2, 1] };
 
@@ -38,7 +38,10 @@ const breathe = {
 };
 
 function Screen1({ onContinue }: { onContinue: () => void }) {
+  const { t } = useTranslation();
   const [feeling, setFeeling] = useState("");
+  const description = t("s1.description", { returnObjects: true }) as string[];
+
   return (
     <motion.div variants={staggerChildren} initial="enter" animate="center" className="flex flex-col items-center text-center gap-10">
       <motion.div variants={floatEmoji} animate="animate" className="w-20 h-20 bg-primary/10 rounded-[2rem] flex items-center justify-center text-4xl shadow-inner">
@@ -47,18 +50,18 @@ function Screen1({ onContinue }: { onContinue: () => void }) {
 
       <div className="space-y-4">
         <motion.h1 variants={childFade} className="text-3xl font-black text-slate-800 leading-tight">
-          Let's find a place that feels okay
+          {t("s1.title")}
         </motion.h1>
         <motion.div variants={childFade} className="space-y-4 text-slate-500 font-medium leading-relaxed text-base">
-          <p>Before we begin, take a moment to check in…</p>
-          <p>How are you feeling right now?</p>
-          <p>We're not looking for a perfect "safe place".<br />Just something that feels even a little calm or okay.</p>
+          {description && description.map((line, idx) => (
+            <p key={idx}>{line}</p>
+          ))}
         </motion.div>
       </div>
 
       <motion.div variants={childFade} className="w-full">
         <textarea 
-          placeholder="How do you feel right now?" 
+          placeholder={t("s1.placeholder")} 
           value={feeling} 
           onChange={(e) => setFeeling(e.target.value)}
           className="w-full rounded-3xl border-2 border-slate-100 bg-white p-6 text-slate-700 placeholder:text-slate-200 focus:border-primary/30 outline-none transition-all font-bold min-h-[120px] shadow-inner" 
@@ -69,7 +72,7 @@ function Screen1({ onContinue }: { onContinue: () => void }) {
           onClick={onContinue}
           className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
         >
-          Begin Visualization
+          {t("s1.button")}
           <ChevronRight size={20} strokeWidth={3} />
         </button>
       </motion.div>
@@ -78,6 +81,9 @@ function Screen1({ onContinue }: { onContinue: () => void }) {
 }
 
 function Screen2({ onContinue }: { onContinue: () => void }) {
+  const { t } = useTranslation();
+  const description = t("s2.description", { returnObjects: true }) as string[];
+
   return (
     <motion.div variants={staggerChildren} initial="enter" animate="center" className="flex flex-col items-center text-center gap-10">
       <motion.div variants={floatEmoji} animate="animate" className="w-20 h-20 bg-primary/10 rounded-[2rem] flex items-center justify-center text-4xl shadow-inner">
@@ -86,12 +92,13 @@ function Screen2({ onContinue }: { onContinue: () => void }) {
 
       <div className="space-y-4">
         <motion.h1 variants={childFade} className="text-3xl font-black text-slate-800 leading-tight">
-          Gently bring it to mind
+          {t("s2.title")}
         </motion.h1>
         <motion.div variants={childFade} className="space-y-4 text-slate-500 font-medium leading-relaxed text-base">
-          <p>Think of a place where you felt even a little at ease… or a place you wish existed.</p>
-          <p>Now place yourself there…</p>
-          <p className="font-black text-primary italic">Are you sitting, standing, or lying down?</p>
+          {description && description.slice(0, 2).map((line, idx) => (
+            <p key={idx}>{line}</p>
+          ))}
+          <p className="font-black text-primary italic">{description && description[2]}</p>
         </motion.div>
       </div>
 
@@ -100,7 +107,7 @@ function Screen2({ onContinue }: { onContinue: () => void }) {
           onClick={onContinue}
           className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
         >
-          Continue
+          {t("s2.button")}
           <ChevronRight size={20} strokeWidth={3} />
         </button>
       </motion.div>
@@ -109,6 +116,9 @@ function Screen2({ onContinue }: { onContinue: () => void }) {
 }
 
 function Screen3({ onContinue }: { onContinue: () => void }) {
+  const { t } = useTranslation();
+  const description = t("s3.description", { returnObjects: true }) as string[];
+
   return (
     <motion.div variants={staggerChildren} initial="enter" animate="center" className="flex flex-col items-center text-center gap-10">
       <motion.div variants={floatEmoji} animate="animate" className="w-20 h-20 bg-primary/10 rounded-[2rem] flex items-center justify-center text-4xl shadow-inner">
@@ -117,12 +127,13 @@ function Screen3({ onContinue }: { onContinue: () => void }) {
 
       <div className="space-y-4">
         <motion.h1 variants={childFade} className="text-3xl font-black text-slate-800 leading-tight">
-          Look around slowly
+          {t("s3.title")}
         </motion.h1>
         <motion.div variants={childFade} className="space-y-4 text-slate-500 font-medium leading-relaxed text-base">
-          <p>Take a gentle look around…</p>
-          <p>What's one thing you can see?</p>
-          <p className="font-black text-primary italic">Now notice a sound… what do you hear?</p>
+          {description && description.slice(0, 2).map((line, idx) => (
+            <p key={idx}>{line}</p>
+          ))}
+          <p className="font-black text-primary italic">{description && description[2]}</p>
         </motion.div>
       </div>
 
@@ -131,7 +142,7 @@ function Screen3({ onContinue }: { onContinue: () => void }) {
           onClick={onContinue}
           className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
         >
-          Continue
+          {t("s3.button")}
           <ChevronRight size={20} strokeWidth={3} />
         </button>
       </motion.div>
@@ -140,6 +151,9 @@ function Screen3({ onContinue }: { onContinue: () => void }) {
 }
 
 function Screen4({ onContinue }: { onContinue: () => void }) {
+  const { t } = useTranslation();
+  const description = t("s4.description", { returnObjects: true }) as string[];
+
   return (
     <motion.div variants={staggerChildren} initial="enter" animate="center" className="flex flex-col items-center text-center gap-10">
       <motion.div variants={floatEmoji} animate="animate" className="w-20 h-20 bg-primary/10 rounded-[2rem] flex items-center justify-center text-4xl shadow-inner">
@@ -148,25 +162,26 @@ function Screen4({ onContinue }: { onContinue: () => void }) {
 
       <div className="space-y-4">
         <motion.h1 variants={childFade} className="text-3xl font-black text-slate-800 leading-tight">
-          Stay with this
+          {t("s4.title")}
         </motion.h1>
         <motion.div variants={childFade} className="space-y-4 text-slate-500 font-medium leading-relaxed text-base">
-          <p>What is it about this place that makes it feel even a little safe or okay?</p>
-          <p>As you notice that…</p>
-          <p className="font-black text-primary italic">also bring your attention to your breath.</p>
+          {description && description.slice(0, 2).map((line, idx) => (
+            <p key={idx}>{line}</p>
+          ))}
+          <p className="font-black text-primary italic">{description && description[2]}</p>
         </motion.div>
       </div>
 
       <motion.div variants={childFade} className="relative flex items-center justify-center my-2">
         <motion.div variants={breathe} animate="animate"
           className="w-24 h-24 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center shadow-inner">
-          <span className="text-[10px] font-black text-primary uppercase tracking-widest">breathe</span>
+          <span className="text-[10px] font-black text-primary uppercase tracking-widest">{t("s4.breathe")}</span>
         </motion.div>
       </motion.div>
 
       <motion.div variants={childFade} className="bg-slate-50 rounded-3xl p-6 border border-slate-100">
         <p className="text-slate-500 font-bold text-sm italic leading-relaxed">
-          If imagining feels hard, just think about the idea of this place.
+          {t("s4.notice")}
         </p>
       </motion.div>
 
@@ -175,7 +190,7 @@ function Screen4({ onContinue }: { onContinue: () => void }) {
           onClick={onContinue}
           className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
         >
-          Continue
+          {t("s4.button")}
           <ChevronRight size={20} strokeWidth={3} />
         </button>
       </motion.div>
@@ -184,7 +199,10 @@ function Screen4({ onContinue }: { onContinue: () => void }) {
 }
 
 function Screen5({ onDone }: { onDone: () => void }) {
+  const { t } = useTranslation();
   const [reflection, setReflection] = useState("");
+  const description = t("s5.description", { returnObjects: true }) as string[];
+
   return (
     <motion.div variants={staggerChildren} initial="enter" animate="center" className="flex flex-col items-center text-center gap-10">
       <motion.div variants={floatEmoji} animate="animate" className="w-20 h-20 bg-primary/10 rounded-[2rem] flex items-center justify-center text-4xl shadow-inner">
@@ -193,17 +211,19 @@ function Screen5({ onDone }: { onDone: () => void }) {
 
       <div className="space-y-4">
         <motion.h1 variants={childFade} className="text-3xl font-black text-slate-800 leading-tight">
-          Take this with you
+          {t("s5.title")}
         </motion.h1>
         <motion.div variants={childFade} className="space-y-4 text-slate-500 font-medium leading-relaxed text-base">
-          <p>Notice how you feel right now. Even a small shift matters.</p>
-          <p className="font-black text-primary italic">See if you can carry even 5% of this feeling with you.</p>
+          {description && description.slice(0, 1).map((line, idx) => (
+            <p key={idx}>{line}</p>
+          ))}
+          <p className="font-black text-primary italic">{description && description[1]}</p>
         </motion.div>
       </div>
 
       <motion.div variants={childFade} className="w-full">
         <textarea 
-          placeholder="How do you feel now?" 
+          placeholder={t("s5.placeholder")} 
           value={reflection} 
           onChange={(e) => setReflection(e.target.value)}
           className="w-full rounded-3xl border-2 border-slate-100 bg-white p-6 text-slate-700 placeholder:text-slate-200 focus:border-primary/30 outline-none transition-all font-bold min-h-[120px] shadow-inner" 
@@ -215,7 +235,7 @@ function Screen5({ onDone }: { onDone: () => void }) {
           onClick={onDone}
           className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
         >
-          Complete Session
+          {t("s5.button")}
           <ChevronRight size={20} strokeWidth={3} />
         </button>
       </motion.div>
@@ -224,6 +244,7 @@ function Screen5({ onDone }: { onDone: () => void }) {
 }
 
 export default function SafePlaceVisualization() {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState(0);
 
   const next = useCallback(() => setScreen((s) => Math.min(s + 1, 5)), []);
@@ -232,18 +253,18 @@ export default function SafePlaceVisualization() {
   if (screen === 5) {
     return (
       <PremiumComplete
-        title="Session Complete"
-        message="This safe place is always available to you. You can return here whenever you need a moment of calm."
+        title={t("complete.title")}
+        message={t("complete.message")}
         onRestart={reset}
       />
     );
   }
 
-  const titles = ["Check-in", "Gently Recall", "Observing", "Staying Present", "Taking Forward"];
+  const titles = t("nav", { returnObjects: true }) as string[];
 
   return (
     <PremiumLayout
-      title="Safe Space"
+      title={t("app_title")}
       subtitle={titles[screen]}
       icon={<Shield className="w-6 h-6 text-primary" />}
       onBack={screen > 0 ? () => setScreen(prev => prev - 1) : undefined}

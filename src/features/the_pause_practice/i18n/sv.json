@@ -1,0 +1,73 @@
+{
+  "app_title": "Pausövning",
+  "app_subtitle": "Behärska utrymmet mellan",
+  "intro": {
+    "title": "Den 5-sekunders pausen",
+    "description": "En kort paus mellan att känna och reagera kan förändra allt.",
+    "duration": "Det tar mindre än 15 sekunder. Verkligen.",
+    "button": "Prova →"
+  },
+  "scenario": {
+    "title": "Vad triggar dig?",
+    "desc": "Välj en situation du kan relatera till",
+    "options": [
+      {
+        "id": "avbrott",
+        "label": "Någon avbryter mig",
+        "emoji": "😠"
+      },
+      {
+        "id": "Planer",
+        "label": "Saker och ting går inte som planerat",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignorerades",
+        "label": "Jag känner mig ignorerad",
+        "emoji": "😔"
+      },
+      {
+        "id": "överväldigad",
+        "label": "Jag känner mig överväldigad",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Skriv din egen...",
+    "button": "Övningspaus →"
+  },
+  "hold": {
+    "title": "Håll pausen ⏸️",
+    "instructions": "Håll cirkeln i 5 sekunder",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Tryck och håll..."
+      },
+      {
+        "at": "0.15",
+        "text": "Fortsätt med det..."
+      },
+      {
+        "at": "0.5",
+        "text": "Du gör det..."
+      },
+      {
+        "at": "0.8",
+        "text": "Nästan framme..."
+      }
+    ]
+  },
+  "result": {
+    "title": "Det är pausen",
+    "message": "Du skapade bara ett avstånd mellan vad du kände och hur du svarade. Även en kort paus hjälper dig att återta ditt centrum.",
+    "tip_label": "Proffstips",
+    "scenario_messages": {
+      "interrupts": "Nästa gång någon avbryter dig, prova detta innan du svarar.",
+      "plans": "Nästa gång saker inte går som planerat, prova detta innan du reagerar.",
+      "ignored": "Nästa gång du känner dig ignorerad, prova detta innan du svarar.",
+      "overwhelmed": "Nästa gång du känner dig överväldigad, prova detta innan du gör något.",
+      "other": "Nästa gång du känner dig triggad, prova detta innan du reagerar."
+    },
+    "italic": "Det kommer inte alltid kännas lätt – men konsekvens är nyckeln."
+  }
+}

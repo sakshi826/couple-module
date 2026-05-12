@@ -1,0 +1,56 @@
+{
+  "app_title": "Regras Alimentares Desafiadoras",
+  "welcome_title": "Regras de comida não são leis.",
+  "welcome_subtitle": "Todos nós temos regras sobre comida — algumas úteis, outras não. Este é um espaço seguro para notar uma regra e refletir suavemente sobre ela.",
+  "begin_button": "Vamos começar",
+  "screen_titles": {
+    "intro": "Consciência Gentil",
+    "identify": "Nomeando a Regra",
+    "feeling": "Impacto Emocional",
+    "impact": "Impacto Físico",
+    "challenge": "Desafio Suave",
+    "permission": "Concedendo Permissão",
+    "step": "Passos Suaves",
+    "takeaway": "Resumo",
+    "close": "Reflexão"
+  },
+  "rule_label": "Nomeação da regra",
+  "rule_question": "Qual é a regra?",
+  "rule_options": [
+    "Não devo comer depois de um certo horário",
+    "Alguns alimentos são proibidos",
+    "Preciso controlar as porções estritamente"
+  ],
+  "rule_something_else": "Outra coisa...",
+  "rule_placeholder": "Digite sua regra de comida...",
+  "feeling_label": "Impacto Emocional",
+  "feeling_question": "Como é essa sensação?",
+  "feeling_options": [
+    "😟 Ansioso",
+    "😌 No controle",
+    "😕 Culpado",
+    "😣 Restrito",
+    "😴 Cansado",
+    "😐 Misto"
+  ],
+  "challenge_label": "Desafio Suave",
+  "challenge_question": "Pergunta gentilmente...",
+  "reflections": {
+    "Is this rule too strict?": "Isso parece flexível ou cria pressão para seguir perfeitamente?",
+    "Is this actually helping me?": "Essa regra apoia seu bem-estar ou adiciona estresse ou culpa?",
+    "What happens when I can't follow it?": "O que você percebe quando essa regra não sai como planejado?"
+  },
+  "reflection_saved": "Reflexão Salva",
+  "your_reflection": "Seu Reflexo",
+  "label_rule": "A Regra",
+  "label_feeling": "O Sentimento",
+  "preserve_button": "Preservar a Reflexão",
+  "preserving": "Preservando...",
+  "continue_button": "Continue",
+  "next_button": "Próximo",
+  "complete_title": "Conscientização Adquirida",
+  "complete_message": "A consciência é o primeiro passo rumo à liberdade. Você deu um passo corajoso ao identificar e refletir sobre uma regra alimentar. Leve esse entendimento gentil com você hoje.",
+  "auth_error": "Sessão de autenticação ausente ou banco de dados não configurado",
+  "save_success": "Reflexão preservada",
+  "save_error": "Falhou em preservar a reflexão"
+}

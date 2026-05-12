@@ -1,0 +1,26 @@
+{
+  "app_title": "Alguém Sumindo",
+  "subtitles": [
+    "Validação",
+    "Sabedoria Interna",
+    "Completo"
+  ],
+  "complete_title": "Clareza Conquistada",
+  "complete_message": "Entender a química de sentir falta de alguém é o primeiro passo para a cura. Seus sentimentos são válidos, e seu cérebro está simplesmente fazendo seu trabalho de proteger e processar.",
+  "screen1": {
+    "tag": "Validação",
+    "intro": "Isso não significa que você é fraco.",
+    "title": "Sentir falta de alguém que te machucou é profundamente humano.",
+    "desc": "Você foi embora. Ou eles foram embora. E ainda assim — você ainda pega o celular esperando que seja eles. Você ainda revive mais os bons momentos do que os dolorosos. Essa contradição não é uma falha. É como seu cérebro processa a perda.",
+    "quote": "\"Você não sente falta só da pessoa. Você sente falta da sensação de estar ligado a eles.\"",
+    "button": "Próximo passo"
+  },
+  "screen2": {
+    "tag": "Neurociência",
+    "intro": "Sabedoria Interna",
+    "title": "O amor cria um vínculo químico.",
+    "desc": "Quando você ama alguém, seu cérebro libera dopamina, ocitocina e serotonina. Quando termina, esses níveis caem. Seu cérebro sofre — não só pela pessoa, mas pela sensação de proximidade.",
+    "quote": "\"Sentir falta deles não significa que você deva voltar. Seu coração está de luto por um vínculo — não necessariamente pela pessoa como ela realmente era.\"",
+    "button": "Reflexão do Acabamento"
+  }
+}

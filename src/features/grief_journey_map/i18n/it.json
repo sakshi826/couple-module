@@ -1,0 +1,39 @@
+{
+  "app_title": "Viaggio del lutto",
+  "app_subtitle": "La mappa della perdita • {{current}}/{{total}}",
+  "screen1_title": "Non stai sbagliando il lutto",
+  "screen1_desc": "Il lutto non arriva in fasi ordinate e se ne va secondo i tempi. Si schianta, si ritira e torna quando meno te lo aspetti. Non è un difetto in te — è dolore.",
+  "screen1_quote": "\"Non c'è un modo giusto per elaborare il lutto. C'è solo la tua via.\"",
+  "btn_tell_more": "Dimmi di più",
+  "screen2_tag": "Il quadro reale",
+  "screen2_title": "Il dolore ha molti volti",
+  "screen2_desc": "Questo è ciò che le persone si aspettano che il lutto sia — rispetto a ciò che è realmente.",
+  "expectation_label": "L'aspettativa",
+  "reality_label": "La Realtà",
+  "expectation_desc": "Lineare • Prevedibile • Chiaro",
+  "reality_desc": "Caotico • Looping • Umano",
+  "screen2_quote": "\"Nessuna di queste onde è sbagliata. Tutti sono dolore.\"",
+  "btn_one_more": "Un'ultima cosa",
+  "screen3_tag": "Verità gentili",
+  "screen3_title": "Vale la pena saperlo",
+  "truths": [
+    {
+      "emoji": "🗓️",
+      "title": "Nessuna scadenza",
+      "body": "Non c'è una data di scadenza per la perdita. Sentirlo mesi o anni dopo non significa che sei bloccato — significa che hai amato."
+    },
+    {
+      "emoji": "🌗",
+      "title": "Sentimenti contraddittori",
+      "body": "Puoi sentire la mancanza di qualcuno e sentirti sollevato. Puoi ridere e piangere. Il dolore ha opposti."
+    },
+    {
+      "emoji": "🤍",
+      "title": "La trasformazione dell'amore",
+      "body": "Il dolore non è separato dall'amore. È la stessa cosa, trasformata."
+    }
+  ],
+  "btn_finish": "Riflessione finale",
+  "complete_title": "Viaggio Onorato",
+  "complete_message": "Non devi andare avanti. Impari semplicemente a portarlo in modo diverso. Il tuo percorso è unico, valido e profondamente umano."
+}

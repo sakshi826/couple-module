@@ -1,0 +1,50 @@
+{
+  "app_title": "La lettre non envoyée",
+  "app_subtitle": "Libérez vos pensées en toute sécurité et en privé",
+  "intro": {
+    "title": "La lettre non envoyée",
+    "description": [
+      "Parfois, il y a des choses que nous aimerions pouvoir dire — mais que nous n’avons jamais eu l’occasion de faire.",
+      "Cela pouvait venir du fait que cela ne semblait pas sûr, que le timing n’était pas bon, ou que les mots étaient trop difficiles à dire à voix haute.",
+      "Cette activité vous offre un espace privé pour mettre ces pensées en mots.",
+      "Tu n’es pas obligé d’envoyer cette lettre. C’est juste pour vous — pour exprimer, libérer et mieux comprendre vos sentiments."
+    ],
+    "notice": "Écrivez librement. Personne d’autre ne verra ça.",
+    "button": "Commencez à écrire →"
+  },
+  "writing": {
+    "title": "Écris ce que tu as gardé pour toi",
+    "desc": "Vous pouvez écrire à votre partenaire, à votre ex-partenaire, ou même à la relation elle-même. Il n’y a pas de bonne ou de mauvaise façon de faire cela.",
+    "prompts": [
+      "Je me sens...",
+      "J’aimerais bien...",
+      "Je n’ai jamais dit...",
+      "Ce qui m’a blessé...",
+      "Ce dont j’avais besoin..."
+    ],
+    "placeholder": "Cher ____,\nJ’avais envie de dire...",
+    "notice": "Vous pouvez faire une pause et revenir à tout moment.",
+    "button": "Continuez →"
+  },
+  "reflection": {
+    "title": "Prends un moment avec ça",
+    "description": [
+      "Vous venez de mettre vos pensées et vos sentiments en mots — cela demande du courage.",
+      "Vous pourriez remarquer un mélange d’émotions en ce moment, et c’est tout à fait normal.",
+      "Avant de passer à autre chose, respirez et prenez doucement des nouvelles de vous-même."
+    ],
+    "notice": "C’était pour ta guérison, pas pour l’envoyer.",
+    "save_button": "Save Letter",
+    "finish_button": "Fin"
+  },
+  "history": {
+    "title": "Lettres passées",
+    "empty_title": "Tu n’as encore pas écrit de lettres.",
+    "empty_desc": "Vos lettres apparaîtront ici après que vous les aurez sauvegardées."
+  },
+  "toasts": {
+    "save_success": "Lettre sauvegardée dans votre journal privé",
+    "save_error": "Échec à sauvegarder la lettre",
+    "auth_error": "Session d’authentification manquante ou base de données non configurée"
+  }
+}

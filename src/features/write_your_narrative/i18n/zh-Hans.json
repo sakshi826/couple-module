@@ -1,0 +1,72 @@
+{
+  "app_title": "你的叙述",
+  "nav": {
+    "entry": "欢迎",
+    "writing": "表达",
+    "landing": "反思",
+    "history": "你的旅程"
+  },
+  "entry": {
+    "title": "我们一步一步来。💛",
+    "description": [
+      "你今天不必讲出全部故事。只要一小部分就足够了。",
+      "你现在很安全。你可以掌控自己写什么——以及不写什么。"
+    ],
+    "breath": "开始前先缓缓深呼吸。",
+    "button_ready": "我准备好了",
+    "button_history": "过去的叙述",
+    "footer": "你的文字 • 你的节奏 • 你的故事"
+  },
+  "writing": {
+    "title": "写下感觉还好✨的内容",
+    "subtitle": "你的话语，你的节奏",
+    "prompt_label": "需要一个起点吗？",
+    "prompts": [
+      {
+        "text": "我最记得的是......",
+        "emoji": "💭"
+      },
+      {
+        "text": "那时，我感觉......",
+        "emoji": "🌊"
+      },
+      {
+        "text": "从那以后，我注意到......",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "从这里开始写作......",
+    "notice": "这没有正确的做法。哪怕只有几句话就足够了。",
+    "button": "完成写作"
+  },
+  "landing": {
+    "title": "你做了一件重要的事。",
+    "subtitle": "谢谢你为自己而来。",
+    "settle_title": "让我们花点时间冷静下来",
+    "steps": [
+      "环顾四周，说出你能看到的三样东西。",
+      "慢慢吸一口气......然后呼出。"
+    ],
+    "feeling_label": "现在，我感觉：",
+    "feeling_placeholder": "说几句......",
+    "quote": "“你不必一次扛所有东西。你随时准备好了都可以回来。”",
+    "button_save": "保留叙事",
+    "button_preserving": "保存......"
+  },
+  "history": {
+    "title": "你的旅程 📝",
+    "subtitle": "过去的叙述与反思",
+    "empty": "你还没保存任何条目。慢慢来——不急。",
+    "no_writing": "没有任何文字保存下来",
+    "button_back": "重返活动"
+  },
+  "complete": {
+    "title": "叙事保存",
+    "message": "你在讲述你的故事方面迈出了强有力的一步。你的视角很重要，你的旅程独一无二。"
+  },
+  "toasts": {
+    "save_success": "保存的叙述",
+    "save_error": "未能保持叙事性",
+    "auth_error": "缺少认证会话或数据库未配置"
+  }
+}

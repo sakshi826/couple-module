@@ -7,6 +7,7 @@ import ToolkitScreen from "./screens/ToolkitScreen";
 import HistoryModal from "./HistoryModal";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { Activity, History, Save } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { neon } from "@neondatabase/serverless";
 import { toast } from "sonner";
 import { motion, AnimatePresence } from "framer-motion";
@@ -21,6 +22,7 @@ export interface CheckInEntry {
 }
 
 export default function WindowApp() {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState(0);
   const [selectedZone, setSelectedZone] = useState<ZoneType>(null);
   const [showHistory, setShowHistory] = useState(false);
@@ -74,7 +76,7 @@ export default function WindowApp() {
   const handleSave = useCallback(async () => {
     const userId = sessionStorage.getItem("user_id");
     if (!userId || !DATABASE_URL) {
-      toast.error("Auth session missing or DB not configured");
+      toast.error(t("toasts.auth_error"));
       return;
     }
 
@@ -85,34 +87,34 @@ export default function WindowApp() {
     try {
       const sql = neon(DATABASE_URL);
       await sql`INSERT INTO window_of_tolerance_entries (user_id, check_in_data) VALUES (${userId}, ${checkInData})`;
-      toast.success("Check-in preserved");
+      toast.success(t("toasts.save_success"));
       setHistory(prev => [entry, ...prev]);
       setJournal("");
       setSelectedZone(null);
       setScreen(5); // Go to complete
     } catch (error) {
       console.error("Failed to save check-in:", error);
-      toast.error("Failed to preserve check-in");
+      toast.error(t("toasts.save_error"));
     } finally {
       setIsSaving(false);
     }
-  }, [selectedZone, journal]);
+  }, [selectedZone, journal, t]);
 
   if (screen === 5) {
     return (
       <PremiumComplete
-        title="Check-in Complete"
-        message="You've successfully mapped your current state. Building awareness is the first step toward finding your balance."
+        title={t("complete.title")}
+        message={t("complete.message")}
         onRestart={() => setScreen(0)}
       />
     );
   }
 
-  const titles = ["Check-in", "Explaining", "Monitoring", "The Zone", "Toolkit"];
+  const titles = t("nav", { returnObjects: true }) as string[];
 
   return (
     <PremiumLayout
-      title="Window of Tolerance"
+      title={t("app_title")}
       subtitle={titles[screen]}
       icon={<Activity className="w-6 h-6 text-primary" />}
       onBack={screen > 0 ? () => setScreen(prev => prev - 1) : undefined}
@@ -182,7 +184,7 @@ export default function WindowApp() {
                   className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                 >
                   <Save size={20} strokeWidth={3} />
-                  {isSaving ? "Preserving..." : "Preserve Reflection"}
+                  {isSaving ? t("screens.toolkit.preserving") : t("screens.toolkit.preserve_button")}
                 </button>
               </div>
             )}
@@ -196,5 +198,3 @@ export default function WindowApp() {
     </PremiumLayout>
   );
 }
-
-

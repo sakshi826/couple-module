@@ -1,0 +1,73 @@
+{
+  "app_title": "Tạm dừng thực hành",
+  "app_subtitle": "Làm chủ không gian giữa",
+  "intro": {
+    "title": "Tạm dừng 5 giây",
+    "description": "Một khoảng dừng nhỏ giữa cảm giác và phản ứng có thể thay đổi mọi thứ.",
+    "duration": "Mất chưa đầy 15 giây. Thật sự.",
+    "button": "Dùng thử →"
+  },
+  "scenario": {
+    "title": "Điều gì kích hoạt bạn?",
+    "desc": "Chọn một tình huống bạn liên quan",
+    "options": [
+      {
+        "id": "Ngắt",
+        "label": "Ai đó ngắt lời tôi",
+        "emoji": "😠"
+      },
+      {
+        "id": "Kế hoạch",
+        "label": "Mọi thứ không diễn ra như kế hoạch",
+        "emoji": "😤"
+      },
+      {
+        "id": "bị bỏ qua",
+        "label": "Tôi cảm thấy bị phớt lờ",
+        "emoji": "😔"
+      },
+      {
+        "id": "choáng ngợp",
+        "label": "Tôi cảm thấy choáng ngợp",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Gõ của riêng bạn...",
+    "button": "Thực hành tạm dừng →"
+  },
+  "hold": {
+    "title": "Giữ để tạm ⏸️ dừng",
+    "instructions": "Giữ vòng tròn trong 5 giây",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Nhấn và giữ..."
+      },
+      {
+        "at": "0.15",
+        "text": "Ở lại với nó..."
+      },
+      {
+        "at": "0.5",
+        "text": "Bạn đang làm điều đó..."
+      },
+      {
+        "at": "0.8",
+        "text": "Gần đến đó..."
+      }
+    ]
+  },
+  "result": {
+    "title": "Đó là tạm dừng",
+    "message": "Bạn chỉ tạo ra khoảng trống giữa những gì bạn cảm thấy và cách bạn phản ứng. Ngay cả một khoảng dừng nhỏ cũng giúp bạn lấy lại trung tâm của mình.",
+    "tip_label": "Mẹo chuyên nghiệp",
+    "scenario_messages": {
+      "interrupts": "Lần tới khi ai đó ngắt lời bạn, hãy thử điều này trước khi trả lời.",
+      "plans": "Lần tới khi mọi thứ không diễn ra như kế hoạch, hãy thử điều này trước khi phản ứng.",
+      "ignored": "Lần tới khi bạn cảm thấy bị phớt lờ, hãy thử điều này trước khi trả lời.",
+      "overwhelmed": "Lần tới khi bạn cảm thấy quá tải, hãy thử điều này trước khi làm bất cứ điều gì.",
+      "other": "Lần tới khi bạn cảm thấy bị kích hoạt, hãy thử điều này trước khi phản ứng."
+    },
+    "italic": "Nó sẽ không phải lúc nào cũng cảm thấy dễ dàng — nhưng tính nhất quán là chìa khóa."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "app_title": "משאבים",
+  "not_found": {
+    "title": "לא נמצא",
+    "message": "משאב לא נמצא",
+    "description": "התוכן שאתה מחפש אולי זז.",
+    "button": "תחזור"
+  },
+  "list": {
+    "empty_title": "אין {{type}} זמין",
+    "empty_desc": "אנחנו כרגע אוספים משאבים נוספים לנושא הזה.",
+    "footer": "Mantra Care • משאבים מבוססי ראיות"
+  },
+  "detail": {
+    "loading": "טוען...",
+    "tip": {
+      "insight_label": "התובנה",
+      "plan_title": "תוכנית פעולה יומית",
+      "steps": "{{count}} צעדים",
+      "example_label": "דוגמה לתרגול",
+      "instead_of": "במקום",
+      "try_this": "נסה את זה"
+    },
+    "article": {
+      "final_thought": "מחשבה אחרונה"
+    },
+    "story": {
+      "reflection_label": "משהו לשבת איתו",
+      "note_label": "הערה מהמחבר"
+    },
+    "myth": {
+      "truth_label": "האמת המדעית",
+      "explanation_label": "הסבר מפורט",
+      "insight_label": "תובנות מרכזיות"
+    }
+  }
+}

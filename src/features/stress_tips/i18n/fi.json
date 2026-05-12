@@ -1,0 +1,92 @@
+{
+  "index": {
+    "tagline": "Hengitä 🌿 syvään",
+    "title": "Hallitse stressiäsi",
+    "description": "Yksinkertaisia päivittäisiä tapoja, jotka auttavat sinua tuntemaan olosi rauhallisemmaksi ja paremmaksi hallinnassa.",
+    "sectionTitle": "Päivittäiset stressinlievitysvinkit"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Saa levollinen uni",
+      "description": "Pyri nukkumaan 7–9 tuntia joka yö. Yritä nukkua ja herätä samaan aikaan päivittäin.",
+      "why": "Uni auttaa aivojasi ja kehoasi palautumaan ja laskee stressihormoneja.",
+      "do": [
+        "Pidä kiinteä unirytmi",
+        "Vältä näyttöjä tunti ennen nukkumaanmenoa",
+        "Pidä huone viileänä ja pimeänä",
+        "Vältä kofeiinia klo 16 jälkeen"
+      ],
+      "button": "Aseta unimuistutus"
+    },
+    "breathing": {
+      "title": "Harjoittele syvähengitystä",
+      "description": "Keskity muutama minuutti hengitykseesi. Hidas hengitys vähentää ahdistusta.",
+      "why": "Hidas hengitys aktivoi kehon rentoutumisreaktion.",
+      "do": [
+        "Hengitä sisään 4 sekuntia",
+        "Pidä 4 sekuntia",
+        "Hengitä ulos 4 sekuntia",
+        "Toista 1 minuutin ajan"
+      ]
+    },
+    "exercise": {
+      "title": "Liikuta kehoasi",
+      "description": "Kevyt kävely tai venyttely auttaa purkamaan stressiä ja parantamaan mielialaa.",
+      "why": "Liikunta vapauttaa endorfiineja ja parantaa mielialaa.",
+      "do": [
+        "15 minuutin kävelymatka",
+        "Kevyt venyttely",
+        "Lyhyt joogatunti",
+        "Nopea kotitreeni"
+      ]
+    },
+    "caffeine": {
+      "title": "Rajoita kofeiinin ja sokerin käyttöä",
+      "description": "Liiallinen kofeiini ja sokeri voivat lisätä ahdistusta ja häiritä unta.",
+      "why": "Liiallinen kofeiini ja sokeri lisäävät ahdistusta ja univaikeuksia.",
+      "do": [
+        "Korvaa yksi kahvi yrttiteellä",
+        "Juo enemmän vettä",
+        "Vähennä sokerisia välipaloja",
+        "Vältä kofeiinia myöhään päivällä"
+      ]
+    },
+    "planning": {
+      "title": "Suunnittele päiväsi",
+      "description": "Pilko suuret tehtävät pienempiin vaiheisiin, jotta et tunne itseään ylikuormittuneeksi.",
+      "why": "Suunnittelu vähentää henkistä sotkua ja ylikuormitusta.",
+      "do": [
+        "Kirjoita 3 päätehtävää",
+        "Pilko tehtävät pieniksi askeliksi",
+        "Keskity yhteen tehtävään kerrallaan",
+        "Pidä lyhyitä taukoja"
+      ]
+    }
+  },
+  "detail": {
+    "back": "Takaisin",
+    "notFound": "Vinkkiä ei löytynyt.",
+    "whyTitle": "Miksi se auttaa",
+    "doTitle": "Mitä voit tehdä",
+    "reminderSet": "Muistutus asetettu! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Hups! Sivua ei löydy",
+    "return": "Paluu kotiin"
+  },
+  "mood": {
+    "title": "Miltä sinusta tuntuu tänään?",
+    "great": "Upea",
+    "okay": "Okei",
+    "stressed": "Stressaantunut",
+    "overwhelmed": "Ylikuormittunut"
+  },
+  "breathing": {
+    "inhale": "Hengitä sisään...",
+    "hold": "Odota...",
+    "exhale": "Hengitä ulos...",
+    "pause": "Tauko",
+    "resume": "Ansioluettelo"
+  }
+}

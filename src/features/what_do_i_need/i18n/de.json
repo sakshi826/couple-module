@@ -1,0 +1,164 @@
+{
+  "app_title": "Was brauche ich?",
+  "app_subtitle": "Frag dich selbst an",
+  "screens": {
+    "s1": {
+      "title": "Was brauche ich gerade?",
+      "description": "Einen Moment, um innezuhalten und zuzuhören, was dein Herz verlangt.",
+      "button": "Start Check-in"
+    },
+    "s2": {
+      "select": {
+        "title": "Was fühlt sich wichtig an?",
+        "placeholder": "Noch etwas anderes...",
+        "add_button": "Hinzufügen",
+        "button": "Weitermachen"
+      },
+      "prioritize": {
+        "title": "Welches ist die Hauptwahl?"
+      },
+      "focus": {
+        "tag": "Deine Aufmerksamkeit ist jetzt",
+        "button": "Weitermachen"
+      }
+    },
+    "s3": {
+      "reflect": {
+        "button": "Weitermachen"
+      },
+      "action": {
+        "title": "Ein kleiner Schritt nach vorn?",
+        "placeholder": "Oder schreib deine eigene...",
+        "button": "Rezensionsreflexion"
+      },
+      "closing": {
+        "tag_need": "Hauptbedarf",
+        "tag_insight": "Ihre Einsicht",
+        "tag_action": "Kleine Aktion",
+        "save_button": "Speichern und beenden",
+        "finish_button": "Beenden ohne Speichern"
+      }
+    }
+  },
+  "needs": {
+    "Emotional support": {
+      "label": "Emotionale Unterstützung",
+      "prompt": "Welche Art von Unterstützung würde dir im Moment wirklich helfen?",
+      "hints": [
+        "Ich brauche nur jemanden, der...",
+        "Es würde helfen, wenn...",
+        "Was ich wirklich will, ist..."
+      ]
+    },
+    "Space / time for myself": {
+      "label": "Raum / Zeit für mich selbst",
+      "prompt": "Wie würde es für dich aussehen, diesen Raum zu haben?",
+      "hints": [
+        "Ich würde diese Zeit nutzen, um...",
+        "Der Weltraum würde es mir erlauben...",
+        "Ich brauche Platz, um..."
+      ]
+    },
+    "Clear communication": {
+      "label": "Klare Kommunikation",
+      "prompt": "Wie würde eine klarere Kommunikation für dich aussehen?",
+      "hints": [
+        "Ich wünschte, ich könnte sagen...",
+        "Wenn sie wirklich zuhören würden, würde ich es ihnen sagen...",
+        "Kommunikation fühlt sich schwer an, wenn..."
+      ]
+    },
+    "Reassurance": {
+      "label": "Beruhigung",
+      "prompt": "Welche Art von Zuspruch würde sich sinnvoll anfühlen?",
+      "hints": [
+        "Ich muss das hören...",
+        "Es würde mich beruhigen zu wissen...",
+        "Ich mache mir immer wieder Sorgen, dass..."
+      ]
+    },
+    "Understanding": {
+      "label": "Verständnis",
+      "prompt": "Wie würde es aussehen, sich wirklich verstanden zu fühlen?",
+      "hints": [
+        "Ich wünschte, die Leute wüssten, dass...",
+        "Was ich wirklich fühle, ist...",
+        "Niemand sieht, dass ich..."
+      ]
+    },
+    "Stability": {
+      "label": "Stabilität",
+      "prompt": "Wie würde sich Stabilität in deinem Leben gerade anfühlen?",
+      "hints": [
+        "Ich brauche, dass sich Dinge...",
+        "Was mich erden würde, ist...",
+        "Stabilität bedeutet..."
+      ]
+    },
+    "Honesty": {
+      "label": "Ehrlichkeit",
+      "prompt": "Wie würde in deiner Situation mehr Ehrlichkeit aussehen?",
+      "hints": [
+        "Die Wahrheit, der ich mich stellen muss, ist...",
+        "Ich möchte ehrlich sein über...",
+        "Was wirklich los ist, ist..."
+      ]
+    },
+    "Respect": {
+      "label": "Respekt",
+      "prompt": "Wie sieht Respekt für dich gerade aus?",
+      "hints": [
+        "Ich verdiene es, behandelt zu werden...",
+        "Respekt würde aussehen wie...",
+        "Ich brauche Leute, die..."
+      ]
+    },
+    "Clarity about relationship": {
+      "label": "Klarheit über die Beziehung",
+      "prompt": "Welche Art von Klarheit würde dir am meisten helfen?",
+      "hints": [
+        "Ich muss wissen, ob...",
+        "Was mich verwirrt, ist...",
+        "Ich möchte, dass wir klar sind über..."
+      ]
+    },
+    "default": {
+      "prompt": "Wie würde das in einer realen Situation aussehen?",
+      "hints": [
+        "Was mir einfällt, ist...",
+        "Im Moment fühle ich mich...",
+        "Wenn ich ehrlich zu mir selbst bin..."
+      ]
+    }
+  },
+  "actions": [
+    {
+      "label": "Sag etwas Ehrliches"
+    },
+    {
+      "label": "Ich nehme mir Zeit für mich selbst"
+    },
+    {
+      "label": "Kontaktiere jemanden"
+    },
+    {
+      "label": "Setze eine kleine Grenze"
+    },
+    {
+      "label": "Noch nicht sicher"
+    }
+  ],
+  "history": {
+    "title": "Vergangene Reflexionen",
+    "empty": "Noch keine Reflexionen."
+  },
+  "toasts": {
+    "save_success": "Reflexion gespeichert",
+    "save_error": "Spiegelung nicht gespeichert",
+    "auth_error": "Authentifizierungssitzung fehlt oder Datenbank nicht konfiguriert"
+  },
+  "complete": {
+    "title": "Check-in abgeschlossen",
+    "message": "Du hast festgestellt, dass du \"{{need}}\" brauchst. Deine Bedürfnisse zu respektieren ist eine wichtige Form der Selbstfürsorge."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "app_title": "命名你的心靈",
+  "intro": {
+    "title": "遇見你的心靈",
+    "description": "學會透過給內心聲音一個名字，來遠離壓倒性的思緒。",
+    "benefits": [
+      "建立心理距離",
+      "減少嚴厲想法的力量",
+      "注意那些想法，但不是它們本身"
+    ],
+    "duration": "2-3分鐘",
+    "view_past": "查看過往條目"
+  },
+  "history": {
+    "title": "過去參賽作品",
+    "no_entries": "還沒有人投稿。",
+    "reflection_label": "反射：{{text}}"
+  },
+  "complete": {
+    "title": "活動完成",
+    "great_job": "做得好！",
+    "message": "你成功地為自己的心靈命名，並在自己與思緒之間創造了空間。",
+    "footer": "記住：你不必相信腦中每個想法。"
+  },
+  "subtitles": {
+    "concept": "觀點",
+    "input_thought": "通知",
+    "input_name": "名稱",
+    "practice": "實務"
+  },
+  "screens": {
+    "concept": {
+      "title": "一個小小的轉變",
+      "example": "「我不夠好」",
+      "desc": "當一個想法出現時，常常感覺像是<0>你<>。但如果你能退一步，<1 >注意</1>呢？"
+    },
+    "input_thought": {
+      "title": "讓我們從一個真實的想法開始",
+      "desc": "最近有什麼想法困擾著你？",
+      "placeholder": "照著你想出來的樣子寫下去......"
+    },
+    "input_name": {
+      "title": "保持距離",
+      "desc": "給你的心靈一個名字，幫助你與這些想法保持距離。",
+      "placeholder": "或者你自己打字......",
+      "examples": [
+        "評論家",
+        "過度思考者",
+        "憂心FM",
+        "過度思考機器",
+        "內在批評者",
+        "假設產生器",
+        "戲劇導演"
+      ]
+    },
+    "practice": {
+      "title": "試試這個班次",
+      "instead_of": "而不是",
+      "try_saying": "試著說",
+      "is_telling_me": "{{name}} 告訴我：",
+      "guide": "用自己的節奏輕聲重複這句話4到5次。",
+      "button": "我準備好了"
+    },
+    "reflection": {
+      "title": "你注意到什麼？",
+      "desc": "給它取名後，這個念頭是什麼感覺？",
+      "options": [
+        "這個念頭比之前稍微淡了些",
+        "我覺得自己已經和這個想法保持了一些距離",
+        "感覺依然和之前一樣強烈",
+        "我不確定到底有什麼改變，如果有的話"
+      ],
+      "button": "完全反思"
+    }
+  },
+  "buttons": {
+    "continue": "繼續",
+    "restart": "重啟"
+  }
+}

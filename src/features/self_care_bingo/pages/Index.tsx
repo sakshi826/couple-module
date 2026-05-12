@@ -19,7 +19,7 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title="Self Care Bingo" 
+      title={t("title")} 
       onReset={screen !== 'intro' ? () => setScreen('intro') : undefined}
     >
       <div className="w-full">
@@ -69,8 +69,8 @@ const Index = () => {
               className="w-full"
             >
               <PremiumComplete
-                title="Bingo Master!"
-                message="Congratulations! You've successfully completed a line of self-care. Your mind and body thank you."
+                title={t("complete_title")}
+                message={t("complete_message")}
                 onRestart={() => setScreen("intro")}
                 icon={<Trophy size={48} />}
               />

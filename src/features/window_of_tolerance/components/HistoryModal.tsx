@@ -1,11 +1,6 @@
 import { X } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import type { CheckInEntry } from "./WindowApp";
-
-const ZONE_LABELS: Record<string, { emoji: string; label: string }> = {
-  hyper: { emoji: "🔴", label: "Above Window" },
-  safe: { emoji: "🟢", label: "Inside Window" },
-  hypo: { emoji: "🔵", label: "Below Window" },
-};
 
 function formatTime(d: Date) {
   const now = new Date();
@@ -23,6 +18,14 @@ interface Props {
 }
 
 export default function HistoryModal({ entries, onClose }: Props) {
+  const { t } = useTranslation();
+
+  const ZONE_LABELS: Record<string, { emoji: string; label: string }> = {
+    hyper: { emoji: "🔴", label: t("screens.checkin.zones.hyper.label") },
+    safe: { emoji: "🟢", label: t("screens.checkin.zones.safe.label") },
+    hypo: { emoji: "🔵", label: t("screens.checkin.zones.hypo.label") },
+  };
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={onClose}>
       <div className="absolute inset-0 bg-foreground/30 backdrop-blur-sm" />
@@ -34,13 +37,13 @@ export default function HistoryModal({ entries, onClose }: Props) {
         aria-label="Check-in history"
       >
         <div className="flex items-center justify-between mb-5">
-          <h2 className="font-display text-xl font-semibold text-foreground">📋 Check-In History</h2>
+          <h2 className="font-display text-xl font-semibold text-foreground">📋 {t("history.title")}</h2>
           <button onClick={onClose} className="p-2 rounded-full hover:bg-muted transition-colors" aria-label="Close">
             <X size={20} />
           </button>
         </div>
         {entries.length === 0 ? (
-          <p className="text-muted-foreground text-center py-8">No check-ins yet.</p>
+          <p className="text-muted-foreground text-center py-8">{t("history.empty")}</p>
         ) : (
           <div className="space-y-3">
             {entries.map((entry, i) => {

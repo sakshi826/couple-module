@@ -1,0 +1,72 @@
+{
+  "app_title": "Woede-schaamte cyclus",
+  "app_subtitle": "De lus begrijpen • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Waarom blijft woede terugkomen?",
+      "description": "Het ligt misschien niet aan je temperament. Er is een verborgen cirkel tussen woede en schaamte — en zodra je die ziet, verandert alles.",
+      "quote": "\"De meeste mensen proberen de woede te verhelpen. Maar schaamte is wat het stilletjes voortzet.\"",
+      "button": "Laten we het verkennen"
+    },
+    "s2": {
+      "tag": "De cyclus",
+      "title": "De lus legde uit",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Woede komt naar boven"
+        },
+        {
+          "emoji": "😔",
+          "label": "Schaamte: \"Ik ben slecht\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "Schaamte wordt begraven"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Woede barst opnieuw los"
+        }
+      ],
+      "button": "Ik zie het"
+    },
+    "s3": {
+      "tag": "Wat gebeurt er",
+      "title": "Twee emoties, één val",
+      "anger": {
+        "title": "🔥 Woede",
+        "desc": "Een secundaire emotie — onder het leven is pijn, angst of afwijzing. Het is het alarm, niet de brand."
+      },
+      "shame": {
+        "title": "😔 Schande",
+        "desc": "\"Ik ben slecht\" — niet alleen \"ik heb iets slechts gedaan.\" Het verbergt zich, zwijgt en houdt de cyclus draaiende."
+      },
+      "button": "Ontsnappen"
+    },
+    "s4": {
+      "tag": "Onderbreking",
+      "title": "Onderbreek de cyclus",
+      "steps": [
+        {
+          "title": "Noem de bron",
+          "desc": "Vraag: 'Wat voel ik eigenlijk?' Pijn? Bang? Onzichtbaar? Het benoemen ervan verzwakt het."
+        },
+        {
+          "title": "Compassiepauze",
+          "desc": "Hand op de borst. Zeg: 'Dit is moeilijk. Ik ben mens. Ik kan hier doorheen komen.'"
+        },
+        {
+          "title": "Herstel met gratie",
+          "desc": "Maak het goed als dat nodig is — maar raak niet in een negatieve spiraal. Je bent niet je slechtste moment."
+        }
+      ],
+      "notice": "Het opmerken van de cyclus is al de eerste stap. Jij doet het werk.",
+      "button": "Volledige activiteit"
+    }
+  },
+  "complete": {
+    "title": "Cyclus onderbroken",
+    "message": "Je hebt het besef gekregen om het verband tussen woede en schaamte te zien. Dit is de basis voor blijvende emotionele vrijheid."
+  }
+}

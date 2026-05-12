@@ -1,0 +1,45 @@
+{
+  "app_title": "Pause Practice",
+  "app_subtitle": "Master the space between",
+  "intro": {
+    "title": "The 5-Second Pause",
+    "description": "A small pause between feeling and reacting can change everything.",
+    "duration": "Takes less than 15 seconds. Really.",
+    "button": "Try It →"
+  },
+  "scenario": {
+    "title": "What triggers you?",
+    "desc": "Pick a situation you relate to",
+    "options": [
+      { "id": "interrupts", "label": "Someone interrupts me", "emoji": "😠" },
+      { "id": "plans", "label": "Things don't go as planned", "emoji": "😤" },
+      { "id": "ignored", "label": "I feel ignored", "emoji": "😔" },
+      { "id": "overwhelmed", "label": "I feel overwhelmed", "emoji": "😵‍💫" }
+    ],
+    "placeholder": "Type your own...",
+    "button": "Practice Pause →"
+  },
+  "hold": {
+    "title": "Hold to Pause ⏸️",
+    "instructions": "Hold the circle for 5 seconds",
+    "microcopy": [
+      { "at": 0, "text": "Press and hold…" },
+      { "at": 0.15, "text": "Stay with it…" },
+      { "at": 0.5, "text": "You're doing it…" },
+      { "at": 0.8, "text": "Almost there…" }
+    ]
+  },
+  "result": {
+    "title": "That's the Pause",
+    "message": "You just created space between what you felt and how you respond. Even a small pause helps you reclaim your center.",
+    "tip_label": "Pro Tip",
+    "scenario_messages": {
+      "interrupts": "Next time someone interrupts you, try this before responding.",
+      "plans": "Next time things don't go as planned, try this before reacting.",
+      "ignored": "Next time you feel ignored, try this before responding.",
+      "overwhelmed": "Next time you feel overwhelmed, try this before doing anything.",
+      "other": "Next time you feel triggered, try this before reacting."
+    },
+    "italic": "It won't always feel easy—but consistency is key."
+  }
+}

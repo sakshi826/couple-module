@@ -1,0 +1,53 @@
+{
+  "app": {
+    "title": "Taknemmelighedssporer",
+    "description": "Følg din daglige taknemmelighed og humør for bedre mental velvære"
+  },
+  "gratitude": {
+    "heading": "Hvad er du taknemmelig for i dag?",
+    "subheading": "Tag et øjeblik til at reflektere over de gode ting, store som små.",
+    "item1": {
+      "label": "Taknemmelighed Punkt 1",
+      "placeholder": "f.eks. en varm kop te i morges..."
+    },
+    "item2": {
+      "label": "Taknemmelighed Punkt 2",
+      "placeholder": "f.eks. et venligt ord fra en ven..."
+    },
+    "optional": "(valgfrit)"
+  },
+  "common": {
+    "continue": "Fortsæt"
+  },
+  "mood": {
+    "heading": "Hvordan har du det?",
+    "subheading": "Vælg den stemning, der bedst beskriver dig lige nu.",
+    "save": "Gem taknemmeligheds-indgang",
+    "happy": "Glad",
+    "calm": "Rolig",
+    "neutral": "Neutral",
+    "low": "Lavt",
+    "stressed": "Stresset"
+  },
+  "review": {
+    "heading": "Din Indsendelse",
+    "date": "Dato",
+    "gratitude1": "Taknemmelighed 1",
+    "gratitude2": "Taknemmelighed 2",
+    "mood": "Stemning",
+    "edit": "Redigeret indgang",
+    "history": "Se Historie"
+  },
+  "history": {
+    "heading": "Historie",
+    "back": "Tilbage",
+    "home": "Gå hjem",
+    "sun": "Sol",
+    "mon": "Min",
+    "tue": "Tirsdag",
+    "wed": "Onsdag",
+    "thu": "Efterår",
+    "fri": "Fredag",
+    "sat": "Lørdag"
+  }
+}

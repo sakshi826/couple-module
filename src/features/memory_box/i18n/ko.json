@@ -1,0 +1,80 @@
+{
+  "app_title": "메모리 박스",
+  "screen_titles": [
+    "네 박스",
+    "기림",
+    "표현",
+    "보존",
+    "젠틀 케어"
+  ],
+  "complete_title": "기억 보존",
+  "complete_message": "당신은 {{name}}의 기억을 안전하게 상자에 넣었습니다. 이 연결의 순간들은 언제나 당신의 것입니다.",
+  "auth_error": "인증 세션이 누락되거나 데이터베이스가 설정되지 않음",
+  "save_success": "기억 보존",
+  "save_error": "기억을 보존하지 못했다",
+  "preserving": "보존...",
+  "preserve_memory": "기억 보존",
+  "welcome": {
+    "title": "당신의 기억 상자",
+    "subtitle1": "사랑하는 사람을 기억할 수 있는 조용한 공간. 🤍",
+    "subtitle2": "천천히 숨을 들이마시고...",
+    "subtitle3": "… 그리고 부드럽게 숨을 내쉬었다.",
+    "subtitle4": "이걸 하는 데 옳고 그름은 없어요.",
+    "subtitle5": "자신의 속도에 맞춰 하세요. 🌿",
+    "begin": "시작 ✨",
+    "later": "나중에 할지도 몰라"
+  },
+  "who": {
+    "placeholder_name": "이름을 입력해...",
+    "placeholder_relation": "어떻게 아세요? (선택 사항)",
+    "categories": [
+      {
+        "label": "행복한 순간",
+        "emoji": "😊"
+      },
+      {
+        "label": "그들이 예전에 하던 말이야",
+        "emoji": "💬"
+      },
+      {
+        "label": "작은 일상의 기억",
+        "emoji": "☕"
+      },
+      {
+        "label": "그들을 떠올리게 하는 곳",
+        "emoji": "🏡"
+      },
+      {
+        "label": "내가 말하고 싶어 하는 말",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "계속하세요→"
+  },
+  "expression": {
+    "title": "기억을 표현하다",
+    "memory_label": "기억 그 자체가",
+    "memory_placeholder": "그 순간, 그 감정, 혹은 간직하고 싶은 세부 사항에 대해 써보세요...",
+    "message_label": "그들에게 보내는 메시지 (선택 사항)",
+    "message_placeholder": "지금 그들과 대화할 수 있다면 뭐라고 말하고 싶나요?",
+    "save": "기억 보존",
+    "skip": "일단 건너뛰자.",
+    "back": "뒤로"
+  },
+  "box": {
+    "title": "안전하게 숨겨져 있다",
+    "subtitle": "이 {{name}}의 기억은 이제 당신의 컬렉션의 일부가 되었습니다.",
+    "add_another": "또 다른 기억을 추가하세요",
+    "finish": "마감 반영"
+  },
+  "closing": {
+    "title": "돌보기",
+    "subtitle": "일단 상자를 닫을게. 이 기억들에 가까이 다가가고 싶을 때 언제든지 이곳으로 돌아오셔도 됩니다.",
+    "exit": "상자 닫기"
+  },
+  "history": {
+    "title": "박스 내용물",
+    "no_memories": "네 상자는 비어 있어. 첫 번째 기억을 추가해 컬렉션을 시작하세요.",
+    "search_placeholder": "기억을 찾아..."
+  }
+}

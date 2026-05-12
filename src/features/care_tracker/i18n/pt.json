@@ -1,0 +1,131 @@
+{
+  "common": {
+    "continue": "Continue",
+    "back": "Voltar",
+    "home": "De volta ao Lar",
+    "yes": "Sim",
+    "no": "Não",
+    "date": "Data"
+  },
+  "screens": {
+    "intro": {
+      "title": "Rastreador de Autocuidado",
+      "description": "Acompanhe seus hábitos diários de autocuidado e veja como eles impactam seu bem-estar geral. Consistência é fundamental para uma mente mais saudável.",
+      "benefits": [
+        "Registre as atividades diárias de autocuidado",
+        "Registre o tempo gasto em você mesmo",
+        "Monitore seus padrões de humor",
+        "Veja história e progresso"
+      ],
+      "duration": "2-3 minutos"
+    },
+    "checkin": {
+      "title": "Check-in 🌿 de Autocuidado",
+      "subtitle": "Como você cuidou de si mesma hoje?",
+      "question": "Você praticou autocuidado hoje? *",
+      "description": "Autocuidado é qualquer atividade que realizamos deliberadamente para cuidar da nossa saúde mental, emocional e física."
+    },
+    "activities": {
+      "title": "Suas Atividades 🎯",
+      "subtitle": "Quais atividades de autocuidado você fez hoje?"
+    },
+    "duration": {
+      "title": "Tempo Gasto ⏱️",
+      "subtitle": "Quanto tempo você dedicou ao autocuidado? (opcional)"
+    },
+    "noSelfCare": {
+      "title": "Tudo bem 💛",
+      "subtitle": "Vamos entender o que aconteceu hoje.",
+      "question1": "O que impediu o autocuidado hoje? (opcional)",
+      "question2": "Que tipo de autocuidado teria ajudado? (opcional)"
+    },
+    "mood": {
+      "title": "Como você está se sentindo? 🫧",
+      "subtitle": "Selecione seu humor atual (opcional)"
+    },
+    "review": {
+      "title": "Sua Entrada 📋",
+      "subtitle": "Aqui está um resumo do check-in de hoje",
+      "didSelfCare": "Cuidava de si mesmo?",
+      "activities": "Atividades",
+      "duration": "Duração",
+      "mood": "Clima",
+      "challenges": "Impedido por",
+      "whatHelps": "Teria ajudado",
+      "viewHistory": "História Semanal",
+      "editToday": "Editar entrada",
+      "summary": "Resumo"
+    },
+    "history": {
+      "title": "História 📅 Semanal",
+      "subtitle": "Nenhuma inscrição nos últimos 7 dias"
+    },
+    "notfound": {
+      "title": "404",
+      "subtitle": "Ops! Página não encontrada",
+      "returnHome": "Retorno ao Lar"
+    }
+  },
+  "data": {
+    "activities": {
+      "Exercise": "Exercício",
+      "Meditation": "Meditação",
+      "Journaling": "Diário",
+      "Reading": "Leitura",
+      "Rest / Nap": "Descanso / Soneca",
+      "Skincare": "Cuidados com a pele",
+      "Healthy Meal": "Refeição Saudável",
+      "Nature / Walk": "Natureza / Caminhada",
+      "Social Time": "Tempo Social",
+      "Hobby": "Hobby",
+      "Therapy": "Terapia",
+      "Digital Detox": "Desintoxicação Digital"
+    },
+    "durations": {
+      "< 10 minutes": "< 10 minutos",
+      "10–30 minutes": "10–30 minutos",
+      "30–60 minutes": "30–60 minutos",
+      "1+ hour": "1+ hora"
+    },
+    "reasons": {
+      "Busy schedule": "Agenda cheia",
+      "Low energy": "Baixa energia",
+      "Stress": "Estresse",
+      "Forgot": "Esqueci",
+      "No motivation": "Sem motivação",
+      "Not feeling well": "Não me sentindo bem",
+      "Lack of time": "Falta de tempo",
+      "Emotional overwhelm": "Sobrecarga emocional"
+    },
+    "helpfulTypes": {
+      "Rest": "Descanse",
+      "Relaxation": "Relaxamento",
+      "Physical activity": "Atividade física",
+      "Talking to someone": "Conversando com alguém",
+      "Quiet time": "Tempo de silêncio",
+      "Creative activity": "Atividade criativa"
+    },
+    "moods": {
+      "Happy": "Feliz",
+      "Calm": "Calma",
+      "Neutral": "Neutro",
+      "Low": "Baixo",
+      "Stressed": "Estressado",
+      "Tired": "Cansado"
+    },
+    "positiveStatements": [
+      "Você apareceu por si mesmo hoje. Isso é poderoso. 🌿",
+      "Cuidar de si mesmo não é egoísmo — é essencial. Muito bem. 💚",
+      "Cada pequeno ato de cuidado constrói um você mais forte. 🌱",
+      "Você investiu em si mesmo hoje. Isso importa. ✨",
+      "Cuidar de você foi a melhor coisa que você fez hoje. 🍃"
+    ],
+    "supportiveStatements": [
+      "Tudo bem. Amanhã é um recomeço. Seja gentil consigo mesmo. 🤍",
+      "Nem todo dia será perfeito, e isso é perfeitamente normal. 🕊️",
+      "Você está fazendo o seu melhor. Isso sempre é suficiente. 💛",
+      "Descansar também é uma forma de autocuidado. Seja indulgente consigo mesmo. 🌸",
+      "Reconhecer o dia de hoje exige coragem. Você já está crescendo. 🌷"
+    ]
+  }
+}

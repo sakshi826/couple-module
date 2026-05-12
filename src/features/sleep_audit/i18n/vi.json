@@ -1,0 +1,94 @@
+{
+  "app_title": "Kiểm tra giấc ngủ",
+  "app_subtitle": "Hiểu được sự nghỉ ngơi của bạn",
+  "intro": {
+    "title": "Kiểm tra giấc ngủ của bạn",
+    "description": "Hiểu điều gì đang ảnh hưởng đến giấc ngủ của bạn và những thay đổi nhỏ có thể giúp ích ở đâu.",
+    "start_button": "Bắt đầu kiểm tra",
+    "history_button": "Đánh giá trước đây"
+  },
+  "screens": {
+    "s1": {
+      "phase": "Giai đoạn 01",
+      "title": "Giấc ngủ của bạn như thế nào?",
+      "desc": "Chọn bất kỳ điều gì cảm thấy đúng với bạn gần đây"
+    },
+    "s2": {
+      "phase": "Giai đoạn 02",
+      "title": "Đánh giá phần nghỉ ngơi thông thường của bạn",
+      "label": "Mối quan tâm cụ thể?",
+      "placeholder": "Căng thẳng, tiếng ồn, cuộn..."
+    },
+    "s3": {
+      "score_label": "của 7",
+      "recommendations": {
+        "solid": "Thói quen của bạn rất vững chắc! Những điều chỉnh nhỏ có thể làm cho nó tốt hơn nữa.",
+        "some": "Một số gián đoạn được phát hiện. Thay đổi thói quen có thể giúp ích nhanh chóng.",
+        "many": "Một số yếu tố đang ảnh hưởng đến giấc ngủ của bạn. Chúng ta có thể cùng nhau vượt qua chúng."
+      }
+    }
+  },
+  "options": [
+    {
+      "emoji": "🕐",
+      "text": "Tôi đi ngủ vào những thời điểm rất khác nhau mỗi đêm"
+    },
+    {
+      "emoji": "💡",
+      "text": "Môi trường ngủ của tôi không tối, yên tĩnh hoặc thoải mái"
+    },
+    {
+      "emoji": "📱",
+      "text": "Tôi cuộn trên điện thoại ngay trước khi ngủ"
+    },
+    {
+      "emoji": "☕",
+      "text": "Tôi có caffeine hoặc rượu gần trước khi đi ngủ"
+    },
+    {
+      "emoji": "😵",
+      "text": "Tôi thức dậy vào ban đêm và vật lộn để ngủ lại"
+    },
+    {
+      "emoji": "🧠",
+      "text": "Tâm trí tôi chạy đua với những suy nghĩ khi tôi cố gắng ngủ"
+    },
+    {
+      "emoji": "😔",
+      "text": "Tôi hiếm khi cảm thấy sảng khoái sau một đêm ngủ"
+    }
+  ],
+  "rating_labels": [
+    "Rất nghèo",
+    "Nghèo",
+    "Được rồi",
+    "Tốt",
+    "Tuyệt vời"
+  ],
+  "status_labels": {
+    "track": "Chủ yếu đi đúng hướng",
+    "disruptions": "Một số gián đoạn",
+    "attention": "Cần chú ý"
+  },
+  "buttons": {
+    "continue": "Tiếp tục",
+    "see_results": "Xem kết quả",
+    "preserve": "Bảo toàn kết quả",
+    "preserving": "Bảo quản...",
+    "back_to_intro": "Quay lại phần giới thiệu"
+  },
+  "history": {
+    "title": "Đánh giá trước đây",
+    "no_entries": "Chưa có cuộc kiểm toán nào được bảo quản.",
+    "score_label": "của 7"
+  },
+  "complete": {
+    "title": "Kiểm toán hoàn tất",
+    "message": "Điểm giấc ngủ của bạn là {{score}}/7. Hiểu được những mô hình này là bước đầu tiên hướng tới nghỉ ngơi sâu hơn, phục hồi hơn."
+  },
+  "toasts": {
+    "save_success": "Kiểm tra đã lưu",
+    "save_error": "Không lưu được kiểm tra",
+    "auth_error": "Thiếu phiên xác thực hoặc cơ sở dữ liệu không được định cấu hình"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "app_title": "Por que o cérebro fica preso",
+  "app_subtitle": "A lógica da sobrevivência • {{step}}/{{total}}",
+  "s1": {
+    "title": "Seu cérebro não quebrou. Ela se adaptou.",
+    "description": "Após o trauma, seu cérebro se reconfigura para te manter seguro. Aprendeu que o mundo podia ser perigoso, então ficou pronto. Isso não é um defeito. Isso é sobrevivência.",
+    "quote": "\"TEPT não é sinal de que algo está errado com você. É um sinal de que algo aconteceu com você.\"",
+    "button": "Me conte mais"
+  },
+  "s2": {
+    "tag": "verdades gentis",
+    "title": "Lógica da sobrevivência cerebral",
+    "truths": [
+      {
+        "header": "O alarme continuou ligado",
+        "body": "Hipervigilância e surpresa facilmente não são exageros — o sistema de alarme do seu cérebro está fazendo seu trabalho muito bem."
+      },
+      {
+        "header": "Flashbacks são memória",
+        "body": "Gatilhos puxam seu cérebro de volta porque ele nunca recebeu o sinal de que a ameaça havia acabado. Está tentando te proteger."
+      },
+      {
+        "header": "Lutando por você",
+        "body": "Cada sintoma já foi um ato de sobrevivência. Seu cérebro fez o que precisava para te manter vivo."
+      }
+    ],
+    "healing": "Curar não é esquecer. É sobre ajudar seu cérebro a aprender que você está seguro agora."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "app_title": "De Ongestuurde Brief",
+  "app_subtitle": "Laat je gedachten veilig en privé los",
+  "intro": {
+    "title": "De Ongestuurde Brief",
+    "description": [
+      "Soms zijn er dingen die we graag zouden willen zeggen — maar nooit de kans hebben gekregen.",
+      "Dit kon komen doordat het niet veilig voelde, het moment niet goed was, of de woorden te moeilijk hardop uit te spreken.",
+      "Deze activiteit geeft je een privéruimte om die gedachten onder woorden te brengen.",
+      "Je hoeft deze brief niet te versturen. Dit is alleen voor jou — om je gevoelens beter te uiten, los te laten en te begrijpen."
+    ],
+    "notice": "Schrijf vrij. Niemand anders zal dit zien.",
+    "button": "Begin met schrijven →"
+  },
+  "writing": {
+    "title": "Schrijf wat je hebt ingehouden",
+    "desc": "Je kunt schrijven aan je partner, ex-partner, of zelfs aan de relatie zelf. Er is geen goed of fout manier om dit te doen.",
+    "prompts": [
+      "Ik voel me...",
+      "Ik wou dat ...",
+      "Ik heb nooit gezegd...",
+      "Wat mij pijn deed...",
+      "Wat ik nodig had..."
+    ],
+    "placeholder": "Beste ____,\nIk wilde al zeggen...",
+    "notice": "Je kunt op elk moment pauzeren en terugkomen.",
+    "button": "Ga verder →"
+  },
+  "reflection": {
+    "title": "Neem hier even de tijd voor",
+    "description": [
+      "Je hebt je gedachten en gevoelens net onder woorden gezet — dat vergt moed.",
+      "Je merkt nu misschien een mix van emoties op, en dat is helemaal oké.",
+      "Voordat je verder gaat, haal diep adem en check voorzichtig bij jezelf in."
+    ],
+    "notice": "Dit was voor je genezing, niet om te sturen.",
+    "save_button": "Save Letter",
+    "finish_button": "Fins"
+  },
+  "history": {
+    "title": "Vroegere brieven",
+    "empty_title": "Je hebt nog geen brieven geschreven.",
+    "empty_desc": "Je brieven verschijnen hier nadat je ze hebt opgeslagen."
+  },
+  "toasts": {
+    "save_success": "Brief opgeslagen in je privédagboek",
+    "save_error": "Brief niet opgeslagen",
+    "auth_error": "Auth-sessie ontbreekt of database niet geconfigureerd"
+  }
+}

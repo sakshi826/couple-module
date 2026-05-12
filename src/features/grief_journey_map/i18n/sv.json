@@ -1,0 +1,39 @@
+{
+  "app_title": "Sorgresa",
+  "app_subtitle": "Förlustkartan • {{current}}/{{total}}",
+  "screen1_title": "Du sörjer inte fel",
+  "screen1_desc": "Sorg kommer inte i prydliga etapper och lämnar inte enligt schema. Den slår in, drar sig tillbaka och kommer tillbaka när du minst anar det. Det är inte en brist hos dig – det är sorg.",
+  "screen1_quote": "\"Det finns inget rätt sätt att sörja. Det finns bara ditt sätt.\"",
+  "btn_tell_more": "Berätta mer",
+  "screen2_tag": "Den verkliga bilden",
+  "screen2_title": "Sorg bär många ansikten",
+  "screen2_desc": "Det är så här folk förväntar sig att sorg ska se ut – jämfört med vad det faktiskt är.",
+  "expectation_label": "Förväntan",
+  "reality_label": "Verkligheten",
+  "expectation_desc": "Linjär • Förutsägbar • Klar",
+  "reality_desc": "Kaotisk • Loopande • Mänsklig",
+  "screen2_quote": "\"Ingen av dessa vågor har fel. Alla är sorg.\"",
+  "btn_one_more": "En sak till",
+  "screen3_tag": "Milda sanningar",
+  "screen3_title": "Värt att veta",
+  "truths": [
+    {
+      "emoji": "🗓️",
+      "title": "Ingen deadline",
+      "body": "Det finns inget utgångsdatum för förlusten. Att känna det månader eller år senare betyder inte att du sitter fast – det betyder att du älskade."
+    },
+    {
+      "emoji": "🌗",
+      "title": "Motsägelsefulla känslor",
+      "body": "Man kan sakna någon och känna sig lättad. Du kan skratta och sörja. Sorg har motsatser."
+    },
+    {
+      "emoji": "🤍",
+      "title": "Kärlekens förvandling",
+      "body": "Smärtan är inte separat från kärleken. Det är samma sak, förvandlad."
+    }
+  ],
+  "btn_finish": "Färdig reflektion",
+  "complete_title": "Resan hedrad",
+  "complete_message": "Du behöver inte gå vidare. Man lär sig bara att bära den på ett annat sätt. Din resa är unik, värdefull och djupt mänsklig."
+}

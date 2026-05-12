@@ -1,0 +1,62 @@
+{
+  "app_title": "Trygt rom",
+  "nav": [
+    "Innsjekk",
+    "Forsiktig gjenkall",
+    "Observasjon",
+    "Å være til stede",
+    "Fremover"
+  ],
+  "s1": {
+    "title": "La oss finne et sted som føles greit",
+    "description": [
+      "Før vi begynner, ta et øyeblikk til å sjekke inn...",
+      "Hvordan føler du deg akkurat nå?",
+      "Vi leter ikke etter et perfekt «trygt sted». Bare noe som føles bare litt rolig eller greit."
+    ],
+    "placeholder": "Hvordan føler du deg akkurat nå?",
+    "button": "Start visualisering"
+  },
+  "s2": {
+    "title": "Ta det forsiktig i tankene",
+    "description": [
+      "Tenk på et sted hvor du følte deg bare litt rolig... eller et sted du skulle ønske eksisterte.",
+      "Nå plasser deg der...",
+      "Sitter, står du eller ligger du ned?"
+    ],
+    "button": "Fortsett"
+  },
+  "s3": {
+    "title": "Se deg rundt, sakte",
+    "description": [
+      "Ta en forsiktig titt rundt...",
+      "Hva er én ting du kan se?",
+      "Legg merke til en lyd... Hva hører du?"
+    ],
+    "button": "Fortsett"
+  },
+  "s4": {
+    "title": "Hold deg til dette",
+    "description": [
+      "Hva er det med dette stedet som får det til å føles bare litt trygt eller greit?",
+      "Som du legger merke til at...",
+      "Dra også oppmerksomheten mot pusten din."
+    ],
+    "breathe": "pust",
+    "notice": "Hvis det føles vanskelig å forestille seg, tenk bare på ideen om dette stedet.",
+    "button": "Fortsett"
+  },
+  "s5": {
+    "title": "Ta dette med deg",
+    "description": [
+      "Legg merke til hvordan du føler deg akkurat nå. Selv en liten endring betyr noe.",
+      "Se om du kan bære med deg selv 5 % av denne følelsen."
+    ],
+    "placeholder": "Hvordan føler du deg nå?",
+    "button": "Fullstendig sesjon"
+  },
+  "complete": {
+    "title": "Økt fullført",
+    "message": "Dette trygge stedet er alltid tilgjengelig for deg. Du kan komme tilbake hit når du trenger et øyeblikk med ro."
+  }
+}

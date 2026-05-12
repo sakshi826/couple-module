@@ -1,0 +1,164 @@
+{
+  "app_title": "Czego potrzebuję?",
+  "app_subtitle": "Sprawdź się sam",
+  "screens": {
+    "s1": {
+      "title": "Czego teraz potrzebuję?",
+      "description": "Chwila, by się zatrzymać i posłuchać, czego prosi twoje serce.",
+      "button": "Start Check-in"
+    },
+    "s2": {
+      "select": {
+        "title": "Co wydaje się ważne?",
+        "placeholder": "Coś jeszcze...",
+        "add_button": "Dodaj",
+        "button": "Kontynuuj"
+      },
+      "prioritize": {
+        "title": "Który jest główny?"
+      },
+      "focus": {
+        "tag": "Teraz skup się na tobie",
+        "button": "Kontynuuj"
+      }
+    },
+    "s3": {
+      "reflect": {
+        "button": "Kontynuuj"
+      },
+      "action": {
+        "title": "Mały krok naprzód?",
+        "placeholder": "Albo napisz własne...",
+        "button": "Refleksja recenzji"
+      },
+      "closing": {
+        "tag_need": "Potrzeba pierwotna",
+        "tag_insight": "Twoje spostrzeżenia",
+        "tag_action": "Małe akcje",
+        "save_button": "Save & Finish",
+        "finish_button": "Skończ bez zapisu"
+      }
+    }
+  },
+  "needs": {
+    "Emotional support": {
+      "label": "Wsparcie emocjonalne",
+      "prompt": "Jakie wsparcie faktycznie mogłoby ci teraz pomóc?",
+      "hints": [
+        "Po prostu potrzebuję kogoś, kto...",
+        "Pomogłoby, gdyby...",
+        "Tak naprawdę chcę..."
+      ]
+    },
+    "Space / time for myself": {
+      "label": "Przestrzeń / czas dla siebie",
+      "prompt": "Jak wyglądałoby dla ciebie posiadanie takiej przestrzeni?",
+      "hints": [
+        "Wykorzystałabym ten czas, żeby...",
+        "Kosmos pozwoliłby mi...",
+        "Potrzebuję miejsca, żeby..."
+      ]
+    },
+    "Clear communication": {
+      "label": "Jasna komunikacja",
+      "prompt": "Jak wyglądałaby dla Ciebie jaśniejsza komunikacja?",
+      "hints": [
+        "Chciałbym móc powiedzieć...",
+        "Gdyby naprawdę słuchali, powiedziałbym im...",
+        "Komunikacja jest trudna, gdy..."
+      ]
+    },
+    "Reassurance": {
+      "label": "Zapewnienie",
+      "prompt": "Jakie zapewnienie mogłoby mieć sens?",
+      "hints": [
+        "Muszę to usłyszeć...",
+        "Uspokajałoby mnie wiedzieć...",
+        "Ciągle się martwię, że..."
+      ]
+    },
+    "Understanding": {
+      "label": "Zrozumienie",
+      "prompt": "Jak wyglądałoby poczucie prawdziwego zrozumienia?",
+      "hints": [
+        "Chciałbym, żeby ludzie wiedzieli, że...",
+        "To, co naprawdę czuję, to...",
+        "Nikt nie widzi, że ja..."
+      ]
+    },
+    "Stability": {
+      "label": "Stabilność",
+      "prompt": "Jak wyglądałaby stabilność w Twoim życiu teraz?",
+      "hints": [
+        "Potrzebuję, żeby coś się czuło...",
+        "To, co mnie uziemi, to...",
+        "Stabilność oznacza..."
+      ]
+    },
+    "Honesty": {
+      "label": "Szczerość",
+      "prompt": "Jak wyglądałaby większa uczciwość w twojej sytuacji?",
+      "hints": [
+        "Prawda, z którą muszę się zmierzyć, to...",
+        "Chcę być szczery w kwestii...",
+        "To, co naprawdę się dzieje, to..."
+      ]
+    },
+    "Respect": {
+      "label": "Szacunek",
+      "prompt": "Jak wygląda u Ciebie teraz szacunek?",
+      "hints": [
+        "Zasługuję na leczenie...",
+        "Szacunek wyglądałby jak...",
+        "Potrzebuję ludzi, żeby..."
+      ]
+    },
+    "Clarity about relationship": {
+      "label": "Jasność w relacjach",
+      "prompt": "Jaki rodzaj jasności pomógłby Ci najbardziej?",
+      "hints": [
+        "Muszę wiedzieć, czy...",
+        "To, co mnie myli, to...",
+        "Chcę, żebyśmy byli jasni w kwestii..."
+      ]
+    },
+    "default": {
+      "prompt": "Jak to wyglądałoby w prawdziwej sytuacji?",
+      "hints": [
+        "Przychodzi mi na myśl...",
+        "Teraz czuję się...",
+        "Jeśli mam być ze sobą szczery..."
+      ]
+    }
+  },
+  "actions": [
+    {
+      "label": "Powiedz coś szczerze"
+    },
+    {
+      "label": "Znajdź czas dla siebie"
+    },
+    {
+      "label": "Skontaktuj się z kimś"
+    },
+    {
+      "label": "Ustal małą granicę"
+    },
+    {
+      "label": "Jeszcze nie jestem pewien"
+    }
+  ],
+  "history": {
+    "title": "Refleksje z przeszłości",
+    "empty": "Jeszcze żadnych odbić."
+  },
+  "toasts": {
+    "save_success": "Odbicie zapisane",
+    "save_error": "Nie udało się zapisać odbicia",
+    "auth_error": "Brakuje sesji uwierzytelniania lub baza danych nie skonfigurowana"
+  },
+  "complete": {
+    "title": "Odprawa zakończona",
+    "message": "Zidentyfikowałeś, że potrzebujesz \"{{need}}\". Szanowanie własnych potrzeb to kluczowa forma dbania o siebie."
+  }
+}

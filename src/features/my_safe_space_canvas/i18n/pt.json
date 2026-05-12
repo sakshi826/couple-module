@@ -1,0 +1,98 @@
+{
+  "app_title": "Tela do Espaço Seguro",
+  "step_label": "Passo {{current}} de 5",
+  "welcome": {
+    "title": "Seu lugar seguro está esperando",
+    "description": "Construa seu próprio santuário através de uma série de sugestões criativas suaves. Uma tela em branco para seus pensamentos e sentimentos.",
+    "benefits": [
+      "Expresse-se através da cor",
+      "Crie uma ferramenta visual de aterramento",
+      "Seguro, privado e pessoal"
+    ],
+    "duration": "10-15 minutos",
+    "view_past": "Veja Escolas Passadas"
+  },
+  "canvas": {
+    "prompts": [
+      {
+        "quote": "Como é o céu no seu lugar seguro? Desenhe sua cor, luz ou sensação.",
+        "button": "Adicionei o céu →",
+        "hint": "Não existe um jeito certo — qualquer marca é suficiente."
+      },
+      {
+        "quote": "Como é a sensação do chão? Grama, areia, água, um piso de madeira? Adicione isso abaixo do céu.",
+        "button": "Adicionei o →",
+        "hint": "Pense em como seus pés se sentem neste lugar."
+      },
+      {
+        "quote": "Adicione uma coisa que pertença aqui — uma árvore, uma cadeira, uma janela, um animal de estimação, um abajur. Qualquer coisa que pareça certa.",
+        "button": "Adicionei algo →",
+        "hint": "Não precisa ficar perfeito. Só precisa parecer verdade."
+      },
+      {
+        "quote": "O que traz calor ou conforto a este lugar? Uma luz, uma fogueira, luz do sol, um cobertor? Adicione onde parecer certo.",
+        "button": "Adicionei o calor →",
+        "hint": "Até um pequeno ponto de cor conta."
+      },
+      {
+        "quote": "Por fim — adicione de 3 a 5 palavras que pertenciam aqui. Toque no seu desenho para colocá-los em qualquer lugar.",
+        "button": "Essas são minhas palavras →",
+        "hint": ""
+      }
+    ],
+    "word_chips": [
+      "Paz",
+      "Casa",
+      "Céu",
+      "Calma",
+      "Quentinho",
+      "Chega",
+      "Gentil",
+      "Seguro"
+    ],
+    "custom_word_placeholder": "+ seu próprio",
+    "skip_prompt": "Pule este prompt",
+    "type_here": "Digite aqui"
+  },
+  "save": {
+    "title": "Preserve seu lugar seguro",
+    "desc": "Dê um nome à sua criação e uma breve reflexão.",
+    "preview_alt": "Seu colagem de lugar seguro",
+    "generating_preview": "Gerando prévia...",
+    "name_label": "Como você chama esse lugar?",
+    "name_placeholder": "por exemplo, Meu Prado de Domingo",
+    "reflection_label": "Por que esse lugar importa? (Opcional)",
+    "reflection_placeholder": "Uma frase gentil...",
+    "privacy_note": "Isso permanece privado — visível apenas para você e seu terapeuta.",
+    "button": "Salve Meu Lugar Seguro",
+    "default_name": "Meu Lugar Seguro"
+  },
+  "grounding": {
+    "title": "Você está aqui. Você está seguro.",
+    "breathe_info": "4 · hold · 4 · Deixe ir · 6",
+    "done_message": "Parabéns por estar presente hoje.",
+    "durations": [
+      {
+        "label": "1 min",
+        "seconds": "60"
+      },
+      {
+        "label": "3 min",
+        "seconds": "180"
+      },
+      {
+        "label": "5 min",
+        "seconds": "300"
+      }
+    ],
+    "phases": [
+      "Inspire",
+      "Segura",
+      "Solte"
+    ]
+  },
+  "history": {
+    "title": "Lugares seguros do passado",
+    "no_collages": "Ainda não tenho colagem salva. Complete a atividade para salvar a primeira."
+  }
+}

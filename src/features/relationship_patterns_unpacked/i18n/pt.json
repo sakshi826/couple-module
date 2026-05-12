@@ -1,0 +1,22 @@
+{
+  "app_title": "Padrões de Relacionamento",
+  "app_subtitle": "Desempacotando seu projeto",
+  "complete_title": "Conscientização Adquirida",
+  "complete_message": "Entender seus padrões é o primeiro passo para reescrevê-los. Você carrega o poder de escolher um caminho diferente.",
+  "screen1": {
+    "tag": "Descoberta de Padrões",
+    "intro": "Já sentiu que já esteve aqui antes?",
+    "title": "Se seus relacionamentos continuam terminando do mesmo jeito — não é azar.",
+    "desc": "Os relacionamentos que escolhemos seguem um plano escrito muito antes de nos apaixonarmos. A familiaridade muitas vezes parece segurança, mesmo quando leva às mesmas discussões de sempre.",
+    "quote": "\"Repetimos padrões não porque estamos quebrados — mas porque parecem familiares.\"",
+    "button": "Continue Desempacotando"
+  },
+  "screen2": {
+    "tag": "O Modelo",
+    "intro": "Começa mais cedo do que você imagina.",
+    "title": "Os primeiros relacionamentos se tornam o modelo para tudo o que vem a seguir.",
+    "desc": "A forma como seus cuidadores responderam às suas necessidades moldou silenciosamente a forma como você se relaciona com os outros como adulto. São respostas aprendidas — e podem ser desaprendidas.",
+    "quote": "\"Seu padrão fez sentido uma vez. A questão é — isso ainda te serve agora?\"",
+    "button": "Reflexão do Acabamento"
+  }
+}

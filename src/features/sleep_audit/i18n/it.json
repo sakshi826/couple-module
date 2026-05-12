@@ -1,0 +1,94 @@
+{
+  "app_title": "Audit del sonno",
+  "app_subtitle": "Comprendi il tuo riposo",
+  "intro": {
+    "title": "La tua revisione del sonno",
+    "description": "Capisci cosa sta influenzando il tuo sonno e dove piccoli cambiamenti possono aiutare.",
+    "start_button": "Inizio Audit",
+    "history_button": "Audit passati"
+  },
+  "screens": {
+    "s1": {
+      "phase": "Fase 01",
+      "title": "Com'è stato il tuo sonno?",
+      "desc": "Seleziona quelli che ultimamente ti sembrano più adatti"
+    },
+    "s2": {
+      "phase": "Fase 02",
+      "title": "Valuta il tuo riposo tipico",
+      "label": "Preoccupazioni specifiche?",
+      "placeholder": "Stress, rumore, scorrimento..."
+    },
+    "s3": {
+      "score_label": "di 7",
+      "recommendations": {
+        "solid": "Le tue abitudini sono solide! Piccole modifiche possono renderlo ancora migliore.",
+        "some": "Alcune interruzioni rilevate. I cambiamenti di abitudine possono aiutare rapidamente.",
+        "many": "Diversi fattori influenzano il tuo sonno. Possiamo affrontarli insieme."
+      }
+    }
+  },
+  "options": [
+    {
+      "emoji": "🕐",
+      "text": "Vado a letto in orari molto diversi ogni sera"
+    },
+    {
+      "emoji": "💡",
+      "text": "Il mio ambiente di sonno non è buio, silenzioso o confortevole"
+    },
+    {
+      "emoji": "📱",
+      "text": "Scorro sul telefono proprio prima di dormire"
+    },
+    {
+      "emoji": "☕",
+      "text": "Bevo caffeina o alcol vicino all'ora di andare a letto"
+    },
+    {
+      "emoji": "😵",
+      "text": "Mi sveglio durante la notte e faccio fatica a riaddormentarmi"
+    },
+    {
+      "emoji": "🧠",
+      "text": "La mia mente corre di pensieri quando cerco di dormire"
+    },
+    {
+      "emoji": "😔",
+      "text": "Raramente mi sento riposato dopo una notte di sonno"
+    }
+  ],
+  "rating_labels": [
+    "Molto povero",
+    "Poveri",
+    "Ok",
+    "Bene",
+    "Ottimo"
+  ],
+  "status_labels": {
+    "track": "Per lo più in traccia",
+    "disruptions": "Alcune interruzioni",
+    "attention": "Ha bisogno di attenzione"
+  },
+  "buttons": {
+    "continue": "Continua",
+    "see_results": "Vedi Risultati",
+    "preserve": "Preserva il risultato",
+    "preserving": "Preservare...",
+    "back_to_intro": "Ritorno all'introduzione"
+  },
+  "history": {
+    "title": "Audit passati",
+    "no_entries": "Nessun audit è ancora stato conservato.",
+    "score_label": "di 7"
+  },
+  "complete": {
+    "title": "Audit completato",
+    "message": "Il tuo punteggio di sonno è {{score}}/7. Comprendere questi schemi è il primo passo verso un riposo più profondo e ristoratore."
+  },
+  "toasts": {
+    "save_success": "Audit salvato",
+    "save_error": "Non è riuscito a salvare l'audit",
+    "auth_error": "Sessione di autenticazione mancante o DB non configurato"
+  }
+}

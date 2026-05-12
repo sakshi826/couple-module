@@ -1,11 +1,9 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
-import { quizQuestions } from "./QuizData";
+import { useTranslation } from "react-i18next";
 import { ChevronRight, RotateCcw, Home, HelpCircle, Check, X as XIcon, Sparkles } from "lucide-react";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
-
-const TOTAL = quizQuestions.length;
 
 /* ─── Confetti ─── */
 const ConfettiPiece = ({ delay, x }: { delay: number; x: number }) => {
@@ -35,6 +33,12 @@ const Confetti = () => (
 
 /* ─── Main Game ─── */
 const AngerQuiz = () => {
+  const { t } = useTranslation();
+  
+  // Get questions from translation
+  const quizQuestions = t("questions", { returnObjects: true }) as any[];
+  const TOTAL = Array.isArray(quizQuestions) ? quizQuestions.length : 0;
+
   type Screen = "welcome" | "game" | "final" | "complete";
   const [screen, setScreen] = useState<Screen>("welcome");
   const [step, setStep] = useState(0);
@@ -45,10 +49,11 @@ const AngerQuiz = () => {
   const [showNext, setShowNext] = useState(false);
   const [showCorrectConfetti, setShowCorrectConfetti] = useState(false);
 
-  const current = quizQuestions[step];
+  const current = Array.isArray(quizQuestions) ? quizQuestions[step] : null;
   const isCorrect = answered === current?.answer;
 
   const handleAnswer = (choice: "myth" | "fact") => {
+    if (!current) return;
     setAnswered(choice);
     const correct = choice === current.answer;
     if (correct) setScore((s) => s + 1);
@@ -89,8 +94,8 @@ const AngerQuiz = () => {
   if (screen === "complete") {
     return (
       <PremiumComplete
-        title="Knowledge Mastered"
-        message={`You scored ${score}/${TOTAL}! You've gained valuable insight into the truths and myths of anger.`}
+        title={t("complete_title")}
+        message={t("complete_message", { score, total: TOTAL })}
         onRestart={handleRetry}
       />
     );
@@ -98,8 +103,8 @@ const AngerQuiz = () => {
 
   return (
     <PremiumLayout
-      title="Anger Facts & Myths"
-      subtitle={screen === "game" ? `Question ${step + 1} of ${TOTAL}` : "Knowledge quiz"}
+      title={t("app_title")}
+      subtitle={screen === "game" ? t("question_nav", { current: step + 1, total: TOTAL }) : t("knowledge_quiz")}
       icon={<HelpCircle className="w-6 h-6 text-primary" />}
       onBack={screen !== "welcome" && screen !== "complete" ? handleRetry : undefined}
     >
@@ -120,26 +125,26 @@ const AngerQuiz = () => {
               </div>
               <div className="space-y-6">
                 <h1 className="text-3xl font-black text-slate-800 leading-tight">
-                  Myth vs Fact:<br />Anger Edition
+                  {t("welcome_title")}
                 </h1>
                 <p className="text-slate-500 font-medium leading-relaxed max-w-xs mx-auto text-base">
-                  Think you know the truth about anger? Some are myths. Some are facts. Let's find out.
+                  {t("welcome_subtitle")}
                 </p>
               </div>
               <button
                 onClick={() => setScreen("game")}
                 className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
               >
-                Start Quiz
+                {t("start_quiz")}
                 <ChevronRight size={20} strokeWidth={3} />
               </button>
               <p className="text-slate-400 text-[10px] font-black uppercase tracking-[0.2em]">
-                {TOTAL} Questions • 2 Minutes
+                {t("questions_count", { count: TOTAL })}
               </p>
             </motion.div>
           )}
 
-          {screen === "game" && (
+          {screen === "game" && current && (
             <motion.div
               key="game"
               initial={{ opacity: 0, scale: 0.95 }}
@@ -169,13 +174,13 @@ const AngerQuiz = () => {
                       onClick={() => handleAnswer("myth")}
                       className="py-8 rounded-3xl bg-white border-2 border-red-50 text-red-500 font-black text-xl shadow-xl shadow-red-500/5 hover:bg-red-50 transition-all"
                     >
-                      MYTH
+                      {t("myth_button")}
                     </button>
                     <button
                       onClick={() => handleAnswer("fact")}
                       className="py-8 rounded-3xl bg-white border-2 border-emerald-50 text-emerald-500 font-black text-xl shadow-xl shadow-emerald-500/5 hover:bg-emerald-50 transition-all"
                     >
-                      FACT
+                      {t("fact_button")}
                     </button>
                   </div>
                 ) : (
@@ -189,7 +194,7 @@ const AngerQuiz = () => {
                         {isCorrect ? <Check size={28} strokeWidth={4} /> : <XIcon size={28} strokeWidth={4} />}
                       </motion.div>
                       <p className={`text-2xl font-black ${isCorrect ? "text-emerald-600" : "text-red-600"}`}>
-                        {isCorrect ? "Correct!" : "Not quite!"}
+                        {isCorrect ? t("correct") : t("incorrect")}
                       </p>
                     </div>
 
@@ -202,7 +207,7 @@ const AngerQuiz = () => {
                         >
                           <div className="flex items-center gap-2">
                             <span className={`px-4 py-1.5 rounded-full text-[10px] font-black uppercase tracking-[0.2em] ${current.answer === "myth" ? "bg-red-100 text-red-600" : "bg-emerald-100 text-emerald-600"}`}>
-                              {current.answer === "myth" ? "It's a Myth" : "It's a Fact"}
+                              {current.answer === "myth" ? t("its_a_myth") : t("its_a_fact")}
                             </span>
                           </div>
                           <p className="text-slate-700 font-bold text-base leading-relaxed">
@@ -211,7 +216,7 @@ const AngerQuiz = () => {
                           {current.example && (
                             <div className="pt-4 border-t border-slate-50">
                               <p className="text-slate-400 text-xs font-bold italic">
-                                Example: {current.example}
+                                {t("example_label", { example: current.example })}
                               </p>
                             </div>
                           )}
@@ -224,7 +229,7 @@ const AngerQuiz = () => {
                         onClick={handleNext}
                         className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                       >
-                        {step + 1 === TOTAL ? "See Results" : "Next Question"}
+                        {step + 1 === TOTAL ? t("see_results") : t("next_question")}
                         <ChevronRight size={20} strokeWidth={3} />
                       </button>
                     )}
@@ -245,12 +250,12 @@ const AngerQuiz = () => {
                 <div className="w-24 h-24 bg-primary/10 rounded-[2.5rem] flex items-center justify-center mx-auto mb-6 text-5xl">
                   🏆
                 </div>
-                <h2 className="text-2xl font-black text-slate-800 mb-2">Quiz Complete!</h2>
+                <h2 className="text-2xl font-black text-slate-800 mb-2">{t("results_title")}</h2>
                 <div className="text-7xl font-black text-slate-900 my-8 tabular-nums">{score}<span className="text-slate-300 text-4xl">/{TOTAL}</span></div>
                 <p className="text-slate-500 font-black text-sm leading-relaxed uppercase tracking-widest">
-                  {score === TOTAL ? "Expert Level" : 
-                   score >= 3 ? "Great Progress" : 
-                   "Learning Journey"}
+                  {score === TOTAL ? t("expert_level") : 
+                   score >= 3 ? t("great_progress") : 
+                   t("learning_journey")}
                 </p>
               </div>
 
@@ -260,14 +265,14 @@ const AngerQuiz = () => {
                   className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                 >
                   <Sparkles size={20} strokeWidth={3} />
-                  Finish Activity
+                  {t("finish_activity")}
                 </button>
                 <button
                   onClick={handleRetry}
                   className="w-full py-5 rounded-2xl bg-white text-slate-600 font-black text-lg border border-slate-200 hover:bg-slate-50 transition-all flex items-center justify-center gap-3 shadow-sm"
                 >
                   <RotateCcw size={20} strokeWidth={3} />
-                  Try Again
+                  {t("try_again")}
                 </button>
               </div>
             </motion.div>

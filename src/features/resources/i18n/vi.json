@@ -1,0 +1,37 @@
+{
+  "app_title": "Tài nguyên",
+  "not_found": {
+    "title": "Không tìm thấy",
+    "message": "Không tìm thấy tài nguyên",
+    "description": "Nội dung bạn đang tìm kiếm có thể đã di chuyển.",
+    "button": "Quay lại"
+  },
+  "list": {
+    "empty_title": "Không có {{type}}",
+    "empty_desc": "Chúng tôi hiện đang sắp xếp thêm tài nguyên cho chủ đề này.",
+    "footer": "Mantra Care • Tài nguyên dựa trên bằng chứng"
+  },
+  "detail": {
+    "loading": "Đang tải...",
+    "tip": {
+      "insight_label": "Cái nhìn sâu sắc",
+      "plan_title": "Kế hoạch hành động hàng ngày",
+      "steps": "{{count}} Các bước",
+      "example_label": "Ví dụ thực hành",
+      "instead_of": "Thay vì",
+      "try_this": "Hãy thử điều này"
+    },
+    "article": {
+      "final_thought": "Suy nghĩ cuối cùng"
+    },
+    "story": {
+      "reflection_label": "Một cái gì đó để ngồi cùng",
+      "note_label": "Ghi chú từ tác giả"
+    },
+    "myth": {
+      "truth_label": "Sự thật khoa học",
+      "explanation_label": "Giải thích chi tiết",
+      "insight_label": "Thông tin chi tiết chính"
+    }
+  }
+}

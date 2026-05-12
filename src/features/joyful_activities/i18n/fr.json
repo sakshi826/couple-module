@@ -1,0 +1,45 @@
+{
+  "intro": {
+    "title": "Activités que vous aimez",
+    "subtitle": "Redécouvrir des moments de joie",
+    "p1": "Quand vous vous sentez déprimé, anxieux ou dépassé, il peut être difficile de vous rappeler ce qui vous apporte de la joie.",
+    "p2": "Cette activité ne consiste pas à faire plus. Il s’agit de remarquer de petits moments qui semblent légers, calmes ou significatifs.",
+    "p3": "Il n’y a aucune pression pour être heureux. Nous explorons simplement ce qui fait ne serait-ce qu’un peu de bien.",
+    "button": "Début"
+  },
+  "recall": {
+    "title": "Réfléchis un instant",
+    "p1": "Prenez un moment pour vous souvenir d’un moment — récent ou lointain — où vous avez ressenti ne serait-ce qu’un léger sentiment de joie, de paix ou de réconfort. Il n’a pas besoin d’être grand.",
+    "input1_label": "Une activité que j’aime (ou que j’aimais avant) est...",
+    "input1_placeholder": "Par exemple, se promener dans un parc",
+    "input2_label": "Quand je fais ça, je me sens généralement...",
+    "input2_placeholder": "par exemple calme et présent",
+    "button": "Continuez"
+  },
+  "meaning": {
+    "title": "Qu’est-ce qui la rend significative ?",
+    "p1": "Parfois, l’activité elle-même n’est pas la seule source de joie. Cela peut être le sentiment, l’environnement ou la connexion qui l’entoure.",
+    "input1_label": "J’aime ça parce que...",
+    "input1_placeholder": "Par exemple, cela me donne un sentiment de liberté",
+    "input2_label": "Cette activité m’aide à me sentir plus...",
+    "input2_placeholder": "par exemple connecté et mis à la terre",
+    "input3_label": "Ça me rappelle...",
+    "input3_placeholder": "par exemple, les étés quand j’étais enfant",
+    "button": "Sauve mon reflet"
+  },
+  "smallStep": {
+    "title": "Un petit pas en avant",
+    "p1": "Vous n’avez pas besoin de tout changer d’un coup.",
+    "p2": "Est-ce que vous pourriez vous reconnecter à cette activité, même un peu ?",
+    "input1_label": "Un petit pas que je pourrais faire cette semaine est...",
+    "input1_placeholder": "Par exemple, aller marcher 10 minutes",
+    "button_save": "Sauvegarder",
+    "button_home": "Retourne à la maison"
+  },
+  "affirmation": {
+    "title": "Tu as fait un pas magnifique",
+    "p1": "Se reconnecter à ce qui vous apporte de la joie — même de la plus petite manière — est un acte de bonté envers vous-même.",
+    "p2": "Tu mérites des moments de légèreté et de paix. Continuez à nourrir ce qui remplit votre cœur. 💛",
+    "button": "Retour à la maison"
+  }
+}

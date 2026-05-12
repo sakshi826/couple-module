@@ -1,0 +1,87 @@
+{
+  "app_title": "Carte de la nourriture et des émotions",
+  "screen_titles": [
+    "Bienvenue",
+    "Schémas alimentaires",
+    "Dialogue interne",
+    "Détection physique",
+    "La carte",
+    "Soutien doux",
+    "Dernier regard",
+    "Réfléchir"
+  ],
+  "welcome_text": "Hé... Je suis vraiment content que tu sois là 💛. Voyons doucement ce qui s’est passé.",
+  "coming_up_label": "Qu’est-ce qui se passe ces derniers temps ?",
+  "begin_mapping": "Commencez la cartographie",
+  "food_patterns_q": "Hmm... Je vous comprends. Quand tu ressens {{emotion}}... Comment la nourriture arrive-t-elle généralement ?",
+  "continue_button": "Continuez",
+  "internal_dialogue_q": "Dans ces moments-là... Quelles sortes de pensées surgissent ?",
+  "write_placeholder": "Écris ce qui te passe par la tête...",
+  "physical_sensing_q": "Si tu fais une pause... Que remarquez-vous dans votre corps ?",
+  "the_pattern_label": "Le Schéma",
+  "pattern_desc_1": "Quand tu ressens {{emotion}}, ton corps ressent {{sensation}}...",
+  "pattern_desc_2": "… et la nourriture devient un moyen de {{response}}, tandis que des pensées comme « {{thought}} » apparaissent.",
+  "pattern_footer": "« La conscience des motifs est la liberté »",
+  "support_q": "Dans ces moments-là... Qu’est-ce qui pourrait t’aider — même un peu ?",
+  "understanding_text": "Tu te comprends un peu mieux. C’est largement suffisant 💛",
+  "how_feeling_now": "Comment te sens-tu maintenant ?",
+  "preserve_button": "Carte de la réserve",
+  "preserving": "Préserver...",
+  "complete_title": "Carte préservée",
+  "complete_message": "Tu as réussi à cartographier le lien entre tes sentiments et la nourriture. Cette prise de conscience est un outil puissant pour un changement doux.",
+  "auth_error": "Session d’authentification manquante ou base de données non configurée",
+  "save_success": "Modèle préservé",
+  "save_error": "Échec à préserver le motif",
+  "emotions_list": [
+    "😰 Stress",
+    "😢 Tristesse",
+    "😶 Ennui",
+    "😟 Anxiété",
+    "🥺 Solitude",
+    "💭 Autre chose..."
+  ],
+  "food_responses": [
+    "🍽️ Je mange plus",
+    "🚫 Je mange moins",
+    "🍫 J’ai envie d’aliments spécifiques",
+    "😣 J’évite la nourriture",
+    "😐 Aucun changement réel"
+  ],
+  "body_sensations": [
+    "💔 Poitrine serrée",
+    "🪨 Lourdeur",
+    "🦵 Agité / agité",
+    "🔋 Faible énergie",
+    "🌀 Nœuds dans l’estomac",
+    "❓ Autre chose..."
+  ],
+  "support_options": [
+    "🗣️ Parle à quelqu’un",
+    "☕ Faites une pause",
+    "📝 Revue",
+    "🌬️ Respire",
+    "🎧 Me distraire"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "Contactez-nous 💛",
+      "body": "Parfois, partager allège un peu les choses. Peut-être un simple « hé, on peut parler ? »"
+    },
+    "☕ Take a break": {
+      "title": "Pause 💛",
+      "body": "Une petite pause peut aider à réinitialiser les choses. Peut-être éloignez-vous et prenez quelques respirations lentes."
+    },
+    "📝 Journal": {
+      "title": "Écris-le 💛",
+      "body": "Tu pourrais commencer par « en ce moment, je ressens... » Et laisse simplement couler les choses."
+    },
+    "🌬️ Breathe": {
+      "title": "Respire 💛",
+      "body": "Inspire 4... Maintenez 2... expire 6... Ralentissons ensemble."
+    },
+    "🎧 Distract myself": {
+      "title": "Changement 💛 doux",
+      "body": "Une distraction douce peut changer le moment... Peut-être quelque chose de léger ou de simple."
+    }
+  }
+}

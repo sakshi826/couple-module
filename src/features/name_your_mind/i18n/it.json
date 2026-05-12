@@ -1,0 +1,80 @@
+{
+  "app_title": "Nomina la tua mente",
+  "intro": {
+    "title": "Incontra la tua mente",
+    "description": "Impara a prendere le distanze dai pensieri travolgenti dando un nome alla tua voce interiore.",
+    "benefits": [
+      "Crea una distanza mentale",
+      "Ridurre il potere dei pensieri duri",
+      "Nota i pensieri senza esserne"
+    ],
+    "duration": "2-3 minuti",
+    "view_past": "Visualizza le voci passate"
+  },
+  "history": {
+    "title": "Iscrizioni passate",
+    "no_entries": "Nessuna partecipazione ancora.",
+    "reflection_label": "Riflessione: {{text}}"
+  },
+  "complete": {
+    "title": "Attività completata",
+    "great_job": "Ottimo lavoro!",
+    "message": "Hai dato un nome alla tua mente e creato un po' di spazio tra te e i tuoi pensieri.",
+    "footer": "Ricorda: non devi credere a ogni pensiero che la tua mente ti dà."
+  },
+  "subtitles": {
+    "concept": "Prospettiva",
+    "input_thought": "Avviso",
+    "input_name": "Nome",
+    "practice": "Pratica"
+  },
+  "screens": {
+    "concept": {
+      "title": "Un piccolo cambiamento",
+      "example": "\"Non sono abbastanza\"",
+      "desc": "Quando un pensiero si manifesta, spesso sembra che sia <0>te</0>. Ma se potessi fare un passo indietro e <1>notar</1> invece?"
+    },
+    "input_thought": {
+      "title": "Iniziamo con un pensiero vero",
+      "desc": "Qual è un pensiero che ti ha tormentato ultimamente?",
+      "placeholder": "Scrivilo esattamente come ti viene in mente..."
+    },
+    "input_name": {
+      "title": "Crea un po' di distanza",
+      "desc": "Dai un nome alla tua mente per aiutarti a separarti da questi pensieri.",
+      "placeholder": "O digita il tuo...",
+      "examples": [
+        "Il Critico",
+        "Pensatore eccessivo",
+        "Worry FM",
+        "La macchina per pensare troppo",
+        "Il critico interiore",
+        "Il Generatore del Cosa Sarebbe Se",
+        "Regista drammatico"
+      ]
+    },
+    "practice": {
+      "title": "Prova questo shift",
+      "instead_of": "Invece di",
+      "try_saying": "Prova a dire",
+      "is_telling_me": "{{name}} mi sta dicendo:",
+      "guide": "Ripeti delicatamente questa frase a te stesso 4-5 volte al tuo ritmo.",
+      "button": "Sono pronto"
+    },
+    "reflection": {
+      "title": "Cosa hai notato?",
+      "desc": "Come ti sei sentito a pensarci dopo avergli dato un nome?",
+      "options": [
+        "Il pensiero sembrava un po' meno intenso di prima",
+        "Sentivo di avere una certa distanza dal pensiero",
+        "Sembrava ancora forte come prima",
+        "Non so cosa sia cambiato, se è cambiato qualcosa"
+      ],
+      "button": "Riflessione completa"
+    }
+  },
+  "buttons": {
+    "continue": "Continua",
+    "restart": "Riavvio"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "app_title": "悲傷之旅",
+  "app_subtitle": "損失地圖 • {{current}}/{{total}}",
+  "screen1_title": "你哀悼的方式沒有錯",
+  "screen1_desc": "悲傷不會是整齊的階段來臨，也不會按時離開。它會撞進來，然後撤退，然後在你最意想不到的時候回來。那不是你的缺點——那是悲傷。",
+  "screen1_quote": "「悲傷沒有正確的方式。只有你的方式。」",
+  "btn_tell_more": "告訴我更多",
+  "screen2_tag": "真實情況",
+  "screen2_title": "悲傷有許多不同的面貌",
+  "screen2_desc": "這就是人們對悲傷的期待——而非悲傷的真實樣貌。",
+  "expectation_label": "期待",
+  "reality_label": "現實",
+  "expectation_desc": "線性 • 可預測 • 清晰",
+  "reality_desc": "混亂 • 循環 • 人類",
+  "screen2_quote": "「這些波動都沒錯。他們全都是悲傷。」",
+  "btn_one_more": "還有一件事",
+  "screen3_tag": "溫柔的真理",
+  "screen3_title": "值得一知",
+  "truths": [
+    {
+      "emoji": "🗓️",
+      "title": "沒有截止日期",
+      "body": "損失沒有有效期限。幾個月甚至幾年後才感受到，並不代表你被困住了——那代表你曾經愛過。"
+    },
+    {
+      "emoji": "🌗",
+      "title": "矛盾的感受",
+      "body": "你可以想念某個人，然後感到鬆一口氣。你可以笑，也可以哀悼。悲傷則是對立面。"
+    },
+    {
+      "emoji": "🤍",
+      "title": "愛的轉變",
+      "body": "痛苦與愛是分開的。其實是一樣的，只是被轉化了。"
+    }
+  ],
+  "btn_finish": "終點反思",
+  "complete_title": "旅程受尊重",
+  "complete_message": "你不必繼續前進。你只是學會用不同的方式來承擔它。你的旅程獨特、合理且深刻人性。"
+}

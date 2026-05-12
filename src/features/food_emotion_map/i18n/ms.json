@@ -1,0 +1,87 @@
+{
+  "app_title": "Peta Makanan & Emosi",
+  "screen_titles": [
+    "Selamat datang",
+    "Corak Makanan",
+    "Dialog Dalaman",
+    "Penderiaan Fizikal",
+    "Peta",
+    "Sokongan Lembut",
+    "Pandangan Akhir",
+    "Mencerminkan"
+  ],
+  "welcome_text": "Hei... Saya sangat gembira anda berada di sini 💛 Mari kita petakan dengan lembut apa yang sedang berlaku.",
+  "coming_up_label": "Apa yang akan berlaku sejak kebelakangan ini?",
+  "begin_mapping": "Mulakan Pemetaan",
+  "food_patterns_q": "Hmm... Saya dengar awak. Apabila anda berasa {{emotion}}... Bagaimanakah makanan biasanya muncul?",
+  "continue_button": "Teruskan",
+  "internal_dialogue_q": "Pada saat-saat itu... Apakah jenis pemikiran yang muncul?",
+  "write_placeholder": "Tulis apa sahaja yang terlintas di fikiran...",
+  "physical_sensing_q": "Jika anda berhenti sebentar... Apa yang anda perhatikan dalam badan anda?",
+  "the_pattern_label": "Corak",
+  "pattern_desc_1": "Apabila anda berasa {{emotion}}, badan anda berasa {{sensation}}...",
+  "pattern_desc_2": "… dan makanan menjadi cara untuk {{response}}, manakala pemikiran seperti \"{{thought}}\" muncul.",
+  "pattern_footer": "\"Kesedaran corak adalah kebebasan\"",
+  "support_q": "Pada saat-saat itu... Apa yang boleh membantu anda—walaupun sedikit?",
+  "understanding_text": "Anda memahami diri anda dengan lebih baik. Itu lebih daripada cukup 💛",
+  "how_feeling_now": "Bagaimana perasaan anda sekarang?",
+  "preserve_button": "Pemelihara Peta",
+  "preserving": "Memelihara...",
+  "complete_title": "Peta Dipelihara",
+  "complete_message": "Anda telah berjaya memetakan hubungan antara perasaan anda dan makanan. Kesedaran ini adalah alat yang berkuasa untuk perubahan lembut.",
+  "auth_error": "Sesi pengesahan hilang atau DB tidak dikonfigurasikan",
+  "save_success": "Corak dipelihara",
+  "save_error": "Gagal mengekalkan corak",
+  "emotions_list": [
+    "😰 Tekanan",
+    "😢 Kesedihan",
+    "😶 Kebosanan",
+    "😟 Kebimbangan",
+    "🥺 Kesepian",
+    "💭 Sesuatu yang lain..."
+  ],
+  "food_responses": [
+    "🍽️ Saya makan lebih banyak",
+    "🚫 Saya makan kurang",
+    "🍫 Saya mendambakan makanan tertentu",
+    "😣 Saya mengelakkan makanan",
+    "😐 Tiada perubahan sebenar"
+  ],
+  "body_sensations": [
+    "💔 Dada yang ketat",
+    "🪨 Perasaan berat",
+    "🦵 Gelisah / gelisah",
+    "🔋 Tenaga rendah",
+    "🌀 Simpulan di perut",
+    "❓ Sesuatu yang lain..."
+  ],
+  "support_options": [
+    "🗣️ Bercakap dengan seseorang",
+    "☕ Berehat sebentar",
+    "📝 Jurnal",
+    "🌬️ Bernafas",
+    "🎧 Mengalihkan perhatian diri saya"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "Hubungi 💛",
+      "body": "Kadang-kadang perkongsian meringankan sedikit. Mungkin mudah 'hei, bolehkah kita bercakap?'"
+    },
+    "☕ Take a break": {
+      "title": "Jeda 💛",
+      "body": "Jeda kecil boleh membantu menetapkan semula sesuatu. Mungkin menjauhkan diri dan menarik nafas perlahan-lahan."
+    },
+    "📝 Journal": {
+      "title": "Tuliskannya 💛",
+      "body": "Anda boleh mulakan dengan 'sekarang saya rasa...' dan biarkan ia mengalir."
+    },
+    "🌬️ Breathe": {
+      "title": "Bernafas 💛",
+      "body": "Tarik nafas 4... pegang 2... menghembus nafas 6... Mari kita perlahankan bersama-sama."
+    },
+    "🎧 Distract myself": {
+      "title": "Peralihan 💛 lembut",
+      "body": "Gangguan lembut boleh mengalihkan masa ... mungkin sesuatu yang ringan atau mudah."
+    }
+  }
+}

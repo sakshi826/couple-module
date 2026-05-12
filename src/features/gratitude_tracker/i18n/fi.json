@@ -1,0 +1,53 @@
+{
+  "app": {
+    "title": "Kiitollisuuden seuranta",
+    "description": "Seuraa päivittäistä kiitollisuuttasi ja mielialaasi paremman mielenterveyden saavuttamiseksi"
+  },
+  "gratitude": {
+    "heading": "Mistä olet tänään kiitollinen?",
+    "subheading": "Ota hetki pohtiaksesi hyviä asioita, suuria tai pieniä.",
+    "item1": {
+      "label": "Kiitollisuus Kohta 1",
+      "placeholder": "esim. lämmin kuppi teetä tänä aamuna..."
+    },
+    "item2": {
+      "label": "Kiitollisuus Kohta 2",
+      "placeholder": "esim. ystävällinen sana ystävältä..."
+    },
+    "optional": "(valinnainen)"
+  },
+  "common": {
+    "continue": "Jatka"
+  },
+  "mood": {
+    "heading": "Miltä sinusta tuntuu?",
+    "subheading": "Valitse tunnelma, joka parhaiten kuvaa sinua juuri nyt.",
+    "save": "Tallenna kiitollisuus -merkintä",
+    "happy": "Iloinen",
+    "calm": "Rauhoitu",
+    "neutral": "Neutraali",
+    "low": "Matala",
+    "stressed": "Stressaantunut"
+  },
+  "review": {
+    "heading": "Sinun merkintäsi",
+    "date": "Päivämäärä",
+    "gratitude1": "Kiitollisuus 1",
+    "gratitude2": "Kiitollisuus 2",
+    "mood": "Tunnelma",
+    "edit": "Muokkaa merkintää",
+    "history": "Katso historia"
+  },
+  "history": {
+    "heading": "Historia",
+    "back": "Takaisin",
+    "home": "Mene kotiin",
+    "sun": "Aurinko",
+    "mon": "Minun",
+    "tue": "Ti",
+    "wed": "Keskiviikko",
+    "thu": "Syksy",
+    "fri": "Pe",
+    "sat": "Lauanta"
+  }
+}

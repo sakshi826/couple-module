@@ -1,0 +1,236 @@
+{
+  "app_title": "Pembaikan & Sambungkan Semula",
+  "steps": {
+    "welcome": "Selamat datang",
+    "choose_person": "Pilih Orang",
+    "choose_approach": "Pilih Pendekatan",
+    "guided_action": "Tindakan Berpandu",
+    "complete": "Lengkap"
+  },
+  "intro": {
+    "title": "Pembaikan & Sambungkan Semula",
+    "description": "Kemarahan boleh mewujudkan jarak antara kita dan orang yang kita sayangi. Tetapi langkah kecil dan lembut boleh membantu membina semula hubungan itu.",
+    "quote": "\"Pembaikan tidak bermakna anda salah—ini bermakna anda cukup mengambil berat untuk mencuba.\"",
+    "small_efforts": "Malah usaha kecil boleh membuat perbezaan.",
+    "button": "Mulakan →"
+  },
+  "choose_person": {
+    "title": "Dengan siapa anda ingin berhubung semula?",
+    "desc": "Berfikir tentang hubungan tertentu membantu menjadikan langkah-langkah itu terasa nyata.",
+    "options": {
+      "friend": "Seorang kawan",
+      "family": "Ahli Keluarga",
+      "colleague": "Rakan sekerja",
+      "other": "Orang Lain"
+    },
+    "button": "Teruskan →"
+  },
+  "choose_approach": {
+    "title": "Apa yang terasa sesuai untuk anda?",
+    "desc": "Pilih satu langkah kecil yang terasa boleh dilakukan.",
+    "safety": "Anda tidak perlu membetulkan segala-galanya—hanya pilih satu langkah kecil.",
+    "button": "Cuba → ini",
+    "approaches": {
+      "friend": [
+        {
+          "id": "mesej",
+          "label": "Hantar daftar masuk kasual",
+          "emoji": "💬"
+        },
+        {
+          "id": "mengakui",
+          "label": "Akui ketegangan",
+          "emoji": "🫶"
+        },
+        {
+          "id": "jeda",
+          "label": "Beri sedikit ruang antara satu sama lain",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "lepaskan",
+          "label": "Biarkan ia pergi dan teruskan",
+          "emoji": "🍃"
+        },
+        {
+          "id": "mencerminkan",
+          "label": "Renungkan sahaja",
+          "emoji": "🪞"
+        }
+      ],
+      "family": [
+        {
+          "id": "mesej",
+          "label": "Hantar mesej hangat",
+          "emoji": "💬"
+        },
+        {
+          "id": "mengakui",
+          "label": "Namakan apa yang berlaku dengan jujur",
+          "emoji": "🫶"
+        },
+        {
+          "id": "jeda",
+          "label": "Komited untuk berhenti seketika lain kali",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "lepaskan",
+          "label": "Pilih kedamaian daripada menjadi betul",
+          "emoji": "🍃"
+        },
+        {
+          "id": "mencerminkan",
+          "label": "Renungkan apa yang anda perlukan",
+          "emoji": "🪞"
+        }
+      ],
+      "colleague": [
+        {
+          "id": "mesej",
+          "label": "Hantar nota profesional",
+          "emoji": "💬"
+        },
+        {
+          "id": "mengakui",
+          "label": "Tangani dengan hormat",
+          "emoji": "🫶"
+        },
+        {
+          "id": "jeda",
+          "label": "Rancang tindak balas yang lebih tenang lain kali",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "lepaskan",
+          "label": "Pastikan ia profesional dan teruskan",
+          "emoji": "🍃"
+        },
+        {
+          "id": "mencerminkan",
+          "label": "Fikirkan tentang sempadan",
+          "emoji": "🪞"
+        }
+      ],
+      "other": [
+        {
+          "id": "mesej",
+          "label": "Hubungi dengan mesej ringkas",
+          "emoji": "💬"
+        },
+        {
+          "id": "mengakui",
+          "label": "Akui apa yang berlaku",
+          "emoji": "🫶"
+        },
+        {
+          "id": "jeda",
+          "label": "Berhenti sebentar lain kali",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "lepaskan",
+          "label": "Biarkan ia pergi buat masa ini",
+          "emoji": "🍃"
+        },
+        {
+          "id": "mencerminkan",
+          "label": "Hanya renungkan (tiada tindakan lagi)",
+          "emoji": "🪞"
+        }
+      ]
+    }
+  },
+  "guided_action": {
+    "tap_reveal": "Ketik untuk melihat cara ✨",
+    "copy_button": "📋 Salin Mesej",
+    "done_button": "Saya sudah selesai →",
+    "safety_line_default": "Anda tidak perlu menghantar apa-apa sekarang. 💛",
+    "safety_line_pause": "Luangkan masa anda—tidak perlu tergesa-gesa. 💛",
+    "safety_line_reflect": "Ini hanya untuk anda—tiada orang lain yang perlu melihat ini. 💛",
+    "actions": {
+      "message": {
+        "title": "Hantar Mesej Mudah",
+        "why": "Mesej ringkas boleh memecahkan kesunyian dan menunjukkan kepada orang lain bahawa anda masih mengambil berat.",
+        "insight": "Menghulurkan tangan—walaupun tidak sempurna—hampir selalu diterima dengan lebih baik daripada yang kita jangkakan.",
+        "howTitle": "Mulakan kecil",
+        "howBody": "Anda tidak perlu menulis esei. Beberapa perkataan jujur boleh membuka pintu untuk berhubung semula.",
+        "prompts": [
+          "Hei, saya telah memikirkan awak. Harap anda baik-baik saja.",
+          "Saya tahu keadaan tegang—hanya mahu mengatakan bahawa saya peduli.",
+          "Saya minta maaf lebih awal. Bolehkah kita bercakap apabila anda sudah bersedia?"
+        ],
+        "promptLabel": "Pilih titik permulaan:",
+        "editLabel": "Jadikan milik anda:"
+      },
+      "acknowledge": {
+        "title": "Akui Apa yang Berlaku",
+        "why": "Mengakui apa yang berlaku menunjukkan kematangan dan membantu orang lain berasa dilihat.",
+        "insight": "Orang tidak memerlukan anda untuk menjadi sempurna—mereka perlu tahu anda perasan.",
+        "howTitle": "Namakan dengan lembut",
+        "howBody": "Anda boleh mengakui tanpa menyalahkan semua. Namakan sahaja apa yang berlaku dengan jujur.",
+        "prompts": [
+          "Saya tahu keadaan menjadi panas antara kami. Saya mahu anda tahu saya perasan.",
+          "Saya sedar bahawa saya mungkin telah berhadapan dengan kasar. Itu bukan niat saya.",
+          "Saya telah merenung apa yang berlaku, dan saya berharap saya menanganinya secara berbeza."
+        ],
+        "promptLabel": "Pilih titik permulaan:",
+        "editLabel": "Jadikan milik anda:"
+      },
+      "pause": {
+        "title": "Ambil jeda lain kali",
+        "why": "Komited untuk berhenti seketika memberi anda ruang untuk bertindak balas dan bukannya bertindak balas.",
+        "insight": "Jeda 6 saat selalunya cukup untuk beralih daripada tindak balas kepada refleksi.",
+        "howTitle": "🧘 Rancang jeda anda",
+        "howBody": "Fikirkan isyarat mudah—seperti menarik nafas atau menjauhkan diri sebentar—sebelum bertindak balas.",
+        "prompts": [
+          "Lain kali saya berasa kecewa, saya akan menarik nafas dalam-dalam sebelum bertindak balas.",
+          "Saya akan cuba mengatakan 'Beri saya sebentar' dan bukannya bertindak balas dengan segera.",
+          "Saya akan menjauhkan diri selama beberapa minit untuk mengumpul fikiran saya."
+        ],
+        "promptLabel": "Pilih komitmen yang dirasakan betul:",
+        "editLabel": "Tulis niat anda sendiri:"
+      },
+      "letgo": {
+        "title": "Biarkan Ia Pergi Buat Sekarang",
+        "why": "Kadang-kadang perkara paling baik yang boleh anda lakukan ialah melepaskan berat keadaan.",
+        "insight": "Melepaskan tidak berputus asa—ia memilih kedamaian daripada menjadi betul.",
+        "howTitle": "🕊️ Lepaskan perlahan-lahan",
+        "howBody": "Anda tidak perlu lupa. Hanya putuskan bahawa ini tidak perlu mengawal perasaan anda lagi.",
+        "prompts": [
+          "Saya memilih untuk melepaskan ini—bukan kerana ia tidak penting, tetapi kerana kedamaian saya lebih penting.",
+          "Saya melepaskan keperluan untuk betul tentang perkara ini. Saya memilih sambungan.",
+          "Keadaan ini tidak menentukan hubungan kami. Saya bergerak ke hadapan."
+        ],
+        "promptLabel": "Pilih perkara yang bergema:",
+        "editLabel": "Tulis apa yang dirasakan benar untuk anda:"
+      },
+      "reflect": {
+        "title": "Hanya Renungkan",
+        "why": "Refleksi membina kesedaran diri, yang merupakan asas kepada setiap hubungan yang sihat.",
+        "insight": "Menulis jurnal atau memikirkan apa yang berlaku membantu anda memproses emosi tanpa tekanan.",
+        "howTitle": "🔍 Lihat ke dalam",
+        "howBody": "Tanya diri anda: Apa yang sebenarnya saya rasakan di sebalik kemarahan itu? Selalunya ia terluka, ketakutan, atau kekecewaan.",
+        "prompts": [
+          "Di sebalik kemarahan saya, saya rasa saya berasa terluka.",
+          "Saya sedar bahawa saya bertindak balas kerana takut tidak didengari.",
+          "Apa yang saya perlukan ialah berasa dihormati dan dihargai."
+        ],
+        "promptLabel": "Pilih perkara yang bergema:",
+        "editLabel": "Tulis refleksi anda sendiri:"
+      }
+    }
+  },
+  "complete": {
+    "title": "Sambungan Diperbaiki",
+    "message": "Anda telah mengambil langkah berani ke arah membaiki hubungan anda dengan {{person}}. Tindakan kecil dan disengajakan membina jambatan yang berkekalan.",
+    "default_person": "seseorang yang penting"
+  },
+  "toasts": {
+    "save_success": "Kemajuan pembaikan dipelihara",
+    "save_error": "Gagal mengekalkan refleksi",
+    "copy_success": "Mesej disalin!",
+    "preserving": "Memelihara...",
+    "complete_button": "Lengkapkan & Simpan"
+  }
+}

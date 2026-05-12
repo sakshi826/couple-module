@@ -1,0 +1,80 @@
+{
+  "app_title": "Memory Box",
+  "screen_titles": [
+    "Din Boks",
+    "Ære",
+    "Udtrykker",
+    "Bevaret",
+    "Blid pleje"
+  ],
+  "complete_title": "Bevaret hukommelse",
+  "complete_message": "Du har sikkert placeret et minde om {{name}} i din boks. Disse øjeblikke af forbindelse er altid dine at beholde.",
+  "auth_error": "Auth-session mangler eller database ikke konfigureret",
+  "save_success": "Hukommelsen bevaret",
+  "save_error": "Undlod at bevare hukommelsen",
+  "preserving": "Bevare...",
+  "preserve_memory": "Bevar hukommelsen",
+  "welcome": {
+    "title": "Din Hukommelsesboks",
+    "subtitle1": "Et stille sted at huske en, du elsker. 🤍",
+    "subtitle2": "Tag en langsom indånding...",
+    "subtitle3": "… og pust blidt ud.",
+    "subtitle4": "Der er ikke nogen rigtig eller forkert måde at gøre det på.",
+    "subtitle5": "Tag det i dit eget tempo. 🌿",
+    "begin": "Begynd ✨",
+    "later": "Måske senere"
+  },
+  "who": {
+    "placeholder_name": "Skriv deres navn...",
+    "placeholder_relation": "Hvordan kender du dem? (valgfrit)",
+    "categories": [
+      {
+        "label": "Et lykkeligt øjeblik",
+        "emoji": "😊"
+      },
+      {
+        "label": "Noget de plejede at sige",
+        "emoji": "💬"
+      },
+      {
+        "label": "Et lille hverdagsminde",
+        "emoji": "☕"
+      },
+      {
+        "label": "Et sted, der minder dig om dem",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Noget jeg ville ønske, jeg kunne sige",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Fortsæt →"
+  },
+  "expression": {
+    "title": "Udtrykker din hukommelse",
+    "memory_label": "Selve mindet",
+    "memory_placeholder": "Skriv om øjeblikket, følelsen eller detaljen, du gerne vil beholde...",
+    "message_label": "En besked til dem (valgfrit)",
+    "message_placeholder": "Hvad ville du sige, hvis du kunne tale med dem lige nu?",
+    "save": "Bevar hukommelsen",
+    "skip": "Spring over for nu",
+    "back": "Tilbage"
+  },
+  "box": {
+    "title": "Sikkert gemt væk",
+    "subtitle": "Dette minde om {{name}} er nu en del af din samling.",
+    "add_another": "Tilføj et andet minde",
+    "finish": "Afsluttende refleksion"
+  },
+  "closing": {
+    "title": "At tage sig af",
+    "subtitle": "Lukker din kasse for nu. Du kan vende tilbage hertil, når som helst du har brug for at føle dig tæt på disse minder.",
+    "exit": "Lukkeboks"
+  },
+  "history": {
+    "title": "Indhold i æsken",
+    "no_memories": "Din kasse er tom. Tilføj dit første minde for at begynde din samling.",
+    "search_placeholder": "Søg minder..."
+  }
+}

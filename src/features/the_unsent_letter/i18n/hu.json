@@ -1,0 +1,50 @@
+{
+  "app_title": "A nem küldött levél",
+  "app_subtitle": "Engedd el a gondolataidat biztonságosan és privátban",
+  "intro": {
+    "title": "A nem küldött levél",
+    "description": [
+      "Néha vannak dolgok, amiket szeretnénk kimondani — de soha nem volt rá lehetőségünk.",
+      "Lehet, hogy azért, mert nem érezte magát biztonságosnak, az időzítés nem volt megfelelő, vagy a szavakat túl nehéz volt kimondani.",
+      "Ez a tevékenység privát teret ad, hogy ezeket a gondolatokat szavakba önthesd.",
+      "Nem kell ezt a levelet elküldened. Ez csak neked szól — hogy jobban kifejezd, elengedd és megértsd az érzéseidet."
+    ],
+    "notice": "Írj szabadon. Senki más nem fogja látni ezt.",
+    "button": "Kezdj el írni →"
+  },
+  "writing": {
+    "title": "Írd meg, amit eddig magadban tartottál",
+    "desc": "Írhatsz a partnerednek, az expartnerednek, vagy akár magának a kapcsolatnak. Nincs helyes vagy rossz módja ennek.",
+    "prompts": [
+      "Úgy érzem...",
+      "Szeretném...",
+      "Sosem mondtam...",
+      "Mi fájt nekem...",
+      "Amire szükségem volt..."
+    ],
+    "placeholder": "Kedves ____,\nMár régóta szeretném mondani...",
+    "notice": "Bármikor megállhatsz és visszatérhetsz.",
+    "button": "Folytasd →"
+  },
+  "reflection": {
+    "title": "Szánj egy pillanatot ezzel",
+    "description": [
+      "Most fejezted ki a gondolataidat és érzéseidet szavakká — ehhez bátorság kell.",
+      "Lehet, hogy most érzelmek vegyes keverékét veszed észre, és ez teljesen rendben van.",
+      "Mielőtt továbblépnél, vegyél egy mély levegőt, és óvatosan nézd meg magad."
+    ],
+    "notice": "Ez a gyógyulásod miatt volt, nem azért, hogy küldj.",
+    "save_button": "Mentse betűt",
+    "finish_button": "Befejezés"
+  },
+  "history": {
+    "title": "Korábbi levelek",
+    "empty_title": "Még nem írtál levelet.",
+    "empty_desc": "A leveleid itt jelennek meg, miután megmented őket."
+  },
+  "toasts": {
+    "save_success": "Levél elmentve a magánnaplódba",
+    "save_error": "Nem sikerült menteni a levelet",
+    "auth_error": "Hitelesítési alkalom hiányzik vagy adatbázis nincs konfigurálva"
+  }
+}

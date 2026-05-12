@@ -1,0 +1,93 @@
+{
+  "app_title": "Przewidywanie kontra rzeczywistość",
+  "step_label": "Krok {{current}} z 8",
+  "intro": {
+    "title": "Przewidywanie kontra rzeczywistość",
+    "description": "Porównaj swoje niepokojowe przewidywania z tym, co faktycznie się dzieje, aby zbudować bardziej zrównoważoną perspektywę.",
+    "benefits": [
+      "Zidentyfikuj wzorce lękowe",
+      "Zbieranie dowodów przeciwko obawom",
+      "Ogranicz nadmierne myślenie o przyszłości"
+    ],
+    "duration": "4-5 minut",
+    "view_past": "Zobacz przeszłe refleksje"
+  },
+  "history": {
+    "title": "Refleksje z przeszłości",
+    "no_reflections": "Odbicia jeszcze nie zapisane.",
+    "prediction_label": "Przewidywanie",
+    "reality_label": "Rzeczywistość",
+    "reflection_label": "Refleksja:"
+  },
+  "complete": {
+    "title": "Aktywność zakończona",
+    "saved_title": "Zachowano odbicie",
+    "message": "Patrząc na fakty, pomagasz umysłowi nauczyć się, że często jest łatwiej sobie z tym poradzić, niż się wydaje."
+  },
+  "emotions": [
+    "Niespokojny",
+    "Nerwowy",
+    "Przestraszony",
+    "Przytłoczony",
+    "Niespokojny"
+  ],
+  "intensity_labels": {
+    "not_intense": "Nie jest intensywnie",
+    "very_intense": "Bardzo intensywne"
+  },
+  "comparison_options": [
+    "Wyszło niemal dokładnie tak, jak się spodziewałem",
+    "Niektóre części były słuszne, ale nie wszystkie",
+    "Było to zupełnie inne niż się spodziewałem",
+    "Było dużo łatwiejsze i lepsze, niż sobie wyobrażałem"
+  ],
+  "screens": {
+    "s1": {
+      "title": "Pomyśl o niedawnej sytuacji",
+      "desc": "Przypomnij sobie ostatni moment, gdy czułaś się niespokojna lub niepewna.",
+      "placeholder": "Opisz sytuację..."
+    },
+    "s2": {
+      "title": "Co myślałeś, że się stanie?",
+      "desc": "Czego się spodziewałeś lub czego się obawiałeś w tamtej chwili?",
+      "placeholder": "Martwiłem się, że..."
+    },
+    "s3": {
+      "title": "Jak się czułeś?",
+      "desc": "Wybierz emocje, które odczuwałeś, i ich intensywność."
+    },
+    "s4": {
+      "title": "Co tak naprawdę się stało?",
+      "desc": "Skup się na faktach dotyczących tego, co naprawdę się wydarzyło.",
+      "placeholder": "W rzeczywistości..."
+    },
+    "s5": {
+      "title": "Przyjrzyjmy się obu",
+      "expectation": "Oczekiwania",
+      "reality": "Rzeczywistość",
+      "question": "Jak blisko były twoje oczekiwania?"
+    },
+    "s6": {
+      "title": "Co zauważasz?",
+      "desc": "Czy było tak źle, jak myślałeś?",
+      "placeholder": "Zauważyłem, że..."
+    },
+    "s7": {
+      "title": "Następnym razem",
+      "desc": "Co mógłbyś sobie przypomnieć, jeśli to się powtórzy?",
+      "placeholder": "np. \"Może nie będzie tak źle, jak sobie wyobrażam.\""
+    },
+    "s8": {
+      "title": "Małe przypomnienie",
+      "desc": "Twój umysł próbuje cię przygotować — ale nie zawsze przewiduje dokładnie. Za każdym razem, gdy zatrzymujesz się, by przyjrzeć się faktom, budujesz odporność.",
+      "button": "Zachowaj odbicie",
+      "discard": "Wejście do odrzucenia"
+    }
+  },
+  "buttons": {
+    "continue": "Kontynuuj"
+  },
+  "toasts": {
+    "saved": "Odbicie zapisane!"
+  }
+}

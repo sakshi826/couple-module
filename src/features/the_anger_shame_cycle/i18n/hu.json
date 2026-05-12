@@ -1,0 +1,72 @@
+{
+  "app_title": "Harag-szégyen ciklus",
+  "app_subtitle": "A hurok megértése • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Miért tér vissza a harag folyton?",
+      "description": "Lehet, hogy nem a te dühséged. Van egy rejtett kör a harag és a szégyen között — és ha egyszer meglátod, minden megváltozik.",
+      "quote": "\"A legtöbben próbálják helyrehozni a haragot. De a szégyen az, ami csendben tartja életben.\"",
+      "button": "Nézzük meg a részleteket"
+    },
+    "s2": {
+      "tag": "A ciklus",
+      "title": "A kör magyarázatot adott",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Düh felszínre tör"
+        },
+        {
+          "emoji": "😔",
+          "label": "Szégyen: \"Rossz vagyok\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "Szégyen eltemetik"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Düh újra kitör"
+        }
+      ],
+      "button": "Látom"
+    },
+    "s3": {
+      "tag": "Mi történik",
+      "title": "Két érzelem, egy csapda",
+      "anger": {
+        "title": "🔥 Harag",
+        "desc": "Egy másodlagos érzelem — az élet alatt, amely fájdalom, félelem vagy elutasítás van. A riasztó a gond, nem a tűz."
+      },
+      "shame": {
+        "title": "😔 Szégyen",
+        "desc": "\"Rossz vagyok\" — nem csak \"valami rosszat tettem.\" Elrejtőzik, elnémítja, és forog a körforgást."
+      },
+      "button": "Szabadulás"
+    },
+    "s4": {
+      "tag": "Megszakítás",
+      "title": "Megszakítsd a ciklust",
+      "steps": [
+        {
+          "title": "Nevezze meg a forrást",
+          "desc": "Kérdezd: 'Mit érzek valójában?' Fájt? Félsz? Láthatatlan? A név meggyengíti."
+        },
+        {
+          "title": "Együttérzés szünet",
+          "desc": "Kéz a mellkason. Mondd: 'Ez nehéz. Ember vagyok. Át tudom vészelni ezt.'"
+        },
+        {
+          "title": "Javítás kegyelemmel",
+          "desc": "Ha kell, jóváteheted a hibákat — de ne ess bele a spirálba. Nem vagy a legrosszabb pillanatod."
+        }
+      ],
+      "notice": "A ciklus észlelése már az első lépés. Te végzed a munkát.",
+      "button": "Teljes tevékenység"
+    }
+  },
+  "complete": {
+    "title": "Megszakított ciklus",
+    "message": "Tudatossá tetted arra, hogy meglásd a harag és a szégyen közötti kapcsolatot. Ez az alapja a tartós érzelmi szabadságnak."
+  }
+}

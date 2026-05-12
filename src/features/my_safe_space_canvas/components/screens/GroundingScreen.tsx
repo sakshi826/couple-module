@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import type { SavedCollage } from '../SafePlaceApp';
 
 interface Props {
@@ -7,16 +8,13 @@ interface Props {
   onClose: () => void;
 }
 
-const DURATIONS = [
-  { label: '1 min', seconds: 60 },
-  { label: '3 min', seconds: 180 },
-  { label: '5 min', seconds: 300 },
-];
-
-const PHASES = ['Breathe in', 'Hold', 'Let go'];
 const PHASE_DURATIONS = [4000, 4000, 6000]; // ms
 
 const GroundingScreen: React.FC<Props> = ({ collage, onClose }) => {
+  const { t } = useTranslation();
+  const DURATIONS = t("grounding.durations", { returnObjects: true }) as any[];
+  const PHASES = t("grounding.phases", { returnObjects: true }) as string[];
+
   const [selectedDuration, setSelectedDuration] = useState(1); // index
   const [isActive, setIsActive] = useState(false);
   const [isDone, setIsDone] = useState(false);
@@ -34,7 +32,7 @@ const GroundingScreen: React.FC<Props> = ({ collage, onClose }) => {
     }, duration);
 
     return () => { if (timerRef.current) clearTimeout(timerRef.current); };
-  }, [selectedDuration]);
+  }, [selectedDuration, DURATIONS]);
 
   // Phase cycling
   useEffect(() => {
@@ -84,8 +82,8 @@ const GroundingScreen: React.FC<Props> = ({ collage, onClose }) => {
       </button>
 
       {/* Header */}
-      <h1 className="font-lora font-semibold text-xl mt-6 mb-1" style={{ color: '#2C2C2A' }}>
-        You're here. You're safe.
+      <h1 className="font-lora font-semibold text-xl mt-6 mb-1 text-center" style={{ color: '#2C2C2A' }}>
+        {t("grounding.title")}
       </h1>
       <p className="font-inter text-[13px] mb-4" style={{ color: '#888780' }}>
         {collage.name}
@@ -134,12 +132,12 @@ const GroundingScreen: React.FC<Props> = ({ collage, onClose }) => {
       </div>
 
       <p className="font-inter text-xs mb-6" style={{ color: '#888780' }}>
-        4 · hold · 4 · let go · 6
+        {t("grounding.breathe_info")}
       </p>
 
       {/* Duration pills */}
       <div className="flex gap-2 mb-6">
-        {DURATIONS.map((d, i) => (
+        {Array.isArray(DURATIONS) && DURATIONS.map((d, i) => (
           <button
             key={d.label}
             onClick={() => handleDurationChange(i)}
@@ -165,7 +163,7 @@ const GroundingScreen: React.FC<Props> = ({ collage, onClose }) => {
             className="font-lora italic text-sm text-center"
             style={{ color: '#3B6D11' }}
           >
-            Well done for showing up for yourself today.
+            {t("grounding.done_message")}
           </motion.p>
         )}
       </AnimatePresence>

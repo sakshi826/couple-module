@@ -1,0 +1,21 @@
+{
+  "app_title": "Søvnguide",
+  "app_subtitle": "Forståelse af søvnangst",
+  "tag": "Psykoedukation",
+  "screen1": {
+    "intro": "Jo hårdere du prøver, jo sværere bliver det.",
+    "title": "At prøve at tvinge sig selv til at sove er præcis det, der holder dig vågen.",
+    "p1": "Du lægger dig ned, lukker øjnene — og din hjerne tænder. Afspiller samtaler igen. Holder øje med uret.",
+    "p2": "Det er ikke en svaghed. Det er et fænomen kaldet <1>søvnangst</1> — og det påvirker millioner af mennesker.",
+    "quote": "\"Søvnangst handler ikke om ikke at være træt. Det handler om, at dit nervesystem sidder fast i 'tændt'-tilstand.\"",
+    "button": "Læs mere"
+  },
+  "screen2": {
+    "intro": "Her er videnskaben bag det.",
+    "title": "Din hjerne har lært at behandle din seng som et sted for stress – ikke som hvile.",
+    "p1": "Din amygdala — hjernens trusselsdetektor — forbliver aktiveret om natten og signalerer fare i det øjeblik, dit hoved rammer puden.",
+    "p2": "Dette kaldes <1>betinget ophidselse</1> — det forklarer, hvorfor du føler dig udmattet hele dagen, men alligevel helt vågen ved sengetid.",
+    "quote": "\"Din hjerne er ikke ødelagt. Den har simpelthen lært den forkerte lektie om sengetid — og den kan læres igen.\"",
+    "button": "Forrige skridt"
+  }
+}

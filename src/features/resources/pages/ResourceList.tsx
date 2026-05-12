@@ -1,10 +1,11 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Sparkles, ChevronRight, BookOpen, Heart, Newspaper, HelpCircle, ArrowLeft } from 'lucide-react';
+import { ChevronRight, BookOpen, Heart, Newspaper, HelpCircle } from 'lucide-react';
 import { PremiumLayout } from '../../../components/shared/PremiumLayout';
 import sampleData from '../data/sample_data.json';
 import { Resource } from '../types';
+import { useTranslation } from 'react-i18next';
 
 const ICON_MAP: Record<string, any> = {
   tips: Heart,
@@ -21,6 +22,7 @@ const COLOR_MAP: Record<string, string> = {
 };
 
 const ResourceList = () => {
+  const { t } = useTranslation();
   const { concern, type } = useParams<{ concern: string; type: string }>();
   const navigate = useNavigate();
   
@@ -34,8 +36,6 @@ const ResourceList = () => {
   return (
     <PremiumLayout title={title}>
       <div className="w-full space-y-12 pb-24">
-
-
         <div className="grid gap-6">
           {resources.length > 0 ? (
             resources.map((res: Resource, i: number) => (
@@ -73,8 +73,8 @@ const ResourceList = () => {
                 <Icon size={80} strokeWidth={1} />
               </div>
               <div className="space-y-1">
-                <p className="text-slate-900 font-black text-lg">No {type} available</p>
-                <p className="text-slate-400 font-bold text-sm">We're currently curating more resources for this topic.</p>
+                <p className="text-slate-900 font-black text-lg">{t('list.empty_title', { type })}</p>
+                <p className="text-slate-400 font-bold text-sm">{t('list.empty_desc')}</p>
               </div>
             </div>
           )}
@@ -82,7 +82,7 @@ const ResourceList = () => {
 
         <footer className="pt-12 text-center">
             <p className="text-[10px] font-black text-slate-300 uppercase tracking-[0.3em]">
-                Mantra Care • Evidence Based Resources
+                {t('list.footer')}
             </p>
         </footer>
       </div>

@@ -1,0 +1,43 @@
+{
+  "vibeTracker": "Vibe Tracker",
+  "howAreYouFeeling": "Cum te simți în acest moment?",
+  "describeOwnVibe": "Sau descrie-ți propria vibrație",
+  "rightNowIFeel": "Acum simt...",
+  "saveVibe": "Save Vibe",
+  "pauseAndReflect": "Pauză și reflecție",
+  "typeThoughts": "Scrie-ți gândurile aici...",
+  "submitReflection": "Trimite reflecție",
+  "next": "Următorul",
+  "vibeLogged": "Vibe înregistrat",
+  "thankYou": "Mulțumesc că ai făcut o pauză și ai observat. Chiar și această mică verificare contează.",
+  "done": "Gata",
+  "today": "Astăzi",
+  "yesterday": "Ieri",
+  "viewHistory": "Vezi istoric",
+  "history": "Istoric",
+  "yourJourney": "Călătoria ta",
+  "noVibes": "Nu am înregistrat încă vibrații",
+  "startFirstCheckIn": "Începe primul tău check-in pentru a-ți vedea călătoria desfășurându-se aici.",
+  "vibes": {
+    "Calm": "Calm",
+    "Light": "Lumină",
+    "Driven": "Condus",
+    "Content": "Conținut",
+    "Steady": "Stabil",
+    "Tender": "Tender",
+    "Heavy": "Greu",
+    "Thoughtful": "Atent",
+    "Restless": "Neliniștit",
+    "Drained": "Drenat"
+  },
+  "prompts": {
+    "needing": "Ce ai putea avea nevoie acum?",
+    "happened": "Ce s-a întâmplat înainte ca acest sentiment să apară?",
+    "speak": "Dacă această emoție ar putea vorbi, ce ar spune?",
+    "notice": "Unde observi această senzație în corpul tău?",
+    "sitOrShift": "Este ceva cu care vrei să stai sau să muți ușor?",
+    "ease": "Ce ți-ar aduce măcar cu 10% mai multă ușurință?",
+    "kindness": "Ce mică bunătate ți-ai putea oferi astăzi?",
+    "supported": "Ce te-ar ajuta să te simți susținută în acest moment?"
+  }
+}

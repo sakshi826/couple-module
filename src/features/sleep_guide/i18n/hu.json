@@ -1,0 +1,21 @@
+{
+  "app_title": "Alvási útmutató",
+  "app_subtitle": "Az alvási szorongás megértése",
+  "tag": "Pszichooktató",
+  "screen1": {
+    "intro": "Minél keményebben próbálkozol, annál nehezebb lesz.",
+    "title": "Éppen az, ami ébren tart, az, hogy rákényszeríted magad az alvásra.",
+    "p1": "Lefekszel, becsukodsz a szemed — és az agyad bekapcsol. Újra játszom a beszélgetéseket. Az órát nézem.",
+    "p2": "Ez nem gyengeség. Ez egy jelenség, amit <1>alvási szorongás</1> hívnak — és milliókat érint.",
+    "quote": "\"Az alvási szorongás nem arról szól, hogy ne vagy fáradt. Arról szól, hogy az idegrendszered 'bekapcsolt' üzemmódban ragadt.\"",
+    "button": "További információk"
+  },
+  "screen2": {
+    "intro": "Íme a mögötte álló tudomány.",
+    "title": "Az agyad megtanulta, hogy az ágyat stresszforrásként kezelje – nem pihenésként.",
+    "p1": "Az amigdalád — az agy fenyegetésérzékelője — éjszaka aktiválódik, jelezve a veszélyt, amint a fejed a párnának ér.",
+    "p2": "Ezt hívják <1>kondicionált izgalmnak</1> — ez magyarázza, miért érzed magad egész nap kimerültnek, mégis lefekvés előtt teljesen ébren vagy.",
+    "quote": "\"Az agyad nem sérült meg. Egyszerűen csak rossz leckét tanult az alvásidőről — és vissza lehet állítani.\"",
+    "button": "Előző lépés"
+  }
+}

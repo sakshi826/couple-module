@@ -1,0 +1,39 @@
+{
+  "app_title": "Parcours du deuil",
+  "app_subtitle": "La carte de la perte • {{current}}/{{total}}",
+  "screen1_title": "Tu ne fais pas ton deuil de travers",
+  "screen1_desc": "Le deuil n’arrive pas par étapes nettes et ne part pas à l’heure prévue. Il s’effondre, recule, et revient quand on s’y attend le moins. Ce n’est pas un défaut chez vous — c’est du deuil.",
+  "screen1_quote": "« Il n’y a pas de bonne façon de faire son deuil. Il n’y a que ta voie. »",
+  "btn_tell_more": "Raconte-moi plus",
+  "screen2_tag": "La vraie image",
+  "screen2_title": "Le chagrin porte de nombreux visages",
+  "screen2_desc": "C’est à ça que les gens s’attendent à ce deuil — par rapport à ce qu’il est réellement.",
+  "expectation_label": "L’Attente",
+  "reality_label": "La réalité",
+  "expectation_desc": "Linéaire • Prévisible • Clair",
+  "reality_desc": "Chaotique • Boucle • Humain",
+  "screen2_quote": "« Aucune de ces vagues n’est mausse. Tous sont du deuil. »",
+  "btn_one_more": "Encore une chose",
+  "screen3_tag": "Douces vérités",
+  "screen3_title": "Ça vaut la peine de le savoir",
+  "truths": [
+    {
+      "emoji": "🗓️",
+      "title": "Pas de date limite",
+      "body": "Il n’y a pas de date d’expiration pour la perte. Le ressentir des mois ou des années plus tard ne signifie pas que vous êtes coincé — cela signifie que vous avez aimé."
+    },
+    {
+      "emoji": "🌗",
+      "title": "Sentiments contradictoires",
+      "body": "On peut regretter quelqu’un et se sentir soulagé. On peut rire et faire son deuil. Le deuil a des opposés."
+    },
+    {
+      "emoji": "🤍",
+      "title": "La transformation de l’amour",
+      "body": "La douleur n’est pas séparée de l’amour. C’est la même chose, transformée."
+    }
+  ],
+  "btn_finish": "Réflexion de finition",
+  "complete_title": "Voyage honoré",
+  "complete_message": "Tu n’es pas obligé d’avancer. On apprend juste à le porter différemment. Votre parcours est unique, valide et profondément humain."
+}

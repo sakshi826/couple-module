@@ -1,0 +1,80 @@
+{
+  "app_title": "Numește-ți mintea",
+  "intro": {
+    "title": "Cunoaște-ți mintea",
+    "description": "Învață să te distanțezi de gândurile copleșitoare dându-i vocii tale interioare un nume.",
+    "benefits": [
+      "Creează distanță mentală",
+      "Reduce puterea gândurilor dure",
+      "Observă gândurile fără să fii ele"
+    ],
+    "duration": "2-3 minute",
+    "view_past": "Vezi înscrierile anterioare"
+  },
+  "history": {
+    "title": "Înscrieri anterioare",
+    "no_entries": "Încă nu există înscrieri.",
+    "reflection_label": "Reflecție: {{text}}"
+  },
+  "complete": {
+    "title": "Activitate completă",
+    "great_job": "Bravo!",
+    "message": "Ai reușit să-ți numești mintea și să creezi un spațiu între tine și gândurile tale.",
+    "footer": "Amintește-ți: nu trebuie să crezi fiecare gând pe care mintea ta ți-l transmite."
+  },
+  "subtitles": {
+    "concept": "Perspectivă",
+    "input_thought": "Notificare",
+    "input_name": "Nume",
+    "practice": "Practică"
+  },
+  "screens": {
+    "concept": {
+      "title": "O mică schimbare",
+      "example": "\"Nu sunt suficient de bun\"",
+      "desc": "Când apare un gând, de multe ori pare că este <0>tu< 0>. Dar ce-ar fi dacă ai putea face un pas înapoi și să <o 1>observați</1> în schimb?"
+    },
+    "input_thought": {
+      "title": "Să începem cu o idee reală",
+      "desc": "Care este un gând care te-a frământat în ultima vreme?",
+      "placeholder": "Scrie-l exact așa cum îți vine în minte..."
+    },
+    "input_name": {
+      "title": "Creează o oarecare distanță",
+      "desc": "Dă-i minții tale un nume care să te ajute să te separi de aceste gânduri.",
+      "placeholder": "Sau scrie-ți propriul...",
+      "examples": [
+        "Criticul",
+        "Gânditor excesiv",
+        "Worry FM",
+        "Mașina de gândire excesivă",
+        "Criticul interior",
+        "Generatorul de \"Ce-ar fi dacă\"",
+        "Regizor de dramă"
+      ]
+    },
+    "practice": {
+      "title": "Încearcă această schimbare",
+      "instead_of": "În loc de",
+      "try_saying": "Încearcă să spui",
+      "is_telling_me": "{{name}} îmi spune:",
+      "guide": "Repetă ușor această propoziție de 4–5 ori, în ritmul tău.",
+      "button": "Sunt gata"
+    },
+    "reflection": {
+      "title": "Ce ai observat?",
+      "desc": "Cum s-a simțit acest gând după ce i-a dat un nume?",
+      "options": [
+        "Gândul părea puțin mai puțin intens decât înainte",
+        "Simțeam că am o oarecare distanță față de acest gând",
+        "Se simțea la fel de puternic ca înainte",
+        "Nu sunt sigur ce s-a schimbat, dacă s-a schimbat ceva."
+      ],
+      "button": "Reflecție completă"
+    }
+  },
+  "buttons": {
+    "continue": "Continuă",
+    "restart": "Repornire"
+  }
+}

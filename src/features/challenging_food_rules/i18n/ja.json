@@ -1,0 +1,56 @@
+{
+  "app_title": "食事ルールへの挑戦",
+  "welcome_title": "食のルールは法律ではありません。",
+  "welcome_subtitle": "私たちは皆、食べ物に関するルールを持っています。役に立つものもあれば、そうでないものもあります。ここは一つのルールに気づき、それを優しく振り返る安全な場所です。",
+  "begin_button": "始めましょう",
+  "screen_titles": {
+    "intro": "優しい気配",
+    "identify": "ルールの命名",
+    "feeling": "感情的な影響",
+    "impact": "物理的影響",
+    "challenge": "ソフトチャレンジ",
+    "permission": "許可を与える",
+    "step": "優しいステップ",
+    "takeaway": "概要",
+    "close": "反省"
+  },
+  "rule_label": "ルールの命名",
+  "rule_question": "ルールは?",
+  "rule_options": [
+    "一定の時間以降は食べない方がいい",
+    "一部の食品は禁止されています",
+    "私は量を厳密にコントロールする必要があります"
+  ],
+  "rule_something_else": "何か別のもの...",
+  "rule_placeholder": "食事ルールを入力してください...",
+  "feeling_label": "感情的な影響",
+  "feeling_question": "この感覚はどうですか?",
+  "feeling_options": [
+    "😟 不安",
+    "😌 コントロール中",
+    "😕 有罪",
+    "😣 制限付き",
+    "😴 疲れている",
+    "😐 混合"
+  ],
+  "challenge_label": "ソフトチャレンジ",
+  "challenge_question": "優しく問いかけ...",
+  "reflections": {
+    "Is this rule too strict?": "これは柔軟に感じますか?それとも完璧に従わなければならないプレッシャーを感じますか?",
+    "Is this actually helping me?": "このルールはあなたの幸福感を支えていますか?それともストレスや罪悪感を増やしますか?",
+    "What happens when I can't follow it?": "このルールが計画通りにいかないとき、何に気づきますか?"
+  },
+  "reflection_saved": "リフレクション・セーブド",
+  "your_reflection": "あなたの反射",
+  "label_rule": "ルール",
+  "label_feeling": "その感覚",
+  "preserve_button": "反射を保存する",
+  "preserving": "保存...",
+  "continue_button": "続けてください",
+  "next_button": "次",
+  "complete_title": "認知度の向上",
+  "complete_message": "意識は自由への第一歩です。あなたは食べ物のルールを特定し、振り返る勇気ある一歩を踏み出しました。この優しい理解を今日も胸に持っていきましょう。",
+  "auth_error": "認証セッションが欠如しているか、データベースが設定されていない",
+  "save_success": "反射が保存されている",
+  "save_error": "反射を保存できなかった"
+}

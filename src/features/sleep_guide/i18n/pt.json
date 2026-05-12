@@ -1,0 +1,21 @@
+{
+  "app_title": "Guia do Sono",
+  "app_subtitle": "Entendendo a ansiedade do sono",
+  "tag": "Psicoeducação",
+  "screen1": {
+    "intro": "Quanto mais você se esforça, mais difícil fica.",
+    "title": "Tentar se forçar a dormir é exatamente o que te mantém acordado.",
+    "p1": "Você se deita, fecha os olhos — e seu cérebro liga. Revivendo conversas. Olhando o relógio.",
+    "p2": "Isso não é uma fraqueza. É um fenômeno chamado <1>ansiedade do sono</1> — e afeta milhões de pessoas.",
+    "quote": "\"Ansiedade de sono não é sobre não estar cansado. É sobre seu sistema nervoso estar preso no modo 'ligado'.\"",
+    "button": "Saiba mais"
+  },
+  "screen2": {
+    "intro": "Aqui está a ciência por trás disso.",
+    "title": "Seu cérebro aprendeu a tratar sua cama como um lugar de estresse — não de descanso.",
+    "p1": "Sua amígdala — o detector de ameaças do cérebro — permanece ativada à noite, sinalizando perigo no momento em que sua cabeça toca o travesseiro.",
+    "p2": "Isso é chamado de excitação <1>condicionada</1> — explica por que você se sente exausto o dia todo, mas totalmente acordado na hora de dormir.",
+    "quote": "\"Seu cérebro não está quebrado. Simplesmente aprendeu a lição errada sobre a hora de dormir — e pode ser ensinada novamente.\"",
+    "button": "Etapa Anterior"
+  }
+}

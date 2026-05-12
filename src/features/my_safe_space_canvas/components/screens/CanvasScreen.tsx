@@ -1,41 +1,12 @@
-import React, { useEffect, useRef, useState, useCallback, MutableRefObject } from 'react';
+import { useEffect, useRef, useState, useCallback, MutableRefObject } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { fabric } from 'fabric';
-
-const PROMPTS = [
-  {
-    quote: "What does the sky look like in your safe place? Draw its colour, light, or feeling.",
-    button: "I've added the sky →",
-    hint: "There's no right way — any mark is enough.",
-  },
-  {
-    quote: "What does the ground feel like? Grass, sand, water, a wooden floor? Add it below the sky.",
-    button: "I've added the ground →",
-    hint: "Think about what your feet feel in this place.",
-  },
-  {
-    quote: "Add one thing that belongs here — a tree, a chair, a window, a pet, a lamp. Anything that feels right.",
-    button: "I've added something →",
-    hint: "It doesn't have to look perfect. It just has to feel true.",
-  },
-  {
-    quote: "What brings warmth or comfort to this place? A light, a fire, sunlight, a blanket? Add it wherever it feels right.",
-    button: "I've added the warmth →",
-    hint: "Even a small dot of colour counts.",
-  },
-  {
-    quote: "Finally — add 3 to 5 words that belong here. Tap your drawing to place them anywhere.",
-    button: "These are my words →",
-    hint: "",
-  },
-];
+import { useTranslation } from 'react-i18next';
 
 const COLORS = [
   '#CBE4F7', '#FAC775', '#97C459', '#7A5C38', '#ED93B1',
   '#F9A234', '#9FE1CB', '#2C2C2A', '#FFFFFF', '#D4A574', '#E74C3C',
 ];
-
-const WORD_CHIPS = ['Peace', 'Home', 'Heaven', 'Calm', 'Warm', 'Enough', 'Gentle', 'Safe'];
 
 type Tool = 'brush' | 'shape' | 'text';
 
@@ -47,6 +18,7 @@ interface Props {
 }
 
 const CanvasScreen: React.FC<Props> = ({ promptIndex, canvasRef, onNext, onFinish }) => {
+  const { t } = useTranslation();
   const canvasElRef = useRef<HTMLCanvasElement>(null);
   const [tool, setTool] = useState<Tool>('brush');
   const [color, setColor] = useState('#2C2C2A');
@@ -57,6 +29,9 @@ const CanvasScreen: React.FC<Props> = ({ promptIndex, canvasRef, onNext, onFinis
   const [placedChips, setPlacedChips] = useState<Set<string>>(new Set());
   const [customWord, setCustomWord] = useState('');
   const colorInputRef = useRef<HTMLInputElement>(null);
+
+  const PROMPTS = t("canvas.prompts", { returnObjects: true }) as any[];
+  const WORD_CHIPS = t("canvas.word_chips", { returnObjects: true }) as string[];
 
   // Initialize canvas once
   useEffect(() => {
@@ -128,7 +103,7 @@ const CanvasScreen: React.FC<Props> = ({ promptIndex, canvasRef, onNext, onFinis
     const handler = (opt: fabric.IEvent<MouseEvent>) => {
       if ((opt.target as any)) return;
       const pointer = canvas.getPointer(opt.e);
-      const text = new fabric.IText('Type here', {
+      const text = new fabric.IText(t("canvas.type_here"), {
         left: pointer.x,
         top: pointer.y,
         fontFamily: 'Lora',
@@ -143,7 +118,7 @@ const CanvasScreen: React.FC<Props> = ({ promptIndex, canvasRef, onNext, onFinis
 
     canvas.on('mouse:down', handler);
     return () => { canvas.off('mouse:down', handler); };
-  }, [tool, canvasRef]);
+  }, [tool, canvasRef, t]);
 
   // Auto-select text tool on prompt 5
   useEffect(() => {
@@ -176,8 +151,10 @@ const CanvasScreen: React.FC<Props> = ({ promptIndex, canvasRef, onNext, onFinis
     setPlacedChips(prev => new Set(prev).add(word));
   }, [canvasRef]);
 
-  const prompt = PROMPTS[promptIndex];
+  const prompt = Array.isArray(PROMPTS) ? PROMPTS[promptIndex] : null;
   const isLast = promptIndex === 4;
+
+  if (!prompt) return null;
 
   return (
     <div className="flex flex-col" style={{ minHeight: 600 }}>
@@ -349,7 +326,7 @@ const CanvasScreen: React.FC<Props> = ({ promptIndex, canvasRef, onNext, onFinis
             {/* Word chips for prompt 5 */}
             {promptIndex === 4 && (
               <div className="flex flex-wrap justify-center gap-2 mb-3">
-                {WORD_CHIPS.map(w => (
+                {Array.isArray(WORD_CHIPS) && WORD_CHIPS.map(w => (
                   <button
                     key={w}
                     onClick={() => placeWord(w)}
@@ -368,7 +345,7 @@ const CanvasScreen: React.FC<Props> = ({ promptIndex, canvasRef, onNext, onFinis
                     type="text"
                     value={customWord}
                     onChange={e => setCustomWord(e.target.value)}
-                    placeholder="+ your own"
+                    placeholder={t("canvas.custom_word_placeholder")}
                     className="font-inter text-xs px-3 py-1.5 rounded-full w-24 outline-none"
                     style={{ border: '0.5px solid #D3D1C7' }}
                     onKeyDown={e => {
@@ -401,7 +378,7 @@ const CanvasScreen: React.FC<Props> = ({ promptIndex, canvasRef, onNext, onFinis
               className="w-full text-center font-inter text-xs mt-1 hover:underline transition-colors"
               style={{ color: '#B4B2A9' }}
             >
-              skip this prompt
+              {t("canvas.skip_prompt")}
             </button>
           </motion.div>
         </AnimatePresence>

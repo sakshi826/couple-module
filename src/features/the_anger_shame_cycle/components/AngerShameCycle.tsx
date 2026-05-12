@@ -1,5 +1,6 @@
-import { useState, useCallback } from "react";
-import { RefreshCw, ChevronRight, ChevronLeft, Heart, Sparkles } from "lucide-react";
+import { useState } from "react";
+import { RefreshCw, ChevronRight, Heart } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import { motion, AnimatePresence } from "framer-motion";
@@ -15,6 +16,7 @@ function Badge({ children, className }: { children: React.ReactNode; className?:
 }
 
 function Screen1({ onNext }: { onNext: () => void }) {
+  const { t } = useTranslation();
   return (
     <div className="flex flex-1 flex-col gap-8">
       <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 min-h-[450px] flex flex-col justify-center text-center">
@@ -22,20 +24,20 @@ function Screen1({ onNext }: { onNext: () => void }) {
           🔥
         </div>
         <h1 className="text-3xl font-black text-slate-800 mb-6 leading-tight">
-          Why does anger keep coming back?
+          {t("screens.s1.title")}
         </h1>
         <p className="text-slate-500 font-medium leading-relaxed text-base mb-8">
-          It might not be your temper. There's a hidden loop between anger and shame — and once you see it, everything changes.
+          {t("screens.s1.description")}
         </p>
         <div className="bg-red-50 rounded-3xl p-8 italic text-red-900 text-sm font-bold leading-relaxed border-l-8 border-red-400">
-          "Most people try to fix the anger. But shame is what quietly keeps it going."
+          {t("screens.s1.quote")}
         </div>
       </div>
       <button
         onClick={onNext}
         className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
       >
-        Let's explore
+        {t("screens.s1.button")}
         <ChevronRight size={20} strokeWidth={3} />
       </button>
     </div>
@@ -43,27 +45,29 @@ function Screen1({ onNext }: { onNext: () => void }) {
 }
 
 function Screen2({ onNext }: { onNext: () => void }) {
-  const nodes = [
-    { emoji: "🔥", label: "Anger surfaces", color: "text-red-600 bg-red-50" },
-    { emoji: "😔", label: 'Shame: "I\'m bad"', color: "text-indigo-600 bg-indigo-50" },
-    { emoji: "🤐", label: "Shame gets buried", color: "text-amber-600 bg-amber-50" },
-    { emoji: "🔥", label: "Anger erupts again", color: "text-red-600 bg-red-50" },
+  const { t } = useTranslation();
+  const nodes_data = t("screens.s2.nodes", { returnObjects: true }) as any[];
+  const colors = [
+    "text-red-600 bg-red-50",
+    "text-indigo-600 bg-indigo-50",
+    "text-amber-600 bg-amber-50",
+    "text-red-600 bg-red-50"
   ];
 
   return (
     <div className="flex flex-1 flex-col gap-8">
       <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 min-h-[450px]">
-        <Badge className="bg-red-100 text-red-600 mb-6">the cycle</Badge>
-        <h1 className="text-3xl font-black text-slate-800 mb-8">The loop explained</h1>
+        <Badge className="bg-red-100 text-red-600 mb-6">{t("screens.s2.tag")}</Badge>
+        <h1 className="text-3xl font-black text-slate-800 mb-8">{t("screens.s2.title")}</h1>
         
         <div className="flex flex-col items-center gap-2 mb-8">
-          {nodes.map((node, i) => (
+          {nodes_data.map((node, i) => (
             <div key={i} className="flex flex-col items-center w-full">
-              <div className={`w-full rounded-[1.5rem] px-8 py-5 font-black text-base flex items-center gap-4 ${node.color} border border-transparent hover:border-current/10 transition-all`}>
+              <div className={`w-full rounded-[1.5rem] px-8 py-5 font-black text-base flex items-center gap-4 ${colors[i]} border border-transparent hover:border-current/10 transition-all`}>
                 <span className="text-2xl">{node.emoji}</span>
                 {node.label}
               </div>
-              {i < nodes.length - 1 && (
+              {i < nodes_data.length - 1 && (
                 <motion.div 
                   initial={{ height: 0 }}
                   animate={{ height: 20 }}
@@ -78,7 +82,7 @@ function Screen2({ onNext }: { onNext: () => void }) {
         onClick={onNext}
         className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
       >
-        I see it
+        {t("screens.s2.button")}
         <ChevronRight size={20} strokeWidth={3} />
       </button>
     </div>
@@ -86,27 +90,28 @@ function Screen2({ onNext }: { onNext: () => void }) {
 }
 
 function Screen3({ onNext }: { onNext: () => void }) {
+  const { t } = useTranslation();
   return (
     <div className="flex flex-1 flex-col gap-8">
       <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 min-h-[450px]">
-        <Badge className="bg-indigo-100 text-indigo-600 mb-6">What's happening</Badge>
-        <h1 className="text-3xl font-black text-slate-800 mb-8">Two emotions, one trap</h1>
+        <Badge className="bg-indigo-100 text-indigo-600 mb-6">{t("screens.s3.tag")}</Badge>
+        <h1 className="text-3xl font-black text-slate-800 mb-8">{t("screens.s3.title")}</h1>
 
         <div className="space-y-6">
           <div className="rounded-3xl border border-red-100 bg-red-50/30 p-8">
             <p className="font-black text-red-600 text-sm mb-3 uppercase tracking-[0.2em] flex items-center gap-2">
-              🔥 Anger
+              {t("screens.s3.anger.title")}
             </p>
             <p className="text-slate-600 text-base leading-relaxed font-medium">
-              A secondary emotion — underneath lives hurt, fear, or rejection. It's the alarm, not the fire.
+              {t("screens.s3.anger.desc")}
             </p>
           </div>
           <div className="rounded-3xl border border-indigo-100 bg-indigo-50/30 p-8">
             <p className="font-black text-indigo-600 text-sm mb-3 uppercase tracking-[0.2em] flex items-center gap-2">
-              😔 Shame
+              {t("screens.s3.shame.title")}
             </p>
             <p className="text-slate-600 text-base leading-relaxed font-medium">
-              "I am bad" — not just "I did something bad." It hides, silences, and keeps the cycle spinning.
+              {t("screens.s3.shame.desc")}
             </p>
           </div>
         </div>
@@ -115,7 +120,7 @@ function Screen3({ onNext }: { onNext: () => void }) {
         onClick={onNext}
         className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
       >
-        Breaking Free
+        {t("screens.s3.button")}
         <ChevronRight size={20} strokeWidth={3} />
       </button>
     </div>
@@ -123,27 +128,25 @@ function Screen3({ onNext }: { onNext: () => void }) {
 }
 
 function Screen4({ onFinish }: { onFinish: () => void }) {
-  const steps = [
-    { num: 1, emoji: "🔍", title: "Name the source", desc: "Ask: 'What am I actually feeling?' Hurt? Scared? Unseen? Naming it weakens it." },
-    { num: 2, emoji: "🤲", title: "Compassion pause", desc: "Hand on chest. Say: 'This is hard. I'm human. I can get through this.'" },
-    { num: 3, emoji: "🕊️", title: "Repair with grace", desc: "Make amends if needed — but don't spiral. You're not your worst moment." },
-  ];
+  const { t } = useTranslation();
+  const steps_data = t("screens.s4.steps", { returnObjects: true }) as any[];
+  const emojis = ["🔍", "🤲", "🕊️"];
 
   return (
     <div className="flex flex-1 flex-col gap-8">
       <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 min-h-[450px]">
-        <Badge className="bg-emerald-100 text-emerald-600 mb-6">Interruption</Badge>
-        <h1 className="text-3xl font-black text-slate-800 mb-8">Interrupt the cycle</h1>
+        <Badge className="bg-emerald-100 text-emerald-600 mb-6">{t("screens.s4.tag")}</Badge>
+        <h1 className="text-3xl font-black text-slate-800 mb-8">{t("screens.s4.title")}</h1>
 
         <div className="space-y-8">
-          {steps.map((step) => (
-            <div key={step.num} className="flex gap-6">
+          {steps_data.map((step, idx) => (
+            <div key={idx} className="flex gap-6">
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white font-black text-lg shadow-xl shadow-slate-900/20">
-                {step.num}
+                {idx + 1}
               </div>
               <div className="space-y-2">
                 <p className="font-black text-slate-800 text-base flex items-center gap-2">
-                  <span className="text-xl">{step.emoji}</span> {step.title}
+                  <span className="text-xl">{emojis[idx]}</span> {step.title}
                 </p>
                 <p className="text-slate-500 text-sm font-medium leading-relaxed">{step.desc}</p>
               </div>
@@ -156,14 +159,14 @@ function Screen4({ onFinish }: { onFinish: () => void }) {
           <Heart className="text-emerald-500 w-6 h-6" />
         </div>
         <p className="text-emerald-900 text-sm font-black leading-relaxed">
-          Noticing the cycle is already the first step. You're doing the work.
+          {t("screens.s4.notice")}
         </p>
       </div>
       <button
         onClick={onFinish}
         className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
       >
-        Complete Activity
+        {t("screens.s4.button")}
         <ChevronRight size={20} strokeWidth={3} />
       </button>
     </div>
@@ -171,13 +174,14 @@ function Screen4({ onFinish }: { onFinish: () => void }) {
 }
 
 export default function AngerShameCycle() {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState(0);
 
   if (screen === 4) {
     return (
       <PremiumComplete
-        title="Cycle Interrupted"
-        message="You've gained the awareness to see the link between anger and shame. This is the foundation for lasting emotional freedom."
+        title={t("complete.title")}
+        message={t("complete.message")}
         onRestart={() => setScreen(0)}
       />
     );
@@ -185,8 +189,8 @@ export default function AngerShameCycle() {
 
   return (
     <PremiumLayout
-      title="Anger-Shame Cycle"
-      subtitle={`Understanding the loop • ${screen + 1}/${TOTAL_SCREENS}`}
+      title={t("app_title")}
+      subtitle={t("app_subtitle", { step: screen + 1, total: TOTAL_SCREENS })}
       icon={<RefreshCw className="w-6 h-6 text-primary" />}
       onBack={screen > 0 ? () => setScreen(prev => prev - 1) : undefined}
     >
@@ -219,5 +223,3 @@ export default function AngerShameCycle() {
     </PremiumLayout>
   );
 }
-
-

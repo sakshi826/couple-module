@@ -1,0 +1,43 @@
+{
+  "vibeTracker": "Vibe 追踪器",
+  "howAreYouFeeling": "你现在感觉怎么样？",
+  "describeOwnVibe": "或者描述一下你自己的氛围",
+  "rightNowIFeel": "现在，我感觉......",
+  "saveVibe": "拯救氛围",
+  "pauseAndReflect": "暂停与反思",
+  "typeThoughts": "在这里输入你的想法......",
+  "submitReflection": "提交反思",
+  "next": "下一个",
+  "vibeLogged": "氛围记录",
+  "thankYou": "谢谢你停下来注意到。即使是这样一个小小的签到也很重要。",
+  "done": "完成",
+  "today": "现今",
+  "yesterday": "昨天",
+  "viewHistory": "查看历史",
+  "history": "历史",
+  "yourJourney": "你的旅程",
+  "noVibes": "还没记录到气场",
+  "startFirstCheckIn": "请从这里开始你的首次签到，看看你的旅程如何展开。",
+  "vibes": {
+    "Calm": "平静",
+    "Light": "光",
+    "Driven": "驱动",
+    "Content": "内容",
+    "Steady": "稳住",
+    "Tender": "煤水车",
+    "Heavy": "重",
+    "Thoughtful": "体贴",
+    "Restless": "不安",
+    "Drained": "被抽干"
+  },
+  "prompts": {
+    "needing": "你现在可能需要什么？",
+    "happened": "在这种感觉出现之前发生了什么？",
+    "speak": "如果这种情感能说话，它会说什么？",
+    "notice": "你在身体的哪里会注意到这种感觉？",
+    "sitOrShift": "你是想坐着还是想轻轻移动？",
+    "ease": "什么能让你轻松哪怕10%？",
+    "kindness": "今天你能给自己什么小小的善意？",
+    "supported": "在这一刻，什么能让你感到被支持？"
+  }
+}

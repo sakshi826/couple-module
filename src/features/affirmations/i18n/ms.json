@@ -1,0 +1,173 @@
+{
+  "common": {
+    "title": "Penegasan - Teman yang Lembut",
+    "beforeYouBegin": "Sebelum Anda Bermula",
+    "introText1": "Jika anda berasa selesa, anda boleh memilih untuk berdiri di hadapan cermin semasa membaca penegasan ini.",
+    "introText2": "Anda mungkin dengan lembut melihat diri anda dan menyebut setiap baris dengan kuat, perlahan dan jelas. Mendengar suara anda sendiri boleh menjadikan kata-kata itu berasa lebih peribadi dan berasas.",
+    "noRightWay": "Tiada cara yang betul untuk melakukan ini.",
+    "takeTime": "Ambil masa awak.",
+    "breatheNaturally": "Bernafas secara semula jadi.",
+    "noRush": "Tidak perlu tergesa-gesa atau memaksa sebarang perasaan.",
+    "meaningfulMoment": "Walaupun kata-kata itu tidak terasa benar sepenuhnya sekarang, membenarkan detik niat ini masih boleh bermakna.",
+    "readyToBegin": "Apabila anda berasa bersedia, anda boleh bermula ✨",
+    "begin": "Mulakan",
+    "howFeeling": "Bagaimana perasaan anda sekarang?",
+    "noExplanation": "Anda tidak perlu menerangkan atau menganalisis apa-apa.",
+    "justNotice": "Perhatikan apa yang terasa paling hampir dengan pengalaman anda pada masa ini.",
+    "chooseOne": "Pilih satu perasaan untuk bermula - anda sentiasa boleh kembali.",
+    "readAgain": "Baca Lagi",
+    "chooseAnother": "Pilih Perasaan Lain"
+  },
+  "feelings": {
+    "lonely": {
+      "label": "Apabila anda berasa sunyi dan sedih",
+      "affirmations": [
+        "Saya tidak bersendirian, walaupun ia berasa begitu.",
+        "Perasaan saya patut diberi perhatian dan kelembutan.",
+        "Detik ini tidak akan kekal selama-lamanya.",
+        "Saya dibenarkan memerlukan sambungan.",
+        "Saya boleh menawarkan kehangatan kepada diri saya sekarang."
+      ]
+    },
+    "terrified": {
+      "label": "Apabila anda berasa takut",
+      "affirmations": [
+        "Saya selamat pada masa ini.",
+        "Ketakutan adalah perasaan, bukan ramalan.",
+        "Saya boleh menarik nafas ini satu demi satu.",
+        "Saya tidak perlu menyelesaikan semuanya sekarang.",
+        "Saya lebih kuat daripada saat ini."
+      ]
+    },
+    "insignificant": {
+      "label": "Apabila anda berasa tidak penting",
+      "affirmations": [
+        "Detik-detik kecil masih dikira.",
+        "Saya tidak perlu membuktikan nilai saya.",
+        "Saya dibenarkan mengambil ruang.",
+        "Kewujudan saya penting.",
+        "Saya sudah cukup seperti saya."
+      ]
+    },
+    "overwhelmed": {
+      "label": "Apabila anda berasa terharu",
+      "affirmations": [
+        "Saya tidak perlu melakukan semuanya sekaligus.",
+        "Satu langkah kecil sudah memadai.",
+        "Tidak mengapa untuk berhenti sebentar.",
+        "Saya dibenarkan berehat.",
+        "Ini akan menjadi terurus semula."
+      ]
+    },
+    "hopeless": {
+      "label": "Apabila anda berasa putus asa",
+      "affirmations": [
+        "Saya tidak memerlukan jawapan hari ini.",
+        "Perubahan masih boleh dilakukan.",
+        "Saya telah terselamat daripada hari-hari sukar sebelum ini.",
+        "Saya boleh tinggal di sini buat masa ini.",
+        "Sesuatu yang lembut masih boleh terungkap."
+      ]
+    },
+    "conflicted": {
+      "label": "Apabila anda berasa bercanggah",
+      "affirmations": [
+        "Tidak mengapa untuk merasakan lebih daripada satu perkara sekaligus.",
+        "Saya tidak memerlukan kejelasan segera.",
+        "Kekeliruan tidak bermakna kegagalan.",
+        "Saya boleh memberi diri saya masa.",
+        "Saya mempercayai diri saya untuk memikirkan perkara ini."
+      ]
+    },
+    "self-critical": {
+      "label": "Apabila anda sangat mengkritik diri sendiri",
+      "affirmations": [
+        "Saya boleh bercakap dengan diri saya sendiri dengan baik.",
+        "Saya tidak perlu menghukum diri saya untuk berkembang.",
+        "Kesilapan tidak menentukan siapa saya.",
+        "Saya belajar, bukan gagal.",
+        "Pertumbuhan tidak memerlukan kekejaman."
+      ]
+    },
+    "out-of-place": {
+      "label": "Apabila anda berasa tidak pada tempatnya secara sosial",
+      "affirmations": [
+        "Saya dibenarkan untuk berdiam diri atau berbeza.",
+        "Saya tidak perlu menandingi tenaga orang lain.",
+        "Saya tergolong seadanya.",
+        "Saya boleh mengambil ruang dengan lembut.",
+        "Saya tidak melakukan ini salah."
+      ]
+    },
+    "unsafe": {
+      "label": "Apabila anda berasa tidak selamat di sekeliling orang yang tidak dikenali",
+      "affirmations": [
+        "Saya boleh bergerak mengikut rentak saya sendiri.",
+        "Saya dibenarkan melindungi sempadan saya.",
+        "Saya boleh kekal berasas dalam badan saya.",
+        "Saya dibenarkan meninggalkan situasi.",
+        "Saya boleh memastikan diri saya selamat."
+      ]
+    },
+    "pressured": {
+      "label": "Apabila anda berasa tertekan di tempat kerja",
+      "affirmations": [
+        "Nilai saya bukan produktiviti saya.",
+        "Saya tidak perlu membuktikan diri saya secara berterusan.",
+        "Melakukan yang terbaik sudah cukup hari ini.",
+        "Satu tugas pada satu masa tidak mengapa.",
+        "Saya lebih daripada peranan saya."
+      ]
+    },
+    "face-the-day": {
+      "label": "Apabila anda tidak mahu menghadapi hari itu",
+      "affirmations": [
+        "Saya boleh mengambil hari ini dalam kepingan kecil.",
+        "Berjaya sudah memadai.",
+        "Saya tidak memerlukan motivasi untuk memulakan.",
+        "Muncul dengan lembut masih dikira.",
+        "Hari ini tidak mentakrifkan saya."
+      ]
+    },
+    "future": {
+      "label": "Apabila anda bimbang tentang masa depan anda",
+      "affirmations": [
+        "Saya boleh kembali ke masa kini.",
+        "Saya akan mengendalikan perkara apabila ia datang.",
+        "Saya tidak memerlukan kepastian hari ini.",
+        "Saya mampu menyesuaikan diri.",
+        "Saya boleh mempercayai diri saya lebih sedikit."
+      ]
+    },
+    "stuck": {
+      "label": "Apabila anda berasa terperangkap dalam masalah",
+      "affirmations": [
+        "Tersekat tidak bermakna saya patah.",
+        "Saya boleh berhenti seketika tanpa berputus asa.",
+        "Saya tidak memerlukan penyelesaian segera.",
+        "Saya dibenarkan berasa tidak pasti.",
+        "Saya masih bergerak, walaupun perlahan."
+      ]
+    },
+    "compare": {
+      "label": "Apabila anda membandingkan diri anda",
+      "affirmations": [
+        "Perjalanan saya adalah perjalanan saya sendiri.",
+        "Saya tidak perlu bersaing untuk menjadi layak.",
+        "Saya dibenarkan berkembang mengikut kadar saya.",
+        "Kejayaan orang lain tidak memadamkan kejayaan saya.",
+        "Saya tidak ketinggalan."
+      ]
+    },
+    "give-up": {
+      "label": "Apabila anda mahu berputus asa",
+      "affirmations": [
+        "Saya tidak perlu memutuskan apa-apa sekarang.",
+        "Perasaan ini akan berlalu.",
+        "Saya telah terselamat lebih daripada yang saya sedar.",
+        "Saya boleh tinggal sebentar lagi.",
+        "Saya masih di sini - dan itu penting."
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "app_title": "Sumber daya",
+  "not_found": {
+    "title": "Tidak Ditemukan",
+    "message": "Sumber daya tidak ditemukan",
+    "description": "Konten yang Anda cari mungkin telah pindah.",
+    "button": "Kembali"
+  },
+  "list": {
+    "empty_title": "Tidak ada {{type}} tersedia",
+    "empty_desc": "Saat ini kami sedang mengkurasi lebih banyak sumber daya untuk topik ini.",
+    "footer": "Perawatan Mantra • Sumber Daya Berbasis Bukti"
+  },
+  "detail": {
+    "loading": "Memuat...",
+    "tip": {
+      "insight_label": "Wawasan",
+      "plan_title": "Rencana Aksi Harian",
+      "steps": "{{count}} Langkah",
+      "example_label": "Contoh Praktik",
+      "instead_of": "Alih-alih",
+      "try_this": "Coba ini"
+    },
+    "article": {
+      "final_thought": "Pemikiran Akhir"
+    },
+    "story": {
+      "reflection_label": "Sesuatu untuk duduk bersama",
+      "note_label": "Catatan dari Penulis"
+    },
+    "myth": {
+      "truth_label": "Kebenaran Ilmiah",
+      "explanation_label": "Penjelasan Detail",
+      "insight_label": "Wawasan Utama"
+    }
+  }
+}

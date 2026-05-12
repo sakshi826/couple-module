@@ -1,0 +1,43 @@
+{
+  "vibeTracker": "Vibe Tracker",
+  "howAreYouFeeling": "Ano ang nararamdaman mo sa sandaling ito?",
+  "describeOwnVibe": "O ilarawan ang iyong sariling vibe",
+  "rightNowIFeel": "Sa ngayon, nararamdaman ko...",
+  "saveVibe": "I-save ang Vibe",
+  "pauseAndReflect": "I-pause at magmuni-muni",
+  "typeThoughts": "I-type ang iyong mga saloobin dito ...",
+  "submitReflection": "Magsumite ng Pagmumuni-muni",
+  "next": "Susunod",
+  "vibeLogged": "Vibe naka-log",
+  "thankYou": "Salamat sa pagtigil at pansinin. Kahit na ang maliit na check-in na ito ay mahalaga.",
+  "done": "Tapos na",
+  "today": "Ngayong araw",
+  "yesterday": "Kahapon",
+  "viewHistory": "Tingnan ang Kasaysayan",
+  "history": "Kasaysayan",
+  "yourJourney": "Ang Iyong Paglalakbay",
+  "noVibes": "Wala pang vibes na naka-log",
+  "startFirstCheckIn": "Simulan ang iyong unang pag-check-in upang makita ang iyong paglalakbay dito.",
+  "vibes": {
+    "Calm": "Kalmado",
+    "Light": "Liwanag",
+    "Driven": "Hinihimok",
+    "Content": "Nilalaman",
+    "Steady": "Matatag",
+    "Tender": "Malambot",
+    "Heavy": "Mabigat",
+    "Thoughtful": "Maingat",
+    "Restless": "Hindi mapakali",
+    "Drained": "Pinatuyo"
+  },
+  "prompts": {
+    "needing": "Ano ang maaaring kailanganin mo ngayon?",
+    "happened": "Ano ang nangyari bago lumitaw ang pakiramdam na ito?",
+    "speak": "Kung ang damdaming ito ay maaaring magsalita, ano ang sasabihin nito?",
+    "notice": "Saan mo napapansin ang ganitong pakiramdam sa iyong katawan?",
+    "sitOrShift": "Ito ba ay isang bagay na gusto mong umupo o lumipat nang malumanay?",
+    "ease": "Ano ang magdudulot sa iyo ng 10% na mas kaginhawahan?",
+    "kindness": "Anong maliit na kabaitan ang maibibigay mo sa iyong sarili ngayon?",
+    "supported": "Ano ang makakatulong sa iyo na makaramdam ng suporta sa sandaling ito?"
+  }
+}

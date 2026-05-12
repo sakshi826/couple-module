@@ -1,0 +1,72 @@
+{
+  "app_title": "Öfke-Utanç Döngüsü",
+  "app_subtitle": "Döngüyü anlamak • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Neden öfke sürekli geri geliyor?",
+      "description": "Belki de sinirin değil. Öfke ile utanç arasında gizli bir döngü var — ve bunu gördüğünde her şey değişir.",
+      "quote": "\"Çoğu insan öfkeyi düzeltmeye çalışır. Ama utanç sessizce devam ettiriyor.\"",
+      "button": "Hadi keşfedelim"
+    },
+    "s2": {
+      "tag": "Döngü",
+      "title": "Döngü açıkladı",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Öfke yüzeye çıkıyor"
+        },
+        {
+          "emoji": "😔",
+          "label": "Utanç: \"Kötüyüm\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "Utanç gömülür"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Öfke yeniden patlıyor"
+        }
+      ],
+      "button": "Görüyorum"
+    },
+    "s3": {
+      "tag": "Neler oluyor",
+      "title": "İki duygu, bir tuzak",
+      "anger": {
+        "title": "🔥 Öfke",
+        "desc": "İkincil bir duygu — altında acı, korku ya da reddedilme olan hayatlar. Sorun alarm, yangın değil."
+      },
+      "shame": {
+        "title": "😔 Yazık",
+        "desc": "\"Ben kötüyüm\" — sadece \"Kötü bir şey yaptım\" değil. Saklanır, sustur ve döngüyü döndürür."
+      },
+      "button": "Özgürleşme"
+    },
+    "s4": {
+      "tag": "Kesinti",
+      "title": "Döngüyü kesin",
+      "steps": [
+        {
+          "title": "Kaynağı belirtin",
+          "desc": "Sor: 'Aslında ne hissediyorum?' Acı mı aldın? Korktun mu? Görünmez mi? Adını vermek onu zayıflatıyor."
+        },
+        {
+          "title": "Merhamet duraklaması",
+          "desc": "El göğsünde. Şöyle de: 'Bu zor. Ben insanım. Bunu atlatabilirim.'"
+        },
+        {
+          "title": "Zarafetle onarın",
+          "desc": "Gerekirse telafi edin — ama kendinizi kaptırmayın. En kötü anınız değilsiniz."
+        }
+      ],
+      "notice": "Döngüyü fark etmek zaten ilk adım. Sen işi yapıyorsun.",
+      "button": "Tam Etkinlik"
+    }
+  },
+  "complete": {
+    "title": "Döngü Kesildi",
+    "message": "Öfke ile utanç arasındaki bağlantıyı görecek farkındalık kazandın. Bu, kalıcı duygusal özgürlüğün temelidir."
+  }
+}

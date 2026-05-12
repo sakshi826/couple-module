@@ -12,17 +12,17 @@ const IntroScreen = ({ onStart }: IntroScreenProps) => {
 
   return (
     <PremiumIntro
-      title="Self-Care Tracker"
-      description="Track your daily self-care habits and see how they impact your overall wellbeing. Consistency is key to a healthier mind."
+      title={t("screens.intro.title")}
+      description={t("screens.intro.description")}
       onStart={onStart}
       icon={<Activity size={32} />}
       benefits={[
-        "Log daily self-care activities",
-        "Track time spent on yourself",
-        "Monitor your mood patterns",
-        "View history and progress"
+        t("screens.intro.benefits.0"),
+        t("screens.intro.benefits.1"),
+        t("screens.intro.benefits.2"),
+        t("screens.intro.benefits.3")
       ]}
-      duration="2-3 minutes"
+      duration={t("screens.intro.duration")}
     />
   );
 };

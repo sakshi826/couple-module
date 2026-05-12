@@ -1,6 +1,6 @@
+import { useTranslation } from "react-i18next";
 import type { ZoneType } from "../WindowApp";
 
-const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 const ZONE_EMOJI: Record<string, string> = { hyper: "🔴", safe: "🟢", hypo: "🔵" };
 
 interface Props {
@@ -12,6 +12,10 @@ interface Props {
 }
 
 export default function ToolkitScreen({ journal, onJournalChange, weekTracker, onSave, onBack }: Props) {
+  const { t } = useTranslation();
+  const DAYS = t("days", { returnObjects: true }) as string[];
+  const tools_list = t("screens.toolkit.tools_list", { returnObjects: true }) as string[];
+
   return (
     <section className="space-y-6" aria-label="Your Personal Toolkit">
       <button onClick={onBack} className="p-2 -ml-2 rounded-full hover:bg-muted transition-colors" aria-label="Back">
@@ -19,33 +23,33 @@ export default function ToolkitScreen({ journal, onJournalChange, weekTracker, o
       </button>
 
       <div className="text-center space-y-2">
-        <h2 className="font-display text-2xl font-bold text-foreground">🧰 Your Personal Toolkit</h2>
-        <p className="text-sm text-muted-foreground">Your go-to tools — saved and ready whenever you need them.</p>
+        <h2 className="font-display text-2xl font-bold text-foreground">{t("screens.toolkit.title")}</h2>
+        <p className="text-sm text-muted-foreground">{t("screens.toolkit.subtitle")}</p>
       </div>
 
       <div className="flex flex-wrap gap-2 justify-center">
-        {["🌬️ Box Breathing", "🖐️ 5-4-3-2-1", "🦶 Feet on Floor", "🚶 Gentle Movement", "🎵 Music", "💬 Speak Out Loud"].map((t) => (
+        {tools_list && tools_list.map((t) => (
           <span key={t} className="pill-tag text-xs font-medium">{t}</span>
         ))}
       </div>
 
       {/* Journal */}
       <div className="space-y-2">
-        <label className="text-sm font-semibold text-foreground">📝 Today's Reflection</label>
+        <label className="text-sm font-semibold text-foreground">{t("screens.toolkit.journal_label")}</label>
         <p className="text-xs text-muted-foreground">
-          What was one moment today when you noticed your nervous system shifting — and what did you do about it?
+          {t("screens.toolkit.journal_desc")}
         </p>
         <textarea
           value={journal}
           onChange={(e) => onJournalChange(e.target.value)}
-          placeholder="Write here..."
+          placeholder={t("screens.toolkit.journal_placeholder")}
           className="w-full min-h-[80px] p-4 rounded-xl border border-border bg-card text-foreground text-sm resize-y focus:outline-none focus:ring-2 focus:ring-ring/30 transition-all"
         />
       </div>
 
       {/* Weekly Tracker */}
       <div className="space-y-3">
-        <label className="text-sm font-semibold text-foreground">📊 Your Week at a Glance</label>
+        <label className="text-sm font-semibold text-foreground">{t("screens.toolkit.history_label")}</label>
         <div className="flex justify-between px-2">
           {DAYS.map((day, i) => (
             <div key={day} className="flex flex-col items-center gap-1.5" title={day}>
@@ -60,11 +64,11 @@ export default function ToolkitScreen({ journal, onJournalChange, weekTracker, o
         onClick={onSave}
         className="w-full py-4 rounded-2xl bg-primary text-primary-foreground font-semibold text-base hover:opacity-90 transition-all duration-300 hover:-translate-y-0.5"
       >
-        Save & Finish ✓
+        {t("screens.toolkit.save_button")}
       </button>
 
       <p className="text-xs text-muted-foreground text-center">
-        Your journey matters. Come back whenever you need support.
+        {t("screens.toolkit.footer")}
       </p>
     </section>
   );

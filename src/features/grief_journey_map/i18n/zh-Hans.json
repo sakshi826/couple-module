@@ -1,0 +1,39 @@
+{
+  "app_title": "悲伤之旅",
+  "app_subtitle": "损失地图 • {{current}}/{{total}}",
+  "screen1_title": "你的悲伤没有错",
+  "screen1_desc": "悲伤不会是整齐的阶段降临并按计划离开的。它撞击、撤退，然后在你最意想不到的时候又回来。那不是你的缺点——那是悲伤。",
+  "screen1_quote": "“悲伤没有正确的方式。只有你自己的路。”",
+  "btn_tell_more": "告诉我更多",
+  "screen2_tag": "真实情况",
+  "screen2_title": "悲伤有许多不同的面貌",
+  "screen2_desc": "这就是人们对悲伤的期待——而悲伤的真实面貌。",
+  "expectation_label": "期待",
+  "reality_label": "现实",
+  "expectation_desc": "线性 • 可预测 • 清晰",
+  "reality_desc": "混乱 • 循环 • 人类",
+  "screen2_quote": "“这些浪潮都没错。他们全都是悲伤。”",
+  "btn_one_more": "还有一件事",
+  "screen3_tag": "温柔的真相",
+  "screen3_title": "值得知道",
+  "truths": [
+    {
+      "emoji": "🗓️",
+      "title": "没有截止日期",
+      "body": "损失保险没有截止日期。几个月甚至几年后还感受到它，并不意味着你被困住了——而是你曾经爱过。"
+    },
+    {
+      "emoji": "🌗",
+      "title": "矛盾的感受",
+      "body": "你可以想念某个人，感到宽慰。你可以笑，也可以悲伤。悲伤充满了相反的情绪。"
+    },
+    {
+      "emoji": "🤍",
+      "title": "爱的转变",
+      "body": "痛苦与爱是分开的。其实是一样的，只是变形了。"
+    }
+  ],
+  "btn_finish": "收尾反射",
+  "complete_title": "旅程的尊重",
+  "complete_message": "你不必非得放手。你只是学会用不同的方式来承载它。你的旅程独特、合理且深刻人性化。"
+}

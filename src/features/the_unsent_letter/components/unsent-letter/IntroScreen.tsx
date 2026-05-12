@@ -1,4 +1,5 @@
 import { ArrowLeft, Clock } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import ProgressDots from "@/features/the_unsent_letter/components/ProgressDots";
 
 interface IntroScreenProps {
@@ -8,6 +9,9 @@ interface IntroScreenProps {
 }
 
 const IntroScreen = ({ step, onStart, onHistory }: IntroScreenProps) => {
+  const { t } = useTranslation();
+  const description = t("intro.description", { returnObjects: true }) as string[];
+
   return (
     <div className="flex flex-col flex-1 px-6 py-8">
       {/* Header */}
@@ -32,28 +36,17 @@ const IntroScreen = ({ step, onStart, onHistory }: IntroScreenProps) => {
         </div>
 
         <h1 className="text-2xl font-semibold text-foreground mb-6 leading-tight">
-          The Unsent Letter
+          {t("intro.title")}
         </h1>
 
         <div className="space-y-4 text-muted-foreground leading-relaxed text-[15px] max-w-sm">
-          <p>
-            Sometimes, there are things we wish we could say — but never got the chance to.
-          </p>
-          <p>
-            This could be because it didn't feel safe, the timing wasn't right, or the words
-            were too hard to express out loud.
-          </p>
-          <p>
-            This activity gives you a private space to put those thoughts into words.
-          </p>
-          <p>
-            You don't have to send this letter. This is just for you — to express, release,
-            and understand your feelings better.
-          </p>
+          {Array.isArray(description) && description.map((line, idx) => (
+            <p key={idx}>{line}</p>
+          ))}
         </div>
 
         <p className="text-micro mt-8 italic">
-          Write freely. No one else will see this.
+          {t("intro.notice")}
         </p>
       </div>
 
@@ -62,7 +55,7 @@ const IntroScreen = ({ step, onStart, onHistory }: IntroScreenProps) => {
         onClick={onStart}
         className="w-full py-4 rounded-2xl bg-primary text-primary-foreground font-medium text-base hover:opacity-90 transition-opacity mt-8"
       >
-        Start Writing →
+        {t("intro.button")}
       </button>
     </div>
   );

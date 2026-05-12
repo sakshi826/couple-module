@@ -1,0 +1,56 @@
+{
+  "app_title": "Regole alimentari sfidanti",
+  "welcome_title": "Le regole alimentari non sono leggi.",
+  "welcome_subtitle": "Tutti abbiamo regole sul cibo—alcune utili, altre no. Questo è uno spazio sicuro per notare una regola e rifletterci con delicatezza.",
+  "begin_button": "Cominciamo",
+  "screen_titles": {
+    "intro": "Consapevolezza gentile",
+    "identify": "Denominazione della Regola",
+    "feeling": "Impatto emotivo",
+    "impact": "Impatto fisico",
+    "challenge": "Soft Challenge",
+    "permission": "Dare il permesso",
+    "step": "Passi Delicati",
+    "takeaway": "Sommario",
+    "close": "Riflessione"
+  },
+  "rule_label": "Denominazione della regola",
+  "rule_question": "Qual è la regola?",
+  "rule_options": [
+    "Non dovrei più mangiare dopo un certo orario",
+    "Alcuni cibi sono vietati",
+    "Devo controllare le porzioni in modo rigoroso"
+  ],
+  "rule_something_else": "Qualcos'altro...",
+  "rule_placeholder": "Scrivi la tua regola sul cibo...",
+  "feeling_label": "Impatto emotivo",
+  "feeling_question": "Come ti senti?",
+  "feeling_options": [
+    "😟 Ansioso",
+    "😌 In controllo",
+    "😕 Colpevole",
+    "😣 Riservato",
+    "😴 Stanco",
+    "😐 Misto"
+  ],
+  "challenge_label": "Soft Challenge",
+  "challenge_question": "Domanda gentile...",
+  "reflections": {
+    "Is this rule too strict?": "Ti sembra flessibile o crea pressione per seguirlo perfettamente?",
+    "Is this actually helping me?": "Questa regola sostiene il tuo benessere o aggiunge stress o senso di colpa?",
+    "What happens when I can't follow it?": "Cosa noti quando questa regola non va come previsto?"
+  },
+  "reflection_saved": "Riflessione salvata",
+  "your_reflection": "Il tuo riflesso",
+  "label_rule": "La Regola",
+  "label_feeling": "La sensazione",
+  "preserve_button": "Preserva la riflessione",
+  "preserving": "Preservare...",
+  "continue_button": "Continua",
+  "next_button": "Prossimo",
+  "complete_title": "Consapevolezza acquisita",
+  "complete_message": "La consapevolezza è il primo passo verso la libertà. Hai fatto un passo coraggioso nell'identificare e riflettere su una regola alimentare. Portate con voi questa dolce intesa oggi.",
+  "auth_error": "Sessione di autenticazione mancante o DB non configurato",
+  "save_success": "Riflesso conservato",
+  "save_error": "Non è riuscito a preservare la riflessione"
+}

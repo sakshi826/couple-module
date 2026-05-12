@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Heart, ChevronRight, ChevronLeft, Sparkles, Brain } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import FloatingHearts from "./FloatingHearts";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
@@ -9,27 +10,24 @@ const screen1Hearts = ["#F4C0D1", "#D4537E", "#ED93B1", "#F4C0D1", "#D4537E"];
 const screen2Hearts = ["#CEC9F6", "#AFA9EC", "#CEC9F6", "#AFA9EC", "#CEC9F6"];
 
 const PsychoeducationActivity = () => {
+  const { t } = useTranslation();
   const [currentScreen, setCurrentScreen] = useState(0);
 
   if (currentScreen === 2) {
     return (
       <PremiumComplete
-        title="Clarity Gained"
-        message="Understanding the chemistry of missing someone is the first step toward healing. Your feelings are valid, and your brain is simply doing its job to protect and process."
+        title={t("complete_title")}
+        message={t("complete_message")}
         onRestart={() => setCurrentScreen(0)}
       />
     );
   }
 
-  const subtitles = [
-    "Validation",
-    "Internal Wisdom",
-    "Complete"
-  ];
+  const subtitles = t("subtitles", { returnObjects: true }) as string[];
 
   return (
     <PremiumLayout
-      title="Missing Someone"
+      title={t("app_title")}
       subtitle={subtitles[currentScreen]}
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={currentScreen > 0 ? () => setCurrentScreen(prev => prev - 1) : undefined}
@@ -61,21 +59,21 @@ const PsychoeducationActivity = () => {
                 
                 <div className="relative z-10 space-y-6">
                   <div className="inline-block px-4 py-1.5 rounded-full bg-pink-50 text-pink-600 text-[10px] font-black uppercase tracking-widest">
-                    Validation
+                    {t("screen1.tag")}
                   </div>
                   
                   <div className="space-y-4">
-                    <p className="text-slate-400 font-bold text-sm">It doesn't mean you're weak.</p>
+                    <p className="text-slate-400 font-bold text-sm">{t("screen1.intro")}</p>
                     <h1 className="text-3xl font-black text-slate-800 leading-tight">
-                      Missing someone who hurt you is deeply human.
+                      {t("screen1.title")}
                     </h1>
                     <p className="text-slate-600 leading-relaxed font-medium text-base">
-                      You left. Or they left. And yet — you still reach for your phone hoping it's them. You still replay the good moments more than the painful ones. This contradiction isn't a flaw. It's how your brain processes loss.
+                      {t("screen1.desc")}
                     </p>
                   </div>
 
                   <div className="bg-pink-50/50 border-l-4 border-pink-400 rounded-2xl p-6 italic text-pink-900 text-sm leading-relaxed shadow-sm">
-                    "You don't just miss the person. You miss the feeling of being bonded to them."
+                    {t("screen1.quote")}
                   </div>
                 </div>
               </div>
@@ -84,7 +82,7 @@ const PsychoeducationActivity = () => {
                 onClick={() => setCurrentScreen(1)}
                 className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
               >
-                Next Step
+                {t("screen1.button")}
                 <ChevronRight size={20} strokeWidth={3} />
               </button>
             </motion.div>
@@ -106,21 +104,21 @@ const PsychoeducationActivity = () => {
 
                 <div className="relative z-10 space-y-6">
                   <div className="inline-block px-4 py-1.5 rounded-full bg-indigo-50 text-indigo-600 text-[10px] font-black uppercase tracking-widest">
-                    Brain Science
+                    {t("screen2.tag")}
                   </div>
 
                   <div className="space-y-4">
-                    <p className="text-slate-400 font-bold text-sm">Internal Wisdom</p>
+                    <p className="text-slate-400 font-bold text-sm">{t("screen2.intro")}</p>
                     <h1 className="text-3xl font-black text-slate-800 leading-tight">
-                      Love creates a chemical bond.
+                      {t("screen2.title")}
                     </h1>
                     <p className="text-slate-600 leading-relaxed font-medium text-base">
-                      When you love someone, your brain releases dopamine, oxytocin, and serotonin. When it ends, those levels drop. Your brain grieves — not just the person, but the feeling of closeness.
+                      {t("screen2.desc")}
                     </p>
                   </div>
 
                   <div className="bg-indigo-50/50 border-l-4 border-indigo-400 rounded-2xl p-6 italic text-indigo-900 text-sm leading-relaxed shadow-sm">
-                    "Missing them doesn't mean you should go back. Your heart is grieving a bond — not necessarily the person as they truly were."
+                    {t("screen2.quote")}
                   </div>
                 </div>
               </div>
@@ -129,7 +127,7 @@ const PsychoeducationActivity = () => {
                 onClick={() => setCurrentScreen(2)}
                 className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
               >
-                Finish Reflection
+                {t("screen2.button")}
                 <ChevronRight size={20} strokeWidth={3} />
               </button>
             </motion.div>

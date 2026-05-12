@@ -1,0 +1,56 @@
+{
+  "app_title": "Thách thức các quy tắc thực phẩm",
+  "welcome_title": "Quy tắc thực phẩm không phải là luật.",
+  "welcome_subtitle": "Tất cả chúng ta đều mang theo các quy tắc về thực phẩm - một số hữu ích, một số không. Đây là một không gian an toàn để chú ý đến một quy tắc và nhẹ nhàng suy ngẫm về nó.",
+  "begin_button": "Hãy bắt đầu",
+  "screen_titles": {
+    "intro": "Nhận thức nhẹ nhàng",
+    "identify": "Đặt tên cho quy tắc",
+    "feeling": "Tác động cảm xúc",
+    "impact": "Tác động vật lý",
+    "challenge": "Thử thách mềm",
+    "permission": "Cho phép",
+    "step": "Những bước nhẹ nhàng",
+    "takeaway": "Tóm tắt",
+    "close": "Suy ngẫm"
+  },
+  "rule_label": "Đặt tên cho quy tắc",
+  "rule_question": "Quy tắc là gì?",
+  "rule_options": [
+    "Tôi không nên ăn sau một thời gian nhất định",
+    "Một số loại thực phẩm bị cấm",
+    "Tôi cần kiểm soát chặt chẽ các phần ăn"
+  ],
+  "rule_something_else": "Một cái gì đó khác...",
+  "rule_placeholder": "Nhập quy tắc thực phẩm của bạn...",
+  "feeling_label": "Tác động cảm xúc",
+  "feeling_question": "Cảm giác này như thế nào?",
+  "feeling_options": [
+    "😟 Lo lắng",
+    "😌 Kiểm soát",
+    "😕 Có tội",
+    "😣 Hạn chế",
+    "😴 Mệt mỏi",
+    "😐 Hỗn hợp"
+  ],
+  "challenge_label": "Thử thách mềm",
+  "challenge_question": "Nhẹ nhàng đặt câu hỏi...",
+  "reflections": {
+    "Is this rule too strict?": "Điều này có cảm thấy linh hoạt, hay nó tạo ra áp lực phải tuân theo nó một cách hoàn hảo?",
+    "Is this actually helping me?": "Quy tắc này có hỗ trợ sức khỏe của bạn hay thêm căng thẳng hoặc cảm giác tội lỗi?",
+    "What happens when I can't follow it?": "Bạn nhận thấy điều gì khi quy tắc này không diễn ra như kế hoạch?"
+  },
+  "reflection_saved": "Phản xạ đã lưu",
+  "your_reflection": "Suy ngẫm của bạn",
+  "label_rule": "Quy tắc",
+  "label_feeling": "Cảm giác",
+  "preserve_button": "Duy trì sự phản chiếu",
+  "preserving": "Bảo quản...",
+  "continue_button": "Tiếp tục",
+  "next_button": "Kế tiếp",
+  "complete_title": "Nhận thức đạt được",
+  "complete_message": "Nhận thức là bước đầu tiên hướng tới tự do. Bạn đã thực hiện một bước dũng cảm trong việc xác định và suy ngẫm về quy tắc thực phẩm. Hãy mang theo sự hiểu biết nhẹ nhàng này với bạn ngay hôm nay.",
+  "auth_error": "Thiếu phiên xác thực hoặc cơ sở dữ liệu không được định cấu hình",
+  "save_success": "Phản chiếu được bảo tồn",
+  "save_error": "Không giữ được phản xạ"
+}

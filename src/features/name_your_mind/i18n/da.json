@@ -1,0 +1,80 @@
+{
+  "app_title": "Navngiv dit sind",
+  "intro": {
+    "title": "Mød dit sind",
+    "description": "Lær at distancere dig fra overvældende tanker ved at give din indre stemme et navn.",
+    "benefits": [
+      "Skab mental afstand",
+      "Reducer kraften af hårde tanker",
+      "Læg mærke til tanker uden at være dem"
+    ],
+    "duration": "2-3 minutter",
+    "view_past": "Se tidligere indlæg"
+  },
+  "history": {
+    "title": "Tidligere bidrag",
+    "no_entries": "Ingen indgange endnu.",
+    "reflection_label": "Refleksion: {{text}}"
+  },
+  "complete": {
+    "title": "Aktivitet afsluttet",
+    "great_job": "Godt klaret!",
+    "message": "Du har med succes navngivet dit sind og skabt lidt afstand mellem dig selv og dine tanker.",
+    "footer": "Husk: Du behøver ikke tro på hver eneste tanke, dit sind giver dig."
+  },
+  "subtitles": {
+    "concept": "Perspektiv",
+    "input_thought": "Bemærk",
+    "input_name": "Navn",
+    "practice": "Praksis"
+  },
+  "screens": {
+    "concept": {
+      "title": "En lille ændring",
+      "example": "\"Jeg er ikke god nok\"",
+      "desc": "Når en tanke dukker op, føles det ofte som om, det er <0>du</0>. Men hvad nu hvis du kunne træde et skridt tilbage og <1>bemærke</1> i stedet?"
+    },
+    "input_thought": {
+      "title": "Lad os starte med en reel tanke",
+      "desc": "Hvad er en tanke, der har generet dig på det seneste?",
+      "placeholder": "Skriv det præcis, som det kommer til dig..."
+    },
+    "input_name": {
+      "title": "Skab lidt afstand",
+      "desc": "Giv dit sind et navn, der kan hjælpe dig med at adskille dig fra disse tanker.",
+      "placeholder": "Eller skriv dit eget...",
+      "examples": [
+        "Kritikeren",
+        "Overtænker",
+        "Bekymring FM",
+        "Overtænkningsmaskinen",
+        "Den indre kritiker",
+        "Hvad-nu Hvis-generatoren",
+        "Dramainstruktør"
+      ]
+    },
+    "practice": {
+      "title": "Prøv denne vagt",
+      "instead_of": "I stedet for",
+      "try_saying": "Prøv at sige det",
+      "is_telling_me": "{{name}} fortæller mig:",
+      "guide": "Gentag forsigtigt denne sætning for dig selv 4–5 gange i dit eget tempo.",
+      "button": "Jeg er klar"
+    },
+    "reflection": {
+      "title": "Hvad lagde du mærke til?",
+      "desc": "Hvordan føltes tanken efter at have givet den et navn?",
+      "options": [
+        "Tanken føltes en smule mindre intens end før",
+        "Jeg følte, at jeg havde lidt afstand til tanken",
+        "Det føltes stadig lige så stærkt som før",
+        "Jeg er ikke sikker på, hvad der ændrede sig, hvis noget"
+      ],
+      "button": "Fuldstændig refleksion"
+    }
+  },
+  "buttons": {
+    "continue": "Fortsæt",
+    "restart": "Genstart"
+  }
+}

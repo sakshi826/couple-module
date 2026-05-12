@@ -1,0 +1,22 @@
+{
+  "app_title": "Beziehungsmuster",
+  "app_subtitle": "Dein Bauplan auspacken",
+  "complete_title": "Bewusstsein gewonnen",
+  "complete_message": "Das Verständnis deiner Muster ist der erste Schritt, um sie neu zu schreiben. Du trägst die Kraft, einen anderen Weg zu wählen.",
+  "screen1": {
+    "tag": "Musterentdeckung",
+    "intro": "Hattest du schon mal das Gefühl, hier gewesen zu sein?",
+    "title": "Wenn deine Beziehungen immer wieder auf die gleiche Weise enden – bringt das kein Pech.",
+    "desc": "Die Beziehungen, die wir wählen, folgen einem Bauplan, der lange bevor wir uns verliebt haben, geschrieben wurde. Vertrautheit fühlt sich oft wie Sicherheit an, selbst wenn sie zu denselben alten Streitereien führt.",
+    "quote": "\"Wir wiederholen Muster nicht, weil wir kaputt sind – sondern weil sie vertraut wirken.\"",
+    "button": "Weiter auspacken"
+  },
+  "screen2": {
+    "tag": "Die Vorlage",
+    "intro": "Es beginnt früher, als du denkst.",
+    "title": "Die frühesten Beziehungen werden zur Vorlage für alles, was folgt.",
+    "desc": "Die Art, wie deine Betreuer auf deine Bedürfnisse reagiert haben, hat still und leise geprägt, wie du als Erwachsener mit anderen umgehst. Das sind erlernte Reaktionen – und sie können verlernt werden.",
+    "quote": "\"Dein Muster hat einmal Sinn ergeben. Die Frage ist – nützt es dir jetzt noch?\"",
+    "button": "Fertige Reflexion"
+  }
+}

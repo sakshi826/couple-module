@@ -1,4 +1,5 @@
 import { useState, useCallback, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { AnimatePresence, motion } from "framer-motion";
 import { WelcomeScreen } from "./WelcomeScreen";
 import { ConnectionScreen } from "./ConnectionScreen";
@@ -24,6 +25,7 @@ export interface ReflectionEntry {
 }
 
 const GriefActivity = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState<"welcome" | "connection" | "carry" | "reflection" | "complete" | "past">("welcome");
   const [name, setName] = useState("");
   const [relation, setRelation] = useState("");
@@ -97,8 +99,8 @@ const GriefActivity = () => {
   if (screen === "complete") {
     return (
       <PremiumComplete
-        title="Gentle Care"
-        message={`There's no single way to carry someone you love. What stays with you, in your own way, is enough.`}
+        title={t("complete_title")}
+        message={t("complete_message")}
         onRestart={() => {
           resetForm();
           setScreen("welcome");
@@ -108,17 +110,17 @@ const GriefActivity = () => {
   }
 
   const titles: Record<string, string> = {
-    welcome: "Welcome",
-    connection: "Honoring",
-    carry: "Carry Forward",
-    reflection: "Reflecting",
-    complete: "Complete",
-    past: "History"
+    welcome: t("nav.welcome"),
+    connection: t("nav.honoring"),
+    carry: t("nav.carry_forward"),
+    reflection: t("nav.reflecting"),
+    complete: t("nav.complete"),
+    past: t("nav.history")
   };
 
   return (
     <PremiumLayout
-      title="A Gentle Wish"
+      title={t("app_title")}
       subtitle={titles[screen]}
       icon={<Sparkles className="w-6 h-6 text-primary" />}
       onBack={screen !== "welcome" ? () => setScreen("welcome") : undefined}

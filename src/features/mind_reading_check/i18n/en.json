@@ -1,0 +1,85 @@
+{
+  "app_title": "Mind Reading Check",
+  "intro": {
+    "title": "Mind Reading Check",
+    "description": "Question the assumptions you make about what others are thinking.",
+    "benefits": [
+      "Stop assuming the worst",
+      "Identify biased interpretations",
+      "Build clearer communication"
+    ],
+    "duration": "3-4 minutes",
+    "view_past": "View Past Reflections"
+  },
+  "history": {
+    "title": "Past Reflections",
+    "no_entries": "No entries yet",
+    "belief_label": "Belief: {{level}}%",
+    "balanced_thought_label": "Balanced Thought"
+  },
+  "complete": {
+    "title": "Activity Complete",
+    "great_insights": "Great Insights!",
+    "message": "By questioning your assumptions, you're building a more objective and compassionate mind."
+  },
+  "steps": {
+    "label": "Step {{current}} of 10",
+    "step1": {
+      "title": "What happened?",
+      "desc": "Describe a recent moment where you felt judged or unsure.",
+      "placeholder": "Description of the situation..."
+    },
+    "step2": {
+      "title": "What went through your mind?",
+      "desc": "What did you assume they were thinking about you?",
+      "placeholder": "I assumed they were thinking..."
+    },
+    "step3": {
+      "title": "Let's slow this down",
+      "desc": "Right now, this thought can feel true. But before accepting it as a fact, let's take a step back and look at it more closely.",
+      "button": "Pause & Continue"
+    },
+    "step4": {
+      "title": "Is this true?",
+      "desc": "Is there any clear evidence (facts, not assumptions) that supports this thought?",
+      "placeholder": "The evidence I see is..."
+    },
+    "step5": {
+      "title": "What else could be going on?",
+      "desc": "What are 2–3 other possible explanations?",
+      "placeholder": "Possibility {{num}}..."
+    },
+    "step6": {
+      "title": "Check your belief",
+      "desc": "How strongly do you believe your original thought now?",
+      "labels": ["Not at all", "Completely"]
+    },
+    "step7": {
+      "title": "A more balanced view",
+      "desc": "Write a thought that feels more fair and less certain.",
+      "placeholder": "A more balanced thought..."
+    },
+    "step8": {
+      "title": "Next time",
+      "desc": "What could you do instead of assuming?",
+      "examples": ["Ask for clarification", "Give it some time", "Notice without reacting"],
+      "placeholder": "Next time, I could..."
+    },
+    "step9": {
+      "title": "Notice the shift",
+      "desc": "You explored different possibilities and created space for a more balanced view.",
+      "original_label": "Original Thought",
+      "balanced_label": "Balanced Perspective",
+      "button": "Finish Reflection"
+    },
+    "step10": {
+      "title": "A small shift",
+      "desc": "Your mind tries to fill in the gaps. But not every thought is a fact. Taking a step back helps you see things clearly.",
+      "button": "Complete Activity"
+    }
+  },
+  "buttons": {
+    "continue": "Continue",
+    "restart": "Restart"
+  }
+}

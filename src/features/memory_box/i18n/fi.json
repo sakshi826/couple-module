@@ -1,0 +1,80 @@
+{
+  "app_title": "Muistilaatikko",
+  "screen_titles": [
+    "Sinun laatikkosi",
+    "Kunnioittaminen",
+    "Ilmaiseminen",
+    "Säilytetty",
+    "Hellävarainen hoito"
+  ],
+  "complete_title": "Muisto säilynyt",
+  "complete_message": "Olet turvallisesti laittanut muiston [[0]:sta laatikkoosi. Nämä yhteyden hetket ovat aina sinun säilytettävissäsi.",
+  "auth_error": "Auth-istunto puuttuu tai tietokanta ei ole konfiguroitu",
+  "save_success": "Muisti säilynyt",
+  "save_error": "Muistin säilyttäminen epäonnistui",
+  "preserving": "Säilyttäen...",
+  "preserve_memory": "Säilytä muisti",
+  "welcome": {
+    "title": "Muistilaatikkosi",
+    "subtitle1": "Hiljainen tila muistaa jotakuta, jota rakastaa. 🤍",
+    "subtitle2": "Hengitä hitaasti sisään...",
+    "subtitle3": "… ja hengitä lempeästi ulos.",
+    "subtitle4": "Tähän ei ole oikeaa tai väärää tapaa.",
+    "subtitle5": "Mene omaan tahtiisi. 🌿",
+    "begin": "Aloita ✨",
+    "later": "Ehkä myöhemmin"
+  },
+  "who": {
+    "placeholder_name": "Kirjoita heidän nimensä...",
+    "placeholder_relation": "Mistä tunnet heidät? (valinnainen)",
+    "categories": [
+      {
+        "label": "Onnellinen hetki",
+        "emoji": "😊"
+      },
+      {
+        "label": "Jotain, mitä he ennen sanoivat",
+        "emoji": "💬"
+      },
+      {
+        "label": "Pieni arjen muisto",
+        "emoji": "☕"
+      },
+      {
+        "label": "Paikka, joka muistuttaa sinua heistä",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Jotain, mitä toivoisin voivani sanoa",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Jatka →"
+  },
+  "expression": {
+    "title": "Muistosi ilmaiseminen",
+    "memory_label": "Itse muisto",
+    "memory_placeholder": "Kirjoita hetkestä, tunteesta tai yksityiskohdasta, jonka haluat säilyttää...",
+    "message_label": "Viesti heille (valinnainen)",
+    "message_placeholder": "Mitä sanoisit, jos voisit puhua heidän kanssaan juuri nyt?",
+    "save": "Säilytä muisti",
+    "skip": "Hyppää toistaiseksi",
+    "back": "Takaisin"
+  },
+  "box": {
+    "title": "Turvallisesti piilossa",
+    "subtitle": "Tämä muisto {{name}}:sta on nyt osa kokoelmaasi.",
+    "add_another": "Lisää toinen muisto",
+    "finish": "Viimeistelyn heijastus"
+  },
+  "closing": {
+    "title": "Huolehtiminen",
+    "subtitle": "Suljen laatikkosi toistaiseksi. Voit palata tänne milloin tahansa, kun haluat tuntea olevasi lähellä näitä muistoja.",
+    "exit": "Sulje laatikko"
+  },
+  "history": {
+    "title": "Laatikon sisältö",
+    "no_memories": "Laatikkosi on tyhjä. Lisää ensimmäinen muistosi aloittaaksesi kokoelmasi.",
+    "search_placeholder": "Etsi muistoja..."
+  }
+}

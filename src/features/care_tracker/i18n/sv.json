@@ -1,0 +1,131 @@
+{
+  "common": {
+    "continue": "Fortsätt",
+    "back": "Tillbaka",
+    "home": "Tillbaka hem",
+    "yes": "Ja",
+    "no": "Nej",
+    "date": "Datum"
+  },
+  "screens": {
+    "intro": {
+      "title": "Egenvårdsspårare",
+      "description": "Följ dina dagliga egenvårdsvanor och se hur de påverkar ditt allmänna välbefinnande. Konsekvens är nyckeln till ett friskare sinne.",
+      "benefits": [
+        "Logga dagliga egenvårdsaktiviteter",
+        "Räkna tiden du spenderar på dig själv",
+        "Följ dina humörmönster",
+        "Se historia och framsteg"
+      ],
+      "duration": "2-3 minuter"
+    },
+    "checkin": {
+      "title": "Egenvårdskontroll 🌿",
+      "subtitle": "Hur tog du hand om dig själv idag?",
+      "question": "Har du praktiserat egenvård idag? *",
+      "description": "Egenvård är alla aktiviteter som vi medvetet gör för att ta hand om vår mentala, emotionella och fysiska hälsa."
+    },
+    "activities": {
+      "title": "Dina aktiviteter 🎯",
+      "subtitle": "Vilka egenvårdsaktiviteter gjorde du idag?"
+    },
+    "duration": {
+      "title": "Tid tillbringad ⏱️",
+      "subtitle": "Hur lång tid ägnade du åt egenvård? (valfritt)"
+    },
+    "noSelfCare": {
+      "title": "Det är okej 💛",
+      "subtitle": "Låt oss förstå vad som hände idag.",
+      "question1": "Vad hindrade egenvård idag? (valfritt)",
+      "question2": "Vilken typ av egenvård hade hjälpt? (valfritt)"
+    },
+    "mood": {
+      "title": "Hur mår du? 🫧",
+      "subtitle": "Välj ditt nuvarande humör (valfritt)"
+    },
+    "review": {
+      "title": "Din anmälan 📋",
+      "subtitle": "Här är en sammanfattning av dagens incheckning",
+      "didSelfCare": "Tog jag hand om mig själv?",
+      "activities": "Aktiviteter",
+      "duration": "Varaktighet",
+      "mood": "Humör",
+      "challenges": "Förhindrad av",
+      "whatHelps": "Det hade hjälpt",
+      "viewHistory": "Veckovisa Historia",
+      "editToday": "Redigera inlägg",
+      "summary": "Sammanfattning"
+    },
+    "history": {
+      "title": "Veckovisa Historia 📅",
+      "subtitle": "Inga anmälningar de senaste 7 dagarna"
+    },
+    "notfound": {
+      "title": "404",
+      "subtitle": "Oj! Sidan hittades inte",
+      "returnHome": "Återkomst hem"
+    }
+  },
+  "data": {
+    "activities": {
+      "Exercise": "Träning",
+      "Meditation": "Meditation",
+      "Journaling": "Dagboksskrivning",
+      "Reading": "Läsning",
+      "Rest / Nap": "Vila / Vila",
+      "Skincare": "Hudvård",
+      "Healthy Meal": "Hälsosam måltid",
+      "Nature / Walk": "Natur / Vandring",
+      "Social Time": "Social tid",
+      "Hobby": "Hobby",
+      "Therapy": "Terapi",
+      "Digital Detox": "Digital avgiftning"
+    },
+    "durations": {
+      "< 10 minutes": "< 10 minuter",
+      "10–30 minutes": "10–30 minuter",
+      "30–60 minutes": "30–60 minuter",
+      "1+ hour": "1+ timme"
+    },
+    "reasons": {
+      "Busy schedule": "Fullspäckat schema",
+      "Low energy": "Låg energi",
+      "Stress": "Stress",
+      "Forgot": "Glömt",
+      "No motivation": "Ingen motivation",
+      "Not feeling well": "Mår inte bra",
+      "Lack of time": "Brist på tid",
+      "Emotional overwhelm": "Emotionell överväldigande"
+    },
+    "helpfulTypes": {
+      "Rest": "Vila",
+      "Relaxation": "Avslappning",
+      "Physical activity": "Fysisk aktivitet",
+      "Talking to someone": "Prata med någon",
+      "Quiet time": "Tyst tid",
+      "Creative activity": "Kreativ verksamhet"
+    },
+    "moods": {
+      "Happy": "Glad",
+      "Calm": "Lugn",
+      "Neutral": "Neutral",
+      "Low": "Lågt",
+      "Stressed": "Stressad",
+      "Tired": "Trött"
+    },
+    "positiveStatements": [
+      "Du dök upp för din egen skull idag. Det är kraftfullt. 🌿",
+      "Egenvård är inte själviskt – det är nödvändigt. Bra jobbat. 💚",
+      "Varje liten omsorgshandling bygger en starkare version av dig själv. 🌱",
+      "Du investerade i dig själv idag. Det spelar roll. ✨",
+      "Att ta hand om dig själv är det bästa du gjort idag. 🍃"
+    ],
+    "supportiveStatements": [
+      "Det är okej. Imorgon är en nystart. Var snäll mot dig själv. 🤍",
+      "Inte varje dag kommer att vara perfekt, och det är helt okej. 🕊️",
+      "Du gör ditt bästa. Det räcker alltid. 💛",
+      "Vila är också en form av egenvård. Visa dig själv tålamod. 🌸",
+      "Att erkänna idag kräver mod. Du växer redan. 🌷"
+    ]
+  }
+}

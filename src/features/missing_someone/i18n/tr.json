@@ -1,0 +1,26 @@
+{
+  "app_title": "Birini Özledim",
+  "subtitles": [
+    "Doğrulama",
+    "İçsel Bilgelik",
+    "Tamam"
+  ],
+  "complete_title": "Anlaşılma Kazanıldı",
+  "complete_message": "Birini özlemenin kimyasını anlamak, iyileşmeye giden ilk adımdır. Duygularınız geçerli ve beyniniz sadece korumak ve işlemek için görevini yapıyor.",
+  "screen1": {
+    "tag": "Doğrulama",
+    "intro": "Bu, zayıf olduğunuz anlamına gelmez.",
+    "title": "Seni inciten birini özlemek çok insani bir şey.",
+    "desc": "Sen gittin. Ya da gitmişlerdi. Ama yine de — telefonuna uzanıyorsun, umarım onlar oluyor. Hâlâ acı olanlardan çok iyi anları tekrar ediyorsun. Bu çelişki bir kusur değil. Beyninizin kaybı nasıl işlediği budur.",
+    "quote": "\"Sadece kişiyi özlemiyorsun. Onlara bağlanma hissini özlüyorsun.\"",
+    "button": "Sonraki Adım"
+  },
+  "screen2": {
+    "tag": "Beyin Bilimi",
+    "intro": "İçsel Bilgelik",
+    "title": "Aşk kimyasal bir bağ oluşturur.",
+    "desc": "Birini sevdiğinizde, beyniniz dopamin, oksitosin ve serotonin salgılar. Bittiğinde, seviyeler düşer. Beyniniz yas tutuyor — sadece kişiyi değil, yakınlık hissini.",
+    "quote": "\"Onları özlemek, geri dönmen gerektiği anlamına gelmez. Kalbin bir bağa yas tutuyor — gerçek kişi değil.\"",
+    "button": "Finish Reflection"
+  }
+}

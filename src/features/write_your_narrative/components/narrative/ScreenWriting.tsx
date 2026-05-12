@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Sparkles, PenTool, ChevronRight } from "lucide-react";
-import { motion } from "framer-motion";
+import { Sparkles, ChevronRight } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 interface Props {
   writing: string;
@@ -8,14 +8,11 @@ interface Props {
   onContinue: () => void;
 }
 
-const prompts = [
-  { text: "What I remember most is…", emoji: "💭" },
-  { text: "At that time, I felt…", emoji: "🌊" },
-  { text: "Since then, I've noticed…", emoji: "🌱" },
-];
-
 const ScreenWriting = ({ writing, setWriting, onContinue }: Props) => {
+  const { t } = useTranslation();
   const [activePrompt, setActivePrompt] = useState<string | null>(null);
+
+  const prompts = t("writing.prompts", { returnObjects: true }) as any[];
 
   const handlePromptClick = (prompt: string) => {
     setActivePrompt(prompt);
@@ -28,17 +25,17 @@ const ScreenWriting = ({ writing, setWriting, onContinue }: Props) => {
     <div className="flex-1 flex flex-col gap-8" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
       <div className="text-center space-y-2">
         <h1 className="text-3xl font-black text-slate-800 leading-tight">
-          Write what feels okay ✨
+          {t("writing.title")}
         </h1>
-        <p className="text-slate-500 font-medium text-base italic">Your words, your pace</p>
+        <p className="text-slate-500 font-medium text-base italic">{t("writing.subtitle")}</p>
       </div>
 
       <div className="space-y-4">
         <p className="text-center text-slate-400 text-[10px] font-black uppercase tracking-[0.2em]">
-          Need a starting point?
+          {t("writing.prompt_label")}
         </p>
         <div className="flex flex-wrap justify-center gap-3">
-          {prompts.map((p) => (
+          {prompts && prompts.map((p) => (
             <button
               key={p.text}
               onClick={() => handlePromptClick(p.text)}
@@ -74,7 +71,7 @@ const ScreenWriting = ({ writing, setWriting, onContinue }: Props) => {
         <textarea
           value={writing}
           onChange={(e) => setWriting(e.target.value)}
-          placeholder="Start writing here…"
+          placeholder={t("writing.placeholder")}
           className="relative z-[1] w-full min-h-[350px] bg-transparent pl-16 pr-10 py-8 text-slate-800 text-lg leading-[40px] text-left placeholder:text-slate-200 focus:outline-none resize-none font-medium"
         />
       </div>
@@ -82,14 +79,14 @@ const ScreenWriting = ({ writing, setWriting, onContinue }: Props) => {
       <div className="space-y-6">
         <p className="text-center text-slate-400 text-[13px] flex items-center justify-center gap-2 italic">
           <Sparkles size={14} className="text-primary/40" />
-          There's no right way to do this. Even a few lines are enough.
+          {t("writing.notice")}
         </p>
 
         <button
           onClick={onContinue}
           className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
         >
-          Finish Writing
+          {t("writing.button")}
           <ChevronRight size={20} strokeWidth={3} />
         </button>
       </div>
@@ -98,4 +95,3 @@ const ScreenWriting = ({ writing, setWriting, onContinue }: Props) => {
 };
 
 export default ScreenWriting;
-

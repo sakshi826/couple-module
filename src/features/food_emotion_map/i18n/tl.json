@@ -1,0 +1,87 @@
+{
+  "app_title": "Mapa ng Pagkain at Emosyon",
+  "screen_titles": [
+    "Maligayang pagdating",
+    "Mga Pattern ng Pagkain",
+    "Panloob na Diyalogo",
+    "Pisikal na Senssing",
+    "Ang mapa",
+    "Magiliw na Suporta",
+    "Pangwakas na Pagtingin",
+    "Pagmumuni-muni"
+  ],
+  "welcome_text": "Hoy... Natutuwa ako na nandito 💛 ka Malumanay nating i-map kung ano ang nangyayari.",
+  "coming_up_label": "Ano ang nangyayari kamakailan?",
+  "begin_mapping": "Simulan ang Pagmamapa",
+  "food_patterns_q": "Hmm... Naririnig kita. Kapag naramdaman mo ang {{emotion}} ... Paano karaniwang lumilitaw ang pagkain?",
+  "continue_button": "Magpatuloy",
+  "internal_dialogue_q": "Sa mga sandaling iyon... Anong uri ng pag-iisip ang lumalabas?",
+  "write_placeholder": "Isulat kung ano man ang nasa isip mo...",
+  "physical_sensing_q": "Kung tumigil ka sandali ... Ano ang napapansin mo sa iyong katawan?",
+  "the_pattern_label": "Ang Pattern",
+  "pattern_desc_1": "Kapag naramdaman mo ang {{emotion}}, ang iyong katawan ay naramdaman ang {{sensation}}...",
+  "pattern_desc_2": "… At ang pagkain ay nagiging isang paraan patungo sa {{response}}, samantalang ang mga kaisipang tulad ng \"{{thought}} ay lumilitaw.",
+  "pattern_footer": "\"Ang Kalayaan ay Kalayaan\"",
+  "support_q": "Sa mga sandaling iyon... Ano ang maaaring makatulong sa iyo—kahit kaunti?",
+  "understanding_text": "Naiintindihan mo ang iyong sarili nang kaunti nang mas mahusay. Iyon ay higit pa sa sapat 💛",
+  "how_feeling_now": "Ano ang nararamdaman mo ngayon?",
+  "preserve_button": "Panatilihin ang Mapa",
+  "preserving": "Pagpapanatili ...",
+  "complete_title": "Napanatili ang Mapa",
+  "complete_message": "Matagumpay mong nai-map ang koneksyon sa pagitan ng iyong damdamin at pagkain. Ang kamalayan na ito ay isang mabisang kasangkapan para sa banayad na pagbabago.",
+  "auth_error": "Nawawala ang session ng auth o hindi naka-configure ang DB",
+  "save_success": "Napanatili ang pattern",
+  "save_error": "Nabigo na mapanatili ang pattern",
+  "emotions_list": [
+    "😰 Stress",
+    "😢 Kalungkutan",
+    "😶 Pagkabagot",
+    "😟 Pagkabalisa",
+    "🥺 Kalungkutan",
+    "💭 Iba pa..."
+  ],
+  "food_responses": [
+    "🍽️ Kumakain ako ng higit pa",
+    "🚫 Kumakain ako ng mas kaunti",
+    "🍫 Nananabik ako sa mga partikular na pagkain",
+    "😣 Umiiwas ako sa pagkain",
+    "😐 Walang tunay na pagbabago"
+  ],
+  "body_sensations": [
+    "💔 Masikip na dibdib",
+    "🪨 Mabigat na pakiramdam",
+    "🦵 Hindi mapakali / fidgety",
+    "🔋 Mababang enerhiya",
+    "🌀 Buhol sa tiyan",
+    "❓ Iba pa..."
+  ],
+  "support_options": [
+    "🗣️ Makipag-usap sa isang tao",
+    "☕ Magpahinga",
+    "📝 Journal",
+    "🌬️ Huminga",
+    "🎧 Abalahin ang aking sarili"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "Makipag-ugnay 💛",
+      "body": "Kung minsan ang pagbabahagi ay nagpapagaan ng kaunti sa mga bagay-bagay. Siguro isang simpleng 'hoy, maaari ba tayong mag-usap?'"
+    },
+    "☕ Take a break": {
+      "title": "I-pause 💛",
+      "body": "Ang isang maliit na pag-pause ay maaaring makatulong sa pag-reset ng mga bagay-bagay. Baka lumayo ka at huminga nang kaunti."
+    },
+    "📝 Journal": {
+      "title": "Isulat ito 💛",
+      "body": "Maaari kang magsimula sa \"Sa ngayon nararamdaman ko...\" at hayaan lamang itong dumaloy."
+    },
+    "🌬️ Breathe": {
+      "title": "Huminga 💛",
+      "body": "Inhale 4 ... Hawakan ang 2 ... Huminga 6 ... Pabagalin natin ito nang sabay-sabay."
+    },
+    "🎧 Distract myself": {
+      "title": "Banayad na paglipat 💛",
+      "body": "Ang isang banayad na pagkagambala ay maaaring baguhin ang sandali ... Marahil isang bagay na magaan o madali."
+    }
+  }
+}

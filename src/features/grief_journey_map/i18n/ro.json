@@ -1,0 +1,39 @@
+{
+  "app_title": "Călătoria în doliu",
+  "app_subtitle": "Harta pierderii • {{current}}/{{total}}",
+  "screen1_title": "Nu jelești greșit",
+  "screen1_desc": "Durerea nu vine în etape ordonate și pleacă la timp. Se prăbușește, se retrage și revine când te aștepți mai puțin. Asta nu e o slăbiciune la tine — asta e durere.",
+  "screen1_quote": "\"Nu există o cale corectă de a jeli. Există doar calea ta.\"",
+  "btn_tell_more": "Spune-mi mai multe",
+  "screen2_tag": "Imaginea reală",
+  "screen2_title": "Durerea poartă multe fețe",
+  "screen2_desc": "Așa se așteaptă oamenii să arate doliul — față de cum este de fapt.",
+  "expectation_label": "Așteptarea",
+  "reality_label": "Realitatea",
+  "expectation_desc": "Liniar • Previzibil • Clar",
+  "reality_desc": "Haotic • Looping • Om",
+  "screen2_quote": "\"Niciunul dintre aceste valuri nu e greșit. Toate sunt durere.\"",
+  "btn_one_more": "Încă un lucru",
+  "screen3_tag": "Adevăruri blânde",
+  "screen3_title": "Merită cunoscut",
+  "truths": [
+    {
+      "emoji": "🗓️",
+      "title": "Fără termen limită",
+      "body": "Nu există o dată de expirare a pierderii. Să simți asta după luni sau ani nu înseamnă că ești blocat — înseamnă că ai iubit."
+    },
+    {
+      "emoji": "🌗",
+      "title": "Sentimente contradictorii",
+      "body": "Poți să-ți fie dor de cineva și să te simți ușurat. Poți râde și plânge. Durerea are opuse."
+    },
+    {
+      "emoji": "🤍",
+      "title": "Transformarea iubirii",
+      "body": "Durerea nu este separată de dragoste. E același lucru, transformat."
+    }
+  ],
+  "btn_finish": "Reflecția de finisaj",
+  "complete_title": "Călătorie onorată",
+  "complete_message": "Nu trebuie să mergi mai departe. Pur și simplu înveți să o porți altfel. Călătoria ta este unică, validă și profund umană."
+}

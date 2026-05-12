@@ -1,0 +1,98 @@
+{
+  "app_title": "Safe Space Leinwand",
+  "step_label": "Schritt {{current}} von 5",
+  "welcome": {
+    "title": "Dein sicherer Ort wartet",
+    "description": "Baue dein eigenes Refugium durch eine Reihe sanfter, kreativer Anregungen. Eine leere Leinwand für deine Gedanken und Gefühle.",
+    "benefits": [
+      "Drücken Sie sich durch Farbe aus",
+      "Erstelle ein visuelles Erdungswerkzeug",
+      "Sicher, privat und persönlich"
+    ],
+    "duration": "10-15 Minuten",
+    "view_past": "Vergangene Collagen ansehen"
+  },
+  "canvas": {
+    "prompts": [
+      {
+        "quote": "Wie sieht der Himmel an deinem sicheren Ort aus? Zeichne seine Farbe, sein Licht oder sein Gefühl.",
+        "button": "Ich habe den Himmel hinzugefügt →",
+        "hint": "Es gibt keinen richtigen Weg – jeder Punkt reicht."
+      },
+      {
+        "quote": "Wie fühlt sich der Boden an? Gras, Sand, Wasser, Holzboden? Füge es unter den Himmel hinzu.",
+        "button": "Ich habe die Erde hinzugefügt →",
+        "hint": "Denk darüber nach, wie sich deine Füße an diesem Ort anfühlen."
+      },
+      {
+        "quote": "Füge eine Sache hinzu, die hierher gehört – einen Baum, einen Stuhl, ein Fenster, ein Haustier, eine Lampe. Alles, was sich richtig anfühlt.",
+        "button": "Ich habe etwas hinzugefügt →",
+        "hint": "Es muss nicht perfekt aussehen. Es muss sich einfach wahr anfühlen."
+      },
+      {
+        "quote": "Was bringt Wärme oder Geborgenheit in diesen Ort? Ein Licht, ein Feuer, Sonnenlicht, eine Decke? Füge es einfach hinzu, wo es sich richtig anfühlt.",
+        "button": "Ich habe die Wärme hinzugefügt →",
+        "hint": "Schon ein kleiner Farbpunkt zählt."
+      },
+      {
+        "quote": "Zum Schluss – füge 3 bis 5 Wörter hinzu, die hierher gehören. Tippe auf deine Zeichnung, um sie irgendwo zu platzieren.",
+        "button": "Das sind meine Worte →",
+        "hint": ""
+      }
+    ],
+    "word_chips": [
+      "Frieden",
+      "Zuhause",
+      "Himmel",
+      "Ruhe",
+      "Warm",
+      "Genug",
+      "Sanft",
+      "Sicher"
+    ],
+    "custom_word_placeholder": "+ Deine eigene",
+    "skip_prompt": "Überspringe diesen Prompt",
+    "type_here": "Hier tippen Sie sie ein"
+  },
+  "save": {
+    "title": "Bewahre deinen sicheren Ort",
+    "desc": "Gib deiner Kreation einen Namen und eine kurze Reflexion.",
+    "preview_alt": "Dein Safe Place-Collage",
+    "generating_preview": "Generiere Vorschau...",
+    "name_label": "Wie nennt man diesen Ort?",
+    "name_placeholder": "z. B. My Sunday Meadow",
+    "reflection_label": "Warum ist dieser Ort wichtig? (Optional)",
+    "reflection_placeholder": "Ein sanfter Satz...",
+    "privacy_note": "Das bleibt privat – nur für dich und deinen Therapeuten sichtbar.",
+    "button": "Rettet meinen sicheren Ort",
+    "default_name": "Mein sicherer Ort"
+  },
+  "grounding": {
+    "title": "Du bist hier. Du bist sicher.",
+    "breathe_info": "4 · Halt · 4 · Lass los · 6",
+    "done_message": "Gut gemacht, dass du heute für dich selbst erschienen bist.",
+    "durations": [
+      {
+        "label": "1 Min.",
+        "seconds": "60"
+      },
+      {
+        "label": "3 Minuten",
+        "seconds": "180"
+      },
+      {
+        "label": "5 Minuten",
+        "seconds": "300"
+      }
+    ],
+    "phases": [
+      "Atme ein",
+      "Halt",
+      "Lass los"
+    ]
+  },
+  "history": {
+    "title": "Frühere sichere Orte",
+    "no_collages": "Noch keine gespeicherten Collagen. Schließe die Aktivität ab, um deine erste zu speichern."
+  }
+}

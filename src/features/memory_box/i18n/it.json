@@ -1,0 +1,80 @@
+{
+  "app_title": "Scatola della memoria",
+  "screen_titles": [
+    "La tua scatola",
+    "Onore",
+    "Espressione",
+    "Conservato",
+    "Cura Delicata"
+  ],
+  "complete_title": "Memoria conservata",
+  "complete_message": "Hai messo in sicurezza un ricordo di {{name}} nella tua scatola. Questi momenti di connessione sono sempre tuoi.",
+  "auth_error": "Sessione di autenticazione mancante o DB non configurato",
+  "save_success": "Memoria conservata",
+  "save_error": "Non è riuscito a preservare la memoria",
+  "preserving": "Preservare...",
+  "preserve_memory": "Preserva la memoria",
+  "welcome": {
+    "title": "La tua scatola dei ricordi",
+    "subtitle1": "Uno spazio tranquillo per ricordare qualcuno che ami. 🤍",
+    "subtitle2": "Fai un respiro lento...",
+    "subtitle3": "… e espira dolcemente.",
+    "subtitle4": "Non c'è un modo giusto o sbagliato per farlo.",
+    "subtitle5": "Vai al tuo ritmo. 🌿",
+    "begin": "Inizio ✨",
+    "later": "Forse più tardi"
+  },
+  "who": {
+    "placeholder_name": "Digita il loro nome...",
+    "placeholder_relation": "Come li conosci? (opzionale)",
+    "categories": [
+      {
+        "label": "Un momento felice",
+        "emoji": "😊"
+      },
+      {
+        "label": "Qualcosa che dicevano",
+        "emoji": "💬"
+      },
+      {
+        "label": "Un piccolo ricordo quotidiano",
+        "emoji": "☕"
+      },
+      {
+        "label": "Un posto che ti ricorda loro",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Qualcosa che vorrei poter dire",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Continua →"
+  },
+  "expression": {
+    "title": "Esprimere la tua memoria",
+    "memory_label": "Il ricordo stesso",
+    "memory_placeholder": "Scrivi del momento, della sensazione o del dettaglio che vuoi conservare...",
+    "message_label": "Un messaggio per loro (opzionale)",
+    "message_placeholder": "Cosa diresti se potessi parlare con loro adesso?",
+    "save": "Preserva la memoria",
+    "skip": "Per ora salta",
+    "back": "Indietro"
+  },
+  "box": {
+    "title": "Al Sicuro Nascosto",
+    "subtitle": "Questo ricordo di {{name}} ora fa parte della tua collezione.",
+    "add_another": "Aggiungi un altro ricordo",
+    "finish": "Riflessione finale"
+  },
+  "closing": {
+    "title": "Prendersi cura della cura",
+    "subtitle": "Chiudo la tua scatola per ora. Puoi tornare qui ogni volta che hai bisogno di sentirti vicino a questi ricordi.",
+    "exit": "Chiudi la scatola"
+  },
+  "history": {
+    "title": "Contenuti della scatola",
+    "no_memories": "La tua scatola è vuota. Aggiungi il tuo primo ricordo per iniziare la tua collezione.",
+    "search_placeholder": "Cerca i ricordi..."
+  }
+}

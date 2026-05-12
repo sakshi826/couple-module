@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import TimePicker from './TimePicker';
 
 interface Screen2Props {
@@ -38,6 +39,7 @@ function calcBedtime(wakeHour: number, wakeMinute: number, wakeAmPm: 'AM' | 'PM'
 }
 
 const Screen2 = (props: Screen2Props) => {
+  const { t } = useTranslation();
   const { wakeHour, wakeMinute, wakeAmPm, sleepDuration } = props;
   const bedtime = calcBedtime(wakeHour, wakeMinute, wakeAmPm, sleepDuration);
   const wakeStr = formatTime(wakeHour, wakeMinute, wakeAmPm);
@@ -46,16 +48,16 @@ const Screen2 = (props: Screen2Props) => {
   return (
     <div className="flex flex-col flex-1 px-5 pb-6 overflow-y-auto" style={{ minHeight: 0 }}>
       <h1 style={{ fontSize: 18, fontWeight: 600, color: 'var(--sleep-body-color)', marginBottom: 14 }}>
-        Let's set your sleep window
+        {t("screen2.title")}
       </h1>
 
       {/* Step 1 */}
       <div style={cardStyle} className="mb-3">
         <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--sleep-accent-hex)', letterSpacing: 1, textTransform: 'uppercase', marginBottom: 6 }}>
-          STEP 1 — WAKE-UP TIME
+          {t("screen2.step1.title")}
         </div>
         <p style={{ fontSize: 13, fontWeight: 500, color: 'var(--sleep-body-color)', marginBottom: 4 }}>
-          What time do you need to wake up most days?
+          {t("screen2.step1.desc")}
         </p>
         <TimePicker
           hour={wakeHour} minute={wakeMinute} amPm={wakeAmPm}
@@ -68,10 +70,10 @@ const Screen2 = (props: Screen2Props) => {
       {/* Step 2 */}
       <div style={cardStyle} className="mb-3">
         <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--sleep-accent-hex)', letterSpacing: 1, textTransform: 'uppercase', marginBottom: 6 }}>
-          STEP 2 — SLEEP DURATION
+          {t("screen2.step2.title")}
         </div>
         <p style={{ fontSize: 13, fontWeight: 500, color: 'var(--sleep-body-color)', marginBottom: 10 }}>
-          How many hours of sleep do you want?
+          {t("screen2.step2.desc")}
         </p>
         <div className="flex items-center gap-3">
           <span style={{ fontSize: 11, color: 'var(--sleep-sub-color)' }}>6h</span>
@@ -113,12 +115,12 @@ const Screen2 = (props: Screen2Props) => {
           }}>☀️</div>
         </div>
         <p style={{ textAlign: 'center', fontSize: 11, color: 'var(--sleep-sub-color)' }}>
-          {sleepDuration} hours of sleep
+          {t("screen2.live_window.duration", { hours: sleepDuration })}
         </p>
       </div>
 
       <p style={{ fontSize: 12, fontStyle: 'italic', color: 'var(--sleep-sub-color)', textAlign: 'center', marginBottom: 16 }}>
-        Most adults need 7–9 hours. Choose what feels right.
+        {t("screen2.italic")}
       </p>
 
       <div style={{ marginTop: 'auto' }}>
@@ -127,7 +129,7 @@ const Screen2 = (props: Screen2Props) => {
           background: 'linear-gradient(135deg, var(--sleep-accent-hex), var(--sleep-purple-hex))',
           color: '#fff', fontWeight: 500, fontSize: 15, cursor: 'pointer',
         }}>
-          See my sleep window →
+          {t("screen2.button")}
         </button>
       </div>
     </div>

@@ -1,0 +1,22 @@
+{
+  "app_title": "Relationsmönster",
+  "app_subtitle": "Packa upp din ritning",
+  "complete_title": "Medvetenhet som uppnåtts",
+  "complete_message": "Att förstå dina mönster är det första steget mot att skriva om dem. Du bär på kraften att välja en annan väg.",
+  "screen1": {
+    "tag": "Mönsterupptäckt",
+    "intro": "Har du någonsin känt att du varit här förut?",
+    "title": "Om dina relationer fortsätter sluta på samma sätt – är det inte otur.",
+    "desc": "De relationer vi väljer följer en ritning skriven långt innan vi någonsin blev kära. Trygghet känns ofta som trygghet, även när det leder till samma gamla gräl.",
+    "quote": "\"Vi upprepar mönster inte för att vi är trasiga – utan för att de känns bekanta.\"",
+    "button": "Fortsätt packa upp"
+  },
+  "screen2": {
+    "tag": "Mallen",
+    "intro": "Det börjar tidigare än du tror.",
+    "title": "De tidigaste relationerna blir mallen för allt som följer.",
+    "desc": "Sättet dina vårdgivare svarade på dina behov formade tyst hur du relaterar till andra som vuxen. Detta är inlärda svar – och de kan avläras.",
+    "quote": "\"Ditt mönster var logiskt en gång. Frågan är — tjänar den dig fortfarande nu?\"",
+    "button": "Färdig reflektion"
+  }
+}

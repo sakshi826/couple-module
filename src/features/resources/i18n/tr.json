@@ -1,0 +1,37 @@
+{
+  "app_title": "Kaynaklar",
+  "not_found": {
+    "title": "Bulunmadı",
+    "message": "Kaynak bulunmadı",
+    "description": "Aradığınız içerik taşınmış olabilir.",
+    "button": "Geri Dön"
+  },
+  "list": {
+    "empty_title": "{{type}} mevcut değil",
+    "empty_desc": "Şu anda bu konu için daha fazla kaynak oluşturuyoruz.",
+    "footer": "Mantra Bakımı • Kanıta Dayalı Kaynaklar"
+  },
+  "detail": {
+    "loading": "Yükleniyor...",
+    "tip": {
+      "insight_label": "İçgörü",
+      "plan_title": "Günlük Eylem Planı",
+      "steps": "{{count}} Basamaklar",
+      "example_label": "Pratik Örneği",
+      "instead_of": "Yerine",
+      "try_this": "Bunu dene"
+    },
+    "article": {
+      "final_thought": "Son Düşünce"
+    },
+    "story": {
+      "reflection_label": "Oturacak bir şey",
+      "note_label": "Yazardan Bir Not"
+    },
+    "myth": {
+      "truth_label": "Bilimsel Gerçek",
+      "explanation_label": "Detaylı Açıklama",
+      "insight_label": "Temel İçgörüler"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "app_title": "Kaipaan jotakuta",
+  "subtitles": [
+    "Validointi",
+    "Sisäinen viisaus",
+    "Täydellinen"
+  ],
+  "complete_title": "Selkeys saavutettu",
+  "complete_message": "Toisen ikävöimisen kemian ymmärtäminen on ensimmäinen askel kohti paranemista. Tunteesi ovat oikeutettuja, ja aivosi tekevät vain työtään suojellakseen ja käsitelläkseen niitä.",
+  "screen1": {
+    "tag": "Validointi",
+    "intro": "Se ei tarkoita, että olisit heikko.",
+    "title": "On syvästi inhimillistä ikävä kaivata jotakuta, joka satutti sinua.",
+    "desc": "Lähdit. Tai he lähtivät. Ja silti — tartut puhelimeesi toivoen, että se on he. Hyviä hetkiä toistat yhä enemmän kuin kivuliaita. Tämä ristiriita ei ole virhe. Näin aivosi käsittelevät menetystä.",
+    "quote": "\"Et vain kaipaa henkilöä. Kaipaat tunnetta siitä, että olet sidottu heihin.\"",
+    "button": "Seuraava askel"
+  },
+  "screen2": {
+    "tag": "Aivotiede",
+    "intro": "Sisäinen viisaus",
+    "title": "Rakkaus luo kemiallisen siteen.",
+    "desc": "Kun rakastat jotakuta, aivosi vapauttavat dopamiinia, oksitosiinia ja serotoniinia. Kun se loppuu, nuo tasot laskevat. Aivosi surevat — eivät pelkästään ihmistä, vaan läheisyyden tunnetta.",
+    "quote": "\"Se, että kaipaat heitä, ei tarkoita, että sinun pitäisi palata. Sydämesi suree sidettä — ei välttämättä sitä ihmistä, joka hän todella oli.\"",
+    "button": "Viimeistelyn heijastus"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "app_title": "Prediction vs Reality",
+  "step_label": "Step {{current}} of 8",
+  "intro": {
+    "title": "Prediction vs Reality",
+    "description": "Compare your anxious predictions with what actually happens to build a more balanced perspective.",
+    "benefits": [
+      "Identify anxious patterns",
+      "Collect evidence against fears",
+      "Reduce future overthinking"
+    ],
+    "duration": "4-5 minutes",
+    "view_past": "View Past Reflections"
+  },
+  "history": {
+    "title": "Past Reflections",
+    "no_reflections": "No reflections saved yet.",
+    "prediction_label": "Prediction",
+    "reality_label": "Reality",
+    "reflection_label": "Reflection:"
+  },
+  "complete": {
+    "title": "Activity Complete",
+    "saved_title": "Reflection Saved",
+    "message": "By looking at the facts, you're helping your mind learn that things are often more manageable than they seem."
+  },
+  "emotions": ["Anxious", "Nervous", "Scared", "Overwhelmed", "Uneasy"],
+  "intensity_labels": {
+    "not_intense": "Not Intense",
+    "very_intense": "Very Intense"
+  },
+  "comparison_options": [
+    "It turned out almost exactly how I expected",
+    "Some parts were right, but not everything",
+    "It was quite different from what I expected",
+    "It was much easier/better than I imagined"
+  ],
+  "screens": {
+    "s1": {
+      "title": "Think of a recent situation",
+      "desc": "Recall a recent moment where you felt anxious or unsure.",
+      "placeholder": "Describe the situation..."
+    },
+    "s2": {
+      "title": "What did you think would happen?",
+      "desc": "What were you expecting or fearing in that moment?",
+      "placeholder": "I was worried that..."
+    },
+    "s3": {
+      "title": "How did you feel?",
+      "desc": "Select the emotions you felt and their intensity."
+    },
+    "s4": {
+      "title": "What actually happened?",
+      "desc": "Focus on the facts of what really took place.",
+      "placeholder": "In reality..."
+    },
+    "s5": {
+      "title": "Let's look at both",
+      "expectation": "Expectation",
+      "reality": "Reality",
+      "question": "How close was your expectation?"
+    },
+    "s6": {
+      "title": "What do you notice?",
+      "desc": "Was it as bad as you thought it would be?",
+      "placeholder": "I notice that..."
+    },
+    "s7": {
+      "title": "Next time",
+      "desc": "What could you remind yourself if this happens again?",
+      "placeholder": "e.g., \"Maybe it won't be as bad as I'm imagining.\""
+    },
+    "s8": {
+      "title": "A small reminder",
+      "desc": "Your mind tries to prepare you—but it doesn't always predict accurately. Every time you pause to look at the facts, you build resilience.",
+      "button": "Save Reflection",
+      "discard": "Discard Entry"
+    }
+  },
+  "buttons": {
+    "continue": "Continue"
+  },
+  "toasts": {
+    "saved": "Reflection saved!"
+  }
+}

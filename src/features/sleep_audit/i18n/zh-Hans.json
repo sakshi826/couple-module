@@ -1,0 +1,94 @@
+{
+  "app_title": "睡眠审计",
+  "app_subtitle": "理解你的休息",
+  "intro": {
+    "title": "你的睡眠审计",
+    "description": "了解影响睡眠的原因，以及哪些小改变能有所帮助。",
+    "start_button": "开始审计",
+    "history_button": "过去的审计"
+  },
+  "screens": {
+    "s1": {
+      "phase": "第一阶段",
+      "title": "你睡得怎么样？",
+      "desc": "选择最近让你感觉真实的作品"
+    },
+    "s2": {
+      "phase": "第二阶段",
+      "title": "评估你的典型休息",
+      "label": "具体的担忧？",
+      "placeholder": "压力、噪音、刷屏......"
+    },
+    "s3": {
+      "score_label": "共7",
+      "recommendations": {
+        "solid": "你的习惯很扎实！小调整可以让它变得更好。",
+        "some": "检测到一些干扰。习惯改变可以迅速改善。",
+        "many": "有几个因素影响你的睡眠。我们可以一起克服。"
+      }
+    }
+  },
+  "options": [
+    {
+      "emoji": "🕐",
+      "text": "我每晚睡觉的时间都差很多"
+    },
+    {
+      "emoji": "💡",
+      "text": "我的睡眠环境既不暗也不安静，也不舒适"
+    },
+    {
+      "emoji": "📱",
+      "text": "我睡觉前会刷手机"
+    },
+    {
+      "emoji": "☕",
+      "text": "我临睡前会喝咖啡因或酒精"
+    },
+    {
+      "emoji": "😵",
+      "text": "我半夜醒来，很难再入睡"
+    },
+    {
+      "emoji": "🧠",
+      "text": "当我试图入睡时，脑海里充满了各种想法"
+    },
+    {
+      "emoji": "😔",
+      "text": "我很少在睡一觉后感到精神焕发"
+    }
+  ],
+  "rating_labels": [
+    "非常贫穷",
+    "可怜",
+    "好的",
+    "很好",
+    "太好了"
+  ],
+  "status_labels": {
+    "track": "大部分时间都在赛道上",
+    "disruptions": "一些中断",
+    "attention": "需要关注"
+  },
+  "buttons": {
+    "continue": "继续",
+    "see_results": "参见结果",
+    "preserve": "保留结果",
+    "preserving": "保存......",
+    "back_to_intro": "返回引言"
+  },
+  "history": {
+    "title": "过去的审计",
+    "no_entries": "目前还没有保存审计记录。",
+    "score_label": "共7"
+  },
+  "complete": {
+    "title": "审计完成",
+    "message": "你的睡眠评分是{{score}}/7。理解这些模式是迈向更深层、更具修复性休息的第一步。"
+  },
+  "toasts": {
+    "save_success": "审核保存",
+    "save_error": "未能保存审计",
+    "auth_error": "缺少认证会话或数据库未配置"
+  }
+}

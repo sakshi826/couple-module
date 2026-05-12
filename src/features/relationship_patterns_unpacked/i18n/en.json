@@ -1,0 +1,22 @@
+{
+  "app_title": "Relationship Patterns",
+  "app_subtitle": "Unpacking your blueprint",
+  "complete_title": "Awareness Gained",
+  "complete_message": "Understanding your patterns is the first step toward rewriting them. You carry the power to choose a different path.",
+  "screen1": {
+    "tag": "Pattern Discovery",
+    "intro": "Ever felt like you've been here before?",
+    "title": "If your relationships keep ending the same way — it's not bad luck.",
+    "desc": "The relationships we choose follow a blueprint written long before we ever fell in love. Familiarity often feels like safety, even when it leads to the same old arguments.",
+    "quote": "\"We repeat patterns not because we are broken — but because they feel familiar.\"",
+    "button": "Continue Unpacking"
+  },
+  "screen2": {
+    "tag": "The Template",
+    "intro": "It starts earlier than you think.",
+    "title": "Earliest relationships become the template for all that follows.",
+    "desc": "The way your caregivers responded to your needs quietly shaped how you relate to others as an adult. These are learned responses — and they can be unlearned.",
+    "quote": "\"Your pattern made sense once. The question is — does it still serve you now?\"",
+    "button": "Finish Reflection"
+  }
+}

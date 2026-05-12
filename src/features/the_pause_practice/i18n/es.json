@@ -1,0 +1,73 @@
+{
+  "app_title": "Práctica de pausa",
+  "app_subtitle": "Domina el espacio entre",
+  "intro": {
+    "title": "La pausa de 5 segundos",
+    "description": "Una pequeña pausa entre sentir y reaccionar puede cambiarlo todo.",
+    "duration": "Tarda menos de 15 segundos. De verdad.",
+    "button": "Pruébalo →"
+  },
+  "scenario": {
+    "title": "¿Qué te desencadena?",
+    "desc": "Elige una situación con la que te identifiques",
+    "options": [
+      {
+        "id": "Interrupciones",
+        "label": "Alguien me interrumpe",
+        "emoji": "😠"
+      },
+      {
+        "id": "Planes",
+        "label": "Las cosas no salen como planeaban",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignorado",
+        "label": "Me siento ignorado",
+        "emoji": "😔"
+      },
+      {
+        "id": "abrumado",
+        "label": "Me siento abrumado",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Escribe tu propia cosa...",
+    "button": "Pausa de práctica →"
+  },
+  "hold": {
+    "title": "Mantener en pausa ⏸️",
+    "instructions": "Mantén el círculo durante 5 segundos",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Pulsa y mantien..."
+      },
+      {
+        "at": "0.15",
+        "text": "Sigue adelante..."
+      },
+      {
+        "at": "0.5",
+        "text": "Lo estás haciendo..."
+      },
+      {
+        "at": "0.8",
+        "text": "Casi llegamos..."
+      }
+    ]
+  },
+  "result": {
+    "title": "Esa es la pausa",
+    "message": "Simplemente creaste un espacio entre lo que sentías y cómo respondías. Incluso una pequeña pausa te ayuda a recuperar tu centro.",
+    "tip_label": "Consejo profesional",
+    "scenario_messages": {
+      "interrupts": "La próxima vez que alguien te interrumpa, prueba esto antes de responder.",
+      "plans": "La próxima vez que las cosas no salgan como planeas, prueba esto antes de reaccionar.",
+      "ignored": "La próxima vez que te sientas ignorado, prueba esto antes de responder.",
+      "overwhelmed": "La próxima vez que te sientas abrumado, prueba esto antes de hacer nada.",
+      "other": "La próxima vez que te sientas desencadenado, prueba esto antes de reaccionar."
+    },
+    "italic": "No siempre será fácil, pero la constancia es clave."
+  }
+}

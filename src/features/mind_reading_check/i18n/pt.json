@@ -1,0 +1,92 @@
+{
+  "app_title": "Verificação de Leitura da Mente",
+  "intro": {
+    "title": "Verificação de Leitura da Mente",
+    "description": "Questione as suposições que você faz sobre o que os outros estão pensando.",
+    "benefits": [
+      "Pare de assumir o pior",
+      "Identificar interpretações tendenciosas",
+      "Construa uma comunicação mais clara"
+    ],
+    "duration": "3-4 minutos",
+    "view_past": "Veja reflexões passadas"
+  },
+  "history": {
+    "title": "Reflexões Passadas",
+    "no_entries": "Ainda sem inscrições",
+    "belief_label": "Crença: {{level}}%",
+    "balanced_thought_label": "Pensamento Equilibrado"
+  },
+  "complete": {
+    "title": "Atividade Concluída",
+    "great_insights": "Ótimas percepções!",
+    "message": "Ao questionar suas suposições, você está construindo uma mente mais objetiva e compassiva."
+  },
+  "steps": {
+    "label": "Passo {{current}} de 10",
+    "step1": {
+      "title": "O que aconteceu?",
+      "desc": "Descreva um momento recente em que você se sentiu julgado ou inseguro.",
+      "placeholder": "Descrição da situação..."
+    },
+    "step2": {
+      "title": "O que passou pela sua cabeça?",
+      "desc": "O que você achava que eles estavam pensando sobre você?",
+      "placeholder": "Presumi que eles estavam pensando..."
+    },
+    "step3": {
+      "title": "Vamos desacelerar isso",
+      "desc": "Agora, esse pensamento pode parecer verdadeiro. Mas antes de aceitar isso como fato, vamos dar um passo atrás e olhar mais de perto.",
+      "button": "Pause e Continue"
+    },
+    "step4": {
+      "title": "Isso é verdade?",
+      "desc": "Existe alguma evidência clara (fatos, não suposições) que apoie esse pensamento?",
+      "placeholder": "A evidência que vejo é..."
+    },
+    "step5": {
+      "title": "O que mais poderia estar acontecendo?",
+      "desc": "Quais são 2 ou 3 outras explicações possíveis?",
+      "placeholder": "Possibilidade {{num}}..."
+    },
+    "step6": {
+      "title": "Verifique sua crença",
+      "desc": "Quão fortemente você acredita no seu pensamento original agora?",
+      "labels": [
+        "De jeito nenhum",
+        "Completamente"
+      ]
+    },
+    "step7": {
+      "title": "Uma visão mais equilibrada",
+      "desc": "Escreva um pensamento que pareça mais justo e menos certo.",
+      "placeholder": "Um pensamento mais equilibrado..."
+    },
+    "step8": {
+      "title": "Na próxima vez",
+      "desc": "O que você poderia fazer em vez de assumir?",
+      "examples": [
+        "Peça esclarecimentos",
+        "Dê um tempo",
+        "Avise sem reagir"
+      ],
+      "placeholder": "Da próxima vez, eu poderia..."
+    },
+    "step9": {
+      "title": "Repare na mudança",
+      "desc": "Você explorou diferentes possibilidades e criou espaço para uma visão mais equilibrada.",
+      "original_label": "Pensamento Original",
+      "balanced_label": "Perspectiva Equilibrada",
+      "button": "Reflexão do Acabamento"
+    },
+    "step10": {
+      "title": "Uma pequena mudança",
+      "desc": "Sua mente tenta preencher as lacunas. Mas nem todo pensamento é um fato. Dar um passo atrás ajuda a ver as coisas com clareza.",
+      "button": "Atividade Completa"
+    }
+  },
+  "buttons": {
+    "continue": "Continue",
+    "restart": "Reinício"
+  }
+}

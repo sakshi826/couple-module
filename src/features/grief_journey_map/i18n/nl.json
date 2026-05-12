@@ -1,0 +1,39 @@
+{
+  "app_title": "Rouwreis",
+  "app_subtitle": "De kaart van verlies • {{current}}/{{total}}",
+  "screen1_title": "Je rouwt niet verkeerd",
+  "screen1_desc": "Rouw komt niet in nette fasen en vertrekt niet op schema. Het stort neer, trekt zich terug en komt terug wanneer je het het minst verwacht. Dat is geen gebrek in jou — dat is verdriet.",
+  "screen1_quote": "\"Er is geen juiste manier om te rouwen. Er is alleen jouw weg.\"",
+  "btn_tell_more": "Vertel me meer",
+  "screen2_tag": "Het echte plaatje",
+  "screen2_title": "Rouw draagt vele gezichten",
+  "screen2_desc": "Dit is hoe mensen verwachten dat rouw eruitziet — in tegenstelling tot wat het daadwerkelijk is.",
+  "expectation_label": "De Verwachting",
+  "reality_label": "De Realiteit",
+  "expectation_desc": "Lineair • Voorspelbaar • Duidelijk",
+  "reality_desc": "Chaotisch • Lussend • Menselijk",
+  "screen2_quote": "\"Geen van deze golven is verkeerd. Ze zijn allemaal verdriet.\"",
+  "btn_one_more": "Nog één ding",
+  "screen3_tag": "Zachte waarheden",
+  "screen3_title": "Goed om te weten",
+  "truths": [
+    {
+      "emoji": "🗓️",
+      "title": "Geen deadline",
+      "body": "Er is geen houdbaarheidsdatum voor verlies. Het voelen maanden of jaren later betekent niet dat je vastzit — het betekent dat je van je hebt gehouden."
+    },
+    {
+      "emoji": "🌗",
+      "title": "Tegenstrijdige gevoelens",
+      "body": "Je kunt iemand missen en opgelucht zijn. Je kunt lachen en rouwen. Rouw heeft tegenpolen."
+    },
+    {
+      "emoji": "🤍",
+      "title": "De transformatie van de liefde",
+      "body": "De pijn staat niet los van de liefde. Het is hetzelfde, getransformeerd."
+    }
+  ],
+  "btn_finish": "Eindreflectie",
+  "complete_title": "Reis Geëerd",
+  "complete_message": "Je hoeft niet verder te gaan. Je leert het gewoon anders te dragen. Jouw reis is uniek, geldig en diep menselijk."
+}

@@ -1,0 +1,62 @@
+{
+  "app_title": "Güvenli Alan",
+  "nav": [
+    "Check-in",
+    "Nazikçe Hatırlama",
+    "Gözlem",
+    "Günümüzde Kalmak",
+    "İleriye Gitmek"
+  ],
+  "s1": {
+    "title": "Hadi iyi hissettiren bir yer bulalım",
+    "description": [
+      "Başlamadan önce, bir an durup durumu kontrol edin...",
+      "Şu anda nasıl hissediyorsun?",
+      "Mükemmel bir \"güvenli yer\" aramıyoruz. Sadece biraz sakin ya da iyi hissettiren bir şey."
+    ],
+    "placeholder": "Şu anda nasıl hissediyorsun?",
+    "button": "Görselleştirmeye Başlayın"
+  },
+  "s2": {
+    "title": "Nazikçe aklına getir",
+    "description": [
+      "Biraz bile rahat hissettiğin bir yer düşün... ya da var olmasını dilediğiniz bir yer.",
+      "Şimdi kendini oraya yerleştir...",
+      "Oturuyor musun, ayakta mı yoksa yatıyor musun?"
+    ],
+    "button": "Devam et"
+  },
+  "s3": {
+    "title": "Etrafına yavaşça bak",
+    "description": [
+      "Etrafına nazikçe bakın...",
+      "Görebildiğiniz bir şey nedir?",
+      "Şimdi bir ses fark edin... Ne duyuyorsun?"
+    ],
+    "button": "Devam et"
+  },
+  "s4": {
+    "title": "Buna devam et",
+    "description": [
+      "Bu yerin biraz da olsa güvenli ya da iyi hissettiren ne var?",
+      "Fark ettiğiniz gibi...",
+      "Ayrıca dikkatinizi nefesinize de çekin."
+    ],
+    "breathe": "nefes al",
+    "notice": "Hayal etmek zor geliyorsa, bu yerin fikrini düşün.",
+    "button": "Devam et"
+  },
+  "s5": {
+    "title": "Bunu yanında al",
+    "description": [
+      "Şu anda nasıl hissettiğine dikkat et. Küçük bir vardiya bile önemlidir.",
+      "Bu hissin %5'ini bile taşıyabilir miyin bak."
+    ],
+    "placeholder": "Şimdi nasıl hissediyorsun?",
+    "button": "Tam Oturum"
+  },
+  "complete": {
+    "title": "Oturum Tamamlandı",
+    "message": "Bu güvenli yer her zaman sizin için açıktır. Ne zaman sakinleşmeye ihtiyacın olursa buraya dönebilirsin."
+  }
+}

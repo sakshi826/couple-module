@@ -1,0 +1,92 @@
+{
+  "index": {
+    "tagline": "Respiră 🌿 adânc",
+    "title": "Gestionează-ți stresul",
+    "description": "Obiceiuri zilnice simple care să te ajute să te simți mai calm și mai controlat.",
+    "sectionTitle": "Sfaturi zilnice pentru reducerea stresului"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Dormi odihnitor",
+      "description": "Țintește 7–9 ore de somn în fiecare noapte. Încearcă să dormi și să te trezești în același timp în fiecare zi.",
+      "why": "Somnul ajută creierul și corpul să se recupereze și reduce hormonii de stres.",
+      "do": [
+        "Menține un program fix de somn",
+        "Evită ecranele cu o oră înainte de culcare",
+        "Păstrează camera răcoroasă și întunecată",
+        "Evită cofeina după ora 16:00"
+      ],
+      "button": "Setează reamintirea somnului"
+    },
+    "breathing": {
+      "title": "Exersează respirația profundă",
+      "description": "Petrece câteva minute concentrându-te pe respirație. Respirația lentă reduce anxietatea.",
+      "why": "Respirația lentă activează răspunsul de relaxare al corpului.",
+      "do": [
+        "Inspiră 4 secunde",
+        "Ține timp de 4 secunde",
+        "Expiră timp de 4 secunde",
+        "Repetă timp de 1 minut"
+      ]
+    },
+    "exercise": {
+      "title": "Mișcă-ți corpul",
+      "description": "Mersul ușor sau întinderile ajută la eliberarea stresului și la îmbunătățirea stării de spirit.",
+      "why": "Exercițiile eliberează endorfine și îmbunătățesc starea de spirit.",
+      "do": [
+        "15 minute de mers pe jos",
+        "Întindere ușoară",
+        "Scurtă sesiune de yoga",
+        "Antrenament rapid acasă"
+      ]
+    },
+    "caffeine": {
+      "title": "Limitează cofeina și zahărul",
+      "description": "Prea multă cofeină și zahăr pot crește anxietatea și pot perturba somnul.",
+      "why": "Prea multă cofeină și zahăr cresc anxietatea și problemele de somn.",
+      "do": [
+        "Înlocuiește o cafea cu ceai din plante",
+        "Bea mai multă apă",
+        "Reducerea gustărilor cu zahăr",
+        "Evită cofeina târziu în zi"
+      ]
+    },
+    "planning": {
+      "title": "Planifică-ți ziua",
+      "description": "Împarte sarcinile mari în pași mai mici pentru a evita să te simți copleșit.",
+      "why": "Planificarea reduce aglomerația mentală și suprasolicitarea.",
+      "do": [
+        "Scrie 3 sarcini principale",
+        "Împarte sarcinile în pași mici",
+        "Concentrează-te pe o singură sarcină pe rând",
+        "Ia pauze scurte"
+      ]
+    }
+  },
+  "detail": {
+    "back": "Înapoi",
+    "notFound": "Pont negăsit.",
+    "whyTitle": "De ce ajută",
+    "doTitle": "Ce poți face",
+    "reminderSet": "Memento set! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Ups! Pagină negăsită",
+    "return": "Întoarcerea acasă"
+  },
+  "mood": {
+    "title": "Cum te simți azi?",
+    "great": "Grozav",
+    "okay": "Bine",
+    "stressed": "Stresat",
+    "overwhelmed": "Copleșit"
+  },
+  "breathing": {
+    "inhale": "Inspiră...",
+    "hold": "Stai...",
+    "exhale": "Expiră...",
+    "pause": "Pauză",
+    "resume": "Recapitulare"
+  }
+}

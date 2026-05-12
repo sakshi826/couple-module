@@ -1,0 +1,43 @@
+{
+  "vibeTracker": "Traqueur d’ambiance",
+  "howAreYouFeeling": "Comment te sens-tu en ce moment ?",
+  "describeOwnVibe": "Ou décrivez votre propre ambiance",
+  "rightNowIFeel": "En ce moment, je me sens...",
+  "saveVibe": "Sauve l’ambiance",
+  "pauseAndReflect": "Pause et réflexion",
+  "typeThoughts": "Tape tes réflexions ici...",
+  "submitReflection": "Soumettre une réflexion",
+  "next": "Suivant",
+  "vibeLogged": "Vibe enregistré",
+  "thankYou": "Merci d’avoir pris une pause et de l’avoir remarqué. Même ce petit bilan compte.",
+  "done": "Marché conclu",
+  "today": "Aujourd’hui",
+  "yesterday": "Hier",
+  "viewHistory": "Voir l’historique",
+  "history": "Histoire",
+  "yourJourney": "Votre parcours",
+  "noVibes": "Aucune vibration enregistrée pour l’instant",
+  "startFirstCheckIn": "Commencez votre premier bilan pour voir votre parcours se dérouler ici.",
+  "vibes": {
+    "Calm": "Calme-toi",
+    "Light": "Lumière",
+    "Driven": "Conduite",
+    "Content": "Contenu",
+    "Steady": "Calme",
+    "Tender": "Tender",
+    "Heavy": "Lourd",
+    "Thoughtful": "Attentionné",
+    "Restless": "Agité",
+    "Drained": "Drainé"
+  },
+  "prompts": {
+    "needing": "De quoi avez-vous besoin en ce moment ?",
+    "happened": "Que s’est-il passé avant que ce sentiment n’apparaisse ?",
+    "speak": "Si cette émotion pouvait parler, que dirait-elle ?",
+    "notice": "Où remarquez-vous cette sensation dans votre corps ?",
+    "sitOrShift": "Est-ce quelque chose avec lequel vous voulez vous asseoir ou déplacer doucement ?",
+    "ease": "Qu’est-ce qui t’apporterait même 10 % de facilité ?",
+    "kindness": "Quelle petite gentillesse pourrais-tu t’offrir aujourd’hui ?",
+    "supported": "Qu’est-ce qui pourrait vous aider à vous sentir soutenu en ce moment ?"
+  }
+}

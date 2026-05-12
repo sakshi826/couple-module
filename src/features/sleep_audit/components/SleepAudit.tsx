@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
-import { Moon, Clock, Save, History, Check, X } from "lucide-react";
+import { Moon, History, Check, X, Save } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import { neon } from "@neondatabase/serverless";
@@ -9,27 +10,10 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
 
-const options = [
-  { emoji: "🕐", text: "I go to bed at very different times each night" },
-  { emoji: "💡", text: "My sleep environment isn't dark, quiet, or comfortable" },
-  { emoji: "📱", text: "I scroll on my phone right before sleeping" },
-  { emoji: "☕", text: "I have caffeine or alcohol close to bedtime" },
-  { emoji: "😵", text: "I wake during the night and struggle to go back to sleep" },
-  { emoji: "🧠", text: "My mind races with thoughts when I try to sleep" },
-  { emoji: "😔", text: "I rarely feel refreshed after a night's sleep" },
-];
-
-const ratingLabels = ["Very poor", "Poor", "Okay", "Good", "Great"];
-
 type HistoryEntry = { id: string; date: string; score: number; rating: number };
 
-const getScoreInfo = (score: number) => {
-  if (score >= 6) return { color: "#1D9E75", status: "Mostly on track" };
-  if (score >= 4) return { color: "#EF9F27", status: "Some disruptions" };
-  return { color: "#E24B4A", status: "Needs attention" };
-};
-
-const SleepAudit = () => {
+export default function SleepAudit() {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState(0);
   const [selected, setSelected] = useState<Set<number>>(new Set());
   const [rating, setRating] = useState(5);
@@ -38,6 +22,15 @@ const SleepAudit = () => {
   const [history, setHistory] = useState<HistoryEntry[]>([]);
   const [isSaving, setIsSaving] = useState(false);
   const [isLoadingHistory, setIsLoadingHistory] = useState(false);
+
+  const OPTIONS = t("options", { returnObjects: true }) as { emoji: string; text: string }[];
+  const RATING_LABELS = t("rating_labels", { returnObjects: true }) as string[];
+
+  const getScoreInfo = (score: number) => {
+    if (score >= 6) return { color: "#1D9E75", status: t("status_labels.track") };
+    if (score >= 4) return { color: "#EF9F27", status: t("status_labels.disruptions") };
+    return { color: "#E24B4A", status: t("status_labels.attention") };
+  };
 
   const fetchHistory = useCallback(async () => {
     const userId = sessionStorage.getItem("user_id");
@@ -67,7 +60,7 @@ const SleepAudit = () => {
   const handleSave = async () => {
     const userId = sessionStorage.getItem("user_id");
     if (!userId || !DATABASE_URL) {
-      toast.error("Auth session missing or DB not configured");
+      toast.error(t("toasts.auth_error"));
       return;
     }
 
@@ -78,12 +71,12 @@ const SleepAudit = () => {
     try {
       const sql = neon(DATABASE_URL);
       await sql`INSERT INTO sleep_audit_entries (user_id, audit_data) VALUES (${userId}, ${auditData})`;
-      toast.success("Audit saved");
+      toast.success(t("toasts.save_success"));
       fetchHistory();
       setScreen(4); // Go to PremiumComplete
     } catch (error) {
       console.error("Failed to save audit:", error);
-      toast.error("Failed to save audit");
+      toast.error(t("toasts.save_error"));
     } finally {
       setIsSaving(false);
     }
@@ -95,8 +88,8 @@ const SleepAudit = () => {
   if (screen === 4) {
     return (
       <PremiumComplete
-        title="Audit Complete"
-        message={`Your sleep score is ${scoreValue}/7. Understanding these patterns is the first step toward deeper, more restorative rest.`}
+        title={t("complete.title")}
+        message={t("complete.message", { score: scoreValue })}
         onRestart={() => {
           setScreen(0);
           setSelected(new Set());
@@ -109,8 +102,8 @@ const SleepAudit = () => {
 
   return (
     <PremiumLayout
-      title="Sleep Audit"
-      subtitle="Understand your rest"
+      title={t("app_title")}
+      subtitle={t("app_subtitle")}
       icon={<Moon className="w-6 h-6 text-primary" />}
       onBack={screen === 0 ? undefined : () => setScreen(prev => prev - 1)}
     >
@@ -129,9 +122,9 @@ const SleepAudit = () => {
               <div className="w-24 h-24 bg-white/10 backdrop-blur-md rounded-[2.5rem] border border-white/20 flex items-center justify-center text-6xl shadow-2xl">
                 🌙
               </div>
-              <h1 className="text-3xl font-black text-white">Your Sleep Audit</h1>
+              <h1 className="text-3xl font-black text-white">{t("intro.title")}</h1>
               <p className="text-lg text-slate-300 font-medium leading-relaxed max-w-[280px]">
-                Understand what's affecting your sleep and where small changes can help.
+                {t("intro.description")}
               </p>
               
               <div className="w-full space-y-4 mt-8">
@@ -139,14 +132,14 @@ const SleepAudit = () => {
                   onClick={() => setScreen(1)}
                   className="w-full bg-white text-slate-900 py-5 rounded-2xl font-black text-lg shadow-2xl hover:scale-[1.02] transition-all"
                 >
-                  Start Audit
+                  {t("intro.start_button")}
                 </button>
                 <button
                   onClick={() => setShowHistory(true)}
                   className="w-full bg-white/10 backdrop-blur-md text-white py-5 rounded-2xl font-black text-lg border border-white/10 hover:bg-white/20 transition-all flex items-center justify-center gap-3"
                 >
                   <History size={20} strokeWidth={2.5} />
-                  Past Audits
+                  {t("intro.history_button")}
                 </button>
               </div>
             </motion.div>
@@ -162,14 +155,14 @@ const SleepAudit = () => {
             >
               <div className="space-y-3">
                 <div className="inline-flex px-4 py-1.5 rounded-full bg-primary/20 text-white text-[10px] font-black uppercase tracking-[0.2em]">
-                  Phase 01
+                  {t("screens.s1.phase")}
                 </div>
-                <h2 className="text-2xl font-black text-white">How has your sleep been?</h2>
-                <p className="text-slate-400 font-medium">Select any that feel true for you lately</p>
+                <h2 className="text-2xl font-black text-white">{t("screens.s1.title")}</h2>
+                <p className="text-slate-400 font-medium">{t("screens.s1.desc")}</p>
               </div>
 
               <div className="flex flex-col gap-3">
-                {options.map((o, i) => {
+                {OPTIONS.map((o, i) => {
                   const active = selected.has(i);
                   return (
                     <button
@@ -201,7 +194,7 @@ const SleepAudit = () => {
                 onClick={() => setScreen(2)}
                 className="w-full bg-white text-slate-900 py-5 rounded-2xl font-black text-lg shadow-2xl mt-4 hover:bg-slate-50 transition-all"
               >
-                Continue
+                {t("buttons.continue")}
               </button>
             </motion.div>
           )}
@@ -216,9 +209,9 @@ const SleepAudit = () => {
             >
               <div className="space-y-3">
                 <div className="inline-flex px-4 py-1.5 rounded-full bg-primary/20 text-white text-[10px] font-black uppercase tracking-[0.2em]">
-                  Phase 02
+                  {t("screens.s2.phase")}
                 </div>
-                <h2 className="text-2xl font-black text-white">Rate your typical rest</h2>
+                <h2 className="text-2xl font-black text-white">{t("screens.s2.title")}</h2>
               </div>
 
               <div className="grid grid-cols-5 gap-3">
@@ -234,7 +227,7 @@ const SleepAudit = () => {
                     >
                       <span className={`text-2xl font-black ${active ? "text-slate-900" : "text-white/40"}`}>{n}</span>
                       <span className={`text-[8px] font-black uppercase mt-1 tracking-tighter ${active ? "text-slate-600" : "text-white/20"}`}>
-                        {ratingLabels[n - 1]}
+                        {RATING_LABELS[n - 1]}
                       </span>
                     </button>
                   );
@@ -242,11 +235,11 @@ const SleepAudit = () => {
               </div>
 
               <div className="space-y-3">
-                <label className="text-xs font-black text-slate-400 uppercase tracking-widest ml-1">Specific concerns?</label>
+                <label className="text-xs font-black text-slate-400 uppercase tracking-widest ml-1">{t("screens.s2.label")}</label>
                 <textarea
                   value={note}
                   onChange={e => setNote(e.target.value)}
-                  placeholder="Stress, noise, scrolling..."
+                  placeholder={t("screens.s2.placeholder")}
                   className="w-full p-6 bg-white/5 border border-white/10 rounded-3xl text-white font-medium outline-none focus:border-white/30 transition-all resize-none shadow-sm placeholder:text-white/20"
                   rows={4}
                 />
@@ -256,7 +249,7 @@ const SleepAudit = () => {
                 onClick={() => setScreen(3)}
                 className="w-full bg-white text-slate-900 py-5 rounded-2xl font-black text-lg shadow-2xl transition-all"
               >
-                See Results
+                {t("buttons.see_results")}
               </button>
             </motion.div>
           )}
@@ -296,15 +289,15 @@ const SleepAudit = () => {
                   </svg>
                   <div className="absolute flex flex-col items-center">
                     <span className="text-5xl font-black" style={{ color: scoreInfo.color }}>{scoreValue}</span>
-                    <span className="text-xs font-black text-slate-400 uppercase tracking-widest">of 7</span>
+                    <span className="text-xs font-black text-slate-400 uppercase tracking-widest">{t("screens.s3.score_label")}</span>
                   </div>
                 </div>
                 
                 <h3 className="text-2xl font-black mt-8" style={{ color: scoreInfo.color }}>{scoreInfo.status}</h3>
                 <p className="text-base text-slate-500 mt-4 leading-relaxed font-medium italic">
-                  {scoreValue >= 6 ? "Your habits are solid! Small tweaks can make it even better." : 
-                   scoreValue >= 4 ? "Some disruptions detected. Habit changes can help quickly." : 
-                   "Several factors are impacting your sleep. We can work through them together."}
+                  {scoreValue >= 6 ? t("screens.s3.recommendations.solid") : 
+                   scoreValue >= 4 ? t("screens.s3.recommendations.some") : 
+                   t("screens.s3.recommendations.many")}
                 </p>
               </div>
 
@@ -315,13 +308,13 @@ const SleepAudit = () => {
                   className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                 >
                   <Save size={20} strokeWidth={3} />
-                  {isSaving ? "Preserving..." : "Preserve Result"}
+                  {isSaving ? t("buttons.preserving") : t("buttons.preserve")}
                 </button>
                 <button
                   onClick={() => setScreen(0)}
                   className="w-full py-5 rounded-2xl font-bold text-white/60 hover:text-white transition-all"
                 >
-                  Back to Intro
+                  {t("buttons.back_to_intro")}
                 </button>
               </div>
             </motion.div>
@@ -346,7 +339,7 @@ const SleepAudit = () => {
                 onClick={e => e.stopPropagation()}
               >
                 <div className="flex items-center justify-between mb-10">
-                  <h3 className="text-2xl font-black text-slate-900">Past Audits</h3>
+                  <h3 className="text-2xl font-black text-slate-900">{t("history.title")}</h3>
                   <button onClick={() => setShowHistory(false)} className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center">
                     <X size={20} className="text-slate-400" strokeWidth={3} />
                   </button>
@@ -361,7 +354,7 @@ const SleepAudit = () => {
                     <div className="w-16 h-16 bg-slate-50 rounded-full flex items-center justify-center mx-auto text-slate-300">
                       <History size={32} />
                     </div>
-                    <p className="text-slate-400 font-medium">No audits preserved yet.</p>
+                    <p className="text-slate-400 font-medium">{t("history.no_entries")}</p>
                   </div>
                 ) : (
                   <div className="space-y-4">
@@ -375,7 +368,7 @@ const SleepAudit = () => {
                           </div>
                           <div className="flex flex-col items-end">
                             <span className="text-3xl font-black" style={{ color: info.color }}>{e.score}</span>
-                            <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">of 7</span>
+                            <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{t("history.score_label")}</span>
                           </div>
                         </div>
                       );
@@ -389,6 +382,4 @@ const SleepAudit = () => {
       </div>
     </PremiumLayout>
   );
-};
-
-export default SleepAudit;
+}

@@ -1,0 +1,61 @@
+{
+  "app_title": "Vẽ lại vòng tròn của bạn",
+  "intro": {
+    "title": "Vẽ lại vòng tròn của bạn",
+    "p1": "Tại các thời điểm khác nhau trong cuộc sống, hệ thống hỗ trợ của chúng ta có thể thay đổi. 🌱 Đôi khi chúng ta cảm thấy được kết nối và hỗ trợ. Những lần khác, mọi thứ có thể cảm thấy xa vời hoặc không rõ ràng.",
+    "p2": "Hoạt động này là một không gian để dừng lại và nhìn vào những người xung quanh bạn - và hiểu ai hiện đang cảm thấy là một phần của vòng kết nối của bạn. 💛",
+    "p3": "Không có đúng hay sai ở đây. Chỉ cần nhận thức. ✨",
+    "italic": "🌿 Vòng kết nối của bạn có thể thay đổi - và điều đó không sao cả.",
+    "button": "Bắt đầu →"
+  },
+  "circle": {
+    "subtitle": "Ai trong hệ thống hỗ trợ của bạn?",
+    "title": "Ai đang ở trong vòng kết nối của bạn ngay bây giờ? 🔮",
+    "desc": "Hãy nghĩ về những người trong cuộc sống của bạn và nơi họ xuất hiện cho bạn.",
+    "instruction": "👆 Nhấn vào từng bong bóng và thêm một người phù hợp với không gian đó trong cuộc sống của bạn.",
+    "center_node": "Bạn",
+    "italic": "🤍 Không sao nếu vòng kết nối của bạn cảm thấy nhỏ.",
+    "button": "Tiếp tục →",
+    "modal": {
+      "title": "Thêm tên",
+      "placeholder": "Nhập tên...",
+      "button": "Lưu tên"
+    },
+    "prompts": [
+      "Một người mang lại niềm vui",
+      "Một người hỗ trợ bạn",
+      "Một người bạn có thể nói chuyện",
+      "Một người bạn tin tưởng",
+      "Một người truyền cảm hứng cho bạn"
+    ]
+  },
+  "reflection": {
+    "subtitle": "Suy ngẫm cuối cùng",
+    "title": "Bạn nhận thấy điều gì?",
+    "p_intro": "Hãy dành một chút thời gian để nhìn vào vòng kết nối của bạn. Bạn có thể nhận thấy:",
+    "list": [
+      "Một số người cảm thấy gần gũi hơn những người khác",
+      "Một số kết nối cảm thấy mạnh mẽ",
+      "Một số cảm thấy xa cách hoặc không rõ ràng",
+      "Có thể có những khoảng trống - hoặc chỉ một vài người có ý nghĩa"
+    ],
+    "italic": "Nhận thức là bước đầu tiên để xây dựng các kết nối mà bạn coi trọng. 🧘",
+    "label": "💭 Có ai bạn muốn cảm thấy kết nối hơn không?",
+    "placeholder": "Viết suy nghĩ của bạn ở đây...",
+    "save_button": "Lưu phản xạ",
+    "saving_button": "Tiết kiệm...",
+    "skip_button": "Bỏ qua và kết thúc"
+  },
+  "history": {
+    "title": "Lịch sử vòng kết nối của bạn",
+    "subtitle": "Hồ sơ về hệ thống hỗ trợ của bạn theo thời gian.",
+    "no_entries": "Chưa có vòng tròn nào được lưu.",
+    "reflection_label": "Suy ngẫm:",
+    "back_button": "Trở về trang chủ"
+  },
+  "toasts": {
+    "save_success": "Vòng tròn đã lưu",
+    "save_error": "Không thể lưu vòng tròn",
+    "auth_error": "Thiếu phiên xác thực hoặc cơ sở dữ liệu không được định cấu hình"
+  }
+}

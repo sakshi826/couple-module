@@ -1,32 +1,35 @@
 import { useState, useRef, useCallback, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const HOLD_DURATION = 5000;
-const microcopy = [
-  { at: 0, text: "Press and hold…" },
-  { at: 0.15, text: "Stay with it…" },
-  { at: 0.5, text: "You're doing it…" },
-  { at: 0.8, text: "Almost there…" },
-];
-
-function getMicrocopy(progress: number) {
-  let current = microcopy[0].text;
-  for (const m of microcopy) {
-    if (progress >= m.at) current = m.text;
-  }
-  return current;
-}
 
 interface HoldScreenProps {
   onComplete: () => void;
 }
 
 const HoldScreen = ({ onComplete }: HoldScreenProps) => {
+  const { t } = useTranslation();
   const [progress, setProgress] = useState(0);
   const [holding, setHolding] = useState(false);
   const [completed, setCompleted] = useState(false);
-  const startRef = useRef<number>(0);
+  const startRef = useRef<number>(StartRefValue());
   const rafRef = useRef<number>(0);
+
+  function StartRefValue() {
+    return 0;
+  }
+
+  const microcopy = t("hold.microcopy", { returnObjects: true }) as { at: number; text: string }[];
+
+  function getMicrocopy(p: number) {
+    if (!Array.isArray(microcopy)) return "";
+    let current = microcopy[0]?.text || "";
+    for (const m of microcopy) {
+      if (p >= m.at) current = m.text;
+    }
+    return current;
+  }
 
   const tick = useCallback(() => {
     const elapsed = Date.now() - startRef.current;
@@ -69,7 +72,7 @@ const HoldScreen = ({ onComplete }: HoldScreenProps) => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.6 }}
-      className="flex flex-col items-center justify-center min-h-screen px-8"
+      className="flex flex-col items-center justify-center min-h-[80vh] px-8"
     >
       <motion.h1
         initial={{ opacity: 0, y: -10 }}
@@ -77,7 +80,7 @@ const HoldScreen = ({ onComplete }: HoldScreenProps) => {
         transition={{ delay: 0.2 }}
         className="text-2xl font-semibold text-foreground mb-2"
       >
-        Hold to Pause ⏸️
+        {t("hold.title")}
       </motion.h1>
       
       <AnimatePresence mode="wait">
@@ -87,7 +90,7 @@ const HoldScreen = ({ onComplete }: HoldScreenProps) => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -5 }}
           transition={{ duration: 0.3 }}
-          className="text-muted-foreground mb-12 text-center"
+          className="text-muted-foreground mb-12 text-center h-6"
         >
           {getMicrocopy(progress)}
         </motion.p>
@@ -166,7 +169,7 @@ const HoldScreen = ({ onComplete }: HoldScreenProps) => {
           animate={{ opacity: 0.5 }}
           className="text-sm text-muted-foreground"
         >
-          Hold the circle for 5 seconds
+          {t("hold.instructions")}
         </motion.p>
       )}
     </motion.div>

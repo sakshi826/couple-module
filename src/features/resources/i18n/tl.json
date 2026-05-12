@@ -1,0 +1,37 @@
+{
+  "app_title": "Mga Mapagkukunan",
+  "not_found": {
+    "title": "Hindi Natagpuan",
+    "message": "Hindi natagpuan ang mapagkukunan",
+    "description": "Baka lumipat na ang nilalaman na hinahanap mo.",
+    "button": "Bumalik"
+  },
+  "list": {
+    "empty_title": "Walang {{type}} na magagamit",
+    "empty_desc": "Kasalukuyan kaming nag-curate ng higit pang mga mapagkukunan para sa paksang ito.",
+    "footer": "Pangangalaga sa Mantra • Mga Mapagkukunan na Batay sa Ebidensya"
+  },
+  "detail": {
+    "loading": "Naglo-load...",
+    "tip": {
+      "insight_label": "Ang Pananaw",
+      "plan_title": "Pang-araw-araw na Plano ng Pagkilos",
+      "steps": "{{count}} Mga Hakbang",
+      "example_label": "Halimbawa ng Pagsasanay",
+      "instead_of": "Sa halip na",
+      "try_this": "Subukan ito"
+    },
+    "article": {
+      "final_thought": "Pangwakas na Pag-iisip"
+    },
+    "story": {
+      "reflection_label": "Isang bagay na makakasama sa pag-upo",
+      "note_label": "Isang Tala mula sa May-akda"
+    },
+    "myth": {
+      "truth_label": "Ang Siyentipikong Katotohanan",
+      "explanation_label": "Detalyadong Paliwanag",
+      "insight_label": "Pangunahing Pananaw"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "app_title": "Geheugendoos",
+  "screen_titles": [
+    "Jouw Doos",
+    "Eren",
+    "Expressen",
+    "Bewaard",
+    "Zachte zorg"
+  ],
+  "complete_title": "Herinnering bewaard",
+  "complete_message": "Je hebt veilig een herinnering van {{name}} in je doos geplaatst. Deze momenten van verbinding zijn altijd van jou om te bewaren.",
+  "auth_error": "Auth-sessie ontbreekt of database niet geconfigureerd",
+  "save_success": "Herinnering bewaard",
+  "save_error": "Niet in staat om geheugen te bewaren",
+  "preserving": "Bewaren...",
+  "preserve_memory": "Behoud van het geheugen",
+  "welcome": {
+    "title": "Jouw Geheugendoos",
+    "subtitle1": "Een stille plek om iemand van wie je houdt te herinneren. 🤍",
+    "subtitle2": "Haal langzaam adem...",
+    "subtitle3": "… en zachtjes uitademen.",
+    "subtitle4": "Er is geen goed of fout manier om dit te doen.",
+    "subtitle5": "Doe het in je eigen tempo. 🌿",
+    "begin": "Begin ✨",
+    "later": "Misschien later"
+  },
+  "who": {
+    "placeholder_name": "Typ hun naam...",
+    "placeholder_relation": "Hoe ken je ze? (optioneel)",
+    "categories": [
+      {
+        "label": "Een gelukkig moment",
+        "emoji": "😊"
+      },
+      {
+        "label": "Iets wat ze vroeger zeiden",
+        "emoji": "💬"
+      },
+      {
+        "label": "Een kleine alledaagse herinnering",
+        "emoji": "☕"
+      },
+      {
+        "label": "Een plek die je aan hen doet denken",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Iets wat ik graag zou willen zeggen",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Ga verder →"
+  },
+  "expression": {
+    "title": "Je herinnering uitdrukken",
+    "memory_label": "De herinnering zelf",
+    "memory_placeholder": "Schrijf over het moment, het gevoel of het detail dat je wilt behouden...",
+    "message_label": "Een boodschap aan hen (optioneel)",
+    "message_placeholder": "Wat zou je zeggen als je nu met ze kon praten?",
+    "save": "Behoud van het geheugen",
+    "skip": "Sla nu maar over",
+    "back": "Achteruit"
+  },
+  "box": {
+    "title": "Veilig opgeborgen",
+    "subtitle": "Deze herinnering aan {{name}} maakt nu deel uit van je collectie.",
+    "add_another": "Voeg een andere herinnering toe",
+    "finish": "Eindreflectie"
+  },
+  "closing": {
+    "title": "Zorg nemen",
+    "subtitle": "Ik sluit je doos voorlopig. Je kunt hier altijd terugkomen wanneer je dicht bij deze herinneringen wilt komen.",
+    "exit": "Sluitdoos"
+  },
+  "history": {
+    "title": "Inhoud van de doos",
+    "no_memories": "Je doos is leeg. Voeg je eerste herinnering toe om je verzameling te beginnen.",
+    "search_placeholder": "Zoek herinneringen..."
+  }
+}

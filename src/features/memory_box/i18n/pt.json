@@ -1,0 +1,80 @@
+{
+  "app_title": "Caixa de Memória",
+  "screen_titles": [
+    "Sua Caixa",
+    "Homenagem",
+    "Expressando",
+    "Preservado",
+    "Cuidado Gentil"
+  ],
+  "complete_title": "Memória preservada",
+  "complete_message": "Você colocou com segurança uma memória de {{name}} na sua caixa. Esses momentos de conexão são seus para guardar, sempre.",
+  "auth_error": "Sessão de autenticação ausente ou banco de dados não configurado",
+  "save_success": "Memória preservada",
+  "save_error": "Não preservou a memória",
+  "preserving": "Preservando...",
+  "preserve_memory": "Preserve Memory",
+  "welcome": {
+    "title": "Sua Caixa de Memória",
+    "subtitle1": "Um espaço silencioso para lembrar de alguém que você ama. 🤍",
+    "subtitle2": "Respire fundo...",
+    "subtitle3": "… e expire suavemente.",
+    "subtitle4": "Não existe um jeito certo ou errado de fazer isso.",
+    "subtitle5": "Vá no seu próprio ritmo. 🌿",
+    "begin": "Início ✨",
+    "later": "Talvez depois"
+  },
+  "who": {
+    "placeholder_name": "Digite o nome deles...",
+    "placeholder_relation": "Como você conhece eles? (opcional)",
+    "categories": [
+      {
+        "label": "Um momento feliz",
+        "emoji": "😊"
+      },
+      {
+        "label": "Algo que costumavam dizer",
+        "emoji": "💬"
+      },
+      {
+        "label": "Uma pequena lembrança do dia a dia",
+        "emoji": "☕"
+      },
+      {
+        "label": "Um lugar que te lembra deles",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Algo que eu gostaria de poder dizer",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Continue →"
+  },
+  "expression": {
+    "title": "Expressando sua Memória",
+    "memory_label": "A própria memória",
+    "memory_placeholder": "Escreva sobre o momento, o sentimento ou o detalhe que você quer guardar...",
+    "message_label": "Uma mensagem para eles (opcional)",
+    "message_placeholder": "O que você diria se pudesse falar com eles agora?",
+    "save": "Preserve Memory",
+    "skip": "Pule por enquanto",
+    "back": "Voltar"
+  },
+  "box": {
+    "title": "Bem Guardado",
+    "subtitle": "Essa memória de {{name}} agora faz parte da sua coleção.",
+    "add_another": "Adicionar Outra Memória",
+    "finish": "Reflexão do Acabamento"
+  },
+  "closing": {
+    "title": "Cuidando",
+    "subtitle": "Fechando sua caixa por enquanto. Você pode voltar aqui a qualquer momento que precisar se sentir próximo dessas memórias.",
+    "exit": "Fechar a Caixa"
+  },
+  "history": {
+    "title": "Conteúdo da Caixa",
+    "no_memories": "Sua caixa está vazia. Adicione sua primeira memória para começar sua coleção.",
+    "search_placeholder": "Buscar memórias..."
+  }
+}

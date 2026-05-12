@@ -1,0 +1,29 @@
+{
+  "app_title": "Beyin Neden Takılıyor",
+  "app_subtitle": "Hayatta kalma mantığı • {{step}}/{{total}}",
+  "s1": {
+    "title": "Beynin kırılmadı. Uyum sağladı.",
+    "description": "Travmadan sonra beyniniz sizi güvende tutmak için kendini yeniden yapılar. Dünyanın tehlikeli olabileceğini öğrendi, bu yüzden hazır kaldı. Bu bir kusur değil. İşte hayatta kalmak.",
+    "quote": "\"PTSD, sende bir sorun olduğunun işareti değil. Bu, başına bir şey geldiğinin işareti.\"",
+    "button": "Daha fazla anlatır mısınız?"
+  },
+  "s2": {
+    "tag": "Nazik gerçekler",
+    "title": "Beyin hayatta kalma mantığı",
+    "truths": [
+      {
+        "header": "Alarm açık kaldı",
+        "body": "Aşırı tetik ve şaşırtmak kolayca aşırı tepki değildir — beyninizin alarm sistemi işini çok iyi yapıyor."
+      },
+      {
+        "header": "Geri dönüşler hafızadır",
+        "body": "Tetikleyiciler tehdidin sona erdiğine dair sinyal almadığı için beyninizi geri çeker. Seni korumaya çalışıyor."
+      },
+      {
+        "header": "Senin için savaşıyorum",
+        "body": "Her semptom bir zamanlar hayatta kalma eylemiydi. Beyniniz sizi hayatta tutmak için ne gerekiyorsa yaptı."
+      }
+    ],
+    "healing": "İyileşmek unutmakla ilgili değildir. Beyninize artık güvende olduğunuzu öğrenmesine yardımcı olmakla ilgili."
+  }
+}

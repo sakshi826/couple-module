@@ -1,0 +1,95 @@
+{
+  "app_title": "Perancang Tetingkap Tidur",
+  "pill_labels": [
+    "Bina tetingkap anda",
+    "Tetapkan masa anda",
+    "Tetingkap tidur anda"
+  ],
+  "screen1": {
+    "title": "Tetingkap tidur anda lebih penting daripada yang anda fikirkan",
+    "p1": "Tetingkap tidur ialah masa tetap antara anda tidur dan apabila anda bangun. Memastikan ia konsisten - walaupun pada hujung minggu - adalah salah satu perkara paling berkuasa yang boleh anda lakukan untuk tidur anda.",
+    "p2": "Alat ini membantu anda membina alat anda dalam masa kurang dari 2 minit.",
+    "insight": "Malah perbezaan 1 jam dalam masa tidur pada hujung minggu boleh mengganggu perasaan anda sepanjang minggu.",
+    "meta": "Mudah. Peribadi. Berkesan.",
+    "button": "Mari kita bina → saya"
+  },
+  "screen2": {
+    "title": "Mari tetapkan tetingkap tidur anda",
+    "step1": {
+      "title": "LANGKAH 1 — MASA BANGUN",
+      "desc": "Pukul berapa anda perlukan untuk bangun hampir setiap hari?"
+    },
+    "step2": {
+      "title": "LANGKAH 2 — TEMPOH TIDUR",
+      "desc": "Berapa jam tidur yang anda mahukan?"
+    },
+    "live_window": {
+      "bedtime": "Waktu tidur",
+      "waketime": "Masa bangun",
+      "duration": "{{hours}} jam tidur"
+    },
+    "italic": "Kebanyakan orang dewasa memerlukan 7-9 jam. Pilih apa yang dirasakan betul.",
+    "button": "Lihat tetingkap tidur saya →"
+  },
+  "screen3": {
+    "title": "Tetingkap 🌙 tidur anda",
+    "result": {
+      "bedtime": "Waktu tidur",
+      "waketime": "Masa bangun",
+      "duration": "Tempoh",
+      "hours": "{{hours}} jam"
+    },
+    "accordion1": {
+      "title": "3 cara untuk melindunginya",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Bersantai 30 minit sebelum tidur anda"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Masa bangun yang sama setiap hari — ya, hujung minggu juga"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Elakkan tidur siang lebih lama daripada 20 minit selepas jam 3 petang"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Komited kepada 1 perkara malam ini",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Letakkan telefon saya sebelum tidur"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Mulakan rutin rehat"
+        },
+        {
+          "emoji": "💡",
+          "text": "Malapkan lampu sejam sebelum tidur"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Selesaikan senarai tugasan saya lebih awal"
+        }
+      ]
+    },
+    "quote": "Konsistensi lebih berkuasa daripada kesempurnaan. Satu malam yang baik membina yang seterusnya.",
+    "button": "Simpan tetingkap tidur saya ✓",
+    "saved_button": "✓ Tetingkap tidur disimpan!",
+    "adjust_times": "Laraskan Masa"
+  },
+  "complete": {
+    "title": "Tetingkap Dicipta",
+    "message": "Tetingkap tidur ideal anda telah dipetakan. Konsistensi adalah kunci kepada rehat yang mendalam dan memulihkan."
+  },
+  "toasts": {
+    "save_success": "Tetingkap tidur disimpan",
+    "save_error": "Gagal menyimpan tetingkap tidur",
+    "auth_error": "Sesi pengesahan hilang atau DB tidak dikonfigurasikan",
+    "saving": "Menjimatkan..."
+  }
+}

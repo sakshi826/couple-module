@@ -1,0 +1,22 @@
+{
+  "app_title": "Pola Hubungan",
+  "app_subtitle": "Membongkar cetak biru Anda",
+  "complete_title": "Kesadaran yang Diperoleh",
+  "complete_message": "Memahami pola Anda adalah langkah pertama untuk menulis ulang. Anda membawa kekuatan untuk memilih jalan yang berbeda.",
+  "screen1": {
+    "tag": "Penemuan Pola",
+    "intro": "Pernah merasa seperti Anda pernah ke sini sebelumnya?",
+    "title": "Jika hubungan Anda terus berakhir dengan cara yang sama — itu bukan nasib buruk.",
+    "desc": "Hubungan yang kita pilih mengikuti cetak biru yang ditulis jauh sebelum kita jatuh cinta. Keakraban sering terasa seperti keamanan, bahkan ketika itu mengarah pada argumen lama yang sama.",
+    "quote": "\"Kami mengulangi pola bukan karena kami rusak - tetapi karena mereka terasa akrab.\"",
+    "button": "Lanjutkan Membongkar"
+  },
+  "screen2": {
+    "tag": "Templat",
+    "intro": "Ini dimulai lebih awal dari yang Anda pikirkan.",
+    "title": "Hubungan paling awal menjadi templat untuk semua yang mengikuti.",
+    "desc": "Cara pengasuh Anda menanggapi kebutuhan Anda diam-diam membentuk bagaimana Anda berhubungan dengan orang lain sebagai orang dewasa. Ini adalah tanggapan yang dipelajari - dan mereka dapat dibatalkan.",
+    "quote": "\"Polamu masuk akal sekali. Pertanyaannya adalah - apakah itu masih melayani Anda sekarang?\"",
+    "button": "Selesaikan Refleksi"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "app_title": "Przewodnik po snie",
+  "app_subtitle": "Zrozumienie lęku przed snem",
+  "tag": "Psychoedukacja",
+  "screen1": {
+    "intro": "Im bardziej się starasz, tym trudniej się robi.",
+    "title": "Próba zmuszenia się do snu to dokładnie to, co nie pozwala ci zasnąć.",
+    "p1": "Kładziesz się, zamykasz oczy — a mózg się włącza. Odtwarzanie rozmów w myślach. Patrząc na zegar.",
+    "p2": "To nie jest słabość. To zjawisko zwane <1>lękiem sennym</1> — i dotyka miliony ludzi.",
+    "quote": "\"Lęk przed snem nie polega na tym, że nie jesteś zmęczony. Chodzi o to, że twój układ nerwowy utknął w trybie 'włączonym'.\"",
+    "button": "Dowiedz się więcej"
+  },
+  "screen2": {
+    "intro": "Oto naukowe podstawy stojące za tym.",
+    "title": "Twój mózg nauczył się traktować łóżko jako miejsce stresu — a nie odpoczynku.",
+    "p1": "Twoje ciało migdałowate — detektor zagrożeń w mózgu — pozostaje aktywne w nocy, sygnalizując niebezpieczeństwo w momencie, gdy głowa dotyka poduszki.",
+    "p2": "To nazywa się <1>warunkowym pobudzeniem</1> — tłumaczy, dlaczego czujesz się wyczerpany przez cały dzień, a przed snem jesteś całkowicie rozbudzony.",
+    "quote": "\"Twój mózg nie jest zepsuty. Po prostu nauczyła się błędnej lekcji dotyczącej pory snu — i można ją powtórzyć.\"",
+    "button": "Poprzedni krok"
+  }
+}

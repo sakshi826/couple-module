@@ -1,0 +1,43 @@
+{
+  "vibeTracker": "Vibe Tracker",
+  "howAreYouFeeling": "Hogy érzed magad ebben a pillanatban?",
+  "describeOwnVibe": "Vagy írd le a saját hangulatodat",
+  "rightNowIFeel": "Most úgy érzem...",
+  "saveVibe": "Mentsd meg a hangulatot",
+  "pauseAndReflect": "Szünet és Reflekálás",
+  "typeThoughts": "Írd ide a gondolataidat...",
+  "submitReflection": "Visszatekintés benyújtása",
+  "next": "Következő",
+  "vibeLogged": "Vibe naplózva",
+  "thankYou": "Köszönöm, hogy megálltál és észrevetted. Még ez a kis bejelentkezés is számít.",
+  "done": "Kész",
+  "today": "Ma",
+  "yesterday": "Tegnap",
+  "viewHistory": "Nézd meg a történelemet",
+  "history": "Történelem",
+  "yourJourney": "Az Ön utad",
+  "noVibes": "Még nincs vibráció rögzítve",
+  "startFirstCheckIn": "Kezdd el az első bejelentkezésedet, hogy lásd, hogyan alakul az utad itt.",
+  "vibes": {
+    "Calm": "Nyugodt",
+    "Light": "Fény",
+    "Driven": "Hajtott",
+    "Content": "Tartalom",
+    "Steady": "Nyugodt",
+    "Tender": "Tender",
+    "Heavy": "Nehéz",
+    "Thoughtful": "Figyelmes",
+    "Restless": "Nyugtalan",
+    "Drained": "Lecsapolt"
+  },
+  "prompts": {
+    "needing": "Mit igényelhetsz most?",
+    "happened": "Mi történt, mielőtt ez az érzés megjelent?",
+    "speak": "Ha ez az érzelem megszólalna, mit mondana?",
+    "notice": "Hol veszed észre ezt az érzést a testedben?",
+    "sitOrShift": "Ez valami, amihez szeretnél ülni, vagy finoman mozdulni?",
+    "ease": "Mi hozna még 10%-kal nagyobb könnyedséget?",
+    "kindness": "Milyen apró kedvességet tudnál ma magadnak ajánlani?",
+    "supported": "Mi segítene abban, hogy ebben a pillanatban támogatottnak érezd magad?"
+  }
+}

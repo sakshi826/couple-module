@@ -1,0 +1,65 @@
+{
+  "app_title": "Voortgezette Bonds",
+  "welcome_title": "Liefde eindigt niet als iemand weg is.",
+  "welcome_subtitle": "De band die jullie deelden blijft op veel manieren bestaan. Haal langzaam adem en ga in je eigen tempo.",
+  "begin_button": "Begin met reflectie",
+  "screen_titles": {
+    "welcome": "Welkom",
+    "choose": "Verbinding",
+    "bond": "Actie",
+    "review": "Reflectie",
+    "closing": "Laatste Zorg",
+    "complete": "Bond bewaard"
+  },
+  "choose_question": "Hoe voel je je nog steeds verbonden?",
+  "write_heart": "Schrijf vanuit het hart...",
+  "continue_button": "Ga verder",
+  "action_title": "Contact in actie",
+  "sharing_optional": "Delen is optioneel...",
+  "preserve_button": "Behoud Reflectie",
+  "preserving": "Bewaren...",
+  "preserved_title": "Bewaard",
+  "preserved_subtitle": "\"Deze verbinding is een deel van jou. Je kunt er altijd weer op terugkomen.\"",
+  "finish_button": "Maak het nu af",
+  "add_another": "Voeg er nog een aan toe",
+  "closing_p1": "De mensen van wie we houden worden een deel van wie we zijn. 🤍",
+  "closing_p2": "Ze leven voort in de manier waarop je lacht, de verhalen die je vertelt, en de stille momenten waarop je ze dichtbij voelt.",
+  "closing_p3": "Hoe je band ook verschijnt — het is echt, en het doet ertoe.",
+  "save_exit_button": "Opslaan en Afsluiten",
+  "complete_title": "Bond bewaard",
+  "complete_message": "De mensen van wie we houden worden een deel van wie we zijn. Jullie verbinding blijft bestaan op de manieren waarop je hen eert.",
+  "auth_error": "Auth-sessie ontbreekt of database niet geconfigureerd",
+  "save_success": "Bindingsreflectie behouden",
+  "save_error": "Niet in staat de reflectie te behouden",
+  "connection_options": [
+    {
+      "label": "Door herinneringen",
+      "prompt": "Kun je een herinnering delen waarin je hun aanwezigheid voelt?",
+      "deeper": "Wat is één ding aan hen dat je bijblijft?"
+    },
+    {
+      "label": "In de dingen die ik zeg of doe",
+      "prompt": "Welk deel van hen draag je in je dagelijks leven?",
+      "deeper": "Hoe komt dit vandaag de dag in je leven naar voren?"
+    },
+    {
+      "label": "In momenten van mijn dagelijks leven",
+      "prompt": "Wanneer voel je ze dichtbij tijdens je dag?",
+      "deeper": "Wat is één ding aan hen dat je bijblijft?"
+    },
+    {
+      "label": "In wat ik ze nog steeds wil vertellen",
+      "prompt": "Is er nog iets wat je tegen hen wilt zeggen?",
+      "deeper": "Wat zou je het meest willen dat ze nu weten?"
+    },
+    {
+      "label": "In een gevoel of aanwezigheid",
+      "prompt": "Hoe komt hun aanwezigheid nog steeds voor jou zichtbaar?",
+      "deeper": "Hoe komt dit vandaag de dag in je leven naar voren?"
+    }
+  ],
+  "bond_prompts": [
+    "Wat is één kleine manier waarop je je vandaag met hen verbonden voelt?",
+    "Wat doe je dat een deel van hen meedraagt?"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "relax": "Uklidni se",
+  "about_technique": "O této technice",
+  "technique_description": "Box breathing používá jednoduchý vzor 4-4-4-4 — nádech, zadržení, výdech, zadržení — každý po dobu čtyř sekund. Aktivuje váš parasympatický nervový systém, snižuje stres a vrací vás zpět do klidného, soustředěného stavu.",
+  "how_to_practice": "Jak cvičit",
+  "inhale_4s": "Nadechněte se na 4 sekundy",
+  "hold_4s": "Držte 4 sekundy",
+  "exhale_4s": "Vydechni na 4 sekundy",
+  "repeat_cycle": "Opakujte cyklus",
+  "start_breathing": "Začněte dýchat",
+  "breathe_in": "Nadechněte se",
+  "hold": "Držte",
+  "breathe_out": "Vydechni",
+  "feeling_calmer": "Cítíš se klidnější",
+  "session_complete_msg": "Skvělá práce, která dokončila dýchání. Na chvíli si všimněte, jak se vaše tělo cítí — lehčí, klidnější, uvolněnější.",
+  "start_again": "Začněte znovu",
+  "back": "Zpět",
+  "not_found_404": "404",
+  "page_not_found": "Jejda! Stránka nenalezena",
+  "return_home": "Návrat domů"
+}

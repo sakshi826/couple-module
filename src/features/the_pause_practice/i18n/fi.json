@@ -1,0 +1,73 @@
+{
+  "app_title": "Taukoharjoittelu",
+  "app_subtitle": "Hallitse väli",
+  "intro": {
+    "title": "Viiden sekunnin tauko",
+    "description": "Pieni tauko tuntemisen ja reagoimisen välillä voi muuttaa kaiken.",
+    "duration": "Kestää alle 15 sekuntia. Todella.",
+    "button": "Kokeile →"
+  },
+  "scenario": {
+    "title": "Mikä laukaisee sinut?",
+    "desc": "Valitse tilanne, johon samaistut",
+    "options": [
+      {
+        "id": "keskeytykset",
+        "label": "Joku keskeyttää minut",
+        "emoji": "😠"
+      },
+      {
+        "id": "Suunnitelmat",
+        "label": "Asiat eivät mene suunnitelmien mukaan",
+        "emoji": "😤"
+      },
+      {
+        "id": "Huomiotta jätetty",
+        "label": "Tunnen itseni sivuutetuksi",
+        "emoji": "😔"
+      },
+      {
+        "id": "ylikuormittunut",
+        "label": "Tunnen oloni ylikuormittuneeksi",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Kirjoita itse...",
+    "button": "Harjoitustauko →"
+  },
+  "hold": {
+    "title": "Pidä tauko ⏸️",
+    "instructions": "Pidä ympyrää 5 sekuntia",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Paina ja pidä kiinni..."
+      },
+      {
+        "at": "0.15",
+        "text": "Pysy mukana..."
+      },
+      {
+        "at": "0.5",
+        "text": "Sinä teet sen..."
+      },
+      {
+        "at": "0.8",
+        "text": "Melkein perillä..."
+      }
+    ]
+  },
+  "result": {
+    "title": "Se on tauko",
+    "message": "Loit vain tilaa tunteidesi ja reaktioiden välille. Jo pieni tauko auttaa sinua palauttamaan keskipisteesi.",
+    "tip_label": "Vinkki",
+    "scenario_messages": {
+      "interrupts": "Seuraavan kerran kun joku keskeyttää sinut, kokeile tätä ennen kuin vastaat.",
+      "plans": "Seuraavan kerran, kun asiat eivät mene suunnitelmien mukaan, kokeile tätä ennen kuin reagoit.",
+      "ignored": "Seuraavan kerran kun tunnet itsesi sivuutetuksi, kokeile tätä ennen kuin vastaat.",
+      "overwhelmed": "Seuraavan kerran kun tunnet olosi ylikuormittuneeksi, kokeile tätä ennen kuin teet mitään.",
+      "other": "Seuraavan kerran kun tunnet triggeröityn, kokeile tätä ennen kuin reagoit."
+    },
+    "italic": "Se ei aina tunnu helpolta – mutta johdonmukaisuus on avainasemassa."
+  }
+}

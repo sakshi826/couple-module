@@ -1,0 +1,22 @@
+{
+  "app_title": "Missing Someone",
+  "subtitles": ["Validation", "Internal Wisdom", "Complete"],
+  "complete_title": "Clarity Gained",
+  "complete_message": "Understanding the chemistry of missing someone is the first step toward healing. Your feelings are valid, and your brain is simply doing its job to protect and process.",
+  "screen1": {
+    "tag": "Validation",
+    "intro": "It doesn't mean you're weak.",
+    "title": "Missing someone who hurt you is deeply human.",
+    "desc": "You left. Or they left. And yet — you still reach for your phone hoping it's them. You still replay the good moments more than the painful ones. This contradiction isn't a flaw. It's how your brain processes loss.",
+    "quote": "\"You don't just miss the person. You miss the feeling of being bonded to them.\"",
+    "button": "Next Step"
+  },
+  "screen2": {
+    "tag": "Brain Science",
+    "intro": "Internal Wisdom",
+    "title": "Love creates a chemical bond.",
+    "desc": "When you love someone, your brain releases dopamine, oxytocin, and serotonin. When it ends, those levels drop. Your brain grieves — not just the person, but the feeling of closeness.",
+    "quote": "\"Missing them doesn't mean you should go back. Your heart is grieving a bond — not necessarily the person as they truly were.\"",
+    "button": "Finish Reflection"
+  }
+}

@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import { Button } from "@/features/the_pause_practice/components/ui/button";
 
 interface IntroScreenProps {
@@ -6,6 +7,8 @@ interface IntroScreenProps {
 }
 
 const IntroScreen = ({ onNext }: IntroScreenProps) => {
+  const { t } = useTranslation();
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -29,7 +32,7 @@ const IntroScreen = ({ onNext }: IntroScreenProps) => {
         transition={{ delay: 0.3, duration: 0.5 }}
         className="text-3xl font-semibold text-foreground mb-4"
       >
-        The 5-Second Pause
+        {t("intro.title")}
       </motion.h1>
 
       <motion.p
@@ -38,7 +41,7 @@ const IntroScreen = ({ onNext }: IntroScreenProps) => {
         transition={{ delay: 0.45, duration: 0.5 }}
         className="text-lg text-muted-foreground leading-relaxed mb-3 max-w-xs"
       >
-        A small pause between feeling and reacting can change everything.
+        {t("intro.description")}
       </motion.p>
 
       <motion.p
@@ -47,7 +50,7 @@ const IntroScreen = ({ onNext }: IntroScreenProps) => {
         transition={{ delay: 0.6, duration: 0.5 }}
         className="text-sm text-muted-foreground mb-10"
       >
-        Takes less than 15 seconds. Really.
+        {t("intro.duration")}
       </motion.p>
 
       <motion.div
@@ -56,7 +59,7 @@ const IntroScreen = ({ onNext }: IntroScreenProps) => {
         transition={{ delay: 0.75, duration: 0.5 }}
       >
         <Button variant="coral" size="lg" onClick={onNext} className="px-10 py-6 text-lg">
-          Try It →
+          {t("intro.button")}
         </Button>
       </motion.div>
     </motion.div>

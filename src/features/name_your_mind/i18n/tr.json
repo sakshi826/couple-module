@@ -1,0 +1,80 @@
+{
+  "app_title": "Aklını Söyle",
+  "intro": {
+    "title": "Zihninle Buluş",
+    "description": "İç sesinize bir isim vererek bunaltıcı düşüncelerden uzaklaşmayı öğrenin.",
+    "benefits": [
+      "Zihinsel mesafe yaratın",
+      "Sert düşüncelerin gücünü azalt",
+      "Düşünceleri fark etmek ama onlar olmak"
+    ],
+    "duration": "2-3 dakika",
+    "view_past": "Geçmiş Girişleri Görüntüle"
+  },
+  "history": {
+    "title": "Geçmiş Kayıtlar",
+    "no_entries": "Henüz kayıt yok.",
+    "reflection_label": "Yansıma: {{text}}"
+  },
+  "complete": {
+    "title": "Etkinlik Tamamlandı",
+    "great_job": "Harika iş!",
+    "message": "Zihninize başarıyla isim verdiniz ve düşüncelerinizle aranızda bir boşluk yarattınız.",
+    "footer": "Unutmayın: Zihninizin verdiği her düşünceye inanmak zorunda değilsiniz."
+  },
+  "subtitles": {
+    "concept": "Perspektif",
+    "input_thought": "Bildirim",
+    "input_name": "İsim",
+    "practice": "Uygulama"
+  },
+  "screens": {
+    "concept": {
+      "title": "Küçük bir vardiya",
+      "example": "\"Yeterince iyi değilim\"",
+      "desc": "Bir düşünce ortaya çıktığında genellikle <0>sen</0> gibi hissedilir. Ama ya geri çekilip <1>fark et</1> yapabilseydin?"
+    },
+    "input_thought": {
+      "title": "Gerçek bir düşünceyle başlayalım.",
+      "desc": "Son zamanlarda sizi rahatsız eden bir düşünce nedir?",
+      "placeholder": "Tam olarak sana geldiği gibi yaz..."
+    },
+    "input_name": {
+      "title": "Biraz mesafe yaratın",
+      "desc": "Zihninize bu düşüncelerden ayrılmanız için bir isim verin.",
+      "placeholder": "Ya da kendi yazın...",
+      "examples": [
+        "Eleştirmen",
+        "Aşırı Düşünen",
+        "Worry FM",
+        "Aşırı Düşünen Makine",
+        "İçsel Eleştirmen",
+        "Ne Olsaydı Jeneratörü",
+        "Drama Yönetmeni"
+      ]
+    },
+    "practice": {
+      "title": "Bu vardiyayı dene",
+      "instead_of": "Yerine",
+      "try_saying": "Şöyle dene.",
+      "is_telling_me": "{{name}} bana şöyle diyor:",
+      "guide": "Bu cümleyi kendi hızınızda 4–5 kez nazikçe tekrarlayın.",
+      "button": "Hazırım"
+    },
+    "reflection": {
+      "title": "Ne fark ettin?",
+      "desc": "İsim verdikten sonra düşünce nasıl hissettirdi?",
+      "options": [
+        "Bu düşünce öncekinden biraz daha az yoğun geliyordu",
+        "Bu düşünceden biraz uzaklaştığımı hissettim",
+        "Hâlâ eskisi kadar güçlü hissettiriyordu",
+        "Neyin değiştiğinden emin değilim, eğer bir şey değişti"
+      ],
+      "button": "Tam Yansıtma"
+    }
+  },
+  "buttons": {
+    "continue": "Devam et",
+    "restart": "Yeniden başlatma"
+  }
+}

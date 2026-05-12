@@ -1,0 +1,43 @@
+{
+  "vibeTracker": "Vibe Tracker",
+  "howAreYouFeeling": "Hoe voel je je op dit moment?",
+  "describeOwnVibe": "Of beschrijf je eigen vibe",
+  "rightNowIFeel": "Op dit moment voel ik me...",
+  "saveVibe": "Save Vibe",
+  "pauseAndReflect": "Pauzeer en reflecteer",
+  "typeThoughts": "Typ hier je gedachten...",
+  "submitReflection": "Dien reflectie in",
+  "next": "Volgende",
+  "vibeLogged": "Vibe gelogd",
+  "thankYou": "Bedankt dat je even pauzeert en het opmerkt. Zelfs deze kleine check-in doet ertoe.",
+  "done": "Klaar",
+  "today": "Vandaag de dag",
+  "yesterday": "Gisteren",
+  "viewHistory": "Bekijk geschiedenis",
+  "history": "Geschiedenis",
+  "yourJourney": "Jouw reis",
+  "noVibes": "Nog geen vibes geregistreerd",
+  "startFirstCheckIn": "Begin je eerste check-in om je reis hier te zien verlopen.",
+  "vibes": {
+    "Calm": "Rustig",
+    "Light": "Licht",
+    "Driven": "Driven",
+    "Content": "Inhoud",
+    "Steady": "Rustig aan",
+    "Tender": "Tender",
+    "Heavy": "Zwaar",
+    "Thoughtful": "Attent",
+    "Restless": "Rusteloos",
+    "Drained": "Leeg"
+  },
+  "prompts": {
+    "needing": "Wat heb je nu misschien nodig?",
+    "happened": "Wat gebeurde er voordat dit gevoel zich opdook?",
+    "speak": "Als deze emotie kon spreken, wat zou het dan zeggen?",
+    "notice": "Waar merk je dit gevoel in je lichaam?",
+    "sitOrShift": "Is dit iets waar je mee wilt zitten of voorzichtig verschuiven?",
+    "ease": "Wat zou je nog 10% meer gemak geven?",
+    "kindness": "Welke kleine vriendelijkheid kun je jezelf vandaag nog schenken?",
+    "supported": "Wat zou je op dit moment helpen je gesteund te voelen?"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "app_title": "Por qué el cerebro se queda atascado",
+  "app_subtitle": "La lógica de la supervivencia • {{step}}/{{total}}",
+  "s1": {
+    "title": "Tu cerebro no se rompió. Se adaptó.",
+    "description": "Después del trauma, tu cerebro se reconfigura para mantenerte a salvo. Aprendió que el mundo podía ser peligroso, así que se mantuvo preparado. Eso no es un defecto. Eso es supervivencia.",
+    "quote": "\"El TEPT no es señal de que algo te vaya mal. Es una señal de que te ha pasado algo.\"",
+    "button": "Cuéntame más"
+  },
+  "s2": {
+    "tag": "Verdades suaves",
+    "title": "Lógica de supervivencia cerebral",
+    "truths": [
+      {
+        "header": "La alarma seguía encendida",
+        "body": "La hipervigilancia y el sobresalto no son exageraciones: el sistema de alarma de tu cerebro está cumpliendo demasiado bien su función."
+      },
+      {
+        "header": "Los flashbacks son memoria",
+        "body": "Los gatillos dejan tu cerebro hacia atrás porque nunca recibió la señal de que la amenaza había terminado. Está intentando protegerte."
+      },
+      {
+        "header": "Luchando por ti",
+        "body": "Cada síntoma fue en su día un acto de supervivencia. Tu cerebro hizo lo que tenía que hacer para mantenerte con vida."
+      }
+    ],
+    "healing": "Sanar no consiste en olvidar. Se trata de ayudar a tu cerebro a aprender que ahora estás a salvo."
+  }
+}

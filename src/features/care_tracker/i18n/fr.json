@@ -1,0 +1,131 @@
+{
+  "common": {
+    "continue": "Continuez",
+    "back": "Retour",
+    "home": "Retour à la maison",
+    "yes": "Oui",
+    "no": "Non",
+    "date": "Date"
+  },
+  "screens": {
+    "intro": {
+      "title": "Outil de suivi d’auto-soin",
+      "description": "Suivez vos habitudes quotidiennes de soins personnels et voyez comment elles impactent votre bien-être global. La constance est la clé d’un esprit plus sain.",
+      "benefits": [
+        "Consignez les activités quotidiennes de soin de vous",
+        "Suivez le temps passé sur vous-même",
+        "Surveillez vos habitudes d’humeur",
+        "Voir l’histoire et les progrès"
+      ],
+      "duration": "2-3 minutes"
+    },
+    "checkin": {
+      "title": "Contrôle 🌿 de l’auto-soin",
+      "subtitle": "Comment as-tu pris soin de toi aujourd’hui ?",
+      "question": "As-tu pratiqué le soin de toi aujourd’hui ? *",
+      "description": "Le soin de soi est toute activité que nous réalisons de manière délibérée afin de prendre soin de notre santé mentale, émotionnelle et physique."
+    },
+    "activities": {
+      "title": "Vos activités 🎯",
+      "subtitle": "Quelles activités de soin de soin de soi as-tu faites aujourd’hui ?"
+    },
+    "duration": {
+      "title": "Temps passé ⏱️",
+      "subtitle": "Combien de temps avez-vous passé à prendre soin de vous ? (optionnel)"
+    },
+    "noSelfCare": {
+      "title": "Ce n’est pas 💛 grave",
+      "subtitle": "Comprenons ce qui s’est passé aujourd’hui.",
+      "question1": "Qu’est-ce qui empêchait le soin de soi aujourd’hui ? (optionnel)",
+      "question2": "Quel type de soin de soi aurait aidé ? (optionnel)"
+    },
+    "mood": {
+      "title": "Comment tu te sens ? 🫧",
+      "subtitle": "Sélectionnez votre humeur actuelle (optionnel)"
+    },
+    "review": {
+      "title": "Votre entrée 📋",
+      "subtitle": "Voici un résumé de l’enregistrement d’aujourd’hui",
+      "didSelfCare": "Est-ce que tu prends soin de soi ?",
+      "activities": "Activités",
+      "duration": "Durée",
+      "mood": "Ambiance",
+      "challenges": "Empêché par",
+      "whatHelps": "Ça aurait aidé",
+      "viewHistory": "Histoire hebdomadaire",
+      "editToday": "Modifier l’entrée",
+      "summary": "Résumé"
+    },
+    "history": {
+      "title": "Histoire 📅 hebdomadaire",
+      "subtitle": "Aucune inscription au cours des 7 derniers jours"
+    },
+    "notfound": {
+      "title": "404",
+      "subtitle": "Oups ! Page non trouvée",
+      "returnHome": "Retour au pays"
+    }
+  },
+  "data": {
+    "activities": {
+      "Exercise": "Exercice",
+      "Meditation": "Méditation",
+      "Journaling": "Journalisation",
+      "Reading": "Lecture",
+      "Rest / Nap": "Repos / Sieste",
+      "Skincare": "Soins de la peau",
+      "Healthy Meal": "Repas sains",
+      "Nature / Walk": "Nature / Promenade",
+      "Social Time": "Temps social",
+      "Hobby": "Loisir",
+      "Therapy": "Thérapie",
+      "Digital Detox": "Détox numérique"
+    },
+    "durations": {
+      "< 10 minutes": "< 10 minutes",
+      "10–30 minutes": "10 à 30 minutes",
+      "30–60 minutes": "30 à 60 minutes",
+      "1+ hour": "1+ heure"
+    },
+    "reasons": {
+      "Busy schedule": "Emploi du temps chargé",
+      "Low energy": "Faible énergie",
+      "Stress": "Stress",
+      "Forgot": "J’ai oublié",
+      "No motivation": "No motivation",
+      "Not feeling well": "Je ne me sens pas bien",
+      "Lack of time": "Manque de temps",
+      "Emotional overwhelm": "Débordement émotionnel"
+    },
+    "helpfulTypes": {
+      "Rest": "Repos",
+      "Relaxation": "Relaxation",
+      "Physical activity": "Activité physique",
+      "Talking to someone": "Parler à quelqu’un",
+      "Quiet time": "Temps de calme",
+      "Creative activity": "Activité créative"
+    },
+    "moods": {
+      "Happy": "Heureux",
+      "Calm": "Calme-toi",
+      "Neutral": "Neutre",
+      "Low": "Low",
+      "Stressed": "Stressé",
+      "Tired": "Fatigué"
+    },
+    "positiveStatements": [
+      "Tu t’es montré pour toi-même aujourd’hui. C’est puissant. 🌿",
+      "Le soin de soi n’est pas égoïste — c’est essentiel. Bien joué. 💚",
+      "Chaque petit geste de soin construit un toi plus fort. 🌱",
+      "Tu as investi en toi aujourd’hui. Ça compte. ✨",
+      "Prendre soin de toi est la meilleure chose que tu aies faite aujourd’hui. 🍃"
+    ],
+    "supportiveStatements": [
+      "Ça va. Demain, c’est un nouveau départ. Sois doux avec toi-même. 🤍",
+      "Tous les jours ne seront pas parfaits, et c’est parfaitement normal. 🕊️",
+      "Tu fais de ton mieux. C’est toujours suffisant. 💛",
+      "Le repos est aussi une forme de soin de soi. Sois indulgent avec toi-même. 🌸",
+      "Reconnaître aujourd’hui demande du courage. Tu grandis déjà. 🌷"
+    ]
+  }
+}

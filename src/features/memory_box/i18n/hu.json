@@ -1,0 +1,80 @@
+{
+  "app_title": "Memóriadoboz",
+  "screen_titles": [
+    "A te dobozod",
+    "Tiszteletadás",
+    "Expresszálás",
+    "Megőrzött",
+    "Gyengéd gondoskodás"
+  ],
+  "complete_title": "Emlék megőrzött",
+  "complete_message": "Biztonságosan elhelyeztél egy emléket {{name}} a dobozodba. Ezek a kapcsolódási pillanatok mindig a tiéd, hogy megőrizd.",
+  "auth_error": "Hitelesítési alkalom hiányzik vagy adatbázis nincs konfigurálva",
+  "save_success": "Megőrzési memória",
+  "save_error": "Nem sikerült megőrizni a memóriát",
+  "preserving": "Megőrizve...",
+  "preserve_memory": "Memória megőrzése",
+  "welcome": {
+    "title": "A Memóriadobozod",
+    "subtitle1": "Egy csendes hely, hogy emlékezhetsz valakire, akit szeretsz. 🤍",
+    "subtitle2": "Vegyél egy lassan levegőt...",
+    "subtitle3": "… és gyengéden kilélegezni ki.",
+    "subtitle4": "Nincs helyes vagy rossz módja ennek.",
+    "subtitle5": "Menj a saját tempódban. 🌿",
+    "begin": "Kezdjük ✨",
+    "later": "Talán később"
+  },
+  "who": {
+    "placeholder_name": "Írd be a nevét...",
+    "placeholder_relation": "Honnan ismered őket? (opcionális)",
+    "categories": [
+      {
+        "label": "Egy boldog pillanat",
+        "emoji": "😊"
+      },
+      {
+        "label": "Valamit, amit régen mondottak",
+        "emoji": "💬"
+      },
+      {
+        "label": "Egy apró, mindennapi emlék",
+        "emoji": "☕"
+      },
+      {
+        "label": "Egy hely, ami emlékeztet rájuk",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Valami, amit bárcsak mondhatnék",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Folytasd →"
+  },
+  "expression": {
+    "title": "Az emléked kifejezése",
+    "memory_label": "Maga az emlék",
+    "memory_placeholder": "Írj arról a pillanatról, az érzésről vagy a részletről, amit meg akarsz őrizni...",
+    "message_label": "Egy üzenet nekik (opcionális)",
+    "message_placeholder": "Mit mondanál, ha most beszélhetnél velük?",
+    "save": "Memória megőrzése",
+    "skip": "Most ugorj",
+    "back": "Hátra"
+  },
+  "box": {
+    "title": "Biztonságosan elrejtve",
+    "subtitle": "Ez az emlék {{name}}-ról most a gyűjteményed része.",
+    "add_another": "Add hozzá egy újabb emléket",
+    "finish": "Finish Reflection"
+  },
+  "closing": {
+    "title": "Gondoskodás",
+    "subtitle": "Most becsukom a dobozodat. Bármikor visszatérhetsz ide, amikor szükséged van arra, hogy közel érezd magad ezekhez az emlékekhez.",
+    "exit": "Zárt doboz"
+  },
+  "history": {
+    "title": "Doboz tartalma",
+    "no_memories": "A dobozod üres. Add hozzá az első emlékedet, hogy elkezdhesd a gyűjteményedet.",
+    "search_placeholder": "Keresd az emlékeket..."
+  }
+}

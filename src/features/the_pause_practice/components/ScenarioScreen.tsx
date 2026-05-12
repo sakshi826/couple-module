@@ -1,21 +1,18 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import { Button } from "@/features/the_pause_practice/components/ui/button";
-
-const scenarios = [
-  { id: "interrupts", label: "Someone interrupts me", emoji: "😠" },
-  { id: "plans", label: "Things don't go as planned", emoji: "😤" },
-  { id: "ignored", label: "I feel ignored", emoji: "😔" },
-  { id: "overwhelmed", label: "I feel overwhelmed", emoji: "😵‍💫" },
-];
 
 interface ScenarioScreenProps {
   onNext: (scenario: string) => void;
 }
 
 const ScenarioScreen = ({ onNext }: ScenarioScreenProps) => {
+  const { t } = useTranslation();
   const [selected, setSelected] = useState<string | null>(null);
   const [customText, setCustomText] = useState("");
+
+  const scenarios = t("scenario.options", { returnObjects: true }) as any[];
 
   const handleSelect = (id: string) => {
     setSelected(id);
@@ -30,7 +27,7 @@ const ScenarioScreen = ({ onNext }: ScenarioScreenProps) => {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
-      className="flex flex-col items-center min-h-screen px-6 pt-16 pb-8"
+      className="flex flex-col items-center min-h-[80vh] px-6 pt-16 pb-8"
     >
       <motion.h1
         initial={{ opacity: 0 }}
@@ -38,7 +35,7 @@ const ScenarioScreen = ({ onNext }: ScenarioScreenProps) => {
         transition={{ delay: 0.15 }}
         className="text-2xl font-semibold text-foreground mb-2 text-center"
       >
-        What triggers you?
+        {t("scenario.title")}
       </motion.h1>
       <motion.p
         initial={{ opacity: 0 }}
@@ -46,11 +43,11 @@ const ScenarioScreen = ({ onNext }: ScenarioScreenProps) => {
         transition={{ delay: 0.25 }}
         className="text-muted-foreground text-center mb-8"
       >
-        Pick a situation you relate to
+        {t("scenario.desc")}
       </motion.p>
 
       <div className="w-full max-w-sm space-y-3 mb-10">
-        {scenarios.map((s, i) => (
+        {Array.isArray(scenarios) && scenarios.map((s, i) => (
           <motion.button
             key={s.id}
             initial={{ opacity: 0, x: -20 }}
@@ -74,7 +71,7 @@ const ScenarioScreen = ({ onNext }: ScenarioScreenProps) => {
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ delay: 0.3 + scenarios.length * 0.08, duration: 0.4 }}
+          transition={{ delay: 0.3 + (Array.isArray(scenarios) ? scenarios.length : 0) * 0.08, duration: 0.4 }}
           onClick={() => handleSelect("other")}
           className={`w-full rounded-2xl transition-all duration-300 cursor-pointer ${
             selected === "other"
@@ -84,7 +81,7 @@ const ScenarioScreen = ({ onNext }: ScenarioScreenProps) => {
         >
           <input
             type="text"
-            placeholder="Type your own..."
+            placeholder={t("scenario.placeholder")}
             value={customText}
             onFocus={() => handleSelect("other")}
             onChange={(e) => {
@@ -108,7 +105,7 @@ const ScenarioScreen = ({ onNext }: ScenarioScreenProps) => {
           onClick={() => selected && onNext(selected)}
           className="px-10 py-6 text-lg"
         >
-          Practice Pause →
+          {t("scenario.button")}
         </Button>
       </motion.div>
     </motion.div>

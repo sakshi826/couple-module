@@ -1,0 +1,95 @@
+{
+  "app_title": "Planer okna snu",
+  "pill_labels": [
+    "Zbuduj swoje okno",
+    "Ustal swoje czasy",
+    "Twoje okno snu"
+  ],
+  "screen1": {
+    "title": "Twoje okno snu ma większe znaczenie, niż myślisz",
+    "p1": "Okno snu to stały czas między pójściem spać a przebudzeniem. Utrzymanie regularności — nawet w weekendy — to jedna z najpotężniejszych rzeczy, jakie możesz zrobić dla swojego snu.",
+    "p2": "To narzędzie pomaga zbudować swój w mniej niż 2 minuty.",
+    "insight": "Nawet godzinna różnica w czasie snu w weekendy może zakłócić samopoczucie przez cały tydzień.",
+    "meta": "Proste. Osobiste. Skuteczne.",
+    "button": "Zbudujmy mój →"
+  },
+  "screen2": {
+    "title": "Ustaw okno snu",
+    "step1": {
+      "title": "KROK 1 — CZAS POBUDKI",
+      "desc": "O której godzinie musisz się budzić większość dni?"
+    },
+    "step2": {
+      "title": "KROK 2 — CZAS SNU",
+      "desc": "Ile godzin chcesz spać?"
+    },
+    "live_window": {
+      "bedtime": "Pora snu",
+      "waketime": "Czas pobudki",
+      "duration": "{{hours}} godzin snu"
+    },
+    "italic": "Większość dorosłych potrzebuje 7–9 godzin. Wybierz to, co wydaje się właściwe.",
+    "button": "Widzisz moje okno snu →"
+  },
+  "screen3": {
+    "title": "Twoje okno 🌙 snu",
+    "result": {
+      "bedtime": "Pora snu",
+      "waketime": "Czas pobudki",
+      "duration": "Czas trwania",
+      "hours": "{{hours}} godzin"
+    },
+    "accordion1": {
+      "title": "3 sposoby ochrony",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Zrelaksuj się 30 minut przed snem"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Taka sama pora pobudki każdego dnia — tak, w weekendy też"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Unikaj drzemek dłuższych niż 20 minut po 15:00"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Zobowiąż się dziś wieczorem do jednej rzeczy",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Odłóż telefon przed snem"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Zacznij rutynę relaksującą"
+        },
+        {
+          "emoji": "💡",
+          "text": "Przyciemnić światła na godzinę przed snem"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Skończę moją listę rzeczy do zrobienia wcześniej"
+        }
+      ]
+    },
+    "quote": "Konsekwencja jest potężniejsza niż perfekcja. Jedna dobra noc buduje się kolejna.",
+    "button": "Zachowaj mój czas na sen ✓",
+    "saved_button": "✓ Okno snu uratowane!",
+    "adjust_times": "Czas korekty"
+  },
+  "complete": {
+    "title": "Utworzone okno",
+    "message": "Twoje idealne okno snu zostało zmapowane. Konsekwencja to klucz do głębokiego, regenerującego odpoczynku."
+  },
+  "toasts": {
+    "save_success": "Okno snu zapisane",
+    "save_error": "Nie udało się zapisać okna snu",
+    "auth_error": "Brakuje sesji uwierzytelniania lub baza danych nie skonfigurowana",
+    "saving": "Zapisuję..."
+  }
+}

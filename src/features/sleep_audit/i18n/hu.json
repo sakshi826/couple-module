@@ -1,0 +1,94 @@
+{
+  "app_title": "Alvásvizsgálat",
+  "app_subtitle": "Értsd meg a pihenésedet",
+  "intro": {
+    "title": "Az alvásvizsgálatod",
+    "description": "Értsd meg, mi befolyásolja az alvásodat, és hol segíthetnek a kis változtatások.",
+    "start_button": "Audit indítása",
+    "history_button": "Korábbi auditok"
+  },
+  "screens": {
+    "s1": {
+      "phase": "1. fázis",
+      "title": "Hogy aludsz?",
+      "desc": "Válassz olyat, ami mostanában igaznak tűnik számodra"
+    },
+    "s2": {
+      "phase": "2. fázis",
+      "title": "Értékeld a tipikus pihenőt",
+      "label": "Konkrét aggályok?",
+      "placeholder": "Stressz, zaj, görgetés..."
+    },
+    "s3": {
+      "score_label": "a 7",
+      "recommendations": {
+        "solid": "A szokásaid szilárdak! Apró finomhangok még jobbá tehetik.",
+        "some": "Néhány zavart észleltek. A szokásváltás gyorsan segíthet.",
+        "many": "Több tényező is befolyásolja az alvást. Együtt dolgozhatunk rajtuk."
+      }
+    }
+  },
+  "options": [
+    {
+      "emoji": "🕐",
+      "text": "Minden este nagyon különböző időpontokban fekszem le"
+    },
+    {
+      "emoji": "💡",
+      "text": "Az alvás környezetem nem sötét, csendes vagy kényelmes"
+    },
+    {
+      "emoji": "📱",
+      "text": "Közvetlenül alvás előtt görgetek a telefonomon"
+    },
+    {
+      "emoji": "☕",
+      "text": "Koffein vagy alkoholom van lefekvésnél közel"
+    },
+    {
+      "emoji": "😵",
+      "text": "Éjszaka felébredek, és nehezen tudok visszaaludni"
+    },
+    {
+      "emoji": "🧠",
+      "text": "Az agyam zaklatott a gondolatokkal, amikor próbálok aludni"
+    },
+    {
+      "emoji": "😔",
+      "text": "Ritkán érzem magam felfrissültnek egy éjszakai alvás után"
+    }
+  ],
+  "rating_labels": [
+    "Nagyon szegény",
+    "Szegény",
+    "Rendben",
+    "Jó",
+    "Remek"
+  ],
+  "status_labels": {
+    "track": "Főleg a pályán",
+    "disruptions": "Néhány zavaró",
+    "attention": "Figyelmet igényel"
+  },
+  "buttons": {
+    "continue": "Folytatás",
+    "see_results": "Eredmények megtekintése",
+    "preserve": "Megőrzés eredménye",
+    "preserving": "Megőrizve...",
+    "back_to_intro": "Vissza az Intro-hoz"
+  },
+  "history": {
+    "title": "Korábbi auditok",
+    "no_entries": "Még nem maradtak meg ellenőrzések.",
+    "score_label": "a 7"
+  },
+  "complete": {
+    "title": "Ellenőrzés befejezve",
+    "message": "Az alvási pontszámod {{score}}/7. Ezeknek a mintáknak a megértése az első lépés a mélyebb, helyreállítóbb pihenés felé."
+  },
+  "toasts": {
+    "save_success": "Audit mentve",
+    "save_error": "Nem sikerült mentést tartani az audit",
+    "auth_error": "Hitelesítési alkalom hiányzik vagy adatbázis nincs konfigurálva"
+  }
+}

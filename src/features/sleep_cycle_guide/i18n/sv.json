@@ -1,0 +1,121 @@
+{
+  "app_title": "Sömncykelguide",
+  "pill_labels": [
+    "Introduktion",
+    "De 4 stegen",
+    "Den sömniga sanningen",
+    "Hur är det med dig?"
+  ],
+  "s1": {
+    "title": "Har du någonsin sovit åtta timmar och ändå känt dig hemsk?",
+    "p1": "Det handlar inte om <1>hur länge</1> du sover.",
+    "p2": "Det är ungefär <1>var</1> i din sömncykel vaknar du.",
+    "p3": "En sak förändras när man förstår detta — allt.",
+    "insight": "💡 Din hjärna är faktiskt mer aktiv under REM-sömn än när du är helt vaken!",
+    "duration": "Tar 3 minuter · varar livet ut",
+    "button": "Vänta, på riktigt? Berätta mer →"
+  },
+  "s2": {
+    "title": "Din hjärna gör DETTA varje natt 🌀",
+    "desc": "Var 90:e minut cyklar din hjärna genom fyra steg – som en spellista på repeat. Tryck på varje för att utforska 👇",
+    "stages": [
+      {
+        "emoji": "🌊",
+        "title": "Lätt sömn",
+        "tag": "1–5 minuter · lättväckt",
+        "body": "Du håller på att somna. Kroppen börjar släppa taget, musklerna kan rycka. Väldigt lätt att vakna härifrån."
+      },
+      {
+        "emoji": "💤",
+        "title": "Att slå sig till ro",
+        "tag": "10–25 minuter · verkligen sovande",
+        "body": "Hjärtfrekvensen saktar ner, kroppstemperaturen sjunker. Du sover ordentligt — hjärnaktiviteten börjar sakta ner."
+      },
+      {
+        "emoji": "🔵",
+        "title": "Djupsömn ⭐",
+        "tag": "20–40 minuter · Guldet",
+        "body": "Kroppen reparerar vävnad, bygger upp immunitet. Det mest fysiskt återställande stadiet – svårt att vakna från."
+      },
+      {
+        "emoji": "🌙",
+        "title": "REM-sömn",
+        "tag": "10–60 minuter · Drömläge",
+        "body": "Hjärnan surrar av aktivitet. Känslor bearbetas, minnen låser sig. Att hoppa över detta gör dig dimmig."
+      }
+    ],
+    "italic": "Djupsömn fixar din kropp. REM fixar ditt sinne.",
+    "button": "Så varför känner jag mig fortfarande groggy? →"
+  },
+  "s3": {
+    "title": "Vakna mitt i cykeln = zombieläge 🧟",
+    "p1": "Dragen ur djup sömn av ett alarm? Din hjärna har bokstavligen inte avslutat det den höll på med. Den där dimmiga tunga känslan? Det är <1>sömntröghet</1>.",
+    "wave": {
+      "light": "Ljus",
+      "deep": "djupt",
+      "groggy": "😫 groggy",
+      "fresh": "😊 Färsk",
+      "cycles": [
+        "Cykel 1",
+        "Cykel 2",
+        "Cykel 3"
+      ]
+    },
+    "disruptors_title": "Vad stör dina cykler 👇",
+    "disruptors": [
+      {
+        "emoji": "📱",
+        "text": "Skärmar före läggdags",
+        "sub": "fördröjer djupsömn"
+      },
+      {
+        "emoji": "☕",
+        "text": "Sent koffein",
+        "sub": "Minskar djupsömnen med upp till 20 %"
+      },
+      {
+        "emoji": "⏰",
+        "text": "Oregelbundna sömntider",
+        "sub": "Bryter din naturliga rytm"
+      },
+      {
+        "emoji": "😰",
+        "text": "Stress och ångest",
+        "sub": "håller dig fast i lätt sömn"
+      }
+    ],
+    "italic": "Dina vanor formar direkt vilka stadier du når nå.",
+    "button": "Vad betyder detta för mig? →"
+  },
+  "s4": {
+    "title": "Vilken låter som du? 👇",
+    "options": [
+      {
+        "emoji": "😩",
+        "text": "Jag vaknar fysiskt utmattad",
+        "sub": "Förmodligen saknar jag djup sömn",
+        "tip": "Fokusera på en jämn sömn och uppvaknande tid – din kropp behöver en regelbunden rytm för att nå djupsömn."
+      },
+      {
+        "emoji": "🌫️",
+        "text": "Jag känner mig känslomässigt dimmig eller låg",
+        "sub": "troligen saknar jag REM-sömn",
+        "tip": "Försök varva ner 30 minuter innan du går och lägger dig – en lugn rutin före sömn skyddar din REM-sömn."
+      },
+      {
+        "emoji": "😤",
+        "text": "Jag vaknar ofta på nätterna",
+        "sub": "Cykler blir ständigt avbrutna",
+        "tip": "Ett svalt, mörkt och tyst rum hjälper din hjärna att stanna i djupare stadier utan avbrott."
+      },
+      {
+        "emoji": "😐",
+        "text": "Jag mår okej men inte bra",
+        "sub": "cyklerna är partiella men inte fullständiga",
+        "tip": "Försök gå och lägga dig 20 minuter tidigare – du kanske bara behöver en komplett sömncykel till."
+      }
+    ],
+    "quote": "Sömn är inte bara vila – det är aktiv återhämtning. Skydda dina cykler och hela din dag förändras.",
+    "button": "Klart ✓"
+  }
+}

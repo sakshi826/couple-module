@@ -1,0 +1,56 @@
+{
+  "app_title": "Paghahamon sa Mga Panuntunan sa Pagkain",
+  "welcome_title": "Ang mga patakaran sa pagkain ay hindi batas.",
+  "welcome_subtitle": "Lahat tayo ay may mga patakaran tungkol sa pagkain—ang ilan ay kapaki-pakinabang, ang ilan ay hindi. Ito ay isang ligtas na lugar upang mapansin ang isang panuntunan at malumanay na pag-isipan ito.",
+  "begin_button": "Magsimula tayo",
+  "screen_titles": {
+    "intro": "Magiliw na Kamalayan",
+    "identify": "Pagbibigay ng Pangalan sa Panuntunan",
+    "feeling": "Emosyonal na Epekto",
+    "impact": "Pisikal na Epekto",
+    "challenge": "Malambot na Hamon",
+    "permission": "Pagbibigay ng Pahintulot",
+    "step": "Magiliw na Mga Hakbang",
+    "takeaway": "Buod",
+    "close": "Pagmumuni-muni"
+  },
+  "rule_label": "Pagbibigay ng pangalan sa panuntunan",
+  "rule_question": "Ano ang panuntunan?",
+  "rule_options": [
+    "Hindi ako kumakain pagkatapos ng ilang sandali",
+    "Ang ilang mga pagkain ay hindi nawawala ang timbang",
+    "Kailangan kong kontrolin nang mahigpit ang mga bahagi"
+  ],
+  "rule_something_else": "Iba pa...",
+  "rule_placeholder": "I-type ang Iyong Panuntunan sa Pagkain ...",
+  "feeling_label": "Emosyonal na Epekto",
+  "feeling_question": "Ano ang pakiramdam nito?",
+  "feeling_options": [
+    "😟 Pagkabalisa",
+    "😌 Sa kontrol",
+    "😕 Nagkasala",
+    "😣 Pinaghihigpitan",
+    "😴 Pagod",
+    "😐 Halo-halong"
+  ],
+  "challenge_label": "Malambot na Hamon",
+  "challenge_question": "Malumanay na tanong...",
+  "reflections": {
+    "Is this rule too strict?": "Nararamdaman ba ito na may kakayahang umangkop, o lumilikha ito ng presyon na sundin ito nang perpekto?",
+    "Is this actually helping me?": "Sinusuportahan ba ng panuntunan na ito ang iyong kagalingan, o nagdaragdag ng stress o pagkakasala?",
+    "What happens when I can't follow it?": "Ano ang mapapansin mo kapag ang panuntunan na ito ay hindi naaayon sa plano?"
+  },
+  "reflection_saved": "Nai-save ang Pagmumuni-muni",
+  "your_reflection": "Ang Iyong Pagmumuni-muni",
+  "label_rule": "Ang Panuntunan",
+  "label_feeling": "Ang Pakiramdam",
+  "preserve_button": "Panatilihin ang Pagmumuni-muni",
+  "preserving": "Pagpapanatili ...",
+  "continue_button": "Magpatuloy",
+  "next_button": "Susunod",
+  "complete_title": "Nakuha ang Kamalayan",
+  "complete_message": "Ang pag-unawa ay ang unang hakbang tungo sa kalayaan. Gumawa ka ng isang matapang na hakbang sa pagtukoy at pagmumuni-muni sa isang panuntunan sa pagkain. Dalhin ang magiliw na pag-unawa na ito sa iyo ngayon.",
+  "auth_error": "Nawawala ang session ng auth o hindi naka-configure ang DB",
+  "save_success": "Napanatili ang pagmumuni-muni",
+  "save_error": "Nabigo na mapanatili ang pagmumuni-muni"
+}

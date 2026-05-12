@@ -1,0 +1,22 @@
+{
+  "app_title": "İlişki Kalıpları",
+  "app_subtitle": "Planınızı açmak",
+  "complete_title": "Farkındalık Kazanıldı",
+  "complete_message": "Kalıplarınızı anlamak, onları yeniden yazmanın ilk adımıdır. Farklı bir yol seçme gücüne sahipsin.",
+  "screen1": {
+    "tag": "Kalıp Keşfi",
+    "intro": "Daha önce burada olduğunu hissettin mi?",
+    "title": "İlişkileriniz aynı şekilde bitmeye devam ederse — bu kötü şans değildir.",
+    "desc": "Seçtiğimiz ilişkiler, aşık olmamızdan çok önce yazılmış bir planı takip eder. Tanıdıklık çoğu zaman güvenlik gibi hissettirir, hatta aynı eski tartışmalara yol açsa bile.",
+    "quote": "\"Kalıpları kırıldığımız için değil — ama tanıdık hissettirdiği için tekrarlıyoruz.\"",
+    "button": "Açmaya Devam Edin"
+  },
+  "screen2": {
+    "tag": "Şablon",
+    "intro": "Düşündüğünüzden daha erken başlar.",
+    "title": "En erken ilişkiler, sonrasında yaşanan her şeyin şablonu haline gelir.",
+    "desc": "Bakıcınızın ihtiyaçlarınıza nasıl yanıt verdiği, yetişkin olarak başkalarıyla ilişkinizi sessizce şekillendirdi. Bunlar öğrenilmiş tepkiler — ve öğrenilebilecek bir şey de yok edilebilir.",
+    "quote": "\"Senin desenin desenin bir zamanlar mantıklıydı. Soru şu — hâlâ sana hizmet ediyor mu?\"",
+    "button": "Finish Reflection"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "app_title": "Boîte à souvenirs",
+  "screen_titles": [
+    "Votre boîte",
+    "Hommage",
+    "Expression",
+    "Préservé",
+    "Soins doux"
+  ],
+  "complete_title": "Mémoire préservée",
+  "complete_message": "Vous avez bien placé un souvenir de {{name}} dans votre boîte. Ces moments de connexion sont toujours à vous.",
+  "auth_error": "Session d’authentification manquante ou base de données non configurée",
+  "save_success": "Mémoire préservée",
+  "save_error": "Échec à préserver la mémoire",
+  "preserving": "Préserver...",
+  "preserve_memory": "Préserver la mémoire",
+  "welcome": {
+    "title": "Votre boîte à souvenirs",
+    "subtitle1": "Un espace calme pour se souvenir de quelqu’un que vous aimez. 🤍",
+    "subtitle2": "Inspire lentement...",
+    "subtitle3": "… et expirer doucement.",
+    "subtitle4": "Il n’y a pas de bonne ou de mauvaise façon de faire cela.",
+    "subtitle5": "Avancez à votre propre rythme. 🌿",
+    "begin": "Début ✨",
+    "later": "Peut-être plus tard"
+  },
+  "who": {
+    "placeholder_name": "Tape leur nom...",
+    "placeholder_relation": "Comment les connais-tu ? (optionnel)",
+    "categories": [
+      {
+        "label": "Un moment heureux",
+        "emoji": "😊"
+      },
+      {
+        "label": "Quelque chose qu’ils disaient autrefois",
+        "emoji": "💬"
+      },
+      {
+        "label": "Un petit souvenir quotidien",
+        "emoji": "☕"
+      },
+      {
+        "label": "Un endroit qui vous rappelle eux",
+        "emoji": "🏡"
+      },
+      {
+        "label": "C’est quelque chose que j’aimerais pouvoir dire",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Continuez →"
+  },
+  "expression": {
+    "title": "Exprimer votre mémoire",
+    "memory_label": "Le souvenir lui-même",
+    "memory_placeholder": "Écris sur le moment, le sentiment ou le détail que tu veux garder...",
+    "message_label": "Un message pour eux (optionnel)",
+    "message_placeholder": "Que diriez-vous si vous pouviez leur parler tout de suite ?",
+    "save": "Préserver la mémoire",
+    "skip": "Passez pour l’instant",
+    "back": "Retour"
+  },
+  "box": {
+    "title": "Bien caché",
+    "subtitle": "Ce souvenir de {{name}} fait désormais partie de votre collection.",
+    "add_another": "Ajouter un autre souvenir",
+    "finish": "Réflexion de finition"
+  },
+  "closing": {
+    "title": "Prendre soin de toi",
+    "subtitle": "Je ferme ta boîte pour l’instant. Vous pouvez revenir ici à tout moment pour vous rapprocher de ces souvenirs.",
+    "exit": "Fermer la boîte"
+  },
+  "history": {
+    "title": "Contenu de la boîte",
+    "no_memories": "Ta boîte est vide. Ajoutez votre premier souvenir pour commencer votre collection.",
+    "search_placeholder": "Chercher des souvenirs..."
+  }
+}

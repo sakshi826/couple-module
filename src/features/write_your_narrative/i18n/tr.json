@@ -1,0 +1,72 @@
+{
+  "app_title": "Anlatınız",
+  "nav": {
+    "entry": "Hoş geldiniz",
+    "writing": "İfade",
+    "landing": "Yansıtma",
+    "history": "Yolculuğun"
+  },
+  "entry": {
+    "title": "Bunu adım adım ele alalım. 💛",
+    "description": [
+      "Bugün tüm hikayeni anlatmak zorunda değilsin. Sadece küçük bir parça yeterli.",
+      "Şu anda güvendesin. Ne yazdığın ve ne yazmadığın senin kontrolünde."
+    ],
+    "breath": "Başlamadan önce yavaşça nefes al.",
+    "button_ready": "Hazırım",
+    "button_history": "Geçmiş Anlatılar",
+    "footer": "Sözleriniz • Hızınız • Hikayeniz"
+  },
+  "writing": {
+    "title": "Ne iyi ✨ hissettirse yaz",
+    "subtitle": "Sözlerin, tempon",
+    "prompt_label": "Bir başlangıç noktasına mı ihtiyacınız var?",
+    "prompts": [
+      {
+        "text": "En çok hatırladığım şey...",
+        "emoji": "💭"
+      },
+      {
+        "text": "O zamanlar kendimi...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "O zamandan beri fark ettim ki...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "Buradan yazmaya başla...",
+    "notice": "Bunu yapmanın doğru bir yolu yok. Birkaç satır bile yeterlidir.",
+    "button": "Yazmayı Bitir"
+  },
+  "landing": {
+    "title": "Önemli bir şey yaptın.",
+    "subtitle": "Kendin için orada olduğun için teşekkürler.",
+    "settle_title": "Biraz duralım ve yerleşelim",
+    "steps": [
+      "Etrafına bak ve görebileceğin 3 şeyi söyle.",
+      "Yavaşça nefes al... ve dışarı."
+    ],
+    "feeling_label": "Şu anda hissediyorum:",
+    "feeling_placeholder": "Bir iki kelime...",
+    "quote": "\"Her şeyi bir anda taşımana gerek yok. Hazır hissettiğin anda geri gelebilirsin.\"",
+    "button_save": "Anlatıyı Koruma",
+    "button_preserving": "Koruma..."
+  },
+  "history": {
+    "title": "Yolculuğun 📝",
+    "subtitle": "Geçmiş anlatılar ve yansımalar",
+    "empty": "Henüz hiçbir kayıt kaydetmedin. Acele etme—acele yok.",
+    "no_writing": "Hiçbir yazı korunmamıştır",
+    "button_back": "Yeniden Faaliyete Dönüş"
+  },
+  "complete": {
+    "title": "Korunan Anlatı",
+    "message": "Hikayenizi anlatırken güçlü bir adım attınız. Bakış açınız önemlidir ve yolculuğunuz benzersiz şekilde size aittir."
+  },
+  "toasts": {
+    "save_success": "Korunan anlatı",
+    "save_error": "Anlatıyı korumada başarısız oldu",
+    "auth_error": "Doğrulama oturumu eksik veya veritabanı yapılandırılmadı"
+  }
+}

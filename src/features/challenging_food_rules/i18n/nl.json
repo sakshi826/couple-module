@@ -1,0 +1,56 @@
+{
+  "app_title": "Voedselregels uitdagen",
+  "welcome_title": "Voedselregels zijn geen wetten.",
+  "welcome_subtitle": "We hebben allemaal regels over eten—sommige nuttig, andere niet. Dit is een veilige plek om één regel te observeren en er voorzichtig over na te denken.",
+  "begin_button": "Laten we beginnen",
+  "screen_titles": {
+    "intro": "Zachte Bewustzijn",
+    "identify": "De Regel benoemen",
+    "feeling": "Emotionele impact",
+    "impact": "Fysieke impact",
+    "challenge": "Zachte Uitdaging",
+    "permission": "Toestemming geven",
+    "step": "Zachte stappen",
+    "takeaway": "Samenvatting",
+    "close": "Reflectie"
+  },
+  "rule_label": "Het benoemen van de regel",
+  "rule_question": "Wat is de regel?",
+  "rule_options": [
+    "Ik zou na een bepaald tijdstip niet moeten eten",
+    "Sommige voedingsmiddelen zijn verboden terrein",
+    "Ik moet de delen strikt controleren"
+  ],
+  "rule_something_else": "Iets anders...",
+  "rule_placeholder": "Typ je voedselregel...",
+  "feeling_label": "Emotionele impact",
+  "feeling_question": "Hoe voelt dit?",
+  "feeling_options": [
+    "😟 Angstig",
+    "😌 In controle",
+    "😕 Schuldig",
+    "😣 Beperkt",
+    "😴 Moe",
+    "😐 Gemengd"
+  ],
+  "challenge_label": "Zachte Uitdaging",
+  "challenge_question": "Zachte vraag...",
+  "reflections": {
+    "Is this rule too strict?": "Voelt dit flexibel aan, of creëert het druk om het perfect te volgen?",
+    "Is this actually helping me?": "Ondersteunt deze regel je welzijn, of voegt het stress of schuldgevoel toe?",
+    "What happens when I can't follow it?": "Wat valt het je op als deze regel niet verloopt zoals gepland?"
+  },
+  "reflection_saved": "Reflectie gered",
+  "your_reflection": "Jouw Reflectie",
+  "label_rule": "De Regel",
+  "label_feeling": "Het Gevoel",
+  "preserve_button": "Behoud Reflectie",
+  "preserving": "Bewaren...",
+  "continue_button": "Ga verder",
+  "next_button": "Volgende",
+  "complete_title": "Bewustwording",
+  "complete_message": "Bewustzijn is de eerste stap naar vrijheid. Je hebt een moedige stap gezet door een voedselregel te identificeren en erover na te denken. Neem dit zachte begrip vandaag met je mee.",
+  "auth_error": "Auth-sessie ontbreekt of database niet geconfigureerd",
+  "save_success": "Reflectie bewaard",
+  "save_error": "Niet in staat de reflectie te behouden"
+}

@@ -1,0 +1,73 @@
+{
+  "app_title": "Pratica di pausa",
+  "app_subtitle": "Padroneggia lo spazio tra",
+  "intro": {
+    "title": "La pausa di 5 secondi",
+    "description": "Una breve pausa tra il sentire e la reazione può cambiare tutto.",
+    "duration": "Ci vogliono meno di 15 secondi. Davvero.",
+    "button": "Prova →"
+  },
+  "scenario": {
+    "title": "Cosa ti scatena?",
+    "desc": "Scegli una situazione a cui ti identifichi",
+    "options": [
+      {
+        "id": "Interruzioni",
+        "label": "Qualcuno mi interrompe",
+        "emoji": "😠"
+      },
+      {
+        "id": "Piani",
+        "label": "Le cose non vanno come previsto",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignorato",
+        "label": "Mi sento ignorato",
+        "emoji": "😔"
+      },
+      {
+        "id": "sopraffatta",
+        "label": "Mi sento sopraffatta",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Scrivi il tuo...",
+    "button": "Pausa di pratica →"
+  },
+  "hold": {
+    "title": "Tieni in pausa ⏸️",
+    "instructions": "Tieni il cerchio per 5 secondi",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Premi e tieni premuto..."
+      },
+      {
+        "at": "0.15",
+        "text": "Resta così..."
+      },
+      {
+        "at": "0.5",
+        "text": "Lo stai facendo..."
+      },
+      {
+        "at": "0.8",
+        "text": "Quasi arrivati..."
+      }
+    ]
+  },
+  "result": {
+    "title": "Questa è la pausa",
+    "message": "Hai semplicemente creato uno spazio tra ciò che senti e come rispondi. Anche una piccola pausa ti aiuta a recuperare il tuo centro.",
+    "tip_label": "Consiglio da professionista",
+    "scenario_messages": {
+      "interrupts": "La prossima volta che qualcuno ti interrompe, prova così prima di rispondere.",
+      "plans": "La prossima volta che le cose non vanno come previsto, prova così prima di reagire.",
+      "ignored": "La prossima volta che ti senti ignorato, prova così prima di rispondere.",
+      "overwhelmed": "La prossima volta che ti senti sopraffatto, prova così prima di fare qualsiasi cosa.",
+      "other": "La prossima volta che ti senti scatenato, prova così prima di reagire."
+    },
+    "italic": "Non sarà sempre facile—ma la coerenza è fondamentale."
+  }
+}

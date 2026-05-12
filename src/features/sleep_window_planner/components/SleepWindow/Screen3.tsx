@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react';
+import { useTranslation } from "react-i18next";
 import Confetti from './Confetti';
 
 interface Screen3Props {
@@ -19,20 +20,8 @@ const divider: React.CSSProperties = {
   height: 1, background: 'var(--sleep-divider)', margin: '10px 0',
 };
 
-const tips = [
-  { emoji: '📵', text: 'Wind down 30 mins before your bedtime' },
-  { emoji: '⏰', text: 'Same wake time every day — yes, weekends too' },
-  { emoji: '🚫', text: 'Avoid naps longer than 20 mins after 3pm' },
-];
-
-const commitments = [
-  { emoji: '📵', text: 'Put my phone away before bed' },
-  { emoji: '🛁', text: 'Start a wind-down routine' },
-  { emoji: '💡', text: 'Dim the lights an hour before bed' },
-  { emoji: '✍️', text: 'Finish my to-do list early' },
-];
-
 const Screen3 = ({ bedtime, wakeTime, duration, onReset }: Screen3Props) => {
+  const { t } = useTranslation();
   const [openAccordion, setOpenAccordion] = useState<number | null>(null);
   const [selectedCommitment, setSelectedCommitment] = useState<number | null>(null);
   const [confettiTrigger, setConfettiTrigger] = useState(0);
@@ -49,27 +38,30 @@ const Screen3 = ({ bedtime, wakeTime, duration, onReset }: Screen3Props) => {
     setConfettiTrigger(t => t + 1);
   };
 
+  const tips = t("screen3.accordion1.tips", { returnObjects: true }) as any[];
+  const commitments = t("screen3.accordion2.commitments", { returnObjects: true }) as any[];
+
   return (
     <div className="flex flex-col flex-1 px-5 pb-6 overflow-y-auto" style={{ minHeight: 0 }}>
       <h1 style={{ fontSize: 18, fontWeight: 600, color: 'var(--sleep-body-color)', marginBottom: 14 }}>
-        Your sleep window 🌙
+        {t("screen3.title")}
       </h1>
 
       {/* Result Card */}
       <div style={cardStyle} className="mb-3">
         <div className="flex justify-between items-center">
-          <span style={{ fontSize: 13, color: 'var(--sleep-sub-color)' }}>🌙 Bedtime</span>
+          <span style={{ fontSize: 13, color: 'var(--sleep-sub-color)' }}>🌙 {t("screen3.result.bedtime")}</span>
           <span style={{ fontSize: 15, fontWeight: 500, color: 'var(--sleep-body-color)' }}>{bedtime}</span>
         </div>
         <div style={divider} />
         <div className="flex justify-between items-center">
-          <span style={{ fontSize: 13, color: 'var(--sleep-sub-color)' }}>☀️ Wake time</span>
+          <span style={{ fontSize: 13, color: 'var(--sleep-sub-color)' }}>☀️ {t("screen3.result.waketime")}</span>
           <span style={{ fontSize: 15, fontWeight: 500, color: 'var(--sleep-body-color)' }}>{wakeTime}</span>
         </div>
         <div style={divider} />
         <div className="flex justify-between items-center">
-          <span style={{ fontSize: 13, color: 'var(--sleep-sub-color)' }}>⏱️ Duration</span>
-          <span style={{ fontSize: 15, fontWeight: 500, color: 'var(--sleep-body-color)' }}>{duration} hours</span>
+          <span style={{ fontSize: 13, color: 'var(--sleep-sub-color)' }}>⏱️ {t("screen3.result.duration")}</span>
+          <span style={{ fontSize: 15, fontWeight: 500, color: 'var(--sleep-body-color)' }}>{t("screen3.result.hours", { hours: duration })}</span>
         </div>
       </div>
 
@@ -81,7 +73,7 @@ const Screen3 = ({ bedtime, wakeTime, duration, onReset }: Screen3Props) => {
           cursor: 'pointer', textAlign: 'left',
         }}>
           <span style={{ width: 28, height: 28, borderRadius: 8, background: '#ddeeff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 14 }}>🛡️</span>
-          <span style={{ flex: 1, fontSize: 13.5, fontWeight: 500, color: 'var(--sleep-body-color)' }}>3 ways to protect it</span>
+          <span style={{ flex: 1, fontSize: 13.5, fontWeight: 500, color: 'var(--sleep-body-color)' }}>{t("screen3.accordion1.title")}</span>
           <span style={{
             fontSize: 12, color: 'var(--sleep-sub-color)',
             transform: openAccordion === 0 ? 'rotate(90deg)' : 'rotate(0deg)',
@@ -94,7 +86,7 @@ const Screen3 = ({ bedtime, wakeTime, duration, onReset }: Screen3Props) => {
           transition: 'max-height 350ms ease',
         }}>
           <div style={{ padding: '0 14px 12px' }}>
-            {tips.map((tip, i) => (
+            {Array.isArray(tips) && tips.map((tip, i) => (
               <div key={i}>
                 {i > 0 && <div style={divider} />}
                 <div className="flex items-center gap-2" style={{ fontSize: 12.5, color: 'var(--sleep-body-color)', padding: '4px 0' }}>
@@ -114,7 +106,7 @@ const Screen3 = ({ bedtime, wakeTime, duration, onReset }: Screen3Props) => {
           cursor: 'pointer', textAlign: 'left',
         }}>
           <span style={{ width: 28, height: 28, borderRadius: 8, background: '#e8d8ff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 14 }}>🎯</span>
-          <span style={{ flex: 1, fontSize: 13.5, fontWeight: 500, color: 'var(--sleep-body-color)' }}>Commit to 1 thing tonight</span>
+          <span style={{ flex: 1, fontSize: 13.5, fontWeight: 500, color: 'var(--sleep-body-color)' }}>{t("screen3.accordion2.title")}</span>
           <span style={{
             fontSize: 12, color: 'var(--sleep-sub-color)',
             transform: openAccordion === 1 ? 'rotate(90deg)' : 'rotate(0deg)',
@@ -127,7 +119,7 @@ const Screen3 = ({ bedtime, wakeTime, duration, onReset }: Screen3Props) => {
           transition: 'max-height 350ms ease',
         }}>
           <div style={{ padding: '0 14px 12px' }} className="flex flex-col gap-2">
-            {commitments.map((c, i) => (
+            {Array.isArray(commitments) && commitments.map((c, i) => (
               <button key={i} onClick={() => selectCommitment(i)} style={{
                 display: 'flex', alignItems: 'center', gap: 10,
                 padding: '10px 13px', borderRadius: 13,
@@ -153,7 +145,7 @@ const Screen3 = ({ bedtime, wakeTime, duration, onReset }: Screen3Props) => {
       }}>
         <div style={{ fontSize: 24, color: '#a0b0d8', marginBottom: 4 }}>"</div>
         <p style={{ fontSize: 12.5, fontStyle: 'italic', color: 'var(--sleep-body-color)', lineHeight: 1.6 }}>
-          Consistency is more powerful than perfection. One good night builds the next.
+          {t("screen3.quote")}
         </p>
       </div>
 
@@ -170,7 +162,7 @@ const Screen3 = ({ bedtime, wakeTime, duration, onReset }: Screen3Props) => {
         cursor: isSaved ? 'default' : 'pointer',
         transition: 'background 0.3s ease',
       }}>
-        {isSaved ? '✓ Sleep window saved!' : 'Save my sleep window ✓'}
+        {isSaved ? t("screen3.saved_button") : t("screen3.button")}
       </button>
     </div>
   );

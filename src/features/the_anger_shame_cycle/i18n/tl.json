@@ -1,0 +1,72 @@
+{
+  "app_title": "Siklo ng Galit at Kahihiyan",
+  "app_subtitle": "Pag-unawa sa loop • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Bakit patuloy na bumabalik ang galit?",
+      "description": "Baka hindi ito ang galit mo. Mayroong isang nakatagong loop sa pagitan ng galit at kahihiyan - at sa sandaling makita mo ito, ang lahat ay nagbabago.",
+      "quote": "\"Karamihan sa mga tao ay nagsisikap na ayusin ang galit. Ngunit ang kahihiyan ay kung ano ang tahimik na nagpapanatili nito. \"",
+      "button": "Galugarin natin"
+    },
+    "s2": {
+      "tag": "Ang siklo",
+      "title": "Ipinaliwanag ang loop",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Lumilitaw ang galit"
+        },
+        {
+          "emoji": "😔",
+          "label": "ang napili ng mga taga-hanga: \"I'm bad\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "Ang kahihiyan ay inilibing"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Muling sumiklab ang galit"
+        }
+      ],
+      "button": "Nakikita ko ito"
+    },
+    "s3": {
+      "tag": "Ano ang nangyayari",
+      "title": "Dalawang damdamin, isang bitag",
+      "anger": {
+        "title": "🔥 Galit",
+        "desc": "Isang pangalawang emosyon - sa ilalim ng buhay nasaktan, takot, o pagtanggi. Ito ang alarma, hindi ang sunog."
+      },
+      "shame": {
+        "title": "😔 Kahihiyan",
+        "desc": "\"Masama ako\" - hindi lamang \"May ginawa akong masama.\" Nagtatago ito, nagpapatahimik, at pinapanatili ang pag-ikot ng pag-ikot."
+      },
+      "button": "Paglabag sa Kalayaan"
+    },
+    "s4": {
+      "tag": "Pagkagambala",
+      "title": "Interrupt ang cycle",
+      "steps": [
+        {
+          "title": "Pangalanan ang pinagmulan",
+          "desc": "Itanong: 'Ano ba talaga ang nararamdaman ko?' Nasaktan? Natatakot? Hindi nakikita? Ang pagbibigay ng pangalan nito ay nagpapahina nito."
+        },
+        {
+          "title": "Pag-pause ng pakikiramay",
+          "desc": "Kamay sa dibdib. Sabihin mo: \"Ito ay mahirap. Tao ako. Makakayanan ko ito.'"
+        },
+        {
+          "title": "Ayusin nang may biyaya",
+          "desc": "Gumawa ng mga pagbabago kung kinakailangan - ngunit huwag mag-spiral. Hindi ikaw ang pinakamasamang sandali mo."
+        }
+      ],
+      "notice": "Ang pag-unawa sa siklo ay ang unang hakbang na. Ginagawa mo ang trabaho.",
+      "button": "Kumpletuhin ang Aktibidad"
+    }
+  },
+  "complete": {
+    "title": "Naputol ang Cycle",
+    "message": "Nakita mo na ang kaugnayan ng galit at kahihiyan. Ito ang pundasyon para sa pangmatagalang emosyonal na kalayaan."
+  }
+}

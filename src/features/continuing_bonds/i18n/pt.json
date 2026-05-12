@@ -1,0 +1,65 @@
+{
+  "app_title": "Vinculações Contínuas",
+  "welcome_title": "O amor não termina quando alguém se vai.",
+  "welcome_subtitle": "A conexão que vocês compartilharam continua de muitas maneiras. Respire fundo e vá no seu próprio ritmo.",
+  "begin_button": "Início da Reflexão",
+  "screen_titles": {
+    "welcome": "Bem-vindo",
+    "choose": "Conexão",
+    "bond": "Ação",
+    "review": "Reflexão",
+    "closing": "Cuidados Finais",
+    "complete": "Bond preservado"
+  },
+  "choose_question": "Como você ainda se sente conectado?",
+  "write_heart": "Escreva com o coração...",
+  "continue_button": "Continue",
+  "action_title": "Conexão em ação",
+  "sharing_optional": "Compartilhar é opcional...",
+  "preserve_button": "Preservar a Reflexão",
+  "preserving": "Preservando...",
+  "preserved_title": "Preservado",
+  "preserved_subtitle": "\"Essa conexão faz parte de você. Você pode voltar a ela a qualquer momento.\"",
+  "finish_button": "Termine por enquanto",
+  "add_another": "Adicione mais uma",
+  "closing_p1": "As pessoas que amamos tornam-se parte de quem somos. 🤍",
+  "closing_p2": "Elas vivem na forma como você ri, nas histórias que conta e nos momentos silenciosos em que você sente que estão próximas.",
+  "closing_p3": "Seja qual for o seu vínculo — ele é real e importa.",
+  "save_exit_button": "Salvar e Sair",
+  "complete_title": "Bond preservado",
+  "complete_message": "As pessoas que amamos tornam-se parte de quem somos. Sua conexão continua nas formas como você os honra.",
+  "auth_error": "Sessão de autenticação ausente ou banco de dados não configurado",
+  "save_success": "Reflexão da ligação preservada",
+  "save_error": "Falhou em preservar a reflexão",
+  "connection_options": [
+    {
+      "label": "Através das memórias",
+      "prompt": "Você pode compartilhar uma memória em que sinta a presença deles?",
+      "deeper": "Qual é uma coisa neles que fica com você?"
+    },
+    {
+      "label": "Nas coisas que digo ou faço",
+      "prompt": "Que parte deles você carrega no seu dia a dia?",
+      "deeper": "Como isso aparece na sua vida hoje?"
+    },
+    {
+      "label": "Em momentos da minha vida diária",
+      "prompt": "Quando você sente que eles se fecham durante o dia?",
+      "deeper": "Qual é uma coisa neles que fica com você?"
+    },
+    {
+      "label": "Do que ainda quero contar a eles",
+      "prompt": "Tem algo que você ainda quer dizer para eles?",
+      "deeper": "O que você mais gostaria que eles soubessem agora?"
+    },
+    {
+      "label": "Em um sentimento ou presença",
+      "prompt": "Como a presença deles ainda aparece para você?",
+      "deeper": "Como isso aparece na sua vida hoje?"
+    }
+  ],
+  "bond_prompts": [
+    "Qual é uma pequena forma de você se sentir conectado a eles hoje?",
+    "O que você faz que carrega uma parte deles?"
+  ]
+}

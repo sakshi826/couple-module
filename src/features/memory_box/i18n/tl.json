@@ -1,0 +1,80 @@
+{
+  "app_title": "Kahon ng Memorya",
+  "screen_titles": [
+    "Ang Iyong Kahon",
+    "Paggalang",
+    "Pagpapahayag",
+    "Napanatili",
+    "Magiliw na Pangangalaga"
+  ],
+  "complete_title": "Napanatili ang Memorya",
+  "complete_message": "Inilagay mo na ang isang alaala ng {{name}} sa iyong kahon. Ang mga sandaling ito ng koneksyon ay sa iyo upang panatilihin, palagi.",
+  "auth_error": "Nawawala ang session ng auth o hindi naka-configure ang DB",
+  "save_success": "Napanatili ang memorya",
+  "save_error": "Nabigo na mapanatili ang memorya",
+  "preserving": "Pagpapanatili ...",
+  "preserve_memory": "Panatilihin ang Memorya",
+  "welcome": {
+    "title": "Ang Iyong Memory Box",
+    "subtitle1": "Isang tahimik na lugar upang alalahanin ang taong mahal mo. 🤍",
+    "subtitle2": "Huminga nang mabagal sa...",
+    "subtitle3": "… at malumanay na huminga.",
+    "subtitle4": "Walang tama o maling paraan upang gawin ito.",
+    "subtitle5": "Pumunta sa iyong sariling bilis. 🌿",
+    "begin": "Magsimula ✨",
+    "later": "Siguro mamaya"
+  },
+  "who": {
+    "placeholder_name": "I-type ang iyong pangalan ...",
+    "placeholder_relation": "Paano mo sila kilala? (opsyonal)",
+    "categories": [
+      {
+        "label": "Isang masayang sandali",
+        "emoji": "😊"
+      },
+      {
+        "label": "Isang bagay na dati nilang sinasabi",
+        "emoji": "💬"
+      },
+      {
+        "label": "Isang maliit na pang-araw-araw na alaala",
+        "emoji": "☕"
+      },
+      {
+        "label": "Isang lugar na nagpapaalala sa iyo ng mga ito",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Isang bagay na nais kong sabihin",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Magpatuloy →"
+  },
+  "expression": {
+    "title": "Ipahayag ang Iyong Memorya",
+    "memory_label": "Ang memorya mismo",
+    "memory_placeholder": "Isulat ang tungkol sa sandali, damdamin, o detalye na nais mong panatilihin ...",
+    "message_label": "Mensahe sa kanila (opsyonal)",
+    "message_placeholder": "Ano ang sasabihin mo kung makikipag-usap ka sa kanila ngayon?",
+    "save": "Panatilihin ang Memorya",
+    "skip": "Laktawan para sa ngayon",
+    "back": "Bumalik"
+  },
+  "box": {
+    "title": "Ligtas na nakatago",
+    "subtitle": "Bahagi na ngayon ng iyong koleksyon ang alaala na ito ng {{name}}.",
+    "add_another": "Magdagdag ng Isa pang Memorya",
+    "finish": "Tapusin ang Pagmumuni-muni"
+  },
+  "closing": {
+    "title": "Pag-aalaga",
+    "subtitle": "Isara ang iyong kahon sa ngayon. Maaari kang bumalik dito anumang oras na kailangan mong makaramdam ng malapit sa mga alaala na ito.",
+    "exit": "Isara ang Kahon"
+  },
+  "history": {
+    "title": "Mga Nilalaman ng Kahon",
+    "no_memories": "Walang laman ang kahon mo. Idagdag ang iyong unang memorya upang simulan ang iyong koleksyon.",
+    "search_placeholder": "Hanapin ang mga alaala ..."
+  }
+}

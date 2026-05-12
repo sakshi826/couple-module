@@ -1,0 +1,73 @@
+{
+  "app_title": "Exercițiul de pauză",
+  "app_subtitle": "Stăpânește spațiul dintre",
+  "intro": {
+    "title": "Pauza de 5 secunde",
+    "description": "O mică pauză între a simți și a reacționa poate schimba totul.",
+    "duration": "Durează mai puțin de 15 secunde. Serios.",
+    "button": "Încearcă →"
+  },
+  "scenario": {
+    "title": "Ce te declanșează?",
+    "desc": "Alege o situație cu care te regăsești",
+    "options": [
+      {
+        "id": "întreruperi",
+        "label": "Cineva mă întrerupe",
+        "emoji": "😠"
+      },
+      {
+        "id": "Planuri",
+        "label": "Lucrurile nu merg conform planului",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignorat",
+        "label": "Mă simt ignorată",
+        "emoji": "😔"
+      },
+      {
+        "id": "copleșit",
+        "label": "Mă simt copleșit",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Scrie-ți propriul...",
+    "button": "Exersează pauza →"
+  },
+  "hold": {
+    "title": "Ține pe pauză ⏸️",
+    "instructions": "Ține cercul timp de 5 secunde",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Apasă și ține apăsat..."
+      },
+      {
+        "at": "0.15",
+        "text": "Rămâi așa..."
+      },
+      {
+        "at": "0.5",
+        "text": "O faci..."
+      },
+      {
+        "at": "0.8",
+        "text": "Aproape am ajuns..."
+      }
+    ]
+  },
+  "result": {
+    "title": "Asta e pauza",
+    "message": "Pur și simplu ai creat un spațiu între ceea ce simțeai și modul în care răspunzi. Chiar și o mică pauză te ajută să-ți recapeți centrul.",
+    "tip_label": "Sfat de expert",
+    "scenario_messages": {
+      "interrupts": "Data viitoare când cineva te întrerupe, încearcă asta înainte să răspunzi.",
+      "plans": "Data viitoare când lucrurile nu merg conform planului, încearcă asta înainte să reacționezi.",
+      "ignored": "Data viitoare când te simți ignorat, încearcă asta înainte să răspunzi.",
+      "overwhelmed": "Data viitoare când te simți copleșit, încearcă asta înainte să faci ceva.",
+      "other": "Data viitoare când te simți declanșat, încearcă asta înainte să reacționezi."
+    },
+    "italic": "Nu va părea întotdeauna ușor — dar consecvența este cheia."
+  }
+}

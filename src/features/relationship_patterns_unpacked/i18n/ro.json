@@ -1,0 +1,22 @@
+{
+  "app_title": "Tipare de relații",
+  "app_subtitle": "Despachetând planul tău",
+  "complete_title": "Conștientizare dobândită",
+  "complete_message": "Înțelegerea tiparelor tale este primul pas spre rescrierea lor. Ai puterea de a alege o cale diferită.",
+  "screen1": {
+    "tag": "Descoperirea tiparelor",
+    "intro": "Ai simțit vreodată că ai mai fost aici?",
+    "title": "Dacă relațiile tale se termină la fel — nu aduce ghinion.",
+    "desc": "Relațiile pe care le alegem urmează un plan scris cu mult înainte să ne îndrăgostim vreodată. Familiaritatea pare adesea siguranță, chiar și atunci când duce la aceleași vechi certuri.",
+    "quote": "\"Repetăm tipare nu pentru că suntem stricate — ci pentru că ne par familiare.\"",
+    "button": "Continuă să despachetezi"
+  },
+  "screen2": {
+    "tag": "Șablonul",
+    "intro": "Începe mai devreme decât crezi.",
+    "title": "Primele relații devin șablonul pentru tot ce urmează.",
+    "desc": "Modul în care îngrijitorii tăi au răspuns nevoilor tale în liniște a modelat modul în care te raportezi la ceilalți ca adult. Acestea sunt răspunsuri învățate — și pot fi dezînvățate.",
+    "quote": "\"Tiparul tău a avut sens odată. Întrebarea este — îți mai folosește și acum?\"",
+    "button": "Reflecția de finisaj"
+  }
+}

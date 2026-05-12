@@ -1,0 +1,80 @@
+{
+  "app_title": "Caja de la memoria",
+  "screen_titles": [
+    "Tu caja",
+    "Homenaje",
+    "Expresión",
+    "Preservado",
+    "Cuidado Suave"
+  ],
+  "complete_title": "Memoria preservada",
+  "complete_message": "Has guardado de forma segura un recuerdo de {{name}} en tu caja. Estos momentos de conexión son tuyos, siempre.",
+  "auth_error": "Sesión de autenticación ausente o base de datos no configurada",
+  "save_success": "Memoria preservada",
+  "save_error": "No se preservó la memoria",
+  "preserving": "Preservando...",
+  "preserve_memory": "Preservar la memoria",
+  "welcome": {
+    "title": "Tu caja de recuerdos",
+    "subtitle1": "Un espacio tranquilo para recordar a alguien a quien quieres. 🤍",
+    "subtitle2": "Respira hondo despacio...",
+    "subtitle3": "… y exhalar suavemente.",
+    "subtitle4": "No hay una forma correcta o incorrecta de hacerlo.",
+    "subtitle5": "Ve a tu propio ritmo. 🌿",
+    "begin": "Comienzo ✨",
+    "later": "Quizá más tarde"
+  },
+  "who": {
+    "placeholder_name": "Escribe su nombre...",
+    "placeholder_relation": "¿Cómo los conoces? (opcional)",
+    "categories": [
+      {
+        "label": "Un momento feliz",
+        "emoji": "😊"
+      },
+      {
+        "label": "Algo que solían decir",
+        "emoji": "💬"
+      },
+      {
+        "label": "Un pequeño recuerdo cotidiano",
+        "emoji": "☕"
+      },
+      {
+        "label": "Un lugar que te recuerda a ellos",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Algo que me gustaría poder decir",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Continúa →"
+  },
+  "expression": {
+    "title": "Expresando tu memoria",
+    "memory_label": "El recuerdo en sí",
+    "memory_placeholder": "Escribe sobre el momento, la sensación o el detalle que quieres conservar...",
+    "message_label": "Un mensaje para ellos (opcional)",
+    "message_placeholder": "¿Qué dirías si pudieras hablar con ellos ahora mismo?",
+    "save": "Preservar la memoria",
+    "skip": "Salta por ahora",
+    "back": "Atrás"
+  },
+  "box": {
+    "title": "Seguro Escondido",
+    "subtitle": "Este recuerdo de {{name}} ahora forma parte de tu colección.",
+    "add_another": "Añadir otro recuerdo",
+    "finish": "Reflexión de acabado"
+  },
+  "closing": {
+    "title": "Cuidando",
+    "subtitle": "Cerrando tu caja por ahora. Puedes volver aquí cuando necesites sentirte cerca de estos recuerdos.",
+    "exit": "Cierre de caja"
+  },
+  "history": {
+    "title": "Contenido de la caja",
+    "no_memories": "Tu caja está vacía. Añade tu primer recuerdo para empezar tu colección.",
+    "search_placeholder": "Buscar recuerdos..."
+  }
+}

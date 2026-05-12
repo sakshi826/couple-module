@@ -1,0 +1,73 @@
+{
+  "app_title": "Pausenübung",
+  "app_subtitle": "Beherrsche den Raum dazwischen",
+  "intro": {
+    "title": "Die 5-Sekunden-Pause",
+    "description": "Eine kleine Pause zwischen Fühlen und Reagieren kann alles verändern.",
+    "duration": "Dauert weniger als 15 Sekunden. Wirklich.",
+    "button": "Probier es →"
+  },
+  "scenario": {
+    "title": "Was löst dich aus?",
+    "desc": "Wähle eine Situation, mit der du dich identifizieren kannst",
+    "options": [
+      {
+        "id": "Unterbrechungen",
+        "label": "Jemand unterbricht mich",
+        "emoji": "😠"
+      },
+      {
+        "id": "Pläne",
+        "label": "Die Dinge laufen nicht wie geplant",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignoriert",
+        "label": "Ich fühle mich ignoriert",
+        "emoji": "😔"
+      },
+      {
+        "id": "Überwältigt",
+        "label": "Ich fühle mich überfordert",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Tipp deine eigene...",
+    "button": "Übe Pause →"
+  },
+  "hold": {
+    "title": "Halten zum Pausieren ⏸️",
+    "instructions": "Halte den Kreis für 5 Sekunden",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Drücken und halten..."
+      },
+      {
+        "at": "0.15",
+        "text": "Bleib dran..."
+      },
+      {
+        "at": "0.5",
+        "text": "Du machst es..."
+      },
+      {
+        "at": "0.8",
+        "text": "Fast da..."
+      }
+    ]
+  },
+  "result": {
+    "title": "Das ist die Pause",
+    "message": "Du hast einfach Abstand zwischen dem, was du gefühlt hast, und deiner Reaktion geschaffen. Schon eine kurze Pause hilft dir, dein Zentrum zurückzugewinnen.",
+    "tip_label": "Profi-Tipp",
+    "scenario_messages": {
+      "interrupts": "Wenn dich das nächste Mal jemand unterbricht, probiere das aus, bevor du antwortest.",
+      "plans": "Wenn das nächste Mal etwas nicht wie geplant läuft, probiere das aus, bevor du reagierst.",
+      "ignored": "Das nächste Mal, wenn du dich ignoriert fühlst, probiere das aus, bevor du antwortest.",
+      "overwhelmed": "Wenn du dich das nächste Mal überfordert fühlst, probiere das aus, bevor du irgendetwas unternimmst.",
+      "other": "Das nächste Mal, wenn du dich getriggert fühlst, probiere das aus, bevor du reagierst."
+    },
+    "italic": "Es wird sich nicht immer einfach anfühlen – aber Beständigkeit ist entscheidend."
+  }
+}

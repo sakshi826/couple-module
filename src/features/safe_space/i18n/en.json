@@ -1,0 +1,56 @@
+{
+  "app_title": "Safe Space",
+  "nav": ["Check-in", "Gently Recall", "Observing", "Staying Present", "Taking Forward"],
+  "s1": {
+    "title": "Let's find a place that feels okay",
+    "description": [
+      "Before we begin, take a moment to check in…",
+      "How are you feeling right now?",
+      "We're not looking for a perfect \"safe place\". Just something that feels even a little calm or okay."
+    ],
+    "placeholder": "How do you feel right now?",
+    "button": "Begin Visualization"
+  },
+  "s2": {
+    "title": "Gently bring it to mind",
+    "description": [
+      "Think of a place where you felt even a little at ease… or a place you wish existed.",
+      "Now place yourself there…",
+      "Are you sitting, standing, or lying down?"
+    ],
+    "button": "Continue"
+  },
+  "s3": {
+    "title": "Look around slowly",
+    "description": [
+      "Take a gentle look around…",
+      "What's one thing you can see?",
+      "Now notice a sound… what do you hear?"
+    ],
+    "button": "Continue"
+  },
+  "s4": {
+    "title": "Stay with this",
+    "description": [
+      "What is it about this place that makes it feel even a little safe or okay?",
+      "As you notice that…",
+      "also bring your attention to your breath."
+    ],
+    "breathe": "breathe",
+    "notice": "If imagining feels hard, just think about the idea of this place.",
+    "button": "Continue"
+  },
+  "s5": {
+    "title": "Take this with you",
+    "description": [
+      "Notice how you feel right now. Even a small shift matters.",
+      "See if you can carry even 5% of this feeling with you."
+    ],
+    "placeholder": "How do you feel now?",
+    "button": "Complete Session"
+  },
+  "complete": {
+    "title": "Session Complete",
+    "message": "This safe place is always available to you. You can return here whenever you need a moment of calm."
+  }
+}

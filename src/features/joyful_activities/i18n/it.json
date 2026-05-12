@@ -1,0 +1,45 @@
+{
+  "intro": {
+    "title": "Attività che ti piacciono",
+    "subtitle": "Riscoprire momenti di gioia",
+    "p1": "Quando ti senti giù, ansioso o sopraffatto, può essere difficile ricordare cosa ti dà gioia.",
+    "p2": "Questa attività non riguarda il fare di più. Si tratta di notare piccoli momenti che sembrano leggeri, calmi o significativi.",
+    "p3": "Non c'è pressione per sentirsi felici. Stiamo semplicemente esplorando ciò che fa sentire anche solo un po' di piacenza.",
+    "button": "Inizio"
+  },
+  "recall": {
+    "title": "Pensa un momento",
+    "p1": "Prenditi un momento per ricordare un momento — recente o lontano — in cui hai provato anche solo un piccolo senso di gioia, pace o conforto. Non deve essere per forza grande.",
+    "input1_label": "Un'attività che mi piace (o che mi piaceva una volta) è...",
+    "input1_placeholder": "ad esempio, passeggiare al parco",
+    "input2_label": "Quando faccio questo, di solito mi sento...",
+    "input2_placeholder": "ad esempio calmo e presente",
+    "button": "Continua"
+  },
+  "meaning": {
+    "title": "Cosa la rende significativa?",
+    "p1": "A volte l'attività stessa non è l'unica fonte di gioia. Può essere la sensazione, l'ambiente o la connessione che lo circonda.",
+    "input1_label": "Mi piace perché...",
+    "input1_placeholder": "ad esempio, mi dà un senso di libertà",
+    "input2_label": "Questa attività mi aiuta a sentirmi più...",
+    "input2_placeholder": "ad esempio collegato e messo a terra",
+    "input3_label": "Mi ricorda...",
+    "input3_placeholder": "ad esempio le estati da bambini",
+    "button": "Salva il mio riflesso"
+  },
+  "smallStep": {
+    "title": "Un piccolo passo avanti",
+    "p1": "Non devi cambiare tutto in una volta.",
+    "p2": "Ti sembrerebbe possibile riconnetterti con questa attività anche solo in un po'?",
+    "input1_label": "Un piccolo passo che potrei fare questa settimana è...",
+    "input1_placeholder": "ad esempio, fare una passeggiata di 10 minuti",
+    "button_save": "Salva",
+    "button_home": "Vai a casa"
+  },
+  "affirmation": {
+    "title": "Hai fatto un passo bellissimo",
+    "p1": "Riconnettersi con ciò che ti porta gioia — anche solo nel minimo — è un atto di gentilezza verso te stesso.",
+    "p2": "Meriti momenti di leggerezza e pace. Continua a coltivare ciò che fa sentire il tuo cuore pieno. 💛",
+    "button": "Ritorno a casa"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "app_title": "Jeda Latihan",
+  "app_subtitle": "Kuasai ruang antara",
+  "intro": {
+    "title": "Jeda 5 saat",
+    "description": "Jeda kecil antara perasaan dan bertindak balas boleh mengubah segala-galanya.",
+    "duration": "Mengambil masa kurang daripada 15 saat. Sungguh.",
+    "button": "Cubalah →"
+  },
+  "scenario": {
+    "title": "Apa yang mencetuskan anda?",
+    "desc": "Pilih situasi yang anda kaitkan",
+    "options": [
+      {
+        "id": "mengganggu",
+        "label": "Seseorang mengganggu saya",
+        "emoji": "😠"
+      },
+      {
+        "id": "Rancangan",
+        "label": "Perkara tidak berjalan seperti yang dirancang",
+        "emoji": "😤"
+      },
+      {
+        "id": "diabaikan",
+        "label": "Saya rasa diabaikan",
+        "emoji": "😔"
+      },
+      {
+        "id": "terharu",
+        "label": "Saya berasa terharu",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Taipkan anda sendiri...",
+    "button": "Berlatih Jeda →"
+  },
+  "hold": {
+    "title": "Tahan untuk Jeda ⏸️",
+    "instructions": "Pegang bulatan selama 5 saat",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Tekan dan tahan..."
+      },
+      {
+        "at": "0.15",
+        "text": "Kekal dengannya..."
+      },
+      {
+        "at": "0.5",
+        "text": "Anda melakukannya..."
+      },
+      {
+        "at": "0.8",
+        "text": "Hampir sampai..."
+      }
+    ]
+  },
+  "result": {
+    "title": "Itulah jeda",
+    "message": "Anda hanya mencipta ruang antara apa yang anda rasakan dan cara anda bertindak balas. Malah jeda kecil membantu anda menuntut semula pusat anda.",
+    "tip_label": "Petua Pro",
+    "scenario_messages": {
+      "interrupts": "Lain kali seseorang mengganggu anda, cuba ini sebelum bertindak balas.",
+      "plans": "Lain kali perkara tidak berjalan seperti yang dirancang, cuba ini sebelum bertindak balas.",
+      "ignored": "Lain kali anda berasa diabaikan, cuba ini sebelum bertindak balas.",
+      "overwhelmed": "Lain kali anda berasa terharu, cuba ini sebelum melakukan apa-apa.",
+      "other": "Lain kali anda berasa dicetuskan, cuba ini sebelum bertindak balas."
+    },
+    "italic": "Ia tidak akan selalu terasa mudah—tetapi konsistensi adalah kunci."
+  }
+}

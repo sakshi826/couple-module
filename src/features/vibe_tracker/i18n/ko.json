@@ -1,0 +1,43 @@
+{
+  "vibeTracker": "바이브 트래커",
+  "howAreYouFeeling": "지금 기분이 어떠신가요?",
+  "describeOwnVibe": "아니면 당신만의 분위기를 설명해 주세요",
+  "rightNowIFeel": "지금 나는...",
+  "saveVibe": "세이브 바이브",
+  "pauseAndReflect": "멈춰서 반성하기",
+  "typeThoughts": "여기에 여러분의 생각을 적어주세요...",
+  "submitReflection": "성찰 제출하기",
+  "next": "다음",
+  "vibeLogged": "분위기 기록",
+  "thankYou": "잠시 멈춰서 알아봐 주셔서 감사합니다. 이 작은 체크인조차도 중요합니다.",
+  "done": "끝났어",
+  "today": "오늘날",
+  "yesterday": "어제",
+  "viewHistory": "역사 보기",
+  "history": "역사",
+  "yourJourney": "당신의 여정",
+  "noVibes": "아직 기운은 기록되지 않았어요",
+  "startFirstCheckIn": "첫 체크인을 시작해 당신의 여정이 펼쳐지는 모습을 확인해 보세요.",
+  "vibes": {
+    "Calm": "조용히",
+    "Light": "빛",
+    "Driven": "운전",
+    "Content": "내용",
+    "Steady": "침착해",
+    "Tender": "텐더",
+    "Heavy": "무거운",
+    "Thoughtful": "사려 깊네요",
+    "Restless": "안절부절 못한다",
+    "Drained": "기진맥진했다"
+  },
+  "prompts": {
+    "needing": "지금 무엇이 필요할까요?",
+    "happened": "이 감정이 나타나기 전에 무슨 일이 있었나요?",
+    "speak": "이 감정이 말할 수 있다면, 무엇을 말할까?",
+    "notice": "이런 느낌이 몸 어디서 느껴지나요?",
+    "sitOrShift": "이걸 앉아서 앉아서 쓰는 게 좋은가요, 아니면 살짝 옮기고 싶은 건가요?",
+    "ease": "무엇이 10% 더 편해질 수 있을까요?",
+    "kindness": "오늘 자신에게 베풀 수 있는 작은 친절은 무엇인가요?",
+    "supported": "이 순간 당신이 지지를 받는 데 도움이 될 만한 것은 무엇인가요?"
+  }
+}

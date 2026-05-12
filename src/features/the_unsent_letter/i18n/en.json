@@ -1,0 +1,50 @@
+{
+  "app_title": "The Unsent Letter",
+  "app_subtitle": "Release your thoughts safely and privately",
+  "intro": {
+    "title": "The Unsent Letter",
+    "description": [
+      "Sometimes, there are things we wish we could say — but never got the chance to.",
+      "This could be because it didn't feel safe, the timing wasn't right, or the words were too hard to express out loud.",
+      "This activity gives you a private space to put those thoughts into words.",
+      "You don't have to send this letter. This is just for you — to express, release, and understand your feelings better."
+    ],
+    "notice": "Write freely. No one else will see this.",
+    "button": "Start Writing →"
+  },
+  "writing": {
+    "title": "Write What You've Been Holding In",
+    "desc": "You can write to your partner, ex-partner, or even to the relationship itself. There's no right or wrong way to do this.",
+    "prompts": [
+      "I feel…",
+      "I wish…",
+      "I never said…",
+      "What hurt me…",
+      "What I needed…"
+    ],
+    "placeholder": "Dear ____,\nI've been wanting to say…",
+    "notice": "You can pause and come back anytime.",
+    "button": "Continue →"
+  },
+  "reflection": {
+    "title": "Take a Moment With This",
+    "description": [
+      "You've just put your thoughts and feelings into words — that takes courage.",
+      "You might notice a mix of emotions right now, and that's completely okay.",
+      "Before you move on, take a breath and gently check in with yourself."
+    ],
+    "notice": "This was for your healing, not for sending.",
+    "save_button": "Save Letter",
+    "finish_button": "Finish"
+  },
+  "history": {
+    "title": "Past Letters",
+    "empty_title": "You haven't written any letters yet.",
+    "empty_desc": "Your letters will appear here after you save them."
+  },
+  "toasts": {
+    "save_success": "Letter saved to your private journal",
+    "save_error": "Failed to save letter",
+    "auth_error": "Auth session missing or DB not configured"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "steps": [
+    {
+      "body": "Laten we samen even pauzeren.\n\nDe volgende minuut is er niets wat je hoeft op te lossen, te repareren of op te reageren. Sta jezelf gewoon toe om langzamer te gaan.\n\nGa comfortabel zitten, zet je voeten op de grond als je kunt, en haal zachtjes langzaam adem... en langzaam uitademen.\n\nDit is jouw moment om te resetten en weer contact te maken met het heden.",
+      "button": "Begin"
+    },
+    {
+      "heading": "5 Dingen Die Je Kunt Zien",
+      "body": "Kijk langzaam om je heen. Laat je ogen zachtjes over de ruimte bewegen. Let op kleuren, vormen, licht, schaduwen of kleine details waar je misschien eerder niet op hebt gelet.",
+      "button": "Volgende"
+    },
+    {
+      "heading": "4 Dingen Die Je Kunt Voelen",
+      "body": "Breng je aandacht naar je lichaam. Voel je voeten de vloer raken, je rug tegen de stoel, je kleren op je huid, of de lucht om je heen. Erken vier fysieke sensaties.",
+      "button": "Volgende"
+    },
+    {
+      "heading": "3 Dingen Die Je Kunt Horen",
+      "body": "Luister goed. Je kunt verre geluiden horen, een ventilator, typen, ademhalen of zelfs stilte. Identificeer drie geluiden zonder ze te beoordelen.",
+      "button": "Volgende"
+    },
+    {
+      "heading": "2 Dingen Die Je Kunt Ruiken",
+      "body": "Kijk of je een geur in de kamer kunt waarnemen. Als er niets opvalt, let dan gewoon op de neutrale geur van de lucht om je heen.",
+      "button": "Volgende"
+    },
+    {
+      "heading": "1 Ding Dat Je Kunt Proeven",
+      "body": "Let op de smaak in je mond. Het kan subtiel of neutraal zijn — observeer het gewoon.",
+      "button": "Volgende"
+    },
+    {
+      "heading": "Reflectie",
+      "body": "Haal één keer langzaam adem... en zachtjes uitademen.",
+      "button": "Indienen"
+    }
+  ],
+  "common": {
+    "thank_you": "Dank je wel",
+    "you_feel": "Je voelt:",
+    "completion_message": "Je hebt de aardingsoefening voltooid. Neem dit gevoel van aanwezigheid met je mee terwijl je je dag voortzet.",
+    "start_again": "Opnieuw beginnen",
+    "reflection_question": "In één woord, hoe voel je je nu?",
+    "reflection_placeholder": "bijvoorbeeld kalm, opgelucht, geaard..."
+  }
+}

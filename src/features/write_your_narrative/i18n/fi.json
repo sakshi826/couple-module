@@ -1,0 +1,72 @@
+{
+  "app_title": "Kertomuksesi",
+  "nav": {
+    "entry": "Tervetuloa",
+    "writing": "Ilmaiseminen",
+    "landing": "Reflektiointi",
+    "history": "Matkasi"
+  },
+  "entry": {
+    "title": "Otetaan tämä askel kerrallaan. 💛",
+    "description": [
+      "Sinun ei tarvitse kertoa koko tarinaasi tänään. Pieni osa riittää.",
+      "Olet nyt turvassa. Sinä hallitset, mitä kirjoitat – ja mitä et."
+    ],
+    "breath": "Hengitä rauhallisesti ennen kuin aloitamme.",
+    "button_ready": "Olen valmis",
+    "button_history": "Aiemmat kertomukset",
+    "footer": "Sanasi • Tahtisi • Tarinasi"
+  },
+  "writing": {
+    "title": "Kirjoita se, mikä tuntuu hyvältä ✨",
+    "subtitle": "Sinun sanasi, sinun tahtisi",
+    "prompt_label": "Tarvitsetko lähtökohdan?",
+    "prompts": [
+      {
+        "text": "Mitä muistan parhaiten, on...",
+        "emoji": "💭"
+      },
+      {
+        "text": "Silloin tunsin...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "Sen jälkeen olen huomannut...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "Aloita kirjoittaminen täältä...",
+    "notice": "Ei ole oikeaa tapaa tehdä tätä. Jo muutama repliikki riittää.",
+    "button": "Viimeistely kirjoittaminen"
+  },
+  "landing": {
+    "title": "Teit jotain tärkeää.",
+    "subtitle": "Kiitos, että tulit paikalle itsesi vuoksi.",
+    "settle_title": "Otetaanpa hetki aikaa rauhoittua",
+    "steps": [
+      "Katso ympärillesi ja nimeä kolme asiaa, jotka näet.",
+      "Hengitä hitaasti sisään... ja ulos."
+    ],
+    "feeling_label": "Tällä hetkellä tunnen:",
+    "feeling_placeholder": "Yksi tai pari...",
+    "quote": "\"Sinun ei tarvitse kantaa kaikkea kerralla. Voit tulla takaisin, kun tunnet olevasi valmis.\"",
+    "button_save": "Preserve Narrative",
+    "button_preserving": "Säilyttäen..."
+  },
+  "history": {
+    "title": "Matkasi 📝",
+    "subtitle": "Menneet kertomukset ja pohdinnat",
+    "empty": "Et ole vielä tallentanut yhtään merkintää. Ota rauhassa – ei ole kiirettä.",
+    "no_writing": "Kirjoitusta ei ole säilynyt",
+    "button_back": "Takaisin toimintaan"
+  },
+  "complete": {
+    "title": "Säilytetty kertomus",
+    "message": "Olet ottanut vahvan askeleen tarinasi kertomisessa. Näkökulmasi on tärkeä, ja matkasi on ainutlaatuisesti sinun."
+  },
+  "toasts": {
+    "save_success": "Kertomus säilynyt",
+    "save_error": "Ei onnistunut säilyttämään kertomusta",
+    "auth_error": "Auth-istunto puuttuu tai tietokanta ei ole konfiguroitu"
+  }
+}

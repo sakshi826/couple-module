@@ -1,0 +1,39 @@
+{
+  "app_title": "Cesta smutku",
+  "app_subtitle": "Mapa ztráty • {{current}}/{{total}}",
+  "screen1_title": "Neprožíváte špatný truchlení",
+  "screen1_desc": "Smutek nepřichází v úhledných fázích a neodchází podle plánu. Vtrhne dovnitř, ustoupí a vrátí se, když to nejméně čekáte. To není vaše chyba — to je smutek.",
+  "screen1_quote": "\"Neexistuje správný způsob, jak truchlit. Existuje jen tvá cesta.\"",
+  "btn_tell_more": "Řekni mi víc",
+  "screen2_tag": "Skutečný obraz",
+  "screen2_title": "Žal má mnoho tváří",
+  "screen2_desc": "Takto lidé očekávají, že smutek bude vypadat — oproti tomu, jaký ve skutečnosti je.",
+  "expectation_label": "Očekávání",
+  "reality_label": "Realita",
+  "expectation_desc": "Lineární • Předvídatelné • Jasné",
+  "reality_desc": "Chaotické • Smyčkové • Člověk",
+  "screen2_quote": "\"Žádná z těchto vln není špatná. Všechny jsou smutkem.\"",
+  "btn_one_more": "Ještě jedna věc",
+  "screen3_tag": "jemné pravdy",
+  "screen3_title": "Stojí za to vědět",
+  "truths": [
+    {
+      "emoji": "🗓️",
+      "title": "Žádný termín",
+      "body": "U ztráty není uvedena žádná doba expirace. Cítit to po měsících nebo letech neznamená, že jste uvězněni — znamená to, že jste milovali."
+    },
+    {
+      "emoji": "🌗",
+      "title": "Protichůdné pocity",
+      "body": "Můžete někoho postrádat a zároveň se vám uleví. Můžete se smát a truchlit. Smutek má protiklady."
+    },
+    {
+      "emoji": "🤍",
+      "title": "Proměna lásky",
+      "body": "Bolest není oddělená od lásky. Je to totéž, proměněné."
+    }
+  ],
+  "btn_finish": "Finish Reflection",
+  "complete_title": "Cesta poctěná",
+  "complete_message": "Nemusíš jít dál. Jen se naučíte to nést jinak. Tvoje cesta je jedinečná, platná a hluboce lidská."
+}

@@ -1,0 +1,21 @@
+{
+  "app_title": "Guide du sommeil",
+  "app_subtitle": "Comprendre l’anxiété liée au sommeil",
+  "tag": "Psychoéducation",
+  "screen1": {
+    "intro": "Plus tu essaies, plus c’est dur.",
+    "title": "Essayer de se forcer à dormir est exactement ce qui vous empêche de dormir.",
+    "p1": "Tu t’allonges, fermes les yeux — et ton cerveau s’allume. Rejouer des conversations. En regardant l’horloge.",
+    "p2": "Ce n’est pas une faiblesse. C’est un phénomène appelé <1>anxiété du sommeil</1> — et cela touche des millions de personnes.",
+    "quote": "« L’anxiété liée au sommeil ne vient pas du fait de ne pas être fatigué. C’est à propos de ton système nerveux qui est bloqué en mode 'marche'. »",
+    "button": "En savoir plus"
+  },
+  "screen2": {
+    "intro": "Voici la science derrière cela.",
+    "title": "Votre cerveau a appris à traiter votre lit comme un lieu de stress — pas de repos.",
+    "p1": "Votre amygdale — le détecteur de menaces du cerveau — reste activée la nuit, signalant un danger dès que votre tête touche l’oreiller.",
+    "p2": "Cela s’appelle <excitation conditionnée 1> <1> — cela explique pourquoi vous vous sentez épuisé toute la journée, mais bien éveillé au moment du coucher.",
+    "quote": "« Ton cerveau n’est pas cassé. Il a simplement appris la mauvaise leçon sur l’heure du coucher — et on peut l’apprendre à nouveau. »",
+    "button": "Étape précédente"
+  }
+}

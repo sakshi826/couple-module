@@ -1,0 +1,22 @@
+{
+  "app_title": "Kapcsolati minták",
+  "app_subtitle": "A tervrajz kicsomagolása",
+  "complete_title": "Tudatosság",
+  "complete_message": "A mintáid megértése az első lépés azok újraírásában. Te viszed a hatalmat, hogy más utat válassz.",
+  "screen1": {
+    "tag": "Mintafelfedezés",
+    "intro": "Érezted már úgy, hogy itt jártál korábban?",
+    "title": "Ha a kapcsolataitok ugyanúgy végződnek — az nem balszerencse.",
+    "desc": "A választott kapcsolatok egy olyan tervet követnek, amelyet jóval azelőtt írtak ki, hogy valaha szerelmesek lettünk volna. A megismerősség gyakran biztonságnak érződik, még akkor is, ha ugyanazokhoz a régi vitákhoz vezet.",
+    "quote": "\"Nem azért ismétljük a mintákat, mert töröttek vagyunk — hanem mert ismerősnek érződnek.\"",
+    "button": "Folytasd a kipakolást"
+  },
+  "screen2": {
+    "tag": "A sablon",
+    "intro": "Korábban kezdődik, mint gondolnád.",
+    "title": "A legkorábbi kapcsolatok lesznek a mintái mindazoknak, amelyek utána következnek.",
+    "desc": "Az, ahogyan a gondozóid reagáltak az igényeidre, csendben formálta, hogyan viszonyulsz másokhoz felnőttként. Ezek tanult válaszok — és ezeket meg lehet tanulni.",
+    "quote": "\"A mintád egyszer értelmes volt. A kérdés az — még mindig szolgál-e téged?\"",
+    "button": "Finish Reflection"
+  }
+}

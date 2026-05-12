@@ -1,0 +1,94 @@
+{
+  "app_title": "Audyt snu",
+  "app_subtitle": "Zrozum swój odpoczynek",
+  "intro": {
+    "title": "Twój audyt snu",
+    "description": "Zrozum, co wpływa na Twój sen i gdzie drobne zmiany mogą pomóc.",
+    "start_button": "Rozpocznij audyt",
+    "history_button": "Poprzednie audyty"
+  },
+  "screens": {
+    "s1": {
+      "phase": "Faza 01",
+      "title": "Jak spałeś?",
+      "desc": "Wybierz takie, które ostatnio wydają się dla Ciebie prawdziwe"
+    },
+    "s2": {
+      "phase": "Faza 02",
+      "title": "Oceniaj swój typowy odpoczynek",
+      "label": "Konkretne obawy?",
+      "placeholder": "Stres, hałas, przewijanie..."
+    },
+    "s3": {
+      "score_label": "z 7",
+      "recommendations": {
+        "solid": "Twoje nawyki są solidne! Drobne poprawki mogą uczynić go jeszcze lepszym.",
+        "some": "Wykryto pewne zakłócenia. Zmiany nawyków mogą szybko pomóc.",
+        "many": "Na Twój sen wpływa kilka czynników. Możemy przez to przejść razem."
+      }
+    }
+  },
+  "options": [
+    {
+      "emoji": "🕐",
+      "text": "Kładę się spać o bardzo różnych porach każdej nocy"
+    },
+    {
+      "emoji": "💡",
+      "text": "Moje środowisko do snu nie jest ciemne, ciche ani komfortowe"
+    },
+    {
+      "emoji": "📱",
+      "text": "Przeglądam telefon tuż przed snem"
+    },
+    {
+      "emoji": "☕",
+      "text": "Piję kofeinę lub alkohol tuż przed snem"
+    },
+    {
+      "emoji": "😵",
+      "text": "Budzę się w nocy i mam trudności z powrotem zasnąć"
+    },
+    {
+      "emoji": "🧠",
+      "text": "Kiedy próbuję zasnąć, myśli mi pędzą"
+    },
+    {
+      "emoji": "😔",
+      "text": "Rzadko czuję się wypoczęty po nocnym śnie"
+    }
+  ],
+  "rating_labels": [
+    "Bardzo słabo",
+    "Biedny",
+    "Dobrze",
+    "Dobrze",
+    "Świetnie"
+  ],
+  "status_labels": {
+    "track": "Głównie na torze",
+    "disruptions": "Pewne zakłócenia",
+    "attention": "Wymaga uwagi"
+  },
+  "buttons": {
+    "continue": "Kontynuuj",
+    "see_results": "Zobacz wyniki",
+    "preserve": "Zachowaj wynik",
+    "preserving": "Konserwowanie...",
+    "back_to_intro": "Powrót do wstępu"
+  },
+  "history": {
+    "title": "Poprzednie audyty",
+    "no_entries": "Nie zachowały się jeszcze żadne audyty.",
+    "score_label": "z 7"
+  },
+  "complete": {
+    "title": "Audyt zakończony",
+    "message": "Twój wynik snu to {{score}}/7. Zrozumienie tych wzorców to pierwszy krok do głębszego, bardziej regenerującego odpoczynku."
+  },
+  "toasts": {
+    "save_success": "Audyt zapisany",
+    "save_error": "Audyt zapisu nie udało się",
+    "auth_error": "Brakuje sesji uwierzytelniania lub baza danych nie skonfigurowana"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "app": {
+    "title": "Dankbaarheidstracker",
+    "description": "Houd je dagelijkse dankbaarheid en stemming bij voor een beter mentale welzijn"
+  },
+  "gratitude": {
+    "heading": "Waar ben je vandaag dankbaar voor?",
+    "subheading": "Neem even de tijd om na te denken over de goede dingen, groot of klein.",
+    "item1": {
+      "label": "Dankbaarheid Item 1",
+      "placeholder": "bijvoorbeeld een warme kop thee vanmorgen..."
+    },
+    "item2": {
+      "label": "Dankbaarheid Item 2",
+      "placeholder": "bijvoorbeeld een vriendelijk woord van een vriend..."
+    },
+    "optional": "(optioneel)"
+  },
+  "common": {
+    "continue": "Ga verder"
+  },
+  "mood": {
+    "heading": "Hoe voel je je?",
+    "subheading": "Kies de stemming die het beste bij je past op dit moment.",
+    "save": "Save Gratitude Entry",
+    "happy": "Blij",
+    "calm": "Rustig",
+    "neutral": "Neutraal",
+    "low": "Laag",
+    "stressed": "Gestrest"
+  },
+  "review": {
+    "heading": "Uw Inzending",
+    "date": "Datum",
+    "gratitude1": "Dankbaarheid 1",
+    "gratitude2": "Dankbaarheid 2",
+    "mood": "Stemming",
+    "edit": "Bewerkingsvermelding",
+    "history": "Bekijk geschiedenis"
+  },
+  "history": {
+    "heading": "Geschiedenis",
+    "back": "Achteruit",
+    "home": "Ga naar huis",
+    "sun": "Zon",
+    "mon": "Mijn",
+    "tue": "Dinsdag",
+    "wed": "Echtgenootschap",
+    "thu": "Herfst",
+    "fri": "Vrijdag",
+    "sat": "Za"
+  }
+}

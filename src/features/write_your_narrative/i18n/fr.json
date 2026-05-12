@@ -1,0 +1,72 @@
+{
+  "app_title": "Votre récit",
+  "nav": {
+    "entry": "Bienvenue",
+    "writing": "Expression",
+    "landing": "Réfléchir",
+    "history": "Votre parcours"
+  },
+  "entry": {
+    "title": "Prenons ça étape par étape. 💛",
+    "description": [
+      "Tu n’es pas obligé de raconter toute ton histoire aujourd’hui. Une petite partie suffit.",
+      "Tu es en sécurité pour l’instant. Vous contrôlez ce que vous écrivez — et ce que vous ne faites pas."
+    ],
+    "breath": "Respirez lentement avant de commencer.",
+    "button_ready": "Je suis prêt",
+    "button_history": "Récits passés",
+    "footer": "Tes mots • Ton rythme • Ton histoire"
+  },
+  "writing": {
+    "title": "Écris ce qui te semble correct ✨",
+    "subtitle": "Tes mots, ton rythme",
+    "prompt_label": "Besoin d’un point de départ ?",
+    "prompts": [
+      {
+        "text": "Ce dont je me souviens le plus, c’est...",
+        "emoji": "💭"
+      },
+      {
+        "text": "À ce moment-là, je me sentais...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "Depuis, j’ai remarqué...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "Commence à écrire ici...",
+    "notice": "Il n’y a pas de bonne façon de faire cela. Même quelques répliques suffisent.",
+    "button": "Terminer l’écriture"
+  },
+  "landing": {
+    "title": "Tu as fait quelque chose d’important.",
+    "subtitle": "Merci d’être venu pour toi-même.",
+    "settle_title": "Prenons un moment pour nous installer",
+    "steps": [
+      "Regarde autour de toi et cite 3 choses que tu peux voir.",
+      "Inspire lentement... et dehors."
+    ],
+    "feeling_label": "En ce moment, je ressens :",
+    "feeling_placeholder": "Un mot ou deux...",
+    "quote": "« Tu n’es pas obligé de tout porter d’un coup. Tu pourras revenir quand tu te sentiras prête. »",
+    "button_save": "Préservation du récit",
+    "button_preserving": "Préserver..."
+  },
+  "history": {
+    "title": "Votre parcours 📝",
+    "subtitle": "Récits et réflexions passés",
+    "empty": "Vous n’avez encore pas enregistré d’entrées. Prenez votre temps — il n’y a pas d’urgence.",
+    "no_writing": "Aucune écriture n’a été conservée",
+    "button_back": "Retour à l’activité"
+  },
+  "complete": {
+    "title": "Récit préservé",
+    "message": "Vous avez franchi une étape puissante pour raconter votre histoire. Votre point de vue compte, et votre parcours vous appartient uniquement."
+  },
+  "toasts": {
+    "save_success": "Récit préservé",
+    "save_error": "Échec à préserver le récit",
+    "auth_error": "Session d’authentification manquante ou base de données non configurée"
+  }
+}

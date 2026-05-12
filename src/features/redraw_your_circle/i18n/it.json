@@ -1,0 +1,61 @@
+{
+  "app_title": "Disegna il tuo cerchio",
+  "intro": {
+    "title": "Disegna il tuo cerchio",
+    "p1": "In momenti diversi della vita, il nostro sistema di supporto può cambiare. 🌱 A volte ci sentiamo connessi e supportati. Altre volte, le cose possono sembrare distanti o poco chiare.",
+    "p2": "Questa attività è uno spazio per fermarsi e osservare le persone intorno a te — e capire chi attualmente si sente parte del tuo giro. 💛",
+    "p3": "Qui non c'è giusto o sbagliato. Solo consapevolezza. ✨",
+    "italic": "🌿 Il tuo giro può cambiare — e va bene così.",
+    "button": "Inizia →"
+  },
+  "circle": {
+    "subtitle": "Chi fa parte del tuo sistema di supporto?",
+    "title": "Chi è nel tuo giro adesso? 🔮",
+    "desc": "Pensa alle persone nella tua vita e a dove si presentano per te.",
+    "instruction": "👆 Tocca ogni bolla e aggiungi qualcuno che si adatti a quello spazio nella tua vita.",
+    "center_node": "Tu",
+    "italic": "🤍 Va bene se il tuo cerchio ti sembra piccolo.",
+    "button": "Continua →",
+    "modal": {
+      "title": "Aggiungi un nome",
+      "placeholder": "Inserisci un nome...",
+      "button": "Salva nome"
+    },
+    "prompts": [
+      "Una persona che porta gioia",
+      "Una persona che ti sostiene",
+      "Una persona con cui puoi parlare",
+      "Una persona di cui ti fidi",
+      "Una persona che ti ispira"
+    ]
+  },
+  "reflection": {
+    "subtitle": "Riflessioni finali",
+    "title": "Cosa noti?",
+    "p_intro": "Prenditi un momento per guardare il tuo cerchio. Potresti notare:",
+    "list": [
+      "Alcune persone si sentono più vicine di altre",
+      "Alcune connessioni sembrano forti",
+      "Alcuni sembrano distanti o poco chiari",
+      "Potrebbero esserci lacune — o solo poche persone significative"
+    ],
+    "italic": "La consapevolezza è il primo passo per costruire le connessioni che apprezzi. 🧘",
+    "label": "💭 C'è qualcuno con cui vorresti sentirti più legato?",
+    "placeholder": "Scrivi qui i tuoi pensieri...",
+    "save_button": "Salva la riflessione",
+    "saving_button": "Salvando...",
+    "skip_button": "Skip & Finish"
+  },
+  "history": {
+    "title": "Storia dei Your Circles",
+    "subtitle": "Un resoconto del tuo sistema di supporto nel tempo.",
+    "no_entries": "Nessun cerchio salvato ancora.",
+    "reflection_label": "Riflessione:",
+    "back_button": "Ritorno a casa"
+  },
+  "toasts": {
+    "save_success": "Cerchio salvato",
+    "save_error": "Non sono riusciti a salvare il cerchio",
+    "auth_error": "Sessione di autenticazione mancante o DB non configurato"
+  }
+}

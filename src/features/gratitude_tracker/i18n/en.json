@@ -1,0 +1,53 @@
+{
+  "app": {
+    "title": "Gratitude Tracker",
+    "description": "Track your daily gratitude and mood for better mental wellness"
+  },
+  "gratitude": {
+    "heading": "What are you grateful for today?",
+    "subheading": "Take a moment to reflect on the good things, big or small.",
+    "item1": {
+      "label": "Gratitude Item 1",
+      "placeholder": "e.g. A warm cup of tea this morning..."
+    },
+    "item2": {
+      "label": "Gratitude Item 2",
+      "placeholder": "e.g. A kind word from a friend..."
+    },
+    "optional": "(optional)"
+  },
+  "common": {
+    "continue": "Continue"
+  },
+  "mood": {
+    "heading": "How are you feeling?",
+    "subheading": "Select the mood that best describes you right now.",
+    "save": "Save Gratitude Entry",
+    "happy": "Happy",
+    "calm": "Calm",
+    "neutral": "Neutral",
+    "low": "Low",
+    "stressed": "Stressed"
+  },
+  "review": {
+    "heading": "Your Entry",
+    "date": "Date",
+    "gratitude1": "Gratitude 1",
+    "gratitude2": "Gratitude 2",
+    "mood": "Mood",
+    "edit": "Edit Entry",
+    "history": "View History"
+  },
+  "history": {
+    "heading": "History",
+    "back": "Back",
+    "home": "Go to Home",
+    "sun": "Sun",
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat"
+  }
+}

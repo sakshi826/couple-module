@@ -1,0 +1,26 @@
+{
+  "app_title": "Jemand vermisst",
+  "subtitles": [
+    "Validierung",
+    "Innere Weisheit",
+    "Vollständig"
+  ],
+  "complete_title": "Klarheit gewonnen",
+  "complete_message": "Die Chemie des Vermissens von jemandem zu verstehen, ist der erste Schritt zur Heilung. Deine Gefühle sind gültig, und dein Gehirn erfüllt einfach seine Aufgabe, um zu schützen und zu verarbeiten.",
+  "screen1": {
+    "tag": "Validierung",
+    "intro": "Das heißt nicht, dass du schwach bist.",
+    "title": "Jemanden zu vermissen, der einem wehgetan hat, ist zutiefst menschlich.",
+    "desc": "Du bist gegangen. Oder sie sind gegangen. Und doch – du greifst immer noch nach deinem Handy, in der Hoffnung, dass sie es sind. Man spielt die guten Momente immer noch öfter als die schmerzhaften. Dieser Widerspruch ist kein Fehler. So verarbeitet dein Gehirn Verlust.",
+    "quote": "\"Man vermisst die Person nicht nur. Du vermisst das Gefühl, mit ihnen verbunden zu sein.\"",
+    "button": "Nächster Schritt"
+  },
+  "screen2": {
+    "tag": "Gehirnwissenschaft",
+    "intro": "Innere Weisheit",
+    "title": "Liebe schafft eine chemische Bindung.",
+    "desc": "Wenn man jemanden liebt, schüttet das Gehirn Dopamin, Oxytocin und Serotonin aus. Wenn es endet, sinken diese Level. Dein Gehirn trauert – nicht nur die Person, sondern auch das Gefühl der Nähe.",
+    "quote": "\"Sie zu vermissen heißt nicht, dass du zurückgehen solltest. Dein Herz trauert um ein Band – nicht unbedingt um die Person, wie sie wirklich war.\"",
+    "button": "Fertige Reflexion"
+  }
+}

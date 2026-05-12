@@ -1,0 +1,80 @@
+{
+  "app_title": "メモリーボックス",
+  "screen_titles": [
+    "あなたの箱",
+    "敬意",
+    "表現",
+    "保存",
+    "ジェントルケア"
+  ],
+  "complete_title": "メモリ保存",
+  "complete_message": "あなたは{{name}}の記憶を安全に箱に入れました。このつながりの瞬間は、いつでもあなたのものだ。",
+  "auth_error": "認証セッションが欠如しているか、データベースが設定されていない",
+  "save_success": "記憶の保存",
+  "save_error": "記憶を保存できなかった",
+  "preserving": "保存...",
+  "preserve_memory": "記憶を保存する",
+  "welcome": {
+    "title": "あなたのメモリーボックス",
+    "subtitle1": "愛する人を思い出す静かな空間。🤍",
+    "subtitle2": "ゆっくり息を吸って...",
+    "subtitle3": "…そして、そっと息を吐き出します。",
+    "subtitle4": "これに正解も間違いもありません。",
+    "subtitle5": "自分のペースで進めてください。🌿",
+    "begin": "開始 ✨",
+    "later": "また今度"
+  },
+  "who": {
+    "placeholder_name": "名前を入力...",
+    "placeholder_relation": "どうして知り合ったの?(任意)",
+    "categories": [
+      {
+        "label": "幸せな瞬間",
+        "emoji": "😊"
+      },
+      {
+        "label": "昔はよく言ってたことだ",
+        "emoji": "💬"
+      },
+      {
+        "label": "小さな日常の記憶",
+        "emoji": "☕"
+      },
+      {
+        "label": "彼らを思い出させる場所",
+        "emoji": "🏡"
+      },
+      {
+        "label": "言いたいことがある",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "続けて→"
+  },
+  "expression": {
+    "title": "記憶を表現する",
+    "memory_label": "記憶そのもの",
+    "memory_placeholder": "その瞬間や感情、残したい細部について書きましょう...",
+    "message_label": "彼らへのメッセージ(任意)",
+    "message_placeholder": "もし今すぐ彼らと話せるとしたら、何と言いますか?",
+    "save": "記憶を保存する",
+    "skip": "今はスキップしておきます",
+    "back": "戻る"
+  },
+  "box": {
+    "title": "安全に隠れて",
+    "subtitle": "この{{name}}の記憶は今やあなたのコレクションの一部です。",
+    "add_another": "もう一つの記憶を追加",
+    "finish": "フィニッシュリフレクション"
+  },
+  "closing": {
+    "title": "ケアをする",
+    "subtitle": "今は箱を閉じます。これらの思い出に近づきたいときはいつでもここに戻ってきていい。",
+    "exit": "閉鎖箱"
+  },
+  "history": {
+    "title": "箱の中身",
+    "no_memories": "あなたの箱は空っぽです。最初の記憶を加えてコレクションを始めましょう。",
+    "search_placeholder": "記憶を探す..."
+  }
+}

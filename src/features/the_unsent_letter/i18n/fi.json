@@ -1,0 +1,50 @@
+{
+  "app_title": "Lähettämätön kirje",
+  "app_subtitle": "Vapauta ajatuksesi turvallisesti ja yksityisesti",
+  "intro": {
+    "title": "Lähettämätön kirje",
+    "description": [
+      "Joskus on asioita, joita toivoisimme voivamme sanoa — mutta emme koskaan saaneet tilaisuutta.",
+      "Tämä saattoi johtua siitä, ettei se tuntunut turvalliselta, ajoitus ei ollut oikea tai sanat olivat liian vaikeita ilmaista ääneen.",
+      "Tämä aktiviteetti antaa sinulle yksityisen tilan pukea ajatukset sanoiksi.",
+      "Sinun ei tarvitse lähettää tätä kirjettä. Tämä on vain sinua varten — ilmaista, vapauttaa ja ymmärtää tunteitasi paremmin."
+    ],
+    "notice": "Kirjoita vapaasti. Kukaan muu ei tule näkemään tätä.",
+    "button": "Aloita kirjoittaminen →"
+  },
+  "writing": {
+    "title": "Kirjoita se, mitä olet pidätellyt sisälläsi",
+    "desc": "Voit kirjoittaa kumppanillesi, entiselle kumppanillesi tai jopa itse suhteelle. Tähän ei ole oikeaa tai väärää tapaa.",
+    "prompts": [
+      "Tunnen...",
+      "Toivon...",
+      "En koskaan sanonut...",
+      "Mikä satutti minua...",
+      "Mitä tarvitsin..."
+    ],
+    "placeholder": "Rakas ____,\nOlen halunnut sanoa...",
+    "notice": "Voit pysähtyä ja palata milloin tahansa.",
+    "button": "Jatka →"
+  },
+  "reflection": {
+    "title": "Ota hetki tämän kanssa",
+    "description": [
+      "Olet juuri pukenut ajatuksesi ja tunteesi sanoiksi — se vaatii rohkeutta.",
+      "Saatat huomata tunteiden sekoituksen juuri nyt, ja se on täysin ok.",
+      "Ennen kuin jatkat, hengitä syvään ja tarkista itsesi kanssa lempeästi."
+    ],
+    "notice": "Tämä oli sinun parantumistasi varten, ei lähettämistä varten.",
+    "save_button": "Tallenna kirje",
+    "finish_button": "Viimeistely"
+  },
+  "history": {
+    "title": "Aiemmat kirjeet",
+    "empty_title": "Et ole vielä kirjoittanut yhtään kirjettä.",
+    "empty_desc": "Kirjeesi ilmestyvät tänne, kun olet tallentanut ne."
+  },
+  "toasts": {
+    "save_success": "Kirje tallennettu yksityiseen päiväkirjaasi",
+    "save_error": "Kirjeen tallentaminen epäonnistui",
+    "auth_error": "Auth-istunto puuttuu tai tietokanta ei ole konfiguroitu"
+  }
+}

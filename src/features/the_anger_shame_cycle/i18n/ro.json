@@ -1,0 +1,72 @@
+{
+  "app_title": "Ciclul Furie-Rușine",
+  "app_subtitle": "Înțelegerea buclei • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "De ce revine furia mereu?",
+      "description": "Poate nu e temperamentul tău. Există o buclă ascunsă între furie și rușine — și odată ce o vezi, totul se schimbă.",
+      "quote": "\"Majoritatea oamenilor încearcă să-și stăpânească furia. Dar rușinea este ceea ce o ține în picioare în liniște.\"",
+      "button": "Să explorăm"
+    },
+    "s2": {
+      "tag": "Ciclul",
+      "title": "Bucla a explicat",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Furia iese la suprafață"
+        },
+        {
+          "emoji": "😔",
+          "label": "Rușine: \"Sunt rău\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "Rușinea este îngropată"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Furia izbucnește din nou"
+        }
+      ],
+      "button": "O văd"
+    },
+    "s3": {
+      "tag": "Ce se întâmplă",
+      "title": "Două emoții, o capcană",
+      "anger": {
+        "title": "🔥 Furie",
+        "desc": "O emoție secundară — dedesubt vieți, durere, frică sau respingere. E alarma, nu incendiul."
+      },
+      "shame": {
+        "title": "😔 Rușine",
+        "desc": "\"Sunt rău\" — nu doar \"Am făcut ceva rău.\" Ascunde, reduce la tăcere și menține ciclul în mișcare."
+      },
+      "button": "Eliberarea"
+    },
+    "s4": {
+      "tag": "Întrerupere",
+      "title": "Întrerupe ciclul",
+      "steps": [
+        {
+          "title": "Numește sursa",
+          "desc": "Întreabă: \"Ce simt de fapt?\" Rănit? Speriat? Nevăzut? Numirea ei o slăbește."
+        },
+        {
+          "title": "Pauză de compasiune",
+          "desc": "Mâna pe piept. Spune: \"E greu. Sunt om. Pot să trec peste asta.\""
+        },
+        {
+          "title": "Repară cu grație",
+          "desc": "Împăcați-vă dacă este nevoie — dar nu vă lăsați în panică. Nu ești cel mai rău moment al tău."
+        }
+      ],
+      "notice": "Observarea ciclului este deja primul pas. Tu faci treaba.",
+      "button": "Activitate completă"
+    }
+  },
+  "complete": {
+    "title": "Ciclu întrerupt",
+    "message": "Ai dobândit conștientizarea să vezi legătura dintre furie și rușine. Aceasta este fundația libertății emoționale durabile."
+  }
+}

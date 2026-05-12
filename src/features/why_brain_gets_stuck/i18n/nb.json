@@ -1,0 +1,29 @@
+{
+  "app_title": "Hvorfor hjernen setter seg fast",
+  "app_subtitle": "Overlevelseslogikken • {{step}}/{{total}}",
+  "s1": {
+    "title": "Hjernen din brøt ikke sammen. Den tilpasset seg.",
+    "description": "Etter traumet omkobler hjernen seg for å holde deg trygg. Den lærte at verden kunne være farlig, så den holdt seg klar. Det er ikke en feil. Det er overlevelse.",
+    "quote": "\"PTSD er ikke et tegn på at det er noe galt med deg. Det er et tegn på at noe har skjedd med deg.\"",
+    "button": "Fortell meg mer"
+  },
+  "s2": {
+    "tag": "Milde sannheter",
+    "title": "Hjernens overlevelseslogikk",
+    "truths": [
+      {
+        "header": "Alarmen forble på",
+        "body": "Hypervigilans og lett å bli skremt er ikke overreaksjoner — hjernens alarmsystem gjør jobben sin altfor godt."
+      },
+      {
+        "header": "Tilbakeblikk er minner",
+        "body": "Triggere trekker hjernen din tilbake fordi den aldri fikk signalet om at trusselen var over. Den prøver å beskytte deg."
+      },
+      {
+        "header": "Kjemper for deg",
+        "body": "Hvert symptom var en gang en overlevelseshandling. Hjernen din gjorde det den måtte for å holde deg i live."
+      }
+    ],
+    "healing": "Helbredelse handler ikke om å glemme. Det handler om å hjelpe hjernen din med å lære at du er trygg nå."
+  }
+}

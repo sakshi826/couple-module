@@ -1,17 +1,21 @@
 import { useState, useMemo, useEffect } from "react";
 import { Heart, History, Save, ChevronRight, Sparkles } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import { motion, AnimatePresence } from "framer-motion";
 import { neon } from "@neondatabase/serverless";
 import { toast } from "sonner";
-import { CONNECTION_OPTIONS, BOND_PROMPTS } from "@/features/continuing_bonds/data/bondPrompts";
 
 const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
 type Screen = "welcome" | "choose" | "bond" | "review" | "closing" | "complete";
 const OPTION_EMOJIS = ["🕊️", "🤲", "🌿", "💌", "✨"];
 
 const ContinuingBonds = () => {
+  const { t } = useTranslation();
+  const CONNECTION_OPTIONS = t("connection_options", { returnObjects: true }) as any[];
+  const BOND_PROMPTS = t("bond_prompts", { returnObjects: true }) as string[];
+
   const [screen, setScreen] = useState<Screen>("welcome");
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [primaryText, setPrimaryText] = useState("");
@@ -21,7 +25,10 @@ const ContinuingBonds = () => {
   const [reflections, setReflections] = useState<any[]>([]);
   const [isSaving, setIsSaving] = useState(false);
 
-  const bondPrompt = useMemo(() => BOND_PROMPTS[Math.floor(Math.random() * BOND_PROMPTS.length)], [screen]);
+  const bondPrompt = useMemo(() => {
+    if (!Array.isArray(BOND_PROMPTS)) return "";
+    return BOND_PROMPTS[Math.floor(Math.random() * BOND_PROMPTS.length)];
+  }, [screen, BOND_PROMPTS]);
 
   useEffect(() => {
     fetchReflections();
@@ -42,13 +49,13 @@ const ContinuingBonds = () => {
   const handleSaveReflection = async () => {
     const userId = sessionStorage.getItem("user_id");
     if (!userId || !DATABASE_URL) {
-      toast.error("Auth session missing or DB not configured");
+      toast.error(t("auth_error"));
       return;
     }
 
     setIsSaving(true);
     const bondData = {
-      connectionType: selectedOption !== null ? CONNECTION_OPTIONS[selectedOption].label : "General",
+      connectionType: (selectedOption !== null && Array.isArray(CONNECTION_OPTIONS)) ? CONNECTION_OPTIONS[selectedOption].label : "General",
       primaryResponse: primaryText,
       deeperResponse: deeperText || undefined,
       bondAction: bondText || undefined,
@@ -58,12 +65,12 @@ const ContinuingBonds = () => {
     try {
       const sql = neon(DATABASE_URL);
       await sql`INSERT INTO continuing_bonds_entries (user_id, bond_data) VALUES (${userId}, ${bondData})`;
-      toast.success("Bond reflection preserved");
+      toast.success(t("save_success"));
       setReflections(prev => [bondData, ...prev]);
       setScreen("review");
     } catch (error) {
       console.error("Failed to save bond:", error);
-      toast.error("Failed to preserve reflection");
+      toast.error(t("save_error"));
     } finally {
       setIsSaving(false);
     }
@@ -81,25 +88,18 @@ const ContinuingBonds = () => {
   if (screen === "complete") {
     return (
       <PremiumComplete
-        title="Bond Preserved"
-        message="The people we love become a part of who we are. Your connection continues in the ways you honor them."
+        title={t("complete_title")}
+        message={t("complete_message")}
         onRestart={reset}
       />
     );
   }
 
-  const titles: Record<Screen, string> = {
-    welcome: "Welcome",
-    choose: "Connection",
-    bond: "Action",
-    review: "Reflection",
-    closing: "Final Care",
-    complete: "Bond Preserved"
-  };
+  const titles: Record<string, string> = t("screen_titles", { returnObjects: true }) as any;
 
   return (
     <PremiumLayout
-      title="Continuing Bonds"
+      title={t("app_title")}
       subtitle={titles[screen]}
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={screen !== "welcome" ? () => setScreen("welcome") : undefined}
@@ -119,17 +119,17 @@ const ContinuingBonds = () => {
               </div>
               <div className="space-y-6">
                 <h1 className="text-3xl font-black text-slate-800 leading-tight">
-                  Love doesn't end when someone is gone.
+                  {t("welcome_title")}
                 </h1>
                 <p className="text-slate-500 font-medium leading-relaxed max-w-xs mx-auto text-base">
-                  The connection you shared continues in many ways. Take a slow breath, and go at your own pace.
+                  {t("welcome_subtitle")}
                 </p>
               </div>
               <button
                 onClick={() => setScreen("choose")}
                 className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
               >
-                Begin Reflection
+                {t("begin_button")}
                 <ChevronRight size={20} strokeWidth={3} />
               </button>
             </motion.div>
@@ -143,12 +143,12 @@ const ContinuingBonds = () => {
               className="flex-1 flex flex-col gap-8"
             >
               <h2 className="text-2xl font-black text-slate-800 text-center">
-                How do you still feel connected?
+                {t("choose_question")}
               </h2>
 
               {selectedOption === null ? (
                 <div className="space-y-4">
-                  {CONNECTION_OPTIONS.map((opt, i) => (
+                  {Array.isArray(CONNECTION_OPTIONS) && CONNECTION_OPTIONS.map((opt, i) => (
                     <button
                       key={i}
                       onClick={() => setSelectedOption(i)}
@@ -165,12 +165,12 @@ const ContinuingBonds = () => {
                 <div className="space-y-8">
                   <div className="bg-white rounded-[2.5rem] p-10 space-y-6 border border-slate-100 shadow-2xl">
                     <p className="text-slate-800 font-black text-lg leading-relaxed italic text-center">
-                      "{CONNECTION_OPTIONS[selectedOption].prompt}"
+                      "{Array.isArray(CONNECTION_OPTIONS) && CONNECTION_OPTIONS[selectedOption].prompt}"
                     </p>
                     <textarea
                       value={primaryText}
                       onChange={(e) => setPrimaryText(e.target.value)}
-                      placeholder="Write from the heart..."
+                      placeholder={t("write_heart")}
                       className="w-full bg-slate-50 border border-slate-100 rounded-3xl p-6 text-base font-medium min-h-[150px] focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all shadow-inner"
                     />
                   </div>
@@ -180,7 +180,7 @@ const ContinuingBonds = () => {
                     disabled={!primaryText.trim()}
                     className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                   >
-                    Continue
+                    {t("continue_button")}
                     <ChevronRight size={20} strokeWidth={3} />
                   </button>
                 </div>
@@ -197,14 +197,14 @@ const ContinuingBonds = () => {
             >
               <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 flex flex-col items-center text-center">
                 <div className="text-6xl mb-8">🔗</div>
-                <h2 className="text-2xl font-black text-slate-800 mb-4">Connecting in action</h2>
+                <h2 className="text-2xl font-black text-slate-800 mb-4">{t("action_title")}</h2>
                 <p className="text-slate-500 font-medium text-base mb-8 leading-relaxed italic">
                   "{bondPrompt}"
                 </p>
                 <textarea
                   value={bondText}
                   onChange={(e) => setBondText(e.target.value)}
-                  placeholder="Sharing is optional..."
+                  placeholder={t("sharing_optional")}
                   className="w-full bg-slate-50 border border-slate-100 rounded-3xl p-6 text-base font-medium min-h-[150px] focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all shadow-inner"
                 />
               </div>
@@ -215,7 +215,7 @@ const ContinuingBonds = () => {
                 className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
               >
                 <Save size={20} strokeWidth={3} />
-                {isSaving ? "Preserving..." : "Preserve Reflection"}
+                {isSaving ? t("preserving") : t("preserve_button")}
               </button>
             </motion.div>
           )}
@@ -231,9 +231,9 @@ const ContinuingBonds = () => {
                 <div className="w-20 h-20 bg-emerald-50 rounded-[2rem] flex items-center justify-center mx-auto mb-6 text-4xl">
                   📖
                 </div>
-                <h2 className="text-2xl font-black text-slate-800 mb-2">Preserved</h2>
+                <h2 className="text-2xl font-black text-slate-800 mb-2">{t("preserved_title")}</h2>
                 <p className="text-slate-500 font-medium text-sm leading-relaxed mb-8 italic">
-                  "This connection is part of you. You can return to it anytime."
+                  {t("preserved_subtitle")}
                 </p>
                 <div className="bg-slate-50 rounded-3xl p-8 text-left border border-slate-100">
                   <p className="text-[10px] font-black uppercase tracking-[0.2em] text-primary mb-3">
@@ -250,13 +250,13 @@ const ContinuingBonds = () => {
                   onClick={() => setScreen("closing")}
                   className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                 >
-                  Finish for now
+                  {t("finish_button")}
                 </button>
                 <button
                   onClick={reset}
                   className="w-full py-5 rounded-2xl bg-white text-slate-600 font-black text-lg border border-slate-200 hover:bg-slate-50 transition-all shadow-sm"
                 >
-                  Add Another
+                  {t("add_another")}
                 </button>
               </div>
             </motion.div>
@@ -273,15 +273,15 @@ const ContinuingBonds = () => {
                 🕊️
               </div>
               <div className="space-y-8 text-slate-600 font-medium text-base leading-relaxed max-w-xs mx-auto">
-                <p>The people we love become a part of who we are. 🤍</p>
-                <p>They live on in the way you laugh, the stories you tell, and the quiet moments when you feel them near.</p>
-                <p>However your bond shows up — it is real, and it matters.</p>
+                <p>{t("closing_p1")}</p>
+                <p>{t("closing_p2")}</p>
+                <p>{t("closing_p3")}</p>
               </div>
               <button
                 onClick={() => setScreen("complete")}
                 className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all"
               >
-                Save & Exit
+                {t("save_exit_button")}
               </button>
             </motion.div>
           )}

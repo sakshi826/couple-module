@@ -1,0 +1,22 @@
+{
+  "app_title": "Wzorce relacji",
+  "app_subtitle": "Rozpakowywanie twojego planu",
+  "complete_title": "Zdobyta świadomość",
+  "complete_message": "Zrozumienie swoich wzorców to pierwszy krok do ich przepisania. Masz moc wyboru innej drogi.",
+  "screen1": {
+    "tag": "Odkrywanie wzorców",
+    "intro": "Czy kiedykolwiek miałeś wrażenie, że już tu byłeś?",
+    "title": "Jeśli twoje związki ciągle kończą się tak samo — to nie jest pech.",
+    "desc": "Relacje, które wybieramy, podążają za planem napisanym na długo przed tym, jak się zakochaliśmy. Znajomość często wydaje się bezpieczeństwem, nawet gdy prowadzi do tych samych starych kłótni.",
+    "quote": "\"Powtarzamy wzorce nie dlatego, że jesteśmy zepsuci — ale dlatego, że wydają się znajome.\"",
+    "button": "Kontynuuj rozpakowywanie"
+  },
+  "screen2": {
+    "tag": "Szablon",
+    "intro": "Zaczyna się wcześniej, niż myślisz.",
+    "title": "Najwcześniejsze związki stają się wzorem dla wszystkiego, co następuje później.",
+    "desc": "Sposób, w jaki twoi opiekunowie cicho reagowali na twoje potrzeby, ukształtował twoje relacje z innymi jako dorosły. To są wyuczone reakcje — i można je oduczyć.",
+    "quote": "\"Twój wzór kiedyś miał sens. Pytanie brzmi — czy nadal ci służy?\"",
+    "button": "Odbicie wykończenia"
+  }
+}

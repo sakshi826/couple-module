@@ -1,0 +1,73 @@
+{
+  "app_title": "Duraklama Uygulaması",
+  "app_subtitle": "Aradaki mesafeyi ustalıkla",
+  "intro": {
+    "title": "5 Saniyelik Duraklama",
+    "description": "Hissetmek ve tepki vermek arasında küçük bir duraklama her şeyi değiştirebilir.",
+    "duration": "15 saniyeden kısa sürede sürüyor. Gerçekten.",
+    "button": "Deneyin →"
+  },
+  "scenario": {
+    "title": "Seni ne tetikliyor?",
+    "desc": "Kendinizi ilişkilendirdiğiniz bir durumu seçin",
+    "options": [
+      {
+        "id": "kesintiler",
+        "label": "Biri beni bölüyor",
+        "emoji": "😠"
+      },
+      {
+        "id": "Planlar",
+        "label": "İşler planlandığı gibi gitmiyor",
+        "emoji": "😤"
+      },
+      {
+        "id": "görmezden gelindi",
+        "label": "Görmezden gelilmiş hissediyorum",
+        "emoji": "😔"
+      },
+      {
+        "id": "bunalmış",
+        "label": "Kendimi bunalmış hissediyorum",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Kendi yazın...",
+    "button": "Pratik Duraklaması →"
+  },
+  "hold": {
+    "title": "Duraklatmak ⏸️ için tutun",
+    "instructions": "Çemberi 5 saniye tutun",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Bas ve tut..."
+      },
+      {
+        "at": "0.15",
+        "text": "Devam et..."
+      },
+      {
+        "at": "0.5",
+        "text": "Yapıyorsun..."
+      },
+      {
+        "at": "0.8",
+        "text": "Neredeyse geldik..."
+      }
+    ]
+  },
+  "result": {
+    "title": "İşte duraklama",
+    "message": "Sadece hissettiklerin ile nasıl tepki verdiğin arasında boşluk yarattın. Küçük bir duraklama bile merkezinizi geri kazanmanıza yardımcı olur.",
+    "tip_label": "Profesyonel İpucu",
+    "scenario_messages": {
+      "interrupts": "Bir dahaki sefere biri sizi böldüğünde, cevap vermeden önce bunu deneyin.",
+      "plans": "Bir dahaki dahaki işler planlandığı gibi gitmediğinde, tepki vermeden önce bunu deneyin.",
+      "ignored": "Bir dahaki sefere görmezden gelindiğini hissettiğinizde, cevap vermeden önce bunu deneyin.",
+      "overwhelmed": "Bir dahaki bunalmış hissettiğinizde, bir şey yapmadan önce bunu deneyin.",
+      "other": "Bir dahaki kez tetiklendiğini hissettiğinizde, tepki vermeden önce bunu deneyin."
+    },
+    "italic": "Her zaman kolay hissettirmeyecek—ama tutarlılık çok önemli."
+  }
+}

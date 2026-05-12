@@ -1,0 +1,72 @@
+{
+  "app_title": "Jouw verhaal",
+  "nav": {
+    "entry": "Welkom",
+    "writing": "Expressen",
+    "landing": "Reflecterend",
+    "history": "Jouw reis"
+  },
+  "entry": {
+    "title": "Laten we dit stap voor stap aanpakken. 💛",
+    "description": [
+      "Je hoeft vandaag niet je hele verhaal te vertellen. Een klein deel is genoeg.",
+      "Je bent nu veilig. Je hebt de controle over wat je schrijft—en wat je niet schrijft."
+    ],
+    "breath": "Haal langzaam adem voordat we beginnen.",
+    "button_ready": "Ik ben er klaar voor",
+    "button_history": "Verleden verhalen",
+    "footer": "Jouw woorden • Jouw tempo • Jouw verhaal"
+  },
+  "writing": {
+    "title": "Schrijf wat goed voelt ✨",
+    "subtitle": "Jouw woorden, jouw tempo",
+    "prompt_label": "Heb je een startpunt nodig?",
+    "prompts": [
+      {
+        "text": "Wat ik me het meest herinner is...",
+        "emoji": "💭"
+      },
+      {
+        "text": "Op dat moment voelde ik me...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "Sindsdien is het me opgevallen...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "Begin hier met schrijven...",
+    "notice": "Er is geen juiste manier om dit te doen. Zelfs een paar regels zijn genoeg.",
+    "button": "Maak het schrijven af"
+  },
+  "landing": {
+    "title": "Je hebt iets belangrijks gedaan.",
+    "subtitle": "Bedankt dat je er voor jezelf was.",
+    "settle_title": "Laten we even de tijd nemen om te settelen",
+    "steps": [
+      "Kijk rond en noem drie dingen die je kunt zien.",
+      "Haal langzaam adem... en uit."
+    ],
+    "feeling_label": "Op dit moment voel ik:",
+    "feeling_placeholder": "Een woord of twee...",
+    "quote": "\"Je hoeft niet alles tegelijk te dragen. Je kunt terugkomen wanneer je er klaar voor bent.\"",
+    "button_save": "Behoud van het verhaal",
+    "button_preserving": "Bewaren..."
+  },
+  "history": {
+    "title": "Jouw reis 📝",
+    "subtitle": "Verleden verhalen & reflecties",
+    "empty": "Je hebt nog geen vermeldingen opgeslagen. Neem je tijd—er is geen haast.",
+    "no_writing": "Geen schrift bewaard",
+    "button_back": "Terug naar de activiteit"
+  },
+  "complete": {
+    "title": "Verhaal bewaard",
+    "message": "Je hebt een krachtige stap gezet in het vertellen van je verhaal. Jouw perspectief doet ertoe, en jouw reis is uniek van jou."
+  },
+  "toasts": {
+    "save_success": "Verhaal bewaard gebleven",
+    "save_error": "Niet in staat het verhaal te behouden",
+    "auth_error": "Auth-sessie ontbreekt of database niet geconfigureerd"
+  }
+}

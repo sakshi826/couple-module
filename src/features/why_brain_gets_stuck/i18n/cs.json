@@ -1,0 +1,29 @@
+{
+  "app_title": "Proč se mozek zasekne",
+  "app_subtitle": "Logika přežití • {{step}}/{{total}}",
+  "s1": {
+    "title": "Tvůj mozek se nezlomil. Přizpůsobila se.",
+    "description": "Po traumatu se mozek přeprogramuje, aby tě chránil. Naučil se, že svět může být nebezpečný, a tak zůstal připravený. To není chyba. To je přežití.",
+    "quote": "\"PTSD není znamením, že je s tebou něco špatně. Je to znamení, že se ti něco stalo.\"",
+    "button": "Řekni mi víc"
+  },
+  "s2": {
+    "tag": "jemné pravdy",
+    "title": "Logika přežití mozku",
+    "truths": [
+      {
+        "header": "Budík zůstal zapnutý",
+        "body": "Hypervigilance a vyděšení nejsou snadno přehnané reakce — poplašný systém mozku plní svou práci příliš dobře."
+      },
+      {
+        "header": "Flashbacky jsou vzpomínky",
+        "body": "Spouštěče vám vrátí mozek, protože nikdy nedostal signál, že hrozba skončila. Snaží se tě chránit."
+      },
+      {
+        "header": "Bojovat za tebe",
+        "body": "Každý příznak byl kdysi aktem přežití. Tvůj mozek dělal, co musel, aby tě udržel naživu."
+      }
+    ],
+    "healing": "Uzdravování není o zapomínání. Jde o to pomoci mozku naučit se, že jste teď v bezpečí."
+  }
+}

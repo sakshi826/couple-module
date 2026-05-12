@@ -1,0 +1,80 @@
+{
+  "app_title": "Nevezd el az elmédet",
+  "intro": {
+    "title": "Találkozz az elméddel",
+    "description": "Tanulj meg távolodni a túlterhelő gondolatoktól azzal, hogy a belső hangodnak nevet adsz.",
+    "benefits": [
+      "Teremts mentális távolságot",
+      "Csökkentsd a kemény gondolatok erejét",
+      "Észrevenni a gondolatokat anélkül, hogy azok lennének"
+    ],
+    "duration": "2-3 perc",
+    "view_past": "Korábbi bejegyzések megtekintése"
+  },
+  "history": {
+    "title": "Korábbi bejegyzések",
+    "no_entries": "Még nincs bejegyzés.",
+    "reflection_label": "Reflektálás: {{text}}"
+  },
+  "complete": {
+    "title": "Tevékenység befejezve",
+    "great_job": "Remek munka!",
+    "message": "Sikeresen elnevezted az elmédet, és némi teret teremtettél magad és gondolataid között.",
+    "footer": "Ne feledd: Nem kell minden gondolatot elhinned, amit az elméd ad."
+  },
+  "subtitles": {
+    "concept": "Nézőpont",
+    "input_thought": "Értesítés",
+    "input_name": "Név",
+    "practice": "Gyakorlat"
+  },
+  "screens": {
+    "concept": {
+      "title": "Egy kis váltás",
+      "example": "\"Nem vagyok elég jó\"",
+      "desc": "Amikor egy gondolat felbukkan, gyakran úgy érzed, hogy <0>te</0>. De mi lenne, ha hátralépnél, és inkább <1>észrevé</1> lenne?"
+    },
+    "input_thought": {
+      "title": "Kezdjük egy igazi gondolattal",
+      "desc": "Mi az a gondolat, ami mostanában zavar?",
+      "placeholder": "Írd pontosan úgy, ahogy jön..."
+    },
+    "input_name": {
+      "title": "Teremts távolságot",
+      "desc": "Adj egy nevet az elmédnek, hogy segíts elválasztani ezeket a gondolatokat.",
+      "placeholder": "Vagy gépelj meg a sajátod...",
+      "examples": [
+        "A kritikus",
+        "Túlgondoló",
+        "Worry FM",
+        "A túlgondoló gép",
+        "A belső kritikus",
+        "A mi lett volna generátor",
+        "Drámarendező"
+      ]
+    },
+    "practice": {
+      "title": "Próbáld ki ezt a váltást",
+      "instead_of": "Ahelyett, hogy",
+      "try_saying": "Próbáld meg mondani",
+      "is_telling_me": "{{name}} azt mondja nekem:",
+      "guide": "Ismételd ezt a mondatot magadnak 4–5-ször a saját tempódban.",
+      "button": "Készen állok"
+    },
+    "reflection": {
+      "title": "Mit vettél észre?",
+      "desc": "Milyen érzés volt a gondolat, miután nevet adott?",
+      "options": [
+        "A gondolat kicsit kevésbé volt intenzív, mint korábban",
+        "Úgy éreztem, távolságot tartok a gondolattól",
+        "Még mindig ugyanolyan erősnek tűnt, mint korábban",
+        "Nem tudom, mi változott, ha egyáltalán nem változott valami."
+      ],
+      "button": "Teljes reflektúra"
+    }
+  },
+  "buttons": {
+    "continue": "Folytatás",
+    "restart": "Újraindítás"
+  }
+}

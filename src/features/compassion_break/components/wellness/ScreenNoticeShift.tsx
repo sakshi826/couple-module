@@ -1,11 +1,13 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 interface Props {
   onContinue: (afterIntensity: number) => void;
 }
 
 const ScreenNoticeShift = ({ onContinue }: Props) => {
+  const { t } = useTranslation();
   const [intensity, setIntensity] = useState(5);
   const [ripple, setRipple] = useState(false);
 
@@ -23,7 +25,7 @@ const ScreenNoticeShift = ({ onContinue }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        Check in again 🌼
+        {t("shift_title")}
       </motion.h1>
 
       <motion.div
@@ -41,7 +43,7 @@ const ScreenNoticeShift = ({ onContinue }: Props) => {
         )}
 
         <p className="text-sm font-bold text-slate-400 mb-8 uppercase tracking-widest">
-          How intense does it feel now?
+          {t("shift_question")}
         </p>
 
         <input
@@ -56,8 +58,8 @@ const ScreenNoticeShift = ({ onContinue }: Props) => {
           }}
         />
         <div className="flex justify-between text-xs font-black text-slate-300 mt-4">
-          <span>CALM</span>
-          <span>INTENSE</span>
+          <span>{t("label_calm")}</span>
+          <span>{t("label_intense")}</span>
         </div>
       </motion.div>
 
@@ -68,10 +70,10 @@ const ScreenNoticeShift = ({ onContinue }: Props) => {
         transition={{ delay: 0.4, duration: 0.6 }}
       >
         <p className="text-xs font-black text-slate-400 uppercase tracking-widest mb-4">
-          Any noticeable shift?
+          {t("label_notice_shift")}
         </p>
         <p className="text-slate-700 font-bold italic leading-relaxed">
-          "Even a small reduction in tension is a win for your nervous system."
+          {t("shift_footer")}
         </p>
       </motion.div>
 
@@ -82,7 +84,7 @@ const ScreenNoticeShift = ({ onContinue }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 0.6 }}
       >
-        Continue
+        {t("continue_button")}
       </motion.button>
     </div>
   );

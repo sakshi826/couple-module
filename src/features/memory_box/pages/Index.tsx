@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { AnimatePresence } from "framer-motion";
 import { Heart, History, Save } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import WelcomeScreen from "@/features/memory_box/components/memory-box/WelcomeScreen";
 import WhoScreen from "@/features/memory_box/components/memory-box/WhoScreen";
 import ExpressionScreen from "@/features/memory_box/components/memory-box/ExpressionScreen";
@@ -25,6 +26,7 @@ export interface Memory {
 }
 
 const Index = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState(0);
   const [name, setName] = useState("");
   const [relation, setRelation] = useState("");
@@ -56,7 +58,7 @@ const Index = () => {
   const saveMemory = async () => {
     const userId = sessionStorage.getItem("user_id");
     if (!userId || !DATABASE_URL) {
-      toast.error("Auth session missing or DB not configured");
+      toast.error(t("auth_error"));
       return;
     }
 
@@ -74,13 +76,13 @@ const Index = () => {
     try {
       const sql = neon(DATABASE_URL);
       await sql`INSERT INTO memory_box_entries (user_id, memory_data) VALUES (${userId}, ${newMemory})`;
-      toast.success("Memory preserved");
+      toast.success(t("save_success"));
       setMemories(prev => [newMemory, ...prev]);
       setLastSaved(newMemory);
       setScreen(3);
     } catch (error) {
       console.error("Failed to save memory:", error);
-      toast.error("Failed to preserve memory");
+      toast.error(t("save_error"));
     } finally {
       setIsSaving(false);
     }
@@ -103,18 +105,18 @@ const Index = () => {
   if (screen === 5) {
     return (
       <PremiumComplete
-        title="Memory Preserved"
-        message={`You've safely placed a memory of ${name || "your loved one"} in your box. These moments of connection are yours to keep, always.`}
+        title={t("complete_title")}
+        message={t("complete_message", { name: name || "your loved one" })}
         onRestart={resetAll}
       />
     );
   }
 
-  const titles = ["Your Box", "Honoring", "Expressing", "Preserved", "Gentle Care"];
+  const titles = t("screen_titles", { returnObjects: true }) as string[];
 
   return (
     <PremiumLayout
-      title="Memory Box"
+      title={t("app_title")}
       subtitle={titles[screen]}
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={screen > 0 ? () => setScreen(prev => prev - 1) : undefined}
@@ -175,7 +177,7 @@ const Index = () => {
                 className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
               >
                 <Save size={20} strokeWidth={3} />
-                {isSaving ? "Preserving..." : "Preserve Memory"}
+                {isSaving ? t("preserving") : t("preserve_memory")}
               </button>
             </div>
           )}

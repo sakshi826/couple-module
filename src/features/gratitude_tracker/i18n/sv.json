@@ -1,0 +1,53 @@
+{
+  "app": {
+    "title": "Tacksamhetsspårare",
+    "description": "Följ din dagliga tacksamhet och ditt humör för bättre mental hälsa"
+  },
+  "gratitude": {
+    "heading": "Vad är du tacksam för idag?",
+    "subheading": "Ta en stund för att reflektera över de goda sakerna, stora som små.",
+    "item1": {
+      "label": "Tacksamhetspunkt 1",
+      "placeholder": "t.ex. en varm kopp te i morse..."
+    },
+    "item2": {
+      "label": "Tacksamhetspunkt 2",
+      "placeholder": "t.ex. ett vänligt ord från en vän..."
+    },
+    "optional": "(valfritt)"
+  },
+  "common": {
+    "continue": "Fortsätt"
+  },
+  "mood": {
+    "heading": "Hur mår du?",
+    "subheading": "Välj det humör som bäst beskriver dig just nu.",
+    "save": "Save Gratitude-inlägget",
+    "happy": "Glad",
+    "calm": "Lugn",
+    "neutral": "Neutral",
+    "low": "Lågt",
+    "stressed": "Stressad"
+  },
+  "review": {
+    "heading": "Din anmälan",
+    "date": "Datum",
+    "gratitude1": "Tacksamhet 1",
+    "gratitude2": "Tacksamhet 2",
+    "mood": "Humör",
+    "edit": "Redigera inlägg",
+    "history": "Visa historik"
+  },
+  "history": {
+    "heading": "Historia",
+    "back": "Tillbaka",
+    "home": "Gå hem",
+    "sun": "Sol",
+    "mon": "Min",
+    "tue": "Tis",
+    "wed": "Gift",
+    "thu": "Höst",
+    "fri": "Fre",
+    "sat": "Lör"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "app_title": "Alvóablak tervező",
+  "pill_labels": [
+    "Építsd meg az ablakodat",
+    "Állítsd be az idődet",
+    "Az alvóablakod"
+  ],
+  "screen1": {
+    "title": "Az alvói ablakod többet számít, mint gondolnád",
+    "p1": "Az alvási ablak az a fix idő, amely az alvadás és az ébredés közötti időszak. Az, hogy következetesen tartsd — még hétvégén is — az egyik legerősebb dolog, amit az alvásért tehetsz.",
+    "p2": "Ez az eszköz segít 2 perc alatt elkészíteni a sajátodat.",
+    "insight": "Még egy órás alváskülönbség is hétvégén megzavarhatja az érzéseidet.",
+    "meta": "Egyszerű. Személyes. Hatékony.",
+    "button": "Építsük meg az enyémet →"
+  },
+  "screen2": {
+    "title": "Állítsuk be az alvási ablakodat",
+    "step1": {
+      "title": "1. LÉPÉS — ÉBREDÉSI IDŐ",
+      "desc": "A legtöbb nap mikor kell felébredni?"
+    },
+    "step2": {
+      "title": "2. LÉPÉS — ALVÁS IDŐTARTAMA",
+      "desc": "Hány órát szeretnél aludni?"
+    },
+    "live_window": {
+      "bedtime": "Lefekvés",
+      "waketime": "Ébredés",
+      "duration": "{{hours}} órás alvás"
+    },
+    "italic": "A legtöbb felnőtt 7–9 órára van szükség. Válaszd ki, ami a helyes.",
+    "button": "Látod az alvási ablakomat→"
+  },
+  "screen3": {
+    "title": "Az alvóablakod 🌙",
+    "result": {
+      "bedtime": "Lefekvés",
+      "waketime": "Ébredés",
+      "duration": "Időtartam",
+      "hours": "{{hours}} órák"
+    },
+    "accordion1": {
+      "title": "3 módja annak, hogy megvédje",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Lazíts le 30 perccel az lefekvés előtt"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Minden nap ugyanaz az ébredés – igen, hétvégén is"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Kerüld a 20 percnél hosszabb szundikálást 15 óra után"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Kötelezz el egy dolog mellett ma este",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Lefekvés előtt elraktam a telefonomat"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Kezdj el egy lenyugtató rutint"
+        },
+        {
+          "emoji": "💡",
+          "text": "Lefekvés előtt egy órával tompítsd le a lámpákat"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Fejezd be a teendőlistámat korán"
+        }
+      ]
+    },
+    "quote": "A következetesség erősebb, mint a tökéletesség. Az egyik jó este építi a következőt.",
+    "button": "Mentsd meg az alvási ablakomat ✓",
+    "saved_button": "✓ Alvási ablak megmentett!",
+    "adjust_times": "Igazítási idők"
+  },
+  "complete": {
+    "title": "Ablak létrehozása",
+    "message": "Az ideális alvási ablakod fel van térképezve. A következetesség a mély, helyreállító pihenés kulcsa."
+  },
+  "toasts": {
+    "save_success": "Alvóablak mentve",
+    "save_error": "Nem sikerült elmenteni az alvó ablakot",
+    "auth_error": "Hitelesítési alkalom hiányzik vagy adatbázis nincs konfigurálva",
+    "saving": "Megmentem..."
+  }
+}

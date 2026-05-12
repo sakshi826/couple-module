@@ -1,0 +1,84 @@
+{
+  "title": "Egy szünet a megbecsülésre",
+  "subtitle": "5–7 perces irányított reflexió",
+  "nav": {
+    "history": "Történelem",
+    "home": "Otthon"
+  },
+  "intro": {
+    "text1": "Amikor egy kapcsolat feszültnek tűnik, könnyen csak arra koncentrálni, ami nem működik. Ez a reflexió rövid szünetet kínál — nem azért, hogy elutasítsa az aggodalmakat, hanem finoman szélesítse a perspektívát.",
+    "text2": "Nincs elvárás, hogy hálásnak érezzék magad. Egyszerűen figyeld meg, mi jön fel.",
+    "begin": "Kezdjük",
+    "viewHistory": "Nézd meg a történelemet"
+  },
+  "breathing": {
+    "title": "Érkezz és telepedj meg",
+    "description": "Mielőtt folytatnád, engedj meg magadnak egy rövid szünetet. Ez a pillanat nem arról szól, hogy bármit megoldjon. A tér megteremtéséről szól.",
+    "instruction": "Kövesd az alábbi légzési ritmust.",
+    "inhale": "Lélegezz be... {{counter}}…",
+    "hold": "Várjatok...",
+    "exhale": "Kifújd a levegőt... {{counter}}…",
+    "affirmation": "\"El tudom ismerni, ami nehéznek tűnik, és mégis nyitott maradok a észrevételre.\"",
+    "continue": "Folytatás"
+  },
+  "reflection": {
+    "step": "{{step}} {{total}} lépés",
+    "prompts": {
+      "p1": "Egy apró pillanat nemrég a partnereddel, ami nem volt feszült, az volt...",
+      "p1_ex": "\"Este rövid, nyugodt beszélgetésünk volt.\"",
+      "p2": "Az egyik erőfeszítés, amit a partnered tett — még ha nem is tökéletes — az...",
+      "p2_ex": "\"Megpróbálták elmagyarázni az érzéseiket, ahelyett, hogy visszahúzódtak volna.\"",
+      "p3": "Egy tulajdonság a partneredben, ami az idők során állandó maradt...",
+      "p3_ex": "\"Továbbra is elkötelezettek a felelősségeink iránt.\""
+    },
+    "placeholder": "Írd meg ide a visszatekintésedet...",
+    "next": "Következő",
+    "finish": "Befejezés"
+  },
+  "intention": {
+    "step": "4. lépés a 4-ből",
+    "title": "Hogyan szeretnéd ezt a visszatükröződést tartani?",
+    "options": {
+      "private": "Inkább privát maradnám ezt a visszatükröződést.",
+      "share_part": "Lehet, hogy megosztom ezt a párommal.",
+      "share_full": "Szeretném teljes egészében megosztani ezt a visszatekintést.",
+      "save_later": "Ezt egy későbbi beszélgetésre tartom meg."
+    },
+    "continue": "Folytatás"
+  },
+  "checkin": {
+    "title": "Ahogy befejezted ezt a reflexiót, melyik állítás tűnik a legpontosabbnak?",
+    "statements": {
+      "s1": "Most kicsit nyitottabbnak érzem magam a párommal szemben.",
+      "s2": "Nem veszek észre sok változást, de hajlandó vagyok éber maradni.",
+      "s3": "Nekem ez kissé nehéznek találtam.",
+      "s4": "Elmélkedés közben egy kis melegséget éreztem.",
+      "s5": "Észrevettem az ellenállást, és ezt fontosnak tűnik elismerni.",
+      "s6": "Enyhe enyhülést érzek, mint mielőtt elkezdtem."
+    },
+    "finish": "Befejezés és mentés"
+  },
+  "closing": {
+    "title": "Elmélkedés befejezett",
+    "text1": "Ez a szünet nem törli el a kihívásokat. Egyszerűen visszaállítja az egyensúlyt abban, ahogyan a kapcsolatot látjuk.",
+    "text2": "Még a rövid pillanatok is fokozatosan enyhíthetik az érzelmi merevséget, és teret teremthetnek egészségesebb beszélgetéseknek.",
+    "save": "Mentés a Reflections-hez",
+    "viewHistory": "Nézd meg a történelemet",
+    "exit": "Kijárat"
+  },
+  "history": {
+    "title": "A Elmélkedési Történeted",
+    "noReflections": "Még nincs visszatükröződés. A befejezett üléseid itt jelennek meg.",
+    "back": "Vissza a kezdéshez",
+    "confirmDelete": "Törlés megerősítése",
+    "cancel": "Törlés",
+    "delete": "Bejegyzés törlése",
+    "prompts": [
+      "Egy apró pillanat, ami nem tűnt feszültnek...",
+      "Egy erőfeszítés, amit a partnered tett...",
+      "Egy tulajdonság, ami állandó maradt...",
+      "Szándék",
+      "Érzelmi ellenőrzés"
+    ]
+  }
+}

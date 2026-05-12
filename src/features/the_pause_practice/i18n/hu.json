@@ -1,0 +1,73 @@
+{
+  "app_title": "Szünet gyakorlása",
+  "app_subtitle": "Uralkodj a közte közötti tér elé",
+  "intro": {
+    "title": "Az 5 másodperces szünet",
+    "description": "Egy kis szünet az érzés és a reakció között mindent megváltoztathat.",
+    "duration": "Kevesebb mint 15 másodpercet vesz igénybe. Tényleg.",
+    "button": "Próbáld →"
+  },
+  "scenario": {
+    "title": "Mi vált ki téged?",
+    "desc": "Válassz egy helyzetet, amivel azonosulsz",
+    "options": [
+      {
+        "id": "megszakítások",
+        "label": "Valaki félbeszakít",
+        "emoji": "😠"
+      },
+      {
+        "id": "Tervek",
+        "label": "A dolgok nem úgy alakulnak, ahogy terveztek",
+        "emoji": "😤"
+      },
+      {
+        "id": "figyelmen kívül hagyva",
+        "label": "Úgy érzem, figyelmen kívül hagynak",
+        "emoji": "😔"
+      },
+      {
+        "id": "túlterhelt",
+        "label": "Túlterheltnek érzem magam",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Gépelj meg saját...",
+    "button": "Gyakorlás szünete →"
+  },
+  "hold": {
+    "title": "Tartsd meg a szünetet ⏸️",
+    "instructions": "Tartsd a kört 5 másodpercig",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Nyomd és tartsd..."
+      },
+      {
+        "at": "0.15",
+        "text": "Maradj vele..."
+      },
+      {
+        "at": "0.5",
+        "text": "Te csinálod..."
+      },
+      {
+        "at": "0.8",
+        "text": "Majdnem ott vagyunk..."
+      }
+    ]
+  },
+  "result": {
+    "title": "Ez a szünet",
+    "message": "Csak teret teremtettél az érzéseid és a válaszod között. Még egy kis szünet is segít visszaszerezni a központodat.",
+    "tip_label": "Tipp",
+    "scenario_messages": {
+      "interrupts": "Legközelebb, ha valaki félbeszakít, próbáld ki ezt, mielőtt válaszolsz.",
+      "plans": "Legközelebb, ha nem a tervek szerint alakul, próbáld ki ezt, mielőtt reagálsz.",
+      "ignored": "Legközelebb, amikor úgy érzed, figyelmen kívül hagynak, próbáld ki ezt, mielőtt válaszolsz.",
+      "overwhelmed": "Legközelebb, amikor túlterheltnek érzed magad, próbáld ki ezt, mielőtt bármit is csinálnál.",
+      "other": "Legközelebb, amikor kiváltottnak érzed magad, próbáld ki ezt reagálás előtt."
+    },
+    "italic": "Nem mindig lesz könnyű – de a következetesség a kulcs."
+  }
+}

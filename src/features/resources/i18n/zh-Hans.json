@@ -1,0 +1,37 @@
+{
+  "app_title": "资源",
+  "not_found": {
+    "title": "未找到",
+    "message": "资源未找到",
+    "description": "你要找的内容可能已经移动了。",
+    "button": "回去"
+  },
+  "list": {
+    "empty_title": "无{{type}} 可用",
+    "empty_desc": "我们目前正在为这个话题策划更多资源。",
+    "footer": "Mantra 关怀 • 循证资源"
+  },
+  "detail": {
+    "loading": "加载中......",
+    "tip": {
+      "insight_label": "洞察",
+      "plan_title": "每日行动计划",
+      "steps": "{{count}} 台阶",
+      "example_label": "练习示例",
+      "instead_of": "代替",
+      "try_this": "试试这个"
+    },
+    "article": {
+      "final_thought": "最后的思考"
+    },
+    "story": {
+      "reflection_label": "有个可以坐下来的东西",
+      "note_label": "作者的一则记"
+    },
+    "myth": {
+      "truth_label": "科学真相",
+      "explanation_label": "详细说明",
+      "insight_label": "关键见解"
+    }
+  }
+}

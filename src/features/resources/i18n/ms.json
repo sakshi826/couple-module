@@ -1,0 +1,37 @@
+{
+  "app_title": "Sumber",
+  "not_found": {
+    "title": "Tidak Dijumpai",
+    "message": "Sumber tidak dijumpai",
+    "description": "Kandungan yang anda cari mungkin telah beralih.",
+    "button": "Pulanglah"
+  },
+  "list": {
+    "empty_title": "Tiada {{type}} tersedia",
+    "empty_desc": "Kami sedang menyusun lebih banyak sumber untuk topik ini.",
+    "footer": "Penjagaan Mantra • Sumber Berasaskan Bukti"
+  },
+  "detail": {
+    "loading": "Memuatkan...",
+    "tip": {
+      "insight_label": "Wawasan",
+      "plan_title": "Pelan Tindakan Harian",
+      "steps": "{{count}} Langkah",
+      "example_label": "Contoh Amalan",
+      "instead_of": "Sebaliknya",
+      "try_this": "Cuba ini"
+    },
+    "article": {
+      "final_thought": "Pemikiran Akhir"
+    },
+    "story": {
+      "reflection_label": "Sesuatu untuk duduk",
+      "note_label": "Nota daripada Pengarang"
+    },
+    "myth": {
+      "truth_label": "Kebenaran Saintifik",
+      "explanation_label": "Penjelasan Terperinci",
+      "insight_label": "Wawasan Utama"
+    }
+  }
+}

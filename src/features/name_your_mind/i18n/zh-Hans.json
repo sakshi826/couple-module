@@ -1,0 +1,80 @@
+{
+  "app_title": "命名你的心灵",
+  "intro": {
+    "title": "直面你的心灵",
+    "description": "学会远离压倒性的想法，给内心的声音取个名字。",
+    "benefits": [
+      "保持心理距离",
+      "减少残酷思想的力量",
+      "注意那些想法，但不是它们"
+    ],
+    "duration": "2-3分钟",
+    "view_past": "查看往期条目"
+  },
+  "history": {
+    "title": "往届参赛作品",
+    "no_entries": "还没有条目。",
+    "reflection_label": "反射：{{text}}"
+  },
+  "complete": {
+    "title": "活动完成",
+    "great_job": "干得好！",
+    "message": "你成功地给自己的心灵命名，并在自己和思想之间创造了空间。",
+    "footer": "记住：你不必相信脑海中所有的想法。"
+  },
+  "subtitles": {
+    "concept": "视角",
+    "input_thought": "通知",
+    "input_name": "名称",
+    "practice": "实践"
+  },
+  "screens": {
+    "concept": {
+      "title": "一个小小的转变",
+      "example": "“我不够好”",
+      "desc": "当一个想法出现时，常常感觉像是<0>你<>。但如果你能退一步，><1注意到</1/1>呢？"
+    },
+    "input_thought": {
+      "title": "让我们从一个真实的想法开始",
+      "desc": "最近有什么想法困扰着你？",
+      "placeholder": "照写你想写的......"
+    },
+    "input_name": {
+      "title": "保持距离",
+      "desc": "给你的大脑一个名字，帮助你与这些想法区分开来。",
+      "placeholder": "或者你自己打字......",
+      "examples": [
+        "评论家",
+        "过度思考者",
+        "忧虑FM",
+        "过度思考机器",
+        "内心批评者",
+        "假设发生器",
+        "戏剧导演"
+      ]
+    },
+    "practice": {
+      "title": "试试这个班次",
+      "instead_of": "代替",
+      "try_saying": "试着说",
+      "is_telling_me": "{{name}} 正在告诉我：",
+      "guide": "以自己的节奏轻柔地对自己重复这句话4到5遍。",
+      "button": "我准备好了"
+    },
+    "reflection": {
+      "title": "你注意到了什么？",
+      "desc": "给它起名字后，这个念头是什么感觉？",
+      "options": [
+        "这个念头比之前稍微缓和了一些",
+        "我觉得自己和这个想法有些距离",
+        "感觉依然和之前一样强烈",
+        "我不确定到底发生了什么变化，如果有的话"
+      ],
+      "button": "完全反思"
+    }
+  },
+  "buttons": {
+    "continue": "继续",
+    "restart": "重启"
+  }
+}

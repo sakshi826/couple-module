@@ -1,0 +1,53 @@
+{
+  "app": {
+    "title": "Urmăritor de recunoștință",
+    "description": "Urmărește-ți recunoștința zilnică și starea de spirit pentru o stare mai bună de sănătate mintală"
+  },
+  "gratitude": {
+    "heading": "Pentru ce ești recunoscător astăzi?",
+    "subheading": "Ia-ți un moment să reflectezi asupra lucrurilor bune, mari sau mici.",
+    "item1": {
+      "label": "Punctul 1 al recunoștinței",
+      "placeholder": "de exemplu, o ceașcă caldă de ceai în această dimineață..."
+    },
+    "item2": {
+      "label": "Recunoștință Punctul 2",
+      "placeholder": "de exemplu, un cuvânt frumos de la un prieten..."
+    },
+    "optional": "(opțional)"
+  },
+  "common": {
+    "continue": "Continuă"
+  },
+  "mood": {
+    "heading": "Cum te simți?",
+    "subheading": "Alege starea care te descrie cel mai bine în acest moment.",
+    "save": "Intrarea Save Gratitude",
+    "happy": "Fericit",
+    "calm": "Calm",
+    "neutral": "Neutru",
+    "low": "Low",
+    "stressed": "Stresat"
+  },
+  "review": {
+    "heading": "Intrarea ta",
+    "date": "Data",
+    "gratitude1": "Recunoștință 1",
+    "gratitude2": "Recunoștință 2",
+    "mood": "Starea de spirit",
+    "edit": "Editare intrare",
+    "history": "Vezi istoric"
+  },
+  "history": {
+    "heading": "Istoric",
+    "back": "Înapoi",
+    "home": "Du-te acasă",
+    "sun": "Soare",
+    "mon": "Mine",
+    "tue": "Mar",
+    "wed": "Căsătorie",
+    "thu": "Toamna",
+    "fri": "Vin",
+    "sat": "Sâmbătă"
+  }
+}

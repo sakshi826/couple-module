@@ -1,0 +1,26 @@
+{
+  "app_title": "Iemand missen",
+  "subtitles": [
+    "Validatie",
+    "Interne Wijsheid",
+    "Volledig"
+  ],
+  "complete_title": "Helderheid Gewonnen",
+  "complete_message": "Het begrijpen van de chemie van iemand missen is de eerste stap naar genezing. Je gevoelens zijn geldig, en je brein doet gewoon zijn werk om te beschermen en te verwerken.",
+  "screen1": {
+    "tag": "Validatie",
+    "intro": "Dat betekent niet dat je zwak bent.",
+    "title": "Iemand missen die je pijn heeft gedaan is diep menselijk.",
+    "desc": "Je bent weggegaan. Of ze zijn weggegaan. En toch — grijp je nog steeds naar je telefoon in de hoop dat zij het zijn. Je speelt de goede momenten nog steeds vaker dan de pijnlijke. Deze tegenstrijdigheid is geen fout. Zo verwerkt je brein verlies.",
+    "quote": "\"Je mist die persoon niet alleen. Je mist het gevoel om aan hen gebonden te zijn.\"",
+    "button": "Volgende stap"
+  },
+  "screen2": {
+    "tag": "Hersenwetenschap",
+    "intro": "Interne Wijsheid",
+    "title": "Liefde creëert een chemische band.",
+    "desc": "Als je van iemand houdt, maakt je brein dopamine, oxytocine en serotonine vrij. Als het eindigt, dalen die levels. Je brein rouwt — niet alleen de persoon, maar ook het gevoel van nabijheid.",
+    "quote": "\"Ze missen betekent niet dat je terug moet gaan. Je hart rouwt om een band — niet per se de persoon zoals hij werkelijk was.\"",
+    "button": "Eindreflectie"
+  }
+}

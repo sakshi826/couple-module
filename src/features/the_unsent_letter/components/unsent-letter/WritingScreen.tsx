@@ -1,5 +1,6 @@
 import { ArrowLeft } from "lucide-react";
 import { useRef } from "react";
+import { useTranslation } from "react-i18next";
 import ProgressDots from "@/features/the_unsent_letter/components/ProgressDots";
 
 interface WritingScreenProps {
@@ -10,14 +11,6 @@ interface WritingScreenProps {
   onContinue: () => void;
 }
 
-const prompts = [
-  "I feel…",
-  "I wish…",
-  "I never said…",
-  "What hurt me…",
-  "What I needed…",
-];
-
 const WritingScreen = ({
   step,
   content,
@@ -25,7 +18,9 @@ const WritingScreen = ({
   onBack,
   onContinue,
 }: WritingScreenProps) => {
+  const { t } = useTranslation();
   const textareaRef = useRef<HTMLTextAreaElement>(null);
+  const prompts = t("writing.prompts", { returnObjects: true }) as string[];
 
   const insertPrompt = (prompt: string) => {
     const textarea = textareaRef.current;
@@ -57,16 +52,15 @@ const WritingScreen = ({
 
       {/* Title */}
       <h1 className="text-xl font-semibold text-foreground mb-2 leading-tight">
-        Write What You've Been Holding In
+        {t("writing.title")}
       </h1>
       <p className="text-muted-foreground text-sm leading-relaxed mb-5">
-        You can write to your partner, ex-partner, or even to the relationship itself.
-        There's no right or wrong way to do this.
+        {t("writing.desc")}
       </p>
 
       {/* Prompt chips */}
       <div className="flex gap-2 overflow-x-auto pb-4 -mx-6 px-6 scrollbar-hide mb-2">
-        {prompts.map((p) => (
+        {Array.isArray(prompts) && prompts.map((p) => (
           <button
             key={p}
             onClick={() => insertPrompt(p)}
@@ -83,11 +77,11 @@ const WritingScreen = ({
           ref={textareaRef}
           value={content}
           onChange={(e) => onContentChange(e.target.value)}
-          placeholder={`Dear ____,\nI've been wanting to say…`}
+          placeholder={t("writing.placeholder")}
           className="flex-1 w-full resize-none bg-card rounded-2xl p-5 text-foreground text-[15px] leading-relaxed placeholder:text-muted-foreground/50 focus:outline-none focus:ring-2 focus:ring-primary/30 transition-shadow min-h-[280px]"
         />
         <p className="text-micro mt-3 text-center italic">
-          You can pause and come back anytime.
+          {t("writing.notice")}
         </p>
       </div>
 
@@ -96,7 +90,7 @@ const WritingScreen = ({
         onClick={onContinue}
         className="w-full py-4 rounded-2xl bg-primary text-primary-foreground font-medium text-base hover:opacity-90 transition-opacity mt-6"
       >
-        Continue →
+        {t("writing.button")}
       </button>
     </div>
   );

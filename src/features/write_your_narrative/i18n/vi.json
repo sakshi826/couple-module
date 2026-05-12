@@ -1,0 +1,72 @@
+{
+  "app_title": "Câu chuyện của bạn",
+  "nav": {
+    "entry": "Chào mừng",
+    "writing": "Thể hiện",
+    "landing": "Suy ngẫm",
+    "history": "Hành trình của bạn"
+  },
+  "entry": {
+    "title": "Hãy thực hiện điều này từng bước một. 💛",
+    "description": [
+      "Bạn không cần phải kể toàn bộ câu chuyện của mình ngày hôm nay. Chỉ cần một phần nhỏ là đủ.",
+      "Bạn đang an toàn ngay bây giờ. Bạn kiểm soát những gì bạn viết — và những gì bạn không."
+    ],
+    "breath": "Hít thở chậm trước khi chúng ta bắt đầu.",
+    "button_ready": "Tôi đã sẵn sàng",
+    "button_history": "Tường thuật trong quá khứ",
+    "footer": "Lời nói của bạn • Tốc độ của bạn • Câu chuyện của bạn"
+  },
+  "writing": {
+    "title": "Viết những gì cảm thấy ổn ✨",
+    "subtitle": "Lời nói của bạn, tốc độ của bạn",
+    "prompt_label": "Cần một điểm khởi đầu?",
+    "prompts": [
+      {
+        "text": "Điều tôi nhớ nhất là...",
+        "emoji": "💭"
+      },
+      {
+        "text": "Lúc đó, tôi cảm thấy...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "Kể từ đó, tôi nhận thấy...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "Bắt đầu viết ở đây...",
+    "notice": "Không có cách nào đúng để làm điều này. Chỉ cần một vài dòng là đủ.",
+    "button": "Kết thúc bài viết"
+  },
+  "landing": {
+    "title": "Bạn đã làm điều gì đó quan trọng.",
+    "subtitle": "Cảm ơn bạn đã xuất hiện cho chính mình.",
+    "settle_title": "Hãy dành một chút thời gian để giải quyết",
+    "steps": [
+      "Nhìn xung quanh và kể tên 3 thứ bạn có thể thấy.",
+      "Hít một hơi chậm vào... và ra ngoài."
+    ],
+    "feeling_label": "Ngay bây giờ, tôi cảm thấy:",
+    "feeling_placeholder": "Một hoặc hai từ...",
+    "quote": "\"Bạn không cần phải mang theo mọi thứ cùng một lúc. Bạn có thể quay lại bất cứ khi nào bạn cảm thấy sẵn sàng.\"",
+    "button_save": "Bảo tồn câu chuyện",
+    "button_preserving": "Bảo quản..."
+  },
+  "history": {
+    "title": "Hành trình 📝 của bạn",
+    "subtitle": "Tường thuật và suy ngẫm trong quá khứ",
+    "empty": "Bạn chưa lưu bất kỳ mục nhập nào. Hãy dành thời gian của bạn—không cần vội vàng.",
+    "no_writing": "Không có chữ viết được bảo quản",
+    "button_back": "Quay lại hoạt động"
+  },
+  "complete": {
+    "title": "Câu chuyện được bảo tồn",
+    "message": "Bạn đã thực hiện một bước mạnh mẽ trong việc kể câu chuyện của mình. Quan điểm của bạn rất quan trọng và hành trình của bạn là duy nhất của bạn."
+  },
+  "toasts": {
+    "save_success": "Câu chuyện được bảo tồn",
+    "save_error": "Không bảo tồn được câu chuyện",
+    "auth_error": "Thiếu phiên xác thực hoặc cơ sở dữ liệu không được định cấu hình"
+  }
+}

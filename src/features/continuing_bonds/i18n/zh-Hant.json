@@ -1,0 +1,65 @@
+{
+  "app_title": "持續債券",
+  "welcome_title": "愛不會在某人離開後結束。",
+  "welcome_subtitle": "你們之間的連結以許多方式持續存在。慢慢吸氣，按照自己的步調來。",
+  "begin_button": "開始反思",
+  "screen_titles": {
+    "welcome": "歡迎",
+    "choose": "連結",
+    "bond": "行動",
+    "review": "反思",
+    "closing": "最後的照護",
+    "complete": "羈絆保存"
+  },
+  "choose_question": "你怎麼還能感覺到連結？",
+  "write_heart": "用心書寫......",
+  "continue_button": "繼續",
+  "action_title": "連線行動",
+  "sharing_optional": "分享是可選的......",
+  "preserve_button": "保留反射",
+  "preserving": "保存......",
+  "preserved_title": "保存",
+  "preserved_subtitle": "「這份連結是你的一部分。你隨時都可以回來。」",
+  "finish_button": "先先完成",
+  "add_another": "再新增一個",
+  "closing_p1": "我們所愛的人成為我們身份的一部分。🤍",
+  "closing_p2": "它們活在你的笑聲、你講的故事，以及你感受到他們靠近的寧靜時刻中。",
+  "closing_p3": "無論你的羈絆如何呈現——它是真實的，且很重要。",
+  "save_exit_button": "存檔與退出",
+  "complete_title": "羈絆保存",
+  "complete_message": "我們所愛的人成為我們身份的一部分。你們的連結會透過你尊重他們的方式繼續延續。",
+  "auth_error": "缺少認證會話或資料庫未設定",
+  "save_success": "鍵反射的保存",
+  "save_error": "未能保存反射",
+  "connection_options": [
+    {
+      "label": "透過回憶",
+      "prompt": "你能分享一個你感受到他們存在的回憶嗎？",
+      "deeper": "有什麼特別的事會讓你印象深刻？"
+    },
+    {
+      "label": "在我說的或做的事裡",
+      "prompt": "你在日常生活中承載著他們的哪一部分？",
+      "deeper": "這在你今天的生活中有什麼表現？"
+    },
+    {
+      "label": "在常生活的每一刻",
+      "prompt": "你一天中什麼時候會感覺到它們靠近？",
+      "deeper": "有什麼特別的事會讓你印象深刻？"
+    },
+    {
+      "label": "我還想告訴他們的",
+      "prompt": "你還有什麼想對他們說的嗎？",
+      "deeper": "你現在最希望他們知道什麼？"
+    },
+    {
+      "label": "在某種感覺或存在中",
+      "prompt": "他們的存在感如何仍能在你眼中顯現？",
+      "deeper": "這在你今天的生活中有什麼表現？"
+    }
+  ],
+  "bond_prompts": [
+    "你今天覺得與他們有哪一點小小的連結？",
+    "你做過什麼事，能承載他們的一部分？"
+  ]
+}

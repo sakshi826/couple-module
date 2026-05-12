@@ -1,0 +1,21 @@
+{
+  "app_title": "Uniopas",
+  "app_subtitle": "Uniahdistuksen ymmärtäminen",
+  "tag": "Psykokasvatus",
+  "screen1": {
+    "intro": "Mitä kovemmin yrität, sitä vaikeammaksi se muuttuu.",
+    "title": "Yrittäminen pakottaa itsensä nukkumaan on juuri se, mikä pitää sinut hereillä.",
+    "p1": "Makaat, suljet silmäsi — ja aivosi käynnistyvät. Käydään keskusteluja uudelleen. Katson kelloa.",
+    "p2": "Tämä ei ole heikkous. Kyseessä on ilmiö nimeltä <1>uniahdistus</1> — ja se vaikuttaa miljooniin ihmisiin.",
+    "quote": "\"Uniahdistus ei ole väsymättömyydestä. Kyse on siitä, että hermostosi on jumissa 'päällä' -tilassa.\"",
+    "button": "Opi lisää"
+  },
+  "screen2": {
+    "intro": "Tässä on sen taustalla oleva tiede.",
+    "title": "Aivosi ovat oppineet käsittelemään sänkyä stressin paikkana — eivät lepona.",
+    "p1": "Amygdalasi — aivojen uhkanilmaisin — pysyy päällä yöllä, ilmoittaen vaarasta heti, kun pääsi osuu tyynyyn.",
+    "p2": "Tätä kutsutaan <1>ehdolliseksi kiihottumiseksi</1> — se selittää, miksi tunnet olosi uupuneeksi koko päivän, mutta olet täysin hereillä nukkumaanmenoaikaan.",
+    "quote": "\"Aivosi eivät ole rikki. Se on yksinkertaisesti oppinut väärän läksyn nukkumaanmenoajasta — ja se voidaan palauttaa uudelleen.\"",
+    "button": "Edellinen vaihe"
+  }
+}

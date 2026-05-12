@@ -1,0 +1,21 @@
+{
+  "app_title": "Ghidul de somn",
+  "app_subtitle": "Înțelegerea anxietății legate de somn",
+  "tag": "Psihoeducație",
+  "screen1": {
+    "intro": "Cu cât încerci mai mult, cu atât devine mai greu.",
+    "title": "Încercarea de a te forța să adormi este exact ceea ce te ține treaz.",
+    "p1": "Te întinzi, închizi ochii — și creierul tău pornește. Retrăind conversații. Se uită la ceas.",
+    "p2": "Aceasta nu este o slăbiciune. Este un fenomen numit <1>anxietate de somn</1> — și afectează milioane de oameni.",
+    "quote": "\"Anxietatea de somn nu înseamnă să nu fii obosit. E vorba despre sistemul tău nervos blocat în modul 'pornit'.\"",
+    "button": "Află mai multe"
+  },
+  "screen2": {
+    "intro": "Iată știința din spatele ei.",
+    "title": "Creierul tău a învățat să trateze patul ca pe un loc de stres — nu ca pe odihnă.",
+    "p1": "Amigdala ta — detectorul de amenințări al creierului — rămâne activată noaptea, semnalând pericol în momentul în care capul tău atinge perna.",
+    "p2": "Aceasta se numește <1>excitație condiționată</1> — explică de ce te simți epuizat toată ziua, dar totodată treaz la culcare.",
+    "quote": "\"Creierul tău nu e stricat. Pur și simplu a învățat lecția greșită despre ora de culcare — și poate fi predată din nou.\"",
+    "button": "Pasul anterior"
+  }
+}

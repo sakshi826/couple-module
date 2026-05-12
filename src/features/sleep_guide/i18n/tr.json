@@ -1,0 +1,21 @@
+{
+  "app_title": "Uyku Rehberi",
+  "app_subtitle": "Uyku kaygısını anlamak",
+  "tag": "Psikoeğitim",
+  "screen1": {
+    "intro": "Ne kadar çok uğraşırsanız, o kadar zorlaşır.",
+    "title": "Kendinizi uyumaya zorlamaya çalışmak tam da sizi uyanık tutan şeydir.",
+    "p1": "Uzanıyorsun, gözlerini kapatıyorsun — ve beynin açılıyor. Konuşmaları tekrar tekrar oynamak. Saati izliyordu.",
+    "p2": "Bu bir zayıflık değil. Bu, <1>uyku anksiyetesi</1> adı verilen bir olgudur — ve milyonlarca insanı etkiler.",
+    "quote": "\"Uyku kaygısı yorgun olmamakla ilgili değildir. Sinir sisteminin 'açık' modda kalmasıyla ilgili.\"",
+    "button": "Daha Fazla Bilgi Edinin"
+  },
+  "screen2": {
+    "intro": "İşte arkasındaki bilim.",
+    "title": "Beyniniz yatağınızı dinlenme değil, stres yeri olarak görmeyi öğrendi.",
+    "p1": "Amigdalanız — beynin tehdit dedektörü — gece aktif kalır, başınız yastığa çarptığınız anda tehlikeyi işaret eder.",
+    "p2": "Buna <1>koşullu uyarılma</1> denir — neden bütün gün yorgun hissettiğinizi, ancak yatmadan önce tamamen uyanık olduğunuzu açıklar.",
+    "quote": "\"Beynin bozuk değil. Yatma saati hakkında yanlış ders aldı — ve bu tekrar öğrenilebilir.\"",
+    "button": "Önceki Adım"
+  }
+}

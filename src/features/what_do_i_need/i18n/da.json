@@ -1,0 +1,164 @@
+{
+  "app_title": "Hvad har jeg brug for?",
+  "app_subtitle": "Tjek ind med dig selv",
+  "screens": {
+    "s1": {
+      "title": "Hvad har jeg brug for lige nu?",
+      "description": "Et øjeblik til at stoppe op og lytte til, hvad dit hjerte beder om.",
+      "button": "Start Check-in"
+    },
+    "s2": {
+      "select": {
+        "title": "Hvad føles vigtigt?",
+        "placeholder": "Noget andet...",
+        "add_button": "Tilføj",
+        "button": "Fortsæt"
+      },
+      "prioritize": {
+        "title": "Hvilken er primær?"
+      },
+      "focus": {
+        "tag": "Dit fokus lige nu",
+        "button": "Fortsæt"
+      }
+    },
+    "s3": {
+      "reflect": {
+        "button": "Fortsæt"
+      },
+      "action": {
+        "title": "Et lille skridt fremad?",
+        "placeholder": "Eller skriv din egen...",
+        "button": "Anmeldelsesrefleksion"
+      },
+      "closing": {
+        "tag_need": "Primært behov",
+        "tag_insight": "Din indsigt",
+        "tag_action": "Lille aktion",
+        "save_button": "Gem og afslut",
+        "finish_button": "Afslut uden at gemme"
+      }
+    }
+  },
+  "needs": {
+    "Emotional support": {
+      "label": "Følelsesmæssig støtte",
+      "prompt": "Hvilken form for støtte ville egentlig hjælpe dig lige nu?",
+      "hints": [
+        "Jeg har bare brug for nogen til at...",
+        "Det ville hjælpe, hvis...",
+        "Det jeg virkelig vil er..."
+      ]
+    },
+    "Space / time for myself": {
+      "label": "Plads / tid til mig selv",
+      "prompt": "Hvordan ville det se ud for dig at have det rum?",
+      "hints": [
+        "Jeg ville bruge den tid til at...",
+        "Rummet ville lade mig...",
+        "Jeg har brug for plads til at..."
+      ]
+    },
+    "Clear communication": {
+      "label": "Klar kommunikation",
+      "prompt": "Hvordan ville klarere kommunikation se ud for dig?",
+      "hints": [
+        "Jeg ville ønske, jeg kunne sige...",
+        "Hvis de virkelig lyttede, ville jeg sige til dem...",
+        "Kommunikation føles svær, når..."
+      ]
+    },
+    "Reassurance": {
+      "label": "Beroligelse",
+      "prompt": "Hvilken slags tryghed ville føles meningsfuld?",
+      "hints": [
+        "Jeg har brug for at høre det...",
+        "Det ville berolige mig at vide...",
+        "Jeg bliver ved med at bekymre mig om, at..."
+      ]
+    },
+    "Understanding": {
+      "label": "Forståelse",
+      "prompt": "Hvordan ville det se ud at føle sig virkelig forstået?",
+      "hints": [
+        "Jeg ville ønske, folk vidste, at...",
+        "Det jeg virkelig føler er...",
+        "Ingen ser, at jeg..."
+      ]
+    },
+    "Stability": {
+      "label": "Stabilitet",
+      "prompt": "Hvordan ville stabilitet føles i dit liv lige nu?",
+      "hints": [
+        "Jeg har brug for, at tingene føles...",
+        "Det, der ville forankre mig, er...",
+        "Stabilitet betyder..."
+      ]
+    },
+    "Honesty": {
+      "label": "Ærlighed",
+      "prompt": "Hvordan ville mere ærlighed se ud i din situation?",
+      "hints": [
+        "Sandheden, jeg må konfrontere, er...",
+        "Jeg vil være ærlig om...",
+        "Det, der virkelig foregår, er..."
+      ]
+    },
+    "Respect": {
+      "label": "Respekt",
+      "prompt": "Hvordan ser respekt ud for dig lige nu?",
+      "hints": [
+        "Jeg fortjener at blive behandlet...",
+        "Respekt ville ligne det...",
+        "Jeg har brug for, at folk..."
+      ]
+    },
+    "Clarity about relationship": {
+      "label": "Klarhed om forholdet",
+      "prompt": "Hvilken slags klarhed ville hjælpe dig mest?",
+      "hints": [
+        "Jeg er nødt til at vide, om...",
+        "Det, der forvirrer mig, er...",
+        "Jeg vil have, at vi er klare omkring..."
+      ]
+    },
+    "default": {
+      "prompt": "Hvordan ville det se ud i en rigtig situation?",
+      "hints": [
+        "Det, der falder mig ind, er...",
+        "Lige nu føler jeg mig...",
+        "Hvis jeg skal være ærlig over for mig selv..."
+      ]
+    }
+  },
+  "actions": [
+    {
+      "label": "Sig noget ærligt"
+    },
+    {
+      "label": "Tag dig tid til mig selv"
+    },
+    {
+      "label": "Kontakt nogen"
+    },
+    {
+      "label": "Sæt en lille grænse"
+    },
+    {
+      "label": "Ikke sikker endnu"
+    }
+  ],
+  "history": {
+    "title": "Tidligere refleksioner",
+    "empty": "Ingen refleksioner endnu."
+  },
+  "toasts": {
+    "save_success": "Refleksion gemt",
+    "save_error": "Kunne ikke gemme refleksionen",
+    "auth_error": "Auth-session mangler eller database ikke konfigureret"
+  },
+  "complete": {
+    "title": "Indtjekning fuldført",
+    "message": "Du har identificeret, at du har brug for \"{{need}}\". At respektere dine behov er en vigtig form for egenomsorg."
+  }
+}

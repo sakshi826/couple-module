@@ -1,0 +1,61 @@
+{
+  "app_title": "Piirrä ympyräsi uudelleen",
+  "intro": {
+    "title": "Piirrä ympyräsi uudelleen",
+    "p1": "Elämän eri vaiheissa tukijärjestelmämme voi muuttua. 🌱 Joskus tunnemme olevamme yhteydessä ja tuettuja. Toisinaan asiat voivat tuntua etäisiltä tai epäselvältä.",
+    "p2": "Tämä aktiviteetti on tila pysähtyä ja katsoa ympärilläsi olevia ihmisiä — ja ymmärtää, ketkä tällä hetkellä tuntevat olevansa osa piiriäsi. 💛",
+    "p3": "Tässä ei ole oikeaa tai väärää. Vain tietoisuutta. ✨",
+    "italic": "🌿 Piirisi voi muuttua — ja se on ihan okei.",
+    "button": "Aloita →"
+  },
+  "circle": {
+    "subtitle": "Ketkä ovat tukijärjestelmässäsi?",
+    "title": "Kuka on piirissäsi juuri nyt? 🔮",
+    "desc": "Ajattele ihmisiä elämässäsi ja sitä, missä he ovat sinulle läsnä.",
+    "instruction": "👆 Napauta jokaista kuplaa ja lisää joku, joka sopii siihen tilaan elämääsi.",
+    "center_node": "Sinä",
+    "italic": "🤍 Ei haittaa, jos ympyrä tuntuu pieneltä.",
+    "button": "Jatka →",
+    "modal": {
+      "title": "Lisää nimi",
+      "placeholder": "Syötä nimi...",
+      "button": "Tallennettu nimi"
+    },
+    "prompts": [
+      "Henkilö, joka tuo iloa",
+      "Henkilö, joka tukee sinua",
+      "Henkilö, jonka kanssa voit puhua",
+      "Henkilö, johon luotatte",
+      "Henkilö, joka inspiroi sinua"
+    ]
+  },
+  "reflection": {
+    "subtitle": "Lopulliset pohdinnat",
+    "title": "Mitä huomaat?",
+    "p_intro": "Ota hetki ja katso piiriäsi. Saatat huomata:",
+    "list": [
+      "Jotkut tuntevat olevansa läheisempiä kuin toiset",
+      "Jotkut yhteydet tuntuvat vahvoilta",
+      "Jotkut tuntuvat etäisiltä tai epäselvältä",
+      "Saattaa olla aukkoja — tai vain muutama merkittävä henkilö"
+    ],
+    "italic": "Tietoisuus on ensimmäinen askel kohti arvostettujen yhteyksien rakentamista. 🧘",
+    "label": "💭 Onko joku, johon haluaisit tuntea enemmän yhteyttä?",
+    "placeholder": "Kirjoita ajatuksesi tähän...",
+    "save_button": "Tallenna heijastus",
+    "saving_button": "Säästäminen...",
+    "skip_button": "Hyppää ja viimeistele"
+  },
+  "history": {
+    "title": "Teidän piirien historia",
+    "subtitle": "Tallenne tukijärjestelmästäsi ajan kuluessa.",
+    "no_entries": "Ympyröitä ei ole vielä tallennettu.",
+    "reflection_label": "Pohdinta:",
+    "back_button": "Takaisin kotiin"
+  },
+  "toasts": {
+    "save_success": "Ympyrä pelastettu",
+    "save_error": "Ei onnistunut tallentamaan ympyrää",
+    "auth_error": "Auth-istunto puuttuu tai tietokanta ei ole konfiguroitu"
+  }
+}

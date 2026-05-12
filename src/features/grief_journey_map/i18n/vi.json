@@ -1,0 +1,39 @@
+{
+  "app_title": "Hành trình đau buồn",
+  "app_subtitle": "Bản đồ mất mát • {{current}}/{{total}}",
+  "screen1_title": "Bạn không đau buồn sai",
+  "screen1_desc": "Đau buồn không đến trong các giai đoạn gọn gàng và rời đi đúng lịch trình. Nó đâm vào, rút lui và quay trở lại khi bạn ít mong đợi nhất. Đó không phải là một khiếm khuyết trong bạn - đó là đau buồn.",
+  "screen1_quote": "\"Không có cách nào đúng để đau buồn. Chỉ có cách của bạn.\"",
+  "btn_tell_more": "Cho tôi biết thêm",
+  "screen2_tag": "Bức tranh thực tế",
+  "screen2_title": "Đau buồn mang nhiều khuôn mặt",
+  "screen2_desc": "Đây là những gì mọi người mong đợi sự đau buồn trông như thế nào - so với những gì nó thực sự là.",
+  "expectation_label": "Kỳ vọng",
+  "reality_label": "Thực tế",
+  "expectation_desc": "Tuyến tính • Có thể dự đoán • Xóa",
+  "reality_desc": "Hỗn loạn • Vòng lặp • Con người",
+  "screen2_quote": "\"Không có làn sóng nào trong số này là sai. Tất cả đều là đau buồn.\"",
+  "btn_one_more": "Một điều nữa",
+  "screen3_tag": "Sự thật nhẹ nhàng",
+  "screen3_title": "Đáng biết",
+  "truths": [
+    {
+      "emoji": "🗓️",
+      "title": "Không có thời hạn",
+      "body": "Không có ngày hết hạn khi mất. Cảm thấy nó vài tháng hoặc nhiều năm sau đó không có nghĩa là bạn bị mắc kẹt - nó có nghĩa là bạn đã yêu."
+    },
+    {
+      "emoji": "🌗",
+      "title": "Cảm xúc mâu thuẫn",
+      "body": "Bạn có thể nhớ ai đó và cảm thấy nhẹ nhõm. Bạn có thể cười và đau buồn. Đau buồn có những điều đối lập."
+    },
+    {
+      "emoji": "🤍",
+      "title": "Sự biến đổi của tình yêu",
+      "body": "Nỗi đau không tách rời khỏi tình yêu. Nó giống như vậy, được biến đổi."
+    }
+  ],
+  "btn_finish": "Hoàn thành phản xạ",
+  "complete_title": "Hành trình được vinh danh",
+  "complete_message": "Bạn không cần phải tiếp tục. Bạn chỉ học cách mang nó theo cách khác. Hành trình của bạn là duy nhất, hợp lệ và sâu sắc nhân văn."
+}

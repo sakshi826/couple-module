@@ -1,0 +1,92 @@
+{
+  "index": {
+    "tagline": "Vegyél mély levegőt 🌿",
+    "title": "Kezeld a stresszt",
+    "description": "Egyszerű napi szokások, amelyek segítenek nyugodtabbnak és kontrollosabbnak érezni magad.",
+    "sectionTitle": "Napi stresszoldó tippek"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Aludj nyugodtan",
+      "description": "Célozz 7–9 óra alvásra minden éjszaka. Próbálj meg naponta egyszerre aludni és felébredni.",
+      "why": "Az alvás segíti az agyat és a tested regenerálódását, és csökkenti a stresszhormonokat.",
+      "do": [
+        "Tartsd fenn a fix alvási rendet",
+        "Kerüld a képernyőt 1 órával lefekvés előtt",
+        "Tartsd a szobát hűvösen és sötétben",
+        "Kerüld a koffeint 16 óra után"
+      ],
+      "button": "Állítsd be az alvás emlékeztetőt"
+    },
+    "breathing": {
+      "title": "Gyakorold a mély légzést",
+      "description": "Szánj néhány percet a légzésedre koncentrálni. A lassú légzés csökkenti a szorongást.",
+      "why": "A lassú légzés aktiválja a tested relaxációs válaszát.",
+      "do": [
+        "Lélegezz be 4 másodpercig",
+        "Tartsd 4 másodpercig",
+        "Kilélegezz 4 másodpercig",
+        "Ismételd 1 percig"
+      ]
+    },
+    "exercise": {
+      "title": "Mozgasd a tested",
+      "description": "A könnyű séta vagy nyújtás segít levezetni a stresszt és javítani a hangulatot.",
+      "why": "A testmozgás endorfinokat szabadít fel és javítja a hangulatot.",
+      "do": [
+        "15 perces séta",
+        "Könnyű nyújtás",
+        "Rövid jóga alkalma",
+        "Gyors otthoni edzés"
+      ]
+    },
+    "caffeine": {
+      "title": "Korlátozd a koffein- és cukorfogyasztást",
+      "description": "A túl sok koffein és cukor növelheti a szorongást és megzavarhatja az alvást.",
+      "why": "A túl sok koffein és cukor növeli a szorongást és az alvásproblémákat.",
+      "do": [
+        "Cserélj le egy kávét gyógyteára",
+        "Igyál több vizet",
+        "Csökkentsd a cukros nassolnivalókat",
+        "Kerüld a koffeint késő nappal"
+      ]
+    },
+    "planning": {
+      "title": "Tervezd meg a napodat",
+      "description": "Bontsd a nagyobb feladatokat kisebb lépésekre, hogy elkerüld a túlterheltséget.",
+      "why": "A tervezés csökkenti a mentális zsendetlenséget és a túlterheltséget.",
+      "do": [
+        "Írj 3 fő feladatot",
+        "Bontsd a feladatokat apró lépésekre",
+        "Koncentrálj egyszerre egy feladatra",
+        "Tarts rövid szünetet"
+      ]
+    }
+  },
+  "detail": {
+    "back": "Hátra",
+    "notFound": "Tipp nem talált.",
+    "whyTitle": "Miért segít",
+    "doTitle": "Mit tehetsz",
+    "reminderSet": "Emlékeztető beállítva! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Hoppá! Oldal nem talált meg",
+    "return": "Hazatérés"
+  },
+  "mood": {
+    "title": "Hogy érzed magad ma?",
+    "great": "Remek",
+    "okay": "Rendben",
+    "stressed": "Stresszes",
+    "overwhelmed": "Túlterhelt"
+  },
+  "breathing": {
+    "inhale": "Lélegezz be...",
+    "hold": "Várjatok...",
+    "exhale": "Kifújd a levegőt...",
+    "pause": "Szünet",
+    "resume": "Önéletrajz"
+  }
+}

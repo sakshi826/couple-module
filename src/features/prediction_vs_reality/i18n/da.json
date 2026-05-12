@@ -1,0 +1,93 @@
+{
+  "app_title": "Forudsigelse vs. virkelighed",
+  "step_label": "Trin {{current}} af 8",
+  "intro": {
+    "title": "Forudsigelse vs. virkelighed",
+    "description": "Sammenlign dine ængstelige forudsigelser med det, der faktisk sker, for at opbygge et mere balanceret perspektiv.",
+    "benefits": [
+      "Identificer ængstelige mønstre",
+      "Indsaml beviser mod frygt",
+      "Reducer fremtidig overtænkning"
+    ],
+    "duration": "4-5 minutter",
+    "view_past": "Se tidligere refleksioner"
+  },
+  "history": {
+    "title": "Tidligere refleksioner",
+    "no_reflections": "Ingen refleksioner gemt endnu.",
+    "prediction_label": "Forudsigelse",
+    "reality_label": "Virkelighed",
+    "reflection_label": "Refleksion:"
+  },
+  "complete": {
+    "title": "Aktivitet afsluttet",
+    "saved_title": "Refleksion reddet",
+    "message": "Ved at se på fakta hjælper du dit sind med at lære, at tingene ofte er mere håndterbare, end de ser ud til."
+  },
+  "emotions": [
+    "Ængstelig",
+    "Nervøs",
+    "Bange",
+    "Overvældet",
+    "Urolig"
+  ],
+  "intensity_labels": {
+    "not_intense": "Ikke intens",
+    "very_intense": "Meget intens"
+  },
+  "comparison_options": [
+    "Det blev næsten præcis, som jeg havde forventet",
+    "Nogle dele var rigtige, men ikke alt",
+    "Det var ret anderledes, end jeg havde forventet",
+    "Det var meget nemmere/bedre, end jeg havde forestillet mig"
+  ],
+  "screens": {
+    "s1": {
+      "title": "Tænk på en nylig situation",
+      "desc": "Husk et nyligt øjeblik, hvor du følte dig ængstelig eller usikker.",
+      "placeholder": "Beskriv situationen..."
+    },
+    "s2": {
+      "title": "Hvad troede du ville ske?",
+      "desc": "Hvad forventede eller frygtede du i det øjeblik?",
+      "placeholder": "Jeg var bekymret for, at..."
+    },
+    "s3": {
+      "title": "Hvordan havde du det?",
+      "desc": "Vælg de følelser, du følte, og deres intensitet."
+    },
+    "s4": {
+      "title": "Hvad skete der egentlig?",
+      "desc": "Fokuser på fakta om, hvad der virkelig skete.",
+      "placeholder": "I virkeligheden..."
+    },
+    "s5": {
+      "title": "Lad os se på begge dele",
+      "expectation": "Forventning",
+      "reality": "Virkelighed",
+      "question": "Hvor tæt var din forventning?"
+    },
+    "s6": {
+      "title": "Hvad lægger du mærke til?",
+      "desc": "Var det så slemt, som du troede, det ville være?",
+      "placeholder": "Jeg bemærker, at..."
+    },
+    "s7": {
+      "title": "Næste gang",
+      "desc": "Hvad kunne du minde dig selv om, hvis det sker igen?",
+      "placeholder": "f.eks. \"Måske bliver det ikke så slemt, som jeg forestiller mig.\""
+    },
+    "s8": {
+      "title": "En lille påmindelse",
+      "desc": "Dit sind prøver at forberede dig—men det forudsiger ikke altid præcist. Hver gang du stopper op for at se på fakta, opbygger du modstandskraft.",
+      "button": "Gem refleksion",
+      "discard": "Kasseret indgang"
+    }
+  },
+  "buttons": {
+    "continue": "Fortsæt"
+  },
+  "toasts": {
+    "saved": "Refleksion gemt!"
+  }
+}

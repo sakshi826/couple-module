@@ -1,0 +1,72 @@
+{
+  "app_title": "Kitaran Kemarahan-Malu",
+  "app_subtitle": "Memahami gelung • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Mengapa kemarahan terus kembali?",
+      "description": "Ia mungkin bukan perangai anda. Terdapat gelung tersembunyi antara kemarahan dan rasa malu — dan sebaik sahaja anda melihatnya, semuanya berubah.",
+      "quote": "\"Kebanyakan orang cuba membetulkan kemarahan. Tetapi rasa malu adalah apa yang secara senyap-senyap membuatkan ia berjalan.\"",
+      "button": "Mari terokai"
+    },
+    "s2": {
+      "tag": "kitaran",
+      "title": "Gelung dijelaskan",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Kemarahan muncul"
+        },
+        {
+          "emoji": "😔",
+          "label": "Malu: \"Saya buruk\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "Malu terkubur"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Kemarahan meletus lagi"
+        }
+      ],
+      "button": "Saya nampak ia"
+    },
+    "s3": {
+      "tag": "Apa yang sedang berlaku",
+      "title": "Dua emosi, satu perangkap",
+      "anger": {
+        "title": "🔥 Kemarahan",
+        "desc": "Emosi sekunder - di sebalik kehidupan terluka, ketakutan, atau penolakan. Ia adalah penggera, bukan kebakaran."
+      },
+      "shame": {
+        "title": "😔 Malu",
+        "desc": "\"Saya buruk\" - bukan hanya \"Saya melakukan sesuatu yang buruk.\" Ia menyembunyikan, menyenyapkan, dan memastikan kitaran berputar."
+      },
+      "button": "Membebaskan"
+    },
+    "s4": {
+      "tag": "Gangguan",
+      "title": "Mengganggu kitaran",
+      "steps": [
+        {
+          "title": "Namakan sumber",
+          "desc": "Tanya: 'Apa yang saya rasa sebenarnya?' Terluka? Takut? Tidak kelihatan? Menamakannya melemahkannya."
+        },
+        {
+          "title": "Jeda belas kasihan",
+          "desc": "Tangan di dada. Katakan: 'Ini sukar. Saya manusia. Saya boleh mengharungi ini.'"
+        },
+        {
+          "title": "Baiki dengan rahmat",
+          "desc": "Menebus kesalahan jika perlu — tetapi jangan berputar. Anda bukan detik terburuk anda."
+        }
+      ],
+      "notice": "Menyedari kitaran sudah menjadi langkah pertama. Anda sedang melakukan kerja.",
+      "button": "Lengkapkan Aktiviti"
+    }
+  },
+  "complete": {
+    "title": "Kitaran Terganggu",
+    "message": "Anda telah mendapat kesedaran untuk melihat hubungan antara kemarahan dan rasa malu. Ini adalah asas untuk kebebasan emosi yang berkekalan."
+  }
+}

@@ -5,7 +5,8 @@ import ScreenLanding from "@/features/write_your_narrative/components/narrative/
 import ScreenPastEntries from "@/features/write_your_narrative/components/narrative/ScreenPastEntries";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
-import { BookOpen, History, Save, Sparkles } from "lucide-react";
+import { BookOpen, History, Save } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { neon } from "@neondatabase/serverless";
 import { toast } from "sonner";
 import { motion, AnimatePresence } from "framer-motion";
@@ -21,6 +22,7 @@ interface SavedEntry {
 }
 
 const WritingNarrative = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState<Screen>("entry");
   const [writing, setWriting] = useState("");
   const [reflection, setReflection] = useState("");
@@ -50,7 +52,7 @@ const WritingNarrative = () => {
   const saveEntry = useCallback(async () => {
     const userId = sessionStorage.getItem("user_id");
     if (!userId || !DATABASE_URL) {
-      toast.error("Auth session missing or DB not configured");
+      toast.error(t("toasts.auth_error"));
       return;
     }
 
@@ -66,39 +68,34 @@ const WritingNarrative = () => {
     try {
       const sql = neon(DATABASE_URL);
       await sql`INSERT INTO write_your_narrative_entries (user_id, narrative_data) VALUES (${userId}, ${entry})`;
-      toast.success("Narrative preserved");
+      toast.success(t("toasts.save_success"));
       setEntries(prev => [entry, ...prev]);
       setWriting("");
       setReflection("");
       goTo("complete");
     } catch (error) {
       console.error("Failed to save narrative:", error);
-      toast.error("Failed to preserve narrative");
+      toast.error(t("toasts.save_error"));
     } finally {
       setIsSaving(false);
     }
-  }, [writing, reflection, goTo]);
+  }, [writing, reflection, goTo, t]);
 
   if (screen === "complete") {
     return (
       <PremiumComplete
-        title="Narrative Preserved"
-        message="You've taken a powerful step in telling your story. Your perspective matters, and your journey is uniquely yours."
+        title={t("complete.title")}
+        message={t("complete.message")}
         onRestart={() => setScreen("entry")}
       />
     );
   }
 
-  const titles: Record<string, string> = {
-    entry: "Welcome",
-    writing: "Expressing",
-    landing: "Reflecting",
-    history: "Your Journey"
-  };
+  const titles: Record<string, string> = t("nav", { returnObjects: true }) as Record<string, string>;
 
   return (
     <PremiumLayout
-      title="Your Narrative"
+      title={t("app_title")}
       subtitle={titles[screen]}
       icon={<BookOpen className="w-6 h-6 text-primary" />}
       onBack={screen !== "entry" ? () => setScreen("entry") : undefined}
@@ -147,7 +144,7 @@ const WritingNarrative = () => {
                   className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                 >
                   <Save size={20} strokeWidth={3} />
-                  {isSaving ? "Preserving..." : "Preserve Narrative"}
+                  {isSaving ? t("landing.button_preserving") : t("landing.button_save")}
                 </button>
               </div>
             )}

@@ -1,0 +1,80 @@
+{
+  "app_title": "Nazwij swój umysł",
+  "intro": {
+    "title": "Spotkaj swój umysł",
+    "description": "Naucz się dystansować od przytłaczających myśli, nadając swojemu wewnętrznemu głosowi imię.",
+    "benefits": [
+      "Stwórz dystans mentalny",
+      "Ogranicz moc ostrych myśli",
+      "Zauważaj myśli, nie będąc nimi"
+    ],
+    "duration": "2-3 minuty",
+    "view_past": "Zobacz wcześniejsze wpisy"
+  },
+  "history": {
+    "title": "Poprzednie wpisy",
+    "no_entries": "Jeszcze brak wpisów.",
+    "reflection_label": "Refleksja: {{text}}"
+  },
+  "complete": {
+    "title": "Aktywność zakończona",
+    "great_job": "Świetna robota!",
+    "message": "Udało ci się nazwać swój umysł i stworzyć przestrzeń między sobą a myślami.",
+    "footer": "Pamiętaj: Nie musisz wierzyć w każdą myśl, którą rzuca ci umysł."
+  },
+  "subtitles": {
+    "concept": "Perspektywa",
+    "input_thought": "Uwaga",
+    "input_name": "Nazwa",
+    "practice": "Praktyka"
+  },
+  "screens": {
+    "concept": {
+      "title": "Mała zmiana",
+      "example": "\"Nie jestem wystarczająco dobry\"",
+      "desc": "Kiedy pojawia się myśl, często wydaje się, że to <0>ty</0>. Ale co, gdybyś mógł się wycofać i <1>zauważenie</1> zamiast tego?"
+    },
+    "input_thought": {
+      "title": "Zacznijmy od prawdziwej myśli",
+      "desc": "Jaka jedna myśl ostatnio cię dręczy?",
+      "placeholder": "Napisz to dokładnie tak, jak ci przyjdzie..."
+    },
+    "input_name": {
+      "title": "Zrób pewien dystans",
+      "desc": "Nadaj swojemu umysłowi nazwę, by pomóc ci oddzielić się od tych myśli.",
+      "placeholder": "Albo napisz własne...",
+      "examples": [
+        "Krytyk",
+        "Nadmiernie analizujący",
+        "Worry FM",
+        "Maszyna nadmiernego myślenia",
+        "Wewnętrzny krytyk",
+        "Generator \"Co by było, gdyby\"",
+        "Reżyser dramatu"
+      ]
+    },
+    "practice": {
+      "title": "Spróbuj tej zmiany",
+      "instead_of": "Zamiast",
+      "try_saying": "Spróbuj powiedzieć",
+      "is_telling_me": "{{name}} mówi mi:",
+      "guide": "Delikatnie powtarzaj to zdanie 4–5 razy we własnym tempie.",
+      "button": "Jestem gotowy"
+    },
+    "reflection": {
+      "title": "Co zauważyłeś?",
+      "desc": "Jak się czuła ta myśl po nadaniu jej imienia?",
+      "options": [
+        "Ta myśl wydawała się trochę mniej intensywna niż wcześniej",
+        "Czułem, że mam pewien dystans od tej myśli",
+        "Wciąż czuł się tak samo silny jak wcześniej",
+        "Nie jestem pewien, co się zmieniło, jeśli w ogóle coś"
+      ],
+      "button": "Pełna refleksja"
+    }
+  },
+  "buttons": {
+    "continue": "Kontynuuj",
+    "restart": "Restart"
+  }
+}

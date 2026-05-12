@@ -1,0 +1,131 @@
+{
+  "common": {
+    "continue": "Ga verder",
+    "back": "Achteruit",
+    "home": "Terug naar huis",
+    "yes": "Ja",
+    "no": "Nee",
+    "date": "Datum"
+  },
+  "screens": {
+    "intro": {
+      "title": "Zelfzorgtracker",
+      "description": "Houd je dagelijkse zelfzorggedrag bij en kijk hoe ze je algehele welzijn beïnvloeden. Consistentie is de sleutel tot een gezondere geest.",
+      "benefits": [
+        "Registreer dagelijkse zelfzorgactiviteiten",
+        "Houd de tijd bij die je aan jezelf besteedt",
+        "Houd je stemmingspatronen in de gaten",
+        "Bekijk geschiedenis en voortgang"
+      ],
+      "duration": "2-3 minuten"
+    },
+    "checkin": {
+      "title": "Zelfzorg check-in 🌿",
+      "subtitle": "Hoe heb je vandaag voor jezelf gezorgd?",
+      "question": "Heb je vandaag aan zelfzorg gedaan? *",
+      "description": "Zelfzorg is elke activiteit die we bewust doen om voor onze mentale, emotionele en fysieke gezondheid te zorgen."
+    },
+    "activities": {
+      "title": "Uw activiteiten 🎯",
+      "subtitle": "Welke zelfzorgactiviteiten heb je vandaag gedaan?"
+    },
+    "duration": {
+      "title": "Tijd besteed ⏱️",
+      "subtitle": "Hoe lang heb je aan zelfzorg besteed? (optioneel)"
+    },
+    "noSelfCare": {
+      "title": "Dat is oké 💛",
+      "subtitle": "Laten we begrijpen wat er vandaag is gebeurd.",
+      "question1": "Wat heeft zelfzorg vandaag de dag voorkomen? (optioneel)",
+      "question2": "Wat voor soort zelfzorg zou geholpen hebben? (optioneel)"
+    },
+    "mood": {
+      "title": "Hoe voel je je? 🫧",
+      "subtitle": "Selecteer je huidige stemming (optioneel)"
+    },
+    "review": {
+      "title": "Uw Inzending 📋",
+      "subtitle": "Hier is een samenvatting van de check-in van vandaag",
+      "didSelfCare": "Zelfzorg?",
+      "activities": "Activiteiten",
+      "duration": "Duur",
+      "mood": "Stemming",
+      "challenges": "Voorkomen door",
+      "whatHelps": "Dat had geholpen",
+      "viewHistory": "Wekelijkse Geschiedenis",
+      "editToday": "Bewerkingsvermelding",
+      "summary": "Samenvatting"
+    },
+    "history": {
+      "title": "Wekelijkse Geschiedenis 📅",
+      "subtitle": "Geen inzendingen in de afgelopen 7 dagen"
+    },
+    "notfound": {
+      "title": "404",
+      "subtitle": "Oeps! Pagina niet gevonden",
+      "returnHome": "Terugkeer naar huis"
+    }
+  },
+  "data": {
+    "activities": {
+      "Exercise": "Oefening",
+      "Meditation": "Meditatie",
+      "Journaling": "Dagboekschrijven",
+      "Reading": "Lezen",
+      "Rest / Nap": "Rust / Dutje",
+      "Skincare": "Huidverzorging",
+      "Healthy Meal": "Gezonde maaltijd",
+      "Nature / Walk": "Natuur / Wandeling",
+      "Social Time": "Sociale Tijd",
+      "Hobby": "Hobby",
+      "Therapy": "Therapie",
+      "Digital Detox": "Digitale detox"
+    },
+    "durations": {
+      "< 10 minutes": "< 10 minuten",
+      "10–30 minutes": "10–30 minuten",
+      "30–60 minutes": "30–60 minuten",
+      "1+ hour": "1+ uur"
+    },
+    "reasons": {
+      "Busy schedule": "Druk schema",
+      "Low energy": "Lage energie",
+      "Stress": "Stress",
+      "Forgot": "Vergeten",
+      "No motivation": "Geen motivatie",
+      "Not feeling well": "Voel me niet lekker",
+      "Lack of time": "Gebrek aan tijd",
+      "Emotional overwhelm": "Emotionele overweldiging"
+    },
+    "helpfulTypes": {
+      "Rest": "Rust",
+      "Relaxation": "Ontspanning",
+      "Physical activity": "Lichamelijke activiteit",
+      "Talking to someone": "Met iemand praten",
+      "Quiet time": "Rustige tijd",
+      "Creative activity": "Creatieve activiteit"
+    },
+    "moods": {
+      "Happy": "Blij",
+      "Calm": "Rustig",
+      "Neutral": "Neutraal",
+      "Low": "Laag",
+      "Stressed": "Gestrest",
+      "Tired": "Moe"
+    },
+    "positiveStatements": [
+      "Je bent vandaag voor jezelf gekomen. Dat is krachtig. 🌿",
+      "Zelfzorg is niet egoïstisch — het is essentieel. Goed gedaan. 💚",
+      "Elke kleine daad van zorg bouwt een sterkere jij op. 🌱",
+      "Je hebt vandaag in jezelf geïnvesteerd. Dat is belangrijk. ✨",
+      "Voor jezelf zorgen is het beste wat je vandaag hebt gedaan. 🍃"
+    ],
+    "supportiveStatements": [
+      "Het is oké. Morgen is een frisse start. Wees zacht voor jezelf. 🤍",
+      "Niet elke dag zal perfect zijn, en dat is helemaal prima. 🕊️",
+      "Je doet je best. Dat is altijd genoeg. 💛",
+      "Rust is ook een vorm van zelfzorg. Wees mild voor jezelf. 🌸",
+      "Vandaag erkennen vergt moed. Je groeit al. 🌷"
+    ]
+  }
+}

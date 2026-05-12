@@ -1,0 +1,21 @@
+{
+  "app_title": "Průvodce spánkem",
+  "app_subtitle": "Pochopení úzkosti ze spánku",
+  "tag": "Psychovzdělávání",
+  "screen1": {
+    "intro": "Čím víc se snažíš, tím těžší to je.",
+    "title": "Snažit se donutit usnout je přesně to, co vás drží vzhůru.",
+    "p1": "Lehnete si, zavřete oči — a mozek se zapne. Přehrávám si rozhovory. Sleduje hodiny.",
+    "p2": "To není slabost. Je to jev nazývaný <1>spánková úzkost</1> — a postihuje miliony lidí.",
+    "quote": "\"Úzkost ze spánku není o tom, že nejsem unavený. Jde o to, že tvůj nervový systém je zaseknutý v režimu 'zapnuto'.\"",
+    "button": "Zjistěte více"
+  },
+  "screen2": {
+    "intro": "Tady je věda za tím.",
+    "title": "Váš mozek se naučil brát postel jako místo stresu — ne jako odpočinek.",
+    "p1": "Vaše amygdala — detektor hrozeb v mozku — zůstává v noci aktivovaná a signalizuje nebezpečí hned, jak se vaše hlava dotkne polštáře.",
+    "p2": "Tomu se říká <1>podmíněné vzrušení</1> — vysvětluje, proč se cítíte celý den vyčerpaní, ale před spaním jste úplně vzhůru.",
+    "quote": "\"Tvůj mozek není rozbitý. Jednoduše se naučila špatnou lekci ohledně večerky — a může se jí opakovat.\"",
+    "button": "Předchozí krok"
+  }
+}

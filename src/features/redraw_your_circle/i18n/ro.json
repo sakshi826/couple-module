@@ -1,0 +1,61 @@
+{
+  "app_title": "Redesenează-ți cercul",
+  "intro": {
+    "title": "Redesenează-ți cercul",
+    "p1": "În diferite momente ale vieții, sistemul nostru de sprijin se poate schimba. 🌱 Uneori ne simțim conectați și susținuți. Alteori, lucrurile pot părea îndepărtate sau neclare.",
+    "p2": "Această activitate este un spațiu pentru a face o pauză și a privi oamenii din jurul tău — și a înțelege cine se simte în prezent parte din cercul tău. 💛",
+    "p3": "Nu există bine sau rău aici. Doar conștientizare. ✨",
+    "italic": "🌿 Cercul tău se poate schimba — și e în regulă.",
+    "button": "Începe →"
+  },
+  "circle": {
+    "subtitle": "Cine face parte din sistemul tău de sprijin?",
+    "title": "Cine e în cercul tău acum? 🔮",
+    "desc": "Gândește-te la oamenii din viața ta și la locul unde apar pentru tine.",
+    "instruction": "👆 Atinge fiecare bulă și adaugă pe cineva care să se potrivească în acel spațiu din viața ta.",
+    "center_node": "Tu",
+    "italic": "🤍 E în regulă dacă cercul tău pare mic.",
+    "button": "Continuă →",
+    "modal": {
+      "title": "Adaugă un nume",
+      "placeholder": "Introdu un nume...",
+      "button": "Salvează numele"
+    },
+    "prompts": [
+      "O persoană care aduce bucurie",
+      "O persoană care te susține",
+      "O persoană cu care poți vorbi",
+      "O persoană în care ai încredere",
+      "O persoană care te inspiră"
+    ]
+  },
+  "reflection": {
+    "subtitle": "Reflecții finale",
+    "title": "Ce observi?",
+    "p_intro": "Ia-ți un moment să te uiți la cercul tău. S-ar putea să observi:",
+    "list": [
+      "Unii oameni se simt mai apropiați decât alții",
+      "Unele conexiuni par puternice",
+      "Unele par îndepărtate sau neclare",
+      "Pot exista goluri — sau doar câteva persoane semnificative"
+    ],
+    "italic": "Conștientizarea este primul pas spre construirea conexiunilor pe care le prețuiești. 🧘",
+    "label": "💭 Există cineva cu care ai vrea să te simți mai conectat?",
+    "placeholder": "Scrie-ți gândurile aici...",
+    "save_button": "Salvează reflecția",
+    "saving_button": "Salvând...",
+    "skip_button": "Skip & Finish"
+  },
+  "history": {
+    "title": "Istoria Cercurilor Tale",
+    "subtitle": "O evidență a sistemului tău de sprijin de-a lungul timpului.",
+    "no_entries": "Niciun cerc salvat încă.",
+    "reflection_label": "Reflecție:",
+    "back_button": "Înapoi acasă"
+  },
+  "toasts": {
+    "save_success": "Cerc salvat",
+    "save_error": "A eșuat să salveze cercul",
+    "auth_error": "Sesiune de autentificare lipsă sau bază de date neconfigurată"
+  }
+}

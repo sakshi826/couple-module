@@ -1,0 +1,73 @@
+{
+  "app_title": "Ćwiczenia pauzy",
+  "app_subtitle": "Opanuj przestrzeń pomiędzy",
+  "intro": {
+    "title": "5-sekundowa pauza",
+    "description": "Mała przerwa między odczuwaniem a reakcją może zmienić wszystko.",
+    "duration": "Zajmuje mniej niż 15 sekund. Naprawdę.",
+    "button": "Spróbuj →"
+  },
+  "scenario": {
+    "title": "Co cię wywołuje?",
+    "desc": "Wybierz sytuację, z którą się utożsamiasz",
+    "options": [
+      {
+        "id": "przerwania",
+        "label": "Ktoś mi przerywa",
+        "emoji": "😠"
+      },
+      {
+        "id": "Plany",
+        "label": "Sprawy nie idą zgodnie z planem",
+        "emoji": "😤"
+      },
+      {
+        "id": "Zignorowane",
+        "label": "Czuję się ignorowana",
+        "emoji": "😔"
+      },
+      {
+        "id": "przytłoczony",
+        "label": "Czuję się przytłoczony",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Wpisz własne...",
+    "button": "Ćwiczenie pauzy →"
+  },
+  "hold": {
+    "title": "Przytrzymaj do pauzy ⏸️",
+    "instructions": "Trzymaj kółko przez 5 sekund",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Naciśnij i przytrzymaj..."
+      },
+      {
+        "at": "0.15",
+        "text": "Trzymaj się..."
+      },
+      {
+        "at": "0.5",
+        "text": "Robisz to..."
+      },
+      {
+        "at": "0.8",
+        "text": "Już prawie..."
+      }
+    ]
+  },
+  "result": {
+    "title": "To jest ta pauza",
+    "message": "Po prostu stworzyłeś dystans między tym, co czułeś, a tym, jak reagujesz. Nawet krótka pauza pomaga odzyskać swój środek.",
+    "tip_label": "Porada profesjonalna",
+    "scenario_messages": {
+      "interrupts": "Następnym razem, gdy ktoś ci przerwie, spróbuj tego zanim odpowiesz.",
+      "plans": "Następnym razem, gdy coś pójdzie nie zgodnie z planem, spróbuj tego, zanim zareagujesz.",
+      "ignored": "Następnym razem, gdy poczujesz się ignorowany, spróbuj tego zanim odpowiesz.",
+      "overwhelmed": "Następnym razem, gdy poczujesz się przytłoczony, spróbuj tego zanim cokolwiek zrobisz.",
+      "other": "Następnym razem, gdy poczujesz się wyzwalany, spróbuj tego zanim zareagujesz."
+    },
+    "italic": "Nie zawsze będzie to łatwe — ale konsekwencja jest kluczowa."
+  }
+}

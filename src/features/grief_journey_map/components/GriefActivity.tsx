@@ -1,5 +1,6 @@
 import { useState, useCallback } from "react";
 import { Compass, ChevronRight, Heart, Sparkles } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import { motion, AnimatePresence } from "framer-motion";
@@ -7,79 +8,88 @@ import { motion, AnimatePresence } from "framer-motion";
 const TOTAL_SCREENS = 3;
 
 /* ── Screen 1: Hook ── */
-const Screen1 = ({ onNext }: { onNext: () => void }) => (
-  <div className="flex flex-1 flex-col gap-8">
-    <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 flex flex-col justify-center text-center min-h-[450px]">
-      <div className="w-24 h-24 bg-primary/10 rounded-[2.5rem] flex items-center justify-center mx-auto mb-8 text-6xl animate-bounce-slow">🌊</div>
-      <h1 className="text-3xl font-black text-slate-800 mb-4 leading-tight">
-        You're not grieving wrong
-      </h1>
-      <p className="text-slate-600 font-medium leading-relaxed text-base mb-8">
-        Grief doesn't arrive in neat stages and leave on schedule. It crashes in, retreats, and comes back when you least expect it. That's not a flaw in you — that's grief.
-      </p>
-      <div className="bg-sky-50 rounded-2xl p-8 italic text-sky-900 text-base font-bold leading-relaxed border-l-8 border-sky-400">
-        "There is no right way to grieve. There is only your way."
+const Screen1 = ({ onNext }: { onNext: () => void }) => {
+  const { t } = useTranslation();
+  return (
+    <div className="flex flex-1 flex-col gap-8">
+      <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 flex flex-col justify-center text-center min-h-[450px]">
+        <div className="w-24 h-24 bg-primary/10 rounded-[2.5rem] flex items-center justify-center mx-auto mb-8 text-6xl animate-bounce-slow">🌊</div>
+        <h1 className="text-3xl font-black text-slate-800 mb-4 leading-tight">
+          {t("screen1_title")}
+        </h1>
+        <p className="text-slate-600 font-medium leading-relaxed text-base mb-8">
+          {t("screen1_desc")}
+        </p>
+        <div className="bg-sky-50 rounded-2xl p-8 italic text-sky-900 text-base font-bold leading-relaxed border-l-8 border-sky-400">
+          {t("screen1_quote")}
+        </div>
       </div>
+      <button
+        onClick={onNext}
+        className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
+      >
+        {t("btn_tell_more")}
+        <ChevronRight size={20} strokeWidth={3} />
+      </button>
     </div>
-    <button
-      onClick={onNext}
-      className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
-    >
-      Tell me more
-      <ChevronRight size={20} strokeWidth={3} />
-    </button>
-  </div>
-);
+  );
+};
 
 /* ── Screen 2: Graph ── */
-const GriefGraph = () => (
-  <div className="grid grid-cols-1 gap-6 mt-4">
-    <div className="rounded-3xl bg-slate-50 border border-slate-100 p-6">
-      <p className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 mb-4">The Expectation</p>
-      <svg viewBox="0 0 100 40" className="w-full">
-        <path d="M10,35 L90,5" fill="none" stroke="#94a3b8" strokeWidth="2" strokeLinecap="round" />
-        <circle cx="10" cy="35" r="3" fill="#94a3b8" />
-        <circle cx="90" cy="5" r="3" fill="#94a3b8" />
-      </svg>
-      <p className="text-[10px] text-slate-500 mt-4 text-center font-black italic tracking-widest uppercase opacity-60">Linear • Predictable • Clear</p>
-    </div>
+const GriefGraph = () => {
+  const { t } = useTranslation();
+  return (
+    <div className="grid grid-cols-1 gap-6 mt-4">
+      <div className="rounded-3xl bg-slate-50 border border-slate-100 p-6">
+        <p className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 mb-4">{t("expectation_label")}</p>
+        <svg viewBox="0 0 100 40" className="w-full">
+          <path d="M10,35 L90,5" fill="none" stroke="#94a3b8" strokeWidth="2" strokeLinecap="round" />
+          <circle cx="10" cy="35" r="3" fill="#94a3b8" />
+          <circle cx="90" cy="5" r="3" fill="#94a3b8" />
+        </svg>
+        <p className="text-[10px] text-slate-500 mt-4 text-center font-black italic tracking-widest uppercase opacity-60">{t("expectation_desc")}</p>
+      </div>
 
-    <div className="rounded-3xl bg-rose-50 border border-rose-100 p-6">
-      <p className="text-[10px] font-black uppercase tracking-[0.2em] text-rose-400 mb-4">The Reality</p>
-      <svg viewBox="0 0 100 40" className="w-full">
-        <path d="M10,35 C20,5 30,45 40,15 C50,0 60,40 70,10 C80,25 90,5 90,5" fill="none" stroke="#e11d48" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-        <circle cx="10" cy="35" r="3" fill="#e11d48" />
-        <circle cx="90" cy="5" r="3" fill="#e11d48" />
-      </svg>
-      <p className="text-[10px] text-rose-600 mt-4 text-center font-black italic tracking-widest uppercase">Chaotic • Looping • Human</p>
+      <div className="rounded-3xl bg-rose-50 border border-rose-100 p-6">
+        <p className="text-[10px] font-black uppercase tracking-[0.2em] text-rose-400 mb-4">{t("reality_label")}</p>
+        <svg viewBox="0 0 100 40" className="w-full">
+          <path d="M10,35 C20,5 30,45 40,15 C50,0 60,40 70,10 C80,25 90,5 90,5" fill="none" stroke="#e11d48" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <circle cx="10" cy="35" r="3" fill="#e11d48" />
+          <circle cx="90" cy="5" r="3" fill="#e11d48" />
+        </svg>
+        <p className="text-[10px] text-rose-600 mt-4 text-center font-black italic tracking-widest uppercase">{t("reality_desc")}</p>
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
-const Screen2 = ({ onNext }: { onNext: () => void }) => (
-  <div className="flex flex-1 flex-col gap-8">
-    <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 min-h-[450px]">
-      <span className="inline-block rounded-full bg-rose-100 text-rose-600 px-4 py-1.5 text-[10px] font-black uppercase tracking-widest mb-6">
-        the real picture
-      </span>
-      <h1 className="text-3xl font-black text-slate-800 mb-4">Grief wears many faces</h1>
-      <p className="text-slate-600 font-medium text-base mb-8 leading-relaxed">
-        This is what people expect grief to look like — vs what it actually is.
-      </p>
-      <GriefGraph />
-      <p className="text-slate-400 text-xs mt-10 text-center italic font-bold leading-relaxed max-w-[250px] mx-auto">
-        "None of these waves are wrong. All of them are grief."
-      </p>
+const Screen2 = ({ onNext }: { onNext: () => void }) => {
+  const { t } = useTranslation();
+  return (
+    <div className="flex flex-1 flex-col gap-8">
+      <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 min-h-[450px]">
+        <span className="inline-block rounded-full bg-rose-100 text-rose-600 px-4 py-1.5 text-[10px] font-black uppercase tracking-widest mb-6">
+          {t("screen2_tag")}
+        </span>
+        <h1 className="text-3xl font-black text-slate-800 mb-4">{t("screen2_title")}</h1>
+        <p className="text-slate-600 font-medium text-base mb-8 leading-relaxed">
+          {t("screen2_desc")}
+        </p>
+        <GriefGraph />
+        <p className="text-slate-400 text-xs mt-10 text-center italic font-bold leading-relaxed max-w-[250px] mx-auto">
+          {t("screen2_quote")}
+        </p>
+      </div>
+      <button
+        onClick={onNext}
+        className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
+      >
+        {t("btn_one_more")}
+        <ChevronRight size={20} strokeWidth={3} />
+      </button>
     </div>
-    <button
-      onClick={onNext}
-      className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
-    >
-      One more thing
-      <ChevronRight size={20} strokeWidth={3} />
-    </button>
-  </div>
-);
+  );
+};
 
 /* ── Screen 3: Gentle Truths ── */
 const TruthCard = ({ emoji, title, body }: { emoji: string; title: string; body: string }) => (
@@ -91,44 +101,42 @@ const TruthCard = ({ emoji, title, body }: { emoji: string; title: string; body:
   </div>
 );
 
-const Screen3 = ({ onNext }: { onNext: () => void }) => (
-  <div className="flex flex-1 flex-col gap-8">
-    <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 min-h-[450px]">
-      <span className="inline-block rounded-full bg-emerald-100 text-emerald-600 px-4 py-1.5 text-[10px] font-black uppercase tracking-widest mb-6">
-        gentle truths
-      </span>
-      <h1 className="text-3xl font-black text-slate-800 mb-8">Worth knowing</h1>
+const Screen3 = ({ onNext }: { onNext: () => void }) => {
+  const { t } = useTranslation();
+  const truths = t("truths", { returnObjects: true }) as any[];
+  return (
+    <div className="flex flex-1 flex-col gap-8">
+      <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 min-h-[450px]">
+        <span className="inline-block rounded-full bg-emerald-100 text-emerald-600 px-4 py-1.5 text-[10px] font-black uppercase tracking-widest mb-6">
+          {t("screen3_tag")}
+        </span>
+        <h1 className="text-3xl font-black text-slate-800 mb-8">{t("screen3_title")}</h1>
 
-      <div className="space-y-6">
-        <TruthCard
-          emoji="🗓️"
-          title="No deadline"
-          body="There's no expiry date on loss. Feeling it months or years later doesn't mean you're stuck — it means you loved."
-        />
-        <TruthCard
-          emoji="🌗"
-          title="Contradictory feelings"
-          body="You can miss someone and feel relieved. You can laugh and grieve. Grief holds opposites."
-        />
-        <TruthCard
-          emoji="🤍"
-          title="Love's transformation"
-          body="The pain isn't separate from the love. It's the same thing, transformed."
-        />
+        <div className="space-y-6">
+          {Array.isArray(truths) && truths.map((truth, i) => (
+            <TruthCard
+              key={i}
+              emoji={truth.emoji}
+              title={truth.title}
+              body={truth.body}
+            />
+          ))}
+        </div>
       </div>
+      <button
+        onClick={onNext}
+        className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
+      >
+        {t("btn_finish")}
+        <ChevronRight size={20} strokeWidth={3} />
+      </button>
     </div>
-    <button
-      onClick={onNext}
-      className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
-    >
-      Finish Reflection
-      <ChevronRight size={20} strokeWidth={3} />
-    </button>
-  </div>
-);
+  );
+};
 
 /* ── Main Activity ── */
 const GriefActivity = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState(0);
 
   const screens = [
@@ -140,8 +148,8 @@ const GriefActivity = () => {
   if (screen === 3) {
     return (
       <PremiumComplete
-        title="Journey Honored"
-        message="You don't have to move on. You just learn to carry it differently. Your journey is unique, valid, and deeply human."
+        title={t("complete_title")}
+        message={t("complete_message")}
         onRestart={() => setScreen(0)}
       />
     );
@@ -149,8 +157,8 @@ const GriefActivity = () => {
 
   return (
     <PremiumLayout
-      title="Grief Journey"
-      subtitle={`The map of loss • ${screen + 1}/${TOTAL_SCREENS}`}
+      title={t("app_title")}
+      subtitle={t("app_subtitle", { current: screen + 1, total: TOTAL_SCREENS })}
       icon={<Compass className="w-6 h-6 text-primary" />}
       onBack={screen > 0 ? () => setScreen(prev => prev - 1) : undefined}
       onReset={screen > 0 ? () => setScreen(0) : undefined}

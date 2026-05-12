@@ -1,0 +1,37 @@
+{
+  "app_title": "Ressources",
+  "not_found": {
+    "title": "Non trouvé",
+    "message": "Ressource non trouvée",
+    "description": "Le contenu que vous cherchez a peut-être déplacé.",
+    "button": "Retourne"
+  },
+  "list": {
+    "empty_title": "Aucun {{type}} disponible",
+    "empty_desc": "Nous sommes actuellement en train de sélectionner davantage de ressources pour ce sujet.",
+    "footer": "Soins de mantras • Ressources fondées sur des preuves"
+  },
+  "detail": {
+    "loading": "Chargement...",
+    "tip": {
+      "insight_label": "L’Aperçu",
+      "plan_title": "Plan d’action quotidien",
+      "steps": "{{count}} Étapes",
+      "example_label": "Exemple d’entraînement",
+      "instead_of": "Au lieu de",
+      "try_this": "Essaie ça"
+    },
+    "article": {
+      "final_thought": "Dernière réflexion"
+    },
+    "story": {
+      "reflection_label": "Quelque chose avec quoi s’asseoir",
+      "note_label": "Note de l’auteur"
+    },
+    "myth": {
+      "truth_label": "La vérité scientifique",
+      "explanation_label": "Explication détaillée",
+      "insight_label": "Aperçu clé"
+    }
+  }
+}

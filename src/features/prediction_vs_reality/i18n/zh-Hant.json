@@ -1,0 +1,93 @@
+{
+  "app_title": "預測與現實",
+  "step_label": "第8步中的{{current}}",
+  "intro": {
+    "title": "預測與現實",
+    "description": "將你的焦慮預測與實際發生的事做比較，建立更平衡的觀點。",
+    "benefits": [
+      "辨識焦慮模式",
+      "蒐集對抗恐懼的證據",
+      "減少未來過度思考"
+    ],
+    "duration": "4到5分鐘",
+    "view_past": "回顧過去的反思"
+  },
+  "history": {
+    "title": "過去的回顧",
+    "no_reflections": "還沒儲存任何倒影。",
+    "prediction_label": "預測",
+    "reality_label": "現實",
+    "reflection_label": "反思："
+  },
+  "complete": {
+    "title": "活動完成",
+    "saved_title": "省略",
+    "message": "透過觀察事實，你幫助心智學會事情往往比看起來更容易掌控。"
+  },
+  "emotions": [
+    "焦慮",
+    "緊張",
+    "害怕",
+    "感到不堪負荷",
+    "不安"
+  ],
+  "intensity_labels": {
+    "not_intense": "不算強烈",
+    "very_intense": "非常激烈"
+  },
+  "comparison_options": [
+    "結果幾乎和我預期的完全一樣",
+    "有些部分是對的，但不是全部",
+    "這和我預期的很不一樣",
+    "比我想像中簡單多了，也更好"
+  ],
+  "screens": {
+    "s1": {
+      "title": "想想最近的一個情況",
+      "desc": "回想一下最近你感到焦慮或不確定的時刻。",
+      "placeholder": "描述情況......"
+    },
+    "s2": {
+      "title": "你以為會發生什麼事？",
+      "desc": "那一刻你期待或害怕什麼？",
+      "placeholder": "我擔心......"
+    },
+    "s3": {
+      "title": "你當時感覺如何？",
+      "desc": "選擇你感受到的情緒及其強度。"
+    },
+    "s4": {
+      "title": "到底發生了什麼事？",
+      "desc": "專注於真實發生的事實。",
+      "placeholder": "事實上......"
+    },
+    "s5": {
+      "title": "讓我們來看看兩者",
+      "expectation": "期望",
+      "reality": "現實",
+      "question": "你的期望有多接近？"
+    },
+    "s6": {
+      "title": "你注意到什麼？",
+      "desc": "情況真的像你想像的那麼糟嗎？",
+      "placeholder": "我注意到......"
+    },
+    "s7": {
+      "title": "下次見",
+      "desc": "如果這種事再發生，你會怎麼提醒自己？",
+      "placeholder": "例如，「也許不會像我想的那麼糟。」"
+    },
+    "s8": {
+      "title": "小小的提醒",
+      "desc": "你的心智試圖為你做好準備——但並不總是準確預測。每次你停下來審視事實，都會建立起韌性。",
+      "button": "儲存反思",
+      "discard": "棄牌進入"
+    }
+  },
+  "buttons": {
+    "continue": "繼續"
+  },
+  "toasts": {
+    "saved": "反思已存！"
+  }
+}

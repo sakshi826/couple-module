@@ -1,0 +1,72 @@
+{
+  "app_title": "Narasi Anda",
+  "nav": {
+    "entry": "Selamat datang",
+    "writing": "Mengekspresikan",
+    "landing": "Mencerminkan",
+    "history": "Perjalanan Anda"
+  },
+  "entry": {
+    "title": "Mari kita lakukan ini selangkah demi selangkah. 💛",
+    "description": [
+      "Anda tidak perlu menceritakan seluruh kisah Anda hari ini. Hanya sebagian kecil sudah cukup.",
+      "Anda aman sekarang. Anda memegang kendali atas apa yang Anda tulis—dan apa yang tidak."
+    ],
+    "breath": "Tarik napas perlahan sebelum kita mulai.",
+    "button_ready": "Saya siap",
+    "button_history": "Narasi Masa Lalu",
+    "footer": "Kata-kata Anda • Kecepatan Anda • Cerita Anda"
+  },
+  "writing": {
+    "title": "Tulis apa yang terasa baik-baik saja ✨",
+    "subtitle": "Kata-kata Anda, kecepatan Anda",
+    "prompt_label": "Butuh titik awal?",
+    "prompts": [
+      {
+        "text": "Yang paling saya ingat adalah...",
+        "emoji": "💭"
+      },
+      {
+        "text": "Saat itu, saya merasa ...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "Sejak itu, saya perhatikan...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "Mulailah menulis di sini...",
+    "notice": "Tidak ada cara yang benar untuk melakukan ini. Bahkan beberapa baris sudah cukup.",
+    "button": "Selesai Menulis"
+  },
+  "landing": {
+    "title": "Anda melakukan sesuatu yang penting.",
+    "subtitle": "Terima kasih telah muncul untuk diri Anda sendiri.",
+    "settle_title": "Mari kita luangkan waktu sejenak untuk menyelesaikan",
+    "steps": [
+      "Lihatlah sekeliling dan sebutkan 3 hal yang dapat Anda lihat.",
+      "Tarik napas perlahan ... dan keluar."
+    ],
+    "feeling_label": "Saat ini, saya merasa:",
+    "feeling_placeholder": "Satu atau dua kata ...",
+    "quote": "\"Anda tidak harus membawa semuanya sekaligus. Anda dapat kembali kapan pun Anda merasa siap.\"",
+    "button_save": "Melestarikan Narasi",
+    "button_preserving": "Melestarikan..."
+  },
+  "history": {
+    "title": "Perjalanan Anda 📝",
+    "subtitle": "Narasi & refleksi masa lalu",
+    "empty": "Anda belum menyimpan entri apa pun. Luangkan waktu Anda—tidak perlu terburu-buru.",
+    "no_writing": "Tidak ada tulisan yang dipertahankan",
+    "button_back": "Kembali ke Aktivitas"
+  },
+  "complete": {
+    "title": "Narasi Dipertahankan",
+    "message": "Anda telah mengambil langkah yang kuat dalam menceritakan kisah Anda. Perspektif Anda penting, dan perjalanan Anda adalah milik Anda yang unik."
+  },
+  "toasts": {
+    "save_success": "Narasi dipertahankan",
+    "save_error": "Gagal melestarikan narasi",
+    "auth_error": "Sesi autentikasi hilang atau DB tidak dikonfigurasi"
+  }
+}

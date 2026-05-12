@@ -1,0 +1,37 @@
+{
+  "app_title": "資料",
+  "not_found": {
+    "title": "見つかりませんでした",
+    "message": "リソースが見つかりません",
+    "description": "あなたが探しているコンテンツが移動している可能性があります。",
+    "button": "戻れ"
+  },
+  "list": {
+    "empty_title": "{{type}} は利用できません",
+    "empty_desc": "現在、このテーマに関するさらなるリソースをキュレーションしています。",
+    "footer": "マントラケア • エビデンスに基づくリソース"
+  },
+  "detail": {
+    "loading": "読み込み中...",
+    "tip": {
+      "insight_label": "洞察",
+      "plan_title": "日々の行動計画",
+      "steps": "{{count}} ステップ",
+      "example_label": "練習例",
+      "instead_of": "代わりに",
+      "try_this": "これを試してみて"
+    },
+    "article": {
+      "final_thought": "最終の思い"
+    },
+    "story": {
+      "reflection_label": "座るためのものが欲しい",
+      "note_label": "著者からの注記"
+    },
+    "myth": {
+      "truth_label": "科学的真実",
+      "explanation_label": "詳細な説明",
+      "insight_label": "重要な洞察"
+    }
+  }
+}

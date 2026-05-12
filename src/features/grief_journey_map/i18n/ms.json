@@ -1,0 +1,39 @@
+{
+  "app_title": "Perjalanan Kesedihan",
+  "app_subtitle": "Peta kerugian • {{current}}/{{total}}",
+  "screen1_title": "Anda tidak bersedih salah",
+  "screen1_desc": "Kesedihan tidak tiba dalam peringkat yang kemas dan pergi mengikut jadual. Ia terhempas, berundur dan kembali apabila anda tidak menjangkakannya. Itu bukan kelemahan dalam diri anda - itu kesedihan.",
+  "screen1_quote": "\"Tiada cara yang betul untuk bersedih. Hanya ada cara anda.\"",
+  "btn_tell_more": "Beritahu saya lebih lanjut",
+  "screen2_tag": "Gambar sebenar",
+  "screen2_title": "Kesedihan memakai banyak wajah",
+  "screen2_desc": "Inilah yang diharapkan oleh orang ramai untuk kesedihan - berbanding apa yang sebenarnya.",
+  "expectation_label": "Jangkaan",
+  "reality_label": "Realiti",
+  "expectation_desc": "Linear • Boleh diramal • Jelas",
+  "reality_desc": "Huru-hara • Gelung • Manusia",
+  "screen2_quote": "\"Tiada satu pun daripada gelombang ini salah. Kesemuanya adalah kesedihan.\"",
+  "btn_one_more": "Satu perkara lagi",
+  "screen3_tag": "kebenaran lembut",
+  "screen3_title": "Patut diketahui",
+  "truths": [
+    {
+      "emoji": "🗓️",
+      "title": "Tiada tarikh akhir",
+      "body": "Tiada tarikh luput untuk kerugian. Merasakannya berbulan-bulan atau bertahun-tahun kemudian tidak bermakna anda terperangkap - ini bermakna anda mencintai."
+    },
+    {
+      "emoji": "🌗",
+      "title": "Perasaan yang bercanggah",
+      "body": "Anda boleh merindui seseorang dan berasa lega. Anda boleh ketawa dan bersedih. Kesedihan mempunyai yang bertentangan."
+    },
+    {
+      "emoji": "🤍",
+      "title": "Transformasi cinta",
+      "body": "Kesakitan tidak terpisah daripada cinta. Ia adalah perkara yang sama, berubah."
+    }
+  ],
+  "btn_finish": "Selesaikan Refleksi",
+  "complete_title": "Perjalanan Dihormati",
+  "complete_message": "Anda tidak perlu meneruskan. Anda hanya belajar untuk membawanya secara berbeza. Perjalanan anda adalah unik, sah dan sangat manusiawi."
+}

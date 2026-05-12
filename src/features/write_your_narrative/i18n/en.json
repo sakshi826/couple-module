@@ -1,0 +1,63 @@
+{
+  "app_title": "Your Narrative",
+  "nav": {
+    "entry": "Welcome",
+    "writing": "Expressing",
+    "landing": "Reflecting",
+    "history": "Your Journey"
+  },
+  "entry": {
+    "title": "Let's take this one step at a time. 💛",
+    "description": [
+      "You don't have to tell your whole story today. Just a small part is enough.",
+      "You're safe right now. You're in control of what you write—and what you don't."
+    ],
+    "breath": "Take a slow breath before we begin.",
+    "button_ready": "I'm ready",
+    "button_history": "Past Narratives",
+    "footer": "Your words • Your pace • Your story"
+  },
+  "writing": {
+    "title": "Write what feels okay ✨",
+    "subtitle": "Your words, your pace",
+    "prompt_label": "Need a starting point?",
+    "prompts": [
+      { "text": "What I remember most is…", "emoji": "💭" },
+      { "text": "At that time, I felt…", "emoji": "🌊" },
+      { "text": "Since then, I've noticed…", "emoji": "🌱" }
+    ],
+    "placeholder": "Start writing here…",
+    "notice": "There's no right way to do this. Even a few lines are enough.",
+    "button": "Finish Writing"
+  },
+  "landing": {
+    "title": "You did something important.",
+    "subtitle": "Thank you for showing up for yourself.",
+    "settle_title": "Let's take a moment to settle",
+    "steps": [
+      "Look around and name 3 things you can see.",
+      "Take a slow breath in… and out."
+    ],
+    "feeling_label": "Right now, I feel:",
+    "feeling_placeholder": "A word or two...",
+    "quote": "\"You don't have to carry everything at once. You can come back whenever you feel ready.\"",
+    "button_save": "Preserve Narrative",
+    "button_preserving": "Preserving..."
+  },
+  "history": {
+    "title": "Your Journey 📝",
+    "subtitle": "Past narratives & reflections",
+    "empty": "You haven't saved any entries yet. Take your time—there's no rush.",
+    "no_writing": "No writing preserved",
+    "button_back": "Back to Activity"
+  },
+  "complete": {
+    "title": "Narrative Preserved",
+    "message": "You've taken a powerful step in telling your story. Your perspective matters, and your journey is uniquely yours."
+  },
+  "toasts": {
+    "save_success": "Narrative preserved",
+    "save_error": "Failed to preserve narrative",
+    "auth_error": "Auth session missing or DB not configured"
+  }
+}

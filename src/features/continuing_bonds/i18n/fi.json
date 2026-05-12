@@ -1,0 +1,65 @@
+{
+  "app_title": "Jatkuvat joukkovelkakirjat",
+  "welcome_title": "Rakkaus ei lopu, kun joku on poissa.",
+  "welcome_subtitle": "Yhteys, jonka jaoitte, jatkuu monin tavoin. Hengitä hitaasti ja etene omaan tahtiisi.",
+  "begin_button": "Aloita pohdinta",
+  "screen_titles": {
+    "welcome": "Tervetuloa",
+    "choose": "Yhteys",
+    "bond": "Toiminta",
+    "review": "Heijastus",
+    "closing": "Viimeinen hoito",
+    "complete": "Bond säilytetty"
+  },
+  "choose_question": "Miten tunnet edelleen yhteyden?",
+  "write_heart": "Kirjoita sydämestä...",
+  "continue_button": "Jatka",
+  "action_title": "Yhdistäminen toiminnassa",
+  "sharing_optional": "Jakaminen on vapaaehtoista...",
+  "preserve_button": "Säilytä heijastus",
+  "preserving": "Säilyttäen...",
+  "preserved_title": "Säilytetty",
+  "preserved_subtitle": "\"Tämä yhteys on osa sinua. Voit palata sinne milloin tahansa.\"",
+  "finish_button": "Viimeistely toistaiseksi",
+  "add_another": "Lisää toinen",
+  "closing_p1": "Rakastamamme ihmiset tulevat osaksi sitä, keitä olemme. 🤍",
+  "closing_p2": "Ne elävät tavasta, jolla naurat, tarinoissa, joita kerrot, ja hiljaisissa hetkissä, kun tunnet heidät lähellä.",
+  "closing_p3": "Miten tahansa siteesi ilmenee — se on todellinen ja sillä on merkitystä.",
+  "save_exit_button": "Tallenna ja poistu",
+  "complete_title": "Bond säilytetty",
+  "complete_message": "Rakastamamme ihmiset tulevat osaksi sitä, keitä olemme. Yhteytesi jatkuu siinä, miten kunnioitat heitä.",
+  "auth_error": "Auth-istunto puuttuu tai tietokanta ei ole konfiguroitu",
+  "save_success": "Säilynyt sidosheijastus",
+  "save_error": "Heijastuksen säilyttäminen epäonnistui",
+  "connection_options": [
+    {
+      "label": "Muistojen kautta",
+      "prompt": "Voisitko jakaa muiston, jossa tunnet heidän läsnäolonsa?",
+      "deeper": "Mikä on yksi asia niissä, joka jää mieleen?"
+    },
+    {
+      "label": "Asioissa, joita sanon tai teen",
+      "prompt": "Mitä osaa niistä kannat päivittäisessä elämässäsi?",
+      "deeper": "Miten tämä näkyy elämässäsi nykyään?"
+    },
+    {
+      "label": "Arjen hetkissä",
+      "prompt": "Milloin tunnet niiden olevan lähellä päivän aikana?",
+      "deeper": "Mikä on yksi asia niissä, joka jää mieleen?"
+    },
+    {
+      "label": "Mitä haluan vielä kertoa heille",
+      "prompt": "Onko jotain, mitä haluat vielä sanoa heille?",
+      "deeper": "Mitä haluaisit heidän tietävän juuri nyt?"
+    },
+    {
+      "label": "Tunteessa tai läsnäolossa",
+      "prompt": "Miten heidän läsnäolonsa silti näkyy sinulle?",
+      "deeper": "Miten tämä näkyy elämässäsi nykyään?"
+    }
+  ],
+  "bond_prompts": [
+    "Mikä on yksi pieni tapa, jolla tunnet yhteyttä heihin tänään?",
+    "Mikä on jotain, mitä teet, joka kantaa osan niistä?"
+  ]
+}

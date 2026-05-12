@@ -1,0 +1,45 @@
+{
+  "intro": {
+    "title": "Tevékenységek, amiket élvezel",
+    "subtitle": "Örömteli pillanatok újrafelfedezése",
+    "p1": "Amikor levertnek, szorongónak vagy túlterheltnek érzed magad, nehéz lehet felidézni, mi okoz örömet.",
+    "p2": "Ez a tevékenység nem arról szól, hogy többet tegyen. Arról szól, hogy felveszed azokat a kis pillanatokat, amelyek könnyűnek, nyugodtnak vagy jelentőségteljesnek érződnek.",
+    "p3": "Nincs nyomás arra, hogy boldognak érezd magad. Egyszerűen csak azt vizsgáljuk, ami akár egy kicsit is jónak érződik.",
+    "button": "Kezdjük"
+  },
+  "recall": {
+    "title": "Gondolj bele egy pillanatra",
+    "p1": "Szánj egy pillanatot, hogy emlékezz egy időszakra — akár nemrégi, akár távoli — amikor még egy kis örömöt, békét vagy megnyugtatást is éreztél. Nem kell nagynak lennie.",
+    "input1_label": "Egy tevékenység, amit élveztem (vagy régen élveztem), az...",
+    "input1_placeholder": "például sétálni a parkban",
+    "input2_label": "Amikor ezt csinálom, általában úgy érzem magam...",
+    "input2_placeholder": "például nyugodt és jelenlévő",
+    "button": "Folytatás"
+  },
+  "meaning": {
+    "title": "Mi teszi ezt értelmessé?",
+    "p1": "Néha maga a tevékenység nem az egyetlen örömforrás. Lehet az érzés, a környezet vagy a körülötte lévő kapcsolat.",
+    "input1_label": "Élvezem ezt, mert...",
+    "input1_placeholder": "például szabadságérzetet ad nekem",
+    "input2_label": "Ez a tevékenység segít abban, hogy több...",
+    "input2_placeholder": "például csatlakoztatott és földelt",
+    "input3_label": "Eszembe juttat...",
+    "input3_placeholder": "például Summers gyerekként",
+    "button": "Mentsd meg a tükörképemet"
+  },
+  "smallStep": {
+    "title": "Egy kis előrelépés",
+    "p1": "Nem kell mindent egyszerre megváltoztatnod.",
+    "p2": "Lehetségesnek érezném, hogy egy kicsit újra kapcsolódjunk ehhez a tevékenységhez?",
+    "input1_label": "Egy apró lépés, amit ezen a héten megtehetnék, hogy...",
+    "input1_placeholder": "Például menj el egy 10 perces sétára",
+    "button_save": "Mentés",
+    "button_home": "Menj haza"
+  },
+  "affirmation": {
+    "title": "Gyönyörű lépést tettél",
+    "p1": "Újra kapcsolatba lépni azzal, ami örömet hoz – még a legkisebb módon is – kedvesség cselekedete önmagad iránt.",
+    "p2": "Megérdemled a könnyedséget és békét. Folytasd a táplálást, ami megtelíti a szíved. 💛",
+    "button": "Vissza az otthonba"
+  }
+}

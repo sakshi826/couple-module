@@ -1,0 +1,72 @@
+{
+  "app_title": "Narațiunea ta",
+  "nav": {
+    "entry": "Bine ai venit",
+    "writing": "Exprimare",
+    "landing": "Reflectând",
+    "history": "Călătoria ta"
+  },
+  "entry": {
+    "title": "Să luăm lucrurile pas cu pas. 💛",
+    "description": [
+      "Nu trebuie să-ți spui toată povestea azi. Doar o mică parte este suficientă.",
+      "Ești în siguranță acum. Tu controlezi ce scrii — și ce nu."
+    ],
+    "breath": "Respiră adânc înainte să începem.",
+    "button_ready": "Sunt gata",
+    "button_history": "Narațiuni anterioare",
+    "footer": "Cuvintele tale • Ritmul tău • Povestea ta"
+  },
+  "writing": {
+    "title": "Scrie ce ți se pare bine ✨",
+    "subtitle": "Cuvintele tale, ritmul tău",
+    "prompt_label": "Ai nevoie de un punct de plecare?",
+    "prompts": [
+      {
+        "text": "Ce îmi amintesc cel mai mult este...",
+        "emoji": "💭"
+      },
+      {
+        "text": "Atunci, m-am simțit...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "De atunci, am observat...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "Începe să scrii aici...",
+    "notice": "Nu există o metodă corectă de a face asta. Chiar și câteva replici sunt suficiente.",
+    "button": "Finalizarea scrisului"
+  },
+  "landing": {
+    "title": "Ai făcut ceva important.",
+    "subtitle": "Mulțumesc că ai fost prezent pentru tine.",
+    "settle_title": "Să luăm un moment să ne așezăm",
+    "steps": [
+      "Uită-te în jur și numește 3 lucruri pe care le poți vedea.",
+      "Inspiră încet... și expiră."
+    ],
+    "feeling_label": "Acum, simt:",
+    "feeling_placeholder": "Un cuvânt sau două...",
+    "quote": "\"Nu trebuie să cari totul deodată. Poți să revii oricând te simți pregătit.\"",
+    "button_save": "Păstrează narațiunea",
+    "button_preserving": "Păstrând..."
+  },
+  "history": {
+    "title": "Călătoria 📝 ta",
+    "subtitle": "Narațiuni și reflecții din trecut",
+    "empty": "Nu ai salvat încă nicio înregistrare. Ia-ți timpul necesar — nu e grabă.",
+    "no_writing": "Nicio scriere păstrată",
+    "button_back": "Înapoi la activitate"
+  },
+  "complete": {
+    "title": "Narațiune păstrată",
+    "message": "Ai făcut un pas puternic în a-ți spune povestea. Perspectiva ta contează, iar drumul tău este unic al tău."
+  },
+  "toasts": {
+    "save_success": "Narațiune păstrată",
+    "save_error": "Nu a reușit să păstreze narațiunea",
+    "auth_error": "Sesiune de autentificare lipsă sau bază de date neconfigurată"
+  }
+}

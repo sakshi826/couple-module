@@ -1,0 +1,98 @@
+{
+  "app_title": "Plátno bezpečného prostoru",
+  "step_label": "Krok {{current}} z 5",
+  "welcome": {
+    "title": "Tvé bezpečné místo čeká",
+    "description": "Vytvořte si vlastní útočiště prostřednictvím série jemných kreativních podnětů. Prázdné plátno pro tvé myšlenky a pocity.",
+    "benefits": [
+      "Vyjádř se skrze barvy",
+      "Vytvořte vizuální uzemňovací nástroj",
+      "Bezpečné, soukromé a osobní"
+    ],
+    "duration": "10-15 minut",
+    "view_past": "Zobrazit minulé koláže"
+  },
+  "canvas": {
+    "prompts": [
+      {
+        "quote": "Jak vypadá obloha na vašem bezpečném místě? Nakreslit jeho barvu, světlo nebo pocit.",
+        "button": "Přidal jsem nebe →",
+        "hint": "Neexistuje správná cesta — stačí jakákoliv značka."
+      },
+      {
+        "quote": "Jaký je pocit na zemi? Tráva, písek, voda, dřevěná podlaha? Přidejte to pod oblohu.",
+        "button": "Přidal jsem zemní →",
+        "hint": "Zamysli se, jak se cítíš na nohy v tomhle místě."
+      },
+      {
+        "quote": "Přidejte jednu věc, která sem patří — strom, židli, okno, domácího mazlíčka, lampu. Cokoliv, co mi přijde správné.",
+        "button": "Přidal jsem něco →",
+        "hint": "Nemusí to vypadat dokonale. Musí to prostě působit pravdivě."
+      },
+      {
+        "quote": "Co přináší tomuto místu teplo nebo útěchu? Světlo, oheň, sluneční světlo, deka? Přidejte ho tam, kde vám to přijde správné.",
+        "button": "Přidal jsem teplo →",
+        "hint": "I malá tečka barvy se počítá."
+      },
+      {
+        "quote": "Nakonec — přidejte 3 až 5 slov, která sem patří. Klepnutím na svůj obrázek je umístíte kamkoli.",
+        "button": "To jsou moje slova →",
+        "hint": ""
+      }
+    ],
+    "word_chips": [
+      "Mír",
+      "Domov",
+      "Nebe",
+      "Klid",
+      "Teplo",
+      "Dost",
+      "Jemně",
+      "Safe"
+    ],
+    "custom_word_placeholder": "+ své vlastní",
+    "skip_prompt": "přeskočit tento prompt",
+    "type_here": "Napište sem"
+  },
+  "save": {
+    "title": "Uchovejte své bezpečné místo",
+    "desc": "Dejte svému výtvoru jméno a krátkou úvahu.",
+    "preview_alt": "Vaše koláž bezpečného místa",
+    "generating_preview": "Generování náhledu...",
+    "name_label": "Jak se tomu místu říká?",
+    "name_placeholder": "např. My Sunday Meadow",
+    "reflection_label": "Proč je tohle místo důležité? (Volitelné)",
+    "reflection_placeholder": "Jedna jemná věta...",
+    "privacy_note": "To zůstává soukromé — viditelné jen pro vás a vašeho terapeuta.",
+    "button": "Zachraňte mé bezpečné místo",
+    "default_name": "Moje bezpečné místo"
+  },
+  "grounding": {
+    "title": "Jsi tady. Jsi v bezpečí.",
+    "breathe_info": "4 · drž · 4 · Pusť to · 6",
+    "done_message": "Gratuluji, že jsi dnes přišel sám pro sebe.",
+    "durations": [
+      {
+        "label": "1 min",
+        "seconds": "60"
+      },
+      {
+        "label": "3 min",
+        "seconds": "180"
+      },
+      {
+        "label": "5 minut",
+        "seconds": "300"
+      }
+    ],
+    "phases": [
+      "Nadechni se",
+      "Držte",
+      "Pusť mě"
+    ]
+  },
+  "history": {
+    "title": "Minulá bezpečná místa",
+    "no_collages": "Žádné uložené koláže zatím nejsou. Dokončete aktivitu, abyste uložili první knihu."
+  }
+}

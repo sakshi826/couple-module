@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import type { ZoneType } from "../WindowApp";
 
 interface Props {
@@ -7,36 +8,35 @@ interface Props {
   onNext: () => void;
 }
 
-const zones = [
-  {
-    id: "hyper" as const,
-    emoji: "🔴",
-    label: "Above My Window",
-    desc: "I feel anxious, panicked, angry, or overwhelmed.",
-    borderColor: "hsl(var(--hyper))",
-  },
-  {
-    id: "safe" as const,
-    emoji: "🟢",
-    label: "Inside My Window",
-    desc: "I feel calm, present, and grounded.",
-    borderColor: "hsl(var(--safe))",
-  },
-  {
-    id: "hypo" as const,
-    emoji: "🔵",
-    label: "Below My Window",
-    desc: "I feel numb, foggy, or disconnected.",
-    borderColor: "hsl(var(--hypo))",
-  },
-];
-
 export default function CheckInScreen({ selected, onSelect, onBack, onNext }: Props) {
+  const { t } = useTranslation();
+
+  const zones = [
+    {
+      id: "hyper" as const,
+      emoji: "🔴",
+      label: t("screens.checkin.zones.hyper.label"),
+      desc: t("screens.checkin.zones.hyper.desc"),
+    },
+    {
+      id: "safe" as const,
+      emoji: "🟢",
+      label: t("screens.checkin.zones.safe.label"),
+      desc: t("screens.checkin.zones.safe.desc"),
+    },
+    {
+      id: "hypo" as const,
+      emoji: "🔵",
+      label: t("screens.checkin.zones.hypo.label"),
+      desc: t("screens.checkin.zones.hypo.desc"),
+    },
+  ];
+
   return (
     <section className="space-y-6" aria-label="Check-in">
       <div className="text-center space-y-2">
-        <h2 className="font-display text-2xl font-bold text-foreground">Where Are You Right Now?</h2>
-        <p className="text-sm text-muted-foreground">Take a breath. Then honestly select where you are right now.</p>
+        <h2 className="font-display text-2xl font-bold text-foreground">{t("screens.checkin.title")}</h2>
+        <p className="text-sm text-muted-foreground">{t("screens.checkin.subtitle")}</p>
       </div>
 
       <div className="space-y-3">
@@ -67,19 +67,19 @@ export default function CheckInScreen({ selected, onSelect, onBack, onNext }: Pr
           onClick={onBack}
           className="flex-1 py-3.5 rounded-2xl border border-border text-foreground font-medium hover:bg-muted transition-all duration-300 hover:-translate-y-0.5"
         >
-          ← Back
+          {t("screens.checkin.back")}
         </button>
         <button
           onClick={onNext}
           disabled={!selected}
           className="flex-1 py-3.5 rounded-2xl bg-primary text-primary-foreground font-medium transition-all duration-300 hover:-translate-y-0.5 disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:translate-y-0"
         >
-          Next →
+          {t("screens.checkin.next")}
         </button>
       </div>
 
       <p className="text-xs text-muted-foreground text-center">
-        There is no wrong answer. This is simply your starting point.
+        {t("screens.checkin.footer")}
       </p>
     </section>
   );

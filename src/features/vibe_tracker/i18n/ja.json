@@ -1,0 +1,43 @@
+{
+  "vibeTracker": "バイブトラッカー",
+  "howAreYouFeeling": "今この瞬間、どんな気持ちですか?",
+  "describeOwnVibe": "あるいは、ご自身の雰囲気を説明してください",
+  "rightNowIFeel": "今は...",
+  "saveVibe": "セーブ・バイブ",
+  "pauseAndReflect": "一時停止と反省",
+  "typeThoughts": "ここにあなたの考えを入力してください...",
+  "submitReflection": "振り返りを投稿する",
+  "next": "次",
+  "vibeLogged": "雰囲気記録",
+  "thankYou": "立ち止まって気づいてくれてありがとうございます。この小さなチェックインでさえ重要です。",
+  "done": "終わった",
+  "today": "現在",
+  "yesterday": "昨日",
+  "viewHistory": "歴史を見る",
+  "history": "歴史",
+  "yourJourney": "あなたの旅",
+  "noVibes": "まだバイブは記録されていません",
+  "startFirstCheckIn": "最初のチェックインを始めて、あなたの旅路が展開する様子をこちらからご覧ください。",
+  "vibes": {
+    "Calm": "落ち着いて",
+    "Light": "光",
+    "Driven": "駆動",
+    "Content": "内容",
+    "Steady": "落ち着いて",
+    "Tender": "テンダー",
+    "Heavy": "ヘビー",
+    "Thoughtful": "思慮深い",
+    "Restless": "落ち着きのない",
+    "Drained": "排水済み"
+  },
+  "prompts": {
+    "needing": "今、何が必要でしょうか?",
+    "happened": "この感覚が現れる前に何があったのですか?",
+    "speak": "もしこの感情が話せるなら、何を言うだろうか?",
+    "notice": "この感覚は体のどこに感じますか?",
+    "sitOrShift": "この椅子は座っておきたいですか、それとも優しく動かしたいですか?",
+    "ease": "どんなことで10%でも楽になるでしょうか?",
+    "kindness": "今日、あなたはどんな小さな優しさを自分に差し出せるでしょうか?",
+    "supported": "この瞬間、あなたが支えられていると感じる助けになるものは何ですか?"
+  }
+}

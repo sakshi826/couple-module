@@ -1,0 +1,46 @@
+{
+  "app_title": "Understanding Control",
+  "app_subtitle": "Strategy of Survival • {{step}}/3",
+  "screens": [
+    {
+      "headline": "Why Control Can Feel So Powerful",
+      "paragraphs": [
+        "For many people experiencing eating difficulties, control can feel like a way to create safety.",
+        "When life feels unpredictable or emotionally intense, focusing on food, weight, or routines can bring a sense of structure and certainty.",
+        "This isn't about willpower or discipline. It's about trying to steady yourself when things feel uncertain.",
+        "In this way, control becomes a coping strategy — something that helps you feel grounded, even if only temporarily."
+      ],
+      "microcopy": "You're not alone in feeling this way.",
+      "cta": "Continue"
+    },
+    {
+      "headline": "Different Ways Control Appears",
+      "intro": "The need for control doesn't look the same for everyone, but it often shows up in patterns like:",
+      "bullets": [
+        { "text": "Strict or inflexible food rules" },
+        { "text": "Need to follow routines exactly" },
+        { "text": "Anxiety when plans change" },
+        { "text": "Linking self-worth to shape/weight" }
+      ],
+      "outro": "Over time, these can become rigid, taking up mental space and making it harder to adapt.",
+      "microcopy": "What starts as control can slowly start to feel controlling.",
+      "cta": "Continue"
+    },
+    {
+      "headline": "Underneath the Control",
+      "intro": "The urge to control often has deeper roots. It can be connected to:",
+      "bullets": [
+        { "text": "Feeling emotionally flooded" },
+        { "text": "Wanting predictability" },
+        { "text": "A need for stability and safety" }
+      ],
+      "insight": "Control isn't the problem — it's the strategy your mind found to cope. With time and support, other ways to feel safe are possible.",
+      "microcopy": "Understanding is a powerful first step.",
+      "cta": "Finish Reading"
+    }
+  ],
+  "complete": {
+    "title": "Awareness Gained",
+    "message": "Understanding the roots of control is a brave first step toward finding new ways to feel safe and steady."
+  }
+}

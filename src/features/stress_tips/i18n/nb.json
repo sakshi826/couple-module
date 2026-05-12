@@ -1,0 +1,92 @@
+{
+  "index": {
+    "tagline": "Ta et dypt pust 🌿",
+    "title": "Håndter stresset ditt",
+    "description": "Enkle daglige vaner for å hjelpe deg til å føle deg roligere og mer i kontroll.",
+    "sectionTitle": "Daglige stressavlastningstips"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Få deg god søvn",
+      "description": "Sikt på 7–9 timers søvn hver natt. Prøv å sove og stå opp til samme tid hver dag.",
+      "why": "Søvn hjelper hjernen og kroppen din med å komme seg og senker stresshormoner.",
+      "do": [
+        "Hold en fast søvnrytme",
+        "Unngå skjermer 1 time før leggetid",
+        "Hold rommet kjølig og mørkt",
+        "Unngå koffein etter kl. 16"
+      ],
+      "button": "Sett søvnpåminnelse"
+    },
+    "breathing": {
+      "title": "Øv på dyp pusting",
+      "description": "Bruk noen minutter på å fokusere på pusten din. Langsom pusting reduserer angst.",
+      "why": "Langsom pusting aktiverer kroppens avslapningsrespons.",
+      "do": [
+        "Pust inn i 4 sekunder",
+        "Hold i 4 sekunder",
+        "Pust ut i 4 sekunder",
+        "Gjenta i 1 minutt"
+      ]
+    },
+    "exercise": {
+      "title": "Beveg kroppen din",
+      "description": "Lett gåing eller tøying hjelper med å redusere stress og forbedre humøret.",
+      "why": "Trening frigjør endorfiner og forbedrer humøret.",
+      "do": [
+        "15 minutters gange",
+        "Lett tøying",
+        "Kort yogaøkt",
+        "Rask hjemmetrening"
+      ]
+    },
+    "caffeine": {
+      "title": "Begrens koffein og sukker",
+      "description": "For mye koffein og sukker kan øke angst og forstyrre søvnen.",
+      "why": "For mye koffein og sukker øker angst og søvnproblemer.",
+      "do": [
+        "Bytt ut en kaffe med urtete",
+        "Drikk mer vann",
+        "Reduser sukkerholdige snacks",
+        "Unngå koffein sent på dagen"
+      ]
+    },
+    "planning": {
+      "title": "Planlegg dagen din",
+      "description": "Del store oppgaver opp i mindre trinn for å unngå å føle deg overveldet.",
+      "why": "Planlegging reduserer mental rot og overveldelse.",
+      "do": [
+        "Skriv 3 hovedoppgaver",
+        "Del oppgaver opp i små trinn",
+        "Fokuser på én oppgave om gangen",
+        "Ta korte pauser"
+      ]
+    }
+  },
+  "detail": {
+    "back": "Tilbake",
+    "notFound": "Tips ikke funnet.",
+    "whyTitle": "Hvorfor det hjelper",
+    "doTitle": "Hva du kan gjøre",
+    "reminderSet": "Påminnelse satt! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oops! Side ikke funnet",
+    "return": "Tilbake til hjemmet"
+  },
+  "mood": {
+    "title": "Hvordan føler du deg i dag?",
+    "great": "Flott",
+    "okay": "Ok",
+    "stressed": "Stresset",
+    "overwhelmed": "Overveldet"
+  },
+  "breathing": {
+    "inhale": "Pust inn...",
+    "hold": "Hold...",
+    "exhale": "Pust ut...",
+    "pause": "Pause",
+    "resume": "CV"
+  }
+}

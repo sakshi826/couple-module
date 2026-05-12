@@ -1,0 +1,29 @@
+{
+  "app_title": "Mengapa Otak Terjebak",
+  "app_subtitle": "Logika kelangsungan hidup • {{step}}/{{total}}",
+  "s1": {
+    "title": "Otakmu tidak rusak. Itu beradaptasi.",
+    "description": "Setelah trauma, otak Anda memasang ulang dirinya sendiri untuk menjaga Anda tetap aman. Ia belajar bahwa dunia bisa berbahaya, jadi ia tetap siap. Itu bukan cacat. Itulah kelangsungan hidup.",
+    "quote": "\"PTSD bukanlah tanda bahwa ada sesuatu yang salah dengan Anda. Itu pertanda bahwa sesuatu terjadi padamu.\"",
+    "button": "Ceritakan lebih banyak"
+  },
+  "s2": {
+    "tag": "Kebenaran Lembut",
+    "title": "Logika kelangsungan hidup otak",
+    "truths": [
+      {
+        "header": "Alarm tetap menyala",
+        "body": "Kewaspadaan dan kejutan dengan mudah bukanlah reaksi berlebihan - sistem alarm otak Anda melakukan tugasnya dengan sangat baik."
+      },
+      {
+        "header": "Kilas balik adalah kenangan",
+        "body": "Pemicu menarik otak Anda ke belakang karena tidak pernah mendapat sinyal bahwa ancaman telah berakhir. Itu mencoba melindungi Anda."
+      },
+      {
+        "header": "Berjuang untukmu",
+        "body": "Setiap gejala pernah merupakan tindakan bertahan hidup. Otak Anda melakukan apa yang harus dilakukan untuk membuat Anda tetap hidup."
+      }
+    ],
+    "healing": "Penyembuhan bukan tentang melupakan. Ini tentang membantu otak Anda belajar bahwa Anda aman sekarang."
+  }
+}

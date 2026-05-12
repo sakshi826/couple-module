@@ -1,0 +1,61 @@
+{
+  "app_title": "Překresli svůj kruh",
+  "intro": {
+    "title": "Překresli svůj kruh",
+    "p1": "V různých obdobích života se náš podpůrný systém může měnit. 🌱 Někdy se cítíme propojení a podporu. Jindy se věci mohou zdát vzdálené nebo nejasné.",
+    "p2": "Tato aktivita je prostorem k zastavení a pohledu na lidi kolem vás — a pochopení, kdo se právě cítí součástí vašeho kruhu. 💛",
+    "p3": "Tady není správné nebo špatné. Jen vědomí. ✨",
+    "italic": "🌿 Váš okruh se může změnit — a to je v pořádku.",
+    "button": "Začni →"
+  },
+  "circle": {
+    "subtitle": "Kdo je ve vašem podpůrném systému?",
+    "title": "Kdo je teď ve vašem kruhu? 🔮",
+    "desc": "Zamyslete se nad lidmi ve svém životě a kde se pro vás objevují.",
+    "instruction": "👆 Klepněte na každou bublinu a přidejte někoho, kdo do toho prostoru ve vašem životě zapadá.",
+    "center_node": "Ty",
+    "italic": "🤍 Je v pořádku, když se váš okruh zdá být malý.",
+    "button": "Pokračujte →",
+    "modal": {
+      "title": "Přidat jméno",
+      "placeholder": "Zadejte jméno...",
+      "button": "Uložit jméno"
+    },
+    "prompts": [
+      "Člověk, který přináší radost",
+      "Člověk, který tě podporuje",
+      "Člověk, se kterým můžeš mluvit",
+      "Člověk, kterému důvěřuješ",
+      "Člověk, který vás inspiruje"
+    ]
+  },
+  "reflection": {
+    "subtitle": "Závěrečné úvahy",
+    "title": "Čeho si všimnete?",
+    "p_intro": "Na chvíli se zastavte a podívejte se na svůj kruh. Možná si všimnete:",
+    "list": [
+      "Někteří lidé se cítí blíže než jiní",
+      "Některá spojení působí jako silná",
+      "Někteří působí vzdáleně nebo nejasně",
+      "Mohou tam být mezery — nebo jen pár významných lidí"
+    ],
+    "italic": "Uvědomění je prvním krokem k budování vztahů, kterých si ceníte. 🧘",
+    "label": "💭 Je někdo, s kým byste se chtěli cítit víc propojeni?",
+    "placeholder": "Napište své myšlenky sem...",
+    "save_button": "Uložte si odraz",
+    "saving_button": "Ukládám...",
+    "skip_button": "Skip & Finish"
+  },
+  "history": {
+    "title": "Historie vašeho kruhu",
+    "subtitle": "Záznam o tvém podpůrném systému v průběhu času.",
+    "no_entries": "Kruhy zatím neuložili.",
+    "reflection_label": "Reflexe:",
+    "back_button": "Zpět domů"
+  },
+  "toasts": {
+    "save_success": "Kruh zachráněn",
+    "save_error": "Nepodařilo se mi uložit kruh",
+    "auth_error": "Chybějící autentizační relace nebo nekonfigurovaná databáze"
+  }
+}

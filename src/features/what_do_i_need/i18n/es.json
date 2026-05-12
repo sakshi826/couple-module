@@ -1,0 +1,164 @@
+{
+  "app_title": "¿Qué necesito?",
+  "app_subtitle": "Haz un revís contigo mismo",
+  "screens": {
+    "s1": {
+      "title": "¿Qué necesito ahora mismo?",
+      "description": "Un momento para hacer una pausa y escuchar lo que tu corazón pide.",
+      "button": "Iniciar el registro"
+    },
+    "s2": {
+      "select": {
+        "title": "¿Qué te parece importante?",
+        "placeholder": "Algo más...",
+        "add_button": "Añadir",
+        "button": "Continúa"
+      },
+      "prioritize": {
+        "title": "¿Cuál es la primaria?"
+      },
+      "focus": {
+        "tag": "Tu enfoque ahora mismo",
+        "button": "Continúa"
+      }
+    },
+    "s3": {
+      "reflect": {
+        "button": "Continúa"
+      },
+      "action": {
+        "title": "¿Un pequeño paso adelante?",
+        "placeholder": "O escribe tu propia...",
+        "button": "Reflexión sobre la reseña"
+      },
+      "closing": {
+        "tag_need": "Necesidad primaria",
+        "tag_insight": "Tu perspectiva",
+        "tag_action": "Acción Pequeña",
+        "save_button": "Salvar y terminar",
+        "finish_button": "Terminar sin guardar"
+      }
+    }
+  },
+  "needs": {
+    "Emotional support": {
+      "label": "Apoyo emocional",
+      "prompt": "¿Qué tipo de apoyo te ayudaría realmente ahora mismo?",
+      "hints": [
+        "Solo necesito a alguien que...",
+        "Ayudaría si...",
+        "Lo que realmente quiero es..."
+      ]
+    },
+    "Space / time for myself": {
+      "label": "Espacio / tiempo para mí misma",
+      "prompt": "¿Cómo sería tener ese espacio para ti?",
+      "hints": [
+        "Aprovecharía ese tiempo para...",
+        "El espacio me permitiría...",
+        "Necesito espacio para..."
+      ]
+    },
+    "Clear communication": {
+      "label": "Comunicación clara",
+      "prompt": "¿Cómo sería para ti una comunicación más clara?",
+      "hints": [
+        "Ojalá pudiera decir...",
+        "Si realmente me escucharan, se los diría...",
+        "La comunicación se siente difícil cuando..."
+      ]
+    },
+    "Reassurance": {
+      "label": "Tranquilidad",
+      "prompt": "¿Qué tipo de tranquilidad podría sentirse significativa?",
+      "hints": [
+        "Necesito oír eso...",
+        "Me calmaría saber...",
+        "No paro de preocuparme que..."
+      ]
+    },
+    "Understanding": {
+      "label": "Comprensión",
+      "prompt": "¿Cómo sería sentirse verdaderamente comprendido?",
+      "hints": [
+        "Ojalá la gente supiera que...",
+        "Lo que realmente siento es...",
+        "Nadie ve que yo..."
+      ]
+    },
+    "Stability": {
+      "label": "Estabilidad",
+      "prompt": "¿Cómo se sentiría la estabilidad en tu vida ahora mismo?",
+      "hints": [
+        "Necesito que las cosas se sientan...",
+        "Lo que me anclaría es...",
+        "Estabilidad significa..."
+      ]
+    },
+    "Honesty": {
+      "label": "Honestidad",
+      "prompt": "¿Cómo sería más honestidad en tu situación?",
+      "hints": [
+        "La verdad que tengo que afrontar es...",
+        "Quiero ser sincero sobre...",
+        "Lo que realmente está pasando es..."
+      ]
+    },
+    "Respect": {
+      "label": "Respeto",
+      "prompt": "¿Cómo es el respeto para ti ahora mismo?",
+      "hints": [
+        "Merezco que me traten...",
+        "El respeto sería como...",
+        "Necesito que la gente..."
+      ]
+    },
+    "Clarity about relationship": {
+      "label": "Claridad sobre la relación",
+      "prompt": "¿Qué tipo de claridad te ayudaría más?",
+      "hints": [
+        "Necesito saber si...",
+        "Lo que me confunde es...",
+        "Quiero que quedemos claros sobre..."
+      ]
+    },
+    "default": {
+      "prompt": "¿Cómo sería esto en una situación real?",
+      "hints": [
+        "Lo que me viene a la mente es...",
+        "Ahora mismo me siento...",
+        "Si soy sincero conmigo mismo..."
+      ]
+    }
+  },
+  "actions": [
+    {
+      "label": "Di algo con sinceridad"
+    },
+    {
+      "label": "Tómate tiempo para mí"
+    },
+    {
+      "label": "Contacta con alguien"
+    },
+    {
+      "label": "Establece un límite pequeño"
+    },
+    {
+      "label": "Aún no estoy seguro"
+    }
+  ],
+  "history": {
+    "title": "Reflexiones pasadas",
+    "empty": "Aún no hay reflejos."
+  },
+  "toasts": {
+    "save_success": "Reflejo guardado",
+    "save_error": "No se salvó la reflexión",
+    "auth_error": "Sesión de autenticación ausente o base de datos no configurada"
+  },
+  "complete": {
+    "title": "Registro completado",
+    "message": "Has identificado que necesitas \"{{need}}\". Honrar tus necesidades es una forma vital de autocuidado."
+  }
+}

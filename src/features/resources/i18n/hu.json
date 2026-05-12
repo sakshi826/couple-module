@@ -1,0 +1,37 @@
+{
+  "app_title": "Források",
+  "not_found": {
+    "title": "Nem találták meg",
+    "message": "Forrás nem talált",
+    "description": "A keresett tartalom talán elköltözött.",
+    "button": "Menj vissza"
+  },
+  "list": {
+    "empty_title": "Nincs {{type}} elérhető",
+    "empty_desc": "Jelenleg további forrásokat válogatunk erre a témára.",
+    "footer": "Mantra Care • Bizonyítékokon alapuló források"
+  },
+  "detail": {
+    "loading": "Betöltés...",
+    "tip": {
+      "insight_label": "Az Insight",
+      "plan_title": "Napi Cselekvési Terv",
+      "steps": "{{count}} Lépcsők",
+      "example_label": "Gyakorlati példa",
+      "instead_of": "Ahelyett, hogy",
+      "try_this": "Próbáld ki ezt"
+    },
+    "article": {
+      "final_thought": "Végső gondolat"
+    },
+    "story": {
+      "reflection_label": "Valami, amivel leülhetsz",
+      "note_label": "A szerző jegyzete"
+    },
+    "myth": {
+      "truth_label": "A tudományos igazság",
+      "explanation_label": "Részletes magyarázat",
+      "insight_label": "Kulcsfontosságú meglátás"
+    }
+  }
+}

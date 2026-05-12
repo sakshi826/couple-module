@@ -1,6 +1,7 @@
 import React, { useState, useRef, useCallback } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { fabric } from 'fabric';
+import { useTranslation } from 'react-i18next';
 import WelcomeScreen from './screens/WelcomeScreen';
 import CanvasScreen from './screens/CanvasScreen';
 import NameSaveScreen from './screens/NameSaveScreen';
@@ -17,6 +18,7 @@ export interface SavedCollage {
 }
 
 const SafePlaceApp: React.FC = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState(0); // 0=welcome,1-5=prompts,6=save,7=grounding
   const [showHistory, setShowHistory] = useState(false);
   const canvasRef = useRef<fabric.Canvas | null>(null);
@@ -27,7 +29,7 @@ const SafePlaceApp: React.FC = () => {
     const imageDataURL = canvasRef.current.toDataURL({ format: 'png', quality: 1 });
     const collage: SavedCollage = {
       id: Date.now().toString(),
-      name,
+      name: name || t("save.default_name"),
       reflection,
       imageDataURL,
       date: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }),
@@ -38,7 +40,7 @@ const SafePlaceApp: React.FC = () => {
     localStorage.setItem('safe-place-collages', JSON.stringify(existing));
     setSavedCollage(collage);
     setScreen(7);
-  }, []);
+  }, [t]);
 
   const getCanvasDataURL = useCallback(() => {
     if (!canvasRef.current) return '';
@@ -52,8 +54,8 @@ const SafePlaceApp: React.FC = () => {
 
   return (
     <PremiumLayout 
-      title="Safe Space Canvas" 
-      subtitle={screen > 0 && screen < 6 ? `Step ${screen} of 5` : undefined}
+      title={t("app_title")} 
+      subtitle={screen > 0 && screen < 6 ? t("step_label", { current: screen }) : undefined}
       onBack={screen > 0 ? () => setScreen(0) : undefined}
       onReset={screen > 0 ? reset : undefined}
       showBack={screen === 0}

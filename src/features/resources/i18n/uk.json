@@ -1,0 +1,37 @@
+{
+  "app_title": "Ресурси",
+  "not_found": {
+    "title": "Не знайдено",
+    "message": "Ресурс не знайдено",
+    "description": "Контент, який ви шукаєте, можливо, змінився.",
+    "button": "Повернись назад"
+  },
+  "list": {
+    "empty_title": "Немає {{type}}",
+    "empty_desc": "Наразі ми готуємо більше ресурсів для цієї теми.",
+    "footer": "Mantra Care • Ресурси, засновані на доказах"
+  },
+  "detail": {
+    "loading": "Завантаження...",
+    "tip": {
+      "insight_label": "Інсайт",
+      "plan_title": "Щоденний план дій",
+      "steps": "{{count}} Кроки",
+      "example_label": "Приклад практики",
+      "instead_of": "Замість",
+      "try_this": "Спробуй це"
+    },
+    "article": {
+      "final_thought": "Остаточна думка"
+    },
+    "story": {
+      "reflection_label": "Щось, з чим можна посидіти",
+      "note_label": "Примітка від автора"
+    },
+    "myth": {
+      "truth_label": "Наукова істина",
+      "explanation_label": "Детальне пояснення",
+      "insight_label": "Ключове розуміння"
+    }
+  }
+}

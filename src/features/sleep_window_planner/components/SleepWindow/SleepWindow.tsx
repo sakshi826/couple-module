@@ -1,5 +1,6 @@
-import { useState, useCallback } from 'react';
-import { Clock, Save, Moon, ChevronRight, Sparkles } from 'lucide-react';
+import { useState } from 'react';
+import { Save, Moon, ChevronRight } from 'lucide-react';
+import { useTranslation } from "react-i18next";
 import StarBackground from './StarBackground';
 import Screen1 from './Screen1';
 import Screen2 from './Screen2';
@@ -18,6 +19,7 @@ interface SleepWindowProps {
 }
 
 const SleepWindow = ({ onExit }: SleepWindowProps) => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState(1);
   const [wakeHour, setWakeHour] = useState(7);
   const [wakeMinute, setWakeMinute] = useState(0);
@@ -30,7 +32,7 @@ const SleepWindow = ({ onExit }: SleepWindowProps) => {
   const handleSave = async () => {
     const userId = sessionStorage.getItem("user_id");
     if (!userId || !DATABASE_URL) {
-      toast.error("Auth session missing or DB not configured");
+      toast.error(t("toasts.auth_error"));
       return;
     }
 
@@ -45,11 +47,11 @@ const SleepWindow = ({ onExit }: SleepWindowProps) => {
     try {
       const sql = neon(DATABASE_URL);
       await sql`INSERT INTO sleep_window_planner_entries (user_id, planner_data) VALUES (${userId}, ${plannerData})`;
-      toast.success("Sleep window saved");
+      toast.success(t("toasts.save_success"));
       navigate(4);
     } catch (error) {
       console.error("Failed to save sleep window:", error);
-      toast.error("Failed to save sleep window");
+      toast.error(t("toasts.save_error"));
     } finally {
       setIsSaving(false);
     }
@@ -58,8 +60,8 @@ const SleepWindow = ({ onExit }: SleepWindowProps) => {
   if (screen === 4) {
     return (
       <PremiumComplete
-        title="Window Created"
-        message="Your ideal sleep window has been mapped. Consistency is the key to deep, restorative rest."
+        title={t("complete.title")}
+        message={t("complete.message")}
         onRestart={() => setScreen(1)}
       />
     );
@@ -69,11 +71,11 @@ const SleepWindow = ({ onExit }: SleepWindowProps) => {
   const bedStr = formatTime(bed.hour, bed.minute, bed.amPm);
   const wakeStr = formatTime(wakeHour, wakeMinute, wakeAmPm);
 
-  const pillLabels = ['Build your window', 'Set your times', 'Your sleep window'];
+  const pillLabels = t("pill_labels", { returnObjects: true }) as string[];
 
   return (
     <PremiumLayout
-      title="Sleep Window"
+      title={t("app_title")}
       subtitle={pillLabels[screen - 1]}
       icon={<Moon className="w-6 h-6 text-primary" />}
       onBack={screen > 1 && screen < 4 ? () => navigate(screen - 1) : undefined}
@@ -107,7 +109,7 @@ const SleepWindow = ({ onExit }: SleepWindowProps) => {
                     onClick={() => navigate(2)}
                     className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                   >
-                    Start Planning
+                    {t("screen1.button")}
                     <ChevronRight size={20} strokeWidth={3} />
                   </button>
                 </div>
@@ -125,7 +127,7 @@ const SleepWindow = ({ onExit }: SleepWindowProps) => {
                     onClick={() => navigate(3)}
                     className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                   >
-                    Calculate Window
+                    {t("screen2.button")}
                     <ChevronRight size={20} strokeWidth={3} />
                   </button>
                 </div>
@@ -140,13 +142,13 @@ const SleepWindow = ({ onExit }: SleepWindowProps) => {
                       className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                     >
                       <Save size={20} strokeWidth={3} />
-                      {isSaving ? "Saving..." : "Save Planner"}
+                      {isSaving ? t("toasts.saving") : t("screen3.button")}
                     </button>
                     <button
                       onClick={() => navigate(2)}
                       className="w-full bg-white text-slate-600 py-5 rounded-2xl font-black text-lg border border-slate-200 hover:bg-slate-50 transition-all"
                     >
-                      Adjust Times
+                      {t("screen3.adjust_times", { defaultValue: "Adjust Times" })}
                     </button>
                   </div>
                 </div>

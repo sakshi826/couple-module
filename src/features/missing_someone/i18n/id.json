@@ -1,0 +1,26 @@
+{
+  "app_title": "Merindukan Seseorang",
+  "subtitles": [
+    "Validasi",
+    "Kebijaksanaan Internal",
+    "Lengkap"
+  ],
+  "complete_title": "Kejelasan yang diperoleh",
+  "complete_message": "Memahami chemistry kehilangan seseorang adalah langkah pertama menuju penyembuhan. Perasaan Anda valid, dan otak Anda hanya melakukan tugasnya untuk melindungi dan memproses.",
+  "screen1": {
+    "tag": "Validasi",
+    "intro": "Itu tidak berarti Anda lemah.",
+    "title": "Merindukan seseorang yang menyakiti Anda sangat manusiawi.",
+    "desc": "Anda pergi. Atau mereka pergi. Namun — Anda masih meraih ponsel Anda dengan harapan itu mereka. Anda masih memutar ulang momen indah lebih dari yang menyakitkan. Kontradiksi ini bukanlah kekurangan. Ini adalah bagaimana otak Anda memproses kehilangan.",
+    "quote": "\"Anda tidak hanya merindukan orang itu. Anda merindukan perasaan terikat dengan mereka.\"",
+    "button": "Langkah Berikutnya"
+  },
+  "screen2": {
+    "tag": "Ilmu Otak",
+    "intro": "Kebijaksanaan Internal",
+    "title": "Cinta menciptakan ikatan kimia.",
+    "desc": "Ketika Anda mencintai seseorang, otak Anda melepaskan dopamin, oksitosin, dan serotonin. Ketika berakhir, level itu turun. Otak Anda berduka - bukan hanya orang itu, tetapi perasaan kedekatan.",
+    "quote": "\"Merindukan mereka tidak berarti kamu harus kembali. Hati Anda berduka atas ikatan - belum tentu orang seperti mereka yang sebenarnya.\"",
+    "button": "Selesaikan Refleksi"
+  }
+}

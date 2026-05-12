@@ -1,0 +1,61 @@
+{
+  "app_title": "Redibuja tu círculo",
+  "intro": {
+    "title": "Redibuja tu círculo",
+    "p1": "En diferentes momentos de la vida, nuestro sistema de apoyo puede cambiar. 🌱 A veces nos sentimos conectados y apoyados. Otras veces, las cosas pueden parecer distantes o poco claras.",
+    "p2": "Esta actividad es un espacio para hacer una pausa y observar a las personas que te rodean — y entender quiénes se sienten parte de tu círculo en ese momento. 💛",
+    "p3": "Aquí no hay bien ni mal. Solo conciencia. ✨",
+    "italic": "🌿 Tu círculo puede cambiar — y eso está bien.",
+    "button": "Empieza →"
+  },
+  "circle": {
+    "subtitle": "¿Quién está en tu red de apoyo?",
+    "title": "¿Quién está en tu círculo ahora mismo? 🔮",
+    "desc": "Piensa en las personas de tu vida y en dónde aparecen para ti.",
+    "instruction": "👆 Aprovecha cada burbuja y añade a alguien que encaje en ese espacio en tu vida.",
+    "center_node": "Tú",
+    "italic": "🤍 Está bien si tu círculo se siente pequeño.",
+    "button": "Continúa →",
+    "modal": {
+      "title": "Añadir un nombre",
+      "placeholder": "Introduce un nombre...",
+      "button": "Guardar nombre"
+    },
+    "prompts": [
+      "Una persona que trae alegría",
+      "Una persona que te apoya",
+      "Una persona con la que puedas hablar",
+      "Una persona en la que confíes",
+      "Una persona que te inspira"
+    ]
+  },
+  "reflection": {
+    "subtitle": "Final reflections",
+    "title": "¿Qué notas tú?",
+    "p_intro": "Tómate un momento para observar tu círculo. Quizá notes lo siguiente:",
+    "list": [
+      "Algunas personas se sienten más cercanas que otras",
+      "Algunas conexiones se sienten fuertes",
+      "Algunos se sienten distantes o poco claros",
+      "Puede haber lagunas — o simplemente unas pocas personas significativas"
+    ],
+    "italic": "La conciencia es el primer paso para construir las conexiones que valoras. 🧘",
+    "label": "💭 ¿Hay alguien con quien te gustaría sentirte más conectado?",
+    "placeholder": "Escribe aquí tus pensamientos...",
+    "save_button": "Guardar Reflejo",
+    "saving_button": "Guardando...",
+    "skip_button": "Skip & Finish"
+  },
+  "history": {
+    "title": "Historia de Your Circles",
+    "subtitle": "Un registro de tu sistema de apoyo a lo largo del tiempo.",
+    "no_entries": "Aún no hay círculos guardados.",
+    "reflection_label": "Reflexión:",
+    "back_button": "De vuelta a casa"
+  },
+  "toasts": {
+    "save_success": "Círculo salvado",
+    "save_error": "No logré salvar el círculo",
+    "auth_error": "Sesión de autenticación ausente o base de datos no configurada"
+  }
+}

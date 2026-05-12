@@ -1,0 +1,74 @@
+{
+  "app_title": "Sleep Window Planner",
+  "pill_labels": [
+    "Build your window",
+    "Set your times",
+    "Your sleep window"
+  ],
+  "screen1": {
+    "title": "Your sleep window matters more than you think",
+    "p1": "A sleep window is the fixed time between when you go to bed and when you wake up. Keeping it consistent — even on weekends — is one of the most powerful things you can do for your sleep.",
+    "p2": "This tool helps you build yours in under 2 minutes.",
+    "insight": "Even a 1-hour difference in sleep times on weekends can disrupt how you feel all week.",
+    "meta": "Simple. Personal. Effective.",
+    "button": "Let's build mine →"
+  },
+  "screen2": {
+    "title": "Let's set your sleep window",
+    "step1": {
+      "title": "STEP 1 — WAKE-UP TIME",
+      "desc": "What time do you need to wake up most days?"
+    },
+    "step2": {
+      "title": "STEP 2 — SLEEP DURATION",
+      "desc": "How many hours of sleep do you want?"
+    },
+    "live_window": {
+      "bedtime": "Bedtime",
+      "waketime": "Wake time",
+      "duration": "{{hours}} hours of sleep"
+    },
+    "italic": "Most adults need 7–9 hours. Choose what feels right.",
+    "button": "See my sleep window →"
+  },
+  "screen3": {
+    "title": "Your sleep window 🌙",
+    "result": {
+      "bedtime": "Bedtime",
+      "waketime": "Wake time",
+      "duration": "Duration",
+      "hours": "{{hours}} hours"
+    },
+    "accordion1": {
+      "title": "3 ways to protect it",
+      "tips": [
+        { "emoji": "📵", "text": "Wind down 30 mins before your bedtime" },
+        { "emoji": "⏰", "text": "Same wake time every day — yes, weekends too" },
+        { "emoji": "🚫", "text": "Avoid naps longer than 20 mins after 3pm" }
+      ]
+    },
+    "accordion2": {
+      "title": "Commit to 1 thing tonight",
+      "commitments": [
+        { "emoji": "📵", "text": "Put my phone away before bed" },
+        { "emoji": "🛁", "text": "Start a wind-down routine" },
+        { "emoji": "💡", "text": "Dim the lights an hour before bed" },
+        { "emoji": "✍️", "text": "Finish my to-do list early" }
+      ]
+    },
+    "quote": "Consistency is more powerful than perfection. One good night builds the next.",
+    "button": "Save my sleep window ✓",
+    "saved_button": "✓ Sleep window saved!",
+    "adjust_times": "Adjust Times"
+  },
+  "complete": {
+    "title": "Window Created",
+    "message": "Your ideal sleep window has been mapped. Consistency is the key to deep, restorative rest."
+  },
+  "toasts": {
+    "save_success": "Sleep window saved",
+    "save_error": "Failed to save sleep window",
+    "auth_error": "Auth session missing or DB not configured",
+    "saving": "Saving..."
+  }
+}

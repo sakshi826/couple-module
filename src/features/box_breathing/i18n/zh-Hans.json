@@ -1,0 +1,21 @@
+{
+  "relax": "放轻松",
+  "about_technique": "关于这项技术",
+  "technique_description": "盒式呼吸采用简单的4-4-4-4节奏——吸气，屏住，呼气，屏住呼吸——每次持续四秒。它激活你的副交感神经系统，降低压力，让你回到平静、专注的状态。",
+  "how_to_practice": "练习方法",
+  "inhale_4s": "吸气4秒",
+  "hold_4s": "保持4秒",
+  "exhale_4s": "呼气4秒",
+  "repeat_cycle": "重复这个循环",
+  "start_breathing": "开始呼吸",
+  "breathe_in": "吸气",
+  "hold": "停",
+  "breathe_out": "呼气",
+  "feeling_calmer": "你感觉平静了",
+  "session_complete_msg": "做得很好，完成了呼吸练习。花点时间注意你的身体感觉——更轻盈、更稳定、更放松。",
+  "start_again": "重新开始",
+  "back": "返回",
+  "not_found_404": "404",
+  "page_not_found": "哎呀！页面未找到",
+  "return_home": "归乡"
+}

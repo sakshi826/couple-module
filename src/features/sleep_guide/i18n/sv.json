@@ -1,0 +1,21 @@
+{
+  "app_title": "Sömnguide",
+  "app_subtitle": "Förståelse för sömnångest",
+  "tag": "Psykoedukation",
+  "screen1": {
+    "intro": "Ju hårdare du försöker, desto svårare blir det.",
+    "title": "Att försöka tvinga sig själv att sova är precis det som håller dig vaken.",
+    "p1": "Du lägger dig ner, blundar – och din hjärna slår på. Spelar upp samtal igen. Att titta på klockan.",
+    "p2": "Det här är ingen svaghet. Det är ett fenomen som kallas <1>sömnångest</1> — och det drabbar miljontals människor.",
+    "quote": "\"Sömnångest handlar inte om att inte vara trött. Det handlar om att ditt nervsystem fastnar i 'på'-läge.\"",
+    "button": "Läs mer"
+  },
+  "screen2": {
+    "intro": "Här är vetenskapen bakom det.",
+    "title": "Din hjärna har lärt sig att behandla din säng som en plats för stress – inte vila.",
+    "p1": "Din amygdala — hjärnans hotdetektor — är aktiverad på natten och signalerar fara så fort ditt huvud nuddar kudden.",
+    "p2": "Detta kallas <1>betingad upphetsning</1> – det förklarar varför du känner dig utmattad hela dagen men ändå klarvaken vid läggdags.",
+    "quote": "\"Din hjärna är inte trasig. Den har helt enkelt lärt sig fel läxa om läggdags – och den kan läras om.\"",
+    "button": "Föregående steg"
+  }
+}

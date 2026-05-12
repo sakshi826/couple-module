@@ -1,0 +1,43 @@
+{
+  "vibeTracker": "Penjejak Getaran",
+  "howAreYouFeeling": "Bagaimana perasaan anda pada masa ini?",
+  "describeOwnVibe": "Atau terangkan getaran anda sendiri",
+  "rightNowIFeel": "Sekarang, saya rasa...",
+  "saveVibe": "Simpan Getaran",
+  "pauseAndReflect": "Jeda & Renungkan",
+  "typeThoughts": "Taipkan fikiran anda di sini...",
+  "submitReflection": "Hantar Refleksi",
+  "next": "Seterusnya",
+  "vibeLogged": "Getaran dilog",
+  "thankYou": "Terima kasih kerana berhenti seketika dan perasan. Malah daftar masuk kecil ini penting.",
+  "done": "Selesai",
+  "today": "Hari ini",
+  "yesterday": "Semalam",
+  "viewHistory": "Lihat Sejarah",
+  "history": "Sejarah",
+  "yourJourney": "Perjalanan Anda",
+  "noVibes": "Tiada getaran yang dilog lagi",
+  "startFirstCheckIn": "Mulakan daftar masuk pertama anda untuk melihat perjalanan anda berlaku di sini.",
+  "vibes": {
+    "Calm": "Tenang",
+    "Light": "Cahaya",
+    "Driven": "Didorong",
+    "Content": "Kandungan",
+    "Steady": "Mantap",
+    "Tender": "Tender",
+    "Heavy": "Berat",
+    "Thoughtful": "Bertimbang rasa",
+    "Restless": "Gelisah",
+    "Drained": "Dikeringkan"
+  },
+  "prompts": {
+    "needing": "Apa yang mungkin anda perlukan sekarang?",
+    "happened": "Apa yang berlaku sebelum perasaan ini muncul?",
+    "speak": "Jika emosi ini boleh bercakap, apa yang akan dikatakannya?",
+    "notice": "Di manakah anda melihat perasaan ini dalam badan anda?",
+    "sitOrShift": "Adakah ini sesuatu yang anda mahu duduk atau beralih dengan lembut?",
+    "ease": "Apa yang akan membawa anda 10% lebih mudah?",
+    "kindness": "Apakah kebaikan kecil yang boleh anda tawarkan kepada diri anda hari ini?",
+    "supported": "Apakah yang akan membantu anda berasa disokong pada masa ini?"
+  }
+}

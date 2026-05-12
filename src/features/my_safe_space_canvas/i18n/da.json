@@ -1,0 +1,98 @@
+{
+  "app_title": "Safe Space Canvas",
+  "step_label": "Trin {{current}} af 5",
+  "welcome": {
+    "title": "Dit sikre sted venter",
+    "description": "Byg dit eget fristed gennem en række blide kreative opfordringer. Et blankt lærred til dine tanker og følelser.",
+    "benefits": [
+      "Udtryk dig selv gennem farver",
+      "Skab et visuelt jordforbindelsesværktøj",
+      "Sikker, privat og personlig"
+    ],
+    "duration": "10-15 minutter",
+    "view_past": "Se tidligere collager"
+  },
+  "canvas": {
+    "prompts": [
+      {
+        "quote": "Hvordan ser himlen ud i dit sikre sted? Tegn dens farve, lys eller følelse.",
+        "button": "Jeg har tilføjet himmelen →",
+        "hint": "Der er ingen rigtig måde — ethvert mærke er nok."
+      },
+      {
+        "quote": "Hvordan føles jorden? Græs, sand, vand, et trægulv? Tilføj det under himlen.",
+        "button": "Jeg har tilføjet jorden →",
+        "hint": "Tænk over, hvordan dine fødder føles her."
+      },
+      {
+        "quote": "Tilføj én ting, der hører til her — et træ, en stol, et vindue, et kæledyr, en lampe. Alt, der føles rigtigt.",
+        "button": "Jeg har tilføjet noget →",
+        "hint": "Det behøver ikke at se perfekt ud. Det skal bare føles sandt."
+      },
+      {
+        "quote": "Hvad bringer varme eller tryghed til dette sted? Et lys, et bål, sollys, et tæppe? Tilføj det, hvor det føles rigtigt.",
+        "button": "Jeg har tilføjet varmen →",
+        "hint": "Selv en lille farveprik tæller."
+      },
+      {
+        "quote": "Endelig — tilføj 3 til 5 ord, der hører til her. Tryk på din tegning for at placere dem hvor som helst.",
+        "button": "Det er mine ord →",
+        "hint": ""
+      }
+    ],
+    "word_chips": [
+      "Fred",
+      "Hjem",
+      "Himlen",
+      "Rolig",
+      "Varm",
+      "Nu er det nok",
+      "Blid",
+      "Sikker"
+    ],
+    "custom_word_placeholder": "+ din egen",
+    "skip_prompt": "spring denne prompt over",
+    "type_here": "Skriv her"
+  },
+  "save": {
+    "title": "Bevar dit sikre sted",
+    "desc": "Giv din skabelse et navn og en kort refleksion.",
+    "preview_alt": "Dit trygge sted-collage",
+    "generating_preview": "Genererer forhåndsvisning...",
+    "name_label": "Hvad kalder du det her sted?",
+    "name_placeholder": "f.eks. Min Søndagseng",
+    "reflection_label": "Hvorfor betyder dette sted noget? (Valgfrit)",
+    "reflection_placeholder": "En blid sætning...",
+    "privacy_note": "Dette forbliver privat — kun synligt for dig og din terapeut.",
+    "button": "Red mit sikre sted",
+    "default_name": "Mit Sikre Sted"
+  },
+  "grounding": {
+    "title": "Du er her. Du er i sikkerhed.",
+    "breathe_info": "4 · hold · 4 · Slip det · 6",
+    "done_message": "Godt gået, at du mødte op for dig selv i dag.",
+    "durations": [
+      {
+        "label": "1 min",
+        "seconds": "60"
+      },
+      {
+        "label": "3 min",
+        "seconds": "180"
+      },
+      {
+        "label": "5 min",
+        "seconds": "300"
+      }
+    ],
+    "phases": [
+      "Træk vejret ind",
+      "Hold",
+      "Slip mig"
+    ]
+  },
+  "history": {
+    "title": "Forbi sikre steder",
+    "no_collages": "Ingen gemte collager endnu. Gennemfør aktiviteten for at gemme din første."
+  }
+}

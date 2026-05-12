@@ -1,0 +1,22 @@
+{
+  "app_title": "Schémas relationnels",
+  "app_subtitle": "Déballer votre plan",
+  "complete_title": "Prise de conscience acquise",
+  "complete_message": "Comprendre vos schémas est la première étape pour les réécrire. Vous avez le pouvoir de choisir une autre voie.",
+  "screen1": {
+    "tag": "Découverte de motifs",
+    "intro": "Tu as déjà eu l’impression d’être déjà venu ici ?",
+    "title": "Si vos relations continuent à se terminer de la même façon — ce n’est pas un mauvais présage.",
+    "desc": "Les relations que nous choisissons suivent un plan écrit bien avant que nous ne tombions amoureux. La familiarité ressemble souvent à la sécurité, même lorsqu’elle mène aux mêmes vieilles disputes.",
+    "quote": "« Nous répétons des schémas non pas parce que nous sommes brisés — mais parce qu’ils nous semblent familiers. »",
+    "button": "Continuez à déballer"
+  },
+  "screen2": {
+    "tag": "Le modèle",
+    "intro": "Ça commence plus tôt que tu ne le penses.",
+    "title": "Les premières relations deviennent le modèle de tout ce qui suit.",
+    "desc": "La façon dont vos aidants ont répondu à vos besoins a discrètement façonné votre relation avec les autres en tant qu’adulte. Ce sont des réponses apprises — et elles peuvent être désapprises.",
+    "quote": "« Ton schéma avait du sens autrefois. La question est — est-ce que cela vous sert encore aujourd’hui ? »",
+    "button": "Réflexion de finition"
+  }
+}

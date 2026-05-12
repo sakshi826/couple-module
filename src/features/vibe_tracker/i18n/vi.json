@@ -1,0 +1,43 @@
+{
+  "vibeTracker": "Trình theo dõi rung cảm",
+  "howAreYouFeeling": "Bạn cảm thấy thế nào trong khoảnh khắc này?",
+  "describeOwnVibe": "Hoặc mô tả sự rung cảm của riêng bạn",
+  "rightNowIFeel": "Ngay bây giờ, tôi cảm thấy...",
+  "saveVibe": "Lưu Vibe",
+  "pauseAndReflect": "Tạm dừng và suy ngẫm",
+  "typeThoughts": "Nhập suy nghĩ của bạn ở đây...",
+  "submitReflection": "Gửi phản ánh",
+  "next": "Kế tiếp",
+  "vibeLogged": "Vibe đã được ghi lại",
+  "thankYou": "Cảm ơn bạn đã dừng lại và chú ý. Ngay cả việc đăng ký nhỏ này cũng quan trọng.",
+  "done": "Xong",
+  "today": "Hôm nay",
+  "yesterday": "Hôm qua",
+  "viewHistory": "Xem lịch sử",
+  "history": "Lịch sử",
+  "yourJourney": "Hành trình của bạn",
+  "noVibes": "Chưa có rung cảm nào được ghi lại",
+  "startFirstCheckIn": "Bắt đầu check-in đầu tiên của bạn để xem hành trình của bạn diễn ra tại đây.",
+  "vibes": {
+    "Calm": "Bình tĩnh",
+    "Light": "Ánh sáng",
+    "Driven": "Lái xe",
+    "Content": "Nội dung",
+    "Steady": "Ổn định",
+    "Tender": "Đấu thầu",
+    "Heavy": "Nặng",
+    "Thoughtful": "Chu đáo",
+    "Restless": "Bồn chồn",
+    "Drained": "Thoát nước"
+  },
+  "prompts": {
+    "needing": "Bạn có thể cần gì ngay bây giờ?",
+    "happened": "Điều gì đã xảy ra trước khi cảm giác này xuất hiện?",
+    "speak": "Nếu cảm xúc này có thể nói, nó sẽ nói gì?",
+    "notice": "Bạn nhận thấy cảm giác này ở đâu trong cơ thể bạn?",
+    "sitOrShift": "Đây có phải là thứ bạn muốn ngồi hoặc dịch chuyển nhẹ nhàng không?",
+    "ease": "Điều gì sẽ mang lại cho bạn sự thoải mái hơn 10%?",
+    "kindness": "Hôm nay bạn có thể dành cho mình lòng tốt nhỏ nào?",
+    "supported": "Điều gì sẽ giúp bạn cảm thấy được hỗ trợ trong thời điểm này?"
+  }
+}

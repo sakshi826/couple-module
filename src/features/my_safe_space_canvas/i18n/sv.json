@@ -1,0 +1,98 @@
+{
+  "app_title": "Safe Space Canvas",
+  "step_label": "Steg {{current}} av 5",
+  "welcome": {
+    "title": "Din trygga plats väntar",
+    "description": "Bygg ditt eget fristad genom en serie mjuka kreativa uppmaningar. En tom duk för dina tankar och känslor.",
+    "benefits": [
+      "Uttryck dig genom färg",
+      "Skapa ett visuellt jordningsverktyg",
+      "Säkert, privat och personligt"
+    ],
+    "duration": "10-15 minuter",
+    "view_past": "Se tidigare collage"
+  },
+  "canvas": {
+    "prompts": [
+      {
+        "quote": "Hur ser himlen ut på din trygga plats? Rita dess färg, ljus eller känsla.",
+        "button": "Jag har lagt till himmelen →",
+        "hint": "Det finns inget rätt sätt – vilket märke som helst räcker."
+      },
+      {
+        "quote": "Hur känns marken? Gräs, sand, vatten, ett trägolv? Lägg till det under himlen.",
+        "button": "Jag har lagt till marken →",
+        "hint": "Tänk på hur dina fötter känns på den här platsen."
+      },
+      {
+        "quote": "Lägg till en sak som hör hemma här — ett träd, en stol, ett fönster, ett husdjur, en lampa. Allt som känns rätt.",
+        "button": "Jag har lagt till något →",
+        "hint": "Det behöver inte se perfekt ut. Det måste bara kännas sant."
+      },
+      {
+        "quote": "Vad ger värme eller tröst till denna plats? Ett ljus, en eld, solljus, en filt? Lägg till det där det känns rätt.",
+        "button": "Jag har lagt till värme →",
+        "hint": "Även en liten färgprick räknas."
+      },
+      {
+        "quote": "Slutligen — lägg till 3 till 5 ord som hör hemma här. Tryck på din teckning för att placera dem var som helst.",
+        "button": "Det här är mina ord →",
+        "hint": ""
+      }
+    ],
+    "word_chips": [
+      "Fred",
+      "Hem",
+      "Himlen",
+      "Lugn",
+      "Varmt",
+      "Nog",
+      "Varsamt",
+      "Säkert"
+    ],
+    "custom_word_placeholder": "+ din egen",
+    "skip_prompt": "Hoppa över denna prompt",
+    "type_here": "Skriv här"
+  },
+  "save": {
+    "title": "Bevara din trygga plats",
+    "desc": "Ge din skapelse ett namn och en kort reflektion.",
+    "preview_alt": "Ditt trygga plats-collage",
+    "generating_preview": "Genererar förhandsvisning...",
+    "name_label": "Vad kallar du det här stället?",
+    "name_placeholder": "t.ex. Min söndagsäng",
+    "reflection_label": "Varför spelar det här stället någon roll? (Valfritt)",
+    "reflection_placeholder": "En mild mening...",
+    "privacy_note": "Detta förblir privat – synligt bara för dig och din terapeut.",
+    "button": "Rädda min trygga plats",
+    "default_name": "Min trygga plats"
+  },
+  "grounding": {
+    "title": "Du är här. Du är säker.",
+    "breathe_info": "4 · håll · 4 · släpp taget · 6",
+    "done_message": "Bra jobbat med att du dök upp för dig själv idag.",
+    "durations": [
+      {
+        "label": "1 min",
+        "seconds": "60"
+      },
+      {
+        "label": "3 min",
+        "seconds": "180"
+      },
+      {
+        "label": "5 min",
+        "seconds": "300"
+      }
+    ],
+    "phases": [
+      "Andas in",
+      "Håll",
+      "Släpp taget"
+    ]
+  },
+  "history": {
+    "title": "Tidigare säkra platser",
+    "no_collages": "Inga sparade collage än. Slutför aktiviteten för att spara din första."
+  }
+}

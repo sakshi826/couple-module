@@ -1,0 +1,80 @@
+{
+  "app_title": "Đặt tên cho tâm trí của bạn",
+  "intro": {
+    "title": "Gặp gỡ tâm trí của bạn",
+    "description": "Học cách tránh xa những suy nghĩ quá tải bằng cách đặt tên cho tiếng nói bên trong của bạn.",
+    "benefits": [
+      "Tạo khoảng cách tinh thần",
+      "Giảm sức mạnh của những suy nghĩ khắc nghiệt",
+      "Chú ý đến những suy nghĩ mà không phải là chúng"
+    ],
+    "duration": "2-3 phút",
+    "view_past": "Xem các mục trước đây"
+  },
+  "history": {
+    "title": "Các mục trước đây",
+    "no_entries": "Chưa có mục nào.",
+    "reflection_label": "Phản chiếu: {{text}}"
+  },
+  "complete": {
+    "title": "Hoàn thành hoạt động",
+    "great_job": "Làm tốt lắm!",
+    "message": "Bạn đã thành công trong việc đặt tên cho tâm trí của mình và tạo ra một số khoảng trống giữa bản thân và suy nghĩ của bạn.",
+    "footer": "Hãy nhớ rằng: Bạn không cần phải tin vào mọi suy nghĩ mà tâm trí bạn đưa ra cho bạn."
+  },
+  "subtitles": {
+    "concept": "Phối cảnh",
+    "input_thought": "Chú ý",
+    "input_name": "Tên",
+    "practice": "Thực hành"
+  },
+  "screens": {
+    "concept": {
+      "title": "Một sự thay đổi nhỏ",
+      "example": "\"Tôi không đủ tốt\"",
+      "desc": "Khi một suy nghĩ xuất hiện, nó thường có cảm giác như nó là <0>bạn</0>. Nhưng điều gì sẽ xảy ra nếu bạn có thể lùi lại và thay vào đó <1>thông báo</1> nó?"
+    },
+    "input_thought": {
+      "title": "Hãy bắt đầu với một suy nghĩ thực tế",
+      "desc": "Một suy nghĩ đang làm phiền bạn gần đây là gì?",
+      "placeholder": "Viết nó chính xác như nó đến với bạn..."
+    },
+    "input_name": {
+      "title": "Tạo khoảng cách",
+      "desc": "Đặt tên cho tâm trí của bạn để giúp tách bạn khỏi những suy nghĩ này.",
+      "placeholder": "Hoặc nhập của riêng bạn...",
+      "examples": [
+        "Nhà phê bình",
+        "Suy nghĩ quá nhiều",
+        "Lo lắng FM",
+        "Cỗ máy suy nghĩ quá nhiều",
+        "Nhà phê bình bên trong",
+        "Trình tạo What-If",
+        "Đạo diễn phim truyền hình"
+      ]
+    },
+    "practice": {
+      "title": "Hãy thử ca này",
+      "instead_of": "Thay vì",
+      "try_saying": "Hãy thử nói",
+      "is_telling_me": "{{name}} đang nói với tôi:",
+      "guide": "Nhẹ nhàng lặp lại câu này với bản thân 4–5 lần theo tốc độ của riêng bạn.",
+      "button": "Tôi đã sẵn sàng"
+    },
+    "reflection": {
+      "title": "Bạn nhận thấy điều gì?",
+      "desc": "Ý nghĩ đó cảm thấy thế nào sau khi đặt tên cho nó?",
+      "options": [
+        "Ý nghĩ đó cảm thấy bớt mãnh liệt hơn trước một chút",
+        "Tôi cảm thấy như mình đã có một khoảng cách với suy nghĩ đó",
+        "Nó vẫn cảm thấy mạnh mẽ như trước",
+        "Tôi không chắc điều gì đã thay đổi, nếu có gì"
+      ],
+      "button": "Suy ngẫm hoàn chỉnh"
+    }
+  },
+  "buttons": {
+    "continue": "Tiếp tục",
+    "restart": "Khởi động lại"
+  }
+}

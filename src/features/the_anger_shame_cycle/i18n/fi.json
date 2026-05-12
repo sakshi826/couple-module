@@ -1,0 +1,72 @@
+{
+  "app_title": "Vihan ja häpeän sykli",
+  "app_subtitle": "Silmukan ymmärtäminen • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Miksi viha palaa yhä uudelleen?",
+      "description": "Se ei ehkä ole temperamenttiasi. Vihan ja häpeän välillä on piilotettu kierukka — ja kun sen näkee, kaikki muuttuu.",
+      "quote": "\"Useimmat ihmiset yrittävät korjata vihaa. Mutta häpeä on se, mikä hiljaisesti pitää sen käynnissä.\"",
+      "button": "Tutkitaanpa"
+    },
+    "s2": {
+      "tag": "Sykli",
+      "title": "Silmukka selitettiin",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Viha nousee pintaan"
+        },
+        {
+          "emoji": "😔",
+          "label": "Häpeä: \"Olen paha\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "Häpeä hautautuu"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Viha purkautuu uudelleen"
+        }
+      ],
+      "button": "Näen sen"
+    },
+    "s3": {
+      "tag": "Mitä on tekeillä",
+      "title": "Kaksi tunnetta, yksi ansa",
+      "anger": {
+        "title": "🔥 Viha",
+        "desc": "Toissijainen tunne — elämien alla on kipu, pelko tai hylkääminen. Se on hälytys, ei tulipalo."
+      },
+      "shame": {
+        "title": "😔 Häpeä",
+        "desc": "\"Olen paha\" — en vain \"tein jotain pahaa.\" Se piilottaa, hiljentää ja pitää kierteen pyörimässä."
+      },
+      "button": "Vapautuminen"
+    },
+    "s4": {
+      "tag": "Keskeytys",
+      "title": "Keskeytä sykli",
+      "steps": [
+        {
+          "title": "Nimeä lähde",
+          "desc": "Kysy: 'Mitä oikeastaan tunnen?' Sattuiko? Pelottaako? Näkymätön? Nimeäminen heikentää sitä."
+        },
+        {
+          "title": "Myötätunnon tauko",
+          "desc": "Käsi rinnalla. Sano: 'Tämä on vaikeaa. Olen ihminen. Minä selviän tästä.'"
+        },
+        {
+          "title": "Korjaa arvokkaasti",
+          "desc": "Sovita asiat tarvittaessa — mutta älä ajaudu alas. Et ole pahin hetkesi."
+        }
+      ],
+      "notice": "Kierron huomaaminen on jo ensimmäinen askel. Sinä teet työn.",
+      "button": "Koko toiminta"
+    }
+  },
+  "complete": {
+    "title": "Sykli keskeytetty",
+    "message": "Olet saanut tietoisuuden nähdä yhteyden vihan ja häpeän välillä. Tämä on kestävän tunne-elämän vapauden perusta."
+  }
+}

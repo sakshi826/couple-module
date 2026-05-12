@@ -1,0 +1,59 @@
+{
+  "app_title": "Memory Box",
+  "screen_titles": ["Your Box", "Honoring", "Expressing", "Preserved", "Gentle Care"],
+  "complete_title": "Memory Preserved",
+  "complete_message": "You've safely placed a memory of {{name}} in your box. These moments of connection are yours to keep, always.",
+  "auth_error": "Auth session missing or DB not configured",
+  "save_success": "Memory preserved",
+  "save_error": "Failed to preserve memory",
+  "preserving": "Preserving...",
+  "preserve_memory": "Preserve Memory",
+  "welcome": {
+    "title": "Your Memory Box",
+    "subtitle1": "A quiet space to remember someone you love. 🤍",
+    "subtitle2": "Take a slow breath in…",
+    "subtitle3": "…and gently breathe out.",
+    "subtitle4": "There's no right or wrong way to do this.",
+    "subtitle5": "Go at your own pace. 🌿",
+    "begin": "Begin ✨",
+    "later": "Maybe later"
+  },
+  "who": {
+    "placeholder_name": "Type their name…",
+    "placeholder_relation": "How do you know them? (optional)",
+    "categories": [
+      { "label": "A happy moment", "emoji": "😊" },
+      { "label": "Something they used to say", "emoji": "💬" },
+      { "label": "A small everyday memory", "emoji": "☕" },
+      { "label": "A place that reminds you of them", "emoji": "🏡" },
+      { "label": "Something I wish I could say", "emoji": "💌" }
+    ],
+    "continue": "Continue →"
+  },
+  "expression": {
+    "title": "Expressing Your Memory",
+    "memory_label": "The memory itself",
+    "memory_placeholder": "Write about the moment, the feeling, or the detail you want to keep...",
+    "message_label": "A message to them (optional)",
+    "message_placeholder": "What would you say if you could speak to them right now?",
+    "save": "Preserve Memory",
+    "skip": "Skip for now",
+    "back": "Back"
+  },
+  "box": {
+    "title": "Safely Tucked Away",
+    "subtitle": "This memory of {{name}} is now part of your collection.",
+    "add_another": "Add Another Memory",
+    "finish": "Finish Reflection"
+  },
+  "closing": {
+    "title": "Taking Care",
+    "subtitle": "Closing your box for now. You can return here anytime you need to feel close to these memories.",
+    "exit": "Close Box"
+  },
+  "history": {
+    "title": "Box Contents",
+    "no_memories": "Your box is empty. Add your first memory to begin your collection.",
+    "search_placeholder": "Search memories..."
+  }
+}

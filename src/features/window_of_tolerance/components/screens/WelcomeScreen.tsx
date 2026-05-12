@@ -1,4 +1,5 @@
 import { ArrowLeft, ClipboardList } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 interface Props {
   onBegin: () => void;
@@ -7,6 +8,7 @@ interface Props {
 }
 
 export default function WelcomeScreen({ onBegin, onHistory, onBack }: Props) {
+  const { t } = useTranslation();
   return (
     <section className="space-y-6" aria-label="Welcome">
       <div className="flex items-center justify-between">
@@ -19,18 +21,18 @@ export default function WelcomeScreen({ onBegin, onHistory, onBack }: Props) {
       </div>
 
       <div className="text-center space-y-3">
-        <h1 className="font-display text-3xl sm:text-4xl font-bold text-foreground">Window of Tolerance</h1>
-        <p className="text-muted-foreground text-base leading-relaxed">
-          Understand your nervous system.<br />Find your way back to calm.
+        <h1 className="font-display text-3xl sm:text-4xl font-bold text-foreground">{t("screens.welcome.title")}</h1>
+        <p className="text-muted-foreground text-base leading-relaxed whitespace-pre-line">
+          {t("screens.welcome.subtitle")}
         </p>
       </div>
 
       <p className="text-foreground/80 text-sm leading-relaxed text-center">
-        This gentle activity will help you understand where your nervous system is right now — and give you tools to find balance. Go at your own pace. You are safe here.
+        {t("screens.welcome.description")}
       </p>
 
       <div className="callout-box">
-        <p className="text-sm font-medium text-foreground">✨ Take a breath. You're in the right place.</p>
+        <p className="text-sm font-medium text-foreground">{t("screens.welcome.callout")}</p>
       </div>
 
       <button
@@ -38,11 +40,11 @@ export default function WelcomeScreen({ onBegin, onHistory, onBack }: Props) {
         className="w-full py-4 rounded-2xl bg-primary text-primary-foreground font-semibold text-base hover:opacity-90 transition-all duration-300 hover:-translate-y-0.5"
         style={{ minHeight: 48 }}
       >
-        Let's Begin →
+        {t("screens.welcome.button")}
       </button>
 
       <p className="text-xs text-muted-foreground text-center leading-relaxed">
-        This activity is a supportive tool, not a replacement for professional therapy.
+        {t("screens.welcome.disclaimer")}
       </p>
     </section>
   );

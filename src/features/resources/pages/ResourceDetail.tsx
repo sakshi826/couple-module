@@ -1,13 +1,15 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { CheckCircle2, Sparkles, Lightbulb, MessageCircle, BookOpen, Clock, Tag, HelpCircle, Quote } from 'lucide-react';
+import { CheckCircle2, Sparkles, Lightbulb, MessageCircle, HelpCircle } from 'lucide-react';
 import { PremiumLayout } from '../../../components/shared/PremiumLayout';
 import sampleData from '../data/sample_data.json';
 import { Resource, Tip, Article, Story, Myth } from '../types';
+import { useTranslation } from 'react-i18next';
 
 const ResourceDetail = () => {
-  const { concern, type, id } = useParams<{ concern: string; type: string; id: string }>();
+  const { t } = useTranslation();
+  const { type, id } = useParams<{ concern: string; type: string; id: string }>();
   const navigate = useNavigate();
   
   const allResources = (sampleData as any)[type || ''] || [];
@@ -15,20 +17,20 @@ const ResourceDetail = () => {
 
   if (!resource) {
     return (
-      <PremiumLayout title="Not Found">
+      <PremiumLayout title={t("not_found.title")}>
         <div className="flex flex-col items-center justify-center py-32 gap-6">
           <div className="w-20 h-20 rounded-full bg-slate-100 flex items-center justify-center text-slate-300">
             <HelpCircle size={40} />
           </div>
           <div className="text-center space-y-2">
-            <p className="text-slate-900 font-black text-xl">Resource not found</p>
-            <p className="text-slate-400 font-bold text-sm">The content you're looking for might have moved.</p>
+            <p className="text-slate-900 font-black text-xl">{t("not_found.message")}</p>
+            <p className="text-slate-400 font-bold text-sm">{t("not_found.description")}</p>
           </div>
           <button 
             onClick={() => navigate(-1)} 
             className="px-8 py-3 bg-primary text-white font-black rounded-full shadow-lg shadow-primary/20 hover:scale-105 transition-transform"
           >
-            Go Back
+            {t("not_found.button")}
           </button>
         </div>
       </PremiumLayout>
@@ -47,7 +49,7 @@ const ResourceDetail = () => {
         </div>
         <h2 className="text-[11px] font-black text-primary uppercase tracking-[0.4em] mb-8 flex items-center gap-2">
             <Sparkles size={14} />
-            The Insight
+            {t("detail.tip.insight_label")}
         </h2>
         <p className="text-slate-700 text-2xl font-black leading-tight tracking-tight relative z-10">{tip.whyItHelps}</p>
       </motion.section>
@@ -59,9 +61,9 @@ const ResourceDetail = () => {
           className="space-y-10"
       >
         <div className="flex items-center justify-between px-4">
-            <h2 className="text-2xl font-black text-slate-900 tracking-tight">Daily Action Plan</h2>
+            <h2 className="text-2xl font-black text-slate-900 tracking-tight">{t("detail.tip.plan_title")}</h2>
             <span className="px-4 py-1 bg-slate-100 text-slate-500 rounded-full text-[10px] font-black uppercase tracking-widest">
-                {tip.whatYouCanDo.length} Steps
+                {t("detail.tip.steps", { count: tip.whatYouCanDo.length })}
             </span>
         </div>
         
@@ -94,11 +96,11 @@ const ResourceDetail = () => {
           
           <div className="flex items-center gap-3 text-emerald-600 font-black text-[11px] uppercase tracking-[0.4em] relative z-10">
               <Lightbulb size={18} fill="currentColor" />
-              Practice Example
+              {t("detail.tip.example_label")}
           </div>
           <div className="grid md:grid-cols-[1fr,auto,1fr] items-center gap-10 relative z-10">
             <div className="space-y-3">
-              <p className="text-[10px] font-black text-emerald-400 uppercase tracking-[0.2em]">Instead of</p>
+              <p className="text-[10px] font-black text-emerald-400 uppercase tracking-[0.2em]">{t("detail.tip.instead_of")}</p>
               <p className="text-emerald-900/50 text-lg font-bold leading-relaxed italic">{tip.example.instead}</p>
             </div>
             
@@ -109,7 +111,7 @@ const ResourceDetail = () => {
             </div>
 
             <div className="space-y-3">
-              <p className="text-[10px] font-black text-emerald-500 uppercase tracking-[0.2em]">Try this</p>
+              <p className="text-[10px] font-black text-emerald-500 uppercase tracking-[0.2em]">{t("detail.tip.try_this")}</p>
               <p className="text-emerald-900 text-2xl font-black leading-tight tracking-tight">{tip.example.tryThis}</p>
             </div>
           </div>
@@ -120,8 +122,6 @@ const ResourceDetail = () => {
 
   const renderArticle = (article: Article) => (
     <div className="w-full space-y-12 pb-24">
-
-
       <article className="prose prose-slate max-w-none">
         <div 
           className="text-slate-700 text-xl leading-relaxed space-y-8 font-medium article-content"
@@ -139,7 +139,7 @@ const ResourceDetail = () => {
         </div>
         <div className="flex items-center gap-3 text-emerald-400 font-black text-[11px] uppercase tracking-[0.4em] relative z-10">
             <Sparkles size={18} />
-            Final Thought
+            {t("detail.article.final_thought")}
         </div>
         <p className="text-slate-100 text-3xl font-black italic leading-[1.3] tracking-tight relative z-10">
           "{article.takeaway}"
@@ -150,8 +150,6 @@ const ResourceDetail = () => {
 
   const renderStory = (story: Story) => (
     <div className="w-full space-y-16 pb-24">
-
-        
         <div className="relative p-12 bg-white rounded-[4rem] border-2 border-slate-100 shadow-sm overflow-hidden group hover:border-amber-200 transition-all duration-500">
           <div className="absolute -top-10 -right-10 p-12 text-amber-50 pointer-events-none group-hover:text-amber-100/50 transition-colors duration-700">
             <MessageCircle size={200} strokeWidth={1} />
@@ -160,7 +158,6 @@ const ResourceDetail = () => {
             "{story.quote}"
           </p>
         </div>
-
 
       <div className="space-y-10 text-slate-700 text-xl leading-relaxed font-bold max-w-2xl">
         {story.story.map((para, i) => (
@@ -184,14 +181,14 @@ const ResourceDetail = () => {
          <div className="absolute top-0 right-0 p-8 text-amber-200/30">
             <Sparkles size={100} />
          </div>
-        <h3 className="text-amber-600 font-black text-[11px] uppercase tracking-[0.4em] relative z-10">Something to sit with</h3>
+        <h3 className="text-amber-600 font-black text-[11px] uppercase tracking-[0.4em] relative z-10">{t("detail.story.reflection_label")}</h3>
         <p className="text-amber-900 font-black text-3xl leading-[1.3] tracking-tight italic relative z-10">
           "{story.highlight}"
         </p>
       </motion.section>
 
       <section className="p-12 bg-slate-50 rounded-[4rem] border-2 border-slate-100">
-        <h3 className="text-slate-400 font-black text-[10px] uppercase tracking-[0.3em] mb-6">A Note from the Author</h3>
+        <h3 className="text-slate-400 font-black text-[10px] uppercase tracking-[0.3em] mb-6">{t("detail.story.note_label")}</h3>
         <p className="text-slate-600 text-lg font-bold leading-relaxed">
           {story.takeaway}
         </p>
@@ -201,8 +198,6 @@ const ResourceDetail = () => {
 
   const renderMyth = (myth: Myth) => (
     <div className="w-full space-y-16 pb-24">
-
-
       <motion.section 
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -212,12 +207,12 @@ const ResourceDetail = () => {
         <div className="absolute top-0 right-0 p-12 text-white/10">
             <Sparkles size={200} />
         </div>
-        <h2 className="text-[11px] font-black text-indigo-200 uppercase tracking-[0.5em] mb-6 relative z-10">The Scientific Truth</h2>
+        <h2 className="text-[11px] font-black text-indigo-200 uppercase tracking-[0.5em] mb-6 relative z-10">{t("detail.myth.truth_label")}</h2>
         <p className="text-white text-4xl font-black leading-tight tracking-tight relative z-10">{myth.truth}</p>
       </motion.section>
 
       <article className="p-12 bg-white rounded-[4rem] border-2 border-slate-100 shadow-sm space-y-8">
-        <h3 className="text-[11px] font-black text-slate-400 uppercase tracking-[0.4em]">Detailed Explanation</h3>
+        <h3 className="text-[11px] font-black text-slate-400 uppercase tracking-[0.4em]">{t("detail.myth.explanation_label")}</h3>
         <div 
           className="text-slate-700 text-xl leading-relaxed space-y-8 font-medium article-content"
           dangerouslySetInnerHTML={{ __html: myth.explanation }} 
@@ -231,7 +226,7 @@ const ResourceDetail = () => {
       >
         <div className="flex items-center gap-3 text-indigo-400 font-black text-[11px] uppercase tracking-[0.4em]">
             <Sparkles size={18} />
-            Key Insight
+            {t("detail.myth.insight_label")}
         </div>
         <p className="text-indigo-100 text-3xl font-black italic leading-[1.3] tracking-tight">
           "{myth.takeaway}"

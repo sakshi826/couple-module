@@ -1,0 +1,93 @@
+{
+  "app_title": "预测与现实",
+  "step_label": "第8步中的{{current}}",
+  "intro": {
+    "title": "预测与现实",
+    "description": "将你的焦虑预测与实际发生的事情进行比较，以建立更平衡的视角。",
+    "benefits": [
+      "识别焦虑模式",
+      "收集反对恐惧的证据",
+      "减少未来的过度思考"
+    ],
+    "duration": "4-5分钟",
+    "view_past": "回顾往昔回顾"
+  },
+  "history": {
+    "title": "往昔回顾",
+    "no_reflections": "还没有保存倒影。",
+    "prediction_label": "预测",
+    "reality_label": "现实",
+    "reflection_label": "反思："
+  },
+  "complete": {
+    "title": "活动完成",
+    "saved_title": "反思被保存",
+    "message": "通过审视事实，你帮助大脑明白事情往往比看起来更容易掌控。"
+  },
+  "emotions": [
+    "焦虑",
+    "紧张",
+    "害怕",
+    "不堪重负",
+    "不安"
+  ],
+  "intensity_labels": {
+    "not_intense": "不算强烈",
+    "very_intense": "非常强烈"
+  },
+  "comparison_options": [
+    "结果几乎和我预期的完全一样",
+    "有些部分是对的，但并非全部",
+    "这和我预期的完全不同",
+    "比我想象的要简单/更好"
+  ],
+  "screens": {
+    "s1": {
+      "title": "想想最近的一个情况",
+      "desc": "回想一下最近你感到焦虑或不确定的时刻。",
+      "placeholder": "描述一下情况......"
+    },
+    "s2": {
+      "title": "你以为会发生什么？",
+      "desc": "那一刻你到底期待或害怕什么？",
+      "placeholder": "我担心......"
+    },
+    "s3": {
+      "title": "你感觉怎么样？",
+      "desc": "选择你感受到的情绪及其强度。"
+    },
+    "s4": {
+      "title": "到底发生了什么？",
+      "desc": "关注真实发生的事实。",
+      "placeholder": "实际上......"
+    },
+    "s5": {
+      "title": "让我们两者都来看看",
+      "expectation": "期望",
+      "reality": "现实",
+      "question": "你的期望有多接近？"
+    },
+    "s6": {
+      "title": "你注意到了什么？",
+      "desc": "情况真的像你想象的那么糟吗？",
+      "placeholder": "我注意到......"
+    },
+    "s7": {
+      "title": "下次见",
+      "desc": "如果这种情况再次发生，你能提醒自己什么？",
+      "placeholder": "例如，“也许不会像我想象的那么糟。”"
+    },
+    "s8": {
+      "title": "小小的提醒",
+      "desc": "你的大脑试图为你做准备——但它并不总是准确预测。每当你停下来审视事实时，你都会建立起韧性。",
+      "button": "保存反思",
+      "discard": "弃牌记载"
+    }
+  },
+  "buttons": {
+    "continue": "继续"
+  },
+  "toasts": {
+    "saved": "反思已保存！"
+  }
+}

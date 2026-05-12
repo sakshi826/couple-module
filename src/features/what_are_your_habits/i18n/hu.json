@@ -1,0 +1,56 @@
+{
+  "title": "Mik a szokásaid?",
+  "intro_description": "A kis napi szokások befolyásolják a stresszt. Nézzük meg óvatosan a tiédet.",
+  "start_activity": "Indíts el tevékenységet",
+  "body_title": "🧍 ♀️ A mindennapi testrutinod",
+  "body_subtitle": "Melyik eset vált egy kicsit furcsának mostanában? (Válassz ki bármelyiket, ami releváns)",
+  "continue": "Folytatás",
+  "body_options": [
+    "Nem aludtam jól",
+    "Az alvási időm szabálytalan",
+    "Néha kihagyom az étkezéseket",
+    "Stresszes állapotban többet eszem a szokásosnál",
+    "Nem mozogtam sokat vagy edzettem",
+    "Nem járok sokat a szabadba",
+    "A személyes gondozási rutinom megváltozott",
+    "A napi rutinom stabilnak tűnik"
+  ],
+  "mind_title": "🧠 A gondolatmintáid",
+  "mind_options": [
+    "Folyton túlgondolom a dolgokat",
+    "Gyakran képzelem el a legrosszabb forgatókönyvet",
+    "Kemény vagyok magammal",
+    "Bűntudatom van azért, amit tettem vagy nem tettem meg",
+    "Folyamatosan aggódom",
+    "Nehezen tudok lazítani",
+    "A gondolataim kezelhetőnek tűnnek"
+  ],
+  "coping_title": "🌊 Hogyan reagálsz a stresszre",
+  "coping_options": [
+    "Kerülöm a feladatokat, ha stresszes vagyok",
+    "Sokat görgetek a telefonomon, hogy eltereljem a figyelmemet",
+    "Egyedül töltök időt, hogy megbirkózzak",
+    "Stresszes állapotban belevetem magam a munkába",
+    "Beszélek valakivel arról, hogyan érzem magam",
+    "Légzőgyakorlatokat végzek, hogy megnyugodjak",
+    "Tévét nézek vagy játszom, hogy eltereljem a figyelmemet",
+    "Nem tudom, hogyan reagálok a stresszre"
+  ],
+  "reflection_title": "✍️ Reflektív",
+  "question_stress": "Melyik szokás növeli a stresszt később?",
+  "question_calm": "Melyik szokás segíthet abban, hogy nyugodtabbnak érezd magad?",
+  "see_insight": "Lásd a meglátásomat",
+  "insight_title": "Javasolt intézkedések",
+  "insight_description": "Kattints alább, hogy láss egyszerű szokásokat, amelyek segíthetnek csökkenteni a stresszt.",
+  "show_suggestions": "Műsorjavaslatok",
+  "commit": "Kötelező",
+  "suggestions": [
+    "Próbálj meg ma este egy kicsit korábban lefeküdni",
+    "Ma menj ki friss levegőért",
+    "Tarts egy kis szünetet a görgetésben",
+    "Beszélj kedvesen magaddal",
+    "Fejezd be egy feladatot, amit halogattad"
+  ],
+  "final_text": "Az apró változások számítanak. A következetesség nyugalmat teremt.",
+  "finish": "Befejezés"
+}

@@ -1,0 +1,22 @@
+{
+  "app_title": "Relationsmønstre",
+  "app_subtitle": "At pakke din tegning ud",
+  "complete_title": "Opnået bevidsthed",
+  "complete_message": "At forstå dine mønstre er det første skridt mod at omskrive dem. Du bærer magten til at vælge en anden vej.",
+  "screen1": {
+    "tag": "Mønsteropdagelse",
+    "intro": "Har du nogensinde følt, at du har været her før?",
+    "title": "Hvis dine forhold bliver ved med at ende på samme måde — er det ikke uheld.",
+    "desc": "De relationer, vi vælger, følger en tegning skrevet længe før, vi overhovedet forelskede os. Fortrolighed føles ofte som tryghed, selv når det fører til de samme gamle diskussioner.",
+    "quote": "\"Vi gentager mønstre ikke fordi vi er ødelagte — men fordi de føles velkendte.\"",
+    "button": "Fortsæt med at pakke ud"
+  },
+  "screen2": {
+    "tag": "Skabelonen",
+    "intro": "Det starter tidligere, end du tror.",
+    "title": "De tidligste forhold bliver skabelonen for alt det, der følger.",
+    "desc": "Måden dine omsorgspersoner reagerede på dine behov på, har stille og roligt formet, hvordan du forholder dig til andre som voksen. Det er indlærte svar – og de kan aflæres.",
+    "quote": "\"Dit mønster gav mening engang. Spørgsmålet er — tjener den dig stadig nu?\"",
+    "button": "Afsluttende refleksion"
+  }
+}

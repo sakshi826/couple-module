@@ -1,0 +1,95 @@
+{
+  "app_title": "Planificator pentru fereastra de somn",
+  "pill_labels": [
+    "Construiește-ți fereastra",
+    "Stabilește-ți timpii",
+    "Fereastra ta de somn"
+  ],
+  "screen1": {
+    "title": "Fereastra ta de somn contează mai mult decât crezi",
+    "p1": "O fereastră de somn este timpul fix dintre momentul în care te culci și cel în care te trezești. Menținerea consecventului — chiar și în weekend — este unul dintre cele mai puternice lucruri pe care le poți face pentru somnul tău.",
+    "p2": "Acest instrument te ajută să-ți construiești dispozitivul în mai puțin de 2 minute.",
+    "insight": "Chiar și o diferență de o oră în timpul somnului în weekend poate afecta modul în care te simți pe tot parcursul săptămânii.",
+    "meta": "Simplu. Personal. Eficient.",
+    "button": "Hai să-mi construim →"
+  },
+  "screen2": {
+    "title": "Hai să-ți setăm fereastra de somn",
+    "step1": {
+      "title": "PASUL 1 — TIMPUL DE TREZIRE",
+      "desc": "La ce oră trebuie să te trezești în majoritatea zilelor?"
+    },
+    "step2": {
+      "title": "PASUL 2 — DURATA SOMNULUI",
+      "desc": "Câte ore de somn vrei?"
+    },
+    "live_window": {
+      "bedtime": "Ora de culcare",
+      "waketime": "Ora de trezire",
+      "duration": "{{hours}} ore de somn"
+    },
+    "italic": "Majoritatea adulților au nevoie de 7–9 ore. Alege ce ți se pare potrivit.",
+    "button": "Vezi fereastra mea de somn →"
+  },
+  "screen3": {
+    "title": "Fereastra 🌙 ta de somn",
+    "result": {
+      "bedtime": "Ora de culcare",
+      "waketime": "Ora de trezire",
+      "duration": "Durata",
+      "hours": "{{hours}} ore"
+    },
+    "accordion1": {
+      "title": "3 moduri de a-l proteja",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Relaxează-te cu 30 de minute înainte de culcare"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Aceeași oră de trezire în fiecare zi — da, și în weekend"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Evită somnurile mai lungi de 20 de minute după ora 15:00"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Angajează-te la un singur lucru în seara asta",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Mi-am pus telefonul deoparte înainte de culcare"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Începe o rutină de relaxare"
+        },
+        {
+          "emoji": "💡",
+          "text": "Strânge luminile cu o oră înainte de culcare"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Termină-mi lista de lucruri de făcut mai devreme"
+        }
+      ]
+    },
+    "quote": "Consistența este mai puternică decât perfecțiunea. O noapte bună se construiește pe următoarea.",
+    "button": "Păstrează-mi fereastra de somn ✓",
+    "saved_button": "✓ Fereastra de somn salvată!",
+    "adjust_times": "Ajustarea timpilor"
+  },
+  "complete": {
+    "title": "Fereastră creată",
+    "message": "Fereastra ta ideală de somn a fost trasată. Consistența este cheia odihnei profunde și restauratoare."
+  },
+  "toasts": {
+    "save_success": "Fereastra de somn salvată",
+    "save_error": "Nu s-a reușit să salveze fereastra de somn",
+    "auth_error": "Sesiune de autentificare lipsă sau bază de date neconfigurată",
+    "saving": "Salvând..."
+  }
+}

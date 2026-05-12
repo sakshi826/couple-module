@@ -1,0 +1,37 @@
+{
+  "app_title": "وسائل",
+  "not_found": {
+    "title": "نہیں ملا",
+    "message": "وسیلہ نہیں ملا",
+    "description": "جو مواد آپ تلاش کر رہے ہیں وہ شاید منتقل ہو گیا ہو۔",
+    "button": "واپس جاؤ"
+  },
+  "list": {
+    "empty_title": "کوئی {{type}} دستیاب نہیں",
+    "empty_desc": "ہم اس موضوع کے لیے مزید وسائل تیار کر رہے ہیں۔",
+    "footer": "منتر کیئر • شواہد پر مبنی وسائل"
+  },
+  "detail": {
+    "loading": "لوڈ ہو رہا ہے...",
+    "tip": {
+      "insight_label": "بصیرت",
+      "plan_title": "روزانہ ایکشن پلان",
+      "steps": "{{count}} مراحل",
+      "example_label": "مشق کی مثال",
+      "instead_of": "بجائے اس کے کہ",
+      "try_this": "یہ آزماؤ"
+    },
+    "article": {
+      "final_thought": "آخری خیال"
+    },
+    "story": {
+      "reflection_label": "بیٹھنے کے لیے کچھ",
+      "note_label": "مصنف کی طرف سے ایک نوٹ"
+    },
+    "myth": {
+      "truth_label": "سائنسی حقیقت",
+      "explanation_label": "تفصیلی وضاحت",
+      "insight_label": "اہم بصیرت"
+    }
+  }
+}

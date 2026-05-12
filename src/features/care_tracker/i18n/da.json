@@ -1,0 +1,131 @@
+{
+  "common": {
+    "continue": "Fortsæt",
+    "back": "Tilbage",
+    "home": "Tilbage til Hjem",
+    "yes": "Ja",
+    "no": "Nej",
+    "date": "Dato"
+  },
+  "screens": {
+    "intro": {
+      "title": "Selvomsorgstracker",
+      "description": "Følg dine daglige egenomsorgsvaner og se, hvordan de påvirker dit generelle velbefindende. Konsistens er nøglen til et sundere sind.",
+      "benefits": [
+        "Log daglige egenomsorgsaktiviteter",
+        "Hold styr på den tid, du bruger på dig selv.",
+        "Overvåg dine humørmønstre",
+        "Se historie og fremskridt"
+      ],
+      "duration": "2-3 minutter"
+    },
+    "checkin": {
+      "title": "Selvomsorgs-check-in 🌿",
+      "subtitle": "Hvordan passede du på dig selv i dag?",
+      "question": "Praktiserede du selvpleje i dag? *",
+      "description": "Selvpleje er enhver aktivitet, vi bevidst udfører for at tage vare på vores mentale, følelsesmæssige og fysiske helbred."
+    },
+    "activities": {
+      "title": "Dine aktiviteter 🎯",
+      "subtitle": "Hvilke egenomsorgsaktiviteter lavede du i dag?"
+    },
+    "duration": {
+      "title": "Tid brugt ⏱️",
+      "subtitle": "Hvor lang tid brugte du på egenompasning? (valgfrit)"
+    },
+    "noSelfCare": {
+      "title": "Det er okay 💛",
+      "subtitle": "Lad os forstå, hvad der skete i dag.",
+      "question1": "Hvad forhindrede egenomsorg i dag? (valgfrit)",
+      "question2": "Hvilken form for egenomsorg ville have hjulpet? (valgfrit)"
+    },
+    "mood": {
+      "title": "Hvordan har du det? 🫧",
+      "subtitle": "Vælg dit nuværende humør (valgfrit)"
+    },
+    "review": {
+      "title": "Din Indsendelse 📋",
+      "subtitle": "Her er et resumé af dagens check-in",
+      "didSelfCare": "Tog du dig af dig selv?",
+      "activities": "Aktiviteter",
+      "duration": "Varighed",
+      "mood": "Stemning",
+      "challenges": "Forhindret af",
+      "whatHelps": "Det ville have hjulpet",
+      "viewHistory": "Ugentlig historie",
+      "editToday": "Redigeret indgang",
+      "summary": "Resumé"
+    },
+    "history": {
+      "title": "Ugentlig historie 📅",
+      "subtitle": "Ingen bidrag de sidste 7 dage"
+    },
+    "notfound": {
+      "title": "404",
+      "subtitle": "Ups! Side ikke fundet",
+      "returnHome": "Tilbage til Hjem"
+    }
+  },
+  "data": {
+    "activities": {
+      "Exercise": "Motion",
+      "Meditation": "Meditation",
+      "Journaling": "Dagbogsskrivning",
+      "Reading": "Læsning",
+      "Rest / Nap": "Hvile / Lur",
+      "Skincare": "Hudpleje",
+      "Healthy Meal": "Sundt måltid",
+      "Nature / Walk": "Natur / Vandretur",
+      "Social Time": "Social tid",
+      "Hobby": "Hobby",
+      "Therapy": "Terapi",
+      "Digital Detox": "Digital Detox"
+    },
+    "durations": {
+      "< 10 minutes": "< 10 minutter",
+      "10–30 minutes": "10–30 minutter",
+      "30–60 minutes": "30–60 minutter",
+      "1+ hour": "1+ time"
+    },
+    "reasons": {
+      "Busy schedule": "Travl kalender",
+      "Low energy": "Lav energi",
+      "Stress": "Stress",
+      "Forgot": "Glemte",
+      "No motivation": "Ingen motivation",
+      "Not feeling well": "Ikke godt tilpas",
+      "Lack of time": "Mangel på tid",
+      "Emotional overwhelm": "Følelsesmæssig overvældelse"
+    },
+    "helpfulTypes": {
+      "Rest": "Hvile",
+      "Relaxation": "Afslapning",
+      "Physical activity": "Fysisk aktivitet",
+      "Talking to someone": "At tale med nogen",
+      "Quiet time": "Stille tid",
+      "Creative activity": "Kreativ aktivitet"
+    },
+    "moods": {
+      "Happy": "Glad",
+      "Calm": "Rolig",
+      "Neutral": "Neutral",
+      "Low": "Lavt",
+      "Stressed": "Stresset",
+      "Tired": "Træt"
+    },
+    "positiveStatements": [
+      "Du dukkede op for dig selv i dag. Det er stærkt. 🌿",
+      "Egenomsorg er ikke egoistisk — det er essentielt. Godt gået. 💚",
+      "Hver lille omsorgshandling bygger en stærkere dig selv. 🌱",
+      "Du investerede i dig selv i dag. Det betyder noget. ✨",
+      "At tage sig af dig er det bedste, du har gjort i dag. 🍃"
+    ],
+    "supportiveStatements": [
+      "Det er okay. I morgen er en frisk start. Vær blid ved dig selv. 🤍",
+      "Ikke alle dage vil være perfekte, og det er helt i orden. 🕊️",
+      "Du gør dit bedste. Det er altid nok. 💛",
+      "Hvile er også en form for egenomsorg. Vær nådig med dig selv. 🌸",
+      "At anerkende i dag kræver mod. Du vokser allerede. 🌷"
+    ]
+  }
+}

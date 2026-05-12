@@ -1,0 +1,93 @@
+{
+  "app_title": "Voorspelling versus Realiteit",
+  "step_label": "Stap {{current}} van 8",
+  "intro": {
+    "title": "Voorspelling versus Realiteit",
+    "description": "Vergelijk je angstige voorspellingen met wat er daadwerkelijk gebeurt om een meer evenwichtig perspectief op te bouwen.",
+    "benefits": [
+      "Identificeer angstpatronen",
+      "Verzamel bewijs tegen angsten",
+      "Verminder toekomstige overdenken"
+    ],
+    "duration": "4-5 minuten",
+    "view_past": "Bekijk eerdere reflecties"
+  },
+  "history": {
+    "title": "Eerdere Overdenkingen",
+    "no_reflections": "Er zijn nog geen reflecties opgeslagen.",
+    "prediction_label": "Voorspelling",
+    "reality_label": "Werkelijkheid",
+    "reflection_label": "Reflectie:"
+  },
+  "complete": {
+    "title": "Activiteit voltooid",
+    "saved_title": "Reflectie gered",
+    "message": "Door naar de feiten te kijken, help je je geest te leren dat dingen vaak beter beheersbaar zijn dan ze lijken."
+  },
+  "emotions": [
+    "Angstig",
+    "Nerveus",
+    "Bang",
+    "Overweldigd",
+    "Onrustig"
+  ],
+  "intensity_labels": {
+    "not_intense": "Niet intens",
+    "very_intense": "Zeer intens"
+  },
+  "comparison_options": [
+    "Het is bijna precies gelopen, zoals ik had verwacht",
+    "Sommige delen klopten, maar niet alles",
+    "Het was heel anders dan ik had verwacht",
+    "Het was veel makkelijker/beter dan ik had gedacht"
+  ],
+  "screens": {
+    "s1": {
+      "title": "Denk aan een recente situatie",
+      "desc": "Herinner je een recent moment waarop je je angstig of onzeker voelde.",
+      "placeholder": "Beschrijf de situatie..."
+    },
+    "s2": {
+      "title": "Wat dacht je dat er zou gebeuren?",
+      "desc": "Wat verwachtte of vreesde je op dat moment?",
+      "placeholder": "Ik was bang dat..."
+    },
+    "s3": {
+      "title": "Hoe voelde je je?",
+      "desc": "Selecteer de emoties die je voelde en hun intensiteit."
+    },
+    "s4": {
+      "title": "Wat is er eigenlijk gebeurd?",
+      "desc": "Focus op de feiten van wat er echt is gebeurd.",
+      "placeholder": "In werkelijkheid..."
+    },
+    "s5": {
+      "title": "Laten we naar beide kijken",
+      "expectation": "Verwachting",
+      "reality": "Werkelijkheid",
+      "question": "Hoe dicht was je verwachting?"
+    },
+    "s6": {
+      "title": "Wat valt je op?",
+      "desc": "Was het zo erg als je dacht?",
+      "placeholder": "Ik merk dat..."
+    },
+    "s7": {
+      "title": "Volgende keer",
+      "desc": "Wat zou je jezelf kunnen herinneren als dit weer gebeurt?",
+      "placeholder": "bijvoorbeeld: \"Misschien is het niet zo erg als ik me voorstel.\""
+    },
+    "s8": {
+      "title": "Een kleine herinnering",
+      "desc": "Je geest probeert je voor te bereiden—maar voorspelt niet altijd nauwkeurig. Elke keer dat je even pauzeert om naar de feiten te kijken, bouw je veerkracht op.",
+      "button": "Reflectie opslaan",
+      "discard": "Afdanking"
+    }
+  },
+  "buttons": {
+    "continue": "Ga verder"
+  },
+  "toasts": {
+    "saved": "Reflectie gered!"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "app_title": "Recursos",
+  "not_found": {
+    "title": "Não Encontrado",
+    "message": "Recurso não encontrado",
+    "description": "O conteúdo que você procura pode ter se movido.",
+    "button": "Volte"
+  },
+  "list": {
+    "empty_title": "Nenhum {{type}} disponível",
+    "empty_desc": "Atualmente, estamos selecionando mais recursos para esse tema.",
+    "footer": "Mantra Care • Recursos Baseados em Evidências"
+  },
+  "detail": {
+    "loading": "Carregando...",
+    "tip": {
+      "insight_label": "O Insight",
+      "plan_title": "Plano de Ação Diário",
+      "steps": "{{count}} Passos",
+      "example_label": "Exemplo de Prática",
+      "instead_of": "Em vez de",
+      "try_this": "Experimente isso"
+    },
+    "article": {
+      "final_thought": "Final Thought"
+    },
+    "story": {
+      "reflection_label": "Algo para sentar",
+      "note_label": "Uma Nota do Autor"
+    },
+    "myth": {
+      "truth_label": "A Verdade Científica",
+      "explanation_label": "Explicação Detalhada",
+      "insight_label": "Principais Insights"
+    }
+  }
+}

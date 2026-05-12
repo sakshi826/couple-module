@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Heart, ChevronRight, Sparkles } from "lucide-react";
+import { Heart, ChevronRight } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import { motion, AnimatePresence } from "framer-motion";
@@ -47,6 +48,7 @@ const FloatingHearts = ({ hearts }: { hearts: typeof HEARTS_SCREEN1 }) => (
 );
 
 const Index = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState(0);
 
   const resetFlow = () => {
@@ -56,8 +58,8 @@ const Index = () => {
   if (screen === 2) {
     return (
       <PremiumComplete
-        title="Awareness Gained"
-        message="Understanding your patterns is the first step toward rewriting them. You carry the power to choose a different path."
+        title={t("complete_title")}
+        message={t("complete_message")}
         onRestart={resetFlow}
       />
     );
@@ -65,8 +67,8 @@ const Index = () => {
 
   return (
     <PremiumLayout
-      title="Relationship Patterns"
-      subtitle="Unpacking your blueprint"
+      title={t("app_title")}
+      subtitle={t("app_subtitle")}
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={screen > 0 ? () => setScreen(prev => prev - 1) : undefined}
       onReset={screen > 0 ? resetFlow : undefined}
@@ -98,21 +100,21 @@ const Index = () => {
                 
                 <div className="relative z-10 space-y-8">
                   <div className="inline-block px-4 py-1.5 rounded-full bg-pink-50 text-pink-600 text-[10px] font-black uppercase tracking-[0.2em]">
-                    Pattern Discovery
+                    {t("screen1.tag")}
                   </div>
                   
                   <div className="space-y-6">
-                    <p className="text-slate-400 font-black uppercase tracking-widest text-[10px]">Ever felt like you've been here before?</p>
+                    <p className="text-slate-400 font-black uppercase tracking-widest text-[10px]">{t("screen1.intro")}</p>
                     <h1 className="text-3xl font-black text-slate-800 leading-tight">
-                      If your relationships keep ending the same way — it's not bad luck.
+                      {t("screen1.title")}
                     </h1>
                     <p className="text-slate-600 font-medium leading-relaxed text-base">
-                      The relationships we choose follow a blueprint written long before we ever fell in love. Familiarity often feels like safety, even when it leads to the same old arguments.
+                      {t("screen1.desc")}
                     </p>
                   </div>
 
                   <div className="bg-pink-50/50 border-l-8 border-pink-400 rounded-2xl p-8 italic text-pink-900 text-base font-bold leading-relaxed shadow-sm">
-                    "We repeat patterns not because we are broken — but because they feel familiar."
+                    {t("screen1.quote")}
                   </div>
                 </div>
               </div>
@@ -121,7 +123,7 @@ const Index = () => {
                 onClick={() => setScreen(1)}
                 className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
               >
-                Continue Unpacking
+                {t("screen1.button")}
                 <ChevronRight size={20} strokeWidth={3} />
               </button>
             </motion.div>
@@ -141,21 +143,21 @@ const Index = () => {
 
                 <div className="relative z-10 space-y-8">
                   <div className="inline-block px-4 py-1.5 rounded-full bg-indigo-50 text-indigo-600 text-[10px] font-black uppercase tracking-[0.2em]">
-                    The Template
+                    {t("screen2.tag")}
                   </div>
 
                   <div className="space-y-6">
-                    <p className="text-slate-400 font-black uppercase tracking-widest text-[10px]">It starts earlier than you think.</p>
+                    <p className="text-slate-400 font-black uppercase tracking-widest text-[10px]">{t("screen2.intro")}</p>
                     <h1 className="text-3xl font-black text-slate-800 leading-tight">
-                      Earliest relationships become the template for all that follows.
+                      {t("screen2.title")}
                     </h1>
                     <p className="text-slate-600 font-medium leading-relaxed text-base">
-                      The way your caregivers responded to your needs quietly shaped how you relate to others as an adult. These are learned responses — and they can be unlearned.
+                      {t("screen2.desc")}
                     </p>
                   </div>
 
                   <div className="bg-indigo-50/50 border-l-8 border-indigo-400 rounded-2xl p-8 italic text-indigo-900 text-base font-bold leading-relaxed shadow-sm">
-                    "Your pattern made sense once. The question is — does it still serve you now?"
+                    {t("screen2.quote")}
                   </div>
                 </div>
               </div>
@@ -164,7 +166,7 @@ const Index = () => {
                 onClick={() => setScreen(2)}
                 className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
               >
-                Finish Reflection
+                {t("screen2.button")}
                 <ChevronRight size={20} strokeWidth={3} />
               </button>
             </motion.div>

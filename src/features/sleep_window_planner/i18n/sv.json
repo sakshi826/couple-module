@@ -1,0 +1,95 @@
+{
+  "app_title": "Sömnfönsterplanerare",
+  "pill_labels": [
+    "Bygg ditt fönster",
+    "Sätt dina tider",
+    "Ditt sömnfönster"
+  ],
+  "screen1": {
+    "title": "Ditt sömnfönster betyder mer än du tror",
+    "p1": "Ett sömnfönster är den fasta tiden mellan att du går och lägger dig och när du vaknar. Att hålla den konsekvent – även på helgerna – är en av de mest kraftfulla sakerna du kan göra för din sömn.",
+    "p2": "Det här verktyget hjälper dig att bygga din på under 2 minuter.",
+    "insight": "Även en timmes skillnad i sömntider på helgerna kan störa hur du mår hela veckan.",
+    "meta": "Enkelt. Personligt. Effektivt.",
+    "button": "Låt oss bygga min →"
+  },
+  "screen2": {
+    "title": "Låt oss ställa in ditt sömnfönster",
+    "step1": {
+      "title": "STEG 1 — UPPVAKNINGSTID",
+      "desc": "Vilken tid behöver du vakna de flesta dagar?"
+    },
+    "step2": {
+      "title": "STEG 2 — SÖMNLÄNGD",
+      "desc": "Hur många timmars sömn vill du ha?"
+    },
+    "live_window": {
+      "bedtime": "Läggdags",
+      "waketime": "Vakningstid",
+      "duration": "{{hours}} timmars sömn"
+    },
+    "italic": "De flesta vuxna behöver 7–9 timmar. Välj det som känns rätt.",
+    "button": "Se mitt sömnfönster →"
+  },
+  "screen3": {
+    "title": "Ditt sömnfönster 🌙",
+    "result": {
+      "bedtime": "Läggdags",
+      "waketime": "Vakningstid",
+      "duration": "Varaktighet",
+      "hours": "{{hours}} timmar"
+    },
+    "accordion1": {
+      "title": "3 sätt att skydda den",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Varva ner 30 minuter innan läggdags"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Samma vakentid varje dag — ja, helger också"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Undvik tupplurar längre än 20 minuter efter kl 15"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Satsa på en sak ikväll",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Lägg undan min telefon innan jag går och lägger mig"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Starta en varvningsrutin"
+        },
+        {
+          "emoji": "💡",
+          "text": "Dämpa ljuset en timme innan läggdags"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Avsluta min att-göra-lista tidigt"
+        }
+      ]
+    },
+    "quote": "Konsekvens är starkare än perfektion. En bra natt byggs upp, nästa.",
+    "button": "Spara mitt sömnfönster ✓",
+    "saved_button": "✓ Sovfönstret räddat!",
+    "adjust_times": "Justera tider"
+  },
+  "complete": {
+    "title": "Fönster skapat",
+    "message": "Ditt ideala sömnfönster har kartlagts. Konsekvens är nyckeln till djup, återställande vila."
+  },
+  "toasts": {
+    "save_success": "Vilofönstret sparat",
+    "save_error": "Misslyckades med att spara vilofönstret",
+    "auth_error": "Auth-session saknas eller databas inte konfigurerad",
+    "saving": "Rädda..."
+  }
+}

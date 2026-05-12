@@ -1,0 +1,173 @@
+{
+  "common": {
+    "title": "Bekræftelser — En blid ledsager",
+    "beforeYouBegin": "Før du begynder",
+    "introText1": "Hvis du føler dig tryg, kan du vælge at stå foran et spejl, mens du læser disse affirmationer.",
+    "introText2": "Du kan forsigtigt se på dig selv og sige hver linje højt, langsomt og tydeligt. At høre sin egen stemme kan gøre ordene mere personlige og jordnære.",
+    "noRightWay": "Der er ikke nogen rigtig måde at gøre det på.",
+    "takeTime": "Tag dig tid.",
+    "breatheNaturally": "Træk vejret naturligt.",
+    "noRush": "Der er ingen grund til at skynde sig eller tvinge nogen følelse.",
+    "meaningfulMoment": "Selv hvis ordene ikke føles helt sande lige nu, kan det stadig være meningsfuldt at tillade dette øjeblik af intention.",
+    "readyToBegin": "Når du føler dig klar, kan du begynde ✨",
+    "begin": "Begynd",
+    "howFeeling": "Hvordan har du det lige nu?",
+    "noExplanation": "Du behøver ikke forklare eller analysere noget.",
+    "justNotice": "Læg bare mærke til, hvad der føles tættest på din oplevelse i dette øjeblik.",
+    "chooseOne": "Vælg én følelse at starte med – du kan altid vende tilbage.",
+    "readAgain": "Læs igen",
+    "chooseAnother": "Vælg en anden følelse"
+  },
+  "feelings": {
+    "lonely": {
+      "label": "Når du føler dig ensom og trist",
+      "affirmations": [
+        "Jeg er ikke alene, selv når det føles sådan.",
+        "Mine følelser fortjener omsorg og blidhed.",
+        "Dette øjeblik varer ikke evigt.",
+        "Jeg har ret til at have brug for forbindelse.",
+        "Jeg kan tilbyde mig selv varme lige nu."
+      ]
+    },
+    "terrified": {
+      "label": "Når du føler dig skræmt",
+      "affirmations": [
+        "Jeg er tryg i dette øjeblik.",
+        "Frygt er en følelse, ikke en forudsigelse.",
+        "Jeg kan tage det her ét åndedrag ad gangen.",
+        "Jeg behøver ikke løse alt lige nu.",
+        "Jeg er stærkere end dette øjeblik."
+      ]
+    },
+    "insignificant": {
+      "label": "Når du føler dig ubetydelig",
+      "affirmations": [
+        "Små øjeblikke tæller stadig.",
+        "Jeg behøver ikke bevise min værdi.",
+        "Jeg må gerne tage plads.",
+        "Min eksistens betyder noget.",
+        "Jeg er nok, som jeg er."
+      ]
+    },
+    "overwhelmed": {
+      "label": "Når du føler dig overvældet",
+      "affirmations": [
+        "Jeg behøver ikke gøre alt på én gang.",
+        "Et lille skridt er nok.",
+        "Det er okay at holde en pause.",
+        "Jeg må hvile mig.",
+        "Det vil blive håndterbart igen."
+      ]
+    },
+    "hopeless": {
+      "label": "Når du føler dig håbløs",
+      "affirmations": [
+        "Jeg behøver ikke svar i dag.",
+        "Forandring er stadig mulig.",
+        "Jeg har overlevet svære dage før.",
+        "Jeg kan blive her for nu.",
+        "Noget blidt kan stadig udfolde sig."
+      ]
+    },
+    "conflicted": {
+      "label": "Når du føler dig splittet",
+      "affirmations": [
+        "Det er okay at føle mere end én ting på én gang.",
+        "Jeg behøver ikke klarhed med det samme.",
+        "Forvirring betyder ikke fiasko.",
+        "Jeg kan give mig selv tid.",
+        "Jeg stoler på mig selv til at finde ud af det."
+      ]
+    },
+    "self-critical": {
+      "label": "Når du er meget selvkritisk",
+      "affirmations": [
+        "Jeg kan tale til mig selv med venlighed.",
+        "Jeg behøver ikke straffe mig selv for at vokse.",
+        "Fejl definerer ikke, hvem jeg er.",
+        "Jeg lærer, jeg fejler ikke.",
+        "Vækst kræver ikke grusomhed."
+      ]
+    },
+    "out-of-place": {
+      "label": "Når du føler dig socialt malplaceret",
+      "affirmations": [
+        "Jeg må gerne være stille eller anderledes.",
+        "Jeg behøver ikke matche andres energi.",
+        "Jeg hører til, som jeg er.",
+        "Jeg kan tage plads forsigtigt.",
+        "Jeg gør det ikke forkert."
+      ]
+    },
+    "unsafe": {
+      "label": "Når du føler dig utryg omkring fremmede",
+      "affirmations": [
+        "Jeg kan bevæge mig i mit eget tempo.",
+        "Jeg har lov til at beskytte mine grænser.",
+        "Jeg kan forblive jordet i min krop.",
+        "Jeg må gerne forlade situationer.",
+        "Jeg kan holde mig selv sikker."
+      ]
+    },
+    "pressured": {
+      "label": "Når du føler dig presset på arbejdet",
+      "affirmations": [
+        "Min værdi er ikke min produktivitet.",
+        "Jeg behøver ikke hele tiden bevise mig selv.",
+        "At gøre mit bedste er nok i dag.",
+        "Én opgave ad gangen er okay.",
+        "Jeg er mere end min rolle."
+      ]
+    },
+    "face-the-day": {
+      "label": "Når du ikke vil møde dagen",
+      "affirmations": [
+        "Jeg kan tage i dag i små stykker.",
+        "At komme igennem er nok.",
+        "Jeg behøver ikke motivation for at begynde.",
+        "At møde op forsigtigt tæller stadig.",
+        "Denne dag definerer mig ikke."
+      ]
+    },
+    "future": {
+      "label": "Når du bekymrer dig om din fremtid",
+      "affirmations": [
+        "Jeg kan vende tilbage til nutiden.",
+        "Jeg vil håndtere tingene, som de kommer.",
+        "Jeg behøver ikke sikkerhed i dag.",
+        "Jeg er i stand til at tilpasse mig.",
+        "Jeg kan stole lidt mere på mig selv."
+      ]
+    },
+    "stuck": {
+      "label": "Når du føler dig fanget i et problem",
+      "affirmations": [
+        "At sidde fast betyder ikke, at jeg er ødelagt.",
+        "Jeg kan holde pause uden at give op.",
+        "Jeg behøver ikke øjeblikkelige løsninger.",
+        "Jeg har lov til at føle mig usikker.",
+        "Jeg bevæger mig stadig, selv langsomt."
+      ]
+    },
+    "compare": {
+      "label": "Når du sammenligner dig selv",
+      "affirmations": [
+        "Min rejse er min egen.",
+        "Jeg behøver ikke konkurrere for at være værdig.",
+        "Jeg må gerne vokse i mit eget tempo.",
+        "Andres succes sletter ikke min.",
+        "Jeg er ikke bagud."
+      ]
+    },
+    "give-up": {
+      "label": "Når du vil give op",
+      "affirmations": [
+        "Jeg behøver ikke beslutte noget lige nu.",
+        "Denne følelse vil gå over.",
+        "Jeg har overlevet mere, end jeg er klar over.",
+        "Jeg kan blive et øjeblik mere.",
+        "Jeg er stadig her — og det betyder noget."
+      ]
+    }
+  }
+}

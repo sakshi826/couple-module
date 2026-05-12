@@ -1,0 +1,37 @@
+{
+  "app_title": "Ressurser",
+  "not_found": {
+    "title": "Ikke funnet",
+    "message": "Ressurs ikke funnet",
+    "description": "Innholdet du leter etter kan ha flyttet seg.",
+    "button": "Gå tilbake"
+  },
+  "list": {
+    "empty_title": "Ingen {{type}} tilgjengelig",
+    "empty_desc": "Vi kuraterer for øyeblikket flere ressurser for dette temaet.",
+    "footer": "Mantra-omsorg • Kunnskapsbaserte ressurser"
+  },
+  "detail": {
+    "loading": "Laster...",
+    "tip": {
+      "insight_label": "Innsikten",
+      "plan_title": "Daglig handlingsplan",
+      "steps": "{{count}} Trinn",
+      "example_label": "Praksiseksempel",
+      "instead_of": "I stedet for",
+      "try_this": "Prøv dette"
+    },
+    "article": {
+      "final_thought": "Avsluttende tanke"
+    },
+    "story": {
+      "reflection_label": "Noe å sitte med",
+      "note_label": "En merknad fra forfatteren"
+    },
+    "myth": {
+      "truth_label": "Den vitenskapelige sannheten",
+      "explanation_label": "Detaljert forklaring",
+      "insight_label": "Nøkkelinnsikt"
+    }
+  }
+}
