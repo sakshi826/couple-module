@@ -69,13 +69,13 @@ const topicCards: TopicCard[] = [
 ];
 
 const toolCards: TopicCard[] = [
-  { id: "box-breathing", icon: Wind, labelKey: "tools.box-breathing", bgColor: "linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)", iconColor: "#00BCD4", url: "/exercises/box-breathing" },
-  { id: "gratitude-tracker", icon: Star, labelKey: "tools.gratitude-tracker", bgColor: "linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%)", iconColor: "#F9A825", url: "/trackers/gratitude-tracker" },
-  { id: "deep-breathing", icon: Activity, labelKey: "tools.deep-breathing", bgColor: "linear-gradient(135deg, #f472b6 0%, #ec4899 100%)", iconColor: "#EC407A", url: "/exercises/4-6-8-breathing" },
-  { id: "affirmations", icon: Smile, labelKey: "tools.affirmations", bgColor: "linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)", iconColor: "#0EA5E9", url: "/tools/affirmations" },
-  { id: "mindful-space", icon: Compass, labelKey: "tools.mindful-space", bgColor: "linear-gradient(135deg, #10b981 0%, #059669 100%)", iconColor: "#66BB6A", url: "/tools/joyful-activities" },
-  { id: "letter-to-self", icon: Mail, labelKey: "tools.letter-to-self", bgColor: "linear-gradient(135deg, #fb923c 0%, #f97316 100%)", iconColor: "#FF9800", url: "/tools/a-letter-to-self" },
-  { id: "sleep-tracker", icon: Moon, labelKey: "tools.sleep-tracker", bgColor: "linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%)", iconColor: "#3B82F6", url: "https://web.mantracare.com/app/sleep" },
+  { id: "box-breathing", icon: Wind, labelKey: "tools.box-breathing", bgColor: "#06b6d4", iconColor: "#00BCD4", url: "/exercises/box-breathing" },
+  { id: "gratitude-tracker", icon: Star, labelKey: "tools.gratitude-tracker", bgColor: "#fbbf24", iconColor: "#F9A825", url: "/trackers/gratitude-tracker" },
+  { id: "deep-breathing", icon: Activity, labelKey: "tools.deep-breathing", bgColor: "#f472b6", iconColor: "#EC407A", url: "/exercises/4-6-8-breathing" },
+  { id: "affirmations", icon: Smile, labelKey: "tools.affirmations", bgColor: "#06b6d4", iconColor: "#0EA5E9", url: "/tools/affirmations" },
+  { id: "mindful-space", icon: Compass, labelKey: "tools.mindful-space", bgColor: "#10b981", iconColor: "#66BB6A", url: "/tools/joyful-activities" },
+  { id: "letter-to-self", icon: Mail, labelKey: "tools.letter-to-self", bgColor: "#fb923c", iconColor: "#FF9800", url: "/tools/a-letter-to-self" },
+  { id: "sleep-tracker", icon: Moon, labelKey: "tools.sleep-tracker", bgColor: "#3b82f6", iconColor: "#3B82F6", url: "https://web.mantracare.com/app/sleep" },
 ];
 
 const topicDetails: Record<string, {
@@ -89,16 +89,16 @@ const topicDetails: Record<string, {
     descKey: "topics.depression.desc",
     guidedSeriesUrl: "https://app.mantracare.com/therapy/depression/depr-guided-series/",
     exercises: [
-      { titleKey: "exercises.grounding_54321", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
+      { titleKey: "exercises.5_4_3_2_1_grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
       { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
       { titleKey: "tools.affirmations", icon: Smile, url: "/tools/affirmations" },
-      { titleKey: "tools.mindful_space", icon: Sparkles, url: "/tools/joyful-activities" },
+      { titleKey: "tools.mindful-space", icon: Sparkles, url: "/tools/joyful-activities" },
     ],
     todos: [
-      { titleKey: "tools.gratitude_tracker", icon: Star, url: "/trackers/gratitude-tracker" },
+      { titleKey: "tools.gratitude-tracker", icon: Star, url: "/trackers/gratitude-tracker" },
       { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
       { titleKey: "tools.know_values", icon: Brain, url: "/tools/know-your-values" },
-      { titleKey: "tools.letter_to_self", icon: Mail, url: "/tools/a-letter-to-self" },
+      { titleKey: "tools.letter-to-self", icon: Mail, url: "/tools/a-letter-to-self" },
     ],
     resources: [
       { titleKey: "hub.articles", count: 5, icon: Newspaper, url: "/resources/depression/articles" },
@@ -111,10 +111,10 @@ const topicDetails: Record<string, {
     descKey: "topics.anxiety.desc",
     guidedSeriesUrl: "https://app.mantracare.com/therapy/anxiety/anx-guided-series/",
     exercises: [
-      { titleKey: "tools.box_breathing", icon: Wind, url: "/exercises/box-breathing" },
-      { titleKey: "tools.deep_breathing", icon: Play, url: "/exercises/4-6-8-breathing" },
-      { titleKey: "exercises.grounding", icon: Compass, url: "/exercises/grounding-technique" },
-      { titleKey: "exercises.diffusion", icon: Brain, url: "/exercises/diffusion-technique" },
+      { titleKey: "tools.box-breathing", icon: Wind, url: "/exercises/box-breathing" },
+      { titleKey: "tools.deep-breathing", icon: Play, url: "/exercises/4-6-8-breathing" },
+      { titleKey: "exercises.grounding_technique", icon: Compass, url: "/exercises/grounding-technique" },
+      { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/exercises/diffusion-technique" },
     ],
     todos: [
       { titleKey: "tools.vibe_tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
@@ -133,10 +133,10 @@ const topicDetails: Record<string, {
     descKey: "topics.stress.desc",
     guidedSeriesUrl: "https://app.mantracare.com/therapy/stress-home/strs-guided-series/",
     exercises: [
-      { titleKey: "tools.box_breathing", icon: Wind, url: "/exercises/box-breathing" },
+      { titleKey: "tools.box-breathing", icon: Wind, url: "/exercises/box-breathing" },
       { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
       { titleKey: "tools.doodle_burst", icon: Pen, url: "/tools/doodle-burst" },
-      { titleKey: "exercises.grounding_54321", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
+      { titleKey: "exercises.5_4_3_2_1_grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
     ],
     todos: [
       { titleKey: "tools.energy_tracker", icon: Zap, url: "/trackers/energy-tracker" },
@@ -203,7 +203,7 @@ export function SelfCareResources() {
   );
 
   return (
-    <div className="flex min-h-screen bg-[#F6F8FB] selection:bg-primary/10">
+    <div className="flex min-h-screen bg-[#F6F8FB]">
       <div className="flex-1 flex flex-col min-w-0">
         <main className="max-w-4xl w-full mx-auto px-4 md:px-6 py-6 pt-10">
           <AnimatePresence mode="wait">
@@ -308,7 +308,7 @@ export function SelfCareResources() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
-                className="space-y-10"
+                className="space-y-8"
               >
                 <div className="space-y-2">
                   <div className="flex items-center gap-3">
@@ -318,7 +318,7 @@ export function SelfCareResources() {
                     <div className="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center">
                       <Sparkles size={20} className="text-primary" />
                     </div>
-                    <h1 className="text-3xl font-black text-slate-900">{t("hub.self_care_resources")}</h1>
+                    <h1 className="text-3xl font-bold text-slate-900">{t("hub.self_care_resources")}</h1>
                   </div>
                   <p className="text-slate-500 font-medium ml-12">{t("hub.explore_tools")}</p>
                 </div>
@@ -334,47 +334,44 @@ export function SelfCareResources() {
                   />
                 </div>
 
-                <div className="space-y-6">
-                  <h2 className="text-xl font-bold text-slate-900">{t("hub.tools")}</h2>
+                <div className="space-y-4">
+                  <h2 className="text-lg font-semibold text-slate-900">{t("hub.tools")}</h2>
                   <motion.div 
                     variants={container}
                     initial="hidden"
                     animate="show"
-                    className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4"
+                    className="grid grid-cols-2 md:grid-cols-6 gap-4"
                   >
                     {toolCards.map((tool) => (
                       <motion.button
                         key={tool.id}
                         variants={item}
-                        whileHover={{ y: -4, scale: 1.02 }}
+                        whileHover={{ y: -2 }}
                         onClick={() => tool.url?.startsWith('http') ? (window.location.href = tool.url) : navigate(tool.url!, { replace: true })}
-                        className="p-5 rounded-[2rem] text-white flex flex-col justify-between h-32 relative overflow-hidden group shadow-lg"
-                        style={{ background: tool.bgColor }}
+                        className="p-5 rounded-2xl text-white flex flex-col justify-between h-28 shadow-sm"
+                        style={{ backgroundColor: tool.bgColor }}
                       >
-                        <tool.icon size={28} className="relative z-10" />
-                        <span className="text-xs font-black uppercase tracking-wider relative z-10">{t(tool.labelKey)}</span>
-                        <div className="absolute -right-4 -bottom-4 opacity-10 group-hover:scale-125 transition-transform">
-                          <tool.icon size={80} />
-                        </div>
+                        <tool.icon size={28} />
+                        <span className="text-[11px] font-bold uppercase tracking-tight text-left leading-tight">{t(tool.labelKey)}</span>
                       </motion.button>
                     ))}
                   </motion.div>
                 </div>
 
-                <div className="space-y-6">
-                  <h2 className="text-xl font-bold text-slate-900">{t("hub.topics")}</h2>
+                <div className="space-y-4">
+                  <h2 className="text-lg font-semibold text-slate-900">{t("hub.topics")}</h2>
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                     {filteredTopics.map((topic) => (
                       <motion.button
                         key={topic.id}
-                        whileHover={{ y: -4, shadow: "0 10px 25px -5px rgba(0,0,0,0.1)" }}
+                        whileHover={{ y: -2 }}
                         onClick={() => topic.url ? (window.location.href = topic.url) : setSelectedTopic(topic.id)}
-                        className="p-6 bg-white border border-slate-100 rounded-3xl flex flex-col items-center gap-4 transition-all"
+                        className="p-6 bg-white border border-slate-100 rounded-2xl flex flex-col items-center gap-4 transition-all hover:shadow-md"
                       >
-                        <div className="w-16 h-16 rounded-2xl flex items-center justify-center transition-transform group-hover:scale-110" style={{ backgroundColor: topic.bgColor }}>
+                        <div className="w-16 h-16 rounded-2xl flex items-center justify-center" style={{ backgroundColor: topic.bgColor }}>
                           <topic.icon size={28} style={{ color: topic.iconColor }} />
                         </div>
-                        <span className="font-bold text-slate-700 text-sm">{t(topic.labelKey)}</span>
+                        <span className="font-semibold text-slate-700 text-sm">{t(topic.labelKey)}</span>
                       </motion.button>
                     ))}
                   </div>
