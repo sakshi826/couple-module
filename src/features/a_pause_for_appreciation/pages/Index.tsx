@@ -82,7 +82,7 @@ const Index = () => {
       title={t("app_title", " 
       title={t("app_title", " 
       title={t("app_title", " 
-      title=")}Reflecting" })}
+      title={t("app_title", ")}Reflecting")} })}
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={currentIdx > 0 && screen !== 'closing' ? () => setScreen(screenOrder[currentIdx - 1]) : undefined}
       onReset={currentIdx > 0 && screen !== 'closing' ? resetFlow : undefined}

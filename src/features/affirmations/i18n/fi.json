@@ -164,5 +164,6 @@
     }
   },
   "app_complete_title": "Tunne itsesi voimaantuneeksi",
-  "app_complete_message": "Päivittäiset affirmaatiot auttavat muokkaamaan ajattelutapaasi. Kanna nämä positiiviset ajatukset mukanasi jo tänään."
+  "app_complete_message": "Päivittäiset affirmaatiot auttavat muokkaamaan ajattelutapaasi. Kanna nämä positiiviset ajatukset mukanasi jo tänään.",
+  "app_title": "Ajattelutapa"
 }

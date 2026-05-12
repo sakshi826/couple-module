@@ -164,5 +164,6 @@
     }
   },
   "app_complete_title": "Rasa Diperkasakan",
-  "app_complete_message": "Pengesahan harian membantu membentuk semula pemikiran anda. Bawa pemikiran positif ini bersama anda hari ini."
+  "app_complete_message": "Pengesahan harian membantu membentuk semula pemikiran anda. Bawa pemikiran positif ini bersama anda hari ini.",
+  "app_title": "Pemikiran"
 }

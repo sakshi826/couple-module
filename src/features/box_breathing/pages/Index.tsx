@@ -29,7 +29,7 @@ const Index = () => {
               className="w-full"
             >
               <PremiumIntro
-                title="Box Breathing"
+                title={t("app_title", "Box Breathing")}
                 description={t("technique_description")}
                 onStart={() => setScreen("session")}
                 icon={<Wind size={32} />}

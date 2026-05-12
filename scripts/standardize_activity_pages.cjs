@@ -12,56 +12,72 @@ features.forEach(feature => {
 
     let indexContent = fs.readFileSync(indexPath, 'utf8');
     let enContent = JSON.parse(fs.readFileSync(enPath, 'utf8'));
+    let changed = false;
 
     // 1. Standardize PremiumIntro
-    // Find title="...", description="..." or description={t("...")}, duration="..."
-    
-    // Extract hardcoded values to en.json if possible
-    const titleMatch = indexContent.match(/<PremiumIntro[^>]*title="([^"]+)"/);
-    if (titleMatch && !enContent.app_title) {
-        enContent.app_title = titleMatch[1];
-        indexContent = indexContent.replace(/title="[^"]+"/, 'title={t("app_title")}');
-    } else if (indexContent.includes('<PremiumIntro')) {
-        // Just ensure it uses t if not already
-        if (!indexContent.includes('title={t(')) {
-             indexContent = indexContent.replace(/title="([^"]+)"/, 'title={t("app_title", "$1")}');
+    const introTitleMatch = indexContent.match(/<PremiumIntro[^>]*title="([^"]+)"/);
+    if (introTitleMatch) {
+        const originalTitle = introTitleMatch[1];
+        if (!enContent.app_title) {
+            enContent.app_title = originalTitle;
+            changed = true;
         }
+        indexContent = indexContent.replace(/(<PremiumIntro[^>]*title=)"[^"]+"/, `$1{t("app_title", "${originalTitle}")}`);
     }
 
-    const descMatch = indexContent.match(/<PremiumIntro[^>]*description="([^"]+)"/);
-    if (descMatch && !enContent.app_description) {
-        enContent.app_description = descMatch[1];
-        indexContent = indexContent.replace(/description="[^"]+"/, 'description={t("app_description")}');
+    const introDescMatch = indexContent.match(/<PremiumIntro[^>]*description="([^"]+)"/);
+    if (introDescMatch) {
+        const originalDesc = introDescMatch[1];
+        if (!enContent.app_description) {
+            enContent.app_description = originalDesc;
+            changed = true;
+        }
+        indexContent = indexContent.replace(/(<PremiumIntro[^>]*description=)"[^"]+"/, `$1{t("app_description", "${originalDesc}")}`);
     }
 
-    const durMatch = indexContent.match(/<PremiumIntro[^>]*duration="([^"]+)"/);
-    if (durMatch && !enContent.app_duration) {
-        enContent.app_duration = durMatch[1];
-        indexContent = indexContent.replace(/duration="[^"]+"/, 'duration={t("app_duration")}');
+    const introDurMatch = indexContent.match(/<PremiumIntro[^>]*duration="([^"]+)"/);
+    if (introDurMatch) {
+        const originalDur = introDurMatch[1];
+        if (!enContent.app_duration) {
+            enContent.app_duration = originalDur;
+            changed = true;
+        }
+        indexContent = indexContent.replace(/(<PremiumIntro[^>]*duration=)"[^"]+"/, `$1{t("app_duration", "${originalDur}")}`);
     }
 
     // 2. Standardize PremiumComplete
     const completeTitleMatch = indexContent.match(/<PremiumComplete[^>]*title="([^"]+)"/);
-    if (completeTitleMatch && !enContent.app_complete_title) {
-        enContent.app_complete_title = completeTitleMatch[1];
-        indexContent = indexContent.replace(/<PremiumComplete([^>]*title=)"[^"]+"/, '<PremiumComplete$1{t("app_complete_title")}');
+    if (completeTitleMatch) {
+        const originalCompleteTitle = completeTitleMatch[1];
+        if (!enContent.app_complete_title) {
+            enContent.app_complete_title = originalCompleteTitle;
+            changed = true;
+        }
+        indexContent = indexContent.replace(/(<PremiumComplete[^>]*title=)"[^"]+"/, `$1{t("app_complete_title", "${originalCompleteTitle}")}`);
     }
 
     const completeMsgMatch = indexContent.match(/<PremiumComplete[^>]*message="([^"]+)"/);
-    if (completeMsgMatch && !enContent.app_complete_message) {
-        enContent.app_complete_message = completeMsgMatch[1];
-        indexContent = indexContent.replace(/<PremiumComplete([^>]*message=)"[^"]+"/, '<PremiumComplete$1{t("app_complete_message")}');
+    if (completeMsgMatch) {
+        const originalCompleteMsg = completeMsgMatch[1];
+        if (!enContent.app_complete_message) {
+            enContent.app_complete_message = originalCompleteMsg;
+            changed = true;
+        }
+        indexContent = indexContent.replace(/(<PremiumComplete[^>]*message=)"[^"]+"/, `$1{t("app_complete_message", "${originalCompleteMsg}")}`);
     }
 
-    // 3. Standardize PremiumLayout title
+    // 3. Standardize PremiumLayout
     const layoutTitleMatch = indexContent.match(/<PremiumLayout[^>]*title="([^"]+)"/);
     if (layoutTitleMatch) {
-        indexContent = indexContent.replace(/<PremiumLayout([^>]*title=)"[^"]+"/, '<PremiumLayout$1{t("app_title", "$1")}');
+        const originalLayoutTitle = layoutTitleMatch[1];
+        indexContent = indexContent.replace(/(<PremiumLayout[^>]*title=)"[^"]+"/, `$1{t("app_title", "${originalLayoutTitle}")}`);
     }
 
     // Save changes
     fs.writeFileSync(indexPath, indexContent);
-    fs.writeFileSync(enPath, JSON.stringify(enContent, null, 2));
+    if (changed) {
+        fs.writeFileSync(enPath, JSON.stringify(enContent, null, 2));
+    }
 });
 
-console.log('Standardized activity pages and updated en.json files.');
+console.log('Standardized activity pages and updated en.json files safely.');

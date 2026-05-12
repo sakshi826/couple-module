@@ -1,9 +1,14 @@
 import BrainDumpApp from "../components/BrainDumpApp";
 import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
+import { useTranslation } from "react-i18next";
+import { Brain } from "lucide-react";
+
 const Index = () => {
+  const { t } = useTranslation();
   return (
-    <PremiumLayout title={t("app_title", " title={t("app_title", " title={t("app_title", " title=")}w-full">
+    <PremiumLayout title={t("app_title", "Brain Dump")} icon={<Brain className="w-6 h-6 text-primary" />}>
+      <div className="w-full">
         <BrainDumpApp />
       </div>
     </PremiumLayout>

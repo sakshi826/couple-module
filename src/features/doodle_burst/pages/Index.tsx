@@ -64,7 +64,7 @@ const Index = () => {
       title={t("app_title", " 
       title={t("app_title", " 
       title={t("app_title", " 
-      title=")}wait">
+      title={t("app_title", ")}wait")}>
         {screen === "intro" && (
           <motion.div
             key="intro"

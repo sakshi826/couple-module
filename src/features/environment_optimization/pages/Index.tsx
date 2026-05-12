@@ -15,7 +15,7 @@ const Index = () => {
       title={t("app_title", " 
       title={t("app_title", " 
       title={t("app_title", " 
-      title=")}w-full">
+      title={t("app_title", ")}w-full")}>
         <AnimatePresence mode="wait">
           {screen === "timer" && (
             <motion.div
