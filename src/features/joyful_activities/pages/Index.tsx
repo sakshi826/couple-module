@@ -51,9 +51,9 @@ const Index = () => {
   return (
     <PremiumLayout 
       title={t("app_title", " 
-      title=")} 
-      subtitle={subtitles[screen - 1]}
-      icon={<Heart className="w-6 h-6 text-primary" />}
+      title={t("app_title", " 
+      title={t("app_title", " 
+      title=")}w-6 h-6 text-primary" />}
       onBack={screen > 1 && screen < 5 ? () => setScreen(prev => prev - 1) : undefined}
       onReset={screen > 1 && screen < 5 ? goHome : undefined}
     >

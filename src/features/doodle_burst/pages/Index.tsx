@@ -62,10 +62,9 @@ const Index = () => {
   return (
     <PremiumLayout 
       title={t("app_title", " 
-      title=")} 
-      onReset={screen !== 'intro' ? () => setScreen('intro') : undefined}
-    >
-      <AnimatePresence mode="wait">
+      title={t("app_title", " 
+      title={t("app_title", " 
+      title=")}wait">
         {screen === "intro" && (
           <motion.div
             key="intro"

@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const glob = require('glob');
 
 const featuresDir = path.join(__dirname, '..', 'src', 'features');
 const features = fs.readdirSync(featuresDir).filter(f => fs.statSync(path.join(featuresDir, f)).isDirectory());
@@ -35,19 +34,33 @@ export { SUPPORTED_LANGUAGES } from '../../lib/i18n-config';
         }
 
         // Wrap with I18nextProvider and Suspense
-        // Find the return statement and wrap the content
         if (!indexContent.includes("<I18nextProvider")) {
-            const wrapMatch = indexContent.match(/return\s*\(([\s\S]*)\);/);
-            if (wrapMatch) {
-                const inner = wrapMatch[1];
-                const wrapped = `return (
+            // Handle const App = () => (...)
+            const arrowMatch = indexContent.match(/const\s+App\s*=\s*\(\)\s*=>\s*\(([\s\S]*)\);/);
+            if (arrowMatch) {
+                const inner = arrowMatch[1];
+                const wrapped = `const App = () => (
+  <I18nextProvider i18n={i18n}>
+    <Suspense fallback={<div className="flex items-center justify-center h-full">Loading...</div>}>
+      ${inner.trim()}
+    </Suspense>
+  </I18nextProvider>
+);`;
+                indexContent = indexContent.replace(/const\s+App\s*=\s*\(\)\s*=>\s*\([\s\S]*\);/, wrapped);
+            } else {
+                // Handle return (...)
+                const wrapMatch = indexContent.match(/return\s*\(([\s\S]*)\);/);
+                if (wrapMatch) {
+                    const inner = wrapMatch[1];
+                    const wrapped = `return (
     <I18nextProvider i18n={i18n}>
       <Suspense fallback={<div className="flex items-center justify-center h-full">Loading...</div>}>
         ${inner.trim()}
       </Suspense>
     </I18nextProvider>
   );`;
-                indexContent = indexContent.replace(/return\s*\([\s\S]*\);/, wrapped);
+                    indexContent = indexContent.replace(/return\s*\([\s\S]*\);/, wrapped);
+                }
             }
         }
         

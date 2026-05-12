@@ -13,7 +13,9 @@ import NotFound from "./pages/NotFound.tsx";
 const queryClient = new QueryClient();
 
 const App = () => (
-  <QueryClientProvider client={queryClient}>
+  <I18nextProvider i18n={i18n}>
+    <Suspense fallback={<div className="flex items-center justify-center h-full">Loading...</div>}>
+      <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
@@ -24,6 +26,8 @@ const App = () => (
       </Routes>
     </TooltipProvider>
   </QueryClientProvider>
+    </Suspense>
+  </I18nextProvider>
 );
 
 export default App;

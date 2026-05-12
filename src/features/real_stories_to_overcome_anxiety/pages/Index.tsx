@@ -29,8 +29,9 @@ const Index = () => {
   return (
     <PremiumLayout 
       title={t("app_title", " 
-      title=")} 
-      onBack={screen === "story" ? handleBackToStories : (screen === "selection" ? () => setScreen("intro") : undefined)}
+      title={t("app_title", " 
+      title={t("app_title", " 
+      title=")}story" ? handleBackToStories : (screen === "selection" ? () => setScreen("intro") : undefined)}
       onReset={screen !== 'intro' ? () => setScreen('intro') : undefined}
     >
       <div className="w-full">

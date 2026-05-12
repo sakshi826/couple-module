@@ -13,10 +13,9 @@ const Index = () => {
   return (
     <PremiumLayout 
       title={t("app_title", " 
-      title=")} 
-      onReset={screen !== 'choose' ? () => setScreen('choose') : undefined}
-    >
-      <div className="w-full">
+      title={t("app_title", " 
+      title={t("app_title", " 
+      title=")}w-full">
         <AnimatePresence mode="wait">
           {screen === "timer" && (
             <motion.div

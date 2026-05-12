@@ -33,8 +33,9 @@ const Index = () => {
   return (
     <PremiumLayout 
       title={t("app_title", " 
-      title=")} 
-      subtitle={t(`screen.${screen}.title`, { defaultValue: "Mindset" })}
+      title={t("app_title", " 
+      title={t("app_title", " 
+      title=")}Mindset" })}
       icon={<Sparkles className="w-6 h-6 text-primary" />}
       onBack={currentIdx > 0 && screen !== 'complete' ? () => setScreen(screenOrder[currentIdx - 1]) : undefined}
       onReset={currentIdx > 0 && screen !== 'complete' ? () => setScreen('intro') : undefined}

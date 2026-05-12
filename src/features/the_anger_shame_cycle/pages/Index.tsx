@@ -6,8 +6,9 @@ const Index = () => {
   return (
     <PremiumLayout 
       title={t("app_title", " 
-      title=")} 
-      icon={<Flame className="w-6 h-6 text-primary" />}
+      title={t("app_title", " 
+      title={t("app_title", " 
+      title=")}w-6 h-6 text-primary" />}
       exitOnBack={true}
     >
       <AngerShameCycle onClose={() => {}} />
