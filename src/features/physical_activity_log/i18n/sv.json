@@ -48,5 +48,17 @@
   "memory_desc": "Träning ökar blodflödet till hjärnan och hjälper till att förbättra minne och kognitiv funktion.",
   "stress_title": "Stressrespons",
   "stress_desc": "Fysisk aktivitet sänker stresshormoner och hjälper ditt nervsystem att återställa sig.",
-  "app_name": "Fysisk aktivitetslogg"
+  "app_name": "Fysisk aktivitetslogg",
+  "common": {
+    "get_started": "Kom igång",
+    "start_over": "Börja om",
+    "finish_exit": "Mål och utgång",
+    "well_done": "Bra jobbat!",
+    "completion_message": "Du har framgångsrikt slutfört denna aktivitet. Ta en stund och uppskatta dina framsteg.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "save": "Spara",
+    "loading": "Laddar..."
+  }
 }

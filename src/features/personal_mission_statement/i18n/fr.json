@@ -48,5 +48,17 @@
   "history_empty": "Vous n'avez encore enregistré aucun énoncé de mission.",
   "history_empty_hint": "Lorsque vous serez prêt, créez-en un et il apparaîtra ici.",
   "history_back": "Retour",
-  "history_delete_aria": "Supprimer ce reflet"
+  "history_delete_aria": "Supprimer ce reflet",
+  "common": {
+    "get_started": "Commencez",
+    "start_over": "Recommencer à zéro",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bravo !",
+    "completion_message": "Vous avez réussi cette activité. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Il est temps de terminer",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Sauvegarder",
+    "loading": "Chargement..."
+  }
 }

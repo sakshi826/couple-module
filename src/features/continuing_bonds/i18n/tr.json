@@ -61,5 +61,17 @@
   "bond_prompts": [
     "Bugün onlarla bağlı hissettiğiniz küçük bir yol nedir?",
     "Onların bir parçasını taşıyan bir şey nedir?"
-  ]
+  ],
+  "common": {
+    "get_started": "Başlayın",
+    "start_over": "Yeniden Başla",
+    "finish_exit": "Bitiş ve Çıkış",
+    "well_done": "Aferin!",
+    "completion_message": "Bu etkinliği başarıyla tamamladın. İlerlemenin takdir edilmesini bir an ayır.",
+    "time_to_complete": "Tamamlanma zamanı",
+    "back": "Geri",
+    "next": "Sıradaki",
+    "save": "Kayd et",
+    "loading": "Yükleniyor..."
+  }
 }

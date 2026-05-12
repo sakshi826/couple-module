@@ -30,5 +30,17 @@
   "tool_undo": "Angre",
   "tool_clear": "Klart",
   "share_doodle": "Del Doodle",
-  "share_text": "Jeg elsket denne doodle burst-aktiviteten på TherapyMantra, du kan også prøve, bare last ned appen for å utforske selv\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888"
+  "share_text": "Jeg elsket denne doodle burst-aktiviteten på TherapyMantra, du kan også prøve, bare last ned appen for å utforske selv\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888",
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start på nytt",
+    "finish_exit": "Mål og utgang",
+    "well_done": "Bra jobbet!",
+    "completion_message": "Du har fullført denne aktiviteten med suksess. Ta et øyeblikk til å sette pris på fremgangen din.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Tilbake",
+    "next": "Neste",
+    "save": "Lagre",
+    "loading": "Laster..."
+  }
 }

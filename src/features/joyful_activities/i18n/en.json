@@ -41,5 +41,19 @@
     "p1": "Reconnecting with what brings you joy — even in the smallest way — is an act of kindness toward yourself.",
     "p2": "You deserve moments of lightness and peace. Keep nurturing what makes your heart feel full. 💛",
     "button": "Back to Home"
-  }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading..."
+  },
+  "app_complete_title": "Joy Preserved",
+  "app_complete_message": "You've successfully recalled and connected with a source of joy. Keep this feeling with you as you move through your day."
 }

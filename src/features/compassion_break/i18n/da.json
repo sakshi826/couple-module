@@ -59,5 +59,17 @@
   "label_feelings": "Følelser",
   "label_your_kind_words": "Dine venlige ord",
   "save_finish_button": "Gem og afslut",
-  "finish_no_save_button": "Afslut uden at gemme"
+  "finish_no_save_button": "Afslut uden at gemme",
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start forfra",
+    "finish_exit": "Afslutning og exit",
+    "well_done": "Godt gået!",
+    "completion_message": "Du har gennemført denne aktivitet med succes. Tag et øjeblik til at værdsætte dine fremskridt.",
+    "time_to_complete": "Tid til at gennemføre",
+    "back": "Tilbage",
+    "next": "Næste",
+    "save": "Gem",
+    "loading": "Indlæser..."
+  }
 }

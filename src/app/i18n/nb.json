@@ -1,0 +1,223 @@
+{
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start på nytt",
+    "finish_exit": "Mål og utgang",
+    "well_done": "Bra jobbet!",
+    "completion_message": "Du har fullført denne aktiviteten med suksess. Ta et øyeblikk til å sette pris på fremgangen din.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Tilbake",
+    "next": "Neste",
+    "save": "Lagre",
+    "loading": "Laster...",
+    "today": "I dag",
+    "yesterday": "I går",
+    "filters": "Filtre",
+    "see_all": "Se alle",
+    "meditation": "Meditasjon",
+    "guided": "Guidet",
+    "sleep": "Søvn",
+    "mindfulness": "Mindfulness",
+    "restore": "Restaurerer",
+    "curated": "Kuratert av Mind",
+    "restorative": "Gjenopprettende",
+    "peace": "Fred",
+    "breath": "Pust",
+    "nature": "Natur",
+    "relax": "Slapp av",
+    "time": {
+      "3min": "3 min",
+      "5min": "5 min",
+      "8min": "8 min",
+      "10min": "10 min",
+      "12min": "12 min",
+      "15min": "15 min",
+      "20min": "20 min",
+      "30min": "30 min",
+      "45min": "45 min",
+      "60min": "60 min"
+    }
+  },
+  "hub": {
+    "back_to_topics": "Tilbake til temaene",
+    "guided_series": "Guidet serie",
+    "start_guided_series": "Start guidet serie",
+    "exercises": "Øvelser",
+    "todos": "To Do's",
+    "resources": "Ressurser",
+    "view_resource": "Se ressurs",
+    "search_placeholder": "Søk etter temaer eller aktiviteter...",
+    "how_are_you": "Hvordan føler du deg i dag?",
+    "self_care_resources": "Ressurser for egenomsorg",
+    "explore_tools": "Utforsk verktøy og veiledning for din mentale velværereise",
+    "topics": "Temaer",
+    "tools": "Verktøy",
+    "articles": "Artikler",
+    "tips": "Tips",
+    "stories": "Historier",
+    "myths": "Myter"
+  },
+  "topics": {
+    "depression": {
+      "label": "Depresjon",
+      "desc": "Evidensbaserte øvelser og ressurser for å hjelpe deg med å håndtere depresjonssymptomer og bygge motstandskraft."
+    },
+    "anxiety": {
+      "label": "Angst",
+      "desc": "Beroligende teknikker og strategier for å håndtere angst, redusere bekymring og gjenvinne en følelse av kontroll."
+    },
+    "stress": {
+      "label": "Stress",
+      "desc": "Praktiske verktøy og øvelser for å håndtere stress, bygge mestringsstrategier og gjenopprette balansen i livet ditt."
+    },
+    "adolescent": {
+      "label": "Ungdom",
+      "desc": "Veiledning og aktiviteter designet for tenåringer som navigerer vekst, identitet og emosjonelle utfordringer."
+    },
+    "relationship": {
+      "label": "Forhold",
+      "desc": "Verktøy og innsikt for å styrke relasjoner, forbedre kommunikasjonen og bygge sunnere relasjoner."
+    },
+    "workplace": {
+      "label": "Arbeidsplass",
+      "desc": "Strategier for å håndtere stress på arbeidsplassen, forbedre fokus og opprettholde balanse mellom jobb og fritid."
+    },
+    "sleep": {
+      "label": "Søvn",
+      "desc": "Teknikker og sporere for å forbedre søvnkvaliteten, bygge sunne leggetidsvaner og våkne uthvilt."
+    },
+    "parenting": {
+      "label": "Foreldreskap",
+      "desc": "Ressurser for å støtte bevisst foreldreskap, redusere utbrenthet og ta vare på familiens velvære."
+    },
+    "anger": {
+      "label": "Sinne",
+      "desc": "Teknikker for å forstå, håndtere og kanalisere sinne på sunne og konstruktive måter."
+    },
+    "grief": {
+      "label": "Sorg",
+      "desc": "Medfølende verktøy og øvelser for å hjelpe deg å bearbeide tap og finne helbredelse i ditt eget tempo."
+    },
+    "ptsd": {
+      "label": "PTSD",
+      "desc": "Jordings- og stabiliseringsteknikker for å hjelpe med å håndtere traumereaksjoner og bygge trygghet."
+    },
+    "acceptance": {
+      "label": "Aksept",
+      "desc": "Øvelser for å dyrke aksept, gi slipp på motstand og omfavne livet som det er."
+    },
+    "postpartum": {
+      "label": "Etter fødselen",
+      "desc": "Støttende ressurser for nybakte mødre som håndterer utfordringer og emosjonelle endringer etter fødsel."
+    },
+    "sexuality": {
+      "label": "Seksualitet",
+      "desc": "Trygge og støttende ressurser for å utforske identitet, bygge selvaksept og finne fellesskap."
+    },
+    "eating-disorder": {
+      "label": "Spiseforstyrrelse",
+      "desc": "Støttende øvelser og ressurser for å bygge et sunnere forhold til mat og kroppsbilde."
+    },
+    "ocd": {
+      "label": "OCD",
+      "desc": "Evidensbaserte teknikker for å håndtere tvangstanker og tvangsmessige atferder."
+    }
+  },
+  "tools": {
+    "box-breathing": "Bokspusting",
+    "gratitude-tracker": "Takknemlighetssporer",
+    "deep-breathing": "Dyp pusting",
+    "affirmations": "Affirmasjoner",
+    "mindful-space": "Mindful Space",
+    "letter-to-self": "Et brev til meg selv",
+    "sleep-tracker": "Søvnsporer"
+  },
+  "moods": {
+    "great": "Flott",
+    "good": "Bra",
+    "okay": "Ok",
+    "down": "Ned",
+    "sad": "Trist"
+  },
+  "nav": {
+    "home": "Hjem",
+    "care_team": "Omsorgsteam",
+    "appointments": "Utnevnelser",
+    "tasks": "Oppgaver",
+    "insights": "Innsikt",
+    "billing": "Fakturering",
+    "profile": "Profil",
+    "invite_friend": "Gjest til venn",
+    "feedback": "Del tilbakemeldinger",
+    "support": "Støtte",
+    "sign_out": "Logg ut"
+  },
+  "journal": {
+    "title": "Tidsskrift",
+    "subtitle": "Dokumenter dine tanker, følelser og daglige opplevelser",
+    "new_entry": "Ny innføring",
+    "search_placeholder": "Søk i dagboknotatene dine...",
+    "filter_by_mood": "Filtrer etter stemning:",
+    "all_moods": "Alle humør",
+    "no_entries": "Ingen oppføringer funnet",
+    "adjust_search": "Prøv å justere søket eller filtrene dine",
+    "start_journey": "Start din dagbokreise i dag",
+    "write_first": "Skriv ditt første innlegg",
+    "mood": {
+      "great": "Flott",
+      "good": "Bra",
+      "okay": "Ok",
+      "sad": "Trist",
+      "anxious": "Engstelig"
+    },
+    "sample": {
+      "1": {
+        "title": "Din første tanke",
+        "content": "Start med å skrive ned det du tenker på. Dagbokskriving er et kraftfullt verktøy for selvrefleksjon og mental klarhet."
+      }
+    }
+  },
+  "mindfulness": {
+    "title": "Mindfulness egenomsorg",
+    "subtitle": "Ekspertverktøy for mindfulness og guidede økter for din velværereise",
+    "featured_mantra": "Omtalt på Mantra",
+    "browse_category": "Bla etter kategori",
+    "new_noteworthy": "Nytt og bemerkelsesverdig",
+    "browse_goal": "Bla etter mål",
+    "browse_time": "Bla etter tid",
+    "daily_program": "Finn et daglig program",
+    "daily_program_desc": "Husk intensjonene dine for hvert program",
+    "featured_collections": "Utvalgte samlinger",
+    "featured": {
+      "anxiety": "Berolige angst",
+      "relaxation": "Ferdigheter for dyp avslapning",
+      "peace": "Indre fredsreise",
+      "mountain": "Fjellstillhet"
+    },
+    "goal": {
+      "beginners": "For nybegynnere",
+      "beginners_desc": "Start din mindfulness-reise",
+      "grief": "Å takle sorg",
+      "grief_desc": "Finn fred og helbredelse"
+    },
+    "collection": {
+      "students": "For studenter",
+      "students_desc": "Fokuser og studer bedre",
+      "grief": "Å takle sorg",
+      "grief_desc": "Finn fred og helbredelse",
+      "sleep": "Bedre søvn",
+      "sleep_desc": "Hvil og lade opp dypt",
+      "stress": "Stressavlastning",
+      "stress_desc": "Ro ned sinn og kropp"
+    },
+    "category": {
+      "meditation": "Meditasjon",
+      "concentration": "Konsentrasjon",
+      "music": "Musikk",
+      "creatures": "Skapninger",
+      "soundscapes": "Lydlandskap",
+      "students": "Studenter",
+      "affirmations": "Affirmasjoner"
+    }
+  }
+}

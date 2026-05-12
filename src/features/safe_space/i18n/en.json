@@ -1,6 +1,12 @@
 {
   "app_title": "Safe Space",
-  "nav": ["Check-in", "Gently Recall", "Observing", "Staying Present", "Taking Forward"],
+  "nav": [
+    "Check-in",
+    "Gently Recall",
+    "Observing",
+    "Staying Present",
+    "Taking Forward"
+  ],
   "s1": {
     "title": "Let's find a place that feels okay",
     "description": [
@@ -52,5 +58,17 @@
   "complete": {
     "title": "Session Complete",
     "message": "This safe place is always available to you. You can return here whenever you need a moment of calm."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading..."
   }
 }

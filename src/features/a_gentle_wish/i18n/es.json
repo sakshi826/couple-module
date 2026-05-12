@@ -48,5 +48,17 @@
   "view_past_button": "view_past_button",
   "welcome_description": "welcome_description",
   "welcome_subtitle": "welcome_subtitle",
-  "welcome_title": "welcome_title"
+  "welcome_title": "welcome_title",
+  "common": {
+    "get_started": "Empieza",
+    "start_over": "Empezar de nuevo",
+    "finish_exit": "Llegada y salida",
+    "well_done": "¡Bien hecho!",
+    "completion_message": "Has completado esta actividad con éxito. Tómate un momento para apreciar tu progreso.",
+    "time_to_complete": "Hora de completar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "save": "Salvar",
+    "loading": "Cargando..."
+  }
 }

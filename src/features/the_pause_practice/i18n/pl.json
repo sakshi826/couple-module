@@ -69,5 +69,17 @@
       "other": "Następnym razem, gdy poczujesz się wyzwalany, spróbuj tego zanim zareagujesz."
     },
     "italic": "Nie zawsze będzie to łatwe — ale konsekwencja jest kluczowa."
+  },
+  "common": {
+    "get_started": "Zacznij",
+    "start_over": "Start From",
+    "finish_exit": "Koniec i wyjście",
+    "well_done": "Brawo!",
+    "completion_message": "Udało ci się ukończyć tę aktywność. Poświęć chwilę, by docenić swoje postępy.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Z powrotem",
+    "next": "Następny",
+    "save": "Zapisz",
+    "loading": "Ładowanie..."
   }
 }

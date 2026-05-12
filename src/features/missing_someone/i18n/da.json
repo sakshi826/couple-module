@@ -22,5 +22,17 @@
     "desc": "Når du elsker nogen, frigiver din hjerne dopamin, oxytocin og serotonin. Når det slutter, falder de niveauer. Din hjerne sørger – ikke kun personen, men følelsen af nærhed.",
     "quote": "\"At savne dem betyder ikke, at du skal tage tilbage. Dit hjerte sørger over et bånd — ikke nødvendigvis personen, som de virkelig var.\"",
     "button": "Afsluttende refleksion"
+  },
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start forfra",
+    "finish_exit": "Afslutning og exit",
+    "well_done": "Godt gået!",
+    "completion_message": "Du har gennemført denne aktivitet med succes. Tag et øjeblik til at værdsætte dine fremskridt.",
+    "time_to_complete": "Tid til at gennemføre",
+    "back": "Tilbage",
+    "next": "Næste",
+    "save": "Gem",
+    "loading": "Indlæser..."
   }
 }

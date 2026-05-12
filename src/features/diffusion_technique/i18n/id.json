@@ -76,5 +76,28 @@
   "btn_start_exercise": "Mulai Berolahraga →",
   "btn_back_to_home": "Kembali ke Beranda",
   "label_thought": "Pikiran:",
-  "label_reflection": "Cerminan:"
+  "label_reflection": "Cerminan:",
+  "common": {
+    "get_started": "Memulai",
+    "start_over": "Mulai Dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Bagus!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
+    "time_to_complete": "Waktu untuk menyelesaikan",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "save": "Simpan",
+    "loading": "Memuat..."
+  },
+  "title_sky_clouds": "Langit dan Awan",
+  "title_sell_thought": "Jual Pikiran",
+  "title_name_story": "Beri Nama Ceritanya",
+  "title_choose": "Teknik Difusi",
+  "title_diffusion": "Diseminasi",
+  "label_back_to_start": "Kembali ke Mulai",
+  "label_back_to_techniques": "Kembali ke Teknik",
+  "label_choose_technique": "Pilih Teknik",
+  "label_current_thought": "Pemikiran Anda saat ini",
+  "label_recurrent_thought": "Pikiran berulang",
+  "label_remember_to_say": "Ingatlah untuk mengatakan:"
 }

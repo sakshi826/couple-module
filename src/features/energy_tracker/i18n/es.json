@@ -43,5 +43,17 @@
   "insight_okay": "Has tenido un flujo constante de energía. Equilibrar trabajo y descanso parece funcionarte.",
   "insight_low": "Tu energía ha estado baja. Considera comprobar si descansas o haces suficiente ejercicio.",
   "insight_more_data": "Sigue registrando diariamente para ver patrones más profundos en tus niveles de energía.",
-  "go_home": "Volver al Tracker"
+  "go_home": "Volver al Tracker",
+  "common": {
+    "get_started": "Empieza",
+    "start_over": "Empezar de nuevo",
+    "finish_exit": "Llegada y salida",
+    "well_done": "¡Bien hecho!",
+    "completion_message": "Has completado esta actividad con éxito. Tómate un momento para apreciar tu progreso.",
+    "time_to_complete": "Hora de completar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "save": "Salvar",
+    "loading": "Cargando..."
+  }
 }

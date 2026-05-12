@@ -59,5 +59,17 @@
   "label_feelings": "ความรู้สึก",
   "label_your_kind_words": "คําพูดที่ดีของคุณ",
   "save_finish_button": "บันทึกและเสร็จสิ้น",
-  "finish_no_save_button": "จบโดยไม่ต้องบันทึก"
+  "finish_no_save_button": "จบโดยไม่ต้องบันทึก",
+  "common": {
+    "get_started": "เริ่มต้นใช้งาน",
+    "start_over": "เริ่มต้นใหม่",
+    "finish_exit": "เสร็จสิ้น & ออก",
+    "well_done": "ทําได้ดี!",
+    "completion_message": "คุณทํากิจกรรมนี้สําเร็จแล้ว ใช้เวลาสักครู่เพื่อชื่นชมความก้าวหน้าของคุณ",
+    "time_to_complete": "เวลาที่จะเสร็จสมบูรณ์",
+    "back": "ย้อนกลับ",
+    "next": "ต่อไป",
+    "save": "บันทึก",
+    "loading": "กําลังโหลด..."
+  }
 }

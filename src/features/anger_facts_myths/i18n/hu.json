@@ -54,5 +54,17 @@
       "realFact": "Mások is kiválthatják a haragodat, de az, hogy hogyan reagálsz, az a te felelősséged — és a hatalmad. Az, hogy vállalod a reakcióidat, nem jelenti azt, hogy a másik embernek igaza volt. Ez azt jelenti, hogy te választod el, hogyan jelenj meg. Ez felhatalmazás, nem hibáztatás.",
       "example": "Valaki elvág a forgalomban. Dühös vagy — ez normális. De te döntesz el, hogy dühös vagy lélegzetet veszek. A választás a tiéd."
     }
-  ]
+  ],
+  "common": {
+    "get_started": "Kezdj el",
+    "start_over": "Kezdj újrakezdeni",
+    "finish_exit": "Befejezés és kilépés",
+    "well_done": "Szép munka!",
+    "completion_message": "Sikeresen teljesítetted ezt a feladatot. Szánj egy pillanatot, hogy értékeld a fejlődésedet.",
+    "time_to_complete": "Ideje befejezni",
+    "back": "Hátra",
+    "next": "Következő",
+    "save": "Mentés",
+    "loading": "Betöltés..."
+  }
 }

@@ -17,5 +17,20 @@
   "back": "Tilbage",
   "not_found_404": "404",
   "page_not_found": "Ups! Side ikke fundet",
-  "return_home": "Tilbage til Hjem"
+  "return_home": "Tilbage til Hjem",
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start forfra",
+    "finish_exit": "Afslutning og exit",
+    "well_done": "Godt gået!",
+    "completion_message": "Du har gennemført denne aktivitet med succes. Tag et øjeblik til at værdsætte dine fremskridt.",
+    "time_to_complete": "Tid til at gennemføre",
+    "back": "Tilbage",
+    "next": "Næste",
+    "save": "Gem",
+    "loading": "Indlæser..."
+  },
+  "app_title": "Boksvejrtrækning",
+  "app_complete_title": "Godt klaret!",
+  "app_complete_message": "Du har gennemført Box Breathing-sessionen. Du bør føle dig mere afbalanceret og rolig."
 }

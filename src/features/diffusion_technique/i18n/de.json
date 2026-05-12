@@ -76,5 +76,28 @@
   "btn_start_exercise": "Übung starten →",
   "btn_back_to_home": "Zurück zur Startseite",
   "label_thought": "Gedanke:",
-  "label_reflection": "Spiegelung:"
+  "label_reflection": "Spiegelung:",
+  "common": {
+    "get_started": "Leg los",
+    "start_over": "Neu anfangen",
+    "finish_exit": "Ziel und Ausgang",
+    "well_done": "Gut gemacht!",
+    "completion_message": "Du hast diese Aktivität erfolgreich abgeschlossen. Nimm dir einen Moment Zeit, um deinen Fortschritt zu würdigen.",
+    "time_to_complete": "Zeit zum Abschluss",
+    "back": "Zurück",
+    "next": "Als Nächstes",
+    "save": "Speichern",
+    "loading": "Lädt..."
+  },
+  "title_sky_clouds": "Himmel und Wolken",
+  "title_sell_thought": "Verkaufen Sie den Gedanken",
+  "title_name_story": "Nenne die Geschichte",
+  "title_choose": "Diffusionstechniken",
+  "title_diffusion": "Verbreitung",
+  "label_back_to_start": "Zurück zum Start",
+  "label_back_to_techniques": "Zurück zu den Techniken",
+  "label_choose_technique": "Wähle die Technik",
+  "label_current_thought": "Dein aktueller Gedanke",
+  "label_recurrent_thought": "Der wiederkehrende Gedanke",
+  "label_remember_to_say": "Denken Sie daran zu sagen:"
 }

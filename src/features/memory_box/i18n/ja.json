@@ -76,5 +76,17 @@
     "title": "箱の中身",
     "no_memories": "あなたの箱は空っぽです。最初の記憶を加えてコレクションを始めましょう。",
     "search_placeholder": "記憶を探す..."
+  },
+  "common": {
+    "get_started": "始めよう",
+    "start_over": "やり直し",
+    "finish_exit": "フィニッシュ&エグジット",
+    "well_done": "よくやった!",
+    "completion_message": "あなたはこの活動を無事に完了しました。自分の進歩を少しでも感じてみてください。",
+    "time_to_complete": "完了の時間だ",
+    "back": "戻る",
+    "next": "次",
+    "save": "セーブ",
+    "loading": "読み込み中..."
   }
 }

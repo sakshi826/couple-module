@@ -18,5 +18,17 @@
     "desc": "A forma como seus cuidadores responderam às suas necessidades moldou silenciosamente a forma como você se relaciona com os outros como adulto. São respostas aprendidas — e podem ser desaprendidas.",
     "quote": "\"Seu padrão fez sentido uma vez. A questão é — isso ainda te serve agora?\"",
     "button": "Reflexão do Acabamento"
+  },
+  "common": {
+    "get_started": "Comece",
+    "start_over": "Recomeçar",
+    "finish_exit": "Fim e Saída",
+    "well_done": "Parabéns!",
+    "completion_message": "Você completou esta atividade com sucesso. Reserve um momento para apreciar seu progresso.",
+    "time_to_complete": "Hora de concluir",
+    "back": "Voltar",
+    "next": "Próximo",
+    "save": "Salvar",
+    "loading": "Carregando..."
   }
 }

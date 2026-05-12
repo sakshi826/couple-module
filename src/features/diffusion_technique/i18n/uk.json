@@ -87,5 +87,17 @@
   "label_choose_technique": "Виберіть техніку",
   "label_current_thought": "Ваша нинішня думка",
   "label_recurrent_thought": "Повторювана думка",
-  "label_remember_to_say": "Не забудьте сказати:"
+  "label_remember_to_say": "Не забудьте сказати:",
+  "common": {
+    "get_started": "Починайте",
+    "start_over": "Почати спочатку",
+    "finish_exit": "Фініш і вихід",
+    "well_done": "Чудова робота!",
+    "completion_message": "Ви успішно виконали це завдання. Приділіть паузу, щоб оцінити свій прогрес.",
+    "time_to_complete": "Час завершити",
+    "back": "Назад",
+    "next": "Далі",
+    "save": "Збереження",
+    "loading": "Завантаження..."
+  }
 }

@@ -4,52 +4,52 @@
   "welcome": {
     "title": "Seu lugar seguro está esperando",
     "description": "Construa seu próprio santuário através de uma série de sugestões criativas suaves. Uma tela em branco para seus pensamentos e sentimentos.",
-    "benefits": [
-      "Expresse-se através da cor",
-      "Crie uma ferramenta visual de aterramento",
-      "Seguro, privado e pessoal"
-    ],
+    "benefits": {
+      "0": "Expresse-se através da cor",
+      "1": "Crie uma ferramenta visual de aterramento",
+      "2": "Seguro, privado e pessoal"
+    },
     "duration": "10-15 minutos",
     "view_past": "Veja Escolas Passadas"
   },
   "canvas": {
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "quote": "Como é o céu no seu lugar seguro? Desenhe sua cor, luz ou sensação.",
         "button": "Adicionei o céu →",
         "hint": "Não existe um jeito certo — qualquer marca é suficiente."
       },
-      {
+      "1": {
         "quote": "Como é a sensação do chão? Grama, areia, água, um piso de madeira? Adicione isso abaixo do céu.",
         "button": "Adicionei o →",
         "hint": "Pense em como seus pés se sentem neste lugar."
       },
-      {
+      "2": {
         "quote": "Adicione uma coisa que pertença aqui — uma árvore, uma cadeira, uma janela, um animal de estimação, um abajur. Qualquer coisa que pareça certa.",
         "button": "Adicionei algo →",
         "hint": "Não precisa ficar perfeito. Só precisa parecer verdade."
       },
-      {
+      "3": {
         "quote": "O que traz calor ou conforto a este lugar? Uma luz, uma fogueira, luz do sol, um cobertor? Adicione onde parecer certo.",
         "button": "Adicionei o calor →",
         "hint": "Até um pequeno ponto de cor conta."
       },
-      {
+      "4": {
         "quote": "Por fim — adicione de 3 a 5 palavras que pertenciam aqui. Toque no seu desenho para colocá-los em qualquer lugar.",
         "button": "Essas são minhas palavras →",
         "hint": ""
       }
-    ],
-    "word_chips": [
-      "Paz",
-      "Casa",
-      "Céu",
-      "Calma",
-      "Quentinho",
-      "Chega",
-      "Gentil",
-      "Seguro"
-    ],
+    },
+    "word_chips": {
+      "0": "Paz",
+      "1": "Casa",
+      "2": "Céu",
+      "3": "Calma",
+      "4": "Quentinho",
+      "5": "Chega",
+      "6": "Gentil",
+      "7": "Seguro"
+    },
     "custom_word_placeholder": "+ seu próprio",
     "skip_prompt": "Pule este prompt",
     "type_here": "Digite aqui"
@@ -71,28 +71,40 @@
     "title": "Você está aqui. Você está seguro.",
     "breathe_info": "4 · hold · 4 · Deixe ir · 6",
     "done_message": "Parabéns por estar presente hoje.",
-    "durations": [
-      {
+    "durations": {
+      "0": {
         "label": "1 min",
         "seconds": "60"
       },
-      {
+      "1": {
         "label": "3 min",
         "seconds": "180"
       },
-      {
+      "2": {
         "label": "5 min",
         "seconds": "300"
       }
-    ],
-    "phases": [
-      "Inspire",
-      "Segura",
-      "Solte"
-    ]
+    },
+    "phases": {
+      "0": "Inspire",
+      "1": "Segura",
+      "2": "Solte"
+    }
   },
   "history": {
     "title": "Lugares seguros do passado",
     "no_collages": "Ainda não tenho colagem salva. Complete a atividade para salvar a primeira."
+  },
+  "common": {
+    "get_started": "Comece",
+    "start_over": "Recomeçar",
+    "finish_exit": "Fim e Saída",
+    "well_done": "Parabéns!",
+    "completion_message": "Você completou esta atividade com sucesso. Reserve um momento para apreciar seu progresso.",
+    "time_to_complete": "Hora de concluir",
+    "back": "Voltar",
+    "next": "Próximo",
+    "save": "Salvar",
+    "loading": "Carregando..."
   }
 }

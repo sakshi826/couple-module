@@ -14,5 +14,17 @@
   "complete_msg": "Twój list został bezpiecznie zapisany.",
   "home": "Dom",
   "past_letters_title": "Poprzednie listy",
-  "empty_letters": "Nie znaleziono poprzednich liter."
+  "empty_letters": "Nie znaleziono poprzednich liter.",
+  "common": {
+    "get_started": "Zacznij",
+    "start_over": "Start From",
+    "finish_exit": "Koniec i wyjście",
+    "well_done": "Brawo!",
+    "completion_message": "Udało ci się ukończyć tę aktywność. Poświęć chwilę, by docenić swoje postępy.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Z powrotem",
+    "next": "Następny",
+    "save": "Zapisz",
+    "loading": "Ładowanie..."
+  }
 }

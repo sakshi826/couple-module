@@ -59,5 +59,17 @@
   "label_feelings": "רגשות",
   "label_your_kind_words": "המילים הטובות שלך",
   "save_finish_button": "שמירה וסיים",
-  "finish_no_save_button": "לסיים בלי לשמור"
+  "finish_no_save_button": "לסיים בלי לשמור",
+  "common": {
+    "get_started": "תתחילו",
+    "start_over": "התחלה מחדש",
+    "finish_exit": "סיום ויציאה",
+    "well_done": "כל הכבוד!",
+    "completion_message": "השלמת את הפעילות הזו בהצלחה. קח רגע להעריך את ההתקדמות שלך.",
+    "time_to_complete": "הגיע הזמן להשלים",
+    "back": "חזרה",
+    "next": "הבא",
+    "save": "שמור",
+    "loading": "טוען..."
+  }
 }

@@ -52,5 +52,17 @@
   "complete_message": "La conciencia es el primer paso hacia la libertad. Has dado un paso valiente al identificar y reflexionar sobre una norma alimentaria. Lleva hoy con ti este amable entendimiento.",
   "auth_error": "Sesión de autenticación ausente o base de datos no configurada",
   "save_success": "Reflejo preservado",
-  "save_error": "No se preservó la reflexión"
+  "save_error": "No se preservó la reflexión",
+  "common": {
+    "get_started": "Empieza",
+    "start_over": "Empezar de nuevo",
+    "finish_exit": "Llegada y salida",
+    "well_done": "¡Bien hecho!",
+    "completion_message": "Has completado esta actividad con éxito. Tómate un momento para apreciar tu progreso.",
+    "time_to_complete": "Hora de completar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "save": "Salvar",
+    "loading": "Cargando..."
+  }
 }

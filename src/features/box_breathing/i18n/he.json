@@ -17,5 +17,20 @@
   "back": "חזרה",
   "not_found_404": "404",
   "page_not_found": "אופס! העמוד לא נמצא",
-  "return_home": "חזרה הביתה"
+  "return_home": "חזרה הביתה",
+  "common": {
+    "get_started": "תתחילו",
+    "start_over": "התחלה מחדש",
+    "finish_exit": "סיום ויציאה",
+    "well_done": "כל הכבוד!",
+    "completion_message": "השלמת את הפעילות הזו בהצלחה. קח רגע להעריך את ההתקדמות שלך.",
+    "time_to_complete": "הגיע הזמן להשלים",
+    "back": "חזרה",
+    "next": "הבא",
+    "save": "שמור",
+    "loading": "טוען..."
+  },
+  "app_title": "נשימת קופסה",
+  "app_complete_title": "עבודה מצוינת!",
+  "app_complete_message": "סיימת את סשן נשימת הקופסה. אתה אמור להרגיש יותר מאוזן ורגוע."
 }

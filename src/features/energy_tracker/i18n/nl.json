@@ -43,5 +43,17 @@
   "insight_okay": "Je hebt een constante energiestroom gehad. Werken en rust combineren lijkt voor jou te werken.",
   "insight_low": "Je energie is aan de lagere kant geweest. Overweeg te controleren of je genoeg rust of beweging krijgt.",
   "insight_more_data": "Blijf dagelijks bijhouden om diepere patronen in je energieniveau te zien.",
-  "go_home": "Terug naar Tracker"
+  "go_home": "Terug naar Tracker",
+  "common": {
+    "get_started": "Begin",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Goed gedaan!",
+    "completion_message": "Je hebt deze activiteit succesvol voltooid. Neem even de tijd om je vooruitgang te waarderen.",
+    "time_to_complete": "Tijd om af te ronden",
+    "back": "Achteruit",
+    "next": "Volgende",
+    "save": "Sla op",
+    "loading": "Laden..."
+  }
 }

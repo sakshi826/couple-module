@@ -30,5 +30,19 @@
   "back": "Indietro",
   "not_found_title": "404",
   "not_found_text": "Oops! Pagina non trovata",
-  "return_home": "Torna alla Home"
+  "return_home": "Torna alla Home",
+  "common": {
+    "get_started": "Inizia",
+    "start_over": "Ricomincia",
+    "finish_exit": "Arrivo e uscita",
+    "well_done": "Ben fatto!",
+    "completion_message": "Hai completato con successo questa attività. Prenditi un momento per apprezzare i tuoi progressi.",
+    "time_to_complete": "È ora di completare",
+    "back": "Indietro",
+    "next": "Prossimo",
+    "save": "Salva",
+    "loading": "Caricamento..."
+  },
+  "app_complete_title": "Gratitudine Salvata",
+  "app_complete_message": "Riflettere su ciò per cui sei grato è un modo potente per spostare l'attenzione sul positivo."
 }

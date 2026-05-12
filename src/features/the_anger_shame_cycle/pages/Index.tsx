@@ -5,7 +5,8 @@ import { Flame } from "lucide-react";
 const Index = () => {
   return (
     <PremiumLayout 
-      title="Anger Shame Cycle" 
+      title={t("app_title", " 
+      title=")} 
       icon={<Flame className="w-6 h-6 text-primary" />}
       exitOnBack={true}
     >

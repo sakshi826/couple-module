@@ -48,5 +48,17 @@
   "memory_desc": "O exercício físico aumenta o fluxo sanguíneo para o cérebro, ajudando a melhorar a memória e a função cognitiva.",
   "stress_title": "Resposta ao estresse",
   "stress_desc": "A atividade física reduz os hormônios do estresse e ajuda o sistema nervoso a se reequilibrar.",
-  "app_name": "Registro de atividades físicas"
+  "app_name": "Registro de atividades físicas",
+  "common": {
+    "get_started": "Comece",
+    "start_over": "Recomeçar",
+    "finish_exit": "Fim e Saída",
+    "well_done": "Parabéns!",
+    "completion_message": "Você completou esta atividade com sucesso. Reserve um momento para apreciar seu progresso.",
+    "time_to_complete": "Hora de concluir",
+    "back": "Voltar",
+    "next": "Próximo",
+    "save": "Salvar",
+    "loading": "Carregando..."
+  }
 }

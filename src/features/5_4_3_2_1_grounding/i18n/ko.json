@@ -36,11 +36,15 @@
     }
   ],
   "common": {
-    "thank_you": "감사합니다",
-    "you_feel": "당신은 이렇게 느낍니다:",
-    "completion_message": "마음 안정 운동을 완료하셨습니다. 오늘 하루를 보내는 동안 이 현재에 집중하는 느낌을 유지하세요.",
-    "start_again": "다시 시작",
-    "reflection_question": "지금 기분이 어떠세요? 한마디로 표현하자면요.",
-    "reflection_placeholder": "예: 차분한, 안도한, 안정된…"
+    "get_started": "시작하기",
+    "start_over": "처음부터 다시",
+    "finish_exit": "결승 및 퇴장",
+    "well_done": "잘했어요!",
+    "completion_message": "이 활동을 성공적으로 완료하셨습니다. 잠시 시간을 내어 자신의 진전을 감상해 보세요.",
+    "time_to_complete": "완성 시간입니다",
+    "back": "뒤로",
+    "next": "다음",
+    "save": "저장",
+    "loading": "로딩 중..."
   }
 }

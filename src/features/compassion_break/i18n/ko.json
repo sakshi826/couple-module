@@ -59,5 +59,17 @@
   "label_feelings": "감정",
   "label_your_kind_words": "당신의 따뜻한 말씀",
   "save_finish_button": "세이브 앤 피니시",
-  "finish_no_save_button": "저장하지 않고 끝내기"
+  "finish_no_save_button": "저장하지 않고 끝내기",
+  "common": {
+    "get_started": "시작하기",
+    "start_over": "처음부터 다시",
+    "finish_exit": "결승 및 퇴장",
+    "well_done": "잘했어요!",
+    "completion_message": "이 활동을 성공적으로 완료하셨습니다. 잠시 시간을 내어 자신의 진전을 감상해 보세요.",
+    "time_to_complete": "완성 시간입니다",
+    "back": "뒤로",
+    "next": "다음",
+    "save": "저장",
+    "loading": "로딩 중..."
+  }
 }

@@ -33,5 +33,17 @@
   "history.wed": "Casarse",
   "history.thu": "Recolectar",
   "history.fri": "Vie",
-  "history.sat": "Se sentó"
+  "history.sat": "Se sentó",
+  "common": {
+    "get_started": "Empieza",
+    "start_over": "Empezar de nuevo",
+    "finish_exit": "Llegada y salida",
+    "well_done": "¡Bien hecho!",
+    "completion_message": "Has completado esta actividad con éxito. Tómate un momento para apreciar tu progreso.",
+    "time_to_complete": "Hora de completar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "save": "Salvar",
+    "loading": "Cargando..."
+  }
 }

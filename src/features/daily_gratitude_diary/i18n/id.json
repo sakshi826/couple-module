@@ -30,5 +30,19 @@
   "back": "Kembali",
   "not_found_title": "404",
   "not_found_text": "Ups! Halaman tidak ditemukan",
-  "return_home": "Kembali ke Halaman Utama"
+  "return_home": "Kembali ke Halaman Utama",
+  "common": {
+    "get_started": "Memulai",
+    "start_over": "Mulai Dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Bagus!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
+    "time_to_complete": "Waktu untuk menyelesaikan",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "save": "Simpan",
+    "loading": "Memuat..."
+  },
+  "app_complete_title": "Syukur Diselamatkan",
+  "app_complete_message": "Merefleksikan apa yang Anda syukuri adalah cara yang ampuh untuk mengalihkan fokus Anda ke hal positif."
 }

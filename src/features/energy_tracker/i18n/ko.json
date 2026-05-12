@@ -43,5 +43,17 @@
   "insight_okay": "에너지 흐름이 안정적이었어요. 일과 휴식의 균형을 맞추는 게 당신에게 잘 맞는 것 같네요.",
   "insight_low": "에너지가 좀 낮았어요. 충분한 휴식이나 운동을 하고 있는지 확인해 보세요.",
   "insight_more_data": "매일 계속 추적하여 에너지 수준에서 더 깊은 패턴을 확인하세요.",
-  "go_home": "트래커로 돌아가기"
+  "go_home": "트래커로 돌아가기",
+  "common": {
+    "get_started": "시작하기",
+    "start_over": "처음부터 다시",
+    "finish_exit": "결승 및 퇴장",
+    "well_done": "잘했어요!",
+    "completion_message": "이 활동을 성공적으로 완료하셨습니다. 잠시 시간을 내어 자신의 진전을 감상해 보세요.",
+    "time_to_complete": "완성 시간입니다",
+    "back": "뒤로",
+    "next": "다음",
+    "save": "저장",
+    "loading": "로딩 중..."
+  }
 }

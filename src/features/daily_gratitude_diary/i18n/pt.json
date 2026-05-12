@@ -30,5 +30,19 @@
   "back": "Voltar",
   "not_found_title": "404",
   "not_found_text": "Ops! Página não encontrada",
-  "return_home": "Voltar para a página inicial"
+  "return_home": "Voltar para a página inicial",
+  "common": {
+    "get_started": "Comece",
+    "start_over": "Recomeçar",
+    "finish_exit": "Fim e Saída",
+    "well_done": "Parabéns!",
+    "completion_message": "Você completou esta atividade com sucesso. Reserve um momento para apreciar seu progresso.",
+    "time_to_complete": "Hora de concluir",
+    "back": "Voltar",
+    "next": "Próximo",
+    "save": "Salvar",
+    "loading": "Carregando..."
+  },
+  "app_complete_title": "Gratidão Salva",
+  "app_complete_message": "Refletir sobre o que você agradece é uma maneira poderosa de direcionar seu foco para o positivo."
 }

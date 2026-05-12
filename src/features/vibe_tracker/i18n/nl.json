@@ -39,5 +39,17 @@
     "ease": "Wat zou je nog 10% meer gemak geven?",
     "kindness": "Welke kleine vriendelijkheid kun je jezelf vandaag nog schenken?",
     "supported": "Wat zou je op dit moment helpen je gesteund te voelen?"
+  },
+  "common": {
+    "get_started": "Begin",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Goed gedaan!",
+    "completion_message": "Je hebt deze activiteit succesvol voltooid. Neem even de tijd om je vooruitgang te waarderen.",
+    "time_to_complete": "Tijd om af te ronden",
+    "back": "Achteruit",
+    "next": "Volgende",
+    "save": "Sla op",
+    "loading": "Laden..."
   }
 }

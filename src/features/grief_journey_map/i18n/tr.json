@@ -35,5 +35,17 @@
   ],
   "btn_finish": "Finish Reflection",
   "complete_title": "Yolculuk Onurlandırıldı",
-  "complete_message": "Devam etmek zorunda değilsin. Sadece farklı taşımayı öğreniyorsun. Yolculuğun benzersiz, geçerli ve derin bir insan."
+  "complete_message": "Devam etmek zorunda değilsin. Sadece farklı taşımayı öğreniyorsun. Yolculuğun benzersiz, geçerli ve derin bir insan.",
+  "common": {
+    "get_started": "Başlayın",
+    "start_over": "Yeniden Başla",
+    "finish_exit": "Bitiş ve Çıkış",
+    "well_done": "Aferin!",
+    "completion_message": "Bu etkinliği başarıyla tamamladın. İlerlemenin takdir edilmesini bir an ayır.",
+    "time_to_complete": "Tamamlanma zamanı",
+    "back": "Geri",
+    "next": "Sıradaki",
+    "save": "Kayd et",
+    "loading": "Yükleniyor..."
+  }
 }

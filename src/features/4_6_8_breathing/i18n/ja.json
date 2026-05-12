@@ -23,5 +23,17 @@
   "finish": "仕上げる",
   "not_found_title": "404",
   "not_found_text": "おっと！ページが見つかりません",
-  "return_home": "ホームに戻る"
+  "return_home": "ホームに戻る",
+  "common": {
+    "get_started": "始めよう",
+    "start_over": "やり直し",
+    "finish_exit": "フィニッシュ&エグジット",
+    "well_done": "よくやった!",
+    "completion_message": "あなたはこの活動を無事に完了しました。自分の進歩を少しでも感じてみてください。",
+    "time_to_complete": "完了の時間だ",
+    "back": "戻る",
+    "next": "次",
+    "save": "セーブ",
+    "loading": "読み込み中..."
+  }
 }

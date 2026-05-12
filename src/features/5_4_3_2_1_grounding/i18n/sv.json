@@ -36,11 +36,15 @@
     }
   ],
   "common": {
-    "thank_you": "Tack",
-    "you_feel": "Du känner:",
-    "completion_message": "Du har slutfört jordningsövningen. Bär med dig denna känsla av närvaro när du fortsätter din dag.",
-    "start_again": "Börja om",
-    "reflection_question": "Med ett ord, hur känner du just nu?",
-    "reflection_placeholder": "t.ex. lugn, lättad, jordad..."
+    "get_started": "Kom igång",
+    "start_over": "Börja om",
+    "finish_exit": "Mål och utgång",
+    "well_done": "Bra jobbat!",
+    "completion_message": "Du har framgångsrikt slutfört denna aktivitet. Ta en stund och uppskatta dina framsteg.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "save": "Spara",
+    "loading": "Laddar..."
   }
 }

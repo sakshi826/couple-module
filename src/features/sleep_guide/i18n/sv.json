@@ -17,5 +17,17 @@
     "p2": "Detta kallas <1>betingad upphetsning</1> – det förklarar varför du känner dig utmattad hela dagen men ändå klarvaken vid läggdags.",
     "quote": "\"Din hjärna är inte trasig. Den har helt enkelt lärt sig fel läxa om läggdags – och den kan läras om.\"",
     "button": "Föregående steg"
+  },
+  "common": {
+    "get_started": "Kom igång",
+    "start_over": "Börja om",
+    "finish_exit": "Mål och utgång",
+    "well_done": "Bra jobbat!",
+    "completion_message": "Du har framgångsrikt slutfört denna aktivitet. Ta en stund och uppskatta dina framsteg.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "save": "Spara",
+    "loading": "Laddar..."
   }
 }

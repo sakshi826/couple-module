@@ -48,5 +48,19 @@
     "sleep": "Culcă-te devreme",
     "yoga": "Încearcă yoga",
     "dance": "Dansează pe un cântec"
-  }
+  },
+  "common": {
+    "get_started": "Începe",
+    "start_over": "Începeți de la zero",
+    "finish_exit": "Final și ieșire",
+    "well_done": "Bravo!",
+    "completion_message": "Ai finalizat cu succes această activitate. Ia-ți un moment să apreciezi progresul tău.",
+    "time_to_complete": "Timpul de finalizat",
+    "back": "Înapoi",
+    "next": "Următorul",
+    "save": "Salvează",
+    "loading": "Se încarcă..."
+  },
+  "complete_title": "Bingo Master!",
+  "complete_message": "Felicitări! Ai finalizat cu succes o linie de îngrijire personală. Mintea și corpul tău îți mulțumesc."
 }

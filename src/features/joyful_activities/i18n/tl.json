@@ -41,5 +41,19 @@
     "p1": "Ang muling pagkonekta sa kung ano ang nagdudulot sa iyo ng kagalakan - kahit na sa pinakamaliit na paraan - ay isang gawa ng kabaitan sa iyong sarili.",
     "p2": "Karapat-dapat ka sa mga sandali ng liwanag at kapayapaan. Ipagpatuloy ang pag-aalaga sa kung ano ang nagpapadama sa iyong puso. 💛",
     "button": "Bumalik sa Tahanan"
-  }
+  },
+  "common": {
+    "get_started": "Email Address *",
+    "start_over": "Magsimulang Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Mahusay na ginawa!",
+    "completion_message": "Matagumpay mong nakumpleto ang aktibidad na ito. Maglaan ng ilang sandali upang pahalagahan ang iyong pag-unlad.",
+    "time_to_complete": "Oras na para makumpleto",
+    "back": "Bumalik",
+    "next": "Susunod",
+    "save": "I-save",
+    "loading": "Naglo-load..."
+  },
+  "app_complete_title": "Napanatili ang Kagalakan",
+  "app_complete_message": "Matagumpay mong naalala at nakipag-ugnay sa isang mapagkukunan ng kagalakan. Panatilihin ang damdaming ito sa iyo habang gumagalaw ka sa iyong araw."
 }

@@ -1,0 +1,223 @@
+{
+  "common": {
+    "get_started": "Leg los",
+    "start_over": "Neu anfangen",
+    "finish_exit": "Ziel und Ausgang",
+    "well_done": "Gut gemacht!",
+    "completion_message": "Du hast diese Aktivität erfolgreich abgeschlossen. Nimm dir einen Moment Zeit, um deinen Fortschritt zu würdigen.",
+    "time_to_complete": "Zeit zum Abschluss",
+    "back": "Zurück",
+    "next": "Als Nächstes",
+    "save": "Speichern",
+    "loading": "Lädt...",
+    "today": "Heute",
+    "yesterday": "Gestern",
+    "filters": "Filter",
+    "see_all": "Alles ansehen",
+    "meditation": "Meditation",
+    "guided": "Geführt",
+    "sleep": "Schlaf",
+    "mindfulness": "Achtsamkeit",
+    "restore": "Wiederherstellen",
+    "curated": "Kuratiert von Mind",
+    "restorative": "Restorativ",
+    "peace": "Frieden",
+    "breath": "Atme",
+    "nature": "Natur",
+    "relax": "Entspann dich",
+    "time": {
+      "3min": "3 Minuten",
+      "5min": "5 Minuten",
+      "8min": "8 Minuten",
+      "10min": "10 Minuten",
+      "12min": "12 Minuten",
+      "15min": "15 Minuten",
+      "20min": "20 Minuten",
+      "30min": "30 Minuten",
+      "45min": "45 Minuten",
+      "60min": "60 Minuten"
+    }
+  },
+  "hub": {
+    "back_to_topics": "Zurück zu den Themen",
+    "guided_series": "Geführte Serie",
+    "start_guided_series": "Start geführte Serie",
+    "exercises": "Übungen",
+    "todos": "To Do's",
+    "resources": "Ressourcen",
+    "view_resource": "Ressource ansehen",
+    "search_placeholder": "Suche nach Themen oder Aktivitäten...",
+    "how_are_you": "Wie fühlst du dich heute?",
+    "self_care_resources": "Selbstfürsorge-Ressourcen",
+    "explore_tools": "Entdecken Sie Werkzeuge und Ratschläge für Ihre Reise zum mentalen Wohlbefinden",
+    "topics": "Themen",
+    "tools": "Werkzeuge",
+    "articles": "Artikel",
+    "tips": "Tipps",
+    "stories": "Geschichten",
+    "myths": "Mythen"
+  },
+  "topics": {
+    "depression": {
+      "label": "Depression",
+      "desc": "Evidenzbasierte Übungen und Ressourcen, die Ihnen helfen, Depressionssymptome zu bewältigen und Resilienz aufzubauen."
+    },
+    "anxiety": {
+      "label": "Angst",
+      "desc": "Beruhigende Techniken und Strategien, um Angst zu bewältigen, Sorgen zu reduzieren und ein Gefühl der Kontrolle zurückzugewinnen."
+    },
+    "stress": {
+      "label": "Stress",
+      "desc": "Praktische Werkzeuge und Übungen, um Stress zu bewältigen, Bewältigungsstrategien aufzubauen und das Gleichgewicht in Ihrem Leben wiederherzustellen."
+    },
+    "adolescent": {
+      "label": "Jugendlicher",
+      "desc": "Anleitung und Aktivitäten für Jugendliche, die Wachstum, Identität und emotionale Herausforderungen bewältigen."
+    },
+    "relationship": {
+      "label": "Beziehung",
+      "desc": "Werkzeuge und Einsichten, um Verbindungen zu stärken, die Kommunikation zu verbessern und gesündere Beziehungen aufzubauen."
+    },
+    "workplace": {
+      "label": "Arbeitsplatz",
+      "desc": "Strategien zum Umgang mit Arbeitsstress, zur Verbesserung der Konzentration und zur Aufrechterhaltung der Work-Life-Balance."
+    },
+    "sleep": {
+      "label": "Schlaf",
+      "desc": "Techniken und Tracker, um Ihre Schlafqualität zu verbessern, gesunde Schlafenszeitgewohnheiten zu entwickeln und erfrischt aufzuwachen."
+    },
+    "parenting": {
+      "label": "Elternschaft",
+      "desc": "Ressourcen zur Unterstützung achtsamer Erziehung, zur Reduzierung von Burnout und zur Förderung des Wohlergehens Ihrer Familie."
+    },
+    "anger": {
+      "label": "Wut",
+      "desc": "Techniken, um Wut auf gesunde und konstruktive Weise zu verstehen, zu bewältigen und zu kanalisieren."
+    },
+    "grief": {
+      "label": "Trauer",
+      "desc": "Mitfühlende Werkzeuge und Übungen, die Ihnen helfen, Verlust zu verarbeiten und Heilung in Ihrem eigenen Tempo zu finden."
+    },
+    "ptsd": {
+      "label": "PTBS",
+      "desc": "Erdungs- und Stabilisierungstechniken zur Bewältigung von Traumareaktionen und zum Aufbau von Sicherheit."
+    },
+    "acceptance": {
+      "label": "Akzeptanz",
+      "desc": "Übungen, um Akzeptanz zu kultivieren, Widerstand loszulassen und das Leben so zu akzeptieren, wie es ist."
+    },
+    "postpartum": {
+      "label": "Wochenbett",
+      "desc": "Unterstützende Ressourcen für frischgebackene Mütter, die mit postpartalen Herausforderungen und emotionalen Veränderungen umgehen."
+    },
+    "sexuality": {
+      "label": "Sexualität",
+      "desc": "Sichere und unterstützende Ressourcen, um Identität zu erforschen, Selbstakzeptanz aufzubauen und Gemeinschaft zu finden."
+    },
+    "eating-disorder": {
+      "label": "Essstörung",
+      "desc": "Unterstützende Übungen und Ressourcen, um eine gesündere Beziehung zu Ernährung und Körperbild aufzubauen."
+    },
+    "ocd": {
+      "label": "OCD",
+      "desc": "Evidenzbasierte Techniken zur Bewältigung zwanghafter Gedanken und zwanghafter Verhaltensweisen."
+    }
+  },
+  "tools": {
+    "box-breathing": "Box-Atmung",
+    "gratitude-tracker": "Dankbarkeitstracker",
+    "deep-breathing": "Tiefes Atmen",
+    "affirmations": "Affirmationen",
+    "mindful-space": "Achtsamer Raum",
+    "letter-to-self": "Ein Brief an mich selbst",
+    "sleep-tracker": "Schlaftracker"
+  },
+  "moods": {
+    "great": "Großartig",
+    "good": "Gut",
+    "okay": "Okay",
+    "down": "Runter",
+    "sad": "Traurig"
+  },
+  "nav": {
+    "home": "Zuhause",
+    "care_team": "Betreuungsteam",
+    "appointments": "Ernennungen",
+    "tasks": "Aufgaben",
+    "insights": "Einblicke",
+    "billing": "Abrechnung",
+    "profile": "Profil",
+    "invite_friend": "Gast zu Freund",
+    "feedback": "Feedback teilen",
+    "support": "Unterstützung",
+    "sign_out": "Ausloggen"
+  },
+  "journal": {
+    "title": "Zeitschrift",
+    "subtitle": "Dokumentiere deine Gedanken, Gefühle und täglichen Erfahrungen",
+    "new_entry": "Neuzugang",
+    "search_placeholder": "Durchsuche deine Tagebucheinträge...",
+    "filter_by_mood": "Nach Stimmung filtern:",
+    "all_moods": "Alle Stimmungen",
+    "no_entries": "Keine Einträge gefunden",
+    "adjust_search": "Versuche, deine Suche oder Filter anzupassen",
+    "start_journey": "Beginnen Sie noch heute Ihre Tagebuchreise",
+    "write_first": "Schreibe deinen ersten Eintrag",
+    "mood": {
+      "great": "Großartig",
+      "good": "Gut",
+      "okay": "Okay",
+      "sad": "Traurig",
+      "anxious": "Ängstlich"
+    },
+    "sample": {
+      "1": {
+        "title": "Dein erster Gedanke",
+        "content": "Fang damit an, das aufzuschreiben, was dir durch den Kopf geht. Tagebuchschreiben ist ein mächtiges Werkzeug zur Selbstreflexion und geistiger Klarheit."
+      }
+    }
+  },
+  "mindfulness": {
+    "title": "Achtsamkeit Selbstfürsorge",
+    "subtitle": "Experten-Achtsamkeitswerkzeuge und geführte Sitzungen für Ihre Wellness-Reise",
+    "featured_mantra": "Gezeigt auf Mantra",
+    "browse_category": "Nach Kategorie durchsuchen",
+    "new_noteworthy": "Neu & Bemerkenswert",
+    "browse_goal": "Nach Ziel durchsuchen",
+    "browse_time": "Nach Zeit durchsuchen",
+    "daily_program": "Finden Sie ein Tagesprogramm",
+    "daily_program_desc": "Achten Sie auf Ihre Absichten für jedes Programm",
+    "featured_collections": "Ausgewählte Sammlungen",
+    "featured": {
+      "anxiety": "Angst beruhigen",
+      "relaxation": "Fähigkeiten zur tiefen Entspannung",
+      "peace": "Innere Friedensreise",
+      "mountain": "Bergstille"
+    },
+    "goal": {
+      "beginners": "Für Anfänger",
+      "beginners_desc": "Beginnen Sie Ihre Achtsamkeitsreise",
+      "grief": "Umgang mit Trauer",
+      "grief_desc": "Finde Frieden und Heilung"
+    },
+    "collection": {
+      "students": "Für Studierende",
+      "students_desc": "Fokussiere dich und lerne besser",
+      "grief": "Umgang mit Trauer",
+      "grief_desc": "Finde Frieden und Heilung",
+      "sleep": "Besserer Schlaf",
+      "sleep_desc": "Ruhe dich aus und lade dich tief auf",
+      "stress": "Stressabbau",
+      "stress_desc": "Beruhige Geist und Körper"
+    },
+    "category": {
+      "meditation": "Meditation",
+      "concentration": "Schwerpunkt",
+      "music": "Musik",
+      "creatures": "Kreaturen",
+      "soundscapes": "Klanglandschaften",
+      "students": "Schüler",
+      "affirmations": "Affirmationen"
+    }
+  }
+}

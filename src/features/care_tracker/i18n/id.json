@@ -1,11 +1,15 @@
 {
   "common": {
-    "continue": "Lanjutkan",
+    "get_started": "Memulai",
+    "start_over": "Mulai Dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Bagus!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
+    "time_to_complete": "Waktu untuk menyelesaikan",
     "back": "Kembali",
-    "home": "Kembali ke Beranda",
-    "yes": "Iya",
-    "no": "Tidak",
-    "date": "Tanggal"
+    "next": "Selanjutnya",
+    "save": "Simpan",
+    "loading": "Memuat..."
   },
   "screens": {
     "intro": {

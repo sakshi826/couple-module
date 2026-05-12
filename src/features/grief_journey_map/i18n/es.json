@@ -35,5 +35,17 @@
   ],
   "btn_finish": "Reflexión de acabado",
   "complete_title": "Viaje Honrado",
-  "complete_message": "No tienes que seguir adelante. Simplemente aprendes a llevarlo de otra manera. Tu camino es único, válido y profundamente humano."
+  "complete_message": "No tienes que seguir adelante. Simplemente aprendes a llevarlo de otra manera. Tu camino es único, válido y profundamente humano.",
+  "common": {
+    "get_started": "Empieza",
+    "start_over": "Empezar de nuevo",
+    "finish_exit": "Llegada y salida",
+    "well_done": "¡Bien hecho!",
+    "completion_message": "Has completado esta actividad con éxito. Tómate un momento para apreciar tu progreso.",
+    "time_to_complete": "Hora de completar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "save": "Salvar",
+    "loading": "Cargando..."
+  }
 }

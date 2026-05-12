@@ -1,11 +1,15 @@
 {
   "common": {
-    "continue": "Jatka",
+    "get_started": "Aloita",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Maali ja uloskäynti",
+    "well_done": "Hyvin tehty!",
+    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Ota hetki arvostaaksesi edistymistäsi.",
+    "time_to_complete": "Aika valmistua",
     "back": "Takaisin",
-    "home": "Takaisin kotiin",
-    "yes": "Kyllä",
-    "no": "Ei",
-    "date": "Päivämäärä"
+    "next": "Seuraavaksi",
+    "save": "Tallenna",
+    "loading": "Ladataan..."
   },
   "screens": {
     "intro": {

@@ -30,5 +30,19 @@
   "back": "Balik",
   "not_found_title": "404",
   "not_found_text": "Naku! Hindi natagpuan ang pahina",
-  "return_home": "Bumalik sa Bahay"
+  "return_home": "Bumalik sa Bahay",
+  "common": {
+    "get_started": "Email Address *",
+    "start_over": "Magsimulang Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Mahusay na ginawa!",
+    "completion_message": "Matagumpay mong nakumpleto ang aktibidad na ito. Maglaan ng ilang sandali upang pahalagahan ang iyong pag-unlad.",
+    "time_to_complete": "Oras na para makumpleto",
+    "back": "Bumalik",
+    "next": "Susunod",
+    "save": "I-save",
+    "loading": "Naglo-load..."
+  },
+  "app_complete_title": "Nailigtas ang Pasasalamat",
+  "app_complete_message": "Ang pagmumuni-muni sa kung ano ang iyong pinasasalamatan ay isang mabisang paraan upang ilipat ang iyong pokus sa positibo."
 }

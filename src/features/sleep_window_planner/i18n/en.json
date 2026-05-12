@@ -42,18 +42,39 @@
     "accordion1": {
       "title": "3 ways to protect it",
       "tips": [
-        { "emoji": "📵", "text": "Wind down 30 mins before your bedtime" },
-        { "emoji": "⏰", "text": "Same wake time every day — yes, weekends too" },
-        { "emoji": "🚫", "text": "Avoid naps longer than 20 mins after 3pm" }
+        {
+          "emoji": "📵",
+          "text": "Wind down 30 mins before your bedtime"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Same wake time every day — yes, weekends too"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Avoid naps longer than 20 mins after 3pm"
+        }
       ]
     },
     "accordion2": {
       "title": "Commit to 1 thing tonight",
       "commitments": [
-        { "emoji": "📵", "text": "Put my phone away before bed" },
-        { "emoji": "🛁", "text": "Start a wind-down routine" },
-        { "emoji": "💡", "text": "Dim the lights an hour before bed" },
-        { "emoji": "✍️", "text": "Finish my to-do list early" }
+        {
+          "emoji": "📵",
+          "text": "Put my phone away before bed"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Start a wind-down routine"
+        },
+        {
+          "emoji": "💡",
+          "text": "Dim the lights an hour before bed"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Finish my to-do list early"
+        }
       ]
     },
     "quote": "Consistency is more powerful than perfection. One good night builds the next.",
@@ -70,5 +91,17 @@
     "save_error": "Failed to save sleep window",
     "auth_error": "Auth session missing or DB not configured",
     "saving": "Saving..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading..."
   }
 }

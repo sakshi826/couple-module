@@ -17,5 +17,17 @@
     "p2": "Esto se llama excitación <1>condicionada</1> — explica por qué te sientes agotado todo el día, pero completamente despierto a la hora de acostarte.",
     "quote": "\"Tu cerebro no está roto. Simplemente ha aprendido la lección equivocada sobre la hora de dormir — y se puede repetir.\"",
     "button": "Paso anterior"
+  },
+  "common": {
+    "get_started": "Empieza",
+    "start_over": "Empezar de nuevo",
+    "finish_exit": "Llegada y salida",
+    "well_done": "¡Bien hecho!",
+    "completion_message": "Has completado esta actividad con éxito. Tómate un momento para apreciar tu progreso.",
+    "time_to_complete": "Hora de completar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "save": "Salvar",
+    "loading": "Cargando..."
   }
 }

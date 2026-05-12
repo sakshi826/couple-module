@@ -17,5 +17,17 @@
     "p2": "Das nennt man <1>konditionierte Erregung</1> – es erklärt, warum du dich den ganzen Tag erschöpft fühlst, aber zum Schlafengehen hellwach.",
     "quote": "\"Dein Gehirn ist nicht kaputt. Sie hat einfach die falsche Lektion über die Schlafenszeit gelernt – und sie kann noch einmal beigebracht werden.\"",
     "button": "Vorheriger Schritt"
+  },
+  "common": {
+    "get_started": "Leg los",
+    "start_over": "Neu anfangen",
+    "finish_exit": "Ziel und Ausgang",
+    "well_done": "Gut gemacht!",
+    "completion_message": "Du hast diese Aktivität erfolgreich abgeschlossen. Nimm dir einen Moment Zeit, um deinen Fortschritt zu würdigen.",
+    "time_to_complete": "Zeit zum Abschluss",
+    "back": "Zurück",
+    "next": "Als Nächstes",
+    "save": "Speichern",
+    "loading": "Lädt..."
   }
 }

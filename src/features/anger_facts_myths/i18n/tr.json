@@ -54,5 +54,17 @@
       "realFact": "Diğer insanlar öfkenizi tetikleyebilir, ama nasıl tepki verdiğiniz sizin sorumluluğunuzdur — ve gücünüz. Tepkilerinin sorumluluğunu almak, karşı tarafın haklı olduğu anlamına gelmez. Bu, nasıl görüneceğini sen seçiyorsun. Bu güçlendirme, suçlama değil.",
       "example": "Birisi trafikte seni kesiyor. Kızgın hissediyorsun — bu normal. Ama öfkelenmeye ya da nefes almaya karar veriyorsun. Seçim senin."
     }
-  ]
+  ],
+  "common": {
+    "get_started": "Başlayın",
+    "start_over": "Yeniden Başla",
+    "finish_exit": "Bitiş ve Çıkış",
+    "well_done": "Aferin!",
+    "completion_message": "Bu etkinliği başarıyla tamamladın. İlerlemenin takdir edilmesini bir an ayır.",
+    "time_to_complete": "Tamamlanma zamanı",
+    "back": "Geri",
+    "next": "Sıradaki",
+    "save": "Kayd et",
+    "loading": "Yükleniyor..."
+  }
 }

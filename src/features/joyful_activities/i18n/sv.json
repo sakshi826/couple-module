@@ -41,5 +41,19 @@
     "p1": "Att återknyta kontakten med det som ger dig glädje – även på det minsta sättet – är en vänlig handling mot dig själv.",
     "p2": "Du förtjänar stunder av lätthet och frid. Fortsätt vårda det som får ditt hjärta att kännas fullt. 💛",
     "button": "Tillbaka hem"
-  }
+  },
+  "common": {
+    "get_started": "Kom igång",
+    "start_over": "Börja om",
+    "finish_exit": "Mål och utgång",
+    "well_done": "Bra jobbat!",
+    "completion_message": "Du har framgångsrikt slutfört denna aktivitet. Ta en stund och uppskatta dina framsteg.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "save": "Spara",
+    "loading": "Laddar..."
+  },
+  "app_complete_title": "Joy bevarad",
+  "app_complete_message": "Du har framgångsrikt återkallat och kopplat till en källa till glädje. Behåll den här känslan när du går igenom dagen."
 }

@@ -43,5 +43,17 @@
   "insight_okay": "Hai avuto un flusso costante di energia. Bilanciare lavoro e riposo sembra funzionare per te.",
   "insight_low": "La tua energia è stata bassa. Valuta di controllare se stai riposando o facendo abbastanza esercizio.",
   "insight_more_data": "Continua a monitorare quotidianamente per vedere schemi più profondi nei tuoi livelli energetici.",
-  "go_home": "Torna al Tracker"
+  "go_home": "Torna al Tracker",
+  "common": {
+    "get_started": "Inizia",
+    "start_over": "Ricomincia",
+    "finish_exit": "Arrivo e uscita",
+    "well_done": "Ben fatto!",
+    "completion_message": "Hai completato con successo questa attività. Prenditi un momento per apprezzare i tuoi progressi.",
+    "time_to_complete": "È ora di completare",
+    "back": "Indietro",
+    "next": "Prossimo",
+    "save": "Salva",
+    "loading": "Caricamento..."
+  }
 }

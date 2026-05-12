@@ -48,5 +48,17 @@
   "memory_desc": "Ang ehersisyo ay nagpapataas ng daloy ng dugo sa utak, na nakakatulong sa pagpapabuti ng memorya at paggana ng kognitibo.",
   "stress_title": "Tugon sa Stress",
   "stress_desc": "Ang pisikal na aktibidad ay nagpapababa ng mga stress hormones at nakakatulong sa pag-reset ng iyong nervous system.",
-  "app_name": "Talaan ng Pisikal na Aktibidad"
+  "app_name": "Talaan ng Pisikal na Aktibidad",
+  "common": {
+    "get_started": "Email Address *",
+    "start_over": "Magsimulang Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Mahusay na ginawa!",
+    "completion_message": "Matagumpay mong nakumpleto ang aktibidad na ito. Maglaan ng ilang sandali upang pahalagahan ang iyong pag-unlad.",
+    "time_to_complete": "Oras na para makumpleto",
+    "back": "Bumalik",
+    "next": "Susunod",
+    "save": "I-save",
+    "loading": "Naglo-load..."
+  }
 }

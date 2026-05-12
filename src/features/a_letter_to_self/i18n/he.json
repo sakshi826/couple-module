@@ -14,5 +14,17 @@
   "complete_msg": "המכתב שלך נשמר בבטחה.",
   "home": "בית",
   "past_letters_title": "מכתבים קודמים",
-  "empty_letters": "לא נמצאו מכתבים מהעבר."
+  "empty_letters": "לא נמצאו מכתבים מהעבר.",
+  "common": {
+    "get_started": "תתחילו",
+    "start_over": "התחלה מחדש",
+    "finish_exit": "סיום ויציאה",
+    "well_done": "כל הכבוד!",
+    "completion_message": "השלמת את הפעילות הזו בהצלחה. קח רגע להעריך את ההתקדמות שלך.",
+    "time_to_complete": "הגיע הזמן להשלים",
+    "back": "חזרה",
+    "next": "הבא",
+    "save": "שמור",
+    "loading": "טוען..."
+  }
 }

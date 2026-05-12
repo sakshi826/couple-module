@@ -76,5 +76,28 @@
   "btn_start_exercise": "エクササイズを始める →",
   "btn_back_to_home": "ホームに戻る",
   "label_thought": "考え：",
-  "label_reflection": "反射："
+  "label_reflection": "反射：",
+  "common": {
+    "get_started": "始めよう",
+    "start_over": "やり直し",
+    "finish_exit": "フィニッシュ&エグジット",
+    "well_done": "よくやった!",
+    "completion_message": "あなたはこの活動を無事に完了しました。自分の進歩を少しでも感じてみてください。",
+    "time_to_complete": "完了の時間だ",
+    "back": "戻る",
+    "next": "次",
+    "save": "セーブ",
+    "loading": "読み込み中..."
+  },
+  "title_sky_clouds": "空と雲",
+  "title_sell_thought": "思いを売る",
+  "title_name_story": "物語の名前を",
+  "title_choose": "拡散技術",
+  "title_diffusion": "普及",
+  "label_back_to_start": "最初に戻る",
+  "label_back_to_techniques": "技術に戻る",
+  "label_choose_technique": "テクニックを選ぶ",
+  "label_current_thought": "今のあなたの考え",
+  "label_recurrent_thought": "繰り返される思考",
+  "label_remember_to_say": "以下のように言いましょう:"
 }

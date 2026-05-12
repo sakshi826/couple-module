@@ -59,5 +59,17 @@
   "label_feelings": "Tunteet",
   "label_your_kind_words": "Ystävälliset sanasi",
   "save_finish_button": "Tallenna ja viimeistele",
-  "finish_no_save_button": "Viimeistele ilman tallentamista"
+  "finish_no_save_button": "Viimeistele ilman tallentamista",
+  "common": {
+    "get_started": "Aloita",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Maali ja uloskäynti",
+    "well_done": "Hyvin tehty!",
+    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Ota hetki arvostaaksesi edistymistäsi.",
+    "time_to_complete": "Aika valmistua",
+    "back": "Takaisin",
+    "next": "Seuraavaksi",
+    "save": "Tallenna",
+    "loading": "Ladataan..."
+  }
 }

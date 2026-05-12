@@ -160,5 +160,17 @@
   "complete": {
     "title": "Odprawa zakończona",
     "message": "Zidentyfikowałeś, że potrzebujesz \"{{need}}\". Szanowanie własnych potrzeb to kluczowa forma dbania o siebie."
+  },
+  "common": {
+    "get_started": "Zacznij",
+    "start_over": "Start From",
+    "finish_exit": "Koniec i wyjście",
+    "well_done": "Brawo!",
+    "completion_message": "Udało ci się ukończyć tę aktywność. Poświęć chwilę, by docenić swoje postępy.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Z powrotem",
+    "next": "Następny",
+    "save": "Zapisz",
+    "loading": "Ładowanie..."
   }
 }

@@ -2,17 +2,12 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { handlePlatformExit } from "../../lib/navigation";
-import { MobileNav } from "./MobileNav";
+import { useTranslation } from "react-i18next";
 import { 
   ChevronLeft, 
   MessageCircle, 
-  BookOpen, 
-  Video, 
-  FileText, 
   Heart, 
   Shield, 
-  ChevronRight, 
-  ChevronDown,
   CloudRain,
   Brain,
   Zap,
@@ -27,489 +22,175 @@ import {
   Sparkles,
   UtensilsCrossed,
   RefreshCw,
-  Waves,
-  RotateCcw,
   Star,
-  FolderTree,
   Mail,
   Smile,
   Wind,
   Compass,
   Play,
-  Dumbbell,
   Pen,
-  ListChecks,
   Newspaper,
   Lightbulb,
   BookMarked,
-  Image,
-  ArrowRight,
   Activity,
   Target,
   Pause,
-  HelpCircle
+  HelpCircle,
+  ArrowRight,
+  Search
 } from "lucide-react";
-
-interface MoodOption {
-  emoji: string;
-  label: string;
-  value: string;
-}
 
 interface TopicCard {
   id: string;
   icon: any;
-  label: string;
+  labelKey: string;
   bgColor: string;
   iconColor: string;
   url?: string;
 }
 
-interface MindfulnessCard {
-  id: string;
-  icon: any;
-  label: string;
-  subtitle: string;
-}
-
-const moodOptions: MoodOption[] = [
-  { emoji: "😊", label: "Great", value: "great" },
-  { emoji: "🙂", label: "Good", value: "good" },
-  { emoji: "😐", label: "Okay", value: "okay" },
-  { emoji: "😟", label: "Down", value: "down" },
-  { emoji: "😢", label: "Sad", value: "sad" },
-];
-
 const topicCards: TopicCard[] = [
-  { id: "depression", icon: CloudRain, label: "Depression", bgColor: "#E0F2FE", iconColor: "#0EA5E9" },
-  { id: "anxiety", icon: Brain, label: "Anxiety", bgColor: "#E0F7FA", iconColor: "#00BCD4" },
-  { id: "stress", icon: Zap, label: "Stress", bgColor: "#FFF4E5", iconColor: "#FFB347" },
-  { id: "adolescent", icon: Users, label: "Adolescent", bgColor: "#E8F8F5", iconColor: "#34D399" },
-  { id: "relationship", icon: Heart, label: "Relationship", bgColor: "#FFEBF0", iconColor: "#FF6B9D" },
-  { id: "workplace", icon: Briefcase, label: "Workplace", bgColor: "#F1F5F9", iconColor: "#64748B" },
-  { id: "sleep", icon: Moon, label: "Sleep", bgColor: "#F0F9FF", iconColor: "#0EA5E9" },
-  { id: "parenting", icon: Baby, label: "Parenting", bgColor: "#FCE7F3", iconColor: "#EC4899" },
-  { id: "anger", icon: Flame, label: "Anger", bgColor: "#FFF0EB", iconColor: "#F97316" },
-  { id: "grief", icon: Frown, label: "Grief", bgColor: "#F1F5F9", iconColor: "#475569" },
-  { id: "ptsd", icon: Shield, label: "PTSD", bgColor: "#E6FAF5", iconColor: "#14B8A6" },
-  { id: "acceptance", icon: TrendingUp, label: "Acceptance", bgColor: "#E0F7FA", iconColor: "#00BCD4" },
-  { id: "postpartum", icon: HeartPulse, label: "Postpartum", bgColor: "#F0F9FF", iconColor: "#0EA5E9" },
-  { id: "sexuality", icon: Sparkles, label: "Sexuality", bgColor: "#E0F2FE", iconColor: "#0EA5E9" },
-  { id: "eating-disorder", icon: UtensilsCrossed, label: "Eating Disorder", bgColor: "#F7FEE7", iconColor: "#84CC16" },
-  { id: "ocd", icon: RefreshCw, label: "OCD", bgColor: "#DBEAFE", iconColor: "#3B82F6" },
-];
-
-const mindfulnessCards: MindfulnessCard[] = [
-  { id: "meditate", icon: BookOpen, label: "Meditate", subtitle: "Calm your mind" },
-  { id: "sleep", icon: Video, label: "Sleep", subtitle: "Rest better" },
-  { id: "relax", icon: FileText, label: "Relax", subtitle: "Unwind deeply" },
-  { id: "music", icon: Heart, label: "Music", subtitle: "Soothing sounds" },
+  { id: "depression", icon: CloudRain, labelKey: "topics.depression.label", bgColor: "#E0F2FE", iconColor: "#0EA5E9" },
+  { id: "anxiety", icon: Brain, labelKey: "topics.anxiety.label", bgColor: "#E0F7FA", iconColor: "#00BCD4" },
+  { id: "stress", icon: Zap, labelKey: "topics.stress.label", bgColor: "#FFF4E5", iconColor: "#FFB347" },
+  { id: "adolescent", icon: Users, labelKey: "topics.adolescent.label", bgColor: "#E8F8F5", iconColor: "#34D399" },
+  { id: "relationship", icon: Heart, labelKey: "topics.relationship.label", bgColor: "#FFEBF0", iconColor: "#FF6B9D" },
+  { id: "workplace", icon: Briefcase, labelKey: "topics.workplace.label", bgColor: "#F1F5F9", iconColor: "#64748B" },
+  { id: "sleep", icon: Moon, labelKey: "topics.sleep.label", bgColor: "#F0F9FF", iconColor: "#0EA5E9" },
+  { id: "parenting", icon: Baby, labelKey: "topics.parenting.label", bgColor: "#FCE7F3", iconColor: "#EC4899" },
+  { id: "anger", icon: Flame, labelKey: "topics.anger.label", bgColor: "#FFF0EB", iconColor: "#F97316" },
+  { id: "grief", icon: Frown, labelKey: "topics.grief.label", bgColor: "#F1F5F9", iconColor: "#475569" },
+  { id: "ptsd", icon: Shield, labelKey: "topics.ptsd.label", bgColor: "#E6FAF5", iconColor: "#14B8A6" },
+  { id: "acceptance", icon: TrendingUp, labelKey: "topics.acceptance.label", bgColor: "#E0F7FA", iconColor: "#00BCD4" },
+  { id: "postpartum", icon: HeartPulse, labelKey: "topics.postpartum.label", bgColor: "#F0F9FF", iconColor: "#0EA5E9" },
+  { id: "sexuality", icon: Sparkles, labelKey: "topics.sexuality.label", bgColor: "#E0F2FE", iconColor: "#0EA5E9" },
+  { id: "eating-disorder", icon: UtensilsCrossed, labelKey: "topics.eating-disorder.label", bgColor: "#F7FEE7", iconColor: "#84CC16" },
+  { id: "ocd", icon: RefreshCw, labelKey: "topics.ocd.label", bgColor: "#DBEAFE", iconColor: "#3B82F6" },
 ];
 
 const toolCards: TopicCard[] = [
-  { id: "box-breathing", icon: Wind, label: "Box Breathing", bgColor: "linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)", iconColor: "#00BCD4", url: "/exercises/box-breathing" },
-  { id: "gratitude-tracker", icon: Star, label: "Gratitude Tracker", bgColor: "linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%)", iconColor: "#F9A825", url: "/trackers/gratitude-tracker" },
-  { id: "deep-breathing", icon: Activity, label: "Deep Breathing", bgColor: "linear-gradient(135deg, #f472b6 0%, #ec4899 100%)", iconColor: "#EC407A", url: "/exercises/4-6-8-breathing" },
-  { id: "affirmations", icon: Smile, label: "Affirmations", bgColor: "linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)", iconColor: "#0EA5E9", url: "/tools/affirmations" },
-  { id: "mindful-space", icon: Compass, label: "Mindful Space", bgColor: "linear-gradient(135deg, #10b981 0%, #059669 100%)", iconColor: "#66BB6A", url: "/tools/joyful-activities" },
-  { id: "letter-to-self", icon: Mail, label: "A Letter To Self", bgColor: "linear-gradient(135deg, #fb923c 0%, #f97316 100%)", iconColor: "#FF9800", url: "/tools/a-letter-to-self" },
+  { id: "box-breathing", icon: Wind, labelKey: "tools.box-breathing", bgColor: "linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)", iconColor: "#00BCD4", url: "/exercises/box-breathing" },
+  { id: "gratitude-tracker", icon: Star, labelKey: "tools.gratitude-tracker", bgColor: "linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%)", iconColor: "#F9A825", url: "/trackers/gratitude-tracker" },
+  { id: "deep-breathing", icon: Activity, labelKey: "tools.deep-breathing", bgColor: "linear-gradient(135deg, #f472b6 0%, #ec4899 100%)", iconColor: "#EC407A", url: "/exercises/4-6-8-breathing" },
+  { id: "affirmations", icon: Smile, labelKey: "tools.affirmations", bgColor: "linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)", iconColor: "#0EA5E9", url: "/tools/affirmations" },
+  { id: "mindful-space", icon: Compass, labelKey: "tools.mindful-space", bgColor: "linear-gradient(135deg, #10b981 0%, #059669 100%)", iconColor: "#66BB6A", url: "/tools/joyful-activities" },
+  { id: "letter-to-self", icon: Mail, labelKey: "tools.letter-to-self", bgColor: "linear-gradient(135deg, #fb923c 0%, #f97316 100%)", iconColor: "#FF9800", url: "/tools/a-letter-to-self" },
+  { id: "sleep-tracker", icon: Moon, labelKey: "tools.sleep-tracker", bgColor: "linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%)", iconColor: "#3B82F6", url: "https://web.mantracare.com/app/sleep" },
 ];
 
-
 const topicDetails: Record<string, {
-  description: string;
+  descKey: string;
   guidedSeriesUrl?: string;
-  exercises: { title: string; icon: any; url?: string }[];
-  todos: { title: string; icon: any; url?: string }[];
-  resources: { title: string; count: number; icon: any; url?: string }[];
+  exercises: { titleKey: string; icon: any; url?: string; action?: string }[];
+  todos: { titleKey: string; icon: any; url?: string }[];
+  resources: { titleKey: string; count: number | string; icon: any; url?: string }[];
 }> = {
   depression: {
-    description: "Evidence-based exercises and resources to help you manage depression symptoms and build resilience.",
+    descKey: "topics.depression.desc",
     guidedSeriesUrl: "https://app.mantracare.com/therapy/depression/depr-guided-series/",
     exercises: [
-      { title: "5-4-3-2-1 Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
-      { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
-      { title: "Joyful Activities", icon: Sparkles, url: "/tools/joyful-activities" },
+      { titleKey: "exercises.grounding_54321", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
+      { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
+      { titleKey: "tools.affirmations", icon: Smile, url: "/tools/affirmations" },
+      { titleKey: "tools.mindful_space", icon: Sparkles, url: "/tools/joyful-activities" },
     ],
     todos: [
-      { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
-      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
-      { title: "Letter to Self", icon: Mail, url: "/tools/a-letter-to-self" },
+      { titleKey: "tools.gratitude_tracker", icon: Star, url: "/trackers/gratitude-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "tools.know_values", icon: Brain, url: "/tools/know-your-values" },
+      { titleKey: "tools.letter_to_self", icon: Mail, url: "/tools/a-letter-to-self" },
     ],
     resources: [
-      { title: "Articles", count: 5, icon: Newspaper, url: "/resources/depression/articles" },
-      { title: "Tips", count: "Pro", icon: Lightbulb, url: "/tips/depression-tips" },
-      { title: "Stories", count: 7, icon: BookMarked, url: "/resources/depression/stories" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "/resources/depression/myths" },
+      { titleKey: "hub.articles", count: 5, icon: Newspaper, url: "/resources/depression/articles" },
+      { titleKey: "hub.tips", count: "Pro", icon: Lightbulb, url: "/tips/depression-tips" },
+      { titleKey: "hub.stories", count: 7, icon: BookMarked, url: "/resources/depression/stories" },
+      { titleKey: "hub.myths", count: 6, icon: HelpCircle, url: "/resources/depression/myths" },
     ],
   },
   anxiety: {
-    description: "Calming techniques and strategies to manage anxiety, reduce worry, and regain a sense of control.",
+    descKey: "topics.anxiety.desc",
     guidedSeriesUrl: "https://app.mantracare.com/therapy/anxiety/anx-guided-series/",
     exercises: [
-      { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
-      { title: "4-6-8 Breathing", icon: Play, url: "/exercises/4-6-8-breathing" },
-      { title: "Grounded Technique", icon: Compass, url: "/exercises/grounding-technique" },
-      { title: "Diffusion Techniques", icon: Brain, url: "/exercises/diffusion-technique" },
+      { titleKey: "tools.box_breathing", icon: Wind, url: "/exercises/box-breathing" },
+      { titleKey: "tools.deep_breathing", icon: Play, url: "/exercises/4-6-8-breathing" },
+      { titleKey: "exercises.grounding", icon: Compass, url: "/exercises/grounding-technique" },
+      { titleKey: "exercises.diffusion", icon: Brain, url: "/exercises/diffusion-technique" },
     ],
     todos: [
-      { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
-      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
-      { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "tools.vibe_tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
+      { titleKey: "tools.know_values", icon: Brain, url: "/tools/know-your-values" },
+      { titleKey: "tools.thought_shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
     ],
     resources: [
-      { title: "Articles", count: 4, icon: Newspaper, url: "/resources/anxiety/articles" },
-      { title: "Tips", count: "Pro", icon: Lightbulb, url: "/tips/anxiety-tips" },
-      { title: "Stories", count: 7, icon: BookMarked, url: "/tools/real-stories-to-overcome-anxiety" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "/resources/anxiety/myths" },
+      { titleKey: "hub.articles", count: 4, icon: Newspaper, url: "/resources/anxiety/articles" },
+      { titleKey: "hub.tips", count: "Pro", icon: Lightbulb, url: "/tips/anxiety-tips" },
+      { titleKey: "hub.stories", count: 7, icon: BookMarked, url: "/tools/real-stories-to-overcome-anxiety" },
+      { titleKey: "hub.myths", count: 6, icon: HelpCircle, url: "/resources/anxiety/myths" },
     ],
   },
   stress: {
-    description: "Practical tools and exercises to manage stress, build coping skills, and restore balance in your life.",
+    descKey: "topics.stress.desc",
     guidedSeriesUrl: "https://app.mantracare.com/therapy/stress-home/strs-guided-series/",
     exercises: [
-      { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
-      { title: "Doodle Burst", icon: Pen, url: "/tools/doodle-burst" },
-      { title: "Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
+      { titleKey: "tools.box_breathing", icon: Wind, url: "/exercises/box-breathing" },
+      { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
+      { titleKey: "tools.doodle_burst", icon: Pen, url: "/tools/doodle-burst" },
+      { titleKey: "exercises.grounding_54321", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
     ],
     todos: [
-      { title: "Energy Tracker", icon: Zap, url: "/trackers/energy-tracker" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
-      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
-      { title: "Environment Optimization", icon: Compass, url: "/tools/environment-optimization" },
+      { titleKey: "tools.energy_tracker", icon: Zap, url: "/trackers/energy-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "tools.know_values", icon: Brain, url: "/tools/know-your-values" },
+      { titleKey: "tools.environment_optimization", icon: Compass, url: "/tools/environment-optimization" },
     ],
     resources: [
-      { title: "Articles", count: 4, icon: Newspaper, url: "/resources/stress/articles" },
-      { title: "Tips", count: "Pro", icon: Lightbulb, url: "/tips/stress-tips" },
-      { title: "Stories", count: 7, icon: BookMarked, url: "/resources/stress/stories" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "/resources/stress/myths" },
+      { titleKey: "hub.articles", count: 4, icon: Newspaper, url: "/resources/stress/articles" },
+      { titleKey: "hub.tips", count: "Pro", icon: Lightbulb, url: "/tips/stress-tips" },
+      { titleKey: "hub.stories", count: 7, icon: BookMarked, url: "/resources/stress/stories" },
+      { titleKey: "hub.myths", count: 6, icon: HelpCircle, url: "/resources/stress/myths" },
     ],
   },
   sleep: {
-    description: "Techniques and trackers to improve your sleep quality, build healthy bedtime habits, and wake up refreshed.",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/sleep/slp-guided-series/",
+    descKey: "topics.sleep.desc",
+    guidedSeriesUrl: "https://app.mantracare.com/therapy/sleep-better/slp-guided-series/",
     exercises: [
-      { title: "4-6-8 Breathing", icon: Play, url: "/exercises/4-6-8-breathing" },
-      { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
-      { title: "Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
+      { titleKey: "tips.sleep_guide", icon: Play, url: "/tips/sleep-guide" },
+      { titleKey: "tips.sleep_cycle", icon: Activity, url: "/tips/sleep-cycle-guide" },
+      { titleKey: "tools.sleep_window", icon: Compass, url: "/tools/sleep-window-planner" },
     ],
     todos: [
-      { title: "Sleep Tracker", icon: Moon, url: "/trackers/sleep" },
-      { title: "Energy Tracker", icon: Zap, url: "/trackers/energy-tracker" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
-      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
+      { titleKey: "tools.sleep-tracker", icon: Moon, url: "https://web.mantracare.com/app/sleep" },
+      { titleKey: "trackers.sleep_audit", icon: Star, url: "/trackers/sleep-audit" },
     ],
     resources: [
-      { title: "Articles", count: 5, icon: Newspaper, url: "/resources/sleep/articles" },
-      { title: "Tips", count: 12, icon: Lightbulb, url: "/tips/sleep-guide" },
-      { title: "Stories", count: 6, icon: BookMarked, url: "/resources/sleep/stories" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "/resources/sleep/myths" },
-    ],
-  },
-  adolescent: {
-    description: "Guidance and activities designed for teens navigating growth, identity, and emotional challenges.",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/adolescent/adlscnt-guided-series/",
-    exercises: [
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
-      { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
-      { title: "Doodle Burst", icon: Pen, url: "/tools/doodle-burst" },
-      { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
-    ],
-    todos: [
-      { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
-      { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
-      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
-    ],
-    resources: [
-      { title: "Articles", count: 5, icon: Newspaper, url: "/resources/adolescent/articles" },
-      { title: "Tips", count: 12, icon: Lightbulb, url: "/resources/adolescent/tips" },
-      { title: "Stories", count: 6, icon: BookMarked, url: "/resources/adolescent/stories" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "/resources/adolescent/myths" },
-    ],
-  },
-  relationship: {
-    description: "Tools and insights to strengthen connections, improve communication, and build healthier relationships.",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/relationship/rln-guided-series/",
-    exercises: [
-      { title: "Letter to Self", icon: Mail, url: "/tools/a-letter-to-self" },
-      { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
-      { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
-    ],
-    todos: [
-      { title: "Know Your Values", icon: Target, url: "/tools/know-your-values" },
-      { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
-      { title: "Personal Mission Statement", icon: Compass, url: "/tools/personal-mission-statement" },
-    ],
-    resources: [
-      { title: "Articles", count: 5, icon: Newspaper, url: "/resources/relationship/articles" },
-      { title: "Tips", count: 12, icon: Lightbulb, url: "/resources/relationship/tips" },
-      { title: "Stories", count: 6, icon: BookMarked, url: "/resources/relationship/stories" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "/resources/relationship/myths" },
-    ],
-  },
-  workplace: {
-    description: "Strategies to manage workplace stress, improve focus, and maintain work-life balance.",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/workplace/wrkplc-guided-series/",
-    exercises: [
-      { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
-      { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
-      { title: "Environment Optimization", icon: Compass, url: "/tools/environment-optimization" },
-    ],
-    todos: [
-      { title: "Physical Activity Log", icon: Activity, url: "/trackers/physical-activity-log" },
-      { title: "Energy Tracker", icon: Zap, url: "/trackers/energy-tracker" },
-      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
-    ],
-    resources: [
-      { title: "Articles", count: 5, icon: Newspaper, url: "/resources/workplace/articles" },
-      { title: "Tips", count: 12, icon: Lightbulb, url: "/resources/workplace/tips" },
-      { title: "Stories", count: 6, icon: BookMarked, url: "/resources/workplace/stories" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "/resources/workplace/myths" },
-    ],
-  },
-  parenting: {
-    description: "Resources to support mindful parenting, reduce burnout, and nurture your family's wellbeing.",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/parenting/prntng-guided-series/",
-    exercises: [
-      { title: "Pause for Appreciation", icon: Pause, url: "/trackers/a-pause-for-appreciation" },
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
-      { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
-      { title: "Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
-    ],
-    todos: [
-      { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
-      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
-      { title: "Letter to Self", icon: Mail, url: "/tools/a-letter-to-self" },
-    ],
-    resources: [
-      { title: "Articles", count: 5, icon: Newspaper, url: "/resources/parenting/articles" },
-      { title: "Tips", count: 12, icon: Lightbulb, url: "/resources/parenting/tips" },
-      { title: "Stories", count: 6, icon: BookMarked, url: "/resources/parenting/stories" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "/resources/parenting/myths" },
-    ],
-  },
-  anger: {
-    description: "Techniques to understand, manage, and channel anger in healthy and constructive ways.",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/anger/angr-guided-series/",
-    exercises: [
-      { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
-      { title: "Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
-      { title: "Diffusion Techniques", icon: Brain, url: "/exercises/diffusion-technique" },
-      { title: "Doodle Burst", icon: Pen, url: "/tools/doodle-burst" },
-    ],
-    todos: [
-      { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
-      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
-      { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
-      { title: "Energy Tracker", icon: Zap, url: "/trackers/energy-tracker" },
-    ],
-    resources: [
-      { title: "Articles", count: 5, icon: Newspaper, url: "/resources/anger/articles" },
-      { title: "Tips", count: 12, icon: Lightbulb, url: "/tips/anger-facts-myths" },
-      { title: "Stories", count: 6, icon: BookMarked, url: "/resources/anger/stories" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "/tips/anger-facts-myths" },
-    ],
-  },
-  grief: {
-    description: "Compassionate tools and exercises to help you process loss and find healing at your own pace.",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/grief/grf-guided-series/",
-    exercises: [
-      { title: "Letter to Self", icon: Mail, url: "/tools/a-letter-to-self" },
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
-      { title: "Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
-      { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
-    ],
-    todos: [
-      { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
-      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
-      { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
-    ],
-    resources: [
-      { title: "Articles", count: 5, icon: Newspaper, url: "/resources/grief/articles" },
-      { title: "Tips", count: 12, icon: Lightbulb, url: "/resources/grief/tips" },
-      { title: "Stories", count: 6, icon: BookMarked, url: "/resources/grief/stories" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "/resources/grief/myths" },
-    ],
-  },
-  ptsd: {
-    description: "Grounding and stabilization techniques to help manage trauma responses and build safety.",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/ptsd/ptsd-guided-series/",
-    exercises: [
-      { title: "Grounded Technique", icon: Compass, url: "/exercises/grounding-technique" },
-      { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
-      { title: "Diffusion Techniques", icon: Brain, url: "/exercises/diffusion-technique" },
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
-    ],
-    todos: [
-      { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
-      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
-      { title: "Energy Tracker", icon: Zap, url: "/trackers/energy-tracker" },
-      { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
-    ],
-    resources: [
-      { title: "Articles", count: 5, icon: Newspaper, url: "/resources/ptsd/articles" },
-      { title: "Tips", count: 12, icon: Lightbulb, url: "/resources/ptsd/tips" },
-      { title: "Stories", count: 6, icon: BookMarked, url: "/resources/ptsd/stories" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "/resources/ptsd/myths" },
-    ],
-  },
-  acceptance: {
-    description: "Exercises to cultivate acceptance, let go of resistance, and embrace life as it is.",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/acceptance/accpt-guided-series/",
-    exercises: [
-      { title: "Diffusion Techniques", icon: Brain, url: "/exercises/diffusion-technique" },
-      { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
-      { title: "A Pause for Appreciation", icon: Pause, url: "/trackers/a-pause-for-appreciation" },
-    ],
-    todos: [
-      { title: "Letter to Self", icon: Mail, url: "/tools/a-letter-to-self" },
-      { title: "Know Your Values", icon: Target, url: "/tools/know-your-values" },
-      { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
-    ],
-    resources: [
-      { title: "Articles", count: 5, icon: Newspaper, url: "/resources/acceptance/articles" },
-      { title: "Tips", count: 12, icon: Lightbulb, url: "/resources/acceptance/tips" },
-      { title: "Stories", count: 6, icon: BookMarked, url: "/resources/acceptance/stories" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "/resources/acceptance/myths" },
-    ],
-  },
-  postpartum: {
-    description: "Supportive resources for new mothers managing postpartum challenges and emotional changes.",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/postpartum/pstprtm-guided-series/",
-    exercises: [
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
-      { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
-      { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
-      { title: "Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
-    ],
-    todos: [
-      { title: "Energy Tracker", icon: Zap, url: "/trackers/energy-tracker" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
-      { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
-      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
-    ],
-    resources: [
-      { title: "Articles", count: 5, icon: Newspaper, url: "/resources/postpartum/articles" },
-      { title: "Tips", count: 12, icon: Lightbulb, url: "/resources/postpartum/tips" },
-      { title: "Stories", count: 6, icon: BookMarked, url: "/resources/postpartum/stories" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "/resources/postpartum/myths" },
-    ],
-  },
-  sexuality: {
-    description: "Safe and supportive resources to explore identity, build self-acceptance, and find community.",
-    guidedSeriesUrl: "https://therapy.mantracare.com/en/therapyapp/sexuality-guided-series/",
-    exercises: [
-      { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
-      { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
-      { title: "Letter to Self", icon: Mail, url: "/tools/a-letter-to-self" },
-    ],
-    todos: [
-      { title: "Know Your Values", icon: Target, url: "/tools/know-your-values" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
-      { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
-      { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
-    ],
-    resources: [
-      { title: "Articles", count: 5, icon: Newspaper, url: "/resources/sexuality/articles" },
-      { title: "Tips", count: 12, icon: Lightbulb, url: "/resources/sexuality/tips" },
-      { title: "Stories", count: 6, icon: BookMarked, url: "/resources/sexuality/stories" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "/resources/sexuality/myths" },
-    ],
-  },
-  "eating-disorder": {
-    description: "Supportive exercises and resources to build a healthier relationship with food and body image.",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/eating-disorder/etn-guided-series/",
-    exercises: [
-      { title: "Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
-      { title: "Diffusion Techniques", icon: Brain, url: "/exercises/diffusion-technique" },
-      { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
-    ],
-    todos: [
-      { title: "Energy Tracker", icon: Zap, url: "/trackers/energy-tracker" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
-      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
-      { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
-    ],
-    resources: [
-      { title: "Articles", count: 18, icon: Newspaper, url: "/resources/eating-disorder/articles" },
-      { title: "Tips", count: 14, icon: Lightbulb, url: "/resources/eating-disorder/tips" },
-      { title: "Stories", count: 10, icon: BookMarked, url: "/resources/eating-disorder/stories" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "/resources/eating-disorder/myths" },
-    ],
-  },
-  ocd: {
-    description: "Evidence-based techniques to manage obsessive thoughts and compulsive behaviors.",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/ocd/ocd-guided-series/",
-    exercises: [
-      { title: "Diffusion Techniques", icon: Brain, url: "/exercises/diffusion-technique" },
-      { title: "Grounded Technique", icon: Compass, url: "/exercises/grounding-technique" },
-      { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
-      { title: "A Letter To Self", icon: Mail, url: "/tools/a-letter-to-self" },
-    ],
-    todos: [
-      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
-      { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
-      { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
-    ],
-    resources: [
-      { title: "Articles", count: 0, icon: Newspaper, url: "/resources/ocd/articles" },
-      { title: "Tips", count: 0, icon: Lightbulb, url: "/resources/ocd/tips" },
-      { title: "Stories", count: 0, icon: BookMarked, url: "/resources/ocd/stories" },
-      { title: "Myths", count: 0, icon: HelpCircle, url: "/resources/ocd/myths" },
+      { titleKey: "hub.articles", count: 4, icon: Newspaper, url: "/resources/sleep/articles" },
+      { titleKey: "hub.tips", count: "Pro", icon: Lightbulb, url: "/tips/sleep-tips" },
     ],
   },
 };
 
 export function SelfCareResources() {
   const navigate = useNavigate();
-  const [selectedMood, setSelectedMood] = useState<string | null>(null);
+  const { t } = useTranslation();
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
-    // Intercept browser back button to trigger platform exit
-    const handlePopState = (e: PopStateEvent) => {
-      // If we're at the root of self-care, exit. 
-      // If we're in a topic, just close the topic.
+    const handlePopState = () => {
       if (selectedTopic === null) {
         handlePlatformExit();
       } else {
         setSelectedTopic(null);
       }
     };
-
     window.addEventListener('popstate', handlePopState);
-    
-    return () => {
-      window.removeEventListener('popstate', handlePopState);
-    };
+    return () => window.removeEventListener('popstate', handlePopState);
   }, [selectedTopic]);
 
   const container = {
     hidden: { opacity: 0 },
-    show: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.03
-      }
-    }
+    show: { opacity: 1, transition: { staggerChildren: 0.05 } }
   };
 
   const item = {
@@ -517,389 +198,187 @@ export function SelfCareResources() {
     show: { opacity: 1, y: 0 }
   };
 
-  return (
-    <div className="flex min-h-screen bg-[#F6F8FB]">
+  const filteredTopics = topicCards.filter(topic => 
+    t(topic.labelKey).toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
-      <div className="flex-1 flex flex-col min-w-0 bg-[#F6F8FB]">
-        <main className="max-w-4xl w-full mx-auto px-4 md:px-6 py-4 md:py-8 pt-[24px] md:pt-8">
+  return (
+    <div className="flex min-h-screen bg-[#F6F8FB] selection:bg-primary/10">
+      <div className="flex-1 flex flex-col min-w-0">
+        <main className="max-w-4xl w-full mx-auto px-4 md:px-6 py-6 pt-10">
           <AnimatePresence mode="wait">
             {selectedTopic ? (() => {
               const topic = topicCards.find(t => t.id === selectedTopic)!;
-              const detail = topicDetails[selectedTopic];
+              const detail = topicDetails[selectedTopic] || { 
+                descKey: `topics.${selectedTopic}.desc`, 
+                exercises: [], 
+                todos: [], 
+                resources: [] 
+              };
               return (
                 <motion.div
                   key="topic-detail"
                   initial={{ opacity: 0, x: 20 }}
                   animate={{ opacity: 1, x: 0 }}
                   exit={{ opacity: 0, x: -20 }}
-                  transition={{ duration: 0.3 }}
+                  className="space-y-8"
                 >
-                  {/* Header */}
-                  <motion.div
-                    className="mb-8"
-                    initial={{ opacity: 0, y: -10 }}
-                    animate={{ opacity: 1, y: 0 }}
+                  <button
+                    onClick={() => setSelectedTopic(null)}
+                    className="flex items-center gap-2 text-[#64748B] hover:text-[#020817] transition-colors group mb-4"
                   >
-                    <button
-                      onClick={() => {
-                        setSelectedTopic(null);
-                      }}
-                      className="flex items-center gap-2 mb-6 text-[#64748B] hover:text-[#020817] transition-colors group"
-                    >
-                      <ChevronLeft size={20} strokeWidth={2} className="group-hover:-translate-x-1 transition-transform" />
-                      <span className="text-sm font-medium">Back to topics</span>
-                    </button>
-                    <h1 className="font-semibold text-[#020817] mb-2" style={{ fontSize: '28px' }}>
-                      {topic.label}
-                    </h1>
-                    <p className="text-base text-[#64748B] leading-relaxed">
-                      {detail.description}
-                    </p>
-                  </motion.div>
+                    <ChevronLeft size={20} className="group-hover:-translate-x-1 transition-transform" />
+                    <span className="text-sm font-medium">{t("hub.back_to_topics")}</span>
+                  </button>
 
-                  {/* Guided Series */}
+                  <div className="space-y-4">
+                    <h1 className="text-3xl font-bold text-[#020817]">{t(topic.labelKey)}</h1>
+                    <p className="text-base text-[#64748B] leading-relaxed max-w-2xl">{t(detail.descKey)}</p>
+                  </div>
+
                   {detail.guidedSeriesUrl && (
-                    <motion.div
-                      className="mb-6"
-                      initial={{ opacity: 0, y: 10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: 0.1 }}
-                    >
-                      <h2 className="font-semibold text-[#020817] mb-4" style={{ fontSize: '18px' }}>
-                        Guided Series
-                      </h2>
+                    <div className="space-y-4">
+                      <h2 className="text-xl font-bold text-[#020817]">{t("hub.guided_series")}</h2>
                       <motion.button
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.98 }}
-                        onClick={() => { 
-                          if (detail.guidedSeriesUrl) {
-                            window.location.href = detail.guidedSeriesUrl;
-                          }
-                        }}
-                        className="w-full bg-[#F5FBFF] border-2 border-[#E0F2FE] rounded-2xl p-5 flex items-center justify-between hover:border-[#2D9CDB] hover:shadow-lg transition-all group"
+                        onClick={() => window.location.href = detail.guidedSeriesUrl!}
+                        className="w-full bg-[#F5FBFF] border-2 border-[#E0F2FE] rounded-2xl p-6 flex items-center justify-between hover:border-primary hover:shadow-lg transition-all group"
                       >
                         <div className="flex items-center gap-4">
-                          <div className="w-12 h-12 bg-[#2D9CDB] rounded-2xl flex items-center justify-center">
-                            <Play size={20} className="text-white" fill="#ffffff" />
+                          <div className="w-12 h-12 bg-primary rounded-2xl flex items-center justify-center">
+                            <Play size={20} className="text-white fill-current" />
                           </div>
-                          <span className="font-medium text-[#020817]">Start guided series</span>
+                          <div className="text-left">
+                            <span className="block font-bold text-[#020817]">{t("hub.start_guided_series")}</span>
+                            <span className="text-xs text-[#64748B]">Step-by-step therapeutic journey</span>
+                          </div>
                         </div>
                         <ArrowRight size={20} className="text-[#64748B] group-hover:translate-x-1 transition-transform" />
                       </motion.button>
-                    </motion.div>
+                    </div>
                   )}
 
-                  {/* Exercises */}
-                  <motion.div
-                    className="mb-6"
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.15 }}
-                  >
-                    <h2 className="font-semibold text-[#020817] mb-4" style={{ fontSize: '18px' }}>
-                      Exercises
-                    </h2>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                      {detail.exercises.map((ex, i) => {
-                        const ExIcon = ex.icon;
-                        const colors = [
-                          { bg: '#FFF4ED', border: '#FECACA', icon: '#F97316' },
-                          { bg: '#EFF6FF', border: '#BFDBFE', icon: '#3B82F6' },
-                          { bg: '#FCE7F3', border: '#FBCFE8', icon: '#EC4899' },
-                          { bg: '#ECFDF5', border: '#A7F3D0', icon: '#10B981' }
-                        ];
-                        const color = colors[i % colors.length];
-                        return (
+                  {detail.exercises.length > 0 && (
+                    <div className="space-y-4">
+                      <h2 className="text-xl font-bold text-[#020817]">{t("hub.exercises")}</h2>
+                      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        {detail.exercises.map((ex, i) => (
                           <motion.button
-                            key={ex.title}
-                            initial={{ opacity: 0, x: -20 }}
-                            animate={{ opacity: 1, x: 0 }}
-                            transition={{ delay: 0.15 + i * 0.05 }}
-                            whileHover={{ y: -2 }}
-                            whileTap={{ scale: 0.95 }}
-                            onClick={() => {
-                              if (ex.action === 'guided' && ex.url) {
-                                window.location.href = ex.url;
-                                return;
-                              }
-
-                              if (ex.url) {
-                                ex.url.startsWith('http') ? window.location.href = ex.url : navigate(ex.url, { replace: true });
-                              }
-                            }}
-                            className="w-full rounded-2xl p-4 border-2 transition-all hover:shadow-md"
-                            style={{
-                              backgroundColor: color.bg,
-                              borderColor: color.border
-                            }}
+                            key={i}
+                            whileHover={{ y: -4 }}
+                            onClick={() => ex.url?.startsWith('http') ? window.location.href = ex.url : navigate(ex.url!, { replace: true })}
+                            className="p-4 bg-white border border-slate-100 rounded-2xl shadow-sm hover:shadow-md transition-all text-left space-y-3"
                           >
-                            <div className="w-12 h-12 rounded-2xl flex items-center justify-center mb-3" style={{ backgroundColor: color.icon }}>
-                              <ExIcon size={20} className="text-white" strokeWidth={2} />
+                            <div className="w-10 h-10 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
+                              <ex.icon size={20} />
                             </div>
-                            <p className="text-sm font-medium text-[#020817] text-left leading-snug">
-                              {ex.title}
-                            </p>
+                            <p className="text-sm font-bold text-slate-800 leading-tight">{t(ex.titleKey)}</p>
                           </motion.button>
-                        );
-                      })}
+                        ))}
+                      </div>
                     </div>
-                  </motion.div>
+                  )}
 
-                  {/* To Do's */}
-                  <motion.div
-                    className="mb-6"
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.2 }}
-                  >
-                    <h2 className="font-semibold text-[#020817] mb-4" style={{ fontSize: '18px' }}>
-                      To Do's
-                    </h2>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                      {detail.todos.map((todo, i) => {
-                        const TodoIcon = todo.icon;
-                        const colors = [
-                          { bg: '#FEF2F2', border: '#FECACA', icon: '#EF4444' },
-                          { bg: '#F5F3FF', border: '#DDD6FE', icon: '#8B5CF6' },
-                          { bg: '#F0FDFA', border: '#99F6E4', icon: '#14B8A6' },
-                          { bg: '#FFF7ED', border: '#FED7AA', icon: '#F97316' }
-                        ];
-                        const color = colors[i % colors.length];
-                        return (
+                  {detail.todos.length > 0 && (
+                    <div className="space-y-4">
+                      <h2 className="text-xl font-bold text-[#020817]">{t("hub.todos")}</h2>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        {detail.todos.map((todo, i) => (
                           <motion.button
-                            key={todo.title}
-                            initial={{ opacity: 0, y: 10 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ delay: 0.2 + i * 0.05 }}
-                            whileHover={{ y: -2 }}
-                            whileTap={{ scale: 0.98 }}
-                            onClick={() => todo.url && (todo.url.startsWith('http') ? window.location.href = todo.url : navigate(todo.url, { replace: true }))}
-                            className="border-2 rounded-2xl p-4 flex items-center gap-3 hover:shadow-md transition-all group"
-                            style={{
-                              backgroundColor: color.bg,
-                              borderColor: color.border
-                            }}
+                            key={i}
+                            whileHover={{ x: 4 }}
+                            onClick={() => todo.url?.startsWith('http') ? (window.location.href = todo.url) : navigate(todo.url!, { replace: true })}
+                            className="p-4 bg-white border border-slate-100 rounded-2xl flex items-center gap-4 hover:border-primary/20 transition-all"
                           >
-                            <div className="w-10 h-10 rounded-xl flex items-center justify-center" style={{ backgroundColor: color.icon }}>
-                              <TodoIcon size={18} className="text-white" strokeWidth={2} />
+                            <div className="w-10 h-10 rounded-xl bg-slate-50 text-slate-600 flex items-center justify-center">
+                              <todo.icon size={20} />
                             </div>
-                            <span className="text-sm font-medium text-[#020817] flex-1 text-left">
-                              {todo.title}
-                            </span>
-                            <ArrowRight size={16} className="text-[#64748B] group-hover:translate-x-1 transition-transform" />
+                            <span className="font-semibold text-slate-700">{t(todo.titleKey)}</span>
                           </motion.button>
-                        );
-                      })}
+                        ))}
+                      </div>
                     </div>
-                  </motion.div>
-
-                  {/* Resources */}
-                  <motion.div
-                    className="mb-6"
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.25 }}
-                  >
-                    <h2 className="font-semibold text-[#020817] mb-4" style={{ fontSize: '18px' }}>
-                      Resources
-                    </h2>
-                    <div className="space-y-3">
-                      {detail.resources.map((res, i) => {
-                        const ResIcon = res.icon;
-                        const colors = [
-                          { accent: '#F59E0B', bg: '#FFFBEB', bar: '#FDE68A', iconBg: '#FEF3C7' },
-                          { accent: '#3B82F6', bg: '#EFF6FF', bar: '#BFDBFE', iconBg: '#DBEAFE' },
-                          { accent: '#A855F7', bg: '#FAF5FF', bar: '#E9D5FF', iconBg: '#F3E8FF' },
-                          { accent: '#10B981', bg: '#F0FDF4', bar: '#A7F3D0', iconBg: '#D1FAE5' }
-                        ];
-                        const color = colors[i % colors.length];
-                        return (
-                          <motion.button
-                            key={res.title}
-                            initial={{ opacity: 0, x: -30 }}
-                            animate={{ opacity: 1, x: 0 }}
-                            transition={{ delay: 0.25 + i * 0.06, type: "spring", damping: 20 }}
-                            whileHover={{ x: 8, scale: 1.01 }}
-                            whileTap={{ scale: 0.99 }}
-                            onClick={() => res.url && (res.url.startsWith('http') ? window.location.href = res.url : navigate(res.url, { replace: true }))}
-                            className="w-full rounded-2xl p-4 flex items-center gap-4 transition-all group relative overflow-hidden"
-                            style={{ backgroundColor: color.bg }}
-                          >
-                            {/* Left accent bar */}
-                            <div
-                              className="absolute left-0 top-0 bottom-0 w-1 group-hover:w-1.5 transition-all"
-                              style={{ backgroundColor: color.accent }}
-                            ></div>
-
-                            {/* Icon container */}
-                            <div
-                              className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform relative z-10"
-                              style={{ backgroundColor: color.iconBg }}
-                            >
-                              <ResIcon size={22} strokeWidth={2} style={{ color: color.accent }} />
-                            </div>
-
-                            {/* Content */}
-                            <div className="flex-1 text-left">
-                              <h3 className="text-sm font-semibold text-[#020817] mb-0.5 leading-tight">
-                                {res.title}
-                              </h3>
-                              <div className="flex items-center gap-2">
-                                <div
-                                  className="h-1 w-12 rounded-full group-hover:w-16 transition-all"
-                                  style={{ backgroundColor: color.bar }}
-                                ></div>
-                                <span className="text-xs text-[#64748B] opacity-0 group-hover:opacity-100 transition-opacity">
-                                  View resource
-                                </span>
-                              </div>
-                            </div>
-
-                            {/* Arrow */}
-                            <div
-                              className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:shadow-md transition-all"
-                              style={{ backgroundColor: color.iconBg }}
-                            >
-                              <ArrowRight
-                                size={16}
-                                className="group-hover:translate-x-1 transition-transform"
-                                strokeWidth={2.5}
-                                style={{ color: color.accent }}
-                              />
-                            </div>
-                          </motion.button>
-                        );
-                      })}
-                    </div>
-                  </motion.div>
+                  )}
                 </motion.div>
               );
             })() : (
               <motion.div
-                key="main-list"
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -20 }}
-                transition={{ duration: 0.3 }}
+                key="main-hub"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                className="space-y-10"
               >
-          {/* Header */}
-          <motion.div
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="mb-6"
-          >
-            <div className="flex items-center gap-3 mb-2">
-              <button
-                onClick={(e) => {
-                  e.preventDefault();
-                  e.stopPropagation();
-                  handlePlatformExit();
-                }}
-                className="flex items-center justify-center text-[#64748B] hover:text-[#043570] transition-colors"
-              >
-                <ChevronLeft size={20} />
-              </button>
-              <div className="w-10 h-10 bg-[#F1F5F9] rounded-md flex items-center justify-center flex-shrink-0">
-                <MessageCircle size={20} className="text-[#1E293B]" strokeWidth={2} />
-              </div>
-              <div>
-                <h1 className="text-2xl text-[#0f172b] font-medium">Self-Care Resources</h1>
-                <p className="text-sm text-[#62748e] font-normal">
-                  Explore tools and guidance for your mental wellness journey
-                </p>
-              </div>
-            </div>
-          </motion.div>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-3">
+                    <button onClick={handlePlatformExit} className="p-2 -ml-2 text-slate-400 hover:text-slate-600">
+                      <ChevronLeft size={24} />
+                    </button>
+                    <div className="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center">
+                      <Sparkles size={20} className="text-primary" />
+                    </div>
+                    <h1 className="text-3xl font-black text-slate-900">{t("hub.self_care_resources")}</h1>
+                  </div>
+                  <p className="text-slate-500 font-medium ml-12">{t("hub.explore_tools")}</p>
+                </div>
 
-          {/* Tools */}
-          <div className="mb-8">
-            <h2 className="text-lg font-semibold text-[#0f172b] mb-4">Tools</h2>
+                <div className="relative group">
+                  <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-primary transition-colors" size={20} />
+                  <input
+                    type="text"
+                    placeholder={t("hub.search_placeholder")}
+                    className="w-full pl-12 pr-4 py-4 bg-white border border-slate-100 rounded-2xl shadow-sm focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all font-medium"
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                  />
+                </div>
 
-            <motion.div
-              className="grid grid-cols-2 md:grid-cols-6 gap-4"
-              variants={container}
-              initial="hidden"
-              animate="show"
-            >
-              <AnimatePresence mode="popLayout">
-                {toolCards.map((tool) => {
-                  const IconComponent = tool.icon;
-                  return (
-                    <motion.button
-                      key={tool.id}
-                      variants={item}
-                      layout
-                      whileHover={{ y: -2 }}
-                      whileTap={{ scale: 0.98 }}
-                      onClick={() => {
-                        if (tool.id === 'mindful-space') {
-                          if (window.parent !== window) {
-                            window.parent.postMessage({ action: 'mindful' }, 'https://web.mantracare.com');
-                          } else {
-                            window.location.href = 'https://web.mantracare.com';
-                          }
-                        } else if (tool.url) {
-                          tool.url.startsWith('http') ? window.location.href = tool.url : navigate(tool.url);
-                        }
-                      }}
-                      className="rounded-2xl p-5 shadow-sm flex flex-col items-start justify-between h-28"
-                      style={{ background: tool.bgColor }}
-                    >
-                      <IconComponent size={32} className="text-white mb-auto" strokeWidth={2} />
-                      <h3 className="text-white font-semibold text-xs text-left leading-tight">{tool.label}</h3>
-                    </motion.button>
-                  );
-                })}
-              </AnimatePresence>
-            </motion.div>
-          </div>
-
-          {/* Wellness Guides */}
-          <div className="mb-8">
-            <h2 className="text-lg font-semibold text-[#0f172b] mb-4">Wellness Guides</h2>
-
-            <motion.div
-              className="grid grid-cols-2 md:grid-cols-4 gap-4"
-              variants={container}
-              initial="hidden"
-              animate="show"
-            >
-              <AnimatePresence mode="popLayout">
-                {topicCards.map((topic) => {
-                  const IconComponent = topic.icon;
-                  return (
-                    <motion.button
-                      key={topic.id}
-                      variants={item}
-                      layout
-                      whileHover={{ y: -2 }}
-                      whileTap={{ scale: 0.98 }}
-                      onClick={() => {
-                        if (topic.id === 'ocd') {
-                          if (window.parent !== window) {
-                            window.parent.postMessage({ action: 'ocd' }, 'https://web.mantracare.com');
-                          } else {
-                            window.location.href = 'https://web.mantracare.com';
-                          }
-                        } else {
-                          setSelectedTopic(topic.id);
-                        }
-                      }}
-                      className="bg-white border border-[#E2E8F0] rounded-2xl p-6 hover:shadow-md transition-all text-center"
-                    >
-                      <div 
-                        className="w-16 h-16 rounded-2xl flex items-center justify-center mb-4 mx-auto"
-                        style={{ backgroundColor: topic.bgColor }}
+                <div className="space-y-6">
+                  <h2 className="text-xl font-bold text-slate-900">{t("hub.tools")}</h2>
+                  <motion.div 
+                    variants={container}
+                    initial="hidden"
+                    animate="show"
+                    className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4"
+                  >
+                    {toolCards.map((tool) => (
+                      <motion.button
+                        key={tool.id}
+                        variants={item}
+                        whileHover={{ y: -4, scale: 1.02 }}
+                        onClick={() => tool.url?.startsWith('http') ? (window.location.href = tool.url) : navigate(tool.url!, { replace: true })}
+                        className="p-5 rounded-[2rem] text-white flex flex-col justify-between h-32 relative overflow-hidden group shadow-lg"
+                        style={{ background: tool.bgColor }}
                       >
-                        <IconComponent size={28} style={{ color: topic.iconColor }} strokeWidth={2} />
-                      </div>
-                      <h3 className="text-[#1E293B] font-medium text-base">{topic.label}</h3>
-                    </motion.button>
-                  );
-                })}
-              </AnimatePresence>
-            </motion.div>
-          </div>
+                        <tool.icon size={28} className="relative z-10" />
+                        <span className="text-xs font-black uppercase tracking-wider relative z-10">{t(tool.labelKey)}</span>
+                        <div className="absolute -right-4 -bottom-4 opacity-10 group-hover:scale-125 transition-transform">
+                          <tool.icon size={80} />
+                        </div>
+                      </motion.button>
+                    ))}
+                  </motion.div>
+                </div>
+
+                <div className="space-y-6">
+                  <h2 className="text-xl font-bold text-slate-900">{t("hub.topics")}</h2>
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    {filteredTopics.map((topic) => (
+                      <motion.button
+                        key={topic.id}
+                        whileHover={{ y: -4, shadow: "0 10px 25px -5px rgba(0,0,0,0.1)" }}
+                        onClick={() => topic.url ? (window.location.href = topic.url) : setSelectedTopic(topic.id)}
+                        className="p-6 bg-white border border-slate-100 rounded-3xl flex flex-col items-center gap-4 transition-all"
+                      >
+                        <div className="w-16 h-16 rounded-2xl flex items-center justify-center transition-transform group-hover:scale-110" style={{ backgroundColor: topic.bgColor }}>
+                          <topic.icon size={28} style={{ color: topic.iconColor }} />
+                        </div>
+                        <span className="font-bold text-slate-700 text-sm">{t(topic.labelKey)}</span>
+                      </motion.button>
+                    ))}
+                  </div>
+                </div>
               </motion.div>
             )}
           </AnimatePresence>

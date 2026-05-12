@@ -47,5 +47,18 @@
   "support_step1": "Appelle ou envoie un SMS à un ami",
   "support_step2": "Partagez ce qui vous inquiète",
   "support_step3": "Demandez un point de vue",
-  "support_step4": "Envisagez de parler à un conseiller."
+  "support_step4": "Envisagez de parler à un conseiller.",
+  "common": {
+    "get_started": "Commencez",
+    "start_over": "Recommencer à zéro",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bravo !",
+    "completion_message": "Vous avez réussi cette activité. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Il est temps de terminer",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Sauvegarder",
+    "loading": "Chargement..."
+  },
+  "app_page_title": "Conseils pour l’anxiété"
 }

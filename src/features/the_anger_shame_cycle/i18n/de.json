@@ -68,5 +68,17 @@
   "complete": {
     "title": "Zyklus unterbrochen",
     "message": "Du hast das Bewusstsein gewonnen, den Zusammenhang zwischen Wut und Scham zu erkennen. Das ist die Grundlage für dauerhafte emotionale Freiheit."
+  },
+  "common": {
+    "get_started": "Leg los",
+    "start_over": "Neu anfangen",
+    "finish_exit": "Ziel und Ausgang",
+    "well_done": "Gut gemacht!",
+    "completion_message": "Du hast diese Aktivität erfolgreich abgeschlossen. Nimm dir einen Moment Zeit, um deinen Fortschritt zu würdigen.",
+    "time_to_complete": "Zeit zum Abschluss",
+    "back": "Zurück",
+    "next": "Als Nächstes",
+    "save": "Speichern",
+    "loading": "Lädt..."
   }
 }

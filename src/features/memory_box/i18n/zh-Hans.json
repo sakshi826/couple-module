@@ -76,5 +76,17 @@
     "title": "盒子内容",
     "no_memories": "你的盒子是空的。添加你的第一个记忆，开始你的收藏。",
     "search_placeholder": "搜寻记忆......"
+  },
+  "common": {
+    "get_started": "开始",
+    "start_over": "重新开始",
+    "finish_exit": "终点与退场",
+    "well_done": "干得好！",
+    "completion_message": "你已经成功完成了这项活动。花点时间欣赏你的进步。",
+    "time_to_complete": "时间到了完成",
+    "back": "返回",
+    "next": "下一个",
+    "save": "保存",
+    "loading": "加载中......"
   }
 }

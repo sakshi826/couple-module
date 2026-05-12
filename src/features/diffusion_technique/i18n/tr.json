@@ -76,5 +76,28 @@
   "btn_start_exercise": "Egzersize Başla →",
   "btn_back_to_home": "Ana sayfaya geri dön",
   "label_thought": "Düşünce:",
-  "label_reflection": "Refleks:"
+  "label_reflection": "Refleks:",
+  "common": {
+    "get_started": "Başlayın",
+    "start_over": "Yeniden Başla",
+    "finish_exit": "Bitiş ve Çıkış",
+    "well_done": "Aferin!",
+    "completion_message": "Bu etkinliği başarıyla tamamladın. İlerlemenin takdir edilmesini bir an ayır.",
+    "time_to_complete": "Tamamlanma zamanı",
+    "back": "Geri",
+    "next": "Sıradaki",
+    "save": "Kayd et",
+    "loading": "Yükleniyor..."
+  },
+  "title_sky_clouds": "Gökyüzü ve Bulutlar",
+  "title_sell_thought": "Düşünceyi Satın",
+  "title_name_story": "Hikayeye Ad Ver",
+  "title_choose": "Difüzyon Teknikleri",
+  "title_diffusion": "Yayım",
+  "label_back_to_start": "Başlangıçta Geri Dön",
+  "label_back_to_techniques": "Tekniklere Geri Dön",
+  "label_choose_technique": "Teknik Seç",
+  "label_current_thought": "Şu anki düşüncünüz",
+  "label_recurrent_thought": "Tekrar eden düşünce",
+  "label_remember_to_say": "Şunu söylemeyi unutmayın:"
 }

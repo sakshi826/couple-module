@@ -48,5 +48,19 @@
     "sleep": "Gå og legg deg tidlig",
     "yoga": "Prøv yoga",
     "dance": "Dans til en sang"
-  }
+  },
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start på nytt",
+    "finish_exit": "Mål og utgang",
+    "well_done": "Bra jobbet!",
+    "completion_message": "Du har fullført denne aktiviteten med suksess. Ta et øyeblikk til å sette pris på fremgangen din.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Tilbake",
+    "next": "Neste",
+    "save": "Lagre",
+    "loading": "Laster..."
+  },
+  "complete_title": "Bingo-mester!",
+  "complete_message": "Gratulerer! Du har fullført en linje med egenomsorg. Sinn og kropp takker deg."
 }

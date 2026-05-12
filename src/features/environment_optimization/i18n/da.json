@@ -31,5 +31,17 @@
   "not_found_title": "404 Fejl: Side ikke fundet",
   "not_found_text": "Den side, du leder efter, findes ikke.",
   "return_home": "Tilbage til Hjem",
-  "language_selector": "Vælg sprog"
+  "language_selector": "Vælg sprog",
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start forfra",
+    "finish_exit": "Afslutning og exit",
+    "well_done": "Godt gået!",
+    "completion_message": "Du har gennemført denne aktivitet med succes. Tag et øjeblik til at værdsætte dine fremskridt.",
+    "time_to_complete": "Tid til at gennemføre",
+    "back": "Tilbage",
+    "next": "Næste",
+    "save": "Gem",
+    "loading": "Indlæser..."
+  }
 }

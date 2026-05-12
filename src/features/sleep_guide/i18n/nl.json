@@ -17,5 +17,17 @@
     "p2": "Dit heet <1>geconditioneerde opwinding</1> — het verklaart waarom je je de hele dag uitgeput voelt, maar bij bedtijd klaarwakker.",
     "quote": "\"Je hersenen zijn niet kapot. Het heeft simpelweg de verkeerde les geleerd over bedtijd — en het kan opnieuw worden geleerd.\"",
     "button": "Vorige stap"
+  },
+  "common": {
+    "get_started": "Begin",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Goed gedaan!",
+    "completion_message": "Je hebt deze activiteit succesvol voltooid. Neem even de tijd om je vooruitgang te waarderen.",
+    "time_to_complete": "Tijd om af te ronden",
+    "back": "Achteruit",
+    "next": "Volgende",
+    "save": "Sla op",
+    "loading": "Laden..."
   }
 }

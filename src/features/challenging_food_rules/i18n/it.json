@@ -52,5 +52,17 @@
   "complete_message": "La consapevolezza è il primo passo verso la libertà. Hai fatto un passo coraggioso nell'identificare e riflettere su una regola alimentare. Portate con voi questa dolce intesa oggi.",
   "auth_error": "Sessione di autenticazione mancante o DB non configurato",
   "save_success": "Riflesso conservato",
-  "save_error": "Non è riuscito a preservare la riflessione"
+  "save_error": "Non è riuscito a preservare la riflessione",
+  "common": {
+    "get_started": "Inizia",
+    "start_over": "Ricomincia",
+    "finish_exit": "Arrivo e uscita",
+    "well_done": "Ben fatto!",
+    "completion_message": "Hai completato con successo questa attività. Prenditi un momento per apprezzare i tuoi progressi.",
+    "time_to_complete": "È ora di completare",
+    "back": "Indietro",
+    "next": "Prossimo",
+    "save": "Salva",
+    "loading": "Caricamento..."
+  }
 }

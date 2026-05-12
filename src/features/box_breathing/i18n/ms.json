@@ -17,5 +17,20 @@
   "back": "Kembali",
   "not_found_404": "404",
   "page_not_found": "Ups! Halaman tidak dijumpai",
-  "return_home": "Kembali ke Rumah"
+  "return_home": "Kembali ke Rumah",
+  "common": {
+    "get_started": "Bermula",
+    "start_over": "Mulakan Semula",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Syabas!",
+    "completion_message": "Anda telah berjaya menyelesaikan aktiviti ini. Luangkan sedikit masa untuk menghargai kemajuan anda.",
+    "time_to_complete": "Masa untuk melengkapkan",
+    "back": "Kembali",
+    "next": "Seterusnya",
+    "save": "Simpan",
+    "loading": "Memuatkan..."
+  },
+  "app_title": "Pernafasan Kotak",
+  "app_complete_title": "Kerja yang hebat!",
+  "app_complete_message": "Anda telah melengkapkan sesi Pernafasan Kotak. Anda harus berasa lebih seimbang dan tenang."
 }

@@ -18,5 +18,17 @@
     "desc": "La forma en que tus cuidadores respondieron a tus necesidades influyó en silencio en cómo te relacionas con los demás como adulto. Estas son respuestas aprendidas — y pueden desaprenderse.",
     "quote": "\"Tu patrón tuvo sentido una vez. La pregunta es: ¿te sigue sirviendo ahora?\"",
     "button": "Reflexión de acabado"
+  },
+  "common": {
+    "get_started": "Empieza",
+    "start_over": "Empezar de nuevo",
+    "finish_exit": "Llegada y salida",
+    "well_done": "¡Bien hecho!",
+    "completion_message": "Has completado esta actividad con éxito. Tómate un momento para apreciar tu progreso.",
+    "time_to_complete": "Hora de completar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "save": "Salvar",
+    "loading": "Cargando..."
   }
 }

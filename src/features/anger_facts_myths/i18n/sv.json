@@ -54,5 +54,17 @@
       "realFact": "Andra kan trigga din ilska, men hur du reagerar är ditt ansvar – och din makt. Att ta ansvar för dina reaktioner betyder inte att den andra personen hade rätt. Det betyder att du väljer hur du ska dyka upp. Det är egenmakt, inte skuld.",
       "example": "Någon skär av dig i trafiken. Du känner dig arg – det är normalt. Men du väljer om du vill rasa eller ta ett andetag. Valet är ditt."
     }
-  ]
+  ],
+  "common": {
+    "get_started": "Kom igång",
+    "start_over": "Börja om",
+    "finish_exit": "Mål och utgång",
+    "well_done": "Bra jobbat!",
+    "completion_message": "Du har framgångsrikt slutfört denna aktivitet. Ta en stund och uppskatta dina framsteg.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "save": "Spara",
+    "loading": "Laddar..."
+  }
 }

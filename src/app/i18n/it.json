@@ -1,0 +1,223 @@
+{
+  "common": {
+    "get_started": "Inizia",
+    "start_over": "Ricomincia",
+    "finish_exit": "Arrivo e uscita",
+    "well_done": "Ben fatto!",
+    "completion_message": "Hai completato con successo questa attività. Prenditi un momento per apprezzare i tuoi progressi.",
+    "time_to_complete": "È ora di completare",
+    "back": "Indietro",
+    "next": "Prossimo",
+    "save": "Salva",
+    "loading": "Caricamento...",
+    "today": "Oggi",
+    "yesterday": "Ieri",
+    "filters": "Filtri",
+    "see_all": "Vedi tutto",
+    "meditation": "Meditazione",
+    "guided": "Guidato",
+    "sleep": "Dormi",
+    "mindfulness": "Consapevolezza",
+    "restore": "Restauro",
+    "curated": "Curato da Mind",
+    "restorative": "Restaurativo",
+    "peace": "Pace",
+    "breath": "Respiro",
+    "nature": "Natura",
+    "relax": "Rilassati",
+    "time": {
+      "3min": "3 min",
+      "5min": "5 min",
+      "8min": "8 min",
+      "10min": "10 min",
+      "12min": "12 min",
+      "15min": "15 min",
+      "20min": "20 min",
+      "30min": "30 min",
+      "45min": "45 min",
+      "60min": "60 min"
+    }
+  },
+  "hub": {
+    "back_to_topics": "Torniamo agli argomenti",
+    "guided_series": "Serie guidate",
+    "start_guided_series": "Inizia una serie guidata",
+    "exercises": "Esercizi",
+    "todos": "Cose da fare",
+    "resources": "Risorse",
+    "view_resource": "Visualizza risorsa",
+    "search_placeholder": "Cerca argomenti o attività...",
+    "how_are_you": "Come ti senti oggi?",
+    "self_care_resources": "Risorse per l'autocura",
+    "explore_tools": "Esplora strumenti e indicazioni per il tuo percorso di benessere mentale",
+    "topics": "Argomenti",
+    "tools": "Strumenti",
+    "articles": "Articoli",
+    "tips": "Consigli",
+    "stories": "Racconti",
+    "myths": "Miti"
+  },
+  "topics": {
+    "depression": {
+      "label": "Depressione",
+      "desc": "Esercizi e risorse basati su evidenze per aiutarti a gestire i sintomi depressivi e costruire resilienza."
+    },
+    "anxiety": {
+      "label": "Ansia",
+      "desc": "Tecniche e strategie calmanti per gestire l'ansia, ridurre le preoccupazioni e ritrovare un senso di controllo."
+    },
+    "stress": {
+      "label": "Stress",
+      "desc": "Strumenti pratici ed esercizi per gestire lo stress, sviluppare strategie di coping e ristabilire l'equilibrio nella tua vita."
+    },
+    "adolescent": {
+      "label": "Adolescente",
+      "desc": "Guida e attività pensate per adolescenti che affrontano crescita, identità ed emotività."
+    },
+    "relationship": {
+      "label": "Relazione",
+      "desc": "Strumenti e intuizioni per rafforzare le connessioni, migliorare la comunicazione e costruire relazioni più sane."
+    },
+    "workplace": {
+      "label": "Luogo di lavoro",
+      "desc": "Strategie per gestire lo stress sul posto di lavoro, migliorare la concentrazione e mantenere l'equilibrio tra lavoro e vita privata."
+    },
+    "sleep": {
+      "label": "Dormi",
+      "desc": "Tecniche e dispositivi per migliorare la qualità del sonno, sviluppare abitudini sane prima della nanna e svegliarsi rinvigorito."
+    },
+    "parenting": {
+      "label": "Genitorialità",
+      "desc": "Risorse per supportare una genitorialità consapevole, ridurre il burnout e favorire il benessere della tua famiglia."
+    },
+    "anger": {
+      "label": "Rabbia",
+      "desc": "Tecniche per comprendere, gestire e canalizzare la rabbia in modi sani e costruttivi."
+    },
+    "grief": {
+      "label": "Lutto",
+      "desc": "Strumenti e esercizi compassionevoli per aiutarti a elaborare la perdita e trovare guarigione al tuo ritmo."
+    },
+    "ptsd": {
+      "label": "PTSD",
+      "desc": "Tecniche di radicamento e stabilizzazione per aiutare a gestire le risposte al trauma e costruire sicurezza."
+    },
+    "acceptance": {
+      "label": "Accettazione",
+      "desc": "Esercizi per coltivare l'accettazione, lasciar andare la resistenza e abbracciare la vita così com'è."
+    },
+    "postpartum": {
+      "label": "Post-partum",
+      "desc": "Risorse di supporto per le neomamme che gestiscono le sfide post-parto e i cambiamenti emotivi."
+    },
+    "sexuality": {
+      "label": "Sessualità",
+      "desc": "Risorse sicure e di supporto per esplorare l'identità, costruire l'accettazione di sé e trovare una comunità."
+    },
+    "eating-disorder": {
+      "label": "Disturbo alimentare",
+      "desc": "Esercizi di supporto e risorse per costruire un rapporto più sano con il cibo e l'immagine corporea."
+    },
+    "ocd": {
+      "label": "DOC",
+      "desc": "Tecniche basate su evidenze per gestire pensieri ossessivi e comportamenti compulsivi."
+    }
+  },
+  "tools": {
+    "box-breathing": "Respirazione a scatola",
+    "gratitude-tracker": "Tracciatore della Gratitudine",
+    "deep-breathing": "Respirazione profonda",
+    "affirmations": "Affermazioni",
+    "mindful-space": "Spazio consapevole",
+    "letter-to-self": "Una lettera a me stesso",
+    "sleep-tracker": "Sleep Tracker"
+  },
+  "moods": {
+    "great": "Ottimo",
+    "good": "Bene",
+    "okay": "Ok",
+    "down": "Giù",
+    "sad": "Triste"
+  },
+  "nav": {
+    "home": "Casa",
+    "care_team": "Team di assistenza",
+    "appointments": "Incarichi",
+    "tasks": "Compiti",
+    "insights": "Intuizioni",
+    "billing": "Pubblicazione",
+    "profile": "Profilo",
+    "invite_friend": "Ospite all'amico",
+    "feedback": "Condividi Feedback",
+    "support": "Supporto",
+    "sign_out": "Disconnetti"
+  },
+  "journal": {
+    "title": "Rivista",
+    "subtitle": "Documenta i tuoi pensieri, sentimenti ed esperienze quotidiane",
+    "new_entry": "Nuova Entrata",
+    "search_placeholder": "Cerca nelle tue voci di diario...",
+    "filter_by_mood": "Filtra per umore:",
+    "all_moods": "Tutti gli stati d'animo",
+    "no_entries": "Nessuna voce trovata",
+    "adjust_search": "Prova a modificare la ricerca o i filtri",
+    "start_journey": "Inizia oggi il tuo percorso di scrittura del diario",
+    "write_first": "Scrivi la tua prima voce",
+    "mood": {
+      "great": "Ottimo",
+      "good": "Bene",
+      "okay": "Ok",
+      "sad": "Triste",
+      "anxious": "Ansioso"
+    },
+    "sample": {
+      "1": {
+        "title": "Il tuo primo pensiero",
+        "content": "Inizia scrivendo ciò che hai in mente. Tenere un diario è uno strumento potente per l'auto-riflessione e la chiarezza mentale."
+      }
+    }
+  },
+  "mindfulness": {
+    "title": "Cura di sé con consapevolezza",
+    "subtitle": "Strumenti esperti di mindfulness e sessioni guidate per il tuo percorso di benessere",
+    "featured_mantra": "Protagonista su Mantra",
+    "browse_category": "Sfoglia per categoria",
+    "new_noteworthy": "Nuovi & Notevoli",
+    "browse_goal": "Sfoglia per obiettivo",
+    "browse_time": "Sfoglia per orario",
+    "daily_program": "Trova un programma quotidiano",
+    "daily_program_desc": "Tieni presente le tue intenzioni per ogni programma",
+    "featured_collections": "Raccolte in evidenza",
+    "featured": {
+      "anxiety": "Ansia calmante",
+      "relaxation": "Abilità per il rilassamento profondo",
+      "peace": "Viaggio della pace interiore",
+      "mountain": "Silenzio della Montagna"
+    },
+    "goal": {
+      "beginners": "Per principianti",
+      "beginners_desc": "Inizia il tuo percorso di mindfulness",
+      "grief": "Affrontare il lutto",
+      "grief_desc": "Trova pace e guarigione"
+    },
+    "collection": {
+      "students": "Per gli studenti",
+      "students_desc": "Concentrati e studia meglio",
+      "grief": "Affrontare il lutto",
+      "grief_desc": "Trova pace e guarigione",
+      "sleep": "Dormire meglio",
+      "sleep_desc": "Riposa e ricaricati profondamente",
+      "stress": "Alleviamento dallo stress",
+      "stress_desc": "Calma mente e corpo"
+    },
+    "category": {
+      "meditation": "Meditazione",
+      "concentration": "Concentrazione",
+      "music": "Musica",
+      "creatures": "Creature",
+      "soundscapes": "Paesaggi sonori",
+      "students": "Studenti",
+      "affirmations": "Affermazioni"
+    }
+  }
+}

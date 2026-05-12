@@ -18,5 +18,17 @@
     "desc": "Bakıcınızın ihtiyaçlarınıza nasıl yanıt verdiği, yetişkin olarak başkalarıyla ilişkinizi sessizce şekillendirdi. Bunlar öğrenilmiş tepkiler — ve öğrenilebilecek bir şey de yok edilebilir.",
     "quote": "\"Senin desenin desenin bir zamanlar mantıklıydı. Soru şu — hâlâ sana hizmet ediyor mu?\"",
     "button": "Finish Reflection"
+  },
+  "common": {
+    "get_started": "Başlayın",
+    "start_over": "Yeniden Başla",
+    "finish_exit": "Bitiş ve Çıkış",
+    "well_done": "Aferin!",
+    "completion_message": "Bu etkinliği başarıyla tamamladın. İlerlemenin takdir edilmesini bir an ayır.",
+    "time_to_complete": "Tamamlanma zamanı",
+    "back": "Geri",
+    "next": "Sıradaki",
+    "save": "Kayd et",
+    "loading": "Yükleniyor..."
   }
 }

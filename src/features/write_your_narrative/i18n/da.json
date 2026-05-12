@@ -68,5 +68,17 @@
     "save_success": "Fortælling bevaret",
     "save_error": "Undladt at bevare fortællingen",
     "auth_error": "Auth-session mangler eller database ikke konfigureret"
+  },
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start forfra",
+    "finish_exit": "Afslutning og exit",
+    "well_done": "Godt gået!",
+    "completion_message": "Du har gennemført denne aktivitet med succes. Tag et øjeblik til at værdsætte dine fremskridt.",
+    "time_to_complete": "Tid til at gennemføre",
+    "back": "Tilbage",
+    "next": "Næste",
+    "save": "Gem",
+    "loading": "Indlæser..."
   }
 }

@@ -76,5 +76,28 @@
   "btn_start_exercise": "व्यायाम शुरू करें →",
   "btn_back_to_home": "घर वापिस जा रहा हूँ",
   "label_thought": "सोचा:",
-  "label_reflection": "प्रतिबिंब:"
+  "label_reflection": "प्रतिबिंब:",
+  "common": {
+    "get_started": "शुरू हो जाओ",
+    "start_over": "शुरू करो",
+    "finish_exit": "समाप्त करें और निकास करें",
+    "well_done": "बहुत बढ़िया!",
+    "completion_message": "आपने इस गतिविधि को सफलतापूर्वक पूरा कर लिया है. अपनी प्रगति की सराहना करने के लिए कुछ समय निकालें।",
+    "time_to_complete": "पूरा करने का समय",
+    "back": "शर्त लगाना",
+    "next": "अगला",
+    "save": "सहेजें",
+    "loading": "लोड हो रहा है..."
+  },
+  "title_sky_clouds": "आकाश और बादल",
+  "title_sell_thought": "विचार बेचें",
+  "title_name_story": "कहानी को नाम दें",
+  "title_choose": "प्रसार तकनीक",
+  "title_diffusion": "प्रसार",
+  "label_back_to_start": "शुरू करने के लिए वापस जाएं",
+  "label_back_to_techniques": "तकनीकों पर वापस जाएं",
+  "label_choose_technique": "तकनीक चुनें",
+  "label_current_thought": "आपका वर्तमान विचार",
+  "label_recurrent_thought": "बार-बार होने वाला विचार",
+  "label_remember_to_say": "कहना याद रखें:"
 }

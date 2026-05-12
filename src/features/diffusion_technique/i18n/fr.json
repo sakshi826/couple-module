@@ -76,5 +76,28 @@
   "btn_start_exercise": "Commencer l'exercice →",
   "btn_back_to_home": "Retour à l'accueil",
   "label_thought": "Pensée:",
-  "label_reflection": "Réflexion:"
+  "label_reflection": "Réflexion:",
+  "common": {
+    "get_started": "Commencez",
+    "start_over": "Recommencer à zéro",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bravo !",
+    "completion_message": "Vous avez réussi cette activité. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Il est temps de terminer",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Sauvegarder",
+    "loading": "Chargement..."
+  },
+  "title_sky_clouds": "Ciel et Nuages",
+  "title_sell_thought": "Vends l’idée",
+  "title_name_story": "Nommer l’histoire",
+  "title_choose": "Diffusion Techniques",
+  "title_diffusion": "Diffusion",
+  "label_back_to_start": "Retour au début",
+  "label_back_to_techniques": "Retour aux techniques",
+  "label_choose_technique": "Choisir la technique",
+  "label_current_thought": "Ta réflexion actuelle",
+  "label_recurrent_thought": "La pensée récurrente",
+  "label_remember_to_say": "N’oubliez pas de dire :"
 }

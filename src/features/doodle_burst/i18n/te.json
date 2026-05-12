@@ -30,5 +30,17 @@
   "tool_undo": "రద్దు చేయండి",
   "tool_clear": "క్లియర్ చేయండి",
   "share_doodle": "డూడుల్ పంచుకోండి",
-  "share_text": "థెరపీ మంత్రలో ఈ డూడుల్ బర్స్ట్ కార్యాచరణను నేను ఇష్టపడ్డాను, మీరు కూడా ప్రయత్నించవచ్చు మీ కోసం అన్వేషించడానికి అనువర్తనాన్ని డౌన్ లోడ్ చేసుకోండి\n\nఆండ్రాయిడ్: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\nఐఓఎస్: https://apps.apple.com/us/app/therapymantra/id1607643888"
+  "share_text": "థెరపీ మంత్రలో ఈ డూడుల్ బర్స్ట్ కార్యాచరణను నేను ఇష్టపడ్డాను, మీరు కూడా ప్రయత్నించవచ్చు మీ కోసం అన్వేషించడానికి అనువర్తనాన్ని డౌన్ లోడ్ చేసుకోండి\n\nఆండ్రాయిడ్: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\nఐఓఎస్: https://apps.apple.com/us/app/therapymantra/id1607643888",
+  "common": {
+    "get_started": "ప్రారంభించండి",
+    "start_over": "మళ్లీ ప్రారంభించండి",
+    "finish_exit": "ఫినిష్ & ఎగ్జిట్",
+    "well_done": "బాగుంది!",
+    "completion_message": "మీరు ఈ యాక్టివిటీని విజయవంతంగా పూర్తి చేశారు. మీ పురోగతిని అభినందించడానికి ఒక్క క్షణం తీసుకోండి.",
+    "time_to_complete": "పూర్తి చేయడానికి సమయం",
+    "back": "వెనక్కి",
+    "next": "తరువాత",
+    "save": "సేవ్ చేయి",
+    "loading": "లోడ్ అవుతోంది..."
+  }
 }

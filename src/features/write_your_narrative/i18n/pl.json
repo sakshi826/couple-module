@@ -68,5 +68,17 @@
     "save_success": "Zachowana narracja",
     "save_error": "Nie udało się zachować narracji",
     "auth_error": "Brakuje sesji uwierzytelniania lub baza danych nie skonfigurowana"
+  },
+  "common": {
+    "get_started": "Zacznij",
+    "start_over": "Start From",
+    "finish_exit": "Koniec i wyjście",
+    "well_done": "Brawo!",
+    "completion_message": "Udało ci się ukończyć tę aktywność. Poświęć chwilę, by docenić swoje postępy.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Z powrotem",
+    "next": "Następny",
+    "save": "Zapisz",
+    "loading": "Ładowanie..."
   }
 }

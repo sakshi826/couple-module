@@ -54,5 +54,17 @@
       "realFact": "Les autres peuvent déclencher votre colère, mais la façon dont vous réagissez est votre responsabilité — et votre pouvoir. Prendre la responsabilité de ses réactions ne signifie pas que l’autre personne avait raison. Cela signifie que vous choisissez comment vous présenter. C’est de l’autonomisation, pas de la faute.",
       "example": "Quelqu’un te coupe la route dans la circulation. Tu ressens de la colère — c’est normal. Mais vous choisissez de vous enflammer ou de respirer. Le choix t’appartient."
     }
-  ]
+  ],
+  "common": {
+    "get_started": "Commencez",
+    "start_over": "Recommencer à zéro",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bravo !",
+    "completion_message": "Vous avez réussi cette activité. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Il est temps de terminer",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Sauvegarder",
+    "loading": "Chargement..."
+  }
 }

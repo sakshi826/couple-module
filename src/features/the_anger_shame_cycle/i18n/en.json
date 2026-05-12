@@ -12,10 +12,22 @@
       "tag": "the cycle",
       "title": "The loop explained",
       "nodes": [
-        { "emoji": "🔥", "label": "Anger surfaces" },
-        { "emoji": "😔", "label": "Shame: \"I'm bad\"" },
-        { "emoji": "🤐", "label": "Shame gets buried" },
-        { "emoji": "🔥", "label": "Anger erupts again" }
+        {
+          "emoji": "🔥",
+          "label": "Anger surfaces"
+        },
+        {
+          "emoji": "😔",
+          "label": "Shame: \"I'm bad\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "Shame gets buried"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Anger erupts again"
+        }
       ],
       "button": "I see it"
     },
@@ -36,9 +48,18 @@
       "tag": "Interruption",
       "title": "Interrupt the cycle",
       "steps": [
-        { "title": "Name the source", "desc": "Ask: 'What am I actually feeling?' Hurt? Scared? Unseen? Naming it weakens it." },
-        { "title": "Compassion pause", "desc": "Hand on chest. Say: 'This is hard. I'm human. I can get through this.'" },
-        { "title": "Repair with grace", "desc": "Make amends if needed — but don't spiral. You're not your worst moment." }
+        {
+          "title": "Name the source",
+          "desc": "Ask: 'What am I actually feeling?' Hurt? Scared? Unseen? Naming it weakens it."
+        },
+        {
+          "title": "Compassion pause",
+          "desc": "Hand on chest. Say: 'This is hard. I'm human. I can get through this.'"
+        },
+        {
+          "title": "Repair with grace",
+          "desc": "Make amends if needed — but don't spiral. You're not your worst moment."
+        }
       ],
       "notice": "Noticing the cycle is already the first step. You're doing the work.",
       "button": "Complete Activity"
@@ -47,5 +68,17 @@
   "complete": {
     "title": "Cycle Interrupted",
     "message": "You've gained the awareness to see the link between anger and shame. This is the foundation for lasting emotional freedom."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading..."
   }
 }

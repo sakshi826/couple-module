@@ -41,5 +41,19 @@
     "p1": "Ponowne połączenie się z tym, co sprawia ci radość — nawet w najmniejszym stopniu — to akt dobroci wobec samego siebie.",
     "p2": "Zasługujesz na chwile lekkości i spokoju. Pielęgnuj dalej to, co sprawia, że twoje serce czuje się pełne. 💛",
     "button": "Powrót do domu"
-  }
+  },
+  "common": {
+    "get_started": "Zacznij",
+    "start_over": "Start From",
+    "finish_exit": "Koniec i wyjście",
+    "well_done": "Brawo!",
+    "completion_message": "Udało ci się ukończyć tę aktywność. Poświęć chwilę, by docenić swoje postępy.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Z powrotem",
+    "next": "Następny",
+    "save": "Zapisz",
+    "loading": "Ładowanie..."
+  },
+  "app_complete_title": "Radość zachowana",
+  "app_complete_message": "Udało ci się przypomnieć sobie i połączyć się ze źródłem radości. Zachowaj to uczucie ze sobą podczas codziennego życia."
 }

@@ -52,5 +52,17 @@
   "complete_message": "Bevissthet er det første steget mot frihet. Du har tatt et modig steg ved å identifisere og reflektere over en matregel. Bær denne milde forståelsen med deg i dag.",
   "auth_error": "Auth-sesjon mangler eller database ikke konfigurert",
   "save_success": "Refleksjon bevart",
-  "save_error": "Klarte ikke å bevare refleksjonen"
+  "save_error": "Klarte ikke å bevare refleksjonen",
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start på nytt",
+    "finish_exit": "Mål og utgang",
+    "well_done": "Bra jobbet!",
+    "completion_message": "Du har fullført denne aktiviteten med suksess. Ta et øyeblikk til å sette pris på fremgangen din.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Tilbake",
+    "next": "Neste",
+    "save": "Lagre",
+    "loading": "Laster..."
+  }
 }

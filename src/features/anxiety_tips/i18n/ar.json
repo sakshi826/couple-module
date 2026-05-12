@@ -47,5 +47,18 @@
   "support_step1": "اتصل بصديق أو أرسل له رسالة نصية",
   "support_step2": "شاركنا ما يقلقك",
   "support_step3": "اطلب وجهة نظر أخرى",
-  "support_step4": "فكّر في التحدث مع مستشار"
+  "support_step4": "فكّر في التحدث مع مستشار",
+  "common": {
+    "get_started": "ابدأ",
+    "start_over": "ابدأ من جديد",
+    "finish_exit": "النهاية والخروج",
+    "well_done": "عمل رائع!",
+    "completion_message": "لقد أنجزت هذا النشاط بنجاح. خذ لحظة لتقدير تقدمك.",
+    "time_to_complete": "حان وقت الإكمال",
+    "back": "العودة",
+    "next": "التالي",
+    "save": "حفظ",
+    "loading": "جار التحميل..."
+  },
+  "app_page_title": "نصائح القلق"
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { CheckCircle2, Home, RotateCcw, Sparkles } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 interface PremiumCompleteProps {
   title?: string;
@@ -13,14 +14,18 @@ interface PremiumCompleteProps {
 }
 
 export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
-  title = "Well Done!",
-  message = "You've successfully completed this activity. Take a moment to appreciate your progress.",
+  title,
+  message,
   onRestart,
   onHome,
   children,
   icon
 }) => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
+
+  const displayTitle = title || t("common.well_done", "Well Done!");
+  const displayMessage = message || t("common.completion_message", "You've successfully completed this activity. Take a moment to appreciate your progress.");
 
   const handleHome = () => {
     if (onHome) {
@@ -82,8 +87,8 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
           transition={{ delay: 0.3 }}
           className="text-center space-y-4"
         >
-          <h2 className="text-4xl font-black text-slate-900 leading-[1.1] tracking-tight">{title}</h2>
-          <p className="text-lg text-slate-500 font-medium leading-relaxed max-w-md mx-auto">{message}</p>
+          <h2 className="text-4xl font-black text-slate-900 leading-[1.1] tracking-tight">{displayTitle}</h2>
+          <p className="text-lg text-slate-500 font-medium leading-relaxed max-w-md mx-auto">{displayMessage}</p>
         </motion.div>
 
         {/* Children slot */}
@@ -113,7 +118,7 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
               className="w-full py-4.5 rounded-2xl bg-white border border-slate-200 text-slate-600 font-bold flex items-center justify-center gap-3 hover:bg-slate-50 hover:text-slate-900 transition-all shadow-sm"
             >
               <RotateCcw size={18} strokeWidth={2.5} />
-              Start Over
+              {t("common.start_over", "Start Over")}
             </motion.button>
           )}
           <motion.button
@@ -126,12 +131,13 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
             className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
           >
             <Home size={20} strokeWidth={2.5} />
-            Finish & Exit
+            {t("common.finish_exit", "Finish & Exit")}
           </motion.button>
         </div>
       </div>
     </div>
   );
 };
+
 
 

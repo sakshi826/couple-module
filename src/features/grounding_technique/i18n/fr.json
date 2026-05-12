@@ -64,5 +64,17 @@
   "Close your eyes if comfortable.": "Fermez les yeux si vous êtes à l'aise.",
   "Scan from head to toe.": "Scannez de la tête aux pieds.",
   "Notice areas of tension or ease.": "Repérez les zones de tension ou de détente.",
-  "Breathe into any tightness.": "Respirez profondément dans les zones de tension."
+  "Breathe into any tightness.": "Respirez profondément dans les zones de tension.",
+  "common": {
+    "get_started": "Commencez",
+    "start_over": "Recommencer à zéro",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bravo !",
+    "completion_message": "Vous avez réussi cette activité. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Il est temps de terminer",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Sauvegarder",
+    "loading": "Chargement..."
+  }
 }

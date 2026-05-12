@@ -23,5 +23,17 @@
   "finish": "اختتام",
   "not_found_title": "404",
   "not_found_text": "اوہ! صفحہ نہیں ملا",
-  "return_home": "گھر کی طرف واپسی"
+  "return_home": "گھر کی طرف واپسی",
+  "common": {
+    "get_started": "شروع کریں",
+    "start_over": "دوبارہ شروع کریں",
+    "finish_exit": "فنش اینڈ ایگزٹ",
+    "well_done": "شاباش!",
+    "completion_message": "آپ نے یہ سرگرمی کامیابی سے مکمل کر لی ہے۔ اپنی پیش رفت کی قدر کرنے کے لیے ایک لمحہ نکالیں۔",
+    "time_to_complete": "مکمل ہونے کا وقت",
+    "back": "واپس",
+    "next": "اگلا",
+    "save": "سیو",
+    "loading": "لوڈ ہو رہا ہے..."
+  }
 }

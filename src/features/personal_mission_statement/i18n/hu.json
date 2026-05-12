@@ -48,5 +48,17 @@
   "history_empty": "Még nem mentettél el semmilyen küldetésnyilatkozatot.",
   "history_empty_hint": "Amikor készen állsz, készíts egyet, és itt jelenik meg.",
   "history_back": "Menj vissza",
-  "history_delete_aria": "Töröld ezt a visszatekintést"
+  "history_delete_aria": "Töröld ezt a visszatekintést",
+  "common": {
+    "get_started": "Kezdj el",
+    "start_over": "Kezdj újrakezdeni",
+    "finish_exit": "Befejezés és kilépés",
+    "well_done": "Szép munka!",
+    "completion_message": "Sikeresen teljesítetted ezt a feladatot. Szánj egy pillanatot, hogy értékeld a fejlődésedet.",
+    "time_to_complete": "Ideje befejezni",
+    "back": "Hátra",
+    "next": "Következő",
+    "save": "Mentés",
+    "loading": "Betöltés..."
+  }
 }

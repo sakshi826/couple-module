@@ -1,0 +1,223 @@
+{
+  "common": {
+    "get_started": "Începe",
+    "start_over": "Începeți de la zero",
+    "finish_exit": "Final și ieșire",
+    "well_done": "Bravo!",
+    "completion_message": "Ai finalizat cu succes această activitate. Ia-ți un moment să apreciezi progresul tău.",
+    "time_to_complete": "Timpul de finalizat",
+    "back": "Înapoi",
+    "next": "Următorul",
+    "save": "Salvează",
+    "loading": "Se încarcă...",
+    "today": "Astăzi",
+    "yesterday": "Ieri",
+    "filters": "Filtre",
+    "see_all": "Vezi totul",
+    "meditation": "Meditația",
+    "guided": "Ghidat",
+    "sleep": "Somn",
+    "mindfulness": "Mindfulness",
+    "restore": "Restaurare",
+    "curated": "Curatoriată de Mind",
+    "restorative": "Restaurativ",
+    "peace": "Pace",
+    "breath": "Respirație",
+    "nature": "Natură",
+    "relax": "Relaxează-te",
+    "time": {
+      "3min": "3 min",
+      "5min": "5 minute",
+      "8min": "8 minute",
+      "10min": "10 minute",
+      "12min": "12 min",
+      "15min": "15 minute",
+      "20min": "20 min",
+      "30min": "30 min",
+      "45min": "45 min",
+      "60min": "60 min"
+    }
+  },
+  "hub": {
+    "back_to_topics": "Înapoi la subiecte",
+    "guided_series": "Seria ghidată",
+    "start_guided_series": "Începe seria ghidată",
+    "exercises": "Exerciții",
+    "todos": "Lucruri de făcut",
+    "resources": "Resurse",
+    "view_resource": "Vizualizare resursă",
+    "search_placeholder": "Caută subiecte sau activități...",
+    "how_are_you": "Cum te simți azi?",
+    "self_care_resources": "Resurse pentru îngrijirea personală",
+    "explore_tools": "Explorează instrumente și îndrumări pentru călătoria ta în sănătatea mintală",
+    "topics": "Subiecte",
+    "tools": "Unelte",
+    "articles": "Articole",
+    "tips": "Sfaturi",
+    "stories": "Povești",
+    "myths": "Mituri"
+  },
+  "topics": {
+    "depression": {
+      "label": "Depresie",
+      "desc": "Exerciții și resurse bazate pe dovezi pentru a te ajuta să gestionezi simptomele depresiei și să îți construiești reziliența."
+    },
+    "anxiety": {
+      "label": "Anxietate",
+      "desc": "Tehnici și strategii de calmare pentru a gestiona anxietatea, a reduce îngrijorarea și a recăpăta un sentiment de control."
+    },
+    "stress": {
+      "label": "Stres",
+      "desc": "Instrumente practice și exerciții pentru a gestiona stresul, a dezvolta abilități de adaptare și a restabili echilibrul în viața ta."
+    },
+    "adolescent": {
+      "label": "Adolescent",
+      "desc": "Ghidare și activități concepute pentru adolescenți care navighează prin creștere, identitate și provocări emoționale."
+    },
+    "relationship": {
+      "label": "Relație",
+      "desc": "Instrumente și perspective pentru a întări conexiunile, a îmbunătăți comunicarea și a construi relații mai sănătoase."
+    },
+    "workplace": {
+      "label": "Locul de muncă",
+      "desc": "Strategii pentru gestionarea stresului la locul de muncă, îmbunătățirea concentrării și menținerea echilibrului între viața profesională și cea personală."
+    },
+    "sleep": {
+      "label": "Somn",
+      "desc": "Tehnici și dispozitive de monitorizare pentru a-ți îmbunătăți calitatea somnului, a-ți construi obiceiuri sănătoase de culcare și a te trezi odihnit."
+    },
+    "parenting": {
+      "label": "Parenting",
+      "desc": "Resurse pentru a susține un parenting conștient, a reduce epuizarea și a susține bunăstarea familiei tale."
+    },
+    "anger": {
+      "label": "Furie",
+      "desc": "Tehnici pentru a înțelege, gestiona și canaliza furia într-un mod sănătos și constructiv."
+    },
+    "grief": {
+      "label": "Doliu",
+      "desc": "Instrumente și exerciții pline de compasiune care să te ajute să procesezi pierderea și să găsești vindecare în ritmul tău."
+    },
+    "ptsd": {
+      "label": "PTSD",
+      "desc": "Tehnici de ancorare și stabilizare pentru a ajuta la gestionarea răspunsurilor la traumă și la construirea siguranței."
+    },
+    "acceptance": {
+      "label": "Acceptare",
+      "desc": "Exerciții pentru a cultiva acceptarea, a renunța la rezistență și a îmbrățișa viața așa cum este."
+    },
+    "postpartum": {
+      "label": "Postpartum",
+      "desc": "Resurse de sprijin pentru mamele noi care gestionează provocările postpartum și schimbările emoționale."
+    },
+    "sexuality": {
+      "label": "Sexualitate",
+      "desc": "Resurse sigure și de sprijin pentru a explora identitatea, a construi acceptarea de sine și a găsi o comunitate."
+    },
+    "eating-disorder": {
+      "label": "Tulburare de alimentație",
+      "desc": "Exerciții și resurse de susținere pentru a construi o relație mai sănătoasă cu mâncarea și imaginea corporală."
+    },
+    "ocd": {
+      "label": "OCD",
+      "desc": "Tehnici bazate pe dovezi pentru gestionarea gândurilor obsesive și a comportamentelor compulsive."
+    }
+  },
+  "tools": {
+    "box-breathing": "Respirația în cutie",
+    "gratitude-tracker": "Urmăritor de recunoștință",
+    "deep-breathing": "Respirație profundă",
+    "affirmations": "Afirmații",
+    "mindful-space": "Spațiul conștient",
+    "letter-to-self": "O scrisoare către sine",
+    "sleep-tracker": "Tracker de somn"
+  },
+  "moods": {
+    "great": "Grozav",
+    "good": "Bine",
+    "okay": "Bine",
+    "down": "Jos",
+    "sad": "Trist"
+  },
+  "nav": {
+    "home": "Acasă",
+    "care_team": "Echipa de îngrijire",
+    "appointments": "Numiri",
+    "tasks": "Sarcini",
+    "insights": "Perspective",
+    "billing": "Facturare",
+    "profile": "Profil",
+    "invite_friend": "Invitat către prieten",
+    "feedback": "Distribuie feedback",
+    "support": "Sprijin",
+    "sign_out": "Deconectare"
+  },
+  "journal": {
+    "title": "Jurnal",
+    "subtitle": "Documentează-ți gândurile, sentimentele și experiențele zilnice",
+    "new_entry": "Noua intrare",
+    "search_placeholder": "Caută în jurnalul tău...",
+    "filter_by_mood": "Filtrează după starea de spirit:",
+    "all_moods": "Toate stările de spirit",
+    "no_entries": "Nu s-au găsit intrări",
+    "adjust_search": "Încearcă să-ți ajustezi căutarea sau filtrele",
+    "start_journey": "Începe astăzi călătoria ta de jurnal",
+    "write_first": "Scrie-ți prima însemnare",
+    "mood": {
+      "great": "Grozav",
+      "good": "Bine",
+      "okay": "Bine",
+      "sad": "Trist",
+      "anxious": "Anxios"
+    },
+    "sample": {
+      "1": {
+        "title": "Primul tău gând",
+        "content": "Începe prin a scrie ce ai pe suflet. Jurnalizarea este un instrument puternic pentru auto-reflecție și claritate mentală."
+      }
+    }
+  },
+  "mindfulness": {
+    "title": "Îngrijirea de sine prin mindfulness",
+    "subtitle": "Instrumente experți de mindfulness și sesiuni ghidate pentru călătoria ta de wellness",
+    "featured_mantra": "Prezentat pe Mantra",
+    "browse_category": "Răsfoiește după categorii",
+    "new_noteworthy": "Noutăți și de remarcat",
+    "browse_goal": "Răsfoiește după obiectiv",
+    "browse_time": "Răsfoiește după timp",
+    "daily_program": "Găsește un program zilnic",
+    "daily_program_desc": "Fii atent la intențiile tale pentru fiecare program",
+    "featured_collections": "Colecții recomandate",
+    "featured": {
+      "anxiety": "Calmarea anxietății",
+      "relaxation": "Abilități pentru relaxare profundă",
+      "peace": "Călătoria păcii interioare",
+      "mountain": "Liniștea muntelui"
+    },
+    "goal": {
+      "beginners": "Pentru începători",
+      "beginners_desc": "Începe călătoria ta mindfulness",
+      "grief": "Gestionarea durerii",
+      "grief_desc": "Găsește pacea și vindecarea"
+    },
+    "collection": {
+      "students": "Pentru studenți",
+      "students_desc": "Concentrează-te și studiază mai bine",
+      "grief": "Gestionarea durerii",
+      "grief_desc": "Găsește pacea și vindecarea",
+      "sleep": "Somn mai bun",
+      "sleep_desc": "Odihnește-te și reîncarcă-te profund",
+      "stress": "Reducerea stresului",
+      "stress_desc": "Calmează-ți mintea și corpul"
+    },
+    "category": {
+      "meditation": "Meditația",
+      "concentration": "Concentrare",
+      "music": "Muzică",
+      "creatures": "Creaturi",
+      "soundscapes": "Peisaje sonore",
+      "students": "Studenți",
+      "affirmations": "Afirmații"
+    }
+  }
+}

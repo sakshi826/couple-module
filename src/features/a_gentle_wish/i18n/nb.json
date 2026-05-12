@@ -48,5 +48,17 @@
   "view_past_button": "view_past_button",
   "welcome_description": "welcome_description",
   "welcome_subtitle": "welcome_subtitle",
-  "welcome_title": "welcome_title"
+  "welcome_title": "welcome_title",
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start på nytt",
+    "finish_exit": "Mål og utgang",
+    "well_done": "Bra jobbet!",
+    "completion_message": "Du har fullført denne aktiviteten med suksess. Ta et øyeblikk til å sette pris på fremgangen din.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Tilbake",
+    "next": "Neste",
+    "save": "Lagre",
+    "loading": "Laster..."
+  }
 }

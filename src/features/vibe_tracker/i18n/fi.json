@@ -39,5 +39,17 @@
     "ease": "Mikä toisi sinulle edes 10 % enemmän helpotusta?",
     "kindness": "Mitä pientä ystävällisyyttä voisit tänään itsellesi tarjota?",
     "supported": "Mikä auttaisi sinua tuntemaan tukea tässä hetkessä?"
+  },
+  "common": {
+    "get_started": "Aloita",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Maali ja uloskäynti",
+    "well_done": "Hyvin tehty!",
+    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Ota hetki arvostaaksesi edistymistäsi.",
+    "time_to_complete": "Aika valmistua",
+    "back": "Takaisin",
+    "next": "Seuraavaksi",
+    "save": "Tallenna",
+    "loading": "Ladataan..."
   }
 }

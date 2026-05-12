@@ -48,5 +48,17 @@
   "support_step1": "Ring eller send melding til en venn",
   "support_step2": "Del det som bekymrer deg",
   "support_step3": "Be om perspektiv",
-  "support_step4": "Vurder å snakke med en rådgiver"
+  "support_step4": "Vurder å snakke med en rådgiver",
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start på nytt",
+    "finish_exit": "Mål og utgang",
+    "well_done": "Bra jobbet!",
+    "completion_message": "Du har fullført denne aktiviteten med suksess. Ta et øyeblikk til å sette pris på fremgangen din.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Tilbake",
+    "next": "Neste",
+    "save": "Lagre",
+    "loading": "Laster..."
+  }
 }

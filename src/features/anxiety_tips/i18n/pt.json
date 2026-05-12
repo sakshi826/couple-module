@@ -47,5 +47,18 @@
   "support_step1": "Ligue ou mande uma mensagem para um amigo.",
   "support_step2": "Compartilhe o que está te preocupando.",
   "support_step3": "Peça uma opinião",
-  "support_step4": "Considere conversar com um conselheiro."
+  "support_step4": "Considere conversar com um conselheiro.",
+  "common": {
+    "get_started": "Comece",
+    "start_over": "Recomeçar",
+    "finish_exit": "Fim e Saída",
+    "well_done": "Parabéns!",
+    "completion_message": "Você completou esta atividade com sucesso. Reserve um momento para apreciar seu progresso.",
+    "time_to_complete": "Hora de concluir",
+    "back": "Voltar",
+    "next": "Próximo",
+    "save": "Salvar",
+    "loading": "Carregando..."
+  },
+  "app_page_title": "Dicas para Ansiedade"
 }

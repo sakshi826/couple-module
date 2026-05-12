@@ -47,5 +47,18 @@
   "support_step1": "친구에게 전화하거나 문자를 보내세요",
   "support_step2": "걱정되는 점을 공유해 주세요",
   "support_step3": "관점을 요청하세요",
-  "support_step4": "상담사와 이야기를 나눠보는 것을 고려해 보세요."
+  "support_step4": "상담사와 이야기를 나눠보는 것을 고려해 보세요.",
+  "common": {
+    "get_started": "시작하기",
+    "start_over": "처음부터 다시",
+    "finish_exit": "결승 및 퇴장",
+    "well_done": "잘했어요!",
+    "completion_message": "이 활동을 성공적으로 완료하셨습니다. 잠시 시간을 내어 자신의 진전을 감상해 보세요.",
+    "time_to_complete": "완성 시간입니다",
+    "back": "뒤로",
+    "next": "다음",
+    "save": "저장",
+    "loading": "로딩 중..."
+  },
+  "app_page_title": "불안 팁"
 }

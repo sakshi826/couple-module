@@ -48,5 +48,17 @@
   "memory_desc": "Ćwiczenia zwiększają przepływ krwi do mózgu, co pomaga poprawić pamięć i funkcje poznawcze.",
   "stress_title": "Reakcja na stres",
   "stress_desc": "Aktywność fizyczna obniża poziom hormonów stresu i pomaga układowi nerwowemu się zresetować.",
-  "app_name": "Dziennik aktywności fizycznej"
+  "app_name": "Dziennik aktywności fizycznej",
+  "common": {
+    "get_started": "Zacznij",
+    "start_over": "Start From",
+    "finish_exit": "Koniec i wyjście",
+    "well_done": "Brawo!",
+    "completion_message": "Udało ci się ukończyć tę aktywność. Poświęć chwilę, by docenić swoje postępy.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Z powrotem",
+    "next": "Następny",
+    "save": "Zapisz",
+    "loading": "Ładowanie..."
+  }
 }

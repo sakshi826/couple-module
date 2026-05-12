@@ -48,5 +48,17 @@
   "view_past_button": "view_past_button",
   "welcome_description": "welcome_description",
   "welcome_subtitle": "welcome_subtitle",
-  "welcome_title": "welcome_title"
+  "welcome_title": "welcome_title",
+  "common": {
+    "get_started": "Починайте",
+    "start_over": "Почати спочатку",
+    "finish_exit": "Фініш і вихід",
+    "well_done": "Чудова робота!",
+    "completion_message": "Ви успішно виконали це завдання. Приділіть паузу, щоб оцінити свій прогрес.",
+    "time_to_complete": "Час завершити",
+    "back": "Назад",
+    "next": "Далі",
+    "save": "Збереження",
+    "loading": "Завантаження..."
+  }
 }

@@ -36,11 +36,15 @@
     }
   ],
   "common": {
-    "thank_you": "Terima kasih",
-    "you_feel": "Anda merasa:",
-    "completion_message": "Anda telah menyelesaikan latihan penguatan diri. Bawalah rasa kehadiran ini bersama Anda saat melanjutkan hari Anda.",
-    "start_again": "Mulai Lagi",
-    "reflection_question": "Dalam satu kata, bagaimana perasaanmu saat ini?",
-    "reflection_placeholder": "misalnya tenang, lega, membumi…"
+    "get_started": "Memulai",
+    "start_over": "Mulai Dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Bagus!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
+    "time_to_complete": "Waktu untuk menyelesaikan",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "save": "Simpan",
+    "loading": "Memuat..."
   }
 }

@@ -48,5 +48,17 @@
   "support_step1": "Hubungi atau hantar mesej kepada rakan",
   "support_step2": "Kongsi perkara yang membimbangkan anda",
   "support_step3": "Minta perspektif",
-  "support_step4": "Pertimbangkan untuk bercakap dengan kaunselor"
+  "support_step4": "Pertimbangkan untuk bercakap dengan kaunselor",
+  "common": {
+    "get_started": "Bermula",
+    "start_over": "Mulakan Semula",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Syabas!",
+    "completion_message": "Anda telah berjaya menyelesaikan aktiviti ini. Luangkan sedikit masa untuk menghargai kemajuan anda.",
+    "time_to_complete": "Masa untuk melengkapkan",
+    "back": "Kembali",
+    "next": "Seterusnya",
+    "save": "Simpan",
+    "loading": "Memuatkan..."
+  }
 }

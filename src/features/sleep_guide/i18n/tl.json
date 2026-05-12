@@ -17,5 +17,17 @@
     "p2": "Ito ay tinatawag na <1>conditioned arousal</1> - ipinaliliwanag nito kung bakit nakakaramdam ka ng pagod sa buong araw, ngunit malawak na gising sa oras ng pagtulog.",
     "quote": "\"Hindi naman nasira ang utak mo. Natutunan lamang nito ang maling aralin tungkol sa oras ng pagtulog - at maaari itong ituro muli. \"",
     "button": "Nakaraang Hakbang"
+  },
+  "common": {
+    "get_started": "Email Address *",
+    "start_over": "Magsimulang Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Mahusay na ginawa!",
+    "completion_message": "Matagumpay mong nakumpleto ang aktibidad na ito. Maglaan ng ilang sandali upang pahalagahan ang iyong pag-unlad.",
+    "time_to_complete": "Oras na para makumpleto",
+    "back": "Bumalik",
+    "next": "Susunod",
+    "save": "I-save",
+    "loading": "Naglo-load..."
   }
 }

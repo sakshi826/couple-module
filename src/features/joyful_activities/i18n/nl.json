@@ -41,5 +41,19 @@
     "p1": "Het opnieuw verbinden met wat je vreugde brengt — zelfs op de kleinste manier — is een daad van vriendelijkheid tegenover jezelf.",
     "p2": "Je verdient momenten van lichtheid en rust. Blijf koesteren wat je hart vol maakt. 💛",
     "button": "Terug naar huis"
-  }
+  },
+  "common": {
+    "get_started": "Begin",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Goed gedaan!",
+    "completion_message": "Je hebt deze activiteit succesvol voltooid. Neem even de tijd om je vooruitgang te waarderen.",
+    "time_to_complete": "Tijd om af te ronden",
+    "back": "Achteruit",
+    "next": "Volgende",
+    "save": "Sla op",
+    "loading": "Laden..."
+  },
+  "app_complete_title": "Joy Preserved",
+  "app_complete_message": "Je hebt je succesvol herinnerd en verbinding gemaakt met een bron van vreugde. Houd dit gevoel bij je terwijl je door je dag gaat."
 }

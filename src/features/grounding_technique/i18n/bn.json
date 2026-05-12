@@ -64,5 +64,17 @@
   "Close your eyes if comfortable.": "আরাম পেলে চোখ বন্ধ করো।",
   "Scan from head to toe.": "মাথা থেকে পা পর্যন্ত স্ক্যান করুন।",
   "Notice areas of tension or ease.": "উত্তেজনা বা স্বাচ্ছন্দ্যের ক্ষেত্রগুলি লক্ষ্য করুন।",
-  "Breathe into any tightness.": "যেকোনো টানটান ভাব নিঃশ্বাসে নিন।"
+  "Breathe into any tightness.": "যেকোনো টানটান ভাব নিঃশ্বাসে নিন।",
+  "common": {
+    "get_started": "শুরু করুন",
+    "start_over": "আবার শুরু করুন",
+    "finish_exit": "ফিনিশ ও এক্সিট",
+    "well_done": "সাবাশ!",
+    "completion_message": "আপনি সফলভাবে এই ক্রিয়াকলাপটি সম্পন্ন করেছেন। আপনার অগ্রগতির প্রশংসা করতে এক মুহুর্ত সময় নিন।",
+    "time_to_complete": "শেষ করার সময়",
+    "back": "পিছনে",
+    "next": "পরবর্তী",
+    "save": "সংরক্ষণ করুন",
+    "loading": "লোড হচ্ছে..."
+  }
 }

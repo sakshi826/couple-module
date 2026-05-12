@@ -1,0 +1,223 @@
+{
+  "common": {
+    "get_started": "Başlayın",
+    "start_over": "Yeniden Başla",
+    "finish_exit": "Bitiş ve Çıkış",
+    "well_done": "Aferin!",
+    "completion_message": "Bu etkinliği başarıyla tamamladın. İlerlemenin takdir edilmesini bir an ayır.",
+    "time_to_complete": "Tamamlanma zamanı",
+    "back": "Geri",
+    "next": "Sıradaki",
+    "save": "Kayd et",
+    "loading": "Yükleniyor...",
+    "today": "Bugün",
+    "yesterday": "Dün",
+    "filters": "Filtreler",
+    "see_all": "Hepsini Gör",
+    "meditation": "Meditasyon",
+    "guided": "Rehberli",
+    "sleep": "Uyu",
+    "mindfulness": "Farkındalık",
+    "restore": "Restore",
+    "curated": "Mind tarafından küratörlüğü yapıldı",
+    "restorative": "Restoratif",
+    "peace": "Barış",
+    "breath": "Nefes",
+    "nature": "Doğa",
+    "relax": "Rahatla",
+    "time": {
+      "3min": "3 dakika",
+      "5min": "5 dakika",
+      "8min": "8 dakika",
+      "10min": "10 dakika",
+      "12min": "12 dakika",
+      "15min": "15 dakika",
+      "20min": "20 dakika",
+      "30min": "30 dakika",
+      "45min": "45 dakika",
+      "60min": "60 dakika"
+    }
+  },
+  "hub": {
+    "back_to_topics": "Konulara geri dön",
+    "guided_series": "Rehberli Seri",
+    "start_guided_series": "Rehberli serilere başlayın",
+    "exercises": "Tatbikatlar",
+    "todos": "Yapılacak Yerler",
+    "resources": "Kaynaklar",
+    "view_resource": "Kaynağı görüntüle",
+    "search_placeholder": "Konu veya aktivite ara...",
+    "how_are_you": "Bugün nasıl hissediyorsun?",
+    "self_care_resources": "Öz Bakım Kaynakları",
+    "explore_tools": "Zihinsel sağlık yolculuğunuz için araçları ve rehberlikleri keşfedin",
+    "topics": "Konular",
+    "tools": "Araçlar",
+    "articles": "Makaleler",
+    "tips": "İpuçları",
+    "stories": "Hikayeler",
+    "myths": "Efsaneler"
+  },
+  "topics": {
+    "depression": {
+      "label": "Buhran",
+      "desc": "Depresyon belirtilerini yönetmenize ve dayanıklılık geliştirmenize yardımcı olacak kanıta dayalı egzersizler ve kaynaklar."
+    },
+    "anxiety": {
+      "label": "Anksiyete",
+      "desc": "Kaygıyı yönetmek, endişeyi azaltmak ve kontrol duygusunu yeniden kazanmak için sakinleştirici teknikler ve stratejiler."
+    },
+    "stress": {
+      "label": "Stres",
+      "desc": "Stresi yönetmek, başa çıkma becerileri geliştirmek ve hayatınızda dengeyi yeniden sağlamak için pratik araçlar ve egzersizler."
+    },
+    "adolescent": {
+      "label": "Ergenlik",
+      "desc": "Büyüme, kimlik ve duygusal zorlukları aşan gençler için tasarlanmış rehberlik ve aktiviteler."
+    },
+    "relationship": {
+      "label": "İlişki",
+      "desc": "Bağlantıları güçlendirmek, iletişimi geliştirmek ve daha sağlıklı ilişkiler kurmak için araçlar ve içgörüler."
+    },
+    "workplace": {
+      "label": "İşyeri",
+      "desc": "İş yerindeki stresi yönetmek, odaklanmayı artırmak ve iş-yaşam dengesini korumak için stratejiler."
+    },
+    "sleep": {
+      "label": "Uyu",
+      "desc": "Uyku kalitenizi artırmak, sağlıklı uyku alışkanlıkları oluşturmak ve tazelenmiş uyanmak için teknikler ve takipçiler."
+    },
+    "parenting": {
+      "label": "Ebeveynlik",
+      "desc": "Bilinçli ebeveynliği desteklemek, tükenmişliği azaltmak ve ailenizin iyiliğini beslemek için kaynaklar."
+    },
+    "anger": {
+      "label": "Öfke",
+      "desc": "Öfkeyi sağlıklı ve yapıcı şekillerde anlamak, yönetmek ve yönlendirmek için teknikler."
+    },
+    "grief": {
+      "label": "Yas",
+      "desc": "Kaybı işlemenize ve kendi hızınızda iyileşme bulmanıza yardımcı olacak şefkatli araçlar ve egzersizler."
+    },
+    "ptsd": {
+      "label": "PTSD",
+      "desc": "Travma tepkilerini yönetmeye ve güvenliği artırmaya yardımcı olacak topraklama ve stabilizasyon teknikleri."
+    },
+    "acceptance": {
+      "label": "Kabul",
+      "desc": "Kabul etmeyi geliştirmek, direnişi bırakmak ve hayatı olduğu gibi kucaklamak için egzersizler."
+    },
+    "postpartum": {
+      "label": "Doğum sonrası",
+      "desc": "Doğum sonrası zorlukları ve duygusal değişimleri yöneten yeni anneler için destekleyici kaynaklar."
+    },
+    "sexuality": {
+      "label": "Cinsellik",
+      "desc": "Kimliği keşfetmek, kendini kabul etmeyi geliştirmek ve topluluk bulmak için güvenli ve destekleyici kaynaklar."
+    },
+    "eating-disorder": {
+      "label": "Yeme Bozukluğu",
+      "desc": "Gıda ve vücut imajıyla daha sağlıklı bir ilişki kurmak için destekleyici egzersizler ve kaynaklar."
+    },
+    "ocd": {
+      "label": "OKB",
+      "desc": "Takıntılı düşünceleri ve takıntılı davranışları yönetmek için kanıta dayalı teknikler."
+    }
+  },
+  "tools": {
+    "box-breathing": "Kutu Nefes Alma",
+    "gratitude-tracker": "Şükran İzleyicisi",
+    "deep-breathing": "Derin Nefes Alma",
+    "affirmations": "Onaylar",
+    "mindful-space": "Farkındalık Alanı",
+    "letter-to-self": "Kendime Bir Mektup",
+    "sleep-tracker": "Uyku İzleyicisi"
+  },
+  "moods": {
+    "great": "Harika",
+    "good": "İyi.",
+    "okay": "Tamam",
+    "down": "Aşağıya",
+    "sad": "Üzgün"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "care_team": "Bakım Ekibi",
+    "appointments": "Atamalar",
+    "tasks": "Görevler",
+    "insights": "İçgörüler",
+    "billing": "Faturalandırma",
+    "profile": "Profil",
+    "invite_friend": "Misafirden Arkadaşa",
+    "feedback": "Geri Bildirim Paylaş",
+    "support": "Destek",
+    "sign_out": "Çıkış"
+  },
+  "journal": {
+    "title": "Dergi",
+    "subtitle": "Düşüncelerinizi, duygularınızı ve günlük deneyimlerinizi belgeleyin",
+    "new_entry": "Yeni Giriş",
+    "search_placeholder": "Günlük kayıtlarını ara...",
+    "filter_by_mood": "Ruh haline göre filtrele:",
+    "all_moods": "Tüm Ruh Hali",
+    "no_entries": "Kayıt bulunmadı",
+    "adjust_search": "Arama veya filtreleri ayarlamayı dene.",
+    "start_journey": "Günlük tutma yolculuğunuza bugün başlayın",
+    "write_first": "İlk Girişinizi Yazın",
+    "mood": {
+      "great": "Harika",
+      "good": "İyi.",
+      "okay": "Tamam",
+      "sad": "Üzgün",
+      "anxious": "Endişeli"
+    },
+    "sample": {
+      "1": {
+        "title": "İlk Düşüncen",
+        "content": "Aklınızdakileri yazmakla başlayın. Günlük tutmak, kendini yansıtmak ve zihinsel netlik için güçlü bir araçtır."
+      }
+    }
+  },
+  "mindfulness": {
+    "title": "Farkındalık ve Öz-Bakım",
+    "subtitle": "Sağlık yolculuğunuz için uzman farkındalık araçları ve rehberli seanslar",
+    "featured_mantra": "Mantra'da yer aldı",
+    "browse_category": "Kategoriye Göre Gez",
+    "new_noteworthy": "Yeni ve Dikkate Değer",
+    "browse_goal": "Hedefe Göre Göz Atın",
+    "browse_time": "Zamana Göre Göz Atın",
+    "daily_program": "Günlük bir program bulun",
+    "daily_program_desc": "Her program için niyetinize dikkat edin",
+    "featured_collections": "Öne Çıkan Koleksiyonlar",
+    "featured": {
+      "anxiety": "Sakinleştirici Kaygı",
+      "relaxation": "Derin Gevşeme Becerileri",
+      "peace": "İçsel Barış Yolculuğu",
+      "mountain": "Dağ Sessizliği"
+    },
+    "goal": {
+      "beginners": "Yeni Başlayanlar İçin",
+      "beginners_desc": "Farkındalık yolculuğuna başlayın",
+      "grief": "Yasla Başa Çıkma",
+      "grief_desc": "Barış ve iyileşme bul"
+    },
+    "collection": {
+      "students": "Öğrenciler İçin",
+      "students_desc": "Daha iyi odaklanın ve çalışın",
+      "grief": "Yasla Başa Çıkma",
+      "grief_desc": "Barış ve iyileşme bul",
+      "sleep": "Daha İyi Uyku",
+      "sleep_desc": "Dinlenin ve derin bir enerji topla",
+      "stress": "Stres Giderme",
+      "stress_desc": "Zihnini ve bedenini sakinleştir"
+    },
+    "category": {
+      "meditation": "Meditasyon",
+      "concentration": "Yoğunlaşma",
+      "music": "Müzik",
+      "creatures": "Canlılar",
+      "soundscapes": "Ses Manzaraları",
+      "students": "Öğrenciler",
+      "affirmations": "Onaylar"
+    }
+  }
+}

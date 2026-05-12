@@ -1,0 +1,223 @@
+{
+  "common": {
+    "get_started": "Memulai",
+    "start_over": "Mulai Dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Bagus!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
+    "time_to_complete": "Waktu untuk menyelesaikan",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "save": "Simpan",
+    "loading": "Memuat...",
+    "today": "Hari ini",
+    "yesterday": "Kemarin",
+    "filters": "Filter",
+    "see_all": "Lihat Semua",
+    "meditation": "Meditasi",
+    "guided": "Dipandu",
+    "sleep": "Tidur",
+    "mindfulness": "Perhatian penuh",
+    "restore": "Pulihkan",
+    "curated": "Dikuratori oleh Mind",
+    "restorative": "Restoratif",
+    "peace": "Perdamaian",
+    "breath": "Nafas",
+    "nature": "Alam",
+    "relax": "Bersantai",
+    "time": {
+      "3min": "3 menit",
+      "5min": "5 menit",
+      "8min": "8 menit",
+      "10min": "10 menit",
+      "12min": "12 menit",
+      "15min": "15 menit",
+      "20min": "20 menit",
+      "30min": "30 menit",
+      "45min": "45 menit",
+      "60min": "60 menit"
+    }
+  },
+  "hub": {
+    "back_to_topics": "Kembali ke topik",
+    "guided_series": "Seri Terpandu",
+    "start_guided_series": "Memulai seri terpandu",
+    "exercises": "Latihan",
+    "todos": "Yang Harus Dilakukan",
+    "resources": "Sumber daya",
+    "view_resource": "Lihat sumber daya",
+    "search_placeholder": "Cari topik atau aktivitas...",
+    "how_are_you": "Bagaimana perasaan Anda hari ini?",
+    "self_care_resources": "Sumber Daya Perawatan Diri",
+    "explore_tools": "Jelajahi alat dan panduan untuk perjalanan kesehatan mental Anda",
+    "topics": "Topik",
+    "tools": "Alat",
+    "articles": "Artikel",
+    "tips": "Kiat",
+    "stories": "Cerita",
+    "myths": "Mitos"
+  },
+  "topics": {
+    "depression": {
+      "label": "Depresi",
+      "desc": "Latihan dan sumber daya berbasis bukti untuk membantu Anda mengelola gejala depresi dan membangun ketahanan."
+    },
+    "anxiety": {
+      "label": "Kecemasan",
+      "desc": "Teknik dan strategi menenangkan untuk mengelola kecemasan, mengurangi kekhawatiran, dan mendapatkan kembali rasa kontrol."
+    },
+    "stress": {
+      "label": "Stres",
+      "desc": "Alat dan latihan praktis untuk mengelola stres, membangun keterampilan mengatasi, dan mengembalikan keseimbangan dalam hidup Anda."
+    },
+    "adolescent": {
+      "label": "Remaja",
+      "desc": "Bimbingan dan aktivitas yang dirancang untuk remaja yang menavigasi pertumbuhan, identitas, dan tantangan emosional."
+    },
+    "relationship": {
+      "label": "Hubungan",
+      "desc": "Alat dan wawasan untuk memperkuat koneksi, meningkatkan komunikasi, dan membangun hubungan yang lebih sehat."
+    },
+    "workplace": {
+      "label": "Tempat kerja",
+      "desc": "Strategi untuk mengelola stres di tempat kerja, meningkatkan fokus, dan menjaga keseimbangan kehidupan kerja."
+    },
+    "sleep": {
+      "label": "Tidur",
+      "desc": "Teknik dan pelacak untuk meningkatkan kualitas tidur Anda, membangun kebiasaan tidur yang sehat, dan bangun dengan segar."
+    },
+    "parenting": {
+      "label": "Pengasuhan",
+      "desc": "Sumber daya untuk mendukung pengasuhan yang penuh perhatian, mengurangi kelelahan, dan memelihara kesejahteraan keluarga Anda."
+    },
+    "anger": {
+      "label": "Kemarahan",
+      "desc": "Teknik untuk memahami, mengelola, dan menyalurkan kemarahan dengan cara yang sehat dan konstruktif."
+    },
+    "grief": {
+      "label": "Kesedihan",
+      "desc": "Alat dan latihan welas asih untuk membantu Anda memproses kehilangan dan menemukan penyembuhan dengan kecepatan Anda sendiri."
+    },
+    "ptsd": {
+      "label": "PTSD",
+      "desc": "Teknik pembumian dan stabilisasi untuk membantu mengelola respons trauma dan membangun keamanan."
+    },
+    "acceptance": {
+      "label": "Penerimaan",
+      "desc": "Latihan untuk menumbuhkan penerimaan, melepaskan perlawanan, dan merangkul kehidupan apa adanya."
+    },
+    "postpartum": {
+      "label": "Pascapersalinan",
+      "desc": "Sumber daya pendukung untuk ibu baru yang mengelola tantangan pascapersalinan dan perubahan emosional."
+    },
+    "sexuality": {
+      "label": "Seksualitas",
+      "desc": "Sumber daya yang aman dan mendukung untuk mengeksplorasi identitas, membangun penerimaan diri, dan menemukan komunitas."
+    },
+    "eating-disorder": {
+      "label": "Gangguan makan",
+      "desc": "Latihan dan sumber daya yang mendukung untuk membangun hubungan yang lebih sehat dengan makanan dan citra tubuh."
+    },
+    "ocd": {
+      "label": "OCD",
+      "desc": "Teknik berbasis bukti untuk mengelola pikiran obsesif dan perilaku kompulsif."
+    }
+  },
+  "tools": {
+    "box-breathing": "Pernapasan Kotak",
+    "gratitude-tracker": "Pelacak Syukur",
+    "deep-breathing": "Pernapasan Dalam",
+    "affirmations": "Afirmasi",
+    "mindful-space": "Ruang Sadar",
+    "letter-to-self": "Surat Untuk Diri Sendiri",
+    "sleep-tracker": "Pelacak Tidur"
+  },
+  "moods": {
+    "great": "Bagus",
+    "good": "Baik",
+    "okay": "Oke",
+    "down": "Turun",
+    "sad": "Sedih"
+  },
+  "nav": {
+    "home": "Beranda",
+    "care_team": "Tim Perawatan",
+    "appointments": "Janji temu",
+    "tasks": "Tugas",
+    "insights": "Wawasan",
+    "billing": "Penagihan",
+    "profile": "Profil",
+    "invite_friend": "Tamu ke Teman",
+    "feedback": "Bagikan Umpan Balik",
+    "support": "Dukungan",
+    "sign_out": "Keluar"
+  },
+  "journal": {
+    "title": "Jurnal",
+    "subtitle": "Dokumentasikan pikiran, perasaan, dan pengalaman sehari-hari Anda",
+    "new_entry": "Entri Baru",
+    "search_placeholder": "Cari entri jurnal Anda...",
+    "filter_by_mood": "Filter berdasarkan suasana hati:",
+    "all_moods": "Semua Suasana Hati",
+    "no_entries": "Tidak ada entri yang ditemukan",
+    "adjust_search": "Coba sesuaikan penelusuran atau filter Anda",
+    "start_journey": "Mulailah perjalanan jurnal Anda hari ini",
+    "write_first": "Tulis Entri Pertama Anda",
+    "mood": {
+      "great": "Bagus",
+      "good": "Baik",
+      "okay": "Oke",
+      "sad": "Sedih",
+      "anxious": "Cemas"
+    },
+    "sample": {
+      "1": {
+        "title": "Pikiran Pertama Anda",
+        "content": "Mulailah dengan menulis apa yang ada di pikiran Anda. Menulis jurnal adalah alat yang ampuh untuk refleksi diri dan kejernihan mental."
+      }
+    }
+  },
+  "mindfulness": {
+    "title": "Perawatan Diri Mindfulness",
+    "subtitle": "Alat kesadaran ahli dan sesi terpandu untuk perjalanan kesehatan Anda",
+    "featured_mantra": "Ditampilkan di Mantra",
+    "browse_category": "Telusuri berdasarkan Kategori",
+    "new_noteworthy": "Baru & Penting",
+    "browse_goal": "Telusuri berdasarkan Sasaran",
+    "browse_time": "Jelajahi berdasarkan Waktu",
+    "daily_program": "Temukan program harian",
+    "daily_program_desc": "Perhatikan niat Anda untuk setiap program",
+    "featured_collections": "Koleksi Unggulan",
+    "featured": {
+      "anxiety": "Menenangkan Kecemasan",
+      "relaxation": "Keterampilan untuk Relaksasi Mendalam",
+      "peace": "Perjalanan Kedamaian Batin",
+      "mountain": "Keheningan Gunung"
+    },
+    "goal": {
+      "beginners": "Untuk Pemula",
+      "beginners_desc": "Mulailah perjalanan mindfulness Anda",
+      "grief": "Mengatasi Kesedihan",
+      "grief_desc": "Temukan kedamaian dan penyembuhan"
+    },
+    "collection": {
+      "students": "Untuk Siswa",
+      "students_desc": "Fokus dan belajar lebih baik",
+      "grief": "Mengatasi Kesedihan",
+      "grief_desc": "Temukan kedamaian dan penyembuhan",
+      "sleep": "Tidur yang lebih baik",
+      "sleep_desc": "Beristirahat dan memulihkan diri secara mendalam",
+      "stress": "Penghilang Stres",
+      "stress_desc": "Tenangkan pikiran dan tubuh Anda"
+    },
+    "category": {
+      "meditation": "Meditasi",
+      "concentration": "Konsentrasi",
+      "music": "Musik",
+      "creatures": "Makhluk",
+      "soundscapes": "Lanskap suara",
+      "students": "Siswa",
+      "affirmations": "Afirmasi"
+    }
+  }
+}

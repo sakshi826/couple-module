@@ -30,5 +30,17 @@
   "tool_undo": "元に戻す",
   "tool_clear": "クリア",
   "share_doodle": "Share Doodle",
-  "share_text": "I loved this doodle burst activity at TherapyMantra, you can try too just download the app to explore for yourself\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888"
+  "share_text": "I loved this doodle burst activity at TherapyMantra, you can try too just download the app to explore for yourself\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888",
+  "common": {
+    "get_started": "始めよう",
+    "start_over": "やり直し",
+    "finish_exit": "フィニッシュ&エグジット",
+    "well_done": "よくやった!",
+    "completion_message": "あなたはこの活動を無事に完了しました。自分の進歩を少しでも感じてみてください。",
+    "time_to_complete": "完了の時間だ",
+    "back": "戻る",
+    "next": "次",
+    "save": "セーブ",
+    "loading": "読み込み中..."
+  }
 }

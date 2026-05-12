@@ -48,5 +48,17 @@
   "support_step1": "Hívj vagy írj egy barátot",
   "support_step2": "Oszd meg, mi aggaszt",
   "support_step3": "Kérj nézőpontot",
-  "support_step4": "Fontold meg, hogy beszélj egy tanácsadóval"
+  "support_step4": "Fontold meg, hogy beszélj egy tanácsadóval",
+  "common": {
+    "get_started": "Kezdj el",
+    "start_over": "Kezdj újrakezdeni",
+    "finish_exit": "Befejezés és kilépés",
+    "well_done": "Szép munka!",
+    "completion_message": "Sikeresen teljesítetted ezt a feladatot. Szánj egy pillanatot, hogy értékeld a fejlődésedet.",
+    "time_to_complete": "Ideje befejezni",
+    "back": "Hátra",
+    "next": "Következő",
+    "save": "Mentés",
+    "loading": "Betöltés..."
+  }
 }

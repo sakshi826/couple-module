@@ -18,5 +18,17 @@
     "desc": "Il modo in cui i tuoi caregiver rispondevano ai tuoi bisogni in silenzio ha influenzato il modo in cui ti relazioni con gli altri da adulto. Queste sono risposte apprese — e possono essere disapprese.",
     "quote": "\"Il tuo schema aveva senso una volta. La domanda è: ti serve ancora adesso?\"",
     "button": "Riflessione finale"
+  },
+  "common": {
+    "get_started": "Inizia",
+    "start_over": "Ricomincia",
+    "finish_exit": "Arrivo e uscita",
+    "well_done": "Ben fatto!",
+    "completion_message": "Hai completato con successo questa attività. Prenditi un momento per apprezzare i tuoi progressi.",
+    "time_to_complete": "È ora di completare",
+    "back": "Indietro",
+    "next": "Prossimo",
+    "save": "Salva",
+    "loading": "Caricamento..."
   }
 }

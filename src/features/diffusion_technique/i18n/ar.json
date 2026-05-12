@@ -76,5 +76,28 @@
   "btn_start_exercise": "ابدأ التمرين →",
   "btn_back_to_home": "العودة إلى الصفحة الرئيسية",
   "label_thought": "معتقد:",
-  "label_reflection": "انعكاس:"
+  "label_reflection": "انعكاس:",
+  "common": {
+    "get_started": "ابدأ",
+    "start_over": "ابدأ من جديد",
+    "finish_exit": "النهاية والخروج",
+    "well_done": "عمل رائع!",
+    "completion_message": "لقد أنجزت هذا النشاط بنجاح. خذ لحظة لتقدير تقدمك.",
+    "time_to_complete": "حان وقت الإكمال",
+    "back": "العودة",
+    "next": "التالي",
+    "save": "حفظ",
+    "loading": "جار التحميل..."
+  },
+  "title_sky_clouds": "السماء والغيوم",
+  "title_sell_thought": "بيع الفكرة",
+  "title_name_story": "اذكر القصة",
+  "title_choose": "تقنيات الانتشار",
+  "title_diffusion": "النشر",
+  "label_back_to_start": "العودة إلى البداية",
+  "label_back_to_techniques": "العودة إلى التقنيات",
+  "label_choose_technique": "اختر التقنية",
+  "label_current_thought": "رأيك الحالي",
+  "label_recurrent_thought": "الفكرة المتكررة",
+  "label_remember_to_say": "تذكر أن تقول:"
 }

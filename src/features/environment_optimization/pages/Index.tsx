@@ -12,7 +12,8 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title="Environment Optimization" 
+      title={t("app_title", " 
+      title=")} 
       onReset={screen !== 'choose' ? () => setScreen('choose') : undefined}
     >
       <div className="w-full">

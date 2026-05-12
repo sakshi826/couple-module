@@ -54,5 +54,17 @@
       "realFact": "Otras personas pueden desencadenar tu ira, pero cómo respondas es tu responsabilidad — y tu poder. Hacerse responsable de tus reacciones no significa que la otra persona tuviera razón. Significa que tú eliges cómo presentarte. Eso es empoderamiento, no culpa.",
       "example": "Alguien te corta el paso en el tráfico. Te sientes enfadada — eso es normal. Pero tú eliges si enfurecerte o respirar. La elección es tuya."
     }
-  ]
+  ],
+  "common": {
+    "get_started": "Empieza",
+    "start_over": "Empezar de nuevo",
+    "finish_exit": "Llegada y salida",
+    "well_done": "¡Bien hecho!",
+    "completion_message": "Has completado esta actividad con éxito. Tómate un momento para apreciar tu progreso.",
+    "time_to_complete": "Hora de completar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "save": "Salvar",
+    "loading": "Cargando..."
+  }
 }

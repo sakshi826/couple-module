@@ -17,5 +17,17 @@
     "p2": "Dette kaldes <1>betinget ophidselse</1> — det forklarer, hvorfor du føler dig udmattet hele dagen, men alligevel helt vågen ved sengetid.",
     "quote": "\"Din hjerne er ikke ødelagt. Den har simpelthen lært den forkerte lektie om sengetid — og den kan læres igen.\"",
     "button": "Forrige skridt"
+  },
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start forfra",
+    "finish_exit": "Afslutning og exit",
+    "well_done": "Godt gået!",
+    "completion_message": "Du har gennemført denne aktivitet med succes. Tag et øjeblik til at værdsætte dine fremskridt.",
+    "time_to_complete": "Tid til at gennemføre",
+    "back": "Tilbage",
+    "next": "Næste",
+    "save": "Gem",
+    "loading": "Indlæser..."
   }
 }

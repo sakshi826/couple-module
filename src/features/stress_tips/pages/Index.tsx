@@ -8,7 +8,7 @@ import { Sparkles } from "lucide-react";
 const Index = () => {
   const { t } = useTranslation();
   return (
-    <PremiumLayout title="Stress Tips">
+    <PremiumLayout title={t("app_title", " title=")}>
       <div className="w-full space-y-10">
         <header className="space-y-4">
           <div className="flex items-center gap-2 text-primary font-black text-[10px] uppercase tracking-[0.2em]">

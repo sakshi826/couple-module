@@ -43,5 +43,17 @@
   "insight_okay": "Du hattest einen stetigen Energiefluss. Arbeit und Ruhe zu balancieren, scheint für dich zu funktionieren.",
   "insight_low": "Deine Energie war eher niedrig. Überlege zu prüfen, ob du genug Ruhe oder Sport bekommst.",
   "insight_more_data": "Tracke weiterhin täglich, um tiefere Muster in deinem Energielevel zu erkennen.",
-  "go_home": "Zurück zu Tracker"
+  "go_home": "Zurück zu Tracker",
+  "common": {
+    "get_started": "Leg los",
+    "start_over": "Neu anfangen",
+    "finish_exit": "Ziel und Ausgang",
+    "well_done": "Gut gemacht!",
+    "completion_message": "Du hast diese Aktivität erfolgreich abgeschlossen. Nimm dir einen Moment Zeit, um deinen Fortschritt zu würdigen.",
+    "time_to_complete": "Zeit zum Abschluss",
+    "back": "Zurück",
+    "next": "Als Nächstes",
+    "save": "Speichern",
+    "loading": "Lädt..."
+  }
 }

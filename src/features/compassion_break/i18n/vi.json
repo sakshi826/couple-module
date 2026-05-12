@@ -59,5 +59,17 @@
   "label_feelings": "Cảm xúc",
   "label_your_kind_words": "Những lời tốt đẹp của bạn",
   "save_finish_button": "Lưu & Kết thúc",
-  "finish_no_save_button": "Kết thúc mà không cần lưu"
+  "finish_no_save_button": "Kết thúc mà không cần lưu",
+  "common": {
+    "get_started": "Bắt đầu",
+    "start_over": "Bắt đầu lại",
+    "finish_exit": "Kết thúc & Thoát",
+    "well_done": "Làm tốt lắm!",
+    "completion_message": "Bạn đã hoàn thành thành công hoạt động này. Hãy dành một chút thời gian để đánh giá cao sự tiến bộ của bạn.",
+    "time_to_complete": "Thời gian hoàn thành",
+    "back": "Quay lại",
+    "next": "Kế tiếp",
+    "save": "Lưu",
+    "loading": "Đang tải..."
+  }
 }

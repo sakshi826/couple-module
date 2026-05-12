@@ -68,5 +68,17 @@
   "complete": {
     "title": "Cyclus onderbroken",
     "message": "Je hebt het besef gekregen om het verband tussen woede en schaamte te zien. Dit is de basis voor blijvende emotionele vrijheid."
+  },
+  "common": {
+    "get_started": "Begin",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Goed gedaan!",
+    "completion_message": "Je hebt deze activiteit succesvol voltooid. Neem even de tijd om je vooruitgang te waarderen.",
+    "time_to_complete": "Tijd om af te ronden",
+    "back": "Achteruit",
+    "next": "Volgende",
+    "save": "Sla op",
+    "loading": "Laden..."
   }
 }

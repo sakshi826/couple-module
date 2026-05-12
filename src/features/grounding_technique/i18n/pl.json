@@ -64,5 +64,17 @@
   "Close your eyes if comfortable.": "Zamknij oczy, jeśli jest ci wygodnie.",
   "Scan from head to toe.": "Przeskanuj wszystko od stóp do głów.",
   "Notice areas of tension or ease.": "Zwróć uwagę na obszary napięcia i spokoju.",
-  "Breathe into any tightness.": "Odetchnij w każdy punkt napięcia."
+  "Breathe into any tightness.": "Odetchnij w każdy punkt napięcia.",
+  "common": {
+    "get_started": "Zacznij",
+    "start_over": "Start From",
+    "finish_exit": "Koniec i wyjście",
+    "well_done": "Brawo!",
+    "completion_message": "Udało ci się ukończyć tę aktywność. Poświęć chwilę, by docenić swoje postępy.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Z powrotem",
+    "next": "Następny",
+    "save": "Zapisz",
+    "loading": "Ładowanie..."
+  }
 }

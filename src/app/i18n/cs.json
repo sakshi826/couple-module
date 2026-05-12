@@ -1,0 +1,223 @@
+{
+  "common": {
+    "get_started": "Začněte",
+    "start_over": "Začít znovu",
+    "finish_exit": "Konec a výjezd",
+    "well_done": "Dobrá práce!",
+    "completion_message": "Úspěšně jste tuto aktivitu dokončili. Věnujte chvíli ocenění svého pokroku.",
+    "time_to_complete": "Čas dokončit",
+    "back": "Zpět",
+    "next": "Další",
+    "save": "Uložit",
+    "loading": "Načítám...",
+    "today": "Dnes",
+    "yesterday": "Včera",
+    "filters": "Filtry",
+    "see_all": "Zobrazit vše",
+    "meditation": "Meditace",
+    "guided": "Řízené",
+    "sleep": "Spánek",
+    "mindfulness": "Všímavost",
+    "restore": "Obnova",
+    "curated": "Kurátorováno organizací Mind",
+    "restorative": "Obnovující",
+    "peace": "Mír",
+    "breath": "Dýchej",
+    "nature": "Příroda",
+    "relax": "Uklidni se",
+    "time": {
+      "3min": "3 min",
+      "5min": "5 minut",
+      "8min": "8 min",
+      "10min": "10 minut",
+      "12min": "12 min",
+      "15min": "15 min",
+      "20min": "20 minut",
+      "30min": "30 min",
+      "45min": "45 min",
+      "60min": "60 min"
+    }
+  },
+  "hub": {
+    "back_to_topics": "Zpět k tématům",
+    "guided_series": "Řízená série",
+    "start_guided_series": "Začněte řízenou sérii",
+    "exercises": "Cvičení",
+    "todos": "Co udělat",
+    "resources": "Zdroje",
+    "view_resource": "Zobrazit zdroj",
+    "search_placeholder": "Hledejte témata nebo aktivity...",
+    "how_are_you": "Jak se dnes cítíš?",
+    "self_care_resources": "Zdroje péče o sebe",
+    "explore_tools": "Prozkoumejte nástroje a rady pro svou cestu duševní pohody",
+    "topics": "Témata",
+    "tools": "Nástroje",
+    "articles": "Články",
+    "tips": "Tipy",
+    "stories": "Příběhy",
+    "myths": "Mýty"
+  },
+  "topics": {
+    "depression": {
+      "label": "Deprese",
+      "desc": "Cvičení založená na důkazech a zdroje, které vám pomohou zvládat příznaky deprese a budovat odolnost."
+    },
+    "anxiety": {
+      "label": "Úzkost",
+      "desc": "Uklidňující techniky a strategie pro zvládání úzkosti, snížení obav a znovuzískání pocitu kontroly."
+    },
+    "stress": {
+      "label": "Stres",
+      "desc": "Praktické nástroje a cvičení pro zvládání stresu, rozvoj copingových dovedností a obnovení rovnováhy ve vašem životě."
+    },
+    "adolescent": {
+      "label": "Dospívání",
+      "desc": "Poradenství a aktivity určené pro teenagery, kteří se snaží zvládat růst, identitu a emocionální výzvy."
+    },
+    "relationship": {
+      "label": "Vztah",
+      "desc": "Nástroje a poznatky pro posílení vztahů, zlepšení komunikace a budování zdravějších vztahů."
+    },
+    "workplace": {
+      "label": "Pracoviště",
+      "desc": "Strategie pro zvládání stresu na pracovišti, zlepšení soustředění a udržení rovnováhy mezi pracovním a osobním životem."
+    },
+    "sleep": {
+      "label": "Spánek",
+      "desc": "Techniky a sledovače pro zlepšení kvality spánku, budování zdravých večerních návyků a probouzení svěží."
+    },
+    "parenting": {
+      "label": "Rodičovství",
+      "desc": "Zdroje na podporu vědomého rodičovství, snížení vyhoření a péči o blaho vaší rodiny."
+    },
+    "anger": {
+      "label": "Hněv",
+      "desc": "Techniky, jak pochopit, zvládat a směrovat hněv zdravým a konstruktivním způsobem."
+    },
+    "grief": {
+      "label": "Žal",
+      "desc": "Soucitné nástroje a cvičení, které vám pomohou zpracovat ztrátu a najít uzdravení vlastním tempem."
+    },
+    "ptsd": {
+      "label": "PTSD",
+      "desc": "Techniky uzemnění a stabilizace, které pomáhají zvládat reakce na trauma a budují bezpečnost."
+    },
+    "acceptance": {
+      "label": "Přijetí",
+      "desc": "Cvičení k přijetí přijetí, uvolnění odporu a přijetí života takovým, jaký je."
+    },
+    "postpartum": {
+      "label": "Poporodní období",
+      "desc": "Podpůrné zdroje pro nové matky, které zvládají poporodní výzvy a emocionální změny."
+    },
+    "sexuality": {
+      "label": "Sexualita",
+      "desc": "Bezpečné a podpůrné zdroje pro zkoumání identity, budování sebepřijetí a hledání komunity."
+    },
+    "eating-disorder": {
+      "label": "Porucha příjmu potravy",
+      "desc": "Podpůrné cvičení a zdroje pro budování zdravějšího vztahu k jídlu a vnímání těla."
+    },
+    "ocd": {
+      "label": "OCD",
+      "desc": "Techniky založené na důkazech pro zvládání obsesivních myšlenek a nutkavého chování."
+    }
+  },
+  "tools": {
+    "box-breathing": "Box Breathing",
+    "gratitude-tracker": "Tracker vděčnosti",
+    "deep-breathing": "Hluboké dýchání",
+    "affirmations": "Afirmace",
+    "mindful-space": "Mindful Space",
+    "letter-to-self": "Dopis sobě samému",
+    "sleep-tracker": "Spánkový tracker"
+  },
+  "moods": {
+    "great": "Skvělé",
+    "good": "Dobře",
+    "okay": "Dobře",
+    "down": "Dolů",
+    "sad": "Smutné"
+  },
+  "nav": {
+    "home": "Domov",
+    "care_team": "Tým péče",
+    "appointments": "Jmenování",
+    "tasks": "Úkoly",
+    "insights": "Postřehy",
+    "billing": "Vyobrazování",
+    "profile": "Profil",
+    "invite_friend": "Host příteli",
+    "feedback": "Sdílet zpětnou vazbu",
+    "support": "Podpora",
+    "sign_out": "Odhlásit se"
+  },
+  "journal": {
+    "title": "Časopis",
+    "subtitle": "Zaznamenávejte své myšlenky, pocity a každodenní zážitky",
+    "new_entry": "Nový přírůstek",
+    "search_placeholder": "Prohledejte své zápisy v deníku...",
+    "filter_by_mood": "Filtrujte podle nálady:",
+    "all_moods": "Všechny nálady",
+    "no_entries": "Žádné záznamy nebyly nalezeny",
+    "adjust_search": "Zkuste upravit vyhledávání nebo filtry",
+    "start_journey": "Začněte svou cestu s psaním deníku ještě dnes",
+    "write_first": "Napište svůj první příspěvek",
+    "mood": {
+      "great": "Skvělé",
+      "good": "Dobře",
+      "okay": "Dobře",
+      "sad": "Smutné",
+      "anxious": "Úzkostný"
+    },
+    "sample": {
+      "1": {
+        "title": "Tvoje první myšlenka",
+        "content": "Začněte tím, že napíšete, co máte na srdci. Psaní deníku je mocným nástrojem pro sebereflexi a duševní jasnost."
+      }
+    }
+  },
+  "mindfulness": {
+    "title": "Mindfulness péče o sebe",
+    "subtitle": "Odborné nástroje mindfulness a vedené sezení pro vaši cestu ke zdraví",
+    "featured_mantra": "Zvýrazněno na Mantra",
+    "browse_category": "Procházet podle kategorií",
+    "new_noteworthy": "Nové a pozoruhodné",
+    "browse_goal": "Procházet podle cíle",
+    "browse_time": "Procházet podle času",
+    "daily_program": "Najděte si denní program",
+    "daily_program_desc": "Mějte na paměti své záměry pro každý program",
+    "featured_collections": "Vybrané kolekce",
+    "featured": {
+      "anxiety": "Uklidňující úzkost",
+      "relaxation": "Dovednosti pro hlubokou relaxaci",
+      "peace": "Cesta vnitřního míru",
+      "mountain": "Horská klidnost"
+    },
+    "goal": {
+      "beginners": "Pro začátečníky",
+      "beginners_desc": "Začněte svou cestu všímavosti",
+      "grief": "Jak se vyrovnat se smutkem",
+      "grief_desc": "Najdi klid a uzdravení"
+    },
+    "collection": {
+      "students": "Pro studenty",
+      "students_desc": "Soustřeďte se a studujte lépe",
+      "grief": "Jak se vyrovnat se smutkem",
+      "grief_desc": "Najdi klid a uzdravení",
+      "sleep": "Lepší spánek",
+      "sleep_desc": "Odpočiňte si a hluboce se dobíjejte",
+      "stress": "Úleva od stresu",
+      "stress_desc": "Uklidněte mysl i tělo"
+    },
+    "category": {
+      "meditation": "Meditace",
+      "concentration": "Koncentrace",
+      "music": "Hudba",
+      "creatures": "Tvorové",
+      "soundscapes": "Zvukové krajiny",
+      "students": "Studenti",
+      "affirmations": "Afirmace"
+    }
+  }
+}

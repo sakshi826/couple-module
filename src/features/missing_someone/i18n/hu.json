@@ -22,5 +22,17 @@
     "desc": "Ha szeretsz valakit, az agyad dopamint, oxitocint, valamint szerotonint bocsát ki. Amikor véget ér, ezek a szintek csökkennek. Az agyad gyászol — nem csak az embert, hanem a közelség érzését is.",
     "quote": "\"Ha hiányoznak nekik, nem jelenti azt, hogy vissza kellene menned. A szíved gyászolja a köteléket — nem feltétlenül azt az embert, amilyen valójában volt.\"",
     "button": "Finish Reflection"
+  },
+  "common": {
+    "get_started": "Kezdj el",
+    "start_over": "Kezdj újrakezdeni",
+    "finish_exit": "Befejezés és kilépés",
+    "well_done": "Szép munka!",
+    "completion_message": "Sikeresen teljesítetted ezt a feladatot. Szánj egy pillanatot, hogy értékeld a fejlődésedet.",
+    "time_to_complete": "Ideje befejezni",
+    "back": "Hátra",
+    "next": "Következő",
+    "save": "Mentés",
+    "loading": "Betöltés..."
   }
 }

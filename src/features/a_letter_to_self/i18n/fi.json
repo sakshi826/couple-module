@@ -14,5 +14,17 @@
   "complete_msg": "Kirjeesi on pelastettu turvallisesti.",
   "home": "Koti",
   "past_letters_title": "Aiemmat kirjeet",
-  "empty_letters": "Aiempia kirjeitä ei löytynyt."
+  "empty_letters": "Aiempia kirjeitä ei löytynyt.",
+  "common": {
+    "get_started": "Aloita",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Maali ja uloskäynti",
+    "well_done": "Hyvin tehty!",
+    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Ota hetki arvostaaksesi edistymistäsi.",
+    "time_to_complete": "Aika valmistua",
+    "back": "Takaisin",
+    "next": "Seuraavaksi",
+    "save": "Tallenna",
+    "loading": "Ladataan..."
+  }
 }

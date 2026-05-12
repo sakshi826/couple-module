@@ -76,5 +76,17 @@
   "buttons": {
     "continue": "Teruskan",
     "restart": "Mulakan semula"
+  },
+  "common": {
+    "get_started": "Bermula",
+    "start_over": "Mulakan Semula",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Syabas!",
+    "completion_message": "Anda telah berjaya menyelesaikan aktiviti ini. Luangkan sedikit masa untuk menghargai kemajuan anda.",
+    "time_to_complete": "Masa untuk melengkapkan",
+    "back": "Kembali",
+    "next": "Seterusnya",
+    "save": "Simpan",
+    "loading": "Memuatkan..."
   }
 }

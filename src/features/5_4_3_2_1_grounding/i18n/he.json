@@ -36,11 +36,15 @@
     }
   ],
   "common": {
-    "thank_you": "תודה",
-    "you_feel": "אתה מרגיש:",
-    "completion_message": "סיימת את תרגיל ההארקה. קח איתך את תחושת הנוכחות הזו כשאתה ממשיך את היום שלך.",
-    "start_again": "התחל מחדש",
-    "reflection_question": "במילה אחת, איך אתה מרגיש עכשיו?",
-    "reflection_placeholder": "למשל, רגוע, רגוע, מקורקע..."
+    "get_started": "תתחילו",
+    "start_over": "התחלה מחדש",
+    "finish_exit": "סיום ויציאה",
+    "well_done": "כל הכבוד!",
+    "completion_message": "השלמת את הפעילות הזו בהצלחה. קח רגע להעריך את ההתקדמות שלך.",
+    "time_to_complete": "הגיע הזמן להשלים",
+    "back": "חזרה",
+    "next": "הבא",
+    "save": "שמור",
+    "loading": "טוען..."
   }
 }

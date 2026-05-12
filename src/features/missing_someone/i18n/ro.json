@@ -22,5 +22,17 @@
     "desc": "Când iubești pe cineva, creierul tău eliberează dopamină, oxitocină și serotonină. Când se termină, acele niveluri scad. Creierul tău jelește — nu doar persoana, ci și sentimentul de apropiere.",
     "quote": "\"Faptul că îi simți dor nu înseamnă că ar trebui să te întorci. Inima ta jelește o legătură — nu neapărat persoana așa cum a fost cu adevărat.\"",
     "button": "Reflecția de finisaj"
+  },
+  "common": {
+    "get_started": "Începe",
+    "start_over": "Începeți de la zero",
+    "finish_exit": "Final și ieșire",
+    "well_done": "Bravo!",
+    "completion_message": "Ai finalizat cu succes această activitate. Ia-ți un moment să apreciezi progresul tău.",
+    "time_to_complete": "Timpul de finalizat",
+    "back": "Înapoi",
+    "next": "Următorul",
+    "save": "Salvează",
+    "loading": "Se încarcă..."
   }
 }

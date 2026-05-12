@@ -39,5 +39,17 @@
     "ease": "Qu’est-ce qui t’apporterait même 10 % de facilité ?",
     "kindness": "Quelle petite gentillesse pourrais-tu t’offrir aujourd’hui ?",
     "supported": "Qu’est-ce qui pourrait vous aider à vous sentir soutenu en ce moment ?"
+  },
+  "common": {
+    "get_started": "Commencez",
+    "start_over": "Recommencer à zéro",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bravo !",
+    "completion_message": "Vous avez réussi cette activité. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Il est temps de terminer",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Sauvegarder",
+    "loading": "Chargement..."
   }
 }

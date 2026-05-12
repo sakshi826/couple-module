@@ -3,7 +3,7 @@ import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 const Index = () => {
   return (
-    <PremiumLayout title="5-4-3-2-1 Grounding">
+    <PremiumLayout title={t("app_title", " title=")}>
       <div className="w-full">
         <GroundingExercise />
       </div>

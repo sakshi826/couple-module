@@ -35,5 +35,17 @@
   ],
   "btn_finish": "Viimeistelyn heijastus",
   "complete_title": "Matka kunnioitettu",
-  "complete_message": "Sinun ei tarvitse jatkaa eteenpäin. Opit vain kantamaan sitä eri tavalla. Matkasi on ainutlaatuinen, pätevä ja syvästi inhimillinen."
+  "complete_message": "Sinun ei tarvitse jatkaa eteenpäin. Opit vain kantamaan sitä eri tavalla. Matkasi on ainutlaatuinen, pätevä ja syvästi inhimillinen.",
+  "common": {
+    "get_started": "Aloita",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Maali ja uloskäynti",
+    "well_done": "Hyvin tehty!",
+    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Ota hetki arvostaaksesi edistymistäsi.",
+    "time_to_complete": "Aika valmistua",
+    "back": "Takaisin",
+    "next": "Seuraavaksi",
+    "save": "Tallenna",
+    "loading": "Ladataan..."
+  }
 }

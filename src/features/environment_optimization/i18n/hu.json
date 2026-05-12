@@ -31,5 +31,17 @@
   "not_found_title": "404 hiba: oldal nem talált meg",
   "not_found_text": "Az oldal, amit keresel, nem létezik.",
   "return_home": "Hazatérés",
-  "language_selector": "Kiválasztott nyelv"
+  "language_selector": "Kiválasztott nyelv",
+  "common": {
+    "get_started": "Kezdj el",
+    "start_over": "Kezdj újrakezdeni",
+    "finish_exit": "Befejezés és kilépés",
+    "well_done": "Szép munka!",
+    "completion_message": "Sikeresen teljesítetted ezt a feladatot. Szánj egy pillanatot, hogy értékeld a fejlődésedet.",
+    "time_to_complete": "Ideje befejezni",
+    "back": "Hátra",
+    "next": "Következő",
+    "save": "Mentés",
+    "loading": "Betöltés..."
+  }
 }

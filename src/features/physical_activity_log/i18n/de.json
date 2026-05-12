@@ -48,5 +48,17 @@
   "memory_desc": "Sport steigert die Durchblutung des Gehirns und trägt so zur Verbesserung des Gedächtnisses und der kognitiven Funktionen bei.",
   "stress_title": "Stressreaktion",
   "stress_desc": "Körperliche Aktivität senkt den Spiegel der Stresshormone und hilft dem Nervensystem, sich zu regenerieren.",
-  "app_name": "Protokoll der körperlichen Aktivität"
+  "app_name": "Protokoll der körperlichen Aktivität",
+  "common": {
+    "get_started": "Leg los",
+    "start_over": "Neu anfangen",
+    "finish_exit": "Ziel und Ausgang",
+    "well_done": "Gut gemacht!",
+    "completion_message": "Du hast diese Aktivität erfolgreich abgeschlossen. Nimm dir einen Moment Zeit, um deinen Fortschritt zu würdigen.",
+    "time_to_complete": "Zeit zum Abschluss",
+    "back": "Zurück",
+    "next": "Als Nächstes",
+    "save": "Speichern",
+    "loading": "Lädt..."
+  }
 }

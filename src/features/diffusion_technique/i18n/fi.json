@@ -87,5 +87,17 @@
   "label_choose_technique": "Valitse tekniikka",
   "label_current_thought": "Nykyinen ajatuksesi",
   "label_recurrent_thought": "Toistuva ajatus",
-  "label_remember_to_say": "Muista sanoa:"
+  "label_remember_to_say": "Muista sanoa:",
+  "common": {
+    "get_started": "Aloita",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Maali ja uloskäynti",
+    "well_done": "Hyvin tehty!",
+    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Ota hetki arvostaaksesi edistymistäsi.",
+    "time_to_complete": "Aika valmistua",
+    "back": "Takaisin",
+    "next": "Seuraavaksi",
+    "save": "Tallenna",
+    "loading": "Ladataan..."
+  }
 }

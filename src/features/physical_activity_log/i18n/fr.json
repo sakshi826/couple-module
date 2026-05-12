@@ -48,5 +48,17 @@
   "memory_desc": "L'exercice physique augmente le flux sanguin vers le cerveau, contribuant ainsi à améliorer la mémoire et les fonctions cognitives.",
   "stress_title": "Réponse au stress",
   "stress_desc": "L'activité physique réduit les hormones du stress et aide votre système nerveux à se réinitialiser.",
-  "app_name": "Journal d'activité physique"
+  "app_name": "Journal d'activité physique",
+  "common": {
+    "get_started": "Commencez",
+    "start_over": "Recommencer à zéro",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bravo !",
+    "completion_message": "Vous avez réussi cette activité. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Il est temps de terminer",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Sauvegarder",
+    "loading": "Chargement..."
+  }
 }

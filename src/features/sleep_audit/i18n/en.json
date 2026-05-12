@@ -29,15 +29,42 @@
     }
   },
   "options": [
-    { "emoji": "🕐", "text": "I go to bed at very different times each night" },
-    { "emoji": "💡", "text": "My sleep environment isn't dark, quiet, or comfortable" },
-    { "emoji": "📱", "text": "I scroll on my phone right before sleeping" },
-    { "emoji": "☕", "text": "I have caffeine or alcohol close to bedtime" },
-    { "emoji": "😵", "text": "I wake during the night and struggle to go back to sleep" },
-    { "emoji": "🧠", "text": "My mind races with thoughts when I try to sleep" },
-    { "emoji": "😔", "text": "I rarely feel refreshed after a night's sleep" }
+    {
+      "emoji": "🕐",
+      "text": "I go to bed at very different times each night"
+    },
+    {
+      "emoji": "💡",
+      "text": "My sleep environment isn't dark, quiet, or comfortable"
+    },
+    {
+      "emoji": "📱",
+      "text": "I scroll on my phone right before sleeping"
+    },
+    {
+      "emoji": "☕",
+      "text": "I have caffeine or alcohol close to bedtime"
+    },
+    {
+      "emoji": "😵",
+      "text": "I wake during the night and struggle to go back to sleep"
+    },
+    {
+      "emoji": "🧠",
+      "text": "My mind races with thoughts when I try to sleep"
+    },
+    {
+      "emoji": "😔",
+      "text": "I rarely feel refreshed after a night's sleep"
+    }
   ],
-  "rating_labels": ["Very poor", "Poor", "Okay", "Good", "Great"],
+  "rating_labels": [
+    "Very poor",
+    "Poor",
+    "Okay",
+    "Good",
+    "Great"
+  ],
   "status_labels": {
     "track": "Mostly on track",
     "disruptions": "Some disruptions",
@@ -63,5 +90,17 @@
     "save_success": "Audit saved",
     "save_error": "Failed to save audit",
     "auth_error": "Auth session missing or DB not configured"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading..."
   }
 }

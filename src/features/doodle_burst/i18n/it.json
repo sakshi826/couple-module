@@ -30,5 +30,17 @@
   "tool_undo": "Disfare",
   "tool_clear": "Chiaro",
   "share_doodle": "Share Doodle",
-  "share_text": "I loved this doodle burst activity at TherapyMantra, you can try too just download the app to explore for yourself\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888"
+  "share_text": "I loved this doodle burst activity at TherapyMantra, you can try too just download the app to explore for yourself\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888",
+  "common": {
+    "get_started": "Inizia",
+    "start_over": "Ricomincia",
+    "finish_exit": "Arrivo e uscita",
+    "well_done": "Ben fatto!",
+    "completion_message": "Hai completato con successo questa attività. Prenditi un momento per apprezzare i tuoi progressi.",
+    "time_to_complete": "È ora di completare",
+    "back": "Indietro",
+    "next": "Prossimo",
+    "save": "Salva",
+    "loading": "Caricamento..."
+  }
 }

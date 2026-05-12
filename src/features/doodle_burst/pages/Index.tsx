@@ -61,7 +61,8 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title="Doodle Burst" 
+      title={t("app_title", " 
+      title=")} 
       onReset={screen !== 'intro' ? () => setScreen('intro') : undefined}
     >
       <AnimatePresence mode="wait">

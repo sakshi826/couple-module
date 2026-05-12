@@ -30,5 +30,17 @@
   "tool_undo": "Membuka",
   "tool_clear": "Jernih",
   "share_doodle": "Share Doodle",
-  "share_text": "I loved this doodle burst activity at TherapyMantra, you can try too just download the app to explore for yourself\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888"
+  "share_text": "I loved this doodle burst activity at TherapyMantra, you can try too just download the app to explore for yourself\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888",
+  "common": {
+    "get_started": "Memulai",
+    "start_over": "Mulai Dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Bagus!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
+    "time_to_complete": "Waktu untuk menyelesaikan",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "save": "Simpan",
+    "loading": "Memuat..."
+  }
 }

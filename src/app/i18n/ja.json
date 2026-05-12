@@ -1,0 +1,223 @@
+{
+  "common": {
+    "get_started": "始めよう",
+    "start_over": "やり直し",
+    "finish_exit": "フィニッシュ&エグジット",
+    "well_done": "よくやった!",
+    "completion_message": "あなたはこの活動を無事に完了しました。自分の進歩を少しでも感じてみてください。",
+    "time_to_complete": "完了の時間だ",
+    "back": "戻る",
+    "next": "次",
+    "save": "セーブ",
+    "loading": "読み込み中...",
+    "today": "現在",
+    "yesterday": "昨日",
+    "filters": "フィルター",
+    "see_all": "全てを見る",
+    "meditation": "瞑想",
+    "guided": "ガイド付き",
+    "sleep": "眠れ",
+    "mindfulness": "マインドフルネス",
+    "restore": "リストア",
+    "curated": "マインドによるキュレーション",
+    "restorative": "修復",
+    "peace": "平和を",
+    "breath": "呼吸",
+    "nature": "自然",
+    "relax": "落ち着いて",
+    "time": {
+      "3min": "3分",
+      "5min": "5分",
+      "8min": "8分",
+      "10min": "10分",
+      "12min": "12分",
+      "15min": "15分",
+      "20min": "20分",
+      "30min": "30分",
+      "45min": "45分",
+      "60min": "60分"
+    }
+  },
+  "hub": {
+    "back_to_topics": "話題に戻る",
+    "guided_series": "ガイド付きシリーズ",
+    "start_guided_series": "ガイド付きシリーズを始めましょう",
+    "exercises": "演習",
+    "todos": "トゥ・ドゥの",
+    "resources": "資料",
+    "view_resource": "リソースを見る",
+    "search_placeholder": "トピックやアクティビティを検索してください...",
+    "how_are_you": "今日はどう?",
+    "self_care_resources": "セルフケアリソース",
+    "explore_tools": "メンタルウェルネスの旅のためのツールやガイダンスを探求しましょう",
+    "topics": "トピック",
+    "tools": "ツール",
+    "articles": "記事",
+    "tips": "ヒント",
+    "stories": "物語",
+    "myths": "神話"
+  },
+  "topics": {
+    "depression": {
+      "label": "うつ病",
+      "desc": "うつ症状の管理とレジリエンス構築を支援するエビデンスに基づくエクササイズとリソース。"
+    },
+    "anxiety": {
+      "label": "不安",
+      "desc": "不安を管理し、不安を軽減し、コントロール感を取り戻すための落ち着かせるテクニックと戦略。"
+    },
+    "stress": {
+      "label": "ストレス",
+      "desc": "ストレス管理、対処スキルの構築、生活のバランスを取り戻すための実践的なツールとエクササイズ。"
+    },
+    "adolescent": {
+      "label": "思春期",
+      "desc": "成長、アイデンティティ、感情的な課題を乗り越えるティーン向けに設計されたガイダンスとアクティビティ。"
+    },
+    "relationship": {
+      "label": "関係",
+      "desc": "つながりを強化し、コミュニケーションを改善し、健全な関係を築くためのツールと洞察。"
+    },
+    "workplace": {
+      "label": "職場",
+      "desc": "職場ストレスの管理、集中力の向上、ワークライフバランスの維持のための戦略。"
+    },
+    "sleep": {
+      "label": "眠れ",
+      "desc": "睡眠の質を向上させ、健康的な就寝習慣を身につけ、リフレッシュして目覚めるためのテクニックやトラッカー。"
+    },
+    "parenting": {
+      "label": "子育て",
+      "desc": "マインドフルな子育てをサポートし、燃え尽き症候群を減らし、家族の幸福を育むためのリソース。"
+    },
+    "anger": {
+      "label": "怒り",
+      "desc": "怒りを理解し、管理し、健全かつ建設的な方法で発散するためのテクニック。"
+    },
+    "grief": {
+      "label": "悲嘆",
+      "desc": "喪失を処理し、自分のペースで癒しを見つけるための思いやりのあるツールやエクササイズ。"
+    },
+    "ptsd": {
+      "label": "PTSD",
+      "desc": "トラウマ反応の管理と安全構築を支援するグラウンディングと安定化技術。"
+    },
+    "acceptance": {
+      "label": "受け入れ",
+      "desc": "受容を育み、抵抗を手放し、ありのままの人生を受け入れるためのエクササイズです。"
+    },
+    "postpartum": {
+      "label": "産後",
+      "desc": "産後の課題や感情の変化を管理する新米ママのための支援リソース。"
+    },
+    "sexuality": {
+      "label": "性的指向",
+      "desc": "アイデンティティを探求し、自己受容を築き、コミュニティを見つけるための安全で支え合うリソース。"
+    },
+    "eating-disorder": {
+      "label": "摂食障害",
+      "desc": "食べ物やボディイメージとの健康的な関係を築くためのサポート的なエクササイズやリソース。"
+    },
+    "ocd": {
+      "label": "強迫性障害(OCD)",
+      "desc": "強迫的思考や強迫行動を管理するためのエビデンスに基づく技術。"
+    }
+  },
+  "tools": {
+    "box-breathing": "ボックス呼吸",
+    "gratitude-tracker": "感謝トラッカー",
+    "deep-breathing": "深呼吸",
+    "affirmations": "アファメーション",
+    "mindful-space": "マインドフル・スペース",
+    "letter-to-self": "自分自身への手紙",
+    "sleep-tracker": "睡眠トラッカー"
+  },
+  "moods": {
+    "great": "素晴らしい",
+    "good": "よし",
+    "okay": "わかった",
+    "down": "伏せろ",
+    "sad": "悲しい"
+  },
+  "nav": {
+    "home": "ホーム",
+    "care_team": "ケアチーム",
+    "appointments": "任命",
+    "tasks": "任務",
+    "insights": "洞察",
+    "billing": "請求",
+    "profile": "プロフィール",
+    "invite_friend": "ゲストから友人へ",
+    "feedback": "フィードバックを共有する",
+    "support": "支援",
+    "sign_out": "サインアウト"
+  },
+  "journal": {
+    "title": "ジャーナル",
+    "subtitle": "自分の考えや感情、日々の経験を記録しましょう",
+    "new_entry": "新規参入",
+    "search_placeholder": "日記の記録を検索してください...",
+    "filter_by_mood": "気分でフィルター:",
+    "all_moods": "すべてのムード",
+    "no_entries": "記録は見つかりません",
+    "adjust_search": "検索やフィルターを調整してみてください",
+    "start_journey": "今日からジャーナリングの旅を始めましょう",
+    "write_first": "最初のエントリーを書いてください",
+    "mood": {
+      "great": "素晴らしい",
+      "good": "よし",
+      "okay": "わかった",
+      "sad": "悲しい",
+      "anxious": "不安"
+    },
+    "sample": {
+      "1": {
+        "title": "あなたの最初の考え",
+        "content": "まずは思ったことを書き出しましょう。ジャーナリングは自己反省と精神の明晰さを助ける強力なツールです。"
+      }
+    }
+  },
+  "mindfulness": {
+    "title": "マインドフルネス・セルフケア",
+    "subtitle": "専門家によるマインドフルネスツールとガイド付きセッションで、あなたのウェルネスの旅をサポートします",
+    "featured_mantra": "Mantraに掲載",
+    "browse_category": "カテゴリ別閲覧",
+    "new_noteworthy": "新作と注目すべき点",
+    "browse_goal": "ゴール別閲覧",
+    "browse_time": "時間による閲覧",
+    "daily_program": "日々のプログラムを見つける",
+    "daily_program_desc": "各プログラムの意図に気をつけてください",
+    "featured_collections": "注目コレクション",
+    "featured": {
+      "anxiety": "不安を落ち着かせる",
+      "relaxation": "ディープリラクゼーションのためのスキル",
+      "peace": "内なる平和の旅",
+      "mountain": "山の静寂"
+    },
+    "goal": {
+      "beginners": "初心者向け",
+      "beginners_desc": "マインドフルネスの旅を始めましょう",
+      "grief": "悲しみへの対処",
+      "grief_desc": "平和と癒しを見つけてください"
+    },
+    "collection": {
+      "students": "学生向け",
+      "students_desc": "集中して勉強をもっと上手くしましょう",
+      "grief": "悲しみへの対処",
+      "grief_desc": "平和と癒しを見つけてください",
+      "sleep": "ベタースリープ",
+      "sleep_desc": "深く休んで充電してください",
+      "stress": "ストレス解消",
+      "stress_desc": "心と体を落ち着かせましょう"
+    },
+    "category": {
+      "meditation": "瞑想",
+      "concentration": "集中",
+      "music": "音楽",
+      "creatures": "生き物",
+      "soundscapes": "サウンドスケープ",
+      "students": "学生",
+      "affirmations": "アファメーション"
+    }
+  }
+}

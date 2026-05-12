@@ -39,5 +39,17 @@
     "ease": "Apa yang akan memberi Anda 10% lebih mudah?",
     "kindness": "Kebaikan kecil apa yang dapat Anda tawarkan kepada diri Anda hari ini?",
     "supported": "Apa yang akan membantu Anda merasa didukung pada saat ini?"
+  },
+  "common": {
+    "get_started": "Memulai",
+    "start_over": "Mulai Dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Bagus!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
+    "time_to_complete": "Waktu untuk menyelesaikan",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "save": "Simpan",
+    "loading": "Memuat..."
   }
 }

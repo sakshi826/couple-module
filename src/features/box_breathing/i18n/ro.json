@@ -17,5 +17,20 @@
   "back": "Înapoi",
   "not_found_404": "404",
   "page_not_found": "Ups! Pagină negăsită",
-  "return_home": "Întoarcerea acasă"
+  "return_home": "Întoarcerea acasă",
+  "common": {
+    "get_started": "Începe",
+    "start_over": "Începeți de la zero",
+    "finish_exit": "Final și ieșire",
+    "well_done": "Bravo!",
+    "completion_message": "Ai finalizat cu succes această activitate. Ia-ți un moment să apreciezi progresul tău.",
+    "time_to_complete": "Timpul de finalizat",
+    "back": "Înapoi",
+    "next": "Următorul",
+    "save": "Salvează",
+    "loading": "Se încarcă..."
+  },
+  "app_title": "Respirația în cutie",
+  "app_complete_title": "Bravo!",
+  "app_complete_message": "Ai terminat sesiunea Box Breathing. Ar trebui să te simți mai echilibrat și calm."
 }

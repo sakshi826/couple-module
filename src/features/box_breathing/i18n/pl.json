@@ -17,5 +17,20 @@
   "back": "Z powrotem",
   "not_found_404": "404",
   "page_not_found": "Ups! Strona nie została znaleziona",
-  "return_home": "Powrót do strony głównej"
+  "return_home": "Powrót do strony głównej",
+  "common": {
+    "get_started": "Zacznij",
+    "start_over": "Start From",
+    "finish_exit": "Koniec i wyjście",
+    "well_done": "Brawo!",
+    "completion_message": "Udało ci się ukończyć tę aktywność. Poświęć chwilę, by docenić swoje postępy.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Z powrotem",
+    "next": "Następny",
+    "save": "Zapisz",
+    "loading": "Ładowanie..."
+  },
+  "app_title": "Oddychanie pudełkowe",
+  "app_complete_title": "Świetna robota!",
+  "app_complete_message": "Ukończyłeś sesję Box Breathing. Powinieneś czuć się bardziej zrównoważony i spokojny."
 }

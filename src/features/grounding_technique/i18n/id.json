@@ -64,5 +64,17 @@
   "Close your eyes if comfortable.": "Tutup mata Anda jika merasa nyaman.",
   "Scan from head to toe.": "Periksa dari kepala hingga kaki.",
   "Notice areas of tension or ease.": "Perhatikan area-area yang tegang atau rileks.",
-  "Breathe into any tightness.": "Bernapaslah saat rasa tegang muncul."
+  "Breathe into any tightness.": "Bernapaslah saat rasa tegang muncul.",
+  "common": {
+    "get_started": "Memulai",
+    "start_over": "Mulai Dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Bagus!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
+    "time_to_complete": "Waktu untuk menyelesaikan",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "save": "Simpan",
+    "loading": "Memuat..."
+  }
 }

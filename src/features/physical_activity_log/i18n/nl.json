@@ -48,5 +48,17 @@
   "memory_desc": "Beweging verhoogt de bloedtoevoer naar de hersenen, wat helpt het geheugen en de cognitieve functie te verbeteren.",
   "stress_title": "Stressrespons",
   "stress_desc": "Lichamelijke activiteit verlaagt stresshormonen en helpt je zenuwstelsel te resetten.",
-  "app_name": "Logboek van lichamelijke activiteit"
+  "app_name": "Logboek van lichamelijke activiteit",
+  "common": {
+    "get_started": "Begin",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Goed gedaan!",
+    "completion_message": "Je hebt deze activiteit succesvol voltooid. Neem even de tijd om je vooruitgang te waarderen.",
+    "time_to_complete": "Tijd om af te ronden",
+    "back": "Achteruit",
+    "next": "Volgende",
+    "save": "Sla op",
+    "loading": "Laden..."
+  }
 }

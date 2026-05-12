@@ -36,11 +36,15 @@
     }
   ],
   "common": {
-    "thank_you": "Salamat",
-    "you_feel": "Nararamdaman mo:",
-    "completion_message": "Nakumpleto mo na ang grounding exercise. Dalhin ang pakiramdam ng presensya na ito sa iyo habang nagpapatuloy ka sa iyong araw.",
-    "start_again": "Magsimula Muli",
-    "reflection_question": "Sa isang salita, ano ang nararamdaman mo ngayon?",
-    "reflection_placeholder": "E.G. kalmado, ginhawa, nakabatay sa lupa..."
+    "get_started": "Email Address *",
+    "start_over": "Magsimulang Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Mahusay na ginawa!",
+    "completion_message": "Matagumpay mong nakumpleto ang aktibidad na ito. Maglaan ng ilang sandali upang pahalagahan ang iyong pag-unlad.",
+    "time_to_complete": "Oras na para makumpleto",
+    "back": "Bumalik",
+    "next": "Susunod",
+    "save": "I-save",
+    "loading": "Naglo-load..."
   }
 }

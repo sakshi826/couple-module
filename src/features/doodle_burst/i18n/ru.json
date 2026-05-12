@@ -30,5 +30,17 @@
   "tool_undo": "Отменить",
   "tool_clear": "Прозрачный",
   "share_doodle": "Share Doodle",
-  "share_text": "I loved this doodle burst activity at TherapyMantra, you can try too just download the app to explore for yourself\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888"
+  "share_text": "I loved this doodle burst activity at TherapyMantra, you can try too just download the app to explore for yourself\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888",
+  "common": {
+    "get_started": "Начните",
+    "start_over": "Начать заново",
+    "finish_exit": "Финиш и выход",
+    "well_done": "Молодец!",
+    "completion_message": "Вы успешно выполнили это задание. Уделите минуту, чтобы оценить свой прогресс.",
+    "time_to_complete": "Время завершить",
+    "back": "Назад",
+    "next": "Далее",
+    "save": "Сохранить",
+    "loading": "Загрузка..."
+  }
 }

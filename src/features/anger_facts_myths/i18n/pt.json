@@ -54,5 +54,17 @@
       "realFact": "Outras pessoas podem desencadear sua raiva, mas a forma como você responde é sua responsabilidade — e seu poder. Assumir a responsabilidade pelas suas reações não significa que a outra pessoa estava certa. Significa que você está escolhendo como aparecer. Isso é empoderamento, não culpa.",
       "example": "Alguém te corta no trânsito. Você sente raiva — isso é normal. Mas você escolhe se se enfurece ou respira. A escolha é sua."
     }
-  ]
+  ],
+  "common": {
+    "get_started": "Comece",
+    "start_over": "Recomeçar",
+    "finish_exit": "Fim e Saída",
+    "well_done": "Parabéns!",
+    "completion_message": "Você completou esta atividade com sucesso. Reserve um momento para apreciar seu progresso.",
+    "time_to_complete": "Hora de concluir",
+    "back": "Voltar",
+    "next": "Próximo",
+    "save": "Salvar",
+    "loading": "Carregando..."
+  }
 }

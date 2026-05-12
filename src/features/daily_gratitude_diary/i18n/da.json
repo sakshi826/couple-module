@@ -30,5 +30,19 @@
   "back": "Tilbage",
   "not_found_title": "404",
   "not_found_text": "Ups! Side ikke fundet",
-  "return_home": "Tilbage til Hjem"
+  "return_home": "Tilbage til Hjem",
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start forfra",
+    "finish_exit": "Afslutning og exit",
+    "well_done": "Godt gået!",
+    "completion_message": "Du har gennemført denne aktivitet med succes. Tag et øjeblik til at værdsætte dine fremskridt.",
+    "time_to_complete": "Tid til at gennemføre",
+    "back": "Tilbage",
+    "next": "Næste",
+    "save": "Gem",
+    "loading": "Indlæser..."
+  },
+  "app_complete_title": "Taknemmelighed reddet",
+  "app_complete_message": "At reflektere over, hvad du er taknemmelig for, er en stærk måde at flytte dit fokus til det positive."
 }

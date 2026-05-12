@@ -17,5 +17,20 @@
   "back": "Takaisin",
   "not_found_404": "404",
   "page_not_found": "Hups! Sivua ei löydy",
-  "return_home": "Paluu kotiin"
+  "return_home": "Paluu kotiin",
+  "common": {
+    "get_started": "Aloita",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Maali ja uloskäynti",
+    "well_done": "Hyvin tehty!",
+    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Ota hetki arvostaaksesi edistymistäsi.",
+    "time_to_complete": "Aika valmistua",
+    "back": "Takaisin",
+    "next": "Seuraavaksi",
+    "save": "Tallenna",
+    "loading": "Ladataan..."
+  },
+  "app_title": "Laatikkohengitys",
+  "app_complete_title": "Hyvää työtä!",
+  "app_complete_message": "Olet suorittanut Box Breathing -harjoituksen. Sinun pitäisi tuntea olosi tasapainoisemmaksi ja rauhallisemmaksi."
 }

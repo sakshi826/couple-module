@@ -54,5 +54,17 @@
       "realFact": "Orang lain dapat memicu kemarahan Anda, tetapi bagaimana Anda merespons adalah tanggung jawab Anda - dan kekuatan Anda. Mengambil kepemilikan atas reaksi Anda tidak berarti orang lain benar. Itu berarti Anda memilih cara muncul. Itu pemberdayaan, bukan menyalahkan.",
       "example": "Seseorang memotong Anda dalam lalu lintas. Anda merasa marah - itu normal. Tetapi Anda memilih apakah akan mengamuk atau menarik napas. Pilihan ada di tangan Anda."
     }
-  ]
+  ],
+  "common": {
+    "get_started": "Memulai",
+    "start_over": "Mulai Dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Bagus!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
+    "time_to_complete": "Waktu untuk menyelesaikan",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "save": "Simpan",
+    "loading": "Memuat..."
+  }
 }

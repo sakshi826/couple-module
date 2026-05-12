@@ -48,5 +48,19 @@
     "sleep": "Vá dormir cedo",
     "yoga": "Experimente yoga",
     "dance": "Dance ao som de uma música"
-  }
+  },
+  "common": {
+    "get_started": "Comece",
+    "start_over": "Recomeçar",
+    "finish_exit": "Fim e Saída",
+    "well_done": "Parabéns!",
+    "completion_message": "Você completou esta atividade com sucesso. Reserve um momento para apreciar seu progresso.",
+    "time_to_complete": "Hora de concluir",
+    "back": "Voltar",
+    "next": "Próximo",
+    "save": "Salvar",
+    "loading": "Carregando..."
+  },
+  "complete_title": "Mestre do Bingo!",
+  "complete_message": "Parabéns! Você completou com sucesso uma linha de autocuidado. Sua mente e corpo, obrigado."
 }

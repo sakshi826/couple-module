@@ -30,5 +30,17 @@
   "tool_undo": "Visszavonás",
   "tool_clear": "Tiszta",
   "share_doodle": "Ossz Doodle-t",
-  "share_text": "Imádtam ezt a firkál-burst tevékenységet a TherapyMantrán, te is próbálkozhatsz, csak töltsd le az alkalmazást, hogy felfedezd magad\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888"
+  "share_text": "Imádtam ezt a firkál-burst tevékenységet a TherapyMantrán, te is próbálkozhatsz, csak töltsd le az alkalmazást, hogy felfedezd magad\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888",
+  "common": {
+    "get_started": "Kezdj el",
+    "start_over": "Kezdj újrakezdeni",
+    "finish_exit": "Befejezés és kilépés",
+    "well_done": "Szép munka!",
+    "completion_message": "Sikeresen teljesítetted ezt a feladatot. Szánj egy pillanatot, hogy értékeld a fejlődésedet.",
+    "time_to_complete": "Ideje befejezni",
+    "back": "Hátra",
+    "next": "Következő",
+    "save": "Mentés",
+    "loading": "Betöltés..."
+  }
 }

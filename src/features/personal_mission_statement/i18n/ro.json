@@ -48,5 +48,17 @@
   "history_empty": "Nu ai salvat încă nicio declarație de misiune.",
   "history_empty_hint": "Când ești gata, creează unul și va apărea aici.",
   "history_back": "Întoarce-te",
-  "history_delete_aria": "Șterge această reflecție"
+  "history_delete_aria": "Șterge această reflecție",
+  "common": {
+    "get_started": "Începe",
+    "start_over": "Începeți de la zero",
+    "finish_exit": "Final și ieșire",
+    "well_done": "Bravo!",
+    "completion_message": "Ai finalizat cu succes această activitate. Ia-ți un moment să apreciezi progresul tău.",
+    "time_to_complete": "Timpul de finalizat",
+    "back": "Înapoi",
+    "next": "Următorul",
+    "save": "Salvează",
+    "loading": "Se încarcă..."
+  }
 }

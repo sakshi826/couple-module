@@ -1,0 +1,223 @@
+{
+  "common": {
+    "get_started": "Email Address *",
+    "start_over": "Magsimulang Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Mahusay na ginawa!",
+    "completion_message": "Matagumpay mong nakumpleto ang aktibidad na ito. Maglaan ng ilang sandali upang pahalagahan ang iyong pag-unlad.",
+    "time_to_complete": "Oras na para makumpleto",
+    "back": "Bumalik",
+    "next": "Susunod",
+    "save": "I-save",
+    "loading": "Naglo-load...",
+    "today": "Ngayong araw",
+    "yesterday": "Kahapon",
+    "filters": "Mga filter",
+    "see_all": "Tingnan ang Lahat",
+    "meditation": "Pagmumuni-muni",
+    "guided": "Gabayan",
+    "sleep": "Pagtulog",
+    "mindfulness": "Pag-iisip",
+    "restore": "Ibalik",
+    "curated": "Na-curate sa pamamagitan ng pag-iisip",
+    "restorative": "Pagpapanumbalik",
+    "peace": "Kapayapaan",
+    "breath": "Hininga",
+    "nature": "Kalikasan",
+    "relax": "Email Address *",
+    "time": {
+      "3min": "3 minuto",
+      "5min": "5 minuto",
+      "8min": "8 minuto",
+      "10min": "10 minuto",
+      "12min": "12 minuto",
+      "15min": "15 minuto",
+      "20min": "20 minuto",
+      "30min": "30 minuto",
+      "45min": "45 minuto",
+      "60min": "60 minuto"
+    }
+  },
+  "hub": {
+    "back_to_topics": "Bumalik sa Mga Paksa",
+    "guided_series": "Gabay na Serye",
+    "start_guided_series": "Simulan ang gabay na serye",
+    "exercises": "Mga Pagsasanay",
+    "todos": "Mga Dapat Gawin",
+    "resources": "Mga Mapagkukunan",
+    "view_resource": "Tingnan ang mapagkukunan",
+    "search_placeholder": "Hanapin ang mga paksa o gawain ...",
+    "how_are_you": "Kumusta ang pakiramdam mo ngayon?",
+    "self_care_resources": "Mga Mapagkukunan ng Pangangalaga sa Sarili",
+    "explore_tools": "Galugarin ang mga tool at patnubay para sa iyong paglalakbay sa kalusugang pangkaisipan",
+    "topics": "Mga Paksa",
+    "tools": "Mga Tool",
+    "articles": "Mga artikulo",
+    "tips": "Mga Tip",
+    "stories": "Mga Kuwento",
+    "myths": "Mga Mito"
+  },
+  "topics": {
+    "depression": {
+      "label": "Depresyon",
+      "desc": "Mga ehersisyo at mapagkukunan na nakabatay sa ebidensya upang matulungan kang pamahalaan ang mga sintomas ng depresyon at bumuo ng katatagan."
+    },
+    "anxiety": {
+      "label": "Pagkabalisa",
+      "desc": "Mga diskarte at diskarte sa pagpapatahimik upang pamahalaan ang pagkabalisa, mabawasan ang pag-aalala, at mabawi ang isang pakiramdam ng kontrol."
+    },
+    "stress": {
+      "label": "Stress",
+      "desc": "Mga praktikal na tool at pagsasanay upang pamahalaan ang stress, bumuo ng mga kasanayan sa pagharap, at ibalik ang balanse sa iyong buhay."
+    },
+    "adolescent": {
+      "label": "Kabataan",
+      "desc": "Patnubay at mga aktibidad na idinisenyo para sa mga kabataan na nag-navigate sa paglago, pagkakakilanlan, at emosyonal na hamon."
+    },
+    "relationship": {
+      "label": "Relasyon",
+      "desc": "Mga tool at pananaw upang palakasin ang mga koneksyon, pagbutihin ang komunikasyon, at bumuo ng mas malusog na relasyon."
+    },
+    "workplace": {
+      "label": "Lugar ng trabaho",
+      "desc": "Mga estratehiya upang pamahalaan ang stress sa lugar ng trabaho, pagbutihin ang pokus, at mapanatili ang balanse sa trabaho-buhay."
+    },
+    "sleep": {
+      "label": "Pagtulog",
+      "desc": "Mga pamamaraan at tracker upang mapabuti ang kalidad ng iyong pagtulog, bumuo ng malusog na gawi sa oras ng pagtulog, at gumising na nire-refresh."
+    },
+    "parenting": {
+      "label": "Pagiging magulang",
+      "desc": "Mga mapagkukunan upang suportahan ang maingat na pagiging magulang, mabawasan ang burnout, at pangalagaan ang kagalingan ng iyong pamilya."
+    },
+    "anger": {
+      "label": "Galit",
+      "desc": "Mga pamamaraan upang maunawaan, pamahalaan, at i-channel ang galit sa malusog at nakabubuo na paraan."
+    },
+    "grief": {
+      "label": "Kalungkutan",
+      "desc": "Mahabagin na mga tool at ehersisyo upang matulungan kang iproseso ang pagkawala at makahanap ng pagpapagaling sa iyong sariling bilis."
+    },
+    "ptsd": {
+      "label": "PTSD",
+      "desc": "Mga pamamaraan ng grounding at pagpapatatag upang makatulong na pamahalaan ang mga tugon sa trauma at bumuo ng kaligtasan."
+    },
+    "acceptance": {
+      "label": "Pagtanggap",
+      "desc": "Mga pagsasanay upang linangin ang pagtanggap, bitawan ang paglaban, at yakapin ang buhay kung ano ito."
+    },
+    "postpartum": {
+      "label": "Postpartum",
+      "desc": "Mga mapagkukunan ng suporta para sa mga bagong ina na namamahala sa mga hamon sa postpartum at emosyonal na pagbabago."
+    },
+    "sexuality": {
+      "label": "Sekswalidad",
+      "desc": "Ligtas at sumusuporta sa mga mapagkukunan upang galugarin ang pagkakakilanlan, bumuo ng pagtanggap sa sarili, at makahanap ng komunidad."
+    },
+    "eating-disorder": {
+      "label": "Karamdaman sa Pagkain",
+      "desc": "Mga suportang ehersisyo at mapagkukunan upang bumuo ng isang mas malusog na relasyon sa pagkain at imahe ng katawan."
+    },
+    "ocd": {
+      "label": "OCD",
+      "desc": "Mga pamamaraan na nakabatay sa ebidensya upang pamahalaan ang mga obsessive na pag-iisip at mapilit na pag-uugali."
+    }
+  },
+  "tools": {
+    "box-breathing": "Kahon ng Paghinga",
+    "gratitude-tracker": "Tagasubaybay ng Pasasalamat",
+    "deep-breathing": "Malalim na paghinga",
+    "affirmations": "Mga Pagpapatibay",
+    "mindful-space": "Mindful Space",
+    "letter-to-self": "Isang Liham Para sa Sarili",
+    "sleep-tracker": "Tagasubaybay ng Pagtulog"
+  },
+  "moods": {
+    "great": "Mahusay",
+    "good": "Mabuti",
+    "okay": "Okay",
+    "down": "Pababa",
+    "sad": "Malungkot"
+  },
+  "nav": {
+    "home": "Tahanan",
+    "care_team": "Koponan ng Pangangalaga",
+    "appointments": "Email Address *",
+    "tasks": "Mga gawain",
+    "insights": "Mga Pananaw",
+    "billing": "Email Address *",
+    "profile": "Profile",
+    "invite_friend": "Panauhin sa Kaibigan",
+    "feedback": "Ibahagi ang Feedback",
+    "support": "Suporta",
+    "sign_out": "Mag-sign Out"
+  },
+  "journal": {
+    "title": "Journal",
+    "subtitle": "Idokumento ang iyong mga saloobin, damdamin, at pang-araw-araw na karanasan",
+    "new_entry": "Bagong Entry",
+    "search_placeholder": "Hanapin ang Iyong Mga Entry sa Journal ...",
+    "filter_by_mood": "I-filter ayon sa mood:",
+    "all_moods": "Lahat ng Moods",
+    "no_entries": "Walang natagpuang mga entry",
+    "adjust_search": "Subukang ayusin ang iyong paghahanap o mga filter",
+    "start_journey": "Simulan ang Iyong Paglalakbay sa Journaling Ngayon",
+    "write_first": "Isulat ang Iyong Unang Entry",
+    "mood": {
+      "great": "Mahusay",
+      "good": "Mabuti",
+      "okay": "Okay",
+      "sad": "Malungkot",
+      "anxious": "Pagkabalisa"
+    },
+    "sample": {
+      "1": {
+        "title": "Ang Iyong Unang Pag-iisip",
+        "content": "Magsimula sa pagsulat kung ano ang nasa isip mo. Ang journaling ay isang mabisang tool para sa pagmumuni-muni sa sarili at kalinawan sa kaisipan."
+      }
+    }
+  },
+  "mindfulness": {
+    "title": "Pag-aalaga sa Sarili ng Pag-iisip",
+    "subtitle": "Mga tool sa pag-iisip ng dalubhasang pag-iisip at mga gabay na sesyon para sa iyong paglalakbay sa kalusugan",
+    "featured_mantra": "Itinampok sa Mantra",
+    "browse_category": "Mag-browse ayon sa Kategorya",
+    "new_noteworthy": "Bago at kapansin-pansin",
+    "browse_goal": "Mag-browse ayon sa Layunin",
+    "browse_time": "Mag-browse sa pamamagitan ng Oras",
+    "daily_program": "Maghanap ng pang-araw-araw na programa",
+    "daily_program_desc": "Isaalang-alang ang iyong mga intensyon para sa bawat programa",
+    "featured_collections": "Mga Tampok na Koleksyon",
+    "featured": {
+      "anxiety": "Pagpapatahimik ng Pagkabalisa",
+      "relaxation": "Mga Kasanayan para sa Malalim na Pagpapahinga",
+      "peace": "Panloob na Paglalakbay sa Kapayapaan",
+      "mountain": "Katahimikan ng Bundok"
+    },
+    "goal": {
+      "beginners": "Para sa mga nagsisimula",
+      "beginners_desc": "Simulan ang iyong paglalakbay sa pag-iisip",
+      "grief": "Pagharap sa Kalungkutan",
+      "grief_desc": "Hanapin ang kapayapaan at kagalingan"
+    },
+    "collection": {
+      "students": "Para sa mga mag-aaral",
+      "students_desc": "Magpokus at mag-aral nang mas mabuti",
+      "grief": "Pagharap sa Kalungkutan",
+      "grief_desc": "Hanapin ang kapayapaan at kagalingan",
+      "sleep": "Mas mahusay na pagtulog",
+      "sleep_desc": "Magpahinga at mag-recharge nang malalim",
+      "stress": "Pag-alis ng Stress",
+      "stress_desc": "Kalmado ang Iyong Isip at Katawan"
+    },
+    "category": {
+      "meditation": "Pagmumuni-muni",
+      "concentration": "Konsentrasyon",
+      "music": "Musika",
+      "creatures": "Mga nilalang",
+      "soundscapes": "Mga Soundscape",
+      "students": "Mga mag-aaral",
+      "affirmations": "Mga Pagpapatibay"
+    }
+  }
+}

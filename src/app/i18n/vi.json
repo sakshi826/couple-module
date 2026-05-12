@@ -1,0 +1,223 @@
+{
+  "common": {
+    "get_started": "Bắt đầu",
+    "start_over": "Bắt đầu lại",
+    "finish_exit": "Kết thúc & Thoát",
+    "well_done": "Làm tốt lắm!",
+    "completion_message": "Bạn đã hoàn thành thành công hoạt động này. Hãy dành một chút thời gian để đánh giá cao sự tiến bộ của bạn.",
+    "time_to_complete": "Thời gian hoàn thành",
+    "back": "Quay lại",
+    "next": "Kế tiếp",
+    "save": "Lưu",
+    "loading": "Đang tải...",
+    "today": "Hôm nay",
+    "yesterday": "Hôm qua",
+    "filters": "Bộ lọc",
+    "see_all": "Xem tất cả",
+    "meditation": "Thiền định",
+    "guided": "Có hướng dẫn",
+    "sleep": "Ngủ",
+    "mindfulness": "Chánh niệm",
+    "restore": "Khôi phục",
+    "curated": "Giám tuyển bởi tâm trí",
+    "restorative": "Phục hồi",
+    "peace": "Hòa bình",
+    "breath": "Hơi thở",
+    "nature": "Thiên nhiên",
+    "relax": "Thư giãn",
+    "time": {
+      "3min": "3 phút",
+      "5min": "5 phút",
+      "8min": "8 phút",
+      "10min": "10 phút",
+      "12min": "12 phút",
+      "15min": "15 phút",
+      "20min": "20 phút",
+      "30min": "30 phút",
+      "45min": "45 phút",
+      "60min": "60 phút"
+    }
+  },
+  "hub": {
+    "back_to_topics": "Quay lại chủ đề",
+    "guided_series": "Dòng hướng dẫn",
+    "start_guided_series": "Bắt đầu loạt bài hướng dẫn",
+    "exercises": "Bài tập",
+    "todos": "Việc cần làm",
+    "resources": "Tài nguyên",
+    "view_resource": "Xem tài nguyên",
+    "search_placeholder": "Tìm kiếm chủ đề hoặc hoạt động...",
+    "how_are_you": "Hôm nay bạn cảm thấy thế nào?",
+    "self_care_resources": "Tài nguyên tự chăm sóc",
+    "explore_tools": "Khám phá các công cụ và hướng dẫn cho hành trình chăm sóc sức khỏe tinh thần của bạn",
+    "topics": "Chủ đề",
+    "tools": "Công cụ",
+    "articles": "Bài viết",
+    "tips": "Lời khuyên",
+    "stories": "Câu chuyện",
+    "myths": "Huyền thoại"
+  },
+  "topics": {
+    "depression": {
+      "label": "Trầm cảm",
+      "desc": "Các bài tập và tài nguyên dựa trên bằng chứng để giúp bạn kiểm soát các triệu chứng trầm cảm và xây dựng khả năng phục hồi."
+    },
+    "anxiety": {
+      "label": "Lo lắng",
+      "desc": "Các kỹ thuật và chiến lược làm dịu để kiểm soát lo lắng, giảm lo lắng và lấy lại cảm giác kiểm soát."
+    },
+    "stress": {
+      "label": "Căng thẳng",
+      "desc": "Các công cụ và bài tập thiết thực để quản lý căng thẳng, xây dựng kỹ năng đối phó và khôi phục lại sự cân bằng trong cuộc sống của bạn."
+    },
+    "adolescent": {
+      "label": "Vị thành niên",
+      "desc": "Hướng dẫn và các hoạt động được thiết kế cho thanh thiếu niên điều hướng những thách thức về sự phát triển, bản sắc và cảm xúc."
+    },
+    "relationship": {
+      "label": "Mối quan hệ",
+      "desc": "Các công cụ và thông tin chi tiết để tăng cường kết nối, cải thiện giao tiếp và xây dựng các mối quan hệ lành mạnh hơn."
+    },
+    "workplace": {
+      "label": "Nơi làm việc",
+      "desc": "Các chiến lược để quản lý căng thẳng tại nơi làm việc, cải thiện sự tập trung và duy trì sự cân bằng giữa công việc và cuộc sống."
+    },
+    "sleep": {
+      "label": "Ngủ",
+      "desc": "Các kỹ thuật và công cụ theo dõi để cải thiện chất lượng giấc ngủ của bạn, xây dựng thói quen đi ngủ lành mạnh và thức dậy sảng khoái."
+    },
+    "parenting": {
+      "label": "Nuôi dạy con cái",
+      "desc": "Các nguồn lực để hỗ trợ nuôi dạy con cái có chánh niệm, giảm kiệt sức và nuôi dưỡng hạnh phúc của gia đình bạn."
+    },
+    "anger": {
+      "label": "Tức giận",
+      "desc": "Kỹ thuật để hiểu, quản lý và chuyển sự tức giận theo những cách lành mạnh và mang tính xây dựng."
+    },
+    "grief": {
+      "label": "Đau buồn",
+      "desc": "Các công cụ và bài tập nhân ái để giúp bạn xử lý sự mất mát và tìm thấy sự chữa lành theo tốc độ của riêng bạn."
+    },
+    "ptsd": {
+      "label": "PTSD",
+      "desc": "Kỹ thuật nối đất và ổn định để giúp quản lý các phản ứng chấn thương và xây dựng sự an toàn."
+    },
+    "acceptance": {
+      "label": "Chấp nhận",
+      "desc": "Các bài tập để trau dồi sự chấp nhận, buông bỏ sự kháng cự và đón nhận cuộc sống như nó vốn có."
+    },
+    "postpartum": {
+      "label": "Sau sinh",
+      "desc": "Các nguồn hỗ trợ cho các bà mẹ mới sinh quản lý những thách thức sau sinh và thay đổi cảm xúc."
+    },
+    "sexuality": {
+      "label": "Tình dục",
+      "desc": "Các nguồn lực an toàn và hỗ trợ để khám phá bản sắc, xây dựng sự chấp nhận bản thân và tìm kiếm cộng đồng."
+    },
+    "eating-disorder": {
+      "label": "Rối loạn ăn uống",
+      "desc": "Các bài tập và tài nguyên hỗ trợ để xây dựng mối quan hệ lành mạnh hơn với thực phẩm và hình ảnh cơ thể."
+    },
+    "ocd": {
+      "label": "OCD",
+      "desc": "Các kỹ thuật dựa trên bằng chứng để quản lý những suy nghĩ ám ảnh và hành vi cưỡng chế."
+    }
+  },
+  "tools": {
+    "box-breathing": "Thở hộp",
+    "gratitude-tracker": "Trình theo dõi lòng biết ơn",
+    "deep-breathing": "Hít thở sâu",
+    "affirmations": "Lời khẳng định",
+    "mindful-space": "Không gian chánh niệm",
+    "letter-to-self": "Một lá thư gửi cho bản thân",
+    "sleep-tracker": "Theo dõi giấc ngủ"
+  },
+  "moods": {
+    "great": "Tuyệt vời",
+    "good": "Tốt",
+    "okay": "Được rồi",
+    "down": "Xuống",
+    "sad": "Buồn"
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "care_team": "Đội ngũ chăm sóc",
+    "appointments": "Cuộc hẹn",
+    "tasks": "Nhiệm vụ",
+    "insights": "Thông tin chi tiết",
+    "billing": "Thanh toán",
+    "profile": "Tiểu sử",
+    "invite_friend": "Khách đến bạn bè",
+    "feedback": "Chia sẻ phản hồi",
+    "support": "Hỗ trợ",
+    "sign_out": "Đăng xuất"
+  },
+  "journal": {
+    "title": "Tạp chí",
+    "subtitle": "Ghi lại suy nghĩ, cảm xúc và trải nghiệm hàng ngày của bạn",
+    "new_entry": "Mục nhập mới",
+    "search_placeholder": "Tìm kiếm các mục nhật ký của bạn...",
+    "filter_by_mood": "Lọc theo tâm trạng:",
+    "all_moods": "Tất cả tâm trạng",
+    "no_entries": "Không tìm thấy mục nhập nào",
+    "adjust_search": "Thử điều chỉnh tìm kiếm hoặc bộ lọc của bạn",
+    "start_journey": "Bắt đầu hành trình viết nhật ký của bạn ngay hôm nay",
+    "write_first": "Viết mục đầu tiên của bạn",
+    "mood": {
+      "great": "Tuyệt vời",
+      "good": "Tốt",
+      "okay": "Được rồi",
+      "sad": "Buồn",
+      "anxious": "Lo lắng"
+    },
+    "sample": {
+      "1": {
+        "title": "Suy nghĩ đầu tiên của bạn",
+        "content": "Bắt đầu với việc viết những gì bạn đang suy nghĩ. Viết nhật ký là một công cụ mạnh mẽ để tự phản ánh và tinh thần minh mẫn."
+      }
+    }
+  },
+  "mindfulness": {
+    "title": "Tự chăm sóc chánh niệm",
+    "subtitle": "Các công cụ chánh niệm chuyên nghiệp và các buổi hướng dẫn cho hành trình chăm sóc sức khỏe của bạn",
+    "featured_mantra": "Nổi bật trên Mantra",
+    "browse_category": "Duyệt theo danh mục",
+    "new_noteworthy": "Mới và đáng chú ý",
+    "browse_goal": "Duyệt theo mục tiêu",
+    "browse_time": "Duyệt theo thời gian",
+    "daily_program": "Tìm một chương trình hàng ngày",
+    "daily_program_desc": "Lưu ý ý định của bạn cho từng chương trình",
+    "featured_collections": "Bộ sưu tập nổi bật",
+    "featured": {
+      "anxiety": "Làm dịu lo lắng",
+      "relaxation": "Kỹ năng thư giãn sâu",
+      "peace": "Hành trình bình yên nội tâm",
+      "mountain": "Núi Tĩnh Lặng"
+    },
+    "goal": {
+      "beginners": "Dành cho người mới bắt đầu",
+      "beginners_desc": "Bắt đầu hành trình chánh niệm của bạn",
+      "grief": "Đối phó với nỗi đau buồn",
+      "grief_desc": "Tìm kiếm sự bình an và chữa lành"
+    },
+    "collection": {
+      "students": "Dành cho sinh viên",
+      "students_desc": "Tập trung và học tập tốt hơn",
+      "grief": "Đối phó với nỗi đau buồn",
+      "grief_desc": "Tìm kiếm sự bình an và chữa lành",
+      "sleep": "Ngủ ngon hơn",
+      "sleep_desc": "Nghỉ ngơi và nạp năng lượng sâu",
+      "stress": "Giảm căng thẳng",
+      "stress_desc": "Làm dịu tâm trí và cơ thể của bạn"
+    },
+    "category": {
+      "meditation": "Thiền định",
+      "concentration": "Sự tập trung",
+      "music": "Âm nhạc",
+      "creatures": "Sinh vật",
+      "soundscapes": "Âm thanh",
+      "students": "Sinh viên",
+      "affirmations": "Lời khẳng định"
+    }
+  }
+}

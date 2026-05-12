@@ -1,0 +1,223 @@
+{
+  "common": {
+    "get_started": "Commencez",
+    "start_over": "Recommencer à zéro",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bravo !",
+    "completion_message": "Vous avez réussi cette activité. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Il est temps de terminer",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Sauvegarder",
+    "loading": "Chargement...",
+    "today": "Aujourd’hui",
+    "yesterday": "Hier",
+    "filters": "Filtres",
+    "see_all": "Voir tout",
+    "meditation": "Méditation",
+    "guided": "Guidé",
+    "sleep": "Dors",
+    "mindfulness": "Pleine conscience",
+    "restore": "Restauration",
+    "curated": "Sélectionné par Mind",
+    "restorative": "Restauration",
+    "peace": "Paix",
+    "breath": "Souffle",
+    "nature": "Nature",
+    "relax": "Détends-toi",
+    "time": {
+      "3min": "3 min",
+      "5min": "5 min",
+      "8min": "8 min",
+      "10min": "10 min",
+      "12min": "12 min",
+      "15min": "15 min",
+      "20min": "20 min",
+      "30min": "30 min",
+      "45min": "45 min",
+      "60min": "60 min"
+    }
+  },
+  "hub": {
+    "back_to_topics": "Revenons aux sujets",
+    "guided_series": "Série guidée",
+    "start_guided_series": "Démarrer la série guidée",
+    "exercises": "Exercices",
+    "todos": "À faire",
+    "resources": "Ressources",
+    "view_resource": "Voir la ressource",
+    "search_placeholder": "Cherche des sujets ou des activités...",
+    "how_are_you": "Comment te sens-tu aujourd’hui ?",
+    "self_care_resources": "Ressources pour l’auto-soin",
+    "explore_tools": "Explorez des outils et des conseils pour votre parcours de bien-être mental",
+    "topics": "Sujets",
+    "tools": "Outils",
+    "articles": "Articles",
+    "tips": "Conseils",
+    "stories": "Histoires",
+    "myths": "Mythes"
+  },
+  "topics": {
+    "depression": {
+      "label": "Dépression",
+      "desc": "Des exercices et des ressources fondés sur des preuves pour vous aider à gérer les symptômes dépressifs et à renforcer votre résilience."
+    },
+    "anxiety": {
+      "label": "Anxiété",
+      "desc": "Des techniques et stratégies apaisantes pour gérer l’anxiété, réduire l’inquiétude et retrouver un sentiment de contrôle."
+    },
+    "stress": {
+      "label": "Stress",
+      "desc": "Outils pratiques et exercices pour gérer le stress, développer des stratégies d’adaptation et rétablir l’équilibre dans votre vie."
+    },
+    "adolescent": {
+      "label": "Adolescent",
+      "desc": "Conseils et activités conçus pour les adolescents confrontés à la croissance, à la différence d’identité et aux défis émotionnels."
+    },
+    "relationship": {
+      "label": "Relation",
+      "desc": "Outils et perspectives pour renforcer les liens, améliorer la communication et construire des relations plus saines."
+    },
+    "workplace": {
+      "label": "Lieu de travail",
+      "desc": "Stratégies pour gérer le stress au travail, améliorer la concentration et maintenir l’équilibre vie professionnelle/vie privée."
+    },
+    "sleep": {
+      "label": "Dors",
+      "desc": "Techniques et outils de suivi pour améliorer la qualité de votre sommeil, développer des habitudes saines au coucher et vous réveiller reposé."
+    },
+    "parenting": {
+      "label": "Parentalité",
+      "desc": "Ressources pour soutenir une parentalité consciente, réduire l’épuisement professionnel et favoriser le bien-être de votre famille."
+    },
+    "anger": {
+      "label": "Colère",
+      "desc": "Des techniques pour comprendre, gérer et canaliser la colère de manière saine et constructive."
+    },
+    "grief": {
+      "label": "Deuil",
+      "desc": "Des outils et exercices compatissants pour vous aider à gérer la perte et à trouver la guérison à votre propre rythme."
+    },
+    "ptsd": {
+      "label": "TSPT",
+      "desc": "Techniques d’ancrage et de stabilisation pour aider à gérer les réponses aux traumatismes et à instaurer la sécurité."
+    },
+    "acceptance": {
+      "label": "Acceptation",
+      "desc": "Des exercices pour cultiver l’acceptation, lâcher prise sur la résistance et embrasser la vie telle qu’elle est."
+    },
+    "postpartum": {
+      "label": "Post-partum",
+      "desc": "Ressources de soutien pour les nouvelles mères qui gèrent les difficultés post-partum et les changements émotionnels."
+    },
+    "sexuality": {
+      "label": "Sexualité",
+      "desc": "Des ressources sûres et bienveillantes pour explorer l’identité, construire l’acceptation de soi et trouver une communauté."
+    },
+    "eating-disorder": {
+      "label": "Trouble alimentaire",
+      "desc": "Des exercices et ressources de soutien pour construire une relation plus saine avec la nourriture et l’image corporelle."
+    },
+    "ocd": {
+      "label": "TOC",
+      "desc": "Techniques fondées sur des preuves pour gérer les pensées obsessionnelles et les comportements compulsifs."
+    }
+  },
+  "tools": {
+    "box-breathing": "Respiration en boîte",
+    "gratitude-tracker": "Traceur de gratitude",
+    "deep-breathing": "Respiration profonde",
+    "affirmations": "Affirmations",
+    "mindful-space": "Espace de pleine conscience",
+    "letter-to-self": "Une lettre à moi-même",
+    "sleep-tracker": "Suivi du sommeil"
+  },
+  "moods": {
+    "great": "Super",
+    "good": "Bien",
+    "okay": "D’accord",
+    "down": "À terre",
+    "sad": "Triste"
+  },
+  "nav": {
+    "home": "Accueil",
+    "care_team": "Équipe de soins",
+    "appointments": "Nominations",
+    "tasks": "Tâches",
+    "insights": "Perspectives",
+    "billing": "Facturation",
+    "profile": "Profil",
+    "invite_friend": "Invite a Friend",
+    "feedback": "Partager vos retours",
+    "support": "Soutien",
+    "sign_out": "Déconnexion"
+  },
+  "journal": {
+    "title": "Revue",
+    "subtitle": "Documentez vos pensées, vos sentiments et vos expériences quotidiennes",
+    "new_entry": "Nouvelle entrée",
+    "search_placeholder": "Cherchez dans vos entrées de journal...",
+    "filter_by_mood": "Filtrez par humeur :",
+    "all_moods": "Tous les humeurs",
+    "no_entries": "Aucune entrée trouvée",
+    "adjust_search": "Essayez d’ajuster votre recherche ou vos filtres",
+    "start_journey": "Commencez dès aujourd’hui votre parcours de journal intime",
+    "write_first": "Rédigez votre première entrée",
+    "mood": {
+      "great": "Super",
+      "good": "Bien",
+      "okay": "D’accord",
+      "sad": "Triste",
+      "anxious": "Anxieux"
+    },
+    "sample": {
+      "1": {
+        "title": "Ta première pensée",
+        "content": "Commencez par écrire ce que vous avez en tête. Le journal est un outil puissant pour l’introspection et la clarté mentale."
+      }
+    }
+  },
+  "mindfulness": {
+    "title": "Soins personnels de pleine conscience",
+    "subtitle": "Outils experts en pleine conscience et séances guidées pour votre parcours de bien-être",
+    "featured_mantra": "Mis en avant sur Mantra",
+    "browse_category": "Parcourir par catégorie",
+    "new_noteworthy": "Nouveauté et remarquable",
+    "browse_goal": "Parcourir par objectif",
+    "browse_time": "Parcourir par heure",
+    "daily_program": "Trouvez un programme quotidien",
+    "daily_program_desc": "Tenez compte de vos intentions pour chaque programme",
+    "featured_collections": "Collections en vedette",
+    "featured": {
+      "anxiety": "Apaiser l’anxiété",
+      "relaxation": "Compétences pour la relaxation profonde",
+      "peace": "Voyage de la paix intérieure",
+      "mountain": "Immobilité de la montagne"
+    },
+    "goal": {
+      "beginners": "Pour les débutants",
+      "beginners_desc": "Commencez votre parcours de pleine conscience",
+      "grief": "Faire face au deuil",
+      "grief_desc": "Trouver la paix et la guérison"
+    },
+    "collection": {
+      "students": "Pour les étudiants",
+      "students_desc": "Concentre-toi et étudie mieux",
+      "grief": "Faire face au deuil",
+      "grief_desc": "Trouver la paix et la guérison",
+      "sleep": "Mieux dormir",
+      "sleep_desc": "Repose-toi et recharge-toi profondément",
+      "stress": "Soulagement du stress",
+      "stress_desc": "Calmez votre esprit et votre corps"
+    },
+    "category": {
+      "meditation": "Méditation",
+      "concentration": "Concentration",
+      "music": "Musique",
+      "creatures": "Créatures",
+      "soundscapes": "Paysages sonores",
+      "students": "Étudiants",
+      "affirmations": "Affirmations"
+    }
+  }
+}

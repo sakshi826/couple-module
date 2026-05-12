@@ -48,5 +48,19 @@
     "sleep": "Mene aikaisin nukkumaan",
     "yoga": "Kokeile joogaa",
     "dance": "Tanssi kappaleen tahdissa"
-  }
+  },
+  "common": {
+    "get_started": "Aloita",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Maali ja uloskäynti",
+    "well_done": "Hyvin tehty!",
+    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Ota hetki arvostaaksesi edistymistäsi.",
+    "time_to_complete": "Aika valmistua",
+    "back": "Takaisin",
+    "next": "Seuraavaksi",
+    "save": "Tallenna",
+    "loading": "Ladataan..."
+  },
+  "complete_title": "Bingo Master!",
+  "complete_message": "Onnittelen! Olet onnistuneesti suorittanut itsehoitolinjan. Mielesi ja kehosi ovat kiitos."
 }

@@ -58,5 +58,17 @@
   "complete": {
     "title": "세션 완료",
     "message": "이 안전한 공간은 언제나 여러분을 위해 준비되어 있습니다. 잠시 평온할 때 언제든지 여기로 돌아와도 돼."
+  },
+  "common": {
+    "get_started": "시작하기",
+    "start_over": "처음부터 다시",
+    "finish_exit": "결승 및 퇴장",
+    "well_done": "잘했어요!",
+    "completion_message": "이 활동을 성공적으로 완료하셨습니다. 잠시 시간을 내어 자신의 진전을 감상해 보세요.",
+    "time_to_complete": "완성 시간입니다",
+    "back": "뒤로",
+    "next": "다음",
+    "save": "저장",
+    "loading": "로딩 중..."
   }
 }

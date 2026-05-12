@@ -41,5 +41,19 @@
     "p1": "Terhubung kembali dengan apa yang memberi Anda kegembiraan - bahkan dengan cara terkecil - adalah tindakan kebaikan terhadap diri sendiri.",
     "p2": "Anda pantas mendapatkan saat-saat ringan dan damai. Teruslah memelihara apa yang membuat hati Anda terasa penuh. 💛",
     "button": "Kembali ke Beranda"
-  }
+  },
+  "common": {
+    "get_started": "Memulai",
+    "start_over": "Mulai Dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Bagus!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
+    "time_to_complete": "Waktu untuk menyelesaikan",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "save": "Simpan",
+    "loading": "Memuat..."
+  },
+  "app_complete_title": "Kegembiraan Dipertahankan",
+  "app_complete_message": "Anda telah berhasil mengingat dan terhubung dengan sumber kegembiraan. Simpan perasaan ini bersama Anda saat Anda menjalani hari Anda."
 }

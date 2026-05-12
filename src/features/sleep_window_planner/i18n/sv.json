@@ -91,5 +91,17 @@
     "save_error": "Misslyckades med att spara vilofönstret",
     "auth_error": "Auth-session saknas eller databas inte konfigurerad",
     "saving": "Rädda..."
+  },
+  "common": {
+    "get_started": "Kom igång",
+    "start_over": "Börja om",
+    "finish_exit": "Mål och utgång",
+    "well_done": "Bra jobbat!",
+    "completion_message": "Du har framgångsrikt slutfört denna aktivitet. Ta en stund och uppskatta dina framsteg.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "save": "Spara",
+    "loading": "Laddar..."
   }
 }

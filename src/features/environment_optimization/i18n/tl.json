@@ -31,5 +31,17 @@
   "not_found_title": "404 Error: Hindi Natagpuan ang Pahina",
   "not_found_text": "Wala ang pahinang hinahanap mo.",
   "return_home": "Bumalik sa Bahay",
-  "language_selector": "Pumili ng Wika"
+  "language_selector": "Pumili ng Wika",
+  "common": {
+    "get_started": "Email Address *",
+    "start_over": "Magsimulang Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Mahusay na ginawa!",
+    "completion_message": "Matagumpay mong nakumpleto ang aktibidad na ito. Maglaan ng ilang sandali upang pahalagahan ang iyong pag-unlad.",
+    "time_to_complete": "Oras na para makumpleto",
+    "back": "Bumalik",
+    "next": "Susunod",
+    "save": "I-save",
+    "loading": "Naglo-load..."
+  }
 }

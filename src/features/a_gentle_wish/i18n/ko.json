@@ -48,5 +48,17 @@
   "view_past_button": "view_past_button",
   "welcome_description": "welcome_description",
   "welcome_subtitle": "welcome_subtitle",
-  "welcome_title": "welcome_title"
+  "welcome_title": "welcome_title",
+  "common": {
+    "get_started": "시작하기",
+    "start_over": "처음부터 다시",
+    "finish_exit": "결승 및 퇴장",
+    "well_done": "잘했어요!",
+    "completion_message": "이 활동을 성공적으로 완료하셨습니다. 잠시 시간을 내어 자신의 진전을 감상해 보세요.",
+    "time_to_complete": "완성 시간입니다",
+    "back": "뒤로",
+    "next": "다음",
+    "save": "저장",
+    "loading": "로딩 중..."
+  }
 }

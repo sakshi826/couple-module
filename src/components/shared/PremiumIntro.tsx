@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Clock, CheckCircle2 } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface PremiumIntroProps {
   title: string;
@@ -21,6 +22,8 @@ export const PremiumIntro: React.FC<PremiumIntroProps> = ({
   duration,
   children
 }) => {
+  const { t } = useTranslation();
+
   return (
     <div className="flex flex-col items-center py-12 pb-32 min-h-[80vh] selection:bg-primary/20" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
       <div className="w-full max-w-lg space-y-12">
@@ -88,7 +91,7 @@ export const PremiumIntro: React.FC<PremiumIntroProps> = ({
             className="flex items-center justify-center gap-2.5 text-slate-400 text-xs font-black uppercase tracking-widest"
           >
             <Clock size={14} className="text-primary" strokeWidth={2.5} />
-            <span>Time to complete: <span className="text-slate-900">{duration}</span></span>
+            <span>{t("common.time_to_complete", "Time to complete")}: <span className="text-slate-900">{duration}</span></span>
           </motion.div>
         )}
 
@@ -115,11 +118,12 @@ export const PremiumIntro: React.FC<PremiumIntroProps> = ({
           onClick={onStart}
           className="w-full max-w-lg py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
         >
-          Get Started
+          {t("common.get_started", "Get Started")}
           <ArrowRight size={20} strokeWidth={3} />
         </motion.button>
       </div>
     </div>
   );
 };
+
 

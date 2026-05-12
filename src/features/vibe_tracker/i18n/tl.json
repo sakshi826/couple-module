@@ -39,5 +39,17 @@
     "ease": "Ano ang magdudulot sa iyo ng 10% na mas kaginhawahan?",
     "kindness": "Anong maliit na kabaitan ang maibibigay mo sa iyong sarili ngayon?",
     "supported": "Ano ang makakatulong sa iyo na makaramdam ng suporta sa sandaling ito?"
+  },
+  "common": {
+    "get_started": "Email Address *",
+    "start_over": "Magsimulang Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Mahusay na ginawa!",
+    "completion_message": "Matagumpay mong nakumpleto ang aktibidad na ito. Maglaan ng ilang sandali upang pahalagahan ang iyong pag-unlad.",
+    "time_to_complete": "Oras na para makumpleto",
+    "back": "Bumalik",
+    "next": "Susunod",
+    "save": "I-save",
+    "loading": "Naglo-load..."
   }
 }

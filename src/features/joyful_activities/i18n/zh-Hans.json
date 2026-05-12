@@ -41,5 +41,19 @@
     "p1": "重新连接带给你快乐的东西——即使是最微小的方式——也是对自己的善意。",
     "p2": "你值得拥有轻松和平静的时刻。继续呵护让你内心充实的东西。💛",
     "button": "回到家"
-  }
+  },
+  "common": {
+    "get_started": "开始",
+    "start_over": "重新开始",
+    "finish_exit": "终点与退场",
+    "well_done": "干得好！",
+    "completion_message": "你已经成功完成了这项活动。花点时间欣赏你的进步。",
+    "time_to_complete": "时间到了完成",
+    "back": "返回",
+    "next": "下一个",
+    "save": "保存",
+    "loading": "加载中......"
+  },
+  "app_complete_title": "快乐的保存",
+  "app_complete_message": "你成功地回忆并与快乐的源泉建立了联系。在你度过一天时，保持这种感觉。"
 }

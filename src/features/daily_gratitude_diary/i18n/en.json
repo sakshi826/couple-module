@@ -30,5 +30,19 @@
   "back": "Back",
   "not_found_title": "404",
   "not_found_text": "Oops! Page not found",
-  "return_home": "Return to Home"
+  "return_home": "Return to Home",
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading..."
+  },
+  "app_complete_title": "Gratitude Saved",
+  "app_complete_message": "Reflecting on what you're thankful for is a powerful way to shift your focus to the positive."
 }

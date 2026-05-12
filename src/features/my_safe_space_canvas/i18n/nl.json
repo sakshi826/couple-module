@@ -4,52 +4,52 @@
   "welcome": {
     "title": "Je veilige plek wacht op je",
     "description": "Bouw je eigen toevluchtsoord door een reeks zachte, creatieve aanwijzingen. Een leeg canvas voor je gedachten en gevoelens.",
-    "benefits": [
-      "Druk jezelf uit via kleur",
-      "Maak een visueel grondingshulpmiddel",
-      "Veilig, privé en persoonlijk"
-    ],
+    "benefits": {
+      "0": "Druk jezelf uit via kleur",
+      "1": "Maak een visueel grondingshulpmiddel",
+      "2": "Veilig, privé en persoonlijk"
+    },
     "duration": "10-15 minuten",
     "view_past": "Bekijk eerdere collages"
   },
   "canvas": {
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "quote": "Hoe ziet de lucht eruit op jouw veilige plek? Teken de kleur, het licht of het gevoel ervan.",
         "button": "Ik heb de lucht toegevoegd →",
         "hint": "Er is geen juiste manier — elke markering is genoeg."
       },
-      {
+      "1": {
         "quote": "Hoe voelt de grond? Gras, zand, water, een houten vloer? Voeg het toe onder de lucht.",
         "button": "Ik heb de grond toegevoegd →",
         "hint": "Denk na over hoe je voeten voelen op deze plek."
       },
-      {
+      "2": {
         "quote": "Voeg één ding toe dat hier thuishoort — een boom, een stoel, een raam, een huisdier, een lamp. Alles wat goed voelt.",
         "button": "Ik heb iets toegevoegd →",
         "hint": "Het hoeft er niet perfect uit te zien. Het moet gewoon waar aanvoelen."
       },
-      {
+      "3": {
         "quote": "Wat brengt warmte of troost naar deze plek? Een licht, een vuur, zonlicht, een deken? Voeg het toe waar het goed voelt.",
         "button": "Ik heb de warmte toegevoegd →",
         "hint": "Zelfs een klein kleurvlekje telt mee."
       },
-      {
+      "4": {
         "quote": "Tot slot — voeg 3 tot 5 woorden toe die hier thuishoren. Tik op je tekening om ze ergens te plaatsen.",
         "button": "Dit zijn mijn woorden →",
         "hint": ""
       }
-    ],
-    "word_chips": [
-      "Vrede",
-      "Home",
-      "Hemel",
-      "Rustig",
-      "Warm",
-      "Genoeg",
-      "Zachtjes",
-      "Veilig"
-    ],
+    },
+    "word_chips": {
+      "0": "Vrede",
+      "1": "Home",
+      "2": "Hemel",
+      "3": "Rustig",
+      "4": "Warm",
+      "5": "Genoeg",
+      "6": "Zachtjes",
+      "7": "Veilig"
+    },
     "custom_word_placeholder": "+ je eigen",
     "skip_prompt": "sla deze prompt over",
     "type_here": "Typ hier"
@@ -71,28 +71,40 @@
     "title": "Je bent hier. Je bent veilig.",
     "breathe_info": "4 · Wacht · 4 · Laat los · 6",
     "done_message": "Goed gedaan dat je vandaag voor jezelf bent gekomen.",
-    "durations": [
-      {
+    "durations": {
+      "0": {
         "label": "1 min",
         "seconds": "60"
       },
-      {
+      "1": {
         "label": "3 min",
         "seconds": "180"
       },
-      {
+      "2": {
         "label": "5 min",
         "seconds": "300"
       }
-    ],
-    "phases": [
-      "Adem in",
-      "Houd vast",
-      "Laat los"
-    ]
+    },
+    "phases": {
+      "0": "Adem in",
+      "1": "Houd vast",
+      "2": "Laat los"
+    }
   },
   "history": {
     "title": "Voormalige veilige plaatsen",
     "no_collages": "Nog geen opgeslagen collages. Voltooi de activiteit om je eerste activiteit op te slaan."
+  },
+  "common": {
+    "get_started": "Begin",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Goed gedaan!",
+    "completion_message": "Je hebt deze activiteit succesvol voltooid. Neem even de tijd om je vooruitgang te waarderen.",
+    "time_to_complete": "Tijd om af te ronden",
+    "back": "Achteruit",
+    "next": "Volgende",
+    "save": "Sla op",
+    "loading": "Laden..."
   }
 }

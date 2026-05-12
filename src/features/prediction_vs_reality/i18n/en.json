@@ -24,7 +24,13 @@
     "saved_title": "Reflection Saved",
     "message": "By looking at the facts, you're helping your mind learn that things are often more manageable than they seem."
   },
-  "emotions": ["Anxious", "Nervous", "Scared", "Overwhelmed", "Uneasy"],
+  "emotions": [
+    "Anxious",
+    "Nervous",
+    "Scared",
+    "Overwhelmed",
+    "Uneasy"
+  ],
   "intensity_labels": {
     "not_intense": "Not Intense",
     "very_intense": "Very Intense"
@@ -83,5 +89,17 @@
   },
   "toasts": {
     "saved": "Reflection saved!"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading..."
   }
 }

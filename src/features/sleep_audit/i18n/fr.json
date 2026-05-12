@@ -90,5 +90,17 @@
     "save_success": "Audit sauvegardé",
     "save_error": "Échec de sauvegarde de l’audit",
     "auth_error": "Session d’authentification manquante ou base de données non configurée"
+  },
+  "common": {
+    "get_started": "Commencez",
+    "start_over": "Recommencer à zéro",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bravo !",
+    "completion_message": "Vous avez réussi cette activité. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Il est temps de terminer",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Sauvegarder",
+    "loading": "Chargement..."
   }
 }

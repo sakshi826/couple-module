@@ -48,5 +48,19 @@
     "sleep": "Va te coucher tôt",
     "yoga": "Essayez le yoga",
     "dance": "Danse sur une chanson"
-  }
+  },
+  "common": {
+    "get_started": "Commencez",
+    "start_over": "Recommencer à zéro",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bravo !",
+    "completion_message": "Vous avez réussi cette activité. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Il est temps de terminer",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Sauvegarder",
+    "loading": "Chargement..."
+  },
+  "complete_title": "Bingo Master !",
+  "complete_message": "Félicitations ! Vous avez réussi à mener une ligne de soins personnels. Votre esprit et votre corps, merci."
 }

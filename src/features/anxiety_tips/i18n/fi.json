@@ -48,5 +48,17 @@
   "support_step1": "Soita tai lähetä viesti ystävälle",
   "support_step2": "Jaa, mikä sinua huolestuttaa.",
   "support_step3": "Kysy näkökulmaa",
-  "support_step4": "Harkitse keskustelua neuvonantajan kanssa"
+  "support_step4": "Harkitse keskustelua neuvonantajan kanssa",
+  "common": {
+    "get_started": "Aloita",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Maali ja uloskäynti",
+    "well_done": "Hyvin tehty!",
+    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Ota hetki arvostaaksesi edistymistäsi.",
+    "time_to_complete": "Aika valmistua",
+    "back": "Takaisin",
+    "next": "Seuraavaksi",
+    "save": "Tallenna",
+    "loading": "Ladataan..."
+  }
 }

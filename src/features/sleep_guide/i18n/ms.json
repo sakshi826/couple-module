@@ -17,5 +17,17 @@
     "p2": "Ini dipanggil rangsangan <1>conditioned</1> — ia menjelaskan mengapa anda berasa letih sepanjang hari, namun terjaga pada waktu tidur.",
     "quote": "\"Otak anda tidak rosak. Ia hanya mempelajari pelajaran yang salah tentang waktu tidur - dan ia boleh diajar semula.\"",
     "button": "Langkah Terdahulu"
+  },
+  "common": {
+    "get_started": "Bermula",
+    "start_over": "Mulakan Semula",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Syabas!",
+    "completion_message": "Anda telah berjaya menyelesaikan aktiviti ini. Luangkan sedikit masa untuk menghargai kemajuan anda.",
+    "time_to_complete": "Masa untuk melengkapkan",
+    "back": "Kembali",
+    "next": "Seterusnya",
+    "save": "Simpan",
+    "loading": "Memuatkan..."
   }
 }

@@ -57,5 +57,17 @@
     "save_success": "Sirkel reddet",
     "save_error": "Klarte ikke å lagre sirkelen",
     "auth_error": "Auth-sesjon mangler eller database ikke konfigurert"
+  },
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start på nytt",
+    "finish_exit": "Mål og utgang",
+    "well_done": "Bra jobbet!",
+    "completion_message": "Du har fullført denne aktiviteten med suksess. Ta et øyeblikk til å sette pris på fremgangen din.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Tilbake",
+    "next": "Neste",
+    "save": "Lagre",
+    "loading": "Laster..."
   }
 }

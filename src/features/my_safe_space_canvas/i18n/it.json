@@ -4,52 +4,52 @@
   "welcome": {
     "title": "Il tuo posto sicuro ti aspetta",
     "description": "Costruisci il tuo santuario attraverso una serie di stimoli creativi gentili. Una tela bianca per i tuoi pensieri e sentimenti.",
-    "benefits": [
-      "Esprimiti attraverso il colore",
-      "Crea uno strumento di radicamento visivo",
-      "Sicuro, privato e personale"
-    ],
+    "benefits": {
+      "0": "Esprimiti attraverso il colore",
+      "1": "Crea uno strumento di radicamento visivo",
+      "2": "Sicuro, privato e personale"
+    },
     "duration": "10-15 minuti",
     "view_past": "Visualizza i collage passati"
   },
   "canvas": {
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "quote": "Com'è il cielo nel tuo posto sicuro? Disegnane il colore, la luce o la sensazione.",
         "button": "Ho aggiunto il cielo →",
         "hint": "Non c'è un modo giusto — qualsiasi segno basta."
       },
-      {
+      "1": {
         "quote": "Come si sente il terreno? Erba, sabbia, acqua, un pavimento di legno? Aggiungilo sotto il cielo.",
         "button": "Ho aggiunto il →",
         "hint": "Pensa a come ti sentono i piedi in questo posto."
       },
-      {
+      "2": {
         "quote": "Aggiungi una cosa che appartiene qui — un albero, una sedia, una finestra, un animale domestico, una lampada. Qualsiasi cosa che sembri giusta.",
         "button": "Ho aggiunto qualcosa →",
         "hint": "Non deve per forza essere perfetto. Deve solo sembrare vero."
       },
-      {
+      "3": {
         "quote": "Cosa porta calore o conforto in questo posto? Una luce, un fuoco, la luce del sole, una coperta? Aggiungilo dove ti sembra giusto.",
         "button": "Ho aggiunto il calore →",
         "hint": "Anche un piccolo puntino di colore conta."
       },
-      {
+      "4": {
         "quote": "Infine — aggiungi 3 o 5 parole che dovrebbero essere qui. Tocca il tuo disegno per posizionarli ovunque.",
         "button": "Queste sono le mie parole →",
         "hint": ""
       }
-    ],
-    "word_chips": [
-      "Pace",
-      "Casa",
-      "Paradiso",
-      "Calma",
-      "Caldo",
-      "Basta",
-      "Gentile",
-      "Safe"
-    ],
+    },
+    "word_chips": {
+      "0": "Pace",
+      "1": "Casa",
+      "2": "Paradiso",
+      "3": "Calma",
+      "4": "Caldo",
+      "5": "Basta",
+      "6": "Gentile",
+      "7": "Safe"
+    },
     "custom_word_placeholder": "+ il tuo",
     "skip_prompt": "Salta questo prompt",
     "type_here": "Digita qui"
@@ -71,28 +71,40 @@
     "title": "Sei qui. Sei al sicuro.",
     "breathe_info": "4 · hold · 4 · lascia andare · 6",
     "done_message": "Complimenti per esserti presentato oggi.",
-    "durations": [
-      {
+    "durations": {
+      "0": {
         "label": "1 minuto",
         "seconds": "60"
       },
-      {
+      "1": {
         "label": "3 min",
         "seconds": "180"
       },
-      {
+      "2": {
         "label": "5 min",
         "seconds": "300"
       }
-    ],
-    "phases": [
-      "Inspira",
-      "Fermati",
-      "Lascia andare"
-    ]
+    },
+    "phases": {
+      "0": "Inspira",
+      "1": "Fermati",
+      "2": "Lascia andare"
+    }
   },
   "history": {
     "title": "Luoghi sicuri passati",
     "no_collages": "Nessun collage salvato ancora. Completa l'attività per salvare il primo."
+  },
+  "common": {
+    "get_started": "Inizia",
+    "start_over": "Ricomincia",
+    "finish_exit": "Arrivo e uscita",
+    "well_done": "Ben fatto!",
+    "completion_message": "Hai completato con successo questa attività. Prenditi un momento per apprezzare i tuoi progressi.",
+    "time_to_complete": "È ora di completare",
+    "back": "Indietro",
+    "next": "Prossimo",
+    "save": "Salva",
+    "loading": "Caricamento..."
   }
 }

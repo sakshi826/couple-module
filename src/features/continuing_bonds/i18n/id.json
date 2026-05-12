@@ -61,5 +61,17 @@
   "bond_prompts": [
     "Apa salah satu cara kecil Anda merasa terhubung dengan mereka hari ini?",
     "Apa sesuatu yang Anda lakukan yang membawa bagian dari mereka?"
-  ]
+  ],
+  "common": {
+    "get_started": "Memulai",
+    "start_over": "Mulai Dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Bagus!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
+    "time_to_complete": "Waktu untuk menyelesaikan",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "save": "Simpan",
+    "loading": "Memuat..."
+  }
 }

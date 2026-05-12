@@ -4,52 +4,52 @@
   "welcome": {
     "title": "Tempat selamat anda sedang menunggu",
     "description": "Bina tempat perlindungan anda sendiri melalui satu siri gesaan kreatif yang lembut. Kanvas kosong untuk fikiran dan perasaan anda.",
-    "benefits": [
-      "Ekspresikan diri anda melalui warna",
-      "Cipta alat pembumian visual",
-      "Selamat, peribadi dan peribadi"
-    ],
+    "benefits": {
+      "0": "Ekspresikan diri anda melalui warna",
+      "1": "Cipta alat pembumian visual",
+      "2": "Selamat, peribadi dan peribadi"
+    },
     "duration": "10-15 minit",
     "view_past": "Lihat Kolaj Masa Lalu"
   },
   "canvas": {
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "quote": "Apakah rupa langit di tempat selamat anda? Lukis warna, cahaya, atau perasaannya.",
         "button": "Saya telah menambah → langit",
         "hint": "Tiada cara yang betul - sebarang tanda sudah mencukupi."
       },
-      {
+      "1": {
         "quote": "Bagaimana rasa tanah? Rumput, pasir, air, lantai kayu? Tambahkannya di bawah langit.",
         "button": "Saya telah menambah tanah →",
         "hint": "Fikirkan tentang apa yang dirasakan oleh kaki anda di tempat ini."
       },
-      {
+      "2": {
         "quote": "Tambah satu perkara yang tergolong di sini - pokok, kerusi, tingkap, haiwan peliharaan, lampu. Apa-apa sahaja yang terasa betul.",
         "button": "Saya telah menambah sesuatu →",
         "hint": "Ia tidak semestinya kelihatan sempurna. Ia hanya perlu terasa benar."
       },
-      {
+      "3": {
         "quote": "Apa yang membawa kemesraan atau keselesaan ke tempat ini? Cahaya, api, cahaya matahari, selimut? Tambahkannya di mana sahaja ia dirasakan betul.",
         "button": "Saya telah menambah kehangatan →",
         "hint": "Malah titik kecil warna dikira."
       },
-      {
+      "4": {
         "quote": "Akhir sekali - tambah 3 hingga 5 perkataan yang tergolong di sini. Ketik lukisan anda untuk meletakkannya di mana-mana sahaja.",
         "button": "Ini adalah kata-kata saya →",
         "hint": ""
       }
-    ],
-    "word_chips": [
-      "Keamanan",
-      "Laman Utama",
-      "Syurga",
-      "Tenang",
-      "Hangat",
-      "Cukup",
-      "Lembut",
-      "Selamat"
-    ],
+    },
+    "word_chips": {
+      "0": "Keamanan",
+      "1": "Laman Utama",
+      "2": "Syurga",
+      "3": "Tenang",
+      "4": "Hangat",
+      "5": "Cukup",
+      "6": "Lembut",
+      "7": "Selamat"
+    },
     "custom_word_placeholder": "+ anda sendiri",
     "skip_prompt": "Langkau gesaan ini",
     "type_here": "Taip di sini"
@@ -71,28 +71,40 @@
     "title": "Awak di sini. Anda selamat.",
     "breathe_info": "4 · tahan · 4 · lepaskan · 6",
     "done_message": "Syabas kerana muncul untuk diri sendiri hari ini.",
-    "durations": [
-      {
+    "durations": {
+      "0": {
         "label": "1 minit",
         "seconds": "60"
       },
-      {
+      "1": {
         "label": "3 minit",
         "seconds": "180"
       },
-      {
+      "2": {
         "label": "5 minit",
         "seconds": "300"
       }
-    ],
-    "phases": [
-      "Tarik nafas",
-      "Pegang",
-      "Lepaskan"
-    ]
+    },
+    "phases": {
+      "0": "Tarik nafas",
+      "1": "Pegang",
+      "2": "Lepaskan"
+    }
   },
   "history": {
     "title": "Tempat selamat yang lalu",
     "no_collages": "Tiada kolaj yang disimpan lagi. Lengkapkan aktiviti untuk menyimpan aktiviti pertama anda."
+  },
+  "common": {
+    "get_started": "Bermula",
+    "start_over": "Mulakan Semula",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Syabas!",
+    "completion_message": "Anda telah berjaya menyelesaikan aktiviti ini. Luangkan sedikit masa untuk menghargai kemajuan anda.",
+    "time_to_complete": "Masa untuk melengkapkan",
+    "back": "Kembali",
+    "next": "Seterusnya",
+    "save": "Simpan",
+    "loading": "Memuatkan..."
   }
 }

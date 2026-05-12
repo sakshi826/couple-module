@@ -43,5 +43,17 @@
   "insight_okay": "Anda memiliki aliran energi yang stabil. Menyeimbangkan pekerjaan dan istirahat tampaknya berhasil untuk Anda.",
   "insight_low": "Energi Anda berada di sisi bawah. Pertimbangkan untuk memeriksa apakah Anda cukup istirahat atau olahraga.",
   "insight_more_data": "Lanjutkan melacak setiap hari untuk melihat pola yang lebih dalam dalam tingkat energi Anda.",
-  "go_home": "Kembali ke Pelacak"
+  "go_home": "Kembali ke Pelacak",
+  "common": {
+    "get_started": "Memulai",
+    "start_over": "Mulai Dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Bagus!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
+    "time_to_complete": "Waktu untuk menyelesaikan",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "save": "Simpan",
+    "loading": "Memuat..."
+  }
 }

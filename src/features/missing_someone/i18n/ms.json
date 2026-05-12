@@ -22,5 +22,17 @@
     "desc": "Apabila anda mencintai seseorang, otak anda mengeluarkan dopamin, oksitosin, dan serotonin. Apabila ia berakhir, tahap tersebut menurun. Otak anda bersedih - bukan sahaja orang itu, tetapi perasaan kedekatan.",
     "quote": "\"Merindui mereka tidak bermakna anda perlu kembali. Hati anda berduka dengan ikatan - tidak semestinya orang itu sebagaimana adanya.\"",
     "button": "Selesaikan Refleksi"
+  },
+  "common": {
+    "get_started": "Bermula",
+    "start_over": "Mulakan Semula",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Syabas!",
+    "completion_message": "Anda telah berjaya menyelesaikan aktiviti ini. Luangkan sedikit masa untuk menghargai kemajuan anda.",
+    "time_to_complete": "Masa untuk melengkapkan",
+    "back": "Kembali",
+    "next": "Seterusnya",
+    "save": "Simpan",
+    "loading": "Memuatkan..."
   }
 }

@@ -47,5 +47,18 @@
   "support_step1": "Chiama o manda un messaggio a un amico",
   "support_step2": "Condividi ciò che ti preoccupa",
   "support_step3": "Chiedi una prospettiva",
-  "support_step4": "Prendi in considerazione l'idea di parlare con un consulente"
+  "support_step4": "Prendi in considerazione l'idea di parlare con un consulente",
+  "common": {
+    "get_started": "Inizia",
+    "start_over": "Ricomincia",
+    "finish_exit": "Arrivo e uscita",
+    "well_done": "Ben fatto!",
+    "completion_message": "Hai completato con successo questa attività. Prenditi un momento per apprezzare i tuoi progressi.",
+    "time_to_complete": "È ora di completare",
+    "back": "Indietro",
+    "next": "Prossimo",
+    "save": "Salva",
+    "loading": "Caricamento..."
+  },
+  "app_page_title": "Consigli per l'ansia"
 }

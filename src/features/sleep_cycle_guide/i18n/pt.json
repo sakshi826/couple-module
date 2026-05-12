@@ -117,5 +117,17 @@
     ],
     "quote": "Dormir não é apenas descanso — é recuperação ativa. Proteja seus ciclos e as mudanças do seu dia inteiro.",
     "button": "Feito ✓"
+  },
+  "common": {
+    "get_started": "Comece",
+    "start_over": "Recomeçar",
+    "finish_exit": "Fim e Saída",
+    "well_done": "Parabéns!",
+    "completion_message": "Você completou esta atividade com sucesso. Reserve um momento para apreciar seu progresso.",
+    "time_to_complete": "Hora de concluir",
+    "back": "Voltar",
+    "next": "Próximo",
+    "save": "Salvar",
+    "loading": "Carregando..."
   }
 }

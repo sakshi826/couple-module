@@ -4,52 +4,52 @@
   "welcome": {
     "title": "Nơi an toàn của bạn đang chờ đợi",
     "description": "Xây dựng khu bảo tồn của riêng bạn thông qua một loạt lời nhắc sáng tạo nhẹ nhàng. Một bức tranh trống cho suy nghĩ và cảm xúc của bạn.",
-    "benefits": [
-      "Thể hiện bản thân qua màu sắc",
-      "Tạo một công cụ nối đất trực quan",
-      "An toàn, riêng tư và cá nhân"
-    ],
+    "benefits": {
+      "0": "Thể hiện bản thân qua màu sắc",
+      "1": "Tạo một công cụ nối đất trực quan",
+      "2": "An toàn, riêng tư và cá nhân"
+    },
     "duration": "10-15 phút",
     "view_past": "Xem ảnh ghép trước đây"
   },
   "canvas": {
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "quote": "Bầu trời trông như thế nào ở nơi an toàn của bạn? Vẽ màu sắc, ánh sáng hoặc cảm giác của nó.",
         "button": "Tôi đã thêm bầu trời →",
         "hint": "Không có cách nào đúng - bất kỳ dấu hiệu nào cũng đủ."
       },
-      {
+      "1": {
         "quote": "Mặt đất cảm thấy như thế nào? Cỏ, cát, nước, sàn gỗ? Thêm nó bên dưới bầu trời.",
         "button": "Tôi đã thêm mặt đất →",
         "hint": "Hãy nghĩ về cảm giác chân của bạn ở nơi này."
       },
-      {
+      "2": {
         "quote": "Thêm một thứ thuộc về đây - một cái cây, một cái ghế, một cửa sổ, một con vật cưng, một ngọn đèn. Bất cứ điều gì cảm thấy đúng.",
         "button": "Tôi đã thêm một cái gì đó →",
         "hint": "Nó không cần phải trông hoàn hảo. Nó chỉ cần cảm thấy đúng."
       },
-      {
+      "3": {
         "quote": "Điều gì mang lại sự ấm áp hoặc thoải mái cho nơi này? Một ngọn đèn, một ngọn lửa, ánh sáng mặt trời, một tấm chăn? Thêm nó vào bất cứ nơi nào bạn cảm thấy phù hợp.",
         "button": "Tôi đã thêm sự ấm áp →",
         "hint": "Ngay cả một chấm nhỏ màu sắc cũng có giá trị."
       },
-      {
+      "4": {
         "quote": "Cuối cùng - thêm 3 đến 5 từ thuộc về đây. Nhấn vào bản vẽ của bạn để đặt chúng ở bất cứ đâu.",
         "button": "Đây là những lời của tôi →",
         "hint": ""
       }
-    ],
-    "word_chips": [
-      "Hòa bình",
-      "Trang chủ",
-      "Thiên đường",
-      "Bình tĩnh",
-      "Ấm áp",
-      "Đủ",
-      "Nhẹ nhàng",
-      "An toàn"
-    ],
+    },
+    "word_chips": {
+      "0": "Hòa bình",
+      "1": "Trang chủ",
+      "2": "Thiên đường",
+      "3": "Bình tĩnh",
+      "4": "Ấm áp",
+      "5": "Đủ",
+      "6": "Nhẹ nhàng",
+      "7": "An toàn"
+    },
     "custom_word_placeholder": "+ của riêng bạn",
     "skip_prompt": "Bỏ qua lời nhắc này",
     "type_here": "Nhập vào đây"
@@ -71,28 +71,40 @@
     "title": "Bạn đang ở đây. Bạn an toàn.",
     "breathe_info": "4 · Giữ · 4 · buông bỏ · 6",
     "done_message": "Làm tốt vì đã xuất hiện cho chính mình ngày hôm nay.",
-    "durations": [
-      {
+    "durations": {
+      "0": {
         "label": "1 phút",
         "seconds": "60"
       },
-      {
+      "1": {
         "label": "3 phút",
         "seconds": "180"
       },
-      {
+      "2": {
         "label": "5 phút",
         "seconds": "300"
       }
-    ],
-    "phases": [
-      "Hít vào",
-      "Giữ",
-      "Buông tay"
-    ]
+    },
+    "phases": {
+      "0": "Hít vào",
+      "1": "Giữ",
+      "2": "Buông tay"
+    }
   },
   "history": {
     "title": "Những nơi an toàn trong quá khứ",
     "no_collages": "Chưa có ảnh ghép nào được lưu. Hoàn thành hoạt động để lưu hoạt động đầu tiên của bạn."
+  },
+  "common": {
+    "get_started": "Bắt đầu",
+    "start_over": "Bắt đầu lại",
+    "finish_exit": "Kết thúc & Thoát",
+    "well_done": "Làm tốt lắm!",
+    "completion_message": "Bạn đã hoàn thành thành công hoạt động này. Hãy dành một chút thời gian để đánh giá cao sự tiến bộ của bạn.",
+    "time_to_complete": "Thời gian hoàn thành",
+    "back": "Quay lại",
+    "next": "Kế tiếp",
+    "save": "Lưu",
+    "loading": "Đang tải..."
   }
 }

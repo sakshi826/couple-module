@@ -69,5 +69,17 @@
       "other": "Příště, až se budete cítit spuštění, zkuste tohle, než začnete reagovat."
     },
     "italic": "Nebude to vždy snadné – ale klíčem je konzistence."
+  },
+  "common": {
+    "get_started": "Začněte",
+    "start_over": "Začít znovu",
+    "finish_exit": "Konec a výjezd",
+    "well_done": "Dobrá práce!",
+    "completion_message": "Úspěšně jste tuto aktivitu dokončili. Věnujte chvíli ocenění svého pokroku.",
+    "time_to_complete": "Čas dokončit",
+    "back": "Zpět",
+    "next": "Další",
+    "save": "Uložit",
+    "loading": "Načítám..."
   }
 }

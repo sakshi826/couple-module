@@ -59,5 +59,17 @@
   "label_feelings": "Gevoelens",
   "label_your_kind_words": "Je vriendelijke woorden",
   "save_finish_button": "Opslaan en Afmaken",
-  "finish_no_save_button": "Afmaken zonder op te slaan"
+  "finish_no_save_button": "Afmaken zonder op te slaan",
+  "common": {
+    "get_started": "Begin",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Goed gedaan!",
+    "completion_message": "Je hebt deze activiteit succesvol voltooid. Neem even de tijd om je vooruitgang te waarderen.",
+    "time_to_complete": "Tijd om af te ronden",
+    "back": "Achteruit",
+    "next": "Volgende",
+    "save": "Sla op",
+    "loading": "Laden..."
+  }
 }

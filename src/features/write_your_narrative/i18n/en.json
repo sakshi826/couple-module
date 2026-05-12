@@ -22,9 +22,18 @@
     "subtitle": "Your words, your pace",
     "prompt_label": "Need a starting point?",
     "prompts": [
-      { "text": "What I remember most is…", "emoji": "💭" },
-      { "text": "At that time, I felt…", "emoji": "🌊" },
-      { "text": "Since then, I've noticed…", "emoji": "🌱" }
+      {
+        "text": "What I remember most is…",
+        "emoji": "💭"
+      },
+      {
+        "text": "At that time, I felt…",
+        "emoji": "🌊"
+      },
+      {
+        "text": "Since then, I've noticed…",
+        "emoji": "🌱"
+      }
     ],
     "placeholder": "Start writing here…",
     "notice": "There's no right way to do this. Even a few lines are enough.",
@@ -59,5 +68,17 @@
     "save_success": "Narrative preserved",
     "save_error": "Failed to preserve narrative",
     "auth_error": "Auth session missing or DB not configured"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading..."
   }
 }

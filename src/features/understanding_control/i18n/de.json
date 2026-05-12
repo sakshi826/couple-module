@@ -56,5 +56,17 @@
   "complete": {
     "title": "Bewusstsein gewonnen",
     "message": "Das Verständnis der Wurzeln der Kontrolle ist ein mutiger erster Schritt, um neue Wege zu finden, sich sicher und gefestigt zu fühlen."
+  },
+  "common": {
+    "get_started": "Leg los",
+    "start_over": "Neu anfangen",
+    "finish_exit": "Ziel und Ausgang",
+    "well_done": "Gut gemacht!",
+    "completion_message": "Du hast diese Aktivität erfolgreich abgeschlossen. Nimm dir einen Moment Zeit, um deinen Fortschritt zu würdigen.",
+    "time_to_complete": "Zeit zum Abschluss",
+    "back": "Zurück",
+    "next": "Als Nächstes",
+    "save": "Speichern",
+    "loading": "Lädt..."
   }
 }

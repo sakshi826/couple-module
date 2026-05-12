@@ -36,11 +36,15 @@
     }
   ],
   "common": {
-    "thank_you": "ありがとう",
-    "you_feel": "あなたはこう感じます:",
-    "completion_message": "グラウンディングの練習は完了です。この存在感を、一日を通して持ち続けてください。",
-    "start_again": "もう一度始める",
-    "reflection_question": "一言で言うと、今どんな気持ちですか？",
-    "reflection_placeholder": "例: 落ち着いている、安心している、落ち着いている…"
+    "get_started": "始めよう",
+    "start_over": "やり直し",
+    "finish_exit": "フィニッシュ&エグジット",
+    "well_done": "よくやった!",
+    "completion_message": "あなたはこの活動を無事に完了しました。自分の進歩を少しでも感じてみてください。",
+    "time_to_complete": "完了の時間だ",
+    "back": "戻る",
+    "next": "次",
+    "save": "セーブ",
+    "loading": "読み込み中..."
   }
 }

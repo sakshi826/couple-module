@@ -1,6 +1,14 @@
 {
   "app_title": "Compassion Break",
-  "screen_titles": ["Check-in", "Identify", "Breathing", "Kindness", "Shift", "Reflect", "Complete"],
+  "screen_titles": [
+    "Check-in",
+    "Identify",
+    "Breathing",
+    "Kindness",
+    "Shift",
+    "Reflect",
+    "Complete"
+  ],
   "auth_error": "Auth session missing or DB not configured",
   "save_success": "Reflection preserved",
   "save_error": "Failed to preserve reflection",
@@ -17,7 +25,14 @@
   "continue_button": "Continue",
   "nameit_title": "Put it into words",
   "nameit_subtitle": "Right now, I feel _______",
-  "emotions_list": ["anxious", "guilty", "overwhelmed", "tense", "tired", "sad"],
+  "emotions_list": [
+    "anxious",
+    "guilty",
+    "overwhelmed",
+    "tense",
+    "tired",
+    "sad"
+  ],
   "label_custom_emotion": "or type your own",
   "placeholder_emotion": "1–2 words",
   "nameit_footer": "Simple is enough.",
@@ -44,5 +59,17 @@
   "label_feelings": "Feelings",
   "label_your_kind_words": "Your kind words",
   "save_finish_button": "Save & Finish",
-  "finish_no_save_button": "Finish without saving"
+  "finish_no_save_button": "Finish without saving",
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading..."
+  }
 }

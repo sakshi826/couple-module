@@ -83,5 +83,17 @@
       "title": "Jemný přesun 💛",
       "body": "Jemné rozptýlení může změnit okamžik... Možná něco lehkého nebo jednoduchého."
     }
+  },
+  "common": {
+    "get_started": "Začněte",
+    "start_over": "Začít znovu",
+    "finish_exit": "Konec a výjezd",
+    "well_done": "Dobrá práce!",
+    "completion_message": "Úspěšně jste tuto aktivitu dokončili. Věnujte chvíli ocenění svého pokroku.",
+    "time_to_complete": "Čas dokončit",
+    "back": "Zpět",
+    "next": "Další",
+    "save": "Uložit",
+    "loading": "Načítám..."
   }
 }

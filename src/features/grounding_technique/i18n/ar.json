@@ -64,5 +64,17 @@
   "Close your eyes if comfortable.": "أغمض عينيك إذا كنت مرتاحاً.",
   "Scan from head to toe.": "امسح من الرأس إلى أخمص القدمين.",
   "Notice areas of tension or ease.": "لاحظ مناطق التوتر أو الراحة.",
-  "Breathe into any tightness.": "تنفس بعمق في أي ضيق."
+  "Breathe into any tightness.": "تنفس بعمق في أي ضيق.",
+  "common": {
+    "get_started": "ابدأ",
+    "start_over": "ابدأ من جديد",
+    "finish_exit": "النهاية والخروج",
+    "well_done": "عمل رائع!",
+    "completion_message": "لقد أنجزت هذا النشاط بنجاح. خذ لحظة لتقدير تقدمك.",
+    "time_to_complete": "حان وقت الإكمال",
+    "back": "العودة",
+    "next": "التالي",
+    "save": "حفظ",
+    "loading": "جار التحميل..."
+  }
 }

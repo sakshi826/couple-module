@@ -22,5 +22,17 @@
     "desc": "Ketika Anda mencintai seseorang, otak Anda melepaskan dopamin, oksitosin, dan serotonin. Ketika berakhir, level itu turun. Otak Anda berduka - bukan hanya orang itu, tetapi perasaan kedekatan.",
     "quote": "\"Merindukan mereka tidak berarti kamu harus kembali. Hati Anda berduka atas ikatan - belum tentu orang seperti mereka yang sebenarnya.\"",
     "button": "Selesaikan Refleksi"
+  },
+  "common": {
+    "get_started": "Memulai",
+    "start_over": "Mulai Dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Bagus!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
+    "time_to_complete": "Waktu untuk menyelesaikan",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "save": "Simpan",
+    "loading": "Memuat..."
   }
 }

@@ -33,5 +33,17 @@
   "history.wed": "تزوج",
   "history.thu": "يجمع",
   "history.fri": "الجمعة",
-  "history.sat": "قعد"
+  "history.sat": "قعد",
+  "common": {
+    "get_started": "ابدأ",
+    "start_over": "ابدأ من جديد",
+    "finish_exit": "النهاية والخروج",
+    "well_done": "عمل رائع!",
+    "completion_message": "لقد أنجزت هذا النشاط بنجاح. خذ لحظة لتقدير تقدمك.",
+    "time_to_complete": "حان وقت الإكمال",
+    "back": "العودة",
+    "next": "التالي",
+    "save": "حفظ",
+    "loading": "جار التحميل..."
+  }
 }

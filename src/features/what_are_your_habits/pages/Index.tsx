@@ -43,7 +43,8 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title="Habit Reflection" 
+      title={t("app_title", " 
+      title=")} 
       subtitle={subtitles[step]}
       icon={<ListChecks className="w-6 h-6 text-primary" />}
       onBack={step > 0 && step < 6 ? () => setStep(prev => prev - 1) : undefined}

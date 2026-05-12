@@ -17,5 +17,20 @@
   "back": "Voltar",
   "not_found_404": "404",
   "page_not_found": "Ops! Página não encontrada",
-  "return_home": "Voltar para a página inicial"
+  "return_home": "Voltar para a página inicial",
+  "common": {
+    "get_started": "Comece",
+    "start_over": "Recomeçar",
+    "finish_exit": "Fim e Saída",
+    "well_done": "Parabéns!",
+    "completion_message": "Você completou esta atividade com sucesso. Reserve um momento para apreciar seu progresso.",
+    "time_to_complete": "Hora de concluir",
+    "back": "Voltar",
+    "next": "Próximo",
+    "save": "Salvar",
+    "loading": "Carregando..."
+  },
+  "app_title": "Respiração em Caixa",
+  "app_complete_title": "Ótimo trabalho!",
+  "app_complete_message": "Você completou a sessão de Respiração da Caixa. Você deve se sentir mais equilibrado e calmo."
 }

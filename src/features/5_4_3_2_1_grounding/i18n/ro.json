@@ -36,11 +36,15 @@
     }
   ],
   "common": {
-    "thank_you": "Mulțumesc",
-    "you_feel": "Simți:",
-    "completion_message": "Ai terminat exercițiul de ancorare. Poartă cu tine acest sentiment de prezență pe măsură ce îți continui ziua.",
-    "start_again": "Începe din nou",
-    "reflection_question": "Pe scurt, cum te simți acum?",
-    "reflection_placeholder": "de exemplu, calm, ușurat, ancorat..."
+    "get_started": "Începe",
+    "start_over": "Începeți de la zero",
+    "finish_exit": "Final și ieșire",
+    "well_done": "Bravo!",
+    "completion_message": "Ai finalizat cu succes această activitate. Ia-ți un moment să apreciezi progresul tău.",
+    "time_to_complete": "Timpul de finalizat",
+    "back": "Înapoi",
+    "next": "Următorul",
+    "save": "Salvează",
+    "loading": "Se încarcă..."
   }
 }

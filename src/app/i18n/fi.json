@@ -1,0 +1,223 @@
+{
+  "common": {
+    "get_started": "Aloita",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Maali ja uloskäynti",
+    "well_done": "Hyvin tehty!",
+    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Ota hetki arvostaaksesi edistymistäsi.",
+    "time_to_complete": "Aika valmistua",
+    "back": "Takaisin",
+    "next": "Seuraavaksi",
+    "save": "Tallenna",
+    "loading": "Ladataan...",
+    "today": "Tänään",
+    "yesterday": "Eilen",
+    "filters": "Suodattimet",
+    "see_all": "Katso kaikki",
+    "meditation": "Meditaatio",
+    "guided": "Opastettu",
+    "sleep": "Nuku",
+    "mindfulness": "Tietoisuustaito",
+    "restore": "Restaurointi",
+    "curated": "Kuratoinut Mind",
+    "restorative": "Restoratiivinen",
+    "peace": "Rauha",
+    "breath": "Hengitys",
+    "nature": "Luonto",
+    "relax": "Rentoudu",
+    "time": {
+      "3min": "3 min",
+      "5min": "5 min",
+      "8min": "8 min",
+      "10min": "10 min",
+      "12min": "12 min",
+      "15min": "15 min",
+      "20min": "20 min",
+      "30min": "30 min",
+      "45min": "45 min",
+      "60min": "60 min"
+    }
+  },
+  "hub": {
+    "back_to_topics": "Takaisin aiheisiin",
+    "guided_series": "Ohjatut sarjat",
+    "start_guided_series": "Aloita ohjattu sarja",
+    "exercises": "Harjoitukset",
+    "todos": "Tehtävät",
+    "resources": "Lähteet",
+    "view_resource": "Katso resurssi",
+    "search_placeholder": "Etsi aiheita tai aktiviteetteja...",
+    "how_are_you": "Miltä sinusta tuntuu tänään?",
+    "self_care_resources": "Itsehoitoresurssit",
+    "explore_tools": "Tutustu työkaluihin ja ohjeisiin mielenterveysmatkaasi varten",
+    "topics": "Aiheet",
+    "tools": "Työkalut",
+    "articles": "Artikkelit",
+    "tips": "Vinkkejä",
+    "stories": "Tarinoita",
+    "myths": "Myytit"
+  },
+  "topics": {
+    "depression": {
+      "label": "Lama",
+      "desc": "Näyttöön perustuvia harjoituksia ja resursseja, jotka auttavat sinua hallitsemaan masennusoireita ja rakentamaan resilienssiä."
+    },
+    "anxiety": {
+      "label": "Ahdistus",
+      "desc": "Rauhoittavia tekniikoita ja strategioita ahdistuksen hallintaan, huolen vähentämiseen ja hallinnan palauttamiseen."
+    },
+    "stress": {
+      "label": "Stressi",
+      "desc": "Käytännön työkaluja ja harjoituksia stressin hallintaan, selviytymistaitojen kehittämiseen ja elämän tasapainon palauttamiseen."
+    },
+    "adolescent": {
+      "label": "Nuoruus",
+      "desc": "Ohjausta ja aktiviteetteja, jotka on suunnattu nuorille, jotka navigoivat kasvun, identiteetin ja tunne-elämän haasteiden kanssa."
+    },
+    "relationship": {
+      "label": "Suhde",
+      "desc": "Työkaluja ja oivalluksia yhteyksien vahvistamiseen, viestinnän parantamiseen ja terveempien ihmissuhteiden rakentamiseen."
+    },
+    "workplace": {
+      "label": "Työpaikka",
+      "desc": "Strategioita työpaikan stressin hallintaan, keskittymisen parantamiseen ja työn ja vapaa-ajan tasapainon ylläpitämiseen."
+    },
+    "sleep": {
+      "label": "Nuku",
+      "desc": "Tekniikoita ja seurantatyökaluja unen laadun parantamiseen, terveellisten nukkumaanmenotapojen rakentamiseen ja virkeän heräämiseen."
+    },
+    "parenting": {
+      "label": "Vanhemmuus",
+      "desc": "Resursseja tietoisen vanhemmuuden tukemiseen, uupumuksen vähentämiseen ja perheesi hyvinvoinnin vaalimiseen."
+    },
+    "anger": {
+      "label": "Viha",
+      "desc": "Tekniikoita vihan ymmärtämiseen, hallintaan ja kanavoimiseen terveellä ja rakentavalla tavalla."
+    },
+    "grief": {
+      "label": "Suru",
+      "desc": "Myötätuntoisia työkaluja ja harjoituksia, jotka auttavat sinua käsittelemään menetystä ja löytämään parantumisen omaan tahtiin."
+    },
+    "ptsd": {
+      "label": "PTSD",
+      "desc": "Maadoittamis- ja vakauttamistekniikat traumareaktioiden hallintaan ja turvallisuuden rakentamiseen."
+    },
+    "acceptance": {
+      "label": "Hyväksyntä",
+      "desc": "Harjoituksia hyväksynnän kehittämiseen, vastarinnan irtipäästämiseen ja elämän omaksumiseen sellaisena kuin se on."
+    },
+    "postpartum": {
+      "label": "Synnytyksen jälkeinen aika",
+      "desc": "Tukevia resursseja uusille äideille, jotka käsittelevät synnytyksen jälkeisiä haasteita ja tunne-elämän muutoksia."
+    },
+    "sexuality": {
+      "label": "Seksuaalisuus",
+      "desc": "Turvallisia ja tukevia resursseja identiteetin tutkimiseen, itsehyväksynnän rakentamiseen ja yhteisön löytämiseen."
+    },
+    "eating-disorder": {
+      "label": "Syömishäiriö",
+      "desc": "Tukevat harjoitukset ja resurssit terveemmän suhteen rakentamiseen ruokaan ja kehonkuvaan."
+    },
+    "ocd": {
+      "label": "OCD",
+      "desc": "Näyttöön perustuvia tekniikoita pakkomielteisten ajatusten ja pakonomaisten käyttäytymisten hallintaan."
+    }
+  },
+  "tools": {
+    "box-breathing": "Laatikkohengitys",
+    "gratitude-tracker": "Kiitollisuuden seuranta",
+    "deep-breathing": "Syvä hengitys",
+    "affirmations": "Vahvistukset",
+    "mindful-space": "Tietoinen tila",
+    "letter-to-self": "Kirje itselleni",
+    "sleep-tracker": "Uniseuranta"
+  },
+  "moods": {
+    "great": "Upea",
+    "good": "Hyvä",
+    "okay": "Okei",
+    "down": "Alas",
+    "sad": "Surullinen"
+  },
+  "nav": {
+    "home": "Koti",
+    "care_team": "Hoitotiimi",
+    "appointments": "Nimitykset",
+    "tasks": "Tehtävät",
+    "insights": "Näkemyksiä",
+    "billing": "Laskutus",
+    "profile": "Profiili",
+    "invite_friend": "Vieras ystäväksi",
+    "feedback": "Jaa palautetta",
+    "support": "Tuki",
+    "sign_out": "Kirjautuminen ulos"
+  },
+  "journal": {
+    "title": "Päiväkirja",
+    "subtitle": "Dokumentoi ajatuksesi, tunteesi ja päivittäiset kokemuksesi",
+    "new_entry": "Uusi tulokas",
+    "search_placeholder": "Etsi päiväkirjamerkintöjäsi...",
+    "filter_by_mood": "Suodata tunnelman mukaan:",
+    "all_moods": "Kaikki mielialat",
+    "no_entries": "Ei merkintöjä löytynyt",
+    "adjust_search": "Kokeile säätää hakua tai suodattimia",
+    "start_journey": "Aloita päiväkirjamatkasi jo tänään",
+    "write_first": "Kirjoita ensimmäinen merkintäsi",
+    "mood": {
+      "great": "Upea",
+      "good": "Hyvä",
+      "okay": "Okei",
+      "sad": "Surullinen",
+      "anxious": "Huolestunut"
+    },
+    "sample": {
+      "1": {
+        "title": "Ensimmäinen ajatuksesi",
+        "content": "Aloita kirjoittamalla, mitä mielessäsi on. Päiväkirjan pitäminen on voimakas työkalu itsetutkiskeluun ja henkiseen selkeyteen."
+      }
+    }
+  },
+  "mindfulness": {
+    "title": "Tietoisuustaito Itsestä huolehtiminen",
+    "subtitle": "Asiantuntevat tietoisuustaitotyökalut ja ohjatut harjoitukset hyvinvointimatkallesi",
+    "featured_mantra": "Esillä Mantrassa",
+    "browse_category": "Selaa kategorioittain",
+    "new_noteworthy": "Uusi ja huomionarvoinen",
+    "browse_goal": "Selaa maaleittain",
+    "browse_time": "Selaa ajan mukaan",
+    "daily_program": "Löydä päivittäinen ohjelma",
+    "daily_program_desc": "Pidä mielessä aikomuksistasi jokaisessa ohjelmassa",
+    "featured_collections": "Esittelykokoelmat",
+    "featured": {
+      "anxiety": "Rauhoittava ahdistus",
+      "relaxation": "Syvän rentoutumisen taidot",
+      "peace": "Sisäisen rauhan matka",
+      "mountain": "Vuoriston hiljaisuus"
+    },
+    "goal": {
+      "beginners": "Aloittelijoille",
+      "beginners_desc": "Aloita tietoisuustaitomatkasi",
+      "grief": "Surun käsittely",
+      "grief_desc": "Löydä rauha ja parantuminen"
+    },
+    "collection": {
+      "students": "Opiskelijoille",
+      "students_desc": "Keskity ja opiskele paremmin",
+      "grief": "Surun käsittely",
+      "grief_desc": "Löydä rauha ja parantuminen",
+      "sleep": "Parempi uni",
+      "sleep_desc": "Lepää ja lataudu syvästi",
+      "stress": "Stressinlievitys",
+      "stress_desc": "Rauhoita mielesi ja kehosi"
+    },
+    "category": {
+      "meditation": "Meditaatio",
+      "concentration": "Keskittyminen",
+      "music": "Musiikki",
+      "creatures": "Olennot",
+      "soundscapes": "Äänimaisemat",
+      "students": "Opiskelijat",
+      "affirmations": "Vahvistukset"
+    }
+  }
+}

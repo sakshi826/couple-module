@@ -41,5 +41,19 @@
     "p1": "Újra kapcsolatba lépni azzal, ami örömet hoz – még a legkisebb módon is – kedvesség cselekedete önmagad iránt.",
     "p2": "Megérdemled a könnyedséget és békét. Folytasd a táplálást, ami megtelíti a szíved. 💛",
     "button": "Vissza az otthonba"
-  }
+  },
+  "common": {
+    "get_started": "Kezdj el",
+    "start_over": "Kezdj újrakezdeni",
+    "finish_exit": "Befejezés és kilépés",
+    "well_done": "Szép munka!",
+    "completion_message": "Sikeresen teljesítetted ezt a feladatot. Szánj egy pillanatot, hogy értékeld a fejlődésedet.",
+    "time_to_complete": "Ideje befejezni",
+    "back": "Hátra",
+    "next": "Következő",
+    "save": "Mentés",
+    "loading": "Betöltés..."
+  },
+  "app_complete_title": "Megőrzött öröm",
+  "app_complete_message": "Sikeresen felidézted és kapcsolatot teremtettél az öröm forrásával. Tartsd magaddal ezt az érzést, miközben haladsz a nadon."
 }

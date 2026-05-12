@@ -17,5 +17,17 @@
     "p2": "Cela s’appelle <excitation conditionnée 1> <1> — cela explique pourquoi vous vous sentez épuisé toute la journée, mais bien éveillé au moment du coucher.",
     "quote": "« Ton cerveau n’est pas cassé. Il a simplement appris la mauvaise leçon sur l’heure du coucher — et on peut l’apprendre à nouveau. »",
     "button": "Étape précédente"
+  },
+  "common": {
+    "get_started": "Commencez",
+    "start_over": "Recommencer à zéro",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bravo !",
+    "completion_message": "Vous avez réussi cette activité. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Il est temps de terminer",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Sauvegarder",
+    "loading": "Chargement..."
   }
 }

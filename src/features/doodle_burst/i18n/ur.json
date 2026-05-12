@@ -30,5 +30,17 @@
   "tool_undo": "واپس لوٹنا",
   "tool_clear": "صاف",
   "share_doodle": "شیئر ڈوڈل",
-  "share_text": "مجھے TherapyMantra پر یہ ڈوڈل برسٹ سرگرمی بہت پسند آئی، آپ بھی آزما سکتے ہیں، بس ایپ ڈاؤن لوڈ کریں اور خود دریافت کریں\n\nاینڈرائیڈ: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888"
+  "share_text": "مجھے TherapyMantra پر یہ ڈوڈل برسٹ سرگرمی بہت پسند آئی، آپ بھی آزما سکتے ہیں، بس ایپ ڈاؤن لوڈ کریں اور خود دریافت کریں\n\nاینڈرائیڈ: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888",
+  "common": {
+    "get_started": "شروع کریں",
+    "start_over": "دوبارہ شروع کریں",
+    "finish_exit": "فنش اینڈ ایگزٹ",
+    "well_done": "شاباش!",
+    "completion_message": "آپ نے یہ سرگرمی کامیابی سے مکمل کر لی ہے۔ اپنی پیش رفت کی قدر کرنے کے لیے ایک لمحہ نکالیں۔",
+    "time_to_complete": "مکمل ہونے کا وقت",
+    "back": "واپس",
+    "next": "اگلا",
+    "save": "سیو",
+    "loading": "لوڈ ہو رہا ہے..."
+  }
 }

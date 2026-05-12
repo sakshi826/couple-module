@@ -48,5 +48,17 @@
   "history_empty": "Aún no has guardado ninguna declaración de misión.",
   "history_empty_hint": "Cuando esté listo, cree uno y aparecerá aquí.",
   "history_back": "Volver",
-  "history_delete_aria": "Eliminar esta reflexión"
+  "history_delete_aria": "Eliminar esta reflexión",
+  "common": {
+    "get_started": "Empieza",
+    "start_over": "Empezar de nuevo",
+    "finish_exit": "Llegada y salida",
+    "well_done": "¡Bien hecho!",
+    "completion_message": "Has completado esta actividad con éxito. Tómate un momento para apreciar tu progreso.",
+    "time_to_complete": "Hora de completar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "save": "Salvar",
+    "loading": "Cargando..."
+  }
 }

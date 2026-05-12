@@ -91,5 +91,17 @@
     "save_error": "Falhou em salvar a janela de sono",
     "auth_error": "Sessão de autenticação ausente ou banco de dados não configurado",
     "saving": "Salvando..."
+  },
+  "common": {
+    "get_started": "Comece",
+    "start_over": "Recomeçar",
+    "finish_exit": "Fim e Saída",
+    "well_done": "Parabéns!",
+    "completion_message": "Você completou esta atividade com sucesso. Reserve um momento para apreciar seu progresso.",
+    "time_to_complete": "Hora de concluir",
+    "back": "Voltar",
+    "next": "Próximo",
+    "save": "Salvar",
+    "loading": "Carregando..."
   }
 }

@@ -54,5 +54,17 @@
       "realFact": "Andre kan utløse sinnet ditt, men hvordan du reagerer er ditt ansvar — og din makt. Å ta eierskap til reaksjonene dine betyr ikke at den andre personen hadde rett. Det betyr at du velger hvordan du møter opp. Det er myndiggjøring, ikke skyld.",
       "example": "Noen skjærer deg av i trafikken. Du føler deg sint — det er normalt. Men du velger om du vil rase eller ta et pust. Valget er ditt."
     }
-  ]
+  ],
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start på nytt",
+    "finish_exit": "Mål og utgang",
+    "well_done": "Bra jobbet!",
+    "completion_message": "Du har fullført denne aktiviteten med suksess. Ta et øyeblikk til å sette pris på fremgangen din.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Tilbake",
+    "next": "Neste",
+    "save": "Lagre",
+    "loading": "Laster..."
+  }
 }

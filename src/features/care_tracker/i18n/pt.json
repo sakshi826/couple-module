@@ -1,11 +1,15 @@
 {
   "common": {
-    "continue": "Continue",
+    "get_started": "Comece",
+    "start_over": "Recomeçar",
+    "finish_exit": "Fim e Saída",
+    "well_done": "Parabéns!",
+    "completion_message": "Você completou esta atividade com sucesso. Reserve um momento para apreciar seu progresso.",
+    "time_to_complete": "Hora de concluir",
     "back": "Voltar",
-    "home": "De volta ao Lar",
-    "yes": "Sim",
-    "no": "Não",
-    "date": "Data"
+    "next": "Próximo",
+    "save": "Salvar",
+    "loading": "Carregando..."
   },
   "screens": {
     "intro": {

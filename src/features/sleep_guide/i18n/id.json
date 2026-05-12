@@ -17,5 +17,17 @@
     "p2": "Ini disebut gairah <1>conditioned</1> - ini menjelaskan mengapa Anda merasa lelah sepanjang hari, namun terjaga lebar sebelum tidur.",
     "quote": "\"Otakmu tidak rusak. Itu hanya belajar pelajaran yang salah tentang waktu tidur - dan itu dapat diajarkan kembali.\"",
     "button": "Langkah sebelumnya"
+  },
+  "common": {
+    "get_started": "Memulai",
+    "start_over": "Mulai Dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Bagus!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
+    "time_to_complete": "Waktu untuk menyelesaikan",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "save": "Simpan",
+    "loading": "Memuat..."
   }
 }

@@ -22,5 +22,17 @@
     "desc": "Kapag mahal mo ang isang tao, ang iyong utak ay naglalabas ng dopamine, oxytocin, at serotonin. Kapag natapos ito, bumababa ang mga antas na iyon. Ang iyong utak ay nagdadalamhati - hindi lamang ang tao, ngunit ang pakiramdam ng pagiging malapit.",
     "quote": "\"Ang pagkawala sa kanila ay hindi nangangahulugang dapat kang bumalik. Ang iyong puso ay nagdadalamhati ng isang bono - hindi kinakailangang ang tao tulad ng tunay na sila. \"",
     "button": "Tapusin ang Pagmumuni-muni"
+  },
+  "common": {
+    "get_started": "Email Address *",
+    "start_over": "Magsimulang Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Mahusay na ginawa!",
+    "completion_message": "Matagumpay mong nakumpleto ang aktibidad na ito. Maglaan ng ilang sandali upang pahalagahan ang iyong pag-unlad.",
+    "time_to_complete": "Oras na para makumpleto",
+    "back": "Bumalik",
+    "next": "Susunod",
+    "save": "I-save",
+    "loading": "Naglo-load..."
   }
 }

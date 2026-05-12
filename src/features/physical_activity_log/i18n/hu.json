@@ -48,5 +48,17 @@
   "memory_desc": "A testmozgás növeli az agy véráramlását, segítve javítva a memóriát és a kognitív funkciókat.",
   "stress_title": "Stresszreakció",
   "stress_desc": "A fizikai aktivitás csökkenti a stresszhormonokat, és segít az idegrendszer újraindulásában.",
-  "app_name": "Fizikai aktivitás napló"
+  "app_name": "Fizikai aktivitás napló",
+  "common": {
+    "get_started": "Kezdj el",
+    "start_over": "Kezdj újrakezdeni",
+    "finish_exit": "Befejezés és kilépés",
+    "well_done": "Szép munka!",
+    "completion_message": "Sikeresen teljesítetted ezt a feladatot. Szánj egy pillanatot, hogy értékeld a fejlődésedet.",
+    "time_to_complete": "Ideje befejezni",
+    "back": "Hátra",
+    "next": "Következő",
+    "save": "Mentés",
+    "loading": "Betöltés..."
+  }
 }

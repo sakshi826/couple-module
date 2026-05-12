@@ -48,5 +48,17 @@
   "history_empty": "Du har ikke gemt nogen missionserklæringer endnu.",
   "history_empty_hint": "Når du er klar, så lav en, og den vil dukke op her.",
   "history_back": "Gå tilbage",
-  "history_delete_aria": "Slet denne refleksion"
+  "history_delete_aria": "Slet denne refleksion",
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start forfra",
+    "finish_exit": "Afslutning og exit",
+    "well_done": "Godt gået!",
+    "completion_message": "Du har gennemført denne aktivitet med succes. Tag et øjeblik til at værdsætte dine fremskridt.",
+    "time_to_complete": "Tid til at gennemføre",
+    "back": "Tilbage",
+    "next": "Næste",
+    "save": "Gem",
+    "loading": "Indlæser..."
+  }
 }

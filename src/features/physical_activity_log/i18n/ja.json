@@ -48,5 +48,17 @@
   "memory_desc": "運動をすると脳への血流が増加し、記憶力や認知機能が向上します。",
   "stress_title": "ストレス反応",
   "stress_desc": "身体活動はストレスホルモンを低下させ、神経系をリセットするのに役立ちます。",
-  "app_name": "身体活動ログ"
+  "app_name": "身体活動ログ",
+  "common": {
+    "get_started": "始めよう",
+    "start_over": "やり直し",
+    "finish_exit": "フィニッシュ&エグジット",
+    "well_done": "よくやった!",
+    "completion_message": "あなたはこの活動を無事に完了しました。自分の進歩を少しでも感じてみてください。",
+    "time_to_complete": "完了の時間だ",
+    "back": "戻る",
+    "next": "次",
+    "save": "セーブ",
+    "loading": "読み込み中..."
+  }
 }

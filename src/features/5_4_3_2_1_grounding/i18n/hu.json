@@ -36,11 +36,15 @@
     }
   ],
   "common": {
-    "thank_you": "Köszönöm",
-    "you_feel": "Úgy érzed:",
-    "completion_message": "Befejezted a földelési gyakorlatot. Vidd magaddal ezt a jelenlét érzését, miközben folytatod a napot.",
-    "start_again": "Kezdj újra",
-    "reflection_question": "Egy szóval: hogy érzed magad most?",
-    "reflection_placeholder": "például nyugodt, megkönnyebbült, földhözragadt..."
+    "get_started": "Kezdj el",
+    "start_over": "Kezdj újrakezdeni",
+    "finish_exit": "Befejezés és kilépés",
+    "well_done": "Szép munka!",
+    "completion_message": "Sikeresen teljesítetted ezt a feladatot. Szánj egy pillanatot, hogy értékeld a fejlődésedet.",
+    "time_to_complete": "Ideje befejezni",
+    "back": "Hátra",
+    "next": "Következő",
+    "save": "Mentés",
+    "loading": "Betöltés..."
   }
 }

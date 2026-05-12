@@ -61,5 +61,17 @@
   "bond_prompts": [
     "Qual è un piccolo modo in cui ti senti connesso a loro oggi?",
     "Cosa fai che ne porta una parte?"
-  ]
+  ],
+  "common": {
+    "get_started": "Inizia",
+    "start_over": "Ricomincia",
+    "finish_exit": "Arrivo e uscita",
+    "well_done": "Ben fatto!",
+    "completion_message": "Hai completato con successo questa attività. Prenditi un momento per apprezzare i tuoi progressi.",
+    "time_to_complete": "È ora di completare",
+    "back": "Indietro",
+    "next": "Prossimo",
+    "save": "Salva",
+    "loading": "Caricamento..."
+  }
 }

@@ -1,0 +1,223 @@
+{
+  "hub": {
+    "back_to_topics": "Back to topics",
+    "guided_series": "Guided Series",
+    "start_guided_series": "Start guided series",
+    "exercises": "Exercises",
+    "todos": "To Do's",
+    "resources": "Resources",
+    "view_resource": "View resource",
+    "search_placeholder": "Search for topics or activities...",
+    "how_are_you": "How are you feeling today?",
+    "self_care_resources": "Self-Care Resources",
+    "explore_tools": "Explore tools and guidance for your mental wellness journey",
+    "topics": "Topics",
+    "tools": "Tools",
+    "articles": "Articles",
+    "tips": "Tips",
+    "stories": "Stories",
+    "myths": "Myths"
+  },
+  "nav": {
+    "home": "Home",
+    "care_team": "Care Team",
+    "appointments": "Appointments",
+    "tasks": "Tasks",
+    "insights": "Insights",
+    "billing": "Billing",
+    "profile": "Profile",
+    "invite_friend": "Invite a Friend",
+    "feedback": "Share Feedback",
+    "support": "Support",
+    "sign_out": "Sign Out"
+  },
+  "journal": {
+    "title": "Journal",
+    "subtitle": "Document your thoughts, feelings, and daily experiences",
+    "new_entry": "New Entry",
+    "search_placeholder": "Search your journal entries...",
+    "filter_by_mood": "Filter by mood:",
+    "all_moods": "All Moods",
+    "no_entries": "No entries found",
+    "adjust_search": "Try adjusting your search or filters",
+    "start_journey": "Start your journaling journey today",
+    "write_first": "Write Your First Entry",
+    "mood": {
+      "great": "Great",
+      "good": "Good",
+      "okay": "Okay",
+      "sad": "Sad",
+      "anxious": "Anxious"
+    },
+    "sample": {
+      "1": {
+        "title": "Your First Thought",
+        "content": "Start with writing what's on your mind. Journaling is a powerful tool for self-reflection and mental clarity."
+      }
+    }
+  },
+  "topics": {
+    "depression": {
+      "label": "Depression",
+      "desc": "Evidence-based exercises and resources to help you manage depression symptoms and build resilience."
+    },
+    "anxiety": {
+      "label": "Anxiety",
+      "desc": "Calming techniques and strategies to manage anxiety, reduce worry, and regain a sense of control."
+    },
+    "stress": {
+      "label": "Stress",
+      "desc": "Practical tools and exercises to manage stress, build coping skills, and restore balance in your life."
+    },
+    "adolescent": {
+      "label": "Adolescent",
+      "desc": "Guidance and activities designed for teens navigating growth, identity, and emotional challenges."
+    },
+    "relationship": {
+      "label": "Relationship",
+      "desc": "Tools and insights to strengthen connections, improve communication, and build healthier relationships."
+    },
+    "workplace": {
+      "label": "Workplace",
+      "desc": "Strategies to manage workplace stress, improve focus, and maintain work-life balance."
+    },
+    "sleep": {
+      "label": "Sleep",
+      "desc": "Techniques and trackers to improve your sleep quality, build healthy bedtime habits, and wake up refreshed."
+    },
+    "parenting": {
+      "label": "Parenting",
+      "desc": "Resources to support mindful parenting, reduce burnout, and nurture your family's wellbeing."
+    },
+    "anger": {
+      "label": "Anger",
+      "desc": "Techniques to understand, manage, and channel anger in healthy and constructive ways."
+    },
+    "grief": {
+      "label": "Grief",
+      "desc": "Compassionate tools and exercises to help you process loss and find healing at your own pace."
+    },
+    "ptsd": {
+      "label": "PTSD",
+      "desc": "Grounding and stabilization techniques to help manage trauma responses and build safety."
+    },
+    "acceptance": {
+      "label": "Acceptance",
+      "desc": "Exercises to cultivate acceptance, let go of resistance, and embrace life as it is."
+    },
+    "postpartum": {
+      "label": "Postpartum",
+      "desc": "Supportive resources for new mothers managing postpartum challenges and emotional changes."
+    },
+    "sexuality": {
+      "label": "Sexuality",
+      "desc": "Safe and supportive resources to explore identity, build self-acceptance, and find community."
+    },
+    "eating-disorder": {
+      "label": "Eating Disorder",
+      "desc": "Supportive exercises and resources to build a healthier relationship with food and body image."
+    },
+    "ocd": {
+      "label": "OCD",
+      "desc": "Evidence-based techniques to manage obsessive thoughts and compulsive behaviors."
+    }
+  },
+  "tools": {
+    "box-breathing": "Box Breathing",
+    "gratitude-tracker": "Gratitude Tracker",
+    "deep-breathing": "Deep Breathing",
+    "affirmations": "Affirmations",
+    "mindful-space": "Mindful Space",
+    "letter-to-self": "A Letter To Self",
+    "sleep-tracker": "Sleep Tracker"
+  },
+  "moods": {
+    "great": "Great",
+    "good": "Good",
+    "okay": "Okay",
+    "down": "Down",
+    "sad": "Sad"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "filters": "Filters",
+    "see_all": "See All",
+    "meditation": "Meditation",
+    "guided": "Guided",
+    "sleep": "Sleep",
+    "mindfulness": "Mindfulness",
+    "restore": "Restore",
+    "curated": "Curated by Mind",
+    "restorative": "Restorative",
+    "peace": "Peace",
+    "breath": "Breath",
+    "nature": "Nature",
+    "relax": "Relax",
+    "time": {
+      "3min": "3 min",
+      "5min": "5 min",
+      "8min": "8 min",
+      "10min": "10 min",
+      "12min": "12 min",
+      "15min": "15 min",
+      "20min": "20 min",
+      "30min": "30 min",
+      "45min": "45 min",
+      "60min": "60 min"
+    }
+  },
+  "mindfulness": {
+    "title": "Mindfulness Self-Care",
+    "subtitle": "Expert mindfulness tools and guided sessions for your wellness journey",
+    "featured_mantra": "Featured on Mantra",
+    "browse_category": "Browse by Category",
+    "new_noteworthy": "New & Noteworthy",
+    "browse_goal": "Browse by Goal",
+    "browse_time": "Browse by Time",
+    "daily_program": "Find a daily program",
+    "daily_program_desc": "Mind your intentions for each program",
+    "featured_collections": "Featured Collections",
+    "featured": {
+      "anxiety": "Calming Anxiety",
+      "relaxation": "Skills for Deep Relaxation",
+      "peace": "Inner Peace Journey",
+      "mountain": "Mountain Stillness"
+    },
+    "goal": {
+      "beginners": "For Beginners",
+      "beginners_desc": "Start your mindfulness journey",
+      "grief": "Coping with Grief",
+      "grief_desc": "Find peace and healing"
+    },
+    "collection": {
+      "students": "For Students",
+      "students_desc": "Focus and study better",
+      "grief": "Coping with Grief",
+      "grief_desc": "Find peace and healing",
+      "sleep": "Better Sleep",
+      "sleep_desc": "Rest and recharge deeply",
+      "stress": "Stress Relief",
+      "stress_desc": "Calm your mind and body"
+    },
+    "category": {
+      "meditation": "Meditation",
+      "concentration": "Concentration",
+      "music": "Music",
+      "creatures": "Creatures",
+      "soundscapes": "Soundscapes",
+      "students": "Students",
+      "affirmations": "Affirmations"
+    }
+  }
+}

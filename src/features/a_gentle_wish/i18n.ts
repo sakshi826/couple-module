@@ -1,9 +1,7 @@
 import { createI18nInstance } from '../../lib/i18n';
+const locales = import.meta.glob('./i18n/*.json', { eager: true });
 
-// For now, we'll initialize with an empty translation and let extract.js fill it
-const instance = createI18nInstance({
-  en: { translation: {} }
-});
+const instance = createI18nInstance(locales);
 
 export default instance;
 

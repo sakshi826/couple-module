@@ -17,5 +17,17 @@
     "p2": "Ezt hívják <1>kondicionált izgalmnak</1> — ez magyarázza, miért érzed magad egész nap kimerültnek, mégis lefekvés előtt teljesen ébren vagy.",
     "quote": "\"Az agyad nem sérült meg. Egyszerűen csak rossz leckét tanult az alvásidőről — és vissza lehet állítani.\"",
     "button": "Előző lépés"
+  },
+  "common": {
+    "get_started": "Kezdj el",
+    "start_over": "Kezdj újrakezdeni",
+    "finish_exit": "Befejezés és kilépés",
+    "well_done": "Szép munka!",
+    "completion_message": "Sikeresen teljesítetted ezt a feladatot. Szánj egy pillanatot, hogy értékeld a fejlődésedet.",
+    "time_to_complete": "Ideje befejezni",
+    "back": "Hátra",
+    "next": "Következő",
+    "save": "Mentés",
+    "loading": "Betöltés..."
   }
 }

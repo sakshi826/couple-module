@@ -58,5 +58,17 @@
   "complete": {
     "title": "Sesi Selesai",
     "message": "Tempat aman ini selalu tersedia untuk Anda. Anda dapat kembali ke sini kapan pun Anda membutuhkan momen tenang."
+  },
+  "common": {
+    "get_started": "Memulai",
+    "start_over": "Mulai Dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Bagus!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
+    "time_to_complete": "Waktu untuk menyelesaikan",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "save": "Simpan",
+    "loading": "Memuat..."
   }
 }

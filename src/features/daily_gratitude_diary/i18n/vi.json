@@ -30,5 +30,19 @@
   "back": "Mặt sau",
   "not_found_title": "404",
   "not_found_text": "Ôi! Không tìm thấy trang!",
-  "return_home": "Trở về Trang chủ"
+  "return_home": "Trở về Trang chủ",
+  "common": {
+    "get_started": "Bắt đầu",
+    "start_over": "Bắt đầu lại",
+    "finish_exit": "Kết thúc & Thoát",
+    "well_done": "Làm tốt lắm!",
+    "completion_message": "Bạn đã hoàn thành thành công hoạt động này. Hãy dành một chút thời gian để đánh giá cao sự tiến bộ của bạn.",
+    "time_to_complete": "Thời gian hoàn thành",
+    "back": "Quay lại",
+    "next": "Kế tiếp",
+    "save": "Lưu",
+    "loading": "Đang tải..."
+  },
+  "app_complete_title": "Lòng biết ơn đã được lưu",
+  "app_complete_message": "Suy ngẫm về những gì bạn biết ơn là một cách hiệu quả để chuyển sự tập trung của bạn sang điều tích cực."
 }

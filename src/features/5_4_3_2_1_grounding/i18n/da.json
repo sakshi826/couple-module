@@ -36,11 +36,15 @@
     }
   ],
   "common": {
-    "thank_you": "Tak",
-    "you_feel": "Du føler:",
-    "completion_message": "Du har gennemført jordingsøvelsen. Tag denne følelse af tilstedeværelse med dig, mens du fortsætter din dag.",
-    "start_again": "Start forfra",
-    "reflection_question": "Med ét ord, hvordan har du det lige nu?",
-    "reflection_placeholder": "f.eks. rolig, lettet, jordnær..."
+    "get_started": "Kom i gang",
+    "start_over": "Start forfra",
+    "finish_exit": "Afslutning og exit",
+    "well_done": "Godt gået!",
+    "completion_message": "Du har gennemført denne aktivitet med succes. Tag et øjeblik til at værdsætte dine fremskridt.",
+    "time_to_complete": "Tid til at gennemføre",
+    "back": "Tilbage",
+    "next": "Næste",
+    "save": "Gem",
+    "loading": "Indlæser..."
   }
 }

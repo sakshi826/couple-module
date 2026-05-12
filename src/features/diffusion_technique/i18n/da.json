@@ -87,5 +87,17 @@
   "label_choose_technique": "Vælg Teknik",
   "label_current_thought": "Din nuværende tanke",
   "label_recurrent_thought": "Den tilbagevendende tanke",
-  "label_remember_to_say": "Husk at sige:"
+  "label_remember_to_say": "Husk at sige:",
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start forfra",
+    "finish_exit": "Afslutning og exit",
+    "well_done": "Godt gået!",
+    "completion_message": "Du har gennemført denne aktivitet med succes. Tag et øjeblik til at værdsætte dine fremskridt.",
+    "time_to_complete": "Tid til at gennemføre",
+    "back": "Tilbage",
+    "next": "Næste",
+    "save": "Gem",
+    "loading": "Indlæser..."
+  }
 }

@@ -18,5 +18,17 @@
     "desc": "Sposób, w jaki twoi opiekunowie cicho reagowali na twoje potrzeby, ukształtował twoje relacje z innymi jako dorosły. To są wyuczone reakcje — i można je oduczyć.",
     "quote": "\"Twój wzór kiedyś miał sens. Pytanie brzmi — czy nadal ci służy?\"",
     "button": "Odbicie wykończenia"
+  },
+  "common": {
+    "get_started": "Zacznij",
+    "start_over": "Start From",
+    "finish_exit": "Koniec i wyjście",
+    "well_done": "Brawo!",
+    "completion_message": "Udało ci się ukończyć tę aktywność. Poświęć chwilę, by docenić swoje postępy.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Z powrotem",
+    "next": "Następny",
+    "save": "Zapisz",
+    "loading": "Ładowanie..."
   }
 }

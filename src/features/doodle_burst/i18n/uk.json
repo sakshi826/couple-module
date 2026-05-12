@@ -30,5 +30,17 @@
   "tool_undo": "Скасувати",
   "tool_clear": "Чисто",
   "share_doodle": "Поділитися дудлом",
-  "share_text": "Мені дуже сподобалася ця активність з дудл-бластом на TherapyMantra, ви теж можете спробувати, просто завантажте додаток і досліджуйте це самостійно\n\nАндроїд: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888"
+  "share_text": "Мені дуже сподобалася ця активність з дудл-бластом на TherapyMantra, ви теж можете спробувати, просто завантажте додаток і досліджуйте це самостійно\n\nАндроїд: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888",
+  "common": {
+    "get_started": "Починайте",
+    "start_over": "Почати спочатку",
+    "finish_exit": "Фініш і вихід",
+    "well_done": "Чудова робота!",
+    "completion_message": "Ви успішно виконали це завдання. Приділіть паузу, щоб оцінити свій прогрес.",
+    "time_to_complete": "Час завершити",
+    "back": "Назад",
+    "next": "Далі",
+    "save": "Збереження",
+    "loading": "Завантаження..."
+  }
 }

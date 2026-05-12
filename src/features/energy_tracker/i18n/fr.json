@@ -43,5 +43,17 @@
   "insight_okay": "Tu as eu un flux d’énergie constant. Équilibrer travail et repos semble fonctionner pour toi.",
   "insight_low": "Ton énergie a été un peu plus basse. Essayez de vérifier si vous vous reposez suffisamment ou faites de l’exercice.",
   "insight_more_data": "Continuez à suivre chaque jour pour voir des schémas plus profonds dans votre niveau d’énergie.",
-  "go_home": "Retour au Tracker"
+  "go_home": "Retour au Tracker",
+  "common": {
+    "get_started": "Commencez",
+    "start_over": "Recommencer à zéro",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bravo !",
+    "completion_message": "Vous avez réussi cette activité. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Il est temps de terminer",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Sauvegarder",
+    "loading": "Chargement..."
+  }
 }

@@ -69,5 +69,17 @@
       "other": "Nästa gång du känner dig triggad, prova detta innan du reagerar."
     },
     "italic": "Det kommer inte alltid kännas lätt – men konsekvens är nyckeln."
+  },
+  "common": {
+    "get_started": "Kom igång",
+    "start_over": "Börja om",
+    "finish_exit": "Mål och utgång",
+    "well_done": "Bra jobbat!",
+    "completion_message": "Du har framgångsrikt slutfört denna aktivitet. Ta en stund och uppskatta dina framsteg.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "save": "Spara",
+    "loading": "Laddar..."
   }
 }

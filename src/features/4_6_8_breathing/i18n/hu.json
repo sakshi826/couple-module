@@ -23,5 +23,17 @@
   "finish": "Befejezés",
   "not_found_title": "404",
   "not_found_text": "Hoppá! Oldal nem talált meg",
-  "return_home": "Hazatérés"
+  "return_home": "Hazatérés",
+  "common": {
+    "get_started": "Kezdj el",
+    "start_over": "Kezdj újrakezdeni",
+    "finish_exit": "Befejezés és kilépés",
+    "well_done": "Szép munka!",
+    "completion_message": "Sikeresen teljesítetted ezt a feladatot. Szánj egy pillanatot, hogy értékeld a fejlődésedet.",
+    "time_to_complete": "Ideje befejezni",
+    "back": "Hátra",
+    "next": "Következő",
+    "save": "Mentés",
+    "loading": "Betöltés..."
+  }
 }

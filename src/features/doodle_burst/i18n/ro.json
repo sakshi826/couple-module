@@ -30,5 +30,17 @@
   "tool_undo": "Anulează",
   "tool_clear": "Clar",
   "share_doodle": "Share Doodle",
-  "share_text": "Mi-a plăcut foarte mult această activitate de tip doodle burst de la TherapyMantra, poți încerca să descarci aplicația ca să explorezi singur\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888"
+  "share_text": "Mi-a plăcut foarte mult această activitate de tip doodle burst de la TherapyMantra, poți încerca să descarci aplicația ca să explorezi singur\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888",
+  "common": {
+    "get_started": "Începe",
+    "start_over": "Începeți de la zero",
+    "finish_exit": "Final și ieșire",
+    "well_done": "Bravo!",
+    "completion_message": "Ai finalizat cu succes această activitate. Ia-ți un moment să apreciezi progresul tău.",
+    "time_to_complete": "Timpul de finalizat",
+    "back": "Înapoi",
+    "next": "Următorul",
+    "save": "Salvează",
+    "loading": "Se încarcă..."
+  }
 }

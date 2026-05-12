@@ -48,5 +48,19 @@
     "sleep": "Tidur lebih awal",
     "yoga": "Cobalah yoga",
     "dance": "Menari mengikuti lagu"
-  }
+  },
+  "common": {
+    "get_started": "Memulai",
+    "start_over": "Mulai Dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Bagus!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
+    "time_to_complete": "Waktu untuk menyelesaikan",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "save": "Simpan",
+    "loading": "Memuat..."
+  },
+  "complete_title": "Master Bingo!",
+  "complete_message": "Selamat! Anda telah berhasil menyelesaikan lini perawatan diri. Pikiran dan tubuh Anda terima kasih."
 }

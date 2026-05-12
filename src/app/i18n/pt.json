@@ -1,0 +1,223 @@
+{
+  "common": {
+    "get_started": "Comece",
+    "start_over": "Recomeçar",
+    "finish_exit": "Fim e Saída",
+    "well_done": "Parabéns!",
+    "completion_message": "Você completou esta atividade com sucesso. Reserve um momento para apreciar seu progresso.",
+    "time_to_complete": "Hora de concluir",
+    "back": "Voltar",
+    "next": "Próximo",
+    "save": "Salvar",
+    "loading": "Carregando...",
+    "today": "Hoje",
+    "yesterday": "Ontem",
+    "filters": "Filtros",
+    "see_all": "Veja Tudo",
+    "meditation": "Meditação",
+    "guided": "Guiado",
+    "sleep": "Durma",
+    "mindfulness": "Atenção plena",
+    "restore": "Restauração",
+    "curated": "Curado pela Mind",
+    "restorative": "Restauração",
+    "peace": "Paz",
+    "breath": "Respire",
+    "nature": "Natureza",
+    "relax": "Relaxe",
+    "time": {
+      "3min": "3 min",
+      "5min": "5 min",
+      "8min": "8 min",
+      "10min": "10 min",
+      "12min": "12 min",
+      "15min": "15 min",
+      "20min": "20 min",
+      "30min": "30 min",
+      "45min": "45 min",
+      "60min": "60 min"
+    }
+  },
+  "hub": {
+    "back_to_topics": "Voltando aos tópicos",
+    "guided_series": "Série Guiada",
+    "start_guided_series": "Iniciar a série guiada",
+    "exercises": "Exercícios",
+    "todos": "Coisas para fazer",
+    "resources": "Recursos",
+    "view_resource": "Ver recurso",
+    "search_placeholder": "Procure por tópicos ou atividades...",
+    "how_are_you": "Como você está se sentindo hoje?",
+    "self_care_resources": "Recursos para Autocuidado",
+    "explore_tools": "Explore ferramentas e orientações para sua jornada de bem-estar mental",
+    "topics": "Tópicos",
+    "tools": "Ferramentas",
+    "articles": "Artigos",
+    "tips": "Dicas",
+    "stories": "Histórias",
+    "myths": "Mitos"
+  },
+  "topics": {
+    "depression": {
+      "label": "Depressão",
+      "desc": "Exercícios e recursos baseados em evidências para ajudar você a gerenciar sintomas de depressão e construir resiliência."
+    },
+    "anxiety": {
+      "label": "Ansiedade",
+      "desc": "Técnicas e estratégias calmantes para controlar a ansiedade, reduzir a preocupação e recuperar o controle."
+    },
+    "stress": {
+      "label": "Estresse",
+      "desc": "Ferramentas e exercícios práticos para gerenciar o estresse, desenvolver habilidades de enfrentamento e restaurar o equilíbrio na sua vida."
+    },
+    "adolescent": {
+      "label": "Adolescente",
+      "desc": "Orientação e atividades projetadas para adolescentes que enfrentam crescimento, identidade e desafios emocionais."
+    },
+    "relationship": {
+      "label": "Relacionamento",
+      "desc": "Ferramentas e insights para fortalecer conexões, melhorar a comunicação e construir relacionamentos mais saudáveis."
+    },
+    "workplace": {
+      "label": "Local de Trabalho",
+      "desc": "Estratégias para gerenciar o estresse no ambiente de trabalho, melhorar o foco e manter o equilíbrio entre vida pessoal e profissional."
+    },
+    "sleep": {
+      "label": "Durma",
+      "desc": "Técnicas e rastreadores para melhorar a qualidade do seu sono, criar hábitos saudáveis para dormir e acordar renovado."
+    },
+    "parenting": {
+      "label": "Criação",
+      "desc": "Recursos para apoiar a criação consciente, reduzir o esgotamento e cuidar do bem-estar da sua família."
+    },
+    "anger": {
+      "label": "Raiva",
+      "desc": "Técnicas para entender, gerenciar e canalizar a raiva de maneiras saudáveis e construtivas."
+    },
+    "grief": {
+      "label": "Luto",
+      "desc": "Ferramentas e exercícios compassivos para ajudar você a processar a perda e encontrar cura no seu próprio ritmo."
+    },
+    "ptsd": {
+      "label": "TEPT",
+      "desc": "Técnicas de aterramento e estabilização para ajudar a gerenciar respostas ao trauma e construir segurança."
+    },
+    "acceptance": {
+      "label": "Aceitação",
+      "desc": "Exercícios para cultivar aceitação, deixar de lado a resistência e abraçar a vida como ela é."
+    },
+    "postpartum": {
+      "label": "Pós-parto",
+      "desc": "Recursos de apoio para mães de primeira viagem que lidam com desafios e mudanças emocionais no pós-parto."
+    },
+    "sexuality": {
+      "label": "Sexualidade",
+      "desc": "Recursos seguros e de apoio para explorar a identidade, construir autoaceitação e encontrar comunidade."
+    },
+    "eating-disorder": {
+      "label": "Transtorno Alimentar",
+      "desc": "Exercícios e recursos de apoio para construir uma relação mais saudável com a comida e a imagem corporal."
+    },
+    "ocd": {
+      "label": "TOC",
+      "desc": "Técnicas baseadas em evidências para gerenciar pensamentos obsessivos e comportamentos compulsivos."
+    }
+  },
+  "tools": {
+    "box-breathing": "Respiração em Caixa",
+    "gratitude-tracker": "Rastreador de Gratidão",
+    "deep-breathing": "Respiração Profunda",
+    "affirmations": "Afirmações",
+    "mindful-space": "Espaço Mindful",
+    "letter-to-self": "Uma Carta para Si Mesmo",
+    "sleep-tracker": "Rastreador do Sono"
+  },
+  "moods": {
+    "great": "Ótimo",
+    "good": "Bom",
+    "okay": "Ok",
+    "down": "Abaixo",
+    "sad": "Triste"
+  },
+  "nav": {
+    "home": "Casa",
+    "care_team": "Equipe de Cuidados",
+    "appointments": "Nomeações",
+    "tasks": "Tarefas",
+    "insights": "Percepções",
+    "billing": "Faturamento",
+    "profile": "Perfil",
+    "invite_friend": "Convidado para Amigo",
+    "feedback": "Compartilhe Feedback",
+    "support": "Apoio",
+    "sign_out": "Desconectar"
+  },
+  "journal": {
+    "title": "Revista",
+    "subtitle": "Documente seus pensamentos, sentimentos e experiências diárias",
+    "new_entry": "Nova Entrada",
+    "search_placeholder": "Pesquise suas entradas de diário...",
+    "filter_by_mood": "Filtre por humor:",
+    "all_moods": "Todos os Humores",
+    "no_entries": "Nenhuma inscrição encontrada",
+    "adjust_search": "Tente ajustar sua busca ou filtros",
+    "start_journey": "Comece sua jornada de escrever um diário hoje mesmo",
+    "write_first": "Escreva Sua Primeira Entrada",
+    "mood": {
+      "great": "Ótimo",
+      "good": "Bom",
+      "okay": "Ok",
+      "sad": "Triste",
+      "anxious": "Ansioso"
+    },
+    "sample": {
+      "1": {
+        "title": "Seu Primeiro Pensamento",
+        "content": "Comece escrevendo o que está pensando. Escrever em diário é uma ferramenta poderosa para autorreflexão e clareza mental."
+      }
+    }
+  },
+  "mindfulness": {
+    "title": "Autocuidado por Atenção Plena",
+    "subtitle": "Ferramentas especializadas de mindfulness e sessões guiadas para sua jornada de bem-estar",
+    "featured_mantra": "Destaque no Mantra",
+    "browse_category": "Navegar por categoria",
+    "new_noteworthy": "Novos e Notáveis",
+    "browse_goal": "Navegar por Objetivo",
+    "browse_time": "Navegue por Tempo",
+    "daily_program": "Encontre um programa diário",
+    "daily_program_desc": "Preste atenção nas suas intenções para cada programa",
+    "featured_collections": "Coleções em destaque",
+    "featured": {
+      "anxiety": "Calmando a ansiedade",
+      "relaxation": "Habilidades para Relaxamento Profundo",
+      "peace": "Jornada pela Paz Interior",
+      "mountain": "Silêncio da Montanha"
+    },
+    "goal": {
+      "beginners": "Para iniciantes",
+      "beginners_desc": "Comece sua jornada de mindfulness",
+      "grief": "Enfrentando o Luto",
+      "grief_desc": "Encontre paz e cura"
+    },
+    "collection": {
+      "students": "Para Estudantes",
+      "students_desc": "Foque e estude melhor",
+      "grief": "Enfrentando o Luto",
+      "grief_desc": "Encontre paz e cura",
+      "sleep": "Sono Melhor",
+      "sleep_desc": "Descanse e recarregue as energias profundamente",
+      "stress": "Alívio do Estresse",
+      "stress_desc": "Acalme sua mente e corpo"
+    },
+    "category": {
+      "meditation": "Meditação",
+      "concentration": "Concentração",
+      "music": "Música",
+      "creatures": "Criaturas",
+      "soundscapes": "Paisagens sonoras",
+      "students": "Alunos",
+      "affirmations": "Afirmações"
+    }
+  }
+}

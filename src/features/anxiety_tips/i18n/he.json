@@ -48,5 +48,17 @@
   "support_step1": "התקשר או שלח הודעה לחבר",
   "support_step2": "שתפו מה מדאיג אתכם",
   "support_step3": "בקש פרספקטיבה",
-  "support_step4": "שקול לדבר עם יועץ"
+  "support_step4": "שקול לדבר עם יועץ",
+  "common": {
+    "get_started": "תתחילו",
+    "start_over": "התחלה מחדש",
+    "finish_exit": "סיום ויציאה",
+    "well_done": "כל הכבוד!",
+    "completion_message": "השלמת את הפעילות הזו בהצלחה. קח רגע להעריך את ההתקדמות שלך.",
+    "time_to_complete": "הגיע הזמן להשלים",
+    "back": "חזרה",
+    "next": "הבא",
+    "save": "שמור",
+    "loading": "טוען..."
+  }
 }

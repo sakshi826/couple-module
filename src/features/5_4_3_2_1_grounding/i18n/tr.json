@@ -36,11 +36,15 @@
     }
   ],
   "common": {
-    "thank_you": "Teşekkür ederim",
-    "you_feel": "Şöyle hissediyorsunuz:",
-    "completion_message": "Topraklama egzersizini tamamladınız. Gününüze devam ederken bu farkındalık duygusunu yanınızda taşıyın.",
-    "start_again": "Yeniden Başla",
-    "reflection_question": "Tek kelimeyle, şu anda nasıl hissediyorsunuz?",
-    "reflection_placeholder": "Örneğin, sakin, rahatlamış, dengeli…"
+    "get_started": "Başlayın",
+    "start_over": "Yeniden Başla",
+    "finish_exit": "Bitiş ve Çıkış",
+    "well_done": "Aferin!",
+    "completion_message": "Bu etkinliği başarıyla tamamladın. İlerlemenin takdir edilmesini bir an ayır.",
+    "time_to_complete": "Tamamlanma zamanı",
+    "back": "Geri",
+    "next": "Sıradaki",
+    "save": "Kayd et",
+    "loading": "Yükleniyor..."
   }
 }

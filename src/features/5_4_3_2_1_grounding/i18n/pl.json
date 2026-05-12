@@ -36,11 +36,15 @@
     }
   ],
   "common": {
-    "thank_you": "Dziękuję",
-    "you_feel": "Czujesz:",
-    "completion_message": "Ukończyłeś ćwiczenie uziemiające. Zachowaj to poczucie obecności w ciągu dnia.",
-    "start_again": "Zacznij od nowa",
-    "reflection_question": "Krótko mówiąc, jak się teraz czujesz?",
-    "reflection_placeholder": "np. spokojny, odprężony, ugruntowany…"
+    "get_started": "Zacznij",
+    "start_over": "Start From",
+    "finish_exit": "Koniec i wyjście",
+    "well_done": "Brawo!",
+    "completion_message": "Udało ci się ukończyć tę aktywność. Poświęć chwilę, by docenić swoje postępy.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Z powrotem",
+    "next": "Następny",
+    "save": "Zapisz",
+    "loading": "Ładowanie..."
   }
 }

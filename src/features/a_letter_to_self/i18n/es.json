@@ -14,5 +14,17 @@
   "complete_msg": "Su carta ha sido guardada de forma segura.",
   "home": "Hogar",
   "past_letters_title": "Cartas pasadas",
-  "empty_letters": "No se encontraron letras pasadas."
+  "empty_letters": "No se encontraron letras pasadas.",
+  "common": {
+    "get_started": "Empieza",
+    "start_over": "Empezar de nuevo",
+    "finish_exit": "Llegada y salida",
+    "well_done": "¡Bien hecho!",
+    "completion_message": "Has completado esta actividad con éxito. Tómate un momento para apreciar tu progreso.",
+    "time_to_complete": "Hora de completar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "save": "Salvar",
+    "loading": "Cargando..."
+  }
 }

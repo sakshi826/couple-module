@@ -87,5 +87,17 @@
   "label_choose_technique": "选择技巧",
   "label_current_thought": "你现在的想法",
   "label_recurrent_thought": "反复出现的思考",
-  "label_remember_to_say": "记得说："
+  "label_remember_to_say": "记得说：",
+  "common": {
+    "get_started": "开始",
+    "start_over": "重新开始",
+    "finish_exit": "终点与退场",
+    "well_done": "干得好！",
+    "completion_message": "你已经成功完成了这项活动。花点时间欣赏你的进步。",
+    "time_to_complete": "时间到了完成",
+    "back": "返回",
+    "next": "下一个",
+    "save": "保存",
+    "loading": "加载中......"
+  }
 }

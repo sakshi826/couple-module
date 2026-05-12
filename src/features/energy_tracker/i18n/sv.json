@@ -43,5 +43,17 @@
   "insight_okay": "Du har haft ett stadigt energiflöde. Att balansera arbete och vila verkar fungera för dig.",
   "insight_low": "Din energi har varit på den lägre sidan. Överväg att kolla om du får tillräckligt med vila eller motion.",
   "insight_more_data": "Fortsätt följa dagligen för att se djupare mönster i dina energinivåer.",
-  "go_home": "Tillbaka till Tracker"
+  "go_home": "Tillbaka till Tracker",
+  "common": {
+    "get_started": "Kom igång",
+    "start_over": "Börja om",
+    "finish_exit": "Mål och utgång",
+    "well_done": "Bra jobbat!",
+    "completion_message": "Du har framgångsrikt slutfört denna aktivitet. Ta en stund och uppskatta dina framsteg.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "save": "Spara",
+    "loading": "Laddar..."
+  }
 }

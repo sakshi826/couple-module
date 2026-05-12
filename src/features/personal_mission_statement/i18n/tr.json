@@ -48,5 +48,17 @@
   "history_empty": "Henüz hiçbir görev bildirimi kaydetmediniz.",
   "history_empty_hint": "Hazır olduğunuzda bir tane oluşturun ve burada görünecektir.",
   "history_back": "Geri gitmek",
-  "history_delete_aria": "Bu yansımayı sil"
+  "history_delete_aria": "Bu yansımayı sil",
+  "common": {
+    "get_started": "Başlayın",
+    "start_over": "Yeniden Başla",
+    "finish_exit": "Bitiş ve Çıkış",
+    "well_done": "Aferin!",
+    "completion_message": "Bu etkinliği başarıyla tamamladın. İlerlemenin takdir edilmesini bir an ayır.",
+    "time_to_complete": "Tamamlanma zamanı",
+    "back": "Geri",
+    "next": "Sıradaki",
+    "save": "Kayd et",
+    "loading": "Yükleniyor..."
+  }
 }

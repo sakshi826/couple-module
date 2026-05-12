@@ -35,5 +35,17 @@
   ],
   "btn_finish": "Färdig reflektion",
   "complete_title": "Resan hedrad",
-  "complete_message": "Du behöver inte gå vidare. Man lär sig bara att bära den på ett annat sätt. Din resa är unik, värdefull och djupt mänsklig."
+  "complete_message": "Du behöver inte gå vidare. Man lär sig bara att bära den på ett annat sätt. Din resa är unik, värdefull och djupt mänsklig.",
+  "common": {
+    "get_started": "Kom igång",
+    "start_over": "Börja om",
+    "finish_exit": "Mål och utgång",
+    "well_done": "Bra jobbat!",
+    "completion_message": "Du har framgångsrikt slutfört denna aktivitet. Ta en stund och uppskatta dina framsteg.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "save": "Spara",
+    "loading": "Laddar..."
+  }
 }

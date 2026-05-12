@@ -35,5 +35,17 @@
   ],
   "btn_finish": "Tapusin ang Pagmumuni-muni",
   "complete_title": "Pinarangalan ang Paglalakbay",
-  "complete_message": "Hindi mo na kailangang magpatuloy. Natututo ka lang na dalhin ito nang iba. Ang iyong paglalakbay ay natatangi, may bisa, at malalim na tao."
+  "complete_message": "Hindi mo na kailangang magpatuloy. Natututo ka lang na dalhin ito nang iba. Ang iyong paglalakbay ay natatangi, may bisa, at malalim na tao.",
+  "common": {
+    "get_started": "Email Address *",
+    "start_over": "Magsimulang Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Mahusay na ginawa!",
+    "completion_message": "Matagumpay mong nakumpleto ang aktibidad na ito. Maglaan ng ilang sandali upang pahalagahan ang iyong pag-unlad.",
+    "time_to_complete": "Oras na para makumpleto",
+    "back": "Bumalik",
+    "next": "Susunod",
+    "save": "I-save",
+    "loading": "Naglo-load..."
+  }
 }

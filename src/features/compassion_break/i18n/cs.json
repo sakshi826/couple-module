@@ -59,5 +59,17 @@
   "label_feelings": "Pocity",
   "label_your_kind_words": "Tvá laskavá slova",
   "save_finish_button": "Save & Finish",
-  "finish_no_save_button": "Skončit bez uložení"
+  "finish_no_save_button": "Skončit bez uložení",
+  "common": {
+    "get_started": "Začněte",
+    "start_over": "Začít znovu",
+    "finish_exit": "Konec a výjezd",
+    "well_done": "Dobrá práce!",
+    "completion_message": "Úspěšně jste tuto aktivitu dokončili. Věnujte chvíli ocenění svého pokroku.",
+    "time_to_complete": "Čas dokončit",
+    "back": "Zpět",
+    "next": "Další",
+    "save": "Uložit",
+    "loading": "Načítám..."
+  }
 }

@@ -48,5 +48,17 @@
   "history_empty": "لم تقم بحفظ أي بيانات مهمة حتى الآن.",
   "history_empty_hint": "عندما تكون مستعدًا، أنشئ حسابًا وسيظهر هنا.",
   "history_back": "عُد",
-  "history_delete_aria": "احذف هذا التعليق"
+  "history_delete_aria": "احذف هذا التعليق",
+  "common": {
+    "get_started": "ابدأ",
+    "start_over": "ابدأ من جديد",
+    "finish_exit": "النهاية والخروج",
+    "well_done": "عمل رائع!",
+    "completion_message": "لقد أنجزت هذا النشاط بنجاح. خذ لحظة لتقدير تقدمك.",
+    "time_to_complete": "حان وقت الإكمال",
+    "back": "العودة",
+    "next": "التالي",
+    "save": "حفظ",
+    "loading": "جار التحميل..."
+  }
 }

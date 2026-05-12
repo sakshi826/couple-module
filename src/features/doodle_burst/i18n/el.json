@@ -30,5 +30,17 @@
   "tool_undo": "Αναίρεση",
   "tool_clear": "Εκκαθάριση",
   "share_doodle": "Κοινοποίηση του Doodle",
-  "share_text": "Μου άρεσε αυτή η δραστηριότητα έκρηξης doodle στο TherapyMantra, μπορείτε επίσης να δοκιμάσετε απλώς κατεβάστε την εφαρμογή για να εξερευνήσετε μόνοι σας\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888"
+  "share_text": "Μου άρεσε αυτή η δραστηριότητα έκρηξης doodle στο TherapyMantra, μπορείτε επίσης να δοκιμάσετε απλώς κατεβάστε την εφαρμογή για να εξερευνήσετε μόνοι σας\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888",
+  "common": {
+    "get_started": "Ξεκινήστε",
+    "start_over": "Ξεκινήστε από την αρχή",
+    "finish_exit": "Τερματισμός & Έξοδος",
+    "well_done": "Μπράβο!",
+    "completion_message": "Ολοκληρώσατε με επιτυχία αυτή τη δραστηριότητα. Αφιερώστε λίγο χρόνο για να εκτιμήσετε την πρόοδό σας.",
+    "time_to_complete": "Ώρα για ολοκλήρωση",
+    "back": "Πίσω",
+    "next": "Επόμενο",
+    "save": "Αποθήκευση",
+    "loading": "Φόρτωση..."
+  }
 }

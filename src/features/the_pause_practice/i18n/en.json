@@ -11,10 +11,26 @@
     "title": "What triggers you?",
     "desc": "Pick a situation you relate to",
     "options": [
-      { "id": "interrupts", "label": "Someone interrupts me", "emoji": "😠" },
-      { "id": "plans", "label": "Things don't go as planned", "emoji": "😤" },
-      { "id": "ignored", "label": "I feel ignored", "emoji": "😔" },
-      { "id": "overwhelmed", "label": "I feel overwhelmed", "emoji": "😵‍💫" }
+      {
+        "id": "interrupts",
+        "label": "Someone interrupts me",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "Things don't go as planned",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "I feel ignored",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "I feel overwhelmed",
+        "emoji": "😵‍💫"
+      }
     ],
     "placeholder": "Type your own...",
     "button": "Practice Pause →"
@@ -23,10 +39,22 @@
     "title": "Hold to Pause ⏸️",
     "instructions": "Hold the circle for 5 seconds",
     "microcopy": [
-      { "at": 0, "text": "Press and hold…" },
-      { "at": 0.15, "text": "Stay with it…" },
-      { "at": 0.5, "text": "You're doing it…" },
-      { "at": 0.8, "text": "Almost there…" }
+      {
+        "at": 0,
+        "text": "Press and hold…"
+      },
+      {
+        "at": 0.15,
+        "text": "Stay with it…"
+      },
+      {
+        "at": 0.5,
+        "text": "You're doing it…"
+      },
+      {
+        "at": 0.8,
+        "text": "Almost there…"
+      }
     ]
   },
   "result": {
@@ -41,5 +69,17 @@
       "other": "Next time you feel triggered, try this before reacting."
     },
     "italic": "It won't always feel easy—but consistency is key."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading..."
   }
 }

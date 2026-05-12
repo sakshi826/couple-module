@@ -1,6 +1,15 @@
 {
   "app_title": "Food & Emotion Map",
-  "screen_titles": ["Welcome", "Food Patterns", "Internal Dialogue", "Physical Sensing", "The Map", "Gentle Support", "Final Look", "Reflecting"],
+  "screen_titles": [
+    "Welcome",
+    "Food Patterns",
+    "Internal Dialogue",
+    "Physical Sensing",
+    "The Map",
+    "Gentle Support",
+    "Final Look",
+    "Reflecting"
+  ],
   "welcome_text": "Hey… I'm really glad you're here 💛 Let's gently map out what's been going on.",
   "coming_up_label": "What's coming up lately?",
   "begin_mapping": "Begin Mapping",
@@ -23,10 +32,36 @@
   "auth_error": "Auth session missing or DB not configured",
   "save_success": "Pattern preserved",
   "save_error": "Failed to preserve pattern",
-  "emotions_list": ["😰 Stress", "😢 Sadness", "😶 Boredom", "😟 Anxiety", "🥺 Loneliness", "💭 Something else…"],
-  "food_responses": ["🍽️ I eat more", "🚫 I eat less", "🍫 I crave specific foods", "😣 I avoid food", "😐 No real change"],
-  "body_sensations": ["💔 Tight chest", "🪨 Heavy feeling", "🦵 Restless / fidgety", "🔋 Low energy", "🌀 Knots in stomach", "❓ Something else…"],
-  "support_options": ["🗣️ Talk to someone", "☕ Take a break", "📝 Journal", "🌬️ Breathe", "🎧 Distract myself"],
+  "emotions_list": [
+    "😰 Stress",
+    "😢 Sadness",
+    "😶 Boredom",
+    "😟 Anxiety",
+    "🥺 Loneliness",
+    "💭 Something else…"
+  ],
+  "food_responses": [
+    "🍽️ I eat more",
+    "🚫 I eat less",
+    "🍫 I crave specific foods",
+    "😣 I avoid food",
+    "😐 No real change"
+  ],
+  "body_sensations": [
+    "💔 Tight chest",
+    "🪨 Heavy feeling",
+    "🦵 Restless / fidgety",
+    "🔋 Low energy",
+    "🌀 Knots in stomach",
+    "❓ Something else…"
+  ],
+  "support_options": [
+    "🗣️ Talk to someone",
+    "☕ Take a break",
+    "📝 Journal",
+    "🌬️ Breathe",
+    "🎧 Distract myself"
+  ],
   "support_responses": {
     "🗣️ Talk to someone": {
       "title": "Reach out 💛",
@@ -48,5 +83,17 @@
       "title": "Gentle shift 💛",
       "body": "A gentle distraction can shift the moment… maybe something light or easy."
     }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading..."
   }
 }

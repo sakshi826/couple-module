@@ -52,5 +52,17 @@
   "complete_message": "Świadomość to pierwszy krok ku wolności. Podjęliście odważny krok, wskazując i zastanawiając się nad zasadą dotyczącą jedzenia. Noś to łagodne zrozumienie ze sobą dzisiaj.",
   "auth_error": "Brakuje sesji uwierzytelniania lub baza danych nie skonfigurowana",
   "save_success": "Zachowane odbicie",
-  "save_error": "Nie udało się zachować odbicia"
+  "save_error": "Nie udało się zachować odbicia",
+  "common": {
+    "get_started": "Zacznij",
+    "start_over": "Start From",
+    "finish_exit": "Koniec i wyjście",
+    "well_done": "Brawo!",
+    "completion_message": "Udało ci się ukończyć tę aktywność. Poświęć chwilę, by docenić swoje postępy.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Z powrotem",
+    "next": "Następny",
+    "save": "Zapisz",
+    "loading": "Ładowanie..."
+  }
 }

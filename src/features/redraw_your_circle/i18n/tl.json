@@ -57,5 +57,17 @@
     "save_success": "Nai-save ang bilog",
     "save_error": "Nabigo na i-save ang bilog",
     "auth_error": "Nawawala ang session ng auth o hindi naka-configure ang DB"
+  },
+  "common": {
+    "get_started": "Email Address *",
+    "start_over": "Magsimulang Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Mahusay na ginawa!",
+    "completion_message": "Matagumpay mong nakumpleto ang aktibidad na ito. Maglaan ng ilang sandali upang pahalagahan ang iyong pag-unlad.",
+    "time_to_complete": "Oras na para makumpleto",
+    "back": "Bumalik",
+    "next": "Susunod",
+    "save": "I-save",
+    "loading": "Naglo-load..."
   }
 }

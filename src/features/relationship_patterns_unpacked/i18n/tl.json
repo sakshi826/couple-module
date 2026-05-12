@@ -18,5 +18,17 @@
     "desc": "Ang paraan ng pagtugon ng iyong mga tagapag-alaga sa iyong mga pangangailangan ay tahimik na humubog sa kung paano ka nakikipag-ugnayan sa iba bilang isang may sapat na gulang. Ang mga ito ay natutunan na mga tugon - at maaari silang hindi natutunan.",
     "quote": "\"Minsan, may katuturan ang pattern mo. Ang tanong ay - nagsisilbi pa rin ba ito sa iyo ngayon?\"",
     "button": "Tapusin ang Pagmumuni-muni"
+  },
+  "common": {
+    "get_started": "Email Address *",
+    "start_over": "Magsimulang Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Mahusay na ginawa!",
+    "completion_message": "Matagumpay mong nakumpleto ang aktibidad na ito. Maglaan ng ilang sandali upang pahalagahan ang iyong pag-unlad.",
+    "time_to_complete": "Oras na para makumpleto",
+    "back": "Bumalik",
+    "next": "Susunod",
+    "save": "I-save",
+    "loading": "Naglo-load..."
   }
 }

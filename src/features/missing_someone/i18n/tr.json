@@ -22,5 +22,17 @@
     "desc": "Birini sevdiğinizde, beyniniz dopamin, oksitosin ve serotonin salgılar. Bittiğinde, seviyeler düşer. Beyniniz yas tutuyor — sadece kişiyi değil, yakınlık hissini.",
     "quote": "\"Onları özlemek, geri dönmen gerektiği anlamına gelmez. Kalbin bir bağa yas tutuyor — gerçek kişi değil.\"",
     "button": "Finish Reflection"
+  },
+  "common": {
+    "get_started": "Başlayın",
+    "start_over": "Yeniden Başla",
+    "finish_exit": "Bitiş ve Çıkış",
+    "well_done": "Aferin!",
+    "completion_message": "Bu etkinliği başarıyla tamamladın. İlerlemenin takdir edilmesini bir an ayır.",
+    "time_to_complete": "Tamamlanma zamanı",
+    "back": "Geri",
+    "next": "Sıradaki",
+    "save": "Kayd et",
+    "loading": "Yükleniyor..."
   }
 }

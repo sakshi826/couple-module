@@ -52,5 +52,17 @@
   "complete_message": "Bewustzijn is de eerste stap naar vrijheid. Je hebt een moedige stap gezet door een voedselregel te identificeren en erover na te denken. Neem dit zachte begrip vandaag met je mee.",
   "auth_error": "Auth-sessie ontbreekt of database niet geconfigureerd",
   "save_success": "Reflectie bewaard",
-  "save_error": "Niet in staat de reflectie te behouden"
+  "save_error": "Niet in staat de reflectie te behouden",
+  "common": {
+    "get_started": "Begin",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Goed gedaan!",
+    "completion_message": "Je hebt deze activiteit succesvol voltooid. Neem even de tijd om je vooruitgang te waarderen.",
+    "time_to_complete": "Tijd om af te ronden",
+    "back": "Achteruit",
+    "next": "Volgende",
+    "save": "Sla op",
+    "loading": "Laden..."
+  }
 }

@@ -48,5 +48,17 @@
   "memory_desc": "운동은 뇌로 가는 혈류량을 증가시켜 기억력과 인지 기능을 향상시키는 데 도움이 됩니다.",
   "stress_title": "스트레스 반응",
   "stress_desc": "신체 활동은 스트레스 호르몬 수치를 낮추고 신경계를 재설정하는 데 도움이 됩니다.",
-  "app_name": "신체 활동 기록"
+  "app_name": "신체 활동 기록",
+  "common": {
+    "get_started": "시작하기",
+    "start_over": "처음부터 다시",
+    "finish_exit": "결승 및 퇴장",
+    "well_done": "잘했어요!",
+    "completion_message": "이 활동을 성공적으로 완료하셨습니다. 잠시 시간을 내어 자신의 진전을 감상해 보세요.",
+    "time_to_complete": "완성 시간입니다",
+    "back": "뒤로",
+    "next": "다음",
+    "save": "저장",
+    "loading": "로딩 중..."
+  }
 }

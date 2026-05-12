@@ -17,5 +17,20 @@
   "back": "Balik",
   "not_found_404": "404",
   "page_not_found": "Naku! Hindi natagpuan ang pahina",
-  "return_home": "Bumalik sa Bahay"
+  "return_home": "Bumalik sa Bahay",
+  "common": {
+    "get_started": "Email Address *",
+    "start_over": "Magsimulang Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Mahusay na ginawa!",
+    "completion_message": "Matagumpay mong nakumpleto ang aktibidad na ito. Maglaan ng ilang sandali upang pahalagahan ang iyong pag-unlad.",
+    "time_to_complete": "Oras na para makumpleto",
+    "back": "Bumalik",
+    "next": "Susunod",
+    "save": "I-save",
+    "loading": "Naglo-load..."
+  },
+  "app_title": "Kahon ng Paghinga",
+  "app_complete_title": "Mahusay na trabaho!",
+  "app_complete_message": "Nakumpleto mo na ang sesyon ng paghinga ng kahon. Dapat kang maging mas balanse at kalmado."
 }

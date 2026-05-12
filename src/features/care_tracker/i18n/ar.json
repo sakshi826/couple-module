@@ -1,11 +1,15 @@
 {
   "common": {
-    "continue": "تابع",
+    "get_started": "ابدأ",
+    "start_over": "ابدأ من جديد",
+    "finish_exit": "النهاية والخروج",
+    "well_done": "عمل رائع!",
+    "completion_message": "لقد أنجزت هذا النشاط بنجاح. خذ لحظة لتقدير تقدمك.",
+    "time_to_complete": "حان وقت الإكمال",
     "back": "العودة",
-    "home": "العودة إلى الوطن",
-    "yes": "نعم",
-    "no": "لا",
-    "date": "التاريخ"
+    "next": "التالي",
+    "save": "حفظ",
+    "loading": "جار التحميل..."
   },
   "screens": {
     "intro": {

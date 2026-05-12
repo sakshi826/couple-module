@@ -59,5 +59,17 @@
   "label_feelings": "Почуття",
   "label_your_kind_words": "Твої добрі слова",
   "save_finish_button": "Зберегти і завершити",
-  "finish_no_save_button": "Фініш без збереження"
+  "finish_no_save_button": "Фініш без збереження",
+  "common": {
+    "get_started": "Починайте",
+    "start_over": "Почати спочатку",
+    "finish_exit": "Фініш і вихід",
+    "well_done": "Чудова робота!",
+    "completion_message": "Ви успішно виконали це завдання. Приділіть паузу, щоб оцінити свій прогрес.",
+    "time_to_complete": "Час завершити",
+    "back": "Назад",
+    "next": "Далі",
+    "save": "Збереження",
+    "loading": "Завантаження..."
+  }
 }

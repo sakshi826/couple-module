@@ -22,5 +22,17 @@
     "desc": "Když někoho milujete, mozek uvolňuje dopamin, oxytocin a serotonin. Když skončí, tyto úrovně klesnou. Mozek truchlí — nejen nad člověkem, ale i nad pocitem blízkosti.",
     "quote": "\"To, že ti chybí, neznamená, že bys měl jít zpátky. Tvé srdce truchlí nad poutem — ne nutně nad osobou, jaká skutečně byla.\"",
     "button": "Finish Reflection"
+  },
+  "common": {
+    "get_started": "Začněte",
+    "start_over": "Začít znovu",
+    "finish_exit": "Konec a výjezd",
+    "well_done": "Dobrá práce!",
+    "completion_message": "Úspěšně jste tuto aktivitu dokončili. Věnujte chvíli ocenění svého pokroku.",
+    "time_to_complete": "Čas dokončit",
+    "back": "Zpět",
+    "next": "Další",
+    "save": "Uložit",
+    "loading": "Načítám..."
   }
 }

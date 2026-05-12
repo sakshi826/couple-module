@@ -17,5 +17,17 @@
     "p2": "To nazywa się <1>warunkowym pobudzeniem</1> — tłumaczy, dlaczego czujesz się wyczerpany przez cały dzień, a przed snem jesteś całkowicie rozbudzony.",
     "quote": "\"Twój mózg nie jest zepsuty. Po prostu nauczyła się błędnej lekcji dotyczącej pory snu — i można ją powtórzyć.\"",
     "button": "Poprzedni krok"
+  },
+  "common": {
+    "get_started": "Zacznij",
+    "start_over": "Start From",
+    "finish_exit": "Koniec i wyjście",
+    "well_done": "Brawo!",
+    "completion_message": "Udało ci się ukończyć tę aktywność. Poświęć chwilę, by docenić swoje postępy.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Z powrotem",
+    "next": "Następny",
+    "save": "Zapisz",
+    "loading": "Ładowanie..."
   }
 }

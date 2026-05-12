@@ -23,5 +23,17 @@
   "finish": "סיום",
   "not_found_title": "404",
   "not_found_text": "אופס! העמוד לא נמצא",
-  "return_home": "חזרה הביתה"
+  "return_home": "חזרה הביתה",
+  "common": {
+    "get_started": "תתחילו",
+    "start_over": "התחלה מחדש",
+    "finish_exit": "סיום ויציאה",
+    "well_done": "כל הכבוד!",
+    "completion_message": "השלמת את הפעילות הזו בהצלחה. קח רגע להעריך את ההתקדמות שלך.",
+    "time_to_complete": "הגיע הזמן להשלים",
+    "back": "חזרה",
+    "next": "הבא",
+    "save": "שמור",
+    "loading": "טוען..."
+  }
 }

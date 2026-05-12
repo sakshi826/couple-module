@@ -43,5 +43,17 @@
   "insight_okay": "Du har hatt en jevn energistrøm. Å balansere arbeid og hvile ser ut til å fungere for deg.",
   "insight_low": "Energien din har vært på den lave siden. Vurder å sjekke om du får nok hvile eller trening.",
   "insight_more_data": "Fortsett å følge med daglig for å se dypere mønstre i energinivået ditt.",
-  "go_home": "Tilbake til Tracker"
+  "go_home": "Tilbake til Tracker",
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start på nytt",
+    "finish_exit": "Mål og utgang",
+    "well_done": "Bra jobbet!",
+    "completion_message": "Du har fullført denne aktiviteten med suksess. Ta et øyeblikk til å sette pris på fremgangen din.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Tilbake",
+    "next": "Neste",
+    "save": "Lagre",
+    "loading": "Laster..."
+  }
 }

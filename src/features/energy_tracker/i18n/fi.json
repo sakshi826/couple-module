@@ -43,5 +43,17 @@
   "insight_okay": "Sinulla on ollut tasainen energiavirta. Työn ja levon tasapainottaminen tuntuu toimivan sinulle.",
   "insight_low": "Energiasi on ollut vähän. Kannattaa tarkistaa, levätkö tai liikutko tarpeeksi.",
   "insight_more_data": "Jatka päivittäistä seurantaa nähdäksesi syvempiä kaavoja energiatasoissasi.",
-  "go_home": "Takaisin Trackeriin"
+  "go_home": "Takaisin Trackeriin",
+  "common": {
+    "get_started": "Aloita",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Maali ja uloskäynti",
+    "well_done": "Hyvin tehty!",
+    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Ota hetki arvostaaksesi edistymistäsi.",
+    "time_to_complete": "Aika valmistua",
+    "back": "Takaisin",
+    "next": "Seuraavaksi",
+    "save": "Tallenna",
+    "loading": "Ladataan..."
+  }
 }

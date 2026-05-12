@@ -14,5 +14,17 @@
   "complete_msg": "Ditt brev har räddats säkert.",
   "home": "Hem",
   "past_letters_title": "Tidigare brev",
-  "empty_letters": "Inga tidigare brev hittades."
+  "empty_letters": "Inga tidigare brev hittades.",
+  "common": {
+    "get_started": "Kom igång",
+    "start_over": "Börja om",
+    "finish_exit": "Mål och utgång",
+    "well_done": "Bra jobbat!",
+    "completion_message": "Du har framgångsrikt slutfört denna aktivitet. Ta en stund och uppskatta dina framsteg.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "save": "Spara",
+    "loading": "Laddar..."
+  }
 }

@@ -59,5 +59,17 @@
   "label_feelings": "Damdamin",
   "label_your_kind_words": "Ang iyong mabait na mga salita",
   "save_finish_button": "I-save at Tapusin",
-  "finish_no_save_button": "Tapusin nang hindi nagse-save"
+  "finish_no_save_button": "Tapusin nang hindi nagse-save",
+  "common": {
+    "get_started": "Email Address *",
+    "start_over": "Magsimulang Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Mahusay na ginawa!",
+    "completion_message": "Matagumpay mong nakumpleto ang aktibidad na ito. Maglaan ng ilang sandali upang pahalagahan ang iyong pag-unlad.",
+    "time_to_complete": "Oras na para makumpleto",
+    "back": "Bumalik",
+    "next": "Susunod",
+    "save": "I-save",
+    "loading": "Naglo-load..."
+  }
 }

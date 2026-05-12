@@ -15,7 +15,7 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title="Box Breathing" 
+      title={t("app_title")} 
       onReset={screen !== 'overview' ? () => setScreen('overview') : undefined}
     >
       <div className="w-full">
@@ -65,8 +65,8 @@ const Index = () => {
               className="w-full"
             >
               <PremiumComplete
-                title="Great Job!"
-                message="You've completed the Box Breathing session. You should feel more balanced and calm."
+                title={t("app_complete_title")}
+                message={t("app_complete_message")}
                 onRestart={() => setScreen("session")}
                 icon={<Wind size={48} />}
               />

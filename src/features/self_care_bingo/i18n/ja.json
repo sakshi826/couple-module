@@ -48,5 +48,19 @@
     "sleep": "早く寝なさい",
     "yoga": "ヨガを試してみてください",
     "dance": "歌に合わせて踊れ"
-  }
+  },
+  "common": {
+    "get_started": "始めよう",
+    "start_over": "やり直し",
+    "finish_exit": "フィニッシュ&エグジット",
+    "well_done": "よくやった!",
+    "completion_message": "あなたはこの活動を無事に完了しました。自分の進歩を少しでも感じてみてください。",
+    "time_to_complete": "完了の時間だ",
+    "back": "戻る",
+    "next": "次",
+    "save": "セーブ",
+    "loading": "読み込み中..."
+  },
+  "complete_title": "ビンゴマスター!",
+  "complete_message": "おめでとうございます!あなたはセルフケアの一筋を成功裏に完成させました。心も体も感謝します。"
 }

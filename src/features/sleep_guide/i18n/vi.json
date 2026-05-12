@@ -17,5 +17,17 @@
     "p2": "Điều này được gọi là <1>kích thích có điều kiện</1> - nó giải thích tại sao bạn cảm thấy kiệt sức cả ngày, nhưng vẫn tỉnh táo trước khi đi ngủ.",
     "quote": "\"Bộ não của bạn không bị hỏng. Nó chỉ đơn giản là học được bài học sai về giờ đi ngủ - và nó có thể được lặp lại.\"",
     "button": "Bước trước"
+  },
+  "common": {
+    "get_started": "Bắt đầu",
+    "start_over": "Bắt đầu lại",
+    "finish_exit": "Kết thúc & Thoát",
+    "well_done": "Làm tốt lắm!",
+    "completion_message": "Bạn đã hoàn thành thành công hoạt động này. Hãy dành một chút thời gian để đánh giá cao sự tiến bộ của bạn.",
+    "time_to_complete": "Thời gian hoàn thành",
+    "back": "Quay lại",
+    "next": "Kế tiếp",
+    "save": "Lưu",
+    "loading": "Đang tải..."
   }
 }

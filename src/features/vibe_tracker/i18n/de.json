@@ -39,5 +39,17 @@
     "ease": "Was würde dir überhaupt 10 % mehr Leichtigkeit bringen?",
     "kindness": "Welche kleine Freundlichkeit könntest du dir heute erweisen?",
     "supported": "Was würde dir helfen, dich in diesem Moment unterstützt zu fühlen?"
+  },
+  "common": {
+    "get_started": "Leg los",
+    "start_over": "Neu anfangen",
+    "finish_exit": "Ziel und Ausgang",
+    "well_done": "Gut gemacht!",
+    "completion_message": "Du hast diese Aktivität erfolgreich abgeschlossen. Nimm dir einen Moment Zeit, um deinen Fortschritt zu würdigen.",
+    "time_to_complete": "Zeit zum Abschluss",
+    "back": "Zurück",
+    "next": "Als Nächstes",
+    "save": "Speichern",
+    "loading": "Lädt..."
   }
 }

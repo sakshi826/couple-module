@@ -40,7 +40,16 @@
         "hint": ""
       }
     ],
-    "word_chips": ["Peace", "Home", "Heaven", "Calm", "Warm", "Enough", "Gentle", "Safe"],
+    "word_chips": [
+      "Peace",
+      "Home",
+      "Heaven",
+      "Calm",
+      "Warm",
+      "Enough",
+      "Gentle",
+      "Safe"
+    ],
     "custom_word_placeholder": "+ your own",
     "skip_prompt": "skip this prompt",
     "type_here": "Type here"
@@ -63,14 +72,39 @@
     "breathe_info": "4 · hold · 4 · let go · 6",
     "done_message": "Well done for showing up for yourself today.",
     "durations": [
-      { "label": "1 min", "seconds": 60 },
-      { "label": "3 min", "seconds": 180 },
-      { "label": "5 min", "seconds": 300 }
+      {
+        "label": "1 min",
+        "seconds": 60
+      },
+      {
+        "label": "3 min",
+        "seconds": 180
+      },
+      {
+        "label": "5 min",
+        "seconds": 300
+      }
     ],
-    "phases": ["Breathe in", "Hold", "Let go"]
+    "phases": [
+      "Breathe in",
+      "Hold",
+      "Let go"
+    ]
   },
   "history": {
     "title": "Past safe places",
     "no_collages": "No saved collages yet. Complete the activity to save your first one."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading..."
   }
 }

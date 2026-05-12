@@ -22,5 +22,17 @@
     "desc": "Als je van iemand houdt, maakt je brein dopamine, oxytocine en serotonine vrij. Als het eindigt, dalen die levels. Je brein rouwt — niet alleen de persoon, maar ook het gevoel van nabijheid.",
     "quote": "\"Ze missen betekent niet dat je terug moet gaan. Je hart rouwt om een band — niet per se de persoon zoals hij werkelijk was.\"",
     "button": "Eindreflectie"
+  },
+  "common": {
+    "get_started": "Begin",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Goed gedaan!",
+    "completion_message": "Je hebt deze activiteit succesvol voltooid. Neem even de tijd om je vooruitgang te waarderen.",
+    "time_to_complete": "Tijd om af te ronden",
+    "back": "Achteruit",
+    "next": "Volgende",
+    "save": "Sla op",
+    "loading": "Laden..."
   }
 }

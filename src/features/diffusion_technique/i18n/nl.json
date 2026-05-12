@@ -87,5 +87,17 @@
   "label_choose_technique": "Kies Techniek",
   "label_current_thought": "Je huidige gedachte",
   "label_recurrent_thought": "De terugkerende gedachte",
-  "label_remember_to_say": "Vergeet niet te zeggen:"
+  "label_remember_to_say": "Vergeet niet te zeggen:",
+  "common": {
+    "get_started": "Begin",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Goed gedaan!",
+    "completion_message": "Je hebt deze activiteit succesvol voltooid. Neem even de tijd om je vooruitgang te waarderen.",
+    "time_to_complete": "Tijd om af te ronden",
+    "back": "Achteruit",
+    "next": "Volgende",
+    "save": "Sla op",
+    "loading": "Laden..."
+  }
 }

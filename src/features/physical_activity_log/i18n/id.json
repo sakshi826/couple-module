@@ -48,5 +48,17 @@
   "memory_desc": "Olahraga meningkatkan aliran darah ke otak, sehingga membantu meningkatkan daya ingat dan fungsi kognitif.",
   "stress_title": "Respons Stres",
   "stress_desc": "Aktivitas fisik menurunkan hormon stres dan membantu sistem saraf Anda untuk kembali normal.",
-  "app_name": "Catatan Aktivitas Fisik"
+  "app_name": "Catatan Aktivitas Fisik",
+  "common": {
+    "get_started": "Memulai",
+    "start_over": "Mulai Dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Bagus!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
+    "time_to_complete": "Waktu untuk menyelesaikan",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "save": "Simpan",
+    "loading": "Memuat..."
+  }
 }

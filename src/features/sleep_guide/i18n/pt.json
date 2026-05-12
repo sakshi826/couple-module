@@ -17,5 +17,17 @@
     "p2": "Isso é chamado de excitação <1>condicionada</1> — explica por que você se sente exausto o dia todo, mas totalmente acordado na hora de dormir.",
     "quote": "\"Seu cérebro não está quebrado. Simplesmente aprendeu a lição errada sobre a hora de dormir — e pode ser ensinada novamente.\"",
     "button": "Etapa Anterior"
+  },
+  "common": {
+    "get_started": "Comece",
+    "start_over": "Recomeçar",
+    "finish_exit": "Fim e Saída",
+    "well_done": "Parabéns!",
+    "completion_message": "Você completou esta atividade com sucesso. Reserve um momento para apreciar seu progresso.",
+    "time_to_complete": "Hora de concluir",
+    "back": "Voltar",
+    "next": "Próximo",
+    "save": "Salvar",
+    "loading": "Carregando..."
   }
 }

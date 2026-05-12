@@ -59,5 +59,17 @@
   "label_feelings": "Gefühle",
   "label_your_kind_words": "Deine freundlichen Worte",
   "save_finish_button": "Speichern und beenden",
-  "finish_no_save_button": "Beenden ohne Speichern"
+  "finish_no_save_button": "Beenden ohne Speichern",
+  "common": {
+    "get_started": "Leg los",
+    "start_over": "Neu anfangen",
+    "finish_exit": "Ziel und Ausgang",
+    "well_done": "Gut gemacht!",
+    "completion_message": "Du hast diese Aktivität erfolgreich abgeschlossen. Nimm dir einen Moment Zeit, um deinen Fortschritt zu würdigen.",
+    "time_to_complete": "Zeit zum Abschluss",
+    "back": "Zurück",
+    "next": "Als Nächstes",
+    "save": "Speichern",
+    "loading": "Lädt..."
+  }
 }

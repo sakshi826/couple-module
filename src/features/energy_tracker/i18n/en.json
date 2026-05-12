@@ -43,5 +43,17 @@
   "insight_okay": "You've had a steady energy flow. Balancing work and rest seems to be working for you.",
   "insight_low": "Your energy has been on the lower side. Consider checking if you're getting enough rest or exercise.",
   "insight_more_data": "Continue tracking daily to see deeper patterns in your energy levels.",
-  "go_home": "Back to Tracker"
+  "go_home": "Back to Tracker",
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading..."
+  }
 }

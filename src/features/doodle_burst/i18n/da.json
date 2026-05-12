@@ -30,5 +30,17 @@
   "tool_undo": "Fortryd",
   "tool_clear": "Klart",
   "share_doodle": "Del Doodle",
-  "share_text": "Jeg elskede denne doodle burst-aktivitet hos TherapyMantra, du kan også prøve, bare download appen og udforske selv.\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888"
+  "share_text": "Jeg elskede denne doodle burst-aktivitet hos TherapyMantra, du kan også prøve, bare download appen og udforske selv.\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888",
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start forfra",
+    "finish_exit": "Afslutning og exit",
+    "well_done": "Godt gået!",
+    "completion_message": "Du har gennemført denne aktivitet med succes. Tag et øjeblik til at værdsætte dine fremskridt.",
+    "time_to_complete": "Tid til at gennemføre",
+    "back": "Tilbage",
+    "next": "Næste",
+    "save": "Gem",
+    "loading": "Indlæser..."
+  }
 }

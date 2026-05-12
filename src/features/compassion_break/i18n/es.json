@@ -59,5 +59,17 @@
   "label_feelings": "Sentimientos",
   "label_your_kind_words": "Tus palabras amables",
   "save_finish_button": "Salvar y terminar",
-  "finish_no_save_button": "Terminar sin guardar"
+  "finish_no_save_button": "Terminar sin guardar",
+  "common": {
+    "get_started": "Empieza",
+    "start_over": "Empezar de nuevo",
+    "finish_exit": "Llegada y salida",
+    "well_done": "¡Bien hecho!",
+    "completion_message": "Has completado esta actividad con éxito. Tómate un momento para apreciar tu progreso.",
+    "time_to_complete": "Hora de completar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "save": "Salvar",
+    "loading": "Cargando..."
+  }
 }

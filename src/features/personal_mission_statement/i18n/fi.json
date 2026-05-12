@@ -48,5 +48,17 @@
   "history_empty": "Et ole vielä tallentanut yhtään tehtäväkuvausta.",
   "history_empty_hint": "Kun olet valmis, luo sellainen, ja se ilmestyy tänne.",
   "history_back": "Mene takaisin",
-  "history_delete_aria": "Poista tämä heijastus"
+  "history_delete_aria": "Poista tämä heijastus",
+  "common": {
+    "get_started": "Aloita",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Maali ja uloskäynti",
+    "well_done": "Hyvin tehty!",
+    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Ota hetki arvostaaksesi edistymistäsi.",
+    "time_to_complete": "Aika valmistua",
+    "back": "Takaisin",
+    "next": "Seuraavaksi",
+    "save": "Tallenna",
+    "loading": "Ladataan..."
+  }
 }

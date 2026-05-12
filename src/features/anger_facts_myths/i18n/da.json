@@ -54,5 +54,17 @@
       "realFact": "Andre kan udløse din vrede, men hvordan du reagerer, er dit ansvar — og din magt. At tage ejerskab over dine reaktioner betyder ikke, at den anden person havde ret. Det betyder, at du vælger, hvordan du vil møde op. Det er empowerment, ikke skyld.",
       "example": "Nogen skærer dig af i trafikken. Du føler dig vred — det er normalt. Men du vælger, om du vil rase eller tage en dyb indånding. Valget er dit."
     }
-  ]
+  ],
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start forfra",
+    "finish_exit": "Afslutning og exit",
+    "well_done": "Godt gået!",
+    "completion_message": "Du har gennemført denne aktivitet med succes. Tag et øjeblik til at værdsætte dine fremskridt.",
+    "time_to_complete": "Tid til at gennemføre",
+    "back": "Tilbage",
+    "next": "Næste",
+    "save": "Gem",
+    "loading": "Indlæser..."
+  }
 }

@@ -35,5 +35,17 @@
   ],
   "btn_finish": "마감 반영",
   "complete_title": "여정을 존중받아",
-  "complete_message": "너는 앞으로 나아갈 필요 없어. 그저 다르게 들고 다니는 법을 배우게 될 뿐입니다. 당신의 여정은 독특하고, 타당하며, 깊이 인간적입니다."
+  "complete_message": "너는 앞으로 나아갈 필요 없어. 그저 다르게 들고 다니는 법을 배우게 될 뿐입니다. 당신의 여정은 독특하고, 타당하며, 깊이 인간적입니다.",
+  "common": {
+    "get_started": "시작하기",
+    "start_over": "처음부터 다시",
+    "finish_exit": "결승 및 퇴장",
+    "well_done": "잘했어요!",
+    "completion_message": "이 활동을 성공적으로 완료하셨습니다. 잠시 시간을 내어 자신의 진전을 감상해 보세요.",
+    "time_to_complete": "완성 시간입니다",
+    "back": "뒤로",
+    "next": "다음",
+    "save": "저장",
+    "loading": "로딩 중..."
+  }
 }

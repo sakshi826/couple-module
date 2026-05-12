@@ -1,0 +1,223 @@
+{
+  "common": {
+    "get_started": "開始",
+    "start_over": "重新開始",
+    "finish_exit": "結束與退出",
+    "well_done": "做得好！",
+    "completion_message": "你已經成功完成了這個活動。花點時間欣賞你的進步。",
+    "time_to_complete": "完成時間",
+    "back": "返回",
+    "next": "下一篇",
+    "save": "存檔",
+    "loading": "載入中......",
+    "today": "現況",
+    "yesterday": "昨天",
+    "filters": "濾鏡",
+    "see_all": "全部查看",
+    "meditation": "冥想",
+    "guided": "導引式",
+    "sleep": "睡覺",
+    "mindfulness": "正念",
+    "restore": "恢復",
+    "curated": "由 Mind 策展",
+    "restorative": "修復性",
+    "peace": "和平",
+    "breath": "呼吸",
+    "nature": "自然",
+    "relax": "放輕鬆",
+    "time": {
+      "3min": "3分鐘",
+      "5min": "5分鐘",
+      "8min": "8分鐘",
+      "10min": "10分鐘",
+      "12min": "12分鐘",
+      "15min": "15分鐘",
+      "20min": "20分鐘",
+      "30min": "30分鐘",
+      "45min": "45分鐘",
+      "60min": "60分鐘"
+    }
+  },
+  "hub": {
+    "back_to_topics": "回到主題",
+    "guided_series": "導引系列",
+    "start_guided_series": "開始導覽系列",
+    "exercises": "演習",
+    "todos": "To Do's",
+    "resources": "資源",
+    "view_resource": "查看資源",
+    "search_placeholder": "搜尋主題或活動......",
+    "how_are_you": "你今天感覺如何？",
+    "self_care_resources": "自我照顧資源",
+    "explore_tools": "探索心理健康旅程所需的工具與指導",
+    "topics": "主題",
+    "tools": "工具",
+    "articles": "文章",
+    "tips": "小技巧",
+    "stories": "故事",
+    "myths": "迷思"
+  },
+  "topics": {
+    "depression": {
+      "label": "憂鬱症",
+      "desc": "有證據支持的練習與資源，幫助您管理憂鬱症狀並建立韌性。"
+    },
+    "anxiety": {
+      "label": "焦慮",
+      "desc": "放鬆焦慮的技巧與策略，幫助你管理焦慮、減輕擔憂，並重新獲得掌控感。"
+    },
+    "stress": {
+      "label": "壓力",
+      "desc": "實用的工具與練習，幫助你管理壓力、建立因應技巧，並恢復生活的平衡。"
+    },
+    "adolescent": {
+      "label": "青少年時期",
+      "desc": "為青少年在成長、身份認同及情感挑戰中設計的指導與活動。"
+    },
+    "relationship": {
+      "label": "關係",
+      "desc": "強化連結、改善溝通並建立更健康關係的工具與見解。"
+    },
+    "workplace": {
+      "label": "工作場所",
+      "desc": "管理職場壓力、提升專注力及維持工作與生活平衡的策略。"
+    },
+    "sleep": {
+      "label": "睡覺",
+      "desc": "提升睡眠品質、建立健康的睡前習慣，並讓醒來精神煥發的技巧與追蹤器。"
+    },
+    "parenting": {
+      "label": "育兒",
+      "desc": "支持有意識的育兒資源，減少倦怠，並照顧家庭的福祉。"
+    },
+    "anger": {
+      "label": "憤怒",
+      "desc": "理解、管理並以健康且建設性方式引導憤怒的技巧。"
+    },
+    "grief": {
+      "label": "悲傷",
+      "desc": "有同理心的工具和練習，幫助你處理失落，並以自己的步調找到療癒之路。"
+    },
+    "ptsd": {
+      "label": "創傷後壓力症候群",
+      "desc": "接地與穩定技巧，幫助管理創傷反應並建立安全感。"
+    },
+    "acceptance": {
+      "label": "接受",
+      "desc": "培養接納、放下抗拒，並擁抱現實生活的練習。"
+    },
+    "postpartum": {
+      "label": "產後",
+      "desc": "為新手媽媽提供支持資源，協助她們處理產後挑戰與情緒變化。"
+    },
+    "sexuality": {
+      "label": "性取向",
+      "desc": "安全且支持性的資源，幫助探索身份認同、建立自我接納並找到社群。"
+    },
+    "eating-disorder": {
+      "label": "飲食失調",
+      "desc": "支持性運動與資源，幫助建立與食物及身體形象的健康關係。"
+    },
+    "ocd": {
+      "label": "強迫症",
+      "desc": "以實證為基礎的技術來管理強迫思維與強迫行為。"
+    }
+  },
+  "tools": {
+    "box-breathing": "箱式呼吸",
+    "gratitude-tracker": "感恩追蹤器",
+    "deep-breathing": "深呼吸",
+    "affirmations": "肯定語",
+    "mindful-space": "正念空間",
+    "letter-to-self": "寫給自己的信",
+    "sleep-tracker": "睡眠追蹤器"
+  },
+  "moods": {
+    "great": "太好了",
+    "good": "很好",
+    "okay": "好",
+    "down": "趴下",
+    "sad": "真難過"
+  },
+  "nav": {
+    "home": "首頁",
+    "care_team": "照護團隊",
+    "appointments": "任命",
+    "tasks": "任務",
+    "insights": "見解",
+    "billing": "計費",
+    "profile": "簡介",
+    "invite_friend": "客人變朋友",
+    "feedback": "分享回饋",
+    "support": "支持",
+    "sign_out": "登出"
+  },
+  "journal": {
+    "title": "期刊",
+    "subtitle": "記錄你的想法、感受和日常經驗",
+    "new_entry": "新加入",
+    "search_placeholder": "搜尋你的日誌條目......",
+    "filter_by_mood": "依情緒篩選：",
+    "all_moods": "全情緒",
+    "no_entries": "未找到相關條目",
+    "adjust_search": "試著調整你的搜尋或篩選條件",
+    "start_journey": "今天就開始你的日記之旅吧",
+    "write_first": "寫下你的第一篇文章",
+    "mood": {
+      "great": "太好了",
+      "good": "很好",
+      "okay": "好",
+      "sad": "真難過",
+      "anxious": "焦慮"
+    },
+    "sample": {
+      "1": {
+        "title": "你的第一個念頭",
+        "content": "先從寫下你心中所想開始。寫日記是自我反思和心智清晰的強大工具。"
+      }
+    }
+  },
+  "mindfulness": {
+    "title": "正念自我照顧",
+    "subtitle": "專家正念工具與引導課程，助你踏上健康之旅",
+    "featured_mantra": "Mantra 專題介紹",
+    "browse_category": "依類別瀏覽",
+    "new_noteworthy": "新穎與值得注意",
+    "browse_goal": "依目標瀏覽",
+    "browse_time": "按時間瀏覽",
+    "daily_program": "尋找每日課程",
+    "daily_program_desc": "注意你對每個計畫的意圖",
+    "featured_collections": "精選收藏",
+    "featured": {
+      "anxiety": "安撫焦慮",
+      "relaxation": "深度放鬆技巧",
+      "peace": "內心平靜之旅",
+      "mountain": "山靜"
+    },
+    "goal": {
+      "beginners": "初學者指南",
+      "beginners_desc": "開始你的正念之旅",
+      "grief": "面對悲傷",
+      "grief_desc": "找到平靜與療癒"
+    },
+    "collection": {
+      "students": "給學生",
+      "students_desc": "專心並更好地學習",
+      "grief": "面對悲傷",
+      "grief_desc": "找到平靜與療癒",
+      "sleep": "更好的睡眠",
+      "sleep_desc": "好好休息和充電",
+      "stress": "減壓",
+      "stress_desc": "讓身心平靜下來"
+    },
+    "category": {
+      "meditation": "冥想",
+      "concentration": "專注",
+      "music": "音樂",
+      "creatures": "生物",
+      "soundscapes": "音景",
+      "students": "學生",
+      "affirmations": "肯定語"
+    }
+  }
+}

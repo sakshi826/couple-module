@@ -1,3 +1,6 @@
+import { I18nextProvider } from 'react-i18next';
+import i18n from './i18n';
+import { Suspense } from 'react';
 import './index.css';
 import { useState, useCallback } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
@@ -19,7 +22,9 @@ const App = () => {
   const reset = useCallback(() => setNames({}), []);
 
   return (
-    <QueryClientProvider client={queryClient}>
+    <I18nextProvider i18n={i18n}>
+      <Suspense fallback={<div className="flex items-center justify-center h-full">Loading...</div>}>
+        <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />
         <Sonner />
@@ -41,6 +46,8 @@ const App = () => {
         
       </TooltipProvider>
     </QueryClientProvider>
+      </Suspense>
+    </I18nextProvider>
   );
 };
 

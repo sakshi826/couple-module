@@ -59,5 +59,17 @@
   "label_feelings": "Érzések",
   "label_your_kind_words": "A kedves szavaid",
   "save_finish_button": "Mentés és befejezés",
-  "finish_no_save_button": "Befejezni mentés nélkül"
+  "finish_no_save_button": "Befejezni mentés nélkül",
+  "common": {
+    "get_started": "Kezdj el",
+    "start_over": "Kezdj újrakezdeni",
+    "finish_exit": "Befejezés és kilépés",
+    "well_done": "Szép munka!",
+    "completion_message": "Sikeresen teljesítetted ezt a feladatot. Szánj egy pillanatot, hogy értékeld a fejlődésedet.",
+    "time_to_complete": "Ideje befejezni",
+    "back": "Hátra",
+    "next": "Következő",
+    "save": "Mentés",
+    "loading": "Betöltés..."
+  }
 }

@@ -54,5 +54,17 @@
       "realFact": "Orang lain boleh mencetuskan kemarahan anda, tetapi cara anda bertindak balas adalah tanggungjawab anda — dan kuasa anda. Mengambil pemilikan reaksi anda tidak bermakna orang lain betul. Ini bermakna anda memilih cara untuk muncul. Itulah pemerkasaan, bukan menyalahkan.",
       "example": "Seseorang memotong anda dalam lalu lintas. Anda berasa marah - itu perkara biasa. Tetapi anda memilih sama ada untuk mengamuk atau menarik nafas. Pilihan di tangan anda."
     }
-  ]
+  ],
+  "common": {
+    "get_started": "Bermula",
+    "start_over": "Mulakan Semula",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Syabas!",
+    "completion_message": "Anda telah berjaya menyelesaikan aktiviti ini. Luangkan sedikit masa untuk menghargai kemajuan anda.",
+    "time_to_complete": "Masa untuk melengkapkan",
+    "back": "Kembali",
+    "next": "Seterusnya",
+    "save": "Simpan",
+    "loading": "Memuatkan..."
+  }
 }

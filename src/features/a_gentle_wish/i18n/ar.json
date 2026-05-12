@@ -48,5 +48,17 @@
   "view_past_button": "view_past_button",
   "welcome_description": "welcome_description",
   "welcome_subtitle": "welcome_subtitle",
-  "welcome_title": "welcome_title"
+  "welcome_title": "welcome_title",
+  "common": {
+    "get_started": "ابدأ",
+    "start_over": "ابدأ من جديد",
+    "finish_exit": "النهاية والخروج",
+    "well_done": "عمل رائع!",
+    "completion_message": "لقد أنجزت هذا النشاط بنجاح. خذ لحظة لتقدير تقدمك.",
+    "time_to_complete": "حان وقت الإكمال",
+    "back": "العودة",
+    "next": "التالي",
+    "save": "حفظ",
+    "loading": "جار التحميل..."
+  }
 }

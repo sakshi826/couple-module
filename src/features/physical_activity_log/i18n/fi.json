@@ -48,5 +48,17 @@
   "memory_desc": "Liikunta lisää verenkiertoa aivoihin, auttaen parantamaan muistia ja kognitiivista toimintaa.",
   "stress_title": "Stressivaste",
   "stress_desc": "Fyysinen aktiivisuus vähentää stressihormoneja ja auttaa hermostoa palautumaan.",
-  "app_name": "Liikuntapäiväkirja"
+  "app_name": "Liikuntapäiväkirja",
+  "common": {
+    "get_started": "Aloita",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Maali ja uloskäynti",
+    "well_done": "Hyvin tehty!",
+    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Ota hetki arvostaaksesi edistymistäsi.",
+    "time_to_complete": "Aika valmistua",
+    "back": "Takaisin",
+    "next": "Seuraavaksi",
+    "save": "Tallenna",
+    "loading": "Ladataan..."
+  }
 }

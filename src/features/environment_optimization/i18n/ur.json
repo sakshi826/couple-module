@@ -31,5 +31,17 @@
   "not_found_title": "404 ایرر: صفحہ نہیں ملا",
   "not_found_text": "جس صفحے کی آپ تلاش کر رہے ہیں وہ موجود نہیں ہے۔",
   "return_home": "گھر کی طرف واپسی",
-  "language_selector": "منتخب زبان"
+  "language_selector": "منتخب زبان",
+  "common": {
+    "get_started": "شروع کریں",
+    "start_over": "دوبارہ شروع کریں",
+    "finish_exit": "فنش اینڈ ایگزٹ",
+    "well_done": "شاباش!",
+    "completion_message": "آپ نے یہ سرگرمی کامیابی سے مکمل کر لی ہے۔ اپنی پیش رفت کی قدر کرنے کے لیے ایک لمحہ نکالیں۔",
+    "time_to_complete": "مکمل ہونے کا وقت",
+    "back": "واپس",
+    "next": "اگلا",
+    "save": "سیو",
+    "loading": "لوڈ ہو رہا ہے..."
+  }
 }

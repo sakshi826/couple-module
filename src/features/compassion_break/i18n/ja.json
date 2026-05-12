@@ -59,5 +59,17 @@
   "label_feelings": "感情",
   "label_your_kind_words": "あなたの優しい言葉",
   "save_finish_button": "セーブ&フィニッシュ",
-  "finish_no_save_button": "保存せずに仕上げる"
+  "finish_no_save_button": "保存せずに仕上げる",
+  "common": {
+    "get_started": "始めよう",
+    "start_over": "やり直し",
+    "finish_exit": "フィニッシュ&エグジット",
+    "well_done": "よくやった!",
+    "completion_message": "あなたはこの活動を無事に完了しました。自分の進歩を少しでも感じてみてください。",
+    "time_to_complete": "完了の時間だ",
+    "back": "戻る",
+    "next": "次",
+    "save": "セーブ",
+    "loading": "読み込み中..."
+  }
 }

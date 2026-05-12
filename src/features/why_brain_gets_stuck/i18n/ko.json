@@ -25,5 +25,17 @@
       }
     ],
     "healing": "치유는 잊는 것이 아닙니다. 뇌가 이제 안전하다는 걸 배우도록 돕는 거예요."
+  },
+  "common": {
+    "get_started": "시작하기",
+    "start_over": "처음부터 다시",
+    "finish_exit": "결승 및 퇴장",
+    "well_done": "잘했어요!",
+    "completion_message": "이 활동을 성공적으로 완료하셨습니다. 잠시 시간을 내어 자신의 진전을 감상해 보세요.",
+    "time_to_complete": "완성 시간입니다",
+    "back": "뒤로",
+    "next": "다음",
+    "save": "저장",
+    "loading": "로딩 중..."
   }
 }

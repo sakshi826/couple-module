@@ -69,5 +69,17 @@
       "other": "Neste gang du føler deg trigget, prøv dette før du reagerer."
     },
     "italic": "Det vil ikke alltid føles lett – men konsistens er nøkkelen."
+  },
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start på nytt",
+    "finish_exit": "Mål og utgang",
+    "well_done": "Bra jobbet!",
+    "completion_message": "Du har fullført denne aktiviteten med suksess. Ta et øyeblikk til å sette pris på fremgangen din.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Tilbake",
+    "next": "Neste",
+    "save": "Lagre",
+    "loading": "Laster..."
   }
 }

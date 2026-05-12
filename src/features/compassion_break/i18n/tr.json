@@ -59,5 +59,17 @@
   "label_feelings": "Duygular",
   "label_your_kind_words": "Nazik sözlerin",
   "save_finish_button": "Kaydet ve Bitir",
-  "finish_no_save_button": "Kaydetmeden bitir"
+  "finish_no_save_button": "Kaydetmeden bitir",
+  "common": {
+    "get_started": "Başlayın",
+    "start_over": "Yeniden Başla",
+    "finish_exit": "Bitiş ve Çıkış",
+    "well_done": "Aferin!",
+    "completion_message": "Bu etkinliği başarıyla tamamladın. İlerlemenin takdir edilmesini bir an ayır.",
+    "time_to_complete": "Tamamlanma zamanı",
+    "back": "Geri",
+    "next": "Sıradaki",
+    "save": "Kayd et",
+    "loading": "Yükleniyor..."
+  }
 }

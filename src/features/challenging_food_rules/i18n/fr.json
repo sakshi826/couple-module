@@ -52,5 +52,17 @@
   "complete_message": "La conscience est la première étape vers la liberté. Vous avez fait un pas courageux en identifiant et en réfléchissant à une règle alimentaire. Porte cette douce compréhension avec toi aujourd’hui.",
   "auth_error": "Session d’authentification manquante ou base de données non configurée",
   "save_success": "Réflexion préservée",
-  "save_error": "A échoué à préserver la réflexion"
+  "save_error": "A échoué à préserver la réflexion",
+  "common": {
+    "get_started": "Commencez",
+    "start_over": "Recommencer à zéro",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bravo !",
+    "completion_message": "Vous avez réussi cette activité. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Il est temps de terminer",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Sauvegarder",
+    "loading": "Chargement..."
+  }
 }

@@ -48,5 +48,17 @@
   "history_empty": "Du har ikke lagret noen misjonserklæringer ennå.",
   "history_empty_hint": "Når du er klar, lag en, så vil den vises her.",
   "history_back": "Gå tilbake",
-  "history_delete_aria": "Slett denne refleksjonen"
+  "history_delete_aria": "Slett denne refleksjonen",
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start på nytt",
+    "finish_exit": "Mål og utgang",
+    "well_done": "Bra jobbet!",
+    "completion_message": "Du har fullført denne aktiviteten med suksess. Ta et øyeblikk til å sette pris på fremgangen din.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Tilbake",
+    "next": "Neste",
+    "save": "Lagre",
+    "loading": "Laster..."
+  }
 }

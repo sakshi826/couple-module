@@ -4,52 +4,52 @@
   "welcome": {
     "title": "Ton refuge t’attend",
     "description": "Construisez votre propre sanctuaire à travers une série de suggestions créatives douces. Une toile vierge pour tes pensées et tes sentiments.",
-    "benefits": [
-      "Exprime-toi à travers la couleur",
-      "Créer un outil d’ancrage visuel",
-      "Sûr, privé et personnel"
-    ],
+    "benefits": {
+      "0": "Exprime-toi à travers la couleur",
+      "1": "Créer un outil d’ancrage visuel",
+      "2": "Sûr, privé et personnel"
+    },
     "duration": "10-15 minutes",
     "view_past": "Voir les anciens collèges"
   },
   "canvas": {
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "quote": "À quoi ressemble le ciel dans votre lieu sûr ? Dessine sa couleur, sa lumière ou son ressenti.",
         "button": "J’ai ajouté le ciel →",
         "hint": "Il n’y a pas de bonne façon — n’importe quelle marque est suffisante."
       },
-      {
+      "1": {
         "quote": "Quelle sensation est le sol ? De l’herbe, du sable, de l’eau, un plancher en bois ? Ajoutez-le sous le ciel.",
         "button": "J’ai ajouté la masse →",
         "hint": "Réfléchissez à ce que vous ressentez dans cet endroit."
       },
-      {
+      "2": {
         "quote": "Ajoutez une chose qui appartient ici — un arbre, une chaise, une fenêtre, un animal de compagnie, une lampe. Tout ce qui semble juste.",
         "button": "J’ai ajouté quelque chose →",
         "hint": "Il n’a pas besoin d’être parfait. Il faut juste que ça semble vrai."
       },
-      {
+      "3": {
         "quote": "Qu’est-ce qui apporte chaleur ou réconfort à cet endroit ? Une lumière, un feu, du soleil, une couverture ? Ajoutez-le où cela vous semble juste.",
         "button": "J’ai ajouté la chaleur →",
         "hint": "Même un petit point de couleur compte."
       },
-      {
+      "4": {
         "quote": "Enfin — ajoutez 3 à 5 mots qui devraient être ici. Tapez sur votre dessin pour les placer n’importe où.",
         "button": "Ce sont mes mots →",
         "hint": ""
       }
-    ],
-    "word_chips": [
-      "Paix",
-      "Accueil",
-      "Le paradis",
-      "Calme-toi",
-      "Chaud",
-      "Assez",
-      "Doucement",
-      "C’est sûr"
-    ],
+    },
+    "word_chips": {
+      "0": "Paix",
+      "1": "Accueil",
+      "2": "Le paradis",
+      "3": "Calme-toi",
+      "4": "Chaud",
+      "5": "Assez",
+      "6": "Doucement",
+      "7": "C’est sûr"
+    },
     "custom_word_placeholder": "+ la tienne",
     "skip_prompt": "Passer cette invite",
     "type_here": "Tape ici"
@@ -71,28 +71,40 @@
     "title": "Tu es là. Tu es en sécurité.",
     "breathe_info": "4 · hold · 4 · Lâche prise · 6",
     "done_message": "Bravo d’avoir été à ton niveau aujourd’hui.",
-    "durations": [
-      {
+    "durations": {
+      "0": {
         "label": "1 min",
         "seconds": "60"
       },
-      {
+      "1": {
         "label": "3 min",
         "seconds": "180"
       },
-      {
+      "2": {
         "label": "5 min",
         "seconds": "300"
       }
-    ],
-    "phases": [
-      "Inspire",
-      "Tiens",
-      "Lâche"
-    ]
+    },
+    "phases": {
+      "0": "Inspire",
+      "1": "Tiens",
+      "2": "Lâche"
+    }
   },
   "history": {
     "title": "Anciens lieux sûrs",
     "no_collages": "Aucun collage sauvegardé pour l’instant. Terminez l’activité pour sauver votre premier."
+  },
+  "common": {
+    "get_started": "Commencez",
+    "start_over": "Recommencer à zéro",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bravo !",
+    "completion_message": "Vous avez réussi cette activité. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Il est temps de terminer",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Sauvegarder",
+    "loading": "Chargement..."
   }
 }

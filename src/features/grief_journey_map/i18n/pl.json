@@ -35,5 +35,17 @@
   ],
   "btn_finish": "Odbicie wykończenia",
   "complete_title": "Uhonorowana podróż",
-  "complete_message": "Nie musisz iść dalej. Po prostu uczysz się nosić to inaczej. Twoja droga jest wyjątkowa, ważna i głęboko ludzka."
+  "complete_message": "Nie musisz iść dalej. Po prostu uczysz się nosić to inaczej. Twoja droga jest wyjątkowa, ważna i głęboko ludzka.",
+  "common": {
+    "get_started": "Zacznij",
+    "start_over": "Start From",
+    "finish_exit": "Koniec i wyjście",
+    "well_done": "Brawo!",
+    "completion_message": "Udało ci się ukończyć tę aktywność. Poświęć chwilę, by docenić swoje postępy.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Z powrotem",
+    "next": "Następny",
+    "save": "Zapisz",
+    "loading": "Ładowanie..."
+  }
 }

@@ -41,5 +41,19 @@
     "p1": "Å gjenknytte kontakten med det som gir deg glede – selv på den minste måte – er en god handling mot deg selv.",
     "p2": "Du fortjener øyeblikk av letthet og fred. Fortsett å pleie det som får hjertet ditt til å føles fullt. 💛",
     "button": "Tilbake til hjemmet"
-  }
+  },
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start på nytt",
+    "finish_exit": "Mål og utgang",
+    "well_done": "Bra jobbet!",
+    "completion_message": "Du har fullført denne aktiviteten med suksess. Ta et øyeblikk til å sette pris på fremgangen din.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Tilbake",
+    "next": "Neste",
+    "save": "Lagre",
+    "loading": "Laster..."
+  },
+  "app_complete_title": "Joy Preserved",
+  "app_complete_message": "Du har klart å huske og koble deg til en kilde til glede. Behold denne følelsen med deg mens du går gjennom dagen."
 }

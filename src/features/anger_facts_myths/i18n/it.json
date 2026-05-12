@@ -54,5 +54,17 @@
       "realFact": "Gli altri possono scatenare la tua rabbia, ma il modo in cui rispondi è una tua responsabilità — e il tuo potere. Prendersi la responsabilità delle tue reazioni non significa che l'altra persona avesse ragione. Significa che scegli come presentarti. Questa è empowerment, non colpa.",
       "example": "Qualcuno ti taglia la strada nel traffico. Ti senti arrabbiato — è normale. Ma scegli se arrabbiarti o prendere fiato. La scelta è tua."
     }
-  ]
+  ],
+  "common": {
+    "get_started": "Inizia",
+    "start_over": "Ricomincia",
+    "finish_exit": "Arrivo e uscita",
+    "well_done": "Ben fatto!",
+    "completion_message": "Hai completato con successo questa attività. Prenditi un momento per apprezzare i tuoi progressi.",
+    "time_to_complete": "È ora di completare",
+    "back": "Indietro",
+    "next": "Prossimo",
+    "save": "Salva",
+    "loading": "Caricamento..."
+  }
 }

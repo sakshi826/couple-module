@@ -52,5 +52,17 @@
   "complete_message": "Medvetenhet är det första steget mot frihet. Du har tagit ett modigt steg genom att identifiera och reflektera över en matregel. Bär med dig denna milda förståelse idag.",
   "auth_error": "Auth-session saknas eller databas inte konfigurerad",
   "save_success": "Reflektion bevarad",
-  "save_error": "Misslyckades med att bevara reflektionen"
+  "save_error": "Misslyckades med att bevara reflektionen",
+  "common": {
+    "get_started": "Kom igång",
+    "start_over": "Börja om",
+    "finish_exit": "Mål och utgång",
+    "well_done": "Bra jobbat!",
+    "completion_message": "Du har framgångsrikt slutfört denna aktivitet. Ta en stund och uppskatta dina framsteg.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "save": "Spara",
+    "loading": "Laddar..."
+  }
 }

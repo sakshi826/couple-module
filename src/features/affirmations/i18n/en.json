@@ -1,22 +1,15 @@
 {
   "common": {
-    "title": "Affirmations — A Gentle Companion",
-    "beforeYouBegin": "Before You Begin",
-    "introText1": "If you feel comfortable, you may choose to stand in front of a mirror while reading these affirmations.",
-    "introText2": "You might gently look at yourself and say each line out loud, slowly and clearly. Hearing your own voice can make the words feel more personal and grounding.",
-    "noRightWay": "There's no right way to do this.",
-    "takeTime": "Take your time.",
-    "breatheNaturally": "Breathe naturally.",
-    "noRush": "There is no need to rush or force any feeling.",
-    "meaningfulMoment": "Even if the words don't feel fully true right now, allowing this moment of intention can still be meaningful.",
-    "readyToBegin": "Whenever you feel ready, you may begin ✨",
-    "begin": "Begin",
-    "howFeeling": "How Are You Feeling Right Now?",
-    "noExplanation": "You don't have to explain or analyse anything.",
-    "justNotice": "Just notice what feels closest to your experience in this moment.",
-    "chooseOne": "Choose one feeling to begin — you can always come back.",
-    "readAgain": "Read Again",
-    "chooseAnother": "Choose Another Feeling"
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading..."
   },
   "feelings": {
     "lonely": {
@@ -169,5 +162,7 @@
         "I am still here — and that matters."
       ]
     }
-  }
+  },
+  "app_complete_title": "Feel Empowered",
+  "app_complete_message": "Daily affirmations help reshape your mindset. Carry these positive thoughts with you today."
 }

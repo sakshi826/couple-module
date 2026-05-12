@@ -43,5 +43,17 @@
   "insight_okay": "Folyamatosan áramolt az energia áramlása. Úgy tűnik, hogy a munka és a pihenés egyensúlya működik nálad.",
   "insight_low": "Az energiád alacsonyabb volt. Fontold meg, hogy megnézd, alsz-e elég pihenést vagy mozgást.",
   "insight_more_data": "Folytasd a napi követést, hogy mélyebb mintákat láss az energiaszintedben.",
-  "go_home": "Vissza a Trackerhez"
+  "go_home": "Vissza a Trackerhez",
+  "common": {
+    "get_started": "Kezdj el",
+    "start_over": "Kezdj újrakezdeni",
+    "finish_exit": "Befejezés és kilépés",
+    "well_done": "Szép munka!",
+    "completion_message": "Sikeresen teljesítetted ezt a feladatot. Szánj egy pillanatot, hogy értékeld a fejlődésedet.",
+    "time_to_complete": "Ideje befejezni",
+    "back": "Hátra",
+    "next": "Következő",
+    "save": "Mentés",
+    "loading": "Betöltés..."
+  }
 }

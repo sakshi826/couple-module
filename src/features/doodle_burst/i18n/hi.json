@@ -30,5 +30,17 @@
   "tool_undo": "पूर्ववत",
   "tool_clear": "स्पष्ट",
   "share_doodle": "Share Doodle",
-  "share_text": "I loved this doodle burst activity at TherapyMantra, you can try too just download the app to explore for yourself\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888"
+  "share_text": "I loved this doodle burst activity at TherapyMantra, you can try too just download the app to explore for yourself\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888",
+  "common": {
+    "get_started": "शुरू हो जाओ",
+    "start_over": "शुरू करो",
+    "finish_exit": "समाप्त करें और निकास करें",
+    "well_done": "बहुत बढ़िया!",
+    "completion_message": "आपने इस गतिविधि को सफलतापूर्वक पूरा कर लिया है. अपनी प्रगति की सराहना करने के लिए कुछ समय निकालें।",
+    "time_to_complete": "पूरा करने का समय",
+    "back": "शर्त लगाना",
+    "next": "अगला",
+    "save": "सहेजें",
+    "loading": "लोड हो रहा है..."
+  }
 }

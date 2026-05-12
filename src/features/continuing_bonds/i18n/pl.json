@@ -61,5 +61,17 @@
   "bond_prompts": [
     "Jaki jest jeden mały sposób, w jaki czujesz się dziś z nimi związany?",
     "Co robisz, co nosi część z nich?"
-  ]
+  ],
+  "common": {
+    "get_started": "Zacznij",
+    "start_over": "Start From",
+    "finish_exit": "Koniec i wyjście",
+    "well_done": "Brawo!",
+    "completion_message": "Udało ci się ukończyć tę aktywność. Poświęć chwilę, by docenić swoje postępy.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Z powrotem",
+    "next": "Następny",
+    "save": "Zapisz",
+    "loading": "Ładowanie..."
+  }
 }

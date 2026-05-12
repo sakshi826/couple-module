@@ -17,5 +17,17 @@
     "p2": "Buna <1>koşullu uyarılma</1> denir — neden bütün gün yorgun hissettiğinizi, ancak yatmadan önce tamamen uyanık olduğunuzu açıklar.",
     "quote": "\"Beynin bozuk değil. Yatma saati hakkında yanlış ders aldı — ve bu tekrar öğrenilebilir.\"",
     "button": "Önceki Adım"
+  },
+  "common": {
+    "get_started": "Başlayın",
+    "start_over": "Yeniden Başla",
+    "finish_exit": "Bitiş ve Çıkış",
+    "well_done": "Aferin!",
+    "completion_message": "Bu etkinliği başarıyla tamamladın. İlerlemenin takdir edilmesini bir an ayır.",
+    "time_to_complete": "Tamamlanma zamanı",
+    "back": "Geri",
+    "next": "Sıradaki",
+    "save": "Kayd et",
+    "loading": "Yükleniyor..."
   }
 }

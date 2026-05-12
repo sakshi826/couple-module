@@ -1,0 +1,223 @@
+{
+  "common": {
+    "get_started": "Kezdj el",
+    "start_over": "Kezdj újrakezdeni",
+    "finish_exit": "Befejezés és kilépés",
+    "well_done": "Szép munka!",
+    "completion_message": "Sikeresen teljesítetted ezt a feladatot. Szánj egy pillanatot, hogy értékeld a fejlődésedet.",
+    "time_to_complete": "Ideje befejezni",
+    "back": "Hátra",
+    "next": "Következő",
+    "save": "Mentés",
+    "loading": "Betöltés...",
+    "today": "Ma",
+    "yesterday": "Tegnap",
+    "filters": "Szűrők",
+    "see_all": "Lásd mindet",
+    "meditation": "Meditáció",
+    "guided": "Vezetett",
+    "sleep": "Aludj",
+    "mindfulness": "Tudatosság",
+    "restore": "Helyreállítás",
+    "curated": "Mind válogatása",
+    "restorative": "Helyreállító",
+    "peace": "Béke",
+    "breath": "Lélegzet",
+    "nature": "Természet",
+    "relax": "Nyugodj meg",
+    "time": {
+      "3min": "3 perc",
+      "5min": "5 perc",
+      "8min": "8 perc",
+      "10min": "10 perc",
+      "12min": "12 perc",
+      "15min": "15 perc",
+      "20min": "20 perc",
+      "30min": "30 perc",
+      "45min": "45 perc",
+      "60min": "60 perc"
+    }
+  },
+  "hub": {
+    "back_to_topics": "Vissza a témákhoz",
+    "guided_series": "Vezetett sorozatok",
+    "start_guided_series": "Indítsa el a vezetett sorozatot",
+    "exercises": "Gyakorlatok",
+    "todos": "A teendők",
+    "resources": "Források",
+    "view_resource": "Forrás megtekintése",
+    "search_placeholder": "Keress témákat vagy tevékenységeket...",
+    "how_are_you": "Hogy érzed magad ma?",
+    "self_care_resources": "Önellátási Erőforrások",
+    "explore_tools": "Fedezd fel az eszközöket és útmutatást mentális jóléted útjához",
+    "topics": "Témák",
+    "tools": "Eszközök",
+    "articles": "Cikkek",
+    "tips": "Tippek",
+    "stories": "Történetek",
+    "myths": "Mítoszok"
+  },
+  "topics": {
+    "depression": {
+      "label": "Depresszió",
+      "desc": "Bizonyítékokon alapuló gyakorlatok és források, amelyek segítenek kezelni a depressziós tüneteket és kiépíteni a reziliencia."
+    },
+    "anxiety": {
+      "label": "Szorongás",
+      "desc": "Nyugtató technikák és stratégiák a szorongás kezelésére, az aggodalom csökkentésére és az irányítás visszaszerzésére."
+    },
+    "stress": {
+      "label": "Stressz",
+      "desc": "Gyakorlati eszközök és gyakorlatok a stressz kezelésére, a megküzdési készségek fejlesztésére és az egyensúly helyreállítására az életben."
+    },
+    "adolescent": {
+      "label": "Serdülő",
+      "desc": "Útmutatások és tevékenységek tinédzserek számára, akik a növekedés, identitás és érzelmi kihívások között navigálnak."
+    },
+    "relationship": {
+      "label": "Kapcsolat",
+      "desc": "Eszközök és betekintések a kapcsolatok erősítéséhez, a kommunikáció javításához és egészségesebb kapcsolatok kiépítéséhez."
+    },
+    "workplace": {
+      "label": "Munkahely",
+      "desc": "Stratégiák a munkahelyi stressz kezelésére, a fókusz javítására és a munka-magánélet egyensúlyának fenntartására."
+    },
+    "sleep": {
+      "label": "Aludj",
+      "desc": "Technikák és nyomkövetők az alvásminőség javítására, egészséges lefekvési szokások kialakítására és frissen ébredni."
+    },
+    "parenting": {
+      "label": "Szülői szerep",
+      "desc": "Források a tudatos szülőség támogatására, a kiégés csökkentésére és a család jólétének ápolására."
+    },
+    "anger": {
+      "label": "Harag",
+      "desc": "Technikák a harag megértésére, kezelésére és egészséges és építő módon történő csatornázására."
+    },
+    "grief": {
+      "label": "Gyász",
+      "desc": "Együttérző eszközök és gyakorlatok, amelyek segítenek feldolgozni a veszteséget és a saját tempódban megtalálni a gyógyulást."
+    },
+    "ptsd": {
+      "label": "PTSD",
+      "desc": "Földelési és stabilizációs technikák, amelyek segítenek kezelni a traumareakciókat és a biztonság növelését."
+    },
+    "acceptance": {
+      "label": "Elfogadás",
+      "desc": "Gyakorlatok, amelyek segítenek elnyerni az elfogadást, elengedni az ellenállást, és elfogadni az életet úgy, ahogy van."
+    },
+    "postpartum": {
+      "label": "Szülés utáni időszak",
+      "desc": "Támogató források újonnan érkező anyáknak, akik a szülés utáni kihívásokat és érzelmi változásokat kezelik."
+    },
+    "sexuality": {
+      "label": "Szexualitás",
+      "desc": "Biztonságos és támogató források az identitás felfedezéséhez, az önelfogadás építéséhez és a közösség megtalálásához."
+    },
+    "eating-disorder": {
+      "label": "Étkezési zavar",
+      "desc": "Támogató gyakorlatok és források egészségesebb kapcsolatot építenek ki az étellel és a testképzel."
+    },
+    "ocd": {
+      "label": "OCD",
+      "desc": "Bizonyítékokon alapuló technikák a kényszeres gondolatok és kényszeres viselkedések kezelésére."
+    }
+  },
+  "tools": {
+    "box-breathing": "Doboz légzési",
+    "gratitude-tracker": "Hála Követő",
+    "deep-breathing": "Mély lélegzés",
+    "affirmations": "Megerősítések",
+    "mindful-space": "Tudatos tér",
+    "letter-to-self": "Egy levél önmagunknak",
+    "sleep-tracker": "Alvásnyomkövető"
+  },
+  "moods": {
+    "great": "Remek",
+    "good": "Jó",
+    "okay": "Rendben",
+    "down": "Lefelé",
+    "sad": "Szomorú"
+  },
+  "nav": {
+    "home": "Otthon",
+    "care_team": "Gondozó csapat",
+    "appointments": "Kinevezések",
+    "tasks": "Feladatok",
+    "insights": "Meglátások",
+    "billing": "Kiosztás",
+    "profile": "Profil",
+    "invite_friend": "Vendégtől barátnak",
+    "feedback": "Megosztás visszajelzése",
+    "support": "Támogatás",
+    "sign_out": "Kijelentkezés"
+  },
+  "journal": {
+    "title": "Folyóirat",
+    "subtitle": "Dokumentáld a gondolataidat, érzéseidet és mindennapi élményeidet",
+    "new_entry": "Új belépés",
+    "search_placeholder": "Keresd meg a naplóbejegyzéseidet...",
+    "filter_by_mood": "Hangulat szerinti szűrés:",
+    "all_moods": "Minden hangulat",
+    "no_entries": "Nem találtak bejegyzést",
+    "adjust_search": "Próbáld meg állítani a keresést vagy a szűrőket",
+    "start_journey": "Kezdd el még ma a naplóírásodat",
+    "write_first": "Írd meg az első bejegyzésedet",
+    "mood": {
+      "great": "Remek",
+      "good": "Jó",
+      "okay": "Rendben",
+      "sad": "Szomorú",
+      "anxious": "Aggódó"
+    },
+    "sample": {
+      "1": {
+        "title": "Az első gondolatod",
+        "content": "Kezdd azzal, hogy leírod, ami a fejedben van. A naplóírás erőteljes eszköz az önreflexióhoz és a mentális tisztasághoz."
+      }
+    }
+  },
+  "mindfulness": {
+    "title": "Mindfulness önellátás",
+    "subtitle": "Szakértő tudatossági eszközök és vezetett alkalmak a wellness utadhoz",
+    "featured_mantra": "Szerepelt a Mantrán",
+    "browse_category": "Böngészés kategóriák szerint",
+    "new_noteworthy": "Új és figyelemre méltó",
+    "browse_goal": "Böngészés cél szerint",
+    "browse_time": "Böngésszük idő szerint",
+    "daily_program": "Találj napi programot",
+    "daily_program_desc": "Figyelj minden programdal kapcsolatos szándékaidra",
+    "featured_collections": "Kiemelt gyűjtemények",
+    "featured": {
+      "anxiety": "Nyugtató szorongás",
+      "relaxation": "Mély relaxációs készségek",
+      "peace": "Belső béke útja",
+      "mountain": "Hegyi nyugalom"
+    },
+    "goal": {
+      "beginners": "Kezdőknek",
+      "beginners_desc": "Kezdd el a tudatossági utadat",
+      "grief": "A gyász feldolgozása",
+      "grief_desc": "Találj békét és gyógyulást"
+    },
+    "collection": {
+      "students": "Diákoknak",
+      "students_desc": "Koncentrálj és tanulj jobban",
+      "grief": "A gyász feldolgozása",
+      "grief_desc": "Találj békét és gyógyulást",
+      "sleep": "Jobb alvás",
+      "sleep_desc": "Pihenj és mélyen feltöltődj",
+      "stress": "Stresszoldás",
+      "stress_desc": "Nyugtasd meg az elmédet és a testedet"
+    },
+    "category": {
+      "meditation": "Meditáció",
+      "concentration": "Koncentráció",
+      "music": "Zene",
+      "creatures": "Lények",
+      "soundscapes": "Hangképek",
+      "students": "Diákok",
+      "affirmations": "Megerősítések"
+    }
+  }
+}

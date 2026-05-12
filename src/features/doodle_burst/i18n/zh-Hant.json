@@ -30,5 +30,17 @@
   "tool_undo": "還原",
   "tool_clear": "清場",
   "share_doodle": "分享 Doodle",
-  "share_text": "我很喜歡 TherapyMantra 上的這個塗鴉爆發活動，你也可以試試看，只要下載這個應用程式自己探索\n\nAndroid：https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS：https://apps.apple.com/us/app/therapymantra/id1607643888"
+  "share_text": "我很喜歡 TherapyMantra 上的這個塗鴉爆發活動，你也可以試試看，只要下載這個應用程式自己探索\n\nAndroid：https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS：https://apps.apple.com/us/app/therapymantra/id1607643888",
+  "common": {
+    "get_started": "開始",
+    "start_over": "重新開始",
+    "finish_exit": "結束與退出",
+    "well_done": "做得好！",
+    "completion_message": "你已經成功完成了這個活動。花點時間欣賞你的進步。",
+    "time_to_complete": "完成時間",
+    "back": "返回",
+    "next": "下一篇",
+    "save": "存檔",
+    "loading": "載入中......"
+  }
 }

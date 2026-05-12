@@ -59,5 +59,17 @@
   "label_feelings": "Perasaan",
   "label_your_kind_words": "Kata-kata baik anda",
   "save_finish_button": "Simpan & Selesaikan",
-  "finish_no_save_button": "Selesaikan tanpa menyimpan"
+  "finish_no_save_button": "Selesaikan tanpa menyimpan",
+  "common": {
+    "get_started": "Bermula",
+    "start_over": "Mulakan Semula",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Syabas!",
+    "completion_message": "Anda telah berjaya menyelesaikan aktiviti ini. Luangkan sedikit masa untuk menghargai kemajuan anda.",
+    "time_to_complete": "Masa untuk melengkapkan",
+    "back": "Kembali",
+    "next": "Seterusnya",
+    "save": "Simpan",
+    "loading": "Memuatkan..."
+  }
 }

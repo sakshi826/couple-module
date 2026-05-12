@@ -92,7 +92,8 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title="Gratitude Diary" 
+      title={t("app_title", " 
+      title=")} 
       subtitle={t(`screen.${screen}.title`, { defaultValue: "Journaling" })}
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={currentIdx > 0 && screen !== 'closing' ? () => setScreen(screenOrder[currentIdx - 1]) : undefined}
@@ -190,8 +191,8 @@ const Index = () => {
                 className="w-full flex-1 flex flex-col"
               >
                 <PremiumComplete
-                  title="Gratitude Saved"
-                  message="Reflecting on what you're thankful for is a powerful way to shift your focus to the positive."
+                  title={t("app_complete_title")}
+                  message={t("app_complete_message")}
                   onRestart={resetFlow}
                   icon={<Sparkles size={48} />}
                 >

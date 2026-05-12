@@ -59,5 +59,17 @@
   "label_feelings": "Uczucia",
   "label_your_kind_words": "Twoje miłe słowa",
   "save_finish_button": "Save & Finish",
-  "finish_no_save_button": "Skończ bez zapisu"
+  "finish_no_save_button": "Skończ bez zapisu",
+  "common": {
+    "get_started": "Zacznij",
+    "start_over": "Start From",
+    "finish_exit": "Koniec i wyjście",
+    "well_done": "Brawo!",
+    "completion_message": "Udało ci się ukończyć tę aktywność. Poświęć chwilę, by docenić swoje postępy.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Z powrotem",
+    "next": "Następny",
+    "save": "Zapisz",
+    "loading": "Ładowanie..."
+  }
 }

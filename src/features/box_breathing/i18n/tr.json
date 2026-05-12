@@ -17,5 +17,20 @@
   "back": "Geri",
   "not_found_404": "404",
   "page_not_found": "Ups! Sayfa bulunamadı.",
-  "return_home": "Ana sayfaya dön"
+  "return_home": "Ana sayfaya dön",
+  "common": {
+    "get_started": "Başlayın",
+    "start_over": "Yeniden Başla",
+    "finish_exit": "Bitiş ve Çıkış",
+    "well_done": "Aferin!",
+    "completion_message": "Bu etkinliği başarıyla tamamladın. İlerlemenin takdir edilmesini bir an ayır.",
+    "time_to_complete": "Tamamlanma zamanı",
+    "back": "Geri",
+    "next": "Sıradaki",
+    "save": "Kayd et",
+    "loading": "Yükleniyor..."
+  },
+  "app_title": "Kutu Nefes Alma",
+  "app_complete_title": "Harika iş!",
+  "app_complete_message": "Box Breath seansını tamamladın. Daha dengeli ve sakin hissetmelisin."
 }

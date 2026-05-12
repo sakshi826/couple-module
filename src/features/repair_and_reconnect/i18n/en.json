@@ -32,32 +32,112 @@
     "button": "Try This →",
     "approaches": {
       "friend": [
-        { "id": "message", "label": "Send a casual check-in", "emoji": "💬" },
-        { "id": "acknowledge", "label": "Acknowledge the tension", "emoji": "🫶" },
-        { "id": "pause", "label": "Give each other some space", "emoji": "⏸️" },
-        { "id": "letgo", "label": "Let it go and move on", "emoji": "🍃" },
-        { "id": "reflect", "label": "Just reflect on it", "emoji": "🪞" }
+        {
+          "id": "message",
+          "label": "Send a casual check-in",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Acknowledge the tension",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Give each other some space",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Let it go and move on",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Just reflect on it",
+          "emoji": "🪞"
+        }
       ],
       "family": [
-        { "id": "message", "label": "Send a warm message", "emoji": "💬" },
-        { "id": "acknowledge", "label": "Name what happened honestly", "emoji": "🫶" },
-        { "id": "pause", "label": "Commit to pausing next time", "emoji": "⏸️" },
-        { "id": "letgo", "label": "Choose peace over being right", "emoji": "🍃" },
-        { "id": "reflect", "label": "Reflect on what you really need", "emoji": "🪞" }
+        {
+          "id": "message",
+          "label": "Send a warm message",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Name what happened honestly",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Commit to pausing next time",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Choose peace over being right",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Reflect on what you really need",
+          "emoji": "🪞"
+        }
       ],
       "colleague": [
-        { "id": "message", "label": "Send a professional note", "emoji": "💬" },
-        { "id": "acknowledge", "label": "Address it respectfully", "emoji": "🫶" },
-        { "id": "pause", "label": "Plan a calmer response next time", "emoji": "⏸️" },
-        { "id": "letgo", "label": "Keep it professional and move on", "emoji": "🍃" },
-        { "id": "reflect", "label": "Think about boundaries", "emoji": "🪞" }
+        {
+          "id": "message",
+          "label": "Send a professional note",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Address it respectfully",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Plan a calmer response next time",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Keep it professional and move on",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Think about boundaries",
+          "emoji": "🪞"
+        }
       ],
       "other": [
-        { "id": "message", "label": "Reach out with a simple message", "emoji": "💬" },
-        { "id": "acknowledge", "label": "Acknowledge what happened", "emoji": "🫶" },
-        { "id": "pause", "label": "Take a pause next time", "emoji": "⏸️" },
-        { "id": "letgo", "label": "Let it go for now", "emoji": "🍃" },
-        { "id": "reflect", "label": "Just reflect (no action yet)", "emoji": "🪞" }
+        {
+          "id": "message",
+          "label": "Reach out with a simple message",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Acknowledge what happened",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Take a pause next time",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Let it go for now",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Just reflect (no action yet)",
+          "emoji": "🪞"
+        }
       ]
     }
   },
@@ -152,5 +232,17 @@
     "copy_success": "Message copied!",
     "preserving": "Preserving...",
     "complete_button": "Complete & Save"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading..."
   }
 }

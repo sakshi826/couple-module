@@ -43,5 +43,17 @@
   "insight_okay": "Sürekli bir enerji akışı yaşadınız. İş ve dinlenmeyi dengelemek sizin için işe yarıyor gibi görünüyor.",
   "insight_low": "Enerjin düşüktü. Yeterince dinlenip egzersiz yapmadığını kontrol etmeyi düşün.",
   "insight_more_data": "Enerji seviyelerinizdeki daha derin kalıpları görmek için günlük takip etmeye devam edin.",
-  "go_home": "Tracker'a Geri Dön"
+  "go_home": "Tracker'a Geri Dön",
+  "common": {
+    "get_started": "Başlayın",
+    "start_over": "Yeniden Başla",
+    "finish_exit": "Bitiş ve Çıkış",
+    "well_done": "Aferin!",
+    "completion_message": "Bu etkinliği başarıyla tamamladın. İlerlemenin takdir edilmesini bir an ayır.",
+    "time_to_complete": "Tamamlanma zamanı",
+    "back": "Geri",
+    "next": "Sıradaki",
+    "save": "Kayd et",
+    "loading": "Yükleniyor..."
+  }
 }

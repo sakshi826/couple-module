@@ -22,5 +22,17 @@
     "desc": "Når du elsker noen, frigjør hjernen din dopamin, oksytocin og serotonin. Når det slutter, faller nivåene. Hjernen din sørger — ikke bare personen, men følelsen av nærhet.",
     "quote": "\"Å savne dem betyr ikke at du skal dra tilbake. Hjertet ditt sørger over et bånd — ikke nødvendigvis personen slik de virkelig var.\"",
     "button": "Ferdig refleksjon"
+  },
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start på nytt",
+    "finish_exit": "Mål og utgang",
+    "well_done": "Bra jobbet!",
+    "completion_message": "Du har fullført denne aktiviteten med suksess. Ta et øyeblikk til å sette pris på fremgangen din.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Tilbake",
+    "next": "Neste",
+    "save": "Lagre",
+    "loading": "Laster..."
   }
 }

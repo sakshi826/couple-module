@@ -41,5 +41,19 @@
     "p1": "Se reconnecter à ce qui vous apporte de la joie — même de la plus petite manière — est un acte de bonté envers vous-même.",
     "p2": "Tu mérites des moments de légèreté et de paix. Continuez à nourrir ce qui remplit votre cœur. 💛",
     "button": "Retour à la maison"
-  }
+  },
+  "common": {
+    "get_started": "Commencez",
+    "start_over": "Recommencer à zéro",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bravo !",
+    "completion_message": "Vous avez réussi cette activité. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Il est temps de terminer",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Sauvegarder",
+    "loading": "Chargement..."
+  },
+  "app_complete_title": "Joie préservée",
+  "app_complete_message": "Vous avez réussi à vous souvenir et à vous connecter avec une source de joie. Gardez ce sentiment avec vous tout au long de votre journée."
 }

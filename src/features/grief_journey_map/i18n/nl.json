@@ -35,5 +35,17 @@
   ],
   "btn_finish": "Eindreflectie",
   "complete_title": "Reis Geëerd",
-  "complete_message": "Je hoeft niet verder te gaan. Je leert het gewoon anders te dragen. Jouw reis is uniek, geldig en diep menselijk."
+  "complete_message": "Je hoeft niet verder te gaan. Je leert het gewoon anders te dragen. Jouw reis is uniek, geldig en diep menselijk.",
+  "common": {
+    "get_started": "Begin",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Goed gedaan!",
+    "completion_message": "Je hebt deze activiteit succesvol voltooid. Neem even de tijd om je vooruitgang te waarderen.",
+    "time_to_complete": "Tijd om af te ronden",
+    "back": "Achteruit",
+    "next": "Volgende",
+    "save": "Sla op",
+    "loading": "Laden..."
+  }
 }

@@ -48,5 +48,17 @@
   "memory_desc": "Senaman meningkatkan aliran darah ke otak, membantu meningkatkan ingatan dan fungsi kognitif.",
   "stress_title": "Tindak balas tekanan",
   "stress_desc": "Aktiviti fizikal menurunkan hormon tekanan dan membantu sistem saraf anda ditetapkan semula.",
-  "app_name": "Log Aktiviti Fizikal"
+  "app_name": "Log Aktiviti Fizikal",
+  "common": {
+    "get_started": "Bermula",
+    "start_over": "Mulakan Semula",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Syabas!",
+    "completion_message": "Anda telah berjaya menyelesaikan aktiviti ini. Luangkan sedikit masa untuk menghargai kemajuan anda.",
+    "time_to_complete": "Masa untuk melengkapkan",
+    "back": "Kembali",
+    "next": "Seterusnya",
+    "save": "Simpan",
+    "loading": "Memuatkan..."
+  }
 }

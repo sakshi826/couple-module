@@ -17,5 +17,17 @@
     "p2": "Tätä kutsutaan <1>ehdolliseksi kiihottumiseksi</1> — se selittää, miksi tunnet olosi uupuneeksi koko päivän, mutta olet täysin hereillä nukkumaanmenoaikaan.",
     "quote": "\"Aivosi eivät ole rikki. Se on yksinkertaisesti oppinut väärän läksyn nukkumaanmenoajasta — ja se voidaan palauttaa uudelleen.\"",
     "button": "Edellinen vaihe"
+  },
+  "common": {
+    "get_started": "Aloita",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Maali ja uloskäynti",
+    "well_done": "Hyvin tehty!",
+    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Ota hetki arvostaaksesi edistymistäsi.",
+    "time_to_complete": "Aika valmistua",
+    "back": "Takaisin",
+    "next": "Seuraavaksi",
+    "save": "Tallenna",
+    "loading": "Ladataan..."
   }
 }

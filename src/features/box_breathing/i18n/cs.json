@@ -17,5 +17,20 @@
   "back": "Zpět",
   "not_found_404": "404",
   "page_not_found": "Jejda! Stránka nenalezena",
-  "return_home": "Návrat domů"
+  "return_home": "Návrat domů",
+  "common": {
+    "get_started": "Začněte",
+    "start_over": "Začít znovu",
+    "finish_exit": "Konec a výjezd",
+    "well_done": "Dobrá práce!",
+    "completion_message": "Úspěšně jste tuto aktivitu dokončili. Věnujte chvíli ocenění svého pokroku.",
+    "time_to_complete": "Čas dokončit",
+    "back": "Zpět",
+    "next": "Další",
+    "save": "Uložit",
+    "loading": "Načítám..."
+  },
+  "app_title": "Box Breathing",
+  "app_complete_title": "Skvělá práce!",
+  "app_complete_message": "Dokončili jste trénink Box Breathing. Měl bys se cítit vyrovnanější a klidnější."
 }

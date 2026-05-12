@@ -30,5 +30,19 @@
   "back": "Zpět",
   "not_found_title": "404",
   "not_found_text": "Jejda! Stránka nenalezena",
-  "return_home": "Návrat domů"
+  "return_home": "Návrat domů",
+  "common": {
+    "get_started": "Začněte",
+    "start_over": "Začít znovu",
+    "finish_exit": "Konec a výjezd",
+    "well_done": "Dobrá práce!",
+    "completion_message": "Úspěšně jste tuto aktivitu dokončili. Věnujte chvíli ocenění svého pokroku.",
+    "time_to_complete": "Čas dokončit",
+    "back": "Zpět",
+    "next": "Další",
+    "save": "Uložit",
+    "loading": "Načítám..."
+  },
+  "app_complete_title": "Vděčnost zachráněna",
+  "app_complete_message": "Zamyslet se nad tím, za co jste vděční, je silný způsob, jak se zaměřit na pozitivní věci."
 }

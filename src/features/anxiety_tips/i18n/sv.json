@@ -48,5 +48,17 @@
   "support_step1": "Ring eller sms:a en vän",
   "support_step2": "Dela med dig av vad som oroar dig",
   "support_step3": "Be om perspektiv",
-  "support_step4": "Överväg att prata med en kurator"
+  "support_step4": "Överväg att prata med en kurator",
+  "common": {
+    "get_started": "Kom igång",
+    "start_over": "Börja om",
+    "finish_exit": "Mål och utgång",
+    "well_done": "Bra jobbat!",
+    "completion_message": "Du har framgångsrikt slutfört denna aktivitet. Ta en stund och uppskatta dina framsteg.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "save": "Spara",
+    "loading": "Laddar..."
+  }
 }

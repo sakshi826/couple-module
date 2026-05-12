@@ -36,11 +36,15 @@
     }
   ],
   "common": {
-    "thank_you": "Obrigado",
-    "you_feel": "Você sente:",
-    "completion_message": "Você concluiu o exercício de ancoragem. Leve essa sensação de presença consigo ao longo do seu dia.",
-    "start_again": "Começar de novo",
-    "reflection_question": "Em uma palavra, como você se sente agora?",
-    "reflection_placeholder": "Por exemplo: calmo, aliviado, centrado…"
+    "get_started": "Comece",
+    "start_over": "Recomeçar",
+    "finish_exit": "Fim e Saída",
+    "well_done": "Parabéns!",
+    "completion_message": "Você completou esta atividade com sucesso. Reserve um momento para apreciar seu progresso.",
+    "time_to_complete": "Hora de concluir",
+    "back": "Voltar",
+    "next": "Próximo",
+    "save": "Salvar",
+    "loading": "Carregando..."
   }
 }

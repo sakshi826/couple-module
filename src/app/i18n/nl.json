@@ -1,0 +1,223 @@
+{
+  "common": {
+    "get_started": "Begin",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Goed gedaan!",
+    "completion_message": "Je hebt deze activiteit succesvol voltooid. Neem even de tijd om je vooruitgang te waarderen.",
+    "time_to_complete": "Tijd om af te ronden",
+    "back": "Achteruit",
+    "next": "Volgende",
+    "save": "Sla op",
+    "loading": "Laden...",
+    "today": "Vandaag de dag",
+    "yesterday": "Gisteren",
+    "filters": "Filters",
+    "see_all": "Bekijk alles",
+    "meditation": "Meditatie",
+    "guided": "Begeleid",
+    "sleep": "Slaap",
+    "mindfulness": "Mindfulness",
+    "restore": "Herstel",
+    "curated": "Gecureerd door Mind",
+    "restorative": "Herstellend",
+    "peace": "Vrede",
+    "breath": "Adem",
+    "nature": "Natuur",
+    "relax": "Ontspan",
+    "time": {
+      "3min": "3 min",
+      "5min": "5 min",
+      "8min": "8 min",
+      "10min": "10 min",
+      "12min": "12 min",
+      "15min": "15 min",
+      "20min": "20 min",
+      "30min": "30 min",
+      "45min": "45 min",
+      "60min": "60 min"
+    }
+  },
+  "hub": {
+    "back_to_topics": "Terug naar de onderwerpen",
+    "guided_series": "Begeleide Serie",
+    "start_guided_series": "Start begeleide serie",
+    "exercises": "Oefeningen",
+    "todos": "To Do's",
+    "resources": "Bronnen",
+    "view_resource": "Bekijk bron",
+    "search_placeholder": "Zoek naar onderwerpen of activiteiten...",
+    "how_are_you": "Hoe voel je je vandaag?",
+    "self_care_resources": "Zelfzorgbronnen",
+    "explore_tools": "Ontdek hulpmiddelen en begeleiding voor je mentale welzijnsreis",
+    "topics": "Onderwerpen",
+    "tools": "Gereedschappen",
+    "articles": "Artikelen",
+    "tips": "Tips",
+    "stories": "Verhalen",
+    "myths": "Mythen"
+  },
+  "topics": {
+    "depression": {
+      "label": "Depressie",
+      "desc": "Op bewijs gebaseerde oefeningen en bronnen om je te helpen depressiesymptomen te beheersen en veerkracht op te bouwen."
+    },
+    "anxiety": {
+      "label": "Angst",
+      "desc": "Kalmeringstechnieken en strategieën om angst te beheersen, zorgen te verminderen en weer controle te krijgen."
+    },
+    "stress": {
+      "label": "Stress",
+      "desc": "Praktische hulpmiddelen en oefeningen om stress te beheersen, copingvaardigheden op te bouwen en de balans in je leven te herstellen."
+    },
+    "adolescent": {
+      "label": "Adolescent",
+      "desc": "Begeleiding en activiteiten ontworpen voor tieners die hun groei, identiteit en emotionele uitdagingen moeten doormaken."
+    },
+    "relationship": {
+      "label": "Relatie",
+      "desc": "Hulpmiddelen en inzichten om verbindingen te versterken, communicatie te verbeteren en gezondere relaties op te bouwen."
+    },
+    "workplace": {
+      "label": "Werkplek",
+      "desc": "Strategieën om stress op de werkvloer te beheersen, de focus te verbeteren en de balans tussen werk en privé te behouden."
+    },
+    "sleep": {
+      "label": "Slaap",
+      "desc": "Technieken en trackers om je slaapkwaliteit te verbeteren, gezonde bedgewoonten op te bouwen en verfrist wakker te worden."
+    },
+    "parenting": {
+      "label": "Ouderschap",
+      "desc": "Bronnen om mindful ouderschap te ondersteunen, burn-out te verminderen en het welzijn van je gezin te bevorderen."
+    },
+    "anger": {
+      "label": "Woede",
+      "desc": "Technieken om woede op gezonde en constructieve manieren te begrijpen, te beheersen en te kanaliseren."
+    },
+    "grief": {
+      "label": "Rouw",
+      "desc": "Meelevende hulpmiddelen en oefeningen om je te helpen verlies te verwerken en genezing te vinden in je eigen tempo."
+    },
+    "ptsd": {
+      "label": "PTSS",
+      "desc": "Aardings- en stabilisatietechnieken om traumareacties te helpen beheersen en veiligheid op te bouwen."
+    },
+    "acceptance": {
+      "label": "Acceptatie",
+      "desc": "Oefeningen om acceptatie te cultiveren, weerstand los te laten en het leven te omarmen zoals het is."
+    },
+    "postpartum": {
+      "label": "Postpartum",
+      "desc": "Ondersteunende bronnen voor nieuwe moeders die omgaan met postpartumproblemen en emotionele veranderingen."
+    },
+    "sexuality": {
+      "label": "Seksualiteit",
+      "desc": "Veilige en ondersteunende bronnen om identiteit te verkennen, zelfacceptatie op te bouwen en gemeenschap te vinden."
+    },
+    "eating-disorder": {
+      "label": "Eetstoornis",
+      "desc": "Ondersteunende oefeningen en hulpmiddelen om een gezondere relatie met voeding en lichaamsbeeld op te bouwen."
+    },
+    "ocd": {
+      "label": "OCD",
+      "desc": "Evidence-based technieken om obsessieve gedachten en dwangmatig gedrag te beheersen."
+    }
+  },
+  "tools": {
+    "box-breathing": "Doos-ademhaling",
+    "gratitude-tracker": "Dankbaarheidstracker",
+    "deep-breathing": "Diep ademhalen",
+    "affirmations": "Affirmaties",
+    "mindful-space": "Mindful Space",
+    "letter-to-self": "Een Brief Aan Zichzelf",
+    "sleep-tracker": "Slaaptracker"
+  },
+  "moods": {
+    "great": "Geweldig",
+    "good": "Goed",
+    "okay": "Oké",
+    "down": "Omlaag",
+    "sad": "Triest"
+  },
+  "nav": {
+    "home": "Home",
+    "care_team": "Zorgteam",
+    "appointments": "Benoemingen",
+    "tasks": "Taken",
+    "insights": "Inzichten",
+    "billing": "Facturering",
+    "profile": "Profiel",
+    "invite_friend": "Gast tot vriend",
+    "feedback": "Deel feedback",
+    "support": "Ondersteuning",
+    "sign_out": "Uitloggen"
+  },
+  "journal": {
+    "title": "Tijdschrift",
+    "subtitle": "Documenteer je gedachten, gevoelens en dagelijkse ervaringen",
+    "new_entry": "Nieuwe Inwinst",
+    "search_placeholder": "Doorzoek je dagboeknotities...",
+    "filter_by_mood": "Filter op stemming:",
+    "all_moods": "Alle stemmingen",
+    "no_entries": "Geen vermeldingen gevonden",
+    "adjust_search": "Probeer je zoekopdracht of filters aan te passen",
+    "start_journey": "Begin vandaag nog aan je dagboekreis",
+    "write_first": "Schrijf je eerste aantekening",
+    "mood": {
+      "great": "Geweldig",
+      "good": "Goed",
+      "okay": "Oké",
+      "sad": "Triest",
+      "anxious": "Angstig"
+    },
+    "sample": {
+      "1": {
+        "title": "Je eerste gedachte",
+        "content": "Begin met het opschrijven van wat je bezighoudt. Dagboekschrijven is een krachtig hulpmiddel voor zelfreflectie en mentale helderheid."
+      }
+    }
+  },
+  "mindfulness": {
+    "title": "Mindfulness Zelfzorg",
+    "subtitle": "Professionele mindfulness-tools en begeleide sessies voor jouw welzijnsreis",
+    "featured_mantra": "Uitgelicht op Mantra",
+    "browse_category": "Blader per categorie",
+    "new_noteworthy": "Nieuw & Opmerkelijk",
+    "browse_goal": "Blader op doel",
+    "browse_time": "Blader op Tijd",
+    "daily_program": "Vind een dagelijks programma",
+    "daily_program_desc": "Let op je intenties voor elk programma",
+    "featured_collections": "Uitgelichte collecties",
+    "featured": {
+      "anxiety": "Rustige angst",
+      "relaxation": "Vaardigheden voor diepe ontspanning",
+      "peace": "Innerlijke Vredesreis",
+      "mountain": "Bergstilte"
+    },
+    "goal": {
+      "beginners": "Voor beginners",
+      "beginners_desc": "Begin je mindfulness-reis",
+      "grief": "Omgaan met rouw",
+      "grief_desc": "Vind vrede en genezing"
+    },
+    "collection": {
+      "students": "Voor studenten",
+      "students_desc": "Focus en studeer beter",
+      "grief": "Omgaan met rouw",
+      "grief_desc": "Vind vrede en genezing",
+      "sleep": "Beter Slapen",
+      "sleep_desc": "Rust uit en laad diep op",
+      "stress": "Stressverlichting",
+      "stress_desc": "Kalmeer je geest en lichaam"
+    },
+    "category": {
+      "meditation": "Meditatie",
+      "concentration": "Concentratie",
+      "music": "Muziek",
+      "creatures": "Wezens",
+      "soundscapes": "Geluidslandschappen",
+      "students": "Studenten",
+      "affirmations": "Affirmaties"
+    }
+  }
+}

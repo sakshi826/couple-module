@@ -52,5 +52,17 @@
   "complete_message": "A consciência é o primeiro passo rumo à liberdade. Você deu um passo corajoso ao identificar e refletir sobre uma regra alimentar. Leve esse entendimento gentil com você hoje.",
   "auth_error": "Sessão de autenticação ausente ou banco de dados não configurado",
   "save_success": "Reflexão preservada",
-  "save_error": "Falhou em preservar a reflexão"
+  "save_error": "Falhou em preservar a reflexão",
+  "common": {
+    "get_started": "Comece",
+    "start_over": "Recomeçar",
+    "finish_exit": "Fim e Saída",
+    "well_done": "Parabéns!",
+    "completion_message": "Você completou esta atividade com sucesso. Reserve um momento para apreciar seu progresso.",
+    "time_to_complete": "Hora de concluir",
+    "back": "Voltar",
+    "next": "Próximo",
+    "save": "Salvar",
+    "loading": "Carregando..."
+  }
 }

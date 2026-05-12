@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import { RouterProvider } from "react-router-dom";
 import { router } from "./routes";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
@@ -7,6 +7,8 @@ import axios from "axios";
 import { neon } from "@neondatabase/serverless";
 import Loader from "../components/Loader";
 import { COLORS } from "../misc/Colors";
+import { I18nextProvider } from "react-i18next";
+import i18n from "./i18n";
 
 const queryClient = new QueryClient();
 const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
@@ -21,7 +23,6 @@ function App() {
       const token = urlParams.get("token");
       const storedUserId = sessionStorage.getItem("user_id");
 
-      // 0. DEV ONLY: Mock user bypass via VITE_DEV_USER_ID env var
       const devUserId = import.meta.env.VITE_DEV_USER_ID;
       if (devUserId && !storedUserId) {
         console.info(`[DEV] Seeding mock user_id: ${devUserId}`);
@@ -31,7 +32,6 @@ function App() {
       }
       if (storedUserId) {
         setIsAuthorized(true);
-        // Clean URL if token is present (stale token cleanup)
         if (token) {
           urlParams.delete("token");
           const cleanSearch = urlParams.toString() ? `?${urlParams.toString()}` : "";
@@ -40,7 +40,6 @@ function App() {
         return;
       }
 
-      // 2. If token present in URL, validate it
       if (token) {
         try {
           const response = await axios.post("https://api.mantracare.com/user/user-info", { token });
@@ -48,27 +47,22 @@ function App() {
 
           if (!user_id) throw new Error("API did not return a valid user_id");
 
-          // Save to session
           sessionStorage.setItem("user_id", user_id.toString());
           setIsAuthorized(true);
 
-          // Database Initialization (Background)
           if (DATABASE_URL) {
             initDatabase(user_id.toString()).catch(err => 
               console.warn("DB Initialization skipped:", err.message)
             );
           }
 
-          // Smart Restore & Navigate Logic
           const savedRedirectPath = localStorage.getItem("APP_REDIRECT_PATH");
           localStorage.removeItem("APP_REDIRECT_PATH");
 
-          // Remove token from URL bar instantly
           urlParams.delete("token");
           const cleanSearch = urlParams.toString() ? `?${urlParams.toString()}` : "";
           const cleanPath = window.location.pathname + cleanSearch + window.location.hash;
 
-          // If we have a saved path, go there. Otherwise stay on current path (without token).
           const targetPath = savedRedirectPath || cleanPath;
           if (targetPath === window.location.pathname + window.location.search + window.location.hash) {
             window.history.replaceState(null, "", targetPath);
@@ -82,7 +76,6 @@ function App() {
           redirectToAuth();
         }
       } else {
-        // 3. No session and no token - Intercept and Redirect
         redirectToAuth();
       }
     };
@@ -121,7 +114,6 @@ function App() {
 
       await Promise.allSettled(tables);
 
-      // Ensure columns and initial user exist
       try { await sql`ALTER TABLE memory_box_entries ADD COLUMN IF NOT EXISTS memory_data JSONB`; } catch(e) {}
       try { await sql`ALTER TABLE continuing_bonds_entries ADD COLUMN IF NOT EXISTS bond_data JSONB`; } catch(e) {}
       try { await sql`ALTER TABLE compassion_break_entries ADD COLUMN IF NOT EXISTS break_data JSONB`; } catch(e) {}
@@ -129,13 +121,10 @@ function App() {
     };
 
     const redirectToAuth = () => {
-      // Save current path for later restoration
       const currentPath = window.location.pathname + window.location.search + window.location.hash;
       if (!currentPath.includes("token=")) {
         localStorage.setItem("APP_REDIRECT_PATH", currentPath);
       }
-
-      // Hard redirect to Auth Portal
       const appRoot = window.location.origin + "/therapy/";
       window.location.replace(`https://web.mantracare.com/app/therapy?redirect_url=${encodeURIComponent(appRoot)}`);
     };
@@ -152,11 +141,15 @@ function App() {
   }
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <TooltipProvider>
-        <RouterProvider router={router} />
-      </TooltipProvider>
-    </QueryClientProvider>
+    <I18nextProvider i18n={i18n}>
+      <Suspense fallback={<Loader size={45} color={COLORS.blueDark} />}>
+        <QueryClientProvider client={queryClient}>
+          <TooltipProvider>
+            <RouterProvider router={router} />
+          </TooltipProvider>
+        </QueryClientProvider>
+      </Suspense>
+    </I18nextProvider>
   );
 }
 

@@ -22,5 +22,17 @@
     "desc": "Cuando amas a alguien, tu cerebro libera dopamina, oxitocina y serotonina. Cuando termina, esos niveles bajan. Tu cerebro sufre — no solo la persona, sino la sensación de cercanía.",
     "quote": "\"Echarles de menos no significa que debas volver. Tu corazón está de luto por un vínculo — no necesariamente por la persona tal y como realmente era.\"",
     "button": "Reflexión de acabado"
+  },
+  "common": {
+    "get_started": "Empieza",
+    "start_over": "Empezar de nuevo",
+    "finish_exit": "Llegada y salida",
+    "well_done": "¡Bien hecho!",
+    "completion_message": "Has completado esta actividad con éxito. Tómate un momento para apreciar tu progreso.",
+    "time_to_complete": "Hora de completar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "save": "Salvar",
+    "loading": "Cargando..."
   }
 }

@@ -76,5 +76,28 @@
   "btn_start_exercise": "운동 시작 →",
   "btn_back_to_home": "홈으로 돌아가기",
   "label_thought": "생각:",
-  "label_reflection": "반사:"
+  "label_reflection": "반사:",
+  "common": {
+    "get_started": "시작하기",
+    "start_over": "처음부터 다시",
+    "finish_exit": "결승 및 퇴장",
+    "well_done": "잘했어요!",
+    "completion_message": "이 활동을 성공적으로 완료하셨습니다. 잠시 시간을 내어 자신의 진전을 감상해 보세요.",
+    "time_to_complete": "완성 시간입니다",
+    "back": "뒤로",
+    "next": "다음",
+    "save": "저장",
+    "loading": "로딩 중..."
+  },
+  "title_sky_clouds": "하늘과 구름",
+  "title_sell_thought": "생각을 팔아라.",
+  "title_name_story": "이야기 이름 붙여",
+  "title_choose": "확산 기법",
+  "title_diffusion": "확산",
+  "label_back_to_start": "시작 지점으로 돌아가기",
+  "label_back_to_techniques": "기법으로 돌아가기",
+  "label_choose_technique": "기법을 선택하세요",
+  "label_current_thought": "현재 생각",
+  "label_recurrent_thought": "반복되는 생각",
+  "label_remember_to_say": "꼭 이렇게 말하세요:"
 }

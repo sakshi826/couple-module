@@ -48,5 +48,19 @@
     "sleep": "Jdi spát brzy",
     "yoga": "Zkus jógu",
     "dance": "Tanči na píseň"
-  }
+  },
+  "common": {
+    "get_started": "Začněte",
+    "start_over": "Začít znovu",
+    "finish_exit": "Konec a výjezd",
+    "well_done": "Dobrá práce!",
+    "completion_message": "Úspěšně jste tuto aktivitu dokončili. Věnujte chvíli ocenění svého pokroku.",
+    "time_to_complete": "Čas dokončit",
+    "back": "Zpět",
+    "next": "Další",
+    "save": "Uložit",
+    "loading": "Načítám..."
+  },
+  "complete_title": "Bingo Master!",
+  "complete_message": "Gratuluji! Úspěšně jste dokončili řadu péče o sebe. Děkuji tvé mysli i tělu."
 }

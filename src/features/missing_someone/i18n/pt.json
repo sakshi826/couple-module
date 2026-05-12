@@ -22,5 +22,17 @@
     "desc": "Quando você ama alguém, seu cérebro libera dopamina, ocitocina e serotonina. Quando termina, esses níveis caem. Seu cérebro sofre — não só pela pessoa, mas pela sensação de proximidade.",
     "quote": "\"Sentir falta deles não significa que você deva voltar. Seu coração está de luto por um vínculo — não necessariamente pela pessoa como ela realmente era.\"",
     "button": "Reflexão do Acabamento"
+  },
+  "common": {
+    "get_started": "Comece",
+    "start_over": "Recomeçar",
+    "finish_exit": "Fim e Saída",
+    "well_done": "Parabéns!",
+    "completion_message": "Você completou esta atividade com sucesso. Reserve um momento para apreciar seu progresso.",
+    "time_to_complete": "Hora de concluir",
+    "back": "Voltar",
+    "next": "Próximo",
+    "save": "Salvar",
+    "loading": "Carregando..."
   }
 }

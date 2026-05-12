@@ -52,5 +52,17 @@
     "미뤄왔던 일 하나를 끝내세요"
   ],
   "final_text": "작은 변화가 중요합니다. 꾸준함이 평온함을 가져옵니다.",
-  "finish": "마치다"
+  "finish": "마치다",
+  "common": {
+    "get_started": "시작하기",
+    "start_over": "처음부터 다시",
+    "finish_exit": "결승 및 퇴장",
+    "well_done": "잘했어요!",
+    "completion_message": "이 활동을 성공적으로 완료하셨습니다. 잠시 시간을 내어 자신의 진전을 감상해 보세요.",
+    "time_to_complete": "완성 시간입니다",
+    "back": "뒤로",
+    "next": "다음",
+    "save": "저장",
+    "loading": "로딩 중..."
+  }
 }

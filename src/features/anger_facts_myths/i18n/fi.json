@@ -54,5 +54,17 @@
       "realFact": "Muut ihmiset voivat laukaista vihasi, mutta se, miten reagoit, on sinun vastuullasi — ja vallallasi. Reaktioiden omistaminen ei tarkoita, että toinen oli oikeassa. Se tarkoittaa, että sinä päätät, miten tulet paikalle. Se on voimaannuttamista, ei syyttelyä.",
       "example": "Joku katkaisee sinut liikenteessä. Tunnet vihaa — se on normaalia. Mutta sinä päätät, raivostutko vai hengitätkö. Valinta on sinun."
     }
-  ]
+  ],
+  "common": {
+    "get_started": "Aloita",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Maali ja uloskäynti",
+    "well_done": "Hyvin tehty!",
+    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Ota hetki arvostaaksesi edistymistäsi.",
+    "time_to_complete": "Aika valmistua",
+    "back": "Takaisin",
+    "next": "Seuraavaksi",
+    "save": "Tallenna",
+    "loading": "Ladataan..."
+  }
 }

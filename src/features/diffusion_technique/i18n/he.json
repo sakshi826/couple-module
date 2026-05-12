@@ -87,5 +87,17 @@
   "label_choose_technique": "בחר טכניקה",
   "label_current_thought": "המחשבה הנוכחית שלך",
   "label_recurrent_thought": "המחשבה החוזרת",
-  "label_remember_to_say": "זכור לומר:"
+  "label_remember_to_say": "זכור לומר:",
+  "common": {
+    "get_started": "תתחילו",
+    "start_over": "התחלה מחדש",
+    "finish_exit": "סיום ויציאה",
+    "well_done": "כל הכבוד!",
+    "completion_message": "השלמת את הפעילות הזו בהצלחה. קח רגע להעריך את ההתקדמות שלך.",
+    "time_to_complete": "הגיע הזמן להשלים",
+    "back": "חזרה",
+    "next": "הבא",
+    "save": "שמור",
+    "loading": "טוען..."
+  }
 }

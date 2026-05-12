@@ -76,5 +76,28 @@
   "btn_start_exercise": "Simulan ang Ehersisyo →",
   "btn_back_to_home": "Balik sa Bahay",
   "label_thought": "Kaisipan:",
-  "label_reflection": "Repleksyon:"
+  "label_reflection": "Repleksyon:",
+  "common": {
+    "get_started": "Email Address *",
+    "start_over": "Magsimulang Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Mahusay na ginawa!",
+    "completion_message": "Matagumpay mong nakumpleto ang aktibidad na ito. Maglaan ng ilang sandali upang pahalagahan ang iyong pag-unlad.",
+    "time_to_complete": "Oras na para makumpleto",
+    "back": "Bumalik",
+    "next": "Susunod",
+    "save": "I-save",
+    "loading": "Naglo-load..."
+  },
+  "title_sky_clouds": "Langit at Ulap",
+  "title_sell_thought": "Ibenta ang Pag-iisip",
+  "title_name_story": "Pangalanan ang Kuwento",
+  "title_choose": "Mga Pamamaraan ng Pagpapalaganap",
+  "title_diffusion": "Pagpapalaganap",
+  "label_back_to_start": "Bumalik sa Simula",
+  "label_back_to_techniques": "Bumalik sa Mga Pamamaraan",
+  "label_choose_technique": "Pumili ng Pamamaraan",
+  "label_current_thought": "Ang iyong kasalukuyang pag-iisip",
+  "label_recurrent_thought": "Ang paulit-ulit na pag-iisip",
+  "label_remember_to_say": "Tandaan na sabihin:"
 }

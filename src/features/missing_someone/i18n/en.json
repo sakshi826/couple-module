@@ -1,6 +1,10 @@
 {
   "app_title": "Missing Someone",
-  "subtitles": ["Validation", "Internal Wisdom", "Complete"],
+  "subtitles": [
+    "Validation",
+    "Internal Wisdom",
+    "Complete"
+  ],
   "complete_title": "Clarity Gained",
   "complete_message": "Understanding the chemistry of missing someone is the first step toward healing. Your feelings are valid, and your brain is simply doing its job to protect and process.",
   "screen1": {
@@ -18,5 +22,17 @@
     "desc": "When you love someone, your brain releases dopamine, oxytocin, and serotonin. When it ends, those levels drop. Your brain grieves — not just the person, but the feeling of closeness.",
     "quote": "\"Missing them doesn't mean you should go back. Your heart is grieving a bond — not necessarily the person as they truly were.\"",
     "button": "Finish Reflection"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading..."
   }
 }

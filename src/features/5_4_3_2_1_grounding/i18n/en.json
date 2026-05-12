@@ -36,11 +36,15 @@
     }
   ],
   "common": {
-    "thank_you": "Thank you",
-    "you_feel": "You feel:",
-    "completion_message": "You've completed the grounding exercise. Carry this sense of presence with you as you continue your day.",
-    "start_again": "Start Again",
-    "reflection_question": "In one word, how do you feel right now?",
-    "reflection_placeholder": "e.g. calm, relieved, grounded…"
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading..."
   }
 }

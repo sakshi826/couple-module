@@ -2,8 +2,10 @@ import { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { Home, MessageSquare, Calendar, CheckSquare, BarChart3, Receipt, Gift, Lightbulb, HelpCircle, X, Menu, ChevronRight, UserCircle } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 export function MobileNav() {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const location = useLocation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -12,13 +14,13 @@ export function MobileNav() {
   const userName = user?.name || "User";
 
   const mainNavItems = [
-    { icon: Home,          label: "Home",         path: "/dashboard"    },
-    { icon: MessageSquare, label: "Care Team",     path: "/care-team"    },
-    { icon: Calendar,      label: "Appointments",  path: "/appointments" },
-    { icon: CheckSquare,   label: "Tasks",          path: "/tasks"        },
-    { icon: BarChart3,     label: "Insights",       path: "/insights"     },
-    { icon: Receipt,       label: "Billing",        path: "/billing"      },
-    { icon: UserCircle,    label: "Profile",        path: "/profile"      },
+    { icon: Home,          label: t("nav.home", "Home"),         path: "/dashboard"    },
+    { icon: MessageSquare, label: t("nav.care_team", "Care Team"),     path: "/care-team"    },
+    { icon: Calendar,      label: t("nav.appointments", "Appointments"),  path: "/appointments" },
+    { icon: CheckSquare,   label: t("nav.tasks", "Tasks"),          path: "/tasks"        },
+    { icon: BarChart3,     label: t("nav.insights", "Insights"),       path: "/insights"     },
+    { icon: Receipt,       label: t("nav.billing", "Billing"),        path: "/billing"      },
+    { icon: UserCircle,    label: t("nav.profile", "Profile"),        path: "/profile"      },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -115,7 +117,7 @@ export function MobileNav() {
                   onClick={() => handleNav("/refer")}
                 >
                   <Gift size={20} />
-                  <span className="text-sm font-medium">Invite a Friend</span>
+                  <span className="text-sm font-medium">{t("nav.invite_friend", "Invite a Friend")}</span>
                 </button>
 
                 <div className="my-3 border-t border-[#E2ECF5]" />
@@ -126,14 +128,14 @@ export function MobileNav() {
                     onClick={() => handleNav("/feedback")}
                   >
                     <Lightbulb size={20} />
-                    <span className="text-sm">Share Feedback</span>
+                    <span className="text-sm">{t("nav.feedback", "Share Feedback")}</span>
                   </button>
                   <button
                     className="w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all text-[#64748B] hover:bg-[#E6F4FF] hover:text-[#020817]"
                     onClick={() => handleNav("/support")}
                   >
                     <HelpCircle size={20} />
-                    <span className="text-sm">Support</span>
+                    <span className="text-sm">{t("nav.support", "Support")}</span>
                   </button>
                 </div>
               </nav>
@@ -144,7 +146,7 @@ export function MobileNav() {
                   onClick={handleLogout}
                   className="w-full px-4 py-3 rounded-xl text-sm text-[#64748B] hover:bg-[#EEF4FF] hover:text-[#020817] transition-colors text-left font-medium"
                 >
-                  Sign Out
+                  {t("nav.sign_out", "Sign Out")}
                 </button>
               </div>
             </motion.div>
@@ -154,3 +156,4 @@ export function MobileNav() {
     </>
   );
 }
+

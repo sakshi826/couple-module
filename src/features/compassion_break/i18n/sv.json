@@ -59,5 +59,17 @@
   "label_feelings": "Känslor",
   "label_your_kind_words": "Dina vänliga ord",
   "save_finish_button": "Spara och avsluta",
-  "finish_no_save_button": "Avsluta utan att spara"
+  "finish_no_save_button": "Avsluta utan att spara",
+  "common": {
+    "get_started": "Kom igång",
+    "start_over": "Börja om",
+    "finish_exit": "Mål och utgång",
+    "well_done": "Bra jobbat!",
+    "completion_message": "Du har framgångsrikt slutfört denna aktivitet. Ta en stund och uppskatta dina framsteg.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "save": "Spara",
+    "loading": "Laddar..."
+  }
 }

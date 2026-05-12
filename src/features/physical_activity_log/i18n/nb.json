@@ -48,5 +48,17 @@
   "memory_desc": "Trening øker blodstrømmen til hjernen, noe som hjelper til med å forbedre hukommelse og kognitiv funksjon.",
   "stress_title": "Stressrespons",
   "stress_desc": "Fysisk aktivitet senker stresshormoner og hjelper nervesystemet ditt med å nullstille seg.",
-  "app_name": "Fysisk aktivitetslogg"
+  "app_name": "Fysisk aktivitetslogg",
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start på nytt",
+    "finish_exit": "Mål og utgang",
+    "well_done": "Bra jobbet!",
+    "completion_message": "Du har fullført denne aktiviteten med suksess. Ta et øyeblikk til å sette pris på fremgangen din.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Tilbake",
+    "next": "Neste",
+    "save": "Lagre",
+    "loading": "Laster..."
+  }
 }

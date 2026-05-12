@@ -35,5 +35,17 @@
   ],
   "btn_finish": "Selesaikan Refleksi",
   "complete_title": "Perjalanan Dihormati",
-  "complete_message": "Anda tidak harus melanjutkan. Anda hanya belajar membawanya secara berbeda. Perjalanan Anda unik, valid, dan sangat manusiawi."
+  "complete_message": "Anda tidak harus melanjutkan. Anda hanya belajar membawanya secara berbeda. Perjalanan Anda unik, valid, dan sangat manusiawi.",
+  "common": {
+    "get_started": "Memulai",
+    "start_over": "Mulai Dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Bagus!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
+    "time_to_complete": "Waktu untuk menyelesaikan",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "save": "Simpan",
+    "loading": "Memuat..."
+  }
 }

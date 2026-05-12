@@ -36,11 +36,15 @@
     }
   ],
   "common": {
-    "thank_you": "Gracias",
-    "you_feel": "Sientes:",
-    "completion_message": "Has completado el ejercicio de conexión a tierra. Lleva esta sensación de presencia contigo a lo largo del día.",
-    "start_again": "Empezar de nuevo",
-    "reflection_question": "En una palabra ¿cómo te sientes ahora mismo?",
-    "reflection_placeholder": "p. ej. tranquilo, aliviado, con los pies en la tierra…"
+    "get_started": "Empieza",
+    "start_over": "Empezar de nuevo",
+    "finish_exit": "Llegada y salida",
+    "well_done": "¡Bien hecho!",
+    "completion_message": "Has completado esta actividad con éxito. Tómate un momento para apreciar tu progreso.",
+    "time_to_complete": "Hora de completar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "save": "Salvar",
+    "loading": "Cargando..."
   }
 }

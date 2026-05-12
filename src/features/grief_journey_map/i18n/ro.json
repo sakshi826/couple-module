@@ -35,5 +35,17 @@
   ],
   "btn_finish": "Reflecția de finisaj",
   "complete_title": "Călătorie onorată",
-  "complete_message": "Nu trebuie să mergi mai departe. Pur și simplu înveți să o porți altfel. Călătoria ta este unică, validă și profund umană."
+  "complete_message": "Nu trebuie să mergi mai departe. Pur și simplu înveți să o porți altfel. Călătoria ta este unică, validă și profund umană.",
+  "common": {
+    "get_started": "Începe",
+    "start_over": "Începeți de la zero",
+    "finish_exit": "Final și ieșire",
+    "well_done": "Bravo!",
+    "completion_message": "Ai finalizat cu succes această activitate. Ia-ți un moment să apreciezi progresul tău.",
+    "time_to_complete": "Timpul de finalizat",
+    "back": "Înapoi",
+    "next": "Următorul",
+    "save": "Salvează",
+    "loading": "Se încarcă..."
+  }
 }

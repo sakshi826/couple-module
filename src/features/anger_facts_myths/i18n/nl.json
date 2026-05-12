@@ -54,5 +54,17 @@
       "realFact": "Andere mensen kunnen je woede triggeren, maar hoe je reageert is jouw verantwoordelijkheid — en jouw kracht. Eigenaarschap nemen over je reacties betekent niet dat de ander gelijk had. Het betekent dat je zelf kiest hoe je opduikt. Dat is empowerment, geen schuld.",
       "example": "Iemand snijdt je af in het verkeer. Je voelt je boos — dat is normaal. Maar je kiest of je woedend wordt of ademhaalt. De keuze is aan jou."
     }
-  ]
+  ],
+  "common": {
+    "get_started": "Begin",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Goed gedaan!",
+    "completion_message": "Je hebt deze activiteit succesvol voltooid. Neem even de tijd om je vooruitgang te waarderen.",
+    "time_to_complete": "Tijd om af te ronden",
+    "back": "Achteruit",
+    "next": "Volgende",
+    "save": "Sla op",
+    "loading": "Laden..."
+  }
 }

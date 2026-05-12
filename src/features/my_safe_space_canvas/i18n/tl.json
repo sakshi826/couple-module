@@ -4,52 +4,52 @@
   "welcome": {
     "title": "Naghihintay ang iyong ligtas na lugar",
     "description": "Bumuo ng iyong sariling santuwaryo sa pamamagitan ng isang serye ng mga banayad na malikhaing pahiwatig. Isang blangko na canvas para sa iyong mga saloobin at damdamin.",
-    "benefits": [
-      "Ipahayag ang Iyong Sarili Sa Pamamagitan ng Kulay",
-      "Lumikha ng isang Visual Grounding Tool",
-      "Ligtas, pribado, at personal"
-    ],
+    "benefits": {
+      "0": "Ipahayag ang Iyong Sarili Sa Pamamagitan ng Kulay",
+      "1": "Lumikha ng isang Visual Grounding Tool",
+      "2": "Ligtas, pribado, at personal"
+    },
     "duration": "10-15 minuto",
     "view_past": "Tingnan ang Mga Nakaraang Collage"
   },
   "canvas": {
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "quote": "Ano ang hitsura ng kalangitan sa iyong ligtas na lugar? Gumuhit ng kulay, liwanag, o damdamin nito.",
         "button": "Idinagdag ko ang langit →",
         "hint": "Walang tamang paraan - anumang marka ay sapat."
       },
-      {
+      "1": {
         "quote": "Ano ang pakiramdam ng lupa? Damo, buhangin, tubig, sahig na gawa sa kahoy? Idagdag ito sa ibaba ng kalangitan.",
         "button": "Idinagdag ko ang lupa →",
         "hint": "Isipin kung ano ang nararamdaman ng iyong mga paa sa lugar na ito."
       },
-      {
+      "2": {
         "quote": "Idagdag ang isang bagay na nararapat dito - isang puno, isang upuan, isang bintana, isang alagang hayop, isang lampara. Anumang bagay na nararamdaman na tama.",
         "button": "May idinagdag ako →",
         "hint": "Hindi ito kailangang magmukhang perpekto. Kailangan lang itong makaramdam ng totoo."
       },
-      {
+      "3": {
         "quote": "Ano ang nagdudulot ng init o kaginhawahan sa lugar na ito? Isang ilaw, isang apoy, sikat ng araw, isang kumot? Idagdag ito kahit saan mo naramdaman na tama.",
         "button": "Idinagdag ko ang init →",
         "hint": "Kahit na ang isang maliit na tuldok ng kulay ay binibilang."
       },
-      {
+      "4": {
         "quote": "Sa wakas - magdagdag ng 3 hanggang 5 mga salita na nabibilang dito. I-tap ang iyong pagguhit upang ilagay ang mga ito kahit saan.",
         "button": "Ito ang aking mga salita →",
         "hint": ""
       }
-    ],
-    "word_chips": [
-      "Kapayapaan",
-      "Tahanan",
-      "Langit",
-      "Kalmado",
-      "Mainit",
-      "Sapat na",
-      "Magiliw",
-      "Ligtas"
-    ],
+    },
+    "word_chips": {
+      "0": "Kapayapaan",
+      "1": "Tahanan",
+      "2": "Langit",
+      "3": "Kalmado",
+      "4": "Mainit",
+      "5": "Sapat na",
+      "6": "Magiliw",
+      "7": "Ligtas"
+    },
     "custom_word_placeholder": "+ ang iyong sariling",
     "skip_prompt": "laktawan ang prompt na ito",
     "type_here": "I-type dito"
@@ -71,28 +71,40 @@
     "title": "Narito ka. Ligtas ka.",
     "breathe_info": "4 · hold · 4 · pabayaan · 6",
     "done_message": "Mahusay na ginawa para sa pagpapakita para sa iyong sarili ngayon.",
-    "durations": [
-      {
+    "durations": {
+      "0": {
         "label": "1 minuto",
         "seconds": "60"
       },
-      {
+      "1": {
         "label": "3 minuto",
         "seconds": "180"
       },
-      {
+      "2": {
         "label": "5 minuto",
         "seconds": "300"
       }
-    ],
-    "phases": [
-      "Huminga sa",
-      "Hawakan",
-      "Pabayaan"
-    ]
+    },
+    "phases": {
+      "0": "Huminga sa",
+      "1": "Hawakan",
+      "2": "Pabayaan"
+    }
   },
   "history": {
     "title": "Mga nakaraan na ligtas na lugar",
     "no_collages": "Wala pang naka-save na collage. Kumpletuhin ang aktibidad upang mai-save ang iyong unang aktibidad."
+  },
+  "common": {
+    "get_started": "Email Address *",
+    "start_over": "Magsimulang Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Mahusay na ginawa!",
+    "completion_message": "Matagumpay mong nakumpleto ang aktibidad na ito. Maglaan ng ilang sandali upang pahalagahan ang iyong pag-unlad.",
+    "time_to_complete": "Oras na para makumpleto",
+    "back": "Bumalik",
+    "next": "Susunod",
+    "save": "I-save",
+    "loading": "Naglo-load..."
   }
 }

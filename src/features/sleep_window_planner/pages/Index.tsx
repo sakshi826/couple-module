@@ -5,7 +5,8 @@ import { Moon } from "lucide-react";
 const Index = () => {
   return (
     <PremiumLayout 
-      title="Sleep Window Planner" 
+      title={t("app_title", " 
+      title=")} 
       icon={<Moon className="w-6 h-6 text-primary" />}
       exitOnBack={true}
     >

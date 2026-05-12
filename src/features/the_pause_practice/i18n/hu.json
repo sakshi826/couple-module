@@ -69,5 +69,17 @@
       "other": "Legközelebb, amikor kiváltottnak érzed magad, próbáld ki ezt reagálás előtt."
     },
     "italic": "Nem mindig lesz könnyű – de a következetesség a kulcs."
+  },
+  "common": {
+    "get_started": "Kezdj el",
+    "start_over": "Kezdj újrakezdeni",
+    "finish_exit": "Befejezés és kilépés",
+    "well_done": "Szép munka!",
+    "completion_message": "Sikeresen teljesítetted ezt a feladatot. Szánj egy pillanatot, hogy értékeld a fejlődésedet.",
+    "time_to_complete": "Ideje befejezni",
+    "back": "Hátra",
+    "next": "Következő",
+    "save": "Mentés",
+    "loading": "Betöltés..."
   }
 }

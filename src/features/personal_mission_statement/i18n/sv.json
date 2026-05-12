@@ -48,5 +48,17 @@
   "history_empty": "Du har inte sparat några uppdragsbeskrivningar än.",
   "history_empty_hint": "När du är redo, skapa en så visas den här.",
   "history_back": "Gå tillbaka",
-  "history_delete_aria": "Ta bort denna reflektion"
+  "history_delete_aria": "Ta bort denna reflektion",
+  "common": {
+    "get_started": "Kom igång",
+    "start_over": "Börja om",
+    "finish_exit": "Mål och utgång",
+    "well_done": "Bra jobbat!",
+    "completion_message": "Du har framgångsrikt slutfört denna aktivitet. Ta en stund och uppskatta dina framsteg.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "save": "Spara",
+    "loading": "Laddar..."
+  }
 }

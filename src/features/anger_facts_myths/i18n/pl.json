@@ -54,5 +54,17 @@
       "realFact": "Inni mogą wywołać twoją złość, ale to, jak zareagujesz, jest twoją odpowiedzialnością — i twoją siłą. Wzięcie odpowiedzialności za swoje reakcje nie oznacza, że druga osoba miała rację. To znaczy, że to ty wybierasz, jak się pojawisz. To jest wzmocnienie, a nie obwinianie.",
       "example": "Ktoś cię wyprzedza w korku. Czujesz złość — to normalne. Ale ty wybierasz, czy się wścieknąć, czy wziąć oddech. Wybór należy do ciebie."
     }
-  ]
+  ],
+  "common": {
+    "get_started": "Zacznij",
+    "start_over": "Start From",
+    "finish_exit": "Koniec i wyjście",
+    "well_done": "Brawo!",
+    "completion_message": "Udało ci się ukończyć tę aktywność. Poświęć chwilę, by docenić swoje postępy.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Z powrotem",
+    "next": "Następny",
+    "save": "Zapisz",
+    "loading": "Ładowanie..."
+  }
 }

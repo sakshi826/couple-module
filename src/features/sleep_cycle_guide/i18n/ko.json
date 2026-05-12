@@ -117,5 +117,17 @@
     ],
     "quote": "수면은 단순한 휴식이 아니라 적극적인 회복입니다. 생리 주기와 하루 전체의 변화를 보호하세요.",
     "button": "완료 ✓"
+  },
+  "common": {
+    "get_started": "시작하기",
+    "start_over": "처음부터 다시",
+    "finish_exit": "결승 및 퇴장",
+    "well_done": "잘했어요!",
+    "completion_message": "이 활동을 성공적으로 완료하셨습니다. 잠시 시간을 내어 자신의 진전을 감상해 보세요.",
+    "time_to_complete": "완성 시간입니다",
+    "back": "뒤로",
+    "next": "다음",
+    "save": "저장",
+    "loading": "로딩 중..."
   }
 }

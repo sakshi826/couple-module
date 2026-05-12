@@ -59,5 +59,17 @@
   "label_feelings": "Følelser",
   "label_your_kind_words": "Dine vennlige ord",
   "save_finish_button": "Lagre og avslutte",
-  "finish_no_save_button": "Avslutt uten å lagre"
+  "finish_no_save_button": "Avslutt uten å lagre",
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start på nytt",
+    "finish_exit": "Mål og utgang",
+    "well_done": "Bra jobbet!",
+    "completion_message": "Du har fullført denne aktiviteten med suksess. Ta et øyeblikk til å sette pris på fremgangen din.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Tilbake",
+    "next": "Neste",
+    "save": "Lagre",
+    "loading": "Laster..."
+  }
 }

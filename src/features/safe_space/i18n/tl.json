@@ -58,5 +58,17 @@
   "complete": {
     "title": "Kumpleto ang Session",
     "message": "Ang ligtas na lugar na ito ay palaging magagamit para sa iyo. Maaari kang bumalik dito sa tuwing kailangan mo ng isang sandali ng katahimikan."
+  },
+  "common": {
+    "get_started": "Email Address *",
+    "start_over": "Magsimulang Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Mahusay na ginawa!",
+    "completion_message": "Matagumpay mong nakumpleto ang aktibidad na ito. Maglaan ng ilang sandali upang pahalagahan ang iyong pag-unlad.",
+    "time_to_complete": "Oras na para makumpleto",
+    "back": "Bumalik",
+    "next": "Susunod",
+    "save": "I-save",
+    "loading": "Naglo-load..."
   }
 }

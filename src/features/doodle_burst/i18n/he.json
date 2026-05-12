@@ -30,5 +30,17 @@
   "tool_undo": "בטל",
   "tool_clear": "נקי",
   "share_doodle": "שתף שרבוט",
-  "share_text": "אהבתי את הפעילות הזו של שרבוטים ב-TherapyMantra, אפשר לנסות פשוט להוריד את האפליקציה ולחקור בעצמך\n\nאנדרואיד: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888"
+  "share_text": "אהבתי את הפעילות הזו של שרבוטים ב-TherapyMantra, אפשר לנסות פשוט להוריד את האפליקציה ולחקור בעצמך\n\nאנדרואיד: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888",
+  "common": {
+    "get_started": "תתחילו",
+    "start_over": "התחלה מחדש",
+    "finish_exit": "סיום ויציאה",
+    "well_done": "כל הכבוד!",
+    "completion_message": "השלמת את הפעילות הזו בהצלחה. קח רגע להעריך את ההתקדמות שלך.",
+    "time_to_complete": "הגיע הזמן להשלים",
+    "back": "חזרה",
+    "next": "הבא",
+    "save": "שמור",
+    "loading": "טוען..."
+  }
 }

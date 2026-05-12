@@ -17,5 +17,20 @@
   "back": "Kembali",
   "not_found_404": "404",
   "page_not_found": "Ups! Halaman tidak ditemukan",
-  "return_home": "Kembali ke Halaman Utama"
+  "return_home": "Kembali ke Halaman Utama",
+  "common": {
+    "get_started": "Memulai",
+    "start_over": "Mulai Dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Bagus!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
+    "time_to_complete": "Waktu untuk menyelesaikan",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "save": "Simpan",
+    "loading": "Memuat..."
+  },
+  "app_title": "Pernapasan Kotak",
+  "app_complete_title": "Kerja bagus!",
+  "app_complete_message": "Anda telah menyelesaikan sesi Box Breathing. Anda harus merasa lebih seimbang dan tenang."
 }

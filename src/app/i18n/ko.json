@@ -1,0 +1,223 @@
+{
+  "common": {
+    "get_started": "시작하기",
+    "start_over": "처음부터 다시",
+    "finish_exit": "결승 및 퇴장",
+    "well_done": "잘했어요!",
+    "completion_message": "이 활동을 성공적으로 완료하셨습니다. 잠시 시간을 내어 자신의 진전을 감상해 보세요.",
+    "time_to_complete": "완성 시간입니다",
+    "back": "뒤로",
+    "next": "다음",
+    "save": "저장",
+    "loading": "로딩 중...",
+    "today": "오늘날",
+    "yesterday": "어제",
+    "filters": "필터",
+    "see_all": "모두 보기",
+    "meditation": "명상",
+    "guided": "가이드",
+    "sleep": "잠 자세요",
+    "mindfulness": "마음챙김",
+    "restore": "복원",
+    "curated": "마인드 큐레이션",
+    "restorative": "회복",
+    "peace": "평화",
+    "breath": "호흡",
+    "nature": "자연",
+    "relax": "진정해.",
+    "time": {
+      "3min": "3분",
+      "5min": "5분",
+      "8min": "8분",
+      "10min": "10분",
+      "12min": "12분",
+      "15min": "15분",
+      "20min": "20분",
+      "30min": "30분",
+      "45min": "45분",
+      "60min": "60분"
+    }
+  },
+  "hub": {
+    "back_to_topics": "주제로 돌아가기",
+    "guided_series": "가이드 시리즈",
+    "start_guided_series": "가이드 시리즈 시작",
+    "exercises": "연습",
+    "todos": "투 두스",
+    "resources": "자료",
+    "view_resource": "자료 보기",
+    "search_placeholder": "주제나 활동을 검색하세요...",
+    "how_are_you": "오늘 기분이 어떠세요?",
+    "self_care_resources": "자기 관리 자료",
+    "explore_tools": "정신 건강 여정을 위한 도구와 지침을 탐색하세요",
+    "topics": "주제",
+    "tools": "도구",
+    "articles": "기사",
+    "tips": "팁",
+    "stories": "이야기들",
+    "myths": "신화"
+  },
+  "topics": {
+    "depression": {
+      "label": "우울증",
+      "desc": "우울증 증상을 관리하고 회복력을 키우는 데 도움이 되는 근거 기반 운동과 자원."
+    },
+    "anxiety": {
+      "label": "불안",
+      "desc": "불안을 관리하고 걱정을 줄이며 통제감을 되찾기 위한 진정 기법과 전략."
+    },
+    "stress": {
+      "label": "스트레스",
+      "desc": "스트레스를 관리하고, 대처 기술을 쌓으며, 삶의 균형을 회복하는 실용적인 도구와 운동입니다."
+    },
+    "adolescent": {
+      "label": "청소년",
+      "desc": "성장, 정체성, 정서적 도전을 겪는 청소년들을 위한 안내와 활동."
+    },
+    "relationship": {
+      "label": "관계",
+      "desc": "연결을 강화하고 의사소통을 개선하며 건강한 관계를 구축할 수 있는 도구와 통찰."
+    },
+    "workplace": {
+      "label": "직장",
+      "desc": "직장 내 스트레스 관리, 집중력 향상, 워라밸 유지를 위한 전략."
+    },
+    "sleep": {
+      "label": "잠 자세요",
+      "desc": "수면의 질을 개선하고, 건강한 취침 습관을 만들며, 상쾌하게 아침에 일어날 수 있는 기법과 추적기."
+    },
+    "parenting": {
+      "label": "양육",
+      "desc": "마음챙김 양육을 지원하고, 번아웃을 줄이며, 가족의 웰빙을 돌보는 자료입니다."
+    },
+    "anger": {
+      "label": "분노",
+      "desc": "분노를 이해하고 관리하며 건강하고 건설적인 방식으로 다루는 기법들."
+    },
+    "grief": {
+      "label": "슬픔",
+      "desc": "상실을 처리하고 자신의 속도에 맞춰 치유를 찾을 수 있도록 돕는 자비로운 도구와 연습법들입니다."
+    },
+    "ptsd": {
+      "label": "PTSD",
+      "desc": "트라우마 반응을 관리하고 안전을 구축하는 데 도움이 되는 접지와 안정화 기법."
+    },
+    "acceptance": {
+      "label": "수용",
+      "desc": "수용을 기르고, 저항을 놓아주며, 있는 그대로의 삶을 받아들이는 연습입니다."
+    },
+    "postpartum": {
+      "label": "산후",
+      "desc": "산후 어려움과 정서적 변화를 관리하는 신생아들을 위한 지원 자원입니다."
+    },
+    "sexuality": {
+      "label": "성적 지향",
+      "desc": "정체성을 탐구하고, 자기 수용을 구축하며, 공동체를 찾을 수 있는 안전하고 지지적인 자원입니다."
+    },
+    "eating-disorder": {
+      "label": "섭식 장애",
+      "desc": "음식과 신체 이미지에 대한 건강한 관계를 구축할 수 있는 지원 운동과 자원."
+    },
+    "ocd": {
+      "label": "강박장애",
+      "desc": "강박적 사고와 강박 행동을 관리하는 근거 기반 기법."
+    }
+  },
+  "tools": {
+    "box-breathing": "박스 브리스킹",
+    "gratitude-tracker": "감사 추적기",
+    "deep-breathing": "깊은 호흡",
+    "affirmations": "확언",
+    "mindful-space": "마음챙김 공간",
+    "letter-to-self": "자기 자신에게 보내는 편지",
+    "sleep-tracker": "수면 추적기"
+  },
+  "moods": {
+    "great": "좋아요",
+    "good": "좋아",
+    "okay": "알겠어",
+    "down": "내려",
+    "sad": "슬프다"
+  },
+  "nav": {
+    "home": "홈",
+    "care_team": "케어 팀",
+    "appointments": "임명",
+    "tasks": "임무",
+    "insights": "통찰",
+    "billing": "청구",
+    "profile": "프로필",
+    "invite_friend": "손님에서 친구로의",
+    "feedback": "피드백 공유",
+    "support": "지원",
+    "sign_out": "로그아웃"
+  },
+  "journal": {
+    "title": "저널",
+    "subtitle": "생각, 감정, 일상의 경험을 기록하세요",
+    "new_entry": "신규 출전",
+    "search_placeholder": "일기장을 검색해보세요...",
+    "filter_by_mood": "기분별 필터:",
+    "all_moods": "모든 분위기",
+    "no_entries": "항목이 없음",
+    "adjust_search": "검색이나 필터를 조정해 보세요",
+    "start_journey": "오늘 바로 저널링 여정을 시작하세요",
+    "write_first": "첫 번째 글을 써",
+    "mood": {
+      "great": "좋아요",
+      "good": "좋아",
+      "okay": "알겠어",
+      "sad": "슬프다",
+      "anxious": "불안하다"
+    },
+    "sample": {
+      "1": {
+        "title": "당신의 첫 생각",
+        "content": "먼저 생각나는 것을 써보세요. 일기는 자기 성찰과 정신적 명료함을 위한 강력한 도구입니다."
+      }
+    }
+  },
+  "mindfulness": {
+    "title": "마음챙김 자기 관리",
+    "subtitle": "웰니스 여정을 위한 전문가 마음챙김 도구와 안내 세션",
+    "featured_mantra": "Mantra에 소개됨",
+    "browse_category": "카테고리별 탐색",
+    "new_noteworthy": "신규 및 주목할 만한 인물",
+    "browse_goal": "골별로 탐색하기",
+    "browse_time": "시간별로 탐색",
+    "daily_program": "일일 프로그램 찾기",
+    "daily_program_desc": "각 프로그램에 대한 의도를 잘 생각하세요",
+    "featured_collections": "주요 소장품",
+    "featured": {
+      "anxiety": "불안을 진정시키기",
+      "relaxation": "딥 이완을 위한 기술",
+      "peace": "내면의 평화 여정",
+      "mountain": "산의 정적"
+    },
+    "goal": {
+      "beginners": "초보자를 위한",
+      "beginners_desc": "마음챙김 여정을 시작하세요",
+      "grief": "슬픔에 대처하기",
+      "grief_desc": "평화와 치유를 찾아"
+    },
+    "collection": {
+      "students": "학생을 위한",
+      "students_desc": "집중해서 더 잘 공부하세요",
+      "grief": "슬픔에 대처하기",
+      "grief_desc": "평화와 치유를 찾아",
+      "sleep": "더 나은 잠",
+      "sleep_desc": "깊이 쉬고 재충전하세요",
+      "stress": "스트레스 해소",
+      "stress_desc": "마음과 몸을 진정시키세요"
+    },
+    "category": {
+      "meditation": "명상",
+      "concentration": "집중",
+      "music": "음악",
+      "creatures": "생물들",
+      "soundscapes": "사운드스케이프",
+      "students": "학생들",
+      "affirmations": "확언"
+    }
+  }
+}

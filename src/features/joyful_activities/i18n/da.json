@@ -41,5 +41,19 @@
     "p1": "At genoprette forbindelsen til det, der bringer dig glæde – selv på den mindste måde – er en venlig handling mod dig selv.",
     "p2": "Du fortjener øjeblikke af lethed og fred. Bliv ved med at pleje det, der får dit hjerte til at føles fyldt. 💛",
     "button": "Tilbage til Hjem"
-  }
+  },
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start forfra",
+    "finish_exit": "Afslutning og exit",
+    "well_done": "Godt gået!",
+    "completion_message": "Du har gennemført denne aktivitet med succes. Tag et øjeblik til at værdsætte dine fremskridt.",
+    "time_to_complete": "Tid til at gennemføre",
+    "back": "Tilbage",
+    "next": "Næste",
+    "save": "Gem",
+    "loading": "Indlæser..."
+  },
+  "app_complete_title": "Joy Preserved",
+  "app_complete_message": "Du har med succes genkaldt og forbundet dig med en kilde til glæde. Behold denne følelse med dig, mens du bevæger dig gennem din dag."
 }

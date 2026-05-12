@@ -36,11 +36,15 @@
     }
   ],
   "common": {
-    "thank_you": "Dank je wel",
-    "you_feel": "Je voelt:",
-    "completion_message": "Je hebt de aardingsoefening voltooid. Neem dit gevoel van aanwezigheid met je mee terwijl je je dag voortzet.",
-    "start_again": "Opnieuw beginnen",
-    "reflection_question": "In één woord, hoe voel je je nu?",
-    "reflection_placeholder": "bijvoorbeeld kalm, opgelucht, geaard..."
+    "get_started": "Begin",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Goed gedaan!",
+    "completion_message": "Je hebt deze activiteit succesvol voltooid. Neem even de tijd om je vooruitgang te waarderen.",
+    "time_to_complete": "Tijd om af te ronden",
+    "back": "Achteruit",
+    "next": "Volgende",
+    "save": "Sla op",
+    "loading": "Laden..."
   }
 }

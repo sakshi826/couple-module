@@ -31,5 +31,17 @@
   "not_found_title": "Kesalahan 404: Halaman Tidak Ditemukan",
   "not_found_text": "Halaman yang Anda cari tidak ada.",
   "return_home": "Kembali ke Halaman Utama",
-  "language_selector": "Pilih Bahasa"
+  "language_selector": "Pilih Bahasa",
+  "common": {
+    "get_started": "Memulai",
+    "start_over": "Mulai Dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Bagus!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
+    "time_to_complete": "Waktu untuk menyelesaikan",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "save": "Simpan",
+    "loading": "Memuat..."
+  }
 }

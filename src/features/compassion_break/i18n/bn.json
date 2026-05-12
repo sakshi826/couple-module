@@ -59,5 +59,17 @@
   "label_feelings": "অনুভূতি",
   "label_your_kind_words": "তোমার সদয় কথাগুলো",
   "save_finish_button": "সেভ অ্যান্ড ফিনিশ",
-  "finish_no_save_button": "সংরক্ষণ না করেই শেষ করুন"
+  "finish_no_save_button": "সংরক্ষণ না করেই শেষ করুন",
+  "common": {
+    "get_started": "শুরু করুন",
+    "start_over": "আবার শুরু করুন",
+    "finish_exit": "ফিনিশ ও এক্সিট",
+    "well_done": "সাবাশ!",
+    "completion_message": "আপনি সফলভাবে এই ক্রিয়াকলাপটি সম্পন্ন করেছেন। আপনার অগ্রগতির প্রশংসা করতে এক মুহুর্ত সময় নিন।",
+    "time_to_complete": "শেষ করার সময়",
+    "back": "পিছনে",
+    "next": "পরবর্তী",
+    "save": "সংরক্ষণ করুন",
+    "loading": "লোড হচ্ছে..."
+  }
 }

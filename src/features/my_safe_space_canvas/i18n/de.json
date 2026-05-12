@@ -4,52 +4,52 @@
   "welcome": {
     "title": "Dein sicherer Ort wartet",
     "description": "Baue dein eigenes Refugium durch eine Reihe sanfter, kreativer Anregungen. Eine leere Leinwand für deine Gedanken und Gefühle.",
-    "benefits": [
-      "Drücken Sie sich durch Farbe aus",
-      "Erstelle ein visuelles Erdungswerkzeug",
-      "Sicher, privat und persönlich"
-    ],
+    "benefits": {
+      "0": "Drücken Sie sich durch Farbe aus",
+      "1": "Erstelle ein visuelles Erdungswerkzeug",
+      "2": "Sicher, privat und persönlich"
+    },
     "duration": "10-15 Minuten",
     "view_past": "Vergangene Collagen ansehen"
   },
   "canvas": {
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "quote": "Wie sieht der Himmel an deinem sicheren Ort aus? Zeichne seine Farbe, sein Licht oder sein Gefühl.",
         "button": "Ich habe den Himmel hinzugefügt →",
         "hint": "Es gibt keinen richtigen Weg – jeder Punkt reicht."
       },
-      {
+      "1": {
         "quote": "Wie fühlt sich der Boden an? Gras, Sand, Wasser, Holzboden? Füge es unter den Himmel hinzu.",
         "button": "Ich habe die Erde hinzugefügt →",
         "hint": "Denk darüber nach, wie sich deine Füße an diesem Ort anfühlen."
       },
-      {
+      "2": {
         "quote": "Füge eine Sache hinzu, die hierher gehört – einen Baum, einen Stuhl, ein Fenster, ein Haustier, eine Lampe. Alles, was sich richtig anfühlt.",
         "button": "Ich habe etwas hinzugefügt →",
         "hint": "Es muss nicht perfekt aussehen. Es muss sich einfach wahr anfühlen."
       },
-      {
+      "3": {
         "quote": "Was bringt Wärme oder Geborgenheit in diesen Ort? Ein Licht, ein Feuer, Sonnenlicht, eine Decke? Füge es einfach hinzu, wo es sich richtig anfühlt.",
         "button": "Ich habe die Wärme hinzugefügt →",
         "hint": "Schon ein kleiner Farbpunkt zählt."
       },
-      {
+      "4": {
         "quote": "Zum Schluss – füge 3 bis 5 Wörter hinzu, die hierher gehören. Tippe auf deine Zeichnung, um sie irgendwo zu platzieren.",
         "button": "Das sind meine Worte →",
         "hint": ""
       }
-    ],
-    "word_chips": [
-      "Frieden",
-      "Zuhause",
-      "Himmel",
-      "Ruhe",
-      "Warm",
-      "Genug",
-      "Sanft",
-      "Sicher"
-    ],
+    },
+    "word_chips": {
+      "0": "Frieden",
+      "1": "Zuhause",
+      "2": "Himmel",
+      "3": "Ruhe",
+      "4": "Warm",
+      "5": "Genug",
+      "6": "Sanft",
+      "7": "Sicher"
+    },
     "custom_word_placeholder": "+ Deine eigene",
     "skip_prompt": "Überspringe diesen Prompt",
     "type_here": "Hier tippen Sie sie ein"
@@ -71,28 +71,40 @@
     "title": "Du bist hier. Du bist sicher.",
     "breathe_info": "4 · Halt · 4 · Lass los · 6",
     "done_message": "Gut gemacht, dass du heute für dich selbst erschienen bist.",
-    "durations": [
-      {
+    "durations": {
+      "0": {
         "label": "1 Min.",
         "seconds": "60"
       },
-      {
+      "1": {
         "label": "3 Minuten",
         "seconds": "180"
       },
-      {
+      "2": {
         "label": "5 Minuten",
         "seconds": "300"
       }
-    ],
-    "phases": [
-      "Atme ein",
-      "Halt",
-      "Lass los"
-    ]
+    },
+    "phases": {
+      "0": "Atme ein",
+      "1": "Halt",
+      "2": "Lass los"
+    }
   },
   "history": {
     "title": "Frühere sichere Orte",
     "no_collages": "Noch keine gespeicherten Collagen. Schließe die Aktivität ab, um deine erste zu speichern."
+  },
+  "common": {
+    "get_started": "Leg los",
+    "start_over": "Neu anfangen",
+    "finish_exit": "Ziel und Ausgang",
+    "well_done": "Gut gemacht!",
+    "completion_message": "Du hast diese Aktivität erfolgreich abgeschlossen. Nimm dir einen Moment Zeit, um deinen Fortschritt zu würdigen.",
+    "time_to_complete": "Zeit zum Abschluss",
+    "back": "Zurück",
+    "next": "Als Nächstes",
+    "save": "Speichern",
+    "loading": "Lädt..."
   }
 }

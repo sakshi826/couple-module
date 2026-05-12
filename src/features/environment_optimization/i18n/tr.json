@@ -31,5 +31,17 @@
   "not_found_title": "404 Hatası: Sayfa Bulunamadı",
   "not_found_text": "Aradığınız sayfa mevcut değil.",
   "return_home": "Ana sayfaya dön",
-  "language_selector": "Dil Seçin"
+  "language_selector": "Dil Seçin",
+  "common": {
+    "get_started": "Başlayın",
+    "start_over": "Yeniden Başla",
+    "finish_exit": "Bitiş ve Çıkış",
+    "well_done": "Aferin!",
+    "completion_message": "Bu etkinliği başarıyla tamamladın. İlerlemenin takdir edilmesini bir an ayır.",
+    "time_to_complete": "Tamamlanma zamanı",
+    "back": "Geri",
+    "next": "Sıradaki",
+    "save": "Kayd et",
+    "loading": "Yükleniyor..."
+  }
 }

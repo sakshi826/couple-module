@@ -48,5 +48,17 @@
   "support_step1": "Call or text a friend",
   "support_step2": "Share what's worrying you",
   "support_step3": "Ask for perspective",
-  "support_step4": "Consider speaking with a counselor"
+  "support_step4": "Consider speaking with a counselor",
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading..."
+  }
 }

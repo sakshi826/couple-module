@@ -32,7 +32,8 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title="Daily Affirmations" 
+      title={t("app_title", " 
+      title=")} 
       subtitle={t(`screen.${screen}.title`, { defaultValue: "Mindset" })}
       icon={<Sparkles className="w-6 h-6 text-primary" />}
       onBack={currentIdx > 0 && screen !== 'complete' ? () => setScreen(screenOrder[currentIdx - 1]) : undefined}
@@ -117,8 +118,8 @@ const Index = () => {
                 className="w-full flex-1 flex flex-col"
               >
                 <PremiumComplete
-                  title="Feel Empowered"
-                  message="Daily affirmations help reshape your mindset. Carry these positive thoughts with you today."
+                  title={t("app_complete_title")}
+                  message={t("app_complete_message")}
                   onRestart={() => setScreen("feelings")}
                   icon={<Sparkles size={48} />}
                 />

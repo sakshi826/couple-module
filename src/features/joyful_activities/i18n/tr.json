@@ -41,5 +41,19 @@
     "p1": "Sana mutluluk getiren şeyle — en küçük şekilde bile — yeniden bağ kurmak, kendine karşı bir iyilik eylemidir.",
     "p2": "Hafif ve huzur anlarını hak ediyorsun. Kalbinizi tok hissettiren şeyleri beslemeye devam edin. 💛",
     "button": "Eve Dönüş"
-  }
+  },
+  "common": {
+    "get_started": "Başlayın",
+    "start_over": "Yeniden Başla",
+    "finish_exit": "Bitiş ve Çıkış",
+    "well_done": "Aferin!",
+    "completion_message": "Bu etkinliği başarıyla tamamladın. İlerlemenin takdir edilmesini bir an ayır.",
+    "time_to_complete": "Tamamlanma zamanı",
+    "back": "Geri",
+    "next": "Sıradaki",
+    "save": "Kayd et",
+    "loading": "Yükleniyor..."
+  },
+  "app_complete_title": "Korunan Neşe",
+  "app_complete_message": "Başarıyla bir sevinç kaynağını hatırladın ve bağ kurdun. Gününüzde bu hissi yanınızda tutun."
 }

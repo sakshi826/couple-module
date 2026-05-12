@@ -18,5 +18,17 @@
     "desc": "Måten omsorgspersonene dine svarte på dine behov på, formet stille hvordan du forholder deg til andre som voksen. Dette er innlærte svar — og de kan avlæres.",
     "quote": "\"Mønsteret ditt ga mening en gang. Spørsmålet er — tjener det deg fortsatt nå?\"",
     "button": "Ferdig refleksjon"
+  },
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start på nytt",
+    "finish_exit": "Mål og utgang",
+    "well_done": "Bra jobbet!",
+    "completion_message": "Du har fullført denne aktiviteten med suksess. Ta et øyeblikk til å sette pris på fremgangen din.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Tilbake",
+    "next": "Neste",
+    "save": "Lagre",
+    "loading": "Laster..."
   }
 }

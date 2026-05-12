@@ -20,7 +20,8 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title="Mission Statement" 
+      title={t("app_title", " 
+      title=")} 
       onReset={screen !== 0 ? () => setScreen(0) : undefined}
     >
       <div className="w-full">

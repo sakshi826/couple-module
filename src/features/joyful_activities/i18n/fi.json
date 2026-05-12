@@ -41,5 +41,19 @@
     "p1": "Yhteyden löytäminen siihen, mikä tuo sinulle iloa — edes pienimmällä tavalla — on ystävällisyyden teko itseään kohtaan.",
     "p2": "Ansaitset hetkiä keveyttä ja rauhaa. Jatka sen hoivaamista, mikä saa sydämesi tuntumaan täyteläiseltä. 💛",
     "button": "Takaisin kotiin"
-  }
+  },
+  "common": {
+    "get_started": "Aloita",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Maali ja uloskäynti",
+    "well_done": "Hyvin tehty!",
+    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Ota hetki arvostaaksesi edistymistäsi.",
+    "time_to_complete": "Aika valmistua",
+    "back": "Takaisin",
+    "next": "Seuraavaksi",
+    "save": "Tallenna",
+    "loading": "Ladataan..."
+  },
+  "app_complete_title": "Ilo säilynyt",
+  "app_complete_message": "Olet onnistuneesti muistanut ja yhdistynyt ilon lähteeseen. Pidä tämä tunne mukanasi päivän edetessä."
 }

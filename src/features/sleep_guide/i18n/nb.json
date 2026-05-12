@@ -17,5 +17,17 @@
     "p2": "Dette kalles <1>betinget opphisselse</1> — det forklarer hvorfor du føler deg utmattet hele dagen, men likevel våken ved leggetid.",
     "quote": "\"Hjernen din er ikke ødelagt. Den har rett og slett lært feil lekse om leggetid — og den kan læres på nytt.»",
     "button": "Forrige steg"
+  },
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start på nytt",
+    "finish_exit": "Mål og utgang",
+    "well_done": "Bra jobbet!",
+    "completion_message": "Du har fullført denne aktiviteten med suksess. Ta et øyeblikk til å sette pris på fremgangen din.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Tilbake",
+    "next": "Neste",
+    "save": "Lagre",
+    "loading": "Laster..."
   }
 }

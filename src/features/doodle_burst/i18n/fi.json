@@ -30,5 +30,17 @@
   "tool_undo": "Peruuta",
   "tool_clear": "Selvä",
   "share_doodle": "Jaa Doodle",
-  "share_text": "Rakastin tätä doodle burst -aktiviteettia TherapyMantrassa, voit kokeilla myös, lataa sovellus ja tutki sitä itse\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888"
+  "share_text": "Rakastin tätä doodle burst -aktiviteettia TherapyMantrassa, voit kokeilla myös, lataa sovellus ja tutki sitä itse\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888",
+  "common": {
+    "get_started": "Aloita",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Maali ja uloskäynti",
+    "well_done": "Hyvin tehty!",
+    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Ota hetki arvostaaksesi edistymistäsi.",
+    "time_to_complete": "Aika valmistua",
+    "back": "Takaisin",
+    "next": "Seuraavaksi",
+    "save": "Tallenna",
+    "loading": "Ladataan..."
+  }
 }

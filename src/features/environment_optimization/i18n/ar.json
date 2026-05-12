@@ -31,5 +31,17 @@
   "not_found_title": "خطأ 404: الصفحة غير موجودة",
   "not_found_text": "الصفحة التي تبحث عنها غير موجودة.",
   "return_home": "العودة إلى الصفحة الرئيسية",
-  "language_selector": "اختر اللغة"
+  "language_selector": "اختر اللغة",
+  "common": {
+    "get_started": "ابدأ",
+    "start_over": "ابدأ من جديد",
+    "finish_exit": "النهاية والخروج",
+    "well_done": "عمل رائع!",
+    "completion_message": "لقد أنجزت هذا النشاط بنجاح. خذ لحظة لتقدير تقدمك.",
+    "time_to_complete": "حان وقت الإكمال",
+    "back": "العودة",
+    "next": "التالي",
+    "save": "حفظ",
+    "loading": "جار التحميل..."
+  }
 }

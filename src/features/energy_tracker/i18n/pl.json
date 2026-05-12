@@ -43,5 +43,17 @@
   "insight_okay": "Miałeś stały przepływ energii. Równoważenie pracy i odpoczynku wydaje się działać na Twoją korzyść.",
   "insight_low": "Twoja energia była na niższej stronie. Rozważ sprawdzenie, czy odpoczywasz lub ćwiczysz.",
   "insight_more_data": "Kontynuuj codzienne śledzenie, aby dostrzec głębsze wzorce w poziomie energii.",
-  "go_home": "Powrót do Trackera"
+  "go_home": "Powrót do Trackera",
+  "common": {
+    "get_started": "Zacznij",
+    "start_over": "Start From",
+    "finish_exit": "Koniec i wyjście",
+    "well_done": "Brawo!",
+    "completion_message": "Udało ci się ukończyć tę aktywność. Poświęć chwilę, by docenić swoje postępy.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Z powrotem",
+    "next": "Następny",
+    "save": "Zapisz",
+    "loading": "Ładowanie..."
+  }
 }

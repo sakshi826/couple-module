@@ -52,5 +52,17 @@
   "complete_message": "Bewusstsein ist der erste Schritt zur Freiheit. Du hast einen mutigen Schritt gemacht, indem du eine Lebensmittelregel identifiziert und reflektiert hast. Trage dieses sanfte Verständnis heute mit dir.",
   "auth_error": "Authentifizierungssitzung fehlt oder Datenbank nicht konfiguriert",
   "save_success": "Spiegelbild erhalten",
-  "save_error": "Es gelang nicht, die Reflexion zu bewahren"
+  "save_error": "Es gelang nicht, die Reflexion zu bewahren",
+  "common": {
+    "get_started": "Leg los",
+    "start_over": "Neu anfangen",
+    "finish_exit": "Ziel und Ausgang",
+    "well_done": "Gut gemacht!",
+    "completion_message": "Du hast diese Aktivität erfolgreich abgeschlossen. Nimm dir einen Moment Zeit, um deinen Fortschritt zu würdigen.",
+    "time_to_complete": "Zeit zum Abschluss",
+    "back": "Zurück",
+    "next": "Als Nächstes",
+    "save": "Speichern",
+    "loading": "Lädt..."
+  }
 }

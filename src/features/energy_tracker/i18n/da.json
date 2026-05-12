@@ -43,5 +43,17 @@
   "insight_okay": "Du har haft en stabil energistrøm. At balancere arbejde og hvile ser ud til at virke for dig.",
   "insight_low": "Din energi har været i den lave ende. Overvej at tjekke, om du får nok hvile eller motion.",
   "insight_more_data": "Fortsæt med at følge dagligt for at se dybere mønstre i dit energiniveau.",
-  "go_home": "Tilbage til Tracker"
+  "go_home": "Tilbage til Tracker",
+  "common": {
+    "get_started": "Kom i gang",
+    "start_over": "Start forfra",
+    "finish_exit": "Afslutning og exit",
+    "well_done": "Godt gået!",
+    "completion_message": "Du har gennemført denne aktivitet med succes. Tag et øjeblik til at værdsætte dine fremskridt.",
+    "time_to_complete": "Tid til at gennemføre",
+    "back": "Tilbage",
+    "next": "Næste",
+    "save": "Gem",
+    "loading": "Indlæser..."
+  }
 }

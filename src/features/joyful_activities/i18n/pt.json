@@ -41,5 +41,19 @@
     "p1": "Reconectar-se com o que te traz alegria — mesmo que seja de menor forma — é um ato de bondade consigo mesmo.",
     "p2": "Você merece momentos de leveza e paz. Continue cuidando do que faz seu coração se sentir cheio. 💛",
     "button": "De volta ao Lar"
-  }
+  },
+  "common": {
+    "get_started": "Comece",
+    "start_over": "Recomeçar",
+    "finish_exit": "Fim e Saída",
+    "well_done": "Parabéns!",
+    "completion_message": "Você completou esta atividade com sucesso. Reserve um momento para apreciar seu progresso.",
+    "time_to_complete": "Hora de concluir",
+    "back": "Voltar",
+    "next": "Próximo",
+    "save": "Salvar",
+    "loading": "Carregando..."
+  },
+  "app_complete_title": "Alegria Preservada",
+  "app_complete_message": "Você conseguiu se lembrar e se conectar com uma fonte de alegria. Mantenha essa sensação com você ao longo do seu dia de vida."
 }

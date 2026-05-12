@@ -48,5 +48,17 @@
   "memory_desc": "El ejercicio aumenta el flujo sanguíneo al cerebro, lo que ayuda a mejorar la memoria y la función cognitiva.",
   "stress_title": "Respuesta al estrés",
   "stress_desc": "La actividad física reduce las hormonas del estrés y ayuda a restablecer el sistema nervioso.",
-  "app_name": "Registro de actividad física"
+  "app_name": "Registro de actividad física",
+  "common": {
+    "get_started": "Empieza",
+    "start_over": "Empezar de nuevo",
+    "finish_exit": "Llegada y salida",
+    "well_done": "¡Bien hecho!",
+    "completion_message": "Has completado esta actividad con éxito. Tómate un momento para apreciar tu progreso.",
+    "time_to_complete": "Hora de completar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "save": "Salvar",
+    "loading": "Cargando..."
+  }
 }

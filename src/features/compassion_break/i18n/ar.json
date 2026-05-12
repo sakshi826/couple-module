@@ -59,5 +59,17 @@
   "label_feelings": "المشاعر",
   "label_your_kind_words": "كلماتك الطيبة",
   "save_finish_button": "حفظ وإنهاء",
-  "finish_no_save_button": "إنهاء بدون حفظ"
+  "finish_no_save_button": "إنهاء بدون حفظ",
+  "common": {
+    "get_started": "ابدأ",
+    "start_over": "ابدأ من جديد",
+    "finish_exit": "النهاية والخروج",
+    "well_done": "عمل رائع!",
+    "completion_message": "لقد أنجزت هذا النشاط بنجاح. خذ لحظة لتقدير تقدمك.",
+    "time_to_complete": "حان وقت الإكمال",
+    "back": "العودة",
+    "next": "التالي",
+    "save": "حفظ",
+    "loading": "جار التحميل..."
+  }
 }

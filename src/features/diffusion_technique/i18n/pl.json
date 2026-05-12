@@ -76,5 +76,28 @@
   "btn_start_exercise": "Rozpocznij ćwiczenie →",
   "btn_back_to_home": "Powrót do strony głównej",
   "label_thought": "Myśl:",
-  "label_reflection": "Odbicie:"
+  "label_reflection": "Odbicie:",
+  "common": {
+    "get_started": "Zacznij",
+    "start_over": "Start From",
+    "finish_exit": "Koniec i wyjście",
+    "well_done": "Brawo!",
+    "completion_message": "Udało ci się ukończyć tę aktywność. Poświęć chwilę, by docenić swoje postępy.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Z powrotem",
+    "next": "Następny",
+    "save": "Zapisz",
+    "loading": "Ładowanie..."
+  },
+  "title_sky_clouds": "Niebo i chmury",
+  "title_sell_thought": "Sprzedaj myśl",
+  "title_name_story": "Nazwij historię",
+  "title_choose": "Techniki dyfuzji",
+  "title_diffusion": "Rozpowszechnianie",
+  "label_back_to_start": "Powrót do początku",
+  "label_back_to_techniques": "Powrót do technik",
+  "label_choose_technique": "Wybierz technikę",
+  "label_current_thought": "Twoja obecna myśl",
+  "label_recurrent_thought": "Powracająca myśl",
+  "label_remember_to_say": "Pamiętaj, by powiedzieć:"
 }

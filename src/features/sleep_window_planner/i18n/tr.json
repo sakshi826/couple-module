@@ -91,5 +91,17 @@
     "save_error": "Uyku penceresini kaydedemedi",
     "auth_error": "Doğrulama oturumu eksik veya veritabanı yapılandırılmadı",
     "saving": "Kurtarmak..."
+  },
+  "common": {
+    "get_started": "Başlayın",
+    "start_over": "Yeniden Başla",
+    "finish_exit": "Bitiş ve Çıkış",
+    "well_done": "Aferin!",
+    "completion_message": "Bu etkinliği başarıyla tamamladın. İlerlemenin takdir edilmesini bir an ayır.",
+    "time_to_complete": "Tamamlanma zamanı",
+    "back": "Geri",
+    "next": "Sıradaki",
+    "save": "Kayd et",
+    "loading": "Yükleniyor..."
   }
 }

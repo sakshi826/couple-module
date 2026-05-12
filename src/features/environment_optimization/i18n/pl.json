@@ -31,5 +31,17 @@
   "not_found_title": "Błąd 404: Strona nie została znaleziona",
   "not_found_text": "Strona, której szukasz nie istnieje.",
   "return_home": "Powrót do strony głównej",
-  "language_selector": "Wybierz język"
+  "language_selector": "Wybierz język",
+  "common": {
+    "get_started": "Zacznij",
+    "start_over": "Start From",
+    "finish_exit": "Koniec i wyjście",
+    "well_done": "Brawo!",
+    "completion_message": "Udało ci się ukończyć tę aktywność. Poświęć chwilę, by docenić swoje postępy.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Z powrotem",
+    "next": "Następny",
+    "save": "Zapisz",
+    "loading": "Ładowanie..."
+  }
 }

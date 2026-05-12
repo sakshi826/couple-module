@@ -47,5 +47,18 @@
   "support_step1": "Zadzwoń lub napisz SMS-a do znajomego",
   "support_step2": "Podziel się tym, co Cię martwi",
   "support_step3": "Poproś o perspektywę",
-  "support_step4": "Rozważ rozmowę z doradcą"
+  "support_step4": "Rozważ rozmowę z doradcą",
+  "common": {
+    "get_started": "Zacznij",
+    "start_over": "Start From",
+    "finish_exit": "Koniec i wyjście",
+    "well_done": "Brawo!",
+    "completion_message": "Udało ci się ukończyć tę aktywność. Poświęć chwilę, by docenić swoje postępy.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Z powrotem",
+    "next": "Następny",
+    "save": "Zapisz",
+    "loading": "Ładowanie..."
+  },
+  "app_page_title": "Porady dotyczące lęku"
 }

@@ -39,5 +39,17 @@
     "ease": "무엇이 10% 더 편해질 수 있을까요?",
     "kindness": "오늘 자신에게 베풀 수 있는 작은 친절은 무엇인가요?",
     "supported": "이 순간 당신이 지지를 받는 데 도움이 될 만한 것은 무엇인가요?"
+  },
+  "common": {
+    "get_started": "시작하기",
+    "start_over": "처음부터 다시",
+    "finish_exit": "결승 및 퇴장",
+    "well_done": "잘했어요!",
+    "completion_message": "이 활동을 성공적으로 완료하셨습니다. 잠시 시간을 내어 자신의 진전을 감상해 보세요.",
+    "time_to_complete": "완성 시간입니다",
+    "back": "뒤로",
+    "next": "다음",
+    "save": "저장",
+    "loading": "로딩 중..."
   }
 }

@@ -87,5 +87,17 @@
   "label_choose_technique": "تکنیک منتخب کریں",
   "label_current_thought": "آپ کا موجودہ خیال",
   "label_recurrent_thought": "بار بار آنے والا خیال",
-  "label_remember_to_say": "یاد رکھیں کہنا:"
+  "label_remember_to_say": "یاد رکھیں کہنا:",
+  "common": {
+    "get_started": "شروع کریں",
+    "start_over": "دوبارہ شروع کریں",
+    "finish_exit": "فنش اینڈ ایگزٹ",
+    "well_done": "شاباش!",
+    "completion_message": "آپ نے یہ سرگرمی کامیابی سے مکمل کر لی ہے۔ اپنی پیش رفت کی قدر کرنے کے لیے ایک لمحہ نکالیں۔",
+    "time_to_complete": "مکمل ہونے کا وقت",
+    "back": "واپس",
+    "next": "اگلا",
+    "save": "سیو",
+    "loading": "لوڈ ہو رہا ہے..."
+  }
 }

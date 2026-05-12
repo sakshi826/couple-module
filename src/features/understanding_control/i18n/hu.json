@@ -56,5 +56,17 @@
   "complete": {
     "title": "Tudatosság",
     "message": "Az irányítás gyökereinek megértése bátor első lépés afelé, hogy új módokat találjunk a biztonságban és stabil érzésben."
+  },
+  "common": {
+    "get_started": "Kezdj el",
+    "start_over": "Kezdj újrakezdeni",
+    "finish_exit": "Befejezés és kilépés",
+    "well_done": "Szép munka!",
+    "completion_message": "Sikeresen teljesítetted ezt a feladatot. Szánj egy pillanatot, hogy értékeld a fejlődésedet.",
+    "time_to_complete": "Ideje befejezni",
+    "back": "Hátra",
+    "next": "Következő",
+    "save": "Mentés",
+    "loading": "Betöltés..."
   }
 }

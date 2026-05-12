@@ -31,5 +31,17 @@
   "not_found_title": "Erreur 404 : Page introuvable",
   "not_found_text": "La page que vous recherchez n'existe pas.",
   "return_home": "Retour à l'accueil",
-  "language_selector": "Sélectionner la langue"
+  "language_selector": "Sélectionner la langue",
+  "common": {
+    "get_started": "Commencez",
+    "start_over": "Recommencer à zéro",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bravo !",
+    "completion_message": "Vous avez réussi cette activité. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Il est temps de terminer",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Sauvegarder",
+    "loading": "Chargement..."
+  }
 }

@@ -3,7 +3,7 @@ import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 const Index = () => {
   return (
-    <PremiumLayout title="Physical Activity Log">
+    <PremiumLayout title={t("app_title", " title=")}>
       <main className="bg-transparent relative w-full">
         <TrackActivitySection />
       </main>

@@ -30,5 +30,19 @@
   "back": "뒤쪽에",
   "not_found_title": "404",
   "not_found_text": "앗! 페이지를 찾을 수 없습니다.",
-  "return_home": "홈으로 돌아가기"
+  "return_home": "홈으로 돌아가기",
+  "common": {
+    "get_started": "시작하기",
+    "start_over": "처음부터 다시",
+    "finish_exit": "결승 및 퇴장",
+    "well_done": "잘했어요!",
+    "completion_message": "이 활동을 성공적으로 완료하셨습니다. 잠시 시간을 내어 자신의 진전을 감상해 보세요.",
+    "time_to_complete": "완성 시간입니다",
+    "back": "뒤로",
+    "next": "다음",
+    "save": "저장",
+    "loading": "로딩 중..."
+  },
+  "app_complete_title": "감사함 절약",
+  "app_complete_message": "감사한 것을 되돌아보는 것은 긍정적인 방향으로 집중을 전환하는 강력한 방법입니다."
 }

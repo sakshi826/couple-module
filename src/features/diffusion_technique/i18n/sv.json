@@ -87,5 +87,17 @@
   "label_choose_technique": "Välj teknik",
   "label_current_thought": "Din nuvarande tanke",
   "label_recurrent_thought": "Den återkommande tanken",
-  "label_remember_to_say": "Kom ihåg att säga:"
+  "label_remember_to_say": "Kom ihåg att säga:",
+  "common": {
+    "get_started": "Kom igång",
+    "start_over": "Börja om",
+    "finish_exit": "Mål och utgång",
+    "well_done": "Bra jobbat!",
+    "completion_message": "Du har framgångsrikt slutfört denna aktivitet. Ta en stund och uppskatta dina framsteg.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "save": "Spara",
+    "loading": "Laddar..."
+  }
 }

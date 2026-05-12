@@ -52,5 +52,17 @@
   "complete_message": "Awareness is the first step toward freedom. You've taken a brave step in identifying and reflecting on a food rule. Carry this gentle understanding with you today.",
   "auth_error": "Auth session missing or DB not configured",
   "save_success": "Reflection preserved",
-  "save_error": "Failed to preserve reflection"
+  "save_error": "Failed to preserve reflection",
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading..."
+  }
 }

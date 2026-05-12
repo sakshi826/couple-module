@@ -30,5 +30,17 @@
   "tool_undo": "Ongedaan maken",
   "tool_clear": "Vrij",
   "share_doodle": "Deel Doodle",
-  "share_text": "Ik vond deze doodle burst-activiteit bij TherapyMantra geweldig, je kunt het ook proberen, download gewoon de app om zelf te ontdekken\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888"
+  "share_text": "Ik vond deze doodle burst-activiteit bij TherapyMantra geweldig, je kunt het ook proberen, download gewoon de app om zelf te ontdekken\n\nAndroid: https://play.google.com/store/apps/details?id=org.mantracare.therapy&hl=en_IN\niOS: https://apps.apple.com/us/app/therapymantra/id1607643888",
+  "common": {
+    "get_started": "Begin",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Goed gedaan!",
+    "completion_message": "Je hebt deze activiteit succesvol voltooid. Neem even de tijd om je vooruitgang te waarderen.",
+    "time_to_complete": "Tijd om af te ronden",
+    "back": "Achteruit",
+    "next": "Volgende",
+    "save": "Sla op",
+    "loading": "Laden..."
+  }
 }

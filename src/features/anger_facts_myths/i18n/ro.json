@@ -54,5 +54,17 @@
       "realFact": "Alți oameni pot declanșa furia ta, dar modul în care răspunzi este responsabilitatea ta — și puterea ta. Asumându-ți reacțiile nu înseamnă că cealaltă persoană a avut dreptate. Înseamnă că tu alegi cum să te preziști. Asta înseamnă împuternicire, nu vină.",
       "example": "Cineva te taie calea în trafic. Te simți furios — asta e normal. Dar alegi dacă să te enervezi sau să tragi aer în aer. Alegerea îți aparține."
     }
-  ]
+  ],
+  "common": {
+    "get_started": "Începe",
+    "start_over": "Începeți de la zero",
+    "finish_exit": "Final și ieșire",
+    "well_done": "Bravo!",
+    "completion_message": "Ai finalizat cu succes această activitate. Ia-ți un moment să apreciezi progresul tău.",
+    "time_to_complete": "Timpul de finalizat",
+    "back": "Înapoi",
+    "next": "Următorul",
+    "save": "Salvează",
+    "loading": "Se încarcă..."
+  }
 }

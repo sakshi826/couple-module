@@ -48,5 +48,17 @@
   "history_empty": "Anda belum menyimpan sebarang pernyataan misi lagi.",
   "history_empty_hint": "Apabila anda sudah bersedia, cipta satu dan ia akan muncul di sini.",
   "history_back": "Pulanglah",
-  "history_delete_aria": "Padamkan refleksi ini"
+  "history_delete_aria": "Padamkan refleksi ini",
+  "common": {
+    "get_started": "Bermula",
+    "start_over": "Mulakan Semula",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Syabas!",
+    "completion_message": "Anda telah berjaya menyelesaikan aktiviti ini. Luangkan sedikit masa untuk menghargai kemajuan anda.",
+    "time_to_complete": "Masa untuk melengkapkan",
+    "back": "Kembali",
+    "next": "Seterusnya",
+    "save": "Simpan",
+    "loading": "Memuatkan..."
+  }
 }
