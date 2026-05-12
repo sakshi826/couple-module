@@ -1,9 +1,7 @@
 import { createI18nInstance } from '../../lib/i18n';
-import en from './i18n/en.json';
 
-const instance = createI18nInstance({
-  en: { translation: en }
-});
+const locales = import.meta.glob('./i18n/*.json', { eager: true });
+const instance = createI18nInstance(locales);
 
 export default instance;
 

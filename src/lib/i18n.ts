@@ -6,11 +6,27 @@ import { FALLBACK_LANGUAGE } from './i18n-config';
 /**
  * Creates and initializes a project-scoped i18n instance.
  * 
- * @param resources - Initial translation resources (e.g., English keys)
+ * @param locales - Result of import.meta.glob('./i18n/*.json', { eager: true })
  * @returns Initialized i18next instance
  */
-export function createI18nInstance(resources: any = {}) {
+export function createI18nInstance(locales: Record<string, any> = {}) {
   const instance = i18n.createInstance();
+
+  // Convert Vite glob object to i18next resources format
+  const resources: Record<string, any> = {};
+  
+  for (const path in locales) {
+    const match = path.match(/\/([^/]+)\.json$/);
+    if (match) {
+      const lang = match[1];
+      resources[lang] = { translation: locales[path].default || locales[path] };
+    }
+  }
+
+  // If no locales were found, provide a safe fallback structure
+  if (Object.keys(resources).length === 0) {
+    resources['en'] = { translation: locales }; 
+  }
 
   instance
     .use(LanguageDetector)
