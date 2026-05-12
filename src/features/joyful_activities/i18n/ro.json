@@ -58,5 +58,8 @@
   "app_complete_message": "Ai reușit să-ți amintești și să te conectezi cu o sursă de bucurie. Păstrează acest sentiment cu tine pe parcursul zilei.",
   "app_duration": "5 minute",
   "app_title": "Activități vesele",
-  "app_description": "carusel"
+  "app_description": "Redescoperind momente pline de bucurie",
+  "intro_p1": "Când te simți deprimat, anxios sau copleșit, poate fi greu să-ți amintești ce îți aduce bucurie.",
+  "intro_p2": "Această activitate nu este despre a face mai mult. Este vorba despre a observa micile momente care par ușoare, calme sau semnificative.",
+  "intro_p3": "Nu există nicio presiune pentru a ne simți fericiți. Pur și simplu explorăm ceea ce ne face să ne simțim chiar și ușor bine."
 }

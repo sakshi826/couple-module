@@ -70,5 +70,7 @@
     "save": "Kaydetmek",
     "loading": "Yükleniyor..."
   },
-  "app_description": "atlıkarınca"
+  "intro_p1": "Hayatımızın farklı dönemlerinde destek sistemimiz değişebilir. 🌱 Bazen bağlantı kurduğumuzu ve desteklendiğimizi hissederiz. Diğer zamanlarda ise her şey uzak veya belirsiz gelebilir.",
+  "intro_p2": "Bu etkinlik, durup etrafınızdaki insanlara bakmanız ve şu anda kimlerin sizin çevrenizin bir parçası olduğunu anlamanız için bir fırsat sunuyor. 💛",
+  "intro_p3": "Burada doğru ya da yanlış yok. Sadece farkındalık var. ✨"
 }

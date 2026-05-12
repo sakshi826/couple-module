@@ -70,5 +70,7 @@
     "save": "Sauvegarder",
     "loading": "Chargement..."
   },
-  "app_description": "carrousel"
+  "intro_p1": "Notre réseau de soutien peut évoluer au fil des périodes de notre vie. 🌱 Parfois, nous nous sentons entourés et soutenus. D'autres fois, les choses peuvent sembler distantes ou floues.",
+  "intro_p2": "Cette activité vous offre un moment pour faire une pause, observer les personnes qui vous entourent et comprendre qui se sent actuellement intégré à votre cercle. 💛",
+  "intro_p3": "Il n'y a pas de bien ni de mal ici. Juste de la prise de conscience. ✨"
 }

@@ -81,5 +81,5 @@
     "save": "Salva",
     "loading": "Încărcare..."
   },
-  "app_description": "carusel"
+  "app_description": "Înțelegerea buclei • {{step}}/{{total}}"
 }

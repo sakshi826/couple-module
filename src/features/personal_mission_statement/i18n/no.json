@@ -1,7 +1,5 @@
 {
   "intro_title": "Et øyeblikk for å gjenopprette kontakten",
-  "intro_p1": "Når du føler deg deprimert, engstelig eller overveldet, er det lett å miste av syne hva som virkelig betyr noe for deg.",
-  "intro_p2": "En personlig misjonserklæring handler ikke om press eller produktivitet. Det er en mild påminnelse om dine verdier – hva slags person du ønsker å være, selv i vanskelige perioder.",
   "intro_breath": "Ta et rolig pust.",
   "intro_no_wrong": "Det finnes ingen riktige eller gale svar her.",
   "intro_begin": "Begynn",
@@ -63,5 +61,6 @@
   },
   "app_duration": "5–10 minutter",
   "app_title": "Personlig formålserklæring",
-  "app_description": "karusell"
+  "intro_p1": "Få klarhet i din vei",
+  "intro_p2": "En personlig formålserklæring handler ikke om press eller produktivitet. Det er en mild påminnelse om verdiene dine – den typen person du ønsker å være, selv i vanskelige perioder."
 }

@@ -81,5 +81,5 @@
     "save": "节省",
     "loading": "加载中..."
   },
-  "app_description": "旋转木马"
+  "app_description": "理解循环 • {{step}}/{{total}}"
 }

@@ -74,16 +74,16 @@
     "activities": {
       "Exercise": "Esercizio",
       "Meditation": "Meditazione",
-      "Journaling": "Journaling",
       "Reading": "Lettura",
       "Rest / Nap": "Riposo / Pisolino",
       "Skincare": "Cura della pelle",
       "Healthy Meal": "Pasto sano",
       "Nature / Walk": "Natura / Passeggiate",
       "Social Time": "Tempo Sociale",
-      "Hobby": "Hobby",
       "Therapy": "Terapia",
-      "Digital Detox": "Disintossicazione Digitale"
+      "Digital Detox": "Disintossicazione Digitale",
+      "Journaling": "Tenere un diario",
+      "Hobby": "Hobby"
     },
     "durations": {
       "< 10 minutes": "< 10 minuti",
@@ -94,12 +94,12 @@
     "reasons": {
       "Busy schedule": "Agenda intensa",
       "Low energy": "Bassa energia",
-      "Stress": "Stress",
       "Forgot": "Dimenticato",
       "No motivation": "Nessuna motivazione",
       "Not feeling well": "Non mi sento bene",
       "Lack of time": "Mancanza di tempo",
-      "Emotional overwhelm": "Sovraccarico emotivo"
+      "Emotional overwhelm": "Sovraccarico emotivo",
+      "Stress": "Stress"
     },
     "helpfulTypes": {
       "Rest": "Riposo",
@@ -135,6 +135,5 @@
   "intro_p1": "schermate.introduzione.benefici.0",
   "intro_p2": "schermate.introduzione.benefici.1",
   "intro_p3": "schermate.introduzione.benefici.2",
-  "intro_p4": "schermate.introduzione.benefici.3",
-  "app_description": "giostra"
+  "intro_p4": "schermate.introduzione.benefici.3"
 }

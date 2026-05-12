@@ -38,5 +38,5 @@
     "save": "Salva",
     "loading": "Încărcare..."
   },
-  "app_description": "carusel"
+  "app_description": "Logica supraviețuirii • {{step}}/{{total}}"
 }

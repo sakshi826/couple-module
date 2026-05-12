@@ -1,7 +1,5 @@
 {
   "intro_title": "Een moment om weer contact te maken",
-  "intro_p1": "Als je je depressief, angstig of overweldigd voelt, is het makkelijk om uit het oog te verliezen wat echt belangrijk voor je is.",
-  "intro_p2": "Een persoonlijke missieverklaring draait niet om druk of productiviteit. Het is een zachte herinnering aan je waarden — het soort persoon dat je wilt zijn, zelfs in moeilijke periodes.",
   "intro_breath": "Haal één keer langzaam adem.",
   "intro_no_wrong": "Er zijn hier geen goed of fout antwoord.",
   "intro_begin": "Begin",
@@ -63,5 +61,6 @@
   },
   "app_duration": "5-10 minuten",
   "app_title": "Persoonlijke missieverklaring",
-  "app_description": "carrousel"
+  "intro_p1": "Verkrijg duidelijkheid over je pad.",
+  "intro_p2": "Een persoonlijke missieverklaring gaat niet over druk of productiviteit. Het is een subtiele herinnering aan je waarden – het soort persoon dat je wilt zijn, zelfs in moeilijke tijden."
 }

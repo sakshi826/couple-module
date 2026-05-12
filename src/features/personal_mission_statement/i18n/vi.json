@@ -1,7 +1,5 @@
 {
   "intro_title": "Một khoảnh khắc để kết nối lại",
-  "intro_p1": "Khi bạn cảm thấy chán nản, lo lắng hoặc quá tải, rất dễ đánh mất đi những điều thực sự quan trọng đối với mình.",
-  "intro_p2": "Tuyên ngôn sứ mệnh cá nhân không phải là về áp lực hay năng suất. Đó là lời nhắc nhở nhẹ nhàng về các giá trị của bạn — kiểu người mà bạn muốn trở thành, ngay cả trong những giai đoạn khó khăn.",
   "intro_breath": "Hít một hơi thật chậm.",
   "intro_no_wrong": "Không có câu trả lời đúng hay sai ở đây.",
   "intro_begin": "Bắt đầu",
@@ -63,5 +61,6 @@
   },
   "app_duration": "5-10 phút",
   "app_title": "Tuyên ngôn sứ mệnh cá nhân",
-  "app_description": "vòng quay ngựa gỗ"
+  "intro_p1": "Hãy tìm ra con đường của bạn",
+  "intro_p2": "Tuyên ngôn sứ mệnh cá nhân không phải là về áp lực hay năng suất. Đó là lời nhắc nhở nhẹ nhàng về các giá trị của bạn — kiểu người mà bạn muốn trở thành, ngay cả trong những giai đoạn khó khăn."
 }

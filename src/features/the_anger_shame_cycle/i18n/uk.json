@@ -81,5 +81,5 @@
     "save": "Зберегти",
     "loading": "Завантаження..."
   },
-  "app_description": "карусель"
+  "app_description": "Розуміння циклу • {{step}}/{{total}}"
 }

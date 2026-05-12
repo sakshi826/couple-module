@@ -1,7 +1,5 @@
 {
   "intro_title": "Un moment de reconectare",
-  "intro_p1": "Când te simți deprimat, anxios sau copleșit, este ușor să pierzi din vedere ceea ce contează cu adevărat pentru tine.",
-  "intro_p2": "O declarație personală de misiune nu ține de presiune sau productivitate. Este o amintire blândă a valorilor tale — genul de persoană pe care vrei să o fii, chiar și în perioadele dificile.",
   "intro_breath": "Trage o respirație lentă.",
   "intro_no_wrong": "Nu există răspunsuri corecte sau greșite aici.",
   "intro_begin": "Începe",
@@ -63,5 +61,6 @@
   },
   "app_duration": "5-10 minute",
   "app_title": "Declarație de misiune personală",
-  "app_description": "carusel"
+  "intro_p1": "Obține claritate pe calea ta",
+  "intro_p2": "O declarație de misiune personală nu este despre presiune sau productivitate. Este o reamintire blândă a valorilor tale - genul de persoană care vrei să fii, chiar și în perioadele dificile."
 }

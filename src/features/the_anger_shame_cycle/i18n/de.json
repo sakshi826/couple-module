@@ -81,5 +81,5 @@
     "save": "Speichern",
     "loading": "Laden..."
   },
-  "app_description": "Karussell"
+  "app_description": "Den Kreislauf verstehen • {{step}}/{{total}}"
 }

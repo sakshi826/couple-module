@@ -38,5 +38,5 @@
     "save": "บันทึก",
     "loading": "กำลังโหลด..."
   },
-  "app_description": "ม้าหมุน"
+  "app_description": "ตรรกะแห่งการอยู่รอด • {{step}}/{{total}}"
 }

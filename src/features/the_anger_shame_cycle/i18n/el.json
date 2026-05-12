@@ -81,5 +81,5 @@
     "save": "Εκτός",
     "loading": "Φόρτωση..."
   },
-  "app_description": "στροβιλοδρόμιο"
+  "app_description": "Κατανόηση του βρόχου • {{step}}/{{total}}"
 }

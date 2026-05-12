@@ -50,9 +50,8 @@
     "loading": "Laden..."
   },
   "app_duration": "5-10 minuten",
-  "intro_p1": "stap_1",
-  "intro_p2": "stap_2",
-  "intro_p3": "stap_3",
   "app_title": "Brainstormsessie",
-  "app_description": "carrousel"
+  "intro_p1": "1. Download je gedachten naar het digitale papier.",
+  "intro_p2": "2. Maak een lijst van zaken die actie vereisen en zaken die kunnen wachten.",
+  "intro_p3": "3. Concentreer je op slechts één kleine volgende stap."
 }

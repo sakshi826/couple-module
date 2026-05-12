@@ -135,6 +135,5 @@
   "intro_p1": "screens.intro.benefits.0",
   "intro_p2": "screens.intro.benefits.1",
   "intro_p3": "екрани.вступ.переваги.2",
-  "intro_p4": "екрани.вступ.переваги.3",
-  "app_description": "карусель"
+  "intro_p4": "screens.intro.benefits.3"
 }

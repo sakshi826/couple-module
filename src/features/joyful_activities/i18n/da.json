@@ -58,5 +58,8 @@
   "app_complete_message": "Du har med succes genkaldt og forbundet dig med en kilde til glæde. Behold denne følelse med dig, mens du bevæger dig gennem din dag.",
   "app_duration": "5 minutter",
   "app_title": "Glædelige aktiviteter",
-  "app_description": "karrusel"
+  "app_description": "Genopdagelse af glædelige øjeblikke",
+  "intro_p1": "Når du føler dig nede, angst eller overvældet, kan det være svært at huske, hvad der bringer dig glæde.",
+  "intro_p2": "Denne aktivitet handler ikke om at gøre mere. Det handler om at bemærke små øjeblikke, der føles lette, rolige eller meningsfulde.",
+  "intro_p3": "Der er intet pres for at føle sig glad. Vi udforsker blot, hvad der føles bare en smule godt."
 }

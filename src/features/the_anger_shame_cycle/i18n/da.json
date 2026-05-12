@@ -81,5 +81,5 @@
     "save": "Spare",
     "loading": "Indlæser..."
   },
-  "app_description": "karrusel"
+  "app_description": "Forståelse af løkken • {{step}}/{{total}}"
 }

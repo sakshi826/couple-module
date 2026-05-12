@@ -6,7 +6,6 @@
   "Choose one activity that feels supportive right now": {
     "": "Kies één activiteit die op dit moment ondersteunend aanvoelt."
   },
-  "Step": "Step",
   "Back": "Achteruit",
   "Next": "Volgende",
   "I Feel More Grounded": "Ik voel me meer geaard",
@@ -170,5 +169,5 @@
     "loading": "Laden..."
   },
   "app_title": "Aarding",
-  "app_description": "carrousel"
+  "Step": "Stap"
 }

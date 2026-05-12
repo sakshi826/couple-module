@@ -1,7 +1,5 @@
 {
   "intro_title": "Ett ögonblick att återknyta kontakten",
-  "intro_p1": "När du känner dig deprimerad, orolig eller överväldigad är det lätt att tappa bort vad som verkligen betyder något för dig.",
-  "intro_p2": "Ett personligt missionsuttalande handlar inte om press eller produktivitet. Det är en mild påminnelse om dina värderingar – vilken sorts person du vill vara, även under svåra perioder.",
   "intro_breath": "Ta ett långsamt andetag.",
   "intro_no_wrong": "Det finns inga rätta eller fel svar här.",
   "intro_begin": "Börja",
@@ -63,5 +61,6 @@
   },
   "app_duration": "5–10 minuter",
   "app_title": "Personligt uppdragsbeskrivning",
-  "app_description": "karusell"
+  "intro_p1": "Få klarhet i din väg",
+  "intro_p2": "Ett personligt uppdrag handlar inte om press eller produktivitet. Det är en mild påminnelse om dina värderingar – den typ av person du vill vara, även under svåra perioder."
 }

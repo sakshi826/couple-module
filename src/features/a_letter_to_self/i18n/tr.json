@@ -28,9 +28,9 @@
     "loading": "Yükleniyor..."
   },
   "app_duration": "10-15 dakika",
-  "intro_p1": "hiçbir yargı",
+  "app_title": "Kendime Mektup",
+  "intro_p1": "Yargılama yok. Baskı yok. Sadece sen.",
   "intro_p2": "Düşünmek için bir alan",
   "intro_p3": "Gelecekteki benliğinizle bağlantı kurun.",
-  "app_title": "Kendime Mektup",
-  "app_description": "atlıkarınca"
+  "app_description": "Sadece sizin için bir iyilik anı."
 }

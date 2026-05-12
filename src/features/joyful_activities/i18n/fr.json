@@ -58,5 +58,8 @@
   "app_complete_message": "Vous avez réussi à vous souvenir et à vous connecter avec une source de joie. Gardez ce sentiment avec vous tout au long de votre journée.",
   "app_duration": "5 minutes",
   "app_title": "Activités joyeuses",
-  "app_description": "carrousel"
+  "app_description": "Redécouvrir les moments joyeux",
+  "intro_p1": "Lorsque vous vous sentez déprimé, anxieux ou submergé, il peut être difficile de se rappeler ce qui vous apporte de la joie.",
+  "intro_p2": "Cette activité ne consiste pas à en faire plus. Il s'agit de remarquer les petits moments qui procurent une sensation de légèreté, de calme ou de sens.",
+  "intro_p3": "Il n'y a aucune obligation d'être heureux. Nous explorons simplement ce qui nous procure même un léger bien-être."
 }

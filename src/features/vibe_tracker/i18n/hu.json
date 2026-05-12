@@ -24,11 +24,11 @@
     "Driven": "Hajtott",
     "Content": "Tartalom",
     "Steady": "Nyugodt",
-    "Tender": "Tender",
     "Heavy": "Nehéz",
     "Thoughtful": "Figyelmes",
     "Restless": "Nyugtalan",
-    "Drained": "Lecsapolt"
+    "Drained": "Lecsapolt",
+    "Tender": "Tender"
   },
   "prompts": {
     "needing": "Mit igényelhetsz most?",
@@ -55,6 +55,5 @@
   "app_duration": "1-2 perc",
   "intro_p1": "Kövesd nyomon az érzelmi mintáidat",
   "intro_p2": "Gondold át a mai hangulatodat",
-  "intro_p3": "Érzelmi tudatosság fejlesztése",
-  "app_description": "körhinta"
+  "intro_p3": "Érzelmi tudatosság fejlesztése"
 }

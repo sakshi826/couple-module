@@ -1,7 +1,5 @@
 {
   "intro_title": "Chwila na ponowne połączenie",
-  "intro_p1": "Kiedy czujesz się przygnębiony, niespokojny lub przytłoczony, łatwo jest stracić z oczu to, co naprawdę jest dla ciebie ważne.",
-  "intro_p2": "W oświadczeniu o misji osobistej nie chodzi o presję ani produktywność. To delikatne przypomnienie o twoich wartościach – o tym, jakim człowiekiem chcesz być, nawet w trudnych chwilach.",
   "intro_breath": "Weź jeden powolny oddech.",
   "intro_no_wrong": "Nie ma tu dobrych ani złych odpowiedzi.",
   "intro_begin": "Zaczynać",
@@ -63,5 +61,6 @@
   },
   "app_duration": "5-10 minut",
   "app_title": "Oświadczenie o misji osobistej",
-  "app_description": "karuzela"
+  "intro_p1": "Zdobądź jasność na swojej ścieżce",
+  "intro_p2": "W oświadczeniu o misji osobistej nie chodzi o presję ani produktywność. To delikatne przypomnienie o twoich wartościach – o tym, jakim człowiekiem chcesz być, nawet w trudnych chwilach."
 }

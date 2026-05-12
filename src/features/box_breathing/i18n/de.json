@@ -34,8 +34,8 @@
   "app_complete_title": "Großartige Arbeit!",
   "app_complete_message": "Du hast die Box Breathing-Sitzung abgeschlossen. Du solltest dich ausgeglichener und ruhiger fühlen.",
   "app_duration": "5 Minuten",
-  "intro_p1": "inhale_4s",
-  "intro_p2": "hold_4s",
-  "intro_p3": "Ausatmen_4s",
-  "app_description": "Karussell"
+  "intro_p1": "4 Sekunden lang einatmen.",
+  "intro_p2": "4 Sekunden lang gedrückt halten",
+  "intro_p3": "Atmen Sie 4 Sekunden lang aus.",
+  "app_description": "Die Box-Atmung folgt einem einfachen 4-4-4-4-Muster: Einatmen, anhalten, ausatmen, anhalten – jeweils vier Sekunden lang. Sie aktiviert das parasympathische Nervensystem, reduziert Stress und führt zu einem ruhigen, konzentrierten Zustand."
 }

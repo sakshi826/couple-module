@@ -38,5 +38,5 @@
     "save": "Kaydetmek",
     "loading": "Yükleniyor..."
   },
-  "app_description": "atlıkarınca"
+  "app_description": "Hayatta kalmanın mantığı • {{adım}}/{{toplam}}"
 }

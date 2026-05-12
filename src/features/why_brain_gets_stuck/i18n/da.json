@@ -38,5 +38,5 @@
     "save": "Spare",
     "loading": "Indlæser..."
   },
-  "app_description": "karrusel"
+  "app_description": "Overlevelseslogikken • {{step}}/{{total}}"
 }

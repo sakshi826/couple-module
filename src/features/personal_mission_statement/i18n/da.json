@@ -1,7 +1,5 @@
 {
   "intro_title": "Et øjeblik til at genoprette forbindelsen",
-  "intro_p1": "Når du føler dig deprimeret, angst eller overvældet, er det let at miste fokus på, hvad der virkelig betyder noget for dig.",
-  "intro_p2": "En personlig missionserklæring handler ikke om pres eller produktivitet. Det er en blid påmindelse om dine værdier – den slags person, du ønsker at være, selv i svære tider.",
   "intro_breath": "Tag en langsom indånding.",
   "intro_no_wrong": "Der er ingen rigtige eller forkerte svar her.",
   "intro_begin": "Begynd",
@@ -63,5 +61,6 @@
   },
   "app_duration": "5-10 minutter",
   "app_title": "Personlig missionserklæring",
-  "app_description": "karrusel"
+  "intro_p1": "Få klarhed på din vej",
+  "intro_p2": "En personlig mission handler ikke om pres eller produktivitet. Det er en blid påmindelse om dine værdier – den slags person, du ønsker at være, selv i svære perioder."
 }

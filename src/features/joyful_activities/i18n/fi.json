@@ -58,5 +58,8 @@
   "app_complete_message": "Olet onnistuneesti muistanut ja yhdistynyt ilon lähteeseen. Pidä tämä tunne mukanasi päivän edetessä.",
   "app_duration": "5 minuuttia",
   "app_title": "Iloisia aktiviteetteja",
-  "app_description": "karuselli"
+  "app_description": "Iloisten hetkien uudelleen löytäminen",
+  "intro_p1": "Kun olo on alakuloinen, ahdistunut tai alakuloinen, voi olla vaikea muistaa, mikä tuo iloa.",
+  "intro_p2": "Tässä aktiviteetissa ei ole kyse enempään ryhtymisestä. Kyse on pienten hetkien huomaamisesta, jotka tuntuvat kevyiltä, rauhallisilta tai merkityksellisiltä.",
+  "intro_p3": "Ei ole mitään painetta tuntea oloaan onnelliseksi. Tutkimme vain sitä, mikä tuntuu edes vähän hyvältä."
 }

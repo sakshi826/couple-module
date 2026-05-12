@@ -34,8 +34,8 @@
   "app_complete_title": "Ottimo lavoro!",
   "app_complete_message": "Hai completato la sessione di Respirazione a Scatola. Dovresti sentirti più equilibrata e calma.",
   "app_duration": "5 minuti",
-  "intro_p1": "inalare_4s",
-  "intro_p2": "hold_4s",
-  "intro_p3": "espira_4s",
-  "app_description": "giostra"
+  "intro_p1": "Inspira per 4 secondi",
+  "intro_p2": "Tieni premuto per 4 secondi",
+  "intro_p3": "Espira per 4 secondi",
+  "app_description": "La respirazione quadrata utilizza un semplice schema 4-4-4-4: inspira, trattieni il respiro, espira, trattieni il respiro, per quattro secondi per ogni fase. Attiva il sistema nervoso parasimpatico, riducendo lo stress e riportandoti a uno stato di calma e concentrazione."
 }

@@ -34,8 +34,8 @@
   "app_complete_title": "Hyvää työtä!",
   "app_complete_message": "Olet suorittanut Box Breathing -harjoituksen. Sinun pitäisi tuntea olosi tasapainoisemmaksi ja rauhallisemmaksi.",
   "app_duration": "5 minuuttia",
-  "intro_p1": "sisäänhengitys_4s",
-  "intro_p2": "pidä_4s",
-  "intro_p3": "uloshengitys_4s",
-  "app_description": "karuselli"
+  "intro_p1": "Hengitä sisään 4 sekuntia",
+  "intro_p2": "Pidä 4 sekuntia",
+  "intro_p3": "Hengitä ulos 4 sekuntia",
+  "app_description": "Laatikkohengityksessä käytetään yksinkertaista 4-4-4-4-4-kuviota – sisäänhengitys, pidätys, uloshengitys, pidätys – kutakin neljän sekunnin ajan. Se aktivoi parasympaattisen hermoston, alentaa stressiä ja palauttaa sinut rauhalliseen ja keskittyneeseen tilaan."
 }

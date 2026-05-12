@@ -81,5 +81,5 @@
     "save": "Uložit",
     "loading": "Načítání..."
   },
-  "app_description": "kolotoč"
+  "app_description": "Pochopení smyčky • {{step}}/{{total}}"
 }

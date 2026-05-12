@@ -38,5 +38,5 @@
     "save": "Salva",
     "loading": "Caricamento..."
   },
-  "app_description": "giostra"
+  "app_description": "La logica della sopravvivenza • {{step}}/{{total}}"
 }

@@ -23,7 +23,6 @@
   "today": "Idag",
   "yesterday": "Igår",
   "delete_doodle": "Radera Doodle",
-  "doodle": "doodle",
   "doodles": "klotter",
   "saved": "räddad",
   "tool_pen": "Penna",
@@ -44,8 +43,9 @@
     "loading": "Belastning..."
   },
   "app_duration": "60 sekunder",
+  "doodle": "klotter",
   "intro_p1": "Släpp lös din kreativitet",
   "intro_p2": "Frigör uppdämd energi",
   "intro_p3": "Omedelbar hjärnåterställning",
-  "app_description": "karusell"
+  "app_description": "Låt din hjärna krypa ihop en minut."
 }

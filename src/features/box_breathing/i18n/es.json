@@ -34,8 +34,8 @@
   "app_complete_title": "¡Buen trabajo!",
   "app_complete_message": "Has completado la sesión de Respiración en Caja. Deberías sentirte más equilibrado y tranquilo.",
   "app_duration": "5 minutos",
-  "intro_p1": "inhalar_4s",
-  "intro_p2": "mantener_4s",
-  "intro_p3": "exhalar_4s",
-  "app_description": "carrusel"
+  "intro_p1": "Inhala durante 4 segundos.",
+  "intro_p2": "Mantener presionado durante 4 segundos",
+  "intro_p3": "Exhala durante 4 segundos",
+  "app_description": "La respiración cuadrada utiliza un patrón sencillo de 4-4-4-4: inhalar, retener, exhalar, retener, cada respiración durante cuatro segundos. Activa el sistema nervioso parasimpático, reduciendo el estrés y devolviéndote a un estado de calma y concentración."
 }

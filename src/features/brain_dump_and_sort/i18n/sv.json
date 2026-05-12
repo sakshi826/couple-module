@@ -50,9 +50,8 @@
     "loading": "Belastning..."
   },
   "app_duration": "5–10 minuter",
-  "intro_p1": "steg_1",
-  "intro_p2": "steg_2",
-  "intro_p3": "steg_3",
   "app_title": "Hjärndump",
-  "app_description": "karusell"
+  "intro_p1": "1. Ladda ner din hjärna till den digitala sidan.",
+  "intro_p2": "2. Sortera i vad som behöver åtgärdas och vad som kan vänta.",
+  "intro_p3": "3. Fokusera på bara ett litet nästa steg."
 }

@@ -70,5 +70,7 @@
     "save": "Salva",
     "loading": "Caricamento..."
   },
-  "app_description": "giostra"
+  "intro_p1": "In diversi momenti della vita, la nostra rete di supporto può cambiare. 🌱 A volte ci sentiamo connessi e supportati. Altre volte, le cose possono sembrare distanti o poco chiare.",
+  "intro_p2": "Questa attività è uno spazio per fermarsi e osservare le persone intorno a te, e capire chi in questo momento fa parte della tua cerchia. 💛",
+  "intro_p3": "Qui non c'è giusto o sbagliato. Solo consapevolezza. ✨"
 }

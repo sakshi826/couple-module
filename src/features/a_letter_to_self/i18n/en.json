@@ -28,8 +28,9 @@
     "loading": "Loading..."
   },
   "app_duration": "10-15 minutes",
-  "intro_p1": "no_judgments",
+  "intro_p1": "No judgments. No pressure. Just you.",
   "intro_p2": "A space for reflection",
   "intro_p3": "Connect with your future self",
-  "app_title": "Letter to Self"
+  "app_title": "Letter to Self",
+  "app_description": "A moment of kindness, just for you"
 }

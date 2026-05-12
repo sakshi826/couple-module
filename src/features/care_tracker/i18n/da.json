@@ -73,7 +73,6 @@
   "data": {
     "activities": {
       "Exercise": "Motion",
-      "Meditation": "Meditation",
       "Journaling": "Dagbogsskrivning",
       "Reading": "Læsning",
       "Rest / Nap": "Hvile / Lur",
@@ -81,9 +80,10 @@
       "Healthy Meal": "Sundt måltid",
       "Nature / Walk": "Natur / Vandretur",
       "Social Time": "Social tid",
-      "Hobby": "Hobby",
       "Therapy": "Terapi",
-      "Digital Detox": "Digital Detox"
+      "Digital Detox": "Digital detox",
+      "Meditation": "Meditation",
+      "Hobby": "Hobby"
     },
     "durations": {
       "< 10 minutes": "< 10 minutter",
@@ -94,12 +94,12 @@
     "reasons": {
       "Busy schedule": "Travl kalender",
       "Low energy": "Lav energi",
-      "Stress": "Stress",
       "Forgot": "Glemte",
       "No motivation": "Ingen motivation",
       "Not feeling well": "Ikke godt tilpas",
       "Lack of time": "Mangel på tid",
-      "Emotional overwhelm": "Følelsesmæssig overvældelse"
+      "Emotional overwhelm": "Følelsesmæssig overvældelse",
+      "Stress": "Stress"
     },
     "helpfulTypes": {
       "Rest": "Hvile",
@@ -112,10 +112,10 @@
     "moods": {
       "Happy": "Glad",
       "Calm": "Rolig",
-      "Neutral": "Neutral",
       "Low": "Lavt",
       "Stressed": "Stresset",
-      "Tired": "Træt"
+      "Tired": "Træt",
+      "Neutral": "Neutral"
     },
     "positiveStatements": {
       "0": "Du dukkede op for dig selv i dag. Det er stærkt. 🌿",
@@ -135,6 +135,5 @@
   "intro_p1": "skærme.intro.fordele.0",
   "intro_p2": "skærme.intro.fordele.1",
   "intro_p3": "skærme.intro.fordele.2",
-  "intro_p4": "skærme.intro.fordele.3",
-  "app_description": "karrusel"
+  "intro_p4": "skærme.intro.fordele.3"
 }

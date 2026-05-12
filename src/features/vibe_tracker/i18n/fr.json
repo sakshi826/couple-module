@@ -24,11 +24,11 @@
     "Driven": "Conduite",
     "Content": "Contenu",
     "Steady": "Calme",
-    "Tender": "Tender",
     "Heavy": "Lourd",
     "Thoughtful": "Attentionné",
     "Restless": "Agité",
-    "Drained": "Drainé"
+    "Drained": "Drainé",
+    "Tender": "Tendre"
   },
   "prompts": {
     "needing": "De quoi avez-vous besoin en ce moment ?",
@@ -55,6 +55,5 @@
   "app_duration": "1 à 2 minutes",
   "intro_p1": "Suivez vos schémas émotionnels",
   "intro_p2": "Réfléchissez à votre humeur aujourd'hui",
-  "intro_p3": "Développer la conscience émotionnelle",
-  "app_description": "carrousel"
+  "intro_p3": "Développer la conscience émotionnelle"
 }

@@ -24,11 +24,11 @@
     "Driven": "Drevet",
     "Content": "Indhold",
     "Steady": "Rolig",
-    "Tender": "Tender",
     "Heavy": "Tung",
     "Thoughtful": "Betænksomt",
     "Restless": "Rastløs",
-    "Drained": "Udtømt"
+    "Drained": "Udtømt",
+    "Tender": "Udbud"
   },
   "prompts": {
     "needing": "Hvad har du brug for lige nu?",
@@ -55,6 +55,5 @@
   "app_duration": "1-2 minutter",
   "intro_p1": "Spor dine følelsesmæssige mønstre",
   "intro_p2": "Reflekter over dit humør i dag",
-  "intro_p3": "Opbyg følelsesmæssig bevidsthed",
-  "app_description": "karrusel"
+  "intro_p3": "Opbyg følelsesmæssig bevidsthed"
 }

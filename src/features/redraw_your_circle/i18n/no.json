@@ -70,5 +70,7 @@
     "save": "Spare",
     "loading": "Laster inn..."
   },
-  "app_description": "karusell"
+  "intro_p1": "På ulike tidspunkt i livet kan støtteapparatet vårt endre seg. 🌱 Noen ganger føler vi oss knyttet til hverandre og støttet. Andre ganger kan ting føles fjerne eller uklare.",
+  "intro_p2": "Denne aktiviteten gir deg muligheten til å stoppe opp og se på menneskene rundt deg – og forstå hvem som for øyeblikket føler seg som en del av sirkelen din. 💛",
+  "intro_p3": "Det finnes ikke noe riktig eller galt her. Bare bevissthet. ✨"
 }

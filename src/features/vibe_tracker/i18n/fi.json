@@ -21,14 +21,14 @@
   "vibes": {
     "Calm": "Rauhoitu",
     "Light": "Valo",
-    "Driven": "Driven",
     "Content": "Sisältö",
     "Steady": "Vakaa",
     "Tender": "Tenderi",
-    "Heavy": "Heavy",
     "Thoughtful": "Huomaavainen",
     "Restless": "Levoton",
-    "Drained": "Tyhjennetty"
+    "Drained": "Tyhjennetty",
+    "Driven": "Ajettu",
+    "Heavy": "Raskas"
   },
   "prompts": {
     "needing": "Mitä tarvitset juuri nyt?",
@@ -55,6 +55,5 @@
   "app_duration": "1–2 minuuttia",
   "intro_p1": "Seuraa tunnemallejasi",
   "intro_p2": "Mieti mielialaasi tänään",
-  "intro_p3": "Rakenna emotionaalista tietoisuutta",
-  "app_description": "karuselli"
+  "intro_p3": "Rakenna emotionaalista tietoisuutta"
 }

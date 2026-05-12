@@ -34,8 +34,8 @@
   "app_complete_title": "Mahusay na trabaho!",
   "app_complete_message": "Nakumpleto mo na ang sesyon ng paghinga ng kahon. Dapat kang maging mas balanse at kalmado.",
   "app_duration": "5 minuto",
-  "intro_p1": "inhale_4s",
-  "intro_p2": "hold_4s",
-  "intro_p3": "exhale_4s",
-  "app_description": "karusel"
+  "intro_p1": "Huminga nang 4 na segundo",
+  "intro_p2": "Pindutin nang 4 na segundo",
+  "intro_p3": "Huminga nang palabas nang 4 na segundo",
+  "app_description": "Ang box breathing ay gumagamit ng simpleng 4-4-4-4 na pamamaraan — huminga, pindutin nang matagal, huminga nang palabas, pindutin nang matagal — bawat isa sa loob ng apat na segundo. Pinapagana nito ang iyong parasympathetic nervous system, binabawasan ang stress at ibinabalik ka sa isang kalmado at nakapokus na estado."
 }

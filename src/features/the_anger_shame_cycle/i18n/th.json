@@ -81,5 +81,5 @@
     "save": "บันทึก",
     "loading": "กำลังโหลด..."
   },
-  "app_description": "ม้าหมุน"
+  "app_description": "ทำความเข้าใจลูป • {{step}}/{{total}}"
 }

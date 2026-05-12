@@ -50,9 +50,8 @@
     "loading": "Memuat..."
   },
   "app_duration": "5-10 menit",
-  "intro_p1": "langkah_1",
-  "intro_p2": "langkah_2",
-  "intro_p3": "langkah_3",
   "app_title": "Curahan Pikiran",
-  "app_description": "korsel"
+  "intro_p1": "1. Tuangkan isi pikiran Anda ke halaman digital.",
+  "intro_p2": "2. Pisahkan mana yang membutuhkan tindakan dan mana yang bisa menunggu.",
+  "intro_p3": "3. Fokuslah hanya pada satu langkah kecil selanjutnya."
 }

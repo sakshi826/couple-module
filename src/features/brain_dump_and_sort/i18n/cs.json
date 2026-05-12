@@ -50,9 +50,8 @@
     "loading": "Načítání..."
   },
   "app_duration": "5–10 minut",
-  "intro_p1": "krok_1",
-  "intro_p2": "krok_2",
-  "intro_p3": "krok_3",
   "app_title": "Výpis mozku",
-  "app_description": "kolotoč"
+  "intro_p1": "1. Stáhněte si svůj mozek na digitální stránku.",
+  "intro_p2": "2. Roztřiďte si, co vyžaduje akci a co může počkat.",
+  "intro_p3": "3. Zaměřte se jen na jeden malý další krok."
 }

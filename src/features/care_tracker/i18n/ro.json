@@ -81,9 +81,9 @@
       "Healthy Meal": "Mese sănătoasă",
       "Nature / Walk": "Natură / Plimbare",
       "Social Time": "Timpul social",
-      "Hobby": "Hobby",
       "Therapy": "Terapie",
-      "Digital Detox": "Detoxifiere digitală"
+      "Digital Detox": "Detoxifiere digitală",
+      "Hobby": "Hobby"
     },
     "durations": {
       "< 10 minutes": "< 10 minute",
@@ -111,11 +111,11 @@
     },
     "moods": {
       "Happy": "Fericit",
-      "Calm": "Calm",
       "Neutral": "Neutru",
-      "Low": "Low",
       "Stressed": "Stresat",
-      "Tired": "Obosit"
+      "Tired": "Obosit",
+      "Low": "Scăzut",
+      "Calm": "Calm"
     },
     "positiveStatements": {
       "0": "Astăzi te-ai prezentat pentru tine. Asta e puternic. 🌿",
@@ -135,6 +135,5 @@
   "intro_p1": "ecrane.introducere.beneficii.0",
   "intro_p2": "ecrane.introducere.beneficii.1",
   "intro_p3": "ecrane.introducere.beneficii.2",
-  "intro_p4": "ecrane.introducere.beneficii.3",
-  "app_description": "carusel"
+  "intro_p4": "ecrane.introducere.beneficii.3"
 }

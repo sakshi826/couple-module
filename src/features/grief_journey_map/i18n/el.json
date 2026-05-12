@@ -48,5 +48,5 @@
     "save": "Εκτός",
     "loading": "Φόρτωση..."
   },
-  "app_description": "στροβιλοδρόμιο"
+  "app_description": "Ο χάρτης της απώλειας • {{current}}/{{total}}"
 }

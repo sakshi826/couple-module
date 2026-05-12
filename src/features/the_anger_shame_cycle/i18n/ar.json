@@ -81,5 +81,5 @@
     "save": "يحفظ",
     "loading": "تحميل..."
   },
-  "app_description": "دوامة الخيل"
+  "app_description": "فهم الحلقة • {{step}}/{{total}}"
 }

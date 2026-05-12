@@ -38,5 +38,5 @@
     "save": "Menyimpan",
     "loading": "Memuat..."
   },
-  "app_description": "korsel"
+  "app_description": "Logika bertahan hidup • {{langkah}}/{{total}}"
 }

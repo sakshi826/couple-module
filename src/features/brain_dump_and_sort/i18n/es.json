@@ -50,9 +50,8 @@
     "loading": "Cargando..."
   },
   "app_duration": "5-10 minutos",
-  "intro_p1": "paso_1",
-  "intro_p2": "paso_2",
-  "intro_p3": "paso_3",
   "app_title": "Volcado de cerebro",
-  "app_description": "carrusel"
+  "intro_p1": "1. Descarga tu cerebro en la página digital.",
+  "intro_p2": "2. Clasifica lo que requiere atención inmediata y lo que puede esperar.",
+  "intro_p3": "3. Céntrate en un solo paso pequeño."
 }

@@ -34,7 +34,8 @@
   "app_complete_title": "Great Job!",
   "app_complete_message": "You've completed the Box Breathing session. You should feel more balanced and calm.",
   "app_duration": "5 minutes",
-  "intro_p1": "inhale_4s",
-  "intro_p2": "hold_4s",
-  "intro_p3": "exhale_4s"
+  "intro_p1": "Inhale for 4 seconds",
+  "intro_p2": "Hold for 4 seconds",
+  "intro_p3": "Exhale for 4 seconds",
+  "app_description": "Box breathing uses a simple 4-4-4-4 pattern — inhale, hold, exhale, hold — each for four seconds. It activates your parasympathetic nervous system, lowering stress and bringing you back to a calm, focused state."
 }

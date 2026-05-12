@@ -1,6 +1,5 @@
 {
   "add_another_button": "新增另一個按鈕",
-  "app_title": "app_title",
   "back_to_reflection_button": "返回反射按鈕",
   "begin_button": "開始按鈕",
   "breathing_instruction": "呼吸指導",
@@ -13,7 +12,6 @@
   "connection_subtitle": "連接_字幕",
   "connection_title": "連接標題",
   "continue_button": "繼續按鈕",
-  "cue_body": "cue_body",
   "finish_button": "完成按鈕",
   "label_name": "標籤名稱",
   "label_relation": "標籤關係",
@@ -22,12 +20,12 @@
   "label_what_they_want": "標籤他們想要什麼",
   "label_your_step": "標籤你的步驟",
   "nav": {
-    "carry_forward": "nav.carry_forward",
     "complete": "導航完成",
     "history": "導航歷史",
     "honoring": "導航致敬",
     "reflecting": "導航反射",
-    "welcome": "導航.歡迎"
+    "welcome": "導航.歡迎",
+    "carry_forward": "nav.carry_forward"
   },
   "no_past_entries": "沒有歷史條目",
   "pace_instruction": "步速指令",
@@ -40,7 +38,6 @@
   "placeholder_wish": "佔位符_願望",
   "prompt_why": "提示為什麼",
   "prompt_wish": "提示願望",
-  "prompt_wish_subtitle": "prompt_wish_subtitle",
   "reflection_footer": "反射頁腳",
   "reflection_title": "反射標題",
   "save_button": "儲存按鈕",
@@ -61,5 +58,7 @@
     "save": "節省",
     "loading": "載入中..."
   },
-  "app_description": "旋轉木馬"
+  "app_title": "app_title",
+  "cue_body": "cue_body",
+  "prompt_wish_subtitle": "prompt_wish_subtitle"
 }

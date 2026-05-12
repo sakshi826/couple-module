@@ -48,5 +48,5 @@
     "save": "구하다",
     "loading": "로딩 중..."
   },
-  "app_description": "회전목마"
+  "app_description": "손실 지도 • {{current}}/{{total}}"
 }

@@ -58,5 +58,8 @@
   "app_complete_message": "Du har klart å huske og koble deg til en kilde til glede. Behold denne følelsen med deg mens du går gjennom dagen.",
   "app_duration": "5 minutter",
   "app_title": "Gledelige aktiviteter",
-  "app_description": "karusell"
+  "app_description": "Gjenoppdage gledelige øyeblikk",
+  "intro_p1": "Når du føler deg nedfor, engstelig eller overveldet, kan det være vanskelig å huske hva som gir deg glede.",
+  "intro_p2": "Denne aktiviteten handler ikke om å gjøre mer. Det handler om å legge merke til små øyeblikk som føles lette, rolige eller meningsfulle.",
+  "intro_p3": "Det er ikke noe press for å føle seg lykkelig. Vi utforsker rett og slett hva som føles bare litt bra."
 }

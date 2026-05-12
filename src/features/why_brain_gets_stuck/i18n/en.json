@@ -37,5 +37,6 @@
     "next": "Next",
     "save": "Save",
     "loading": "Loading..."
-  }
+  },
+  "app_description": "The logic of survival • {{step}}/{{total}}"
 }

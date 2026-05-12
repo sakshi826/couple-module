@@ -81,9 +81,9 @@
       "Healthy Meal": "Zdrowy posiłek",
       "Nature / Walk": "Przyroda / Spacer",
       "Social Time": "Czas towarzyski",
-      "Hobby": "Hobby",
       "Therapy": "Terapia",
-      "Digital Detox": "Cyfrowy detoks"
+      "Digital Detox": "Cyfrowy detoks",
+      "Hobby": "Hobby"
     },
     "durations": {
       "< 10 minutes": "< 10 minut",
@@ -113,9 +113,9 @@
       "Happy": "Szczęśliwego",
       "Calm": "Spokój",
       "Neutral": "Neutralny",
-      "Low": "Low",
       "Stressed": "Stresowany",
-      "Tired": "Zmęczony"
+      "Tired": "Zmęczony",
+      "Low": "Niski"
     },
     "positiveStatements": {
       "0": "Dziś pojawiłeś się dla siebie. To potężne. 🌿",
@@ -135,6 +135,5 @@
   "intro_p1": "ekrany.intro.korzyści.0",
   "intro_p2": "ekrany.intro.korzyści.1",
   "intro_p3": "ekrany.intro.korzyści.2",
-  "intro_p4": "ekrany.intro.korzyści.3",
-  "app_description": "karuzela"
+  "intro_p4": "ekrany.intro.korzyści.3"
 }

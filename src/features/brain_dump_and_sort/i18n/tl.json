@@ -50,9 +50,8 @@
     "loading": "Naglo-load..."
   },
   "app_duration": "5-10 minuto",
-  "intro_p1": "hakbang_1",
-  "intro_p2": "hakbang_2",
-  "intro_p3": "hakbang_3",
   "app_title": "Pagtatapon ng Utak",
-  "app_description": "karusel"
+  "intro_p1": "1. I-download ang iyong utak sa digital na pahina.",
+  "intro_p2": "2. Pagbukud-bukurin kung ano ang kailangang aksyonan at kung ano ang maaaring maghintay.",
+  "intro_p3": "3. Tumutok sa isang maliit na susunod na hakbang."
 }

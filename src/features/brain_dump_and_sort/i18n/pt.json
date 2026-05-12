@@ -50,9 +50,8 @@
     "loading": "Carregando..."
   },
   "app_duration": "5 a 10 minutos",
-  "intro_p1": "passo_1",
-  "intro_p2": "passo_2",
-  "intro_p3": "passo_3",
   "app_title": "Desabafo",
-  "app_description": "carrossel"
+  "intro_p1": "1. Transfira o conteúdo do seu cérebro para a página digital.",
+  "intro_p2": "2. Separe o que precisa de ação e o que pode esperar.",
+  "intro_p3": "3. Concentre-se em apenas um pequeno próximo passo."
 }

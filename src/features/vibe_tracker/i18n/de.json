@@ -21,14 +21,14 @@
   "vibes": {
     "Calm": "Ruhe",
     "Light": "Licht",
-    "Driven": "Driven",
     "Content": "Inhalt",
     "Steady": "Ruhig",
-    "Tender": "Tender",
     "Heavy": "Schwer",
     "Thoughtful": "Nachdenklich",
     "Restless": "Unruhig",
-    "Drained": "Ausgelaugt"
+    "Drained": "Ausgelaugt",
+    "Driven": "Angetrieben",
+    "Tender": "Zart"
   },
   "prompts": {
     "needing": "Was könntest du gerade brauchen?",
@@ -55,6 +55,5 @@
   "app_duration": "1-2 Minuten",
   "intro_p1": "Verfolge deine emotionalen Muster",
   "intro_p2": "Reflektiere über deine heutige Stimmung",
-  "intro_p3": "Emotionales Bewusstsein entwickeln",
-  "app_description": "Karussell"
+  "intro_p3": "Emotionales Bewusstsein entwickeln"
 }

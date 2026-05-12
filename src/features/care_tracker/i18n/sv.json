@@ -73,7 +73,6 @@
   "data": {
     "activities": {
       "Exercise": "Träning",
-      "Meditation": "Meditation",
       "Journaling": "Dagboksskrivning",
       "Reading": "Läsning",
       "Rest / Nap": "Vila / Vila",
@@ -81,9 +80,10 @@
       "Healthy Meal": "Hälsosam måltid",
       "Nature / Walk": "Natur / Vandring",
       "Social Time": "Social tid",
-      "Hobby": "Hobby",
       "Therapy": "Terapi",
-      "Digital Detox": "Digital avgiftning"
+      "Digital Detox": "Digital avgiftning",
+      "Meditation": "Meditation",
+      "Hobby": "Hobby"
     },
     "durations": {
       "< 10 minutes": "< 10 minuter",
@@ -94,12 +94,12 @@
     "reasons": {
       "Busy schedule": "Fullspäckat schema",
       "Low energy": "Låg energi",
-      "Stress": "Stress",
       "Forgot": "Glömt",
       "No motivation": "Ingen motivation",
       "Not feeling well": "Mår inte bra",
       "Lack of time": "Brist på tid",
-      "Emotional overwhelm": "Emotionell överväldigande"
+      "Emotional overwhelm": "Emotionell överväldigande",
+      "Stress": "Stress"
     },
     "helpfulTypes": {
       "Rest": "Vila",
@@ -112,10 +112,10 @@
     "moods": {
       "Happy": "Glad",
       "Calm": "Lugn",
-      "Neutral": "Neutral",
       "Low": "Lågt",
       "Stressed": "Stressad",
-      "Tired": "Trött"
+      "Tired": "Trött",
+      "Neutral": "Neutral"
     },
     "positiveStatements": {
       "0": "Du dök upp för din egen skull idag. Det är kraftfullt. 🌿",
@@ -135,6 +135,5 @@
   "intro_p1": "screens.intro.benefits.0",
   "intro_p2": "skärmar.introduktion.fördelar.1",
   "intro_p3": "skärmar.introduktion.fördelar.2",
-  "intro_p4": "skärmar.introduktion.fördelar.3",
-  "app_description": "karusell"
+  "intro_p4": "skärmar.introduktion.fördelar.3"
 }

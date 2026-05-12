@@ -1,7 +1,5 @@
 {
   "intro_title": "Un moment pour se reconnecter",
-  "intro_p1": "Lorsque vous vous sentez déprimé, anxieux ou submergé, il est facile de perdre de vue ce qui compte vraiment pour vous.",
-  "intro_p2": "Un énoncé de mission personnelle n'est pas une question de pression ou de productivité. C'est un doux rappel de vos valeurs — du genre de personne que vous voulez être, même dans les moments difficiles.",
   "intro_breath": "Prenez une lente inspiration.",
   "intro_no_wrong": "Il n'y a pas de bonnes ou de mauvaises réponses.",
   "intro_begin": "Commencer",
@@ -63,5 +61,6 @@
   },
   "app_duration": "5 à 10 minutes",
   "app_title": "Déclaration de mission personnelle",
-  "app_description": "carrousel"
+  "intro_p1": "Clarifiez votre chemin",
+  "intro_p2": "Un énoncé de mission personnelle n'est pas une question de pression ou de productivité. C'est un doux rappel de vos valeurs — du genre de personne que vous voulez être, même dans les moments difficiles."
 }

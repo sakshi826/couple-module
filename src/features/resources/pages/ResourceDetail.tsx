@@ -3,17 +3,53 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { CheckCircle2, Sparkles, Lightbulb, MessageCircle, HelpCircle } from 'lucide-react';
 import { PremiumLayout } from '../../../components/shared/PremiumLayout';
-import sampleData from '../data/sample_data.json';
+import sampleDataEn from '../data/sample_data.json';
 import { Resource, Tip, Article, Story, Myth } from '../types';
 import { useTranslation } from 'react-i18next';
+import { useEffect, useState } from 'react';
 
 const ResourceDetail = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { type, id } = useParams<{ concern: string; type: string; id: string }>();
   const navigate = useNavigate();
   
-  const allResources = (sampleData as any)[type || ''] || [];
-  const resource = allResources.find((r: any) => r.id === id) as Resource;
+  const [resource, setResource] = useState<Resource | null>(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const loadData = async () => {
+      setLoading(true);
+      try {
+        let data = sampleDataEn;
+        if (i18n.language !== 'en') {
+          try {
+            const localized = await import(`../data/sample_data_${i18n.language}.json`);
+            data = localized.default || localized;
+          } catch (e) {
+            console.warn(`Localized data for ${i18n.language} not found, falling back to English`);
+          }
+        }
+        const allResources = (data as any)[type || ''] || [];
+        const found = allResources.find((r: any) => r.id === id) as Resource;
+        setResource(found);
+      } catch (err) {
+        console.error("Failed to load resource detail:", err);
+      } finally {
+        setLoading(false);
+      }
+    };
+    loadData();
+  }, [type, id, i18n.language]);
+
+  if (loading) {
+    return (
+      <PremiumLayout title={t("common.loading")}>
+        <div className="flex items-center justify-center py-32">
+          <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin" />
+        </div>
+      </PremiumLayout>
+    );
+  }
 
   if (!resource) {
     return (

@@ -24,11 +24,11 @@
     "Driven": "Napędzane",
     "Content": "Treść",
     "Steady": "Spokojnie",
-    "Tender": "Tender",
-    "Heavy": "Heavy",
     "Thoughtful": "Przemyślane",
     "Restless": "Niespokojny",
-    "Drained": "Osuszony"
+    "Drained": "Osuszony",
+    "Tender": "Miękki",
+    "Heavy": "Ciężki"
   },
   "prompts": {
     "needing": "Czego możesz teraz potrzebować?",
@@ -55,6 +55,5 @@
   "app_duration": "1-2 minuty",
   "intro_p1": "Śledź swoje wzorce emocjonalne",
   "intro_p2": "Zastanów się nad swoim dzisiejszym nastrojem",
-  "intro_p3": "Zbuduj świadomość emocjonalną",
-  "app_description": "karuzela"
+  "intro_p3": "Zbuduj świadomość emocjonalną"
 }

@@ -50,9 +50,8 @@
     "loading": "Laster inn..."
   },
   "app_duration": "5–10 minutter",
-  "intro_p1": "trinn_1",
-  "intro_p2": "trinn_2",
-  "intro_p3": "trinn_3",
   "app_title": "Hjernedump",
-  "app_description": "karusell"
+  "intro_p1": "1. Last ned hjernen din til den digitale siden.",
+  "intro_p2": "2. Sorter etter hva som trenger handling og hva som kan vente.",
+  "intro_p3": "3. Fokuser på bare ett lite neste steg."
 }

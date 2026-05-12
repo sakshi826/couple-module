@@ -34,8 +34,8 @@
   "app_complete_title": "Kerja bagus!",
   "app_complete_message": "Anda telah menyelesaikan sesi Box Breathing. Anda harus merasa lebih seimbang dan tenang.",
   "app_duration": "5 menit",
-  "intro_p1": "menghirup_4 detik",
-  "intro_p2": "tahan_4 detik",
-  "intro_p3": "hembuskan napas_4 detik",
-  "app_description": "korsel"
+  "intro_p1": "Tarik napas selama 4 detik",
+  "intro_p2": "Tahan selama 4 detik",
+  "intro_p3": "Hembuskan napas selama 4 detik",
+  "app_description": "Teknik pernapasan kotak menggunakan pola sederhana 4-4-4-4 — tarik napas, tahan, hembuskan napas, tahan — masing-masing selama empat detik. Teknik ini mengaktifkan sistem saraf parasimpatik Anda, mengurangi stres dan mengembalikan Anda ke keadaan tenang dan fokus."
 }

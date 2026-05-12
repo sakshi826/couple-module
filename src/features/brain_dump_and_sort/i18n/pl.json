@@ -50,9 +50,8 @@
     "loading": "Załadunek..."
   },
   "app_duration": "5-10 minut",
-  "intro_p1": "krok_1",
-  "intro_p2": "krok_2",
-  "intro_p3": "krok_3",
   "app_title": "Zrzut mózgu",
-  "app_description": "karuzela"
+  "intro_p1": "1. Przenieś swój mózg na stronę cyfrową.",
+  "intro_p2": "2. Posortuj, co wymaga działania, a co może poczekać.",
+  "intro_p3": "3. Skoncentruj się na jednym, małym kroku."
 }

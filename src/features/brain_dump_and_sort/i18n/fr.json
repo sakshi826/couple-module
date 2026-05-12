@@ -50,9 +50,8 @@
     "loading": "Chargement..."
   },
   "app_duration": "5 à 10 minutes",
-  "intro_p1": "étape_1",
-  "intro_p2": "étape_2",
-  "intro_p3": "étape_3",
   "app_title": "Déversement de cerveau",
-  "app_description": "carrousel"
+  "intro_p1": "1. Téléchargez votre cerveau sur la page numérique.",
+  "intro_p2": "2. Faites le tri entre ce qui nécessite une action et ce qui peut attendre.",
+  "intro_p3": "3. Concentrez-vous sur une seule petite étape suivante."
 }

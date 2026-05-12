@@ -38,5 +38,5 @@
     "save": "Speichern",
     "loading": "Laden..."
   },
-  "app_description": "Karussell"
+  "app_description": "Die Logik des Überlebens • {{step}}/{{total}}"
 }

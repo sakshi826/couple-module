@@ -34,8 +34,8 @@
   "app_complete_title": "Goed gedaan!",
   "app_complete_message": "Je hebt de Box Breathing-sessie voltooid. Je zou je meer in balans en kalm moeten voelen.",
   "app_duration": "5 minuten",
-  "intro_p1": "inhale_4s",
-  "intro_p2": "hold_4s",
-  "intro_p3": "uitademen_4s",
-  "app_description": "carrousel"
+  "intro_p1": "Adem 4 seconden in.",
+  "intro_p2": "Houd 4 seconden vast",
+  "intro_p3": "Adem 4 seconden uit.",
+  "app_description": "Box breathing maakt gebruik van een eenvoudig 4-4-4-4-patroon: inademen, adem inhouden, uitademen, adem inhouden, telkens vier seconden. Het activeert je parasympathische zenuwstelsel, waardoor stress afneemt en je weer kalm en geconcentreerd raakt."
 }

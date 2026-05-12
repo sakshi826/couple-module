@@ -34,8 +34,8 @@
   "app_complete_title": "Godt klaret!",
   "app_complete_message": "Du har gennemført Box Breathing-sessionen. Du bør føle dig mere afbalanceret og rolig.",
   "app_duration": "5 minutter",
-  "intro_p1": "inhal_4s",
-  "intro_p2": "hold_4s",
-  "intro_p3": "udånd_4s",
-  "app_description": "karrusel"
+  "intro_p1": "Inhalér i 4 sekunder",
+  "intro_p2": "Hold i 4 sekunder",
+  "intro_p3": "Udånd i 4 sekunder",
+  "app_description": "Boksåndedræt bruger et simpelt 4-4-4-4-mønster – indånd, hold, udånd, hold – hver i fire sekunder. Det aktiverer dit parasympatiske nervesystem, hvilket sænker stress og bringer dig tilbage til en rolig og fokuseret tilstand."
 }

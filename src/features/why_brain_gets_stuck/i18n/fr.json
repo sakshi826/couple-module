@@ -38,5 +38,5 @@
     "save": "Sauvegarder",
     "loading": "Chargement..."
   },
-  "app_description": "carrousel"
+  "app_description": "La logique de la survie • {{step}}/{{total}}"
 }

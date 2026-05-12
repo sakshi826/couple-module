@@ -48,5 +48,5 @@
     "save": "Salva",
     "loading": "Încărcare..."
   },
-  "app_description": "carusel"
+  "app_description": "Harta pierderilor • {{current}}/{{total}}"
 }

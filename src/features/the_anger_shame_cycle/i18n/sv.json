@@ -81,5 +81,5 @@
     "save": "Spara",
     "loading": "Belastning..."
   },
-  "app_description": "karusell"
+  "app_description": "Förstå loopen • {{step}}/{{total}}"
 }

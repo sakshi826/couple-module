@@ -73,7 +73,6 @@
   "data": {
     "activities": {
       "Exercise": "Bewegung",
-      "Meditation": "Meditation",
       "Journaling": "Tagebuchschreiben",
       "Reading": "Lektüre",
       "Rest / Nap": "Erholung / Nickerchen",
@@ -81,9 +80,10 @@
       "Healthy Meal": "Gesunde Mahlzeit",
       "Nature / Walk": "Natur / Spaziergang",
       "Social Time": "Sozialzeit",
-      "Hobby": "Hobby",
       "Therapy": "Therapie",
-      "Digital Detox": "Digitale Entgiftung"
+      "Digital Detox": "Digitale Entgiftung",
+      "Meditation": "Meditation",
+      "Hobby": "Hobby"
     },
     "durations": {
       "< 10 minutes": "< 10 Minuten",
@@ -94,12 +94,12 @@
     "reasons": {
       "Busy schedule": "Voller Terminkalender",
       "Low energy": "Niedrige Energie",
-      "Stress": "Stress",
       "Forgot": "Vergessen",
       "No motivation": "Keine Motivation",
       "Not feeling well": "Mir geht es nicht gut",
       "Lack of time": "Zeitmangel",
-      "Emotional overwhelm": "Emotionale Überforderung"
+      "Emotional overwhelm": "Emotionale Überforderung",
+      "Stress": "Stress"
     },
     "helpfulTypes": {
       "Rest": "Ruhe",
@@ -112,10 +112,10 @@
     "moods": {
       "Happy": "Glücklich",
       "Calm": "Ruhe",
-      "Neutral": "Neutral",
       "Low": "Niedrig",
       "Stressed": "Gestresst",
-      "Tired": "Müde"
+      "Tired": "Müde",
+      "Neutral": "Neutral"
     },
     "positiveStatements": {
       "0": "Du bist heute für dich selbst aufgetaucht. Das ist kraftvoll. 🌿",
@@ -135,6 +135,5 @@
   "intro_p1": "screens.intro.benefits.0",
   "intro_p2": "screens.intro.benefits.1",
   "intro_p3": "screens.intro.benefits.2",
-  "intro_p4": "screens.intro.benefits.3",
-  "app_description": "Karussell"
+  "intro_p4": "screens.intro.benefits.3"
 }

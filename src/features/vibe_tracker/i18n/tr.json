@@ -24,11 +24,11 @@
     "Driven": "Motivasyon",
     "Content": "İçerik",
     "Steady": "Sakin ol",
-    "Tender": "Tender",
     "Heavy": "Ağır",
     "Thoughtful": "Düşünceli",
     "Restless": "Huzursuz",
-    "Drained": "Boşaltılmış"
+    "Drained": "Boşaltılmış",
+    "Tender": "Sunmak"
   },
   "prompts": {
     "needing": "Şu anda neye ihtiyacınız olabilir?",
@@ -55,6 +55,5 @@
   "app_duration": "1-2 dakika",
   "intro_p1": "Duygusal kalıplarınızı takip edin.",
   "intro_p2": "Bugünkü ruh halinizi düşünün.",
-  "intro_p3": "Duygusal farkındalığı geliştirin",
-  "app_description": "atlıkarınca"
+  "intro_p3": "Duygusal farkındalığı geliştirin"
 }

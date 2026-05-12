@@ -81,5 +81,5 @@
     "save": "구하다",
     "loading": "로딩 중..."
   },
-  "app_description": "회전목마"
+  "app_description": "반복문 이해하기 • {{step}}/{{total}}"
 }

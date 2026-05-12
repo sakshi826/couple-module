@@ -50,9 +50,8 @@
     "loading": "Caricamento..."
   },
   "app_duration": "5-10 minuti",
-  "intro_p1": "passo_1",
-  "intro_p2": "passo_2",
-  "intro_p3": "passo_3",
   "app_title": "Brain Dump",
-  "app_description": "giostra"
+  "intro_p1": "1. Scarica il tuo cervello sulla pagina digitale.",
+  "intro_p2": "2. Distingui tra ciò che richiede un intervento immediato e ciò che può aspettare.",
+  "intro_p3": "3. Concentrati su un solo piccolo passo successivo."
 }

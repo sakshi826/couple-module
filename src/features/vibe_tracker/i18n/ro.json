@@ -19,16 +19,16 @@
   "noVibes": "Nu am înregistrat încă vibrații",
   "startFirstCheckIn": "Începe primul tău check-in pentru a-ți vedea călătoria desfășurându-se aici.",
   "vibes": {
-    "Calm": "Calm",
     "Light": "Lumină",
     "Driven": "Condus",
     "Content": "Conținut",
     "Steady": "Stabil",
-    "Tender": "Tender",
     "Heavy": "Greu",
     "Thoughtful": "Atent",
     "Restless": "Neliniștit",
-    "Drained": "Drenat"
+    "Drained": "Drenat",
+    "Tender": "Ofertă",
+    "Calm": "Calm"
   },
   "prompts": {
     "needing": "Ce ai putea avea nevoie acum?",
@@ -55,6 +55,5 @@
   "app_duration": "1-2 minute",
   "intro_p1": "Urmărește-ți tiparele emoționale",
   "intro_p2": "Reflectă asupra stării tale de spirit de astăzi",
-  "intro_p3": "Dezvoltați conștientizarea emoțională",
-  "app_description": "carusel"
+  "intro_p3": "Dezvoltați conștientizarea emoțională"
 }

@@ -1,7 +1,5 @@
 {
   "intro_title": "Isang Sandali para Muling Makipag-ugnayan",
-  "intro_p1": "Kapag nakakaramdam ka ng depresyon, pagkabalisa, o labis na pagkabalisa, madaling makalimutan kung ano talaga ang mahalaga sa iyo.",
-  "intro_p2": "Ang isang personal na pahayag ng misyon ay hindi tungkol sa pressure o produktibidad. Ito ay isang banayad na paalala ng iyong mga pinahahalagahan — ang uri ng tao na gusto mong maging, kahit sa mga mahihirap na panahon.",
   "intro_breath": "Huminga nang dahan-dahan.",
   "intro_no_wrong": "Walang tama o maling sagot dito.",
   "intro_begin": "Simulan",
@@ -63,5 +61,6 @@
   },
   "app_duration": "5-10 minuto",
   "app_title": "Personal na Pahayag ng Misyon",
-  "app_description": "karusel"
+  "intro_p1": "Magkaroon ng kalinawan sa iyong landas",
+  "intro_p2": "Ang isang personal na pahayag ng misyon ay hindi tungkol sa pressure o produktibidad. Ito ay isang banayad na paalala ng iyong mga pinahahalagahan — ang uri ng tao na gusto mong maging, kahit sa mga mahihirap na panahon."
 }

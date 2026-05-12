@@ -34,8 +34,8 @@
   "app_complete_title": "Bra jobbat!",
   "app_complete_message": "Du har slutfört Box Breathing-sessionen. Du borde känna dig mer balanserad och lugn.",
   "app_duration": "5 minuter",
-  "intro_p1": "andas in_4s",
-  "intro_p2": "hold_4s",
-  "intro_p3": "andas ut_4s",
-  "app_description": "karusell"
+  "intro_p1": "Andas in i 4 sekunder",
+  "intro_p2": "Håll i 4 sekunder",
+  "intro_p3": "Andas ut i 4 sekunder",
+  "app_description": "Boxandning använder ett enkelt 4-4-4-4-mönster – andas in, håll, andas ut, håll – vart och ett i fyra sekunder. Det aktiverar ditt parasympatiska nervsystem, vilket minskar stress och återför dig till ett lugnt, fokuserat tillstånd."
 }

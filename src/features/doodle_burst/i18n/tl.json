@@ -23,7 +23,6 @@
   "today": "Ngayon",
   "yesterday": "Kahapon",
   "delete_doodle": "Burahin ang Doodle",
-  "doodle": "doodle",
   "doodles": "mga doodle",
   "saved": "na-save",
   "tool_pen": "Panulat",
@@ -44,8 +43,9 @@
     "loading": "Naglo-load..."
   },
   "app_duration": "60 segundo",
+  "doodle": "doodle",
   "intro_p1": "Ilabas ang iyong pagkamalikhain",
   "intro_p2": "Ilabas ang nakakulong na enerhiya",
   "intro_p3": "Agarang pag-reset ng utak",
-  "app_description": "karusel"
+  "app_description": "Hayaang gumalaw ang utak mo kahit isang minuto."
 }

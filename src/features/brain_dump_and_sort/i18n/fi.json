@@ -50,9 +50,8 @@
     "loading": "Ladataan..."
   },
   "app_duration": "5–10 minuuttia",
-  "intro_p1": "vaihe_1",
-  "intro_p2": "vaihe_2",
-  "intro_p3": "vaihe_3",
   "app_title": "Aivodumpi",
-  "app_description": "karuselli"
+  "intro_p1": "1. Lataa aivosi digitaaliselle sivulle.",
+  "intro_p2": "2. Lajittele, mikä vaatii toimia ja mikä voi odottaa.",
+  "intro_p3": "3. Keskity vain yhteen pieneen seuraavaan askeleeseen."
 }

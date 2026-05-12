@@ -1,7 +1,5 @@
 {
   "intro_title": "Sesaat untuk Berhubung Semula",
-  "intro_p1": "Apabila anda berasa tertekan, cemas atau terharu, mudah untuk melupakan perkara yang benar-benar penting kepada anda.",
-  "intro_p2": "Pernyataan misi peribadi bukan mengenai tekanan atau produktiviti. Ia adalah peringatan lembut tentang nilai anda — jenis orang yang anda mahukan, walaupun semasa musim sukar.",
   "intro_breath": "Tarik nafas perlahan.",
   "intro_no_wrong": "Tiada jawapan yang betul atau salah di sini.",
   "intro_begin": "Mulakan",
@@ -63,5 +61,6 @@
   },
   "app_duration": "5-10 minit",
   "app_title": "Pernyataan Misi Peribadi",
-  "app_description": "karusel"
+  "intro_p1": "Dapatkan kejelasan di jalan anda",
+  "intro_p2": "Pernyataan misi peribadi bukanlah tentang tekanan atau produktiviti. Ia adalah peringatan lembut tentang nilai-nilai anda — jenis orang yang anda inginkan, walaupun semasa musim yang sukar."
 }

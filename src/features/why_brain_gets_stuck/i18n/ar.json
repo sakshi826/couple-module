@@ -38,5 +38,5 @@
     "save": "يحفظ",
     "loading": "تحميل..."
   },
-  "app_description": "دوامة الخيل"
+  "app_description": "منطق البقاء • {{step}}/{{total}}"
 }

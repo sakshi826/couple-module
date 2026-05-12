@@ -1,6 +1,5 @@
 {
   "add_another_button": "添加另一个按钮",
-  "app_title": "app_title",
   "back_to_reflection_button": "返回反射按钮",
   "begin_button": "开始按钮",
   "breathing_instruction": "呼吸指导",
@@ -13,7 +12,6 @@
   "connection_subtitle": "连接_字幕",
   "connection_title": "连接标题",
   "continue_button": "继续按钮",
-  "cue_body": "cue_body",
   "finish_button": "完成按钮",
   "label_name": "标签名称",
   "label_relation": "标签关系",
@@ -22,12 +20,12 @@
   "label_what_they_want": "标签他们想要什么",
   "label_your_step": "标签你的步骤",
   "nav": {
-    "carry_forward": "nav.carry_forward",
     "complete": "导航完成",
     "history": "导航历史",
     "honoring": "导航致敬",
     "reflecting": "导航反射",
-    "welcome": "导航.欢迎"
+    "welcome": "导航.欢迎",
+    "carry_forward": "nav.carry_forward"
   },
   "no_past_entries": "没有历史条目",
   "pace_instruction": "步速指令",
@@ -40,7 +38,6 @@
   "placeholder_wish": "占位符_愿望",
   "prompt_why": "提示为什么",
   "prompt_wish": "提示愿望",
-  "prompt_wish_subtitle": "prompt_wish_subtitle",
   "reflection_footer": "反射页脚",
   "reflection_title": "反射标题",
   "save_button": "保存按钮",
@@ -61,5 +58,7 @@
     "save": "节省",
     "loading": "加载中..."
   },
-  "app_description": "旋转木马"
+  "app_title": "app_title",
+  "cue_body": "cue_body",
+  "prompt_wish_subtitle": "prompt_wish_subtitle"
 }

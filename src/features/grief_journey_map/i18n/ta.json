@@ -48,5 +48,5 @@
     "save": "சேமிக்கவும்",
     "loading": "ஏற்றப்படுகிறது..."
   },
-  "app_description": "சுழல்வட்டம்"
+  "app_description": "இழப்பின் வரைபடம் • {{current}}/{{total}}"
 }

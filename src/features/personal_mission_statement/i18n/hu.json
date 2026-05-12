@@ -1,7 +1,5 @@
 {
   "intro_title": "Egy pillanat, hogy újra kapcsolódjunk",
-  "intro_p1": "Amikor depressziósnak, szorongónak vagy túlterheltnek érzed magad, könnyű elveszíteni a szem elől, mi az igazán fontos számodra.",
-  "intro_p2": "A személyes küldetésnyilatkozat nem a nyomásról vagy a termelékenységről szól. Ez gyengéd emlékeztető az értékeidre — milyen embernek szeretnél lenni, még a nehéz időszakokban is.",
   "intro_breath": "Vegyél egy lassú lélegzetet.",
   "intro_no_wrong": "Itt nincsenek helyes vagy rossz válaszok.",
   "intro_begin": "Kezdjük",
@@ -63,5 +61,6 @@
   },
   "app_duration": "5-10 perc",
   "app_title": "Személyes küldetésnyilatkozat",
-  "app_description": "körhinta"
+  "intro_p1": "Nyerj tisztánlátást az utadon",
+  "intro_p2": "A személyes küldetésnyilatkozat nem a nyomásról vagy a termelékenységről szól. Egy gyengéd emlékeztető az értékeidre – arra, hogy milyen ember szeretnél lenni, még a nehéz időszakokban is."
 }

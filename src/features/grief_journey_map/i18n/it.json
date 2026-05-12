@@ -48,5 +48,5 @@
     "save": "Salva",
     "loading": "Caricamento..."
   },
-  "app_description": "giostra"
+  "app_description": "Mappa delle perdite • {{attuale}}/{{totale}}"
 }

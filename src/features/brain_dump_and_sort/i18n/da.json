@@ -50,9 +50,8 @@
     "loading": "Indlæser..."
   },
   "app_duration": "5-10 minutter",
-  "intro_p1": "trin_1",
-  "intro_p2": "trin_2",
-  "intro_p3": "trin_3",
   "app_title": "Hjernedump",
-  "app_description": "karrusel"
+  "intro_p1": "1. Download din hjerne på den digitale side.",
+  "intro_p2": "2. Sorter i, hvad der kræver handling, og hvad der kan vente.",
+  "intro_p3": "3. Fokuser på blot ét lille næste skridt."
 }

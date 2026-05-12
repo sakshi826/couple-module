@@ -81,5 +81,5 @@
     "save": "बचाना",
     "loading": "लोड हो रहा है..."
   },
-  "app_description": "हिंडोला"
+  "app_description": "लूप को समझना • {{step}}/{{total}}"
 }

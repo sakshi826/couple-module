@@ -34,8 +34,8 @@
   "app_complete_title": "Świetna robota!",
   "app_complete_message": "Ukończyłeś sesję Box Breathing. Powinieneś czuć się bardziej zrównoważony i spokojny.",
   "app_duration": "5 minut",
-  "intro_p1": "wdech_4s",
-  "intro_p2": "przytrzymaj_4s",
-  "intro_p3": "wydech_4s",
-  "app_description": "karuzela"
+  "intro_p1": "Wdychaj przez 4 sekundy",
+  "intro_p2": "Przytrzymaj przez 4 sekundy",
+  "intro_p3": "Wydychaj przez 4 sekundy",
+  "app_description": "Oddychanie pudełkowe wykorzystuje prosty schemat 4-4-4-4 – wdech, wstrzymanie, wydech, wstrzymanie – każde przez cztery sekundy. Aktywuje ono układ nerwowy przywspółczulny, obniżając stres i przywracając spokój i skupienie."
 }

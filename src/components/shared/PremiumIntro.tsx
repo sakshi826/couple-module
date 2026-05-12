@@ -46,15 +46,14 @@ export const PremiumIntro: React.FC<PremiumIntroProps> = ({
           </div>
         </motion.div>
 
-        {/* Title & Description */}
+        {/* Description */}
         <motion.div
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.15 }}
           className="text-center space-y-4"
         >
-          <h1 className="text-4xl font-black text-slate-900 leading-[1.1] tracking-tight">{title}</h1>
-          <p className="text-lg text-slate-500 font-medium leading-relaxed max-w-md mx-auto">{description}</p>
+          <p className="text-xl text-slate-900 font-black leading-tight tracking-tight max-w-md mx-auto">{description}</p>
         </motion.div>
 
         {/* Benefits */}
@@ -79,19 +78,6 @@ export const PremiumIntro: React.FC<PremiumIntroProps> = ({
                 <span className="text-sm font-bold text-slate-700">{benefit}</span>
               </motion.div>
             ))}
-          </motion.div>
-        )}
-
-        {/* Duration */}
-        {duration && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.45 }}
-            className="flex items-center justify-center gap-2.5 text-slate-400 text-xs font-black uppercase tracking-widest"
-          >
-            <Clock size={14} className="text-primary" strokeWidth={2.5} />
-            <span>{t("common.time_to_complete", "Time to complete")}: <span className="text-slate-900">{duration}</span></span>
           </motion.div>
         )}
 

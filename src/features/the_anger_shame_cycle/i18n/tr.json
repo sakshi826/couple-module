@@ -81,5 +81,5 @@
     "save": "Kaydetmek",
     "loading": "Yükleniyor..."
   },
-  "app_description": "atlıkarınca"
+  "app_description": "Döngüyü Anlamak • {{adım}}/{{toplam}}"
 }

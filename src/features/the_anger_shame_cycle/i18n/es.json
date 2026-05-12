@@ -81,5 +81,5 @@
     "save": "Ahorrar",
     "loading": "Cargando..."
   },
-  "app_description": "carrusel"
+  "app_description": "Comprender el bucle • {{step}}/{{total}}"
 }

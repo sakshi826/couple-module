@@ -24,11 +24,11 @@
     "Driven": "Didorong",
     "Content": "Kandungan",
     "Steady": "Mantap",
-    "Tender": "Tender",
     "Heavy": "Berat",
     "Thoughtful": "Bertimbang rasa",
     "Restless": "Gelisah",
-    "Drained": "Dikeringkan"
+    "Drained": "Dikeringkan",
+    "Tender": "Tender"
   },
   "prompts": {
     "needing": "Apa yang mungkin anda perlukan sekarang?",
@@ -55,6 +55,5 @@
   "app_duration": "1-2 minit",
   "intro_p1": "Jejaki corak emosi anda",
   "intro_p2": "Renungkan kembali suasana hati anda hari ini",
-  "intro_p3": "Bina kesedaran emosi",
-  "app_description": "karusel"
+  "intro_p3": "Bina kesedaran emosi"
 }

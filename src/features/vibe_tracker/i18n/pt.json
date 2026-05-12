@@ -24,11 +24,11 @@
     "Driven": "Conduzidos",
     "Content": "Conteúdo",
     "Steady": "Firme",
-    "Tender": "Tender",
     "Heavy": "Pesado",
     "Thoughtful": "Atencioso",
     "Restless": "Inquieto",
-    "Drained": "Drenado"
+    "Drained": "Drenado",
+    "Tender": "Macio"
   },
   "prompts": {
     "needing": "O que você pode estar precisando agora?",
@@ -55,6 +55,5 @@
   "app_duration": "1-2 minutos",
   "intro_p1": "Acompanhe seus padrões emocionais.",
   "intro_p2": "Reflita sobre seu estado de espírito hoje.",
-  "intro_p3": "Desenvolver a consciência emocional",
-  "app_description": "carrossel"
+  "intro_p3": "Desenvolver a consciência emocional"
 }

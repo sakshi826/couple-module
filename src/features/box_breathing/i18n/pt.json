@@ -34,8 +34,8 @@
   "app_complete_title": "Ótimo trabalho!",
   "app_complete_message": "Você completou a sessão de Respiração da Caixa. Você deve se sentir mais equilibrado e calmo.",
   "app_duration": "5 minutos",
-  "intro_p1": "inalar_4s",
-  "intro_p2": "segurar_4s",
-  "intro_p3": "expirar_4s",
-  "app_description": "carrossel"
+  "intro_p1": "Inspire durante 4 segundos.",
+  "intro_p2": "Mantenha pressionado por 4 segundos.",
+  "intro_p3": "Expire durante 4 segundos.",
+  "app_description": "A respiração quadrada utiliza um padrão simples de 4-4-4-4 — inspire, segure, expire, segure — cada repetição por quatro segundos. Ela ativa o sistema nervoso parassimpático, reduzindo o estresse e trazendo você de volta a um estado de calma e concentração."
 }

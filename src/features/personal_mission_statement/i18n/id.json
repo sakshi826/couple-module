@@ -1,7 +1,5 @@
 {
   "intro_title": "Momen untuk Terhubung Kembali",
-  "intro_p1": "Saat Anda merasa depresi, cemas, atau kewalahan, mudah untuk melupakan apa yang benar-benar penting bagi Anda.",
-  "intro_p2": "Pernyataan misi pribadi bukanlah tentang tekanan atau produktivitas. Ini adalah pengingat lembut tentang nilai-nilai Anda — jenis orang seperti apa yang ingin Anda jadikan diri Anda, bahkan selama masa-masa sulit.",
   "intro_breath": "Ambil satu napas perlahan.",
   "intro_no_wrong": "Tidak ada jawaban benar atau salah di sini.",
   "intro_begin": "Mulai",
@@ -63,5 +61,6 @@
   },
   "app_duration": "5-10 menit",
   "app_title": "Pernyataan Misi Pribadi",
-  "app_description": "korsel"
+  "intro_p1": "Dapatkan kejelasan tentang jalan Anda",
+  "intro_p2": "Pernyataan misi pribadi bukanlah tentang tekanan atau produktivitas. Ini adalah pengingat lembut tentang nilai-nilai Anda — jenis orang seperti apa yang ingin Anda jadikan diri Anda, bahkan selama masa-masa sulit."
 }

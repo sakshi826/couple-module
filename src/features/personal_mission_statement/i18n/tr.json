@@ -1,7 +1,5 @@
 {
   "intro_title": "Yeniden Bağ Kurmak İçin Bir An",
-  "intro_p1": "Depresyonda, endişeli veya bunalmış hissettiğinizde, sizin için gerçekten önemli olan şeyleri gözden kaçırmak kolaydır.",
-  "intro_p2": "Kişisel misyon bildirisi, baskı veya verimlilikle ilgili değildir. Zor dönemlerde bile nasıl bir insan olmak istediğinizi, değerlerinizi nazikçe hatırlatan bir uyarıdır.",
   "intro_breath": "Yavaşça bir nefes alın.",
   "intro_no_wrong": "Burada doğru ya da yanlış cevap yok.",
   "intro_begin": "Başlamak",
@@ -63,5 +61,6 @@
   },
   "app_duration": "5-10 dakika",
   "app_title": "Kişisel Misyon Bildirisi",
-  "app_description": "atlıkarınca"
+  "intro_p1": "Yolunuzda netlik kazanın.",
+  "intro_p2": "Kişisel misyon bildirisi, baskı veya verimlilikle ilgili değildir. Zor dönemlerde bile nasıl bir insan olmak istediğinizi, değerlerinizi nazikçe hatırlatan bir uyarıdır."
 }

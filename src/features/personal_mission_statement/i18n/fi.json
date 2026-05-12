@@ -1,7 +1,5 @@
 {
   "intro_title": "Hetki yhteyden palauttamiseen",
-  "intro_p1": "Kun tunnet olosi masentuneeksi, ahdistuneeksi tai ylikuormittuneeksi, on helppo unohtaa, mikä sinulle todella merkitsee.",
-  "intro_p2": "Henkilökohtainen missiolauseke ei liity paineeseen tai tuottavuuteen. Se on lempeä muistutus arvoistasi — millainen ihminen haluat olla, jopa vaikeina aikoina.",
   "intro_breath": "Hengitä hitaasti.",
   "intro_no_wrong": "Tässä ei ole oikeita tai vääriä vastauksia.",
   "intro_begin": "Aloita",
@@ -63,5 +61,6 @@
   },
   "app_duration": "5–10 minuuttia",
   "app_title": "Henkilökohtainen missiolausunto",
-  "app_description": "karuselli"
+  "intro_p1": "Saat selkeyttä polullesi",
+  "intro_p2": "Henkilökohtainen missiolausunto ei kerro paineesta tai tuottavuudesta. Se on lempeä muistutus arvoistasi – millainen ihminen haluat olla, myös vaikeina aikoina."
 }

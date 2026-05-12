@@ -50,9 +50,8 @@
     "loading": "Încărcare..."
   },
   "app_duration": "5-10 minute",
-  "intro_p1": "pasul 1",
-  "intro_p2": "pasul 2",
-  "intro_p3": "pasul 3",
   "app_title": "Descărcare de creiere",
-  "app_description": "carusel"
+  "intro_p1": "1. Descarcă-ți creierul pe pagina digitală.",
+  "intro_p2": "2. Sortează ce necesită acțiune și ce poate aștepta.",
+  "intro_p3": "3. Concentrează-te pe un singur mic pas următor."
 }

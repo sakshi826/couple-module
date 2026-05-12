@@ -50,9 +50,8 @@
     "loading": "Laden..."
   },
   "app_duration": "5-10 Minuten",
-  "intro_p1": "Schritt_1",
-  "intro_p2": "Schritt 2",
-  "intro_p3": "Schritt 3",
   "app_title": "Gedankenerguss",
-  "app_description": "Karussell"
+  "intro_p1": "1. Laden Sie Ihr Gehirn auf die digitale Seite herunter.",
+  "intro_p2": "2. Sortieren Sie in Dinge, die sofortiges Handeln erfordern, und solche, die warten können.",
+  "intro_p3": "3. Konzentriere dich auf nur einen kleinen nächsten Schritt."
 }

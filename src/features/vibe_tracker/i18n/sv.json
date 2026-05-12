@@ -21,14 +21,14 @@
   "vibes": {
     "Calm": "Lugn",
     "Light": "Ljus",
-    "Driven": "Driven",
     "Content": "Innehåll",
     "Steady": "Stadigt",
-    "Tender": "Tender",
     "Heavy": "Tungt",
     "Thoughtful": "Eftertänksamt",
     "Restless": "Rastlös",
-    "Drained": "Tömd"
+    "Drained": "Tömd",
+    "Tender": "Anbud",
+    "Driven": "Driven"
   },
   "prompts": {
     "needing": "Vad kan du behöva just nu?",
@@ -55,6 +55,5 @@
   "app_duration": "1–2 minuter",
   "intro_p1": "Följ dina känslomässiga mönster",
   "intro_p2": "Reflektera över ditt humör idag",
-  "intro_p3": "Bygg emotionell medvetenhet",
-  "app_description": "karusell"
+  "intro_p3": "Bygg emotionell medvetenhet"
 }

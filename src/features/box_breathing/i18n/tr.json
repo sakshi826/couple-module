@@ -34,8 +34,8 @@
   "app_complete_title": "Harika iş!",
   "app_complete_message": "Box Breath seansını tamamladın. Daha dengeli ve sakin hissetmelisin.",
   "app_duration": "5 dakika",
-  "intro_p1": "nefes_4s",
-  "intro_p2": "tut_4s",
-  "intro_p3": "nefes_4s",
-  "app_description": "atlıkarınca"
+  "intro_p1": "4 saniye boyunca nefes alın.",
+  "intro_p2": "4 saniye boyunca bekleyin",
+  "intro_p3": "4 saniye boyunca nefes verin.",
+  "app_description": "Kutu nefes tekniği, dört saniye süren basit bir 4-4-4-4 kalıbı kullanır: nefes alın, tutun, nefes verin, tutun. Bu teknik, parasempatik sinir sisteminizi harekete geçirerek stresi azaltır ve sizi sakin, odaklanmış bir duruma geri getirir."
 }

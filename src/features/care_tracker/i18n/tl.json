@@ -82,8 +82,8 @@
       "Nature / Walk": "Kalikasan / Paglalakad",
       "Social Time": "Oras ng Panlipunan",
       "Hobby": "Libangan",
-      "Therapy": "Therapy",
-      "Digital Detox": "Digital Detox"
+      "Therapy": "Terapiya",
+      "Digital Detox": "Digital na Pag-detox"
     },
     "durations": {
       "< 10 minutes": "< 10 minuto",
@@ -92,14 +92,14 @@
       "1+ hour": "1+ oras"
     },
     "reasons": {
-      "Busy schedule": "Busy schedule",
       "Low energy": "Mababang enerhiya",
-      "Stress": "Stress",
       "Forgot": "Nakalimutan",
       "No motivation": "Walang pagganyak",
       "Not feeling well": "Hindi maganda ang pakiramdam",
       "Lack of time": "Kakulangan ng oras",
-      "Emotional overwhelm": "Emosyonal na labis na pagkabigo"
+      "Emotional overwhelm": "Emosyonal na labis na pagkabigo",
+      "Busy schedule": "Abalang iskedyul",
+      "Stress": "Stress"
     },
     "helpfulTypes": {
       "Rest": "Pahinga",
@@ -112,10 +112,10 @@
     "moods": {
       "Happy": "Maligayang pagdating",
       "Calm": "Kalmado",
-      "Neutral": "Neutral",
       "Low": "Mababa",
-      "Stressed": "Stressed",
-      "Tired": "Pagod"
+      "Tired": "Pagod",
+      "Stressed": "Na-stress",
+      "Neutral": "Neutral"
     },
     "positiveStatements": {
       "0": "Ipinakita mo ang iyong sarili sa araw na ito. Makapangyarihan iyan. 🌿",
@@ -135,6 +135,5 @@
   "intro_p1": "mga benepisyo ng screen.intro.0",
   "intro_p2": "mga benepisyo ng screen.intro.1",
   "intro_p3": "mga benepisyo ng screen.intro.2",
-  "intro_p4": "mga benepisyo ng screen.intro.3",
-  "app_description": "karusel"
+  "intro_p4": "mga benepisyo ng screen.intro.3"
 }

@@ -70,5 +70,7 @@
     "save": "Spare",
     "loading": "Indlæser..."
   },
-  "app_description": "karrusel"
+  "intro_p1": "På forskellige tidspunkter i livet kan vores støttesystem ændre sig. 🌱 Nogle gange føler vi os forbundet og støttede. Andre gange kan tingene føles fjerne eller uklare.",
+  "intro_p2": "Denne aktivitet er et sted, hvor du kan holde en pause og se på de mennesker, der omgiver dig – og forstå, hvem der i øjeblikket føler sig som en del af din omgangskreds. 💛",
+  "intro_p3": "Der er intet rigtigt eller forkert her. Kun bevidsthed. ✨"
 }

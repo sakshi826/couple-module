@@ -58,5 +58,8 @@
   "app_complete_message": "Sikeresen felidézted és kapcsolatot teremtettél az öröm forrásával. Tartsd magaddal ezt az érzést, miközben haladsz a nadon.",
   "app_duration": "5 perc",
   "app_title": "Örömteli tevékenységek",
-  "app_description": "körhinta"
+  "app_description": "Az örömteli pillanatok újrafelfedezése",
+  "intro_p1": "Amikor levertnek, szorongónak vagy túlterheltnek érzed magad, nehéz lehet emlékezni arra, hogy mi okoz örömet.",
+  "intro_p2": "Ez a tevékenység nem arról szól, hogy többet tegyünk. Arról szól, hogy észrevegyük azokat az apró pillanatokat, amelyek könnyednek, nyugodtnak vagy jelentőségteljesnek érződnek.",
+  "intro_p3": "Nincs nyomás arra, hogy boldogok legyünk. Egyszerűen csak azt fedezzük fel, ami akár csak egy kicsit is jól esik."
 }

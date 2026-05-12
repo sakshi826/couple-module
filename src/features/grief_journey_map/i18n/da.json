@@ -48,5 +48,5 @@
     "save": "Spare",
     "loading": "Indlæser..."
   },
-  "app_description": "karrusel"
+  "app_description": "Kort over tab • {{current}}/{{total}}"
 }

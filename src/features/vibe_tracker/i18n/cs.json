@@ -21,14 +21,14 @@
   "vibes": {
     "Calm": "Klid",
     "Light": "Světlo",
-    "Driven": "Driven",
     "Content": "Obsah",
     "Steady": "Stabilně",
     "Tender": "Tendr",
-    "Heavy": "Heavy",
     "Thoughtful": "Ohleduplné",
     "Restless": "Neklidný",
-    "Drained": "Odvodněná"
+    "Drained": "Odvodněná",
+    "Driven": "Řidič",
+    "Heavy": "Těžký"
   },
   "prompts": {
     "needing": "Co byste teď možná potřebovali?",
@@ -55,6 +55,5 @@
   "app_duration": "1–2 minuty",
   "intro_p1": "Sledujte své emoční vzorce",
   "intro_p2": "Zamyslete se nad svou dnešní náladou",
-  "intro_p3": "Budujte emoční uvědomění",
-  "app_description": "kolotoč"
+  "intro_p3": "Budujte emoční uvědomění"
 }

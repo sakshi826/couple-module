@@ -23,7 +23,6 @@
   "today": "I dag",
   "yesterday": "I går",
   "delete_doodle": "Slett Doodle",
-  "doodle": "doodle",
   "doodles": "kruseduller",
   "saved": "reddet",
   "tool_pen": "Penn",
@@ -44,8 +43,9 @@
     "loading": "Laster inn..."
   },
   "app_duration": "60 sekunder",
+  "doodle": "doodle",
   "intro_p1": "Slipp løs kreativiteten din",
   "intro_p2": "Slipp fri oppdemmet energi",
   "intro_p3": "Øyeblikkelig hjernens tilbakestilling",
-  "app_description": "karusell"
+  "app_description": "La hjernen din bevege seg et øyeblikk."
 }

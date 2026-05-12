@@ -36,7 +36,6 @@ import {
   Target,
   Pause,
   HelpCircle,
-  ArrowRight,
   ArrowRight
 } from "lucide-react";
 
@@ -160,14 +159,14 @@ const topicDetails: Record<string, {
       { titleKey: "exercises.5_4_3_2_1_grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
     ],
     todos: [
-      { titleKey: "tools.sleep-tracker", icon: Moon, url: "/trackers/sleep" },
+      { titleKey: "tools.sleep-tracker", icon: Moon, url: "/trackers/sleep-audit" },
       { titleKey: "trackers.energy_tracker", icon: Zap, url: "/trackers/energy-tracker" },
       { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
       { titleKey: "tools.know_values", icon: Brain, url: "/tools/know-your-values" },
     ],
     resources: [
       { titleKey: "hub.articles", count: 20, icon: Newspaper, url: "/resources/sleep/articles" },
-      { titleKey: "hub.tips", count: 15, icon: Lightbulb, url: "/tips/sleep-tips" },
+      { titleKey: "hub.tips", count: 15, icon: Lightbulb, url: "/tips/sleep-guide" },
       { titleKey: "hub.stories", count: 10, icon: BookMarked, url: "/resources/sleep/stories" },
       { titleKey: "hub.myths", count: 7, icon: HelpCircle, url: "/resources/sleep/myths" },
     ],
@@ -189,7 +188,7 @@ const topicDetails: Record<string, {
     ],
     resources: [
       { titleKey: "hub.articles", count: 18, icon: Newspaper, url: "/resources/adolescent/articles" },
-      { titleKey: "hub.tips", count: 14, icon: Lightbulb, url: "/tips/adolescent-tips" },
+      { titleKey: "hub.tips", count: 14, icon: Lightbulb, url: "/resources/adolescent/tips" },
       { titleKey: "hub.stories", count: 10, icon: BookMarked, url: "/resources/adolescent/stories" },
       { titleKey: "hub.myths", count: 6, icon: HelpCircle, url: "/resources/adolescent/myths" },
     ],
@@ -211,7 +210,7 @@ const topicDetails: Record<string, {
     ],
     resources: [
       { titleKey: "hub.articles", count: 22, icon: Newspaper, url: "/resources/relationship/articles" },
-      { titleKey: "hub.tips", count: 16, icon: Lightbulb, url: "/tips/relationship-tips" },
+      { titleKey: "hub.tips", count: 16, icon: Lightbulb, url: "/resources/relationship/tips" },
       { titleKey: "hub.stories", count: 12, icon: BookMarked, url: "/resources/relationship/stories" },
       { titleKey: "hub.myths", count: 8, icon: HelpCircle, url: "/resources/relationship/myths" },
     ],
@@ -233,7 +232,7 @@ const topicDetails: Record<string, {
     ],
     resources: [
       { titleKey: "hub.articles", count: 25, icon: Newspaper, url: "/resources/workplace/articles" },
-      { titleKey: "hub.tips", count: 18, icon: Lightbulb, url: "/tips/workplace-tips" },
+      { titleKey: "hub.tips", count: 18, icon: Lightbulb, url: "/resources/workplace/tips" },
       { titleKey: "hub.stories", count: 10, icon: BookMarked, url: "/resources/workplace/stories" },
       { titleKey: "hub.myths", count: 7, icon: HelpCircle, url: "/resources/workplace/myths" },
     ],
@@ -255,7 +254,7 @@ const topicDetails: Record<string, {
     ],
     resources: [
       { titleKey: "hub.articles", count: 20, icon: Newspaper, url: "/resources/parenting/articles" },
-      { titleKey: "hub.tips", count: 15, icon: Lightbulb, url: "/tips/parenting-tips" },
+      { titleKey: "hub.tips", count: 15, icon: Lightbulb, url: "/resources/parenting/tips" },
       { titleKey: "hub.stories", count: 10, icon: BookMarked, url: "/resources/parenting/stories" },
       { titleKey: "hub.myths", count: 6, icon: HelpCircle, url: "/resources/parenting/myths" },
     ],
@@ -277,7 +276,7 @@ const topicDetails: Record<string, {
     ],
     resources: [
       { titleKey: "hub.articles", count: 18, icon: Newspaper, url: "/resources/anger/articles" },
-      { titleKey: "hub.tips", count: 14, icon: Lightbulb, url: "/tips/anger-tips" },
+      { titleKey: "hub.tips", count: 14, icon: Lightbulb, url: "/tips/anger-facts-myths" },
       { titleKey: "hub.stories", count: 8, icon: BookMarked, url: "/resources/anger/stories" },
       { titleKey: "hub.myths", count: 5, icon: HelpCircle, url: "/resources/anger/myths" },
     ],
@@ -299,7 +298,7 @@ const topicDetails: Record<string, {
     ],
     resources: [
       { titleKey: "hub.articles", count: 16, icon: Newspaper, url: "/resources/grief/articles" },
-      { titleKey: "hub.tips", count: 12, icon: Lightbulb, url: "/tips/grief-tips" },
+      { titleKey: "hub.tips", count: 12, icon: Lightbulb, url: "/resources/grief/tips" },
       { titleKey: "hub.stories", count: 10, icon: BookMarked, url: "/resources/grief/stories" },
       { titleKey: "hub.myths", count: 6, icon: HelpCircle, url: "/resources/grief/myths" },
     ],
@@ -321,7 +320,7 @@ const topicDetails: Record<string, {
     ],
     resources: [
       { titleKey: "hub.articles", count: 20, icon: Newspaper, url: "/resources/ptsd/articles" },
-      { titleKey: "hub.tips", count: 15, icon: Lightbulb, url: "/tips/ptsd-tips" },
+      { titleKey: "hub.tips", count: 15, icon: Lightbulb, url: "/resources/ptsd/tips" },
       { titleKey: "hub.stories", count: 10, icon: BookMarked, url: "/resources/ptsd/stories" },
       { titleKey: "hub.myths", count: 7, icon: HelpCircle, url: "/resources/ptsd/myths" },
     ],
@@ -343,7 +342,7 @@ const topicDetails: Record<string, {
     ],
     resources: [
       { titleKey: "hub.articles", count: 16, icon: Newspaper, url: "/resources/acceptance/articles" },
-      { titleKey: "hub.tips", count: 12, icon: Lightbulb, url: "/tips/acceptance-tips" },
+      { titleKey: "hub.tips", count: 12, icon: Lightbulb, url: "/resources/acceptance/tips" },
       { titleKey: "hub.stories", count: 8, icon: BookMarked, url: "/resources/acceptance/stories" },
       { titleKey: "hub.myths", count: 5, icon: HelpCircle, url: "/resources/acceptance/myths" },
     ],
@@ -365,7 +364,7 @@ const topicDetails: Record<string, {
     ],
     resources: [
       { titleKey: "hub.articles", count: 18, icon: Newspaper, url: "/resources/postpartum/articles" },
-      { titleKey: "hub.tips", count: 14, icon: Lightbulb, url: "/tips/postpartum-tips" },
+      { titleKey: "hub.tips", count: 14, icon: Lightbulb, url: "/resources/postpartum/tips" },
       { titleKey: "hub.stories", count: 10, icon: BookMarked, url: "/resources/postpartum/stories" },
       { titleKey: "hub.myths", count: 6, icon: HelpCircle, url: "/resources/postpartum/myths" },
     ],
@@ -387,7 +386,7 @@ const topicDetails: Record<string, {
     ],
     resources: [
       { titleKey: "hub.articles", count: 16, icon: Newspaper, url: "/resources/sexuality/articles" },
-      { titleKey: "hub.tips", count: 12, icon: Lightbulb, url: "/tips/sexuality-tips" },
+      { titleKey: "hub.tips", count: 12, icon: Lightbulb, url: "/resources/sexuality/tips" },
       { titleKey: "hub.stories", count: 8, icon: BookMarked, url: "/resources/sexuality/stories" },
       { titleKey: "hub.myths", count: 5, icon: HelpCircle, url: "/resources/sexuality/myths" },
     ],
@@ -409,7 +408,7 @@ const topicDetails: Record<string, {
     ],
     resources: [
       { titleKey: "hub.articles", count: 18, icon: Newspaper, url: "/resources/eating-disorder/articles" },
-      { titleKey: "hub.tips", count: 14, icon: Lightbulb, url: "/tips/eating-disorder-tips" },
+      { titleKey: "hub.tips", count: 14, icon: Lightbulb, url: "/resources/eating-disorder/tips" },
       { titleKey: "hub.stories", count: 10, icon: BookMarked, url: "/resources/eating-disorder/stories" },
       { titleKey: "hub.myths", count: 6, icon: HelpCircle, url: "/resources/eating-disorder/myths" },
     ],
@@ -431,7 +430,7 @@ const topicDetails: Record<string, {
     ],
     resources: [
       { titleKey: "hub.articles", count: 20, icon: Newspaper, url: "/resources/ocd/articles" },
-      { titleKey: "hub.tips", count: 15, icon: Lightbulb, url: "/tips/ocd-tips" },
+      { titleKey: "hub.tips", count: 15, icon: Lightbulb, url: "/resources/ocd/tips" },
       { titleKey: "hub.stories", count: 10, icon: BookMarked, url: "/resources/ocd/stories" },
       { titleKey: "hub.myths", count: 7, icon: HelpCircle, url: "/resources/ocd/myths" },
     ],
@@ -570,15 +569,18 @@ export function SelfCareResources() {
                           return (
                             <motion.button
                               key={i}
-                              whileHover={{ x: 4 }}
+                              whileHover={{ x: 4, scale: 1.02 }}
                               onClick={() => todo.url?.startsWith('http') ? (window.location.href = todo.url) : navigate(todo.url!, { replace: true })}
-                              className="p-4 rounded-2xl flex items-center gap-4 transition-all border border-transparent hover:shadow-sm"
+                              className="p-5 rounded-2xl flex items-center gap-5 transition-all border border-slate-100/50 shadow-sm hover:shadow-xl group"
                               style={{ backgroundColor: color.bg }}
                             >
-                              <div className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0" style={{ backgroundColor: color.iconBg }}>
-                                <todo.icon size={20} style={{ color: color.accent }} />
+                              <div className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform shadow-inner" style={{ backgroundColor: color.iconBg }}>
+                                <todo.icon size={24} style={{ color: color.accent }} />
                               </div>
-                              <span className="font-semibold text-slate-800">{t(todo.titleKey)}</span>
+                              <div className="flex-1 text-left">
+                                <span className="font-bold text-slate-800 text-base group-hover:text-primary transition-colors">{t(todo.titleKey)}</span>
+                              </div>
+                              <ArrowRight size={18} className="text-slate-300 group-hover:text-primary group-hover:translate-x-1 transition-all" />
                             </motion.button>
                           );
                         })}

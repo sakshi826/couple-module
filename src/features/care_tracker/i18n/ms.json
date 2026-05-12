@@ -112,10 +112,10 @@
     "moods": {
       "Happy": "Gembira",
       "Calm": "Tenang",
-      "Neutral": "Neutral",
       "Low": "Rendah",
       "Stressed": "Tertekan",
-      "Tired": "Letih"
+      "Tired": "Letih",
+      "Neutral": "Neutral"
     },
     "positiveStatements": {
       "0": "Anda muncul untuk diri sendiri hari ini. Itu berkuasa. 🌿",
@@ -135,6 +135,5 @@
   "intro_p1": "screens.intro.faedah.0",
   "intro_p2": "screens.intro.faedah.1",
   "intro_p3": "skrin.intro.faedah.2",
-  "intro_p4": "faedah.intro.skrin.3",
-  "app_description": "karusel"
+  "intro_p4": "faedah.intro.skrin.3"
 }

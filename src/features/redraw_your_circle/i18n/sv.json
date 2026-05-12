@@ -70,5 +70,7 @@
     "save": "Spara",
     "loading": "Belastning..."
   },
-  "app_description": "karusell"
+  "intro_p1": "Vid olika tidpunkter i livet kan vårt stödsystem förändras. 🌱 Ibland känner vi oss sammankopplade och stöttade. Andra gånger kan saker kännas avlägsna eller oklara.",
+  "intro_p2": "Den här aktiviteten är ett utrymme att pausa och titta på människorna runt omkring dig – och förstå vilka som just nu känner sig som en del av din krets. 💛",
+  "intro_p3": "Det finns inget rätt eller fel här. Bara medvetenhet. ✨"
 }

@@ -23,7 +23,6 @@
   "today": "Astăzi",
   "yesterday": "Ieri",
   "delete_doodle": "Șterge Doodle",
-  "doodle": "doodle",
   "doodles": "mâzgăleli",
   "saved": "salvat",
   "tool_pen": "Pix",
@@ -44,8 +43,9 @@
     "loading": "Încărcare..."
   },
   "app_duration": "60 de secunde",
+  "doodle": "mâzgăleală",
   "intro_p1": "Dezlănțuie-ți creativitatea",
   "intro_p2": "Eliberează energia acumulată",
   "intro_p3": "Resetare instantanee a creierului",
-  "app_description": "carusel"
+  "app_description": "Lasă-ți creierul să se miște un minut."
 }

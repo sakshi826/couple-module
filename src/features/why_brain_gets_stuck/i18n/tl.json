@@ -38,5 +38,5 @@
     "save": "I-save",
     "loading": "Naglo-load..."
   },
-  "app_description": "karusel"
+  "app_description": "Ang lohika ng kaligtasan • {{step}}/{{total}}"
 }

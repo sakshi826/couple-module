@@ -38,5 +38,5 @@
     "save": "Tallentaa",
     "loading": "Ladataan..."
   },
-  "app_description": "karuselli"
+  "app_description": "Selviytymisen logiikka • {{step}}/{{total}}"
 }

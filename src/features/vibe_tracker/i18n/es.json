@@ -24,11 +24,11 @@
     "Driven": "Conducido",
     "Content": "Contenido",
     "Steady": "Tranquilo",
-    "Tender": "Tender",
     "Heavy": "Pesado",
     "Thoughtful": "Considerado",
     "Restless": "Inquieto",
-    "Drained": "Drenado"
+    "Drained": "Drenado",
+    "Tender": "Licitación"
   },
   "prompts": {
     "needing": "¿Qué necesitas ahora mismo?",
@@ -55,6 +55,5 @@
   "app_duration": "1-2 minutos",
   "intro_p1": "Haz un seguimiento de tus patrones emocionales",
   "intro_p2": "Reflexiona sobre tu estado de ánimo hoy.",
-  "intro_p3": "Desarrollar la conciencia emocional",
-  "app_description": "carrusel"
+  "intro_p3": "Desarrollar la conciencia emocional"
 }

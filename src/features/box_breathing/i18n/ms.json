@@ -34,8 +34,8 @@
   "app_complete_title": "Kerja yang hebat!",
   "app_complete_message": "Anda telah melengkapkan sesi Pernafasan Kotak. Anda harus berasa lebih seimbang dan tenang.",
   "app_duration": "5 minit",
-  "intro_p1": "inhale_4s",
-  "intro_p2": "tahan_4s",
-  "intro_p3": "exhale_4s",
-  "app_description": "karusel"
+  "intro_p1": "Tarik nafas selama 4 saat",
+  "intro_p2": "Tahan selama 4 saat",
+  "intro_p3": "Hembus nafas selama 4 saat",
+  "app_description": "Pernafasan kotak menggunakan corak 4-4-4-4 yang mudah — tarik nafas, tahan, hembus nafas, tahan — setiap satu selama empat saat. Ia mengaktifkan sistem saraf parasimpatetik anda, mengurangkan tekanan dan mengembalikan anda kepada keadaan yang tenang dan fokus."
 }

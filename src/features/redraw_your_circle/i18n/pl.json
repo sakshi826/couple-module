@@ -70,5 +70,7 @@
     "save": "Ratować",
     "loading": "Załadunek..."
   },
-  "app_description": "karuzela"
+  "intro_p1": "W różnych momentach życia nasz system wsparcia może się zmieniać. 🌱 Czasami czujemy się związani i wspierani. Innym razem sprawy mogą wydawać się odległe lub niejasne.",
+  "intro_p2": "Ta aktywność to okazja, aby zatrzymać się i przyjrzeć ludziom wokół siebie — i zrozumieć, kto obecnie czuje się częścią twojego kręgu. 💛",
+  "intro_p3": "Nie ma tu dobrej i złej odpowiedzi. Tylko świadomość. ✨"
 }

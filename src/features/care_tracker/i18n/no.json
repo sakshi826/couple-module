@@ -81,9 +81,9 @@
       "Healthy Meal": "Sunt måltid",
       "Nature / Walk": "Natur / Vandring",
       "Social Time": "Sosial tid",
-      "Hobby": "Hobby",
       "Therapy": "Terapi",
-      "Digital Detox": "Digital avgiftning"
+      "Digital Detox": "Digital avgiftning",
+      "Hobby": "Hobby"
     },
     "durations": {
       "< 10 minutes": "< 10 minutter",
@@ -94,12 +94,12 @@
     "reasons": {
       "Busy schedule": "Travel timeplan",
       "Low energy": "Lavenergi",
-      "Stress": "Stress",
       "Forgot": "Glemte",
       "No motivation": "Ingen motivasjon",
       "Not feeling well": "Føler meg ikke bra",
       "Lack of time": "Mangel på tid",
-      "Emotional overwhelm": "Emosjonell overveldelse"
+      "Emotional overwhelm": "Emosjonell overveldelse",
+      "Stress": "Stress"
     },
     "helpfulTypes": {
       "Rest": "Hvile",
@@ -135,6 +135,5 @@
   "intro_p1": "skjermer.introduksjon.fordeler.0",
   "intro_p2": "skjermer.introduksjon.fordeler.1",
   "intro_p3": "skjermer.introduksjon.fordeler.2",
-  "intro_p4": "skjermer.introduksjon.fordeler.3",
-  "app_description": "karusell"
+  "intro_p4": "skjermer.introduksjon.fordeler.3"
 }

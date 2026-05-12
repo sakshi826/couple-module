@@ -81,5 +81,5 @@
     "save": "Simpan",
     "loading": "Memuatkan..."
   },
-  "app_description": "karusel"
+  "app_description": "Memahami gelung • {{step}}/{{total}}"
 }

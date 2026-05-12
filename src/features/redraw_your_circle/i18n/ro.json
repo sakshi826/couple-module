@@ -70,5 +70,7 @@
     "save": "Salva",
     "loading": "Încărcare..."
   },
-  "app_description": "carusel"
+  "intro_p1": "În diferite momente ale vieții, sistemul nostru de sprijin se poate schimba. 🌱 Uneori ne simțim conectați și sprijiniți. Alteori, lucrurile pot părea distante sau neclare.",
+  "intro_p2": "Această activitate este un spațiu în care să te oprești și să privești oamenii din jurul tău — și să înțelegi cine simte că face parte din cercul tău în prezent. 💛",
+  "intro_p3": "Nu există corect sau greșit aici. Doar conștientizare. ✨"
 }

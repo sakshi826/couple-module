@@ -50,9 +50,8 @@
     "loading": "Memuatkan..."
   },
   "app_duration": "5-10 minit",
-  "intro_p1": "langkah_1",
-  "intro_p2": "langkah_2",
-  "intro_p3": "langkah_3",
   "app_title": "Pembuangan Otak",
-  "app_description": "karusel"
+  "intro_p1": "1. Muat turun minda anda ke laman digital.",
+  "intro_p2": "2. Asingkan apa yang perlu diambil tindakan dan apa yang boleh menunggu.",
+  "intro_p3": "3. Fokus pada satu langkah kecil seterusnya sahaja."
 }

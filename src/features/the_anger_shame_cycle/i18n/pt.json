@@ -81,5 +81,5 @@
     "save": "Salvar",
     "loading": "Carregando..."
   },
-  "app_description": "carrossel"
+  "app_description": "Entendendo o loop • {{step}}/{{total}}"
 }

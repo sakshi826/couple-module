@@ -21,14 +21,14 @@
   "vibes": {
     "Calm": "Rustig",
     "Light": "Licht",
-    "Driven": "Driven",
     "Content": "Inhoud",
     "Steady": "Rustig aan",
-    "Tender": "Tender",
     "Heavy": "Zwaar",
     "Thoughtful": "Attent",
     "Restless": "Rusteloos",
-    "Drained": "Leeg"
+    "Drained": "Leeg",
+    "Driven": "Gedreven",
+    "Tender": "Teder"
   },
   "prompts": {
     "needing": "Wat heb je nu misschien nodig?",
@@ -55,6 +55,5 @@
   "app_duration": "1-2 minuten",
   "intro_p1": "Houd je emotionele patronen bij.",
   "intro_p2": "Denk eens na over je stemming vandaag.",
-  "intro_p3": "Ontwikkel emotioneel bewustzijn",
-  "app_description": "carrousel"
+  "intro_p3": "Ontwikkel emotioneel bewustzijn"
 }

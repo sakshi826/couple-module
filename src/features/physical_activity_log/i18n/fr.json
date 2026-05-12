@@ -32,7 +32,6 @@
   "save": "Sauvegarder",
   "cancel": "Annuler",
   "daily_total": "Total quotidien",
-  "minutes": "minutes",
   "benefits_title": "Que se passe-t-il lorsque vous faites de l'exercice ?",
   "benefits_subtitle": "Lorsque votre cœur s'emballe, votre cerveau opère des changements extraordinaires. Imaginez que c'est comme une mise à jour de son système d'exploitation.",
   "benefits_intro": "Votre corps libère immédiatement des substances naturelles qui améliorent l'humeur :",
@@ -62,5 +61,5 @@
     "loading": "Chargement..."
   },
   "app_title": "Journal d'activité",
-  "app_description": "carrousel"
+  "minutes": "minutes"
 }

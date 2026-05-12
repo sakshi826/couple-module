@@ -70,5 +70,7 @@
     "save": "Ahorrar",
     "loading": "Cargando..."
   },
-  "app_description": "carrusel"
+  "intro_p1": "En distintos momentos de la vida, nuestro sistema de apoyo puede cambiar. 🌱 A veces nos sentimos conectados y apoyados. Otras veces, las cosas pueden parecer distantes o confusas.",
+  "intro_p2": "Esta actividad es un espacio para hacer una pausa y observar a las personas que te rodean, y comprender quiénes forman parte de tu círculo en este momento. 💛",
+  "intro_p3": "Aquí no hay bien ni mal. Solo conciencia. ✨"
 }

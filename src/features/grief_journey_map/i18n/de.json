@@ -48,5 +48,5 @@
     "save": "Speichern",
     "loading": "Laden..."
   },
-  "app_description": "Karussell"
+  "app_description": "Die Verlustkarte • {{aktuell}}/{{gesamt}}"
 }

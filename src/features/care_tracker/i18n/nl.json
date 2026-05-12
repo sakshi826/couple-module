@@ -81,9 +81,9 @@
       "Healthy Meal": "Gezonde maaltijd",
       "Nature / Walk": "Natuur / Wandeling",
       "Social Time": "Sociale Tijd",
-      "Hobby": "Hobby",
       "Therapy": "Therapie",
-      "Digital Detox": "Digitale detox"
+      "Digital Detox": "Digitale detox",
+      "Hobby": "Hobby"
     },
     "durations": {
       "< 10 minutes": "< 10 minuten",
@@ -94,12 +94,12 @@
     "reasons": {
       "Busy schedule": "Druk schema",
       "Low energy": "Lage energie",
-      "Stress": "Stress",
       "Forgot": "Vergeten",
       "No motivation": "Geen motivatie",
       "Not feeling well": "Voel me niet lekker",
       "Lack of time": "Gebrek aan tijd",
-      "Emotional overwhelm": "Emotionele overweldiging"
+      "Emotional overwhelm": "Emotionele overweldiging",
+      "Stress": "Spanning"
     },
     "helpfulTypes": {
       "Rest": "Rust",
@@ -135,6 +135,5 @@
   "intro_p1": "schermen.intro.voordelen.0",
   "intro_p2": "schermen.intro.voordelen.1",
   "intro_p3": "schermen.intro.voordelen.2",
-  "intro_p4": "schermen.intro.voordelen.3",
-  "app_description": "carrousel"
+  "intro_p4": "schermen.intro.voordelen.3"
 }

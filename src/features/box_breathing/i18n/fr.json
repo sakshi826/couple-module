@@ -34,8 +34,8 @@
   "app_complete_title": "Excellent travail !",
   "app_complete_message": "Vous avez terminé la séance Box Breath. Vous devriez vous sentir plus équilibré et calme.",
   "app_duration": "5 minutes",
-  "intro_p1": "inhaler_4s",
-  "intro_p2": "tenir_4s",
-  "intro_p3": "expirer_4s",
-  "app_description": "carrousel"
+  "intro_p1": "Inspirez pendant 4 secondes",
+  "intro_p2": "Maintenir la pression pendant 4 secondes",
+  "intro_p3": "Expirez pendant 4 secondes",
+  "app_description": "La respiration carrée utilise un schéma simple en 4-4-4-4 : inspirez, retenez votre souffle, expirez, retenez votre souffle, chaque phase durant quatre secondes. Elle active le système nerveux parasympathique, réduisant ainsi le stress et vous ramenant à un état calme et concentré."
 }

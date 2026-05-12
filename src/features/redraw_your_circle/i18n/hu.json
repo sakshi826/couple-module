@@ -70,5 +70,7 @@
     "save": "Megtakarítás",
     "loading": "Terhelés..."
   },
-  "app_description": "körhinta"
+  "intro_p1": "Az élet különböző pontjain a támogató rendszerünk megváltozhat. 🌱 Néha összekapcsolódva és támogatva érezzük magunkat. Máskor a dolgok távolinak vagy homályosnak tűnhetnek.",
+  "intro_p2": "Ez a tevékenység lehetőséget ad arra, hogy megállj és körülnézz a körülötted lévő embereken – és megértsd, kik érzik magukat a köröd részének. 💛",
+  "intro_p3": "Nincs itt jó vagy rossz. Csak tudatosság. ✨"
 }

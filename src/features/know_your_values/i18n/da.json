@@ -40,8 +40,8 @@
     "Freedom": "Frihed",
     "Growth": "Vækst",
     "Kindness": "Venlighed",
-    "Balance": "Balance",
-    "Honesty": "Ærlighed"
+    "Honesty": "Ærlighed",
+    "Balance": "Balance"
   },
   "common": {
     "get_started": "Kom i gang",
@@ -54,6 +54,5 @@
     "next": "Næste",
     "save": "Spare",
     "loading": "Indlæser..."
-  },
-  "app_description": "karrusel"
+  }
 }

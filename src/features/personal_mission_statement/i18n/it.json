@@ -1,7 +1,5 @@
 {
   "intro_title": "Un momento per riconnettersi",
-  "intro_p1": "Quando ci si sente depressi, ansiosi o sopraffatti, è facile perdere di vista ciò che conta davvero per noi.",
-  "intro_p2": "Una dichiarazione di intenti personale non riguarda la pressione o la produttività. È un gentile promemoria dei tuoi valori: il tipo di persona che vuoi essere, anche nei momenti difficili.",
   "intro_breath": "Fai un respiro lento.",
   "intro_no_wrong": "Qui non ci sono risposte giuste o sbagliate.",
   "intro_begin": "Inizio",
@@ -63,5 +61,6 @@
   },
   "app_duration": "5-10 minuti",
   "app_title": "Dichiarazione di missione personale",
-  "app_description": "giostra"
+  "intro_p1": "Acquisisci chiarezza sul tuo percorso",
+  "intro_p2": "Una dichiarazione di intenti personale non riguarda la pressione o la produttività. È un gentile promemoria dei propri valori: il tipo di persona che si desidera essere, anche nei momenti difficili."
 }

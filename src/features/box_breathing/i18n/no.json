@@ -34,8 +34,8 @@
   "app_complete_title": "Flott jobba!",
   "app_complete_message": "Du har fullført Box Breathing-økten. Du bør føle deg mer balansert og rolig.",
   "app_duration": "5 minutter",
-  "intro_p1": "pust inn_4s",
-  "intro_p2": "hold_4s",
-  "intro_p3": "pust ut_4s",
-  "app_description": "karusell"
+  "intro_p1": "Pust inn i 4 sekunder",
+  "intro_p2": "Hold i 4 sekunder",
+  "intro_p3": "Pust ut i 4 sekunder",
+  "app_description": "Bokspust bruker et enkelt 4-4-4-4-mønster – pust inn, hold, pust ut, hold – hvert mønster i fire sekunder. Det aktiverer det parasympatiske nervesystemet, reduserer stress og bringer deg tilbake til en rolig, fokusert tilstand."
 }

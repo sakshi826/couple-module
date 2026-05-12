@@ -86,36 +86,36 @@
       "Digital Detox": "Détox numérique"
     },
     "durations": {
-      "< 10 minutes": "< 10 minutes",
       "10–30 minutes": "10 à 30 minutes",
       "30–60 minutes": "30 à 60 minutes",
-      "1+ hour": "1+ heure"
+      "1+ hour": "1+ heure",
+      "< 10 minutes": "< 10 minutes"
     },
     "reasons": {
       "Busy schedule": "Emploi du temps chargé",
       "Low energy": "Faible énergie",
-      "Stress": "Stress",
       "Forgot": "J’ai oublié",
-      "No motivation": "No motivation",
       "Not feeling well": "Je ne me sens pas bien",
       "Lack of time": "Manque de temps",
-      "Emotional overwhelm": "Débordement émotionnel"
+      "Emotional overwhelm": "Débordement émotionnel",
+      "Stress": "Stresser",
+      "No motivation": "Aucune motivation"
     },
     "helpfulTypes": {
       "Rest": "Repos",
-      "Relaxation": "Relaxation",
       "Physical activity": "Activité physique",
       "Talking to someone": "Parler à quelqu’un",
       "Quiet time": "Temps de calme",
-      "Creative activity": "Activité créative"
+      "Creative activity": "Activité créative",
+      "Relaxation": "Relaxation"
     },
     "moods": {
       "Happy": "Heureux",
       "Calm": "Calme-toi",
       "Neutral": "Neutre",
-      "Low": "Low",
       "Stressed": "Stressé",
-      "Tired": "Fatigué"
+      "Tired": "Fatigué",
+      "Low": "Faible"
     },
     "positiveStatements": {
       "0": "Tu t’es montré pour toi-même aujourd’hui. C’est puissant. 🌿",
@@ -135,6 +135,5 @@
   "intro_p1": "écrans.intro.avantages.0",
   "intro_p2": "écrans.intro.avantages.1",
   "intro_p3": "écrans.intro.avantages.2",
-  "intro_p4": "écrans.intro.avantages.3",
-  "app_description": "carrousel"
+  "intro_p4": "écrans.intro.avantages.3"
 }

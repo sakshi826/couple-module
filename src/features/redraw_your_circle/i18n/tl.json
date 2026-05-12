@@ -70,5 +70,7 @@
     "save": "I-save",
     "loading": "Naglo-load..."
   },
-  "app_description": "karusel"
+  "intro_p1": "Sa iba't ibang punto ng buhay, maaaring magbago ang ating sistema ng suporta. 🌱 Minsan, pakiramdam natin ay konektado at sinusuportahan tayo. Sa ibang pagkakataon naman, maaaring parang malayo o hindi malinaw ang mga bagay-bagay.",
+  "intro_p2": "Ang aktibidad na ito ay isang lugar para huminto sandali at tingnan ang mga taong nakapaligid sa iyo — at unawain kung sino ang kasalukuyang nakakaramdam na bahagi ka ng iyong bilog. 💛",
+  "intro_p3": "Walang tama o mali dito. Pagkakaroon lang ng kamalayan. ✨"
 }

@@ -81,5 +81,5 @@
     "save": "Cứu",
     "loading": "Đang tải..."
   },
-  "app_description": "vòng quay ngựa gỗ"
+  "app_description": "Hiểu về vòng lặp • {{step}}/{{total}}"
 }

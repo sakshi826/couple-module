@@ -1,7 +1,5 @@
 {
   "intro_title": "Okamžik na znovuspojení",
-  "intro_p1": "Když se cítíte depresivní, úzkostní nebo zahlceni, je snadné ztratit ze zřetele to, na čem vám skutečně záleží.",
-  "intro_p2": "Osobní prohlášení o poslání není o tlaku nebo produktivitě. Je to jemná připomínka vašich hodnot — takového člověka, kterým chcete být, i v těžkých obdobích.",
   "intro_breath": "Zhluboka se nadechni.",
   "intro_no_wrong": "Tady nejsou správné ani špatné odpovědi.",
   "intro_begin": "Začátek",
@@ -63,5 +61,6 @@
   },
   "app_duration": "5–10 minut",
   "app_title": "Osobní poslání",
-  "app_description": "kolotoč"
+  "intro_p1": "Získejte jasnost na své cestě",
+  "intro_p2": "Osobní poslání není o tlaku ani produktivitě. Je to jemná připomínka vašich hodnot – toho, jakým člověkem chcete být, a to i v těžkých obdobích."
 }

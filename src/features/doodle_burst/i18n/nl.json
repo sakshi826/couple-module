@@ -23,7 +23,6 @@
   "today": "Vandaag de dag",
   "yesterday": "Gisteren",
   "delete_doodle": "Verwijder Doodle",
-  "doodle": "doodle",
   "doodles": "krabbels",
   "saved": "Bewaard",
   "tool_pen": "Pen",
@@ -44,8 +43,9 @@
     "loading": "Laden..."
   },
   "app_duration": "60 seconden",
+  "doodle": "krabbel",
   "intro_p1": "Laat je creativiteit de vrije loop",
   "intro_p2": "Laat opgekropte energie los",
   "intro_p3": "Directe reset van je hersenen",
-  "app_description": "carrousel"
+  "app_description": "Laat je hersenen even hun werk doen."
 }

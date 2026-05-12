@@ -1,7 +1,5 @@
 {
   "intro_title": "Un momento para reconectarse",
-  "intro_p1": "Cuando te sientes deprimido, ansioso o abrumado, es fácil perder de vista lo que realmente te importa.",
-  "intro_p2": "Una declaración de misión personal no se trata de presión ni productividad. Es un sutil recordatorio de tus valores: el tipo de persona que quieres ser, incluso en épocas difíciles.",
   "intro_breath": "Tome una respiración lenta.",
   "intro_no_wrong": "Aquí no hay respuestas correctas o incorrectas.",
   "intro_begin": "Comenzar",
@@ -63,5 +61,6 @@
   },
   "app_duration": "5-10 minutos",
   "app_title": "Declaración de misión personal",
-  "app_description": "carrusel"
+  "intro_p1": "Obtén claridad sobre tu camino.",
+  "intro_p2": "Una declaración de misión personal no se trata de presión ni de productividad. Es un recordatorio amable de tus valores: la clase de persona que quieres ser, incluso en los momentos difíciles."
 }

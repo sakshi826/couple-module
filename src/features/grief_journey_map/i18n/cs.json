@@ -48,5 +48,5 @@
     "save": "Uložit",
     "loading": "Načítání..."
   },
-  "app_description": "kolotoč"
+  "app_description": "Mapa ztrát • {{current}}/{{total}}"
 }

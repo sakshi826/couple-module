@@ -38,5 +38,5 @@
     "save": "Simpan",
     "loading": "Memuatkan..."
   },
-  "app_description": "karusel"
+  "app_description": "Logik kelangsungan hidup • {{step}}/{{total}}"
 }
