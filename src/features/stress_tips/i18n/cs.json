@@ -10,57 +10,57 @@
       "title": "Dopřejte si klidný spánek",
       "description": "Snažte se spát 7–9 hodin každou noc. Snažte se spát a vstávat každý den ve stejnou dobu.",
       "why": "Spánek pomáhá mozku a tělu zotavit se a snižuje hladinu stresových hormonů.",
-      "do": {
-        "0": "Udržujte pevný spánkový režim",
-        "1": "Vyhýbejte se obrazovkám hodinu před spaním",
-        "2": "Udržujte místnost chladnou a tmavou",
-        "3": "Vyhýbejte se kofeinu po 16. hodině"
-      },
+      "do": [
+        "Udržujte pevný spánkový režim",
+        "Vyhýbejte se obrazovkám hodinu před spaním",
+        "Udržujte místnost chladnou a tmavou",
+        "Vyhýbejte se kofeinu po 16. hodině"
+      ],
       "button": "Nastavte připomínku spánku"
     },
     "breathing": {
       "title": "Procvičujte hluboké dýchání",
       "description": "Věnujte pár minut soustředění na svůj dech. Pomalé dýchání snižuje úzkost.",
       "why": "Pomalé dýchání aktivuje relaxační reakci vašeho těla.",
-      "do": {
-        "0": "Nadechněte se na 4 sekundy",
-        "1": "Držte 4 sekundy",
-        "2": "Vydechni na 4 sekundy",
-        "3": "Opakujte 1 minutu"
-      }
+      "do": [
+        "Nadechněte se na 4 sekundy",
+        "Držte 4 sekundy",
+        "Vydechni na 4 sekundy",
+        "Opakujte 1 minutu"
+      ]
     },
     "exercise": {
       "title": "Pohybujte tělem",
       "description": "Lehká chůze nebo protahování pomáhá uvolnit stres a zlepšit náladu.",
       "why": "Cvičení uvolňuje endorfiny a zlepšuje náladu.",
-      "do": {
-        "0": "15 minut chůze",
-        "1": "Lehké protahování",
-        "2": "Krátká lekce jógy",
-        "3": "Rychlé domácí cvičení"
-      }
+      "do": [
+        "15 minut chůze",
+        "Lehké protahování",
+        "Krátká lekce jógy",
+        "Rychlé domácí cvičení"
+      ]
     },
     "caffeine": {
       "title": "Omezte kofein a cukr",
       "description": "Příliš mnoho kofeinu a cukru může zvýšit úzkost a narušit spánek.",
       "why": "Příliš mnoho kofeinu a cukru zvyšuje úzkost a problémy se spánkem.",
-      "do": {
-        "0": "Nahraďte jednu kávu bylinným čajem",
-        "1": "Pij víc vody",
-        "2": "Omezte sladké svačiny",
-        "3": "Vyhýbejte se kofeinu pozdě během dne"
-      }
+      "do": [
+        "Nahraďte jednu kávu bylinným čajem",
+        "Pij víc vody",
+        "Omezte sladké svačiny",
+        "Vyhýbejte se kofeinu pozdě během dne"
+      ]
     },
     "planning": {
       "title": "Naplánujte si den",
       "description": "Rozdělte velké úkoly na menší kroky, abyste se vyhnuli pocitu zahlcení.",
       "why": "Plánování snižuje mentální nepořádek a přetížení.",
-      "do": {
-        "0": "Napiš 3 hlavní úkoly",
-        "1": "Rozdělte úkoly na malé kroky",
-        "2": "Soustřeďte se vždy na jeden úkol",
-        "3": "Dělejte si krátké přestávky"
-      }
+      "do": [
+        "Napiš 3 hlavní úkoly",
+        "Rozdělte úkoly na malé kroky",
+        "Soustřeďte se vždy na jeden úkol",
+        "Dělejte si krátké přestávky"
+      ]
     }
   },
   "detail": {
@@ -101,5 +101,6 @@
     "save": "Uložit",
     "loading": "Načítání..."
   },
-  "app_title": "Úleva od stresu"
+  "app_title": "Úleva od stresu",
+  "app_description": "Úleva od stresu"
 }

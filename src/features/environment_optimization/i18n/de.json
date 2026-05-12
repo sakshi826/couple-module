@@ -44,5 +44,6 @@
     "save": "Speichern",
     "loading": "Laden..."
   },
-  "app_duration": "5 Minuten"
+  "app_duration": "5 Minuten",
+  "app_description": "Übung zur Umgebungsoptimierung"
 }

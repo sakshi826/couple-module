@@ -4,11 +4,11 @@
   "intro": {
     "title": "Hula kumpara sa Katotohanan",
     "description": "Ihambing ang iyong mga hula sa kung ano ang aktwal na mangyayari upang makabuo ng isang mas balanseng pananaw.",
-    "benefits": {
-      "0": "Tukuyin ang mga pattern ng pagkabalisa",
-      "1": "Kolektahin ang ebidensya laban sa takot",
-      "2": "Bawasan ang labis na pag-iisip sa hinaharap"
-    },
+    "benefits": [
+      "Tukuyin ang mga pattern ng pagkabalisa",
+      "Kolektahin ang ebidensya laban sa takot",
+      "Bawasan ang labis na pag-iisip sa hinaharap"
+    ],
     "duration": "4-5 minuto",
     "view_past": "Tingnan ang Mga Nakaraang Pagninilay"
   },
@@ -24,23 +24,23 @@
     "saved_title": "Nai-save ang Pagmumuni-muni",
     "message": "Sa pamamagitan ng pagtingin sa mga katotohanan, tinutulungan mo ang iyong isip na malaman na ang mga bagay ay madalas na mas madaling pamahalaan kaysa sa tila."
   },
-  "emotions": {
-    "0": "Pagkabalisa",
-    "1": "Kinakabahan",
-    "2": "Natatakot",
-    "3": "Labis na Pagkabigo",
-    "4": "Hindi mapakali"
-  },
+  "emotions": [
+    "Pagkabalisa",
+    "Kinakabahan",
+    "Natatakot",
+    "Labis na Pagkabigo",
+    "Hindi mapakali"
+  ],
   "intensity_labels": {
     "not_intense": "Hindi Matindi",
     "very_intense": "Napakatindi"
   },
-  "comparison_options": {
-    "0": "Ito ay naging halos eksakto tulad ng inaasahan ko",
-    "1": "Ang ilang mga bahagi ay tama, ngunit hindi lahat",
-    "2": "Ibang-iba ito sa inaasahan ko",
-    "3": "Ito ay mas madali/mas mahusay kaysa sa naisip ko"
-  },
+  "comparison_options": [
+    "Ito ay naging halos eksakto tulad ng inaasahan ko",
+    "Ang ilang mga bahagi ay tama, ngunit hindi lahat",
+    "Ibang-iba ito sa inaasahan ko",
+    "Ito ay mas madali/mas mahusay kaysa sa naisip ko"
+  ],
   "screens": {
     "s1": {
       "title": "Isipin ang isang kamakailang sitwasyon",
@@ -101,5 +101,6 @@
     "next": "Susunod",
     "save": "I-save",
     "loading": "Naglo-load..."
-  }
+  },
+  "app_description": "Prediksyon vs Realidad"
 }

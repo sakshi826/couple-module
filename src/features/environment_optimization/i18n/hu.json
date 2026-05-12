@@ -44,5 +44,6 @@
     "save": "Megtakarítás",
     "loading": "Terhelés..."
   },
-  "app_duration": "5 perc"
+  "app_duration": "5 perc",
+  "app_description": "Környezetoptimalizálási gyakorlat"
 }

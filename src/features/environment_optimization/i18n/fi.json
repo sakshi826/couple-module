@@ -44,5 +44,6 @@
     "save": "Tallentaa",
     "loading": "Ladataan..."
   },
-  "app_duration": "5 minuuttia"
+  "app_duration": "5 minuuttia",
+  "app_description": "Ympäristön optimointiharjoitus"
 }

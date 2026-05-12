@@ -1,11 +1,5 @@
 {
   "Grounding": "గ్రౌండింగ్",
-  "Grounding techniques help bring your attention back to the present moment": {
-    "": "గ్రౌండింగ్ పద్ధతులు మీ దృష్టిని ప్రస్తుత క్షణానికి తిరిగి తీసుకురావడానికి సహాయపడతాయి."
-  },
-  "Choose one activity that feels supportive right now": {
-    "": "ప్రస్తుతం సపోర్టింగ్ గా అనిపించే ఒక యాక్టివిటీని ఎంచుకోండి."
-  },
   "Step": "దశ",
   "Back": "వెనక్కి",
   "Next": "తరువాత",
@@ -23,140 +17,8 @@
   "Move your body": "మీ శరీరాన్ని కదిలించండి",
   "Listen to your surroundings": "మీ పరిసరాలను వినండి",
   "Check in with your body": "మీ శరీరంతో చెక్ ఇన్ చేయండి",
-  "Run your hands under cool or warm water": {
-    "": "చల్లటి లేదా గోరువెచ్చని నీటిలో మీ చేతులను నడపండి."
-  },
-  "Notice the temperature": {
-    "": "ఉష్ణోగ్రతను గమనించండి."
-  },
-  "Pay attention to the sensation on your skin": {
-    "": "మీ చర్మంపై ఉన్న అనుభూతిపై శ్రద్ధ వహించండి."
-  },
-  "Observe how it changes moment by moment": {
-    "": "ఇది క్షణం క్షణం ఎలా మారుతుందో గమనించండి."
-  },
-  "Let your breathing slow naturally": {
-    "": "మీ శ్వాస సహజంగా నెమ్మదిగా ఉండనివ్వండి."
-  },
-  "Choose a nearby object": {
-    "": "సమీపంలో ఉన్న ఆబ్జెక్ట్ ను ఎంచుకోండి."
-  },
-  "Notice its texture, weight, and temperature": {
-    "": "దాని ఆకృతి, బరువు మరియు ఉష్ణోగ్రతను గమనించండి."
-  },
   "Is it smooth or rough? Heavy or light?": "ఇది మృదువుగా లేదా గరుకుగా ఉందా? భారీగా లేదా తేలికైనదా?",
-  "Let your focus stay fully on this one object": {
-    "": "ఈ ఒక్క వస్తువుపై మీ దృష్టి పూర్తిగా ఉండనివ్వండి."
-  },
-  "Take a slow breath in through your nose": {
-    "": "మీ ముక్కు ద్వారా నెమ్మదిగా శ్వాస తీసుకోండి."
-  },
-  "Hold gently for a moment": {
-    "": "ఒక్క క్షణం మృదువుగా పట్టుకోండి."
-  },
-  "Exhale slowly through your mouth": {
-    "": "మీ నోటి ద్వారా నెమ్మదిగా శ్వాస వదలండి."
-  },
-  "Repeat several times": {
-    "": "అనేకసార్లు పునరావృతం చేయండి."
-  },
-  "Let your shoulders soften": {
-    "": "మీ భుజాలు మృదువుగా ఉండనివ్వండి."
-  },
-  "Take a small bite": {
-    "": "ఒక చిన్న కాటు తీసుకోండి."
-  },
-  "Chew slowly": {
-    "": "నెమ్మదిగా నమలండి."
-  },
-  "Notice the flavor, texture, and temperature": {
-    "": "రుచి, ఆకృతి మరియు ఉష్ణోగ్రతను గమనించండి."
-  },
-  "Stay fully present with the experience": {
-    "": "అనుభవంతో పూర్తిగా ఉండండి."
-  },
-  "Take a slow sip": {
-    "": "నెమ్మదిగా సిప్ తీసుకోండి."
-  },
-  "Notice the temperature and taste": {
-    "": "ఉష్ణోగ్రత మరియు రుచిని గమనించండి."
-  },
-  "Feel the sensation as you swallow": {
-    "": "మీరు మింగేటప్పుడు అనుభూతి చెందండి."
-  },
-  "Let yourself stay with that moment": {
-    "": "ఆ క్షణంతో మిమ్మల్ని మీరు ఉండనివ్వండి."
-  },
-  "Walk slowly and intentionally": {
-    "": "నెమ్మదిగా మరియు ఉద్దేశ్యపూర్వకంగా నడవండి."
-  },
-  "Notice the feeling of your feet touching the ground": {
-    "": "మీ పాదాలు నేలను తాకుతున్న అనుభూతిని గమనించండి."
-  },
-  "Observe your surroundings without judgment": {
-    "": "తీర్పు లేకుండా మీ పరిసరాలను గమనించండి."
-  },
-  "Let your breath match your steps": {
-    "": "మీ శ్వాస మీ అడుగులతో సరిపోలనివ్వండి."
-  },
-  "Hold the ice in your hand": {
-    "": "మంచును మీ చేతిలో పట్టుకోండి."
-  },
-  "Notice the cold sensation": {
-    "": "చల్లని అనుభూతిని గమనించండి."
-  },
-  "Focus fully on the feeling": {
-    "": "అనుభూతిపై పూర్తిగా దృష్టి పెట్టండి."
-  },
-  "Allow the strong sensation to anchor you to the present": {
-    "": "బలమైన అనుభూతి మిమ్మల్ని ప్రస్తుతానికి లంగరు వేయడానికి అనుమతించండి."
-  },
-  "Choose a scent nearby": {
-    "": "సమీపంలో ఉన్న సువాసనను ఎంచుకోండి."
-  },
-  "Inhale slowly": {
-    "": "నెమ్మదిగా శ్వాస తీసుకోండి."
-  },
-  "Notice how it feels in your body": {
-    "": "ఇది మీ శరీరంలో ఎలా అనిపిస్తుందో గమనించండి."
-  },
-  "Let the scent bring you into this moment": {
-    "": "సువాసన మిమ్మల్ని ఈ క్షణంలోకి తీసుకురానివ్వండి."
-  },
-  "Stretch gently": {
-    "": "సున్నితంగా సాగదీయండి."
-  },
-  "Roll your shoulders": {
-    "": "మీ భుజాలను రోల్ చేయండి."
-  },
-  "Shift your weight from side to side": {
-    "": "మీ బరువును ఒక వైపు నుండి మరొక వైపుకు మార్చండి."
-  },
-  "Notice how your body feels as it moves": {
-    "": "మీ శరీరం కదులుతున్నప్పుడు ఎలా అనిపిస్తుందో గమనించండి."
-  },
-  "Pause and listen": {
-    "": "విరామం మరియు వినండి."
-  },
-  "Identify three distinct sounds": {
-    "": "మూడు విభిన్న ధ్వనులను గుర్తించండి."
-  },
   "Are they near or far?": "అవి దగ్గరగా ఉన్నాయా లేదా దూరంగా ఉన్నాయా?",
-  "Let your attention rest on each one": {
-    "": "మీ దృష్టిని ప్రతి ఒక్కరిపై ఉంచనివ్వండి."
-  },
-  "Close your eyes if comfortable": {
-    "": "సౌకర్యవంతంగా ఉంటే మీ కళ్లు మూసుకోండి."
-  },
-  "Scan from head to toe": {
-    "": "తల నుంచి కాలి వరకు స్కాన్ చేయండి."
-  },
-  "Notice areas of tension or ease": {
-    "": "టెన్షన్ లేదా తేలికగా ఉన్న ప్రాంతాలను గమనించండి."
-  },
-  "Breathe into any tightness": {
-    "": "ఏదైనా బిగుతుగా ఊపిరి పీల్చుకోండి."
-  },
   "common": {
     "get_started": "ప్రారంభించండి",
     "start_over": "మళ్ళీ ప్రారంభించండి",
@@ -169,5 +31,52 @@
     "save": "సేవ్ చేయండి",
     "loading": "లోడ్ అవుతోంది..."
   },
-  "app_title": "గ్రౌండింగ్"
+  "app_title": "గ్రౌండింగ్",
+  "app_description": "గ్రౌండింగ్",
+  "Grounding techniques help bring your attention back to the present moment": [],
+  "Choose one activity that feels supportive right now": [],
+  "Run your hands under cool or warm water": [],
+  "Notice the temperature": [],
+  "Pay attention to the sensation on your skin": [],
+  "Observe how it changes moment by moment": [],
+  "Let your breathing slow naturally": [],
+  "Choose a nearby object": [],
+  "Notice its texture, weight, and temperature": [],
+  "Let your focus stay fully on this one object": [],
+  "Take a slow breath in through your nose": [],
+  "Hold gently for a moment": [],
+  "Exhale slowly through your mouth": [],
+  "Repeat several times": [],
+  "Let your shoulders soften": [],
+  "Take a small bite": [],
+  "Chew slowly": [],
+  "Notice the flavor, texture, and temperature": [],
+  "Stay fully present with the experience": [],
+  "Take a slow sip": [],
+  "Notice the temperature and taste": [],
+  "Feel the sensation as you swallow": [],
+  "Let yourself stay with that moment": [],
+  "Walk slowly and intentionally": [],
+  "Notice the feeling of your feet touching the ground": [],
+  "Observe your surroundings without judgment": [],
+  "Let your breath match your steps": [],
+  "Hold the ice in your hand": [],
+  "Notice the cold sensation": [],
+  "Focus fully on the feeling": [],
+  "Allow the strong sensation to anchor you to the present": [],
+  "Choose a scent nearby": [],
+  "Inhale slowly": [],
+  "Notice how it feels in your body": [],
+  "Let the scent bring you into this moment": [],
+  "Stretch gently": [],
+  "Roll your shoulders": [],
+  "Shift your weight from side to side": [],
+  "Notice how your body feels as it moves": [],
+  "Pause and listen": [],
+  "Identify three distinct sounds": [],
+  "Let your attention rest on each one": [],
+  "Close your eyes if comfortable": [],
+  "Scan from head to toe": [],
+  "Notice areas of tension or ease": [],
+  "Breathe into any tightness": []
 }

@@ -60,5 +60,6 @@
   "cue_body": "cue_body",
   "prompt_why": "prompt_why",
   "prompt_wish": "prompt_wish",
-  "prompt_wish_subtitle": "prompt_wish_subtitle"
+  "prompt_wish_subtitle": "prompt_wish_subtitle",
+  "app_description": "titolo_app"
 }

@@ -1,12 +1,12 @@
 {
   "app_title": "Muistilaatikko",
-  "screen_titles": {
-    "0": "Sinun laatikkosi",
-    "1": "Kunnioittaminen",
-    "2": "Ilmaiseminen",
-    "3": "Säilytetty",
-    "4": "Hellävarainen hoito"
-  },
+  "screen_titles": [
+    "Sinun laatikkosi",
+    "Kunnioittaminen",
+    "Ilmaiseminen",
+    "Säilytetty",
+    "Hellävarainen hoito"
+  ],
   "complete_title": "Muisto säilynyt",
   "complete_message": "Olet turvallisesti laittanut muiston [[0]:sta laatikkoosi. Nämä yhteyden hetket ovat aina sinun säilytettävissäsi.",
   "auth_error": "Auth-istunto puuttuu tai tietokanta ei ole konfiguroitu",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Kirjoita heidän nimensä...",
     "placeholder_relation": "Mistä tunnet heidät? (valinnainen)",
-    "categories": {
-      "0": {
+    "categories": [
+      {
         "label": "Onnellinen hetki",
         "emoji": "😊"
       },
-      "1": {
+      {
         "label": "Jotain, mitä he ennen sanoivat",
         "emoji": "💬"
       },
-      "2": {
+      {
         "label": "Pieni arjen muisto",
         "emoji": "☕"
       },
-      "3": {
+      {
         "label": "Paikka, joka muistuttaa sinua heistä",
         "emoji": "🏡"
       },
-      "4": {
+      {
         "label": "Jotain, mitä toivoisin voivani sanoa",
         "emoji": "💌"
       }
-    },
+    ],
     "continue": "Jatka →"
   },
   "expression": {
@@ -88,5 +88,6 @@
     "next": "Seuraava",
     "save": "Tallentaa",
     "loading": "Ladataan..."
-  }
+  },
+  "app_description": "Muistilaatikko"
 }

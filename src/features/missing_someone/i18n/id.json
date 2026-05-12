@@ -1,10 +1,10 @@
 {
   "app_title": "Merindukan Seseorang",
-  "subtitles": {
-    "0": "Validasi",
-    "1": "Kebijaksanaan Internal",
-    "2": "Lengkap"
-  },
+  "subtitles": [
+    "Validasi",
+    "Kebijaksanaan Internal",
+    "Lengkap"
+  ],
   "complete_title": "Kejelasan yang diperoleh",
   "complete_message": "Memahami chemistry kehilangan seseorang adalah langkah pertama menuju penyembuhan. Perasaan Anda valid, dan otak Anda hanya melakukan tugasnya untuk melindungi dan memproses.",
   "screen1": {
@@ -34,5 +34,6 @@
     "next": "Berikutnya",
     "save": "Menyimpan",
     "loading": "Memuat..."
-  }
+  },
+  "app_description": "Seseorang yang Hilang"
 }

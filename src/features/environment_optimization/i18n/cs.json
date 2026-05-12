@@ -44,5 +44,6 @@
     "save": "Uložit",
     "loading": "Načítání..."
   },
-  "app_duration": "5 minut"
+  "app_duration": "5 minut",
+  "app_description": "Cvičení optimalizace prostředí"
 }

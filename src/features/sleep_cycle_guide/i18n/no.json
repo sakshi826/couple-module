@@ -1,11 +1,11 @@
 {
   "app_title": "Søvnsyklusguide",
-  "pill_labels": {
-    "0": "Introduksjon",
-    "1": "De 4 fasene",
-    "2": "Den søvnige sannheten",
-    "3": "Hva med deg?"
-  },
+  "pill_labels": [
+    "Introduksjon",
+    "De 4 fasene",
+    "Den søvnige sannheten",
+    "Hva med deg?"
+  ],
   "s1": {
     "title": "Har du noen gang sovet 8 timer og fortsatt følt deg forferdelig?",
     "p1": "Det handler ikke om <1>hvor lenge</1> du sover.",
@@ -18,32 +18,32 @@
   "s2": {
     "title": "Hjernen din gjør DETTE hver kveld 🌀",
     "desc": "Hvert 90. minutt går hjernen din gjennom 4 nivåer – som en spilleliste på repeat. Trykk på hver for å utforske 👇",
-    "stages": {
-      "0": {
+    "stages": [
+      {
         "emoji": "🌊",
         "title": "Lett søvn",
         "tag": "1–5 min · lett vekket",
         "body": "Du driver av gårde. Kroppen begynner å slippe taket, musklene kan rykke. Veldig lett å våkne herfra."
       },
-      "1": {
+      {
         "emoji": "💤",
         "title": "Å slå seg til ro",
         "tag": "10–25 minutter · virkelig sovende",
         "body": "Hjerterytmen går ned, kroppstemperaturen synker. Du sover ordentlig — hjerneaktiviteten begynner å avta."
       },
-      "2": {
+      {
         "emoji": "🔵",
         "title": "Dyp søvn ⭐",
         "tag": "20–40 minutter · Gullet",
         "body": "Kroppen reparerer vev, bygger immunitet. Den mest fysisk gjenopprettende fasen — vanskelig å våkne fra."
       },
-      "3": {
+      {
         "emoji": "🌙",
         "title": "REM-søvn",
         "tag": "10–60 minutter · Drømmemodus",
         "body": "Hjernen summer av aktivitet. Følelser blir bearbeidet, minner låser seg. Å hoppe over dette gjør deg uklar."
       }
-    },
+    ],
     "italic": "Dyp søvn fikser kroppen din. REM fikser sinnet ditt.",
     "button": "Så hvorfor føler jeg meg fortsatt groggy? →"
   },
@@ -55,66 +55,66 @@
       "deep": "Dyp",
       "groggy": "😫 groggy",
       "fresh": "😊 Frisk",
-      "cycles": {
-        "0": "Syklus 1",
-        "1": "Syklus 2",
-        "2": "Syklus 3"
-      }
+      "cycles": [
+        "Syklus 1",
+        "Syklus 2",
+        "Syklus 3"
+      ]
     },
     "disruptors_title": "Hva forstyrrer syklusene 👇 dine",
-    "disruptors": {
-      "0": {
+    "disruptors": [
+      {
         "emoji": "📱",
         "text": "Skjermer før leggetid",
         "sub": "Utsetter dyp søvn"
       },
-      "1": {
+      {
         "emoji": "☕",
         "text": "Sen koffein",
         "sub": "reduserer dyp søvn med opptil 20 %"
       },
-      "2": {
+      {
         "emoji": "⏰",
         "text": "Uregelmessige søvntider",
         "sub": "Bryter din naturlige rytme"
       },
-      "3": {
+      {
         "emoji": "😰",
         "text": "Stress og angst",
         "sub": "holder deg fast i lett søvn"
       }
-    },
+    ],
     "italic": "Vanene dine former direkte hvilke stadier du kommer til.",
     "button": "Hva betyr dette for meg? →"
   },
   "s4": {
     "title": "Hvilken høres ut som deg? 👇",
-    "options": {
-      "0": {
+    "options": [
+      {
         "emoji": "😩",
         "text": "Jeg våkner fysisk utmattet",
         "sub": "Savner sannsynligvis dyp søvn",
         "tip": "Fokuser på jevn søvn og oppvåkningstid — kroppen din trenger en jevn rytme for å oppnå dyp søvn."
       },
-      "1": {
+      {
         "emoji": "🌫️",
         "text": "Jeg føler meg følelsesmessig tåkete eller nedfor",
         "sub": "Sannsynligvis savner jeg REM-søvn",
         "tip": "Prøv å roe ned 30 minutter før du legger deg – en rolig rutine før søvn beskytter REM-søvnen din."
       },
-      "2": {
+      {
         "emoji": "😤",
         "text": "Jeg våkner ofte om natten",
         "sub": "Sykluser blir stadig avbrutt",
         "tip": "Et kjølig, mørkt og stille rom hjelper hjernen din å holde seg i dypere stadier uten avbrudd."
       },
-      "3": {
+      {
         "emoji": "😐",
         "text": "Jeg føler meg ok, men ikke fantastisk",
         "sub": "Sykluser er delvise, men ikke komplette",
         "tip": "Prøv å legge deg 20 minutter tidligere — du trenger kanskje bare én hel søvnsyklus til."
       }
-    },
+    ],
     "quote": "Søvn er ikke bare hvile — det er aktiv restitusjon. Beskytt syklusene dine, og hele dagen din endrer seg.",
     "button": "Ferdig ✓"
   },
@@ -129,5 +129,6 @@
     "next": "Neste",
     "save": "Spare",
     "loading": "Laster inn..."
-  }
+  },
+  "app_description": "Søvnsyklusguide"
 }

@@ -15,12 +15,12 @@
     "intro": {
       "title": "Egenomsorgssporer",
       "description": "Følg med på dine daglige egenomsorgsvaner og se hvordan de påvirker din generelle velvære. Konsistens er nøkkelen til et sunnere sinn.",
-      "benefits": {
-        "0": "Loggfør daglige egenomsorgsaktiviteter",
-        "1": "Følg med på tiden du bruker på deg selv",
-        "2": "Følg med på humørmønstrene dine",
-        "3": "Se historie og fremgang"
-      },
+      "benefits": [
+        "Loggfør daglige egenomsorgsaktiviteter",
+        "Følg med på tiden du bruker på deg selv",
+        "Følg med på humørmønstrene dine",
+        "Se historie og fremgang"
+      ],
       "duration": "2-3 minutter"
     },
     "checkin": {
@@ -117,23 +117,25 @@
       "Stressed": "Stresset",
       "Tired": "Trøtt"
     },
-    "positiveStatements": {
-      "0": "Du møtte opp for deg selv i dag. Det er kraftfullt. 🌿",
-      "1": "Egenomsorg er ikke egoistisk — det er essensielt. Bra jobbet. 💚",
-      "2": "Hver lille omsorgshandling bygger en sterkere deg. 🌱",
-      "3": "Du investerte i deg selv i dag. Det betyr noe. ✨",
-      "4": "Å ta vare på deg selv er det beste du gjorde i dag. 🍃"
-    },
-    "supportiveStatements": {
-      "0": "Det går bra. I morgen er en ny start. Vær snill med deg selv. 🤍",
-      "1": "Ikke hver dag vil være perfekt, og det er helt greit. 🕊️",
-      "2": "Du gjør ditt beste. Det er alltid nok. 💛",
-      "3": "Hvile er også en form for egenomsorg. Vis deg selv nåde. 🌸",
-      "4": "Å erkjenne i dag krever mot. Du vokser allerede. 🌷"
-    }
+    "positiveStatements": [
+      "Du møtte opp for deg selv i dag. Det er kraftfullt. 🌿",
+      "Egenomsorg er ikke egoistisk — det er essensielt. Bra jobbet. 💚",
+      "Hver lille omsorgshandling bygger en sterkere deg. 🌱",
+      "Du investerte i deg selv i dag. Det betyr noe. ✨",
+      "Å ta vare på deg selv er det beste du gjorde i dag. 🍃"
+    ],
+    "supportiveStatements": [
+      "Det går bra. I morgen er en ny start. Vær snill med deg selv. 🤍",
+      "Ikke hver dag vil være perfekt, og det er helt greit. 🕊️",
+      "Du gjør ditt beste. Det er alltid nok. 💛",
+      "Hvile er også en form for egenomsorg. Vis deg selv nåde. 🌸",
+      "Å erkjenne i dag krever mot. Du vokser allerede. 🌷"
+    ]
   },
   "intro_p1": "skjermer.introduksjon.fordeler.0",
   "intro_p2": "skjermer.introduksjon.fordeler.1",
   "intro_p3": "skjermer.introduksjon.fordeler.2",
-  "intro_p4": "skjermer.introduksjon.fordeler.3"
+  "intro_p4": "skjermer.introduksjon.fordeler.3",
+  "app_title": "Pleiesporing",
+  "app_description": "Pleiesporing"
 }

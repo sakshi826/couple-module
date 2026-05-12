@@ -73,13 +73,13 @@
     "confirmDelete": "Bekreft Slett",
     "cancel": "Avbryt",
     "delete": "Slett oppføring",
-    "prompts": {
-      "0": "Et lite øyeblikk som ikke føltes anspent...",
-      "1": "En innsats partneren din har gjort...",
-      "2": "En egenskap som har holdt seg konstant...",
-      "3": "Intensjon",
-      "4": "Følelsesmessig innsjekk"
-    }
+    "prompts": [
+      "Et lite øyeblikk som ikke føltes anspent...",
+      "En innsats partneren din har gjort...",
+      "En egenskap som har holdt seg konstant...",
+      "Intensjon",
+      "Følelsesmessig innsjekk"
+    ]
   },
   "common": {
     "get_started": "Kom i gang",

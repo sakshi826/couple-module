@@ -55,5 +55,7 @@
   "app_duration": "1-2분",
   "intro_p1": "감정 패턴을 추적하세요",
   "intro_p2": "오늘 당신의 기분을 되돌아보세요.",
-  "intro_p3": "감정 인식을 키우세요"
+  "intro_p3": "감정 인식을 키우세요",
+  "app_title": "바이브 트래커",
+  "app_description": "바이브 트래커"
 }

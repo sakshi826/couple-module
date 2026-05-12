@@ -60,5 +60,6 @@
   "welcome_title": "tervetuloa_otsikko",
   "carry_title": "carry_title",
   "cue_body": "cue_body",
-  "label_relation": "label_relation"
+  "label_relation": "label_relation",
+  "app_description": "sovelluksen_otsikko"
 }

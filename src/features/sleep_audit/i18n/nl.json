@@ -28,43 +28,43 @@
       }
     }
   },
-  "options": {
-    "0": {
+  "options": [
+    {
       "emoji": "🕐",
       "text": "Ik ga elke avond op heel verschillende tijden naar bed"
     },
-    "1": {
+    {
       "emoji": "💡",
       "text": "Mijn slaapomgeving is niet donker, stil of comfortabel"
     },
-    "2": {
+    {
       "emoji": "📱",
       "text": "Ik scroll op mijn telefoon vlak voordat ik ga slapen"
     },
-    "3": {
+    {
       "emoji": "☕",
       "text": "Ik drink cafeïne of alcohol vlak voor bedtijd"
     },
-    "4": {
+    {
       "emoji": "😵",
       "text": "Ik word 's nachts wakker en heb moeite om weer in slaap te vallen"
     },
-    "5": {
+    {
       "emoji": "🧠",
       "text": "Mijn gedachten razen als ik probeer te slapen"
     },
-    "6": {
+    {
       "emoji": "😔",
       "text": "Ik voel me zelden verfrist na een nacht slaap"
     }
-  },
-  "rating_labels": {
-    "0": "Heel arm",
-    "1": "Arme",
-    "2": "Oké",
-    "3": "Goed",
-    "4": "Geweldig"
-  },
+  ],
+  "rating_labels": [
+    "Heel arm",
+    "Arme",
+    "Oké",
+    "Goed",
+    "Geweldig"
+  ],
   "status_labels": {
     "track": "Grotendeels op de baan",
     "disruptions": "Enkele verstoringen",

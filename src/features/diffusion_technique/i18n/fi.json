@@ -100,5 +100,6 @@
     "save": "Tallentaa",
     "loading": "Ladataan..."
   },
-  "app_title": "Lähetystekniikat"
+  "app_title": "Lähetystekniikat",
+  "app_description": "Lähetystekniikat"
 }

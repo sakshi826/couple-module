@@ -73,13 +73,13 @@
     "confirmDelete": "Bekräfta Radera",
     "cancel": "Avbryt",
     "delete": "Ta bort posten",
-    "prompts": {
-      "0": "Ett litet ögonblick som inte kändes spänt...",
-      "1": "En insats din partner har gjort...",
-      "2": "En egenskap som har varit konsekvent...",
-      "3": "Avsikt",
-      "4": "Emotionell uppkoppling"
-    }
+    "prompts": [
+      "Ett litet ögonblick som inte kändes spänt...",
+      "En insats din partner har gjort...",
+      "En egenskap som har varit konsekvent...",
+      "Avsikt",
+      "Emotionell uppkoppling"
+    ]
   },
   "common": {
     "get_started": "Kom igång",

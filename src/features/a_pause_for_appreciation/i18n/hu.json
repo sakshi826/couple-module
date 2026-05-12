@@ -73,13 +73,13 @@
     "confirmDelete": "Törlés megerősítése",
     "cancel": "Törlés",
     "delete": "Bejegyzés törlése",
-    "prompts": {
-      "0": "Egy apró pillanat, ami nem tűnt feszültnek...",
-      "1": "Egy erőfeszítés, amit a partnered tett...",
-      "2": "Egy tulajdonság, ami állandó maradt...",
-      "3": "Szándék",
-      "4": "Érzelmi ellenőrzés"
-    }
+    "prompts": [
+      "Egy apró pillanat, ami nem tűnt feszültnek...",
+      "Egy erőfeszítés, amit a partnered tett...",
+      "Egy tulajdonság, ami állandó maradt...",
+      "Szándék",
+      "Érzelmi ellenőrzés"
+    ]
   },
   "common": {
     "get_started": "Kezdés",

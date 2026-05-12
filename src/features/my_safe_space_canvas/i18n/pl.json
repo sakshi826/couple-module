@@ -4,52 +4,52 @@
   "welcome": {
     "title": "Twoje bezpieczne miejsce czeka",
     "description": "Zbuduj własne sanktuarium poprzez serię delikatnych, kreatywnych podpowiedzi. Puste płótno dla twoich myśli i uczuć.",
-    "benefits": {
-      "0": "Wyrazić siebie przez kolor",
-      "1": "Stwórz narzędzie do wizualnego uziemiania",
-      "2": "Bezpieczne, prywatne i osobiste"
-    },
+    "benefits": [
+      "Wyrazić siebie przez kolor",
+      "Stwórz narzędzie do wizualnego uziemiania",
+      "Bezpieczne, prywatne i osobiste"
+    ],
     "duration": "10-15 minut",
     "view_past": "Zobacz poprzednie kolaże"
   },
   "canvas": {
-    "prompts": {
-      "0": {
+    "prompts": [
+      {
         "quote": "Jak wygląda niebo w twoim bezpiecznym miejscu? Rysuj jego kolor, światło lub odczucie.",
         "button": "Dodałem niebo →",
         "hint": "Nie ma właściwej drogi — każdy znak wystarczy."
       },
-      "1": {
+      {
         "quote": "Jak się czuje ziemia? Trawa, piasek, woda, drewniana podłoga? Dodaj to pod niebo.",
         "button": "Dodałem → uziemienia",
         "hint": "Pomyśl, jak twoje stopy czują się w tym miejscu."
       },
-      "2": {
+      {
         "quote": "Dodaj jedną rzecz, która tu powinna — drzewo, krzesło, okno, zwierzaka, lampę. Wszystko, co wydaje się właściwe.",
         "button": "Dodałem coś →",
         "hint": "Nie musi wyglądać idealnie. To musi po prostu wydawać się prawdziwe."
       },
-      "3": {
+      {
         "quote": "Co przynosi ciepło lub komfort w tym miejscu? Światło, ogień, światło słoneczne, koc? Dodaj go tam, gdzie czujesz, że jest odpowiedni.",
         "button": "Dodałem ciepło →",
         "hint": "Nawet mała kropka koloru się liczy."
       },
-      "4": {
+      {
         "quote": "Na koniec — dodaj 3 do 5 słów, które tutaj pasują. Stuknij w rysunek, aby umieścić je gdziekolwiek.",
         "button": "To są moje słowa →",
         "hint": ""
       }
-    },
-    "word_chips": {
-      "0": "Pokój",
-      "1": "Dom",
-      "2": "Niebo",
-      "3": "Spokój",
-      "4": "Ciepło",
-      "5": "Dość",
-      "6": "Delikatnie",
-      "7": "Safe"
-    },
+    ],
+    "word_chips": [
+      "Pokój",
+      "Dom",
+      "Niebo",
+      "Spokój",
+      "Ciepło",
+      "Dość",
+      "Delikatnie",
+      "Safe"
+    ],
     "custom_word_placeholder": "+ własne",
     "skip_prompt": "Pomiń ten prompt",
     "type_here": "Wpisz tutaj"
@@ -71,25 +71,25 @@
     "title": "Jesteś tutaj. Jesteś bezpieczny.",
     "breathe_info": "4 · trzymaj · 4 · Puść mnie · 6",
     "done_message": "Brawo za to, że dziś się pojawiłaś dla siebie.",
-    "durations": {
-      "0": {
+    "durations": [
+      {
         "label": "1 min",
         "seconds": "60"
       },
-      "1": {
+      {
         "label": "3 min",
         "seconds": "180"
       },
-      "2": {
+      {
         "label": "5 min",
         "seconds": "300"
       }
-    },
-    "phases": {
-      "0": "Weź wdech",
-      "1": "Zatrzymaj",
-      "2": "Puść"
-    }
+    ],
+    "phases": [
+      "Weź wdech",
+      "Zatrzymaj",
+      "Puść"
+    ]
   },
   "history": {
     "title": "Dawne bezpieczne miejsca",
@@ -106,5 +106,6 @@
     "next": "Następny",
     "save": "Ratować",
     "loading": "Załadunek..."
-  }
+  },
+  "app_description": "Bezpieczna przestrzeń Canvas"
 }

@@ -4,11 +4,11 @@
   "intro": {
     "title": "Ennustus vs todellisuus",
     "description": "Vertaa ahdistuneita ennustuksiasi siihen, mitä oikeasti tapahtuu, jotta saat tasapainoisemman näkökulman.",
-    "benefits": {
-      "0": "Tunnista ahdistuneita kuvioita",
-      "1": "Kerää todisteita pelkoja vastaan",
-      "2": "Vähennä tulevaa yliajattelua"
-    },
+    "benefits": [
+      "Tunnista ahdistuneita kuvioita",
+      "Kerää todisteita pelkoja vastaan",
+      "Vähennä tulevaa yliajattelua"
+    ],
     "duration": "4-5 minuuttia",
     "view_past": "Katso menneitä pohdintoja"
   },
@@ -24,23 +24,23 @@
     "saved_title": "Heijastus pelastettu",
     "message": "Katsomalla faktoja autat mieltäsi oppimaan, että asiat ovat usein hallittavampia kuin miltä ne vaikuttavat."
   },
-  "emotions": {
-    "0": "Huolestunut",
-    "1": "Hermostunut",
-    "2": "Peloissaan",
-    "3": "Ylikuormittunut",
-    "4": "Levoton"
-  },
+  "emotions": [
+    "Huolestunut",
+    "Hermostunut",
+    "Peloissaan",
+    "Ylikuormittunut",
+    "Levoton"
+  ],
   "intensity_labels": {
     "not_intense": "Ei intensiivistä",
     "very_intense": "Erittäin intensiivistä"
   },
-  "comparison_options": {
-    "0": "Lopputulos oli melkein juuri sellainen kuin odotin",
-    "1": "Jotkut osat olivat kohdallaan, mutta eivät kaikki",
-    "2": "Se oli melko erilaista kuin odotin",
-    "3": "Se oli paljon helpompaa/parempaa kuin kuvittelin"
-  },
+  "comparison_options": [
+    "Lopputulos oli melkein juuri sellainen kuin odotin",
+    "Jotkut osat olivat kohdallaan, mutta eivät kaikki",
+    "Se oli melko erilaista kuin odotin",
+    "Se oli paljon helpompaa/parempaa kuin kuvittelin"
+  ],
   "screens": {
     "s1": {
       "title": "Ajattele erästä äskettäistä tilannetta",
@@ -101,5 +101,6 @@
     "next": "Seuraava",
     "save": "Tallentaa",
     "loading": "Ladataan..."
-  }
+  },
+  "app_description": "Ennustus vs. todellisuus"
 }

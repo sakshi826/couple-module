@@ -1,11 +1,11 @@
 {
   "app_title": "Søvncyklusguide",
-  "pill_labels": {
-    "0": "Indførelsen",
-    "1": "De 4 faser",
-    "2": "Den søvnige sandhed",
-    "3": "Hvad med dig?"
-  },
+  "pill_labels": [
+    "Indførelsen",
+    "De 4 faser",
+    "Den søvnige sandhed",
+    "Hvad med dig?"
+  ],
   "s1": {
     "title": "Har du nogensinde sovet 8 timer og stadig følt dig elendig?",
     "p1": "Det handler ikke om <1>hvor længe</1> du sover.",
@@ -18,32 +18,32 @@
   "s2": {
     "title": "Din hjerne gør DETTE hver nat 🌀",
     "desc": "Hver 90. minut cykler din hjerne gennem 4 baner — som en playliste på repeat. Tryk på hver for at udforske 👇",
-    "stages": {
-      "0": {
+    "stages": [
+      {
         "emoji": "🌊",
         "title": "Let søvn",
         "tag": "1–5 min · let at vække",
         "body": "Du er ved at glide væk. Kroppen begynder at give slip, musklerne kan rykke. Meget let at vågne herfra."
       },
-      "1": {
+      {
         "emoji": "💤",
         "title": "At slå sig ned",
         "tag": "10–25 minutter · virkelig sovende",
         "body": "Hjertefrekvensen falder, kropstemperaturen falder. Du sover ordentligt — hjerneaktiviteten begynder at aftage."
       },
-      "2": {
+      {
         "emoji": "🔵",
         "title": "Dyb søvn ⭐",
         "tag": "20–40 minutter · Guldet",
         "body": "Kroppen reparerer væv, opbygger immunitet. Den mest fysisk genoprettende fase — svær at vågne fra."
       },
-      "3": {
+      {
         "emoji": "🌙",
         "title": "REM-søvn",
         "tag": "10–60 minutter · Drømmetilstand",
         "body": "Hjernen summer af aktivitet. Følelser bliver bearbejdet, minder låser sig fast. At springe dette over gør dig uklar."
       }
-    },
+    ],
     "italic": "Dyb søvn reparerer din krop. REM fikser dit sind.",
     "button": "Så hvorfor føler jeg mig stadig groggy? →"
   },
@@ -55,66 +55,66 @@
       "deep": "Dyb",
       "groggy": "😫 groggy",
       "fresh": "😊 frisk",
-      "cycles": {
-        "0": "Cyklus 1",
-        "1": "Cyklus 2",
-        "2": "Cyklus 3"
-      }
+      "cycles": [
+        "Cyklus 1",
+        "Cyklus 2",
+        "Cyklus 3"
+      ]
     },
     "disruptors_title": "Hvad forstyrrer dine cyklusser 👇",
-    "disruptors": {
-      "0": {
+    "disruptors": [
+      {
         "emoji": "📱",
         "text": "Skærme før sengetid",
         "sub": "Forsinker dyb søvn"
       },
-      "1": {
+      {
         "emoji": "☕",
         "text": "Sen koffein",
         "sub": "skærer dyb søvn med op til 20%"
       },
-      "2": {
+      {
         "emoji": "⏰",
         "text": "Uregelmæssige søvntider",
         "sub": "Bryder din naturlige rytme"
       },
-      "3": {
+      {
         "emoji": "😰",
         "text": "Stress og angst",
         "sub": "holder dig fanget i let søvn"
       }
-    },
+    ],
     "italic": "Dine vaner former direkte, hvilke stadier du når op.",
     "button": "Hvad betyder det for mig? →"
   },
   "s4": {
     "title": "Hvilken lyder som dig? 👇",
-    "options": {
-      "0": {
+    "options": [
+      {
         "emoji": "😩",
         "text": "Jeg vågner fysisk udmattet",
         "sub": "Sandsynligvis savner jeg dyb søvn",
         "tip": "Fokuser på en stabil søvn og opvågningstid — din krop har brug for en regelmæssig rytme for at nå dyb søvn."
       },
-      "1": {
+      {
         "emoji": "🌫️",
         "text": "Jeg føler mig følelsesmæssigt tåget eller nede",
         "sub": "Savner sandsynligvis REM-søvn",
         "tip": "Prøv at slappe af 30 minutter før sengetid — en rolig rutine før søvn beskytter din REM-søvn."
       },
-      "2": {
+      {
         "emoji": "😤",
         "text": "Jeg vågner ofte om natten",
         "sub": "Cyklusser bliver ved med at blive afbrudt",
         "tip": "Et køligt, mørkt og stille rum hjælper din hjerne med at forblive i dybere stadier uden afbrydelser."
       },
-      "3": {
+      {
         "emoji": "😐",
         "text": "Jeg har det okay, men ikke fantastisk",
         "sub": "Cyklusserne er delvise, men ikke komplette",
         "tip": "Prøv at gå i seng 20 minutter tidligere — du har måske bare brug for en komplet søvncyklus mere."
       }
-    },
+    ],
     "quote": "Søvn er ikke bare hvile — det er aktiv restitution. Beskyt dine cyklusser, og din heldag ændrer sig.",
     "button": "Færdig ✓"
   },
@@ -129,5 +129,6 @@
     "next": "Næste",
     "save": "Spare",
     "loading": "Indlæser..."
-  }
+  },
+  "app_description": "Guide til søvncyklus"
 }

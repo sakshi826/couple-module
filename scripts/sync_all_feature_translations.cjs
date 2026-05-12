@@ -45,7 +45,27 @@ function unflatten(obj) {
     }
     current[parts[parts.length - 1]] = value;
   }
-  return result;
+  
+  // Post-process to convert objects with numeric keys back to arrays if needed
+  function convertArrays(o) {
+    if (typeof o !== 'object' || o === null) return o;
+    
+    for (const key in o) {
+      o[key] = convertArrays(o[key]);
+    }
+    
+    const keys = Object.keys(o);
+    if (keys.length > 0 && keys.every(k => !isNaN(k))) {
+      const arr = [];
+      keys.forEach(k => {
+        arr[parseInt(k)] = o[k];
+      });
+      return arr;
+    }
+    return o;
+  }
+  
+  return convertArrays(result);
 }
 
 async function translateBatch(texts, targetLang) {
@@ -88,8 +108,16 @@ async function syncFeature(feature) {
 
         const missingKeys = [];
         const missingValues = [];
+        const technicalKeys = ['answer', 'type', 'slug', 'id', 'url', 'icon', 'image'];
+        
         keys.forEach((key, i) => {
-            if (!flattenedTarget[key]) {
+            const keyParts = key.split('.');
+            const lastPart = keyParts[keyParts.length - 1];
+            
+            if (technicalKeys.includes(lastPart)) {
+                // Force copy technical keys as-is
+                flattenedTarget[key] = values[i];
+            } else if (!flattenedTarget[key]) {
                 missingKeys.push(key);
                 missingValues.push(values[i]);
             }
@@ -107,8 +135,16 @@ async function syncFeature(feature) {
                 missingKeys.forEach((key, i) => {
                     flattenedTarget[key] = translatedValues[i];
                 });
-                fs.writeFileSync(targetPath, JSON.stringify(unflatten(flattenedTarget), null, 2));
             }
+        }
+        
+        // Always reconstruct to ensure arrays are preserved and structural parity
+        const finalContent = unflatten(flattenedTarget);
+        const finalString = JSON.stringify(finalContent, null, 2);
+        const currentString = fs.existsSync(targetPath) ? fs.readFileSync(targetPath, 'utf8') : '';
+        
+        if (finalString !== currentString) {
+            fs.writeFileSync(targetPath, finalString);
         }
     }
 }

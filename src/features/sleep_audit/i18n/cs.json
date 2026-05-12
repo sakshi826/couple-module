@@ -28,43 +28,43 @@
       }
     }
   },
-  "options": {
-    "0": {
+  "options": [
+    {
       "emoji": "🕐",
       "text": "Chodím spát každý večer v úplně jinou dobu"
     },
-    "1": {
+    {
       "emoji": "💡",
       "text": "Moje spánkové prostředí není tmavé, tiché ani pohodlné"
     },
-    "2": {
+    {
       "emoji": "📱",
       "text": "Těsně před spaním scrolluji na telefonu"
     },
-    "3": {
+    {
       "emoji": "☕",
       "text": "Kofein nebo alkohol piju těsně před spaním"
     },
-    "4": {
+    {
       "emoji": "😵",
       "text": "Probouzím se v noci a mám problém znovu usnout"
     },
-    "5": {
+    {
       "emoji": "🧠",
       "text": "Když se snažím usnout, hlavou mi běží myšlenky"
     },
-    "6": {
+    {
       "emoji": "😔",
       "text": "Zřídka se po noci spánku cítím odpočatý"
     }
-  },
-  "rating_labels": {
-    "0": "Velmi chudé",
-    "1": "Chudák",
-    "2": "Dobře",
-    "3": "Dobře",
-    "4": "Skvělé"
-  },
+  ],
+  "rating_labels": [
+    "Velmi chudé",
+    "Chudák",
+    "Dobře",
+    "Dobře",
+    "Skvělé"
+  ],
   "status_labels": {
     "track": "Většinou na trati",
     "disruptions": "Některá narušení",

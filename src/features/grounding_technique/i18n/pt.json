@@ -1,11 +1,5 @@
 {
   "Grounding": "Aterramento",
-  "Grounding techniques help bring your attention back to the present moment": {
-    "": "As técnicas de ancoragem ajudam a trazer sua atenção de volta ao momento presente."
-  },
-  "Choose one activity that feels supportive right now": {
-    "": "Escolha uma atividade que lhe dê apoio neste momento."
-  },
   "Step": "Etapa",
   "Back": "Voltar",
   "Next": "Próximo",
@@ -23,140 +17,8 @@
   "Move your body": "Mexa o seu corpo",
   "Listen to your surroundings": "Preste atenção ao que está ao seu redor.",
   "Check in with your body": "Preste atenção ao seu corpo.",
-  "Run your hands under cool or warm water": {
-    "": "Lave as mãos em água fria ou morna."
-  },
-  "Notice the temperature": {
-    "": "Observe a temperatura."
-  },
-  "Pay attention to the sensation on your skin": {
-    "": "Preste atenção à sensação na sua pele."
-  },
-  "Observe how it changes moment by moment": {
-    "": "Observe como isso muda a cada instante."
-  },
-  "Let your breathing slow naturally": {
-    "": "Deixe sua respiração desacelerar naturalmente."
-  },
-  "Choose a nearby object": {
-    "": "Escolha um objeto próximo."
-  },
-  "Notice its texture, weight, and temperature": {
-    "": "Observe sua textura, peso e temperatura."
-  },
   "Is it smooth or rough? Heavy or light?": "É liso ou áspero? Pesado ou leve?",
-  "Let your focus stay fully on this one object": {
-    "": "Mantenha o foco totalmente concentrado neste único objeto."
-  },
-  "Take a slow breath in through your nose": {
-    "": "Respire fundo e lentamente pelo nariz."
-  },
-  "Hold gently for a moment": {
-    "": "Segure delicadamente por um instante."
-  },
-  "Exhale slowly through your mouth": {
-    "": "Expire lentamente pela boca."
-  },
-  "Repeat several times": {
-    "": "Repita várias vezes."
-  },
-  "Let your shoulders soften": {
-    "": "Deixe seus ombros relaxarem."
-  },
-  "Take a small bite": {
-    "": "Dê uma pequena mordida."
-  },
-  "Chew slowly": {
-    "": "Mastigue devagar."
-  },
-  "Notice the flavor, texture, and temperature": {
-    "": "Observe o sabor, a textura e a temperatura."
-  },
-  "Stay fully present with the experience": {
-    "": "Permaneça totalmente presente na experiência."
-  },
-  "Take a slow sip": {
-    "": "Dê um gole devagar."
-  },
-  "Notice the temperature and taste": {
-    "": "Observe a temperatura e o sabor."
-  },
-  "Feel the sensation as you swallow": {
-    "": "Sinta a sensação ao engolir."
-  },
-  "Let yourself stay with that moment": {
-    "": "Permita-se permanecer nesse momento."
-  },
-  "Walk slowly and intentionally": {
-    "": "Caminhe devagar e com atenção."
-  },
-  "Notice the feeling of your feet touching the ground": {
-    "": "Preste atenção na sensação dos seus pés tocando o chão."
-  },
-  "Observe your surroundings without judgment": {
-    "": "Observe o que está ao seu redor sem julgar."
-  },
-  "Let your breath match your steps": {
-    "": "Deixe sua respiração acompanhar seus passos."
-  },
-  "Hold the ice in your hand": {
-    "": "Segure o gelo na mão."
-  },
-  "Notice the cold sensation": {
-    "": "Note a sensação de frio."
-  },
-  "Focus fully on the feeling": {
-    "": "Concentre-se totalmente na sensação."
-  },
-  "Allow the strong sensation to anchor you to the present": {
-    "": "Permita que essa forte sensação o ancore no presente."
-  },
-  "Choose a scent nearby": {
-    "": "Escolha um aroma que esteja por perto."
-  },
-  "Inhale slowly": {
-    "": "Inspire lentamente."
-  },
-  "Notice how it feels in your body": {
-    "": "Observe como isso se manifesta no seu corpo."
-  },
-  "Let the scent bring you into this moment": {
-    "": "Deixe que o aroma te transporte para este momento."
-  },
-  "Stretch gently": {
-    "": "Alongue-se suavemente."
-  },
-  "Roll your shoulders": {
-    "": "Gire os ombros."
-  },
-  "Shift your weight from side to side": {
-    "": "Transfira o peso de um lado para o outro."
-  },
-  "Notice how your body feels as it moves": {
-    "": "Observe como seu corpo se sente enquanto se move."
-  },
-  "Pause and listen": {
-    "": "Faça uma pausa e escute."
-  },
-  "Identify three distinct sounds": {
-    "": "Identifique três sons distintos."
-  },
   "Are they near or far?": "Eles estão perto ou longe?",
-  "Let your attention rest on each one": {
-    "": "Deixe sua atenção repousar em cada um deles."
-  },
-  "Close your eyes if comfortable": {
-    "": "Feche os olhos, se se sentir confortável."
-  },
-  "Scan from head to toe": {
-    "": "Examine da cabeça aos pés."
-  },
-  "Notice areas of tension or ease": {
-    "": "Observe as áreas de tensão ou de relaxamento."
-  },
-  "Breathe into any tightness": {
-    "": "Respire fundo para aliviar qualquer sensação de aperto."
-  },
   "common": {
     "get_started": "Comece agora",
     "start_over": "Recomeçar",
@@ -169,5 +31,52 @@
     "save": "Salvar",
     "loading": "Carregando..."
   },
-  "app_title": "Aterramento"
+  "app_title": "Aterramento",
+  "app_description": "Aterramento",
+  "Grounding techniques help bring your attention back to the present moment": [],
+  "Choose one activity that feels supportive right now": [],
+  "Run your hands under cool or warm water": [],
+  "Notice the temperature": [],
+  "Pay attention to the sensation on your skin": [],
+  "Observe how it changes moment by moment": [],
+  "Let your breathing slow naturally": [],
+  "Choose a nearby object": [],
+  "Notice its texture, weight, and temperature": [],
+  "Let your focus stay fully on this one object": [],
+  "Take a slow breath in through your nose": [],
+  "Hold gently for a moment": [],
+  "Exhale slowly through your mouth": [],
+  "Repeat several times": [],
+  "Let your shoulders soften": [],
+  "Take a small bite": [],
+  "Chew slowly": [],
+  "Notice the flavor, texture, and temperature": [],
+  "Stay fully present with the experience": [],
+  "Take a slow sip": [],
+  "Notice the temperature and taste": [],
+  "Feel the sensation as you swallow": [],
+  "Let yourself stay with that moment": [],
+  "Walk slowly and intentionally": [],
+  "Notice the feeling of your feet touching the ground": [],
+  "Observe your surroundings without judgment": [],
+  "Let your breath match your steps": [],
+  "Hold the ice in your hand": [],
+  "Notice the cold sensation": [],
+  "Focus fully on the feeling": [],
+  "Allow the strong sensation to anchor you to the present": [],
+  "Choose a scent nearby": [],
+  "Inhale slowly": [],
+  "Notice how it feels in your body": [],
+  "Let the scent bring you into this moment": [],
+  "Stretch gently": [],
+  "Roll your shoulders": [],
+  "Shift your weight from side to side": [],
+  "Notice how your body feels as it moves": [],
+  "Pause and listen": [],
+  "Identify three distinct sounds": [],
+  "Let your attention rest on each one": [],
+  "Close your eyes if comfortable": [],
+  "Scan from head to toe": [],
+  "Notice areas of tension or ease": [],
+  "Breathe into any tightness": []
 }

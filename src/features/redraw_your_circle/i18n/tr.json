@@ -21,24 +21,24 @@
       "placeholder": "Bir isim gir...",
       "button": "Kayıt Adı"
     },
-    "prompts": {
-      "0": "Neşe getiren bir kişi",
-      "1": "Seni destekleyen biri",
-      "2": "Konuşabileceğin bir kişi",
-      "3": "Güvendiğiniz bir kişi",
-      "4": "Sana ilham veren bir kişi"
-    }
+    "prompts": [
+      "Neşe getiren bir kişi",
+      "Seni destekleyen biri",
+      "Konuşabileceğin bir kişi",
+      "Güvendiğiniz bir kişi",
+      "Sana ilham veren bir kişi"
+    ]
   },
   "reflection": {
     "subtitle": "Son Düşünceler",
     "title": "Ne fark ediyorsun?",
     "p_intro": "Bir an durup dairenize bakın. Fark edebilirsiniz:",
-    "list": {
-      "0": "Bazı insanlar kendini diğerlerinden daha yakın hissediyor",
-      "1": "Bazı bağlantılar güçlü hissettiriyor",
-      "2": "Bazıları uzak veya belirsiz hissediyor",
-      "3": "Boşluklar olabilir — ya da sadece birkaç anlamlı kişi olabilir"
-    },
+    "list": [
+      "Bazı insanlar kendini diğerlerinden daha yakın hissediyor",
+      "Bazı bağlantılar güçlü hissettiriyor",
+      "Bazıları uzak veya belirsiz hissediyor",
+      "Boşluklar olabilir — ya da sadece birkaç anlamlı kişi olabilir"
+    ],
     "italic": "Farkındalık, değer verdiğiniz bağlantıları kurmanın ilk adımıdır. 🧘",
     "label": "💭 Daha fazla bağlanmak isteyeceğin biri var mı?",
     "placeholder": "Düşüncelerinizi buraya yazın...",
@@ -72,5 +72,6 @@
   },
   "intro_p1": "Hayatımızın farklı dönemlerinde destek sistemimiz değişebilir. 🌱 Bazen bağlantı kurduğumuzu ve desteklendiğimizi hissederiz. Diğer zamanlarda ise her şey uzak veya belirsiz gelebilir.",
   "intro_p2": "Bu etkinlik, durup etrafınızdaki insanlara bakmanız ve şu anda kimlerin sizin çevrenizin bir parçası olduğunu anlamanız için bir fırsat sunuyor. 💛",
-  "intro_p3": "Burada doğru ya da yanlış yok. Sadece farkındalık var. ✨"
+  "intro_p3": "Burada doğru ya da yanlış yok. Sadece farkındalık var. ✨",
+  "app_description": "Çemberinizi Yeniden Çizin"
 }

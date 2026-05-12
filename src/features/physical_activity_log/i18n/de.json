@@ -61,5 +61,6 @@
     "save": "Speichern",
     "loading": "Laden..."
   },
-  "app_title": "Aktivitätsprotokoll"
+  "app_title": "Aktivitätsprotokoll",
+  "app_description": "Aktivitätsprotokoll"
 }

@@ -73,13 +73,13 @@
     "confirmDelete": "Potwierdź usunięcie",
     "cancel": "Anulować",
     "delete": "Usuń wpis",
-    "prompts": {
-      "0": "Jedna krótka chwila, która nie była napięta…",
-      "1": "Jedno z działań Twojego partnera…",
-      "2": "Jedna cecha, która pozostała niezmienna…",
-      "3": "Zamiar",
-      "4": "Emocjonalne zameldowanie"
-    }
+    "prompts": [
+      "Jedna krótka chwila, która nie była napięta…",
+      "Jedno z działań Twojego partnera…",
+      "Jedna cecha, która pozostała niezmienna…",
+      "Zamiar",
+      "Emocjonalne zameldowanie"
+    ]
   },
   "common": {
     "get_started": "Zacznij",

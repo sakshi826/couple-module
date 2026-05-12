@@ -60,5 +60,6 @@
   "welcome_title": "titre_de_bienvenue",
   "placeholder_step": "placeholder_step",
   "prompt_wish": "prompt_wish",
-  "prompt_wish_subtitle": "prompt_wish_subtitle"
+  "prompt_wish_subtitle": "prompt_wish_subtitle",
+  "app_description": "titre de l'application"
 }

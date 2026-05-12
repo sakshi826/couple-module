@@ -28,43 +28,43 @@
       }
     }
   },
-  "options": {
-    "0": {
+  "options": [
+    {
       "emoji": "🕐",
       "text": "Kładę się spać o bardzo różnych porach każdej nocy"
     },
-    "1": {
+    {
       "emoji": "💡",
       "text": "Moje środowisko do snu nie jest ciemne, ciche ani komfortowe"
     },
-    "2": {
+    {
       "emoji": "📱",
       "text": "Przeglądam telefon tuż przed snem"
     },
-    "3": {
+    {
       "emoji": "☕",
       "text": "Piję kofeinę lub alkohol tuż przed snem"
     },
-    "4": {
+    {
       "emoji": "😵",
       "text": "Budzę się w nocy i mam trudności z powrotem zasnąć"
     },
-    "5": {
+    {
       "emoji": "🧠",
       "text": "Kiedy próbuję zasnąć, myśli mi pędzą"
     },
-    "6": {
+    {
       "emoji": "😔",
       "text": "Rzadko czuję się wypoczęty po nocnym śnie"
     }
-  },
-  "rating_labels": {
-    "0": "Bardzo słabo",
-    "1": "Biedny",
-    "2": "Dobrze",
-    "3": "Dobrze",
-    "4": "Świetnie"
-  },
+  ],
+  "rating_labels": [
+    "Bardzo słabo",
+    "Biedny",
+    "Dobrze",
+    "Dobrze",
+    "Świetnie"
+  ],
   "status_labels": {
     "track": "Głównie na torze",
     "disruptions": "Pewne zakłócenia",

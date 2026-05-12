@@ -1,11 +1,11 @@
 {
   "app_title": "Guia do Ciclo do Sono",
-  "pill_labels": {
-    "0": "Introdução",
-    "1": "As 4 fases",
-    "2": "A verdade sonolenta",
-    "3": "What about you?"
-  },
+  "pill_labels": [
+    "Introdução",
+    "As 4 fases",
+    "A verdade sonolenta",
+    "What about you?"
+  ],
   "s1": {
     "title": "Já dormiu 8 horas e ainda assim se sentiu péssimo?",
     "p1": "Não é sobre <1>quanto tempo< a 1> você dorme.",
@@ -18,32 +18,32 @@
   "s2": {
     "title": "Seu cérebro faz ISSO toda noite 🌀",
     "desc": "A cada 90 minutos, seu cérebro passa por 4 fases — como uma playlist repetida. Toque em cada um para explorar 👇",
-    "stages": {
-      "0": {
+    "stages": [
+      {
         "emoji": "🌊",
         "title": "Sono leve",
         "tag": "1–5 minutos · Facilmente acordado",
         "body": "Você está cochilando. O corpo começa a relaxar, os músculos podem se contrair. É muito fácil acordar daqui."
       },
-      "1": {
+      {
         "emoji": "💤",
         "title": "Estabelecendo-se",
         "tag": "10–25 minutos · realmente dormindo",
         "body": "A frequência cardíaca desacelera, a temperatura corporal diminui. Você está dormindo de verdade — a atividade cerebral começa a desacelerar."
       },
-      "2": {
+      {
         "emoji": "🔵",
         "title": "Sono ⭐ profundo",
         "tag": "20–40 minutos · O ouro",
         "body": "O corpo repara tecido, constrói imunidade. A fase mais restauradora fisicamente — difícil de acordar."
       },
-      "3": {
+      {
         "emoji": "🌙",
         "title": "Sono REM",
         "tag": "10–60 minutos · Modo sonho",
         "body": "O cérebro vibra com a atividade. As emoções são processadas, as memórias se bloqueiam. Pular isso deixa você confuso."
       }
-    },
+    ],
     "italic": "O sono profundo conserta seu corpo. O REM conserta sua mente.",
     "button": "Então por que ainda me sinto sonolento? →"
   },
@@ -55,66 +55,66 @@
       "deep": "profundo",
       "groggy": "😫 grogue",
       "fresh": "😊 fresco",
-      "cycles": {
-        "0": "Ciclo 1",
-        "1": "Ciclo 2",
-        "2": "Ciclo 3"
-      }
+      "cycles": [
+        "Ciclo 1",
+        "Ciclo 2",
+        "Ciclo 3"
+      ]
     },
     "disruptors_title": "O que atrapalha seus ciclos 👇",
-    "disruptors": {
-      "0": {
+    "disruptors": [
+      {
         "emoji": "📱",
         "text": "Monitores antes de dormir",
         "sub": "atrasa o sono profundo"
       },
-      "1": {
+      {
         "emoji": "☕",
         "text": "Cafeína tardia",
         "sub": "reduz o sono profundo em até 20%"
       },
-      "2": {
+      {
         "emoji": "⏰",
         "text": "Períodos irregulares de sono",
         "sub": "quebra seu ritmo natural"
       },
-      "3": {
+      {
         "emoji": "😰",
         "text": "Estresse e ansiedade",
         "sub": "te mantém preso em um sono leve"
       }
-    },
+    ],
     "italic": "Seus hábitos moldam diretamente quais estágios você alcança.",
     "button": "O que isso significa para mim? →"
   },
   "s4": {
     "title": "Qual deles parece com você? 👇",
-    "options": {
-      "0": {
+    "options": [
+      {
         "emoji": "😩",
         "text": "Acordo fisicamente exausta",
         "sub": "Provavelmente faltando sono profundo",
         "tip": "Foque em um horário consistente de sono e vigília — seu corpo precisa de um ritmo regular para alcançar o sono profundo."
       },
-      "1": {
+      {
         "emoji": "🌫️",
         "text": "Me sinto emocionalmente confuso ou para baixo",
         "sub": "provavelmente sem dormir REM",
         "tip": "Tente relaxar 30 minutos antes de dormir — uma rotina calma antes de dormir protege seu sono REM."
       },
-      "2": {
+      {
         "emoji": "😤",
         "text": "Acordo muito à noite",
         "sub": "Os ciclos continuam sendo interrompidos",
         "tip": "Um ambiente fresco, escuro e silencioso ajuda seu cérebro a permanecer em estágios mais profundos sem interrupções."
       },
-      "3": {
+      {
         "emoji": "😐",
         "text": "Me sinto bem, mas não muito bem",
         "sub": "Ciclos são parciais, mas não completos",
         "tip": "Tente ir para a cama 20 minutos mais cedo — talvez você precise apenas de mais um ciclo completo de sono."
       }
-    },
+    ],
     "quote": "Dormir não é apenas descanso — é recuperação ativa. Proteja seus ciclos e as mudanças do seu dia inteiro.",
     "button": "Feito ✓"
   },
@@ -129,5 +129,6 @@
     "next": "Próximo",
     "save": "Salvar",
     "loading": "Carregando..."
-  }
+  },
+  "app_description": "Guia do Ciclo do Sono"
 }

@@ -1,57 +1,57 @@
 {
   "app_title": "Biztonságos tér",
-  "nav": {
-    "0": "Bejelentkezés",
-    "1": "Óvatosan visszahívni",
-    "2": "Megfigyelés",
-    "3": "Jelen maradás",
-    "4": "Előrelépés"
-  },
+  "nav": [
+    "Bejelentkezés",
+    "Óvatosan visszahívni",
+    "Megfigyelés",
+    "Jelen maradás",
+    "Előrelépés"
+  ],
   "s1": {
     "title": "Keressünk egy helyet, ami rendben érzi magát",
-    "description": {
-      "0": "Mielőtt elkezdenénk, szánj egy pillanatot, hogy ellenőrizd, mi van...",
-      "1": "Hogy érzed magad most?",
-      "2": "Nem egy tökéletes \"biztonságos helyet\" keresünk. Csak valami, ami legalább egy kicsit nyugodtnak vagy rendben van."
-    },
+    "description": [
+      "Mielőtt elkezdenénk, szánj egy pillanatot, hogy ellenőrizd, mi van...",
+      "Hogy érzed magad most?",
+      "Nem egy tökéletes \"biztonságos helyet\" keresünk. Csak valami, ami legalább egy kicsit nyugodtnak vagy rendben van."
+    ],
     "placeholder": "Hogy érzed magad most?",
     "button": "Kezdje el a vizualizációt"
   },
   "s2": {
     "title": "Óvatosan juttasd eszébe",
-    "description": {
-      "0": "Gondolj egy helyre, ahol akár egy kicsit is nyugodtnak érezted magad... vagy egy helyet, amit bárcsak létezne.",
-      "1": "Most pedig tedd magad oda...",
-      "2": "Ülsz, állsz vagy fekszel?"
-    },
+    "description": [
+      "Gondolj egy helyre, ahol akár egy kicsit is nyugodtnak érezted magad... vagy egy helyet, amit bárcsak létezne.",
+      "Most pedig tedd magad oda...",
+      "Ülsz, állsz vagy fekszel?"
+    ],
     "button": "Folytatás"
   },
   "s3": {
     "title": "Nézz körül lassan.",
-    "description": {
-      "0": "Nézz körül...",
-      "1": "Mi az egyetlen dolog, amit látsz?",
-      "2": "Most figyelj egy hangot... Mit hallasz?"
-    },
+    "description": [
+      "Nézz körül...",
+      "Mi az egyetlen dolog, amit látsz?",
+      "Most figyelj egy hangot... Mit hallasz?"
+    ],
     "button": "Folytatás"
   },
   "s4": {
     "title": "Maradj ezzel",
-    "description": {
-      "0": "Mi az, ami ebben a helyben egy kicsit biztonságosnak vagy rendben van?",
-      "1": "Ahogy észrevetted, hogy...",
-      "2": "A légzésedre is figyelj."
-    },
+    "description": [
+      "Mi az, ami ebben a helyben egy kicsit biztonságosnak vagy rendben van?",
+      "Ahogy észrevetted, hogy...",
+      "A légzésedre is figyelj."
+    ],
     "breathe": "lélegezz",
     "notice": "Ha a képzelés nehéznek tűnik, gondolj csak erre a helyre.",
     "button": "Folytatás"
   },
   "s5": {
     "title": "Vidd magaddal ezt",
-    "description": {
-      "0": "Figyeld meg, hogyan érzed magad most. Még egy kis műszak is számít.",
-      "1": "Nézd meg, hogy akár 5%-át is magaddal hordozod ennek az érzésnek."
-    },
+    "description": [
+      "Figyeld meg, hogyan érzed magad most. Még egy kis műszak is számít.",
+      "Nézd meg, hogy akár 5%-át is magaddal hordozod ennek az érzésnek."
+    ],
     "placeholder": "Hogy érzed magad most?",
     "button": "Teljes szekció"
   },
@@ -70,5 +70,6 @@
     "next": "Következő",
     "save": "Megtakarítás",
     "loading": "Terhelés..."
-  }
+  },
+  "app_description": "Biztonságos tér"
 }

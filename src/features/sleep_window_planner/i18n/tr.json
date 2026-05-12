@@ -1,10 +1,10 @@
 {
   "app_title": "Uyku Penceresi Planlayıcısı",
-  "pill_labels": {
-    "0": "Pencerenizi yapın",
-    "1": "Saatlerinizi ayarlayın",
-    "2": "Uyku penceren"
-  },
+  "pill_labels": [
+    "Pencerenizi yapın",
+    "Saatlerinizi ayarlayın",
+    "Uyku penceren"
+  ],
   "screen1": {
     "title": "Uyku penceren düşündüğünden daha önemli",
     "p1": "Uyku penceresi, yatmaya gittiğinizde uyandığınız zaman arasında sabit bir süredir. Uyku tutarlı tutmak, hafta sonları bile — uykunuz için yapabileceğiniz en güçlü şeylerden biridir.",
@@ -41,41 +41,41 @@
     },
     "accordion1": {
       "title": "Korumanın 3 yolu",
-      "tips": {
-        "0": {
+      "tips": [
+        {
           "emoji": "📵",
           "text": "Yatma saatinden 30 dakika önce dinlen"
         },
-        "1": {
+        {
           "emoji": "⏰",
           "text": "Her gün aynı uyanma saati — evet, hafta sonları da"
         },
-        "2": {
+        {
           "emoji": "🚫",
           "text": "Saat 15:00'ten sonra 20 dakikadan uzun uykulardan kaçının"
         }
-      }
+      ]
     },
     "accordion2": {
       "title": "Bu gece bir şeye bağlı kalın",
-      "commitments": {
-        "0": {
+      "commitments": [
+        {
           "emoji": "📵",
           "text": "Yatmadan önce telefonumu kaldırdım"
         },
-        "1": {
+        {
           "emoji": "🛁",
           "text": "Bir rahatlama rutini başlatın"
         },
-        "2": {
+        {
           "emoji": "💡",
           "text": "Yatmadan bir saat önce ışıkları kısın"
         },
-        "3": {
+        {
           "emoji": "✍️",
           "text": "Yapılacaklar listemi erken bitirmek"
         }
-      }
+      ]
     },
     "quote": "Tutarlılık mükemmellikten daha güçlüdür. Bir iyi gece diğerini inşa eder.",
     "button": "Uyku penceremi kurtar ✓",
@@ -103,5 +103,6 @@
     "next": "Sonraki",
     "save": "Kaydetmek",
     "loading": "Yükleniyor..."
-  }
+  },
+  "app_description": "Uyku Süresi Planlayıcısı"
 }

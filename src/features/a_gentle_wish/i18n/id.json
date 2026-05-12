@@ -60,5 +60,6 @@
   "welcome_description": "deskripsi_selamat_datang",
   "welcome_subtitle": "subtitle selamat datang",
   "welcome_title": "judul_selamat_datang",
-  "prompt_wish_subtitle": "prompt_wish_subtitle"
+  "prompt_wish_subtitle": "prompt_wish_subtitle",
+  "app_description": "judul_aplikasi"
 }

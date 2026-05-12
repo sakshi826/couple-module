@@ -1,10 +1,10 @@
 {
   "app_title": "Jemand vermisst",
-  "subtitles": {
-    "0": "Validierung",
-    "1": "Innere Weisheit",
-    "2": "Vollständig"
-  },
+  "subtitles": [
+    "Validierung",
+    "Innere Weisheit",
+    "Vollständig"
+  ],
   "complete_title": "Klarheit gewonnen",
   "complete_message": "Die Chemie des Vermissens von jemandem zu verstehen, ist der erste Schritt zur Heilung. Deine Gefühle sind gültig, und dein Gehirn erfüllt einfach seine Aufgabe, um zu schützen und zu verarbeiten.",
   "screen1": {
@@ -34,5 +34,6 @@
     "next": "Nächste",
     "save": "Speichern",
     "loading": "Laden..."
-  }
+  },
+  "app_description": "Jemand wird vermisst"
 }

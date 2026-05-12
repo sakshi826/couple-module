@@ -28,43 +28,43 @@
       }
     }
   },
-  "options": {
-    "0": {
+  "options": [
+    {
       "emoji": "🕐",
       "text": "Jeg går i seng på meget forskellige tidspunkter hver aften"
     },
-    "1": {
+    {
       "emoji": "💡",
       "text": "Mit sovemiljø er hverken mørkt, stille eller behageligt"
     },
-    "2": {
+    {
       "emoji": "📱",
       "text": "Jeg scroller på min telefon lige inden jeg skal sove"
     },
-    "3": {
+    {
       "emoji": "☕",
       "text": "Jeg drikker koffein eller alkohol tæt på sengetid"
     },
-    "4": {
+    {
       "emoji": "😵",
       "text": "Jeg vågner om natten og har svært ved at falde i søvn igen"
     },
-    "5": {
+    {
       "emoji": "🧠",
       "text": "Mit sind kører på højtryk, når jeg prøver at sove"
     },
-    "6": {
+    {
       "emoji": "😔",
       "text": "Jeg føler mig sjældent frisk efter en nats søvn"
     }
-  },
-  "rating_labels": {
-    "0": "Meget fattigt",
-    "1": "Fattigt",
-    "2": "Okay",
-    "3": "Godt",
-    "4": "Fedt"
-  },
+  ],
+  "rating_labels": [
+    "Meget fattigt",
+    "Fattigt",
+    "Okay",
+    "Godt",
+    "Fedt"
+  ],
   "status_labels": {
     "track": "For det meste på sporet",
     "disruptions": "Nogle forstyrrelser",

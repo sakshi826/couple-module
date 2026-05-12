@@ -1,12 +1,12 @@
 {
   "app_title": "Kotak Memori",
-  "screen_titles": {
-    "0": "Kotak Anda",
-    "1": "Menghormati",
-    "2": "Mengekspresikan",
-    "3": "Diawetkan",
-    "4": "Perawatan Lembut"
-  },
+  "screen_titles": [
+    "Kotak Anda",
+    "Menghormati",
+    "Mengekspresikan",
+    "Diawetkan",
+    "Perawatan Lembut"
+  ],
   "complete_title": "Memori Dipertahankan",
   "complete_message": "Anda telah dengan aman menempatkan memori {{name}} di dalam kotak Anda. Momen-momen koneksi ini adalah milik Anda untuk selalu disimpan.",
   "auth_error": "Sesi autentikasi hilang atau DB tidak dikonfigurasi",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Ketik nama mereka...",
     "placeholder_relation": "Bagaimana Anda mengenalnya? (opsional)",
-    "categories": {
-      "0": {
+    "categories": [
+      {
         "label": "Momen bahagia",
         "emoji": "😊"
       },
-      "1": {
+      {
         "label": "Sesuatu yang biasa mereka katakan",
         "emoji": "💬"
       },
-      "2": {
+      {
         "label": "Kenangan kecil sehari-hari",
         "emoji": "☕"
       },
-      "3": {
+      {
         "label": "Tempat yang mengingatkan Anda pada mereka",
         "emoji": "🏡"
       },
-      "4": {
+      {
         "label": "Sesuatu yang saya harap bisa saya katakan",
         "emoji": "💌"
       }
-    },
+    ],
     "continue": "Lanjutkan →"
   },
   "expression": {
@@ -88,5 +88,6 @@
     "next": "Berikutnya",
     "save": "Menyimpan",
     "loading": "Memuat..."
-  }
+  },
+  "app_description": "Kotak Memori"
 }

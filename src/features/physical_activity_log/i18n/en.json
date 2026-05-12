@@ -61,5 +61,6 @@
     "save": "Save",
     "loading": "Loading..."
   },
-  "app_title": "Activity Log"
+  "app_title": "Activity Log",
+  "app_description": "Activity Log"
 }

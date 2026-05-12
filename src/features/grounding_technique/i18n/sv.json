@@ -1,11 +1,5 @@
 {
   "Grounding": "Markning",
-  "Grounding techniques help bring your attention back to the present moment": {
-    "": "Grounding-tekniker hjälper dig att återvända till nuet."
-  },
-  "Choose one activity that feels supportive right now": {
-    "": "Välj en aktivitet som känns stöttande just nu."
-  },
   "Step": "Steg",
   "Back": "Tillbaka",
   "Next": "Nästa",
@@ -23,140 +17,8 @@
   "Move your body": "Rör på kroppen",
   "Listen to your surroundings": "Lyssna på din omgivning",
   "Check in with your body": "Kolla in din kropp",
-  "Run your hands under cool or warm water": {
-    "": "Håll händerna under kallt eller varmt vatten."
-  },
-  "Notice the temperature": {
-    "": "Lägg märke till temperaturen."
-  },
-  "Pay attention to the sensation on your skin": {
-    "": "Var uppmärksam på känslan på din hud."
-  },
-  "Observe how it changes moment by moment": {
-    "": "Observera hur det förändras från stund till stund."
-  },
-  "Let your breathing slow naturally": {
-    "": "Låt din andning sakta ner naturligt."
-  },
-  "Choose a nearby object": {
-    "": "Välj ett närliggande föremål."
-  },
-  "Notice its texture, weight, and temperature": {
-    "": "Lägg märke till dess textur, vikt och temperatur."
-  },
   "Is it smooth or rough? Heavy or light?": "Är den slät eller grov? Tung eller lätt?",
-  "Let your focus stay fully on this one object": {
-    "": "Låt ditt fokus stanna helt på detta enda objekt."
-  },
-  "Take a slow breath in through your nose": {
-    "": "Ta ett långsamt andetag genom näsan."
-  },
-  "Hold gently for a moment": {
-    "": "Håll försiktigt en stund."
-  },
-  "Exhale slowly through your mouth": {
-    "": "Andas långsamt ut genom munnen."
-  },
-  "Repeat several times": {
-    "": "Upprepa flera gånger."
-  },
-  "Let your shoulders soften": {
-    "": "Låt axlarna mjukna."
-  },
-  "Take a small bite": {
-    "": "Ta en liten tugga."
-  },
-  "Chew slowly": {
-    "": "Tugga långsamt."
-  },
-  "Notice the flavor, texture, and temperature": {
-    "": "Lägg märke till smaken, konsistensen och temperaturen."
-  },
-  "Stay fully present with the experience": {
-    "": "Var helt närvarande med upplevelsen."
-  },
-  "Take a slow sip": {
-    "": "Ta en långsam klunk."
-  },
-  "Notice the temperature and taste": {
-    "": "Lägg märke till temperatur och smak."
-  },
-  "Feel the sensation as you swallow": {
-    "": "Känn känslan när du sväljer."
-  },
-  "Let yourself stay with that moment": {
-    "": "Låt dig själv stanna kvar i det ögonblicket."
-  },
-  "Walk slowly and intentionally": {
-    "": "Gå långsamt och medvetet."
-  },
-  "Notice the feeling of your feet touching the ground": {
-    "": "Lägg märke till känslan av att dina fötter nuddar marken."
-  },
-  "Observe your surroundings without judgment": {
-    "": "Observera din omgivning utan att döma."
-  },
-  "Let your breath match your steps": {
-    "": "Låt din andning matcha dina steg."
-  },
-  "Hold the ice in your hand": {
-    "": "Håll isen i handen."
-  },
-  "Notice the cold sensation": {
-    "": "Lägg märke till den kalla känslan."
-  },
-  "Focus fully on the feeling": {
-    "": "Fokusera helt på känslan."
-  },
-  "Allow the strong sensation to anchor you to the present": {
-    "": "Låt den starka känslan förankra dig i nuet."
-  },
-  "Choose a scent nearby": {
-    "": "Välj en doft i närheten."
-  },
-  "Inhale slowly": {
-    "": "Andas in långsamt."
-  },
-  "Notice how it feels in your body": {
-    "": "Lägg märke till hur det känns i din kropp."
-  },
-  "Let the scent bring you into this moment": {
-    "": "Låt doften föra dig in i detta ögonblick."
-  },
-  "Stretch gently": {
-    "": "Sträck försiktigt."
-  },
-  "Roll your shoulders": {
-    "": "Rulla med axlarna."
-  },
-  "Shift your weight from side to side": {
-    "": "Flytta vikten från sida till sida."
-  },
-  "Notice how your body feels as it moves": {
-    "": "Lägg märke till hur din kropp känns när den rör sig."
-  },
-  "Pause and listen": {
-    "": "Pausa och lyssna."
-  },
-  "Identify three distinct sounds": {
-    "": "Identifiera tre distinkta ljud."
-  },
   "Are they near or far?": "Är de nära eller långt borta?",
-  "Let your attention rest on each one": {
-    "": "Låt din uppmärksamhet vila på var och en."
-  },
-  "Close your eyes if comfortable": {
-    "": "Blunda om du känner dig bekväm."
-  },
-  "Scan from head to toe": {
-    "": "Skanna från topp till tå."
-  },
-  "Notice areas of tension or ease": {
-    "": "Lägg märke till områden med spänning eller lätthet."
-  },
-  "Breathe into any tightness": {
-    "": "Andas in i all spänning."
-  },
   "common": {
     "get_started": "Kom igång",
     "start_over": "Börja om från början",
@@ -169,5 +31,52 @@
     "save": "Spara",
     "loading": "Belastning..."
   },
-  "app_title": "Grundstötning"
+  "app_title": "Grundstötning",
+  "app_description": "Grundstötning",
+  "Grounding techniques help bring your attention back to the present moment": [],
+  "Choose one activity that feels supportive right now": [],
+  "Run your hands under cool or warm water": [],
+  "Notice the temperature": [],
+  "Pay attention to the sensation on your skin": [],
+  "Observe how it changes moment by moment": [],
+  "Let your breathing slow naturally": [],
+  "Choose a nearby object": [],
+  "Notice its texture, weight, and temperature": [],
+  "Let your focus stay fully on this one object": [],
+  "Take a slow breath in through your nose": [],
+  "Hold gently for a moment": [],
+  "Exhale slowly through your mouth": [],
+  "Repeat several times": [],
+  "Let your shoulders soften": [],
+  "Take a small bite": [],
+  "Chew slowly": [],
+  "Notice the flavor, texture, and temperature": [],
+  "Stay fully present with the experience": [],
+  "Take a slow sip": [],
+  "Notice the temperature and taste": [],
+  "Feel the sensation as you swallow": [],
+  "Let yourself stay with that moment": [],
+  "Walk slowly and intentionally": [],
+  "Notice the feeling of your feet touching the ground": [],
+  "Observe your surroundings without judgment": [],
+  "Let your breath match your steps": [],
+  "Hold the ice in your hand": [],
+  "Notice the cold sensation": [],
+  "Focus fully on the feeling": [],
+  "Allow the strong sensation to anchor you to the present": [],
+  "Choose a scent nearby": [],
+  "Inhale slowly": [],
+  "Notice how it feels in your body": [],
+  "Let the scent bring you into this moment": [],
+  "Stretch gently": [],
+  "Roll your shoulders": [],
+  "Shift your weight from side to side": [],
+  "Notice how your body feels as it moves": [],
+  "Pause and listen": [],
+  "Identify three distinct sounds": [],
+  "Let your attention rest on each one": [],
+  "Close your eyes if comfortable": [],
+  "Scan from head to toe": [],
+  "Notice areas of tension or ease": [],
+  "Breathe into any tightness": []
 }

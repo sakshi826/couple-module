@@ -60,5 +60,6 @@
   "welcome_subtitle": "legenda_de_boas-vindas",
   "welcome_title": "título_de_boas-vindas",
   "carry_title": "carry_title",
-  "prompt_wish_subtitle": "prompt_wish_subtitle"
+  "prompt_wish_subtitle": "prompt_wish_subtitle",
+  "app_description": "título_do_aplicativo"
 }

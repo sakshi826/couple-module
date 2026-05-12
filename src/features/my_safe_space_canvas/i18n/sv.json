@@ -4,52 +4,52 @@
   "welcome": {
     "title": "Din trygga plats väntar",
     "description": "Bygg ditt eget fristad genom en serie mjuka kreativa uppmaningar. En tom duk för dina tankar och känslor.",
-    "benefits": {
-      "0": "Uttryck dig genom färg",
-      "1": "Skapa ett visuellt jordningsverktyg",
-      "2": "Säkert, privat och personligt"
-    },
+    "benefits": [
+      "Uttryck dig genom färg",
+      "Skapa ett visuellt jordningsverktyg",
+      "Säkert, privat och personligt"
+    ],
     "duration": "10-15 minuter",
     "view_past": "Se tidigare collage"
   },
   "canvas": {
-    "prompts": {
-      "0": {
+    "prompts": [
+      {
         "quote": "Hur ser himlen ut på din trygga plats? Rita dess färg, ljus eller känsla.",
         "button": "Jag har lagt till himmelen →",
         "hint": "Det finns inget rätt sätt – vilket märke som helst räcker."
       },
-      "1": {
+      {
         "quote": "Hur känns marken? Gräs, sand, vatten, ett trägolv? Lägg till det under himlen.",
         "button": "Jag har lagt till marken →",
         "hint": "Tänk på hur dina fötter känns på den här platsen."
       },
-      "2": {
+      {
         "quote": "Lägg till en sak som hör hemma här — ett träd, en stol, ett fönster, ett husdjur, en lampa. Allt som känns rätt.",
         "button": "Jag har lagt till något →",
         "hint": "Det behöver inte se perfekt ut. Det måste bara kännas sant."
       },
-      "3": {
+      {
         "quote": "Vad ger värme eller tröst till denna plats? Ett ljus, en eld, solljus, en filt? Lägg till det där det känns rätt.",
         "button": "Jag har lagt till värme →",
         "hint": "Även en liten färgprick räknas."
       },
-      "4": {
+      {
         "quote": "Slutligen — lägg till 3 till 5 ord som hör hemma här. Tryck på din teckning för att placera dem var som helst.",
         "button": "Det här är mina ord →",
         "hint": ""
       }
-    },
-    "word_chips": {
-      "0": "Fred",
-      "1": "Hem",
-      "2": "Himlen",
-      "3": "Lugn",
-      "4": "Varmt",
-      "5": "Nog",
-      "6": "Varsamt",
-      "7": "Säkert"
-    },
+    ],
+    "word_chips": [
+      "Fred",
+      "Hem",
+      "Himlen",
+      "Lugn",
+      "Varmt",
+      "Nog",
+      "Varsamt",
+      "Säkert"
+    ],
     "custom_word_placeholder": "+ din egen",
     "skip_prompt": "Hoppa över denna prompt",
     "type_here": "Skriv här"
@@ -71,25 +71,25 @@
     "title": "Du är här. Du är säker.",
     "breathe_info": "4 · håll · 4 · släpp taget · 6",
     "done_message": "Bra jobbat med att du dök upp för dig själv idag.",
-    "durations": {
-      "0": {
+    "durations": [
+      {
         "label": "1 min",
         "seconds": "60"
       },
-      "1": {
+      {
         "label": "3 min",
         "seconds": "180"
       },
-      "2": {
+      {
         "label": "5 min",
         "seconds": "300"
       }
-    },
-    "phases": {
-      "0": "Andas in",
-      "1": "Håll",
-      "2": "Släpp taget"
-    }
+    ],
+    "phases": [
+      "Andas in",
+      "Håll",
+      "Släpp taget"
+    ]
   },
   "history": {
     "title": "Tidigare säkra platser",
@@ -106,5 +106,6 @@
     "next": "Nästa",
     "save": "Spara",
     "loading": "Belastning..."
-  }
+  },
+  "app_description": "Tryggt utrymme-duk"
 }

@@ -31,37 +31,37 @@
   "auth_error": "Auth-sesjon mangler eller database ikke konfigurert",
   "save_success": "Bindingsrefleksjon bevart",
   "save_error": "Klarte ikke å bevare refleksjonen",
-  "connection_options": {
-    "0": {
+  "connection_options": [
+    {
       "label": "Gjennom minner",
       "prompt": "Kan du dele et minne hvor du føler deres nærvær?",
       "deeper": "Hva er én ting ved dem som sitter igjen hos deg?"
     },
-    "1": {
+    {
       "label": "I det jeg sier eller gjør",
       "prompt": "Hvilken del av dem bærer du med deg i hverdagen?",
       "deeper": "Hvordan viser dette seg i livet ditt i dag?"
     },
-    "2": {
+    {
       "label": "I øyeblikk av mitt daglige liv",
       "prompt": "Når føler du at de lukker seg i løpet av dagen?",
       "deeper": "Hva er én ting ved dem som sitter igjen hos deg?"
     },
-    "3": {
+    {
       "label": "I det jeg fortsatt vil fortelle dem",
       "prompt": "Er det noe du fortsatt vil si til dem?",
       "deeper": "Hva ville du aller helst at de skulle vite akkurat nå?"
     },
-    "4": {
+    {
       "label": "I en følelse eller tilstedeværelse",
       "prompt": "Hvordan viser deres tilstedeværelse seg fortsatt for deg?",
       "deeper": "Hvordan viser dette seg i livet ditt i dag?"
     }
-  },
-  "bond_prompts": {
-    "0": "Hva er én liten måte du føler deg knyttet til dem på i dag?",
-    "1": "Hva er noe du gjør som bærer en del av dem?"
-  },
+  ],
+  "bond_prompts": [
+    "Hva er én liten måte du føler deg knyttet til dem på i dag?",
+    "Hva er noe du gjør som bærer en del av dem?"
+  ],
   "common": {
     "get_started": "Kom i gang",
     "start_over": "Start på nytt",
@@ -73,5 +73,6 @@
     "next": "Neste",
     "save": "Spare",
     "loading": "Laster inn..."
-  }
+  },
+  "app_description": "Løpende obligasjoner"
 }

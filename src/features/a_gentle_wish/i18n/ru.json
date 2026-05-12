@@ -60,5 +60,6 @@
   "reflection_title": "reflection_title",
   "skip_button": "skip_button",
   "view_past_button": "view_past_button",
-  "welcome_description": "welcome_description"
+  "welcome_description": "welcome_description",
+  "app_description": "app_title"
 }

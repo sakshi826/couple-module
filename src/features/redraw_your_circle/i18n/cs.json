@@ -21,24 +21,24 @@
       "placeholder": "Zadejte jméno...",
       "button": "Uložit jméno"
     },
-    "prompts": {
-      "0": "Člověk, který přináší radost",
-      "1": "Člověk, který tě podporuje",
-      "2": "Člověk, se kterým můžeš mluvit",
-      "3": "Člověk, kterému důvěřuješ",
-      "4": "Člověk, který vás inspiruje"
-    }
+    "prompts": [
+      "Člověk, který přináší radost",
+      "Člověk, který tě podporuje",
+      "Člověk, se kterým můžeš mluvit",
+      "Člověk, kterému důvěřuješ",
+      "Člověk, který vás inspiruje"
+    ]
   },
   "reflection": {
     "subtitle": "Závěrečné úvahy",
     "title": "Čeho si všimnete?",
     "p_intro": "Na chvíli se zastavte a podívejte se na svůj kruh. Možná si všimnete:",
-    "list": {
-      "0": "Někteří lidé se cítí blíže než jiní",
-      "1": "Některá spojení působí jako silná",
-      "2": "Někteří působí vzdáleně nebo nejasně",
-      "3": "Mohou tam být mezery — nebo jen pár významných lidí"
-    },
+    "list": [
+      "Někteří lidé se cítí blíže než jiní",
+      "Některá spojení působí jako silná",
+      "Někteří působí vzdáleně nebo nejasně",
+      "Mohou tam být mezery — nebo jen pár významných lidí"
+    ],
     "italic": "Uvědomění je prvním krokem k budování vztahů, kterých si ceníte. 🧘",
     "label": "💭 Je někdo, s kým byste se chtěli cítit víc propojeni?",
     "placeholder": "Napište své myšlenky sem...",
@@ -72,5 +72,6 @@
   },
   "intro_p1": "V různých fázích života se náš systém podpory může změnit. 🌱 Někdy se cítíme propojení a podporovaní. Jindy se nám věci mohou zdát vzdálené nebo nejasné.",
   "intro_p2": "Tato aktivita je prostorem k zastavení se a pohledu na lidi kolem vás – a k pochopení, kdo se momentálně cítí být součástí vašeho kruhu. 💛",
-  "intro_p3": "Není tu nic správného nebo špatného. Jen uvědomění. ✨"
+  "intro_p3": "Není tu nic správného nebo špatného. Jen uvědomění. ✨",
+  "app_description": "Překreslete svůj kruh"
 }

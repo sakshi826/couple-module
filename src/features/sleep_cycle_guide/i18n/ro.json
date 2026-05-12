@@ -1,11 +1,11 @@
 {
   "app_title": "Ghidul ciclului de somn",
-  "pill_labels": {
-    "0": "Introducere",
-    "1": "Cele 4 etape",
-    "2": "Adevărul somnoros",
-    "3": "Dar tu?"
-  },
+  "pill_labels": [
+    "Introducere",
+    "Cele 4 etape",
+    "Adevărul somnoros",
+    "Dar tu?"
+  ],
   "s1": {
     "title": "Ai dormit vreodată 8 ore și tot te simți groaznic?",
     "p1": "Nu este vorba de <1>cât timp</1> dormi.",
@@ -18,32 +18,32 @@
   "s2": {
     "title": "Creierul tău face ASTA în fiecare noapte 🌀",
     "desc": "La fiecare 90 de minute, creierul tău trece prin 4 etape — ca o listă de redare pe repeat. Atinge-le pe fiecare pentru a explora 👇",
-    "stages": {
-      "0": {
+    "stages": [
+      {
         "emoji": "🌊",
         "title": "Somn ușor",
         "tag": "1–5 minute · Ușor de trezit",
         "body": "Adormești. Corpul începe să cedeze, mușchii pot tresări. E foarte ușor să te trezești de aici."
       },
-      "1": {
+      {
         "emoji": "💤",
         "title": "Acomodarea",
         "tag": "10–25 minute · cu adevărat adormit",
         "body": "Ritmul cardiac încetinește, temperatura corpului scade. Ești cu adevărat adormit — activitatea creierului începe să încetinească."
       },
-      "2": {
+      {
         "emoji": "🔵",
         "title": "Somn ⭐ adânc",
         "tag": "20–40 minute · aurul",
         "body": "Corpul repară țesuturi, construiește imunitate. Cea mai revigorantă etapă fizică — greu de trezit."
       },
-      "3": {
+      {
         "emoji": "🌙",
         "title": "Somnul REM",
         "tag": "10–60 minute · Modul de vis",
         "body": "Creierul vibrează de activitate. Emoțiile sunt procesate, amintirile se blochează. Să sari peste asta te lasă în ceață."
       }
-    },
+    ],
     "italic": "Somnul profund îți repară corpul. REM îți repară mintea.",
     "button": "Atunci de ce încă mă simt amețit? →"
   },
@@ -55,66 +55,66 @@
       "deep": "adânc",
       "groggy": "😫 somnoroasă",
       "fresh": "😊 proaspăt",
-      "cycles": {
-        "0": "Ciclul 1",
-        "1": "Ciclul 2",
-        "2": "Ciclul 3"
-      }
+      "cycles": [
+        "Ciclul 1",
+        "Ciclul 2",
+        "Ciclul 3"
+      ]
     },
     "disruptors_title": "Ce îți perturbă 👇 ciclurile",
-    "disruptors": {
-      "0": {
+    "disruptors": [
+      {
         "emoji": "📱",
         "text": "Ecrane înainte de culcare",
         "sub": "Întârzie somnul profund"
       },
-      "1": {
+      {
         "emoji": "☕",
         "text": "Cofeina târzie",
         "sub": "reduce somnul profund cu până la 20%"
       },
-      "2": {
+      {
         "emoji": "⏰",
         "text": "Ore neregulate de somn",
         "sub": "îți rupe ritmul natural"
       },
-      "3": {
+      {
         "emoji": "😰",
         "text": "Stres și anxietate",
         "sub": "Te ține blocat într-un somn ușor"
       }
-    },
+    ],
     "italic": "Obiceiurile tale modelează direct etapele pe care le atingi.",
     "button": "Ce înseamnă asta pentru mine? →"
   },
   "s4": {
     "title": "Care dintre ele sună ca tine? 👇",
-    "options": {
-      "0": {
+    "options": [
+      {
         "emoji": "😩",
         "text": "Mă trezesc epuizat fizic",
         "sub": "Probabil lipsește somnul profund",
         "tip": "Concentrează-te pe un somn și o trezire constantă — corpul tău are nevoie de un ritm regulat pentru a ajunge la somnul profund."
       },
-      "1": {
+      {
         "emoji": "🌫️",
         "text": "Mă simt emoțional încețoșat sau jos",
         "sub": "probabil că lipsește somnul REM",
         "tip": "Încearcă să te relaxezi cu 30 de minute înainte de culcare — o rutină calmă înainte de somn îți protejează somnul REM."
       },
-      "2": {
+      {
         "emoji": "😤",
         "text": "Mă trezesc des noaptea",
         "sub": "ciclurile sunt întrerupte constant",
         "tip": "O cameră răcoroasă, întunecată și liniștită ajută creierul să rămână în stadii mai profunde fără întreruperi."
       },
-      "3": {
+      {
         "emoji": "😐",
         "text": "Mă simt bine, dar nu grozav",
         "sub": "Ciclurile sunt parțiale, dar nu complete",
         "tip": "Încearcă să te culci cu 20 de minute mai devreme — s-ar putea să ai nevoie doar de încă un ciclu complet de somn."
       }
-    },
+    ],
     "quote": "Somnul nu este doar odihnă — este recuperare activă. Protejează-ți ciclurile și întreaga zi se schimbă.",
     "button": "Gata ✓"
   },
@@ -129,5 +129,6 @@
     "next": "Următorul",
     "save": "Salva",
     "loading": "Încărcare..."
-  }
+  },
+  "app_description": "Ghidul ciclului de somn"
 }

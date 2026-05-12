@@ -15,12 +15,12 @@
     "intro": {
       "title": "Outil de suivi d’auto-soin",
       "description": "Suivez vos habitudes quotidiennes de soins personnels et voyez comment elles impactent votre bien-être global. La constance est la clé d’un esprit plus sain.",
-      "benefits": {
-        "0": "Consignez les activités quotidiennes de soin de vous",
-        "1": "Suivez le temps passé sur vous-même",
-        "2": "Surveillez vos habitudes d’humeur",
-        "3": "Voir l’histoire et les progrès"
-      },
+      "benefits": [
+        "Consignez les activités quotidiennes de soin de vous",
+        "Suivez le temps passé sur vous-même",
+        "Surveillez vos habitudes d’humeur",
+        "Voir l’histoire et les progrès"
+      ],
       "duration": "2-3 minutes"
     },
     "checkin": {
@@ -117,23 +117,25 @@
       "Tired": "Fatigué",
       "Low": "Faible"
     },
-    "positiveStatements": {
-      "0": "Tu t’es montré pour toi-même aujourd’hui. C’est puissant. 🌿",
-      "1": "Le soin de soi n’est pas égoïste — c’est essentiel. Bien joué. 💚",
-      "2": "Chaque petit geste de soin construit un toi plus fort. 🌱",
-      "3": "Tu as investi en toi aujourd’hui. Ça compte. ✨",
-      "4": "Prendre soin de toi est la meilleure chose que tu aies faite aujourd’hui. 🍃"
-    },
-    "supportiveStatements": {
-      "0": "Ça va. Demain, c’est un nouveau départ. Sois doux avec toi-même. 🤍",
-      "1": "Tous les jours ne seront pas parfaits, et c’est parfaitement normal. 🕊️",
-      "2": "Tu fais de ton mieux. C’est toujours suffisant. 💛",
-      "3": "Le repos est aussi une forme de soin de soi. Sois indulgent avec toi-même. 🌸",
-      "4": "Reconnaître aujourd’hui demande du courage. Tu grandis déjà. 🌷"
-    }
+    "positiveStatements": [
+      "Tu t’es montré pour toi-même aujourd’hui. C’est puissant. 🌿",
+      "Le soin de soi n’est pas égoïste — c’est essentiel. Bien joué. 💚",
+      "Chaque petit geste de soin construit un toi plus fort. 🌱",
+      "Tu as investi en toi aujourd’hui. Ça compte. ✨",
+      "Prendre soin de toi est la meilleure chose que tu aies faite aujourd’hui. 🍃"
+    ],
+    "supportiveStatements": [
+      "Ça va. Demain, c’est un nouveau départ. Sois doux avec toi-même. 🤍",
+      "Tous les jours ne seront pas parfaits, et c’est parfaitement normal. 🕊️",
+      "Tu fais de ton mieux. C’est toujours suffisant. 💛",
+      "Le repos est aussi une forme de soin de soi. Sois indulgent avec toi-même. 🌸",
+      "Reconnaître aujourd’hui demande du courage. Tu grandis déjà. 🌷"
+    ]
   },
   "intro_p1": "écrans.intro.avantages.0",
   "intro_p2": "écrans.intro.avantages.1",
   "intro_p3": "écrans.intro.avantages.2",
-  "intro_p4": "écrans.intro.avantages.3"
+  "intro_p4": "écrans.intro.avantages.3",
+  "app_title": "Suivi des soins",
+  "app_description": "Suivi des soins"
 }

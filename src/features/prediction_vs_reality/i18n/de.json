@@ -4,11 +4,11 @@
   "intro": {
     "title": "Vorhersage vs. Realität",
     "description": "Vergleiche deine ängstlichen Vorhersagen mit dem, was tatsächlich passiert, um eine ausgewogenere Perspektive zu schaffen.",
-    "benefits": {
-      "0": "Erkenne ängstliche Muster",
-      "1": "Sammeln Sie Beweise gegen Ängste",
-      "2": "Reduzieren Sie zukünftiges Überdenken"
-    },
+    "benefits": [
+      "Erkenne ängstliche Muster",
+      "Sammeln Sie Beweise gegen Ängste",
+      "Reduzieren Sie zukünftiges Überdenken"
+    ],
     "duration": "4-5 Minuten",
     "view_past": "Vergangene Reflexionen ansehen"
   },
@@ -24,23 +24,23 @@
     "saved_title": "Reflexion gerettet",
     "message": "Indem du die Fakten betrachtest, hilfst du deinem Geist zu lernen, dass Dinge oft handhabbarer sind, als sie scheinen."
   },
-  "emotions": {
-    "0": "Ängstlich",
-    "1": "Nervös",
-    "2": "Angst",
-    "3": "Überfordert",
-    "4": "Unruhig"
-  },
+  "emotions": [
+    "Ängstlich",
+    "Nervös",
+    "Angst",
+    "Überfordert",
+    "Unruhig"
+  ],
   "intensity_labels": {
     "not_intense": "Nicht intensiv",
     "very_intense": "Sehr intensiv"
   },
-  "comparison_options": {
-    "0": "Es wurde fast genau so, wie ich es erwartet hatte",
-    "1": "Einige Teile waren richtig, aber nicht alles",
-    "2": "Es war ganz anders, als ich erwartet hatte",
-    "3": "Es war viel einfacher/besser, als ich es mir vorgestellt hatte"
-  },
+  "comparison_options": [
+    "Es wurde fast genau so, wie ich es erwartet hatte",
+    "Einige Teile waren richtig, aber nicht alles",
+    "Es war ganz anders, als ich erwartet hatte",
+    "Es war viel einfacher/besser, als ich es mir vorgestellt hatte"
+  ],
   "screens": {
     "s1": {
       "title": "Denken Sie an eine aktuelle Situation",
@@ -101,5 +101,6 @@
     "next": "Nächste",
     "save": "Speichern",
     "loading": "Laden..."
-  }
+  },
+  "app_description": "Vorhersage vs. Realität"
 }

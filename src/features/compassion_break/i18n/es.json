@@ -1,14 +1,14 @@
 {
   "app_title": "Ruptura de la compasión",
-  "screen_titles": {
-    "0": "Registro",
-    "1": "Identificar",
-    "2": "Respiración",
-    "3": "Amabilidad",
-    "4": "Turno",
-    "5": "Reflexionar",
-    "6": "Completo"
-  },
+  "screen_titles": [
+    "Registro",
+    "Identificar",
+    "Respiración",
+    "Amabilidad",
+    "Turno",
+    "Reflexionar",
+    "Completo"
+  ],
   "auth_error": "Sesión de autenticación ausente o base de datos no configurada",
   "save_success": "Reflejo preservado",
   "save_error": "No se preservó la reflexión",
@@ -25,14 +25,14 @@
   "continue_button": "Continúa",
   "nameit_title": "Ponlo en palabras",
   "nameit_subtitle": "Ahora mismo, me siento _______",
-  "emotions_list": {
-    "0": "ansioso",
-    "1": "culpable",
-    "2": "abrumado",
-    "3": "Tenso",
-    "4": "cansado",
-    "5": "triste"
-  },
+  "emotions_list": [
+    "ansioso",
+    "culpable",
+    "abrumado",
+    "Tenso",
+    "cansado",
+    "triste"
+  ],
   "label_custom_emotion": "o escribe el tuyo propio",
   "placeholder_emotion": "1–2 palabras",
   "nameit_footer": "Lo simple es suficiente.",
@@ -71,5 +71,6 @@
     "next": "Próximo",
     "save": "Ahorrar",
     "loading": "Cargando..."
-  }
+  },
+  "app_description": "Pausa de compasión"
 }

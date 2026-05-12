@@ -73,13 +73,13 @@
     "confirmDelete": "Confirmă Șterge",
     "cancel": "Anulează",
     "delete": "Șterge intrarea",
-    "prompts": {
-      "0": "Un mic moment care nu părea tensionat...",
-      "1": "Un efort pe care partenerul tău l-a făcut...",
-      "2": "O calitate care a rămas constantă...",
-      "3": "Intenție",
-      "4": "Verificare emoțională"
-    }
+    "prompts": [
+      "Un mic moment care nu părea tensionat...",
+      "Un efort pe care partenerul tău l-a făcut...",
+      "O calitate care a rămas constantă...",
+      "Intenție",
+      "Verificare emoțională"
+    ]
   },
   "common": {
     "get_started": "Începeți",

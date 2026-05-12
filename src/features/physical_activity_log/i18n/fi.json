@@ -61,5 +61,6 @@
     "save": "Tallentaa",
     "loading": "Ladataan..."
   },
-  "app_title": "Toimintaloki"
+  "app_title": "Toimintaloki",
+  "app_description": "Toimintaloki"
 }

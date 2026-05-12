@@ -10,57 +10,57 @@
       "title": "Śpij spokojnie",
       "description": "Staraj się o 7–9 godzin snu każdej nocy. Staraj się codziennie spać i budzić o tej samej porze.",
       "why": "Sen pomaga mózgowi i ciału się regenerować oraz obniża poziom hormonów stresu.",
-      "do": {
-        "0": "Utrzymuj stały harmonogram snu",
-        "1": "Unikaj ekranów godzinę przed snem",
-        "2": "Utrzymuj pokój chłodny i ciemny",
-        "3": "Unikaj kofeiny po 16:00"
-      },
+      "do": [
+        "Utrzymuj stały harmonogram snu",
+        "Unikaj ekranów godzinę przed snem",
+        "Utrzymuj pokój chłodny i ciemny",
+        "Unikaj kofeiny po 16:00"
+      ],
       "button": "Ustaw przypomnienie o usypianiu"
     },
     "breathing": {
       "title": "Ćwicz głębokie oddychanie",
       "description": "Poświęć kilka minut na skupienie się na oddechu. Powolne oddychanie zmniejsza lęk.",
       "why": "Powolne oddychanie aktywuje reakcję relaksacyjną organizmu.",
-      "do": {
-        "0": "Wdech przez 4 sekundy",
-        "1": "Trzymaj przez 4 sekundy",
-        "2": "Wydech przez 4 sekundy",
-        "3": "Powtarzam przez 1 minutę"
-      }
+      "do": [
+        "Wdech przez 4 sekundy",
+        "Trzymaj przez 4 sekundy",
+        "Wydech przez 4 sekundy",
+        "Powtarzam przez 1 minutę"
+      ]
     },
     "exercise": {
       "title": "Ruszaj ciałem",
       "description": "Lekkie chodzenie lub rozciąganie pomagają rozładować stres i poprawić nastrój.",
       "why": "Ćwiczenia uwalniają endorfiny i poprawiają nastrój.",
-      "do": {
-        "0": "15 minut spaceru",
-        "1": "Lekkie rozciąganie",
-        "2": "Krótka sesja jogi",
-        "3": "Szybki trening domowy"
-      }
+      "do": [
+        "15 minut spaceru",
+        "Lekkie rozciąganie",
+        "Krótka sesja jogi",
+        "Szybki trening domowy"
+      ]
     },
     "caffeine": {
       "title": "Ogranicz kofeinę i cukier",
       "description": "Zbyt duża ilość kofeiny i cukru może zwiększać lęk i zaburzać sen.",
       "why": "Zbyt duża ilość kofeiny i cukru zwiększa lęk i problemy ze snem.",
-      "do": {
-        "0": "Zamień jedną kawę na herbatę ziołową",
-        "1": "Pij więcej wody",
-        "2": "Ogranicz jedzenie słodkich przekąsek",
-        "3": "Unikaj kofeiny późno w ciągu dnia"
-      }
+      "do": [
+        "Zamień jedną kawę na herbatę ziołową",
+        "Pij więcej wody",
+        "Ogranicz jedzenie słodkich przekąsek",
+        "Unikaj kofeiny późno w ciągu dnia"
+      ]
     },
     "planning": {
       "title": "Zaplanuj swój dzień",
       "description": "Podziel duże zadania na mniejsze kroki, aby uniknąć przytłoczenia.",
       "why": "Planowanie redukuje bałagan umysłowy i przytłoczenie.",
-      "do": {
-        "0": "Napisz 3 główne zadania",
-        "1": "Podziel zadania na małe kroki",
-        "2": "Skup się na jednym zadaniu naraz",
-        "3": "Rób krótkie przerwy"
-      }
+      "do": [
+        "Napisz 3 główne zadania",
+        "Podziel zadania na małe kroki",
+        "Skup się na jednym zadaniu naraz",
+        "Rób krótkie przerwy"
+      ]
     }
   },
   "detail": {
@@ -101,5 +101,6 @@
     "save": "Ratować",
     "loading": "Załadunek..."
   },
-  "app_title": "Ulgę w stresie"
+  "app_title": "Ulgę w stresie",
+  "app_description": "Ulgę w stresie"
 }

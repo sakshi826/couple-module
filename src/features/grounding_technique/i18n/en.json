@@ -77,5 +77,6 @@
     "save": "Save",
     "loading": "Loading..."
   },
-  "app_title": "Grounding"
+  "app_title": "Grounding",
+  "app_description": "Grounding"
 }

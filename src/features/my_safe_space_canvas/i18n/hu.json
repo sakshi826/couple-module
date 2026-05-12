@@ -4,52 +4,52 @@
   "welcome": {
     "title": "A biztonságos helyed vár",
     "description": "Építs saját menedékedet egy sor gyengéd kreatív prompt segítségével. Egy üres vászon a gondolataidnak és érzéseidnek.",
-    "benefits": {
-      "0": "Fejezd ki magad a színeken keresztül",
-      "1": "Készíts vizuális alapozó eszközt",
-      "2": "Biztonságos, privát és személyes"
-    },
+    "benefits": [
+      "Fejezd ki magad a színeken keresztül",
+      "Készíts vizuális alapozó eszközt",
+      "Biztonságos, privát és személyes"
+    ],
     "duration": "10-15 perc",
     "view_past": "Korábbi kollázsok megtekintése"
   },
   "canvas": {
-    "prompts": {
-      "0": {
+    "prompts": [
+      {
         "quote": "Milyen az ég a biztonságos helyeden? Rajzold meg a színét, fényét vagy érzését.",
         "button": "Hozzáadtam az égboltot →",
         "hint": "Nincs helyes út — bármilyen jel elég."
       },
-      "1": {
+      {
         "quote": "Milyen érzés a talaj? Fű, homok, víz, fa padló? Tedd hozzá az ég alatt.",
         "button": "Hozzáadtam a földet →",
         "hint": "Gondolj arra, milyen érzés a lábad ebben a helyben."
       },
-      "2": {
+      {
         "quote": "Adj hozzá egy dolgot, ami ide tartozik — egy fa, egy szék, egy ablak, egy háziállat, egy lámpa. Bármi, ami helyesnek tűnik.",
         "button": "Hozzáadtam valamit →",
         "hint": "Nem kell tökéletesnek kinéznie. Csak igaznak kell éreznie."
       },
-      "3": {
+      {
         "quote": "Mi hoz melegséget vagy kényelmet ebbe a helybe? Egy fény, tűz, napfény, takaró? Addig add hozzá, ahol találod jót.",
         "button": "Hozzáadtam a meleget →",
         "hint": "Még egy apró színpont is számít."
       },
-      "4": {
+      {
         "quote": "Végül — adj hozzá 3-5 szót, ami ide való. Érintsd meg a rajzodat, hogy bárhová helyezd őket.",
         "button": "Ezek a szavaim →",
         "hint": ""
       }
-    },
-    "word_chips": {
-      "0": "Béke",
-      "1": "Otthon",
-      "2": "Mennyország",
-      "3": "Nyugodt",
-      "4": "Meleg",
-      "5": "Elég",
-      "6": "Gyengéd",
-      "7": "Biztonságban"
-    },
+    ],
+    "word_chips": [
+      "Béke",
+      "Otthon",
+      "Mennyország",
+      "Nyugodt",
+      "Meleg",
+      "Elég",
+      "Gyengéd",
+      "Biztonságban"
+    ],
     "custom_word_placeholder": "+ a sajátod",
     "skip_prompt": "Hagyd ki ezt a promptot",
     "type_here": "Írj ide"
@@ -71,25 +71,25 @@
     "title": "Itt vagy. Biztonságban vagy.",
     "breathe_info": "4 · Tartsd meg · 4 · Engedd el · 6",
     "done_message": "Gratulálok, hogy ma magadért jelentél.",
-    "durations": {
-      "0": {
+    "durations": [
+      {
         "label": "1 perc",
         "seconds": "60"
       },
-      "1": {
+      {
         "label": "3 perc",
         "seconds": "180"
       },
-      "2": {
+      {
         "label": "5 perc",
         "seconds": "300"
       }
-    },
-    "phases": {
-      "0": "Lélegezz be",
-      "1": "Tartsd meg",
-      "2": "Engedd el"
-    }
+    ],
+    "phases": [
+      "Lélegezz be",
+      "Tartsd meg",
+      "Engedd el"
+    ]
   },
   "history": {
     "title": "Biztonságos helyek múltja",
@@ -106,5 +106,6 @@
     "next": "Következő",
     "save": "Megtakarítás",
     "loading": "Terhelés..."
-  }
+  },
+  "app_description": "Biztonságos tér vászon"
 }

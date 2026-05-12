@@ -4,52 +4,52 @@
   "welcome": {
     "title": "Locul tău sigur te așteaptă",
     "description": "Construiește-ți propriul sanctuar printr-o serie de sugestii creative blânde. O pânză albă pentru gândurile și sentimentele tale.",
-    "benefits": {
-      "0": "Exprimă-te prin culoare",
-      "1": "Creează un instrument vizual de împământare",
-      "2": "Sigur, privat și personal"
-    },
+    "benefits": [
+      "Exprimă-te prin culoare",
+      "Creează un instrument vizual de împământare",
+      "Sigur, privat și personal"
+    ],
     "duration": "10-15 minute",
     "view_past": "Vezi colaje anterioare"
   },
   "canvas": {
-    "prompts": {
-      "0": {
+    "prompts": [
+      {
         "quote": "Cum arată cerul în locul tău sigur? Desenează-i culoarea, lumina sau senzația.",
         "button": "Am adăugat cerul →",
         "hint": "Nu există o cale corectă — orice țintă este suficientă."
       },
-      "1": {
+      {
         "quote": "Cum se simte pământul? Iarbă, nisip, apă, podea de lemn? Adaugă-l sub cer.",
         "button": "Am adăugat masă →",
         "hint": "Gândește-te cum se simt picioarele tale în acest loc."
       },
-      "2": {
+      {
         "quote": "Adaugă un lucru care aparține aici — un brad, un scaun, o fereastră, un animal de companie, o lampă. Orice care pare potrivit.",
         "button": "Am adăugat ceva →",
         "hint": "Nu trebuie să arate perfect. Trebuie doar să pară adevărat."
       },
-      "3": {
+      {
         "quote": "Ce aduce căldură sau confort acestui loc? O lumină, un foc, lumina soarelui, o pătură? Adaugă-l oriunde ți se pare potrivit.",
         "button": "Am adăugat căldura →",
         "hint": "Chiar și un punct mic de culoare se pune."
       },
-      "4": {
+      {
         "quote": "În final — adaugă 3 până la 5 cuvinte care ar trebui aici. Atingeți desenul pentru a le plasa oriunde.",
         "button": "Acestea sunt cuvintele mele →",
         "hint": ""
       }
-    },
-    "word_chips": {
-      "0": "Pace",
-      "1": "Acasă",
-      "2": "Raiul",
-      "3": "Calm",
-      "4": "Cald",
-      "5": "Destul",
-      "6": "Blând",
-      "7": "Safe"
-    },
+    ],
+    "word_chips": [
+      "Pace",
+      "Acasă",
+      "Raiul",
+      "Calm",
+      "Cald",
+      "Destul",
+      "Blând",
+      "Safe"
+    ],
     "custom_word_placeholder": "+ al tău propriu",
     "skip_prompt": "Sari peste această provocare",
     "type_here": "Scrie aici"
@@ -71,25 +71,25 @@
     "title": "Ești aici. Ești în siguranță.",
     "breathe_info": "4 · hold · 4 · Lasă-mă · 6",
     "done_message": "Felicitări că te-ai prezentat astăzi.",
-    "durations": {
-      "0": {
+    "durations": [
+      {
         "label": "1 min",
         "seconds": "60"
       },
-      "1": {
+      {
         "label": "3 min",
         "seconds": "180"
       },
-      "2": {
+      {
         "label": "5 minute",
         "seconds": "300"
       }
-    },
-    "phases": {
-      "0": "Inspiră",
-      "1": "Stai",
-      "2": "Lasă-mă"
-    }
+    ],
+    "phases": [
+      "Inspiră",
+      "Stai",
+      "Lasă-mă"
+    ]
   },
   "history": {
     "title": "Locuri sigure din trecut",
@@ -106,5 +106,6 @@
     "next": "Următorul",
     "save": "Salva",
     "loading": "Încărcare..."
-  }
+  },
+  "app_description": "Pânză pentru spațiu sigur"
 }

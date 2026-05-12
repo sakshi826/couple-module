@@ -15,12 +15,12 @@
     "intro": {
       "title": "Zelfzorgtracker",
       "description": "Houd je dagelijkse zelfzorggedrag bij en kijk hoe ze je algehele welzijn beïnvloeden. Consistentie is de sleutel tot een gezondere geest.",
-      "benefits": {
-        "0": "Registreer dagelijkse zelfzorgactiviteiten",
-        "1": "Houd de tijd bij die je aan jezelf besteedt",
-        "2": "Houd je stemmingspatronen in de gaten",
-        "3": "Bekijk geschiedenis en voortgang"
-      },
+      "benefits": [
+        "Registreer dagelijkse zelfzorgactiviteiten",
+        "Houd de tijd bij die je aan jezelf besteedt",
+        "Houd je stemmingspatronen in de gaten",
+        "Bekijk geschiedenis en voortgang"
+      ],
       "duration": "2-3 minuten"
     },
     "checkin": {
@@ -117,23 +117,25 @@
       "Stressed": "Gestrest",
       "Tired": "Moe"
     },
-    "positiveStatements": {
-      "0": "Je bent vandaag voor jezelf gekomen. Dat is krachtig. 🌿",
-      "1": "Zelfzorg is niet egoïstisch — het is essentieel. Goed gedaan. 💚",
-      "2": "Elke kleine daad van zorg bouwt een sterkere jij op. 🌱",
-      "3": "Je hebt vandaag in jezelf geïnvesteerd. Dat is belangrijk. ✨",
-      "4": "Voor jezelf zorgen is het beste wat je vandaag hebt gedaan. 🍃"
-    },
-    "supportiveStatements": {
-      "0": "Het is oké. Morgen is een frisse start. Wees zacht voor jezelf. 🤍",
-      "1": "Niet elke dag zal perfect zijn, en dat is helemaal prima. 🕊️",
-      "2": "Je doet je best. Dat is altijd genoeg. 💛",
-      "3": "Rust is ook een vorm van zelfzorg. Wees mild voor jezelf. 🌸",
-      "4": "Vandaag erkennen vergt moed. Je groeit al. 🌷"
-    }
+    "positiveStatements": [
+      "Je bent vandaag voor jezelf gekomen. Dat is krachtig. 🌿",
+      "Zelfzorg is niet egoïstisch — het is essentieel. Goed gedaan. 💚",
+      "Elke kleine daad van zorg bouwt een sterkere jij op. 🌱",
+      "Je hebt vandaag in jezelf geïnvesteerd. Dat is belangrijk. ✨",
+      "Voor jezelf zorgen is het beste wat je vandaag hebt gedaan. 🍃"
+    ],
+    "supportiveStatements": [
+      "Het is oké. Morgen is een frisse start. Wees zacht voor jezelf. 🤍",
+      "Niet elke dag zal perfect zijn, en dat is helemaal prima. 🕊️",
+      "Je doet je best. Dat is altijd genoeg. 💛",
+      "Rust is ook een vorm van zelfzorg. Wees mild voor jezelf. 🌸",
+      "Vandaag erkennen vergt moed. Je groeit al. 🌷"
+    ]
   },
   "intro_p1": "schermen.intro.voordelen.0",
   "intro_p2": "schermen.intro.voordelen.1",
   "intro_p3": "schermen.intro.voordelen.2",
-  "intro_p4": "schermen.intro.voordelen.3"
+  "intro_p4": "schermen.intro.voordelen.3",
+  "app_title": "Zorgtracker",
+  "app_description": "Zorgtracker"
 }

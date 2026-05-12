@@ -100,5 +100,6 @@
     "save": "Spare",
     "loading": "Indlæser..."
   },
-  "app_title": "Udsendelsesteknikker"
+  "app_title": "Udsendelsesteknikker",
+  "app_description": "Udsendelsesteknikker"
 }

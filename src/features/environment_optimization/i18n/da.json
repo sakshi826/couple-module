@@ -44,5 +44,6 @@
     "save": "Spare",
     "loading": "Indlæser..."
   },
-  "app_duration": "5 minutter"
+  "app_duration": "5 minutter",
+  "app_description": "Miljøoptimeringsøvelse"
 }

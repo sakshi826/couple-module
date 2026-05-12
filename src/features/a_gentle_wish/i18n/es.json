@@ -60,5 +60,6 @@
   "welcome_subtitle": "subtítulo de bienvenida",
   "welcome_title": "título_de_bienvenida",
   "carry_footer": "carry_footer",
-  "label_step_preserved": "label_step_preserved"
+  "label_step_preserved": "label_step_preserved",
+  "app_description": "título de la aplicación"
 }

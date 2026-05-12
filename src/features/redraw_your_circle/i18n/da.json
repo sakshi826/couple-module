@@ -21,24 +21,24 @@
       "placeholder": "Indtast et navn...",
       "button": "Gem navn"
     },
-    "prompts": {
-      "0": "En person, der bringer glæde",
-      "1": "En person, der støtter dig",
-      "2": "En person, du kan tale med",
-      "3": "En person, du stoler på",
-      "4": "En person, der inspirerer dig"
-    }
+    "prompts": [
+      "En person, der bringer glæde",
+      "En person, der støtter dig",
+      "En person, du kan tale med",
+      "En person, du stoler på",
+      "En person, der inspirerer dig"
+    ]
   },
   "reflection": {
     "subtitle": "Afsluttende refleksioner",
     "title": "Hvad lægger du mærke til?",
     "p_intro": "Tag et øjeblik til at se på din cirkel. Du vil måske bemærke:",
-    "list": {
-      "0": "Nogle føler sig tættere på end andre",
-      "1": "Nogle forbindelser føles stærke",
-      "2": "Nogle føles fjerne eller uklare",
-      "3": "Der kan være huller — eller kun få meningsfulde personer"
-    },
+    "list": [
+      "Nogle føler sig tættere på end andre",
+      "Nogle forbindelser føles stærke",
+      "Nogle føles fjerne eller uklare",
+      "Der kan være huller — eller kun få meningsfulde personer"
+    ],
     "italic": "Bevidsthed er det første skridt mod at opbygge de forbindelser, du værdsætter. 🧘",
     "label": "💭 Er der nogen, du gerne vil føle dig mere forbundet med?",
     "placeholder": "Skriv dine tanker her...",
@@ -72,5 +72,6 @@
   },
   "intro_p1": "På forskellige tidspunkter i livet kan vores støttesystem ændre sig. 🌱 Nogle gange føler vi os forbundet og støttede. Andre gange kan tingene føles fjerne eller uklare.",
   "intro_p2": "Denne aktivitet er et sted, hvor du kan holde en pause og se på de mennesker, der omgiver dig – og forstå, hvem der i øjeblikket føler sig som en del af din omgangskreds. 💛",
-  "intro_p3": "Der er intet rigtigt eller forkert her. Kun bevidsthed. ✨"
+  "intro_p3": "Der er intet rigtigt eller forkert her. Kun bevidsthed. ✨",
+  "app_description": "Tegn din cirkel om"
 }

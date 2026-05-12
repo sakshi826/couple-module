@@ -60,5 +60,6 @@
   "welcome_description": "ようこその説明",
   "welcome_subtitle": "ようこそ_サブタイトル",
   "welcome_title": "ようこそタイトル",
-  "prompt_wish_subtitle": "prompt_wish_subtitle"
+  "prompt_wish_subtitle": "prompt_wish_subtitle",
+  "app_description": "アプリタイトル"
 }

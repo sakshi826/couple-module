@@ -28,43 +28,43 @@
       }
     }
   },
-  "options": {
-    "0": {
+  "options": [
+    {
       "emoji": "🕐",
       "text": "Tôi đi ngủ vào những thời điểm rất khác nhau mỗi đêm"
     },
-    "1": {
+    {
       "emoji": "💡",
       "text": "Môi trường ngủ của tôi không tối, yên tĩnh hoặc thoải mái"
     },
-    "2": {
+    {
       "emoji": "📱",
       "text": "Tôi cuộn trên điện thoại ngay trước khi ngủ"
     },
-    "3": {
+    {
       "emoji": "☕",
       "text": "Tôi có caffeine hoặc rượu gần trước khi đi ngủ"
     },
-    "4": {
+    {
       "emoji": "😵",
       "text": "Tôi thức dậy vào ban đêm và vật lộn để ngủ lại"
     },
-    "5": {
+    {
       "emoji": "🧠",
       "text": "Tâm trí tôi chạy đua với những suy nghĩ khi tôi cố gắng ngủ"
     },
-    "6": {
+    {
       "emoji": "😔",
       "text": "Tôi hiếm khi cảm thấy sảng khoái sau một đêm ngủ"
     }
-  },
-  "rating_labels": {
-    "0": "Rất nghèo",
-    "1": "Nghèo",
-    "2": "Được rồi",
-    "3": "Tốt",
-    "4": "Tuyệt vời"
-  },
+  ],
+  "rating_labels": [
+    "Rất nghèo",
+    "Nghèo",
+    "Được rồi",
+    "Tốt",
+    "Tuyệt vời"
+  ],
   "status_labels": {
     "track": "Chủ yếu đi đúng hướng",
     "disruptions": "Một số gián đoạn",

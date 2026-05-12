@@ -61,5 +61,6 @@
     "save": "Salvar",
     "loading": "Carregando..."
   },
-  "app_title": "Registro de atividades"
+  "app_title": "Registro de atividades",
+  "app_description": "Registro de atividades"
 }

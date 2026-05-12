@@ -1,11 +1,11 @@
 {
   "app_title": "Slaapcyclusgids",
-  "pill_labels": {
-    "0": "Inleiding",
-    "1": "De 4 fasen",
-    "2": "De slaperige waarheid",
-    "3": "En jij?"
-  },
+  "pill_labels": [
+    "Inleiding",
+    "De 4 fasen",
+    "De slaperige waarheid",
+    "En jij?"
+  ],
   "s1": {
     "title": "Heb je ooit 8 uur geslapen en je toch vreselijk gevoeld?",
     "p1": "Het gaat niet om <1>hoe lang</1> je slaapt.",
@@ -18,32 +18,32 @@
   "s2": {
     "title": "Je brein doet DIT elke nacht 🌀",
     "desc": "Elke 90 minuten doorloopt je brein 4 fasen — als een afspeellijst die steeds opnieuw wordt afgespeeld. Tik op elk om te verkennen 👇",
-    "stages": {
-      "0": {
+    "stages": [
+      {
         "emoji": "🌊",
         "title": "Lichte slaap",
         "tag": "1–5 minuten · gemakkelijk wakker te worden",
         "body": "Je valt in slaap. Het lichaam begint los te laten, spieren kunnen samentrekken. Heel makkelijk om hier wakker te worden."
       },
-      "1": {
+      {
         "emoji": "💤",
         "title": "Vestigen",
         "tag": "10–25 min · echt in slaap",
         "body": "De hartslag vertraagt, de lichaamstemperatuur daalt. Je slaapt goed — de hersenactiviteit begint af te nemen."
       },
-      "2": {
+      {
         "emoji": "🔵",
         "title": "Diepe slaap ⭐",
         "tag": "20–40 minuten · Het goud",
         "body": "Het lichaam herstelt weefsel, bouwt immuniteit op. De meest fysiek herstellende fase — moeilijk om uit te ontwaken."
       },
-      "3": {
+      {
         "emoji": "🌙",
         "title": "REM-slaap",
         "tag": "10–60 minuten · Droommodus",
         "body": "Mijn hersenen bruisen van activiteit. Emoties worden verwerkt, herinneringen vergrendelen zich. Als je dit overslaat, word je onzeker."
       }
-    },
+    ],
     "italic": "Diepe slaap herstelt je lichaam. REM herstelt je geest.",
     "button": "Dus waarom voel ik me nog steeds suf? →"
   },
@@ -55,66 +55,66 @@
       "deep": "Diep",
       "groggy": "😫 Suf",
       "fresh": "😊 Fris",
-      "cycles": {
-        "0": "Cyclus 1",
-        "1": "Cyclus 2",
-        "2": "Cyclus 3"
-      }
+      "cycles": [
+        "Cyclus 1",
+        "Cyclus 2",
+        "Cyclus 3"
+      ]
     },
     "disruptors_title": "Wat verstoort je cycli 👇",
-    "disruptors": {
-      "0": {
+    "disruptors": [
+      {
         "emoji": "📱",
         "text": "Schermen voor het slapengaan",
         "sub": "Vertraagt diepe slaap"
       },
-      "1": {
+      {
         "emoji": "☕",
         "text": "Laat cafeïne",
         "sub": "Vermindert diepe slaap tot wel 20%"
       },
-      "2": {
+      {
         "emoji": "⏰",
         "text": "Onregelmatige slaaptijden",
         "sub": "Breekt je natuurlijke ritme"
       },
-      "3": {
+      {
         "emoji": "😰",
         "text": "Stress en angst",
         "sub": "houdt je vast in een lichte slaap"
       }
-    },
+    ],
     "italic": "Je gewoonten bepalen direct welke stadia je bereikt.",
     "button": "Wat betekent dit voor mij? →"
   },
   "s4": {
     "title": "Welke klinkt als jij? 👇",
-    "options": {
-      "0": {
+    "options": [
+      {
         "emoji": "😩",
         "text": "Ik word fysiek uitgeput wakker",
         "sub": "Waarschijnlijk missen we diepe slaap",
         "tip": "Richt je op een consistente slaap en opstaantijd — je lichaam heeft een regelmatig ritme nodig om diepe slaap te bereiken."
       },
-      "1": {
+      {
         "emoji": "🌫️",
         "text": "Ik voel me emotioneel wazig of somber",
         "sub": "waarschijnlijk mis je REM-slaap",
         "tip": "Probeer 30 minuten voor het slapengaan tot rust te komen — een rustige voorslaaproutine beschermt je REM-slaap."
       },
-      "2": {
+      {
         "emoji": "😤",
         "text": "Ik word vaak wakker 's nachts",
         "sub": "Cycli worden steeds onderbroken",
         "tip": "Een koele, donkere en stille kamer helpt je brein om zonder onderbreking in diepere stadia te blijven."
       },
-      "3": {
+      {
         "emoji": "😐",
         "text": "Ik voel me oké, maar niet geweldig",
         "sub": "Cycli zijn gedeeltelijk maar niet compleet",
         "tip": "Probeer 20 minuten eerder naar bed te gaan — je hebt misschien nog één volledige slaapcyclus nodig."
       }
-    },
+    ],
     "quote": "Slapen is niet alleen rust — het is actief herstel. Bescherm je cycli en je hele dag verandert.",
     "button": "Klaar ✓"
   },
@@ -129,5 +129,6 @@
     "next": "Volgende",
     "save": "Redden",
     "loading": "Laden..."
-  }
+  },
+  "app_description": "Slaapcyclusgids"
 }

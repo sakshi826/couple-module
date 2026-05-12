@@ -60,5 +60,6 @@
   "welcome_title": "ברוכים הבאים",
   "carry_footer": "carry_footer",
   "label_step_preserved": "label_step_preserved",
-  "placeholder_step": "placeholder_step"
+  "placeholder_step": "placeholder_step",
+  "app_description": "כותרת_האפליקציה"
 }

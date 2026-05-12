@@ -100,5 +100,6 @@
     "save": "Salva",
     "loading": "Încărcare..."
   },
-  "app_title": "Tehnici de radiodifuziune"
+  "app_title": "Tehnici de radiodifuziune",
+  "app_description": "Tehnici de radiodifuziune"
 }

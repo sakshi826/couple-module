@@ -15,12 +15,12 @@
     "intro": {
       "title": "Tracker samoopieki",
       "description": "Śledź swoje codzienne nawyki dbania o siebie i zobacz, jak wpływają one na Twoje ogólne samopoczucie. Konsekwencja jest kluczem do zdrowszego umysłu.",
-      "benefits": {
-        "0": "Rejestruj codzienne działania dbające o siebie",
-        "1": "Obserwuj czas poświęcony sobie",
-        "2": "Monitoruj swoje nastroje",
-        "3": "Zobacz historię i postępy"
-      },
+      "benefits": [
+        "Rejestruj codzienne działania dbające o siebie",
+        "Obserwuj czas poświęcony sobie",
+        "Monitoruj swoje nastroje",
+        "Zobacz historię i postępy"
+      ],
       "duration": "2-3 minuty"
     },
     "checkin": {
@@ -117,23 +117,25 @@
       "Tired": "Zmęczony",
       "Low": "Niski"
     },
-    "positiveStatements": {
-      "0": "Dziś pojawiłeś się dla siebie. To potężne. 🌿",
-      "1": "Dbanie o siebie nie jest samolubne — jest niezbędne. Dobra robota. 💚",
-      "2": "Każdy drobny akt troski buduje silniejszą ciebie. 🌱",
-      "3": "Zainwestowałeś dziś w siebie. To ma znaczenie. ✨",
-      "4": "Opieka nad tobą to najlepsze, co dziś zrobiłeś. 🍃"
-    },
-    "supportiveStatements": {
-      "0": "W porządku. Jutro to nowy początek. Bądź dla siebie delikatny. 🤍",
-      "1": "Nie każdy dzień będzie idealny i to jest całkowicie w porządku. 🕊️",
-      "2": "Robisz, co możesz. To zawsze wystarczy. 💛",
-      "3": "Odpoczynek to także forma dbania o siebie. Daj sobie wyrozumiałość. 🌸",
-      "4": "Uznanie dzisiejszego dnia wymaga odwagi. Już rośniesz. 🌷"
-    }
+    "positiveStatements": [
+      "Dziś pojawiłeś się dla siebie. To potężne. 🌿",
+      "Dbanie o siebie nie jest samolubne — jest niezbędne. Dobra robota. 💚",
+      "Każdy drobny akt troski buduje silniejszą ciebie. 🌱",
+      "Zainwestowałeś dziś w siebie. To ma znaczenie. ✨",
+      "Opieka nad tobą to najlepsze, co dziś zrobiłeś. 🍃"
+    ],
+    "supportiveStatements": [
+      "W porządku. Jutro to nowy początek. Bądź dla siebie delikatny. 🤍",
+      "Nie każdy dzień będzie idealny i to jest całkowicie w porządku. 🕊️",
+      "Robisz, co możesz. To zawsze wystarczy. 💛",
+      "Odpoczynek to także forma dbania o siebie. Daj sobie wyrozumiałość. 🌸",
+      "Uznanie dzisiejszego dnia wymaga odwagi. Już rośniesz. 🌷"
+    ]
   },
   "intro_p1": "ekrany.intro.korzyści.0",
   "intro_p2": "ekrany.intro.korzyści.1",
   "intro_p3": "ekrany.intro.korzyści.2",
-  "intro_p4": "ekrany.intro.korzyści.3"
+  "intro_p4": "ekrany.intro.korzyści.3",
+  "app_title": "Śledzenie opieki",
+  "app_description": "Śledzenie opieki"
 }

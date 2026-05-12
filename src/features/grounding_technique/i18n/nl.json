@@ -1,11 +1,5 @@
 {
   "Grounding": "Aarding",
-  "Grounding techniques help bring your attention back to the present moment": {
-    "": "Grounding-technieken helpen je aandacht terug te brengen naar het huidige moment."
-  },
-  "Choose one activity that feels supportive right now": {
-    "": "Kies één activiteit die op dit moment ondersteunend aanvoelt."
-  },
   "Back": "Achteruit",
   "Next": "Volgende",
   "I Feel More Grounded": "Ik voel me meer geaard",
@@ -22,140 +16,8 @@
   "Move your body": "Beweeg je lichaam",
   "Listen to your surroundings": "Luister naar je omgeving",
   "Check in with your body": "Check even met je lichaam",
-  "Run your hands under cool or warm water": {
-    "": "Houd je handen onder koud of warm water."
-  },
-  "Notice the temperature": {
-    "": "Let op de temperatuur."
-  },
-  "Pay attention to the sensation on your skin": {
-    "": "Let op het gevoel op je huid."
-  },
-  "Observe how it changes moment by moment": {
-    "": "Let op hoe het van moment tot moment verandert."
-  },
-  "Let your breathing slow naturally": {
-    "": "Laat je ademhaling vanzelf vertragen."
-  },
-  "Choose a nearby object": {
-    "": "Kies een object in de buurt."
-  },
-  "Notice its texture, weight, and temperature": {
-    "": "Let op de textuur, het gewicht en de temperatuur."
-  },
   "Is it smooth or rough? Heavy or light?": "Is het glad of ruw? Zwaar of licht?",
-  "Let your focus stay fully on this one object": {
-    "": "Laat je aandacht volledig op dit ene object blijven."
-  },
-  "Take a slow breath in through your nose": {
-    "": "Adem langzaam in door je neus."
-  },
-  "Hold gently for a moment": {
-    "": "Houd het even voorzichtig vast."
-  },
-  "Exhale slowly through your mouth": {
-    "": "Adem langzaam uit door je mond."
-  },
-  "Repeat several times": {
-    "": "Herhaal dit meerdere keren."
-  },
-  "Let your shoulders soften": {
-    "": "Laat je schouders verslappen."
-  },
-  "Take a small bite": {
-    "": "Neem een klein hapje."
-  },
-  "Chew slowly": {
-    "": "Kauw langzaam."
-  },
-  "Notice the flavor, texture, and temperature": {
-    "": "Let op de smaak, textuur en temperatuur."
-  },
-  "Stay fully present with the experience": {
-    "": "Blijf volledig aanwezig bij de ervaring."
-  },
-  "Take a slow sip": {
-    "": "Neem een langzame slok."
-  },
-  "Notice the temperature and taste": {
-    "": "Let op de temperatuur en smaak."
-  },
-  "Feel the sensation as you swallow": {
-    "": "Voel het gevoel terwijl je slikt."
-  },
-  "Let yourself stay with that moment": {
-    "": "Laat jezelf bij dat moment blijven."
-  },
-  "Walk slowly and intentionally": {
-    "": "Loop langzaam en doelbewust."
-  },
-  "Notice the feeling of your feet touching the ground": {
-    "": "Let op het gevoel van je voeten die de grond raken."
-  },
-  "Observe your surroundings without judgment": {
-    "": "Observeer je omgeving zonder oordeel."
-  },
-  "Let your breath match your steps": {
-    "": "Laat je adem je passen volgen."
-  },
-  "Hold the ice in your hand": {
-    "": "Houd het ijs in je hand."
-  },
-  "Notice the cold sensation": {
-    "": "Let op het koude gevoel."
-  },
-  "Focus fully on the feeling": {
-    "": "Focus volledig op het gevoel."
-  },
-  "Allow the strong sensation to anchor you to the present": {
-    "": "Laat het sterke gevoel je aan het heden verankeren."
-  },
-  "Choose a scent nearby": {
-    "": "Kies een geur in de buurt."
-  },
-  "Inhale slowly": {
-    "": "Adem langzaam in."
-  },
-  "Notice how it feels in your body": {
-    "": "Let op hoe het in je lichaam aanvoelt."
-  },
-  "Let the scent bring you into this moment": {
-    "": "Laat de geur je in dit moment brengen."
-  },
-  "Stretch gently": {
-    "": "Rek je voorzichtig uit."
-  },
-  "Roll your shoulders": {
-    "": "Rol met je schouders."
-  },
-  "Shift your weight from side to side": {
-    "": "Verplaats je gewicht van links naar rechts."
-  },
-  "Notice how your body feels as it moves": {
-    "": "Let op hoe je lichaam aanvoelt terwijl het beweegt."
-  },
-  "Pause and listen": {
-    "": "Pauzeer en luister."
-  },
-  "Identify three distinct sounds": {
-    "": "Identificeer drie verschillende geluiden."
-  },
   "Are they near or far?": "Zijn ze dichtbij of ver weg?",
-  "Let your attention rest on each one": {
-    "": "Laat je aandacht op elk van hen rusten."
-  },
-  "Close your eyes if comfortable": {
-    "": "Sluit je ogen als je je prettig vindt."
-  },
-  "Scan from head to toe": {
-    "": "Scan van top tot teen."
-  },
-  "Notice areas of tension or ease": {
-    "": "Let op plekken met spanning of ontspanning."
-  },
-  "Breathe into any tightness": {
-    "": "Adem in elke strakheid."
-  },
   "common": {
     "get_started": "Aan de slag",
     "start_over": "Opnieuw beginnen",
@@ -169,5 +31,52 @@
     "loading": "Laden..."
   },
   "app_title": "Aarding",
-  "Step": "Stap"
+  "Step": "Stap",
+  "app_description": "Aarding",
+  "Grounding techniques help bring your attention back to the present moment": [],
+  "Choose one activity that feels supportive right now": [],
+  "Run your hands under cool or warm water": [],
+  "Notice the temperature": [],
+  "Pay attention to the sensation on your skin": [],
+  "Observe how it changes moment by moment": [],
+  "Let your breathing slow naturally": [],
+  "Choose a nearby object": [],
+  "Notice its texture, weight, and temperature": [],
+  "Let your focus stay fully on this one object": [],
+  "Take a slow breath in through your nose": [],
+  "Hold gently for a moment": [],
+  "Exhale slowly through your mouth": [],
+  "Repeat several times": [],
+  "Let your shoulders soften": [],
+  "Take a small bite": [],
+  "Chew slowly": [],
+  "Notice the flavor, texture, and temperature": [],
+  "Stay fully present with the experience": [],
+  "Take a slow sip": [],
+  "Notice the temperature and taste": [],
+  "Feel the sensation as you swallow": [],
+  "Let yourself stay with that moment": [],
+  "Walk slowly and intentionally": [],
+  "Notice the feeling of your feet touching the ground": [],
+  "Observe your surroundings without judgment": [],
+  "Let your breath match your steps": [],
+  "Hold the ice in your hand": [],
+  "Notice the cold sensation": [],
+  "Focus fully on the feeling": [],
+  "Allow the strong sensation to anchor you to the present": [],
+  "Choose a scent nearby": [],
+  "Inhale slowly": [],
+  "Notice how it feels in your body": [],
+  "Let the scent bring you into this moment": [],
+  "Stretch gently": [],
+  "Roll your shoulders": [],
+  "Shift your weight from side to side": [],
+  "Notice how your body feels as it moves": [],
+  "Pause and listen": [],
+  "Identify three distinct sounds": [],
+  "Let your attention rest on each one": [],
+  "Close your eyes if comfortable": [],
+  "Scan from head to toe": [],
+  "Notice areas of tension or ease": [],
+  "Breathe into any tightness": []
 }

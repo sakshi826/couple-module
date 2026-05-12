@@ -4,11 +4,11 @@
   "intro": {
     "title": "Voorspelling versus Realiteit",
     "description": "Vergelijk je angstige voorspellingen met wat er daadwerkelijk gebeurt om een meer evenwichtig perspectief op te bouwen.",
-    "benefits": {
-      "0": "Identificeer angstpatronen",
-      "1": "Verzamel bewijs tegen angsten",
-      "2": "Verminder toekomstige overdenken"
-    },
+    "benefits": [
+      "Identificeer angstpatronen",
+      "Verzamel bewijs tegen angsten",
+      "Verminder toekomstige overdenken"
+    ],
     "duration": "4-5 minuten",
     "view_past": "Bekijk eerdere reflecties"
   },
@@ -24,23 +24,23 @@
     "saved_title": "Reflectie gered",
     "message": "Door naar de feiten te kijken, help je je geest te leren dat dingen vaak beter beheersbaar zijn dan ze lijken."
   },
-  "emotions": {
-    "0": "Angstig",
-    "1": "Nerveus",
-    "2": "Bang",
-    "3": "Overweldigd",
-    "4": "Onrustig"
-  },
+  "emotions": [
+    "Angstig",
+    "Nerveus",
+    "Bang",
+    "Overweldigd",
+    "Onrustig"
+  ],
   "intensity_labels": {
     "not_intense": "Niet intens",
     "very_intense": "Zeer intens"
   },
-  "comparison_options": {
-    "0": "Het is bijna precies gelopen, zoals ik had verwacht",
-    "1": "Sommige delen klopten, maar niet alles",
-    "2": "Het was heel anders dan ik had verwacht",
-    "3": "Het was veel makkelijker/beter dan ik had gedacht"
-  },
+  "comparison_options": [
+    "Het is bijna precies gelopen, zoals ik had verwacht",
+    "Sommige delen klopten, maar niet alles",
+    "Het was heel anders dan ik had verwacht",
+    "Het was veel makkelijker/beter dan ik had gedacht"
+  ],
   "screens": {
     "s1": {
       "title": "Denk aan een recente situatie",
@@ -101,5 +101,6 @@
     "next": "Volgende",
     "save": "Redden",
     "loading": "Laden..."
-  }
+  },
+  "app_description": "Voorspelling versus realiteit"
 }

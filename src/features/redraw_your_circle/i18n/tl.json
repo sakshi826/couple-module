@@ -21,24 +21,24 @@
       "placeholder": "Ipasok ang isang pangalan ...",
       "button": "I-save ang Pangalan"
     },
-    "prompts": {
-      "0": "Isang taong nagdudulot ng kagalakan",
-      "1": "Isang Taong Sumusuporta sa Iyo",
-      "2": "Isang taong pwede mong kausapin",
-      "3": "Taong pinagkakatiwalaan mo",
-      "4": "Isang taong nagbibigay-inspirasyon sa iyo"
-    }
+    "prompts": [
+      "Isang taong nagdudulot ng kagalakan",
+      "Isang Taong Sumusuporta sa Iyo",
+      "Isang taong pwede mong kausapin",
+      "Taong pinagkakatiwalaan mo",
+      "Isang taong nagbibigay-inspirasyon sa iyo"
+    ]
   },
   "reflection": {
     "subtitle": "Pangwakas na pagmumuni-muni",
     "title": "Ano ang napapansin mo?",
     "p_intro": "Maglaan ng ilang sandali upang tingnan ang iyong bilog. Maaari mong mapansin:",
-    "list": {
-      "0": "Ang ilang mga tao ay mas malapit kaysa sa iba",
-      "1": "Ang ilang mga koneksyon ay pakiramdam malakas",
-      "2": "Ang ilan ay nakakaramdam ng malayo o hindi malinaw",
-      "3": "Maaaring may mga puwang - o ilang makabuluhang mga tao lamang"
-    },
+    "list": [
+      "Ang ilang mga tao ay mas malapit kaysa sa iba",
+      "Ang ilang mga koneksyon ay pakiramdam malakas",
+      "Ang ilan ay nakakaramdam ng malayo o hindi malinaw",
+      "Maaaring may mga puwang - o ilang makabuluhang mga tao lamang"
+    ],
     "italic": "Ang kamalayan ay ang unang hakbang patungo sa pagbuo ng mga koneksyon na pinahahalagahan mo. 🧘",
     "label": "💭 Mayroon bang sinuman na nais mong maramdaman na mas konektado?",
     "placeholder": "Isulat ang iyong mga saloobin dito ...",
@@ -72,5 +72,6 @@
   },
   "intro_p1": "Sa iba't ibang punto ng buhay, maaaring magbago ang ating sistema ng suporta. 🌱 Minsan, pakiramdam natin ay konektado at sinusuportahan tayo. Sa ibang pagkakataon naman, maaaring parang malayo o hindi malinaw ang mga bagay-bagay.",
   "intro_p2": "Ang aktibidad na ito ay isang lugar para huminto sandali at tingnan ang mga taong nakapaligid sa iyo — at unawain kung sino ang kasalukuyang nakakaramdam na bahagi ka ng iyong bilog. 💛",
-  "intro_p3": "Walang tama o mali dito. Pagkakaroon lang ng kamalayan. ✨"
+  "intro_p3": "Walang tama o mali dito. Pagkakaroon lang ng kamalayan. ✨",
+  "app_description": "Iguhit Muli ang Iyong Bilog"
 }

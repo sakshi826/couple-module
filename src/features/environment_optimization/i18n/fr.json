@@ -44,5 +44,6 @@
     "save": "Sauvegarder",
     "loading": "Chargement..."
   },
-  "app_duration": "5 minutes"
+  "app_duration": "5 minutes",
+  "app_description": "Exercice d'optimisation de l'environnement"
 }

@@ -10,52 +10,52 @@
   "scenario": {
     "title": "Hvad trigger dig?",
     "desc": "Vælg en situation, du kan relatere til",
-    "options": {
-      "0": {
-        "id": "afbrydelser",
+    "options": [
+      {
+        "id": "interrupts",
         "label": "Nogen afbryder mig",
         "emoji": "😠"
       },
-      "1": {
-        "id": "Planer",
+      {
+        "id": "plans",
         "label": "Tingene går ikke som planlagt",
         "emoji": "😤"
       },
-      "2": {
-        "id": "ignoreret",
+      {
+        "id": "ignored",
         "label": "Jeg føler mig ignoreret",
         "emoji": "😔"
       },
-      "3": {
-        "id": "overvældet",
+      {
+        "id": "overwhelmed",
         "label": "Jeg føler mig overvældet",
         "emoji": "😵‍💫"
       }
-    },
+    ],
     "placeholder": "Skriv dit eget...",
     "button": "Øv pause→"
   },
   "hold": {
     "title": "Hold pause ⏸️",
     "instructions": "Hold cirklen i 5 sekunder",
-    "microcopy": {
-      "0": {
+    "microcopy": [
+      {
         "at": "0",
         "text": "Tryk og hold..."
       },
-      "1": {
+      {
         "at": "0.15",
         "text": "Bliv ved..."
       },
-      "2": {
+      {
         "at": "0.5",
         "text": "Du gør det..."
       },
-      "3": {
+      {
         "at": "0.8",
         "text": "Næsten der..."
       }
-    }
+    ]
   },
   "result": {
     "title": "Det er pausen",

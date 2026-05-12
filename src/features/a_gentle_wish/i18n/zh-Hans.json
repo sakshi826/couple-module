@@ -60,5 +60,6 @@
   },
   "app_title": "app_title",
   "cue_body": "cue_body",
-  "prompt_wish_subtitle": "prompt_wish_subtitle"
+  "prompt_wish_subtitle": "prompt_wish_subtitle",
+  "app_description": "app_title"
 }

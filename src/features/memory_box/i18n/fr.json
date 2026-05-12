@@ -1,12 +1,12 @@
 {
   "app_title": "Boîte à souvenirs",
-  "screen_titles": {
-    "0": "Votre boîte",
-    "1": "Hommage",
-    "2": "Expression",
-    "3": "Préservé",
-    "4": "Soins doux"
-  },
+  "screen_titles": [
+    "Votre boîte",
+    "Hommage",
+    "Expression",
+    "Préservé",
+    "Soins doux"
+  ],
   "complete_title": "Mémoire préservée",
   "complete_message": "Vous avez bien placé un souvenir de {{name}} dans votre boîte. Ces moments de connexion sont toujours à vous.",
   "auth_error": "Session d’authentification manquante ou base de données non configurée",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Tape leur nom...",
     "placeholder_relation": "Comment les connais-tu ? (optionnel)",
-    "categories": {
-      "0": {
+    "categories": [
+      {
         "label": "Un moment heureux",
         "emoji": "😊"
       },
-      "1": {
+      {
         "label": "Quelque chose qu’ils disaient autrefois",
         "emoji": "💬"
       },
-      "2": {
+      {
         "label": "Un petit souvenir quotidien",
         "emoji": "☕"
       },
-      "3": {
+      {
         "label": "Un endroit qui vous rappelle eux",
         "emoji": "🏡"
       },
-      "4": {
+      {
         "label": "C’est quelque chose que j’aimerais pouvoir dire",
         "emoji": "💌"
       }
-    },
+    ],
     "continue": "Continuez →"
   },
   "expression": {
@@ -88,5 +88,6 @@
     "next": "Suivant",
     "save": "Sauvegarder",
     "loading": "Chargement..."
-  }
+  },
+  "app_description": "Boîte à souvenirs"
 }

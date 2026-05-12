@@ -61,5 +61,6 @@
     "loading": "Chargement..."
   },
   "app_title": "Journal d'activité",
-  "minutes": "minutes"
+  "minutes": "minutes",
+  "app_description": "Journal d'activité"
 }

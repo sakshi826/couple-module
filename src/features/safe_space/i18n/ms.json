@@ -1,57 +1,57 @@
 {
   "app_title": "Ruang Selamat",
-  "nav": {
-    "0": "Daftar masuk",
-    "1": "Ingat Perlahan-lahan",
-    "2": "Memerhati",
-    "3": "Kekal Hadir",
-    "4": "Mengambil Ke Hadapan"
-  },
+  "nav": [
+    "Daftar masuk",
+    "Ingat Perlahan-lahan",
+    "Memerhati",
+    "Kekal Hadir",
+    "Mengambil Ke Hadapan"
+  ],
   "s1": {
     "title": "Mari cari tempat yang terasa baik-baik saja",
-    "description": {
-      "0": "Sebelum kita mulakan, luangkan sedikit masa untuk mendaftar masuk...",
-      "1": "Bagaimana perasaan anda sekarang?",
-      "2": "Kami tidak mencari \"tempat selamat\" yang sempurna. Hanya sesuatu yang terasa walaupun sedikit tenang atau baik-baik saja."
-    },
+    "description": [
+      "Sebelum kita mulakan, luangkan sedikit masa untuk mendaftar masuk...",
+      "Bagaimana perasaan anda sekarang?",
+      "Kami tidak mencari \"tempat selamat\" yang sempurna. Hanya sesuatu yang terasa walaupun sedikit tenang atau baik-baik saja."
+    ],
     "placeholder": "Bagaimana perasaan anda sekarang?",
     "button": "Mulakan Visualisasi"
   },
   "s2": {
     "title": "Ingatkan dengan lembut",
-    "description": {
-      "0": "Fikirkan tempat di mana anda berasa sedikit selesa... atau tempat yang anda mahu wujud.",
-      "1": "Sekarang letakkan diri anda di sana...",
-      "2": "Adakah anda duduk, berdiri, atau berbaring?"
-    },
+    "description": [
+      "Fikirkan tempat di mana anda berasa sedikit selesa... atau tempat yang anda mahu wujud.",
+      "Sekarang letakkan diri anda di sana...",
+      "Adakah anda duduk, berdiri, atau berbaring?"
+    ],
     "button": "Teruskan"
   },
   "s3": {
     "title": "Lihat sekeliling perlahan-lahan",
-    "description": {
-      "0": "Lihatlah sekeliling dengan lembut...",
-      "1": "Apakah satu perkara yang anda boleh lihat?",
-      "2": "Sekarang perhatikan bunyi... Apa yang anda dengar?"
-    },
+    "description": [
+      "Lihatlah sekeliling dengan lembut...",
+      "Apakah satu perkara yang anda boleh lihat?",
+      "Sekarang perhatikan bunyi... Apa yang anda dengar?"
+    ],
     "button": "Teruskan"
   },
   "s4": {
     "title": "Kekal dengan ini",
-    "description": {
-      "0": "Apa yang berlaku tentang tempat ini yang membuatkan ia berasa sedikit selamat atau baik-baik saja?",
-      "1": "Seperti yang anda perhatikan bahawa...",
-      "2": "Juga bawa perhatian anda kepada nafas anda."
-    },
+    "description": [
+      "Apa yang berlaku tentang tempat ini yang membuatkan ia berasa sedikit selamat atau baik-baik saja?",
+      "Seperti yang anda perhatikan bahawa...",
+      "Juga bawa perhatian anda kepada nafas anda."
+    ],
     "breathe": "bernafas",
     "notice": "Jika membayangkan terasa sukar, fikirkan sahaja idea tempat ini.",
     "button": "Teruskan"
   },
   "s5": {
     "title": "Bawa ini bersama anda",
-    "description": {
-      "0": "Perhatikan bagaimana perasaan anda sekarang. Malah peralihan kecil penting.",
-      "1": "Lihat sama ada anda boleh membawa walaupun 5% daripada perasaan ini bersama anda."
-    },
+    "description": [
+      "Perhatikan bagaimana perasaan anda sekarang. Malah peralihan kecil penting.",
+      "Lihat sama ada anda boleh membawa walaupun 5% daripada perasaan ini bersama anda."
+    ],
     "placeholder": "Bagaimana perasaan anda sekarang?",
     "button": "Sesi Lengkap"
   },
@@ -70,5 +70,6 @@
     "next": "Seterusnya",
     "save": "Simpan",
     "loading": "Memuatkan..."
-  }
+  },
+  "app_description": "Ruang Selamat"
 }

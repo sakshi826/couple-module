@@ -100,5 +100,6 @@
     "save": "Spara",
     "loading": "Belastning..."
   },
-  "app_title": "Sändningstekniker"
+  "app_title": "Sändningstekniker",
+  "app_description": "Sändningstekniker"
 }

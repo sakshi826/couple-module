@@ -60,5 +60,6 @@
   "placeholder_wish": "placeholder_wish",
   "prompt_why": "prompt_why",
   "prompt_wish": "prompt_wish",
-  "prompt_wish_subtitle": "prompt_wish_subtitle"
+  "prompt_wish_subtitle": "prompt_wish_subtitle",
+  "app_description": "tytuł_aplikacji"
 }

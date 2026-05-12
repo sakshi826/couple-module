@@ -1,57 +1,57 @@
 {
   "app_title": "Bezpečný prostor",
-  "nav": {
-    "0": "Check-in",
-    "1": "Jemné připomenutí",
-    "2": "Pozorování",
-    "3": "Zůstat přítomný",
-    "4": "Pokračujeme dál"
-  },
+  "nav": [
+    "Check-in",
+    "Jemné připomenutí",
+    "Pozorování",
+    "Zůstat přítomný",
+    "Pokračujeme dál"
+  ],
   "s1": {
     "title": "Najděme místo, kde je to v pohodě",
-    "description": {
-      "0": "Než začneme, věnujte chvíli kontrole toho...",
-      "1": "Jak se teď cítíš?",
-      "2": "Nehledáme dokonalé \"bezpečné místo\". Jen něco, co působí alespoň trochu klidně nebo v pořádku."
-    },
+    "description": [
+      "Než začneme, věnujte chvíli kontrole toho...",
+      "Jak se teď cítíš?",
+      "Nehledáme dokonalé \"bezpečné místo\". Jen něco, co působí alespoň trochu klidně nebo v pořádku."
+    ],
     "placeholder": "Jak se teď cítíš?",
     "button": "Začněte vizualizaci"
   },
   "s2": {
     "title": "Jemně si to připomeň",
-    "description": {
-      "0": "Představ si místo, kde ses cítil alespoň trochu v klidu... nebo místo, které byste si přáli existovat.",
-      "1": "Teď se tam postav...",
-      "2": "Sedíte, stojíte nebo ležíte?"
-    },
+    "description": [
+      "Představ si místo, kde ses cítil alespoň trochu v klidu... nebo místo, které byste si přáli existovat.",
+      "Teď se tam postav...",
+      "Sedíte, stojíte nebo ležíte?"
+    ],
     "button": "Pokračovat"
   },
   "s3": {
     "title": "Rozhlédni se pomalu",
-    "description": {
-      "0": "Rozhlédni se kolem sebe...",
-      "1": "Co je jedna věc, kterou vidíš?",
-      "2": "Teď si všimněte zvuku... Co slyšíš?"
-    },
+    "description": [
+      "Rozhlédni se kolem sebe...",
+      "Co je jedna věc, kterou vidíš?",
+      "Teď si všimněte zvuku... Co slyšíš?"
+    ],
     "button": "Pokračovat"
   },
   "s4": {
     "title": "Vydrž to",
-    "description": {
-      "0": "Co je na tomto místě takové, že se cítí byť jen trochu bezpečně nebo v pohodě?",
-      "1": "Když si všimneš, že...",
-      "2": "Také zaměřte pozornost na svůj dech."
-    },
+    "description": [
+      "Co je na tomto místě takové, že se cítí byť jen trochu bezpečně nebo v pohodě?",
+      "Když si všimneš, že...",
+      "Také zaměřte pozornost na svůj dech."
+    ],
     "breathe": "Dýchej",
     "notice": "Pokud je představa těžká, jen si představte toto místo.",
     "button": "Pokračovat"
   },
   "s5": {
     "title": "Vezmi si to s sebou",
-    "description": {
-      "0": "Všímej si, jak se teď cítíš. I malá změna je důležitá.",
-      "1": "Zkus si vzít alespoň 5 % tohoto pocitu s sebou."
-    },
+    "description": [
+      "Všímej si, jak se teď cítíš. I malá změna je důležitá.",
+      "Zkus si vzít alespoň 5 % tohoto pocitu s sebou."
+    ],
     "placeholder": "Jak se teď cítíš?",
     "button": "Kompletní sezení"
   },
@@ -70,5 +70,6 @@
     "next": "Další",
     "save": "Uložit",
     "loading": "Načítání..."
-  }
+  },
+  "app_description": "Bezpečný prostor"
 }

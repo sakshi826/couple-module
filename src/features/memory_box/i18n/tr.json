@@ -1,12 +1,12 @@
 {
   "app_title": "Hafıza Kutusu",
-  "screen_titles": {
-    "0": "Senin Kutun",
-    "1": "Onurlandırma",
-    "2": "İfade",
-    "3": "Korunmuş",
-    "4": "Nazik Bakım"
-  },
+  "screen_titles": [
+    "Senin Kutun",
+    "Onurlandırma",
+    "İfade",
+    "Korunmuş",
+    "Nazik Bakım"
+  ],
   "complete_title": "Korunan Hafıza",
   "complete_message": "{{name}}'in bir anısını kutunuza güvenle yerleştirdiniz. Bu bağlantı anları her zaman senin tutacağındır.",
   "auth_error": "Doğrulama oturumu eksik veya veritabanı yapılandırılmadı",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "İsimlerini yazın...",
     "placeholder_relation": "Onları nasıl tanıyorsun? (isteğe bağlı)",
-    "categories": {
-      "0": {
+    "categories": [
+      {
         "label": "Mutlu bir an",
         "emoji": "😊"
       },
-      "1": {
+      {
         "label": "Eskiden söyledikleri bir şey",
         "emoji": "💬"
       },
-      "2": {
+      {
         "label": "Küçük bir günlük anı",
         "emoji": "☕"
       },
-      "3": {
+      {
         "label": "Onları hatırlatan bir yer",
         "emoji": "🏡"
       },
-      "4": {
+      {
         "label": "Keşke söyleyebilsem",
         "emoji": "💌"
       }
-    },
+    ],
     "continue": "Devam →"
   },
   "expression": {
@@ -88,5 +88,6 @@
     "next": "Sonraki",
     "save": "Kaydetmek",
     "loading": "Yükleniyor..."
-  }
+  },
+  "app_description": "Anı Kutusu"
 }

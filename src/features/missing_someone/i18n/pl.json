@@ -1,10 +1,10 @@
 {
   "app_title": "Tęsknię za kimś",
-  "subtitles": {
-    "0": "Walidacja",
-    "1": "Wewnętrzna mądrość",
-    "2": "Ukończone"
-  },
+  "subtitles": [
+    "Walidacja",
+    "Wewnętrzna mądrość",
+    "Ukończone"
+  ],
   "complete_title": "Uzyskana jasność",
   "complete_message": "Zrozumienie chemii tęsknoty za kimś to pierwszy krok do uzdrowienia. Twoje uczucia są ważne, a twój mózg po prostu wykonuje swoją pracę, by je chronić i przetwarzać.",
   "screen1": {
@@ -34,5 +34,6 @@
     "next": "Następny",
     "save": "Ratować",
     "loading": "Załadunek..."
-  }
+  },
+  "app_description": "Tęsknota za kimś"
 }

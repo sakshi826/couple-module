@@ -10,20 +10,20 @@
   "s2": {
     "tag": "jemné pravdy",
     "title": "Logika přežití mozku",
-    "truths": {
-      "0": {
+    "truths": [
+      {
         "header": "Budík zůstal zapnutý",
         "body": "Hypervigilance a vyděšení nejsou snadno přehnané reakce — poplašný systém mozku plní svou práci příliš dobře."
       },
-      "1": {
+      {
         "header": "Flashbacky jsou vzpomínky",
         "body": "Spouštěče vám vrátí mozek, protože nikdy nedostal signál, že hrozba skončila. Snaží se tě chránit."
       },
-      "2": {
+      {
         "header": "Bojovat za tebe",
         "body": "Každý příznak byl kdysi aktem přežití. Tvůj mozek dělal, co musel, aby tě udržel naživu."
       }
-    },
+    ],
     "healing": "Uzdravování není o zapomínání. Jde o to pomoci mozku naučit se, že jste teď v bezpečí."
   },
   "common": {

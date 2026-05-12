@@ -4,11 +4,11 @@
   "intro": {
     "title": "Predicție vs Realitate",
     "description": "Compară predicțiile tale anxioase cu ceea ce se întâmplă de fapt pentru a construi o perspectivă mai echilibrată.",
-    "benefits": {
-      "0": "Identifică tiparele anxioase",
-      "1": "Adună dovezi împotriva temerilor",
-      "2": "Reduceți gândirea excesivă în viitor"
-    },
+    "benefits": [
+      "Identifică tiparele anxioase",
+      "Adună dovezi împotriva temerilor",
+      "Reduceți gândirea excesivă în viitor"
+    ],
     "duration": "4-5 minute",
     "view_past": "Vezi reflecții anterioare"
   },
@@ -24,23 +24,23 @@
     "saved_title": "Reflecție salvată",
     "message": "Privind faptele, îți ajuți mintea să înțeleagă că lucrurile sunt adesea mai ușor de gestionat decât par."
   },
-  "emotions": {
-    "0": "Anxios",
-    "1": "Nervos",
-    "2": "Speriat",
-    "3": "Copleșit",
-    "4": "Neliniștit"
-  },
+  "emotions": [
+    "Anxios",
+    "Nervos",
+    "Speriat",
+    "Copleșit",
+    "Neliniștit"
+  ],
   "intensity_labels": {
     "not_intense": "Nu intens",
     "very_intense": "Foarte intens"
   },
-  "comparison_options": {
-    "0": "A ieșit aproape exact așa cum mă așteptam",
-    "1": "Unele părți erau corecte, dar nu totul",
-    "2": "A fost destul de diferit față de ce mă așteptam",
-    "3": "A fost mult mai ușor/mai bun decât mi-am imaginat"
-  },
+  "comparison_options": [
+    "A ieșit aproape exact așa cum mă așteptam",
+    "Unele părți erau corecte, dar nu totul",
+    "A fost destul de diferit față de ce mă așteptam",
+    "A fost mult mai ușor/mai bun decât mi-am imaginat"
+  ],
   "screens": {
     "s1": {
       "title": "Gândește-te la o situație recentă",
@@ -101,5 +101,6 @@
     "next": "Următorul",
     "save": "Salva",
     "loading": "Încărcare..."
-  }
+  },
+  "app_description": "Predicție vs. Realitate"
 }

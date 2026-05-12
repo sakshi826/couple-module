@@ -1,57 +1,57 @@
 {
   "app_title": "Turvallinen tila",
-  "nav": {
-    "0": "Sisäänkirjautuminen",
-    "1": "Lempeästi muistaminen",
-    "2": "Havainnointi",
-    "3": "Nykyhetkessä pysyminen",
-    "4": "Eteenpäin vieminen"
-  },
+  "nav": [
+    "Sisäänkirjautuminen",
+    "Lempeästi muistaminen",
+    "Havainnointi",
+    "Nykyhetkessä pysyminen",
+    "Eteenpäin vieminen"
+  ],
   "s1": {
     "title": "Etsitään paikka, joka tuntuu hyvältä",
-    "description": {
-      "0": "Ennen kuin aloitamme, ota hetki ja tarkista tilanne...",
-      "1": "Miltä sinusta tuntuu juuri nyt?",
-      "2": "Emme etsi täydellistä \"turvallista paikkaa\". Jotain, mikä tuntuu edes vähän rauhalliselta tai ok."
-    },
+    "description": [
+      "Ennen kuin aloitamme, ota hetki ja tarkista tilanne...",
+      "Miltä sinusta tuntuu juuri nyt?",
+      "Emme etsi täydellistä \"turvallista paikkaa\". Jotain, mikä tuntuu edes vähän rauhalliselta tai ok."
+    ],
     "placeholder": "Miltä sinusta tuntuu juuri nyt?",
     "button": "Aloita visualisointi"
   },
   "s2": {
     "title": "Tuo se varovasti mieleen",
-    "description": {
-      "0": "Ajattele paikkaa, jossa tunsit olosi edes vähän rauhalliseksi... Tai paikkaan, jonka toivoisit olevan olemassa.",
-      "1": "Nyt asetu sinne...",
-      "2": "Istutko, seisotko vai makaudutko?"
-    },
+    "description": [
+      "Ajattele paikkaa, jossa tunsit olosi edes vähän rauhalliseksi... Tai paikkaan, jonka toivoisit olevan olemassa.",
+      "Nyt asetu sinne...",
+      "Istutko, seisotko vai makaudutko?"
+    ],
     "button": "Jatka"
   },
   "s3": {
     "title": "Katso ympärillesi hitaasti",
-    "description": {
-      "0": "Katso varovasti ympärillesi...",
-      "1": "Mikä on yksi asia, jonka näet?",
-      "2": "Nyt huomaa ääni... Mitä kuulet?"
-    },
+    "description": [
+      "Katso varovasti ympärillesi...",
+      "Mikä on yksi asia, jonka näet?",
+      "Nyt huomaa ääni... Mitä kuulet?"
+    ],
     "button": "Jatka"
   },
   "s4": {
     "title": "Pysy tässä mukana",
-    "description": {
-      "0": "Mikä tässä paikassa saa sen tuntumaan edes vähän turvalliselta tai ok?",
-      "1": "Kuten huomaat, että...",
-      "2": "Kiinnitä myös huomio hengitykseesi."
-    },
+    "description": [
+      "Mikä tässä paikassa saa sen tuntumaan edes vähän turvalliselta tai ok?",
+      "Kuten huomaat, että...",
+      "Kiinnitä myös huomio hengitykseesi."
+    ],
     "breathe": "hengitä",
     "notice": "Jos kuvitteleminen tuntuu vaikealta, mieti vain tämän paikan ideaa.",
     "button": "Jatka"
   },
   "s5": {
     "title": "Ota tämä mukaasi",
-    "description": {
-      "0": "Huomaa, miltä sinusta tuntuu juuri nyt. Jopa pieni työvuoro merkitsee.",
-      "1": "Katso, pystytkö kantamaan edes 5 % tästä tunteesta mukanasi."
-    },
+    "description": [
+      "Huomaa, miltä sinusta tuntuu juuri nyt. Jopa pieni työvuoro merkitsee.",
+      "Katso, pystytkö kantamaan edes 5 % tästä tunteesta mukanasi."
+    ],
     "placeholder": "Miltä sinusta nyt tuntuu?",
     "button": "Koko istunto"
   },
@@ -70,5 +70,6 @@
     "next": "Seuraava",
     "save": "Tallentaa",
     "loading": "Ladataan..."
-  }
+  },
+  "app_description": "Turvallinen tila"
 }

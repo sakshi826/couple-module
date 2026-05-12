@@ -1,12 +1,12 @@
 {
   "app_title": "Memory Box",
-  "screen_titles": {
-    "0": "Cutia ta",
-    "1": "Onorare",
-    "2": "Exprimare",
-    "3": "Păstrate",
-    "4": "Îngrijire blândă"
-  },
+  "screen_titles": [
+    "Cutia ta",
+    "Onorare",
+    "Exprimare",
+    "Păstrate",
+    "Îngrijire blândă"
+  ],
   "complete_title": "Memorie păstrată",
   "complete_message": "Ai pus în siguranță o amintire a lui {{name}} în cutia ta. Aceste momente de conexiune îți aparțin mereu.",
   "auth_error": "Sesiune de autentificare lipsă sau bază de date neconfigurată",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Scrie-le numele...",
     "placeholder_relation": "De unde îi cunoști? (opțional)",
-    "categories": {
-      "0": {
+    "categories": [
+      {
         "label": "Un moment fericit",
         "emoji": "😊"
       },
-      "1": {
+      {
         "label": "Ceva ce obișnuiau să spună",
         "emoji": "💬"
       },
-      "2": {
+      {
         "label": "O mică amintire de zi cu zi",
         "emoji": "☕"
       },
-      "3": {
+      {
         "label": "Un loc care îți amintește de ei",
         "emoji": "🏡"
       },
-      "4": {
+      {
         "label": "Ceva ce mi-aș dori să pot spune",
         "emoji": "💌"
       }
-    },
+    ],
     "continue": "Continuă →"
   },
   "expression": {
@@ -88,5 +88,6 @@
     "next": "Următorul",
     "save": "Salva",
     "loading": "Încărcare..."
-  }
+  },
+  "app_description": "Cutie de amintiri"
 }

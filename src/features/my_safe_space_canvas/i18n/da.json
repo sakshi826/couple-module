@@ -4,52 +4,52 @@
   "welcome": {
     "title": "Dit sikre sted venter",
     "description": "Byg dit eget fristed gennem en række blide kreative opfordringer. Et blankt lærred til dine tanker og følelser.",
-    "benefits": {
-      "0": "Udtryk dig selv gennem farver",
-      "1": "Skab et visuelt jordforbindelsesværktøj",
-      "2": "Sikker, privat og personlig"
-    },
+    "benefits": [
+      "Udtryk dig selv gennem farver",
+      "Skab et visuelt jordforbindelsesværktøj",
+      "Sikker, privat og personlig"
+    ],
     "duration": "10-15 minutter",
     "view_past": "Se tidligere collager"
   },
   "canvas": {
-    "prompts": {
-      "0": {
+    "prompts": [
+      {
         "quote": "Hvordan ser himlen ud i dit sikre sted? Tegn dens farve, lys eller følelse.",
         "button": "Jeg har tilføjet himmelen →",
         "hint": "Der er ingen rigtig måde — ethvert mærke er nok."
       },
-      "1": {
+      {
         "quote": "Hvordan føles jorden? Græs, sand, vand, et trægulv? Tilføj det under himlen.",
         "button": "Jeg har tilføjet jorden →",
         "hint": "Tænk over, hvordan dine fødder føles her."
       },
-      "2": {
+      {
         "quote": "Tilføj én ting, der hører til her — et træ, en stol, et vindue, et kæledyr, en lampe. Alt, der føles rigtigt.",
         "button": "Jeg har tilføjet noget →",
         "hint": "Det behøver ikke at se perfekt ud. Det skal bare føles sandt."
       },
-      "3": {
+      {
         "quote": "Hvad bringer varme eller tryghed til dette sted? Et lys, et bål, sollys, et tæppe? Tilføj det, hvor det føles rigtigt.",
         "button": "Jeg har tilføjet varmen →",
         "hint": "Selv en lille farveprik tæller."
       },
-      "4": {
+      {
         "quote": "Endelig — tilføj 3 til 5 ord, der hører til her. Tryk på din tegning for at placere dem hvor som helst.",
         "button": "Det er mine ord →",
         "hint": ""
       }
-    },
-    "word_chips": {
-      "0": "Fred",
-      "1": "Hjem",
-      "2": "Himlen",
-      "3": "Rolig",
-      "4": "Varm",
-      "5": "Nu er det nok",
-      "6": "Blid",
-      "7": "Sikker"
-    },
+    ],
+    "word_chips": [
+      "Fred",
+      "Hjem",
+      "Himlen",
+      "Rolig",
+      "Varm",
+      "Nu er det nok",
+      "Blid",
+      "Sikker"
+    ],
     "custom_word_placeholder": "+ din egen",
     "skip_prompt": "spring denne prompt over",
     "type_here": "Skriv her"
@@ -71,25 +71,25 @@
     "title": "Du er her. Du er i sikkerhed.",
     "breathe_info": "4 · hold · 4 · Slip det · 6",
     "done_message": "Godt gået, at du mødte op for dig selv i dag.",
-    "durations": {
-      "0": {
+    "durations": [
+      {
         "label": "1 min",
         "seconds": "60"
       },
-      "1": {
+      {
         "label": "3 min",
         "seconds": "180"
       },
-      "2": {
+      {
         "label": "5 min",
         "seconds": "300"
       }
-    },
-    "phases": {
-      "0": "Træk vejret ind",
-      "1": "Hold",
-      "2": "Slip mig"
-    }
+    ],
+    "phases": [
+      "Træk vejret ind",
+      "Hold",
+      "Slip mig"
+    ]
   },
   "history": {
     "title": "Forbi sikre steder",
@@ -106,5 +106,6 @@
     "next": "Næste",
     "save": "Spare",
     "loading": "Indlæser..."
-  }
+  },
+  "app_description": "Sikker plads-lærred"
 }

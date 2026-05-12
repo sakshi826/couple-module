@@ -4,52 +4,52 @@
   "welcome": {
     "title": "Tvé bezpečné místo čeká",
     "description": "Vytvořte si vlastní útočiště prostřednictvím série jemných kreativních podnětů. Prázdné plátno pro tvé myšlenky a pocity.",
-    "benefits": {
-      "0": "Vyjádř se skrze barvy",
-      "1": "Vytvořte vizuální uzemňovací nástroj",
-      "2": "Bezpečné, soukromé a osobní"
-    },
+    "benefits": [
+      "Vyjádř se skrze barvy",
+      "Vytvořte vizuální uzemňovací nástroj",
+      "Bezpečné, soukromé a osobní"
+    ],
     "duration": "10-15 minut",
     "view_past": "Zobrazit minulé koláže"
   },
   "canvas": {
-    "prompts": {
-      "0": {
+    "prompts": [
+      {
         "quote": "Jak vypadá obloha na vašem bezpečném místě? Nakreslit jeho barvu, světlo nebo pocit.",
         "button": "Přidal jsem nebe →",
         "hint": "Neexistuje správná cesta — stačí jakákoliv značka."
       },
-      "1": {
+      {
         "quote": "Jaký je pocit na zemi? Tráva, písek, voda, dřevěná podlaha? Přidejte to pod oblohu.",
         "button": "Přidal jsem zemní →",
         "hint": "Zamysli se, jak se cítíš na nohy v tomhle místě."
       },
-      "2": {
+      {
         "quote": "Přidejte jednu věc, která sem patří — strom, židli, okno, domácího mazlíčka, lampu. Cokoliv, co mi přijde správné.",
         "button": "Přidal jsem něco →",
         "hint": "Nemusí to vypadat dokonale. Musí to prostě působit pravdivě."
       },
-      "3": {
+      {
         "quote": "Co přináší tomuto místu teplo nebo útěchu? Světlo, oheň, sluneční světlo, deka? Přidejte ho tam, kde vám to přijde správné.",
         "button": "Přidal jsem teplo →",
         "hint": "I malá tečka barvy se počítá."
       },
-      "4": {
+      {
         "quote": "Nakonec — přidejte 3 až 5 slov, která sem patří. Klepnutím na svůj obrázek je umístíte kamkoli.",
         "button": "To jsou moje slova →",
         "hint": ""
       }
-    },
-    "word_chips": {
-      "0": "Mír",
-      "1": "Domov",
-      "2": "Nebe",
-      "3": "Klid",
-      "4": "Teplo",
-      "5": "Dost",
-      "6": "Jemně",
-      "7": "Safe"
-    },
+    ],
+    "word_chips": [
+      "Mír",
+      "Domov",
+      "Nebe",
+      "Klid",
+      "Teplo",
+      "Dost",
+      "Jemně",
+      "Safe"
+    ],
     "custom_word_placeholder": "+ své vlastní",
     "skip_prompt": "přeskočit tento prompt",
     "type_here": "Napište sem"
@@ -71,25 +71,25 @@
     "title": "Jsi tady. Jsi v bezpečí.",
     "breathe_info": "4 · drž · 4 · Pusť to · 6",
     "done_message": "Gratuluji, že jsi dnes přišel sám pro sebe.",
-    "durations": {
-      "0": {
+    "durations": [
+      {
         "label": "1 min",
         "seconds": "60"
       },
-      "1": {
+      {
         "label": "3 min",
         "seconds": "180"
       },
-      "2": {
+      {
         "label": "5 minut",
         "seconds": "300"
       }
-    },
-    "phases": {
-      "0": "Nadechni se",
-      "1": "Držte",
-      "2": "Pusť mě"
-    }
+    ],
+    "phases": [
+      "Nadechni se",
+      "Držte",
+      "Pusť mě"
+    ]
   },
   "history": {
     "title": "Minulá bezpečná místa",
@@ -106,5 +106,6 @@
     "next": "Další",
     "save": "Uložit",
     "loading": "Načítání..."
-  }
+  },
+  "app_description": "Plátno bezpečného prostoru"
 }

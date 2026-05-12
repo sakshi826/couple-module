@@ -1,14 +1,14 @@
 {
   "app_title": "Pauză de compasiune",
-  "screen_titles": {
-    "0": "Check-in",
-    "1": "Identificare",
-    "2": "Respirație",
-    "3": "Bunătate",
-    "4": "Schimbare",
-    "5": "Reflectă",
-    "6": "Complet"
-  },
+  "screen_titles": [
+    "Check-in",
+    "Identificare",
+    "Respirație",
+    "Bunătate",
+    "Schimbare",
+    "Reflectă",
+    "Complet"
+  ],
   "auth_error": "Sesiune de autentificare lipsă sau bază de date neconfigurată",
   "save_success": "Reflecție păstrată",
   "save_error": "A eșuat să păstreze reflexia",
@@ -25,14 +25,14 @@
   "continue_button": "Continuă",
   "nameit_title": "Pune-o în cuvinte",
   "nameit_subtitle": "Acum, mă simt _______",
-  "emotions_list": {
-    "0": "anxios",
-    "1": "vinovat",
-    "2": "copleșit",
-    "3": "Tensionat",
-    "4": "obosit",
-    "5": "trist"
-  },
+  "emotions_list": [
+    "anxios",
+    "vinovat",
+    "copleșit",
+    "Tensionat",
+    "obosit",
+    "trist"
+  ],
   "label_custom_emotion": "Sau tastez-ți propria",
   "placeholder_emotion": "1–2 cuvinte",
   "nameit_footer": "Simplitatea e suficientă.",
@@ -71,5 +71,6 @@
     "next": "Următorul",
     "save": "Salva",
     "loading": "Încărcare..."
-  }
+  },
+  "app_description": "Pauză de compasiune"
 }

@@ -21,24 +21,24 @@
       "placeholder": "Masukkan nama...",
       "button": "Simpan Nama"
     },
-    "prompts": {
-      "0": "Seseorang yang membawa kegembiraan",
-      "1": "Seseorang yang menyokong anda",
-      "2": "Seseorang yang boleh anda bercakap dengan",
-      "3": "Orang yang anda percayai",
-      "4": "Seseorang yang memberi inspirasi kepada anda"
-    }
+    "prompts": [
+      "Seseorang yang membawa kegembiraan",
+      "Seseorang yang menyokong anda",
+      "Seseorang yang boleh anda bercakap dengan",
+      "Orang yang anda percayai",
+      "Seseorang yang memberi inspirasi kepada anda"
+    ]
   },
   "reflection": {
     "subtitle": "Refleksi akhir",
     "title": "Apa yang anda perhatikan?",
     "p_intro": "Luangkan sedikit masa untuk melihat bulatan anda. Anda mungkin perasan:",
-    "list": {
-      "0": "Sesetengah orang berasa lebih dekat daripada yang lain",
-      "1": "Sesetengah sambungan terasa kuat",
-      "2": "Ada yang berasa jauh atau tidak jelas",
-      "3": "Mungkin terdapat jurang - atau hanya beberapa orang yang bermakna"
-    },
+    "list": [
+      "Sesetengah orang berasa lebih dekat daripada yang lain",
+      "Sesetengah sambungan terasa kuat",
+      "Ada yang berasa jauh atau tidak jelas",
+      "Mungkin terdapat jurang - atau hanya beberapa orang yang bermakna"
+    ],
     "italic": "Kesedaran ialah langkah pertama ke arah membina hubungan yang anda hargai. 🧘",
     "label": "💭 Adakah terdapat sesiapa yang anda ingin berasa lebih berhubung?",
     "placeholder": "Tulis pendapat anda di sini...",
@@ -72,5 +72,6 @@
   },
   "intro_p1": "Pada tahap kehidupan yang berbeza, sistem sokongan kita boleh berubah. 🌱 Kadangkala kita rasa terhubung dan disokong. Pada masa lain, perkara mungkin terasa jauh atau tidak jelas.",
   "intro_p2": "Aktiviti ini adalah ruang untuk berhenti sejenak dan melihat orang di sekeliling anda — dan memahami siapa yang kini merasakan diri anda sebagai sebahagian daripada lingkungan anda. 💛",
-  "intro_p3": "Tiada betul atau salah di sini. Hanya kesedaran. ✨"
+  "intro_p3": "Tiada betul atau salah di sini. Hanya kesedaran. ✨",
+  "app_description": "Lukis Semula Bulatan Anda"
 }

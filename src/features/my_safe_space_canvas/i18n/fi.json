@@ -4,52 +4,52 @@
   "welcome": {
     "title": "Turvapaikkasi odottaa",
     "description": "Rakenna oma turvapaikkasi lempeiden luovien vihjeiden avulla. Tyhjä kangas ajatuksillesi ja tunteillesi.",
-    "benefits": {
-      "0": "Ilmaise itseäsi värin kautta",
-      "1": "Luo visuaalinen maadoitustyökalu",
-      "2": "Turvallinen, yksityinen ja henkilökohtainen"
-    },
+    "benefits": [
+      "Ilmaise itseäsi värin kautta",
+      "Luo visuaalinen maadoitustyökalu",
+      "Turvallinen, yksityinen ja henkilökohtainen"
+    ],
     "duration": "10–15 minuuttia",
     "view_past": "Katso aiemmat kollaasit"
   },
   "canvas": {
-    "prompts": {
-      "0": {
+    "prompts": [
+      {
         "quote": "Miltä taivas näyttää turvallisessa paikassasi? Piirrä sen väri, valo tai tunne.",
         "button": "Olen lisännyt taivaan →",
         "hint": "Ei ole oikeaa tapaa — mikä tahansa merkki riittää."
       },
-      "1": {
+      {
         "quote": "Miltä maa tuntuu? Ruohoa, hiekkaa, vettä, puulattiaa? Lisää se taivaan alle.",
         "button": "Olen lisännyt maa-→",
         "hint": "Ajattele, miltä jalkasi tuntuvat tässä paikassa."
       },
-      "2": {
+      {
         "quote": "Lisää yksi asia, joka kuuluu tänne — puu, tuoli, ikkuna, lemmikki, lamppu. Kaikki, mikä tuntuu oikealta.",
         "button": "Olen lisännyt jotain →",
         "hint": "Sen ei tarvitse näyttää täydelliseltä. Sen täytyy vain tuntua aidolta."
       },
-      "3": {
+      {
         "quote": "Mikä tuo lämpöä tai lohtua tähän paikkaan? Valo, tuli, auringonvalo, viltti? Lisää se sinne, minne se tuntuu oikealta.",
         "button": "Olen lisännyt lämpöä →",
         "hint": "Jopa pieni väripiste merkitsee."
       },
-      "4": {
+      {
         "quote": "Lopuksi — lisää 3–5 sanaa, jotka kuuluvat tänne. Napauta piirroksesi sijoittaaksesi ne minne tahansa.",
         "button": "Nämä ovat sanani →",
         "hint": ""
       }
-    },
-    "word_chips": {
-      "0": "Rauha",
-      "1": "Koti",
-      "2": "Taivas",
-      "3": "Rauhoitu",
-      "4": "Lämmin",
-      "5": "Riittää jo",
-      "6": "Hellä",
-      "7": "Turvassa"
-    },
+    ],
+    "word_chips": [
+      "Rauha",
+      "Koti",
+      "Taivas",
+      "Rauhoitu",
+      "Lämmin",
+      "Riittää jo",
+      "Hellä",
+      "Turvassa"
+    ],
     "custom_word_placeholder": "+ omasi",
     "skip_prompt": "ohita tämä kehote",
     "type_here": "Kirjoita tähän"
@@ -71,25 +71,25 @@
     "title": "Olet täällä. Olet turvassa.",
     "breathe_info": "4 · pidä · 4 · päästä irti · 6",
     "done_message": "Hienoa, että tulit tänään paikalle itsesi vuoksi.",
-    "durations": {
-      "0": {
+    "durations": [
+      {
         "label": "1 min",
         "seconds": "60"
       },
-      "1": {
+      {
         "label": "3 min",
         "seconds": "180"
       },
-      "2": {
+      {
         "label": "5 min",
         "seconds": "300"
       }
-    },
-    "phases": {
-      "0": "Hengitä sisään",
-      "1": "Pidä",
-      "2": "Päästä irti"
-    }
+    ],
+    "phases": [
+      "Hengitä sisään",
+      "Pidä",
+      "Päästä irti"
+    ]
   },
   "history": {
     "title": "Turvallisten paikkojen ohi",
@@ -106,5 +106,6 @@
     "next": "Seuraava",
     "save": "Tallentaa",
     "loading": "Ladataan..."
-  }
+  },
+  "app_description": "Turvallisen tilan kangas"
 }

@@ -62,5 +62,6 @@
   "app_duration": "5-10 perc",
   "app_title": "Személyes küldetésnyilatkozat",
   "intro_p1": "Nyerj tisztánlátást az utadon",
-  "intro_p2": "A személyes küldetésnyilatkozat nem a nyomásról vagy a termelékenységről szól. Egy gyengéd emlékeztető az értékeidre – arra, hogy milyen ember szeretnél lenni, még a nehéz időszakokban is."
+  "intro_p2": "A személyes küldetésnyilatkozat nem a nyomásról vagy a termelékenységről szól. Egy gyengéd emlékeztető az értékeidre – arra, hogy milyen ember szeretnél lenni, még a nehéz időszakokban is.",
+  "app_description": "Személyes küldetésnyilatkozat"
 }

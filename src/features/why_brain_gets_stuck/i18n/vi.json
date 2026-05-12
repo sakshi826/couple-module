@@ -10,20 +10,20 @@
   "s2": {
     "tag": "Sự thật nhẹ nhàng",
     "title": "Logic sinh tồn của não bộ",
-    "truths": {
-      "0": {
+    "truths": [
+      {
         "header": "Báo thức vẫn sáng",
         "body": "Cảnh giác quá mức và dễ giật mình không phải là phản ứng thái quá - hệ thống báo động của não bạn đang làm quá tốt công việc của nó."
       },
-      "1": {
+      {
         "header": "Hồi tưởng là ký ức",
         "body": "Kích hoạt kéo não của bạn trở lại vì nó không bao giờ nhận được tín hiệu rằng mối đe dọa đã kết thúc. Nó đang cố gắng bảo vệ bạn."
       },
-      "2": {
+      {
         "header": "Chiến đấu vì bạn",
         "body": "Mỗi triệu chứng đã từng là một hành động sinh tồn. Bộ não của bạn đã làm những gì nó phải làm để giữ cho bạn sống."
       }
-    },
+    ],
     "healing": "Chữa lành không phải là quên. Đó là về việc giúp bộ não của bạn biết rằng bạn đã an toàn ngay bây giờ."
   },
   "common": {

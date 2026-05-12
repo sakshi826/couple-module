@@ -4,52 +4,52 @@
   "welcome": {
     "title": "Ditt trygge sted venter",
     "description": "Bygg ditt eget fristed gjennom en serie milde, kreative oppfordringer. Et blankt lerret for tankene og følelsene dine.",
-    "benefits": {
-      "0": "Uttrykk deg gjennom farger",
-      "1": "Lag et visuelt forankringsverktøy",
-      "2": "Trygt, privat og personlig"
-    },
+    "benefits": [
+      "Uttrykk deg gjennom farger",
+      "Lag et visuelt forankringsverktøy",
+      "Trygt, privat og personlig"
+    ],
     "duration": "10-15 minutter",
     "view_past": "Se tidligere kollasjer"
   },
   "canvas": {
-    "prompts": {
-      "0": {
+    "prompts": [
+      {
         "quote": "Hvordan ser himmelen ut på ditt trygge sted? Tegn fargen, lyset eller følelsen.",
         "button": "Jeg har lagt til himmelen →",
         "hint": "Det finnes ingen riktig måte — ethvert merke er nok."
       },
-      "1": {
+      {
         "quote": "Hvordan føles bakken? Gress, sand, vann, et tregulv? Legg det til under himmelen.",
         "button": "Jeg har lagt til bakken →",
         "hint": "Tenk på hvordan føttene dine føles her."
       },
-      "2": {
+      {
         "quote": "Legg til én ting som hører hjemme her — et tre, en stol, et vindu, et kjæledyr, en lampe. Alt som føles riktig.",
         "button": "Jeg har lagt til noe →",
         "hint": "Det trenger ikke å se perfekt ut. Det må bare føles sant."
       },
-      "3": {
+      {
         "quote": "Hva gir varme eller trøst til dette stedet? Et lys, et bål, sollys, et teppe? Legg det til der det føles riktig.",
         "button": "Jeg har lagt til varmen →",
         "hint": "Selv en liten fargeprikk teller."
       },
-      "4": {
+      {
         "quote": "Til slutt — legg til 3 til 5 ord som hører hjemme her. Trykk på tegningen din for å plassere dem hvor som helst.",
         "button": "Dette er mine ord →",
         "hint": ""
       }
-    },
-    "word_chips": {
-      "0": "Fred",
-      "1": "Hjem",
-      "2": "Himmelen",
-      "3": "Rolig",
-      "4": "Varmt",
-      "5": "Nok",
-      "6": "Forsiktig",
-      "7": "Trygg"
-    },
+    ],
+    "word_chips": [
+      "Fred",
+      "Hjem",
+      "Himmelen",
+      "Rolig",
+      "Varmt",
+      "Nok",
+      "Forsiktig",
+      "Trygg"
+    ],
     "custom_word_placeholder": "+ din egen",
     "skip_prompt": "Hopp over denne prompten",
     "type_here": "Skriv her"
@@ -71,25 +71,25 @@
     "title": "Du er her. Du er trygg.",
     "breathe_info": "4 · Hold · 4 · slipp taket · 6",
     "done_message": "Bra jobbet med å møte opp for deg selv i dag.",
-    "durations": {
-      "0": {
+    "durations": [
+      {
         "label": "1 min",
         "seconds": "60"
       },
-      "1": {
+      {
         "label": "3 min",
         "seconds": "180"
       },
-      "2": {
+      {
         "label": "5 min",
         "seconds": "300"
       }
-    },
-    "phases": {
-      "0": "Pust inn",
-      "1": "Hold",
-      "2": "Slipp taket"
-    }
+    ],
+    "phases": [
+      "Pust inn",
+      "Hold",
+      "Slipp taket"
+    ]
   },
   "history": {
     "title": "Tidligere trygge steder",
@@ -106,5 +106,6 @@
     "next": "Neste",
     "save": "Spare",
     "loading": "Laster inn..."
-  }
+  },
+  "app_description": "Trygg plass-lerret"
 }

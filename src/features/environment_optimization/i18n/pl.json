@@ -44,5 +44,6 @@
     "save": "Ratować",
     "loading": "Załadunek..."
   },
-  "app_duration": "5 minut"
+  "app_duration": "5 minut",
+  "app_description": "Ćwiczenie optymalizacji środowiska"
 }

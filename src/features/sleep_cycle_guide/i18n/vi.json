@@ -1,11 +1,11 @@
 {
   "app_title": "Hướng dẫn chu kỳ giấc ngủ",
-  "pill_labels": {
-    "0": "Giới thiệu",
-    "1": "4 giai đoạn",
-    "2": "Sự thật uể oải",
-    "3": "Còn bạn thì sao?"
-  },
+  "pill_labels": [
+    "Giới thiệu",
+    "4 giai đoạn",
+    "Sự thật uể oải",
+    "Còn bạn thì sao?"
+  ],
   "s1": {
     "title": "Bạn đã bao giờ ngủ 8 tiếng mà vẫn cảm thấy khủng khiếp?",
     "p1": "Nó không phải là về <1>thời gian</1> bạn ngủ.",
@@ -18,32 +18,32 @@
   "s2": {
     "title": "Bộ não của bạn làm điều này mỗi đêm 🌀",
     "desc": "Cứ sau 90 phút, bộ não của bạn quay vòng qua 4 giai đoạn - giống như một danh sách phát lặp lại. Nhấn vào từng để khám phá 👇",
-    "stages": {
-      "0": {
+    "stages": [
+      {
         "emoji": "🌊",
         "title": "Ngủ nhẹ",
         "tag": "1–5 phút · Dễ dàng đánh thức",
         "body": "Bạn đang trôi dạt. Cơ thể bắt đầu buông ra, cơ bắp có thể co giật. Rất dễ dàng để thức dậy từ đây."
       },
-      "1": {
+      {
         "emoji": "💤",
         "title": "Ổn định cuộc sống",
         "tag": "10–25 phút · thực sự ngủ",
         "body": "Nhịp tim chậm lại, nhiệt độ cơ thể giảm. Bạn đang ngủ đúng cách - hoạt động của não bắt đầu chậm lại."
       },
-      "2": {
+      {
         "emoji": "🔵",
         "title": "Ngủ ⭐ sâu",
         "tag": "20–40 phút · Vàng",
         "body": "Cơ thể sửa chữa mô, xây dựng khả năng miễn dịch. Giai đoạn phục hồi thể chất nhất - khó thức dậy."
       },
-      "3": {
+      {
         "emoji": "🌙",
         "title": "Giấc ngủ REM",
         "tag": "10–60 phút · Chế độ giấc mơ",
         "body": "Bộ não ù ù với hoạt động. Cảm xúc được xử lý, ký ức khóa lại. Bỏ qua điều này sẽ khiến bạn mờ mịt."
       }
-    },
+    ],
     "italic": "Giấc ngủ sâu giúp cơ thể bạn cố định. REM sửa chữa tâm trí của bạn.",
     "button": "Vậy tại sao tôi vẫn cảm thấy choáng váng? →"
   },
@@ -55,66 +55,66 @@
       "deep": "Sâu",
       "groggy": "😫 uể oải",
       "fresh": "😊 tươi",
-      "cycles": {
-        "0": "Chu kỳ 1",
-        "1": "Chu kỳ 2",
-        "2": "Chu kỳ 3"
-      }
+      "cycles": [
+        "Chu kỳ 1",
+        "Chu kỳ 2",
+        "Chu kỳ 3"
+      ]
     },
     "disruptors_title": "Điều gì làm gián đoạn chu kỳ của 👇 bạn",
-    "disruptors": {
-      "0": {
+    "disruptors": [
+      {
         "emoji": "📱",
         "text": "Màn hình trước khi đi ngủ",
         "sub": "trì hoãn giấc ngủ sâu"
       },
-      "1": {
+      {
         "emoji": "☕",
         "text": "Caffeine muộn",
         "sub": "Giảm giấc ngủ sâu lên đến 20%"
       },
-      "2": {
+      {
         "emoji": "⏰",
         "text": "Thời gian ngủ không đều",
         "sub": "phá vỡ nhịp điệu tự nhiên của bạn"
       },
-      "3": {
+      {
         "emoji": "😰",
         "text": "Căng thẳng và lo lắng",
         "sub": "giúp bạn bị mắc kẹt trong giấc ngủ nhẹ"
       }
-    },
+    ],
     "italic": "Thói quen của bạn trực tiếp định hình giai đoạn bạn đạt được.",
     "button": "Điều này có ý nghĩa gì đối với tôi? →"
   },
   "s4": {
     "title": "Cái nào nghe giống bạn? 👇",
-    "options": {
-      "0": {
+    "options": [
+      {
         "emoji": "😩",
         "text": "Tôi thức dậy kiệt sức về thể chất",
         "sub": "Có thể thiếu giấc ngủ sâu",
         "tip": "Tập trung vào thời gian ngủ và thức đều đặn - cơ thể bạn cần một nhịp điệu đều đặn để đạt được giấc ngủ sâu."
       },
-      "1": {
+      {
         "emoji": "🌫️",
         "text": "Tôi cảm thấy sương mù hoặc thấp thỏm về mặt cảm xúc",
         "sub": "có thể thiếu giấc ngủ REM",
         "tip": "Hãy thử thư giãn 30 phút trước khi đi ngủ - một thói quen bình tĩnh trước khi ngủ sẽ bảo vệ giấc ngủ REM của bạn."
       },
-      "2": {
+      {
         "emoji": "😤",
         "text": "Tôi thức dậy rất nhiều trong đêm",
         "sub": "Chu kỳ tiếp tục bị gián đoạn",
         "tip": "Một căn phòng mát mẻ, tối và yên tĩnh giúp não của bạn ở các giai đoạn sâu hơn mà không bị gián đoạn."
       },
-      "3": {
+      {
         "emoji": "😐",
         "text": "Tôi cảm thấy ổn nhưng không tuyệt vời",
         "sub": "chu kỳ là một phần nhưng không hoàn chỉnh",
         "tip": "Hãy thử đi ngủ sớm hơn 20 phút - bạn có thể chỉ cần một chu kỳ giấc ngủ hoàn chỉnh nữa."
       }
-    },
+    ],
     "quote": "Giấc ngủ không chỉ là nghỉ ngơi - đó là sự phục hồi tích cực. Bảo vệ chu kỳ kinh nguyệt của bạn và những thay đổi cả ngày của bạn.",
     "button": "Xong ✓"
   },
@@ -129,5 +129,6 @@
     "next": "Kế tiếp",
     "save": "Cứu",
     "loading": "Đang tải..."
-  }
+  },
+  "app_description": "Hướng dẫn chu kỳ giấc ngủ"
 }

@@ -1,11 +1,5 @@
 {
   "Grounding": "הארקה",
-  "Grounding techniques help bring your attention back to the present moment": {
-    "": "טכניקות עיגון עוזרות להחזיר את תשומת הלב לרגע הנוכחי."
-  },
-  "Choose one activity that feels supportive right now": {
-    "": "בחר פעילות אחת שמרגישה תומכת כרגע."
-  },
   "Step": "צעד",
   "Back": "חזרה",
   "Next": "הבא",
@@ -23,140 +17,8 @@
   "Move your body": "תזיז את הגוף שלך",
   "Listen to your surroundings": "הקשב לסביבה שלך",
   "Check in with your body": "בדוק את הגוף שלך",
-  "Run your hands under cool or warm water": {
-    "": "רח את הידיים במים קרים או חמים."
-  },
-  "Notice the temperature": {
-    "": "שים לב לטמפרטורה."
-  },
-  "Pay attention to the sensation on your skin": {
-    "": "שים לב לתחושה על העור שלך."
-  },
-  "Observe how it changes moment by moment": {
-    "": "שימו לב איך זה משתנה רגע אחרי רגע."
-  },
-  "Let your breathing slow naturally": {
-    "": "תן לנשימה שלך להאט באופן טבעי."
-  },
-  "Choose a nearby object": {
-    "": "בחר אובייקט קרוב."
-  },
-  "Notice its texture, weight, and temperature": {
-    "": "שימו לב למרקם, למשקל ולטמפרטורה שלו."
-  },
   "Is it smooth or rough? Heavy or light?": "האם הוא חלק או מחוספס? כבד או קל?",
-  "Let your focus stay fully on this one object": {
-    "": "תן לריכוז שלך להישאר כולו על האובייקט הזה."
-  },
-  "Take a slow breath in through your nose": {
-    "": "קח נשימה איטית דרך האף."
-  },
-  "Hold gently for a moment": {
-    "": "תחזיק בעדינות רגע."
-  },
-  "Exhale slowly through your mouth": {
-    "": "נשוף לאט דרך הפה."
-  },
-  "Repeat several times": {
-    "": "חזור על זה כמה פעמים."
-  },
-  "Let your shoulders soften": {
-    "": "תן לכתפיים שלך להתרכך."
-  },
-  "Take a small bite": {
-    "": "קח ביס קטן."
-  },
-  "Chew slowly": {
-    "": "ללעוס לאט."
-  },
-  "Notice the flavor, texture, and temperature": {
-    "": "שימו לב לטעם, למרקם ולטמפרטורה."
-  },
-  "Stay fully present with the experience": {
-    "": "הישארו נוכחים לחלוטין עם החוויה."
-  },
-  "Take a slow sip": {
-    "": "קח לגימה איטית."
-  },
-  "Notice the temperature and taste": {
-    "": "שים לב לטמפרטורה ולטעם."
-  },
-  "Feel the sensation as you swallow": {
-    "": "תרגיש את התחושה כשאתה בולע רוק."
-  },
-  "Let yourself stay with that moment": {
-    "": "תן לעצמך להישאר עם הרגע הזה."
-  },
-  "Walk slowly and intentionally": {
-    "": "לך לאט ובכוונה."
-  },
-  "Notice the feeling of your feet touching the ground": {
-    "": "שים לב לתחושת הרגליים שלך נוגעות בקרקע."
-  },
-  "Observe your surroundings without judgment": {
-    "": "התבונן בסביבה שלך ללא שיפוטיות."
-  },
-  "Let your breath match your steps": {
-    "": "תן לנשימה שלך להתאים את הצעדים שלך."
-  },
-  "Hold the ice in your hand": {
-    "": "תחזיק את הקרח ביד."
-  },
-  "Notice the cold sensation": {
-    "": "שים לב לתחושת הקור."
-  },
-  "Focus fully on the feeling": {
-    "": "תתמקד במלואו בתחושה."
-  },
-  "Allow the strong sensation to anchor you to the present": {
-    "": "תן לתחושה החזקה לעגן אותך להווה."
-  },
-  "Choose a scent nearby": {
-    "": "בחר ריח קרוב."
-  },
-  "Inhale slowly": {
-    "": "שאף לאט."
-  },
-  "Notice how it feels in your body": {
-    "": "שים לב איך זה מרגיש בגוף שלך."
-  },
-  "Let the scent bring you into this moment": {
-    "": "תן לריח למשוך אותך לרגע הזה."
-  },
-  "Stretch gently": {
-    "": "מתוח בעדינות."
-  },
-  "Roll your shoulders": {
-    "": "גלגל את הכתפיים."
-  },
-  "Shift your weight from side to side": {
-    "": "הזז את המשקל מצד לצד."
-  },
-  "Notice how your body feels as it moves": {
-    "": "שים לב איך הגוף שלך מרגיש כשהוא זז."
-  },
-  "Pause and listen": {
-    "": "עצור והאזין."
-  },
-  "Identify three distinct sounds": {
-    "": "זהה שלושה צלילים מובחנים."
-  },
   "Are they near or far?": "האם הם קרובים או רחוקים?",
-  "Let your attention rest on each one": {
-    "": "תן לתשומת הלב שלך לנוח על כל אחד מהם."
-  },
-  "Close your eyes if comfortable": {
-    "": "עצום עיניים אם נוח לך."
-  },
-  "Scan from head to toe": {
-    "": "סריקה מראש ועד רגליים."
-  },
-  "Notice areas of tension or ease": {
-    "": "שים לב לאזורי מתח או הקלה."
-  },
-  "Breathe into any tightness": {
-    "": "תנשום לכל תחושת צפוף."
-  },
   "common": {
     "get_started": "התחל",
     "start_over": "התחל מחדש",
@@ -169,5 +31,52 @@
     "save": "לְהַצִיל",
     "loading": "טְעִינָה..."
   },
-  "app_title": "הַאֲרָקָה"
+  "app_title": "הַאֲרָקָה",
+  "app_description": "הַאֲרָקָה",
+  "Grounding techniques help bring your attention back to the present moment": [],
+  "Choose one activity that feels supportive right now": [],
+  "Run your hands under cool or warm water": [],
+  "Notice the temperature": [],
+  "Pay attention to the sensation on your skin": [],
+  "Observe how it changes moment by moment": [],
+  "Let your breathing slow naturally": [],
+  "Choose a nearby object": [],
+  "Notice its texture, weight, and temperature": [],
+  "Let your focus stay fully on this one object": [],
+  "Take a slow breath in through your nose": [],
+  "Hold gently for a moment": [],
+  "Exhale slowly through your mouth": [],
+  "Repeat several times": [],
+  "Let your shoulders soften": [],
+  "Take a small bite": [],
+  "Chew slowly": [],
+  "Notice the flavor, texture, and temperature": [],
+  "Stay fully present with the experience": [],
+  "Take a slow sip": [],
+  "Notice the temperature and taste": [],
+  "Feel the sensation as you swallow": [],
+  "Let yourself stay with that moment": [],
+  "Walk slowly and intentionally": [],
+  "Notice the feeling of your feet touching the ground": [],
+  "Observe your surroundings without judgment": [],
+  "Let your breath match your steps": [],
+  "Hold the ice in your hand": [],
+  "Notice the cold sensation": [],
+  "Focus fully on the feeling": [],
+  "Allow the strong sensation to anchor you to the present": [],
+  "Choose a scent nearby": [],
+  "Inhale slowly": [],
+  "Notice how it feels in your body": [],
+  "Let the scent bring you into this moment": [],
+  "Stretch gently": [],
+  "Roll your shoulders": [],
+  "Shift your weight from side to side": [],
+  "Notice how your body feels as it moves": [],
+  "Pause and listen": [],
+  "Identify three distinct sounds": [],
+  "Let your attention rest on each one": [],
+  "Close your eyes if comfortable": [],
+  "Scan from head to toe": [],
+  "Notice areas of tension or ease": [],
+  "Breathe into any tightness": []
 }

@@ -4,52 +4,52 @@
   "welcome": {
     "title": "Tempat aman Anda sedang menunggu",
     "description": "Bangun tempat perlindungan Anda sendiri melalui serangkaian petunjuk kreatif yang lembut. Kanvas kosong untuk pikiran dan perasaan Anda.",
-    "benefits": {
-      "0": "Ekspresikan diri Anda melalui warna",
-      "1": "Membuat alat pembumian visual",
-      "2": "Aman, pribadi, dan pribadi"
-    },
+    "benefits": [
+      "Ekspresikan diri Anda melalui warna",
+      "Membuat alat pembumian visual",
+      "Aman, pribadi, dan pribadi"
+    ],
     "duration": "10-15 menit",
     "view_past": "Lihat Kolase Sebelumnya"
   },
   "canvas": {
-    "prompts": {
-      "0": {
+    "prompts": [
+      {
         "quote": "Seperti apa langit di tempat aman Anda? Gambarkan warna, cahaya, atau perasaan.",
         "button": "Saya telah menambahkan sky →",
         "hint": "Tidak ada cara yang benar - tanda apa pun sudah cukup."
       },
-      "1": {
+      {
         "quote": "Seperti apa rasanya tanahnya? Rumput, pasir, air, lantai kayu? Tambahkan di bawah langit.",
         "button": "Saya telah menambahkan → tanah",
         "hint": "Pikirkan tentang apa yang dirasakan kaki Anda di tempat ini."
       },
-      "2": {
+      {
         "quote": "Tambahkan satu hal yang termasuk di sini - pohon, kursi, jendela, hewan peliharaan, lampu. Apa pun yang terasa benar.",
         "button": "Saya telah menambahkan sesuatu →",
         "hint": "Tidak harus terlihat sempurna. Itu hanya harus terasa benar."
       },
-      "3": {
+      {
         "quote": "Apa yang membawa kehangatan atau kenyamanan ke tempat ini? Cahaya, api, sinar matahari, selimut? Tambahkan di mana pun terasa tepat.",
         "button": "Saya telah menambahkan kehangatan →",
         "hint": "Bahkan titik kecil warna diperhitungkan."
       },
-      "4": {
+      {
         "quote": "Terakhir — tambahkan 3 hingga 5 kata yang termasuk di sini. Ketuk gambar Anda untuk meletakkannya di mana saja.",
         "button": "Ini adalah kata-kata saya →",
         "hint": ""
       }
-    },
-    "word_chips": {
-      "0": "Perdamaian",
-      "1": "Beranda",
-      "2": "Surga",
-      "3": "Tenang",
-      "4": "Hangat",
-      "5": "Cukup",
-      "6": "Lembut",
-      "7": "Aman"
-    },
+    ],
+    "word_chips": [
+      "Perdamaian",
+      "Beranda",
+      "Surga",
+      "Tenang",
+      "Hangat",
+      "Cukup",
+      "Lembut",
+      "Aman"
+    ],
     "custom_word_placeholder": "+ milik Anda sendiri",
     "skip_prompt": "Lewati perintah ini",
     "type_here": "Ketik di sini"
@@ -71,25 +71,25 @@
     "title": "Anda di sini. Anda aman.",
     "breathe_info": "4 · tahan · 4 · lepaskan · 6",
     "done_message": "Bagus untuk tampil untuk diri sendiri hari ini.",
-    "durations": {
-      "0": {
+    "durations": [
+      {
         "label": "1 menit",
         "seconds": "60"
       },
-      "1": {
+      {
         "label": "3 menit",
         "seconds": "180"
       },
-      "2": {
+      {
         "label": "5 menit",
         "seconds": "300"
       }
-    },
-    "phases": {
-      "0": "Tarik napas",
-      "1": "Tahan",
-      "2": "Lepaskan"
-    }
+    ],
+    "phases": [
+      "Tarik napas",
+      "Tahan",
+      "Lepaskan"
+    ]
   },
   "history": {
     "title": "Tempat aman sebelumnya",
@@ -106,5 +106,6 @@
     "next": "Berikutnya",
     "save": "Menyimpan",
     "loading": "Memuat..."
-  }
+  },
+  "app_description": "Kanvas Ruang Aman"
 }

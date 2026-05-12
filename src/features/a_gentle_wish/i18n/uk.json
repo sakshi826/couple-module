@@ -60,5 +60,6 @@
   "welcome_subtitle": "вітальний_підзаголовок",
   "welcome_title": "вітальний_заголовок",
   "carry_title": "carry_title",
-  "label_step_preserved": "label_step_preserved"
+  "label_step_preserved": "label_step_preserved",
+  "app_description": "назва_додатка"
 }

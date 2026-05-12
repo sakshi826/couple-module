@@ -10,52 +10,52 @@
   "scenario": {
     "title": "Apa yang memicu Anda?",
     "desc": "Pilih situasi yang Anda kaitkan",
-    "options": {
-      "0": {
-        "id": "menyela",
+    "options": [
+      {
+        "id": "interrupts",
         "label": "Seseorang menyela saya",
         "emoji": "😠"
       },
-      "1": {
-        "id": "Rencana",
+      {
+        "id": "plans",
         "label": "Hal-hal tidak berjalan sesuai rencana",
         "emoji": "😤"
       },
-      "2": {
-        "id": "diabaikan",
+      {
+        "id": "ignored",
         "label": "Saya merasa diabaikan",
         "emoji": "😔"
       },
-      "3": {
-        "id": "kewalahan",
+      {
+        "id": "overwhelmed",
         "label": "Saya merasa kewalahan",
         "emoji": "😵‍💫"
       }
-    },
+    ],
     "placeholder": "Ketik Anda sendiri...",
     "button": "Latihan Jeda →"
   },
   "hold": {
     "title": "Tahan untuk Jeda ⏸️",
     "instructions": "Tahan lingkaran selama 5 detik",
-    "microcopy": {
-      "0": {
+    "microcopy": [
+      {
         "at": "0",
         "text": "Tekan dan tahan..."
       },
-      "1": {
+      {
         "at": "0.15",
         "text": "Tetap dengan itu..."
       },
-      "2": {
+      {
         "at": "0.5",
         "text": "Anda melakukannya..."
       },
-      "3": {
+      {
         "at": "0.8",
         "text": "Hampir sampai..."
       }
-    }
+    ]
   },
   "result": {
     "title": "Itulah jeda",

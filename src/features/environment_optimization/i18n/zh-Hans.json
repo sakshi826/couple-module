@@ -44,5 +44,6 @@
     "save": "节省",
     "loading": "加载中..."
   },
-  "app_duration": "5分钟"
+  "app_duration": "5分钟",
+  "app_description": "环境优化练习"
 }

@@ -21,12 +21,21 @@ const ResourceDetail = () => {
       setLoading(true);
       try {
         let data = sampleDataEn;
-        if (i18n.language !== 'en') {
+        const lang = i18n.language.split('-')[0];
+        const fullLang = i18n.language === 'zh-CN' ? 'zh-Hans' : 
+                         i18n.language === 'zh-TW' ? 'zh-Hant' : i18n.language;
+
+        if (fullLang !== 'en') {
           try {
-            const localized = await import(`../data/sample_data_${i18n.language}.json`);
+            const localized = await import(`../data/sample_data_${fullLang}.json`);
             data = localized.default || localized;
           } catch (e) {
-            console.warn(`Localized data for ${i18n.language} not found, falling back to English`);
+            try {
+               const baseLocalized = await import(`../data/sample_data_${lang}.json`);
+               data = baseLocalized.default || baseLocalized;
+            } catch (e2) {
+               console.warn(`Localized data for ${fullLang} not found, falling back to English`);
+            }
           }
         }
         const allResources = (data as any)[type || ''] || [];

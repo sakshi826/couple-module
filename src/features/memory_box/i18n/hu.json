@@ -1,12 +1,12 @@
 {
   "app_title": "Memóriadoboz",
-  "screen_titles": {
-    "0": "A te dobozod",
-    "1": "Tiszteletadás",
-    "2": "Expresszálás",
-    "3": "Megőrzött",
-    "4": "Gyengéd gondoskodás"
-  },
+  "screen_titles": [
+    "A te dobozod",
+    "Tiszteletadás",
+    "Expresszálás",
+    "Megőrzött",
+    "Gyengéd gondoskodás"
+  ],
   "complete_title": "Emlék megőrzött",
   "complete_message": "Biztonságosan elhelyeztél egy emléket {{name}} a dobozodba. Ezek a kapcsolódási pillanatok mindig a tiéd, hogy megőrizd.",
   "auth_error": "Hitelesítési alkalom hiányzik vagy adatbázis nincs konfigurálva",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Írd be a nevét...",
     "placeholder_relation": "Honnan ismered őket? (opcionális)",
-    "categories": {
-      "0": {
+    "categories": [
+      {
         "label": "Egy boldog pillanat",
         "emoji": "😊"
       },
-      "1": {
+      {
         "label": "Valamit, amit régen mondottak",
         "emoji": "💬"
       },
-      "2": {
+      {
         "label": "Egy apró, mindennapi emlék",
         "emoji": "☕"
       },
-      "3": {
+      {
         "label": "Egy hely, ami emlékeztet rájuk",
         "emoji": "🏡"
       },
-      "4": {
+      {
         "label": "Valami, amit bárcsak mondhatnék",
         "emoji": "💌"
       }
-    },
+    ],
     "continue": "Folytasd →"
   },
   "expression": {
@@ -88,5 +88,6 @@
     "next": "Következő",
     "save": "Megtakarítás",
     "loading": "Terhelés..."
-  }
+  },
+  "app_description": "Memóriadoboz"
 }

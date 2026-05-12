@@ -60,5 +60,6 @@
   "placeholder_step": "placeholder_step",
   "prompt_wish_subtitle": "prompt_wish_subtitle",
   "skip_button": "skip_button",
-  "view_past_button": "view_past_button"
+  "view_past_button": "view_past_button",
+  "app_description": "app_title"
 }

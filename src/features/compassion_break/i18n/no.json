@@ -1,14 +1,14 @@
 {
   "app_title": "Medfølelsespause",
-  "screen_titles": {
-    "0": "Innsjekk",
-    "1": "Identifiser",
-    "2": "Pusting",
-    "3": "Vennlighet",
-    "4": "Skift",
-    "5": "Reflekter",
-    "6": "Komplett"
-  },
+  "screen_titles": [
+    "Innsjekk",
+    "Identifiser",
+    "Pusting",
+    "Vennlighet",
+    "Skift",
+    "Reflekter",
+    "Komplett"
+  ],
   "auth_error": "Auth-sesjon mangler eller database ikke konfigurert",
   "save_success": "Refleksjon bevart",
   "save_error": "Klarte ikke å bevare refleksjonen",
@@ -25,14 +25,14 @@
   "continue_button": "Fortsett",
   "nameit_title": "Sett det i ord",
   "nameit_subtitle": "Akkurat nå føler jeg meg _______",
-  "emotions_list": {
-    "0": "engstelig",
-    "1": "skyldig",
-    "2": "overveldet",
-    "3": "Tid",
-    "4": "Trøtt",
-    "5": "trist"
-  },
+  "emotions_list": [
+    "engstelig",
+    "skyldig",
+    "overveldet",
+    "Tid",
+    "Trøtt",
+    "trist"
+  ],
   "label_custom_emotion": "Eller skriv din egen",
   "placeholder_emotion": "1–2 ord",
   "nameit_footer": "Enkelt er nok.",
@@ -71,5 +71,6 @@
     "next": "Neste",
     "save": "Spare",
     "loading": "Laster inn..."
-  }
+  },
+  "app_description": "Medfølelsespause"
 }

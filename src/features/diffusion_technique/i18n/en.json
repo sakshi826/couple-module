@@ -100,5 +100,6 @@
     "save": "Save",
     "loading": "Loading..."
   },
-  "app_title": "Diffusion Techniques"
+  "app_title": "Diffusion Techniques",
+  "app_description": "Diffusion Techniques"
 }

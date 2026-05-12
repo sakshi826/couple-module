@@ -44,5 +44,6 @@
     "save": "구하다",
     "loading": "로딩 중..."
   },
-  "app_duration": "5분"
+  "app_duration": "5분",
+  "app_description": "환경 최적화 연습"
 }

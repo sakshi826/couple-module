@@ -44,5 +44,6 @@
     "save": "Salva",
     "loading": "Încărcare..."
   },
-  "app_duration": "5 minute"
+  "app_duration": "5 minute",
+  "app_description": "Exercițiu de optimizare a mediului"
 }
