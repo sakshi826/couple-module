@@ -26,7 +26,14 @@
     "back": "戻る",
     "next": "次",
     "save": "保存",
-    "loading": "読み込み中…"
+    "loading": "読み込み中…",
+    "share": "共有",
+    "share_progress": "進捗状況を共有する",
+    "inspire_others": "今日、他の人にインスピレーションを与えましょう",
+    "share_text": "私はTherapyMantraで{{activityName}}を試してみましたが、とても楽しかったです。あなたも試せますよ。Androidアプリ{{androidUrl}}またはiOSアプリ{{iosUrl}}へのリンクをクリックしてください。",
+    "this_activity": "このアクティビティ",
+    "copied": "コピーしました！",
+    "copy_message": "メッセージをコピー"
   },
   "mood": {
     "heading": "ご気分はいかがですか？",
@@ -64,5 +71,24 @@
   "intro_p1": "心の健康状態を改善する",
   "intro_p2": "良い点に焦点を当てる",
   "intro_p3": "感謝の習慣を身につけよう",
-  "app_description": "感謝日記"
+  "app_description": "感謝日記",
+  "authenticating": "認証中",
+  "more": "もっと",
+  "breadcrumb": "パン粉",
+  "previous_slide": "前のスライド",
+  "next_slide": "次のスライド",
+  "close": "近い",
+  "previous": "前の",
+  "more_pages": "その他のページ",
+  "pagination": "ページネーション",
+  "go_to_previous_page": "前のページへ",
+  "go_to_next_page": "次のページへ",
+  "toggle_sidebar": "サイドバーの表示/非表示を切り替える",
+  "retry": "リトライ",
+  "relive_your_moments": "あなたの思い出をもう一度",
+  "select_a_date_to_relive_gratitude": "感謝の気持ちを再び味わう日を選択してください",
+  "create_new_entry": "新規エントリを作成",
+  "oops_page_not_found": "おっと！ページが見つかりません",
+  "return_to_home": "ホームに戻る",
+  "loading_entry": "エントリを読み込んでいます..."
 }

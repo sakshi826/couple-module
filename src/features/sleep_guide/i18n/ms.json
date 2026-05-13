@@ -28,7 +28,29 @@
     "back": "Kembali",
     "next": "Seterusnya",
     "save": "Simpan",
-    "loading": "Memuatkan..."
+    "loading": "Memuatkan...",
+    "share": "Kongsi",
+    "share_progress": "Kongsi Kemajuan",
+    "inspire_others": "Beri inspirasi kepada orang lain hari ini",
+    "share_text": "Saya telah melakukan {{activityName}} ini dalam TherapyMantra dan sangat menikmatinya, anda juga boleh melakukannya, ikuti sahaja pautan ke aplikasi android {{androidUrl}} atau aplikasi ios {{iosUrl}}",
+    "this_activity": "aktiviti ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Mesej"
   },
-  "app_description": "Memahami kebimbangan tidur"
+  "app_description": "Memahami kebimbangan tidur",
+  "this_isn_t_a_weakness_it_s_a_phenomenon_called": "Ini bukan kelemahan. Ia adalah fenomena yang dipanggil",
+  "this_is_called": "Ini dipanggil",
+  "more": "Lebih lanjut",
+  "breadcrumb": "serbuk roti",
+  "previous_slide": "Slaid sebelumnya",
+  "next_slide": "Slaid seterusnya",
+  "close": "Tutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Lebih banyak halaman",
+  "pagination": "penomboran halaman",
+  "go_to_previous_page": "Pergi ke halaman sebelumnya",
+  "go_to_next_page": "Pergi ke halaman seterusnya",
+  "toggle_sidebar": "Togol Bar Sisi",
+  "oops_page_not_found": "Alamak! Halaman tidak ditemui",
+  "return_to_home": "Kembali ke Rumah"
 }

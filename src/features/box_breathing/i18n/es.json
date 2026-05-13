@@ -28,7 +28,14 @@
     "back": "Atrás",
     "next": "Próximo",
     "save": "Ahorrar",
-    "loading": "Cargando..."
+    "loading": "Cargando...",
+    "share": "Compartir",
+    "share_progress": "Compartir el progreso",
+    "inspire_others": "Inspira a otros hoy",
+    "share_text": "He realizado esta actividad {{activityName}} en TherapyMantra y me ha gustado mucho. Tú también puedes hacerlo; solo tienes que seguir el enlace a la aplicación para Android {{androidUrl}} o a la aplicación para iOS {{iosUrl}}.",
+    "this_activity": "esta actividad",
+    "copied": "¡Copiado!",
+    "copy_message": "Copiar mensaje"
   },
   "app_title": "Respiración en caja",
   "app_complete_title": "¡Buen trabajo!",
@@ -37,5 +44,17 @@
   "intro_p1": "Inhala durante 4 segundos.",
   "intro_p2": "Mantener presionado durante 4 segundos",
   "intro_p3": "Exhala durante 4 segundos",
-  "app_description": "La respiración cuadrada utiliza un patrón sencillo de 4-4-4-4: inhalar, retener, exhalar, retener, cada respiración durante cuatro segundos. Activa el sistema nervioso parasimpático, reduciendo el estrés y devolviéndote a un estado de calma y concentración."
+  "app_description": "La respiración cuadrada utiliza un patrón sencillo de 4-4-4-4: inhalar, retener, exhalar, retener, cada respiración durante cuatro segundos. Activa el sistema nervioso parasimpático, reduciendo el estrés y devolviéndote a un estado de calma y concentración.",
+  "language": "Idioma",
+  "more": "Más",
+  "breadcrumb": "migaja de pan",
+  "previous_slide": "Diapositiva anterior",
+  "next_slide": "Siguiente diapositiva",
+  "close": "Cerca",
+  "previous": "Anterior",
+  "more_pages": "Más páginas",
+  "pagination": "paginación",
+  "go_to_previous_page": "Ir a la página anterior",
+  "go_to_next_page": "Ir a la página siguiente",
+  "toggle_sidebar": "Alternar barra lateral"
 }

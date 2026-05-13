@@ -243,7 +243,31 @@
     "back": "Rug",
     "next": "Volgende",
     "save": "Redden",
-    "loading": "Laden..."
+    "loading": "Laden...",
+    "share": "Deel",
+    "share_progress": "Voortgang delen",
+    "inspire_others": "Inspireer anderen vandaag nog",
+    "share_text": "Ik heb deze activiteit {{activityName}} in TherapyMantra gedaan en ik vind het erg leuk. Jij kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of de iOS-app {{iosUrl}}.",
+    "this_activity": "deze activiteit",
+    "copied": "Gekopieerd!",
+    "copy_message": "Bericht kopiëren"
   },
-  "app_description": "Repareren en opnieuw aansluiten"
+  "app_description": "Repareren en opnieuw aansluiten",
+  "that_s_a_step_forward": "Dat is een stap vooruit.",
+  "you_took_a_small_step_toward_repair_and_that_matte": "Je hebt een kleine stap gezet richting herstel, en dat is belangrijk.",
+  "try_with_someone_else": "Probeer het eens met iemand anders.",
+  "done": "Klaar ✔",
+  "more": "Meer",
+  "breadcrumb": "paneermeel",
+  "previous_slide": "Vorige dia",
+  "next_slide": "Volgende dia",
+  "close": "Dichtbij",
+  "previous": "Vorig",
+  "more_pages": "Meer pagina's",
+  "pagination": "paginering",
+  "go_to_previous_page": "Ga naar de vorige pagina",
+  "go_to_next_page": "Ga naar de volgende pagina",
+  "toggle_sidebar": "Zijbalk in-/uitschakelen",
+  "oops_page_not_found": "Oeps! Pagina niet gevonden",
+  "return_to_home": "Terug naar de homepage"
 }

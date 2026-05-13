@@ -9,7 +9,14 @@
     "back": "Kembali",
     "next": "Berikutnya",
     "save": "Menyimpan",
-    "loading": "Memuat..."
+    "loading": "Memuat...",
+    "share": "Membagikan",
+    "share_progress": "Bagikan Kemajuan",
+    "inspire_others": "Berikan inspirasi kepada orang lain hari ini.",
+    "share_text": "Saya telah melakukan {{activityName}} ini di TherapyMantra dan sangat menikmatinya, Anda juga bisa melakukannya, cukup ikuti tautan ke aplikasi Android {{androidUrl}} atau aplikasi iOS {{iosUrl}}",
+    "this_activity": "aktivitas ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Pesan"
   },
   "screens": {
     "intro": {
@@ -133,5 +140,20 @@
     ]
   },
   "app_title": "Pelacak Perawatan Diri",
-  "app_description": "Catat kebiasaan perawatan diri harian Anda dan lihat bagaimana kebiasaan tersebut memengaruhi kesejahteraan Anda secara keseluruhan. Konsistensi adalah kunci untuk pikiran yang lebih sehat."
+  "app_description": "Catat kebiasaan perawatan diri harian Anda dan lihat bagaimana kebiasaan tersebut memengaruhi kesejahteraan Anda secara keseluruhan. Konsistensi adalah kunci untuk pikiran yang lebih sehat.",
+  "initializing_session": "Memulai sesi",
+  "language": "Bahasa",
+  "your_progress_over_the_last_7_days": "Kemajuan Anda selama 7 hari terakhir",
+  "fetching_data": "Mengambil data...",
+  "more": "Lagi",
+  "breadcrumb": "remah roti",
+  "previous_slide": "Slide sebelumnya",
+  "next_slide": "Slide berikutnya",
+  "close": "Menutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Halaman lainnya",
+  "pagination": "penomoran halaman",
+  "go_to_previous_page": "Kembali ke halaman sebelumnya",
+  "go_to_next_page": "Lanjut ke halaman berikutnya",
+  "toggle_sidebar": "Alihkan Sidebar"
 }

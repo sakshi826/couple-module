@@ -9,7 +9,14 @@
     "back": "后退",
     "next": "下一个",
     "save": "节省",
-    "loading": "加载中..."
+    "loading": "加载中...",
+    "share": "分享",
+    "share_progress": "分享进度",
+    "inspire_others": "今天激励他人",
+    "share_text": "我在 TherapyMantra 上完成了这个 {{activityName}} 活动，非常喜欢，你也试试吧，只需点击链接下载安卓应用 {{androidUrl}} 或 iOS 应用 {{iosUrl}}。",
+    "this_activity": "这项活动",
+    "copied": "已复制！",
+    "copy_message": "复制消息"
   },
   "screens": {
     "intro": {
@@ -133,5 +140,20 @@
     ]
   },
   "app_title": "自我护理追踪器",
-  "app_description": "记录你的日常自我护理习惯，看看它们如何影响你的整体健康。持之以恒是保持心理健康的关键。"
+  "app_description": "记录你的日常自我护理习惯，看看它们如何影响你的整体健康。持之以恒是保持心理健康的关键。",
+  "initializing_session": "初始化会话",
+  "language": "语言",
+  "your_progress_over_the_last_7_days": "您过去 7 天的进展",
+  "fetching_data": "正在获取数据...",
+  "more": "更多的",
+  "breadcrumb": "面包屑",
+  "previous_slide": "上一张幻灯片",
+  "next_slide": "下一张幻灯片",
+  "close": "关闭",
+  "previous": "以前的",
+  "more_pages": "更多页面",
+  "pagination": "分页",
+  "go_to_previous_page": "返回上一页",
+  "go_to_next_page": "前往下一页",
+  "toggle_sidebar": "切换侧边栏"
 }

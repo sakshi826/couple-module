@@ -9,7 +9,14 @@
     "back": "뒤쪽에",
     "next": "다음",
     "save": "구하다",
-    "loading": "로딩 중..."
+    "loading": "로딩 중...",
+    "share": "공유하다",
+    "share_progress": "진행 상황 공유",
+    "inspire_others": "오늘 다른 사람들에게 영감을 주세요",
+    "share_text": "저는 TherapyMantra에서 {{activityName}} 활동을 해봤는데 정말 좋았어요. 여러분도 해보세요. 안드로이드 앱 {{androidUrl}} 또는 iOS 앱 {{iosUrl}} 링크를 따라가시면 됩니다.",
+    "this_activity": "이 활동",
+    "copied": "복사했어요!",
+    "copy_message": "메시지 복사"
   },
   "screens": {
     "intro": {
@@ -133,5 +140,20 @@
     ]
   },
   "app_title": "셀프케어 트래커",
-  "app_description": "매일의 자기 관리 습관을 기록하고 그것이 전반적인 웰빙에 어떤 영향을 미치는지 살펴보세요. 건강한 정신을 위해서는 꾸준함이 중요합니다."
+  "app_description": "매일의 자기 관리 습관을 기록하고 그것이 전반적인 웰빙에 어떤 영향을 미치는지 살펴보세요. 건강한 정신을 위해서는 꾸준함이 중요합니다.",
+  "initializing_session": "세션 초기화 중",
+  "language": "언어",
+  "your_progress_over_the_last_7_days": "지난 7일간의 진행 상황",
+  "fetching_data": "데이터를 가져오는 중...",
+  "more": "더",
+  "breadcrumb": "빵가루",
+  "previous_slide": "이전 슬라이드",
+  "next_slide": "다음 슬라이드",
+  "close": "닫다",
+  "previous": "이전의",
+  "more_pages": "더 많은 페이지",
+  "pagination": "쪽수 매기기",
+  "go_to_previous_page": "이전 페이지로 이동",
+  "go_to_next_page": "다음 페이지로 이동",
+  "toggle_sidebar": "사이드바 토글"
 }

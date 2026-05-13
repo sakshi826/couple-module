@@ -52,7 +52,14 @@
     "back": "뒤쪽에",
     "next": "다음",
     "save": "구하다",
-    "loading": "로딩 중..."
+    "loading": "로딩 중...",
+    "share": "공유하다",
+    "share_progress": "진행 상황 공유",
+    "inspire_others": "오늘 다른 사람들에게 영감을 주세요",
+    "share_text": "저는 TherapyMantra에서 {{activityName}} 활동을 해봤는데 정말 좋았어요. 여러분도 해보세요. 안드로이드 앱 {{androidUrl}} 또는 iOS 앱 {{iosUrl}} 링크를 따라가시면 됩니다.",
+    "this_activity": "이 활동",
+    "copied": "복사했어요!",
+    "copy_message": "메시지 복사"
   },
   "app_complete_title": "기쁨이 보존되다",
   "app_complete_message": "당신은 기쁨의 원천을 성공적으로 기억하고 연결했습니다. 이 감정을 하루 동안 계속 유지하세요.",
@@ -61,5 +68,19 @@
   "app_description": "즐거운 순간들을 재발견하다",
   "intro_p1": "기분이 우울하거나 불안하거나 압도당하는 느낌이 들 때는 무엇이 당신에게 기쁨을 가져다주는지 기억하기 어려울 수 있습니다.",
   "intro_p2": "이 활동은 더 많은 것을 하는 것에 관한 것이 아닙니다. 가볍고, 평온하고, 의미 있게 느껴지는 작은 순간들을 알아차리는 것에 관한 것입니다.",
-  "intro_p3": "행복해야 한다는 압박감은 전혀 없습니다. 우리는 그저 조금이라도 기분 좋은 것이 무엇인지 탐색해 볼 뿐입니다."
+  "intro_p3": "행복해야 한다는 압박감은 전혀 없습니다. 우리는 그저 조금이라도 기분 좋은 것이 무엇인지 탐색해 볼 뿐입니다.",
+  "complete_activity": "활동 완료",
+  "more": "더",
+  "breadcrumb": "빵가루",
+  "previous_slide": "이전 슬라이드",
+  "next_slide": "다음 슬라이드",
+  "close": "닫다",
+  "previous": "이전의",
+  "more_pages": "더 많은 페이지",
+  "pagination": "쪽수 매기기",
+  "go_to_previous_page": "이전 페이지로 이동",
+  "go_to_next_page": "다음 페이지로 이동",
+  "toggle_sidebar": "사이드바 토글",
+  "oops_page_not_found": "앗! 페이지를 찾을 수 없습니다.",
+  "return_to_home": "홈으로 돌아가기"
 }

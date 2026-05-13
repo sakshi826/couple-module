@@ -26,7 +26,14 @@
     "back": "Kembali",
     "next": "Berikutnya",
     "save": "Menyimpan",
-    "loading": "Memuat..."
+    "loading": "Memuat...",
+    "share": "Membagikan",
+    "share_progress": "Bagikan Kemajuan",
+    "inspire_others": "Berikan inspirasi kepada orang lain hari ini.",
+    "share_text": "Saya telah melakukan {{activityName}} ini di TherapyMantra dan sangat menikmatinya, Anda juga bisa melakukannya, cukup ikuti tautan ke aplikasi Android {{androidUrl}} atau aplikasi iOS {{iosUrl}}",
+    "this_activity": "aktivitas ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Pesan"
   },
   "mood": {
     "heading": "Bagaimana perasaanmu?",
@@ -64,5 +71,24 @@
   "intro_p1": "Tingkatkan kesejahteraan emosional Anda",
   "intro_p2": "Fokus pada hal-hal positif.",
   "intro_p3": "Bangun kebiasaan bersyukur yang berkelanjutan.",
-  "app_description": "Jurnal Rasa Syukur"
+  "app_description": "Jurnal Rasa Syukur",
+  "authenticating": "Memverifikasi",
+  "more": "Lagi",
+  "breadcrumb": "remah roti",
+  "previous_slide": "Slide sebelumnya",
+  "next_slide": "Slide berikutnya",
+  "close": "Menutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Halaman lainnya",
+  "pagination": "penomoran halaman",
+  "go_to_previous_page": "Kembali ke halaman sebelumnya",
+  "go_to_next_page": "Lanjut ke halaman berikutnya",
+  "toggle_sidebar": "Alihkan Sidebar",
+  "retry": "Mencoba kembali",
+  "relive_your_moments": "Hidupkan kembali momen-momen Anda",
+  "select_a_date_to_relive_gratitude": "Pilih tanggal untuk menghidupkan kembali rasa syukur.",
+  "create_new_entry": "Buat Entri Baru",
+  "oops_page_not_found": "Ups! Halaman tidak ditemukan",
+  "return_to_home": "Kembali ke Halaman Utama",
+  "loading_entry": "Sedang memuat entri..."
 }

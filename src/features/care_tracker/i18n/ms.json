@@ -9,7 +9,14 @@
     "back": "Kembali",
     "next": "Seterusnya",
     "save": "Simpan",
-    "loading": "Memuatkan..."
+    "loading": "Memuatkan...",
+    "share": "Kongsi",
+    "share_progress": "Kongsi Kemajuan",
+    "inspire_others": "Beri inspirasi kepada orang lain hari ini",
+    "share_text": "Saya telah melakukan {{activityName}} ini dalam TherapyMantra dan sangat menikmatinya, anda juga boleh melakukannya, ikuti sahaja pautan ke aplikasi android {{androidUrl}} atau aplikasi ios {{iosUrl}}",
+    "this_activity": "aktiviti ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Mesej"
   },
   "screens": {
     "intro": {
@@ -133,5 +140,20 @@
     ]
   },
   "app_title": "Penjejak Penjagaan Diri",
-  "app_description": "Jejaki tabiat penjagaan diri harian anda dan lihat bagaimana ia memberi kesan kepada kesejahteraan anda secara keseluruhan. Ketekalan adalah kunci kepada minda yang lebih sihat."
+  "app_description": "Jejaki tabiat penjagaan diri harian anda dan lihat bagaimana ia memberi kesan kepada kesejahteraan anda secara keseluruhan. Ketekalan adalah kunci kepada minda yang lebih sihat.",
+  "initializing_session": "Memulakan sesi",
+  "language": "Bahasa",
+  "your_progress_over_the_last_7_days": "Kemajuan anda sepanjang 7 hari yang lalu",
+  "fetching_data": "Mengambil data...",
+  "more": "Lebih lanjut",
+  "breadcrumb": "serbuk roti",
+  "previous_slide": "Slaid sebelumnya",
+  "next_slide": "Slaid seterusnya",
+  "close": "Tutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Lebih banyak halaman",
+  "pagination": "penomboran halaman",
+  "go_to_previous_page": "Pergi ke halaman sebelumnya",
+  "go_to_next_page": "Pergi ke halaman seterusnya",
+  "toggle_sidebar": "Togol Bar Sisi"
 }

@@ -28,7 +28,14 @@
     "back": "Tilbage",
     "next": "Næste",
     "save": "Spare",
-    "loading": "Indlæser..."
+    "loading": "Indlæser...",
+    "share": "Dele",
+    "share_progress": "Del fremskridt",
+    "inspire_others": "Inspirer andre i dag",
+    "share_text": "Jeg har gjort dette {{activityName}} i TherapyMantra og nyder det virkelig. Du kan også gøre det, bare følg linket til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
+    "this_activity": "denne aktivitet",
+    "copied": "Kopieret!",
+    "copy_message": "Kopiér besked"
   },
   "app_title": "Boksvejrtrækning",
   "app_complete_title": "Godt klaret!",
@@ -37,5 +44,17 @@
   "intro_p1": "Inhalér i 4 sekunder",
   "intro_p2": "Hold i 4 sekunder",
   "intro_p3": "Udånd i 4 sekunder",
-  "app_description": "Boksåndedræt bruger et simpelt 4-4-4-4-mønster – indånd, hold, udånd, hold – hver i fire sekunder. Det aktiverer dit parasympatiske nervesystem, hvilket sænker stress og bringer dig tilbage til en rolig og fokuseret tilstand."
+  "app_description": "Boksåndedræt bruger et simpelt 4-4-4-4-mønster – indånd, hold, udånd, hold – hver i fire sekunder. Det aktiverer dit parasympatiske nervesystem, hvilket sænker stress og bringer dig tilbage til en rolig og fokuseret tilstand.",
+  "language": "Sprog",
+  "more": "Mere",
+  "breadcrumb": "brødkrumme",
+  "previous_slide": "Forrige slide",
+  "next_slide": "Næste slide",
+  "close": "Tæt",
+  "previous": "Tidligere",
+  "more_pages": "Flere sider",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå til forrige side",
+  "go_to_next_page": "Gå til næste side",
+  "toggle_sidebar": "Slå sidebjælken til/fra"
 }

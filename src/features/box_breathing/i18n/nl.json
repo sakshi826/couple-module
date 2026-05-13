@@ -28,7 +28,14 @@
     "back": "Rug",
     "next": "Volgende",
     "save": "Redden",
-    "loading": "Laden..."
+    "loading": "Laden...",
+    "share": "Deel",
+    "share_progress": "Voortgang delen",
+    "inspire_others": "Inspireer anderen vandaag nog",
+    "share_text": "Ik heb deze activiteit {{activityName}} in TherapyMantra gedaan en ik vind het erg leuk. Jij kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of de iOS-app {{iosUrl}}.",
+    "this_activity": "deze activiteit",
+    "copied": "Gekopieerd!",
+    "copy_message": "Bericht kopiëren"
   },
   "app_title": "Doos-ademhaling",
   "app_complete_title": "Goed gedaan!",
@@ -37,5 +44,17 @@
   "intro_p1": "Adem 4 seconden in.",
   "intro_p2": "Houd 4 seconden vast",
   "intro_p3": "Adem 4 seconden uit.",
-  "app_description": "Box breathing maakt gebruik van een eenvoudig 4-4-4-4-patroon: inademen, adem inhouden, uitademen, adem inhouden, telkens vier seconden. Het activeert je parasympathische zenuwstelsel, waardoor stress afneemt en je weer kalm en geconcentreerd raakt."
+  "app_description": "Box breathing maakt gebruik van een eenvoudig 4-4-4-4-patroon: inademen, adem inhouden, uitademen, adem inhouden, telkens vier seconden. Het activeert je parasympathische zenuwstelsel, waardoor stress afneemt en je weer kalm en geconcentreerd raakt.",
+  "language": "Taal",
+  "more": "Meer",
+  "breadcrumb": "paneermeel",
+  "previous_slide": "Vorige dia",
+  "next_slide": "Volgende dia",
+  "close": "Dichtbij",
+  "previous": "Vorig",
+  "more_pages": "Meer pagina's",
+  "pagination": "paginering",
+  "go_to_previous_page": "Ga naar de vorige pagina",
+  "go_to_next_page": "Ga naar de volgende pagina",
+  "toggle_sidebar": "Zijbalk in-/uitschakelen"
 }

@@ -28,7 +28,14 @@
     "back": "Geri",
     "next": "Sonraki",
     "save": "Kaydetmek",
-    "loading": "Yükleniyor..."
+    "loading": "Yükleniyor...",
+    "share": "Paylaşmak",
+    "share_progress": "İlerlemenizi Paylaşın",
+    "inspire_others": "Bugün başkalarına ilham verin.",
+    "share_text": "Bu aktiviteyi ({{activityName}}) TherapyMantra'da yaptım ve gerçekten çok beğendim, siz de yapabilirsiniz, sadece Android uygulamasına ({{androidUrl}}) veya iOS uygulamasına ({{iosUrl}}) giden bağlantıyı takip edin.",
+    "this_activity": "bu aktivite",
+    "copied": "Kopyalandı!",
+    "copy_message": "Mesajı Kopyala"
   },
   "app_title": "Kutu Nefes Alma",
   "app_complete_title": "Harika iş!",
@@ -37,5 +44,17 @@
   "intro_p1": "4 saniye boyunca nefes alın.",
   "intro_p2": "4 saniye boyunca bekleyin",
   "intro_p3": "4 saniye boyunca nefes verin.",
-  "app_description": "Kutu nefes tekniği, dört saniye süren basit bir 4-4-4-4 kalıbı kullanır: nefes alın, tutun, nefes verin, tutun. Bu teknik, parasempatik sinir sisteminizi harekete geçirerek stresi azaltır ve sizi sakin, odaklanmış bir duruma geri getirir."
+  "app_description": "Kutu nefes tekniği, dört saniye süren basit bir 4-4-4-4 kalıbı kullanır: nefes alın, tutun, nefes verin, tutun. Bu teknik, parasempatik sinir sisteminizi harekete geçirerek stresi azaltır ve sizi sakin, odaklanmış bir duruma geri getirir.",
+  "language": "Dil",
+  "more": "Daha",
+  "breadcrumb": "ekmek kırıntısı",
+  "previous_slide": "Önceki slayt",
+  "next_slide": "Sonraki slayt",
+  "close": "Kapalı",
+  "previous": "Öncesi",
+  "more_pages": "Daha fazla sayfa",
+  "pagination": "sayfalama",
+  "go_to_previous_page": "Önceki sayfaya git",
+  "go_to_next_page": "Sonraki sayfaya git",
+  "toggle_sidebar": "Kenar Çubuğunu Aç/Kapat"
 }

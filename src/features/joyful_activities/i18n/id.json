@@ -52,7 +52,14 @@
     "back": "Kembali",
     "next": "Berikutnya",
     "save": "Menyimpan",
-    "loading": "Memuat..."
+    "loading": "Memuat...",
+    "share": "Membagikan",
+    "share_progress": "Bagikan Kemajuan",
+    "inspire_others": "Berikan inspirasi kepada orang lain hari ini.",
+    "share_text": "Saya telah melakukan {{activityName}} ini di TherapyMantra dan sangat menikmatinya, Anda juga bisa melakukannya, cukup ikuti tautan ke aplikasi Android {{androidUrl}} atau aplikasi iOS {{iosUrl}}",
+    "this_activity": "aktivitas ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Pesan"
   },
   "app_complete_title": "Kegembiraan Dipertahankan",
   "app_complete_message": "Anda telah berhasil mengingat dan terhubung dengan sumber kegembiraan. Simpan perasaan ini bersama Anda saat Anda menjalani hari Anda.",
@@ -61,5 +68,19 @@
   "app_description": "Menemukan Kembali Momen-Momen Penuh Kebahagiaan",
   "intro_p1": "Saat Anda merasa sedih, cemas, atau kewalahan, mungkin sulit untuk mengingat apa yang memberi Anda kegembiraan.",
   "intro_p2": "Aktivitas ini bukan tentang melakukan lebih banyak hal. Ini tentang memperhatikan momen-momen kecil yang terasa ringan, tenang, atau bermakna.",
-  "intro_p3": "Tidak ada tekanan untuk merasa bahagia. Kita hanya mengeksplorasi apa yang terasa sedikit menyenangkan."
+  "intro_p3": "Tidak ada tekanan untuk merasa bahagia. Kita hanya mengeksplorasi apa yang terasa sedikit menyenangkan.",
+  "complete_activity": "Selesaikan Aktivitas",
+  "more": "Lagi",
+  "breadcrumb": "remah roti",
+  "previous_slide": "Slide sebelumnya",
+  "next_slide": "Slide berikutnya",
+  "close": "Menutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Halaman lainnya",
+  "pagination": "penomoran halaman",
+  "go_to_previous_page": "Kembali ke halaman sebelumnya",
+  "go_to_next_page": "Lanjut ke halaman berikutnya",
+  "toggle_sidebar": "Alihkan Sidebar",
+  "oops_page_not_found": "Ups! Halaman tidak ditemukan",
+  "return_to_home": "Kembali ke Halaman Utama"
 }

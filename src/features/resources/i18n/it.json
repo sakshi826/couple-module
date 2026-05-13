@@ -44,7 +44,14 @@
     "back": "Indietro",
     "next": "Prossimo",
     "save": "Salva",
-    "loading": "Caricamento..."
+    "loading": "Caricamento...",
+    "share": "Condividere",
+    "share_progress": "Condividi i progressi",
+    "inspire_others": "Ispira gli altri oggi",
+    "share_text": "Ho svolto questa attività {{activityName}} su TherapyMantra e mi è piaciuta molto. Puoi farlo anche tu, basta seguire il link all'app Android {{androidUrl}} o all'app iOS {{iosUrl}}.",
+    "this_activity": "questa attività",
+    "copied": "Copiato!",
+    "copy_message": "Copia messaggio"
   },
   "app_description": "Risorse",
   "concerns": {

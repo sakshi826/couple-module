@@ -52,7 +52,14 @@
     "back": "Zurück",
     "next": "Nächste",
     "save": "Speichern",
-    "loading": "Laden..."
+    "loading": "Laden...",
+    "share": "Aktie",
+    "share_progress": "Fortschritt teilen",
+    "inspire_others": "Inspiriere heute andere.",
+    "share_text": "Ich habe diese Aktivität {{activityName}} in TherapyMantra ausprobiert und finde sie richtig toll. Du kannst das auch machen! Folge einfach dem Link zur Android-App {{androidUrl}} oder zur iOS-App {{iosUrl}}.",
+    "this_activity": "diese Aktivität",
+    "copied": "Kopiert!",
+    "copy_message": "Nachricht kopieren"
   },
   "app_complete_title": "Joy Preserved",
   "app_complete_message": "Du hast dich erfolgreich an eine Quelle der Freude erinnert und dich mit ihr verbunden. Behalte dieses Gefühl bei dir, während du durch deinen Tag gehst.",
@@ -61,5 +68,19 @@
   "app_description": "Freudenmomente wiederentdecken",
   "intro_p1": "Wenn man sich niedergeschlagen, ängstlich oder überfordert fühlt, kann es schwerfallen, sich daran zu erinnern, was einem Freude bereitet.",
   "intro_p2": "Bei dieser Aktivität geht es nicht darum, mehr zu tun. Es geht darum, kleine Momente wahrzunehmen, die sich leicht, ruhig oder bedeutungsvoll anfühlen.",
-  "intro_p3": "Es besteht kein Druck, glücklich zu sein. Wir erkunden einfach, was sich auch nur ein bisschen gut anfühlt."
+  "intro_p3": "Es besteht kein Druck, glücklich zu sein. Wir erkunden einfach, was sich auch nur ein bisschen gut anfühlt.",
+  "complete_activity": "Aktivität abschließen",
+  "more": "Mehr",
+  "breadcrumb": "Brotkrumen",
+  "previous_slide": "Vorherige Folie",
+  "next_slide": "Nächste Folie",
+  "close": "Schließen",
+  "previous": "Vorherige",
+  "more_pages": "Weitere Seiten",
+  "pagination": "Pagination",
+  "go_to_previous_page": "Zur vorherigen Seite",
+  "go_to_next_page": "Weiter zur nächsten Seite",
+  "toggle_sidebar": "Seitenleiste ein-/ausblenden",
+  "oops_page_not_found": "Hoppla! Seite nicht gefunden",
+  "return_to_home": "Zurück zur Startseite"
 }

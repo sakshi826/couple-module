@@ -28,7 +28,14 @@
     "back": "戻る",
     "next": "次",
     "save": "保存",
-    "loading": "読み込み中…"
+    "loading": "読み込み中…",
+    "share": "共有",
+    "share_progress": "進捗状況を共有する",
+    "inspire_others": "今日、他の人にインスピレーションを与えましょう",
+    "share_text": "私はTherapyMantraで{{activityName}}を試してみましたが、とても楽しかったです。あなたも試せますよ。Androidアプリ{{androidUrl}}またはiOSアプリ{{iosUrl}}へのリンクをクリックしてください。",
+    "this_activity": "このアクティビティ",
+    "copied": "コピーしました！",
+    "copy_message": "メッセージをコピー"
   },
   "app_title": "ボックス呼吸",
   "app_complete_title": "素晴らしい仕事です!",
@@ -37,5 +44,17 @@
   "intro_p1": "4秒間息を吸い込む",
   "intro_p2": "4秒間保持する",
   "intro_p3": "4秒間息を吐き出す",
-  "app_description": "ボックス呼吸法は、吸って、止めて、吐いて、止めるというシンプルな4-4-4-4のパターンをそれぞれ4秒間ずつ繰り返します。副交感神経系を活性化させ、ストレスを軽減し、穏やかで集中した状態へと導きます。"
+  "app_description": "ボックス呼吸法は、吸って、止めて、吐いて、止めるというシンプルな4-4-4-4のパターンをそれぞれ4秒間ずつ繰り返します。副交感神経系を活性化させ、ストレスを軽減し、穏やかで集中した状態へと導きます。",
+  "language": "言語",
+  "more": "もっと",
+  "breadcrumb": "パン粉",
+  "previous_slide": "前のスライド",
+  "next_slide": "次のスライド",
+  "close": "近い",
+  "previous": "前の",
+  "more_pages": "その他のページ",
+  "pagination": "ページネーション",
+  "go_to_previous_page": "前のページへ",
+  "go_to_next_page": "次のページへ",
+  "toggle_sidebar": "サイドバーの表示/非表示を切り替える"
 }

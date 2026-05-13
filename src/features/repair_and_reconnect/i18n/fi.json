@@ -243,7 +243,31 @@
     "back": "Takaisin",
     "next": "Seuraava",
     "save": "Tallentaa",
-    "loading": "Ladataan..."
+    "loading": "Ladataan...",
+    "share": "Jakaa",
+    "share_progress": "Jaa edistyminen",
+    "inspire_others": "Inspiroi muita tänään",
+    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
+    "this_activity": "tämä toiminta",
+    "copied": "Kopioitu!",
+    "copy_message": "Kopioi viesti"
   },
-  "app_description": "Korjaa ja kytke uudelleen"
+  "app_description": "Korjaa ja kytke uudelleen",
+  "that_s_a_step_forward": "Se on askel eteenpäin",
+  "you_took_a_small_step_toward_repair_and_that_matte": "Otit pienen askeleen kohti korjausta – ja sillä on merkitystä.",
+  "try_with_someone_else": "Kokeile jonkun toisen kanssa",
+  "done": "Valmis ✔",
+  "more": "Lisää",
+  "breadcrumb": "navigointipolku",
+  "previous_slide": "Edellinen dia",
+  "next_slide": "Seuraava dia",
+  "close": "Lähellä",
+  "previous": "Edellinen",
+  "more_pages": "Lisää sivuja",
+  "pagination": "sivunumerointi",
+  "go_to_previous_page": "Siirry edelliselle sivulle",
+  "go_to_next_page": "Siirry seuraavalle sivulle",
+  "toggle_sidebar": "Näytä/piilota sivupalkki",
+  "oops_page_not_found": "Hupsista! Sivua ei löytynyt",
+  "return_to_home": "Palaa kotiin"
 }

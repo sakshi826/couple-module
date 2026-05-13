@@ -44,7 +44,14 @@
     "back": "Πίσω",
     "next": "Επόμενος",
     "save": "Εκτός",
-    "loading": "Φόρτωση..."
+    "loading": "Φόρτωση...",
+    "share": "Μερίδιο",
+    "share_progress": "Κοινοποίηση προόδου",
+    "inspire_others": "Εμπνεύστε τους άλλους σήμερα",
+    "share_text": "Έχω κάνει αυτό το {{activityName}} στο TherapyMantra και το απολαμβάνω πολύ. Μπορείτε να το κάνετε κι εσείς, απλώς ακολουθήστε τον σύνδεσμο για την εφαρμογή Android {{androidUrl}} ή την εφαρμογή iOS {{iosUrl}}",
+    "this_activity": "αυτή η δραστηριότητα",
+    "copied": "Αντιγράφηκε!",
+    "copy_message": "Αντιγραφή μηνύματος"
   },
   "app_description": "Πόροι",
   "concerns": {

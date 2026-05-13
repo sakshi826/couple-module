@@ -28,7 +28,14 @@
     "back": "Zurück",
     "next": "Nächste",
     "save": "Speichern",
-    "loading": "Laden..."
+    "loading": "Laden...",
+    "share": "Aktie",
+    "share_progress": "Fortschritt teilen",
+    "inspire_others": "Inspiriere heute andere.",
+    "share_text": "Ich habe diese Aktivität {{activityName}} in TherapyMantra ausprobiert und finde sie richtig toll. Du kannst das auch machen! Folge einfach dem Link zur Android-App {{androidUrl}} oder zur iOS-App {{iosUrl}}.",
+    "this_activity": "diese Aktivität",
+    "copied": "Kopiert!",
+    "copy_message": "Nachricht kopieren"
   },
   "app_title": "Box-Atmung",
   "app_complete_title": "Großartige Arbeit!",
@@ -37,5 +44,17 @@
   "intro_p1": "4 Sekunden lang einatmen.",
   "intro_p2": "4 Sekunden lang gedrückt halten",
   "intro_p3": "Atmen Sie 4 Sekunden lang aus.",
-  "app_description": "Die Box-Atmung folgt einem einfachen 4-4-4-4-Muster: Einatmen, anhalten, ausatmen, anhalten – jeweils vier Sekunden lang. Sie aktiviert das parasympathische Nervensystem, reduziert Stress und führt zu einem ruhigen, konzentrierten Zustand."
+  "app_description": "Die Box-Atmung folgt einem einfachen 4-4-4-4-Muster: Einatmen, anhalten, ausatmen, anhalten – jeweils vier Sekunden lang. Sie aktiviert das parasympathische Nervensystem, reduziert Stress und führt zu einem ruhigen, konzentrierten Zustand.",
+  "language": "Sprache",
+  "more": "Mehr",
+  "breadcrumb": "Brotkrumen",
+  "previous_slide": "Vorherige Folie",
+  "next_slide": "Nächste Folie",
+  "close": "Schließen",
+  "previous": "Vorherige",
+  "more_pages": "Weitere Seiten",
+  "pagination": "Pagination",
+  "go_to_previous_page": "Zur vorherigen Seite",
+  "go_to_next_page": "Weiter zur nächsten Seite",
+  "toggle_sidebar": "Seitenleiste ein-/ausblenden"
 }

@@ -26,7 +26,14 @@
     "back": "Tillbaka",
     "next": "Nästa",
     "save": "Spara",
-    "loading": "Belastning..."
+    "loading": "Belastning...",
+    "share": "Dela",
+    "share_progress": "Dela framsteg",
+    "inspire_others": "Inspirera andra idag",
+    "share_text": "Jag har gjort detta {{activityName}} i TherapyMantra och gillar det verkligen, du kan också göra det, följ bara länken till Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}",
+    "this_activity": "den här aktiviteten",
+    "copied": "Kopierad!",
+    "copy_message": "Kopiera meddelande"
   },
   "mood": {
     "heading": "Hur mår du?",
@@ -64,5 +71,24 @@
   "intro_p1": "Förbättra ditt emotionella välbefinnande",
   "intro_p2": "Fokusera på de positiva sakerna",
   "intro_p3": "Bygg en varaktig vana av tacksamhet",
-  "app_description": "Tacksamhetsdagbok"
+  "app_description": "Tacksamhetsdagbok",
+  "authenticating": "Autentisering",
+  "more": "Mer",
+  "breadcrumb": "brödsmulor",
+  "previous_slide": "Föregående bild",
+  "next_slide": "Nästa bild",
+  "close": "Nära",
+  "previous": "Tidigare",
+  "more_pages": "Fler sidor",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå till föregående sida",
+  "go_to_next_page": "Gå till nästa sida",
+  "toggle_sidebar": "Växla sidofält",
+  "retry": "Försöka igen",
+  "relive_your_moments": "Återupplev dina ögonblick",
+  "select_a_date_to_relive_gratitude": "Välj ett datum för att återuppleva tacksamhet",
+  "create_new_entry": "Skapa ny post",
+  "oops_page_not_found": "Hoppsan! Sidan hittades inte",
+  "return_to_home": "Återvänd till hemmet",
+  "loading_entry": "Laddar inmatning..."
 }

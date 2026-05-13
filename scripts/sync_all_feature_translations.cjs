@@ -3,7 +3,7 @@ const path = require('path');
 const axios = require('axios');
 require('dotenv').config();
 
-const API_KEY = process.env.AZURE_TRANSLATOR_KEY;
+const API_KEY = process.env.GOOGLE_TRANSLATOR_KEY;
 const ENDPOINT = 'https://translation.googleapis.com/language/translate/v2';
 
 const TARGET_LANGUAGES = [
@@ -144,6 +144,8 @@ async function syncFeature(feature) {
                 const batch = missingValues.slice(i, i + 50);
                 const translated = await translateBatch(batch, lang);
                 if (translated) translatedValues.push(...translated);
+                // Delay to avoid rate limits
+                await new Promise(resolve => setTimeout(resolve, 200));
             }
 
             if (translatedValues.length === missingKeys.length) {

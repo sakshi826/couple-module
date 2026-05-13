@@ -28,7 +28,29 @@
     "back": "Z powrotem",
     "next": "Następny",
     "save": "Ratować",
-    "loading": "Załadunek..."
+    "loading": "Załadunek...",
+    "share": "Udział",
+    "share_progress": "Udostępnij postęp",
+    "inspire_others": "Zainspiruj innych już dziś",
+    "share_text": "Wykonałem tę {{activityName}} w TherapyMantra i bardzo mi się to spodobało. Ty też możesz to zrobić, po prostu kliknij link do aplikacji na Androida {{androidUrl}} lub aplikacji na iOS {{iosUrl}}",
+    "this_activity": "ta aktywność",
+    "copied": "Skopiowano!",
+    "copy_message": "Kopiuj wiadomość"
   },
-  "app_description": "Zrozumienie lęku przed snem"
+  "app_description": "Zrozumienie lęku przed snem",
+  "this_isn_t_a_weakness_it_s_a_phenomenon_called": "To nie jest słabość. To zjawisko zwane",
+  "this_is_called": "To się nazywa",
+  "more": "Więcej",
+  "breadcrumb": "bułka tarta",
+  "previous_slide": "Poprzedni slajd",
+  "next_slide": "Następny slajd",
+  "close": "Zamknąć",
+  "previous": "Poprzedni",
+  "more_pages": "Więcej stron",
+  "pagination": "paginacja",
+  "go_to_previous_page": "Przejdź do poprzedniej strony",
+  "go_to_next_page": "Przejdź do następnej strony",
+  "toggle_sidebar": "Przełącz pasek boczny",
+  "oops_page_not_found": "Ups! Strona nie została znaleziona",
+  "return_to_home": "Powrót do strony głównej"
 }

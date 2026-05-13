@@ -128,7 +128,31 @@
     "back": "Atrás",
     "next": "Próximo",
     "save": "Ahorrar",
-    "loading": "Cargando..."
+    "loading": "Cargando...",
+    "share": "Compartir",
+    "share_progress": "Compartir el progreso",
+    "inspire_others": "Inspira a otros hoy",
+    "share_text": "He realizado esta actividad {{activityName}} en TherapyMantra y me ha gustado mucho. Tú también puedes hacerlo; solo tienes que seguir el enlace a la aplicación para Android {{androidUrl}} o a la aplicación para iOS {{iosUrl}}.",
+    "this_activity": "esta actividad",
+    "copied": "¡Copiado!",
+    "copy_message": "Copiar mensaje"
   },
-  "app_description": "Guía del ciclo del sueño"
+  "app_description": "Guía del ciclo del sueño",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(prev + 1, TOTAL_SCREENS - 1));\n\nconst goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\nconst screens = [",
+  "it_s_not_about": "No se trata de",
+  "it_s_about": "Se trata de",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "¿Te despertó una alarma de un sueño profundo? Tu cerebro literalmente no ha terminado lo que estaba haciendo. ¿Esa sensación de confusión y pesadez? Eso es",
+  "more": "Más",
+  "breadcrumb": "migaja de pan",
+  "previous_slide": "Diapositiva anterior",
+  "next_slide": "Siguiente diapositiva",
+  "close": "Cerca",
+  "previous": "Anterior",
+  "more_pages": "Más páginas",
+  "pagination": "paginación",
+  "go_to_previous_page": "Ir a la página anterior",
+  "go_to_next_page": "Ir a la página siguiente",
+  "toggle_sidebar": "Alternar barra lateral",
+  "oops_page_not_found": "¡Ups! Página no encontrada",
+  "return_to_home": "Regresar a la página principal"
 }

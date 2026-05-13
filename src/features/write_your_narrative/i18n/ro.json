@@ -79,7 +79,28 @@
     "back": "Spate",
     "next": "Următorul",
     "save": "Salva",
-    "loading": "Încărcare..."
+    "loading": "Încărcare...",
+    "share": "Distribuie",
+    "share_progress": "Distribuiți progresul",
+    "inspire_others": "Inspiră-i pe alții astăzi",
+    "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
+    "this_activity": "această activitate",
+    "copied": "Copiat!",
+    "copy_message": "Copiați mesajul"
   },
-  "app_description": "Narațiunea ta"
+  "app_description": "Narațiunea ta",
+  "more": "Mai mult",
+  "breadcrumb": "pesmet",
+  "previous_slide": "Diapozitivul anterior",
+  "next_slide": "Diapozitivul următor",
+  "close": "Aproape",
+  "previous": "Anterior",
+  "more_pages": "Mai multe pagini",
+  "pagination": "paginare",
+  "go_to_previous_page": "Mergi la pagina anterioară",
+  "go_to_next_page": "Mergi la pagina următoare",
+  "toggle_sidebar": "Comutare bară laterală",
+  "remove_this": "ELIMINAȚI_ACEASTĂ",
+  "oops_page_not_found": "Oops! Pagina nu a fost găsită.",
+  "return_to_home": "Întoarcerea acasă"
 }

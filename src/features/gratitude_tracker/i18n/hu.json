@@ -26,7 +26,14 @@
     "back": "Vissza",
     "next": "Következő",
     "save": "Megtakarítás",
-    "loading": "Terhelés..."
+    "loading": "Terhelés...",
+    "share": "Részesedés",
+    "share_progress": "Haladás megosztása",
+    "inspire_others": "Inspirálj másokat még ma",
+    "share_text": "Ezt a(z) {{activityName}} tevékenységet csináltam a TherapyMantra-ban, és nagyon élvezem, te is meg tudod csinálni, csak kövesd az {{androidUrl}} androidos vagy {{iosUrl}} iOS-es alkalmazás linkjét.",
+    "this_activity": "ez a tevékenység",
+    "copied": "Másolva!",
+    "copy_message": "Üzenet másolása"
   },
   "mood": {
     "heading": "Hogy érzed magad?",
@@ -64,5 +71,24 @@
   "intro_p1": "Javítsa érzelmi jólétét",
   "intro_p2": "Koncentrálj a pozitív dolgokra",
   "intro_p3": "Alakíts ki tartós hálaszokást",
-  "app_description": "Hálanapló"
+  "app_description": "Hálanapló",
+  "authenticating": "Hitelesítés",
+  "more": "Több",
+  "breadcrumb": "navigációs morzsa",
+  "previous_slide": "Előző dia",
+  "next_slide": "Következő dia",
+  "close": "Közeli",
+  "previous": "Előző",
+  "more_pages": "További oldalak",
+  "pagination": "lapszámozás",
+  "go_to_previous_page": "Ugrás az előző oldalra",
+  "go_to_next_page": "Ugrás a következő oldalra",
+  "toggle_sidebar": "Oldalsáv be- és kikapcsolása",
+  "retry": "Újrapróbálkozás",
+  "relive_your_moments": "Éld át újra a pillanataidat",
+  "select_a_date_to_relive_gratitude": "Válasszon egy dátumot a hála újraélésére",
+  "create_new_entry": "Új bejegyzés létrehozása",
+  "oops_page_not_found": "Hoppá! Az oldal nem található.",
+  "return_to_home": "Vissza a kezdőlapra",
+  "loading_entry": "Bejegyzés betöltése..."
 }

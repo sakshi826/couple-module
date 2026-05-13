@@ -34,11 +34,31 @@
     "back": "後退",
     "next": "下一個",
     "save": "節省",
-    "loading": "載入中..."
+    "loading": "載入中...",
+    "share": "分享",
+    "share_progress": "分享進度",
+    "inspire_others": "今天激勵他人",
+    "share_text": "我在 TherapyMantra 上完成了這個 {{activityName}} 活動，非常喜歡，你也試試看吧，只需點擊連結即可下載安卓應用程式 {{androidUrl}} 或 iOS 應用程式 {{iosUrl}}",
+    "this_activity": "這項活動",
+    "copied": "已複製！",
+    "copy_message": "複製訊息"
   },
   "app_duration": "3-5分鐘",
   "intro_p1": "鎮靜神經系統",
   "intro_p2": "減輕即時壓力",
   "intro_p3": "提高專注力和清晰度",
-  "app_description": "“放慢身體節奏，平靜心緒。”"
+  "app_description": "“放慢身體節奏，平靜心緒。”",
+  "more": "更多的",
+  "breadcrumb": "麵包屑",
+  "previous_slide": "上一張投影片",
+  "next_slide": "下一張投影片",
+  "close": "關閉",
+  "previous": "以前的",
+  "more_pages": "更多頁面",
+  "pagination": "分頁",
+  "go_to_previous_page": "回上一頁",
+  "go_to_next_page": "前往下一頁",
+  "toggle_sidebar": "切換側邊欄",
+  "welcome_to_your_blank_app": "歡迎使用您的空白應用程式",
+  "start_building_your_amazing_project_here": "從這裡開始建立你的精彩專案吧！"
 }

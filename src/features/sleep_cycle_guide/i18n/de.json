@@ -128,7 +128,31 @@
     "back": "Zurück",
     "next": "Nächste",
     "save": "Speichern",
-    "loading": "Laden..."
+    "loading": "Laden...",
+    "share": "Aktie",
+    "share_progress": "Fortschritt teilen",
+    "inspire_others": "Inspiriere heute andere.",
+    "share_text": "Ich habe diese Aktivität {{activityName}} in TherapyMantra ausprobiert und finde sie richtig toll. Du kannst das auch machen! Folge einfach dem Link zur Android-App {{androidUrl}} oder zur iOS-App {{iosUrl}}.",
+    "this_activity": "diese Aktivität",
+    "copied": "Kopiert!",
+    "copy_message": "Nachricht kopieren"
   },
-  "app_description": "Leitfaden zum Schlafzyklus"
+  "app_description": "Leitfaden zum Schlafzyklus",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(prev + 1, TOTAL_SCREENS - 1));\n\nconst goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\nconst screens = [",
+  "it_s_not_about": "Es geht nicht darum",
+  "it_s_about": "Es geht um",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Vom Wecker aus dem Tiefschlaf gerissen? Ihr Gehirn hat seine Arbeit noch nicht beendet. Dieses benebelte, schwere Gefühl? Das ist",
+  "more": "Mehr",
+  "breadcrumb": "Brotkrumen",
+  "previous_slide": "Vorherige Folie",
+  "next_slide": "Nächste Folie",
+  "close": "Schließen",
+  "previous": "Vorherige",
+  "more_pages": "Weitere Seiten",
+  "pagination": "Pagination",
+  "go_to_previous_page": "Zur vorherigen Seite",
+  "go_to_next_page": "Weiter zur nächsten Seite",
+  "toggle_sidebar": "Seitenleiste ein-/ausblenden",
+  "oops_page_not_found": "Hoppla! Seite nicht gefunden",
+  "return_to_home": "Zurück zur Startseite"
 }

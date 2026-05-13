@@ -45,11 +45,31 @@
     "back": "خلف",
     "next": "التالي",
     "save": "يحفظ",
-    "loading": "تحميل..."
+    "loading": "تحميل...",
+    "share": "يشارك",
+    "share_progress": "مشاركة التقدم",
+    "inspire_others": "ألهم الآخرين اليوم",
+    "share_text": "لقد قمتُ بهذا النشاط {{activityName}} في تطبيق TherapyMantra واستمتعتُ به حقًا، يمكنك القيام به أيضًا، فقط اتبع الرابط إلى تطبيق أندرويد {{androidUrl}} أو تطبيق iOS {{iosUrl}}",
+    "this_activity": "هذا النشاط",
+    "copied": "تم النسخ!",
+    "copy_message": "انسخ الرسالة"
   },
   "app_title": "5-4-3-2-1 التأريض",
   "intro_p1": "يخفف القلق بسرعة",
   "intro_p2": "يعيدك إلى الحاضر",
   "intro_p3": "يهدئ العقل المتسارع",
-  "app_description": "5-4-3-2-1 التأريض"
+  "app_description": "5-4-3-2-1 التأريض",
+  "more": "أكثر",
+  "breadcrumb": "فتات الخبز",
+  "previous_slide": "الشريحة السابقة",
+  "next_slide": "الشريحة التالية",
+  "close": "يغلق",
+  "previous": "سابق",
+  "more_pages": "صفحات أخرى",
+  "pagination": "ترقيم الصفحات",
+  "go_to_previous_page": "انتقل إلى الصفحة السابقة",
+  "go_to_next_page": "انتقل إلى الصفحة التالية",
+  "toggle_sidebar": "تبديل الشريط الجانبي",
+  "oops_page_not_found": "عذراً! الصفحة غير موجودة",
+  "return_to_home": "العودة إلى الصفحة الرئيسية"
 }

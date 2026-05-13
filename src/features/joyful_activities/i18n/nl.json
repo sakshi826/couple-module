@@ -52,7 +52,14 @@
     "back": "Rug",
     "next": "Volgende",
     "save": "Redden",
-    "loading": "Laden..."
+    "loading": "Laden...",
+    "share": "Deel",
+    "share_progress": "Voortgang delen",
+    "inspire_others": "Inspireer anderen vandaag nog",
+    "share_text": "Ik heb deze activiteit {{activityName}} in TherapyMantra gedaan en ik vind het erg leuk. Jij kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of de iOS-app {{iosUrl}}.",
+    "this_activity": "deze activiteit",
+    "copied": "Gekopieerd!",
+    "copy_message": "Bericht kopiëren"
   },
   "app_complete_title": "Joy Preserved",
   "app_complete_message": "Je hebt je succesvol herinnerd en verbinding gemaakt met een bron van vreugde. Houd dit gevoel bij je terwijl je door je dag gaat.",
@@ -61,5 +68,19 @@
   "app_description": "Het herontdekken van vreugdevolle momenten",
   "intro_p1": "Als je je neerslachtig, angstig of overweldigd voelt, kan het moeilijk zijn om te bedenken wat je blij maakt.",
   "intro_p2": "Bij deze activiteit gaat het er niet om meer te doen. Het gaat erom kleine momenten op te merken die licht, kalm of betekenisvol aanvoelen.",
-  "intro_p3": "Er is geen druk om je gelukkig te voelen. We onderzoeken simpelweg wat een beetje prettig aanvoelt."
+  "intro_p3": "Er is geen druk om je gelukkig te voelen. We onderzoeken simpelweg wat een beetje prettig aanvoelt.",
+  "complete_activity": "Voltooi de activiteit",
+  "more": "Meer",
+  "breadcrumb": "paneermeel",
+  "previous_slide": "Vorige dia",
+  "next_slide": "Volgende dia",
+  "close": "Dichtbij",
+  "previous": "Vorig",
+  "more_pages": "Meer pagina's",
+  "pagination": "paginering",
+  "go_to_previous_page": "Ga naar de vorige pagina",
+  "go_to_next_page": "Ga naar de volgende pagina",
+  "toggle_sidebar": "Zijbalk in-/uitschakelen",
+  "oops_page_not_found": "Oeps! Pagina niet gevonden",
+  "return_to_home": "Terug naar de homepage"
 }

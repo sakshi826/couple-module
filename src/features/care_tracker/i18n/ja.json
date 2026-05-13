@@ -9,7 +9,14 @@
     "back": "戻る",
     "next": "次",
     "save": "保存",
-    "loading": "読み込み中…"
+    "loading": "読み込み中…",
+    "share": "共有",
+    "share_progress": "進捗状況を共有する",
+    "inspire_others": "今日、他の人にインスピレーションを与えましょう",
+    "share_text": "私はTherapyMantraで{{activityName}}を試してみましたが、とても楽しかったです。あなたも試せますよ。Androidアプリ{{androidUrl}}またはiOSアプリ{{iosUrl}}へのリンクをクリックしてください。",
+    "this_activity": "このアクティビティ",
+    "copied": "コピーしました！",
+    "copy_message": "メッセージをコピー"
   },
   "screens": {
     "intro": {
@@ -133,5 +140,20 @@
     ]
   },
   "app_title": "セルフケアトラッカー",
-  "app_description": "日々のセルフケア習慣を記録し、それが全体的な健康状態にどのような影響を与えるかを確認しましょう。継続することが、より健康な精神状態を保つ鍵となります。"
+  "app_description": "日々のセルフケア習慣を記録し、それが全体的な健康状態にどのような影響を与えるかを確認しましょう。継続することが、より健康な精神状態を保つ鍵となります。",
+  "initializing_session": "セッションを初期化しています",
+  "language": "言語",
+  "your_progress_over_the_last_7_days": "過去7日間の進捗状況",
+  "fetching_data": "データを取得中...",
+  "more": "もっと",
+  "breadcrumb": "パン粉",
+  "previous_slide": "前のスライド",
+  "next_slide": "次のスライド",
+  "close": "近い",
+  "previous": "前の",
+  "more_pages": "その他のページ",
+  "pagination": "ページネーション",
+  "go_to_previous_page": "前のページへ",
+  "go_to_next_page": "次のページへ",
+  "toggle_sidebar": "サイドバーの表示/非表示を切り替える"
 }

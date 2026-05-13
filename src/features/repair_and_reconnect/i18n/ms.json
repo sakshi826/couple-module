@@ -243,7 +243,31 @@
     "back": "Kembali",
     "next": "Seterusnya",
     "save": "Simpan",
-    "loading": "Memuatkan..."
+    "loading": "Memuatkan...",
+    "share": "Kongsi",
+    "share_progress": "Kongsi Kemajuan",
+    "inspire_others": "Beri inspirasi kepada orang lain hari ini",
+    "share_text": "Saya telah melakukan {{activityName}} ini dalam TherapyMantra dan sangat menikmatinya, anda juga boleh melakukannya, ikuti sahaja pautan ke aplikasi android {{androidUrl}} atau aplikasi ios {{iosUrl}}",
+    "this_activity": "aktiviti ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Mesej"
   },
-  "app_description": "Pembaikan & Sambungkan Semula"
+  "app_description": "Pembaikan & Sambungkan Semula",
+  "that_s_a_step_forward": "Itu satu langkah ke hadapan",
+  "you_took_a_small_step_toward_repair_and_that_matte": "Anda mengambil langkah kecil ke arah pembaikan—dan itu penting.",
+  "try_with_someone_else": "Cuba dengan orang lain",
+  "done": "Selesai ✔",
+  "more": "Lebih lanjut",
+  "breadcrumb": "serbuk roti",
+  "previous_slide": "Slaid sebelumnya",
+  "next_slide": "Slaid seterusnya",
+  "close": "Tutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Lebih banyak halaman",
+  "pagination": "penomboran halaman",
+  "go_to_previous_page": "Pergi ke halaman sebelumnya",
+  "go_to_next_page": "Pergi ke halaman seterusnya",
+  "toggle_sidebar": "Togol Bar Sisi",
+  "oops_page_not_found": "Alamak! Halaman tidak ditemui",
+  "return_to_home": "Kembali ke Rumah"
 }

@@ -128,7 +128,31 @@
     "back": "กลับ",
     "next": "ต่อไป",
     "save": "บันทึก",
-    "loading": "กำลังโหลด..."
+    "loading": "กำลังโหลด...",
+    "share": "แบ่งปัน",
+    "share_progress": "แชร์ความคืบหน้า",
+    "inspire_others": "สร้างแรงบันดาลใจให้ผู้อื่นในวันนี้",
+    "share_text": "ฉันได้ทำกิจกรรมนี้ {{activityName}} ใน TherapyMantra แล้วและรู้สึกสนุกมาก คุณก็ลองทำได้เช่นกัน เพียงแค่คลิกลิงก์ไปยังแอป Android {{androidUrl}} หรือแอป iOS {{iosUrl}}",
+    "this_activity": "กิจกรรมนี้",
+    "copied": "คัดลอกแล้ว!",
+    "copy_message": "คัดลอกข้อความ"
   },
-  "app_description": "คู่มือวงจรการนอนหลับ"
+  "app_description": "คู่มือวงจรการนอนหลับ",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(prev + 1, TOTAL_SCREENS - 1));\nconst goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\nconst screens = [",
+  "it_s_not_about": "มันไม่เกี่ยวกับ",
+  "it_s_about": "มันเกี่ยวกับ",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "ถูกปลุกให้ตื่นจากหลับสนิทด้วยเสียงนาฬิกาปลุกใช่ไหม? สมองของคุณยังทำงานไม่เสร็จเลย ความรู้สึกมึนงงหนักๆ นั่นแหละคือ...",
+  "more": "มากกว่า",
+  "breadcrumb": "เศษขนมปัง",
+  "previous_slide": "สไลด์ก่อนหน้า",
+  "next_slide": "สไลด์ถัดไป",
+  "close": "ปิด",
+  "previous": "ก่อนหน้า",
+  "more_pages": "หน้าเพิ่มเติม",
+  "pagination": "การแบ่งหน้า",
+  "go_to_previous_page": "ไปยังหน้าก่อนหน้า",
+  "go_to_next_page": "ไปยังหน้าถัดไป",
+  "toggle_sidebar": "สลับแถบด้านข้าง",
+  "oops_page_not_found": "ขออภัย! ไม่พบหน้าเว็บ",
+  "return_to_home": "กลับสู่หน้าแรก"
 }

@@ -28,7 +28,14 @@
     "back": "Kembali",
     "next": "Seterusnya",
     "save": "Simpan",
-    "loading": "Memuatkan..."
+    "loading": "Memuatkan...",
+    "share": "Kongsi",
+    "share_progress": "Kongsi Kemajuan",
+    "inspire_others": "Beri inspirasi kepada orang lain hari ini",
+    "share_text": "Saya telah melakukan {{activityName}} ini dalam TherapyMantra dan sangat menikmatinya, anda juga boleh melakukannya, ikuti sahaja pautan ke aplikasi android {{androidUrl}} atau aplikasi ios {{iosUrl}}",
+    "this_activity": "aktiviti ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Mesej"
   },
   "app_title": "Pernafasan Kotak",
   "app_complete_title": "Kerja yang hebat!",
@@ -37,5 +44,17 @@
   "intro_p1": "Tarik nafas selama 4 saat",
   "intro_p2": "Tahan selama 4 saat",
   "intro_p3": "Hembus nafas selama 4 saat",
-  "app_description": "Pernafasan kotak menggunakan corak 4-4-4-4 yang mudah — tarik nafas, tahan, hembus nafas, tahan — setiap satu selama empat saat. Ia mengaktifkan sistem saraf parasimpatetik anda, mengurangkan tekanan dan mengembalikan anda kepada keadaan yang tenang dan fokus."
+  "app_description": "Pernafasan kotak menggunakan corak 4-4-4-4 yang mudah — tarik nafas, tahan, hembus nafas, tahan — setiap satu selama empat saat. Ia mengaktifkan sistem saraf parasimpatetik anda, mengurangkan tekanan dan mengembalikan anda kepada keadaan yang tenang dan fokus.",
+  "language": "Bahasa",
+  "more": "Lebih lanjut",
+  "breadcrumb": "serbuk roti",
+  "previous_slide": "Slaid sebelumnya",
+  "next_slide": "Slaid seterusnya",
+  "close": "Tutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Lebih banyak halaman",
+  "pagination": "penomboran halaman",
+  "go_to_previous_page": "Pergi ke halaman sebelumnya",
+  "go_to_next_page": "Pergi ke halaman seterusnya",
+  "toggle_sidebar": "Togol Bar Sisi"
 }

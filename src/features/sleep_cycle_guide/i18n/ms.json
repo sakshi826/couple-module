@@ -128,7 +128,31 @@
     "back": "Kembali",
     "next": "Seterusnya",
     "save": "Simpan",
-    "loading": "Memuatkan..."
+    "loading": "Memuatkan...",
+    "share": "Kongsi",
+    "share_progress": "Kongsi Kemajuan",
+    "inspire_others": "Beri inspirasi kepada orang lain hari ini",
+    "share_text": "Saya telah melakukan {{activityName}} ini dalam TherapyMantra dan sangat menikmatinya, anda juga boleh melakukannya, ikuti sahaja pautan ke aplikasi android {{androidUrl}} atau aplikasi ios {{iosUrl}}",
+    "this_activity": "aktiviti ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Mesej"
   },
-  "app_description": "Panduan Kitaran Tidur"
+  "app_description": "Panduan Kitaran Tidur",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(sebelumnya + 1, JUMLAH_SKRIN - 1));\nconst goBack = () => setCurrentScreen(sebelumnya => Math.max(sebelumnya - 1, 0));\n\nconst skrin = [",
+  "it_s_not_about": "Ia bukan tentang",
+  "it_s_about": "Ia mengenai",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Terjaga daripada tidur nyenyak disebabkan bunyi penggera? Otak anda benar-benar belum selesai melakukan apa yang dilakukannya. Rasa berkabus berat itu? Itu",
+  "more": "Lebih lanjut",
+  "breadcrumb": "serbuk roti",
+  "previous_slide": "Slaid sebelumnya",
+  "next_slide": "Slaid seterusnya",
+  "close": "Tutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Lebih banyak halaman",
+  "pagination": "penomboran halaman",
+  "go_to_previous_page": "Pergi ke halaman sebelumnya",
+  "go_to_next_page": "Pergi ke halaman seterusnya",
+  "toggle_sidebar": "Togol Bar Sisi",
+  "oops_page_not_found": "Alamak! Halaman tidak ditemui",
+  "return_to_home": "Kembali ke Rumah"
 }

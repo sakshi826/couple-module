@@ -9,7 +9,14 @@
     "back": "Dos",
     "next": "Suivant",
     "save": "Sauvegarder",
-    "loading": "Chargement..."
+    "loading": "Chargement...",
+    "share": "Partager",
+    "share_progress": "Partager les progrès",
+    "inspire_others": "Inspirez les autres aujourd'hui",
+    "share_text": "J'ai réalisé cette activité {{activityName}} sur TherapyMantra et j'ai beaucoup apprécié. Vous pouvez la faire aussi ; il suffit de suivre le lien vers l'application Android {{androidUrl}} ou l'application iOS {{iosUrl}}.",
+    "this_activity": "cette activité",
+    "copied": "Copié !",
+    "copy_message": "Copier le message"
   },
   "screens": {
     "intro": {
@@ -133,5 +140,20 @@
     ]
   },
   "app_title": "Suivi des soins personnels",
-  "app_description": "Suivez vos habitudes quotidiennes de bien-être et observez leur impact sur votre santé mentale. La régularité est essentielle à une meilleure santé mentale."
+  "app_description": "Suivez vos habitudes quotidiennes de bien-être et observez leur impact sur votre santé mentale. La régularité est essentielle à une meilleure santé mentale.",
+  "initializing_session": "Initialisation de la session",
+  "language": "Langue",
+  "your_progress_over_the_last_7_days": "Vos progrès au cours des 7 derniers jours",
+  "fetching_data": "Récupération des données...",
+  "more": "Plus",
+  "breadcrumb": "chapelure",
+  "previous_slide": "Diapositive précédente",
+  "next_slide": "Diapositive suivante",
+  "close": "Fermer",
+  "previous": "Précédent",
+  "more_pages": "Plus de pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Aller à la page précédente",
+  "go_to_next_page": "Passer à la page suivante",
+  "toggle_sidebar": "Afficher/masquer la barre latérale"
 }

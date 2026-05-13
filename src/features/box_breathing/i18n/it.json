@@ -28,7 +28,14 @@
     "back": "Indietro",
     "next": "Prossimo",
     "save": "Salva",
-    "loading": "Caricamento..."
+    "loading": "Caricamento...",
+    "share": "Condividere",
+    "share_progress": "Condividi i progressi",
+    "inspire_others": "Ispira gli altri oggi",
+    "share_text": "Ho svolto questa attività {{activityName}} su TherapyMantra e mi è piaciuta molto. Puoi farlo anche tu, basta seguire il link all'app Android {{androidUrl}} o all'app iOS {{iosUrl}}.",
+    "this_activity": "questa attività",
+    "copied": "Copiato!",
+    "copy_message": "Copia messaggio"
   },
   "app_title": "Respirazione a scatola",
   "app_complete_title": "Ottimo lavoro!",
@@ -37,5 +44,17 @@
   "intro_p1": "Inspira per 4 secondi",
   "intro_p2": "Tieni premuto per 4 secondi",
   "intro_p3": "Espira per 4 secondi",
-  "app_description": "La respirazione quadrata utilizza un semplice schema 4-4-4-4: inspira, trattieni il respiro, espira, trattieni il respiro, per quattro secondi per ogni fase. Attiva il sistema nervoso parasimpatico, riducendo lo stress e riportandoti a uno stato di calma e concentrazione."
+  "app_description": "La respirazione quadrata utilizza un semplice schema 4-4-4-4: inspira, trattieni il respiro, espira, trattieni il respiro, per quattro secondi per ogni fase. Attiva il sistema nervoso parasimpatico, riducendo lo stress e riportandoti a uno stato di calma e concentrazione.",
+  "language": "Lingua",
+  "more": "Di più",
+  "breadcrumb": "pangrattato",
+  "previous_slide": "diapositiva precedente",
+  "next_slide": "diapositiva successiva",
+  "close": "Vicino",
+  "previous": "Precedente",
+  "more_pages": "Altre pagine",
+  "pagination": "paginazione",
+  "go_to_previous_page": "Vai alla pagina precedente",
+  "go_to_next_page": "Vai alla pagina successiva",
+  "toggle_sidebar": "Attiva/disattiva la barra laterale"
 }

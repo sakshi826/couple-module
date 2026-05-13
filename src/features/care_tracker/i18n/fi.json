@@ -9,7 +9,14 @@
     "back": "Takaisin",
     "next": "Seuraava",
     "save": "Tallentaa",
-    "loading": "Ladataan..."
+    "loading": "Ladataan...",
+    "share": "Jakaa",
+    "share_progress": "Jaa edistyminen",
+    "inspire_others": "Inspiroi muita tänään",
+    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
+    "this_activity": "tämä toiminta",
+    "copied": "Kopioitu!",
+    "copy_message": "Kopioi viesti"
   },
   "screens": {
     "intro": {
@@ -133,5 +140,20 @@
     ]
   },
   "app_title": "Itsehoidon seuranta",
-  "app_description": "Seuraa päivittäisiä itsestäsi huolehtimiseen liittyviä tapojasi ja katso, miten ne vaikuttavat yleiseen hyvinvointiisi. Johdonmukaisuus on avain terveempään mieleen."
+  "app_description": "Seuraa päivittäisiä itsestäsi huolehtimiseen liittyviä tapojasi ja katso, miten ne vaikuttavat yleiseen hyvinvointiisi. Johdonmukaisuus on avain terveempään mieleen.",
+  "initializing_session": "Istuntoa alustetaan",
+  "language": "Kieli",
+  "your_progress_over_the_last_7_days": "Edistymisesi viimeisten 7 päivän aikana",
+  "fetching_data": "Noudetaan tietoja...",
+  "more": "Lisää",
+  "breadcrumb": "navigointipolku",
+  "previous_slide": "Edellinen dia",
+  "next_slide": "Seuraava dia",
+  "close": "Lähellä",
+  "previous": "Edellinen",
+  "more_pages": "Lisää sivuja",
+  "pagination": "sivunumerointi",
+  "go_to_previous_page": "Siirry edelliselle sivulle",
+  "go_to_next_page": "Siirry seuraavalle sivulle",
+  "toggle_sidebar": "Näytä/piilota sivupalkki"
 }

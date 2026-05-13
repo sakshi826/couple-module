@@ -3,7 +3,7 @@ const path = require('path');
 const axios = require('axios');
 require('dotenv').config();
 
-const API_KEY = process.env.AZURE_TRANSLATOR_KEY;
+const API_KEY = process.env.GOOGLE_TRANSLATOR_KEY;
 const ENDPOINT = 'https://translation.googleapis.com/language/translate/v2';
 
 const TARGET_LANGUAGES = [

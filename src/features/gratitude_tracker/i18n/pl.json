@@ -26,7 +26,14 @@
     "back": "Z powrotem",
     "next": "Następny",
     "save": "Ratować",
-    "loading": "Załadunek..."
+    "loading": "Załadunek...",
+    "share": "Udział",
+    "share_progress": "Udostępnij postęp",
+    "inspire_others": "Zainspiruj innych już dziś",
+    "share_text": "Wykonałem tę {{activityName}} w TherapyMantra i bardzo mi się to spodobało. Ty też możesz to zrobić, po prostu kliknij link do aplikacji na Androida {{androidUrl}} lub aplikacji na iOS {{iosUrl}}",
+    "this_activity": "ta aktywność",
+    "copied": "Skopiowano!",
+    "copy_message": "Kopiuj wiadomość"
   },
   "mood": {
     "heading": "Jak się czujesz?",
@@ -64,5 +71,24 @@
   "intro_p1": "Popraw swoje samopoczucie emocjonalne",
   "intro_p2": "Skup się na pozytywnych rzeczach",
   "intro_p3": "Zbuduj trwały nawyk wdzięczności",
-  "app_description": "Dziennik wdzięczności"
+  "app_description": "Dziennik wdzięczności",
+  "authenticating": "Uwierzytelnianie",
+  "more": "Więcej",
+  "breadcrumb": "bułka tarta",
+  "previous_slide": "Poprzedni slajd",
+  "next_slide": "Następny slajd",
+  "close": "Zamknąć",
+  "previous": "Poprzedni",
+  "more_pages": "Więcej stron",
+  "pagination": "paginacja",
+  "go_to_previous_page": "Przejdź do poprzedniej strony",
+  "go_to_next_page": "Przejdź do następnej strony",
+  "toggle_sidebar": "Przełącz pasek boczny",
+  "retry": "Spróbować ponownie",
+  "relive_your_moments": "Przeżyj swoje chwile na nowo",
+  "select_a_date_to_relive_gratitude": "Wybierz datę, w której na nowo przeżyjesz wdzięczność",
+  "create_new_entry": "Utwórz nowy wpis",
+  "oops_page_not_found": "Ups! Strona nie została znaleziona",
+  "return_to_home": "Powrót do strony głównej",
+  "loading_entry": "Ładowanie wpisu..."
 }

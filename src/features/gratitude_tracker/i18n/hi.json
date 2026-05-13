@@ -26,7 +26,14 @@
     "back": "पीछे",
     "next": "अगला",
     "save": "बचाना",
-    "loading": "लोड हो रहा है..."
+    "loading": "लोड हो रहा है...",
+    "share": "शेयर करना",
+    "share_progress": "प्रगति साझा करें",
+    "inspire_others": "आज दूसरों को प्रेरित करें",
+    "share_text": "मैंने TherapyMantra में यह {{activityName}} गतिविधि की है और मुझे इसमें बहुत आनंद आया। आप भी इसे कर सकते हैं, बस एंड्रॉइड ऐप {{androidUrl}} या आईओएस ऐप {{iosUrl}} के लिंक पर क्लिक करें।",
+    "this_activity": "यह गतिविधि",
+    "copied": "कॉपी हो गया!",
+    "copy_message": "संदेश की प्रतिलिपि बनाएं"
   },
   "mood": {
     "heading": "तुम कैसा महसूस कर रहे हो?",
@@ -64,5 +71,24 @@
   "intro_p1": "अपनी भावनात्मक सेहत में सुधार करें",
   "intro_p2": "सकारात्मक चीजों पर ध्यान केंद्रित करें",
   "intro_p3": "कृतज्ञता की एक स्थायी आदत विकसित करें",
-  "app_description": "कृतज्ञता डायरी"
+  "app_description": "कृतज्ञता डायरी",
+  "authenticating": "प्रमाणित कर रहा है",
+  "more": "अधिक",
+  "breadcrumb": "ब्रेडक्रम्ब",
+  "previous_slide": "पिछली स्लाइड",
+  "next_slide": "अगली स्लाइड",
+  "close": "बंद करना",
+  "previous": "पहले का",
+  "more_pages": "और पेज",
+  "pagination": "पृष्ठ पर अंक लगाना",
+  "go_to_previous_page": "पिछले पृष्ठ पर जाएं",
+  "go_to_next_page": "अगले पृष्ठ पर जाएं",
+  "toggle_sidebar": "साइडबार टॉगल करें",
+  "retry": "पुन: प्रयास करें",
+  "relive_your_moments": "अपने पलों को फिर से जीएं",
+  "select_a_date_to_relive_gratitude": "कृतज्ञता को फिर से महसूस करने के लिए एक तारीख चुनें",
+  "create_new_entry": "नई प्रविष्टि बनाएँ",
+  "oops_page_not_found": "ओह! पेज नहीं मिला",
+  "return_to_home": "घर पर वापस",
+  "loading_entry": "प्रविष्टि लोड हो रही है..."
 }

@@ -52,7 +52,14 @@
     "back": "Mặt sau",
     "next": "Kế tiếp",
     "save": "Cứu",
-    "loading": "Đang tải..."
+    "loading": "Đang tải...",
+    "share": "Chia sẻ",
+    "share_progress": "Chia sẻ tiến độ",
+    "inspire_others": "Hãy truyền cảm hứng cho người khác ngay hôm nay!",
+    "share_text": "Tôi đã thực hiện hoạt động này {{activityName}} trên TherapyMantra và thực sự rất thích, bạn cũng có thể làm được, chỉ cần theo liên kết đến ứng dụng Android {{androidUrl}} hoặc ứng dụng iOS {{iosUrl}}.",
+    "this_activity": "hoạt động này",
+    "copied": "Đã sao chép!",
+    "copy_message": "Sao chép tin nhắn"
   },
   "app_complete_title": "Niềm vui được bảo tồn",
   "app_complete_message": "Bạn đã nhớ lại thành công và kết nối với một nguồn niềm vui. Giữ cảm giác này bên mình khi bạn di chuyển trong ngày.",
@@ -61,5 +68,19 @@
   "app_description": "Khám phá lại những khoảnh khắc vui vẻ",
   "intro_p1": "Khi bạn cảm thấy buồn bã, lo lắng hoặc quá tải, thật khó để nhớ lại những điều mang lại niềm vui cho mình.",
   "intro_p2": "Hoạt động này không phải là làm nhiều hơn. Mà là để chú ý đến những khoảnh khắc nhỏ bé, nhẹ nhàng, bình yên hoặc đầy ý nghĩa.",
-  "intro_p3": "Không có áp lực nào buộc bạn phải cảm thấy hạnh phúc. Chúng ta chỉ đơn giản là đang khám phá những gì mang lại cảm giác dễ chịu, dù chỉ là một chút."
+  "intro_p3": "Không có áp lực nào buộc bạn phải cảm thấy hạnh phúc. Chúng ta chỉ đơn giản là đang khám phá những gì mang lại cảm giác dễ chịu, dù chỉ là một chút.",
+  "complete_activity": "Hoàn thành hoạt động",
+  "more": "Hơn",
+  "breadcrumb": "vụn bánh mì",
+  "previous_slide": "Trang trước",
+  "next_slide": "Trang chiếu tiếp theo",
+  "close": "Đóng",
+  "previous": "Trước",
+  "more_pages": "Thêm trang",
+  "pagination": "đánh số trang",
+  "go_to_previous_page": "Quay lại trang trước",
+  "go_to_next_page": "Chuyển sang trang tiếp theo",
+  "toggle_sidebar": "Ẩn/Hiện thanh bên",
+  "oops_page_not_found": "Ôi! Không tìm thấy trang!",
+  "return_to_home": "Trở về Trang chủ"
 }

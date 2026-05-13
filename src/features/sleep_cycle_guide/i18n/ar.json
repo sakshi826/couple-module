@@ -128,7 +128,31 @@
     "back": "خلف",
     "next": "التالي",
     "save": "يحفظ",
-    "loading": "تحميل..."
+    "loading": "تحميل...",
+    "share": "يشارك",
+    "share_progress": "مشاركة التقدم",
+    "inspire_others": "ألهم الآخرين اليوم",
+    "share_text": "لقد قمتُ بهذا النشاط {{activityName}} في تطبيق TherapyMantra واستمتعتُ به حقًا، يمكنك القيام به أيضًا، فقط اتبع الرابط إلى تطبيق أندرويد {{androidUrl}} أو تطبيق iOS {{iosUrl}}",
+    "this_activity": "هذا النشاط",
+    "copied": "تم النسخ!",
+    "copy_message": "انسخ الرسالة"
   },
-  "app_description": "دليل دورة النوم"
+  "app_description": "دليل دورة النوم",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(prev + 1, TOTAL_SCREENS - 1));\nconst goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\nconst screens = [",
+  "it_s_not_about": "الأمر لا يتعلق",
+  "it_s_about": "الأمر يتعلق",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "أيقظك المنبه من نومك العميق؟ دماغك لم ينهِ ما كان يفعله بعد. ذلك الشعور بالضبابية والثقل؟ هذا هو",
+  "more": "أكثر",
+  "breadcrumb": "فتات الخبز",
+  "previous_slide": "الشريحة السابقة",
+  "next_slide": "الشريحة التالية",
+  "close": "يغلق",
+  "previous": "سابق",
+  "more_pages": "صفحات أخرى",
+  "pagination": "ترقيم الصفحات",
+  "go_to_previous_page": "انتقل إلى الصفحة السابقة",
+  "go_to_next_page": "انتقل إلى الصفحة التالية",
+  "toggle_sidebar": "تبديل الشريط الجانبي",
+  "oops_page_not_found": "عذراً! الصفحة غير موجودة",
+  "return_to_home": "العودة إلى الصفحة الرئيسية"
 }

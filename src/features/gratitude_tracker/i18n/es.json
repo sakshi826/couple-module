@@ -26,7 +26,14 @@
     "back": "Atrás",
     "next": "Próximo",
     "save": "Ahorrar",
-    "loading": "Cargando..."
+    "loading": "Cargando...",
+    "share": "Compartir",
+    "share_progress": "Compartir el progreso",
+    "inspire_others": "Inspira a otros hoy",
+    "share_text": "He realizado esta actividad {{activityName}} en TherapyMantra y me ha gustado mucho. Tú también puedes hacerlo; solo tienes que seguir el enlace a la aplicación para Android {{androidUrl}} o a la aplicación para iOS {{iosUrl}}.",
+    "this_activity": "esta actividad",
+    "copied": "¡Copiado!",
+    "copy_message": "Copiar mensaje"
   },
   "mood": {
     "heading": "¿Cómo te sientes?",
@@ -64,5 +71,24 @@
   "intro_p1": "Mejora tu bienestar emocional",
   "intro_p2": "Céntrate en las cosas positivas.",
   "intro_p3": "Cultiva un hábito duradero de gratitud.",
-  "app_description": "Diario de gratitud"
+  "app_description": "Diario de gratitud",
+  "authenticating": "Autenticando",
+  "more": "Más",
+  "breadcrumb": "migaja de pan",
+  "previous_slide": "Diapositiva anterior",
+  "next_slide": "Siguiente diapositiva",
+  "close": "Cerca",
+  "previous": "Anterior",
+  "more_pages": "Más páginas",
+  "pagination": "paginación",
+  "go_to_previous_page": "Ir a la página anterior",
+  "go_to_next_page": "Ir a la página siguiente",
+  "toggle_sidebar": "Alternar barra lateral",
+  "retry": "Rever",
+  "relive_your_moments": "Revive tus momentos",
+  "select_a_date_to_relive_gratitude": "Selecciona una fecha para revivir la gratitud.",
+  "create_new_entry": "Crear nueva entrada",
+  "oops_page_not_found": "¡Ups! Página no encontrada",
+  "return_to_home": "Regresar a la página principal",
+  "loading_entry": "Cargando entrada..."
 }

@@ -128,7 +128,31 @@
     "back": "Z powrotem",
     "next": "Następny",
     "save": "Ratować",
-    "loading": "Załadunek..."
+    "loading": "Załadunek...",
+    "share": "Udział",
+    "share_progress": "Udostępnij postęp",
+    "inspire_others": "Zainspiruj innych już dziś",
+    "share_text": "Wykonałem tę {{activityName}} w TherapyMantra i bardzo mi się to spodobało. Ty też możesz to zrobić, po prostu kliknij link do aplikacji na Androida {{androidUrl}} lub aplikacji na iOS {{iosUrl}}",
+    "this_activity": "ta aktywność",
+    "copied": "Skopiowano!",
+    "copy_message": "Kopiuj wiadomość"
   },
-  "app_description": "Przewodnik po cyklu snu"
+  "app_description": "Przewodnik po cyklu snu",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(poprzedni + 1, TOTAL_SCREENS - 1));\nconst goBack = () => setCurrentScreen(poprzedni => Math.max(poprzedni - 1, 0));\n\nconst screens = [",
+  "it_s_not_about": "Nie chodzi o to",
+  "it_s_about": "Chodzi o to",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Wyrwany z głębokiego snu przez alarm? Twój mózg dosłownie nie dokończył tego, co robił. To uczucie otępienia i ciężkości? To…",
+  "more": "Więcej",
+  "breadcrumb": "bułka tarta",
+  "previous_slide": "Poprzedni slajd",
+  "next_slide": "Następny slajd",
+  "close": "Zamknąć",
+  "previous": "Poprzedni",
+  "more_pages": "Więcej stron",
+  "pagination": "paginacja",
+  "go_to_previous_page": "Przejdź do poprzedniej strony",
+  "go_to_next_page": "Przejdź do następnej strony",
+  "toggle_sidebar": "Przełącz pasek boczny",
+  "oops_page_not_found": "Ups! Strona nie została znaleziona",
+  "return_to_home": "Powrót do strony głównej"
 }

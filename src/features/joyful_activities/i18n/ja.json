@@ -52,7 +52,14 @@
     "back": "戻る",
     "next": "次",
     "save": "保存",
-    "loading": "読み込み中…"
+    "loading": "読み込み中…",
+    "share": "共有",
+    "share_progress": "進捗状況を共有する",
+    "inspire_others": "今日、他の人にインスピレーションを与えましょう",
+    "share_text": "私はTherapyMantraで{{activityName}}を試してみましたが、とても楽しかったです。あなたも試せますよ。Androidアプリ{{androidUrl}}またはiOSアプリ{{iosUrl}}へのリンクをクリックしてください。",
+    "this_activity": "このアクティビティ",
+    "copied": "コピーしました！",
+    "copy_message": "メッセージをコピー"
   },
   "app_complete_title": "喜びは守られてる",
   "app_complete_message": "あなたは喜びの源を思い出し、つながることに成功しました。この感覚を一日の中ずっと持ち続けてください。",
@@ -61,5 +68,19 @@
   "app_description": "喜びの瞬間を再発見する",
   "intro_p1": "気分が落ち込んだり、不安になったり、圧倒されたりしているときは、何が自分に喜びをもたらすのかを思い出すのが難しいものです。",
   "intro_p2": "この活動の目的は、より多くのことをすることではありません。軽やかで穏やかで、意味深いと感じる小さな瞬間に気づくことなのです。",
-  "intro_p3": "幸せを感じなければならないというプレッシャーは一切ありません。私たちはただ、少しでも心地良いと感じるものを探求しているだけです。"
+  "intro_p3": "幸せを感じなければならないというプレッシャーは一切ありません。私たちはただ、少しでも心地良いと感じるものを探求しているだけです。",
+  "complete_activity": "アクティビティを完了する",
+  "more": "もっと",
+  "breadcrumb": "パン粉",
+  "previous_slide": "前のスライド",
+  "next_slide": "次のスライド",
+  "close": "近い",
+  "previous": "前の",
+  "more_pages": "その他のページ",
+  "pagination": "ページネーション",
+  "go_to_previous_page": "前のページへ",
+  "go_to_next_page": "次のページへ",
+  "toggle_sidebar": "サイドバーの表示/非表示を切り替える",
+  "oops_page_not_found": "おっと！ページが見つかりません",
+  "return_to_home": "ホームに戻る"
 }

@@ -28,7 +28,14 @@
     "back": "Dos",
     "next": "Suivant",
     "save": "Sauvegarder",
-    "loading": "Chargement..."
+    "loading": "Chargement...",
+    "share": "Partager",
+    "share_progress": "Partager les progrès",
+    "inspire_others": "Inspirez les autres aujourd'hui",
+    "share_text": "J'ai réalisé cette activité {{activityName}} sur TherapyMantra et j'ai beaucoup apprécié. Vous pouvez la faire aussi ; il suffit de suivre le lien vers l'application Android {{androidUrl}} ou l'application iOS {{iosUrl}}.",
+    "this_activity": "cette activité",
+    "copied": "Copié !",
+    "copy_message": "Copier le message"
   },
   "app_title": "Respiration en boîte",
   "app_complete_title": "Excellent travail !",
@@ -37,5 +44,17 @@
   "intro_p1": "Inspirez pendant 4 secondes",
   "intro_p2": "Maintenir la pression pendant 4 secondes",
   "intro_p3": "Expirez pendant 4 secondes",
-  "app_description": "La respiration carrée utilise un schéma simple en 4-4-4-4 : inspirez, retenez votre souffle, expirez, retenez votre souffle, chaque phase durant quatre secondes. Elle active le système nerveux parasympathique, réduisant ainsi le stress et vous ramenant à un état calme et concentré."
+  "app_description": "La respiration carrée utilise un schéma simple en 4-4-4-4 : inspirez, retenez votre souffle, expirez, retenez votre souffle, chaque phase durant quatre secondes. Elle active le système nerveux parasympathique, réduisant ainsi le stress et vous ramenant à un état calme et concentré.",
+  "language": "Langue",
+  "more": "Plus",
+  "breadcrumb": "chapelure",
+  "previous_slide": "Diapositive précédente",
+  "next_slide": "Diapositive suivante",
+  "close": "Fermer",
+  "previous": "Précédent",
+  "more_pages": "Plus de pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Aller à la page précédente",
+  "go_to_next_page": "Passer à la page suivante",
+  "toggle_sidebar": "Afficher/masquer la barre latérale"
 }

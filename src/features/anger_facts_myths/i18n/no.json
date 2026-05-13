@@ -65,7 +65,27 @@
     "back": "Tilbake",
     "next": "Neste",
     "save": "Spare",
-    "loading": "Laster inn..."
+    "loading": "Laster inn...",
+    "share": "Dele",
+    "share_progress": "Del fremdrift",
+    "inspire_others": "Inspirer andre i dag",
+    "share_text": "Jeg har gjort dette med {{activityName}} i TherapyMantra og liker det veldig godt. Du kan også gjøre det. Bare følg lenken til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
+    "this_activity": "denne aktiviteten",
+    "copied": "Kopiert!",
+    "copy_message": "Kopier melding"
   },
-  "app_description": "Fakta og myter om sinne"
+  "app_description": "Fakta og myter om sinne",
+  "more": "Flere",
+  "breadcrumb": "brødsmuler",
+  "previous_slide": "Forrige lysbilde",
+  "next_slide": "Neste lysbilde",
+  "close": "Lukke",
+  "previous": "Tidligere",
+  "more_pages": "Flere sider",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå til forrige side",
+  "go_to_next_page": "Gå til neste side",
+  "toggle_sidebar": "Slå sidefeltet av/på",
+  "oops_page_not_found": "Ups! Siden ble ikke funnet",
+  "return_to_home": "Gå tilbake til hjemmet"
 }

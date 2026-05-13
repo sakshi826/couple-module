@@ -9,7 +9,14 @@
     "back": "Zurück",
     "next": "Nächste",
     "save": "Speichern",
-    "loading": "Laden..."
+    "loading": "Laden...",
+    "share": "Aktie",
+    "share_progress": "Fortschritt teilen",
+    "inspire_others": "Inspiriere heute andere.",
+    "share_text": "Ich habe diese Aktivität {{activityName}} in TherapyMantra ausprobiert und finde sie richtig toll. Du kannst das auch machen! Folge einfach dem Link zur Android-App {{androidUrl}} oder zur iOS-App {{iosUrl}}.",
+    "this_activity": "diese Aktivität",
+    "copied": "Kopiert!",
+    "copy_message": "Nachricht kopieren"
   },
   "screens": {
     "intro": {
@@ -133,5 +140,20 @@
     ]
   },
   "app_title": "Selbstfürsorge-Tracker",
-  "app_description": "Verfolge deine täglichen Selbstfürsorgegewohnheiten und beobachte, wie sie sich auf dein allgemeines Wohlbefinden auswirken. Regelmäßigkeit ist der Schlüssel zu einem gesünderen Geist."
+  "app_description": "Verfolge deine täglichen Selbstfürsorgegewohnheiten und beobachte, wie sie sich auf dein allgemeines Wohlbefinden auswirken. Regelmäßigkeit ist der Schlüssel zu einem gesünderen Geist.",
+  "initializing_session": "Sitzung wird initialisiert",
+  "language": "Sprache",
+  "your_progress_over_the_last_7_days": "Ihr Fortschritt der letzten 7 Tage",
+  "fetching_data": "Daten werden abgerufen...",
+  "more": "Mehr",
+  "breadcrumb": "Brotkrumen",
+  "previous_slide": "Vorherige Folie",
+  "next_slide": "Nächste Folie",
+  "close": "Schließen",
+  "previous": "Vorherige",
+  "more_pages": "Weitere Seiten",
+  "pagination": "Pagination",
+  "go_to_previous_page": "Zur vorherigen Seite",
+  "go_to_next_page": "Weiter zur nächsten Seite",
+  "toggle_sidebar": "Seitenleiste ein-/ausblenden"
 }

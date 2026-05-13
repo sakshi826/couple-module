@@ -28,7 +28,14 @@
     "back": "Z powrotem",
     "next": "Następny",
     "save": "Ratować",
-    "loading": "Załadunek..."
+    "loading": "Załadunek...",
+    "share": "Udział",
+    "share_progress": "Udostępnij postęp",
+    "inspire_others": "Zainspiruj innych już dziś",
+    "share_text": "Wykonałem tę {{activityName}} w TherapyMantra i bardzo mi się to spodobało. Ty też możesz to zrobić, po prostu kliknij link do aplikacji na Androida {{androidUrl}} lub aplikacji na iOS {{iosUrl}}",
+    "this_activity": "ta aktywność",
+    "copied": "Skopiowano!",
+    "copy_message": "Kopiuj wiadomość"
   },
   "app_title": "Oddychanie pudełkowe",
   "app_complete_title": "Świetna robota!",
@@ -37,5 +44,17 @@
   "intro_p1": "Wdychaj przez 4 sekundy",
   "intro_p2": "Przytrzymaj przez 4 sekundy",
   "intro_p3": "Wydychaj przez 4 sekundy",
-  "app_description": "Oddychanie pudełkowe wykorzystuje prosty schemat 4-4-4-4 – wdech, wstrzymanie, wydech, wstrzymanie – każde przez cztery sekundy. Aktywuje ono układ nerwowy przywspółczulny, obniżając stres i przywracając spokój i skupienie."
+  "app_description": "Oddychanie pudełkowe wykorzystuje prosty schemat 4-4-4-4 – wdech, wstrzymanie, wydech, wstrzymanie – każde przez cztery sekundy. Aktywuje ono układ nerwowy przywspółczulny, obniżając stres i przywracając spokój i skupienie.",
+  "language": "Język",
+  "more": "Więcej",
+  "breadcrumb": "bułka tarta",
+  "previous_slide": "Poprzedni slajd",
+  "next_slide": "Następny slajd",
+  "close": "Zamknąć",
+  "previous": "Poprzedni",
+  "more_pages": "Więcej stron",
+  "pagination": "paginacja",
+  "go_to_previous_page": "Przejdź do poprzedniej strony",
+  "go_to_next_page": "Przejdź do następnej strony",
+  "toggle_sidebar": "Przełącz pasek boczny"
 }

@@ -128,7 +128,31 @@
     "back": "Balik",
     "next": "Susunod",
     "save": "I-save",
-    "loading": "Naglo-load..."
+    "loading": "Naglo-load...",
+    "share": "Ibahagi",
+    "share_progress": "Ibahagi ang Pag-unlad",
+    "inspire_others": "Magbigay-inspirasyon sa iba ngayon",
+    "share_text": "Ginawa ko na ito {{activityName}} sa TherapyMantra at talagang nasiyahan ako rito. Kaya mo rin itong gawin. Sundan lang ang link papunta sa android app {{androidUrl}} o ios app {{iosUrl}}.",
+    "this_activity": "aktibidad na ito",
+    "copied": "Kinopya!",
+    "copy_message": "Kopyahin ang Mensahe"
   },
-  "app_description": "Gabay sa Siklo ng Pagtulog"
+  "app_description": "Gabay sa Siklo ng Pagtulog",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(nakaraan + 1, KABUUANG_SCREENS - 1));\n\nconst goBack = () => setCurrentScreen(nakaraan => Math.max(nakaraan - 1, 0));\n\nconst screens = [",
+  "it_s_not_about": "Hindi ito tungkol sa",
+  "it_s_about": "Tungkol ito sa",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Nagising ka ba sa mahimbing na tulog dahil sa alarm? Literal na hindi pa tapos ang utak mo sa ginagawa nito. Yung malabong pakiramdam na mabigat?",
+  "more": "Higit pa",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Nakaraang slide",
+  "next_slide": "Susunod na slide",
+  "close": "Isara",
+  "previous": "Nakaraan",
+  "more_pages": "Mas maraming pahina",
+  "pagination": "paginasyon",
+  "go_to_previous_page": "Pumunta sa nakaraang pahina",
+  "go_to_next_page": "Pumunta sa susunod na pahina",
+  "toggle_sidebar": "I-toggle ang Sidebar",
+  "oops_page_not_found": "Naku! Hindi natagpuan ang pahina",
+  "return_to_home": "Bumalik sa Bahay"
 }

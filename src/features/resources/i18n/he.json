@@ -44,7 +44,14 @@
     "back": "בְּחֲזָרָה",
     "next": "הַבָּא",
     "save": "לְהַצִיל",
-    "loading": "טְעִינָה..."
+    "loading": "טְעִינָה...",
+    "share": "לַחֲלוֹק",
+    "share_progress": "שתף התקדמות",
+    "inspire_others": "תנו השראה לאחרים היום",
+    "share_text": "עשיתי את זה ב-TherapyMantra ואני ממש נהנה מזה, גם אתם יכולים לעשות את זה פשוט עקבו אחר הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
+    "this_activity": "פעילות זו",
+    "copied": "מוּעֲתָק!",
+    "copy_message": "העתקת הודעה"
   },
   "app_description": "אֶמְצָעִי",
   "concerns": {

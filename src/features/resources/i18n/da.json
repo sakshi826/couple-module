@@ -44,7 +44,14 @@
     "back": "Tilbage",
     "next": "Næste",
     "save": "Spare",
-    "loading": "Indlæser..."
+    "loading": "Indlæser...",
+    "share": "Dele",
+    "share_progress": "Del fremskridt",
+    "inspire_others": "Inspirer andre i dag",
+    "share_text": "Jeg har gjort dette {{activityName}} i TherapyMantra og nyder det virkelig. Du kan også gøre det, bare følg linket til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
+    "this_activity": "denne aktivitet",
+    "copied": "Kopieret!",
+    "copy_message": "Kopiér besked"
   },
   "app_description": "Ressourcer",
   "concerns": {

@@ -28,7 +28,14 @@
     "back": "Spate",
     "next": "Următorul",
     "save": "Salva",
-    "loading": "Încărcare..."
+    "loading": "Încărcare...",
+    "share": "Distribuie",
+    "share_progress": "Distribuiți progresul",
+    "inspire_others": "Inspiră-i pe alții astăzi",
+    "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
+    "this_activity": "această activitate",
+    "copied": "Copiat!",
+    "copy_message": "Copiați mesajul"
   },
   "app_title": "Respirația în cutie",
   "app_complete_title": "Bravo!",
@@ -37,5 +44,17 @@
   "intro_p1": "Inspiră timp de 4 secunde",
   "intro_p2": "Mențineți apăsat timp de 4 secunde",
   "intro_p3": "Expiră timp de 4 secunde",
-  "app_description": "Respirația în cutie folosește un model simplu 4-4-4-4 — inspiră, ține respirația, expiră, ține respirația — fiecare timp de patru secunde. Activează sistemul nervos parasimpatic, reducând stresul și readucându-te la o stare calmă și concentrată."
+  "app_description": "Respirația în cutie folosește un model simplu 4-4-4-4 — inspiră, ține respirația, expiră, ține respirația — fiecare timp de patru secunde. Activează sistemul nervos parasimpatic, reducând stresul și readucându-te la o stare calmă și concentrată.",
+  "language": "Limbă",
+  "more": "Mai mult",
+  "breadcrumb": "pesmet",
+  "previous_slide": "Diapozitivul anterior",
+  "next_slide": "Diapozitivul următor",
+  "close": "Aproape",
+  "previous": "Anterior",
+  "more_pages": "Mai multe pagini",
+  "pagination": "paginare",
+  "go_to_previous_page": "Mergi la pagina anterioară",
+  "go_to_next_page": "Mergi la pagina următoare",
+  "toggle_sidebar": "Comutare bară laterală"
 }

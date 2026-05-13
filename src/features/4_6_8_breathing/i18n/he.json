@@ -34,11 +34,31 @@
     "back": "בְּחֲזָרָה",
     "next": "הַבָּא",
     "save": "לְהַצִיל",
-    "loading": "טְעִינָה..."
+    "loading": "טְעִינָה...",
+    "share": "לַחֲלוֹק",
+    "share_progress": "שתף התקדמות",
+    "inspire_others": "תנו השראה לאחרים היום",
+    "share_text": "עשיתי את זה ב-TherapyMantra ואני ממש נהנה מזה, גם אתם יכולים לעשות את זה פשוט עקבו אחר הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
+    "this_activity": "פעילות זו",
+    "copied": "מוּעֲתָק!",
+    "copy_message": "העתקת הודעה"
   },
   "app_duration": "3-5 דקות",
   "intro_p1": "מרגיע את מערכת העצבים",
   "intro_p2": "מפחית לחץ מיידי",
   "intro_p3": "משפר את המיקוד והבהירות",
-  "app_description": "\"האט את הגוף שלך. הרגיע את דעתך.\""
+  "app_description": "\"האט את הגוף שלך. הרגיע את דעתך.\"",
+  "more": "יוֹתֵר",
+  "breadcrumb": "פירורי לחם",
+  "previous_slide": "שקופית קודמת",
+  "next_slide": "השקופית הבאה",
+  "close": "לִסְגוֹר",
+  "previous": "קוֹדֵם",
+  "more_pages": "דפים נוספים",
+  "pagination": "דִפּוּף",
+  "go_to_previous_page": "עבור לעמוד הקודם",
+  "go_to_next_page": "עבור לעמוד הבא",
+  "toggle_sidebar": "הפעלה/כיבוי סרגל צד",
+  "welcome_to_your_blank_app": "ברוכים הבאים לאפליקציה הריקה שלכם",
+  "start_building_your_amazing_project_here": "התחילו לבנות את הפרויקט המדהים שלכם כאן!"
 }

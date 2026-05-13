@@ -128,7 +128,31 @@
     "back": "Geri",
     "next": "Sonraki",
     "save": "Kaydetmek",
-    "loading": "Yükleniyor..."
+    "loading": "Yükleniyor...",
+    "share": "Paylaşmak",
+    "share_progress": "İlerlemenizi Paylaşın",
+    "inspire_others": "Bugün başkalarına ilham verin.",
+    "share_text": "Bu aktiviteyi ({{activityName}}) TherapyMantra'da yaptım ve gerçekten çok beğendim, siz de yapabilirsiniz, sadece Android uygulamasına ({{androidUrl}}) veya iOS uygulamasına ({{iosUrl}}) giden bağlantıyı takip edin.",
+    "this_activity": "bu aktivite",
+    "copied": "Kopyalandı!",
+    "copy_message": "Mesajı Kopyala"
   },
-  "app_description": "Uyku Döngüsü Rehberi"
+  "app_description": "Uyku Döngüsü Rehberi",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(prev + 1, TOTAL_SCREENS - 1));\n\nconst goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\nconst screens = [",
+  "it_s_not_about": "Konu bu değil",
+  "it_s_about": "Konu şu:",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Alarm sesiyle derin uykunuzdan mı uyandırıldınız? Beyniniz kelimenin tam anlamıyla yapmakta olduğu işi henüz bitirmedi. O bulanık, ağır his? İşte o...",
+  "more": "Daha",
+  "breadcrumb": "ekmek kırıntısı",
+  "previous_slide": "Önceki slayt",
+  "next_slide": "Sonraki slayt",
+  "close": "Kapalı",
+  "previous": "Öncesi",
+  "more_pages": "Daha fazla sayfa",
+  "pagination": "sayfalama",
+  "go_to_previous_page": "Önceki sayfaya git",
+  "go_to_next_page": "Sonraki sayfaya git",
+  "toggle_sidebar": "Kenar Çubuğunu Aç/Kapat",
+  "oops_page_not_found": "Ups! Sayfa bulunamadı.",
+  "return_to_home": "Ana sayfaya dön"
 }

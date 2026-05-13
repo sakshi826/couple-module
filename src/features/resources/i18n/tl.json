@@ -44,7 +44,14 @@
     "back": "Balik",
     "next": "Susunod",
     "save": "I-save",
-    "loading": "Naglo-load..."
+    "loading": "Naglo-load...",
+    "share": "Ibahagi",
+    "share_progress": "Ibahagi ang Pag-unlad",
+    "inspire_others": "Magbigay-inspirasyon sa iba ngayon",
+    "share_text": "Ginawa ko na ito {{activityName}} sa TherapyMantra at talagang nasiyahan ako rito. Kaya mo rin itong gawin. Sundan lang ang link papunta sa android app {{androidUrl}} o ios app {{iosUrl}}.",
+    "this_activity": "aktibidad na ito",
+    "copied": "Kinopya!",
+    "copy_message": "Kopyahin ang Mensahe"
   },
   "app_description": "Mga Mapagkukunan",
   "concerns": {

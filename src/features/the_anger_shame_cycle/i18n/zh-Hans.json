@@ -79,7 +79,27 @@
     "back": "后退",
     "next": "下一个",
     "save": "节省",
-    "loading": "加载中..."
+    "loading": "加载中...",
+    "share": "分享",
+    "share_progress": "分享进度",
+    "inspire_others": "今天激励他人",
+    "share_text": "我在 TherapyMantra 上完成了这个 {{activityName}} 活动，非常喜欢，你也试试吧，只需点击链接下载安卓应用 {{androidUrl}} 或 iOS 应用 {{iosUrl}}。",
+    "this_activity": "这项活动",
+    "copied": "已复制！",
+    "copy_message": "复制消息"
   },
-  "app_description": "理解循环 • {{step}}/{{total}}"
+  "app_description": "理解循环 • {{step}}/{{total}}",
+  "more": "更多的",
+  "breadcrumb": "面包屑",
+  "previous_slide": "上一张幻灯片",
+  "next_slide": "下一张幻灯片",
+  "close": "关闭",
+  "previous": "以前的",
+  "more_pages": "更多页面",
+  "pagination": "分页",
+  "go_to_previous_page": "返回上一页",
+  "go_to_next_page": "前往下一页",
+  "toggle_sidebar": "切换侧边栏",
+  "oops_page_not_found": "糟糕！页面未找到",
+  "return_to_home": "返回首页"
 }

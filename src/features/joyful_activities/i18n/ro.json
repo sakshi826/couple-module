@@ -52,7 +52,14 @@
     "back": "Spate",
     "next": "Următorul",
     "save": "Salva",
-    "loading": "Încărcare..."
+    "loading": "Încărcare...",
+    "share": "Distribuie",
+    "share_progress": "Distribuiți progresul",
+    "inspire_others": "Inspiră-i pe alții astăzi",
+    "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
+    "this_activity": "această activitate",
+    "copied": "Copiat!",
+    "copy_message": "Copiați mesajul"
   },
   "app_complete_title": "Bucuria Păstrată",
   "app_complete_message": "Ai reușit să-ți amintești și să te conectezi cu o sursă de bucurie. Păstrează acest sentiment cu tine pe parcursul zilei.",
@@ -61,5 +68,19 @@
   "app_description": "Redescoperind momente pline de bucurie",
   "intro_p1": "Când te simți deprimat, anxios sau copleșit, poate fi greu să-ți amintești ce îți aduce bucurie.",
   "intro_p2": "Această activitate nu este despre a face mai mult. Este vorba despre a observa micile momente care par ușoare, calme sau semnificative.",
-  "intro_p3": "Nu există nicio presiune pentru a ne simți fericiți. Pur și simplu explorăm ceea ce ne face să ne simțim chiar și ușor bine."
+  "intro_p3": "Nu există nicio presiune pentru a ne simți fericiți. Pur și simplu explorăm ceea ce ne face să ne simțim chiar și ușor bine.",
+  "complete_activity": "Activitate completă",
+  "more": "Mai mult",
+  "breadcrumb": "pesmet",
+  "previous_slide": "Diapozitivul anterior",
+  "next_slide": "Diapozitivul următor",
+  "close": "Aproape",
+  "previous": "Anterior",
+  "more_pages": "Mai multe pagini",
+  "pagination": "paginare",
+  "go_to_previous_page": "Mergi la pagina anterioară",
+  "go_to_next_page": "Mergi la pagina următoare",
+  "toggle_sidebar": "Comutare bară laterală",
+  "oops_page_not_found": "Oops! Pagina nu a fost găsită.",
+  "return_to_home": "Întoarcerea acasă"
 }

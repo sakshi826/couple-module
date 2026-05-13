@@ -171,7 +171,28 @@
     "back": "Zadní",
     "next": "Další",
     "save": "Uložit",
-    "loading": "Načítání..."
+    "loading": "Načítání...",
+    "share": "Podíl",
+    "share_progress": "Sdílet pokrok",
+    "inspire_others": "Inspirujte ostatní ještě dnes",
+    "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu mě baví, můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
+    "this_activity": "tato aktivita",
+    "copied": "Zkopírováno!",
+    "copy_message": "Kopírovat zprávu"
   },
-  "app_description": "Zkontrolujte se sami"
+  "app_description": "Zkontrolujte se sami",
+  "past_reflections": "Minulé úvahy",
+  "more": "Více",
+  "breadcrumb": "strouhanka",
+  "previous_slide": "Předchozí snímek",
+  "next_slide": "Další snímek",
+  "close": "Blízko",
+  "previous": "Předchozí",
+  "more_pages": "Více stránek",
+  "pagination": "stránkování",
+  "go_to_previous_page": "Přejít na předchozí stránku",
+  "go_to_next_page": "Přejít na další stránku",
+  "toggle_sidebar": "Přepnout postranní panel",
+  "oops_page_not_found": "Jejda! Stránka nenalezena.",
+  "return_to_home": "Návrat domů"
 }

@@ -28,7 +28,14 @@
     "back": "뒤쪽에",
     "next": "다음",
     "save": "구하다",
-    "loading": "로딩 중..."
+    "loading": "로딩 중...",
+    "share": "공유하다",
+    "share_progress": "진행 상황 공유",
+    "inspire_others": "오늘 다른 사람들에게 영감을 주세요",
+    "share_text": "저는 TherapyMantra에서 {{activityName}} 활동을 해봤는데 정말 좋았어요. 여러분도 해보세요. 안드로이드 앱 {{androidUrl}} 또는 iOS 앱 {{iosUrl}} 링크를 따라가시면 됩니다.",
+    "this_activity": "이 활동",
+    "copied": "복사했어요!",
+    "copy_message": "메시지 복사"
   },
   "app_title": "박스 브리스킹",
   "app_complete_title": "정말 잘했어요!",
@@ -37,5 +44,17 @@
   "intro_p1": "4초 동안 숨을 들이쉬세요",
   "intro_p2": "4초 동안 유지하세요",
   "intro_p3": "4초 동안 숨을 내쉬세요",
-  "app_description": "박스 호흡법은 4-4-4-4 패턴(숨을 들이쉬고, 멈추고, 내쉬고, 다시 멈추는 것을 각각 4초씩)을 사용합니다. 이는 부교감 신경계를 활성화하여 스트레스를 줄이고 차분하고 집중된 상태로 되돌려줍니다."
+  "app_description": "박스 호흡법은 4-4-4-4 패턴(숨을 들이쉬고, 멈추고, 내쉬고, 다시 멈추는 것을 각각 4초씩)을 사용합니다. 이는 부교감 신경계를 활성화하여 스트레스를 줄이고 차분하고 집중된 상태로 되돌려줍니다.",
+  "language": "언어",
+  "more": "더",
+  "breadcrumb": "빵가루",
+  "previous_slide": "이전 슬라이드",
+  "next_slide": "다음 슬라이드",
+  "close": "닫다",
+  "previous": "이전의",
+  "more_pages": "더 많은 페이지",
+  "pagination": "쪽수 매기기",
+  "go_to_previous_page": "이전 페이지로 이동",
+  "go_to_next_page": "다음 페이지로 이동",
+  "toggle_sidebar": "사이드바 토글"
 }

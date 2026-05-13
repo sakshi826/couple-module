@@ -243,7 +243,31 @@
     "back": "Spate",
     "next": "Următorul",
     "save": "Salva",
-    "loading": "Încărcare..."
+    "loading": "Încărcare...",
+    "share": "Distribuie",
+    "share_progress": "Distribuiți progresul",
+    "inspire_others": "Inspiră-i pe alții astăzi",
+    "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
+    "this_activity": "această activitate",
+    "copied": "Copiat!",
+    "copy_message": "Copiați mesajul"
   },
-  "app_description": "Reparații și reconectare"
+  "app_description": "Reparații și reconectare",
+  "that_s_a_step_forward": "Acesta este un pas înainte",
+  "you_took_a_small_step_toward_repair_and_that_matte": "Ai făcut un mic pas spre reparație - și asta contează.",
+  "try_with_someone_else": "Încearcă cu altcineva",
+  "done": "Gata ✔",
+  "more": "Mai mult",
+  "breadcrumb": "pesmet",
+  "previous_slide": "Diapozitivul anterior",
+  "next_slide": "Diapozitivul următor",
+  "close": "Aproape",
+  "previous": "Anterior",
+  "more_pages": "Mai multe pagini",
+  "pagination": "paginare",
+  "go_to_previous_page": "Mergi la pagina anterioară",
+  "go_to_next_page": "Mergi la pagina următoare",
+  "toggle_sidebar": "Comutare bară laterală",
+  "oops_page_not_found": "Oops! Pagina nu a fost găsită.",
+  "return_to_home": "Întoarcerea acasă"
 }

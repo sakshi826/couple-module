@@ -26,7 +26,14 @@
     "back": "پیچھے",
     "next": "اگلا",
     "save": "محفوظ کریں۔",
-    "loading": "لوڈ ہو رہا ہے..."
+    "loading": "لوڈ ہو رہا ہے...",
+    "share": "شیئر کریں۔",
+    "share_progress": "پیش رفت کا اشتراک کریں",
+    "inspire_others": "آج دوسروں کو متاثر کریں۔",
+    "share_text": "میں نے یہ {{activityName}} TherapyMantra میں کیا ہے اور واقعی اس سے لطف اندوز ہوں آپ بھی کر سکتے ہیں بس android ایپ {{androidUrl}} یا ios ایپ {{iosUrl}} کے لنک پر عمل کریں۔",
+    "this_activity": "اس سرگرمی",
+    "copied": "نقل کیا گیا!",
+    "copy_message": "پیغام کاپی کریں۔"
   },
   "mood": {
     "heading": "کیسا محسوس کر رہے ہو؟",
@@ -64,5 +71,24 @@
   "intro_p1": "اپنی جذباتی تندرستی کو بہتر بنائیں",
   "intro_p2": "مثبت چیزوں پر توجہ دیں۔",
   "intro_p3": "شکر گزاری کی مستقل عادت بنائیں",
-  "app_description": "شکریہ جرنل"
+  "app_description": "شکریہ جرنل",
+  "authenticating": "تصدیق کر رہا ہے۔",
+  "more": "مزید",
+  "breadcrumb": "بریڈ کرمب",
+  "previous_slide": "پچھلی سلائیڈ",
+  "next_slide": "اگلی سلائیڈ",
+  "close": "بند",
+  "previous": "پچھلا",
+  "more_pages": "مزید صفحات",
+  "pagination": "صفحہ بندی",
+  "go_to_previous_page": "پچھلے صفحے پر جائیں۔",
+  "go_to_next_page": "اگلے صفحے پر جائیں۔",
+  "toggle_sidebar": "سائڈبار کو ٹوگل کریں۔",
+  "retry": "دوبارہ کوشش کریں۔",
+  "relive_your_moments": "اپنے لمحات کو زندہ کریں۔",
+  "select_a_date_to_relive_gratitude": "شکریہ ادا کرنے کے لیے ایک تاریخ منتخب کریں۔",
+  "create_new_entry": "نئی اندراج بنائیں",
+  "oops_page_not_found": "افوہ! صفحہ نہیں ملا",
+  "return_to_home": "گھر واپس جائیں۔",
+  "loading_entry": "اندراج لوڈ ہو رہا ہے..."
 }

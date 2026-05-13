@@ -26,7 +26,14 @@
     "back": "กลับ",
     "next": "ต่อไป",
     "save": "บันทึก",
-    "loading": "กำลังโหลด..."
+    "loading": "กำลังโหลด...",
+    "share": "แบ่งปัน",
+    "share_progress": "แชร์ความคืบหน้า",
+    "inspire_others": "สร้างแรงบันดาลใจให้ผู้อื่นในวันนี้",
+    "share_text": "ฉันได้ทำกิจกรรมนี้ {{activityName}} ใน TherapyMantra แล้วและรู้สึกสนุกมาก คุณก็ลองทำได้เช่นกัน เพียงแค่คลิกลิงก์ไปยังแอป Android {{androidUrl}} หรือแอป iOS {{iosUrl}}",
+    "this_activity": "กิจกรรมนี้",
+    "copied": "คัดลอกแล้ว!",
+    "copy_message": "คัดลอกข้อความ"
   },
   "mood": {
     "heading": "คุณรู้สึกอย่างไรบ้าง?",
@@ -64,5 +71,24 @@
   "intro_p1": "พัฒนาสุขภาวะทางอารมณ์ของคุณให้ดียิ่งขึ้น",
   "intro_p2": "จงมุ่งเน้นไปที่สิ่งดีๆ",
   "intro_p3": "สร้างนิสัยแห่งความกตัญญูที่ยั่งยืน",
-  "app_description": "สมุดบันทึกความกตัญญู"
+  "app_description": "สมุดบันทึกความกตัญญู",
+  "authenticating": "กำลังตรวจสอบสิทธิ์",
+  "more": "มากกว่า",
+  "breadcrumb": "เศษขนมปัง",
+  "previous_slide": "สไลด์ก่อนหน้า",
+  "next_slide": "สไลด์ถัดไป",
+  "close": "ปิด",
+  "previous": "ก่อนหน้า",
+  "more_pages": "หน้าเพิ่มเติม",
+  "pagination": "การแบ่งหน้า",
+  "go_to_previous_page": "ไปยังหน้าก่อนหน้า",
+  "go_to_next_page": "ไปยังหน้าถัดไป",
+  "toggle_sidebar": "สลับแถบด้านข้าง",
+  "retry": "ลองใหม่อีกครั้ง",
+  "relive_your_moments": "หวนรำลึกถึงช่วงเวลาของคุณ",
+  "select_a_date_to_relive_gratitude": "เลือกวันที่คุณอยากระลึกถึงความรู้สึกขอบคุณ",
+  "create_new_entry": "สร้างรายการใหม่",
+  "oops_page_not_found": "ขออภัย! ไม่พบหน้าเว็บ",
+  "return_to_home": "กลับสู่หน้าแรก",
+  "loading_entry": "กำลังโหลดข้อมูล..."
 }

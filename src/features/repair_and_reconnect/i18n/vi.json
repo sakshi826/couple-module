@@ -243,7 +243,31 @@
     "back": "Mặt sau",
     "next": "Kế tiếp",
     "save": "Cứu",
-    "loading": "Đang tải..."
+    "loading": "Đang tải...",
+    "share": "Chia sẻ",
+    "share_progress": "Chia sẻ tiến độ",
+    "inspire_others": "Hãy truyền cảm hứng cho người khác ngay hôm nay!",
+    "share_text": "Tôi đã thực hiện hoạt động này {{activityName}} trên TherapyMantra và thực sự rất thích, bạn cũng có thể làm được, chỉ cần theo liên kết đến ứng dụng Android {{androidUrl}} hoặc ứng dụng iOS {{iosUrl}}.",
+    "this_activity": "hoạt động này",
+    "copied": "Đã sao chép!",
+    "copy_message": "Sao chép tin nhắn"
   },
-  "app_description": "Sửa chữa và kết nối lại"
+  "app_description": "Sửa chữa và kết nối lại",
+  "that_s_a_step_forward": "Đó là một bước tiến",
+  "you_took_a_small_step_toward_repair_and_that_matte": "Bạn đã thực hiện một bước nhỏ hướng tới việc sửa chữa—và điều đó rất quan trọng.",
+  "try_with_someone_else": "Hãy thử với người khác xem sao.",
+  "done": "Hoàn tất ✔",
+  "more": "Hơn",
+  "breadcrumb": "vụn bánh mì",
+  "previous_slide": "Trang trước",
+  "next_slide": "Trang chiếu tiếp theo",
+  "close": "Đóng",
+  "previous": "Trước",
+  "more_pages": "Thêm trang",
+  "pagination": "đánh số trang",
+  "go_to_previous_page": "Quay lại trang trước",
+  "go_to_next_page": "Chuyển sang trang tiếp theo",
+  "toggle_sidebar": "Ẩn/Hiện thanh bên",
+  "oops_page_not_found": "Ôi! Không tìm thấy trang!",
+  "return_to_home": "Trở về Trang chủ"
 }

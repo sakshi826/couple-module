@@ -128,7 +128,31 @@
     "back": "ফিরে যান",
     "next": "পরবর্তী",
     "save": "সংরক্ষণ করুন",
-    "loading": "লোড হচ্ছে..."
+    "loading": "লোড হচ্ছে...",
+    "share": "শেয়ার",
+    "share_progress": "শেয়ার অগ্রগতি",
+    "inspire_others": "আজ অন্যদের অনুপ্রাণিত করুন",
+    "share_text": "আমি থেরাপিমন্ত্রা-তে এই {{activityName}} কাজটি করেছি এবং এটি আমার খুব ভালো লেগেছে, আপনিও এটি করতে পারেন। এর জন্য শুধু অ্যান্ড্রয়েড অ্যাপ {{androidUrl}} অথবা আইওএস অ্যাপ {{iosUrl}} এর লিঙ্কটি অনুসরণ করুন।",
+    "this_activity": "এই কার্যকলাপ",
+    "copied": "অনুলিপি করা হয়েছে!",
+    "copy_message": "বার্তা কপি করুন"
   },
-  "app_description": "ঘুমের চক্র নির্দেশিকা"
+  "app_description": "ঘুমের চক্র নির্দেশিকা",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(prev + 1, TOTAL_SCREENS - 1));\n\nconst goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\nconst screens = [",
+  "it_s_not_about": "এটা সম্পর্কে নয়",
+  "it_s_about": "এটা সম্পর্কে",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "অ্যালার্মের শব্দে গভীর ঘুম থেকে জেগে উঠলেন? আপনার মস্তিষ্ক আসলেই তার কাজ শেষ করেনি। ওই যে ধোঁয়াটে ভারী অনুভূতিটা? ওটা হলো...",
+  "more": "আরও",
+  "breadcrumb": "রুটির গুঁড়ো",
+  "previous_slide": "পূর্ববর্তী স্লাইড",
+  "next_slide": "পরবর্তী স্লাইড",
+  "close": "বন্ধ করুন",
+  "previous": "পূর্ববর্তী",
+  "more_pages": "আরও পৃষ্ঠা",
+  "pagination": "পৃষ্ঠা সংখ্যা",
+  "go_to_previous_page": "পূর্ববর্তী পৃষ্ঠায় যান",
+  "go_to_next_page": "পরবর্তী পৃষ্ঠায় যান",
+  "toggle_sidebar": "সাইডবার টগল করুন",
+  "oops_page_not_found": "ওহ! পৃষ্ঠাটি খুঁজে পাওয়া যায়নি।",
+  "return_to_home": "হোমপেজে ফিরে যান"
 }

@@ -26,7 +26,14 @@
     "back": "Dos",
     "next": "Suivant",
     "save": "Sauvegarder",
-    "loading": "Chargement..."
+    "loading": "Chargement...",
+    "share": "Partager",
+    "share_progress": "Partager les progrès",
+    "inspire_others": "Inspirez les autres aujourd'hui",
+    "share_text": "J'ai réalisé cette activité {{activityName}} sur TherapyMantra et j'ai beaucoup apprécié. Vous pouvez la faire aussi ; il suffit de suivre le lien vers l'application Android {{androidUrl}} ou l'application iOS {{iosUrl}}.",
+    "this_activity": "cette activité",
+    "copied": "Copié !",
+    "copy_message": "Copier le message"
   },
   "mood": {
     "heading": "Comment te sens-tu?",
@@ -64,5 +71,24 @@
   "intro_p1": "Améliorez votre bien-être émotionnel",
   "intro_p2": "Concentrez-vous sur les aspects positifs.",
   "intro_p3": "Cultivez une habitude durable de gratitude",
-  "app_description": "Journal de gratitude"
+  "app_description": "Journal de gratitude",
+  "authenticating": "Authentification",
+  "more": "Plus",
+  "breadcrumb": "chapelure",
+  "previous_slide": "Diapositive précédente",
+  "next_slide": "Diapositive suivante",
+  "close": "Fermer",
+  "previous": "Précédent",
+  "more_pages": "Plus de pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Aller à la page précédente",
+  "go_to_next_page": "Passer à la page suivante",
+  "toggle_sidebar": "Afficher/masquer la barre latérale",
+  "retry": "Réessayer",
+  "relive_your_moments": "Revivez vos moments",
+  "select_a_date_to_relive_gratitude": "Choisissez une date pour revivre votre gratitude",
+  "create_new_entry": "Créer une nouvelle entrée",
+  "oops_page_not_found": "Oups ! Page introuvable",
+  "return_to_home": "Retour à l'accueil",
+  "loading_entry": "Chargement de l'entrée..."
 }

@@ -26,7 +26,14 @@
     "back": "Mặt sau",
     "next": "Kế tiếp",
     "save": "Cứu",
-    "loading": "Đang tải..."
+    "loading": "Đang tải...",
+    "share": "Chia sẻ",
+    "share_progress": "Chia sẻ tiến độ",
+    "inspire_others": "Hãy truyền cảm hứng cho người khác ngay hôm nay!",
+    "share_text": "Tôi đã thực hiện hoạt động này {{activityName}} trên TherapyMantra và thực sự rất thích, bạn cũng có thể làm được, chỉ cần theo liên kết đến ứng dụng Android {{androidUrl}} hoặc ứng dụng iOS {{iosUrl}}.",
+    "this_activity": "hoạt động này",
+    "copied": "Đã sao chép!",
+    "copy_message": "Sao chép tin nhắn"
   },
   "mood": {
     "heading": "Bạn cảm thấy thế nào?",
@@ -64,5 +71,24 @@
   "intro_p1": "Cải thiện sức khỏe tinh thần của bạn",
   "intro_p2": "Hãy tập trung vào những điều tích cực.",
   "intro_p3": "Hãy xây dựng thói quen biết ơn lâu dài.",
-  "app_description": "Nhật ký lòng biết ơn"
+  "app_description": "Nhật ký lòng biết ơn",
+  "authenticating": "Xác thực",
+  "more": "Hơn",
+  "breadcrumb": "vụn bánh mì",
+  "previous_slide": "Trang trước",
+  "next_slide": "Trang chiếu tiếp theo",
+  "close": "Đóng",
+  "previous": "Trước",
+  "more_pages": "Thêm trang",
+  "pagination": "đánh số trang",
+  "go_to_previous_page": "Quay lại trang trước",
+  "go_to_next_page": "Chuyển sang trang tiếp theo",
+  "toggle_sidebar": "Ẩn/Hiện thanh bên",
+  "retry": "Thử lại",
+  "relive_your_moments": "Hãy sống lại những khoảnh khắc của bạn",
+  "select_a_date_to_relive_gratitude": "Chọn một ngày để hồi tưởng lại lòng biết ơn",
+  "create_new_entry": "Tạo mục mới",
+  "oops_page_not_found": "Ôi! Không tìm thấy trang!",
+  "return_to_home": "Trở về Trang chủ",
+  "loading_entry": "Đang tải mục nhập..."
 }

@@ -3,7 +3,7 @@ const path = require('path');
 const axios = require('axios');
 require('dotenv').config();
 
-const API_KEY = process.env.AZURE_TRANSLATOR_KEY;
+const API_KEY = process.env.GOOGLE_TRANSLATOR_KEY;
 const ENDPOINT = 'https://translation.googleapis.com/language/translate/v2';
 
 const dataDir = path.join(__dirname, '..', 'src', 'features', 'resources', 'data');
@@ -105,6 +105,8 @@ async function translateResourceFile(lang) {
                 } else {
                     console.error(`Skipping batch due to error in ${lang}`);
                 }
+                // Delay to avoid rate limits
+                await new Promise(resolve => setTimeout(resolve, 300));
             }
             if (i % 10 === 0) console.log(`    Processed ${i}/${items.length} items...`);
         }

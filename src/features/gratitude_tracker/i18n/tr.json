@@ -26,7 +26,14 @@
     "back": "Geri",
     "next": "Sonraki",
     "save": "Kaydetmek",
-    "loading": "Yükleniyor..."
+    "loading": "Yükleniyor...",
+    "share": "Paylaşmak",
+    "share_progress": "İlerlemenizi Paylaşın",
+    "inspire_others": "Bugün başkalarına ilham verin.",
+    "share_text": "Bu aktiviteyi ({{activityName}}) TherapyMantra'da yaptım ve gerçekten çok beğendim, siz de yapabilirsiniz, sadece Android uygulamasına ({{androidUrl}}) veya iOS uygulamasına ({{iosUrl}}) giden bağlantıyı takip edin.",
+    "this_activity": "bu aktivite",
+    "copied": "Kopyalandı!",
+    "copy_message": "Mesajı Kopyala"
   },
   "mood": {
     "heading": "Nasıl hissediyorsun?",
@@ -64,5 +71,24 @@
   "intro_p1": "Duygusal sağlığınızı iyileştirin",
   "intro_p2": "Olumlu şeylere odaklanın",
   "intro_p3": "Minnettarlığı kalıcı bir alışkanlık haline getirin.",
-  "app_description": "Şükran Günlüğü"
+  "app_description": "Şükran Günlüğü",
+  "authenticating": "Kimlik doğrulama",
+  "more": "Daha",
+  "breadcrumb": "ekmek kırıntısı",
+  "previous_slide": "Önceki slayt",
+  "next_slide": "Sonraki slayt",
+  "close": "Kapalı",
+  "previous": "Öncesi",
+  "more_pages": "Daha fazla sayfa",
+  "pagination": "sayfalama",
+  "go_to_previous_page": "Önceki sayfaya git",
+  "go_to_next_page": "Sonraki sayfaya git",
+  "toggle_sidebar": "Kenar Çubuğunu Aç/Kapat",
+  "retry": "Tekrar dene",
+  "relive_your_moments": "Anılarınızı yeniden yaşayın",
+  "select_a_date_to_relive_gratitude": "Şükran duygusunu yeniden yaşamak için bir tarih seçin.",
+  "create_new_entry": "Yeni Giriş Oluştur",
+  "oops_page_not_found": "Ups! Sayfa bulunamadı.",
+  "return_to_home": "Ana sayfaya dön",
+  "loading_entry": "Giriş yükleniyor..."
 }

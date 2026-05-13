@@ -34,11 +34,31 @@
     "back": "Kembali",
     "next": "Berikutnya",
     "save": "Menyimpan",
-    "loading": "Memuat..."
+    "loading": "Memuat...",
+    "share": "Membagikan",
+    "share_progress": "Bagikan Kemajuan",
+    "inspire_others": "Berikan inspirasi kepada orang lain hari ini.",
+    "share_text": "Saya telah melakukan {{activityName}} ini di TherapyMantra dan sangat menikmatinya, Anda juga bisa melakukannya, cukup ikuti tautan ke aplikasi Android {{androidUrl}} atau aplikasi iOS {{iosUrl}}",
+    "this_activity": "aktivitas ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Pesan"
   },
   "app_duration": "3-5 menit",
   "intro_p1": "Menenangkan sistem saraf",
   "intro_p2": "Mengurangi stres langsung",
   "intro_p3": "Meningkatkan fokus dan kejernihan pikiran",
-  "app_description": "\"Tenangkan tubuhmu. Tenangkan pikiranmu.\""
+  "app_description": "\"Tenangkan tubuhmu. Tenangkan pikiranmu.\"",
+  "more": "Lagi",
+  "breadcrumb": "remah roti",
+  "previous_slide": "Slide sebelumnya",
+  "next_slide": "Slide berikutnya",
+  "close": "Menutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Halaman lainnya",
+  "pagination": "penomoran halaman",
+  "go_to_previous_page": "Kembali ke halaman sebelumnya",
+  "go_to_next_page": "Lanjut ke halaman berikutnya",
+  "toggle_sidebar": "Alihkan Sidebar",
+  "welcome_to_your_blank_app": "Selamat datang di Aplikasi Kosong Anda",
+  "start_building_your_amazing_project_here": "Mulailah membangun proyek menakjubkan Anda di sini!"
 }

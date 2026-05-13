@@ -52,7 +52,14 @@
     "back": "後退",
     "next": "下一個",
     "save": "節省",
-    "loading": "載入中..."
+    "loading": "載入中...",
+    "share": "分享",
+    "share_progress": "分享進度",
+    "inspire_others": "今天激勵他人",
+    "share_text": "我在 TherapyMantra 上完成了這個 {{activityName}} 活動，非常喜歡，你也試試看吧，只需點擊連結下載安卓應用程式 {{androidUrl}} 或 iOS 應用程式 {{iosUrl}}。",
+    "this_activity": "這項活動",
+    "copied": "已複製！",
+    "copy_message": "複製訊息"
   },
   "app_complete_title": "喜悅永存",
   "app_complete_message": "你已經成功回憶起並聯繫上了快樂的來源。帶著這種感覺度過你的一天吧。",
@@ -61,5 +68,19 @@
   "app_description": "重拾快樂時光",
   "intro_p1": "當你情緒低落、焦慮或不知所措時，很難想起什麼能帶給你快樂。",
   "intro_p2": "這項活動並非旨在增加工作量，而是為了留意那些讓人感到輕鬆、平靜或有意義的細微時刻。",
-  "intro_p3": "沒有一定要感到快樂的壓力。我們只是在探索什麼會讓人感覺哪怕只有一點點美好。"
+  "intro_p3": "沒有一定要感到快樂的壓力。我們只是在探索什麼會讓人感覺哪怕只有一點點美好。",
+  "complete_activity": "完成活動",
+  "more": "更多的",
+  "breadcrumb": "麵包屑",
+  "previous_slide": "上一張投影片",
+  "next_slide": "下一張投影片",
+  "close": "關閉",
+  "previous": "以前的",
+  "more_pages": "更多頁面",
+  "pagination": "分頁",
+  "go_to_previous_page": "回上一頁",
+  "go_to_next_page": "前往下一頁",
+  "toggle_sidebar": "切換側邊欄",
+  "oops_page_not_found": "糟糕！頁面未找到",
+  "return_to_home": "回首頁"
 }

@@ -45,11 +45,31 @@
     "back": "Mặt sau",
     "next": "Kế tiếp",
     "save": "Cứu",
-    "loading": "Đang tải..."
+    "loading": "Đang tải...",
+    "share": "Chia sẻ",
+    "share_progress": "Chia sẻ tiến độ",
+    "inspire_others": "Hãy truyền cảm hứng cho người khác ngay hôm nay!",
+    "share_text": "Tôi đã thực hiện hoạt động này {{activityName}} trên TherapyMantra và thực sự rất thích, bạn cũng có thể làm được, chỉ cần theo liên kết đến ứng dụng Android {{androidUrl}} hoặc ứng dụng iOS {{iosUrl}}.",
+    "this_activity": "hoạt động này",
+    "copied": "Đã sao chép!",
+    "copy_message": "Sao chép tin nhắn"
   },
   "app_title": "5-4-3-2-1 Nối đất",
   "intro_p1": "Giảm lo âu nhanh chóng",
   "intro_p2": "Đưa bạn trở lại hiện tại",
   "intro_p3": "Làm dịu tâm trí đang xáo trộn",
-  "app_description": "5-4-3-2-1 Nối đất"
+  "app_description": "5-4-3-2-1 Nối đất",
+  "more": "Hơn",
+  "breadcrumb": "vụn bánh mì",
+  "previous_slide": "Trang trước",
+  "next_slide": "Trang chiếu tiếp theo",
+  "close": "Đóng",
+  "previous": "Trước",
+  "more_pages": "Thêm trang",
+  "pagination": "đánh số trang",
+  "go_to_previous_page": "Quay lại trang trước",
+  "go_to_next_page": "Chuyển sang trang tiếp theo",
+  "toggle_sidebar": "Ẩn/Hiện thanh bên",
+  "oops_page_not_found": "Ôi! Không tìm thấy trang!",
+  "return_to_home": "Trở về Trang chủ"
 }

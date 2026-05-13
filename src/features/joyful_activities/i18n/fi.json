@@ -52,7 +52,14 @@
     "back": "Takaisin",
     "next": "Seuraava",
     "save": "Tallentaa",
-    "loading": "Ladataan..."
+    "loading": "Ladataan...",
+    "share": "Jakaa",
+    "share_progress": "Jaa edistyminen",
+    "inspire_others": "Inspiroi muita tänään",
+    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
+    "this_activity": "tämä toiminta",
+    "copied": "Kopioitu!",
+    "copy_message": "Kopioi viesti"
   },
   "app_complete_title": "Ilo säilynyt",
   "app_complete_message": "Olet onnistuneesti muistanut ja yhdistynyt ilon lähteeseen. Pidä tämä tunne mukanasi päivän edetessä.",
@@ -61,5 +68,19 @@
   "app_description": "Iloisten hetkien uudelleen löytäminen",
   "intro_p1": "Kun olo on alakuloinen, ahdistunut tai alakuloinen, voi olla vaikea muistaa, mikä tuo iloa.",
   "intro_p2": "Tässä aktiviteetissa ei ole kyse enempään ryhtymisestä. Kyse on pienten hetkien huomaamisesta, jotka tuntuvat kevyiltä, rauhallisilta tai merkityksellisiltä.",
-  "intro_p3": "Ei ole mitään painetta tuntea oloaan onnelliseksi. Tutkimme vain sitä, mikä tuntuu edes vähän hyvältä."
+  "intro_p3": "Ei ole mitään painetta tuntea oloaan onnelliseksi. Tutkimme vain sitä, mikä tuntuu edes vähän hyvältä.",
+  "complete_activity": "Suorita aktiviteetti",
+  "more": "Lisää",
+  "breadcrumb": "navigointipolku",
+  "previous_slide": "Edellinen dia",
+  "next_slide": "Seuraava dia",
+  "close": "Lähellä",
+  "previous": "Edellinen",
+  "more_pages": "Lisää sivuja",
+  "pagination": "sivunumerointi",
+  "go_to_previous_page": "Siirry edelliselle sivulle",
+  "go_to_next_page": "Siirry seuraavalle sivulle",
+  "toggle_sidebar": "Näytä/piilota sivupalkki",
+  "oops_page_not_found": "Hupsista! Sivua ei löytynyt",
+  "return_to_home": "Palaa kotiin"
 }

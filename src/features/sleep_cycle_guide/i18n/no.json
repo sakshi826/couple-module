@@ -128,7 +128,31 @@
     "back": "Tilbake",
     "next": "Neste",
     "save": "Spare",
-    "loading": "Laster inn..."
+    "loading": "Laster inn...",
+    "share": "Dele",
+    "share_progress": "Del fremdrift",
+    "inspire_others": "Inspirer andre i dag",
+    "share_text": "Jeg har gjort dette med {{activityName}} i TherapyMantra og liker det veldig godt. Du kan også gjøre det. Bare følg lenken til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
+    "this_activity": "denne aktiviteten",
+    "copied": "Kopiert!",
+    "copy_message": "Kopier melding"
   },
-  "app_description": "Søvnsyklusguide"
+  "app_description": "Søvnsyklusguide",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(forrige + 1, TOTAL_SCREENS - 1));\nconst goBack = () => setGjeldendeSkjerm(forrige => Math.max(forrige - 1, 0));\n\nconst screens = [\n]",
+  "it_s_not_about": "Det handler ikke om",
+  "it_s_about": "Det handler om",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Dreget ut av dyp søvn av en alarm? Hjernen din har bokstavelig talt ikke fullført det den holdt på med. Den tåkete, tunge følelsen? Det er...",
+  "more": "Flere",
+  "breadcrumb": "brødsmuler",
+  "previous_slide": "Forrige lysbilde",
+  "next_slide": "Neste lysbilde",
+  "close": "Lukke",
+  "previous": "Tidligere",
+  "more_pages": "Flere sider",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå til forrige side",
+  "go_to_next_page": "Gå til neste side",
+  "toggle_sidebar": "Slå sidefeltet av/på",
+  "oops_page_not_found": "Ups! Siden ble ikke funnet",
+  "return_to_home": "Gå tilbake til hjemmet"
 }

@@ -100,7 +100,27 @@
     "back": "पीछे",
     "next": "अगला",
     "save": "बचाना",
-    "loading": "लोड हो रहा है..."
+    "loading": "लोड हो रहा है...",
+    "share": "शेयर करना",
+    "share_progress": "प्रगति साझा करें",
+    "inspire_others": "आज दूसरों को प्रेरित करें",
+    "share_text": "मैंने TherapyMantra में यह {{activityName}} गतिविधि की है और मुझे इसमें बहुत आनंद आया। आप भी इसे कर सकते हैं, बस एंड्रॉइड ऐप {{androidUrl}} या आईओएस ऐप {{iosUrl}} के लिंक पर क्लिक करें।",
+    "this_activity": "यह गतिविधि",
+    "copied": "कॉपी हो गया!",
+    "copy_message": "संदेश की प्रतिलिपि बनाएं"
   },
-  "app_description": "भविष्यवाणी बनाम वास्तविकता"
+  "app_description": "भविष्यवाणी बनाम वास्तविकता",
+  "more": "अधिक",
+  "breadcrumb": "ब्रेडक्रम्ब",
+  "previous_slide": "पिछली स्लाइड",
+  "next_slide": "अगली स्लाइड",
+  "close": "बंद करना",
+  "previous": "पहले का",
+  "more_pages": "और पेज",
+  "pagination": "पृष्ठ पर अंक लगाना",
+  "go_to_previous_page": "पिछले पृष्ठ पर जाएं",
+  "go_to_next_page": "अगले पृष्ठ पर जाएं",
+  "toggle_sidebar": "साइडबार टॉगल करें",
+  "oops_page_not_found": "ओह! पेज नहीं मिला",
+  "return_to_home": "घर पर वापस"
 }
