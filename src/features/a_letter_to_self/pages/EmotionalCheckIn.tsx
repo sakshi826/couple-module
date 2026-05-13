@@ -5,6 +5,8 @@ import { Check, Send, Heart } from "lucide-react";
 import { getEntries, saveEntry } from "../lib/letters";
 import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
+import { useTranslation } from "react-i18next";
+
 const EMOTIONS = [
   "I feel lighter than before.",
   "I feel emotional but supported.",
@@ -15,6 +17,7 @@ const EMOTIONS = [
 
 const EmotionalCheckIn = () => {
   const navigate = useNavigate();
+  const { t } = useTranslation();
   const location = useLocation();
   const entryId = (location.state as { entryId?: string })?.entryId;
   const [selected, setSelected] = useState<string | null>(null);

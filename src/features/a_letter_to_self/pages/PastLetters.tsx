@@ -15,8 +15,11 @@ import {
   AlertDialogTitle,
 } from "../components/ui/alert-dialog";
 
+import { useTranslation } from "react-i18next";
+
 const PastLetters = () => {
   const navigate = useNavigate();
+  const { t } = useTranslation();
   const [entries, setEntries] = useState<LetterEntry[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);

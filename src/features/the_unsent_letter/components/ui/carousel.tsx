@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import * as React from "react";
 import useEmblaCarousel, { type UseEmblaCarouselType } from "embla-carousel-react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
@@ -40,6 +41,7 @@ function useCarousel() {
 
 const Carousel = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement> & CarouselProps>(
   ({ orientation = "horizontal", opts, setApi, plugins, className, children, ...props }, ref) => {
+    const { t } = useTranslation();
     const [carouselRef, api] = useEmblaCarousel(
       {
         ...opts,
@@ -150,6 +152,7 @@ CarouselContent.displayName = "CarouselContent";
 
 const CarouselItem = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement>>(
   ({ className, ...props }, ref) => {
+    const { t } = useTranslation();
     const { orientation } = useCarousel();
 
     return (

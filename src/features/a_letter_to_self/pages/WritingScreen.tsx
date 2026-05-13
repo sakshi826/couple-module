@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { ChevronDown, Calendar, Check, Loader2, Sparkles, Send, Save } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { PremiumLayout } from "../../../components/shared/PremiumLayout";
+import { useTranslation } from "react-i18next";
 import {
   generateId,
   getCurrentDate,
@@ -22,6 +23,7 @@ const PROMPTS = [
 
 const WritingScreen = () => {
   const navigate = useNavigate();
+  const { t } = useTranslation();
   const [content, setContent] = useState("");
   const [inspirationOpen, setInspirationOpen] = useState(false);
   const [saveStatus, setSaveStatus] = useState<"idle" | "saving" | "saved">("idle");
