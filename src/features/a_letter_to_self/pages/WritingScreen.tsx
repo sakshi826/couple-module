@@ -12,17 +12,10 @@ import {
   type LetterEntry,
 } from "../lib/letters";
 
-const PROMPTS = [
-  "What have I been handling well lately?",
-  "What would I tell myself on a difficult day?",
-  "What strengths helped me get through recent stress?",
-  "What hope or encouragement do I need right now?",
-  "What would a kind friend say to me today?",
-  "What am I proud of, even quietly?",
-];
+
 
 const WritingScreen = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const [content, setContent] = useState("");
   const [inspirationOpen, setInspirationOpen] = useState(false);
@@ -38,6 +31,19 @@ const WritingScreen = () => {
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString(),
   });
+
+  const localizedPrompts = useMemo(() => {
+    const p = t('prompts', { returnObjects: true });
+    if (Array.isArray(p)) return p;
+    return [
+      "What have I been handling well lately?",
+      "What would I tell myself on a difficult day?",
+      "What strengths helped me get through recent stress?",
+      "What hope or encouragement do I need right now?",
+      "What would a kind friend say to me today?",
+      "What am I proud of, even quietly?",
+    ];
+  }, [t]);
 
   const doSave = useCallback(
     async (text: string) => {
@@ -68,7 +74,7 @@ const WritingScreen = () => {
     navigate("../check-in", { state: { entryId: entryRef.current.id }, replace: true });
   };
 
-  const currentDate = new Date().toLocaleDateString("en-US", {
+  const currentDate = new Date().toLocaleDateString(i18n.language || "en-US", {
     weekday: "long",
     year: "numeric",
     month: "long",
@@ -99,12 +105,12 @@ const WritingScreen = () => {
             >
               {saveStatus === "saving" && (
                 <span className="text-primary flex items-center gap-1.5">
-                  <Loader2 size={12} className="animate-spin" /> {(typeof t !== "undefined" ? t : (k) => k)('common.saving', 'Saving...')}
+                  <Loader2 size={12} className="animate-spin" /> {(typeof t !== "undefined" ? t : (k) => k)('common.saving')}
                 </span>
               )}
               {saveStatus === "saved" && (
                 <span className="text-emerald-500 flex items-center gap-1.5">
-                  <Check size={12} /> {(typeof t !== "undefined" ? t : (k) => k)('common.saved', 'Saved')}
+                  <Check size={12} /> {(typeof t !== "undefined" ? t : (k) => k)('common.saved')}
                 </span>
               )}
             </motion.div>
@@ -136,7 +142,7 @@ const WritingScreen = () => {
           >
             <div className="flex items-center gap-3 font-black text-slate-700 uppercase text-xs tracking-widest">
               <Sparkles className="text-primary" size={20} />
-              {(typeof t !== "undefined" ? t : (k) => k)('need_inspiration', 'Need some inspiration?')}
+              {(typeof t !== "undefined" ? t : (k) => k)('need_inspiration')}
             </div>
             <motion.div
               animate={{ rotate: inspirationOpen ? 180 : 0 }}
@@ -155,7 +161,7 @@ const WritingScreen = () => {
                 className="overflow-hidden"
               >
                 <div className="px-8 pb-8 grid gap-4">
-                  {PROMPTS.map((prompt) => (
+                  {localizedPrompts.map((prompt: string) => (
                     <motion.button
                       key={prompt}
                       whileHover={{ scale: 1.02, x: 8 }}

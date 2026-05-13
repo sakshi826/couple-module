@@ -1,65 +1,65 @@
 {
   "index": {
-    "tagline": "Atme tief durch 🌿.",
-    "title": "Managen Sie Ihren Stress",
-    "description": "Einfache tägliche Gewohnheiten, die dir helfen, dich ruhiger und kontrollierter zu fühlen.",
-    "sectionTitle": "Tägliche Tipps zur Stressbewältigung"
+    "tagline": "Tief durchatmen 🌿",
+    "title": "Stressmanagement",
+    "description": "Einfache, alltägliche Gewohnheiten, die Ihnen helfen, sich ruhiger und selbstbestimmter zu fühlen.",
+    "sectionTitle": "Tipps zur täglichen Stressbewältigung"
   },
   "tip": {
     "sleep": {
-      "title": "Schlaf erholsam",
-      "description": "Strebe jede Nacht 7–9 Stunden Schlaf an. Versuche, täglich zur gleichen Zeit zu schlafen und aufzuwachen.",
-      "why": "Schlaf hilft deinem Gehirn und Körper bei der Erholung und senkt Stresshormone.",
+      "title": "Gönnen Sie sich einen erholsamen Schlaf.",
+      "description": "Streben Sie 7–9 Stunden Schlaf pro Nacht an. Versuchen Sie, jeden Tag zur gleichen Zeit ins Bett zu gehen und aufzustehen.",
+      "why": "Schlaf hilft Gehirn und Körper, sich zu erholen und senkt den Spiegel der Stresshormone.",
       "do": [
-        "Halte einen festen Schlafrhythmus",
-        "Vermeide Bildschirme eine Stunde vor dem Schlafengehen",
-        "Halte das Zimmer kühl und dunkel",
-        "Vermeide Koffein nach 16 Uhr"
+        "Halten Sie einen festen Schlafrhythmus ein",
+        "Vermeiden Sie Bildschirme 1 Stunde vor dem Schlafengehen.",
+        "Das Zimmer sollte kühl und dunkel sein.",
+        "Vermeiden Sie Koffein nach 16 Uhr."
       ],
-      "button": "Schlaferinnerung einstellen"
+      "button": "Schlafenserinnerung einstellen"
     },
     "breathing": {
-      "title": "Übe tiefes Atmen",
-      "description": "Konzentrieren Sie sich ein paar Minuten auf Ihren Atem. Langsames Atmen reduziert die Angst.",
-      "why": "Langsames Atmen aktiviert die Entspannungsreaktion deines Körpers.",
+      "title": "Tiefes Atmen üben",
+      "description": "Konzentriere dich ein paar Minuten lang auf deine Atmung. Langsames Atmen reduziert Angstzustände.",
+      "why": "Langsames Atmen aktiviert die Entspannungsreaktion des Körpers.",
       "do": [
-        "Atme 4 Sekunden lang ein",
-        "4 Sekunden halten",
-        "Atme 4 Sekunden aus",
-        "Wiederhole das für 1 Minute"
+        "4 Sekunden lang einatmen.",
+        "4 Sekunden lang gedrückt halten",
+        "Atmen Sie 4 Sekunden lang aus.",
+        "Wiederholen Sie dies 1 Minute lang."
       ]
     },
     "exercise": {
-      "title": "Bewege deinen Körper",
-      "description": "Leichtes Spazierengehen oder Dehnen hilft, Stress abzubauen und die Stimmung zu verbessern.",
-      "why": "Bewegung setzt Endorphine frei und verbessert die Stimmung.",
+      "title": "Beweg deinen Körper",
+      "description": "Leichte Spaziergänge oder Dehnübungen helfen, Stress abzubauen und die Stimmung zu verbessern.",
+      "why": "Sport setzt Endorphine frei und verbessert die Stimmung.",
       "do": [
-        "15-minütiger Fußweg",
-        "Leichtes Dehnen",
-        "Kurze Yoga-Session",
-        "Schnelles Workout zu Hause"
+        "15 Minuten Fußweg",
+        "Leichte Dehnung",
+        "Kurze Yoga-Einheit",
+        "Kurzes Heimtraining"
       ]
     },
     "caffeine": {
       "title": "Koffein und Zucker einschränken",
-      "description": "Zu viel Koffein und Zucker kann Angst verstärken und den Schlaf stören.",
-      "why": "Zu viel Koffein und Zucker verstärkt Angst und Schlafprobleme.",
+      "description": "Zu viel Koffein und Zucker können Angstzustände verstärken und den Schlaf stören.",
+      "why": "Zu viel Koffein und Zucker verstärken Angstzustände und Schlafstörungen.",
       "do": [
-        "Ersetze einen Kaffee durch Kräutertee",
+        "Ersetzen Sie eine Tasse Kaffee durch Kräutertee",
         "Trink mehr Wasser",
-        "Reduziere zuckerhaltige Snacks",
-        "Vermeide Koffein spät am Tag"
+        "Zuckerhaltige Snacks reduzieren",
+        "Vermeiden Sie Koffein am späten Nachmittag oder Abend."
       ]
     },
     "planning": {
       "title": "Plane deinen Tag",
-      "description": "Teile große Aufgaben in kleinere Schritte auf, um nicht überfordert zu sein.",
-      "why": "Planung reduziert mentale Überlastung und Überforderung.",
+      "description": "Um ein Gefühl der Überforderung zu vermeiden, zerlegen Sie große Aufgaben in kleinere Schritte.",
+      "why": "Planung reduziert mentale Unordnung und Überforderung.",
       "do": [
-        "Schreibe 3 Hauptaufgaben",
-        "Teile Aufgaben in kleine Schritte auf",
-        "Konzentriere dich auf eine Aufgabe nach der anderen",
-        "Mach kurze Pausen"
+        "Nennen Sie 3 Hauptaufgaben",
+        "Aufgaben in kleine Schritte unterteilen",
+        "Konzentriere dich jeweils auf eine Aufgabe.",
+        "Machen Sie kurze Pausen."
       ]
     }
   },
@@ -67,27 +67,27 @@
     "back": "Zurück",
     "notFound": "Tipp nicht gefunden.",
     "whyTitle": "Warum es hilft",
-    "doTitle": "Was du tun kannst",
-    "reminderSet": "Erinnerung gesetzt! 🌙"
+    "doTitle": "Was Sie tun können",
+    "reminderSet": "Erinnerung eingestellt! 🌙"
   },
   "notFound": {
     "title": "404",
-    "message": "Ups! Seite nicht gefunden",
-    "return": "Rückkehr in die Heimat"
+    "message": "Hoppla! Seite nicht gefunden",
+    "return": "Zurück zur Startseite"
   },
   "mood": {
-    "title": "Wie fühlst du dich heute?",
+    "title": "Wie fühlen Sie sich heute?",
     "great": "Großartig",
     "okay": "Okay",
-    "stressed": "Gestresst",
-    "overwhelmed": "Überfordert"
+    "stressed": "Betont",
+    "overwhelmed": "Überwältigt"
   },
   "breathing": {
-    "inhale": "Einatmen...",
-    "hold": "Halt...",
-    "exhale": "Ausatmen...",
+    "inhale": "Einatmen…",
+    "hold": "Halten…",
+    "exhale": "Ausatmen…",
     "pause": "Pause",
-    "resume": "Lebenslauf"
+    "resume": "Wieder aufnehmen"
   },
   "common": {
     "get_started": "Los geht's",

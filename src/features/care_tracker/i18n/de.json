@@ -16,7 +16,12 @@
     "share_text": "Ich habe diese Aktivität {{activityName}} in TherapyMantra ausprobiert und finde sie richtig toll. Du kannst das auch machen! Folge einfach dem Link zur Android-App {{androidUrl}} oder zur iOS-App {{iosUrl}}.",
     "this_activity": "diese Aktivität",
     "copied": "Kopiert!",
-    "copy_message": "Nachricht kopieren"
+    "copy_message": "Nachricht kopieren",
+    "continue": "Weitermachen",
+    "home": "Zurück zur Startseite",
+    "yes": "Ja",
+    "no": "NEIN",
+    "date": "Datum"
   },
   "screens": {
     "intro": {
@@ -32,75 +37,75 @@
     },
     "checkin": {
       "title": "Selbstfürsorge-Check-in 🌿",
-      "subtitle": "Wie hast du dich heute gekümmert?",
-      "question": "Hast du heute Selbstfürsorge praktiziert? *",
-      "description": "Selbstfürsorge ist jede Tätigkeit, die wir bewusst tun, um unsere geistige, emotionale und körperliche Gesundheit zu schützen."
+      "subtitle": "Wie hast du dich heute um dich selbst gekümmert?",
+      "question": "Hast du heute etwas für dich selbst getan? *",
+      "description": "Selbstfürsorge ist jede Aktivität, die wir bewusst ausüben, um für unsere geistige, emotionale und körperliche Gesundheit zu sorgen."
     },
     "activities": {
-      "title": "Ihre Aktivitäten 🎯",
-      "subtitle": "Welche Selbstfürsorge-Aktivitäten hast du heute gemacht?"
+      "title": "Deine Aktivitäten 🎯",
+      "subtitle": "Welche Selbstfürsorgeaktivitäten haben Sie heute durchgeführt?"
     },
     "duration": {
-      "title": "Verbrachte ⏱️ Zeit",
-      "subtitle": "Wie lange hast du für Selbstfürsorge investiert? (optional)"
+      "title": "Zeitaufwand ⏱️",
+      "subtitle": "Wie viel Zeit haben Sie für Selbstfürsorge aufgewendet? (optional)"
     },
     "noSelfCare": {
-      "title": "Das ist in Ordnung 💛",
-      "subtitle": "Lass uns verstehen, was heute passiert ist.",
-      "question1": "Was hat heute Selbstfürsorge verhindert? (optional)",
+      "title": "Das ist okay 💛",
+      "subtitle": "Lasst uns verstehen, was heute passiert ist.",
+      "question1": "Was hat Sie heute an der Selbstfürsorge gehindert? (optional)",
       "question2": "Welche Art von Selbstfürsorge hätte geholfen? (optional)"
     },
     "mood": {
       "title": "Wie fühlst du dich? 🫧",
-      "subtitle": "Wählen Sie Ihre aktuelle Stimmung (optional)"
+      "subtitle": "Wählen Sie Ihre aktuelle Stimmung (optional)."
     },
     "review": {
       "title": "Dein Beitrag 📋",
-      "subtitle": "Hier ist eine Zusammenfassung des heutigen Check-ins",
-      "didSelfCare": "Hat sie sich um sich selbst gekümmert?",
+      "subtitle": "Hier ist eine Zusammenfassung des heutigen Check-ins.",
+      "didSelfCare": "Haben Sie sich um sich selbst gekümmert?",
       "activities": "Aktivitäten",
       "duration": "Dauer",
       "mood": "Stimmung",
       "challenges": "Verhindert durch",
       "whatHelps": "Hätte geholfen",
-      "viewHistory": "Wöchentliche Geschichte",
-      "editToday": "Beitrag bearbeiten",
+      "viewHistory": "Wochengeschichte",
+      "editToday": "Eintrag bearbeiten",
       "summary": "Zusammenfassung"
     },
     "history": {
-      "title": "Wöchentliche Geschichte 📅",
-      "subtitle": "In den letzten 7 Tagen keine Einträge"
+      "title": "Wochenverlauf 📅",
+      "subtitle": "Keine Einträge in den letzten 7 Tagen"
     },
     "notfound": {
       "title": "404",
-      "subtitle": "Ups! Seite nicht gefunden",
-      "returnHome": "Rückkehr in die Heimat"
+      "subtitle": "Hoppla! Seite nicht gefunden",
+      "returnHome": "Zurück zur Startseite"
     }
   },
   "data": {
     "activities": {
-      "Exercise": "Bewegung",
-      "Journaling": "Tagebuchschreiben",
+      "Exercise": "Übung",
+      "Journaling": "Tagebuch schreiben",
       "Reading": "Lektüre",
-      "Rest / Nap": "Erholung / Nickerchen",
+      "Rest / Nap": "Ruhe / Nickerchen",
       "Skincare": "Hautpflege",
       "Healthy Meal": "Gesunde Mahlzeit",
       "Nature / Walk": "Natur / Spaziergang",
-      "Social Time": "Sozialzeit",
+      "Social Time": "Gesellige Zeit",
       "Therapy": "Therapie",
-      "Digital Detox": "Digitale Entgiftung",
+      "Digital Detox": "Digitaler Entgiftung",
       "Meditation": "Meditation",
       "Hobby": "Hobby"
     },
     "durations": {
-      "< 10 minutes": "< 10 Minuten",
+      "< 10 minutes": "&lt; 10 Minuten",
       "10–30 minutes": "10–30 Minuten",
       "30–60 minutes": "30–60 Minuten",
-      "1+ hour": "1+ Stunden"
+      "1+ hour": "1+ Stunde"
     },
     "reasons": {
       "Busy schedule": "Voller Terminkalender",
-      "Low energy": "Niedrige Energie",
+      "Low energy": "Niedriger Energieverbrauch",
       "Forgot": "Vergessen",
       "No motivation": "Keine Motivation",
       "Not feeling well": "Mir geht es nicht gut",
@@ -109,7 +114,7 @@
       "Stress": "Stress"
     },
     "helpfulTypes": {
-      "Rest": "Ruhe",
+      "Rest": "Ausruhen",
       "Relaxation": "Entspannung",
       "Physical activity": "Körperliche Aktivität",
       "Talking to someone": "Mit jemandem sprechen",
@@ -118,25 +123,25 @@
     },
     "moods": {
       "Happy": "Glücklich",
-      "Calm": "Ruhe",
+      "Calm": "Ruhig",
       "Low": "Niedrig",
-      "Stressed": "Gestresst",
+      "Stressed": "Betont",
       "Tired": "Müde",
       "Neutral": "Neutral"
     },
     "positiveStatements": [
-      "Du bist heute für dich selbst aufgetaucht. Das ist kraftvoll. 🌿",
-      "Selbstfürsorge ist nicht egoistisch – sie ist unerlässlich. Gut gemacht. 💚",
-      "Jede kleine Fürsorge baut ein stärkeres Ich auf. 🌱",
-      "Du hast heute in dich selbst investiert. Das ist wichtig. ✨",
-      "Sich um dich zu kümmern ist das Beste, was du heute getan hast. 🍃"
+      "Du hast heute für dich selbst da gewesen. Das ist beeindruckend. 🌿",
+      "Selbstfürsorge ist nicht egoistisch – sie ist unerlässlich. Gut gemacht! 💚",
+      "Jede kleine Geste der Fürsorge stärkt dich. 🌱",
+      "Du hast heute in dich selbst investiert. Das zählt. ✨",
+      "Sich um sich selbst zu kümmern, war das Beste, was du heute getan hast. 🍃"
     ],
     "supportiveStatements": [
-      "Ist schon okay. Morgen ist ein Neuanfang. Sei sanft zu dir selbst. 🤍",
+      "Alles gut. Morgen ist ein neuer Anfang. Sei nachsichtig mit dir selbst. 🤍",
       "Nicht jeder Tag wird perfekt sein, und das ist völlig in Ordnung. 🕊️",
-      "Du gibst dein Bestes. Das reicht immer. 💛",
-      "Ruhe ist auch eine Form der Selbstfürsorge. Sei nachsichtig. 🌸",
-      "Heute anzuerkennen erfordert Mut. Du wächst schon. 🌷"
+      "Du gibst dein Bestes. Das ist immer genug. 💛",
+      "Ruhe ist auch eine Form der Selbstfürsorge. Sei nachsichtig mit dir selbst. 🌸",
+      "Es erfordert Mut, den heutigen Tag anzuerkennen. Du entwickelst dich bereits weiter. 🌷"
     ]
   },
   "app_title": "Selbstfürsorge-Tracker",

@@ -16,7 +16,12 @@
     "share_text": "Wykonałem tę {{activityName}} w TherapyMantra i bardzo mi się to spodobało. Ty też możesz to zrobić, po prostu kliknij link do aplikacji na Androida {{androidUrl}} lub aplikacji na iOS {{iosUrl}}",
     "this_activity": "ta aktywność",
     "copied": "Skopiowano!",
-    "copy_message": "Kopiuj wiadomość"
+    "copy_message": "Kopiuj wiadomość",
+    "continue": "Kontynuować",
+    "home": "Powrót do strony głównej",
+    "yes": "Tak",
+    "no": "NIE",
+    "date": "Data"
   },
   "screens": {
     "intro": {
@@ -31,24 +36,24 @@
       "duration": "2-3 minuty"
     },
     "checkin": {
-      "title": "Kontrola 🌿 samopielęgnacji",
-      "subtitle": "Jak dziś o siebie zadbałaś?",
-      "question": "Czy dziś ćwiczyłeś dbanie o siebie? *",
-      "description": "Dbanie o siebie to każda aktywność, którą wykonujemy celowo, aby zadbać o nasze zdrowie psychiczne, emocjonalne i fizyczne."
+      "title": "Kontrola samoopieki 🌿",
+      "subtitle": "Jak dbałeś o siebie dzisiaj?",
+      "question": "Czy dziś dbałeś o siebie? *",
+      "description": "Dbanie o siebie to każda czynność, którą wykonujemy świadomie, aby zadbać o nasze zdrowie psychiczne, emocjonalne i fizyczne."
     },
     "activities": {
-      "title": "Twoja działalność 🎯",
-      "subtitle": "Jakie aktywności dbania o siebie wykonywałaś dzisiaj?"
+      "title": "Twoje aktywności 🎯",
+      "subtitle": "Jakie czynności związane z dbaniem o siebie wykonałeś dzisiaj?"
     },
     "duration": {
       "title": "Czas spędzony ⏱️",
-      "subtitle": "Jak długo poświęciłeś na dbanie o siebie? (opcjonalnie)"
+      "subtitle": "Ile czasu poświęciłeś na dbanie o siebie? (opcjonalnie)"
     },
     "noSelfCare": {
-      "title": "To nic nie szkodzi 💛",
-      "subtitle": "Zrozummy, co się dziś wydarzyło.",
-      "question1": "Co dziś powstrzymało dbanie o siebie? (opcjonalnie)",
-      "question2": "Jaki rodzaj dbania o siebie mógłby pomóc? (opcjonalnie)"
+      "title": "To w porządku 💛",
+      "subtitle": "Zobaczmy, co wydarzyło się dzisiaj.",
+      "question1": "Co dziś uniemożliwiało Ci dbanie o siebie? (opcjonalnie)",
+      "question2": "Jaki rodzaj samoopieki mógłby pomóc? (opcjonalnie)"
     },
     "mood": {
       "title": "Jak się czujesz? 🫧",
@@ -56,25 +61,25 @@
     },
     "review": {
       "title": "Twój wpis 📋",
-      "subtitle": "Oto podsumowanie dzisiejszego meldunku",
-      "didSelfCare": "Czy dbałam o siebie?",
-      "activities": "Działalność",
+      "subtitle": "Oto podsumowanie dzisiejszego zameldowania",
+      "didSelfCare": "Czy dbałeś o siebie?",
+      "activities": "Działania",
       "duration": "Czas trwania",
       "mood": "Nastrój",
-      "challenges": "Zapobiegnięty przez",
+      "challenges": "Zapobiegnięte przez",
       "whatHelps": "Pomogłoby",
-      "viewHistory": "Historia tygodniowa",
-      "editToday": "Wpis edytuj",
-      "summary": "Podsumowanie"
+      "viewHistory": "Historia tygodnia",
+      "editToday": "Edytuj wpis",
+      "summary": "Streszczenie"
     },
     "history": {
-      "title": "Historia 📅 tygodniowa",
+      "title": "Historia tygodnia 📅",
       "subtitle": "Brak wpisów w ciągu ostatnich 7 dni"
     },
     "notfound": {
       "title": "404",
-      "subtitle": "Ups! Strona nie znaleziona",
-      "returnHome": "Powrót do domu"
+      "subtitle": "Ups! Strona nie została znaleziona",
+      "returnHome": "Powrót do strony głównej"
     }
   },
   "data": {
@@ -82,7 +87,7 @@
       "Exercise": "Ćwiczenia",
       "Meditation": "Medytacja",
       "Journaling": "Prowadzenie dziennika",
-      "Reading": "Lektura",
+      "Reading": "Czytanie",
       "Rest / Nap": "Odpoczynek / Drzemka",
       "Skincare": "Pielęgnacja skóry",
       "Healthy Meal": "Zdrowy posiłek",
@@ -93,50 +98,50 @@
       "Hobby": "Hobby"
     },
     "durations": {
-      "< 10 minutes": "< 10 minut",
+      "< 10 minutes": "&lt; 10 minut",
       "10–30 minutes": "10–30 minut",
       "30–60 minutes": "30–60 minut",
       "1+ hour": "1+ godzina"
     },
     "reasons": {
-      "Busy schedule": "Napięty grafik",
+      "Busy schedule": "Napięty harmonogram",
       "Low energy": "Niska energia",
       "Stress": "Stres",
       "Forgot": "Zapomniałem",
       "No motivation": "Brak motywacji",
-      "Not feeling well": "Źle się czuję",
+      "Not feeling well": "Nie czuję się dobrze",
       "Lack of time": "Brak czasu",
-      "Emotional overwhelm": "Emocjonalne przytłoczenie"
+      "Emotional overwhelm": "Przytłoczenie emocjonalne"
     },
     "helpfulTypes": {
       "Rest": "Odpoczynek",
-      "Relaxation": "Relaksacja",
+      "Relaxation": "Relaks",
       "Physical activity": "Aktywność fizyczna",
-      "Talking to someone": "Rozmowa z kimś",
+      "Talking to someone": "Rozmawianie z kimś",
       "Quiet time": "Czas ciszy",
       "Creative activity": "Działalność twórcza"
     },
     "moods": {
-      "Happy": "Szczęśliwego",
+      "Happy": "Szczęśliwy",
       "Calm": "Spokój",
       "Neutral": "Neutralny",
-      "Stressed": "Stresowany",
+      "Stressed": "Akcentowany",
       "Tired": "Zmęczony",
       "Low": "Niski"
     },
     "positiveStatements": [
-      "Dziś pojawiłeś się dla siebie. To potężne. 🌿",
-      "Dbanie o siebie nie jest samolubne — jest niezbędne. Dobra robota. 💚",
-      "Każdy drobny akt troski buduje silniejszą ciebie. 🌱",
-      "Zainwestowałeś dziś w siebie. To ma znaczenie. ✨",
-      "Opieka nad tobą to najlepsze, co dziś zrobiłeś. 🍃"
+      "Dziś dałeś z siebie wszystko. To potężne. 🌿",
+      "Dbanie o siebie nie jest egoizmem — jest niezbędne. Dobra robota. 💚",
+      "Każdy, nawet mały akt troski, wzmacnia Cię. 🌱",
+      "Zainwestowałeś dziś w siebie. To się liczy. ✨",
+      "Dbanie o siebie to najlepsza rzecz, jaką dziś zrobiłeś. 🍃"
     ],
     "supportiveStatements": [
-      "W porządku. Jutro to nowy początek. Bądź dla siebie delikatny. 🤍",
+      "Wszystko w porządku. Jutro nowy początek. Bądź dla siebie łagodny. 🤍",
       "Nie każdy dzień będzie idealny i to jest całkowicie w porządku. 🕊️",
       "Robisz, co możesz. To zawsze wystarczy. 💛",
-      "Odpoczynek to także forma dbania o siebie. Daj sobie wyrozumiałość. 🌸",
-      "Uznanie dzisiejszego dnia wymaga odwagi. Już rośniesz. 🌷"
+      "Odpoczynek to również forma dbania o siebie. Bądź dla siebie wyrozumiały. 🌸",
+      "Przyznanie się do tego dzisiaj wymaga odwagi. Już się rozwijasz. 🌷"
     ]
   },
   "app_title": "Monitor samoopieki",

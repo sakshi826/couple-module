@@ -18,6 +18,7 @@ const WritingScreen = ({
   onBack,
   onContinue,
 }: WritingScreenProps) => {
+  const { t } = useTranslation();
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const prompts = (typeof t !== "undefined" ? t : (k) => k)("writing.prompts", { returnObjects: true }) as string[];
 
