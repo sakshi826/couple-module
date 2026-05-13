@@ -19,7 +19,6 @@ const Index = () => {
   const handleBegin = () => setScreen("feelings");
 
   const handleSelectFeeling = (feelingId: string, colorIndex: number) => {
-  const { t } = useTranslation();
     setSelectedFeeling(feelingId);
     setSelectedColorIndex(colorIndex);
     setScreen("affirmation");

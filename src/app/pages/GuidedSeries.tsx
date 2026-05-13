@@ -52,7 +52,6 @@ export default function GuidedSeries() {
   };
 
   const handleActivityClick = (activity: any) => {
-  const { t } = useTranslation();
     const name = activity.name.toLowerCase();
     
     // Existing route mapping

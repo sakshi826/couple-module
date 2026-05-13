@@ -1,7 +1,7 @@
 import { sql } from '@/lib/db';
 
 export const pool = { 
-    query: (t: string, p?: any[]) => (sql as any).query(t, p || []) 
+    query: (t: string, p?: any[]) => (sql ? (sql ? (sql as any).query : async () => ({ rows: [] })) : async () => ({ rows: [] }))(t, p || []) 
 };
 
 export const initSchema = async () => {

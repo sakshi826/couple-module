@@ -22,7 +22,6 @@ const Index = () => {
 
   const next = () => setStep((s) => s + 1);
   const reset = () => {
-  const { t } = useTranslation();
     setStep(0);
     setPerson("");
     setApproach("");

@@ -14,17 +14,14 @@ export const BrainDump = ({ onComplete }: Props) => {
   const maxRows = 50;
 
   const updateThought = (index: number, value: string) => {
-  const { t } = useTranslation();
     setThoughts((prev) => prev.map((t, i) => (i === index ? value : t)));
   };
 
   const addThought = () => {
-  const { t } = useTranslation();
     setThoughts((prev) => (prev.length < maxRows ? [...prev, ""] : prev));
   };
 
   const removeThought = (index: number) => {
-  const { t } = useTranslation();
     setThoughts((prev) => {
       if (prev.length === 1) return [""];
       return prev.filter((_, i) => i !== index);
@@ -32,7 +29,6 @@ export const BrainDump = ({ onComplete }: Props) => {
   };
 
   const handleEnter = (e: React.KeyboardEvent<HTMLInputElement>, index: number) => {
-  const { t } = useTranslation();
     if (e.key !== "Enter") return;
     e.preventDefault();
     const isLast = index === thoughts.length - 1;

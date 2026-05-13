@@ -69,7 +69,6 @@ const GratitudeHistory = () => {
   const startDayOfWeek = getDay(days[0]);
 
   const handleDateTap = (day: Date) => {
-  const { t } = useTranslation();
     const iso = format(day, "yyyy-MM-dd");
     const entry = entryDates.get(iso);
     if (entry) {

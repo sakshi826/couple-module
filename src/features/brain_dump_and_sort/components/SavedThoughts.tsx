@@ -26,7 +26,6 @@ export const SavedThoughts = ({ sessions, onBack, onDelete }: Props) => {
   };
 
   const formatDate = (dateStr: string) => {
-  const { t } = useTranslation();
     const date = new Date(dateStr);
     return date.toLocaleDateString("en-US", {
       month: "short",

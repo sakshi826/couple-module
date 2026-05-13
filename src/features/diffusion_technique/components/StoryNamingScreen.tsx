@@ -23,7 +23,6 @@ export function StoryNamingScreen({ storyName, onStoryNameChange, onContinue, cu
   const [isFlipping, setIsFlipping] = useState(false);
 
   const handleSave = () => {
-  const { t } = useTranslation();
     if (!storyName.trim()) return;
     setIsFlipping(true);
     setTimeout(() => {

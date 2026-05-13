@@ -67,7 +67,6 @@ export function DailyProgramPage() {
   ]);
 
   const toggleCompletion = (id: number) => {
-  const { t } = useTranslation();
     setProgramItems(items =>
       items.map(item =>
         item.id === id ? { ...item, completed: !item.completed } : item

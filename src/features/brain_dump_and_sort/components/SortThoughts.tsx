@@ -28,7 +28,6 @@ export const SortThoughts = ({ thoughts: initial, onComplete, onBack }: Props) =
   const allSorted = unsorted.length === 0 && items.length > 0;
 
   const assignBucket = (id: string, bucket: Bucket) => {
-  const { t } = useTranslation();
     setItems((prev) => prev.map((i) => (i.id === id ? { ...i, bucket } : i)));
   };
 

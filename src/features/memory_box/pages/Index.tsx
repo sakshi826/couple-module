@@ -89,7 +89,6 @@ const Index = () => {
   };
 
   const resetForNew = () => {
-  const { t } = useTranslation();
     setName("");
     setRelation("");
     setCategory("");
@@ -99,7 +98,6 @@ const Index = () => {
   };
 
   const resetAll = () => {
-  const { t } = useTranslation();
     resetForNew();
     setScreen(0);
   };

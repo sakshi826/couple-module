@@ -65,7 +65,6 @@ export function SubcategoryPage() {
   const filters = ["All", "Guided", "Yoga", "Beginners", "Sleep", "Focus"];
 
   const getSubcategoryTitle = () => {
-  const { t } = useTranslation();
     if (!subcategoryId) return "Content";
     return subcategoryId
       .split("-")

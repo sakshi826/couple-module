@@ -29,12 +29,10 @@ const Screen3 = ({ bedtime, wakeTime, duration, onReset }: Screen3Props) => {
   const commitRef = useRef<HTMLDivElement>(null!);
 
   const toggleAccordion = (idx: number) => {
-  const { t } = useTranslation();
     setOpenAccordion(prev => prev === idx ? null : idx);
   };
 
   const selectCommitment = (idx: number) => {
-  const { t } = useTranslation();
     if (selectedCommitment === idx) return;
     setSelectedCommitment(idx);
     setConfettiTrigger(t => t + 1);

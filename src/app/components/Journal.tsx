@@ -52,7 +52,6 @@ export function Journal() {
   });
 
   const formatDate = (date: Date) => {
-  const { t } = useTranslation();
     const today = new Date();
     const yesterday = new Date(today);
     yesterday.setDate(yesterday.getDate() - 1);
@@ -64,12 +63,10 @@ export function Journal() {
   };
 
   const formatTime = (date: Date) => {
-  const { t } = useTranslation();
     return date.toLocaleTimeString(i18n.language, { hour: "2-digit", minute: "2-digit", hour12: true });
   };
 
   const getTimeIcon = (timeOfDay: string) => {
-  const { t } = useTranslation();
     switch (timeOfDay) {
       case "morning": return Sun;
       case "afternoon": return Coffee;

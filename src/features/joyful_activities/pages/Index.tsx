@@ -27,7 +27,6 @@ const Index = () => {
     setData((prev) => ({ ...prev, ...fields }));
 
   const goHome = () => {
-  const { t } = useTranslation();
     setData({ activity: "", feeling: "", enjoyBecause: "", feelsMore: "", remindsOf: "", smallStep: "" });
     setScreen(1);
   };

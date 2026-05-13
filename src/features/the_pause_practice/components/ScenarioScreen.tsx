@@ -15,7 +15,6 @@ const ScenarioScreen = ({ onNext }: ScenarioScreenProps) => {
   const scenarios = (typeof t !== "undefined" ? t : (k) => k)("scenario.options", { returnObjects: true }) as any[];
 
   const handleSelect = (id: string) => {
-  const { t } = useTranslation();
     setSelected(id);
     if (id !== "other") setCustomText("");
   };

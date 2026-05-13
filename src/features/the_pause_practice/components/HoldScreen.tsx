@@ -24,7 +24,6 @@ const HoldScreen = ({ onComplete }: HoldScreenProps) => {
   const microcopy = (typeof t !== "undefined" ? t : (k) => k)("hold.microcopy", { returnObjects: true }) as { at: number; text: string }[];
 
   function getMicrocopy(p: number) {
-  const { t } = useTranslation();
     if (!Array.isArray(microcopy)) return "";
     let current = microcopy[0]?.text || "";
     for (const m of microcopy) {

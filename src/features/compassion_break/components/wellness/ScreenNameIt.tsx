@@ -13,7 +13,6 @@ const ScreenNameIt = ({ onContinue }: Props) => {
   const [custom, setCustom] = useState("");
 
   const toggleEmotion = (e: string) => {
-  const { t } = useTranslation();
     setSelected((prev) => {
       if (prev.includes(e)) return prev.filter((x) => x !== e);
       if (prev.length >= 2) return [prev[1], e];
@@ -22,7 +21,6 @@ const ScreenNameIt = ({ onContinue }: Props) => {
   };
 
   const handleContinue = () => {
-  const { t } = useTranslation();
     const result = custom.trim()
       ? [custom.trim()]
       : selected;

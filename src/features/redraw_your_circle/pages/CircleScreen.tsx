@@ -26,7 +26,6 @@ const POSITIONS = [
 ];
 
 function getPos(angle: number, r: number) {
-  const { t } = useTranslation();
   const rad = (angle * Math.PI) / 180;
   return { x: Math.cos(rad) * r, y: Math.sin(rad) * r };
 }

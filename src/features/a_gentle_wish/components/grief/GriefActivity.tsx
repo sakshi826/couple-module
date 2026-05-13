@@ -84,7 +84,6 @@ const GriefActivity = () => {
   };
 
   const resetForm = () => {
-  const { t } = useTranslation();
     setName("");
     setRelation("");
     setWish("");
@@ -93,7 +92,6 @@ const GriefActivity = () => {
   };
 
   const addAnother = () => {
-  const { t } = useTranslation();
     resetForm();
     setScreen("connection");
   };

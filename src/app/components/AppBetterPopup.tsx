@@ -16,7 +16,6 @@ export function AppBetterPopup({ onClose }: AppBetterPopupProps) {
   }, []);
 
   const handleDontShowAgain = () => {
-  const { t } = useTranslation();
     const userString = localStorage.getItem("mantraUser");
     if (userString) {
       const user = JSON.parse(userString);
@@ -28,7 +27,6 @@ export function AppBetterPopup({ onClose }: AppBetterPopupProps) {
   };
 
   const handleMaybeLater = () => {
-  const { t } = useTranslation();
     setIsVisible(false);
     setTimeout(onClose, 300);
   };

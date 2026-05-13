@@ -30,7 +30,6 @@ const Reflection = ({ onComplete }: Props) => {
   const isLast = currentIndex >= shuffledKeys.length - 1;
 
   const handleNext = () => {
-  const { t } = useTranslation();
     const newAnswers = [...answers, answer];
     setAnswers(newAnswers);
 

@@ -48,7 +48,6 @@ const SafePlaceApp: React.FC = () => {
   }, []);
 
   const reset = () => {
-  const { t } = useTranslation();
     setScreen(0);
     setSavedCollage(null);
   };

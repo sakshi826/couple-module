@@ -39,7 +39,6 @@ const GroundingScreen: React.FC<Props> = ({ collage, onClose }) => {
     if (!isActive) return;
 
     const cyclePhase = (idx: number) => {
-  const { t } = useTranslation();
       setPhaseIndex(idx);
       phaseTimerRef.current = setTimeout(() => {
         cyclePhase((idx + 1) % 3);
@@ -51,7 +50,6 @@ const GroundingScreen: React.FC<Props> = ({ collage, onClose }) => {
   }, [isActive]);
 
   const handleDurationChange = (idx: number) => {
-  const { t } = useTranslation();
     setSelectedDuration(idx);
     setIsDone(false);
     setIsActive(false);

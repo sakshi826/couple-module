@@ -47,7 +47,6 @@ const ReflectionScreen = ({ names, onReset }: ReflectionScreenProps) => {
   };
 
   const handleFinish = () => {
-  const { t } = useTranslation();
     onReset();
     navigate("../intro", { replace: true });
   };

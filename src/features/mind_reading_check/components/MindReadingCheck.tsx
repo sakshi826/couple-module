@@ -41,12 +41,10 @@ export default function MindReadingCheck() {
   });
 
   const next = () => {
-  const { t } = useTranslation();
     if (typeof screen === 'number' && screen < TOTAL_SCREENS - 1) setScreen(screen + 1);
   };
 
   const finish = () => {
-  const { t } = useTranslation();
     const updatedHistory = [{ ...data, date: new Date().toISOString() }, ...history].slice(0, 20);
     setHistory(updatedHistory);
     localStorage.setItem("mrc-history", JSON.stringify(updatedHistory));
@@ -54,13 +52,11 @@ export default function MindReadingCheck() {
   };
 
   const reset = () => {
-  const { t } = useTranslation();
     setData({ ...emptyData });
     setScreen("intro");
   };
 
   const updateAlt = (i: number, v: string) => {
-  const { t } = useTranslation();
     const alts = [...data.alternatives];
     alts[i] = v;
     setData({ ...data, alternatives: alts });

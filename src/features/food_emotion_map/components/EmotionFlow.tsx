@@ -47,7 +47,6 @@ const EmotionFlow = () => {
   };
 
   const next = () => {
-  const { t } = useTranslation();
     setTextReady(false);
     setStep(s => s + 1);
   };

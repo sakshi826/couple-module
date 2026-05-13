@@ -47,7 +47,6 @@ const ReviewEntry = () => {
   const formattedDate = format(new Date(entry.date + "T00:00:00"), "MMMM d, yyyy");
 
   const handleEdit = () => {
-  const { t } = useTranslation();
     navigate("..", {
       state: {
         editId: entry.id,

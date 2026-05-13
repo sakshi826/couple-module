@@ -41,7 +41,6 @@ const TrackActivitySection = () => {
   }
 
   const handleAdd = () => {
-  const { t } = useTranslation();
     if (!activity || !duration || !date) return;
     addActivity(format(date, "yyyy-MM-dd"), activity, parseInt(duration), notes || undefined);
     setActivity("");
@@ -50,7 +49,6 @@ const TrackActivitySection = () => {
   };
 
   const toggleDate = (d: string) => {
-  const { t } = useTranslation();
     setExpandedDates(prev => {
       const next = new Set(prev);
       next.has(d) ? next.delete(d) : next.add(d);
@@ -59,14 +57,12 @@ const TrackActivitySection = () => {
   };
 
   const startEdit = (id: string, name: string, dur: number) => {
-  const { t } = useTranslation();
     setEditingId(id);
     setEditName(name);
     setEditDuration(String(dur));
   };
 
   const saveEdit = () => {
-  const { t } = useTranslation();
     if (editingId && editName && editDuration) {
       editActivity(editingId, { name: editName, duration: parseInt(editDuration) });
       setEditingId(null);

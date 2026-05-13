@@ -16,7 +16,6 @@ const HistoryScreen = ({ onBack }: HistoryScreenProps) => {
   const [confirmDelete, setConfirmDelete] = useState<string | null>(null);
 
   const handleDelete = (id: string) => {
-  const { t } = useTranslation();
     deleteReflection(id);
     setEntries(getReflections());
     setConfirmDelete(null);

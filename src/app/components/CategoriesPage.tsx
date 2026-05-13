@@ -73,7 +73,6 @@ export function CategoriesPage() {
   ];
 
   const toggleCategory = (categoryId: string) => {
-  const { t } = useTranslation();
     setExpandedCategory(expandedCategory === categoryId ? null : categoryId);
   };
 

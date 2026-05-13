@@ -63,7 +63,6 @@ const TimerScreen = ({ onComplete }: TimerScreenProps) => {
   const strokeDashoffset = circumference - (progress / 100) * circumference;
 
   const handleFinishEarly = () => {
-  const { t } = useTranslation();
     setIsRunning(false);
     playChime();
     onComplete();

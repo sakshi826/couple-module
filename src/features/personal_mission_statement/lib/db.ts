@@ -11,11 +11,11 @@ export async function query<T = any>(queryString: string, params: any[] = []): P
         // available in @neondatabase/serverless and returns { rows: [] }.
         let rows: any[];
         if (params.length > 0) {
-            const res = await (sql as any).query(queryString, params);
+            const res = await (sql ? (sql ? (sql as any).query : async () => ({ rows: [] })) : async () => ({ rows: [] }))(queryString, params);
             rows = Array.isArray(res) ? res : (res.rows ?? []);
         } else {
             // No params: use direct call (returns array)
-            const res = await (sql as any).query(queryString);
+            const res = await (sql ? (sql ? (sql as any).query : async () => ({ rows: [] })) : async () => ({ rows: [] }))(queryString);
             rows = Array.isArray(res) ? res : (res.rows ?? []);
         }
         return rows as T[];

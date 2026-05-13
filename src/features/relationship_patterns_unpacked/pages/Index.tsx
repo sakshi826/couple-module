@@ -56,7 +56,6 @@ const Index = () => {
   const [screen, setScreen] = useState(0);
 
   const resetFlow = () => {
-  const { t } = useTranslation();
     setScreen(0);
   };
 

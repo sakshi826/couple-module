@@ -28,13 +28,11 @@ const GuidedActionScreen = ({ approach, onComplete }: Props) => {
   if (!data) return null;
 
   const handleSelectMsg = (i: number) => {
-  const { t } = useTranslation();
     setSelectedMsg(i);
     setEditedMsg(data.prompts[i]);
   };
 
   const handleCopy = () => {
-  const { t } = useTranslation();
     navigator.clipboard.writeText(editedMsg);
     toast.success((typeof t !== "undefined" ? t : (k) => k)("toasts.copy_success"));
   };

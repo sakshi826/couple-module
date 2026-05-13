@@ -27,7 +27,6 @@ export default function SleepAudit() {
   const RATING_LABELS = (typeof t !== "undefined" ? t : (k) => k)("rating_labels", { returnObjects: true }) as string[];
 
   const getScoreInfo = (score: number) => {
-  const { t } = useTranslation();
     if (score >= 6) return { color: "#1D9E75", status: (typeof t !== "undefined" ? t : (k) => k)("status_labels.track") };
     if (score >= 4) return { color: "#EF9F27", status: (typeof t !== "undefined" ? t : (k) => k)("status_labels.disruptions") };
     return { color: "#E24B4A", status: (typeof t !== "undefined" ? t : (k) => k)("status_labels.attention") };

@@ -60,7 +60,6 @@ export default function ChallengingFoodRules() {
   };
 
   const goNext = () => {
-  const { t } = useTranslation();
     const idx = SCREENS.indexOf(screen);
     if (idx < SCREENS.length - 1) setScreen(SCREENS[idx + 1]);
   };
@@ -97,7 +96,6 @@ export default function ChallengingFoodRules() {
   };
 
   const resetFlow = () => {
-  const { t } = useTranslation();
     setScreen("intro");
     setRule("");
     setCustomRule("");

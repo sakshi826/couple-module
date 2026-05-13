@@ -12,7 +12,6 @@ const ScreenNoticeShift = ({ onContinue }: Props) => {
   const [ripple, setRipple] = useState(false);
 
   const handleSliderChange = (val: number) => {
-  const { t } = useTranslation();
     setIntensity(val);
     setRipple(true);
     setTimeout(() => setRipple(false), 1500);

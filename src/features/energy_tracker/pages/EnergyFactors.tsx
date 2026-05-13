@@ -24,7 +24,6 @@ const EnergyFactors = () => {
   ];
 
   const toggleFactor = (fId: string) => {
-  const { t } = useTranslation();
     setCurrentFactors(
       currentFactors.includes(fId)
         ? currentFactors.filter((x) => x !== fId)
