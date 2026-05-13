@@ -9,6 +9,7 @@ interface ScreenShellProps {
 }
 
 const ScreenShell = ({ children, onBack, onHistory, screenKey }: ScreenShellProps) => {
+  const { t } = useTranslation();
   return (
 (
   <div className="min-h-[100dvh] max-w-md mx-auto bg-background flex flex-col w-full">

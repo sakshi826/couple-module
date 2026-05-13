@@ -22,6 +22,7 @@ interface Props {
 }
 
 const VibeCheckIn = ({ onNext, onHistory }: Props) => {
+  const { t } = useTranslation();
   const [selected, setSelected] = useState<string | null>(null);
   const [customVibe, setCustomVibe] = useState("");
 

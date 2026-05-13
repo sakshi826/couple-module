@@ -36,6 +36,7 @@ function Alert({
 }
 
 function AlertTitle({ className, ...props }: React.ComponentProps<"div">) {
+  const { t } = useTranslation();
   return (
     <div
       data-slot="alert-title"

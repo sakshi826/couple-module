@@ -34,6 +34,7 @@ const VibeHistory = ({ onBack }: Props) => {
   }, []);
 
   const formatDate = (dateStr: string) => {
+  const { t } = useTranslation();
     const date = new Date(dateStr);
     const today = new Date();
     const yesterday = new Date();
@@ -50,6 +51,7 @@ const VibeHistory = ({ onBack }: Props) => {
   };
 
   const formatTime = (dateStr: string) => {
+  const { t } = useTranslation();
     return new Date(dateStr).toLocaleTimeString(i18n.language, {
       hour: "numeric",
       minute: "2-digit",

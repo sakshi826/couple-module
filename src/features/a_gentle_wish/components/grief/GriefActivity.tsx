@@ -25,6 +25,7 @@ export interface ReflectionEntry {
 }
 
 const GriefActivity = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState<"welcome" | "connection" | "carry" | "reflection" | "complete" | "past">("welcome");
   const [name, setName] = useState("");
   const [relation, setRelation] = useState("");
@@ -83,6 +84,7 @@ const GriefActivity = () => {
   };
 
   const resetForm = () => {
+  const { t } = useTranslation();
     setName("");
     setRelation("");
     setWish("");
@@ -91,6 +93,7 @@ const GriefActivity = () => {
   };
 
   const addAnother = () => {
+  const { t } = useTranslation();
     resetForm();
     setScreen("connection");
   };

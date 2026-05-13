@@ -19,9 +19,11 @@ const CHIP_SUGGESTIONS = [
 ];
 
 export function StoryNamingScreen({ storyName, onStoryNameChange, onContinue, currentStep, totalSteps }: StoryNamingScreenProps) {
+  const { t } = useTranslation();
   const [isFlipping, setIsFlipping] = useState(false);
 
   const handleSave = () => {
+  const { t } = useTranslation();
     if (!storyName.trim()) return;
     setIsFlipping(true);
     setTimeout(() => {

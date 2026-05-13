@@ -2,6 +2,7 @@ import TipDetailLayout from "../../components/TipDetailLayout";
 import { useTranslation } from "react-i18next";
 
 const Mindfulness = () => {
+  const { t } = useTranslation();
 
   return (
     <TipDetailLayout

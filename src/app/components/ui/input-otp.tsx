@@ -28,6 +28,7 @@ function InputOTP({
 }
 
 function InputOTPGroup({ className, ...props }: React.ComponentProps<"div">) {
+  const { t } = useTranslation();
   return (
     <div
       data-slot="input-otp-group"

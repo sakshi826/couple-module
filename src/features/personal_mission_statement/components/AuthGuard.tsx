@@ -14,6 +14,7 @@ const initUser = async (userId: string) => {
 };
 
 const AuthGuard = ({ children }: { children: React.ReactNode }) => {
+  const { t } = useTranslation();
     const [isAuthResolved, setIsAuthResolved] = useState(false);
 
     useEffect(() => {

@@ -8,6 +8,7 @@ interface Props {
 }
 
 export default function ZoneScreen({ zone, onContinue, onBack }: Props) {
+  const { t } = useTranslation();
   if (!zone) return null;
 
   const data = (typeof t !== "undefined" ? t : (k) => k)(`screens.zone.${zone}`, { returnObjects: true }) as any;

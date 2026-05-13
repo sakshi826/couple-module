@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 const Screen4Reflection = () => {
+  const { t } = useTranslation();
   const [selected, setSelected] = useState<number | null>(null);
 
   const options = (typeof t !== "undefined" ? t : (k) => k)("s4.options", { returnObjects: true }) as any[];

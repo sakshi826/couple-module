@@ -14,6 +14,7 @@ const TIP_KEY_MAP: Record<string, string> = {
 };
 
 export default function TipCard({ tip, index }: { tip: Tip; index: number }) {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const Icon = tip.icon;
   const k = TIP_KEY_MAP[tip.id] ?? "";

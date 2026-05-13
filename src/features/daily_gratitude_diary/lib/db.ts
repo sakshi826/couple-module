@@ -20,8 +20,8 @@ export const dbRequest = async <T = any>(query: string, params: any[] = []): Pro
     // We try multiple ways to call it to be safe across different versions of the driver
     let result: any;
 
-    if (typeof (sql ? (sql as any).query : async () => ({ rows: [] })) === 'function') {
-      result = await (sql ? (sql as any).query : async () => ({ rows: [] }))(query, params);
+    if (typeof (sql as any).query === 'function') {
+      result = await (sql as any).query(query, params);
     } else {
       // Fallback to calling it directly if .query is not available
       result = await (sql as any)(query, params);

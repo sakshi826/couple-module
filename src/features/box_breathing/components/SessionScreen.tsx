@@ -18,6 +18,7 @@ const PHASES = [
 const TOTAL_CYCLES = 4;
 
 const SessionScreen = ({ onComplete, onEnd }: Props) => {
+  const { t } = useTranslation();
   const [phaseIndex, setPhaseIndex] = useState(0);
   const [countdown, setCountdown] = useState(PHASES[0].duration);
   const [cycle, setCycle] = useState(1);

@@ -9,6 +9,7 @@ interface Props {
 }
 
 const ScreenLanding = ({ reflection, setReflection }: Props) => {
+  const { t } = useTranslation();
   const steps = (typeof t !== "undefined" ? t : (k) => k)("landing.steps", { returnObjects: true }) as string[];
 
   return (

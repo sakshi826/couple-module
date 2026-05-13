@@ -4,6 +4,7 @@ import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { Flame } from "lucide-react";
 
 const Index = () => {
+  const { t } = useTranslation();
   return (
     <PremiumLayout 
       title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}

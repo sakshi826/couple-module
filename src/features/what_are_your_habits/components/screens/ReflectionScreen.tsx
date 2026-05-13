@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Sparkles } from "lucide-react";
 
 const ReflectionScreen = ({ onNext }: { onNext: () => void }) => {
+  const { t } = useTranslation();
   const [stress, setStress] = useState("");
   const [calm, setCalm] = useState("");
 

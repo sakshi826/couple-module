@@ -9,6 +9,7 @@ interface Props {
 }
 
 const NameSaveScreen: React.FC<Props> = ({ getCanvasDataURL, onSave }) => {
+  const { t } = useTranslation();
   const [name, setName] = useState('');
   const [reflection, setReflection] = useState('');
   const [imageURL, setImageURL] = useState('');

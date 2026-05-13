@@ -17,6 +17,7 @@ interface ReflectionScreenProps {
 }
 
 const ReflectionScreen = ({ names, onReset }: ReflectionScreenProps) => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const [reflection, setReflection] = useState("");
   const [isSaving, setIsSaving] = useState(false);
@@ -46,6 +47,7 @@ const ReflectionScreen = ({ names, onReset }: ReflectionScreenProps) => {
   };
 
   const handleFinish = () => {
+  const { t } = useTranslation();
     onReset();
     navigate("../intro", { replace: true });
   };

@@ -10,6 +10,7 @@ import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 import { AnimatePresence, motion } from "framer-motion";
 
 const Index = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState(0);
   const [data, setData] = useState<MissionData>({
     values: [],

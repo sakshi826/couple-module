@@ -11,6 +11,7 @@ interface ReflectionScreenProps {
 }
 
 const ReflectionScreen = ({ data, onChange, onNext }: ReflectionScreenProps) => {
+  const { t } = useTranslation();
   const canProceed = data.beingSomeoneWho.trim() && data.lifeFeelMore.trim();
 
   return (

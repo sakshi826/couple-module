@@ -11,6 +11,7 @@ interface Screen7Props {
 }
 
 const Screen7History = () => {
+  const { t } = useTranslation();
   const { userId } = useAuth();
   const [entries, setEntries] = useState<SelfCareEntry[]>([]);
   const [loading, setLoading] = useState(true);
@@ -67,6 +68,7 @@ const Screen7History = () => {
 
  
 const DayCard = ({ entry }: { entry: SelfCareEntry }) => {
+  const { t } = useTranslation();
  
   const keyInfo = entry.didSelfCare
     ? (entry.activities && entry.activities[0] ? (typeof t !== "undefined" ? t : (k) => k)(`data.activities.${entry.activities[0]}`) : (typeof t !== "undefined" ? t : (k) => k)('common.yes'))

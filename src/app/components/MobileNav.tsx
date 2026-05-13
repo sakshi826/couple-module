@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 export function MobileNav() {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const location = useLocation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -25,11 +26,13 @@ export function MobileNav() {
   const isActive = (path: string) => location.pathname === path;
 
   const handleNav = (path: string) => {
+  const { t } = useTranslation();
     navigate(path, { replace: true });
     setMobileMenuOpen(false);
   };
 
   const handleLogout = () => {
+  const { t } = useTranslation();
     localStorage.removeItem("mantraUser");
     navigate("/", { replace: true });
     setMobileMenuOpen(false);

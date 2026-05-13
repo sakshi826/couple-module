@@ -9,6 +9,7 @@ import { AnimatePresence, motion } from "framer-motion";
 type Screen = "choose" | "timer" | "energy";
 
 const Index = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState<Screen>("choose");
 
   return (

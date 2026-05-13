@@ -12,6 +12,7 @@ interface Props {
 }
 
 export default function ToolkitScreen({ journal, onJournalChange, weekTracker, onSave, onBack }: Props) {
+  const { t } = useTranslation();
   const DAYS = (typeof t !== "undefined" ? t : (k) => k)("days", { returnObjects: true }) as string[];
   const tools_list = (typeof t !== "undefined" ? t : (k) => k)("screens.toolkit.tools_list", { returnObjects: true }) as string[];
 

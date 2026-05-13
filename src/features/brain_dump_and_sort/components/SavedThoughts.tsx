@@ -17,6 +17,7 @@ interface Props {
 }
 
 export const SavedThoughts = ({ sessions, onBack, onDelete }: Props) => {
+  const { t } = useTranslation();
 
   const bucketLabels: Record<string, { icon: React.ReactNode; label: string; color: string }> = {
     action: { icon: <Inbox size={14} />, label: (typeof t !== "undefined" ? t : (k) => k)("action_needed"), color: "#61DAFB" },
@@ -25,6 +26,7 @@ export const SavedThoughts = ({ sessions, onBack, onDelete }: Props) => {
   };
 
   const formatDate = (dateStr: string) => {
+  const { t } = useTranslation();
     const date = new Date(dateStr);
     return date.toLocaleDateString("en-US", {
       month: "short",

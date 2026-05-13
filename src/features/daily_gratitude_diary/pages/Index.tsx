@@ -24,6 +24,7 @@ interface SavedEntry {
 type Screen = "intro" | "gratitude" | "reflection" | "closing" | "past";
 
 const Index = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState<Screen>("intro");
   const [currentGratitudes, setCurrentGratitudes] = useState<GratitudeEntry[]>([]);
   const [pastEntries, setPastEntries] = useState<SavedEntry[]>([]);
@@ -82,6 +83,7 @@ const Index = () => {
   };
 
   const resetFlow = () => {
+  const { t } = useTranslation();
     setScreen("intro");
     setCurrentGratitudes([]);
   };

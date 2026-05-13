@@ -7,9 +7,7 @@ const getEnv = (key: string) => {
 
 
 
-export const pool = { 
-    query: (t: string, p?: any[]) => sql ? (sql ? (sql as any).query : async () => ({ rows: [] }))(t, p || []) : Promise.resolve([]) 
-};
+export const pool = { query: (t: string, p?: any[]) => (sql as any).query(t, p || []) };
 
 export const query = async (text: string, params: any[] = []) => {
     try {

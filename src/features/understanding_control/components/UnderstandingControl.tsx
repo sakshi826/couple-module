@@ -6,6 +6,7 @@ import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
 
 export default function UnderstandingControl() {
+  const { t } = useTranslation();
   const [current, setCurrent] = useState(0);
 
   const screens_data = (typeof t !== "undefined" ? t : (k) => k)("screens", { returnObjects: true }) as any[];

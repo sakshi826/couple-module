@@ -8,6 +8,7 @@ interface ClosingScreenProps {
 }
 
 const ClosingScreen = ({ onExit }: ClosingScreenProps) => {
+  const { t } = useTranslation();
 
   return (
     <PremiumComplete

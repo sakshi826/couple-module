@@ -9,6 +9,7 @@ const TOTAL_SCREENS = 3;
 
 /* ── Screen 1: Hook ── */
 const Screen1 = ({ onNext }: { onNext: () => void }) => {
+  const { t } = useTranslation();
   return (
     <div className="flex flex-1 flex-col gap-8">
       <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 flex flex-col justify-center text-center min-h-[450px]">
@@ -36,6 +37,7 @@ const Screen1 = ({ onNext }: { onNext: () => void }) => {
 
 /* ── Screen 2: Graph ── */
 const GriefGraph = () => {
+  const { t } = useTranslation();
   return (
     <div className="grid grid-cols-1 gap-6 mt-4">
       <div className="rounded-3xl bg-slate-50 border border-slate-100 p-6">
@@ -62,6 +64,7 @@ const GriefGraph = () => {
 };
 
 const Screen2 = ({ onNext }: { onNext: () => void }) => {
+  const { t } = useTranslation();
   return (
     <div className="flex flex-1 flex-col gap-8">
       <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 min-h-[450px]">
@@ -103,6 +106,7 @@ const TruthCard = ({ emoji, title, body }: { emoji: string; title: string; body:
 };
 
 const Screen3 = ({ onNext }: { onNext: () => void }) => {
+  const { t } = useTranslation();
   const truths = (typeof t !== "undefined" ? t : (k) => k)("truths", { returnObjects: true }) as any[];
   return (
     <div className="flex flex-1 flex-col gap-8">
@@ -136,6 +140,7 @@ const Screen3 = ({ onNext }: { onNext: () => void }) => {
 
 /* ── Main Activity ── */
 const GriefActivity = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState(0);
 
   const screens = [

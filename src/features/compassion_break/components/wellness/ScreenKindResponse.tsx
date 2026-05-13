@@ -7,6 +7,7 @@ interface Props {
 }
 
 const ScreenKindResponse = ({ onContinue }: Props) => {
+  const { t } = useTranslation();
   const [text, setText] = useState("");
 
   return (

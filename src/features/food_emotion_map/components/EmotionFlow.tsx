@@ -12,6 +12,7 @@ import { toast } from "sonner";
 const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
 
 const EmotionFlow = () => {
+  const { t } = useTranslation();
   const EMOTIONS = (typeof t !== "undefined" ? t : (k) => k)("emotions_list", { returnObjects: true }) as string[];
   const FOOD_RESPONSES = (typeof t !== "undefined" ? t : (k) => k)("food_responses", { returnObjects: true }) as string[];
   const BODY_SENSATIONS = (typeof t !== "undefined" ? t : (k) => k)("body_sensations", { returnObjects: true }) as string[];
@@ -46,6 +47,7 @@ const EmotionFlow = () => {
   };
 
   const next = () => {
+  const { t } = useTranslation();
     setTextReady(false);
     setStep(s => s + 1);
   };

@@ -9,6 +9,7 @@ interface Props {
 }
 
 const Confirmation = ({ onDone, onHistory }: Props) => {
+  const { t } = useTranslation();
 
   return (
     <PremiumComplete

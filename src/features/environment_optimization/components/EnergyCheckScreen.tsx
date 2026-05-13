@@ -7,6 +7,7 @@ interface EnergyCheckScreenProps {
 }
 
 const EnergyCheckScreen = ({ onFinish }: EnergyCheckScreenProps) => {
+  const { t } = useTranslation();
 
   return (
     <div className="flex flex-col items-center justify-center  px-6 py-12 animate-fade-in">

@@ -18,6 +18,7 @@ export interface SavedCollage {
 }
 
 const SafePlaceApp: React.FC = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState(0); // 0=welcome,1-5=prompts,6=save,7=grounding
   const [showHistory, setShowHistory] = useState(false);
   const canvasRef = useRef<fabric.Canvas | null>(null);
@@ -47,6 +48,7 @@ const SafePlaceApp: React.FC = () => {
   }, []);
 
   const reset = () => {
+  const { t } = useTranslation();
     setScreen(0);
     setSavedCollage(null);
   };

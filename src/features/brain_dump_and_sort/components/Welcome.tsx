@@ -7,6 +7,7 @@ interface Props {
 }
 
 export const Welcome = ({ onStart }: Props) => {
+  const { t } = useTranslation();
   
   return (
     <PremiumIntro

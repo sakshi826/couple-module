@@ -7,6 +7,7 @@ import { MobileAppModal } from "./MobileAppModal";
 import { useTranslation } from "react-i18next";
 
 export function MindfulnessPage() {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const [completedTasks, setCompletedTasks] = useState<Set<number>>(new Set());
   const [showMobileAppModal, setShowMobileAppModal] = useState(false);

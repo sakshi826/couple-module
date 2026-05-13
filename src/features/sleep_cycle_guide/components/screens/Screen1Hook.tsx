@@ -3,6 +3,7 @@ import { useTranslation, Trans } from "react-i18next";
 interface Props { onNext: () => void }
 
 const Screen1Hook = ({ onNext }: Props) => {
+  const { t } = useTranslation();
 
   return (
     <div className="flex flex-col items-center justify-center h-full px-6 text-center">

@@ -9,6 +9,7 @@ interface HistoryScreenProps {
 }
 
 const HistoryScreen = ({ letters, onBack }: HistoryScreenProps) => {
+  const { t } = useTranslation();
 
   return (
     <div className="flex flex-col flex-1 px-6 py-8">

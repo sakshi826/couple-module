@@ -10,6 +10,7 @@ interface Star {
 }
 
 const StarsCanvas = () => {
+  const { t } = useTranslation();
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const starsRef = useRef<Star[]>([]);
 

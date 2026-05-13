@@ -19,6 +19,7 @@ const FEELING_COLORS = [
 ];
 
 const FeelingSelector: React.FC<FeelingSelectorProps> = ({ onSelect }) => {
+  const { t } = useTranslation();
 
   return (
     <div className="space-y-6">

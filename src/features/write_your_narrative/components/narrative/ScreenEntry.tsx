@@ -8,6 +8,7 @@ interface Props {
 }
 
 const ScreenEntry = ({ onContinue, onHistory }: Props) => {
+  const { t } = useTranslation();
   const description = (typeof t !== "undefined" ? t : (k) => k)("entry.description", { returnObjects: true }) as string[];
 
   return (

@@ -7,6 +7,7 @@ interface FinalScreenProps {
 }
 
 const FinalScreen = ({ onRestart }: FinalScreenProps) => {
+  const { t } = useTranslation();
 
   return (
     <PremiumComplete

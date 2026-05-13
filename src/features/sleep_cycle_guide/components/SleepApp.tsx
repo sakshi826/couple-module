@@ -12,6 +12,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const TOTAL_SCREENS = 4;
 
 const SleepApp = () => {
+  const { t } = useTranslation();
   const [currentScreen, setCurrentScreen] = useState(0);
 
   const goNext = () => setCurrentScreen(prev => Math.min(prev + 1, TOTAL_SCREENS - 1));

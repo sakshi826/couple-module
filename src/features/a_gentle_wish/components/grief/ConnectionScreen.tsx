@@ -26,6 +26,7 @@ export const ConnectionScreen = ({
   wish, setWish, why, setWhy,
   onBack, onContinue,
 }: Props) => {
+  const { t } = useTranslation();
   const [showCue, setShowCue] = useState(false);
   const [showPrompt, setShowPrompt] = useState(false);
   const [showDeeper, setShowDeeper] = useState(false);

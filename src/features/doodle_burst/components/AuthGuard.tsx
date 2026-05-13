@@ -9,6 +9,7 @@ export const AuthGuard: React.FC<{ children: React.ReactNode }> = ({ children })
 
     useEffect(() => {
         const checkAuth = () => {
+  const { t } = useTranslation();
             const userId = sessionStorage.getItem("user_id");
             if (userId) {
                 setIsAuthResolved(true);

@@ -3,6 +3,7 @@ import BreathingCircle from "../../components/BreathingCircle";
 import { useTranslation } from "react-i18next";
 
 const DeepBreathing = () => {
+  const { t } = useTranslation();
 
   return (
     <TipDetailLayout

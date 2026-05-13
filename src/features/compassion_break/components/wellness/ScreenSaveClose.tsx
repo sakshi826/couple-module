@@ -16,6 +16,7 @@ interface Props {
 }
 
 const ScreenSaveClose = ({ data, onSave, onFinish }: Props) => {
+  const { t } = useTranslation();
   return (
     <div className="flex flex-col items-center text-center px-4 py-6">
       <motion.h1

@@ -10,6 +10,7 @@ import { Button, buttonVariants } from "./button";
 import { useTranslation } from "react-i18next";
 
 function Pagination({ className, ...props }: React.ComponentProps<"nav">) {
+  const { t } = useTranslation();
   return (
     <nav
       role="navigation"
@@ -67,6 +68,7 @@ function PaginationLink({
 }
 
 function PaginationPrevious({
+  const { t } = useTranslation();
   className,
   ...props
 }: React.ComponentProps<typeof PaginationLink>) {
@@ -84,6 +86,7 @@ function PaginationPrevious({
 }
 
 function PaginationNext({
+  const { t } = useTranslation();
   className,
   ...props
 }: React.ComponentProps<typeof PaginationLink>) {
@@ -101,6 +104,7 @@ function PaginationNext({
 }
 
 function PaginationEllipsis({
+  const { t } = useTranslation();
   className,
   ...props
 }: React.ComponentProps<"span">) {

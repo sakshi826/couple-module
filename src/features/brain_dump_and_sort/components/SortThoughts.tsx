@@ -13,6 +13,7 @@ interface Props {
 type Bucket = "action" | "later" | "letgo";
 
 export const SortThoughts = ({ thoughts: initial, onComplete, onBack }: Props) => {
+  const { t } = useTranslation();
   const [items, setItems] = useState<ThoughtItem[]>(initial);
 
   const buckets: { key: Bucket; icon: React.ReactNode; label: string; desc: string; color: string }[] = [
@@ -27,6 +28,7 @@ export const SortThoughts = ({ thoughts: initial, onComplete, onBack }: Props) =
   const allSorted = unsorted.length === 0 && items.length > 0;
 
   const assignBucket = (id: string, bucket: Bucket) => {
+  const { t } = useTranslation();
     setItems((prev) => prev.map((i) => (i.id === id ? { ...i, bucket } : i)));
   };
 

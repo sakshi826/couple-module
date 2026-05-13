@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Sparkles } from "lucide-react";
 
 const MindHabitsScreen = ({ onNext }: { onNext: () => void }) => {
+  const { t } = useTranslation();
   const options = (typeof t !== "undefined" ? t : (k) => k)('mind_options', { returnObjects: true }) as string[];
   const [selected, setSelected] = useState<string[]>([]);
 

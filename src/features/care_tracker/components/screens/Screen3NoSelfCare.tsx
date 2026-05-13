@@ -10,10 +10,12 @@ interface Screen3Props {
 }
 
 const Screen3NoSelfCare = ({ onContinue }: Screen3Props) => {
+  const { t } = useTranslation();
   const [reasons, setReasons] = useState<string[]>([]);
   const [helpfulType, setHelpfulType] = useState("");
 
   const toggleReason = (r: string) => {
+  const { t } = useTranslation();
     setReasons((prev) =>
       prev.includes(r) ? prev.filter((s) => s !== r) : [...prev, r]
     );

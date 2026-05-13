@@ -13,6 +13,7 @@ const Handshake: React.FC<HandshakeProps> = ({ onSuccess }) => {
 
     useEffect(() => {
         const checkAuth = () => {
+  const { t } = useTranslation();
             if (sessionStorage.getItem("user_id")) {
                 onSuccess();
             } else {

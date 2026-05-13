@@ -7,6 +7,7 @@ interface StorySelectionScreenProps {
 }
 
 const StorySelectionScreen: FC<StorySelectionScreenProps> = ({ onSelect }) => {
+  const { t } = useTranslation();
 
   return (
     <main className=" px-6 py-10 text-left">

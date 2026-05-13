@@ -16,6 +16,7 @@ import { toast } from "sonner";
 const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
 
 const SelfCompassionBreak = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState(0);
   const [beforeIntensity, setBeforeIntensity] = useState(5);
   const [emotions, setEmotions] = useState<string[]>([]);

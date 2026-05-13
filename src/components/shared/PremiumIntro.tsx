@@ -22,6 +22,7 @@ export const PremiumIntro: React.FC<PremiumIntroProps> = ({
   duration,
   children
 }) => {
+  const { t } = useTranslation();
 
   return (
     <div className="flex flex-col items-center py-12 pb-32 min-h-[80vh] selection:bg-primary/20" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>

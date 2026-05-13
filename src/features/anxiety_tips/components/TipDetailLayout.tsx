@@ -13,6 +13,7 @@ interface TipDetailLayoutProps {
 }
 
 const TipDetailLayout = ({ title, whyItHelps, whatYouCanDo, extra }: TipDetailLayoutProps) => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
 
   return (

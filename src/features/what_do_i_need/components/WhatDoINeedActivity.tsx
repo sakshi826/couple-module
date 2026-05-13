@@ -51,6 +51,7 @@ interface SavedReflection {
 }
 
 const WhatDoINeedActivity = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState(1);
   const [selectedNeeds, setSelectedNeeds] = useState<string[]>([]);
   const [customNeed, setCustomNeed] = useState("");
@@ -107,6 +108,7 @@ const WhatDoINeedActivity = () => {
   }, []);
 
   const addCustomNeed = () => {
+  const { t } = useTranslation();
     if (customNeed.trim() && !selectedNeeds.includes(customNeed.trim())) {
       setSelectedNeeds((prev) => [...prev, customNeed.trim()]);
       setCustomNeed("");
@@ -115,11 +117,13 @@ const WhatDoINeedActivity = () => {
 
   const goToPrioritize = () => setStep2Phase("prioritize");
   const selectPrimary = (need: string) => {
+  const { t } = useTranslation();
     setPrimaryNeed(need);
     setStep2Phase("focus");
   };
 
   const goToScreen3 = () => {
+  const { t } = useTranslation();
     setScreen(3);
     setStep3Phase("reflect");
     setPlaceholderIdx(0);
@@ -156,6 +160,7 @@ const WhatDoINeedActivity = () => {
   const handleFinish = () => setScreen(4);
 
   const handleBack = () => {
+  const { t } = useTranslation();
     if (screen === 1) return;
     if (screen === 2) {
       if (step2Phase === "focus") setStep2Phase("prioritize");

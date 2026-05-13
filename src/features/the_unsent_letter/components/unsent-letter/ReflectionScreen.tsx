@@ -10,6 +10,7 @@ interface ReflectionScreenProps {
 }
 
 const ReflectionScreen = ({ step, onSave, onFinish, onBack }: ReflectionScreenProps) => {
+  const { t } = useTranslation();
   const description = (typeof t !== "undefined" ? t : (k) => k)("reflection.description", { returnObjects: true }) as string[];
 
   return (

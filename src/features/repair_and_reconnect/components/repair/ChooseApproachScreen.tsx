@@ -11,6 +11,7 @@ interface Props {
 }
 
 const ChooseApproachScreen = ({ person, selected, onSelect, onContinue }: Props) => {
+  const { t } = useTranslation();
 
   const approaches = ((typeof t !== "undefined" ? t : (k) => k)(`choose_approach.approaches.${person}`, { returnObjects: true }) || 
                      (typeof t !== "undefined" ? t : (k) => k)(`choose_approach.approaches.other`, { returnObjects: true })) as Approach[];

@@ -438,11 +438,13 @@ const topicDetails: Record<string, {
 };
 
 export function SelfCareResources() {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
 
   useEffect(() => {
     const handlePopState = () => {
+  const { t } = useTranslation();
       if (selectedTopic === null) {
         handlePlatformExit();
       } else {

@@ -9,6 +9,7 @@ import { Edit2, History as HistoryIcon, Calendar, Loader2 } from "lucide-react";
 import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 const ReviewEntry = () => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const location = useLocation();
   const { entryId, entryDate } = (location.state as any) || {};
@@ -46,6 +47,7 @@ const ReviewEntry = () => {
   const formattedDate = format(new Date(entry.date + "T00:00:00"), "MMMM d, yyyy");
 
   const handleEdit = () => {
+  const { t } = useTranslation();
     navigate("..", {
       state: {
         editId: entry.id,

@@ -12,6 +12,7 @@ import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 import { PremiumComplete } from "../../../components/shared/PremiumComplete";
 
 const Index = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState(1);
   const [data, setData] = useState<ActivityData>({
     activity: "",
@@ -26,6 +27,7 @@ const Index = () => {
     setData((prev) => ({ ...prev, ...fields }));
 
   const goHome = () => {
+  const { t } = useTranslation();
     setData({ activity: "", feeling: "", enjoyBecause: "", feelsMore: "", remindsOf: "", smallStep: "" });
     setScreen(1);
   };

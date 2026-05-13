@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { ListChecks } from "lucide-react";
 
 const IntroScreen = ({ onNext }: { onNext: () => void }) => {
+  const { t } = useTranslation();
 
   return (
     <PremiumIntro

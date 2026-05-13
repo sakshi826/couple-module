@@ -8,6 +8,7 @@ interface Props {
 }
 
 const ChoosePersonScreen = ({ selected, onSelect, onContinue }: Props) => {
+  const { t } = useTranslation();
   
   const options = [
     { id: "friend", label: (typeof t !== "undefined" ? t : (k) => k)("choose_person.options.friend"), emoji: "🤝" },

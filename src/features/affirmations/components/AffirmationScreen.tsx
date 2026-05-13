@@ -26,6 +26,7 @@ const AffirmationScreen: React.FC<AffirmationScreenProps> = ({
   onChooseAnother,
   onFinish
 }) => {
+  const { t } = useTranslation();
   const tintClass = premiumTints[colorIndex % premiumTints.length];
   const feeling = feelings.find((f) => f.id === feelingId);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -41,6 +42,7 @@ const AffirmationScreen: React.FC<AffirmationScreenProps> = ({
   const isLast = currentIndex === total - 1;
 
   const goNext = () => {
+  const { t } = useTranslation();
     if (!isLast) {
       setCurrentIndex((i) => i + 1);
     } else {
@@ -49,6 +51,7 @@ const AffirmationScreen: React.FC<AffirmationScreenProps> = ({
   };
 
   const goPrev = () => {
+  const { t } = useTranslation();
     if (!isFirst) {
       setCurrentIndex((i) => i - 1);
     }

@@ -7,6 +7,7 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { useTranslation } from "react-i18next";
 
 export function MindfulnessSelfCare() {
+  const { t } = useTranslation();
   const navigate = useNavigate();
 
   const featuredContent = [

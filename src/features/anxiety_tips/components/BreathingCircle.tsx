@@ -10,6 +10,7 @@ const phases: { name: Phase; label: string; duration: number }[] = [
 ];
 
 const BreathingCircle = () => {
+  const { t } = useTranslation();
   const [phaseIndex, setPhaseIndex] = useState(0);
   const [running, setRunning] = useState(false);
 

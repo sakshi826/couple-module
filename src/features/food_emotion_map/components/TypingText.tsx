@@ -10,6 +10,7 @@ interface TypingTextProps {
 }
 
 const TypingText = ({ text, speed = 30, onComplete, className = "" }: TypingTextProps) => {
+  const { t } = useTranslation();
   const [displayed, setDisplayed] = useState("");
   const [done, setDone] = useState(false);
 

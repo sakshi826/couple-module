@@ -12,6 +12,7 @@ const cardStyle: React.CSSProperties = {
 };
 
 const Screen1 = ({ onNext }: Screen1Props) => {
+  const { t } = useTranslation();
 
   return (
     <div className="flex flex-col flex-1 px-5 pb-6 justify-center" style={{ minHeight: 0 }}>

@@ -10,11 +10,13 @@ interface HistoryScreenProps {
 }
 
 const HistoryScreen = ({ onBack }: HistoryScreenProps) => {
+  const { t } = useTranslation();
   const [entries, setEntries] = useState<ReflectionEntry[]>(getReflections());
   const [expanded, setExpanded] = useState<string | null>(null);
   const [confirmDelete, setConfirmDelete] = useState<string | null>(null);
 
   const handleDelete = (id: string) => {
+  const { t } = useTranslation();
     deleteReflection(id);
     setEntries(getReflections());
     setConfirmDelete(null);

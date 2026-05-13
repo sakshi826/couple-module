@@ -7,6 +7,7 @@ interface Props {
 }
 
 const CompleteScreen = ({ onRestart, onBack }: Props) => {
+  const { t } = useTranslation();
   return (
     <div className=" gradient-calm flex flex-col items-center justify-center px-6 relative">
       <div className="flex flex-col items-center animate-fade-in">

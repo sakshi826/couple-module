@@ -38,6 +38,7 @@ const breathe = {
 };
 
 function Screen1({ onContinue }: { onContinue: () => void }) {
+  const { t } = useTranslation();
   const [feeling, setFeeling] = useState("");
   const description = (typeof t !== "undefined" ? t : (k) => k)("s1.description", { returnObjects: true }) as string[];
 
@@ -80,6 +81,7 @@ function Screen1({ onContinue }: { onContinue: () => void }) {
 }
 
 function Screen2({ onContinue }: { onContinue: () => void }) {
+  const { t } = useTranslation();
   const description = (typeof t !== "undefined" ? t : (k) => k)("s2.description", { returnObjects: true }) as string[];
 
   return (
@@ -114,6 +116,7 @@ function Screen2({ onContinue }: { onContinue: () => void }) {
 }
 
 function Screen3({ onContinue }: { onContinue: () => void }) {
+  const { t } = useTranslation();
   const description = (typeof t !== "undefined" ? t : (k) => k)("s3.description", { returnObjects: true }) as string[];
 
   return (
@@ -148,6 +151,7 @@ function Screen3({ onContinue }: { onContinue: () => void }) {
 }
 
 function Screen4({ onContinue }: { onContinue: () => void }) {
+  const { t } = useTranslation();
   const description = (typeof t !== "undefined" ? t : (k) => k)("s4.description", { returnObjects: true }) as string[];
 
   return (
@@ -195,6 +199,7 @@ function Screen4({ onContinue }: { onContinue: () => void }) {
 }
 
 function Screen5({ onDone }: { onDone: () => void }) {
+  const { t } = useTranslation();
   const [reflection, setReflection] = useState("");
   const description = (typeof t !== "undefined" ? t : (k) => k)("s5.description", { returnObjects: true }) as string[];
 
@@ -239,6 +244,7 @@ function Screen5({ onDone }: { onDone: () => void }) {
 }
 
 export default function SafePlaceVisualization() {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState(0);
 
   const next = useCallback(() => setScreen((s) => Math.min(s + 1, 5)), []);

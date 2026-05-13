@@ -15,6 +15,7 @@ interface MissionScreenProps {
 }
 
 const MissionScreen = ({ data, onEdit, onHome, onChange }: MissionScreenProps) => {
+  const { t } = useTranslation();
 
   const valuesText = data.values
     .map(v => (typeof t !== "undefined" ? t : (k) => k)(v))

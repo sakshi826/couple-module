@@ -14,6 +14,7 @@ import { toast } from "sonner";
 const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
 
 const Index = () => {
+  const { t } = useTranslation();
   const [step, setStep] = useState(0);
   const [person, setPerson] = useState("");
   const [approach, setApproach] = useState("");
@@ -21,6 +22,7 @@ const Index = () => {
 
   const next = () => setStep((s) => s + 1);
   const reset = () => {
+  const { t } = useTranslation();
     setStep(0);
     setPerson("");
     setApproach("");

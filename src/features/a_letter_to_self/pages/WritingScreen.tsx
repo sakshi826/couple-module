@@ -22,6 +22,7 @@ const PROMPTS = [
 ];
 
 const WritingScreen = () => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const [content, setContent] = useState("");
   const [inspirationOpen, setInspirationOpen] = useState(false);
@@ -58,6 +59,7 @@ const WritingScreen = () => {
   }, [content, doSave]);
 
   const handlePromptClick = (prompt: string) => {
+  const { t } = useTranslation();
     setContent((prev) => (prev ? prev + "\n\n" + prompt + "\n" : prompt + "\n"));
     textareaRef.current?.focus();
   };

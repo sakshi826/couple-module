@@ -72,6 +72,7 @@ const BreadcrumbSeparator = ({ children, className, ...props }: React.ComponentP
 BreadcrumbSeparator.displayName = "BreadcrumbSeparator";
 
 const BreadcrumbEllipsis = ({ className, ...props }: React.ComponentProps<"span">) => {
+  const { t } = useTranslation();
   return (
 (
   <span

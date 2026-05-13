@@ -10,6 +10,7 @@ interface ResultScreenProps {
 }
 
 const ResultScreen = ({ scenario, onTryAgain, onDone }: ResultScreenProps) => {
+  const { t } = useTranslation();
   
   const scenarioMessages = (typeof t !== "undefined" ? t : (k) => k)("result.scenario_messages", { returnObjects: true }) as Record<string, string>;
   const message = scenarioMessages[scenario] || scenarioMessages.other;

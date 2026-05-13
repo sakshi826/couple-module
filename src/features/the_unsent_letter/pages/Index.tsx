@@ -27,6 +27,7 @@ const pageVariants = {
 const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
 
 const Index = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState<"intro" | "writing" | "reflection" | "history">("intro");
   const [letterContent, setLetterContent] = useState("");
   const [savedLetters, setSavedLetters] = useState<Letter[]>([]);

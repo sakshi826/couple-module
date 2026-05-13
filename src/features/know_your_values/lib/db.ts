@@ -9,7 +9,7 @@ console.log("DB Module Loaded: v1.0.2 - Using Pool with HTTP Cache");
 
 
 
-export const pool = { query: (t: string, p?: any[]) => (sql ? (sql as any).query : async () => ({ rows: [] }))(t, p || []) };
+export const pool = { query: (t: string, p?: any[]) => (sql as any).query(t, p || []) };
 
 export const dbQuery = async (text: string, params?: any[]) => {
     console.log("SQL Exec:", text, params);

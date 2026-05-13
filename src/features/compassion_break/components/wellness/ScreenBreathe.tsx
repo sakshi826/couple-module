@@ -9,6 +9,7 @@ interface Props {
 const TOTAL_CYCLES = 3;
 
 const ScreenBreathe = ({ onContinue }: Props) => {
+  const { t } = useTranslation();
   const [phaseIndex, setPhaseIndex] = useState(0);
   const [cycle, setCycle] = useState(0);
   const [done, setDone] = useState(false);

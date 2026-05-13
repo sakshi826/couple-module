@@ -8,6 +8,7 @@ import IntroScreen from "../components/IntroScreen";
 import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 const GratitudeEntry = () => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const location = useLocation();
   const editState = location.state as any;
@@ -19,6 +20,7 @@ const GratitudeEntry = () => {
   const canContinue = gratitude1.trim().length > 0;
 
   const handleContinue = () => {
+  const { t } = useTranslation();
     if (!canContinue) return;
     navigate("mood", {
       state: {

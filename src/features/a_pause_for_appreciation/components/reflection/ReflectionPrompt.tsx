@@ -13,6 +13,7 @@ interface ReflectionPromptProps {
 }
 
 const ReflectionPrompt = ({ step, total, prompt, example, value, onChange, onNext }: ReflectionPromptProps) => {
+  const { t } = useTranslation();
 
   return (
     <div className="flex flex-col items-center py-6">

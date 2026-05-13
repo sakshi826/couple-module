@@ -26,6 +26,7 @@ const POSITIONS = [
 ];
 
 function getPos(angle: number, r: number) {
+  const { t } = useTranslation();
   const rad = (angle * Math.PI) / 180;
   return { x: Math.cos(rad) * r, y: Math.sin(rad) * r };
 }
@@ -36,6 +37,7 @@ interface CircleScreenProps {
 }
 
 const CircleScreen = ({ names, onNamesChange }: CircleScreenProps) => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const [inputValue, setInputValue] = useState("");

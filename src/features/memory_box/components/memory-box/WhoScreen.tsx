@@ -15,6 +15,7 @@ interface Props {
 }
 
 const WhoScreen = ({ name, setName, relation, setRelation, category, setCategory, onContinue, onBack }: Props) => {
+  const { t } = useTranslation();
   const CATEGORIES = (typeof t !== "undefined" ? t : (k) => k)("who.categories", { returnObjects: true }) as any[];
 
   return (

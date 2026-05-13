@@ -14,6 +14,7 @@ import { useTranslation } from "react-i18next";
 const queryClient = new QueryClient();
 
 const App = () => {
+  const { t } = useTranslation();
   return (
 (
   <I18nextProvider i18n={i18n}>

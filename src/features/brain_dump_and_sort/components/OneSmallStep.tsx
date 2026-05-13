@@ -13,6 +13,7 @@ interface Props {
 const rotatingTexts = ["Just this step.", "Stay present.", "One thing at a time.", "Breathe into the focus."];
 
 export const OneSmallStep = ({ thoughts, onComplete, onBack }: Props) => {
+  const { t } = useTranslation();
   const [selected, setSelected] = useState<string | null>(null);
   const [nextStep, setNextStep] = useState("");
   const [focusMode, setFocusMode] = useState(false);

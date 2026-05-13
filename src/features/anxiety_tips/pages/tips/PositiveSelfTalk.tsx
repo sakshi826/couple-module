@@ -2,6 +2,7 @@ import TipDetailLayout from "../../components/TipDetailLayout";
 import { useTranslation } from "react-i18next";
 
 const PositiveSelfTalk = () => {
+  const { t } = useTranslation();
 
   return (
     <TipDetailLayout

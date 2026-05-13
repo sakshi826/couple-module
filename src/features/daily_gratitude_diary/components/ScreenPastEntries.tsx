@@ -14,6 +14,7 @@ interface ScreenPastEntriesProps {
 }
 
 const ScreenPastEntries = ({ entries, onBack }: ScreenPastEntriesProps) => {
+  const { t } = useTranslation();
 
   return (
     <div className="flex flex-col items-center py-6 pb-24">

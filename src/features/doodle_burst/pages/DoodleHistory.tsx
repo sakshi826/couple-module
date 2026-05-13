@@ -40,6 +40,7 @@ const DoodleHistory = () => {
   };
 
   const formatDate = (dateStr: string) => {
+  const { t } = useTranslation();
     const d = new Date(dateStr + "T00:00:00");
     const today = new Date();
     const todayStr = today.toISOString().split("T")[0];
@@ -58,6 +59,7 @@ const DoodleHistory = () => {
   };
 
   const formatTime = (timestamp: number) => {
+  const { t } = useTranslation();
     return new Date(timestamp).toLocaleTimeString(i18n.language, {
       hour: "numeric",
       minute: "2-digit",

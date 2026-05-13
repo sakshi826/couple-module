@@ -19,6 +19,7 @@ import { useTranslation } from "react-i18next";
 const queryClient = new QueryClient();
 
 const App = () => {
+  const { t } = useTranslation();
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>

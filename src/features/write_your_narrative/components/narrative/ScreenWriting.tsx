@@ -9,11 +9,13 @@ interface Props {
 }
 
 const ScreenWriting = ({ writing, setWriting, onContinue }: Props) => {
+  const { t } = useTranslation();
   const [activePrompt, setActivePrompt] = useState<string | null>(null);
 
   const prompts = (typeof t !== "undefined" ? t : (k) => k)("writing.prompts", { returnObjects: true }) as any[];
 
   const handlePromptClick = (prompt: string) => {
+  const { t } = useTranslation();
     setActivePrompt(prompt);
     if (!writing) {
       setWriting(prompt + " ");

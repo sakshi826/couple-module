@@ -8,6 +8,7 @@ import { Send } from "lucide-react";
 import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 const EnergyCheckIn = () => {
+  const { t } = useTranslation();
   const { currentLevel, setCurrentLevel } = useEnergy();
   const navigate = useNavigate();
   const [showIntro, setShowIntro] = useState(true);

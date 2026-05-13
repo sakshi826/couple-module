@@ -52,9 +52,11 @@ const FloatingHearts = ({ hearts }: { hearts: typeof HEARTS_SCREEN1 }) => {
 };
 
 const Index = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState(0);
 
   const resetFlow = () => {
+  const { t } = useTranslation();
     setScreen(0);
   };
 

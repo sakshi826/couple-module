@@ -6,6 +6,7 @@ import { ButtonProps, buttonVariants } from "@/features/the_unsent_letter/compon
 import { useTranslation } from "react-i18next";
 
 const Pagination = ({ className, ...props }: React.ComponentProps<"nav">) => {
+  const { t } = useTranslation();
   return (
 (
   <nav
@@ -56,6 +57,7 @@ const PaginationLink = ({ className, isActive, size = "icon", ...props }: Pagina
 PaginationLink.displayName = "PaginationLink";
 
 const PaginationPrevious = ({ className, ...props }: React.ComponentProps<typeof PaginationLink>) => {
+  const { t } = useTranslation();
   return (
 (
   <PaginationLink aria-label={(typeof t !== "undefined" ? t : (k) => k)("go_to_previous_page")} size="default" className={cn("gap-1 pl-2.5", className)} {...props}>
@@ -68,6 +70,7 @@ const PaginationPrevious = ({ className, ...props }: React.ComponentProps<typeof
 PaginationPrevious.displayName = "PaginationPrevious";
 
 const PaginationNext = ({ className, ...props }: React.ComponentProps<typeof PaginationLink>) => {
+  const { t } = useTranslation();
   return (
 (
   <PaginationLink aria-label={(typeof t !== "undefined" ? t : (k) => k)("go_to_next_page")} size="default" className={cn("gap-1 pr-2.5", className)} {...props}>
@@ -80,6 +83,7 @@ const PaginationNext = ({ className, ...props }: React.ComponentProps<typeof Pag
 PaginationNext.displayName = "PaginationNext";
 
 const PaginationEllipsis = ({ className, ...props }: React.ComponentProps<"span">) => {
+  const { t } = useTranslation();
   return (
 (
   <span aria-hidden className={cn("flex h-9 w-9 items-center justify-center", className)} {...props}>

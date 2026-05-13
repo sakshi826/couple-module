@@ -19,6 +19,7 @@ import { useTranslation } from "react-i18next";
 const queryClient = new QueryClient();
 
 const App = () => {
+  const { t } = useTranslation();
   const [names, setNames] = useState<Record<string, string>>({});
   const reset = useCallback(() => setNames({}), []);
 

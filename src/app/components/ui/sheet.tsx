@@ -8,6 +8,7 @@ import { cn } from "./utils";
 import { useTranslation } from "react-i18next";
 
 function Sheet({ ...props }: React.ComponentProps<typeof SheetPrimitive.Root>) {
+  const { t } = useTranslation();
   return <SheetPrimitive.Root data-slot="sheet" {...props} />;
 }
 
@@ -46,6 +47,7 @@ function SheetOverlay({
 }
 
 function SheetContent({
+  const { t } = useTranslation();
   className,
   children,
   side = "right",

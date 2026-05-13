@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import { useTranslation } from "react-i18next";
 
 const BreathingExercise = () => {
+  const { t } = useTranslation();
   const [phase, setPhase] = useState<"inhale" | "hold" | "exhale">("inhale");
   const [paused, setPaused] = useState(false);
 

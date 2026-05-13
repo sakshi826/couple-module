@@ -21,6 +21,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
     useEffect(() => {
         const checkAuth = () => {
+  const { t } = useTranslation();
             const storedId = sessionStorage.getItem("user_id");
             if (storedId) {
                 setUserId(storedId);

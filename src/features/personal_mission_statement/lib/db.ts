@@ -10,16 +10,12 @@ export async function query<T = any>(queryString: string, params: any[] = []): P
         // For parameterized queries, we build the call using sql.query which is
         // available in @neondatabase/serverless and returns { rows: [] }.
         let rows: any[];
-        if (!sql) {
-            console.warn("DB not initialized.");
-            return [];
-        }
         if (params.length > 0) {
-            const res = await (sql ? (sql as any).query : async () => ({ rows: [] }))(queryString, params);
+            const res = await (sql as any).query(queryString, params);
             rows = Array.isArray(res) ? res : (res.rows ?? []);
         } else {
             // No params: use direct call (returns array)
-            const res = await (sql ? (sql as any).query : async () => ({ rows: [] }))(queryString);
+            const res = await (sql as any).query(queryString);
             rows = Array.isArray(res) ? res : (res.rows ?? []);
         }
         return rows as T[];

@@ -12,6 +12,7 @@ interface Props {
 }
 
 export const CarryForwardScreen = ({ name, smallStep, setSmallStep, onBack, onSave, onSkip }: Props) => {
+  const { t } = useTranslation();
   return (
     <div className="flex-1 flex flex-col">
       <button onClick={onBack} className="self-start text-muted-foreground hover:text-foreground transition-colors mb-6">

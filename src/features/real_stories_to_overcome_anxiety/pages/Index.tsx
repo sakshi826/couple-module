@@ -10,15 +10,18 @@ import { AnimatePresence, motion } from "framer-motion";
 type Screen = "intro" | "selection" | "story";
 
 const Index = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState<Screen>("intro");
   const [storyIndex, setStoryIndex] = useState(0);
 
   const handleReadStories = () => setScreen("selection");
   const handleSelectStory = (index: number) => {
+  const { t } = useTranslation();
     setStoryIndex(index);
     setScreen("story");
   };
   const handleNextStory = () => {
+  const { t } = useTranslation();
     if (storyIndex < stories.length - 1) {
       setStoryIndex(storyIndex + 1);
     } else {

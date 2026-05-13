@@ -5,6 +5,7 @@ interface Props {
 }
 
 export default function ExitDialog({ onConfirm, onCancel }: Props) {
+  const { t } = useTranslation();
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={onCancel}>
       <div className="absolute inset-0 bg-foreground/30 backdrop-blur-sm" />

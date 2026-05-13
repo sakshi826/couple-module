@@ -10,6 +10,7 @@ export function SeeAllPage() {
 
   // Get the section title
   const getSectionTitle = () => {
+  const { t } = useTranslation();
     if (!section) return "All Content";
     return section
       .split("-")

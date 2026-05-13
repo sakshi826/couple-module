@@ -8,6 +8,7 @@ interface TopBarProps {
 }
 
 const TopBar = ({ onBack, showHistory }: TopBarProps) => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
 
   return (

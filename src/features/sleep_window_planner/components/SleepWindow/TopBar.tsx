@@ -8,6 +8,7 @@ interface TopBarProps {
 }
 
 const TopBar = ({ onBack, pillLabel, screen }: TopBarProps) => {
+  const { t } = useTranslation();
   return (
 (
   <div className="relative z-10">

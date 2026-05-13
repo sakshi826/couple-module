@@ -9,6 +9,7 @@ interface CheckInScreenProps {
 }
 
 const CheckInScreen = ({ value, onChange, onFinish }: CheckInScreenProps) => {
+  const { t } = useTranslation();
 
   const statements = [
     (typeof t !== "undefined" ? t : (k) => k)("checkin.statements.s1"),

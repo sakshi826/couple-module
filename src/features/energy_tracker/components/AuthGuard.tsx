@@ -12,6 +12,7 @@ const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
 
     useEffect(() => {
         const check = () => {
+  const { t } = useTranslation();
             const userId = sessionStorage.getItem("user_id");
             if (userId) {
                 setIsAuthorized(true);

@@ -11,6 +11,7 @@ interface StoryScreenProps {
 }
 
 const StoryScreen: FC<StoryScreenProps> = ({ story, storyIndex, isLast, onNext, onBack }) => {
+  const { t } = useTranslation();
 
   return (
     <main className=" px-6 py-10 animate-fade-in text-left" key={story.name}>

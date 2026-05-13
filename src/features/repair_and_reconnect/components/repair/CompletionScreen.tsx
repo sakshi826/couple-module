@@ -7,6 +7,7 @@ interface Props {
 }
 
 const CompletionScreen = ({ onTryAnother, onDone }: Props) => {
+  const { t } = useTranslation();
   return (
 (
   <div className="glass-card p-8 text-center space-y-6">

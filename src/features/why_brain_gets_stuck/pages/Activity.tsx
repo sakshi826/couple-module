@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const TOTAL_SCREENS = 2;
 
 const Screen1 = ({ onNext }: { onNext: () => void }) => {
+  const { t } = useTranslation();
   return (
     <div className="flex flex-1 flex-col gap-6">
       <div className="relative overflow-hidden rounded-[2.5rem] bg-white border border-slate-100 p-8 shadow-xl shadow-slate-200/50 min-h-[400px] flex flex-col justify-center text-center">
@@ -33,6 +34,7 @@ const Screen1 = ({ onNext }: { onNext: () => void }) => {
 };
 
 const Screen2 = () => {
+  const { t } = useTranslation();
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const truths_data = (typeof t !== "undefined" ? t : (k) => k)("s2.truths", { returnObjects: true }) as any[];
@@ -92,6 +94,7 @@ const Screen2 = () => {
 };
 
 const Activity = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState(0);
 
   return (

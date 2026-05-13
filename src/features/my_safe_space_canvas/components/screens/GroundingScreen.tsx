@@ -11,6 +11,7 @@ interface Props {
 const PHASE_DURATIONS = [4000, 4000, 6000]; // ms
 
 const GroundingScreen: React.FC<Props> = ({ collage, onClose }) => {
+  const { t } = useTranslation();
   const DURATIONS = (typeof t !== "undefined" ? t : (k) => k)("grounding.durations", { returnObjects: true }) as any[];
   const PHASES = (typeof t !== "undefined" ? t : (k) => k)("grounding.phases", { returnObjects: true }) as string[];
 
@@ -38,6 +39,7 @@ const GroundingScreen: React.FC<Props> = ({ collage, onClose }) => {
     if (!isActive) return;
 
     const cyclePhase = (idx: number) => {
+  const { t } = useTranslation();
       setPhaseIndex(idx);
       phaseTimerRef.current = setTimeout(() => {
         cyclePhase((idx + 1) % 3);
@@ -49,6 +51,7 @@ const GroundingScreen: React.FC<Props> = ({ collage, onClose }) => {
   }, [isActive]);
 
   const handleDurationChange = (idx: number) => {
+  const { t } = useTranslation();
     setSelectedDuration(idx);
     setIsDone(false);
     setIsActive(false);

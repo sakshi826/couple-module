@@ -7,6 +7,7 @@ interface IntroScreenProps {
 }
 
 const IntroScreen = ({ onNext }: IntroScreenProps) => {
+  const { t } = useTranslation();
 
   return (
     <motion.div
