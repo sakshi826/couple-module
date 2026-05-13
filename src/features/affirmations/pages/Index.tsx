@@ -11,7 +11,6 @@ import { AnimatePresence, motion } from "framer-motion";
 type Screen = "intro" | "feelings" | "affirmation" | "complete";
 
 const Index = () => {
-  const { t } = useTranslation();
   const [screen, setScreen] = useState<Screen>("intro");
   const [selectedFeeling, setSelectedFeeling] = useState<string>("");
   const [selectedColorIndex, setSelectedColorIndex] = useState<number>(0);
@@ -19,7 +18,6 @@ const Index = () => {
   const handleBegin = () => setScreen("feelings");
 
   const handleSelectFeeling = (feelingId: string, colorIndex: number) => {
-  const { t } = useTranslation();
     setSelectedFeeling(feelingId);
     setSelectedColorIndex(colorIndex);
     setScreen("affirmation");

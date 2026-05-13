@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
 const IntroScreen = ({ onStart }: { onStart: () => void }) => {
-  const { t } = useTranslation();
   const navigate = useNavigate();
 
   return (

@@ -8,7 +8,6 @@ interface Props {
 }
 
 const IntroScreen = ({ onStart, onBack }: Props) => {
-  const { t } = useTranslation();
   
   return (
     <div className="glass-card p-8 text-center space-y-6 relative">

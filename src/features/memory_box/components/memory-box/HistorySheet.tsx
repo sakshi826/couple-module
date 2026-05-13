@@ -9,7 +9,6 @@ interface Props {
 }
 
 const HistorySheet = ({ open, onOpenChange, memories }: Props) => {
-  const { t } = useTranslation();
   return (
 (
   <Sheet open={open} onOpenChange={onOpenChange}>

@@ -8,7 +8,6 @@ interface AuthGuardProps {
 }
 
 const AuthGuard = ({ children }: AuthGuardProps) => {
-  const { t } = useTranslation();
     const [isAuthResolved, setIsAuthResolved] = useState(false);
     const [status, setStatus] = useState<string>("Authenticating...");
 

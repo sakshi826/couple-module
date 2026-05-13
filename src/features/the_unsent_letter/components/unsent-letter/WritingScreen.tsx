@@ -22,7 +22,6 @@ const WritingScreen = ({
   const prompts = (typeof t !== "undefined" ? t : (k) => k)("writing.prompts", { returnObjects: true }) as string[];
 
   const insertPrompt = (prompt: string) => {
-  const { t } = useTranslation();
     const textarea = textareaRef.current;
     if (!textarea) return;
     const start = textarea.selectionStart;

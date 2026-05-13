@@ -9,7 +9,6 @@ interface Props {
 }
 
 export const PastEntries = ({ entries, onBack }: Props) => {
-  const { t } = useTranslation();
   return (
     <div className="flex-1 flex flex-col gap-8 py-4" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
       <header className="text-center space-y-2">

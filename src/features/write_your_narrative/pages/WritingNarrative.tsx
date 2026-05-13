@@ -22,7 +22,6 @@ interface SavedEntry {
 }
 
 const WritingNarrative = () => {
-  const { t } = useTranslation();
   const [screen, setScreen] = useState<Screen>("entry");
   const [writing, setWriting] = useState("");
   const [reflection, setReflection] = useState("");

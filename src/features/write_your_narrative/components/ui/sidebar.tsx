@@ -33,7 +33,6 @@ type SidebarContext = {
 const SidebarContext = React.createContext<SidebarContext | null>(null);
 
 function useSidebar() {
-  const { t } = useTranslation();
   const context = React.useContext(SidebarContext);
   if (!context) {
     throw new Error("useSidebar must be used within a SidebarProvider.");

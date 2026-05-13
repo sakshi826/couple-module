@@ -10,7 +10,6 @@ interface TimerScreenProps {
 const TOTAL_SECONDS = 5 * 60;
 
 const TimerScreen = ({ onComplete }: TimerScreenProps) => {
-  const { t } = useTranslation();
   const [seconds, setSeconds] = useState(TOTAL_SECONDS);
   const [isRunning, setIsRunning] = useState(false);
   const [soundEnabled, setSoundEnabled] = useState(false);
@@ -63,7 +62,6 @@ const TimerScreen = ({ onComplete }: TimerScreenProps) => {
   const strokeDashoffset = circumference - (progress / 100) * circumference;
 
   const handleFinishEarly = () => {
-  const { t } = useTranslation();
     setIsRunning(false);
     playChime();
     onComplete();

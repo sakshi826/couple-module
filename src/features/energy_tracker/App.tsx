@@ -19,7 +19,6 @@ import { useTranslation } from "react-i18next";
 const queryClient = new QueryClient();
 
 const AnimatedRoutes = () => {
-  const { t } = useTranslation();
   const location = useLocation();
 
   return (

@@ -8,7 +8,6 @@ interface Props {
 }
 
 export const ClosingScreen = ({ onExit }: Props) => {
-  const { t } = useTranslation();
   return (
 (
   <div className="flex-1 flex flex-col items-center justify-center text-center gap-8">

@@ -14,7 +14,6 @@ import { sql } from '@/lib/db';
 import { Sparkles, Brain, ArrowRight, ArrowLeft, RefreshCw, History, Calendar, Check, Target, Heart } from "lucide-react";
 
 const Index = () => {
-  const { t } = useTranslation();
   const { userId } = useAuth();
   const [screen, setScreen] = useState<"intro" | "choose" | "reflect" | "action" | "summary" | "history">("intro");
   const [selectedValues, setSelectedValues] = useState<ValueItem[]>([]);
@@ -44,7 +43,6 @@ const Index = () => {
   }, [userId]);
 
   const toggleValue = (v: ValueItem) => {
-  const { t } = useTranslation();
     setSelectedValues((prev) =>
       prev.find((p) => p.name === v.name)
         ? prev.filter((p) => p.name !== v.name)
@@ -83,13 +81,11 @@ const Index = () => {
   };
 
   const handleFinish = () => {
-  const { t } = useTranslation();
     fetchHistory();
     setScreen("history");
   };
 
   const resetActivity = () => {
-  const { t } = useTranslation();
     setSelectedValues([]);
     setChosenValue(null);
     setReflectionText("");
@@ -99,7 +95,6 @@ const Index = () => {
   };
 
   const getTitle = () => {
-  const { t } = useTranslation();
     switch(screen) {
       case 'history': return "Value Journey";
       case 'summary': return "Reflection Complete";

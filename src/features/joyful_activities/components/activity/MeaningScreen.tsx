@@ -11,7 +11,6 @@ interface Props {
 }
 
 const MeaningScreen = ({ data, onChange, onNext }: Props) => {
-  const { t } = useTranslation();
   return (
     <div className="space-y-10">
       <header className="space-y-4 text-center">

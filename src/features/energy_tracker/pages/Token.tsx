@@ -2,7 +2,6 @@ import { useTranslation } from "react-i18next";
 import { LogIn } from "lucide-react";
 
 const TokenPage = () => {
-  const { t } = useTranslation();
 
     return (
         <div className="flex flex-col items-center justify-center min-h-[100dvh] bg-transparent p-6 text-center max-w-xl mx-auto">

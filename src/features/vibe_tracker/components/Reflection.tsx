@@ -19,7 +19,6 @@ interface Props {
 }
 
 const Reflection = ({ onComplete }: Props) => {
-  const { t } = useTranslation();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answer, setAnswer] = useState("");
   const [answers, setAnswers] = useState<string[]>([]);
@@ -30,7 +29,6 @@ const Reflection = ({ onComplete }: Props) => {
   const isLast = currentIndex >= shuffledKeys.length - 1;
 
   const handleNext = () => {
-  const { t } = useTranslation();
     const newAnswers = [...answers, answer];
     setAnswers(newAnswers);
 

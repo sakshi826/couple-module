@@ -6,7 +6,6 @@ import { Search } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 export function CategoriesPage() {
-  const { t } = useTranslation();
   const navigate = useNavigate();
 
   const categories = [
@@ -73,7 +72,6 @@ export function CategoriesPage() {
   ];
 
   const toggleCategory = (categoryId: string) => {
-  const { t } = useTranslation();
     setExpandedCategory(expandedCategory === categoryId ? null : categoryId);
   };
 

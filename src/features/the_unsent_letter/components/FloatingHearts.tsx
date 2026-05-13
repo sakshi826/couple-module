@@ -12,7 +12,6 @@ interface Heart {
 }
 
 const FloatingHearts = () => {
-  const { t } = useTranslation();
   const [hearts, setHearts] = useState<Heart[]>([]);
 
   useEffect(() => {

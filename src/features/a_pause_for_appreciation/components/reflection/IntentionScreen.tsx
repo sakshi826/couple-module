@@ -9,7 +9,6 @@ interface IntentionScreenProps {
 }
 
 const IntentionScreen = ({ value, onChange, onContinue }: IntentionScreenProps) => {
-  const { t } = useTranslation();
 
   const options = [
     { icon: <Lock size={20} />, label: (typeof t !== "undefined" ? t : (k) => k)("intention.options.private"), key: "private" },

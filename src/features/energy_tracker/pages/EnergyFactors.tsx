@@ -6,7 +6,6 @@ import { useTranslation } from "react-i18next";
 import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 const EnergyFactors = () => {
-  const { t } = useTranslation();
   const { currentFactors, setCurrentFactors, currentNote, setCurrentNote, saveEntry } = useEnergy();
   const navigate = useNavigate();
 
@@ -24,7 +23,6 @@ const EnergyFactors = () => {
   ];
 
   const toggleFactor = (fId: string) => {
-  const { t } = useTranslation();
     setCurrentFactors(
       currentFactors.includes(fId)
         ? currentFactors.filter((x) => x !== fId)

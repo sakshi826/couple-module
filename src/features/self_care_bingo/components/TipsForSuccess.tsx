@@ -1,7 +1,6 @@
 import { useTranslation } from "react-i18next";
 
 const TipsForSuccess = () => {
-  const { t } = useTranslation();
 
   const tips = [
     { emoji: "🌱", title: (typeof t !== "undefined" ? t : (k) => k)('tip1_title'), desc: (typeof t !== "undefined" ? t : (k) => k)('tip1_desc') },

@@ -610,7 +610,6 @@ const messages: Message[] = [
 ];
 
 export function CareTeam() {
-  const { t } = useTranslation();
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const [selectedExpert, setSelectedExpert] = useState<Expert | null>(null);
@@ -645,14 +644,12 @@ export function CareTeam() {
   }, [searchParams]);
 
   const handleExpertClick = (expert: Expert) => {
-  const { t } = useTranslation();
     setSelectedExpert(expert);
     setSelectedMessage(null);
     setShowExpertsList(false);
   };
 
   const handleMessageClick = (message: Message) => {
-  const { t } = useTranslation();
     const expert = experts.find(e => e.id === message.expertId);
     if (expert) {
       setSelectedExpert(expert);
@@ -662,7 +659,6 @@ export function CareTeam() {
   };
 
   const handleBack = () => {
-  const { t } = useTranslation();
     setSelectedExpert(null);
     setSelectedMessage(null);
     setShowExpertsList(true);
@@ -691,7 +687,6 @@ export function CareTeam() {
   });
 
   const handleSavePreferences = (newPreferences: Preferences) => {
-  const { t } = useTranslation();
     setPreferences(newPreferences);
     // Here you can also save to localStorage or send to backend
     console.log("Saved preferences:", newPreferences);

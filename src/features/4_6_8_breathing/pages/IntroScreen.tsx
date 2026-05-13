@@ -5,7 +5,6 @@ import { Wind } from "lucide-react";
 import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 const IntroScreen = () => {
-  const { t } = useTranslation();
   const navigate = useNavigate();
 
   return (

@@ -17,7 +17,6 @@ interface Screen1Props {
 }
 
 const Screen1CheckIn = ({ date, onDateChange, onContinue }: Screen1Props) => {
-  const { t } = useTranslation();
   const [answer, setAnswer] = useState<boolean | null>(null);
 
   return (

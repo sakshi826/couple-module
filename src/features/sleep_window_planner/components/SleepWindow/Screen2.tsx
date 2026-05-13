@@ -39,7 +39,6 @@ function calcBedtime(wakeHour: number, wakeMinute: number, wakeAmPm: 'AM' | 'PM'
 }
 
 const Screen2 = (props: Screen2Props) => {
-  const { t } = useTranslation();
   const { wakeHour, wakeMinute, wakeAmPm, sleepDuration } = props;
   const bedtime = calcBedtime(wakeHour, wakeMinute, wakeAmPm, sleepDuration);
   const wakeStr = formatTime(wakeHour, wakeMinute, wakeAmPm);

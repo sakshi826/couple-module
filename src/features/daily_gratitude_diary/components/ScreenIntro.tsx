@@ -7,7 +7,6 @@ interface ScreenIntroProps {
 }
 
 const ScreenIntro = ({ onStart }: ScreenIntroProps) => {
-  const { t } = useTranslation();
 
   return (
     <motion.div

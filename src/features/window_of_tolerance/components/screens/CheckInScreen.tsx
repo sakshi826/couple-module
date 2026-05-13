@@ -9,7 +9,6 @@ interface Props {
 }
 
 export default function CheckInScreen({ selected, onSelect, onBack, onNext }: Props) {
-  const { t } = useTranslation();
 
   const zones = [
     {

@@ -13,7 +13,6 @@ interface Props {
 }
 
 const ScreenPastEntries = ({ entries, onBack }: Props) => {
-  const { t } = useTranslation();
 
   return (
     <div className="flex-1 flex flex-col gap-8" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>

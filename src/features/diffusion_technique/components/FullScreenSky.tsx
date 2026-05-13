@@ -7,7 +7,6 @@ interface FullScreenSkyProps {
 }
 
 export function FullScreenSky({ thought, onNext }: FullScreenSkyProps) {
-  const { t } = useTranslation();
   return (
     <motion.div
       initial={{ opacity: 0 }}

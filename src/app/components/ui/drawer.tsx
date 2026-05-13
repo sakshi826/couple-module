@@ -74,7 +74,6 @@ function DrawerContent({
 }
 
 function DrawerHeader({ className, ...props }: React.ComponentProps<"div">) {
-  const { t } = useTranslation();
   return (
     <div
       data-slot="drawer-header"

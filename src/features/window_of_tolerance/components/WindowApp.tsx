@@ -22,7 +22,6 @@ export interface CheckInEntry {
 }
 
 export default function WindowApp() {
-  const { t } = useTranslation();
   const [screen, setScreen] = useState(0);
   const [selectedZone, setSelectedZone] = useState<ZoneType>(null);
   const [showHistory, setShowHistory] = useState(false);

@@ -10,7 +10,6 @@ interface ShareModalProps {
 }
 
 const ShareModal: React.FC<ShareModalProps> = ({ isOpen, onClose, activityName }) => {
-  const { t } = useTranslation();
   const [copied, setCopied] = React.useState(false);
 
   const androidUrl = "https://play.google.com/store/apps/details?id=org.mantracare.therapy";

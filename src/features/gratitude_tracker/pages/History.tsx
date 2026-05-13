@@ -22,7 +22,6 @@ import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 const WEEKDAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
 const GratitudeHistory = () => {
-  const { t } = useTranslation();
   const navigate = useNavigate();
   const [currentMonth, setCurrentMonth] = useState(new Date());
   const [selectedEntry, setSelectedEntry] = useState<GratitudeEntry | null>(null);
@@ -69,7 +68,6 @@ const GratitudeHistory = () => {
   const startDayOfWeek = getDay(days[0]);
 
   const handleDateTap = (day: Date) => {
-  const { t } = useTranslation();
     const iso = format(day, "yyyy-MM-dd");
     const entry = entryDates.get(iso);
     if (entry) {

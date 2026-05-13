@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 export function MeditationDetailPage() {
-  const { t } = useTranslation();
   const navigate = useNavigate();
   const { meditationId } = useParams();
   const [favorites, setFavorites] = useState<Set<number>>(new Set());
@@ -32,7 +31,6 @@ export function MeditationDetailPage() {
   };
 
   const toggleFavorite = (sessionId: number) => {
-  const { t } = useTranslation();
     setFavorites(prev => {
       const newFavorites = new Set(prev);
       if (newFavorites.has(sessionId)) {

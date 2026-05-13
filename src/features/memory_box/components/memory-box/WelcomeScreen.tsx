@@ -9,7 +9,6 @@ interface Props {
 }
 
 const WelcomeScreen = ({ onBegin, onHistory }: Props) => {
-  const { t } = useTranslation();
   return (
     <ScreenWrapper>
       <div className="absolute top-0 left-0 right-0 flex justify-between items-center px-5 py-4 z-20">

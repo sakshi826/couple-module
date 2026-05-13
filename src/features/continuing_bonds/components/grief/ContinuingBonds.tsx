@@ -12,7 +12,6 @@ type Screen = "welcome" | "choose" | "bond" | "review" | "closing" | "complete";
 const OPTION_EMOJIS = ["🕊️", "🤲", "🌿", "💌", "✨"];
 
 const ContinuingBonds = () => {
-  const { t } = useTranslation();
   const CONNECTION_OPTIONS = (typeof t !== "undefined" ? t : (k) => k)("connection_options", { returnObjects: true }) as any[];
   const BOND_PROMPTS = (typeof t !== "undefined" ? t : (k) => k)("bond_prompts", { returnObjects: true }) as string[];
 
@@ -77,7 +76,6 @@ const ContinuingBonds = () => {
   };
 
   const reset = () => {
-  const { t } = useTranslation();
     setSelectedOption(null);
     setPrimaryText("");
     setDeeperText("");

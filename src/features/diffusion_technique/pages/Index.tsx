@@ -12,7 +12,6 @@ import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 type View = "intro" | "choose" | "sky" | "sell" | "name";
 
 const Index = () => {
-  const { t } = useTranslation();
   const [view, setView] = useState<View>("intro");
   const [step, setStep] = useState(1);
   const [thought, setThought] = useState("");
@@ -20,7 +19,6 @@ const Index = () => {
   const [storyName, setStoryName] = useState("");
 
   const reset = () => {
-  const { t } = useTranslation();
     setStep(1);
     setThought("");
     setSellValue(50);
@@ -28,7 +26,6 @@ const Index = () => {
   };
 
   const getTitle = () => {
-  const { t } = useTranslation();
     switch(view) {
       case 'sky': return (typeof t !== "undefined" ? t : (k) => k)('title_sky_clouds');
       case 'sell': return (typeof t !== "undefined" ? t : (k) => k)('title_sell_thought');
@@ -39,7 +36,6 @@ const Index = () => {
   };
 
   const getBackAction = () => {
-  const { t } = useTranslation();
     if (view === "intro") return undefined; // Triggers handleExit in PremiumLayout
     if (view === "choose") return () => setView("intro");
     

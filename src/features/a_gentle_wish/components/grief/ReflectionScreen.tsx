@@ -11,7 +11,6 @@ interface Props {
 }
 
 export const ReflectionScreen = ({ name, wish, smallStep, onAddAnother, onFinish }: Props) => {
-  const { t } = useTranslation();
   return (
     <div className="flex-1 flex flex-col items-center justify-center text-center">
       <h2 className="font-display text-xl font-semibold text-foreground mb-8">

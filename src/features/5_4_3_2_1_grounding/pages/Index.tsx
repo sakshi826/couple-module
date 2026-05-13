@@ -5,7 +5,6 @@ import { useTranslation } from "react-i18next";
 import { Sparkles } from "lucide-react";
 
 const Index = () => {
-  const { t } = useTranslation();
   return (
     <PremiumLayout title={(typeof t !== "undefined" ? t : (k) => k)("app_title")} icon={<Sparkles className="w-6 h-6 text-primary" />}>
       <div className="w-full">

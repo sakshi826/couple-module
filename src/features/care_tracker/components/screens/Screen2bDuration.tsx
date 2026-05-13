@@ -10,7 +10,6 @@ interface Screen2bProps {
 }
 
 const Screen2bDuration = ({ onContinue }: Screen2bProps) => {
-  const { t } = useTranslation();
   const [duration, setDuration] = useState("");
 
   return (

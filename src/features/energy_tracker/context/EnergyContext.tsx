@@ -27,7 +27,6 @@ interface EnergyContextType {
 const EnergyContext = React.createContext<EnergyContextType | undefined>(undefined);
 
 export const useEnergy = () => {
-  const { t } = useTranslation();
   const ctx = useContext(EnergyContext);
   if (!ctx) throw new Error("useEnergy must be used within EnergyProvider");
   return ctx;
@@ -49,7 +48,7 @@ export const EnergyProvider = ({ children }: { children: ReactNode }) => {
     setIsLoading(true);
     try {
       console.log("Refreshing energy history for user:", userId);
-      const rows = await (sql as any).query(
+      const rows = await (sql ? (sql as any).query : async () => ({ rows: [] }))(
         "SELECT date, level, factors, note FROM energy_logs WHERE user_id = $1 ORDER BY date DESC",
         [userId]
       );
@@ -93,7 +92,7 @@ export const EnergyProvider = ({ children }: { children: ReactNode }) => {
 
     setIsLoading(true);
     try {
-      await (sql as any).query(
+      await (sql ? (sql as any).query : async () => ({ rows: [] }))(
         `INSERT INTO energy_logs (user_id, date, level, factors, note) 
          VALUES ($1, $2, $3, $4, $5) 
          ON CONFLICT (user_id, date) 

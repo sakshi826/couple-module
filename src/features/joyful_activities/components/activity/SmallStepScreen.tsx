@@ -12,7 +12,6 @@ interface Props {
 }
 
 const SmallStepScreen = ({ data, onChange, onGoHome, onSave }: Props) => {
-  const { t } = useTranslation();
 
   return (
     <div className="space-y-10">

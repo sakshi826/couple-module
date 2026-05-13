@@ -6,7 +6,6 @@ import { Sparkles } from "lucide-react";
 import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 export default function Index() {
-  const { t } = useTranslation();
 
   return (
     <PremiumLayout title="Depression Tips">

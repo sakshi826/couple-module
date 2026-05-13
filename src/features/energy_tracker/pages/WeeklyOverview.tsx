@@ -24,7 +24,6 @@ const levelToNum: Record<EnergyLevel, number> = {
 };
 
 const WeeklyOverview = () => {
-  const { t } = useTranslation();
   const { entries } = useEnergy();
   const navigate = useNavigate();
 

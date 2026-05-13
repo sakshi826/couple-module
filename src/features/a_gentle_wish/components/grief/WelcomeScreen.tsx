@@ -9,7 +9,6 @@ interface Props {
 }
 
 export const WelcomeScreen = ({ onBegin, onViewPast, hasPastEntries }: Props) => {
-  const { t } = useTranslation();
   return (
     <div className="flex-1 flex flex-col items-center text-center gap-10 py-10" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
       <motion.div

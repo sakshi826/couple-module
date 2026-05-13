@@ -9,7 +9,6 @@ interface IntroScreenProps {
 }
 
 const IntroScreen = ({ step, onStart, onHistory }: IntroScreenProps) => {
-  const { t } = useTranslation();
   const description = (typeof t !== "undefined" ? t : (k) => k)("intro.description", { returnObjects: true }) as string[];
 
   return (

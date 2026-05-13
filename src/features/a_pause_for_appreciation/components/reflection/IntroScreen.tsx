@@ -8,7 +8,6 @@ interface IntroScreenProps {
 }
 
 const IntroScreen = ({ onBegin }: IntroScreenProps) => {
-  const { t } = useTranslation();
 
   return (
     <div className="w-full">

@@ -24,7 +24,6 @@ interface Props {
 }
 
 const ExpressionScreen = ({ category, name, memoryText, setMemoryText, message, setMessage, onSave, onSkip, onBack }: Props) => {
-  const { t } = useTranslation();
   const info = PROMPTS[category] || { text: "Share a memory about", emoji: "✨" };
   const prompt = category === "Something they used to say" || category === "Something I wish I could say"
     ? `${info.text} ${name}?`

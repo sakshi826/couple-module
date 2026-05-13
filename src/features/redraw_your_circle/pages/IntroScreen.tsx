@@ -6,7 +6,6 @@ import ProgressDots from "@/features/redraw_your_circle/components/ProgressDots"
 import BackgroundOrbs from "@/features/redraw_your_circle/components/BackgroundOrbs";
 
 const IntroScreen = () => {
-  const { t } = useTranslation();
   const navigate = useNavigate();
 
   return (

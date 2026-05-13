@@ -9,7 +9,6 @@ interface BingoGridProps {
 }
 
 const BingoGrid = ({ onWin }: BingoGridProps) => {
-  const { t } = useTranslation();
 
   const BINGO_TILES = useMemo(() => [
     { emoji: "🚶", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.walk') },
@@ -63,7 +62,6 @@ const BingoGrid = ({ onWin }: BingoGridProps) => {
   const fireBigCelebration = useCallback(() => {
     const end = Date.now() + 3000;
     const frame = () => {
-  const { t } = useTranslation();
       confetti({ particleCount: 5, angle: 60, spread: 55, origin: { x: 0 }, colors: ["#4F46E5", "#10B981", "#FBBF24"] });
       confetti({ particleCount: 5, angle: 120, spread: 55, origin: { x: 1 }, colors: ["#4F46E5", "#10B981", "#FBBF24"] });
       if (Date.now() < end) requestAnimationFrame(frame);
@@ -104,7 +102,6 @@ const BingoGrid = ({ onWin }: BingoGridProps) => {
   }, [fireBigCelebration, onWin]);
 
   const resetBoard = () => {
-  const { t } = useTranslation();
     setCompleted(new Set([12]));
     setWonLines(new Set());
   };

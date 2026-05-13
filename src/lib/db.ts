@@ -22,7 +22,7 @@ export async function dbRequest<T = any>(query: string, params: any[] = []): Pro
   }
 
   try {
-    const result = await (sql as any).query(query, params);
+    const result = await (sql ? (sql as any).query : async () => ({ rows: [] }))(query, params);
     return Array.isArray(result) ? result : (result.rows || []);
   } catch (error) {
     console.error('Unified DB Error:', error);

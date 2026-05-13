@@ -18,7 +18,6 @@ const pageVariants = {
 };
 
 const Index = () => {
-  const { t } = useTranslation();
   const [step, setStep] = useState(0);
 
   const next = () => setStep((s) => s + 1);

@@ -8,7 +8,6 @@ interface Props {
 }
 
 export default function WelcomeScreen({ onBegin, onHistory, onBack }: Props) {
-  const { t } = useTranslation();
   return (
     <section className="space-y-6" aria-label={(typeof t !== "undefined" ? t : (k) => k)("welcome")}>
       <div className="flex items-center justify-between">

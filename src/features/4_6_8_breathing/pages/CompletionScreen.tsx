@@ -6,7 +6,6 @@ import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 import { Wind } from "lucide-react";
 
 const CompletionScreen = () => {
-  const { t } = useTranslation();
   const navigate = useNavigate();
   const [reflection, setReflection] = useState("");
 

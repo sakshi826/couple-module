@@ -5,7 +5,6 @@ import { useTranslation } from "react-i18next";
 import { ArrowRight, Sparkles, Lightbulb } from "lucide-react";
 
 const InsightScreen = ({ onNext }: { onNext: () => void }) => {
-  const { t } = useTranslation();
   const suggestions = (typeof t !== "undefined" ? t : (k) => k)('suggestions', { returnObjects: true }) as string[];
   const [revealed, setRevealed] = useState(false);
   const [selected, setSelected] = useState<string[]>([]);

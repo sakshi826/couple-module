@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 const Index = () => {
-  const { t } = useTranslation();
   const navigate = useNavigate();
 
   const tips = [

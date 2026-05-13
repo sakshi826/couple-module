@@ -26,7 +26,6 @@ export interface Memory {
 }
 
 const Index = () => {
-  const { t } = useTranslation();
   const [screen, setScreen] = useState(0);
   const [name, setName] = useState("");
   const [relation, setRelation] = useState("");
@@ -89,7 +88,6 @@ const Index = () => {
   };
 
   const resetForNew = () => {
-  const { t } = useTranslation();
     setName("");
     setRelation("");
     setCategory("");
@@ -99,7 +97,6 @@ const Index = () => {
   };
 
   const resetAll = () => {
-  const { t } = useTranslation();
     resetForNew();
     setScreen(0);
   };

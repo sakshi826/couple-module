@@ -9,7 +9,6 @@ interface Screen4Props {
 }
 
 const Screen4Mood = ({ onContinue }: Screen4Props) => {
-  const { t } = useTranslation();
   const [selected, setSelected] = useState<number | null>(null);
 
   return (

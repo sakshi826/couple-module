@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 export function SubcategoryPage() {
-  const { t } = useTranslation();
   const navigate = useNavigate();
   const { subcategoryId } = useParams();
   const [activeFilter, setActiveFilter] = useState("All");
@@ -65,7 +64,6 @@ export function SubcategoryPage() {
   const filters = ["All", "Guided", "Yoga", "Beginners", "Sleep", "Focus"];
 
   const getSubcategoryTitle = () => {
-  const { t } = useTranslation();
     if (!subcategoryId) return "Content";
     return subcategoryId
       .split("-")

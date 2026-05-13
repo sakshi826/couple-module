@@ -8,7 +8,6 @@ interface Props {
 }
 
 const HistoryDrawer: React.FC<Props> = ({ onClose }) => {
-  const { t } = useTranslation();
   const collages: SavedCollage[] = JSON.parse(localStorage.getItem('safe-place-collages') || '[]');
 
   return (

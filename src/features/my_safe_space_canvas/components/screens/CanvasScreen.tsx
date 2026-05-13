@@ -18,7 +18,6 @@ interface Props {
 }
 
 const CanvasScreen: React.FC<Props> = ({ promptIndex, canvasRef, onNext, onFinish }) => {
-  const { t } = useTranslation();
   const canvasElRef = useRef<HTMLCanvasElement>(null);
   const [tool, setTool] = useState<Tool>('brush');
   const [color, setColor] = useState('#2C2C2A');
@@ -77,7 +76,6 @@ const CanvasScreen: React.FC<Props> = ({ promptIndex, canvasRef, onNext, onFinis
     if (!canvas || tool !== 'shape') return;
 
     const handler = (opt: fabric.IEvent<MouseEvent>) => {
-  const { t } = useTranslation();
       const pointer = canvas.getPointer(opt.e);
       const rect = new fabric.Rect({
         left: pointer.x - 30,
@@ -102,7 +100,6 @@ const CanvasScreen: React.FC<Props> = ({ promptIndex, canvasRef, onNext, onFinis
     if (!canvas || tool !== 'text') return;
 
     const handler = (opt: fabric.IEvent<MouseEvent>) => {
-  const { t } = useTranslation();
       if ((opt.target as any)) return;
       const pointer = canvas.getPointer(opt.e);
       const text = new fabric.IText((typeof t !== "undefined" ? t : (k) => k)("canvas.type_here"), {

@@ -9,7 +9,6 @@ interface ScreenReflectionProps {
 }
 
 const ScreenReflection = ({ onSave, onBack }: ScreenReflectionProps) => {
-  const { t } = useTranslation();
   const [feeling, setFeeling] = useState("");
 
   return (

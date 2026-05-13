@@ -3,7 +3,6 @@ import { useTranslation, Trans } from "react-i18next";
 interface Props { onNext: () => void }
 
 const WaveDiagram = () => {
-  const { t } = useTranslation();
   // 3 cycles sine wave: each cycle ~80px wide, total ~240px
   const points: string[] = [];
   for (let x = 0; x <= 240; x += 1) {
@@ -42,7 +41,6 @@ const WaveDiagram = () => {
 };
 
 const Screen3Groggy = ({ onNext }: Props) => {
-  const { t } = useTranslation();
   const disruptors = (typeof t !== "undefined" ? t : (k) => k)("s3.disruptors", { returnObjects: true }) as any[];
 
   return (

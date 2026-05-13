@@ -18,7 +18,6 @@ export interface DrawingCanvasRef {
 }
 
 const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabled = false }, ref) => {
-  const { t } = useTranslation();
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [isDrawing, setIsDrawing] = useState(false);
   const [history, setHistory] = useState<ImageData[]>([]);
@@ -72,7 +71,6 @@ const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabl
   }, [getCtx]);
 
   const getPos = (e: React.MouseEvent | React.TouchEvent) => {
-  const { t } = useTranslation();
     const canvas = canvasRef.current;
     if (!canvas) return { x: 0, y: 0 };
     const rect = canvas.getBoundingClientRect();
@@ -86,7 +84,6 @@ const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabl
   };
 
   const addSparkle = (x: number, y: number) => {
-  const { t } = useTranslation();
     const id = sparkleIdRef.current++;
     setSparkles((prev) => [...prev.slice(-8), { id, x, y }]);
     setTimeout(() => {
@@ -95,7 +92,6 @@ const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabl
   };
 
   const startDraw = (e: React.MouseEvent | React.TouchEvent) => {
-  const { t } = useTranslation();
     if (disabled) return;
     e.preventDefault();
     saveState();
@@ -109,7 +105,6 @@ const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabl
   };
 
   const draw = (e: React.MouseEvent | React.TouchEvent) => {
-  const { t } = useTranslation();
     if (!isDrawing || disabled) return;
     e.preventDefault();
     const ctx = getCtx();
@@ -130,13 +125,11 @@ const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabl
   };
 
   const endDraw = () => {
-  const { t } = useTranslation();
     setIsDrawing(false);
     lastPointRef.current = null;
   };
 
   const undo = () => {
-  const { t } = useTranslation();
     const ctx = getCtx();
     const canvas = canvasRef.current;
     if (!ctx || !canvas || history.length === 0) return;
@@ -146,7 +139,6 @@ const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabl
   };
 
   const clearCanvas = () => {
-  const { t } = useTranslation();
     const ctx = getCtx();
     const canvas = canvasRef.current;
     if (!ctx || !canvas) return;

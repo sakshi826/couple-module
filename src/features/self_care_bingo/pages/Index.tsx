@@ -10,11 +10,9 @@ import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 type Screen = "intro" | "game" | "complete";
 
 const Index = () => {
-  const { t } = useTranslation();
   const [screen, setScreen] = useState<Screen>("intro");
 
   const handleWin = () => {
-  const { t } = useTranslation();
     setScreen("complete");
   };
 

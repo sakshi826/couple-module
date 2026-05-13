@@ -172,7 +172,6 @@ const sampleEntries = [
 ];
 
 export function JournalNew() {
-  const { t } = useTranslation();
   const navigate = useNavigate();
   const { id: entryId } = useParams();
   const [title, setTitle] = useState("");
@@ -207,13 +206,11 @@ export function JournalNew() {
   };
 
   const handleCheckSuggestion = () => {
-  const { t } = useTranslation();
     setTitle(currentSuggestion);
     setShowSuggestion(false);
   };
 
   const handleSelectPrompt = (prompt: string) => {
-  const { t } = useTranslation();
     setTitle(prompt);
     setCurrentSuggestion(prompt);
     setShowSuggestionsModal(false);
@@ -221,7 +218,6 @@ export function JournalNew() {
   };
 
   const handleSave = () => {
-  const { t } = useTranslation();
     // In a real app, this would save to a database
     console.log({
       title,

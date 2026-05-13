@@ -16,7 +16,6 @@ const premiumTints = [
 ];
 
 const MoodSelection = () => {
-  const { t } = useTranslation();
   const navigate = useNavigate();
   const location = useLocation();
   const { gratitude1, gratitude2, date, editId } = (location.state as any) || {};

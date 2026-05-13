@@ -10,7 +10,6 @@ import BedIllustration from './BedIllustration';
 import BrainIllustration from './BrainIllustration';
 
 const SleepAnxietyActivity = () => {
-  const { t } = useTranslation();
   const [screen, setScreen] = useState(0);
 
   return (

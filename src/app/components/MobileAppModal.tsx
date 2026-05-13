@@ -9,7 +9,6 @@ interface MobileAppModalProps {
 }
 
 export function MobileAppModal({ isOpen, onClose }: MobileAppModalProps) {
-  const { t } = useTranslation();
   if (!isOpen) return null;
 
   return (

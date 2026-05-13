@@ -21,7 +21,6 @@ interface CircleEntry {
 const BUBBLE_EMOJIS = ["💬", "🤗", "💪", "🎉", "🌟"];
 
 const HistoryScreen = () => {
-  const { t } = useTranslation();
   const navigate = useNavigate();
   const [entries, setEntries] = useState<CircleEntry[]>([]);
   const [selectedEntry, setSelectedEntry] = useState<CircleEntry | null>(null);

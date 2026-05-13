@@ -8,7 +8,6 @@ interface ChooseAreaScreenProps {
 }
 
 const ChooseAreaScreen = ({ onStart }: ChooseAreaScreenProps) => {
-  const { t } = useTranslation();
 
   const areas = [
     `🖥️ ${(typeof t !== "undefined" ? t : (k) => k)("one_corner_desk")}`,

@@ -19,7 +19,6 @@ const stepIcons = [
 ];
 
 const GroundingExercise = () => {
-  const { t } = useTranslation();
   const [currentStep, setCurrentStep] = useState(0);
   const [responses, setResponses] = useState<Record<number, string[]>>({});
   const [reflectionWord, setReflectionWord] = useState("");
@@ -54,7 +53,6 @@ const GroundingExercise = () => {
   }, [currentStep, totalSteps]);
 
   const handleInputChange = (values: string[]) => {
-  const { t } = useTranslation();
     setResponses((prev) => ({ ...prev, [currentStep]: values }));
   };
 

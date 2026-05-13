@@ -11,23 +11,19 @@ import { PremiumLayout } from "@/components/shared/PremiumLayout";
 type Screen = "intro" | "scenario" | "hold" | "result";
 
 const Index = () => {
-  const { t } = useTranslation();
   const [screen, setScreen] = useState<Screen>("intro");
   const [scenario, setScenario] = useState("other");
 
   const handleScenarioSelect = (s: string) => {
-  const { t } = useTranslation();
     setScenario(s);
     setScreen("hold");
   };
 
   const handleTryAgain = () => {
-  const { t } = useTranslation();
     setScreen("scenario");
   };
 
   const handleDone = () => {
-  const { t } = useTranslation();
     setScreen("intro");
     setScenario("other");
   };

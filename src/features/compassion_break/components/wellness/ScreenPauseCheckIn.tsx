@@ -8,11 +8,9 @@ interface Props {
 }
 
 const ScreenPauseCheckIn = ({ onContinue, onExit }: Props) => {
-  const { t } = useTranslation();
   const [intensity, setIntensity] = useState(5);
 
   const getFeedback = (value: number) => {
-  const { t } = useTranslation();
     if (value <= 3) return (typeof t !== "undefined" ? t : (k) => k)("feedback_calm");
     if (value <= 6) return (typeof t !== "undefined" ? t : (k) => k)("feedback_noticing");
     return (typeof t !== "undefined" ? t : (k) => k)("feedback_heavy");

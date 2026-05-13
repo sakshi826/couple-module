@@ -4,7 +4,6 @@ import { useTranslation } from "react-i18next";
 interface Props { onNext: () => void }
 
 const Screen2Stages = ({ onNext }: Props) => {
-  const { t } = useTranslation();
   const [open, setOpen] = useState<number | null>(null);
 
   const stages = (typeof t !== "undefined" ? t : (k) => k)("s2.stages", { returnObjects: true }) as any[];

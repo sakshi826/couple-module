@@ -10,7 +10,6 @@ interface Screen5Props {
 }
 
 const Screen5Statement = ({ didSelfCare, onContinue }: Screen5Props) => {
-  const { t } = useTranslation();
 
   const { statement, index } = useMemo(() => {
     const list = didSelfCare ? POSITIVE_STATEMENTS : SUPPORTIVE_STATEMENTS;

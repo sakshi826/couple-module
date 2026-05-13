@@ -34,7 +34,6 @@ type CarouselContextProps = {
 const CarouselContext = React.createContext<CarouselContextProps | null>(null);
 
 function useCarousel() {
-  const { t } = useTranslation();
   const context = React.useContext(CarouselContext);
 
   if (!context) {
@@ -174,7 +173,6 @@ function CarouselItem({ className, ...props }: React.ComponentProps<"div">) {
 }
 
 function CarouselPrevious({
-  const { t } = useTranslation();
   className,
   variant = "outline",
   size = "icon",
@@ -205,7 +203,6 @@ function CarouselPrevious({
 }
 
 function CarouselNext({
-  const { t } = useTranslation();
   className,
   variant = "outline",
   size = "icon",

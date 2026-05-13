@@ -6,13 +6,11 @@ interface AuthGuardProps {
 }
 
 export const AuthGuard = ({ children }: AuthGuardProps) => {
-  const { t } = useTranslation();
     const [isAuthResolved, setIsAuthResolved] = useState(false);
     const [error, setError] = useState<string | null>(null);
 
     useEffect(() => {
         const checkAuth = () => {
-  const { t } = useTranslation();
             if (sessionStorage.getItem("user_id")) {
                 setIsAuthResolved(true);
             } else {

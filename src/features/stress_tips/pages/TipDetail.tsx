@@ -7,7 +7,6 @@ import { motion } from "framer-motion";
 import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 const TipDetail = () => {
-  const { t } = useTranslation();
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const tip = tips.find((t) => t.slug === id);

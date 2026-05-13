@@ -7,13 +7,11 @@ interface Props {
 }
 
 const ScreenNameIt = ({ onContinue }: Props) => {
-  const { t } = useTranslation();
   const EMOTIONS = (typeof t !== "undefined" ? t : (k) => k)("emotions_list", { returnObjects: true }) as string[];
   const [selected, setSelected] = useState<string[]>([]);
   const [custom, setCustom] = useState("");
 
   const toggleEmotion = (e: string) => {
-  const { t } = useTranslation();
     setSelected((prev) => {
       if (prev.includes(e)) return prev.filter((x) => x !== e);
       if (prev.length >= 2) return [prev[1], e];
@@ -22,7 +20,6 @@ const ScreenNameIt = ({ onContinue }: Props) => {
   };
 
   const handleContinue = () => {
-  const { t } = useTranslation();
     const result = custom.trim()
       ? [custom.trim()]
       : selected;

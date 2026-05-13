@@ -7,7 +7,6 @@ interface Props {
 }
 
 const ClosingScreen = ({ onExit }: Props) => {
-  const { t } = useTranslation();
   return (
 (
   <ScreenWrapper>

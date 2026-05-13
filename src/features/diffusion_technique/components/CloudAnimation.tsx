@@ -6,7 +6,6 @@ interface CloudAnimationProps {
 }
 
 export function CloudAnimation({ thought }: CloudAnimationProps) {
-  const { t } = useTranslation();
   return (
     <div className="relative w-full h-48 overflow-hidden my-6 rounded-lg" style={{ background: "linear-gradient(180deg, #87CEEB 0%, #E0F0FF 100%)" }}>
       <motion.div

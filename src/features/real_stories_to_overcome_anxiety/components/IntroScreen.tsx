@@ -9,7 +9,6 @@ interface IntroScreenProps {
 }
 
 const IntroScreen: FC<IntroScreenProps> = ({ onStart }) => {
-  const { t } = useTranslation();
 
   return (
     <PremiumIntro

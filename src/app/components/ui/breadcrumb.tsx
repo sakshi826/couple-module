@@ -6,7 +6,6 @@ import { cn } from "./utils";
 import { useTranslation } from "react-i18next";
 
 function Breadcrumb({ ...props }: React.ComponentProps<"nav">) {
-  const { t } = useTranslation();
   return <nav aria-label={(typeof t !== "undefined" ? t : (k) => k)("breadcrumb")} data-slot="breadcrumb" {...props} />;
 }
 
@@ -24,7 +23,6 @@ function BreadcrumbList({ className, ...props }: React.ComponentProps<"ol">) {
 }
 
 function BreadcrumbItem({ className, ...props }: React.ComponentProps<"li">) {
-  const { t } = useTranslation();
   return (
     <li
       data-slot="breadcrumb-item"
@@ -84,7 +82,6 @@ function BreadcrumbSeparator({
 }
 
 function BreadcrumbEllipsis({
-  const { t } = useTranslation();
   className,
   ...props
 }: React.ComponentProps<"span">) {

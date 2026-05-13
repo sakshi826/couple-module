@@ -4,7 +4,6 @@ import { cn } from "./utils";
 import { useTranslation } from "react-i18next";
 
 function Card({ className, ...props }: React.ComponentProps<"div">) {
-  const { t } = useTranslation();
   return (
     <div
       data-slot="card"

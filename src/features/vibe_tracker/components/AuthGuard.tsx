@@ -23,7 +23,6 @@ export const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
 
     useEffect(() => {
         const checkAuth = () => {
-  const { t } = useTranslation();
             if (sessionStorage.getItem("user_id")) {
                 setIsAuthorized(true);
                 setIsLoading(false);

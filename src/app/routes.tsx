@@ -68,7 +68,6 @@ const GuidedSeries = React.lazy(() => import("./pages/GuidedSeries"));
 const GuidedActivity = React.lazy(() => import("./pages/GuidedActivity"));
 
 function ProtectedLayout() {
-  const { t } = useTranslation();
   return (
     <AuthGuard>
       <Outlet />

@@ -8,7 +8,6 @@ interface ScreenClosingProps {
 }
 
 const ScreenClosing = ({ onViewPast, onDone }: ScreenClosingProps) => {
-  const { t } = useTranslation();
 
   return (
     <motion.div

@@ -9,7 +9,6 @@ interface GroundingCardProps {
 }
 
 export default function GroundingCard({ technique, onClick, label }: GroundingCardProps) {
-  const { t } = useTranslation();
   return (
     <motion.button
       whileHover={{ scale: 1.02, y: -4 }}

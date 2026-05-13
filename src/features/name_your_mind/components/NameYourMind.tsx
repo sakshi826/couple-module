@@ -17,7 +17,6 @@ interface Entry {
 }
 
 export default function NameYourMind() {
-  const { t } = useTranslation();
   const [screen, setScreen] = useState<ScreenKey>("intro");
   const [thought, setThought] = useState("");
   const [mindName, setMindName] = useState("");
@@ -44,7 +43,6 @@ export default function NameYourMind() {
   }, [thought, mindName, reflection, history]);
 
   const reset = () => {
-  const { t } = useTranslation();
     setThought("");
     setMindName("");
     setReflection("");

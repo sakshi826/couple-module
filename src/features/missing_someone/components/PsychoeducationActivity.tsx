@@ -10,7 +10,6 @@ const screen1Hearts = ["#F4C0D1", "#D4537E", "#ED93B1", "#F4C0D1", "#D4537E"];
 const screen2Hearts = ["#CEC9F6", "#AFA9EC", "#CEC9F6", "#AFA9EC", "#CEC9F6"];
 
 const PsychoeducationActivity = () => {
-  const { t } = useTranslation();
   const [currentScreen, setCurrentScreen] = useState(0);
 
   if (currentScreen === 2) {

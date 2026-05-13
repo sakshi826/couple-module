@@ -12,7 +12,6 @@ interface Props {
 }
 
 const MemoryBoxScreen = ({ lastSaved, onAddAnother, onFinish, onBack }: Props) => {
-  const { t } = useTranslation();
   return (
 (
   <ScreenWrapper>

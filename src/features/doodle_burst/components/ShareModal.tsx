@@ -11,7 +11,6 @@ interface ShareModalProps {
 }
 
 export default function ShareModal({ isOpen, onClose, originalDataUrl }: ShareModalProps) {
-  const { t } = useTranslation();
   const [posterUrl, setPosterUrl] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
   const [isGenerating, setIsGenerating] = useState(false);
@@ -44,7 +43,6 @@ export default function ShareModal({ isOpen, onClose, originalDataUrl }: ShareMo
   };
 
   const handleDownload = () => {
-  const { t } = useTranslation();
     if (!posterUrl) return;
     const link = document.createElement("a");
     link.href = posterUrl;

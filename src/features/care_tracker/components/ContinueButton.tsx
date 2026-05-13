@@ -10,7 +10,6 @@ interface ContinueButtonProps {
 }
 
 const ContinueButton = ({ onClick, disabled, label }: ContinueButtonProps) => {
-  const { t } = useTranslation();
   return (
     <div className="mt-12 pb-4">
       <motion.button

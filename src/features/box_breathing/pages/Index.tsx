@@ -10,7 +10,6 @@ import { AnimatePresence, motion } from "framer-motion";
 type Screen = "overview" | "session" | "complete";
 
 const Index = () => {
-  const { t } = useTranslation();
   const [screen, setScreen] = useState<Screen>("overview");
 
   return (

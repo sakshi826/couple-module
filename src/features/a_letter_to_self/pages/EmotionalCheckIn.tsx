@@ -16,7 +16,6 @@ const EMOTIONS = [
 ];
 
 const EmotionalCheckIn = () => {
-  const { t } = useTranslation();
   const navigate = useNavigate();
   const location = useLocation();
   const entryId = (location.state as { entryId?: string })?.entryId;

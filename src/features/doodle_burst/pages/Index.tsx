@@ -14,7 +14,6 @@ import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 type Screen = "intro" | "activity" | "end";
 
 const Index = () => {
-  const { t } = useTranslation();
   const navigate = useNavigate();
   const [screen, setScreen] = useState<Screen>("intro");
   const [timer, setTimer] = useState(60);

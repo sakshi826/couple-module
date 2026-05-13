@@ -15,7 +15,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ThoughtItem } from "./types";
 
 const BrainDumpApp = () => {
-  const { t } = useTranslation();
   const [screen, setScreen] = useState(0);
   const [thoughts, setThoughts] = useState<ThoughtItem[]>([]);
   const [transitioning, setTransitioning] = useState(false);
@@ -54,7 +53,6 @@ const BrainDumpApp = () => {
   }, []);
 
   const handleDumpComplete = (text: string) => {
-  const { t } = useTranslation();
     const lines = text
       .split(/[\n,.;]+/)
       .map((s) => s.trim())
@@ -68,7 +66,6 @@ const BrainDumpApp = () => {
   };
 
   const handleSortComplete = (sorted: ThoughtItem[]) => {
-  const { t } = useTranslation();
     setThoughts(sorted);
     goTo(3);
   };

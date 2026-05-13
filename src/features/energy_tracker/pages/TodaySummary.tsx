@@ -16,7 +16,6 @@ const emojiMap: Record<EnergyLevel, string> = {
 };
 
 const TodaySummary = () => {
-  const { t } = useTranslation();
   const { currentLevel, entries } = useEnergy();
   const navigate = useNavigate();
   

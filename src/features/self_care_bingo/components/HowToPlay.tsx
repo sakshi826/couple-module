@@ -2,7 +2,6 @@ import { BookOpen, CheckCircle, Sparkles } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const HowToPlay = () => {
-  const { t } = useTranslation();
 
   return (
     <div className="bg-transparent rounded-2xl p-6  border border-border">

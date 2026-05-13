@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 import type { CheckInEntry } from "./WindowApp";
 
 function formatTime(d: Date) {
-  const { t } = useTranslation();
   const now = new Date();
   const diff = now.getTime() - d.getTime();
   const hours = diff / (1000 * 60 * 60);
@@ -19,7 +18,6 @@ interface Props {
 }
 
 export default function HistoryModal({ entries, onClose }: Props) {
-  const { t } = useTranslation();
 
   const ZONE_LABELS: Record<string, { emoji: string; label: string }> = {
     hyper: { emoji: "🔴", label: t("screens.checkin.zones.hyper.label") },

@@ -10,7 +10,6 @@ interface Props {
 }
 
 const WelcomeScreen: React.FC<Props> = ({ onBegin, onShowHistory }) => {
-  const { t } = useTranslation();
   return (
     <div className="py-6">
       <PremiumIntro

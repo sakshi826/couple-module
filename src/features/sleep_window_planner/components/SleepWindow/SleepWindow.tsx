@@ -19,7 +19,6 @@ interface SleepWindowProps {
 }
 
 const SleepWindow = ({ onExit }: SleepWindowProps) => {
-  const { t } = useTranslation();
   const [screen, setScreen] = useState(1);
   const [wakeHour, setWakeHour] = useState(7);
   const [wakeMinute, setWakeMinute] = useState(0);

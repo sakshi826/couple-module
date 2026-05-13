@@ -14,7 +14,6 @@ interface Screen6Props {
 }
 
 const Screen6Review = ({ entry, onEdit, onHistory, onHome }: Screen6Props) => {
-  const { t } = useTranslation();
 
   const rows: { label: string; value: string }[] = [
     { label: (typeof t !== "undefined" ? t : (k) => k)('common.date'), value: formatDateShort(entry.date) },

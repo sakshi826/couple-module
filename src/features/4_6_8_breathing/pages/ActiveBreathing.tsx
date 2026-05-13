@@ -17,7 +17,6 @@ const PHASE_DURATIONS: Record<Phase, number> = {
 const PHASE_ORDER: Phase[] = ["inhale", "hold", "exhale"];
 
 const ActiveBreathing = () => {
-  const { t } = useTranslation();
   const navigate = useNavigate();
   const [status, setStatus] = useState<Status>("idle");
   const [totalRounds, setTotalRounds] = useState(4);
@@ -79,7 +78,6 @@ const ActiveBreathing = () => {
   }, [status, totalRounds, clearTimer, navigate]);
 
   const handleStart = () => {
-  const { t } = useTranslation();
     if (status === "paused") {
       setStatus("running");
     } else {
@@ -90,7 +88,6 @@ const ActiveBreathing = () => {
   };
 
   const handlePause = () => {
-  const { t } = useTranslation();
     if (status === "running") {
       clearTimer();
       setStatus("paused");
@@ -108,7 +105,6 @@ const ActiveBreathing = () => {
 
   // Build countdown text
   const getCountdownText = () => {
-  const { t } = useTranslation();
     if (status === "idle") return (typeof t !== "undefined" ? t : (k) => k)('ready');
     const phaseDuration = PHASE_DURATIONS[phase];
     const elapsed = phaseDuration - countdown + 1;

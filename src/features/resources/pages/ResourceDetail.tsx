@@ -83,7 +83,6 @@ const ResourceDetail = () => {
   }
 
   const renderTip = (tip: Tip) => {
-  const { t } = useTranslation();
   return (
 (
     <div className="w-full space-y-12 pb-24">
@@ -171,7 +170,6 @@ const ResourceDetail = () => {
 };
 
   const renderArticle = (article: Article) => {
-  const { t } = useTranslation();
   return (
 (
     <div className="w-full space-y-12 pb-24">
@@ -204,7 +202,6 @@ const ResourceDetail = () => {
 };
 
   const renderStory = (story: Story) => {
-  const { t } = useTranslation();
   return (
 (
     <div className="w-full space-y-16 pb-24">
@@ -257,7 +254,6 @@ const ResourceDetail = () => {
 };
 
   const renderMyth = (myth: Myth) => {
-  const { t } = useTranslation();
   return (
 (
     <div className="w-full space-y-16 pb-24">

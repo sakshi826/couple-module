@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 export function TimePage() {
-  const { t } = useTranslation();
   const navigate = useNavigate();
   const { timeId } = useParams();
   const [activeFilter, setActiveFilter] = useState("All");
@@ -133,7 +132,6 @@ export function TimePage() {
   const filters = ["All", "Guided", "Yoga", "Beginners", "Sleep", "Focus"];
 
   const getTimeTitle = () => {
-  const { t } = useTranslation();
     if (!timeId) return "Content";
     return timeId
       .split("-")

@@ -13,7 +13,6 @@ const EXHALE = 4000;
 const TOTAL_CYCLES = 3;
 
 const BreathingScreen = ({ onContinue }: BreathingScreenProps) => {
-  const { t } = useTranslation();
   const [phase, setPhase] = useState<"inhale" | "hold" | "exhale" | "done">("inhale");
   const [cycle, setCycle] = useState(0);
   const [counter, setCounter] = useState(4);

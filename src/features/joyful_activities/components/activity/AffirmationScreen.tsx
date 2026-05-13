@@ -9,7 +9,6 @@ interface Props {
 }
 
 const AffirmationScreen = ({ onGoHome }: Props) => {
-  const { t } = useTranslation();
     return (
         <PremiumComplete
             title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}

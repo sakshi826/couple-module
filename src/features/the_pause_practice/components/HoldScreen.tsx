@@ -9,7 +9,6 @@ interface HoldScreenProps {
 }
 
 const HoldScreen = ({ onComplete }: HoldScreenProps) => {
-  const { t } = useTranslation();
   const [progress, setProgress] = useState(0);
   const [holding, setHolding] = useState(false);
   const [completed, setCompleted] = useState(false);
@@ -17,14 +16,12 @@ const HoldScreen = ({ onComplete }: HoldScreenProps) => {
   const rafRef = useRef<number>(0);
 
   function StartRefValue() {
-  const { t } = useTranslation();
     return 0;
   }
 
   const microcopy = (typeof t !== "undefined" ? t : (k) => k)("hold.microcopy", { returnObjects: true }) as { at: number; text: string }[];
 
   function getMicrocopy(p: number) {
-  const { t } = useTranslation();
     if (!Array.isArray(microcopy)) return "";
     let current = microcopy[0]?.text || "";
     for (const m of microcopy) {

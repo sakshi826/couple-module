@@ -11,7 +11,6 @@ interface ChipSelectProps {
 }
 
 const ChipSelect = ({ options, selected, onSelect, multi, selectedMulti = [], onSelectMulti }: ChipSelectProps) => {
-  const { t } = useTranslation();
   const handleClick = (opt: string) => {
     if (multi && onSelectMulti) {
       const next = selectedMulti.includes(opt)

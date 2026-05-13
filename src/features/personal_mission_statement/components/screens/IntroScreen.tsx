@@ -9,7 +9,6 @@ interface IntroScreenProps {
 }
 
 const IntroScreen = ({ onNext, onHistory }: IntroScreenProps) => {
-  const { t } = useTranslation();
 
   return (
     <PremiumIntro

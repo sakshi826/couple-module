@@ -9,11 +9,9 @@ interface MoneySliderProps {
 }
 
 export function MoneySlider({ value, onChange }: MoneySliderProps) {
-  const { t } = useTranslation();
   const [coins, setCoins] = useState<number[]>([]);
 
   const handleChange = (val: number[]) => {
-  const { t } = useTranslation();
     const newVal = val[0];
     if (Math.abs(newVal - value) >= 5) {
       setCoins((prev) => [...prev, Date.now()].slice(-8));

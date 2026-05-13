@@ -32,14 +32,12 @@ function loadEntries(): Entry[] {
 }
 
 function saveEntry(entry: Entry) {
-  const { t } = useTranslation();
   const entries = loadEntries();
   entries.unshift(entry);
   localStorage.setItem(STORAGE_KEY, JSON.stringify(entries));
 }
 
 export default function PredictionVsReality() {
-  const { t } = useTranslation();
   const [screen, setScreen] = useState<number | "intro" | "history" | "complete">("intro");
   const [situation, setSituation] = useState("");
   const [prediction, setPrediction] = useState("");
@@ -56,7 +54,6 @@ export default function PredictionVsReality() {
   }, []);
 
   const reset = () => {
-  const { t } = useTranslation();
     setScreen("intro");
     setSituation("");
     setPrediction("");
@@ -69,7 +66,6 @@ export default function PredictionVsReality() {
   };
 
   const handleSave = () => {
-  const { t } = useTranslation();
     const entry: Entry = {
       id: crypto.randomUUID(),
       date: new Date().toISOString(),
@@ -89,7 +85,6 @@ export default function PredictionVsReality() {
   };
 
   const toggleEmotion = (e: string) => {
-  const { t } = useTranslation();
     setEmotions((prev) =>
       prev.includes(e) ? prev.filter((x) => x !== e) : [...prev, e]
     );
