@@ -22,6 +22,7 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
   children,
   icon
 }) => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const [isShareOpen, setIsShareOpen] = useState(false);
 

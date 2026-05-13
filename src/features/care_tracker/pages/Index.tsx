@@ -20,6 +20,7 @@ const Index = () => {
   const navigate = useNavigate();
   const { userId } = useAuth();
   const [screen, setScreen] = useState<Screen>("intro");
+  const [isSaving, setIsSaving] = useState(false);
 
   const [date, setDate] = useState(new Date());
   const [entry, setEntry] = useState<SelfCareEntry>({
@@ -81,7 +82,12 @@ const Index = () => {
 
   const handleStatementContinue = async () => {
     if (userId) {
-      await saveEntryToDb(userId, entry);
+      setIsSaving(true);
+      try {
+        await saveEntryToDb(userId, entry);
+      } finally {
+        setIsSaving(false);
+      }
     }
     setScreen("review");
   };
@@ -132,7 +138,7 @@ const Index = () => {
             {screen === "noSelfCare" && <Screen3NoSelfCare onContinue={handleNoSelfCare} />}
             {screen === "mood" && <Screen4Mood onContinue={handleMood} />}
             {screen === "statement" && (
-              <Screen5Statement didSelfCare={entry.didSelfCare!} onContinue={handleStatementContinue} />
+              <Screen5Statement didSelfCare={entry.didSelfCare!} onContinue={handleStatementContinue} isSaving={isSaving} />
             )}
             {screen === "review" && (
               <Screen6Review entry={entry} onEdit={resetFlow} onHistory={() => setScreen("history")} onHome={resetFlow} />

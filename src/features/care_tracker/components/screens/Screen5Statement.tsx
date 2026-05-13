@@ -7,9 +7,10 @@ import { useTranslation } from "react-i18next";
 interface Screen5Props {
   didSelfCare: boolean;
   onContinue: () => void;
+  isSaving?: boolean;
 }
 
-const Screen5Statement = ({ didSelfCare, onContinue }: Screen5Props) => {
+const Screen5Statement = ({ didSelfCare, onContinue, isSaving }: Screen5Props) => {
   const { t } = useTranslation();
 
   const { statement, index } = useMemo(() => {
@@ -30,7 +31,7 @@ const Screen5Statement = ({ didSelfCare, onContinue }: Screen5Props) => {
           {translatedStatement || statement}
         </p>
       </div>
-      <ContinueButton onClick={onContinue} />
+      <ContinueButton onClick={onContinue} isLoading={isSaving} />
     </MobileShell>
   );
 };
