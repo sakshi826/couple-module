@@ -60,7 +60,7 @@
       "subtitle": "현재 기분을 선택하세요 (선택 사항)"
     },
     "review": {
-      "title": "참가작 📋",
+      "title": "세션 리뷰",
       "subtitle": "오늘 점검 내용 요약입니다.",
       "didSelfCare": "자기 관리를 했나요?",
       "activities": "활동",
@@ -73,7 +73,7 @@
       "summary": "요약"
     },
     "history": {
-      "title": "주간 역사 📅",
+      "title": "셀프케어 여정",
       "subtitle": "지난 7일 동안 게시물이 없습니다."
     },
     "notfound": {

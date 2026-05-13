@@ -60,7 +60,7 @@
       "subtitle": "Select your current mood (optional)"
     },
     "review": {
-      "title": "Your Entry 📋",
+      "title": "Session Review",
       "subtitle": "Here's a summary of today's check-in",
       "didSelfCare": "Did self-care?",
       "activities": "Activities",
@@ -73,7 +73,7 @@
       "summary": "Summary"
     },
     "history": {
-      "title": "Weekly History 📅",
+      "title": "Self-Care Journey",
       "subtitle": "No entries in the last 7 days"
     },
     "notfound": {

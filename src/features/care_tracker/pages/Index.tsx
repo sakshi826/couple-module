@@ -12,11 +12,13 @@ import Screen7History from "../components/screens/Screen7History";
 import IntroScreen from "../components/screens/IntroScreen";
 import { useAuth } from "../components/AuthProvider";
 import { AnimatePresence, motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 type Screen = "intro" | "checkin" | "activities" | "duration" | "noSelfCare" | "mood" | "statement" | "review" | "history";
 
 const Index = () => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const { userId } = useAuth();
   const [screen, setScreen] = useState<Screen>("intro");
@@ -94,9 +96,9 @@ const Index = () => {
 
   const getTitle = () => {
     switch(screen) {
-      case 'history': return "Self-Care Journey";
-      case 'review': return "Session Review";
-      default: return "Self-Care Tracker";
+      case 'history': return (typeof t !== "undefined" ? t : (k) => k)('screens.history.title');
+      case 'review': return (typeof t !== "undefined" ? t : (k) => k)('screens.review.title');
+      default: return (typeof t !== "undefined" ? t : (k) => k)("app_title");
     }
   };
 
