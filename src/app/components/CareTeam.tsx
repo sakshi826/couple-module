@@ -610,6 +610,7 @@ const messages: Message[] = [
 ];
 
 export function CareTeam() {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const [selectedExpert, setSelectedExpert] = useState<Expert | null>(null);
@@ -644,7 +645,6 @@ export function CareTeam() {
   }, [searchParams]);
 
   const handleExpertClick = (expert: Expert) => {
-  const { t } = useTranslation();
     setSelectedExpert(expert);
     setSelectedMessage(null);
     setShowExpertsList(false);

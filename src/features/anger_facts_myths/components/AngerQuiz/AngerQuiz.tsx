@@ -7,6 +7,7 @@ import { PremiumComplete } from "@/components/shared/PremiumComplete";
 
 /* ─── Confetti ─── */
 const ConfettiPiece = ({ delay, x }: { delay: number; x: number }) => {
+  const { t } = useTranslation();
   const colors = ["#4F46E5", "#10B981", "#EF4444", "#F59E0B", "#3B82F6"];
   const color = colors[Math.floor(Math.random() * colors.length)];
   return (
@@ -23,13 +24,19 @@ const ConfettiPiece = ({ delay, x }: { delay: number; x: number }) => {
   );
 };
 
-const Confetti = () => (
+const Confetti = () => {
+  const { t } = useTranslation();
+  const { t } = useTranslation();
+  return (
+(
   <div className="fixed inset-0 pointer-events-none z-50 overflow-hidden">
     {Array.from({ length: 30 }).map((_, i) => (
       <ConfettiPiece key={i} delay={Math.random() * 0.5} x={Math.random() * 100} />
     ))}
   </div>
-);
+)
+  );
+};
 
 /* ─── Main Game ─── */
 const AngerQuiz = () => {

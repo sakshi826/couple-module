@@ -6,9 +6,9 @@ import { useTranslation } from "react-i18next";
 import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 const EnergyFactors = () => {
+  const { t } = useTranslation();
   const { currentFactors, setCurrentFactors, currentNote, setCurrentNote, saveEntry } = useEnergy();
   const navigate = useNavigate();
-  const { t } = useTranslation();
 
   const factors = [
     { id: "Sleep", label: t("sleep") },

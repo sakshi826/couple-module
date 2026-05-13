@@ -15,9 +15,9 @@ const TIP_KEY_MAP: Record<string, string> = {
 };
 
 export default function TipDetail() {
+  const { t } = useTranslation();
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
-  const { t } = useTranslation();
   const tip = tips.find((t) => t.id === id);
 
   if (!tip) {

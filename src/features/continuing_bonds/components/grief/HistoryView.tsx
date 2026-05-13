@@ -7,7 +7,10 @@ interface HistoryViewProps {
   onClose: () => void;
 }
 
-const HistoryView = ({ reflections, onClose }: HistoryViewProps) => (
+const HistoryView = ({ reflections, onClose }: HistoryViewProps) => {
+  const { t } = useTranslation();
+  return (
+(
   <div className="min-h-[100dvh] max-w-md mx-auto bg-background flex flex-col w-full">
     <div className="flex items-center px-4 pt-4 pb-1">
       <button
@@ -43,6 +46,8 @@ const HistoryView = ({ reflections, onClose }: HistoryViewProps) => (
             )}
           </div>
         ))
+  );
+}
       )}
     </div>
   </div>

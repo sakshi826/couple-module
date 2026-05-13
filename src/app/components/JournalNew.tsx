@@ -172,6 +172,7 @@ const sampleEntries = [
 ];
 
 export function JournalNew() {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const { id: entryId } = useParams();
   const [title, setTitle] = useState("");
@@ -200,7 +201,6 @@ export function JournalNew() {
   }, [entryId]);
 
   const handleRefreshSuggestion = () => {
-  const { t } = useTranslation();
     const currentIndex = suggestionPrompts.indexOf(currentSuggestion);
     const nextIndex = (currentIndex + 1) % suggestionPrompts.length;
     setCurrentSuggestion(suggestionPrompts[nextIndex]);

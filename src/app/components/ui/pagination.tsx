@@ -36,6 +36,7 @@ function PaginationContent({
 }
 
 function PaginationItem({ ...props }: React.ComponentProps<"li">) {
+  const { t } = useTranslation();
   return <li data-slot="pagination-item" {...props} />;
 }
 

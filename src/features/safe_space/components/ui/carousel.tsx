@@ -30,6 +30,7 @@ type CarouselContextProps = {
 const CarouselContext = React.createContext<CarouselContextProps | null>(null);
 
 function useCarousel() {
+  const { t } = useTranslation();
   const context = React.useContext(CarouselContext);
 
   if (!context) {
@@ -41,7 +42,6 @@ function useCarousel() {
 
 const Carousel = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement> & CarouselProps>(
   ({ orientation = "horizontal", opts, setApi, plugins, className, children, ...props }, ref) => {
-    const { t } = useTranslation();
     const [carouselRef, api] = useEmblaCarousel(
       {
         ...opts,

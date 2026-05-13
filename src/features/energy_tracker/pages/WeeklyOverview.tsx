@@ -24,9 +24,9 @@ const levelToNum: Record<EnergyLevel, number> = {
 };
 
 const WeeklyOverview = () => {
+  const { t } = useTranslation();
   const { entries } = useEnergy();
   const navigate = useNavigate();
-  const { t } = useTranslation();
 
   const numToLabel: Record<number, string> = {
     1: t("very_low"),

@@ -21,7 +21,11 @@ const HEARTS_SCREEN2 = [
   { color: "#CEC9F6", size: 8, left: "88%", delay: "0s", duration: "8.5s" },
 ];
 
-const FloatingHearts = ({ hearts }: { hearts: typeof HEARTS_SCREEN1 }) => (
+const FloatingHearts = ({ hearts }: { hearts: typeof HEARTS_SCREEN1 }) => {
+  const { t } = useTranslation();
+  const { t } = useTranslation();
+  return (
+(
   <div className="absolute inset-0 pointer-events-none z-0">
     {hearts.map((h, i) => (
       <motion.span
@@ -45,7 +49,9 @@ const FloatingHearts = ({ hearts }: { hearts: typeof HEARTS_SCREEN1 }) => (
       </motion.span>
     ))}
   </div>
-);
+)
+  );
+};
 
 const Index = () => {
   const { t } = useTranslation();

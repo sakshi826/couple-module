@@ -8,7 +8,10 @@ interface Props {
   memories: Memory[];
 }
 
-const HistorySheet = ({ open, onOpenChange, memories }: Props) => (
+const HistorySheet = ({ open, onOpenChange, memories }: Props) => {
+  const { t } = useTranslation();
+  return (
+(
   <Sheet open={open} onOpenChange={onOpenChange}>
     <SheetContent side="bottom" className="bg-background rounded-t-3xl max-h-[80vh] overflow-y-auto">
       <SheetHeader className="text-center pb-4">
@@ -32,6 +35,8 @@ const HistorySheet = ({ open, onOpenChange, memories }: Props) => (
       )}
     </SheetContent>
   </Sheet>
-);
+)
+  );
+};
 
 export default HistorySheet;

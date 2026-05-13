@@ -413,11 +413,17 @@ const TrackActivitySection = () => {
   );
 };
 
-const StatBox = ({ label, value }: { label: string; value: string }) => (
+const StatBox = ({ label, value }: { label: string; value: string }) => {
+  const { t } = useTranslation();
+  const { t } = useTranslation();
+  return (
+(
   <div className="rounded-[1.5rem] bg-white/5 p-4 text-center border border-white/5 backdrop-blur-sm">
     <p className="text-[10px] font-black text-slate-500 uppercase tracking-[0.15em] mb-1">{label}</p>
     <p className="text-lg font-black text-white truncate">{value}</p>
   </div>
-);
+)
+  );
+};
 
 export default TrackActivitySection;

@@ -16,8 +16,8 @@ const EMOTIONS = [
 ];
 
 const EmotionalCheckIn = () => {
-  const navigate = useNavigate();
   const { t } = useTranslation();
+  const navigate = useNavigate();
   const location = useLocation();
   const entryId = (location.state as { entryId?: string })?.entryId;
   const [selected, setSelected] = useState<string | null>(null);

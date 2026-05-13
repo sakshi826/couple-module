@@ -7,7 +7,10 @@ interface Props {
   onExit: () => void;
 }
 
-export const ClosingScreen = ({ onExit }: Props) => (
+export const ClosingScreen = ({ onExit }: Props) => {
+  const { t } = useTranslation();
+  return (
+(
   <div className="flex-1 flex flex-col items-center justify-center text-center gap-8">
     <motion.div
       initial={{ scale: 0.8, opacity: 0 }}
@@ -38,4 +41,6 @@ export const ClosingScreen = ({ onExit }: Props) => (
       <Button variant="grief" size="lg" className="w-full text-base py-6" onClick={onExit}>{t("save_exit")}</Button>
     </div>
   </div>
-);
+)
+  );
+};

@@ -22,6 +22,7 @@ const vibeEmojiMap: Record<string, string> = {
 };
 
 const VibeHistory = ({ onBack }: Props) => {
+  const { t } = useTranslation();
   const { t, i18n } = useTranslation();
   const [entries, setEntries] = useState<VibeEntry[]>([]);
   const [loading, setLoading] = useState(true);

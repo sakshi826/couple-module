@@ -9,6 +9,7 @@ import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
 
 const ResourceDetail = () => {
+  const { t } = useTranslation();
   const { t, i18n } = useTranslation();
   const { type, id } = useParams<{ concern: string; type: string; id: string }>();
   const navigate = useNavigate();
@@ -82,7 +83,9 @@ const ResourceDetail = () => {
     );
   }
 
-  const renderTip = (tip: Tip) => (
+  const renderTip = (tip: Tip) => {
+  return (
+(
     <div className="w-full space-y-12 pb-24">
       <motion.section 
           initial={{ opacity: 0, y: 20 }}
@@ -163,9 +166,13 @@ const ResourceDetail = () => {
         </motion.section>
       )}
     </div>
+  )
   );
+};
 
-  const renderArticle = (article: Article) => (
+  const renderArticle = (article: Article) => {
+  return (
+(
     <div className="w-full space-y-12 pb-24">
       <article className="prose prose-slate max-w-none">
         <div 
@@ -191,9 +198,13 @@ const ResourceDetail = () => {
         </p>
       </motion.section>
     </div>
+  )
   );
+};
 
-  const renderStory = (story: Story) => (
+  const renderStory = (story: Story) => {
+  return (
+(
     <div className="w-full space-y-16 pb-24">
         <div className="relative p-12 bg-white rounded-[4rem] border-2 border-slate-100 shadow-sm overflow-hidden group hover:border-amber-200 transition-all duration-500">
           <div className="absolute -top-10 -right-10 p-12 text-amber-50 pointer-events-none group-hover:text-amber-100/50 transition-colors duration-700">
@@ -239,9 +250,13 @@ const ResourceDetail = () => {
         </p>
       </section>
     </div>
+  )
   );
+};
 
-  const renderMyth = (myth: Myth) => (
+  const renderMyth = (myth: Myth) => {
+  return (
+(
     <div className="w-full space-y-16 pb-24">
       <motion.section 
           initial={{ opacity: 0, scale: 0.9 }}
@@ -278,7 +293,9 @@ const ResourceDetail = () => {
         </p>
       </motion.section>
     </div>
+  )
   );
+};
 
   return (
     <PremiumLayout title={resource.title}>

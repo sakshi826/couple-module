@@ -16,9 +16,9 @@ const emojiMap: Record<EnergyLevel, string> = {
 };
 
 const TodaySummary = () => {
+  const { t } = useTranslation();
   const { currentLevel, entries } = useEnergy();
   const navigate = useNavigate();
-  const { t } = useTranslation();
   
   const todayStr = new Date().toISOString().split('T')[0];
   const todayEntry = entries.find(e => e.date === todayStr);

@@ -7,6 +7,7 @@ import Slider from "react-slick";
 import { useTranslation } from "react-i18next";
 
 export function BrowseByGoalDetail() {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const sliderRef = React.useRef<Slider>(null);
 
@@ -127,7 +128,6 @@ export function BrowseByGoalDetail() {
 
   // Carousel custom arrows
   const NextArrow = (props: any) => {
-  const { t } = useTranslation();
     const { onClick } = props;
     return (
       <button

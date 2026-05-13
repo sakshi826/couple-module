@@ -17,7 +17,10 @@ import { useTranslation } from "react-i18next";
 
 const queryClient = new QueryClient();
 
-const App = () => (
+const App = () => {
+  const { t } = useTranslation();
+  return (
+(
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <I18nextProvider i18n={i18n}>
@@ -32,7 +35,9 @@ const App = () => (
       </I18nextProvider>
     </TooltipProvider>
   </QueryClientProvider>
-);
+)
+  );
+};
 
 
 export default App;

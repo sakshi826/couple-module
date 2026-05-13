@@ -18,8 +18,8 @@ import {
 import { useTranslation } from "react-i18next";
 
 const PastLetters = () => {
-  const navigate = useNavigate();
   const { t } = useTranslation();
+  const navigate = useNavigate();
   const [entries, setEntries] = useState<LetterEntry[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);

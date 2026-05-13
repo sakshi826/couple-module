@@ -8,7 +8,10 @@ interface ScreenShellProps {
   screenKey?: string;
 }
 
-const ScreenShell = ({ children, onBack, onHistory, screenKey }: ScreenShellProps) => (
+const ScreenShell = ({ children, onBack, onHistory, screenKey }: ScreenShellProps) => {
+  const { t } = useTranslation();
+  return (
+(
   <div className="min-h-[100dvh] max-w-md mx-auto bg-background flex flex-col w-full">
     {/* Header */}
     <div className="flex items-center justify-between px-4 pt-4 pb-1">
@@ -37,6 +40,8 @@ const ScreenShell = ({ children, onBack, onHistory, screenKey }: ScreenShellProp
       {children}
     </div>
   </div>
-);
+)
+  );
+};
 
 export default ScreenShell;

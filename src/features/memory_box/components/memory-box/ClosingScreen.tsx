@@ -6,7 +6,10 @@ interface Props {
   onExit: () => void;
 }
 
-const ClosingScreen = ({ onExit }: Props) => (
+const ClosingScreen = ({ onExit }: Props) => {
+  const { t } = useTranslation();
+  return (
+(
   <ScreenWrapper>
     <div className="space-y-8 max-w-xs">
       <motion.div
@@ -48,6 +51,8 @@ const ClosingScreen = ({ onExit }: Props) => (
       >{t("save_exit")}</motion.button>
     </div>
   </ScreenWrapper>
-);
+)
+  );
+};
 
 export default ClosingScreen;

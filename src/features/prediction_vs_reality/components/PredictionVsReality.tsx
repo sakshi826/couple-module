@@ -32,6 +32,7 @@ function loadEntries(): Entry[] {
 }
 
 function saveEntry(entry: Entry) {
+  const { t } = useTranslation();
   const entries = loadEntries();
   entries.unshift(entry);
   localStorage.setItem(STORAGE_KEY, JSON.stringify(entries));

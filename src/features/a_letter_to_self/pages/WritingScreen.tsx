@@ -22,8 +22,8 @@ const PROMPTS = [
 ];
 
 const WritingScreen = () => {
-  const navigate = useNavigate();
   const { t } = useTranslation();
+  const navigate = useNavigate();
   const [content, setContent] = useState("");
   const [inspirationOpen, setInspirationOpen] = useState(false);
   const [saveStatus, setSaveStatus] = useState<"idle" | "saving" | "saved">("idle");

@@ -6,7 +6,10 @@ interface Props {
   onDone: () => void;
 }
 
-const CompletionScreen = ({ onTryAnother, onDone }: Props) => (
+const CompletionScreen = ({ onTryAnother, onDone }: Props) => {
+  const { t } = useTranslation();
+  return (
+(
   <div className="glass-card p-8 text-center space-y-6">
     <motion.div
       initial={{ scale: 0, rotate: -20 }}
@@ -38,6 +41,8 @@ const CompletionScreen = ({ onTryAnother, onDone }: Props) => (
       >{t("done")}</button>
     </div>
   </div>
-);
+)
+  );
+};
 
 export default CompletionScreen;

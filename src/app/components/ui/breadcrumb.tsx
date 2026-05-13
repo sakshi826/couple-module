@@ -11,6 +11,7 @@ function Breadcrumb({ ...props }: React.ComponentProps<"nav">) {
 }
 
 function BreadcrumbList({ className, ...props }: React.ComponentProps<"ol">) {
+  const { t } = useTranslation();
   return (
     <ol
       data-slot="breadcrumb-list"
@@ -24,6 +25,7 @@ function BreadcrumbList({ className, ...props }: React.ComponentProps<"ol">) {
 }
 
 function BreadcrumbItem({ className, ...props }: React.ComponentProps<"li">) {
+  const { t } = useTranslation();
   return (
     <li
       data-slot="breadcrumb-item"
@@ -52,6 +54,7 @@ function BreadcrumbLink({
 }
 
 function BreadcrumbPage({ className, ...props }: React.ComponentProps<"span">) {
+  const { t } = useTranslation();
   return (
     <span
       data-slot="breadcrumb-page"

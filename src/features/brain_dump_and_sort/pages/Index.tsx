@@ -7,7 +7,8 @@ import { Brain } from "lucide-react";
 const Index = () => {
   const { t } = useTranslation();
   return (
-    <PremiumLayout title={t("app_title")} icon={<Brain className="w-6 h-6 text-primary" />}>
+    <PremiumLayout title={t("app_title")} icon={<Brain className="w-6 h-6 text-primary" />
+}>
       <div className="w-full">
         <BrainDumpApp />
       </div>

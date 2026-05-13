@@ -13,7 +13,10 @@ import { useTranslation } from "react-i18next";
 
 const queryClient = new QueryClient();
 
-const App = () => (
+const App = () => {
+  const { t } = useTranslation();
+  return (
+(
   <I18nextProvider i18n={i18n}>
     <Suspense fallback={<div className="flex items-center justify-center h-full">{t("common.loading")}</div>}>
       <QueryClientProvider client={queryClient}>
@@ -29,6 +32,8 @@ const App = () => (
   </QueryClientProvider>
     </Suspense>
   </I18nextProvider>
-);
+)
+  );
+};
 
 export default App;

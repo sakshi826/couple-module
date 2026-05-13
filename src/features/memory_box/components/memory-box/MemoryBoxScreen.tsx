@@ -11,7 +11,10 @@ interface Props {
   onBack: () => void;
 }
 
-const MemoryBoxScreen = ({ lastSaved, onAddAnother, onFinish, onBack }: Props) => (
+const MemoryBoxScreen = ({ lastSaved, onAddAnother, onFinish, onBack }: Props) => {
+  const { t } = useTranslation();
+  return (
+(
   <ScreenWrapper>
     <div className="absolute top-0 left-0 px-5 py-4 z-20">
       <button onClick={onBack} className="p-2 rounded-full text-muted-foreground hover:bg-card transition-colors">
@@ -69,6 +72,8 @@ const MemoryBoxScreen = ({ lastSaved, onAddAnother, onFinish, onBack }: Props) =
       </div>
     </div>
   </ScreenWrapper>
-);
+)
+  );
+};
 
 export default MemoryBoxScreen;

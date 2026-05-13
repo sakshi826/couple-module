@@ -34,6 +34,7 @@ const Screen1 = ({ onNext }: { onNext: () => void }) => {
 };
 
 const Screen2 = () => {
+  const { t } = useTranslation();
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const truths_data = t("s2.truths", { returnObjects: true }) as any[];
@@ -93,6 +94,7 @@ const Screen2 = () => {
 };
 
 const Activity = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState(0);
 
   return (

@@ -85,6 +85,7 @@ function DialogHeader({ className, ...props }: React.ComponentProps<"div">) {
 }
 
 function DialogFooter({ className, ...props }: React.ComponentProps<"div">) {
+  const { t } = useTranslation();
   return (
     <div
       data-slot="dialog-footer"

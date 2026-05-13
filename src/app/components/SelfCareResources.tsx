@@ -438,8 +438,8 @@ const topicDetails: Record<string, {
 };
 
 export function SelfCareResources() {
-  const navigate = useNavigate();
   const { t } = useTranslation();
+  const navigate = useNavigate();
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
 
   useEffect(() => {

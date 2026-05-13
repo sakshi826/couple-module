@@ -9,7 +9,7 @@ interface Props {
 }
 
 const AffirmationScreen = ({ onGoHome }: Props) => {
-    const { t } = useTranslation();
+  const { t } = useTranslation();
     return (
         <PremiumComplete
             title={t("app_title")}

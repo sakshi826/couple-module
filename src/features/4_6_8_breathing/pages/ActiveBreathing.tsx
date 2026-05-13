@@ -17,8 +17,8 @@ const PHASE_DURATIONS: Record<Phase, number> = {
 const PHASE_ORDER: Phase[] = ["inhale", "hold", "exhale"];
 
 const ActiveBreathing = () => {
-  const navigate = useNavigate();
   const { t } = useTranslation();
+  const navigate = useNavigate();
   const [status, setStatus] = useState<Status>("idle");
   const [totalRounds, setTotalRounds] = useState(4);
   const [currentRound, setCurrentRound] = useState(1);

@@ -7,7 +7,10 @@ interface TopBarProps {
   screen: number;
 }
 
-const TopBar = ({ onBack, pillLabel, screen }: TopBarProps) => (
+const TopBar = ({ onBack, pillLabel, screen }: TopBarProps) => {
+  const { t } = useTranslation();
+  return (
+(
   <div className="relative z-10">
     <div className="flex items-center justify-between px-4 pt-4 pb-2">
       <button
@@ -37,9 +40,15 @@ const TopBar = ({ onBack, pillLabel, screen }: TopBarProps) => (
     </div>
     {screen > 1 && <ProgressDots active={screen} />}
   </div>
-);
+)
+  );
+};
 
-const ProgressDots = ({ active }: { active: number }) => (
+const ProgressDots = ({ active }: { active: number }) => {
+  const { t } = useTranslation();
+  const { t } = useTranslation();
+  return (
+(
   <div className="flex justify-center gap-2 pb-3">
     {[1, 2, 3].map(d => (
       <div key={d} style={{
@@ -50,6 +59,8 @@ const ProgressDots = ({ active }: { active: number }) => (
       }} />
     ))}
   </div>
-);
+)
+  );
+};
 
 export default TopBar;

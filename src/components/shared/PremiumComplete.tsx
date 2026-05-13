@@ -30,6 +30,7 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
   const displayMessage = message || t("common.completion_message", "You've successfully completed this activity. Take a moment to appreciate your progress.");
 
   const handleHome = () => {
+  const { t } = useTranslation();
     if (onHome) {
       onHome();
     } else {
