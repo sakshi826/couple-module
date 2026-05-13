@@ -124,5 +124,16 @@
     "startFirstCheckIn": "Hier können Sie Ihren ersten Check-in starten und Ihre Reise verfolgen.",
     "today": "Heute",
     "yesterday": "Gestern"
+  },
+  "screens": {
+    "history": {
+      "title": "History"
+    },
+    "confirmation": {
+      "title": "Confirmation"
+    },
+    "reflection": {
+      "title": "Reflection"
+    }
   }
 }

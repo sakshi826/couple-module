@@ -22,7 +22,7 @@ export default function TipDetail() {
 
   if (!tip) {
     return (
-      <PremiumLayout title="Tip Detail">
+      <PremiumLayout title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}>
         <div className="flex flex-col items-center justify-center py-20 gap-4">
           <Loader2 className="w-10 h-10 animate-spin text-primary opacity-20" />
           <p className="text-slate-400 font-black text-[10px] uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)("tipNotFound")}</p>
@@ -38,8 +38,7 @@ export default function TipDetail() {
   const doKeys = tip.whatYouCanDo.map((_, i) => `${k}_do${i + 1}`);
 
   return (
-    <PremiumLayout 
-      title="Tip Detail" 
+    <PremiumLayout title={(typeof t !== "undefined" ? t : (k) => k)("app_title")} 
       onBack={() => navigate("..")}
     >
       <div className="w-full space-y-10 pb-12">

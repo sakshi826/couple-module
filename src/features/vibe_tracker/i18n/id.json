@@ -124,5 +124,16 @@
     "startFirstCheckIn": "Mulailah proses check-in pertama Anda untuk melihat perjalanan Anda selanjutnya di sini.",
     "today": "Hari ini",
     "yesterday": "Kemarin"
+  },
+  "screens": {
+    "history": {
+      "title": "History"
+    },
+    "confirmation": {
+      "title": "Confirmation"
+    },
+    "reflection": {
+      "title": "Reflection"
+    }
   }
 }

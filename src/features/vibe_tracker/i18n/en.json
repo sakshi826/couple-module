@@ -124,5 +124,16 @@
       "kindness": "What small kindness could you offer yourself today?",
       "supported": "What would help you feel supported in this moment?"
     }
+  },
+  "screens": {
+    "history": {
+      "title": "History"
+    },
+    "confirmation": {
+      "title": "Confirmation"
+    },
+    "reflection": {
+      "title": "Reflection"
+    }
   }
 }

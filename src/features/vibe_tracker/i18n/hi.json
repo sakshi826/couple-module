@@ -124,5 +124,16 @@
     "startFirstCheckIn": "अपनी यात्रा को यहाँ से शुरू करने के लिए अपना पहला चेक-इन करें।",
     "today": "आज",
     "yesterday": "कल"
+  },
+  "screens": {
+    "history": {
+      "title": "History"
+    },
+    "confirmation": {
+      "title": "Confirmation"
+    },
+    "reflection": {
+      "title": "Reflection"
+    }
   }
 }

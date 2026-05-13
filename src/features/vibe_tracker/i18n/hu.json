@@ -81,5 +81,16 @@
   "go_to_next_page": "Ugrás a következő oldalra",
   "toggle_sidebar": "Oldalsáv be- és kikapcsolása",
   "oops_page_not_found": "Hoppá! Az oldal nem található.",
-  "return_to_home": "Vissza a kezdőlapra"
+  "return_to_home": "Vissza a kezdőlapra",
+  "screens": {
+    "history": {
+      "title": "History"
+    },
+    "confirmation": {
+      "title": "Confirmation"
+    },
+    "reflection": {
+      "title": "Reflection"
+    }
+  }
 }

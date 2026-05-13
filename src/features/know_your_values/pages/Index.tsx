@@ -97,9 +97,9 @@ const Index = () => {
 
   const getTitle = () => {
     switch(screen) {
-      case 'history': return "Value Journey";
-      case 'summary': return "Reflection Complete";
-      default: return "Know Your Values";
+      case 'history': return (typeof t !== "undefined" ? t : (k) => k)("screens.history.title");
+      case 'summary': return (typeof t !== "undefined" ? t : (k) => k)("screens.summary.title");
+      default: return (typeof t !== "undefined" ? t : (k) => k)("app_title");
     }
   };
 

@@ -124,5 +124,16 @@
     "startFirstCheckIn": "Inizia il tuo primo check-in per vedere come si svolge il tuo viaggio qui.",
     "today": "Oggi",
     "yesterday": "Ieri"
+  },
+  "screens": {
+    "history": {
+      "title": "History"
+    },
+    "confirmation": {
+      "title": "Confirmation"
+    },
+    "reflection": {
+      "title": "Reflection"
+    }
   }
 }

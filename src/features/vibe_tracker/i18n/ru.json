@@ -124,5 +124,16 @@
     "startFirstCheckIn": "Начните свою первую регистрацию, чтобы следить за развитием вашего пути здесь.",
     "today": "Сегодня",
     "yesterday": "Вчера"
+  },
+  "screens": {
+    "history": {
+      "title": "History"
+    },
+    "confirmation": {
+      "title": "Confirmation"
+    },
+    "reflection": {
+      "title": "Reflection"
+    }
   }
 }

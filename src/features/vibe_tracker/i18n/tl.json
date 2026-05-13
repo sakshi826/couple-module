@@ -124,5 +124,16 @@
     "startFirstCheckIn": "Simulan ang iyong unang check-in upang makita ang mga pangyayari sa iyong paglalakbay dito.",
     "today": "Ngayon",
     "yesterday": "Kahapon"
+  },
+  "screens": {
+    "history": {
+      "title": "History"
+    },
+    "confirmation": {
+      "title": "Confirmation"
+    },
+    "reflection": {
+      "title": "Reflection"
+    }
   }
 }

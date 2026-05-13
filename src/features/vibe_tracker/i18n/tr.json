@@ -124,5 +124,16 @@
     "startFirstCheckIn": "Yolculuğunuzun nasıl geliştiğini görmek için ilk girişinizi buradan yapın.",
     "today": "Bugün",
     "yesterday": "Dün"
+  },
+  "screens": {
+    "history": {
+      "title": "History"
+    },
+    "confirmation": {
+      "title": "Confirmation"
+    },
+    "reflection": {
+      "title": "Reflection"
+    }
   }
 }

@@ -124,5 +124,16 @@
     "startFirstCheckIn": "ابدأ تسجيل دخولك الأول لتشاهد رحلتك تتكشف هنا.",
     "today": "اليوم",
     "yesterday": "أمس"
+  },
+  "screens": {
+    "history": {
+      "title": "History"
+    },
+    "confirmation": {
+      "title": "Confirmation"
+    },
+    "reflection": {
+      "title": "Reflection"
+    }
   }
 }

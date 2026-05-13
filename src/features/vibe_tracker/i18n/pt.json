@@ -124,5 +124,16 @@
     "startFirstCheckIn": "Faça seu primeiro check-in aqui para ver sua jornada se desenrolar.",
     "today": "Hoje",
     "yesterday": "Ontem"
+  },
+  "screens": {
+    "history": {
+      "title": "History"
+    },
+    "confirmation": {
+      "title": "Confirmation"
+    },
+    "reflection": {
+      "title": "Reflection"
+    }
   }
 }

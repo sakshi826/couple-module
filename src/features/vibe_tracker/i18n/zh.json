@@ -41,5 +41,17 @@
     "startFirstCheckIn": "从这里开始您的首次入住，即可查看您的旅程安排。",
     "today": "今天",
     "yesterday": "昨天"
+  },
+  "app_title": "Vibe Tracker",
+  "screens": {
+    "history": {
+      "title": "History"
+    },
+    "confirmation": {
+      "title": "Confirmation"
+    },
+    "reflection": {
+      "title": "Reflection"
+    }
   }
 }

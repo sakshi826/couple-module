@@ -124,5 +124,16 @@
     "startFirstCheckIn": "เริ่มการเช็คอินครั้งแรกของคุณเพื่อดูเส้นทางการเดินทางของคุณได้ที่นี่",
     "today": "วันนี้",
     "yesterday": "เมื่อวาน"
+  },
+  "screens": {
+    "history": {
+      "title": "History"
+    },
+    "confirmation": {
+      "title": "Confirmation"
+    },
+    "reflection": {
+      "title": "Reflection"
+    }
   }
 }

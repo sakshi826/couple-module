@@ -124,5 +124,16 @@
     "startFirstCheckIn": "여정의 전개를 확인하려면 첫 번째 체크인을 시작하세요.",
     "today": "오늘",
     "yesterday": "어제"
+  },
+  "screens": {
+    "history": {
+      "title": "History"
+    },
+    "confirmation": {
+      "title": "Confirmation"
+    },
+    "reflection": {
+      "title": "Reflection"
+    }
   }
 }

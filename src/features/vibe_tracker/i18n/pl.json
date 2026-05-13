@@ -124,5 +124,16 @@
     "startFirstCheckIn": "Rozpocznij pierwszą odprawę, aby zobaczyć, jak rozwija się Twoja podróż.",
     "today": "Dzisiaj",
     "yesterday": "Wczoraj"
+  },
+  "screens": {
+    "history": {
+      "title": "History"
+    },
+    "confirmation": {
+      "title": "Confirmation"
+    },
+    "reflection": {
+      "title": "Reflection"
+    }
   }
 }

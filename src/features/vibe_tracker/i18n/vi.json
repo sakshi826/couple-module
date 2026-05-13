@@ -124,5 +124,16 @@
     "startFirstCheckIn": "Bắt đầu lần đăng ký đầu tiên để theo dõi hành trình của bạn tại đây.",
     "today": "Hôm nay",
     "yesterday": "Hôm qua"
+  },
+  "screens": {
+    "history": {
+      "title": "History"
+    },
+    "confirmation": {
+      "title": "Confirmation"
+    },
+    "reflection": {
+      "title": "Reflection"
+    }
   }
 }

@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import IntroScreen from "../components/IntroScreen";
@@ -12,6 +13,7 @@ import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 type Screen = "intro" | "checkin" | "reflection" | "confirmation" | "history";
 
 const Index = () => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const [screen, setScreen] = useState<Screen>("intro");
   const [selectedVibe, setSelectedVibe] = useState("");
@@ -46,10 +48,10 @@ const Index = () => {
 
   const getTitle = () => {
     switch(screen) {
-      case 'history': return "Vibe History";
-      case 'confirmation': return "Vibe Saved";
-      case 'reflection': return "Reflecting on your Vibe";
-      default: return "Vibe Tracker";
+      case 'history': return (typeof t !== "undefined" ? t : (k) => k)("screens.history.title");
+      case 'confirmation': return (typeof t !== "undefined" ? t : (k) => k)("screens.confirmation.title");
+      case 'reflection': return (typeof t !== "undefined" ? t : (k) => k)("screens.reflection.title");
+      default: return (typeof t !== "undefined" ? t : (k) => k)("app_title");
     }
   };
 

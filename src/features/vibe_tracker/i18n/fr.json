@@ -124,5 +124,16 @@
     "startFirstCheckIn": "Commencez votre premier enregistrement pour voir votre parcours se dérouler ici.",
     "today": "Aujourd'hui",
     "yesterday": "Hier"
+  },
+  "screens": {
+    "history": {
+      "title": "History"
+    },
+    "confirmation": {
+      "title": "Confirmation"
+    },
+    "reflection": {
+      "title": "Reflection"
+    }
   }
 }

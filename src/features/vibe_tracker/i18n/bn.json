@@ -124,5 +124,16 @@
     "startFirstCheckIn": "আপনার যাত্রা এখানে কীভাবে সম্পন্ন হবে তা দেখতে আপনার প্রথম চেক-ইন শুরু করুন।",
     "today": "আজ",
     "yesterday": "গতকাল"
+  },
+  "screens": {
+    "history": {
+      "title": "History"
+    },
+    "confirmation": {
+      "title": "Confirmation"
+    },
+    "reflection": {
+      "title": "Reflection"
+    }
   }
 }
