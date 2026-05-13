@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 
 function Breadcrumb({ ...props }: React.ComponentProps<"nav">) {
   const { t } = useTranslation();
-  return <nav aria-label={t("breadcrumb")} data-slot="breadcrumb" {...props} />;
+  return <nav aria-label={(typeof t !== "undefined" ? t : (k) => k)("breadcrumb")} data-slot="breadcrumb" {...props} />;
 }
 
 function BreadcrumbList({ className, ...props }: React.ComponentProps<"ol">) {

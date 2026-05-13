@@ -337,7 +337,7 @@ export function JournalNew() {
                     <button
                       onClick={() => setShowSuggestion(false)}
                       className="text-[#EF4444] hover:text-[#DC2626] transition-colors p-1"
-                      title={t("close")}
+                      title={(typeof t !== "undefined" ? t : (k) => k)("close")}
                     >
                       <X size={24} />
                     </button>

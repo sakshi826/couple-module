@@ -1,3 +1,5 @@
+import i18n from "./i18n";
+import { I18nextProvider } from "react-i18next";
 import { PremiumLayout } from '../../components/shared/PremiumLayout';
 import './index.css';
 import './i18n';

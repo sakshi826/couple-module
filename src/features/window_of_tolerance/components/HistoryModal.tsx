@@ -39,7 +39,7 @@ export default function HistoryModal({ entries, onClose }: Props) {
       >
         <div className="flex items-center justify-between mb-5">
           <h2 className="font-display text-xl font-semibold text-foreground">📋 {t("history.title")}</h2>
-          <button onClick={onClose} className="p-2 rounded-full hover:bg-muted transition-colors" aria-label={t("close")}>
+          <button onClick={onClose} className="p-2 rounded-full hover:bg-muted transition-colors" aria-label={(typeof t !== "undefined" ? t : (k) => k)("close")}>
             <X size={20} />
           </button>
         </div>
