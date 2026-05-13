@@ -36,7 +36,13 @@
       "30min": "30分",
       "45min": "45分",
       "60min": "60分"
-    }
+    },
+    "share": "共有",
+    "share_progress": "進捗を共有",
+    "inspire_others": "今日、他の人をインスパイアしましょう",
+    "reset_all": "すべてリセット",
+    "copied": "コピーしました！",
+    "copy_message": "メッセージをコピー"
   },
   "hub": {
     "back_to_topics": "話題に戻る",

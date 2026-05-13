@@ -18,12 +18,10 @@ const WritingScreen = ({
   onBack,
   onContinue,
 }: WritingScreenProps) => {
-  const { t } = useTranslation();
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const prompts = t("writing.prompts", { returnObjects: true }) as string[];
 
   const insertPrompt = (prompt: string) => {
-  const { t } = useTranslation();
     const textarea = textareaRef.current;
     if (!textarea) return;
     const start = textarea.selectionStart;

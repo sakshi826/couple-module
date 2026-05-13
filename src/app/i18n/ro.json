@@ -36,7 +36,13 @@
       "30min": "30 de minute",
       "45min": "45 de minute",
       "60min": "60 de minute"
-    }
+    },
+    "share": "Distribuiți",
+    "share_progress": "Distribuiți progresul",
+    "inspire_others": "Inspire others",
+    "reset_all": "Resetează tot",
+    "copied": "Copiat!",
+    "copy_message": "Copy message"
   },
   "hub": {
     "back_to_topics": "Înapoi la subiecte",

@@ -36,7 +36,13 @@
       "30min": "30 minuter",
       "45min": "45 minuter",
       "60min": "60 minuter"
-    }
+    },
+    "share": "Dela",
+    "share_progress": "Dela framsteg",
+    "inspire_others": "Inspire others",
+    "reset_all": "Återställ allt",
+    "copied": "Kopierad!",
+    "copy_message": "Copy message"
   },
   "hub": {
     "back_to_topics": "Tillbaka till ämnena",

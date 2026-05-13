@@ -414,8 +414,6 @@ const TrackActivitySection = () => {
 };
 
 const StatBox = ({ label, value }: { label: string; value: string }) => {
-  const { t } = useTranslation();
-  const { t } = useTranslation();
   return (
 (
   <div className="rounded-[1.5rem] bg-white/5 p-4 text-center border border-white/5 backdrop-blur-sm">

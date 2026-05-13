@@ -21,12 +21,10 @@ const cardStyle: React.CSSProperties = {
 };
 
 function formatTime(hour: number, minute: number, amPm: 'AM' | 'PM') {
-  const { t } = useTranslation();
   return `${hour}:${String(minute).padStart(2, '0')} ${amPm}`;
 }
 
 function calcBedtime(wakeHour: number, wakeMinute: number, wakeAmPm: 'AM' | 'PM', duration: number) {
-  const { t } = useTranslation();
   let wake24 = wakeHour % 12 + (wakeAmPm === 'PM' ? 12 : 0);
   let totalWakeMins = wake24 * 60 + wakeMinute;
   let bedMins = totalWakeMins - duration * 60;

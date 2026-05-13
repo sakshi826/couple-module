@@ -36,7 +36,13 @@
       "30min": "30 minuto",
       "45min": "45 minuto",
       "60min": "60 minuto"
-    }
+    },
+    "share": "Ibahagi",
+    "share_progress": "Ibahagi ang progreso",
+    "inspire_others": "Inspire others",
+    "reset_all": "I-reset lahat",
+    "copied": "Nakopya!",
+    "copy_message": "Copy message"
   },
   "hub": {
     "back_to_topics": "Bumalik sa Mga Paksa",

@@ -32,14 +32,12 @@ function loadEntries(): Entry[] {
 }
 
 function saveEntry(entry: Entry) {
-  const { t } = useTranslation();
   const entries = loadEntries();
   entries.unshift(entry);
   localStorage.setItem(STORAGE_KEY, JSON.stringify(entries));
 }
 
 export default function PredictionVsReality() {
-  const { t } = useTranslation();
   const [screen, setScreen] = useState<number | "intro" | "history" | "complete">("intro");
   const [situation, setSituation] = useState("");
   const [prediction, setPrediction] = useState("");

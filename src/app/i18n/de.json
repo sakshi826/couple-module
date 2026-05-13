@@ -36,7 +36,14 @@
       "30min": "30 Minuten",
       "45min": "45 Minuten",
       "60min": "60 Minuten"
-    }
+    },
+    "share": "Teilen",
+    "share_progress": "Fortschritt teilen",
+    "inspire_others": "Inspirieren Sie heute andere",
+    "reset_all": "Alles zurücksetzen",
+    "copied": "Kopiert!",
+    "copy_message": "Nachricht kopieren",
+    "share_text": "Ich habe diese {{activityName}} in TherapyMantra gemacht und genieße sie wirklich. Du kannst das auch tun, folge einfach dem Link zur Android-App {{androidUrl}} oder zur iOS-App {{iosUrl}}"
   },
   "hub": {
     "back_to_topics": "Zurück zu den Themen",

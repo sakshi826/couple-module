@@ -25,8 +25,6 @@ const ConfettiPiece = ({ delay, x }: { delay: number; x: number }) => {
 };
 
 const Confetti = () => {
-  const { t } = useTranslation();
-  const { t } = useTranslation();
   return (
 (
   <div className="fixed inset-0 pointer-events-none z-50 overflow-hidden">

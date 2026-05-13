@@ -15,7 +15,6 @@ interface JournalEntry {
 }
 
 export function Journal() {
-  const { t } = useTranslation();
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState("");

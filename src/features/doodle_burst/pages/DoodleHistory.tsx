@@ -8,7 +8,6 @@ import { useTranslation } from "react-i18next";
 import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 const DoodleHistory = () => {
-  const { t } = useTranslation();
   const navigate = useNavigate();
   const { t, i18n } = useTranslation();
   const [entries, setEntries] = useState<DoodleEntry[]>([]);

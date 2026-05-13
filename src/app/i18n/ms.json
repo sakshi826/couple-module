@@ -36,7 +36,13 @@
       "30min": "30 minit",
       "45min": "45 minit",
       "60min": "60 minit"
-    }
+    },
+    "share": "Kongsi",
+    "share_progress": "Kongsi kemajuan",
+    "inspire_others": "Inspire others",
+    "reset_all": "Set semula semua",
+    "copied": "Disalin!",
+    "copy_message": "Copy message"
   },
   "hub": {
     "back_to_topics": "Kembali ke topik",

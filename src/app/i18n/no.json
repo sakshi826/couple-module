@@ -36,7 +36,13 @@
       "30min": "30 minutter",
       "45min": "45 minutter",
       "60min": "60 minutter"
-    }
+    },
+    "share": "Del",
+    "share_progress": "Del fremgang",
+    "inspire_others": "Inspire others",
+    "reset_all": "Nullstill alt",
+    "copied": "Kopiert!",
+    "copy_message": "Copy message"
   },
   "hub": {
     "back_to_topics": "Tilbake til temaene",

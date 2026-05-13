@@ -36,7 +36,13 @@
       "30min": "৩০ মিনিট",
       "45min": "৪৫ মিনিট",
       "60min": "৬০ মিনিট"
-    }
+    },
+    "share": "শেয়ার",
+    "share_progress": "অগ্রগতি শেয়ার করুন",
+    "inspire_others": "Inspire others",
+    "reset_all": "সব রিসেট করুন",
+    "copied": "কপি করা হয়েছে!",
+    "copy_message": "Copy message"
   },
   "hub": {
     "back_to_topics": "বিষয়গুলিতে ফিরে যান",

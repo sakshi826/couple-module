@@ -93,8 +93,6 @@ const Screen2 = ({ onNext }: { onNext: () => void }) => {
 
 /* ── Screen 3: Gentle Truths ── */
 const TruthCard = ({ emoji, title, body }: { emoji: string; title: string; body: string }) => {
-  const { t } = useTranslation();
-  const { t } = useTranslation();
   return (
 (
   <div className="rounded-3xl border border-slate-100 bg-slate-50 p-6 group hover:bg-white hover:border-primary/20 transition-all">

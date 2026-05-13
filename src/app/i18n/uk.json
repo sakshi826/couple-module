@@ -36,7 +36,13 @@
       "30min": "30 хв",
       "45min": "45 хв",
       "60min": "60 хв"
-    }
+    },
+    "share": "Поділитися",
+    "share_progress": "Поділитися прогресом",
+    "inspire_others": "Inspire others",
+    "reset_all": "Скинути все",
+    "copied": "Скопійовано!",
+    "copy_message": "Copy message"
   },
   "hub": {
     "back_to_topics": "Повернення до тем",

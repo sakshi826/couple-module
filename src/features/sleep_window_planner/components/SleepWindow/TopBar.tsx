@@ -45,8 +45,6 @@ const TopBar = ({ onBack, pillLabel, screen }: TopBarProps) => {
 };
 
 const ProgressDots = ({ active }: { active: number }) => {
-  const { t } = useTranslation();
-  const { t } = useTranslation();
   return (
 (
   <div className="flex justify-center gap-2 pb-3">

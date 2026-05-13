@@ -32,7 +32,6 @@ const languages = [
 ];
 
 export function LanguageSelector() {
-  const { t } = useTranslation();
     const { i18n } = useTranslation();
 
     const handleLanguageChange = (value: string) => {

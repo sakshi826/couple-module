@@ -36,7 +36,13 @@
       "30min": "30 منٹ",
       "45min": "45 منٹ",
       "60min": "60 منٹ"
-    }
+    },
+    "share": "شیئر کریں",
+    "share_progress": "پیشرفت شیئر کریں",
+    "inspire_others": "Inspire others",
+    "reset_all": "سب ری سیٹ کریں",
+    "copied": "کاپی ہو گیا!",
+    "copy_message": "Copy message"
   },
   "hub": {
     "back_to_topics": "موضوعات پر واپس آتے ہیں",

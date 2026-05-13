@@ -38,8 +38,6 @@ type PaginationLinkProps = {
   React.ComponentProps<"a">;
 
 const PaginationLink = ({ className, isActive, size = "icon", ...props }: PaginationLinkProps) => {
-  const { t } = useTranslation();
-  const { t } = useTranslation();
   return (
 (
   <a

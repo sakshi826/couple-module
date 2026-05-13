@@ -36,7 +36,13 @@
       "30min": "30 phút",
       "45min": "45 phút",
       "60min": "60 phút"
-    }
+    },
+    "share": "Chia sẻ",
+    "share_progress": "Chia sẻ tiến độ",
+    "inspire_others": "Inspire others",
+    "reset_all": "Đặt lại tất cả",
+    "copied": "Đã sao chép!",
+    "copy_message": "Copy message"
   },
   "hub": {
     "back_to_topics": "Quay lại chủ đề",

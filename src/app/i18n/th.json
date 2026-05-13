@@ -36,7 +36,13 @@
       "30min": "30 นาที",
       "45min": "45 นาที",
       "60min": "60 นาที"
-    }
+    },
+    "share": "แชร์",
+    "share_progress": "แชร์ความคืบหน้า",
+    "inspire_others": "Inspire others",
+    "reset_all": "รีเซ็ตทั้งหมด",
+    "copied": "คัดลอกแล้ว!",
+    "copy_message": "Copy message"
   },
   "hub": {
     "back_to_topics": "กลับไปที่หัวข้อ",

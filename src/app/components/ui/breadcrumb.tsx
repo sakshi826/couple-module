@@ -6,12 +6,10 @@ import { cn } from "./utils";
 import { useTranslation } from "react-i18next";
 
 function Breadcrumb({ ...props }: React.ComponentProps<"nav">) {
-  const { t } = useTranslation();
   return <nav aria-label={t("breadcrumb")} data-slot="breadcrumb" {...props} />;
 }
 
 function BreadcrumbList({ className, ...props }: React.ComponentProps<"ol">) {
-  const { t } = useTranslation();
   return (
     <ol
       data-slot="breadcrumb-list"

@@ -36,7 +36,13 @@
       "30min": "30 நிமிடங்கள்",
       "45min": "45 நிமிடங்கள்",
       "60min": "60 நிமிடங்கள்"
-    }
+    },
+    "share": "பகிர்",
+    "share_progress": "முன்னேற்றத்தைப் பகிரவும்",
+    "inspire_others": "Inspire others",
+    "reset_all": "அனைத்தையும் மீட்டமை",
+    "copied": "நகலெடுக்கப்பட்டது!",
+    "copy_message": "Copy message"
   },
   "hub": {
     "back_to_topics": "தலைப்புகளுக்குத் திரும்பு",

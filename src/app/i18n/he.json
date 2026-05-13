@@ -36,7 +36,13 @@
       "30min": "30 דקות",
       "45min": "45 דקות",
       "60min": "60 דקות"
-    }
+    },
+    "share": "שתף",
+    "share_progress": "שתף התקדמות",
+    "inspire_others": "Inspire others",
+    "reset_all": "אפס הכל",
+    "copied": "הועתק!",
+    "copy_message": "Copy message"
   },
   "hub": {
     "back_to_topics": "חזרה לנושאים",

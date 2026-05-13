@@ -216,7 +216,8 @@
     "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
     "this_activity": "this activity",
     "copied": "Copied!",
-    "copy_message": "Copy Message"
+    "copy_message": "Copy Message",
+    "reset_all": "Reset all"
   },
   "mindfulness": {
     "title": "Mindfulness Self-Care",
@@ -381,7 +382,6 @@
   "sidebar": "Sidebar",
   "displays_the_mobile_sidebar": "Displays the mobile sidebar.",
   "toggle_sidebar": "Toggle Sidebar",
-  "array_isarray_value_value_array_isarray_defaultval": "Array.isArray(value)\n        ? value\n        : Array.isArray(defaultValue)\n          ? defaultValue\n          : [min, max],\n    [value, defaultValue, min, max],\n  );\n\n  return (",
   "the_situation": "The Situation",
   "emotion": "Emotion",
   "intensity": "Intensity",

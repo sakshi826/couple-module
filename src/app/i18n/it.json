@@ -36,7 +36,13 @@
       "30min": "30 minuti",
       "45min": "45 minuti",
       "60min": "60 minuti"
-    }
+    },
+    "share": "Condividi",
+    "share_progress": "Condividi i progressi",
+    "inspire_others": "Inspire others",
+    "reset_all": "Ripristina tutto",
+    "copied": "Copiato!",
+    "copy_message": "Copy message"
   },
   "hub": {
     "back_to_topics": "Torniamo agli argomenti",

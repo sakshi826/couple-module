@@ -36,7 +36,13 @@
       "30min": "30 perc",
       "45min": "45 perc",
       "60min": "60 perc"
-    }
+    },
+    "share": "Megosztás",
+    "share_progress": "Haladás megosztása",
+    "inspire_others": "Inspire others",
+    "reset_all": "Összes alaphelyzetbe állítása",
+    "copied": "Másolva!",
+    "copy_message": "Copy message"
   },
   "hub": {
     "back_to_topics": "Vissza a témákhoz",

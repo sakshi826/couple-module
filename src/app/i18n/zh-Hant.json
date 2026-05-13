@@ -36,7 +36,13 @@
       "30min": "30分鐘",
       "45min": "45分鐘",
       "60min": "60分鐘"
-    }
+    },
+    "share": "分享",
+    "share_progress": "分享進度",
+    "inspire_others": "Inspire others",
+    "reset_all": "重置全部",
+    "copied": "已複製！",
+    "copy_message": "Copy message"
   },
   "hub": {
     "back_to_topics": "返回主題",

@@ -36,7 +36,13 @@
       "30min": "30 minut",
       "45min": "45 minut",
       "60min": "60 minut"
-    }
+    },
+    "share": "Sdílet",
+    "share_progress": "Sdílet pokrok",
+    "inspire_others": "Inspire others",
+    "reset_all": "Resetovat vše",
+    "copied": "Zkopírováno!",
+    "copy_message": "Copy message"
   },
   "hub": {
     "back_to_topics": "Zpět k tématům",

@@ -8,7 +8,6 @@ import { motion, AnimatePresence } from "framer-motion";
 const TOTAL_SCREENS = 4;
 
 function Badge({ children, className }: { children: React.ReactNode; className?: string }) {
-  const { t } = useTranslation();
   return (
     <span className={`inline-block rounded-full px-3 py-1 text-[10px] font-black uppercase tracking-widest ${className}`}>
       {children}
@@ -17,7 +16,6 @@ function Badge({ children, className }: { children: React.ReactNode; className?:
 }
 
 function Screen1({ onNext }: { onNext: () => void }) {
-  const { t } = useTranslation();
   return (
     <div className="flex flex-1 flex-col gap-8">
       <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 min-h-[450px] flex flex-col justify-center text-center">

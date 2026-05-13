@@ -36,7 +36,13 @@
       "30min": "30 min",
       "45min": "45 min",
       "60min": "60 minuten"
-    }
+    },
+    "share": "Delen",
+    "share_progress": "Voortgang delen",
+    "inspire_others": "Inspire others",
+    "reset_all": "Alles herstellen",
+    "copied": "Gekopieerd!",
+    "copy_message": "Copy message"
   },
   "hub": {
     "back_to_topics": "Terug naar de onderwerpen",

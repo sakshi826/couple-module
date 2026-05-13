@@ -31,7 +31,6 @@ const languages = [
 ];
 
 const LanguageSelector = () => {
-  const { t } = useTranslation();
     const { i18n } = useTranslation();
     const navigate = useNavigate();
     const location = useLocation();

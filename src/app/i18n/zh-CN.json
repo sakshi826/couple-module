@@ -36,7 +36,13 @@
       "30min": "30分钟",
       "45min": "45分钟",
       "60min": "60分钟"
-    }
+    },
+    "share": "Share",
+    "share_progress": "Share progress",
+    "inspire_others": "Inspire others",
+    "reset_all": "Reset all",
+    "copied": "Copied",
+    "copy_message": "Copy message"
   },
   "hub": {
     "back_to_topics": "返回主题",

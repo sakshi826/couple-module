@@ -36,7 +36,13 @@
       "30min": "30 λεπτά",
       "45min": "45 λεπτά",
       "60min": "60 λεπτά"
-    }
+    },
+    "share": "Κοινοποίηση",
+    "share_progress": "Κοινοποίηση προόδου",
+    "inspire_others": "Inspire others",
+    "reset_all": "Επαναφορά όλων",
+    "copied": "Αντιγράφηκε!",
+    "copy_message": "Copy message"
   },
   "hub": {
     "back_to_topics": "Επιστροφή στα θέματα",
