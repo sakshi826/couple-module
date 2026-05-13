@@ -14,6 +14,7 @@ const Index = () => {
   const [screen, setScreen] = useState<Screen>("intro");
 
   const handleWin = () => {
+  const { t } = useTranslation();
     setScreen("complete");
   };
 

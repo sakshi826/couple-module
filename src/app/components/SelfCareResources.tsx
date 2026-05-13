@@ -444,6 +444,7 @@ export function SelfCareResources() {
 
   useEffect(() => {
     const handlePopState = () => {
+  const { t } = useTranslation();
       if (selectedTopic === null) {
         handlePlatformExit();
       } else {

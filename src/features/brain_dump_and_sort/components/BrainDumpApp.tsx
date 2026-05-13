@@ -8,7 +8,6 @@ import { Reflection } from "./Reflection";
 import { SavedThoughts, type SavedSession } from "./SavedThoughts";
 import { History, Loader2, Brain, Sparkles } from "lucide-react";
 import { initializeUser, fetchUserSessions, saveSession, deleteSession } from "../lib/db-service";
-import { LanguageSelector } from "./LanguageSelector";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import { motion, AnimatePresence } from "framer-motion";
@@ -55,6 +54,7 @@ const BrainDumpApp = () => {
   }, []);
 
   const handleDumpComplete = (text: string) => {
+  const { t } = useTranslation();
     const lines = text
       .split(/[\n,.;]+/)
       .map((s) => s.trim())
@@ -68,6 +68,7 @@ const BrainDumpApp = () => {
   };
 
   const handleSortComplete = (sorted: ThoughtItem[]) => {
+  const { t } = useTranslation();
     setThoughts(sorted);
     goTo(3);
   };

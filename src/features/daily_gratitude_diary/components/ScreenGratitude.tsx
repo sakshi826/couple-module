@@ -18,12 +18,14 @@ const ScreenGratitude = ({ onContinue, onBack }: ScreenGratitudeProps) => {
   const [entries, setEntries] = useState<GratitudeEntry[]>([{ grateful: "", reason: "" }]);
 
   const updateEntry = (index: number, field: keyof GratitudeEntry, value: string) => {
+  const { t } = useTranslation();
     const updated = [...entries];
     updated[index] = { ...updated[index], [field]: value };
     setEntries(updated);
   };
 
   const addAnother = () => {
+  const { t } = useTranslation();
     setEntries([...entries, { grateful: "", reason: "" }]);
   };
 

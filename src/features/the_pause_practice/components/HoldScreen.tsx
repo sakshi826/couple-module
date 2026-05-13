@@ -17,12 +17,14 @@ const HoldScreen = ({ onComplete }: HoldScreenProps) => {
   const rafRef = useRef<number>(0);
 
   function StartRefValue() {
+  const { t } = useTranslation();
     return 0;
   }
 
   const microcopy = t("hold.microcopy", { returnObjects: true }) as { at: number; text: string }[];
 
   function getMicrocopy(p: number) {
+  const { t } = useTranslation();
     if (!Array.isArray(microcopy)) return "";
     let current = microcopy[0]?.text || "";
     for (const m of microcopy) {

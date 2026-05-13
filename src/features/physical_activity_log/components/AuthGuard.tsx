@@ -6,7 +6,6 @@ import { useTranslation } from "react-i18next";
 export const AuthGuard = ({ children }: { children: React.ReactNode }) => {
     const [isAuthResolved, setIsAuthResolved] = useState(false);
     const [error, setError] = useState<string | null>(null);
-    const { t } = useTranslation();
 
     useEffect(() => {
         const checkAuth = () => {

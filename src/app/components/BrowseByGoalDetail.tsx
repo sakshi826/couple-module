@@ -128,6 +128,7 @@ export function BrowseByGoalDetail() {
 
   // Carousel custom arrows
   const NextArrow = (props: any) => {
+  const { t } = useTranslation();
     const { onClick } = props;
     return (
       <button
@@ -140,6 +141,7 @@ export function BrowseByGoalDetail() {
   };
 
   const PrevArrow = (props: any) => {
+  const { t } = useTranslation();
     const { onClick } = props;
     return (
       <button

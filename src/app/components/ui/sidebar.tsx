@@ -18,7 +18,6 @@ import {
   SheetTitle,
 } from "./sheet";
 import { Skeleton } from "./skeleton";
-import {
 import { useTranslation } from "react-i18next";
   Tooltip,
   TooltipContent,
@@ -154,6 +153,7 @@ function SidebarProvider({
 }
 
 function Sidebar({
+  const { t } = useTranslation();
   side = "left",
   variant = "sidebar",
   collapsible = "offcanvas",
@@ -256,6 +256,7 @@ function Sidebar({
 }
 
 function SidebarTrigger({
+  const { t } = useTranslation();
   className,
   onClick,
   ...props
@@ -308,7 +309,6 @@ function SidebarRail({ className, ...props }: React.ComponentProps<"button">) {
 }
 
 function SidebarInset({ className, ...props }: React.ComponentProps<"main">) {
-  const { t } = useTranslation();
   return (
     <main
       data-slot="sidebar-inset"
@@ -337,7 +337,6 @@ function SidebarInput({
 }
 
 function SidebarHeader({ className, ...props }: React.ComponentProps<"div">) {
-  const { t } = useTranslation();
   return (
     <div
       data-slot="sidebar-header"
@@ -349,7 +348,6 @@ function SidebarHeader({ className, ...props }: React.ComponentProps<"div">) {
 }
 
 function SidebarFooter({ className, ...props }: React.ComponentProps<"div">) {
-  const { t } = useTranslation();
   return (
     <div
       data-slot="sidebar-footer"
@@ -375,7 +373,6 @@ function SidebarSeparator({
 }
 
 function SidebarContent({ className, ...props }: React.ComponentProps<"div">) {
-  const { t } = useTranslation();
   return (
     <div
       data-slot="sidebar-content"
@@ -390,7 +387,6 @@ function SidebarContent({ className, ...props }: React.ComponentProps<"div">) {
 }
 
 function SidebarGroup({ className, ...props }: React.ComponentProps<"div">) {
-  const { t } = useTranslation();
   return (
     <div
       data-slot="sidebar-group"
@@ -460,7 +456,6 @@ function SidebarGroupContent({
 }
 
 function SidebarMenu({ className, ...props }: React.ComponentProps<"ul">) {
-  const { t } = useTranslation();
   return (
     <ul
       data-slot="sidebar-menu"
@@ -472,7 +467,6 @@ function SidebarMenu({ className, ...props }: React.ComponentProps<"ul">) {
 }
 
 function SidebarMenuItem({ className, ...props }: React.ComponentProps<"li">) {
-  const { t } = useTranslation();
   return (
     <li
       data-slot="sidebar-menu-item"
@@ -648,7 +642,6 @@ function SidebarMenuSkeleton({
 }
 
 function SidebarMenuSub({ className, ...props }: React.ComponentProps<"ul">) {
-  const { t } = useTranslation();
   return (
     <ul
       data-slot="sidebar-menu-sub"

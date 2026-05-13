@@ -1,6 +1,5 @@
 import { CheckCircle2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import LanguageSelector from "./LanguageSelector";
 
 interface Props {
   onRestart: () => void;
@@ -11,10 +10,6 @@ const CompleteScreen = ({ onRestart, onBack }: Props) => {
   const { t } = useTranslation();
   return (
     <div className=" gradient-calm flex flex-col items-center justify-center px-6 relative">
-      <div className="absolute top-6 right-6">
-        <LanguageSelector />
-      </div>
-
       <div className="flex flex-col items-center animate-fade-in">
         <div className="w-20 h-20 rounded-full bg-primary/15 flex items-center justify-center mb-6">
           <CheckCircle2 className="w-10 h-10 text-primary" />

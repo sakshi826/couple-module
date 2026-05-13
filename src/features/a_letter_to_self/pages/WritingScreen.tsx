@@ -59,6 +59,7 @@ const WritingScreen = () => {
   }, [content, doSave]);
 
   const handlePromptClick = (prompt: string) => {
+  const { t } = useTranslation();
     setContent((prev) => (prev ? prev + "\n\n" + prompt + "\n" : prompt + "\n"));
     textareaRef.current?.focus();
   };

@@ -20,6 +20,7 @@ const Index = () => {
   const [storyName, setStoryName] = useState("");
 
   const reset = () => {
+  const { t } = useTranslation();
     setStep(1);
     setThought("");
     setSellValue(50);
@@ -27,6 +28,7 @@ const Index = () => {
   };
 
   const getTitle = () => {
+  const { t } = useTranslation();
     switch(view) {
       case 'sky': return t('title_sky_clouds');
       case 'sell': return t('title_sell_thought');
@@ -37,6 +39,7 @@ const Index = () => {
   };
 
   const getBackAction = () => {
+  const { t } = useTranslation();
     if (view === "intro") return undefined; // Triggers handleExit in PremiumLayout
     if (view === "choose") return () => setView("intro");
     

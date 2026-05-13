@@ -1,5 +1,3 @@
-import { I18nextProvider } from 'react-i18next';
-import i18n from './i18n';
 import { Suspense } from 'react';
 import React, { Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';

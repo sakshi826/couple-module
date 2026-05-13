@@ -1,5 +1,3 @@
-import { I18nextProvider } from 'react-i18next';
-import i18n from './i18n';
 import { Suspense } from 'react';
 import { PremiumLayout } from '../../components/shared/PremiumLayout';
 import './index.css';
@@ -16,7 +14,6 @@ import IntroScreen from "./pages/IntroScreen";
 import ActiveBreathing from "./pages/ActiveBreathing";
 import CompletionScreen from "./pages/CompletionScreen";
 import NotFound from "./pages/NotFound";
-import { LanguageSwitcher } from "./components/LanguageSwitcher";
 
 const queryClient = new QueryClient();
 

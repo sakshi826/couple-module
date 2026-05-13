@@ -18,12 +18,14 @@ const Screen2Activities = ({ onContinue }: Screen2Props) => {
   const [customList, setCustomList] = useState<string[]>([]);
 
   const toggle = (item: string) => {
+  const { t } = useTranslation();
     setSelected((prev) =>
       prev.includes(item) ? prev.filter((s) => s !== item) : [...prev, item]
     );
   };
 
   const addCustom = () => {
+  const { t } = useTranslation();
     const trimmed = customActivity.trim();
     if (trimmed && !customList.includes(trimmed) && !ACTIVITIES.includes(trimmed)) {
       setCustomList((prev) => [...prev, trimmed]);
@@ -33,6 +35,7 @@ const Screen2Activities = ({ onContinue }: Screen2Props) => {
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
+  const { t } = useTranslation();
     if (e.key === "Enter") {
       e.preventDefault();
       addCustom();

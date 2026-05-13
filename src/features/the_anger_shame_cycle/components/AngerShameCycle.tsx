@@ -16,6 +16,7 @@ function Badge({ children, className }: { children: React.ReactNode; className?:
 }
 
 function Screen1({ onNext }: { onNext: () => void }) {
+  const { t } = useTranslation();
   return (
     <div className="flex flex-1 flex-col gap-8">
       <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 min-h-[450px] flex flex-col justify-center text-center">

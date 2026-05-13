@@ -83,6 +83,7 @@ const Index = () => {
   };
 
   const resetFlow = () => {
+  const { t } = useTranslation();
     setScreen("intro");
     setCurrentGratitudes([]);
   };

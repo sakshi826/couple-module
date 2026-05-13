@@ -12,6 +12,7 @@ const ScreenPauseCheckIn = ({ onContinue, onExit }: Props) => {
   const [intensity, setIntensity] = useState(5);
 
   const getFeedback = (value: number) => {
+  const { t } = useTranslation();
     if (value <= 3) return t("feedback_calm");
     if (value <= 6) return t("feedback_noticing");
     return t("feedback_heavy");

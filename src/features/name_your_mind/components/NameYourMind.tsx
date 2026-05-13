@@ -44,6 +44,7 @@ export default function NameYourMind() {
   }, [thought, mindName, reflection, history]);
 
   const reset = () => {
+  const { t } = useTranslation();
     setThought("");
     setMindName("");
     setReflection("");

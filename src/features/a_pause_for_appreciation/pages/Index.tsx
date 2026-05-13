@@ -49,6 +49,7 @@ const Index = () => {
   const [checkIn, setCheckIn] = useState("");
 
   const updateResponse = (index: number, value: string) => {
+  const { t } = useTranslation();
     setResponses((prev) => {
       const next = [...prev];
       next[index] = value;
@@ -57,6 +58,7 @@ const Index = () => {
   };
 
   const handleFinish = () => {
+  const { t } = useTranslation();
     const entry: ReflectionEntry = {
       id: crypto.randomUUID(),
       timestamp: new Date().toISOString(),
@@ -69,6 +71,7 @@ const Index = () => {
   };
 
   const resetFlow = () => {
+  const { t } = useTranslation();
     setResponses(["", "", ""]);
     setIntention("");
     setCheckIn("");

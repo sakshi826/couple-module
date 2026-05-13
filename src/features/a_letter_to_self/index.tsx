@@ -15,7 +15,6 @@ import EmotionalCheckIn from "./pages/EmotionalCheckIn";
 import CompletionScreen from "./pages/CompletionScreen";
 import PastLetters from "./pages/PastLetters";
 import NotFound from "./pages/NotFound";
-import { LanguageSelector } from "./components/LanguageSelector";
 import { AuthGuard } from "./components/AuthGuard";
 import { useTranslation } from "react-i18next";
 

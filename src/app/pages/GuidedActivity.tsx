@@ -24,6 +24,7 @@ export default function GuidedActivity() {
 
   // Specialized UI Type Detection
   const getUiType = () => {
+  const { t } = useTranslation();
     const n = decodedName.toLowerCase();
     if (n.includes('thought record')) return 'THOUGHT_RECORD';
     if (n.includes('reframe') || n.includes('transforming')) return 'REFRAME';
@@ -82,6 +83,7 @@ export default function GuidedActivity() {
   };
 
   const renderSpecializedUI = () => {
+  const { t } = useTranslation();
     switch (uiType) {
       case 'THOUGHT_RECORD':
         return (

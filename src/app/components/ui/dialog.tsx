@@ -48,6 +48,7 @@ function DialogOverlay({
 }
 
 function DialogContent({
+  const { t } = useTranslation();
   className,
   children,
   ...props
@@ -85,7 +86,6 @@ function DialogHeader({ className, ...props }: React.ComponentProps<"div">) {
 }
 
 function DialogFooter({ className, ...props }: React.ComponentProps<"div">) {
-  const { t } = useTranslation();
   return (
     <div
       data-slot="dialog-footer"

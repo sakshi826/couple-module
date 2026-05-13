@@ -36,7 +36,6 @@ function PaginationContent({
 }
 
 function PaginationItem({ ...props }: React.ComponentProps<"li">) {
-  const { t } = useTranslation();
   return <li data-slot="pagination-item" {...props} />;
 }
 
@@ -69,6 +68,7 @@ function PaginationLink({
 }
 
 function PaginationPrevious({
+  const { t } = useTranslation();
   className,
   ...props
 }: React.ComponentProps<typeof PaginationLink>) {
@@ -86,6 +86,7 @@ function PaginationPrevious({
 }
 
 function PaginationNext({
+  const { t } = useTranslation();
   className,
   ...props
 }: React.ComponentProps<typeof PaginationLink>) {
@@ -103,6 +104,7 @@ function PaginationNext({
 }
 
 function PaginationEllipsis({
+  const { t } = useTranslation();
   className,
   ...props
 }: React.ComponentProps<"span">) {

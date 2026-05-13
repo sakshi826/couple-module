@@ -133,6 +133,7 @@ export function TimePage() {
   const filters = ["All", "Guided", "Yoga", "Beginners", "Sleep", "Focus"];
 
   const getTimeTitle = () => {
+  const { t } = useTranslation();
     if (!timeId) return "Content";
     return timeId
       .split("-")

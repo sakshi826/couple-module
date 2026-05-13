@@ -15,6 +15,7 @@ const Screen3NoSelfCare = ({ onContinue }: Screen3Props) => {
   const [helpfulType, setHelpfulType] = useState("");
 
   const toggleReason = (r: string) => {
+  const { t } = useTranslation();
     setReasons((prev) =>
       prev.includes(r) ? prev.filter((s) => s !== r) : [...prev, r]
     );

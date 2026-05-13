@@ -77,6 +77,7 @@ const ContinuingBonds = () => {
   };
 
   const reset = () => {
+  const { t } = useTranslation();
     setSelectedOption(null);
     setPrimaryText("");
     setDeeperText("");

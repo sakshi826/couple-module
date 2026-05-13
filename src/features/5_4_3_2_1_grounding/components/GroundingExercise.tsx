@@ -54,6 +54,7 @@ const GroundingExercise = () => {
   }, [currentStep, totalSteps]);
 
   const handleInputChange = (values: string[]) => {
+  const { t } = useTranslation();
     setResponses((prev) => ({ ...prev, [currentStep]: values }));
   };
 

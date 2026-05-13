@@ -86,6 +86,7 @@ const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabl
   };
 
   const addSparkle = (x: number, y: number) => {
+  const { t } = useTranslation();
     const id = sparkleIdRef.current++;
     setSparkles((prev) => [...prev.slice(-8), { id, x, y }]);
     setTimeout(() => {
@@ -94,6 +95,7 @@ const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabl
   };
 
   const startDraw = (e: React.MouseEvent | React.TouchEvent) => {
+  const { t } = useTranslation();
     if (disabled) return;
     e.preventDefault();
     saveState();
@@ -128,11 +130,13 @@ const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabl
   };
 
   const endDraw = () => {
+  const { t } = useTranslation();
     setIsDrawing(false);
     lastPointRef.current = null;
   };
 
   const undo = () => {
+  const { t } = useTranslation();
     const ctx = getCtx();
     const canvas = canvasRef.current;
     if (!ctx || !canvas || history.length === 0) return;
@@ -142,6 +146,7 @@ const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabl
   };
 
   const clearCanvas = () => {
+  const { t } = useTranslation();
     const ctx = getCtx();
     const canvas = canvasRef.current;
     if (!ctx || !canvas) return;

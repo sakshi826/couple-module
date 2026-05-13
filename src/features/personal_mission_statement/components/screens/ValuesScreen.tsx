@@ -33,6 +33,7 @@ const ValuesScreen = ({ selected, onSelect, onNext }: ValuesScreenProps) => {
   const { t } = useTranslation();
 
   const toggle = (value: string) => {
+  const { t } = useTranslation();
     if (selected.includes(value)) {
       onSelect(selected.filter((v) => v !== value));
     } else if (selected.length < 3) {

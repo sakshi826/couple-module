@@ -38,9 +38,9 @@ export function createI18nInstance(locales: Record<string, any> = {}) {
         escapeValue: false,
       },
       detection: {
-        order: ['querystring', 'localStorage', 'navigator'],
+        order: ['querystring', 'navigator'],
         lookupQuerystring: 'lang',
-        caches: ['localStorage'],
+        caches: [],
       },
       // Ensure we don't load anything from a backend by default
       // as translations should be bundled or loaded manually

@@ -12,6 +12,7 @@ export const AuthGuard = ({ children }: AuthGuardProps) => {
 
     useEffect(() => {
         const checkAuth = () => {
+  const { t } = useTranslation();
             if (sessionStorage.getItem("user_id")) {
                 setIsAuthResolved(true);
             } else {

@@ -135,7 +135,6 @@ function Carousel({
 }
 
 function CarouselContent({ className, ...props }: React.ComponentProps<"div">) {
-  const { t } = useTranslation();
   const { carouselRef, orientation } = useCarousel();
 
   return (
@@ -157,7 +156,6 @@ function CarouselContent({ className, ...props }: React.ComponentProps<"div">) {
 }
 
 function CarouselItem({ className, ...props }: React.ComponentProps<"div">) {
-  const { t } = useTranslation();
   const { orientation } = useCarousel();
 
   return (
@@ -176,6 +174,7 @@ function CarouselItem({ className, ...props }: React.ComponentProps<"div">) {
 }
 
 function CarouselPrevious({
+  const { t } = useTranslation();
   className,
   variant = "outline",
   size = "icon",
@@ -206,6 +205,7 @@ function CarouselPrevious({
 }
 
 function CarouselNext({
+  const { t } = useTranslation();
   className,
   variant = "outline",
   size = "icon",

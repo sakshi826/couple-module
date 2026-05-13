@@ -58,6 +58,7 @@ const AngerQuiz = () => {
   const isCorrect = answered === current?.answer;
 
   const handleAnswer = (choice: "myth" | "fact") => {
+  const { t } = useTranslation();
     if (!current) return;
     setAnswered(choice);
     const correct = choice === current.answer;
@@ -73,6 +74,7 @@ const AngerQuiz = () => {
   };
 
   const handleNext = () => {
+  const { t } = useTranslation();
     if (step + 1 >= TOTAL) {
       setScreen("final");
     } else {
@@ -82,6 +84,7 @@ const AngerQuiz = () => {
   };
 
   const resetQuestion = () => {
+  const { t } = useTranslation();
     setAnswered(null);
     setShowReveal(false);
     setShowExplanation(false);
@@ -90,6 +93,7 @@ const AngerQuiz = () => {
   };
 
   const handleRetry = () => {
+  const { t } = useTranslation();
     setScreen("welcome");
     setStep(0);
     setScore(0);

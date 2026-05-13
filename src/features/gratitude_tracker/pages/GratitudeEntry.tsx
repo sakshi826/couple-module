@@ -20,6 +20,7 @@ const GratitudeEntry = () => {
   const canContinue = gratitude1.trim().length > 0;
 
   const handleContinue = () => {
+  const { t } = useTranslation();
     if (!canContinue) return;
     navigate("mood", {
       state: {

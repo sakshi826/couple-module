@@ -15,6 +15,7 @@ const ScreenWriting = ({ writing, setWriting, onContinue }: Props) => {
   const prompts = t("writing.prompts", { returnObjects: true }) as any[];
 
   const handlePromptClick = (prompt: string) => {
+  const { t } = useTranslation();
     setActivePrompt(prompt);
     if (!writing) {
       setWriting(prompt + " ");

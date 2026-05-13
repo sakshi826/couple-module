@@ -27,6 +27,7 @@ export default function SleepAudit() {
   const RATING_LABELS = t("rating_labels", { returnObjects: true }) as string[];
 
   const getScoreInfo = (score: number) => {
+  const { t } = useTranslation();
     if (score >= 6) return { color: "#1D9E75", status: t("status_labels.track") };
     if (score >= 4) return { color: "#EF9F27", status: t("status_labels.disruptions") };
     return { color: "#E24B4A", status: t("status_labels.attention") };

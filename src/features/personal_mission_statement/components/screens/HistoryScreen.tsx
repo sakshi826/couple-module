@@ -18,7 +18,7 @@ interface HistoryScreenProps {
 }
 
 const HistoryScreen = ({ onBack }: HistoryScreenProps) => {
-    const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
     const [missions, setMissions] = useState<SavedMission[]>([]);
 
     useEffect(() => {

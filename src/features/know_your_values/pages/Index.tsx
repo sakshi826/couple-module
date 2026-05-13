@@ -44,6 +44,7 @@ const Index = () => {
   }, [userId]);
 
   const toggleValue = (v: ValueItem) => {
+  const { t } = useTranslation();
     setSelectedValues((prev) =>
       prev.find((p) => p.name === v.name)
         ? prev.filter((p) => p.name !== v.name)
@@ -82,11 +83,13 @@ const Index = () => {
   };
 
   const handleFinish = () => {
+  const { t } = useTranslation();
     fetchHistory();
     setScreen("history");
   };
 
   const resetActivity = () => {
+  const { t } = useTranslation();
     setSelectedValues([]);
     setChosenValue(null);
     setReflectionText("");
@@ -96,6 +99,7 @@ const Index = () => {
   };
 
   const getTitle = () => {
+  const { t } = useTranslation();
     switch(screen) {
       case 'history': return "Value Journey";
       case 'summary': return "Reflection Complete";

@@ -32,6 +32,7 @@ export function MeditationDetailPage() {
   };
 
   const toggleFavorite = (sessionId: number) => {
+  const { t } = useTranslation();
     setFavorites(prev => {
       const newFavorites = new Set(prev);
       if (newFavorites.has(sessionId)) {

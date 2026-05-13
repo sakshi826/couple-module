@@ -44,6 +44,7 @@ export default function ShareModal({ isOpen, onClose, originalDataUrl }: ShareMo
   };
 
   const handleDownload = () => {
+  const { t } = useTranslation();
     if (!posterUrl) return;
     const link = document.createElement("a");
     link.href = posterUrl;

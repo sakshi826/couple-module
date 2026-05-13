@@ -122,7 +122,6 @@ function App() {
     };
 
     const redirectToAuth = () => {
-  const { t } = useTranslation();
       const currentPath = window.location.pathname + window.location.search + window.location.hash;
       if (!currentPath.includes("token=")) {
         localStorage.setItem("APP_REDIRECT_PATH", currentPath);
