@@ -68,7 +68,6 @@ const Screen7History = () => {
 
  
 const DayCard = ({ entry }: { entry: SelfCareEntry }) => {
-  const { t } = useTranslation();
  
   const keyInfo = entry.didSelfCare
     ? (entry.activities && entry.activities[0] ? t(`data.activities.${entry.activities[0]}`) : t('common.yes'))

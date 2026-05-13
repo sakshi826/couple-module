@@ -4,7 +4,6 @@ import { useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 
 export default function LanguageSelector() {
-  const { t } = useTranslation();
     const { i18n } = useTranslation();
     const [searchParams, setSearchParams] = useSearchParams();
 

@@ -7,7 +7,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 export default function TechniqueDetail() {
-  const { t } = useTranslation();
   const { id } = useParams();
   const navigate = useNavigate();
   const { t, currentLang } = useTranslation();

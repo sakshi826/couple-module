@@ -42,7 +42,6 @@ const WaveDiagram = () => {
 };
 
 const Screen3Groggy = ({ onNext }: Props) => {
-  const { t } = useTranslation();
   const disruptors = t("s3.disruptors", { returnObjects: true }) as any[];
 
   return (

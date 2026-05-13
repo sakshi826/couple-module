@@ -35,7 +35,6 @@ export function LanguageSelector() {
     const { i18n } = useTranslation();
 
     const handleLanguageChange = (value: string) => {
-  const { t } = useTranslation();
         i18n.changeLanguage(value);
         localStorage.setItem("language", value);
     };

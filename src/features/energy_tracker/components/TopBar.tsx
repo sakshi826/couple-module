@@ -28,7 +28,6 @@ const languages = [
 ];
 
 const TopBar = ({ title, showBack = false, showCalendar = false }: TopBarProps) => {
-  const { t } = useTranslation();
   const navigate = useNavigate();
   const { i18n } = useTranslation();
   const [searchParams, setSearchParams] = useSearchParams();

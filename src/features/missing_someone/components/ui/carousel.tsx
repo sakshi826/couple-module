@@ -152,7 +152,6 @@ CarouselContent.displayName = "CarouselContent";
 
 const CarouselItem = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement>>(
   ({ className, ...props }, ref) => {
-    const { t } = useTranslation();
     const { orientation } = useCarousel();
 
     return (

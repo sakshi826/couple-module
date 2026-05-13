@@ -44,7 +44,6 @@ export function LanguageSelector() {
     }, [searchParams, i18n]);
 
     const handleLanguageChange = (value: string) => {
-  const { t } = useTranslation();
         i18n.changeLanguage(value);
         setSearchParams({ lang: value });
     };

@@ -25,7 +25,6 @@ const languages = [
 ];
 
 const LanguageSelector = () => {
-  const { t } = useTranslation();
     const { i18n } = useTranslation();
 
     useEffect(() => {

@@ -45,7 +45,6 @@ function Screen1({ onNext }: { onNext: () => void }) {
 }
 
 function Screen2({ onNext }: { onNext: () => void }) {
-  const { t } = useTranslation();
   const nodes_data = t("screens.s2.nodes", { returnObjects: true }) as any[];
   const colors = [
     "text-red-600 bg-red-50",
@@ -90,7 +89,6 @@ function Screen2({ onNext }: { onNext: () => void }) {
 }
 
 function Screen3({ onNext }: { onNext: () => void }) {
-  const { t } = useTranslation();
   return (
     <div className="flex flex-1 flex-col gap-8">
       <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 min-h-[450px]">
@@ -128,7 +126,6 @@ function Screen3({ onNext }: { onNext: () => void }) {
 }
 
 function Screen4({ onFinish }: { onFinish: () => void }) {
-  const { t } = useTranslation();
   const steps_data = t("screens.s4.steps", { returnObjects: true }) as any[];
   const emojis = ["🔍", "🤲", "🕊️"];
 
@@ -174,7 +171,6 @@ function Screen4({ onFinish }: { onFinish: () => void }) {
 }
 
 export default function AngerShameCycle() {
-  const { t } = useTranslation();
   const [screen, setScreen] = useState(0);
 
   if (screen === 4) {

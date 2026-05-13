@@ -7,7 +7,6 @@ import { Sparkles } from "lucide-react";
 import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 const Index = () => {
-  const { t } = useTranslation();
   const navigate = useNavigate();
   const { t, currentLang } = useTranslation();
 

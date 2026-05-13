@@ -55,7 +55,6 @@ const BrainDumpApp = () => {
   }, []);
 
   const handleDumpComplete = (text: string) => {
-  const { t } = useTranslation();
     const lines = text
       .split(/[\n,.;]+/)
       .map((s) => s.trim())
@@ -69,7 +68,6 @@ const BrainDumpApp = () => {
   };
 
   const handleSortComplete = (sorted: ThoughtItem[]) => {
-  const { t } = useTranslation();
     setThoughts(sorted);
     goTo(3);
   };
