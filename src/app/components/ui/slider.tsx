@@ -15,7 +15,17 @@ function Slider({
   ...props
 }: React.ComponentProps<typeof SliderPrimitive.Root>) {
   const _values = React.useMemo(
-    () =>{t("array_isarray_value_value_array_isarray_defaultval")}<SliderPrimitive.Root
+    () =>
+      Array.isArray(value)
+        ? value
+        : Array.isArray(defaultValue)
+          ? defaultValue
+          : [min, max],
+    [value, defaultValue, min, max],
+  );
+
+  return (
+    <SliderPrimitive.Root
       data-slot="slider"
       defaultValue={defaultValue}
       value={value}
