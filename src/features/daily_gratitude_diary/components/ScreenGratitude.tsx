@@ -44,15 +44,15 @@ const ScreenGratitude = ({ onContinue, onBack }: ScreenGratitudeProps) => {
             <ArrowLeft size={20} />
           </motion.button>
           <div className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
-            <Sparkles size={12} />{t("daily_gratitude")}</div>
+            <Sparkles size={12} />{(typeof t !== "undefined" ? t : (k) => k)("daily_gratitude")}</div>
         </header>
 
         <div className="space-y-4">
           <h1 className="text-4xl font-extrabold text-slate-900 leading-tight">
-            {t('grateful_title')}
+            {(typeof t !== "undefined" ? t : (k) => k)('grateful_title')}
           </h1>
           <p className="text-slate-500 text-base font-medium leading-relaxed">
-            {t('grateful_step_1')}
+            {(typeof t !== "undefined" ? t : (k) => k)('grateful_step_1')}
           </p>
         </div>
 
@@ -72,20 +72,20 @@ const ScreenGratitude = ({ onContinue, onBack }: ScreenGratitudeProps) => {
                 </div>
                 <div className="space-y-4">
                   <div className="space-y-2">
-                    <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-2">{t("i_am_grateful_for")}</label>
+                    <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-2">{(typeof t !== "undefined" ? t : (k) => k)("i_am_grateful_for")}</label>
                     <input
                       type="text"
-                      placeholder={t('placeholder_grateful')}
+                      placeholder={(typeof t !== "undefined" ? t : (k) => k)('placeholder_grateful')}
                       value={entry.grateful}
                       onChange={(e) => updateEntry(i, "grateful", e.target.value)}
                       className="w-full py-5 rounded-2xl bg-slate-50 border-2 border-transparent focus:border-primary/50 focus:bg-white transition-all outline-none px-6 font-bold text-slate-700 placeholder:text-slate-300"
                     />
                   </div>
                   <div className="space-y-2">
-                    <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-2">{t("because")}</label>
+                    <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-2">{(typeof t !== "undefined" ? t : (k) => k)("because")}</label>
                     <input
                       type="text"
-                      placeholder={t('placeholder_reason')}
+                      placeholder={(typeof t !== "undefined" ? t : (k) => k)('placeholder_reason')}
                       value={entry.reason}
                       onChange={(e) => updateEntry(i, "reason", e.target.value)}
                       className="w-full py-5 rounded-2xl bg-slate-50 border-2 border-transparent focus:border-primary/50 focus:bg-white transition-all outline-none px-6 font-bold text-slate-700 placeholder:text-slate-300"
@@ -103,7 +103,7 @@ const ScreenGratitude = ({ onContinue, onBack }: ScreenGratitudeProps) => {
             className="w-full py-5 rounded-[2rem] bg-slate-50 text-slate-400 font-bold border-2 border-dashed border-slate-200 hover:border-primary/30 hover:text-primary transition-all flex items-center justify-center gap-2"
           >
             <Plus size={20} />
-            {t('add_another')}
+            {(typeof t !== "undefined" ? t : (k) => k)('add_another')}
           </motion.button>
         </div>
       </div>
@@ -117,7 +117,7 @@ const ScreenGratitude = ({ onContinue, onBack }: ScreenGratitudeProps) => {
           disabled={!canContinue}
           className="w-full max-w-lg py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3 disabled:opacity-40 disabled:shadow-none"
         >
-          {t('continue')}
+          {(typeof t !== "undefined" ? t : (k) => k)('continue')}
           <ArrowRight size={20} />
         </motion.button>
       </div>

@@ -104,7 +104,7 @@ export const PremiumIntro: React.FC<PremiumIntroProps> = ({
           onClick={onStart}
           className="w-full max-w-lg py-5 rounded-2xl bg-slate-900 text-white font-bold text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
         >
-          {t("common.get_started", "Get Started")}
+          {(typeof t !== "undefined" ? t : (k) => k)("common.get_started", "Get Started")}
           <ArrowRight size={20} strokeWidth={3} />
         </motion.button>
       </div>

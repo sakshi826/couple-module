@@ -16,18 +16,18 @@ const PsychoeducationActivity = () => {
   if (currentScreen === 2) {
     return (
       <PremiumComplete
-        title={t("app_title")}
-        message={t("complete_message")}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+        message={(typeof t !== "undefined" ? t : (k) => k)("complete_message")}
         onRestart={() => setCurrentScreen(0)}
       />
     );
   }
 
-  const subtitles = t("subtitles", { returnObjects: true }) as string[];
+  const subtitles = (typeof t !== "undefined" ? t : (k) => k)("subtitles", { returnObjects: true }) as string[];
 
   return (
     <PremiumLayout
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       subtitle={subtitles[currentScreen]}
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={currentScreen > 0 ? () => setCurrentScreen(prev => prev - 1) : undefined}
@@ -59,21 +59,21 @@ const PsychoeducationActivity = () => {
                 
                 <div className="relative z-10 space-y-6">
                   <div className="inline-block px-4 py-1.5 rounded-full bg-pink-50 text-pink-600 text-[10px] font-black uppercase tracking-widest">
-                    {t("screen1.tag")}
+                    {(typeof t !== "undefined" ? t : (k) => k)("screen1.tag")}
                   </div>
                   
                   <div className="space-y-4">
-                    <p className="text-slate-400 font-bold text-sm">{t("screen1.intro")}</p>
+                    <p className="text-slate-400 font-bold text-sm">{(typeof t !== "undefined" ? t : (k) => k)("screen1.intro")}</p>
                     <h1 className="text-3xl font-black text-slate-800 leading-tight">
-                      {t("screen1.title")}
+                      {(typeof t !== "undefined" ? t : (k) => k)("screen1.title")}
                     </h1>
                     <p className="text-slate-600 leading-relaxed font-medium text-base">
-                      {t("screen1.desc")}
+                      {(typeof t !== "undefined" ? t : (k) => k)("screen1.desc")}
                     </p>
                   </div>
 
                   <div className="bg-pink-50/50 border-l-4 border-pink-400 rounded-2xl p-6 italic text-pink-900 text-sm leading-relaxed shadow-sm">
-                    {t("screen1.quote")}
+                    {(typeof t !== "undefined" ? t : (k) => k)("screen1.quote")}
                   </div>
                 </div>
               </div>
@@ -82,7 +82,7 @@ const PsychoeducationActivity = () => {
                 onClick={() => setCurrentScreen(1)}
                 className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
               >
-                {t("screen1.button")}
+                {(typeof t !== "undefined" ? t : (k) => k)("screen1.button")}
                 <ChevronRight size={20} strokeWidth={3} />
               </button>
             </motion.div>
@@ -104,21 +104,21 @@ const PsychoeducationActivity = () => {
 
                 <div className="relative z-10 space-y-6">
                   <div className="inline-block px-4 py-1.5 rounded-full bg-indigo-50 text-indigo-600 text-[10px] font-black uppercase tracking-widest">
-                    {t("screen2.tag")}
+                    {(typeof t !== "undefined" ? t : (k) => k)("screen2.tag")}
                   </div>
 
                   <div className="space-y-4">
-                    <p className="text-slate-400 font-bold text-sm">{t("screen2.intro")}</p>
+                    <p className="text-slate-400 font-bold text-sm">{(typeof t !== "undefined" ? t : (k) => k)("screen2.intro")}</p>
                     <h1 className="text-3xl font-black text-slate-800 leading-tight">
-                      {t("screen2.title")}
+                      {(typeof t !== "undefined" ? t : (k) => k)("screen2.title")}
                     </h1>
                     <p className="text-slate-600 leading-relaxed font-medium text-base">
-                      {t("screen2.desc")}
+                      {(typeof t !== "undefined" ? t : (k) => k)("screen2.desc")}
                     </p>
                   </div>
 
                   <div className="bg-indigo-50/50 border-l-4 border-indigo-400 rounded-2xl p-6 italic text-indigo-900 text-sm leading-relaxed shadow-sm">
-                    {t("screen2.quote")}
+                    {(typeof t !== "undefined" ? t : (k) => k)("screen2.quote")}
                   </div>
                 </div>
               </div>
@@ -127,7 +127,7 @@ const PsychoeducationActivity = () => {
                 onClick={() => setCurrentScreen(2)}
                 className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
               >
-                {t("screen2.button")}
+                {(typeof t !== "undefined" ? t : (k) => k)("screen2.button")}
                 <ChevronRight size={20} strokeWidth={3} />
               </button>
             </motion.div>

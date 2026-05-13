@@ -109,7 +109,7 @@ export function SubcategoryPage() {
             </div>
             
             {/* Description */}
-            <p className="text-slate-400 text-sm mb-5 ml-[54px]">{t("explore_guided_meditations_and_mindfulness_content")}</p>
+            <p className="text-slate-400 text-sm mb-5 ml-[54px]">{(typeof t !== "undefined" ? t : (k) => k)("explore_guided_meditations_and_mindfulness_content")}</p>
 
             {/* Filter Tabs */}
             <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">

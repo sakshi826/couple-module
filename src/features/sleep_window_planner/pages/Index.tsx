@@ -7,7 +7,7 @@ const Index = () => {
   const { t } = useTranslation();
   return (
     <PremiumLayout 
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       icon={<Moon className="w-6 h-6 text-primary" />}
       exitOnBack={true}
     >

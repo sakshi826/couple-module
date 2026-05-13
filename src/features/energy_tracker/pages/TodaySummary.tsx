@@ -25,35 +25,35 @@ const TodaySummary = () => {
   const level = currentLevel || todayEntry?.level || "okay";
 
   const labelMap: Record<EnergyLevel, string> = {
-    "very-low": t("very_low"),
-    low: t("low"),
-    okay: t("okay"),
-    good: t("good"),
-    high: t("high"),
+    "very-low": (typeof t !== "undefined" ? t : (k) => k)("very_low"),
+    low: (typeof t !== "undefined" ? t : (k) => k)("low"),
+    okay: (typeof t !== "undefined" ? t : (k) => k)("okay"),
+    good: (typeof t !== "undefined" ? t : (k) => k)("good"),
+    high: (typeof t !== "undefined" ? t : (k) => k)("high"),
   };
 
   const messages: Record<EnergyLevel, string> = {
-    "very-low": t("msg_very_low"),
-    low: t("msg_low"),
-    okay: t("msg_okay"),
-    good: t("msg_good"),
-    high: t("msg_high"),
+    "very-low": (typeof t !== "undefined" ? t : (k) => k)("msg_very_low"),
+    low: (typeof t !== "undefined" ? t : (k) => k)("msg_low"),
+    okay: (typeof t !== "undefined" ? t : (k) => k)("msg_okay"),
+    good: (typeof t !== "undefined" ? t : (k) => k)("msg_good"),
+    high: (typeof t !== "undefined" ? t : (k) => k)("msg_high"),
   };
 
   const suggestions = [
-    { icon: Coffee, text: t("breaks") },
-    { icon: Droplets, text: t("hydrated") },
-    { icon: Footprints, text: t("movement") },
+    { icon: Coffee, text: (typeof t !== "undefined" ? t : (k) => k)("breaks") },
+    { icon: Droplets, text: (typeof t !== "undefined" ? t : (k) => k)("hydrated") },
+    { icon: Footprints, text: (typeof t !== "undefined" ? t : (k) => k)("movement") },
   ];
 
   return (
     <PremiumLayout 
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       icon={<Sparkles className="h-6 w-6" />}
       exitOnBack={true}
     >
       <PremiumComplete
-        title={t("today_energy", { label: labelMap[level] })}
+        title={(typeof t !== "undefined" ? t : (k) => k)("today_energy", { label: labelMap[level] })}
         message={messages[level]}
         onRestart={() => navigate("/", { replace: true })}
         onHome={() => {
@@ -89,7 +89,7 @@ const TodaySummary = () => {
             className="w-full py-5 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-500 font-black text-sm uppercase tracking-widest shadow-xl shadow-slate-200/50 hover:text-primary hover:border-primary/20 transition-all flex items-center justify-center gap-3"
           >
             <History size={20} />
-            {t("view_weekly")}
+            {(typeof t !== "undefined" ? t : (k) => k)("view_weekly")}
           </motion.button>
         </div>
       </PremiumComplete>

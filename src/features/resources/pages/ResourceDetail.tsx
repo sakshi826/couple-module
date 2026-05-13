@@ -52,7 +52,7 @@ const ResourceDetail = () => {
 
   if (loading) {
     return (
-      <PremiumLayout title={t("common.loading")}>
+      <PremiumLayout title={(typeof t !== "undefined" ? t : (k) => k)("common.loading")}>
         <div className="flex items-center justify-center py-32">
           <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin" />
         </div>
@@ -62,20 +62,20 @@ const ResourceDetail = () => {
 
   if (!resource) {
     return (
-      <PremiumLayout title={t("app_title")}>
+      <PremiumLayout title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}>
         <div className="flex flex-col items-center justify-center py-32 gap-6">
           <div className="w-20 h-20 rounded-full bg-slate-100 flex items-center justify-center text-slate-300">
             <HelpCircle size={40} />
           </div>
           <div className="text-center space-y-2">
-            <p className="text-slate-900 font-black text-xl">{t("not_found.message")}</p>
-            <p className="text-slate-400 font-bold text-sm">{t("not_found.description")}</p>
+            <p className="text-slate-900 font-black text-xl">{(typeof t !== "undefined" ? t : (k) => k)("not_found.message")}</p>
+            <p className="text-slate-400 font-bold text-sm">{(typeof t !== "undefined" ? t : (k) => k)("not_found.description")}</p>
           </div>
           <button 
             onClick={() => navigate(-1)} 
             className="px-8 py-3 bg-primary text-white font-black rounded-full shadow-lg shadow-primary/20 hover:scale-105 transition-transform"
           >
-            {t("not_found.button")}
+            {(typeof t !== "undefined" ? t : (k) => k)("not_found.button")}
           </button>
         </div>
       </PremiumLayout>
@@ -97,7 +97,7 @@ const ResourceDetail = () => {
         </div>
         <h2 className="text-[11px] font-black text-primary uppercase tracking-[0.4em] mb-8 flex items-center gap-2">
             <Sparkles size={14} />
-            {t("detail.tip.insight_label")}
+            {(typeof t !== "undefined" ? t : (k) => k)("detail.tip.insight_label")}
         </h2>
         <p className="text-slate-700 text-2xl font-black leading-tight tracking-tight relative z-10">{tip.whyItHelps}</p>
       </motion.section>
@@ -109,9 +109,9 @@ const ResourceDetail = () => {
           className="space-y-10"
       >
         <div className="flex items-center justify-between px-4">
-            <h2 className="text-2xl font-black text-slate-900 tracking-tight">{t("detail.tip.plan_title")}</h2>
+            <h2 className="text-2xl font-black text-slate-900 tracking-tight">{(typeof t !== "undefined" ? t : (k) => k)("detail.tip.plan_title")}</h2>
             <span className="px-4 py-1 bg-slate-100 text-slate-500 rounded-full text-[10px] font-black uppercase tracking-widest">
-                {t("detail.tip.steps", { count: tip.whatYouCanDo.length })}
+                {(typeof t !== "undefined" ? t : (k) => k)("detail.tip.steps", { count: tip.whatYouCanDo.length })}
             </span>
         </div>
         
@@ -144,11 +144,11 @@ const ResourceDetail = () => {
           
           <div className="flex items-center gap-3 text-emerald-600 font-black text-[11px] uppercase tracking-[0.4em] relative z-10">
               <Lightbulb size={18} fill="currentColor" />
-              {t("detail.tip.example_label")}
+              {(typeof t !== "undefined" ? t : (k) => k)("detail.tip.example_label")}
           </div>
           <div className="grid md:grid-cols-[1fr,auto,1fr] items-center gap-10 relative z-10">
             <div className="space-y-3">
-              <p className="text-[10px] font-black text-emerald-400 uppercase tracking-[0.2em]">{t("detail.tip.instead_of")}</p>
+              <p className="text-[10px] font-black text-emerald-400 uppercase tracking-[0.2em]">{(typeof t !== "undefined" ? t : (k) => k)("detail.tip.instead_of")}</p>
               <p className="text-emerald-900/50 text-lg font-bold leading-relaxed italic">{tip.example.instead}</p>
             </div>
             
@@ -159,7 +159,7 @@ const ResourceDetail = () => {
             </div>
 
             <div className="space-y-3">
-              <p className="text-[10px] font-black text-emerald-500 uppercase tracking-[0.2em]">{t("detail.tip.try_this")}</p>
+              <p className="text-[10px] font-black text-emerald-500 uppercase tracking-[0.2em]">{(typeof t !== "undefined" ? t : (k) => k)("detail.tip.try_this")}</p>
               <p className="text-emerald-900 text-2xl font-black leading-tight tracking-tight">{tip.example.tryThis}</p>
             </div>
           </div>
@@ -192,7 +192,7 @@ const ResourceDetail = () => {
         </div>
         <div className="flex items-center gap-3 text-emerald-400 font-black text-[11px] uppercase tracking-[0.4em] relative z-10">
             <Sparkles size={18} />
-            {t("detail.article.final_thought")}
+            {(typeof t !== "undefined" ? t : (k) => k)("detail.article.final_thought")}
         </div>
         <p className="text-slate-100 text-3xl font-black italic leading-[1.3] tracking-tight relative z-10">
           "{article.takeaway}"
@@ -239,14 +239,14 @@ const ResourceDetail = () => {
          <div className="absolute top-0 right-0 p-8 text-amber-200/30">
             <Sparkles size={100} />
          </div>
-        <h3 className="text-amber-600 font-black text-[11px] uppercase tracking-[0.4em] relative z-10">{t("detail.story.reflection_label")}</h3>
+        <h3 className="text-amber-600 font-black text-[11px] uppercase tracking-[0.4em] relative z-10">{(typeof t !== "undefined" ? t : (k) => k)("detail.story.reflection_label")}</h3>
         <p className="text-amber-900 font-black text-3xl leading-[1.3] tracking-tight italic relative z-10">
           "{story.highlight}"
         </p>
       </motion.section>
 
       <section className="p-12 bg-slate-50 rounded-[4rem] border-2 border-slate-100">
-        <h3 className="text-slate-400 font-black text-[10px] uppercase tracking-[0.3em] mb-6">{t("detail.story.note_label")}</h3>
+        <h3 className="text-slate-400 font-black text-[10px] uppercase tracking-[0.3em] mb-6">{(typeof t !== "undefined" ? t : (k) => k)("detail.story.note_label")}</h3>
         <p className="text-slate-600 text-lg font-bold leading-relaxed">
           {story.takeaway}
         </p>
@@ -270,12 +270,12 @@ const ResourceDetail = () => {
         <div className="absolute top-0 right-0 p-12 text-white/10">
             <Sparkles size={200} />
         </div>
-        <h2 className="text-[11px] font-black text-indigo-200 uppercase tracking-[0.5em] mb-6 relative z-10">{t("detail.myth.truth_label")}</h2>
+        <h2 className="text-[11px] font-black text-indigo-200 uppercase tracking-[0.5em] mb-6 relative z-10">{(typeof t !== "undefined" ? t : (k) => k)("detail.myth.truth_label")}</h2>
         <p className="text-white text-4xl font-black leading-tight tracking-tight relative z-10">{myth.truth}</p>
       </motion.section>
 
       <article className="p-12 bg-white rounded-[4rem] border-2 border-slate-100 shadow-sm space-y-8">
-        <h3 className="text-[11px] font-black text-slate-400 uppercase tracking-[0.4em]">{t("detail.myth.explanation_label")}</h3>
+        <h3 className="text-[11px] font-black text-slate-400 uppercase tracking-[0.4em]">{(typeof t !== "undefined" ? t : (k) => k)("detail.myth.explanation_label")}</h3>
         <div 
           className="text-slate-700 text-xl leading-relaxed space-y-8 font-medium article-content"
           dangerouslySetInnerHTML={{ __html: myth.explanation }} 
@@ -289,7 +289,7 @@ const ResourceDetail = () => {
       >
         <div className="flex items-center gap-3 text-indigo-400 font-black text-[11px] uppercase tracking-[0.4em]">
             <Sparkles size={18} />
-            {t("detail.myth.insight_label")}
+            {(typeof t !== "undefined" ? t : (k) => k)("detail.myth.insight_label")}
         </div>
         <p className="text-indigo-100 text-3xl font-black italic leading-[1.3] tracking-tight">
           "{myth.takeaway}"

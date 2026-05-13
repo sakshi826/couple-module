@@ -11,8 +11,8 @@ const FinalScreen = ({ onRestart }: FinalScreenProps) => {
 
   return (
     <PremiumComplete
-      title={t("app_title")}
-      message={t('final_text')}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+      message={(typeof t !== "undefined" ? t : (k) => k)('final_text')}
       onRestart={onRestart}
       icon={<CheckCircle2 size={48} />}
     />

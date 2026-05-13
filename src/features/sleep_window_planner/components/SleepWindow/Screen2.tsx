@@ -48,16 +48,16 @@ const Screen2 = (props: Screen2Props) => {
   return (
     <div className="flex flex-col flex-1 px-5 pb-6 overflow-y-auto" style={{ minHeight: 0 }}>
       <h1 style={{ fontSize: 18, fontWeight: 600, color: 'var(--sleep-body-color)', marginBottom: 14 }}>
-        {t("screen2.title")}
+        {(typeof t !== "undefined" ? t : (k) => k)("screen2.title")}
       </h1>
 
       {/* Step 1 */}
       <div style={cardStyle} className="mb-3">
         <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--sleep-accent-hex)', letterSpacing: 1, textTransform: 'uppercase', marginBottom: 6 }}>
-          {t("screen2.step1.title")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screen2.step1.title")}
         </div>
         <p style={{ fontSize: 13, fontWeight: 500, color: 'var(--sleep-body-color)', marginBottom: 4 }}>
-          {t("screen2.step1.desc")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screen2.step1.desc")}
         </p>
         <TimePicker
           hour={wakeHour} minute={wakeMinute} amPm={wakeAmPm}
@@ -70,10 +70,10 @@ const Screen2 = (props: Screen2Props) => {
       {/* Step 2 */}
       <div style={cardStyle} className="mb-3">
         <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--sleep-accent-hex)', letterSpacing: 1, textTransform: 'uppercase', marginBottom: 6 }}>
-          {t("screen2.step2.title")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screen2.step2.title")}
         </div>
         <p style={{ fontSize: 13, fontWeight: 500, color: 'var(--sleep-body-color)', marginBottom: 10 }}>
-          {t("screen2.step2.desc")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screen2.step2.desc")}
         </p>
         <div className="flex items-center gap-3">
           <span style={{ fontSize: 11, color: 'var(--sleep-sub-color)' }}>6h</span>
@@ -115,12 +115,12 @@ const Screen2 = (props: Screen2Props) => {
           }}>☀️</div>
         </div>
         <p style={{ textAlign: 'center', fontSize: 11, color: 'var(--sleep-sub-color)' }}>
-          {t("screen2.live_window.duration", { hours: sleepDuration })}
+          {(typeof t !== "undefined" ? t : (k) => k)("screen2.live_window.duration", { hours: sleepDuration })}
         </p>
       </div>
 
       <p style={{ fontSize: 12, fontStyle: 'italic', color: 'var(--sleep-sub-color)', textAlign: 'center', marginBottom: 16 }}>
-        {t("screen2.italic")}
+        {(typeof t !== "undefined" ? t : (k) => k)("screen2.italic")}
       </p>
 
       <div style={{ marginTop: 'auto' }}>
@@ -129,7 +129,7 @@ const Screen2 = (props: Screen2Props) => {
           background: 'linear-gradient(135deg, var(--sleep-accent-hex), var(--sleep-purple-hex))',
           color: '#fff', fontWeight: 500, fontSize: 15, cursor: 'pointer',
         }}>
-          {t("screen2.button")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screen2.button")}
         </button>
       </div>
     </div>

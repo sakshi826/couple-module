@@ -45,18 +45,18 @@ const ValuesScreen = ({ selected, onSelect, onNext }: ValuesScreenProps) => {
     <ScreenWrapper screenKey="values">
       <div className="flex-1 space-y-6">
         <h1 className="text-[22px] font-heading text-foreground text-center">
-          {t('values_title')}
+          {(typeof t !== "undefined" ? t : (k) => k)('values_title')}
         </h1>
 
         <p className="text-[15px] font-body text-muted-foreground leading-[1.65] text-center">
-          {t('values_subtitle')}
+          {(typeof t !== "undefined" ? t : (k) => k)('values_subtitle')}
         </p>
 
         <div className="flex flex-wrap gap-3 justify-center">
           {VALUES.map((v) => (
             <ValueChip
               key={v.key}
-              label={t(v.key)}
+              label={(typeof t !== "undefined" ? t : (k) => k)(v.key)}
               selected={selected.includes(v.key)}
               onToggle={() => toggle(v.key)}
             />
@@ -66,7 +66,7 @@ const ValuesScreen = ({ selected, onSelect, onNext }: ValuesScreenProps) => {
 
       <div className="pt-8 pb-4">
         <MissionButton onClick={onNext} disabled={selected.length === 0}>
-          {t('values_next')}
+          {(typeof t !== "undefined" ? t : (k) => k)('values_next')}
         </MissionButton>
       </div>
     </ScreenWrapper>

@@ -25,7 +25,7 @@ export default function TipDetail() {
       <PremiumLayout title="Tip Detail">
         <div className="flex flex-col items-center justify-center py-20 gap-4">
           <Loader2 className="w-10 h-10 animate-spin text-primary opacity-20" />
-          <p className="text-slate-400 font-black text-[10px] uppercase tracking-widest">{t("tipNotFound")}</p>
+          <p className="text-slate-400 font-black text-[10px] uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)("tipNotFound")}</p>
         </div>
       </PremiumLayout>
     );
@@ -52,7 +52,7 @@ export default function TipDetail() {
             animate={{ opacity: 1, x: 0 }}
             className="text-3xl font-black text-slate-900 leading-tight tracking-tight"
           >
-            {k ? t(`${k}_title`) : tip.title}
+            {k ? (typeof t !== "undefined" ? t : (k) => k)(`${k}_title`) : tip.title}
           </motion.h1>
         </div>
 
@@ -63,9 +63,9 @@ export default function TipDetail() {
             transition={{ delay: 0.1 }}
             className="bg-white rounded-[2.5rem] border-2 border-slate-100 p-10 shadow-sm group hover:border-primary/20 transition-all"
         >
-          <h2 className="text-[10px] font-black text-primary uppercase tracking-[0.3em] mb-6">{t("whyItHelps")}</h2>
+          <h2 className="text-[10px] font-black text-primary uppercase tracking-[0.3em] mb-6">{(typeof t !== "undefined" ? t : (k) => k)("whyItHelps")}</h2>
           <p className="text-slate-600 text-lg font-bold leading-relaxed">
-            {k ? t(`${k}_why`) : tip.whyItHelps}
+            {k ? (typeof t !== "undefined" ? t : (k) => k)(`${k}_why`) : tip.whyItHelps}
           </p>
         </motion.section>
 
@@ -76,7 +76,7 @@ export default function TipDetail() {
             transition={{ delay: 0.2 }}
             className="space-y-8"
         >
-          <h2 className="text-xl font-black text-slate-800 tracking-tight px-2">{t("whatYouCanDo")}</h2>
+          <h2 className="text-xl font-black text-slate-800 tracking-tight px-2">{(typeof t !== "undefined" ? t : (k) => k)("whatYouCanDo")}</h2>
           <div className="grid gap-4">
             {doKeys.map((key, i) => (
               <motion.div 
@@ -89,7 +89,7 @@ export default function TipDetail() {
                 <div className="w-10 h-10 rounded-2xl bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5 group-hover:scale-110 transition-transform">
                     <CheckCircle2 size={20} strokeWidth={3} />
                 </div>
-                <span className="text-slate-700 text-base font-bold leading-relaxed">{t(key)}</span>
+                <span className="text-slate-700 text-base font-bold leading-relaxed">{(typeof t !== "undefined" ? t : (k) => k)(key)}</span>
               </motion.div>
             ))}
           </div>
@@ -105,20 +105,20 @@ export default function TipDetail() {
           >
             <div className="flex items-center gap-3 text-emerald-600 font-black text-[10px] uppercase tracking-[0.3em] mb-2">
                 <Lightbulb size={16} fill="currentColor" className="group-hover:animate-pulse" />
-                {t("example")}
+                {(typeof t !== "undefined" ? t : (k) => k)("example")}
             </div>
             <div className="space-y-6">
               <div className="space-y-2">
-                <p className="text-[10px] font-black text-emerald-400 uppercase tracking-[0.2em]">{t("insteadOf")}</p>
+                <p className="text-[10px] font-black text-emerald-400 uppercase tracking-[0.2em]">{(typeof t !== "undefined" ? t : (k) => k)("insteadOf")}</p>
                 <p className="text-emerald-900/60 text-base font-bold leading-relaxed">
-                  {k ? t(`${k}_ex_instead`) : tip.example.instead}
+                  {k ? (typeof t !== "undefined" ? t : (k) => k)(`${k}_ex_instead`) : tip.example.instead}
                 </p>
               </div>
               <div className="h-0.5 w-12 bg-emerald-100 rounded-full" />
               <div className="space-y-2">
-                <p className="text-[10px] font-black text-emerald-500 uppercase tracking-[0.2em]">{t("try")}</p>
+                <p className="text-[10px] font-black text-emerald-500 uppercase tracking-[0.2em]">{(typeof t !== "undefined" ? t : (k) => k)("try")}</p>
                 <p className="text-emerald-900 text-xl font-black leading-tight tracking-tight">
-                  {k ? t(`${k}_ex_try`) : tip.example.tryThis}
+                  {k ? (typeof t !== "undefined" ? t : (k) => k)(`${k}_ex_try`) : tip.example.tryThis}
                 </p>
               </div>
             </div>
@@ -141,7 +141,7 @@ export default function TipDetail() {
                 Gentle Reminder
             </div>
             <p className="text-slate-200 text-xl font-bold italic leading-relaxed relative z-10">
-              "{k ? t(`${k}_rem`) : tip.gentleReminder}"
+              "{k ? (typeof t !== "undefined" ? t : (k) => k)(`${k}_rem`) : tip.gentleReminder}"
             </p>
           </motion.section>
         )}

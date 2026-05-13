@@ -19,8 +19,8 @@ const Screen5Statement = ({ didSelfCare, onContinue }: Screen5Props) => {
   }, [didSelfCare]);
 
   const translatedStatement = didSelfCare
-    ? t(`data.positiveStatements.${index}`)
-    : t(`data.supportiveStatements.${index}`);
+    ? (typeof t !== "undefined" ? t : (k) => k)(`data.positiveStatements.${index}`)
+    : (typeof t !== "undefined" ? t : (k) => k)(`data.supportiveStatements.${index}`);
 
   return (
     <MobileShell>

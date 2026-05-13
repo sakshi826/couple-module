@@ -8,7 +8,7 @@ interface Props {
 
 const ScreenNameIt = ({ onContinue }: Props) => {
   const { t } = useTranslation();
-  const EMOTIONS = t("emotions_list", { returnObjects: true }) as string[];
+  const EMOTIONS = (typeof t !== "undefined" ? t : (k) => k)("emotions_list", { returnObjects: true }) as string[];
   const [selected, setSelected] = useState<string[]>([]);
   const [custom, setCustom] = useState("");
 
@@ -39,7 +39,7 @@ const ScreenNameIt = ({ onContinue }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        {t("nameit_title")}
+        {(typeof t !== "undefined" ? t : (k) => k)("nameit_title")}
       </motion.h1>
 
       <motion.p
@@ -48,7 +48,7 @@ const ScreenNameIt = ({ onContinue }: Props) => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.15, duration: 0.6 }}
       >
-        {t("nameit_subtitle")}
+        {(typeof t !== "undefined" ? t : (k) => k)("nameit_subtitle")}
       </motion.p>
 
       <motion.div
@@ -78,17 +78,17 @@ const ScreenNameIt = ({ onContinue }: Props) => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.45, duration: 0.6 }}
       >
-        <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-4">{t("label_custom_emotion")}</p>
+        <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-4">{(typeof t !== "undefined" ? t : (k) => k)("label_custom_emotion")}</p>
         <input
           type="text"
           className="w-full bg-slate-50 border-none rounded-2xl p-4 text-center text-lg font-bold text-slate-800 focus:ring-2 focus:ring-primary/20 transition-all shadow-inner"
-          placeholder={t("placeholder_emotion")}
+          placeholder={(typeof t !== "undefined" ? t : (k) => k)("placeholder_emotion")}
           maxLength={30}
           value={custom}
           onChange={(e) => setCustom(e.target.value)}
         />
         <p className="text-xs text-slate-400 mt-4 italic">
-          {t("nameit_footer")}
+          {(typeof t !== "undefined" ? t : (k) => k)("nameit_footer")}
         </p>
       </motion.div>
 
@@ -100,7 +100,7 @@ const ScreenNameIt = ({ onContinue }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 0.6 }}
       >
-        {t("continue_button")}
+        {(typeof t !== "undefined" ? t : (k) => k)("continue_button")}
       </motion.button>
     </div>
   );

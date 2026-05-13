@@ -52,7 +52,7 @@ const WritingNarrative = () => {
   const saveEntry = useCallback(async () => {
     const userId = sessionStorage.getItem("user_id");
     if (!userId || !DATABASE_URL) {
-      toast.error(t("toasts.auth_error"));
+      toast.error((typeof t !== "undefined" ? t : (k) => k)("toasts.auth_error"));
       return;
     }
 
@@ -68,14 +68,14 @@ const WritingNarrative = () => {
     try {
       const sql = neon(DATABASE_URL);
       await sql`INSERT INTO write_your_narrative_entries (user_id, narrative_data) VALUES (${userId}, ${entry})`;
-      toast.success(t("toasts.save_success"));
+      toast.success((typeof t !== "undefined" ? t : (k) => k)("toasts.save_success"));
       setEntries(prev => [entry, ...prev]);
       setWriting("");
       setReflection("");
       goTo("complete");
     } catch (error) {
       console.error("Failed to save narrative:", error);
-      toast.error(t("toasts.save_error"));
+      toast.error((typeof t !== "undefined" ? t : (k) => k)("toasts.save_error"));
     } finally {
       setIsSaving(false);
     }
@@ -84,18 +84,18 @@ const WritingNarrative = () => {
   if (screen === "complete") {
     return (
       <PremiumComplete
-        title={t("app_title")}
-        message={t("complete.message")}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+        message={(typeof t !== "undefined" ? t : (k) => k)("complete.message")}
         onRestart={() => setScreen("entry")}
       />
     );
   }
 
-  const titles: Record<string, string> = t("nav", { returnObjects: true }) as Record<string, string>;
+  const titles: Record<string, string> = (typeof t !== "undefined" ? t : (k) => k)("nav", { returnObjects: true }) as Record<string, string>;
 
   return (
     <PremiumLayout
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       subtitle={titles[screen]}
       icon={<BookOpen className="w-6 h-6 text-primary" />}
       onBack={screen !== "entry" ? () => setScreen("entry") : undefined}
@@ -144,7 +144,7 @@ const WritingNarrative = () => {
                   className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                 >
                   <Save size={20} strokeWidth={3} />
-                  {isSaving ? t("landing.button_preserving") : t("landing.button_save")}
+                  {isSaving ? (typeof t !== "undefined" ? t : (k) => k)("landing.button_preserving") : (typeof t !== "undefined" ? t : (k) => k)("landing.button_save")}
                 </button>
               </div>
             )}

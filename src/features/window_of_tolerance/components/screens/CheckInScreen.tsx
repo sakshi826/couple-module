@@ -15,28 +15,28 @@ export default function CheckInScreen({ selected, onSelect, onBack, onNext }: Pr
     {
       id: "hyper" as const,
       emoji: "🔴",
-      label: t("screens.checkin.zones.hyper.label"),
-      desc: t("screens.checkin.zones.hyper.desc"),
+      label: (typeof t !== "undefined" ? t : (k) => k)("screens.checkin.zones.hyper.label"),
+      desc: (typeof t !== "undefined" ? t : (k) => k)("screens.checkin.zones.hyper.desc"),
     },
     {
       id: "safe" as const,
       emoji: "🟢",
-      label: t("screens.checkin.zones.safe.label"),
-      desc: t("screens.checkin.zones.safe.desc"),
+      label: (typeof t !== "undefined" ? t : (k) => k)("screens.checkin.zones.safe.label"),
+      desc: (typeof t !== "undefined" ? t : (k) => k)("screens.checkin.zones.safe.desc"),
     },
     {
       id: "hypo" as const,
       emoji: "🔵",
-      label: t("screens.checkin.zones.hypo.label"),
-      desc: t("screens.checkin.zones.hypo.desc"),
+      label: (typeof t !== "undefined" ? t : (k) => k)("screens.checkin.zones.hypo.label"),
+      desc: (typeof t !== "undefined" ? t : (k) => k)("screens.checkin.zones.hypo.desc"),
     },
   ];
 
   return (
-    <section className="space-y-6" aria-label={t("check_in")}>
+    <section className="space-y-6" aria-label={(typeof t !== "undefined" ? t : (k) => k)("check_in")}>
       <div className="text-center space-y-2">
-        <h2 className="font-display text-2xl font-bold text-foreground">{t("screens.checkin.title")}</h2>
-        <p className="text-sm text-muted-foreground">{t("screens.checkin.subtitle")}</p>
+        <h2 className="font-display text-2xl font-bold text-foreground">{(typeof t !== "undefined" ? t : (k) => k)("screens.checkin.title")}</h2>
+        <p className="text-sm text-muted-foreground">{(typeof t !== "undefined" ? t : (k) => k)("screens.checkin.subtitle")}</p>
       </div>
 
       <div className="space-y-3">
@@ -67,19 +67,19 @@ export default function CheckInScreen({ selected, onSelect, onBack, onNext }: Pr
           onClick={onBack}
           className="flex-1 py-3.5 rounded-2xl border border-border text-foreground font-medium hover:bg-muted transition-all duration-300 hover:-translate-y-0.5"
         >
-          {t("screens.checkin.back")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screens.checkin.back")}
         </button>
         <button
           onClick={onNext}
           disabled={!selected}
           className="flex-1 py-3.5 rounded-2xl bg-primary text-primary-foreground font-medium transition-all duration-300 hover:-translate-y-0.5 disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:translate-y-0"
         >
-          {t("screens.checkin.next")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screens.checkin.next")}
         </button>
       </div>
 
       <p className="text-xs text-muted-foreground text-center">
-        {t("screens.checkin.footer")}
+        {(typeof t !== "undefined" ? t : (k) => k)("screens.checkin.footer")}
       </p>
     </section>
   );

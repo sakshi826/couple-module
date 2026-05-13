@@ -38,7 +38,7 @@ const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
             <div className="flex h-[100dvh] w-full items-center justify-center bg-white">
                 <div className="flex flex-col items-center gap-6">
                     <div className="h-16 w-16 animate-spin rounded-full border-4 border-blue-500 border-t-transparent"></div>
-                    <p className="text-sm font-semibold text-black tracking-widest animate-pulse uppercase">{t("initializing_session")}</p>
+                    <p className="text-sm font-semibold text-black tracking-widest animate-pulse uppercase">{(typeof t !== "undefined" ? t : (k) => k)("initializing_session")}</p>
                 </div>
             </div>
         );

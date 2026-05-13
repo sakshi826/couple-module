@@ -6,7 +6,7 @@ import "./i18n";
 import { useTranslation } from "react-i18next";
 
 createRoot(document.getElementById("root")!).render(
-    <Suspense fallback={<div>{t("common.loading")}</div>}>
+    <Suspense fallback={<div>{(typeof t !== "undefined" ? t : (k) => k)("common.loading")}</div>}>
         <App />
     </Suspense>
 );

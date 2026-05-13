@@ -84,7 +84,7 @@ export default function PredictionVsReality() {
     };
     saveEntry(entry);
     setEntries(loadEntries());
-    toast.success(t("toasts.saved"));
+    toast.success((typeof t !== "undefined" ? t : (k) => k)("toasts.saved"));
     setScreen("complete");
   };
 
@@ -95,19 +95,19 @@ export default function PredictionVsReality() {
     );
   };
 
-  const EMOTIONS = t("emotions", { returnObjects: true }) as string[];
-  const COMPARISON_OPTIONS = t("comparison_options", { returnObjects: true }) as string[];
+  const EMOTIONS = (typeof t !== "undefined" ? t : (k) => k)("emotions", { returnObjects: true }) as string[];
+  const COMPARISON_OPTIONS = (typeof t !== "undefined" ? t : (k) => k)("comparison_options", { returnObjects: true }) as string[];
 
   if (screen === "intro") {
     return (
-      <PremiumLayout title={t("app_title")}>
+      <PremiumLayout title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}>
         <PremiumIntro
-          title={t("app_title")}
-          description={t("app_description")}
+          title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+          description={(typeof t !== "undefined" ? t : (k) => k)("app_description")}
           onStart={() => setScreen(1)}
           icon={<Activity size={32} />}
-          benefits={t("intro.benefits", { returnObjects: true }) as string[]}
-          duration={t("intro.duration")}
+          benefits={(typeof t !== "undefined" ? t : (k) => k)("intro.benefits", { returnObjects: true }) as string[]}
+          duration={(typeof t !== "undefined" ? t : (k) => k)("intro.duration")}
         />
         <div className="mt-8 flex justify-center pb-20">
           <button 
@@ -115,7 +115,7 @@ export default function PredictionVsReality() {
             className="flex items-center gap-2 text-slate-500 hover:text-primary transition-colors text-sm font-bold uppercase tracking-widest"
           >
             <History size={16} />
-            {t("intro.view_past")}
+            {(typeof t !== "undefined" ? t : (k) => k)("intro.view_past")}
           </button>
         </div>
       </PremiumLayout>
@@ -124,11 +124,11 @@ export default function PredictionVsReality() {
 
   if (screen === "history") {
     return (
-      <PremiumLayout title={t("app_title")} onBack={() => setScreen("intro")}>
+      <PremiumLayout title={(typeof t !== "undefined" ? t : (k) => k)("app_title")} onBack={() => setScreen("intro")}>
         <div className="space-y-4 max-w-2xl mx-auto">
           {entries.length === 0 ? (
             <div className="text-center py-20 bg-white rounded-3xl border border-slate-100">
-              <p className="text-slate-400 font-medium">{t("history.no_reflections")}</p>
+              <p className="text-slate-400 font-medium">{(typeof t !== "undefined" ? t : (k) => k)("history.no_reflections")}</p>
             </div>
           ) : (
             entries.map((entry, i) => (
@@ -153,18 +153,18 @@ export default function PredictionVsReality() {
                 
                 <div className="grid grid-cols-2 gap-4">
                   <div className="p-4 rounded-2xl bg-slate-50 space-y-1">
-                    <p className="text-[9px] font-black uppercase tracking-widest text-slate-400">{t("history.prediction_label")}</p>
+                    <p className="text-[9px] font-black uppercase tracking-widest text-slate-400">{(typeof t !== "undefined" ? t : (k) => k)("history.prediction_label")}</p>
                     <p className="text-sm text-slate-600 italic">"{entry.prediction}"</p>
                   </div>
                   <div className="p-4 rounded-2xl bg-primary/5 space-y-1">
-                    <p className="text-[9px] font-black uppercase tracking-widest text-primary">{t("history.reality_label")}</p>
+                    <p className="text-[9px] font-black uppercase tracking-widest text-primary">{(typeof t !== "undefined" ? t : (k) => k)("history.reality_label")}</p>
                     <p className="text-sm text-slate-900 font-bold">"{entry.reality}"</p>
                   </div>
                 </div>
 
                 <div className="pt-4 border-t border-slate-50">
                   <p className="text-xs text-slate-500 leading-relaxed font-medium">
-                    <span className="text-slate-900 font-bold">{t("history.reflection_label")}</span> {entry.reflection}
+                    <span className="text-slate-900 font-bold">{(typeof t !== "undefined" ? t : (k) => k)("history.reflection_label")}</span> {entry.reflection}
                   </p>
                 </div>
               </motion.div>
@@ -177,10 +177,10 @@ export default function PredictionVsReality() {
 
   if (screen === "complete") {
     return (
-      <PremiumLayout title={t("app_title")} showBack={false}>
+      <PremiumLayout title={(typeof t !== "undefined" ? t : (k) => k)("app_title")} showBack={false}>
         <PremiumComplete
-          title={t("app_title")}
-          message={t("complete.message")}
+          title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+          message={(typeof t !== "undefined" ? t : (k) => k)("complete.message")}
           onRestart={reset}
         />
       </PremiumLayout>
@@ -189,8 +189,8 @@ export default function PredictionVsReality() {
 
   return (
     <PremiumLayout 
-      title={t("app_title")} 
-      subtitle={t("step_label", { current: screen })}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")} 
+      subtitle={(typeof t !== "undefined" ? t : (k) => k)("step_label", { current: screen })}
       onBack={() => setScreen("intro")}
       onReset={reset}
     >
@@ -199,17 +199,17 @@ export default function PredictionVsReality() {
           {screen === 1 && (
             <motion.div key="s1" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} className="bg-white rounded-[2.5rem] p-10 shadow-xl border border-slate-100 space-y-8">
               <div className="text-center space-y-4">
-                <h2 className="text-3xl font-black text-slate-900">{t("screens.s1.title")}</h2>
-                <p className="text-slate-500 font-medium">{t("screens.s1.desc")}</p>
+                <h2 className="text-3xl font-black text-slate-900">{(typeof t !== "undefined" ? t : (k) => k)("screens.s1.title")}</h2>
+                <p className="text-slate-500 font-medium">{(typeof t !== "undefined" ? t : (k) => k)("screens.s1.desc")}</p>
               </div>
               <textarea
                 value={situation}
                 onChange={(e) => setSituation(e.target.value)}
-                placeholder={t("screens.s1.placeholder")}
+                placeholder={(typeof t !== "undefined" ? t : (k) => k)("screens.s1.placeholder")}
                 className="w-full min-h-[160px] rounded-3xl border-2 border-slate-50 bg-slate-50 p-6 text-lg text-slate-900 focus:outline-none focus:border-primary/30 focus:bg-white focus:ring-4 focus:ring-primary/5 transition-all resize-none"
               />
               <button onClick={() => setScreen(2)} disabled={!situation.trim()} className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg hover:bg-slate-800 transition-all flex items-center justify-center gap-3 disabled:opacity-30">
-                {t("buttons.continue")} <ChevronRight size={20} />
+                {(typeof t !== "undefined" ? t : (k) => k)("buttons.continue")} <ChevronRight size={20} />
               </button>
             </motion.div>
           )}
@@ -217,17 +217,17 @@ export default function PredictionVsReality() {
           {screen === 2 && (
             <motion.div key="s2" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} className="bg-white rounded-[2.5rem] p-10 shadow-xl border border-slate-100 space-y-8">
               <div className="text-center space-y-4">
-                <h2 className="text-3xl font-black text-slate-900">{t("screens.s2.title")}</h2>
-                <p className="text-slate-500 font-medium">{t("screens.s2.desc")}</p>
+                <h2 className="text-3xl font-black text-slate-900">{(typeof t !== "undefined" ? t : (k) => k)("screens.s2.title")}</h2>
+                <p className="text-slate-500 font-medium">{(typeof t !== "undefined" ? t : (k) => k)("screens.s2.desc")}</p>
               </div>
               <textarea
                 value={prediction}
                 onChange={(e) => setPrediction(e.target.value)}
-                placeholder={t("screens.s2.placeholder")}
+                placeholder={(typeof t !== "undefined" ? t : (k) => k)("screens.s2.placeholder")}
                 className="w-full min-h-[160px] rounded-3xl border-2 border-slate-50 bg-slate-50 p-6 text-lg text-slate-900 focus:outline-none focus:border-primary/30 focus:bg-white transition-all resize-none"
               />
               <button onClick={() => setScreen(3)} disabled={!prediction.trim()} className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg hover:bg-slate-800 transition-all flex items-center justify-center gap-3 disabled:opacity-30">
-                {t("buttons.continue")} <ChevronRight size={20} />
+                {(typeof t !== "undefined" ? t : (k) => k)("buttons.continue")} <ChevronRight size={20} />
               </button>
             </motion.div>
           )}
@@ -235,8 +235,8 @@ export default function PredictionVsReality() {
           {screen === 3 && (
             <motion.div key="s3" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} className="bg-white rounded-[2.5rem] p-10 shadow-xl border border-slate-100 space-y-10">
               <div className="text-center space-y-4">
-                <h2 className="text-3xl font-black text-slate-900">{t("screens.s3.title")}</h2>
-                <p className="text-slate-500 font-medium">{t("screens.s3.desc")}</p>
+                <h2 className="text-3xl font-black text-slate-900">{(typeof t !== "undefined" ? t : (k) => k)("screens.s3.title")}</h2>
+                <p className="text-slate-500 font-medium">{(typeof t !== "undefined" ? t : (k) => k)("screens.s3.desc")}</p>
               </div>
               <div className="flex flex-wrap justify-center gap-3">
                 {EMOTIONS.map(e => (
@@ -253,9 +253,9 @@ export default function PredictionVsReality() {
               </div>
               <div className="space-y-4 pt-4">
                 <div className="flex justify-between items-center text-[10px] font-black uppercase tracking-[0.2em] text-slate-300">
-                  <span>{t("intensity_labels.not_intense")}</span>
+                  <span>{(typeof t !== "undefined" ? t : (k) => k)("intensity_labels.not_intense")}</span>
                   <span className="text-slate-900 text-lg">{intensity}</span>
-                  <span>{t("intensity_labels.very_intense")}</span>
+                  <span>{(typeof t !== "undefined" ? t : (k) => k)("intensity_labels.very_intense")}</span>
                 </div>
                 <input
                   type="range"
@@ -267,7 +267,7 @@ export default function PredictionVsReality() {
                 />
               </div>
               <button onClick={() => setScreen(4)} disabled={emotions.length === 0} className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg hover:bg-slate-800 transition-all flex items-center justify-center gap-3 disabled:opacity-30">
-                {t("buttons.continue")} <ChevronRight size={20} />
+                {(typeof t !== "undefined" ? t : (k) => k)("buttons.continue")} <ChevronRight size={20} />
               </button>
             </motion.div>
           )}
@@ -275,36 +275,36 @@ export default function PredictionVsReality() {
           {screen === 4 && (
             <motion.div key="s4" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} className="bg-white rounded-[2.5rem] p-10 shadow-xl border border-slate-100 space-y-8">
               <div className="text-center space-y-4">
-                <h2 className="text-3xl font-black text-slate-900">{t("screens.s4.title")}</h2>
-                <p className="text-slate-500 font-medium">{t("screens.s4.desc")}</p>
+                <h2 className="text-3xl font-black text-slate-900">{(typeof t !== "undefined" ? t : (k) => k)("screens.s4.title")}</h2>
+                <p className="text-slate-500 font-medium">{(typeof t !== "undefined" ? t : (k) => k)("screens.s4.desc")}</p>
               </div>
               <textarea
                 value={reality}
                 onChange={(e) => setReality(e.target.value)}
-                placeholder={t("screens.s4.placeholder")}
+                placeholder={(typeof t !== "undefined" ? t : (k) => k)("screens.s4.placeholder")}
                 className="w-full min-h-[160px] rounded-3xl border-2 border-slate-50 bg-slate-50 p-6 text-lg text-slate-900 focus:outline-none focus:border-primary/30 focus:bg-white transition-all resize-none"
               />
               <button onClick={() => setScreen(5)} disabled={!reality.trim()} className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg hover:bg-slate-800 transition-all flex items-center justify-center gap-3 disabled:opacity-30">
-                {t("buttons.continue")} <ChevronRight size={20} />
+                {(typeof t !== "undefined" ? t : (k) => k)("buttons.continue")} <ChevronRight size={20} />
               </button>
             </motion.div>
           )}
 
           {screen === 5 && (
             <motion.div key="s5" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} className="bg-white rounded-[2.5rem] p-10 shadow-xl border border-slate-100 space-y-8 text-center">
-              <h2 className="text-3xl font-black text-slate-900">{t("screens.s5.title")}</h2>
+              <h2 className="text-3xl font-black text-slate-900">{(typeof t !== "undefined" ? t : (k) => k)("screens.s5.title")}</h2>
               <div className="grid grid-cols-2 gap-6">
                 <div className="p-8 rounded-[2rem] bg-slate-50 space-y-4">
-                  <p className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-300">{t("screens.s5.expectation")}</p>
+                  <p className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-300">{(typeof t !== "undefined" ? t : (k) => k)("screens.s5.expectation")}</p>
                   <p className="text-slate-400 italic">"{prediction}"</p>
                 </div>
                 <div className="p-8 rounded-[2rem] bg-primary/5 border-2 border-primary/20 space-y-4">
-                  <p className="text-[10px] font-black uppercase tracking-[0.2em] text-primary">{t("screens.s5.reality")}</p>
+                  <p className="text-[10px] font-black uppercase tracking-[0.2em] text-primary">{(typeof t !== "undefined" ? t : (k) => k)("screens.s5.reality")}</p>
                   <p className="text-slate-900 font-bold">"{reality}"</p>
                 </div>
               </div>
               <div className="space-y-4">
-                <p className="text-slate-500 font-medium">{t("screens.s5.question")}</p>
+                <p className="text-slate-500 font-medium">{(typeof t !== "undefined" ? t : (k) => k)("screens.s5.question")}</p>
                 <div className="space-y-2">
                   {COMPARISON_OPTIONS.map(opt => (
                     <button
@@ -320,7 +320,7 @@ export default function PredictionVsReality() {
                 </div>
               </div>
               <button onClick={() => setScreen(6)} disabled={!comparison} className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg hover:bg-slate-800 transition-all flex items-center justify-center gap-3 disabled:opacity-30">
-                {t("buttons.continue")} <ChevronRight size={20} />
+                {(typeof t !== "undefined" ? t : (k) => k)("buttons.continue")} <ChevronRight size={20} />
               </button>
             </motion.div>
           )}
@@ -328,17 +328,17 @@ export default function PredictionVsReality() {
           {screen === 6 && (
             <motion.div key="s6" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} className="bg-white rounded-[2.5rem] p-10 shadow-xl border border-slate-100 space-y-8">
               <div className="text-center space-y-4">
-                <h2 className="text-3xl font-black text-slate-900">{t("screens.s6.title")}</h2>
-                <p className="text-slate-500 font-medium">{t("screens.s6.desc")}</p>
+                <h2 className="text-3xl font-black text-slate-900">{(typeof t !== "undefined" ? t : (k) => k)("screens.s6.title")}</h2>
+                <p className="text-slate-500 font-medium">{(typeof t !== "undefined" ? t : (k) => k)("screens.s6.desc")}</p>
               </div>
               <textarea
                 value={reflection}
                 onChange={(e) => setReflection(e.target.value)}
-                placeholder={t("screens.s6.placeholder")}
+                placeholder={(typeof t !== "undefined" ? t : (k) => k)("screens.s6.placeholder")}
                 className="w-full min-h-[160px] rounded-3xl border-2 border-slate-50 bg-slate-50 p-6 text-lg text-slate-900 focus:outline-none focus:border-primary/30 focus:bg-white transition-all resize-none"
               />
               <button onClick={() => setScreen(7)} className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg hover:bg-slate-800 transition-all flex items-center justify-center gap-3">
-                {t("buttons.continue")} <ChevronRight size={20} />
+                {(typeof t !== "undefined" ? t : (k) => k)("buttons.continue")} <ChevronRight size={20} />
               </button>
             </motion.div>
           )}
@@ -346,17 +346,17 @@ export default function PredictionVsReality() {
           {screen === 7 && (
             <motion.div key="s7" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} className="bg-white rounded-[2.5rem] p-10 shadow-xl border border-slate-100 space-y-8">
               <div className="text-center space-y-4">
-                <h2 className="text-3xl font-black text-slate-900">{t("screens.s7.title")}</h2>
-                <p className="text-slate-500 font-medium">{t("screens.s7.desc")}</p>
+                <h2 className="text-3xl font-black text-slate-900">{(typeof t !== "undefined" ? t : (k) => k)("screens.s7.title")}</h2>
+                <p className="text-slate-500 font-medium">{(typeof t !== "undefined" ? t : (k) => k)("screens.s7.desc")}</p>
               </div>
               <textarea
                 value={reframe}
                 onChange={(e) => setReframe(e.target.value)}
-                placeholder={t("screens.s7.placeholder")}
+                placeholder={(typeof t !== "undefined" ? t : (k) => k)("screens.s7.placeholder")}
                 className="w-full min-h-[160px] rounded-3xl border-2 border-slate-50 bg-slate-50 p-6 text-lg text-slate-900 focus:outline-none focus:border-primary/30 focus:bg-white transition-all resize-none"
               />
               <button onClick={() => setScreen(8)} className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg hover:bg-slate-800 transition-all flex items-center justify-center gap-3">
-                {t("buttons.continue")} <ChevronRight size={20} />
+                {(typeof t !== "undefined" ? t : (k) => k)("buttons.continue")} <ChevronRight size={20} />
               </button>
             </motion.div>
           )}
@@ -367,13 +367,13 @@ export default function PredictionVsReality() {
                 <Brain size={40} />
               </div>
               <div className="space-y-4">
-                <h2 className="text-3xl font-black text-slate-900">{t("screens.s8.title")}</h2>
-                <p className="text-lg text-slate-500 font-medium leading-relaxed">{t("screens.s8.desc")}</p>
+                <h2 className="text-3xl font-black text-slate-900">{(typeof t !== "undefined" ? t : (k) => k)("screens.s8.title")}</h2>
+                <p className="text-lg text-slate-500 font-medium leading-relaxed">{(typeof t !== "undefined" ? t : (k) => k)("screens.s8.desc")}</p>
               </div>
               <button onClick={handleSave} className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg hover:bg-slate-800 transition-all flex items-center justify-center gap-3 shadow-2xl shadow-slate-900/20">
-                {t("screens.s8.button")} <Save size={20} />
+                {(typeof t !== "undefined" ? t : (k) => k)("screens.s8.button")} <Save size={20} />
               </button>
-              <button onClick={reset} className="text-slate-400 font-bold uppercase tracking-widest text-xs hover:text-slate-900 transition-colors">{t("screens.s8.discard")}</button>
+              <button onClick={reset} className="text-slate-400 font-bold uppercase tracking-widest text-xs hover:text-slate-900 transition-colors">{(typeof t !== "undefined" ? t : (k) => k)("screens.s8.discard")}</button>
             </motion.div>
           )}
         </AnimatePresence>

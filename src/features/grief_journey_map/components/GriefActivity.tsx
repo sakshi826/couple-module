@@ -15,20 +15,20 @@ const Screen1 = ({ onNext }: { onNext: () => void }) => {
       <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 flex flex-col justify-center text-center min-h-[450px]">
         <div className="w-24 h-24 bg-primary/10 rounded-[2.5rem] flex items-center justify-center mx-auto mb-8 text-6xl animate-bounce-slow">🌊</div>
         <h1 className="text-3xl font-black text-slate-800 mb-4 leading-tight">
-          {t("screen1_title")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screen1_title")}
         </h1>
         <p className="text-slate-600 font-medium leading-relaxed text-base mb-8">
-          {t("screen1_desc")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screen1_desc")}
         </p>
         <div className="bg-sky-50 rounded-2xl p-8 italic text-sky-900 text-base font-bold leading-relaxed border-l-8 border-sky-400">
-          {t("screen1_quote")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screen1_quote")}
         </div>
       </div>
       <button
         onClick={onNext}
         className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
       >
-        {t("btn_tell_more")}
+        {(typeof t !== "undefined" ? t : (k) => k)("btn_tell_more")}
         <ChevronRight size={20} strokeWidth={3} />
       </button>
     </div>
@@ -41,23 +41,23 @@ const GriefGraph = () => {
   return (
     <div className="grid grid-cols-1 gap-6 mt-4">
       <div className="rounded-3xl bg-slate-50 border border-slate-100 p-6">
-        <p className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 mb-4">{t("expectation_label")}</p>
+        <p className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 mb-4">{(typeof t !== "undefined" ? t : (k) => k)("expectation_label")}</p>
         <svg viewBox="0 0 100 40" className="w-full">
           <path d="M10,35 L90,5" fill="none" stroke="#94a3b8" strokeWidth="2" strokeLinecap="round" />
           <circle cx="10" cy="35" r="3" fill="#94a3b8" />
           <circle cx="90" cy="5" r="3" fill="#94a3b8" />
         </svg>
-        <p className="text-[10px] text-slate-500 mt-4 text-center font-black italic tracking-widest uppercase opacity-60">{t("expectation_desc")}</p>
+        <p className="text-[10px] text-slate-500 mt-4 text-center font-black italic tracking-widest uppercase opacity-60">{(typeof t !== "undefined" ? t : (k) => k)("expectation_desc")}</p>
       </div>
 
       <div className="rounded-3xl bg-rose-50 border border-rose-100 p-6">
-        <p className="text-[10px] font-black uppercase tracking-[0.2em] text-rose-400 mb-4">{t("reality_label")}</p>
+        <p className="text-[10px] font-black uppercase tracking-[0.2em] text-rose-400 mb-4">{(typeof t !== "undefined" ? t : (k) => k)("reality_label")}</p>
         <svg viewBox="0 0 100 40" className="w-full">
           <path d="M10,35 C20,5 30,45 40,15 C50,0 60,40 70,10 C80,25 90,5 90,5" fill="none" stroke="#e11d48" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           <circle cx="10" cy="35" r="3" fill="#e11d48" />
           <circle cx="90" cy="5" r="3" fill="#e11d48" />
         </svg>
-        <p className="text-[10px] text-rose-600 mt-4 text-center font-black italic tracking-widest uppercase">{t("reality_desc")}</p>
+        <p className="text-[10px] text-rose-600 mt-4 text-center font-black italic tracking-widest uppercase">{(typeof t !== "undefined" ? t : (k) => k)("reality_desc")}</p>
       </div>
     </div>
   );
@@ -69,22 +69,22 @@ const Screen2 = ({ onNext }: { onNext: () => void }) => {
     <div className="flex flex-1 flex-col gap-8">
       <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 min-h-[450px]">
         <span className="inline-block rounded-full bg-rose-100 text-rose-600 px-4 py-1.5 text-[10px] font-black uppercase tracking-widest mb-6">
-          {t("screen2_tag")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screen2_tag")}
         </span>
-        <h1 className="text-3xl font-black text-slate-800 mb-4">{t("screen2_title")}</h1>
+        <h1 className="text-3xl font-black text-slate-800 mb-4">{(typeof t !== "undefined" ? t : (k) => k)("screen2_title")}</h1>
         <p className="text-slate-600 font-medium text-base mb-8 leading-relaxed">
-          {t("screen2_desc")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screen2_desc")}
         </p>
         <GriefGraph />
         <p className="text-slate-400 text-xs mt-10 text-center italic font-bold leading-relaxed max-w-[250px] mx-auto">
-          {t("screen2_quote")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screen2_quote")}
         </p>
       </div>
       <button
         onClick={onNext}
         className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
       >
-        {t("btn_one_more")}
+        {(typeof t !== "undefined" ? t : (k) => k)("btn_one_more")}
         <ChevronRight size={20} strokeWidth={3} />
       </button>
     </div>
@@ -107,14 +107,14 @@ const TruthCard = ({ emoji, title, body }: { emoji: string; title: string; body:
 
 const Screen3 = ({ onNext }: { onNext: () => void }) => {
   const { t } = useTranslation();
-  const truths = t("truths", { returnObjects: true }) as any[];
+  const truths = (typeof t !== "undefined" ? t : (k) => k)("truths", { returnObjects: true }) as any[];
   return (
     <div className="flex flex-1 flex-col gap-8">
       <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 min-h-[450px]">
         <span className="inline-block rounded-full bg-emerald-100 text-emerald-600 px-4 py-1.5 text-[10px] font-black uppercase tracking-widest mb-6">
-          {t("screen3_tag")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screen3_tag")}
         </span>
-        <h1 className="text-3xl font-black text-slate-800 mb-8">{t("screen3_title")}</h1>
+        <h1 className="text-3xl font-black text-slate-800 mb-8">{(typeof t !== "undefined" ? t : (k) => k)("screen3_title")}</h1>
 
         <div className="space-y-6">
           {Array.isArray(truths) && truths.map((truth, i) => (
@@ -131,7 +131,7 @@ const Screen3 = ({ onNext }: { onNext: () => void }) => {
         onClick={onNext}
         className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
       >
-        {t("btn_finish")}
+        {(typeof t !== "undefined" ? t : (k) => k)("btn_finish")}
         <ChevronRight size={20} strokeWidth={3} />
       </button>
     </div>
@@ -152,8 +152,8 @@ const GriefActivity = () => {
   if (screen === 3) {
     return (
       <PremiumComplete
-        title={t("app_title")}
-        message={t("complete_message")}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+        message={(typeof t !== "undefined" ? t : (k) => k)("complete_message")}
         onRestart={() => setScreen(0)}
       />
     );
@@ -161,8 +161,8 @@ const GriefActivity = () => {
 
   return (
     <PremiumLayout
-      title={t("app_title")}
-      subtitle={t("app_subtitle", { current: screen + 1, total: TOTAL_SCREENS })}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+      subtitle={(typeof t !== "undefined" ? t : (k) => k)("app_subtitle", { current: screen + 1, total: TOTAL_SCREENS })}
       icon={<Compass className="w-6 h-6 text-primary" />}
       onBack={screen > 0 ? () => setScreen(prev => prev - 1) : undefined}
       onReset={screen > 0 ? () => setScreen(0) : undefined}

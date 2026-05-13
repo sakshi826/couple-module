@@ -31,7 +31,7 @@ export default function ShareModal({ isOpen, onClose, originalDataUrl }: ShareMo
 
 
 
-  const shareText = t("share_text");
+  const shareText = (typeof t !== "undefined" ? t : (k) => k)("share_text");
 
   const handleCopy = async () => {
     try {
@@ -92,7 +92,7 @@ export default function ShareModal({ isOpen, onClose, originalDataUrl }: ShareMo
         >
           {/* Header */}
           <div className="flex items-center justify-between p-6 border-b border-border">
-            <h2 className="text-xl font-bold text-foreground">{t("share_your_doodle")}</h2>
+            <h2 className="text-xl font-bold text-foreground">{(typeof t !== "undefined" ? t : (k) => k)("share_your_doodle")}</h2>
             <button
               onClick={onClose}
               className="p-2 rounded-xl bg-muted hover:bg-muted/80 transition-colors"
@@ -107,7 +107,7 @@ export default function ShareModal({ isOpen, onClose, originalDataUrl }: ShareMo
               {isGenerating || !posterUrl ? (
                 <div className="flex flex-col items-center gap-3 text-muted-foreground animate-pulse">
                   <div className="w-10 h-10 rounded-full border-4 border-primary border-t-transparent animate-spin" />
-                  <p className="text-sm font-semibold">{t("generating_poster")}</p>
+                  <p className="text-sm font-semibold">{(typeof t !== "undefined" ? t : (k) => k)("generating_poster")}</p>
                 </div>
               ) : (
                 <img
@@ -126,7 +126,7 @@ export default function ShareModal({ isOpen, onClose, originalDataUrl }: ShareMo
               <button
                 onClick={handleCopy}
                 className="absolute top-4 right-4 p-2 bg-transparent rounded-xl  hover:scale-105 active:scale-95 transition-all text-foreground"
-                title={t("copy_text")}
+                title={(typeof t !== "undefined" ? t : (k) => k)("copy_text")}
               >
                 {copied ? <Check size={18} className="text-green-500" /> : <Copy size={18} />}
               </button>
@@ -140,7 +140,7 @@ export default function ShareModal({ isOpen, onClose, originalDataUrl }: ShareMo
                   disabled={!posterUrl}
                   className="w-full py-3 px-4 rounded-xl font-bold text-primary-foreground bg-primary flex flex-row items-center justify-center gap-2 hover:opacity-90 active:scale-[0.98] transition-all disabled:opacity-50"
                 >
-                  <Share2 size={18} />{t("share_to_social_apps")}</button>
+                  <Share2 size={18} />{(typeof t !== "undefined" ? t : (k) => k)("share_to_social_apps")}</button>
               )}
 
               <button
@@ -148,7 +148,7 @@ export default function ShareModal({ isOpen, onClose, originalDataUrl }: ShareMo
                 disabled={!posterUrl}
                 className="w-full py-3 px-4 rounded-xl font-bold text-foreground bg-card border-2 border-border flex flex-row items-center justify-center gap-2 hover:bg-muted/50 active:scale-[0.98] transition-all disabled:opacity-50"
               >
-                <Download size={18} />{t("download_poster_image")}</button>
+                <Download size={18} />{(typeof t !== "undefined" ? t : (k) => k)("download_poster_image")}</button>
             </div>
           </div>
         </motion.div>

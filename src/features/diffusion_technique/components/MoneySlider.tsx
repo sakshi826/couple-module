@@ -25,7 +25,7 @@ export function MoneySlider({ value, onChange }: MoneySliderProps) {
     <div className="w-full">
       {/* Current value display */}
       <div className="text-center mb-6 relative">
-        <p className="text-sm text-muted-foreground mb-1">{t("current_thought_value")}</p>
+        <p className="text-sm text-muted-foreground mb-1">{(typeof t !== "undefined" ? t : (k) => k)("current_thought_value")}</p>
         <motion.p
           key={value}
           initial={{ scale: 1.3 }}
@@ -74,9 +74,9 @@ export function MoneySlider({ value, onChange }: MoneySliderProps) {
 
       {/* Labels */}
       <div className="flex justify-between text-xs text-muted-foreground/70 mt-1">
-        <span>{t("worthless")}</span>
-        <span>{t("somewhat")}</span>
-        <span>{t("fully_believe")}</span>
+        <span>{(typeof t !== "undefined" ? t : (k) => k)("worthless")}</span>
+        <span>{(typeof t !== "undefined" ? t : (k) => k)("somewhat")}</span>
+        <span>{(typeof t !== "undefined" ? t : (k) => k)("fully_believe")}</span>
       </div>
     </div>
   );

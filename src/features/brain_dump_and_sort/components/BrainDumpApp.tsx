@@ -117,8 +117,8 @@ const BrainDumpApp = () => {
   if (showSaved) {
     return (
       <PremiumLayout
-        title={t("app_title")}
-        subtitle={t("your_mental_clarity_journey")}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+        subtitle={(typeof t !== "undefined" ? t : (k) => k)("your_mental_clarity_journey")}
         icon={<History className="w-6 h-6 text-primary" />}
         onBack={() => setShowSaved(false)}
       >
@@ -136,7 +136,7 @@ const BrainDumpApp = () => {
   if (screen === 5) {
     return (
       <PremiumComplete
-        title={t("app_title")}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
         message="You've successfully sorted your thoughts and identified actionable steps. A clearer mind leads to a calmer heart."
         onRestart={() => goTo(0)}
       />
@@ -161,7 +161,7 @@ const BrainDumpApp = () => {
 
   return (
     <PremiumLayout
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       subtitle={subtitles[screen]}
       icon={<Brain className="w-6 h-6 text-primary" />}
       onBack={screen > 0 ? () => goTo(screen - 1) : undefined}

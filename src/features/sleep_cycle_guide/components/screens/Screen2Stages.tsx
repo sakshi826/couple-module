@@ -7,16 +7,16 @@ const Screen2Stages = ({ onNext }: Props) => {
   const { t } = useTranslation();
   const [open, setOpen] = useState<number | null>(null);
 
-  const stages = t("s2.stages", { returnObjects: true }) as any[];
+  const stages = (typeof t !== "undefined" ? t : (k) => k)("s2.stages", { returnObjects: true }) as any[];
   const bgs = ["#ddeeff", "#dde8ff", "#d8d0ff", "#ead8ff"];
 
   return (
     <div className="flex flex-col h-full px-5 py-2 overflow-y-auto" style={{ scrollbarWidth: "none" }}>
       <h1 className="text-lg font-semibold mb-1" style={{ color: "#1a2a4a" }}>
-        {t("s2.title")}
+        {(typeof t !== "undefined" ? t : (k) => k)("s2.title")}
       </h1>
       <p className="text-xs mb-3" style={{ color: "#3a5070" }}>
-        {t("s2.desc")}
+        {(typeof t !== "undefined" ? t : (k) => k)("s2.desc")}
       </p>
 
       <div className="flex flex-col gap-2 mb-3">
@@ -63,11 +63,11 @@ const Screen2Stages = ({ onNext }: Props) => {
       </div>
 
       <p className="text-xs italic text-center mb-3" style={{ color: "#8a9cbc" }}>
-        {t("s2.italic")}
+        {(typeof t !== "undefined" ? t : (k) => k)("s2.italic")}
       </p>
 
       <button className="sleep-cta mt-auto shrink-0" onClick={onNext}>
-        {t("s2.button")}
+        {(typeof t !== "undefined" ? t : (k) => k)("s2.button")}
       </button>
     </div>
   );

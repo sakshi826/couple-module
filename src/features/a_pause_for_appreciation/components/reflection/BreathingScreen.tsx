@@ -61,9 +61,9 @@ const BreathingScreen = ({ onContinue }: BreathingScreenProps) => {
     <div className="flex flex-col items-center py-6">
       <div className="w-full max-w-lg space-y-8">
         <header className="text-center">
-          <h2 className="text-3xl font-extrabold text-slate-900 mb-2">{t("breathing.title")}</h2>
+          <h2 className="text-3xl font-extrabold text-slate-900 mb-2">{(typeof t !== "undefined" ? t : (k) => k)("breathing.title")}</h2>
           <p className="text-slate-500 text-sm font-medium leading-relaxed">
-            {t("breathing.description")}
+            {(typeof t !== "undefined" ? t : (k) => k)("breathing.description")}
           </p>
         </header>
 
@@ -90,9 +90,9 @@ const BreathingScreen = ({ onContinue }: BreathingScreenProps) => {
                 <div className="absolute inset-0 flex flex-col items-center justify-center">
                   <Wind size={24} className="text-primary mb-2 opacity-20" />
                   <p className="text-lg font-black text-slate-800 uppercase tracking-widest leading-none">
-                    {phase === "inhale" && t("breathing.inhale", { counter }).split(' ')[0]}
-                    {phase === "hold" && t("breathing.hold")}
-                    {phase === "exhale" && t("breathing.exhale", { counter }).split(' ')[0]}
+                    {phase === "inhale" && (typeof t !== "undefined" ? t : (k) => k)("breathing.inhale", { counter }).split(' ')[0]}
+                    {phase === "hold" && (typeof t !== "undefined" ? t : (k) => k)("breathing.hold")}
+                    {phase === "exhale" && (typeof t !== "undefined" ? t : (k) => k)("breathing.exhale", { counter }).split(' ')[0]}
                   </p>
                   <span className="text-sm font-bold text-primary mt-1 tabular-nums">
                     {phase !== "hold" && counter}
@@ -102,7 +102,7 @@ const BreathingScreen = ({ onContinue }: BreathingScreenProps) => {
                 {phase !== "done" && (
                     <div className="absolute -bottom-12">
                         <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">
-                            {t("breathing.instruction")}
+                            {(typeof t !== "undefined" ? t : (k) => k)("breathing.instruction")}
                         </p>
                     </div>
                 )}
@@ -119,7 +119,7 @@ const BreathingScreen = ({ onContinue }: BreathingScreenProps) => {
                     <Sparkles size={32} />
                 </div>
                 <p className="text-xl font-bold text-slate-800 leading-relaxed italic max-w-xs mx-auto">
-                  "{t("breathing.affirmation")}"
+                  "{(typeof t !== "undefined" ? t : (k) => k)("breathing.affirmation")}"
                 </p>
                 
                 <motion.button 
@@ -131,7 +131,7 @@ const BreathingScreen = ({ onContinue }: BreathingScreenProps) => {
                     onClick={onContinue} 
                     className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-bold text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3"
                 >
-                    {t("breathing.continue")}
+                    {(typeof t !== "undefined" ? t : (k) => k)("breathing.continue")}
                     <ArrowRight size={20} />
                 </motion.button>
               </motion.div>

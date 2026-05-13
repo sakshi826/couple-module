@@ -173,7 +173,7 @@ export function TimePage() {
                 <Clock size={20} className="text-white" />
               </div>
               
-              <h1 className="text-xl md:text-2xl text-white">{t("time")}</h1>
+              <h1 className="text-xl md:text-2xl text-white">{(typeof t !== "undefined" ? t : (k) => k)("time")}</h1>
             </div>
             
             {/* Description */}

@@ -29,7 +29,7 @@ const SafePlaceApp: React.FC = () => {
     const imageDataURL = canvasRef.current.toDataURL({ format: 'png', quality: 1 });
     const collage: SavedCollage = {
       id: Date.now().toString(),
-      name: name || t("save.default_name"),
+      name: name || (typeof t !== "undefined" ? t : (k) => k)("save.default_name"),
       reflection,
       imageDataURL,
       date: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }),
@@ -55,8 +55,8 @@ const SafePlaceApp: React.FC = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title")} 
-      subtitle={screen > 0 && screen < 6 ? t("step_label", { current: screen }) : undefined}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")} 
+      subtitle={screen > 0 && screen < 6 ? (typeof t !== "undefined" ? t : (k) => k)("step_label", { current: screen }) : undefined}
       onBack={screen > 0 ? () => setScreen(0) : undefined}
       onReset={screen > 0 ? reset : undefined}
       showBack={screen === 0}

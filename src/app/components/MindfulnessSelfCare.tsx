@@ -142,11 +142,11 @@ export function MindfulnessSelfCare() {
                 </button>
 
                 <div className="flex-1">
-                  <h1 className="text-xl md:text-2xl text-white">{t("mindfulness.title", "Mindfulness Self-Care")}</h1>
+                  <h1 className="text-xl md:text-2xl text-white">{(typeof t !== "undefined" ? t : (k) => k)("mindfulness.title", "Mindfulness Self-Care")}</h1>
                 </div>
               </div>
               <p className="text-xs md:text-sm leading-relaxed text-slate-300 pl-[108px]">
-                {t("mindfulness.subtitle", "Expert mindfulness tools and guided sessions for your wellness journey")}
+                {(typeof t !== "undefined" ? t : (k) => k)("mindfulness.subtitle", "Expert mindfulness tools and guided sessions for your wellness journey")}
               </p>
             </motion.div>
 
@@ -158,12 +158,12 @@ export function MindfulnessSelfCare() {
               transition={{ duration: 0.5, delay: 0.1 }}
             >
               <div className="flex items-center justify-between mb-4">
-                <h2 className="text-lg md:text-xl text-white">{t("mindfulness.featured_mantra", "Featured on Mantra")}</h2>
+                <h2 className="text-lg md:text-xl text-white">{(typeof t !== "undefined" ? t : (k) => k)("mindfulness.featured_mantra", "Featured on Mantra")}</h2>
                 <button 
                   onClick={() => navigate('/see-all/featured-on-mantra')}
                   className="text-xs text-slate-400 hover:text-white transition-colors"
                 >
-                  {t("common.see_all", "See All")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("common.see_all", "See All")}
                 </button>
               </div>
               
@@ -207,7 +207,7 @@ export function MindfulnessSelfCare() {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <div className="mb-4">
-                <h2 className="text-lg md:text-xl text-white">{t("mindfulness.browse_category", "Browse by Category")}</h2>
+                <h2 className="text-lg md:text-xl text-white">{(typeof t !== "undefined" ? t : (k) => k)("mindfulness.browse_category", "Browse by Category")}</h2>
               </div>
               
               <div className="flex gap-2 md:gap-3 overflow-x-auto pb-2 scrollbar-hide">
@@ -240,12 +240,12 @@ export function MindfulnessSelfCare() {
               transition={{ duration: 0.5, delay: 0.25 }}
             >
               <div className="flex items-center justify-between mb-4">
-                <h2 className="text-lg md:text-xl text-white">{t("mindfulness.new_noteworthy", "New & Noteworthy")}</h2>
+                <h2 className="text-lg md:text-xl text-white">{(typeof t !== "undefined" ? t : (k) => k)("mindfulness.new_noteworthy", "New & Noteworthy")}</h2>
                 <button 
                   onClick={() => navigate('/see-all/new-and-noteworthy')}
                   className="text-xs text-slate-400 hover:text-white transition-colors"
                 >
-                  {t("common.see_all", "See All")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("common.see_all", "See All")}
                 </button>
               </div>
               
@@ -289,12 +289,12 @@ export function MindfulnessSelfCare() {
               transition={{ duration: 0.5, delay: 0.3 }}
             >
               <div className="flex items-center justify-between mb-4">
-                <h2 className="text-lg md:text-xl text-white">{t("mindfulness.browse_goal", "Browse by Goal")}</h2>
+                <h2 className="text-lg md:text-xl text-white">{(typeof t !== "undefined" ? t : (k) => k)("mindfulness.browse_goal", "Browse by Goal")}</h2>
                 <button 
                   onClick={() => navigate('/see-all/browse-by-goal')}
                   className="text-xs text-slate-400 hover:text-white transition-colors"
                 >
-                  {t("common.see_all", "See All")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("common.see_all", "See All")}
                 </button>
               </div>
               
@@ -335,7 +335,7 @@ export function MindfulnessSelfCare() {
               transition={{ duration: 0.5, delay: 0.35 }}
             >
               <div className="mb-4">
-                <h2 className="text-lg md:text-xl text-white">{t("mindfulness.browse_time", "Browse by Time")}</h2>
+                <h2 className="text-lg md:text-xl text-white">{(typeof t !== "undefined" ? t : (k) => k)("mindfulness.browse_time", "Browse by Time")}</h2>
               </div>
               
               <div className="flex gap-2 md:gap-3">
@@ -380,8 +380,8 @@ export function MindfulnessSelfCare() {
                     <WiHorizonAlt className="text-white" size={32} />
                   </div>
                   <div className="text-left">
-                    <h4 className="text-base font-semibold text-white">{t("mindfulness.daily_program", "Find a daily program")}</h4>
-                    <p className="text-xs mt-1 text-slate-300 font-medium">{t("mindfulness.daily_program_desc", "Mind your intentions for each program")}</p>
+                    <h4 className="text-base font-semibold text-white">{(typeof t !== "undefined" ? t : (k) => k)("mindfulness.daily_program", "Find a daily program")}</h4>
+                    <p className="text-xs mt-1 text-slate-300 font-medium">{(typeof t !== "undefined" ? t : (k) => k)("mindfulness.daily_program_desc", "Mind your intentions for each program")}</p>
                   </div>
                 </div>
                 <div className="relative z-10 w-10 h-10 bg-white/10 backdrop-blur-sm rounded-[14px] flex items-center justify-center shadow-sm">
@@ -398,12 +398,12 @@ export function MindfulnessSelfCare() {
               transition={{ duration: 0.5, delay: 0.45 }}
             >
               <div className="flex items-center justify-between mb-4">
-                <h2 className="text-lg md:text-xl text-white">{t("mindfulness.featured_collections", "Featured Collections")}</h2>
+                <h2 className="text-lg md:text-xl text-white">{(typeof t !== "undefined" ? t : (k) => k)("mindfulness.featured_collections", "Featured Collections")}</h2>
                 <button 
                   onClick={() => navigate('/see-all/featured-collections')}
                   className="text-xs text-slate-400 hover:text-white transition-colors"
                 >
-                  {t("common.see_all", "See All")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("common.see_all", "See All")}
                 </button>
               </div>
               

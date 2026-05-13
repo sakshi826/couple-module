@@ -13,12 +13,12 @@ const IntroScreen = ({ onStart, onHistory }: Props) => {
 
   return (
     <PremiumIntro
-      title={t("app_title")}
-      description={t("app_description")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+      description={(typeof t !== "undefined" ? t : (k) => k)("app_description")}
       onStart={onStart}
       icon={<Sparkles size={32} />}
-      benefits={[t('intro_p1'), t('intro_p2'), t('intro_p3')]}
-      duration={t('app_duration', "1-2 minutes")}
+      benefits={[(typeof t !== "undefined" ? t : (k) => k)('intro_p1'), (typeof t !== "undefined" ? t : (k) => k)('intro_p2'), (typeof t !== "undefined" ? t : (k) => k)('intro_p3')]}
+      duration={(typeof t !== "undefined" ? t : (k) => k)('app_duration', "1-2 minutes")}
     >
       <div className="mt-8 text-center">
         <motion.button
@@ -28,7 +28,7 @@ const IntroScreen = ({ onStart, onHistory }: Props) => {
           className="inline-flex items-center gap-2 text-slate-500 hover:text-primary font-bold text-sm transition-colors"
         >
           <History size={18} />
-          {t("viewHistory")}
+          {(typeof t !== "undefined" ? t : (k) => k)("viewHistory")}
         </motion.button>
       </div>
     </PremiumIntro>

@@ -12,7 +12,7 @@ const StorySelectionScreen: FC<StorySelectionScreenProps> = ({ onSelect }) => {
   return (
     <main className=" px-6 py-10 text-left">
       <h2 className="font-heading text-2xl text-foreground mb-8 opacity-0 animate-fade-in-up">
-        {t('chooseStory')}
+        {(typeof t !== "undefined" ? t : (k) => k)('chooseStory')}
       </h2>
 
       <div className="flex flex-col gap-4">
@@ -32,10 +32,10 @@ const StorySelectionScreen: FC<StorySelectionScreenProps> = ({ onSelect }) => {
             `}
           >
             <p className="font-body font-semibold text-base text-foreground">
-              {t(`stories.${index}.name`)}, {story.age}
+              {(typeof t !== "undefined" ? t : (k) => k)(`stories.${index}.name`)}, {story.age}
             </p>
             <p className="mt-2 font-body text-sm text-primary italic leading-relaxed">
-              "{t(`stories.${index}.quote`)}"
+              "{(typeof t !== "undefined" ? t : (k) => k)(`stories.${index}.quote`)}"
             </p>
           </button>
         ))}

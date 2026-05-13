@@ -14,19 +14,19 @@ export default function Index() {
         <header className="space-y-4">
           <div className="flex items-center gap-2 text-primary font-black text-[10px] uppercase tracking-[0.2em]">
             <Sparkles size={14} />
-            {t("notAlone")}
+            {(typeof t !== "undefined" ? t : (k) => k)("notAlone")}
           </div>
           <h1 className="text-4xl font-black text-slate-900 leading-tight tracking-tight">
-            {t("supportForLowMood")}
+            {(typeof t !== "undefined" ? t : (k) => k)("supportForLowMood")}
           </h1>
           <p className="text-slate-500 text-base font-bold leading-relaxed max-w-md">
-            {t("gentleSteps")}
+            {(typeof t !== "undefined" ? t : (k) => k)("gentleSteps")}
           </p>
         </header>
 
         <div className="space-y-6">
           <h2 className="text-xs font-black text-slate-400 uppercase tracking-[0.2em] px-2">
-            {t("dailySupportTips")}
+            {(typeof t !== "undefined" ? t : (k) => k)("dailySupportTips")}
           </h2>
           
           <div className="grid gap-4">
@@ -37,7 +37,7 @@ export default function Index() {
         </div>
 
         <p className="text-center text-slate-300 text-[10px] font-black uppercase tracking-[0.2em] mt-16 px-12 leading-relaxed opacity-60">
-          {t("strugglingMessage")}
+          {(typeof t !== "undefined" ? t : (k) => k)("strugglingMessage")}
         </p>
       </div>
     </PremiumLayout>

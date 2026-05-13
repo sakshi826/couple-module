@@ -18,19 +18,19 @@ const ReflectionScreen = ({ data, onChange, onNext }: ReflectionScreenProps) => 
     <ScreenWrapper screenKey="reflection">
       <div className="flex-1 space-y-8">
         <h1 className="text-[22px] font-heading text-foreground text-center">
-          {t('reflection_title')}
+          {(typeof t !== "undefined" ? t : (k) => k)('reflection_title')}
         </h1>
 
         <ReflectionInput
-          label={t('reflection_being_label')}
-          placeholder={t('reflection_being_placeholder')}
+          label={(typeof t !== "undefined" ? t : (k) => k)('reflection_being_label')}
+          placeholder={(typeof t !== "undefined" ? t : (k) => k)('reflection_being_placeholder')}
           value={data.beingSomeoneWho}
           onChange={(e) => onChange({ beingSomeoneWho: e.target.value })}
         />
 
         <ReflectionInput
-          label={t('reflection_life_label')}
-          placeholder={t('reflection_life_placeholder')}
+          label={(typeof t !== "undefined" ? t : (k) => k)('reflection_life_label')}
+          placeholder={(typeof t !== "undefined" ? t : (k) => k)('reflection_life_placeholder')}
           value={data.lifeFeelMore}
           onChange={(e) => onChange({ lifeFeelMore: e.target.value })}
         />
@@ -38,7 +38,7 @@ const ReflectionScreen = ({ data, onChange, onNext }: ReflectionScreenProps) => 
 
       <div className="pt-8 pb-4">
         <MissionButton onClick={onNext} disabled={!canProceed}>
-          {t('reflection_create')}
+          {(typeof t !== "undefined" ? t : (k) => k)('reflection_create')}
         </MissionButton>
       </div>
     </ScreenWrapper>

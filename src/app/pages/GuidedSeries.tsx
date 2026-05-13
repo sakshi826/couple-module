@@ -84,7 +84,7 @@ export default function GuidedSeries() {
         >
           <ChevronLeft size={20} className="text-slate-600" />
         </button>
-        <h1 className="text-lg font-semibold text-slate-800">{t("hub.guided_series")}</h1>
+        <h1 className="text-lg font-semibold text-slate-800">{(typeof t !== "undefined" ? t : (k) => k)("hub.guided_series")}</h1>
       </div>
 
       <motion.div 

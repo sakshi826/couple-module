@@ -12,8 +12,8 @@ const AffirmationScreen = ({ onGoHome }: Props) => {
   const { t } = useTranslation();
     return (
         <PremiumComplete
-            title={t("app_title")}
-            message={t('affirmation.p1')}
+            title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+            message={(typeof t !== "undefined" ? t : (k) => k)('affirmation.p1')}
             onRestart={onGoHome}
             icon={<Heart size={48} fill="currentColor" className="text-primary" />}
         >
@@ -25,7 +25,7 @@ const AffirmationScreen = ({ onGoHome }: Props) => {
             >
                 <Sparkles size={24} className="mx-auto mb-4 text-primary" />
                 <p className="text-lg font-bold italic leading-relaxed">
-                    {t('affirmation.p2')}
+                    {(typeof t !== "undefined" ? t : (k) => k)('affirmation.p2')}
                 </p>
             </motion.div>
         </PremiumComplete>

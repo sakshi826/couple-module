@@ -48,14 +48,14 @@ const ExpressionScreen = ({ category, name, memoryText, setMemoryText, message, 
           {info.emoji}
         </motion.div>
 
-        <h2 className="text-2xl font-heading font-semibold text-foreground">{t("take_your_time")}</h2>
+        <h2 className="text-2xl font-heading font-semibold text-foreground">{(typeof t !== "undefined" ? t : (k) => k)("take_your_time")}</h2>
 
         <p className="text-muted-foreground font-body text-sm">{prompt}</p>
 
         <textarea
           value={memoryText}
           onChange={(e) => setMemoryText(e.target.value)}
-          placeholder={t("write_as_much_or_as_little_as_you_want")}
+          placeholder={(typeof t !== "undefined" ? t : (k) => k)("write_as_much_or_as_little_as_you_want")}
           rows={5}
           className="w-full bg-card border border-border rounded-xl px-4 py-3.5 font-body text-foreground text-sm placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary/40 resize-none transition-all leading-relaxed"
         />
@@ -65,7 +65,7 @@ const ExpressionScreen = ({ category, name, memoryText, setMemoryText, message, 
           <textarea
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            placeholder={t("if_there_s_something_you_d_like_to_say")}
+            placeholder={(typeof t !== "undefined" ? t : (k) => k)("if_there_s_something_you_d_like_to_say")}
             rows={3}
             className="w-full bg-card border border-border rounded-xl px-4 py-3 font-body text-foreground text-sm placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary/40 resize-none transition-all leading-relaxed"
           />
@@ -77,11 +77,11 @@ const ExpressionScreen = ({ category, name, memoryText, setMemoryText, message, 
             onClick={onSave}
             disabled={!memoryText.trim()}
             className="w-full py-3.5 rounded-xl bg-primary text-primary-foreground font-body font-semibold text-base shadow-sm hover:shadow-md transition-all duration-300 disabled:opacity-40 disabled:cursor-not-allowed"
-          >{t("save_to_memory_box")}</motion.button>
+          >{(typeof t !== "undefined" ? t : (k) => k)("save_to_memory_box")}</motion.button>
           <button
             onClick={onSkip}
             className="w-full py-3 text-muted-foreground font-body text-sm hover:text-foreground transition-colors duration-300"
-          >{t("expression.skip")}</button>
+          >{(typeof t !== "undefined" ? t : (k) => k)("expression.skip")}</button>
         </div>
       </div>
     </ScreenWrapper>

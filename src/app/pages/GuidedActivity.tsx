@@ -89,25 +89,25 @@ export default function GuidedActivity() {
         return (
           <div className="space-y-5">
             <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100">
-              <label className="text-[13px] font-bold text-slate-400 uppercase mb-2 block">{t("the_situation")}</label>
-              <input type="text" placeholder={t("what_happened")} className="w-full bg-transparent outline-none text-slate-700 font-medium" 
+              <label className="text-[13px] font-bold text-slate-400 uppercase mb-2 block">{(typeof t !== "undefined" ? t : (k) => k)("the_situation")}</label>
+              <input type="text" placeholder={(typeof t !== "undefined" ? t : (k) => k)("what_happened")} className="w-full bg-transparent outline-none text-slate-700 font-medium" 
                 onChange={(e) => setFormData({...formData, situation: e.target.value})} />
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100">
-                <label className="text-[13px] font-bold text-slate-400 uppercase mb-2 block">{t("emotion")}</label>
-                <input type="text" placeholder={t("e_g_anxiety")} className="w-full bg-transparent outline-none text-slate-700 font-medium"
+                <label className="text-[13px] font-bold text-slate-400 uppercase mb-2 block">{(typeof t !== "undefined" ? t : (k) => k)("emotion")}</label>
+                <input type="text" placeholder={(typeof t !== "undefined" ? t : (k) => k)("e_g_anxiety")} className="w-full bg-transparent outline-none text-slate-700 font-medium"
                   onChange={(e) => setFormData({...formData, emotion: e.target.value})} />
               </div>
               <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100">
-                <label className="text-[13px] font-bold text-slate-400 uppercase mb-2 block">{t("intensity")}</label>
-                <input type="number" placeholder={t("1_10")} className="w-full bg-transparent outline-none text-slate-700 font-medium"
+                <label className="text-[13px] font-bold text-slate-400 uppercase mb-2 block">{(typeof t !== "undefined" ? t : (k) => k)("intensity")}</label>
+                <input type="number" placeholder={(typeof t !== "undefined" ? t : (k) => k)("1_10")} className="w-full bg-transparent outline-none text-slate-700 font-medium"
                   onChange={(e) => setFormData({...formData, intensity: e.target.value})} />
               </div>
             </div>
             <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100">
-              <label className="text-[13px] font-bold text-slate-400 uppercase mb-2 block">{t("automatic_thought")}</label>
-              <textarea placeholder={t("what_was_your_mind_telling_you")} className="w-full bg-transparent outline-none text-slate-700 font-medium h-20 resize-none"
+              <label className="text-[13px] font-bold text-slate-400 uppercase mb-2 block">{(typeof t !== "undefined" ? t : (k) => k)("automatic_thought")}</label>
+              <textarea placeholder={(typeof t !== "undefined" ? t : (k) => k)("what_was_your_mind_telling_you")} className="w-full bg-transparent outline-none text-slate-700 font-medium h-20 resize-none"
                 onChange={(e) => setFormData({...formData, thought: e.target.value})} />
             </div>
           </div>
@@ -117,14 +117,14 @@ export default function GuidedActivity() {
           <div className="space-y-4">
             <div className="p-6 bg-red-50/50 rounded-3xl border border-red-100">
               <h4 className="text-red-800 font-bold mb-3 flex items-center gap-2">
-                <X size={16} />{t("negative_thought")}</h4>
-              <textarea placeholder={t("the_original_thought")} className="w-full bg-white/60 p-4 rounded-xl border border-red-100 outline-none h-20 resize-none"
+                <X size={16} />{(typeof t !== "undefined" ? t : (k) => k)("negative_thought")}</h4>
+              <textarea placeholder={(typeof t !== "undefined" ? t : (k) => k)("the_original_thought")} className="w-full bg-white/60 p-4 rounded-xl border border-red-100 outline-none h-20 resize-none"
                 onChange={(e) => setFormData({...formData, negative: e.target.value})} />
             </div>
             <div className="p-6 bg-green-50/50 rounded-3xl border border-green-100">
               <h4 className="text-green-800 font-bold mb-3 flex items-center gap-2">
-                <Plus size={16} />{t("empowered_reframe")}</h4>
-              <textarea placeholder={t("the_more_balanced_view")} className="w-full bg-white/60 p-4 rounded-xl border border-green-100 outline-none h-20 resize-none"
+                <Plus size={16} />{(typeof t !== "undefined" ? t : (k) => k)("empowered_reframe")}</h4>
+              <textarea placeholder={(typeof t !== "undefined" ? t : (k) => k)("the_more_balanced_view")} className="w-full bg-white/60 p-4 rounded-xl border border-green-100 outline-none h-20 resize-none"
                 onChange={(e) => setFormData({...formData, positive: e.target.value})} />
             </div>
           </div>
@@ -136,7 +136,7 @@ export default function GuidedActivity() {
         
         return (
           <div className="space-y-3">
-            <p className="text-slate-500 text-sm mb-4">{t("select_all_that_apply_to_you_currently")}</p>
+            <p className="text-slate-500 text-sm mb-4">{(typeof t !== "undefined" ? t : (k) => k)("select_all_that_apply_to_you_currently")}</p>
             {options.map((opt) => (
               <button 
                 key={opt}
@@ -161,7 +161,7 @@ export default function GuidedActivity() {
         return (
           <div className="space-y-6">
             <div className="text-center py-4">
-              <p className="text-slate-400 font-bold text-xs uppercase tracking-widest mb-6">{t("intensity_level")}</p>
+              <p className="text-slate-400 font-bold text-xs uppercase tracking-widest mb-6">{(typeof t !== "undefined" ? t : (k) => k)("intensity_level")}</p>
               <div className="flex justify-between max-w-sm mx-auto">
                 {[1, 2, 3, 4, 5].map((num) => (
                   <button
@@ -178,8 +178,8 @@ export default function GuidedActivity() {
                 ))}
               </div>
               <div className="flex justify-between max-w-sm mx-auto mt-2 px-1">
-                <span className="text-[10px] font-bold text-slate-300">{t("low")}</span>
-                <span className="text-[10px] font-bold text-slate-300">{t("high")}</span>
+                <span className="text-[10px] font-bold text-slate-300">{(typeof t !== "undefined" ? t : (k) => k)("low")}</span>
+                <span className="text-[10px] font-bold text-slate-300">{(typeof t !== "undefined" ? t : (k) => k)("high")}</span>
               </div>
             </div>
             <textarea 
@@ -188,7 +188,7 @@ export default function GuidedActivity() {
                 setReflection(e.target.value);
                 setFormData({...formData, note: e.target.value});
               }}
-              placeholder={t("start_typing_your_reflection_here")} 
+              placeholder={(typeof t !== "undefined" ? t : (k) => k)("start_typing_your_reflection_here")} 
               className="w-full p-6 bg-slate-50 border border-slate-100 rounded-3xl outline-none h-40 resize-none text-slate-700"
             />
           </div>
@@ -199,7 +199,7 @@ export default function GuidedActivity() {
             <textarea
               value={reflection}
               onChange={(e) => setReflection(e.target.value)}
-              placeholder={t("start_typing_your_reflection_here")}
+              placeholder={(typeof t !== "undefined" ? t : (k) => k)("start_typing_your_reflection_here")}
               className="w-full h-64 p-8 bg-[#F8FAFC] border border-slate-100 rounded-[32px] focus:ring-4 focus:ring-blue-100/50 focus:border-blue-400 transition-all resize-none text-slate-700 text-lg placeholder:text-slate-300 leading-relaxed"
             />
           </div>
@@ -218,7 +218,7 @@ export default function GuidedActivity() {
           >
             <ChevronLeft size={20} className="text-slate-600" />
           </button>
-          <h1 className="text-lg font-bold text-slate-800 truncate max-w-[200px]">{t("hub.guided_series")}</h1>
+          <h1 className="text-lg font-bold text-slate-800 truncate max-w-[200px]">{(typeof t !== "undefined" ? t : (k) => k)("hub.guided_series")}</h1>
         </div>
         <button 
           onClick={() => setShowHistory(!showHistory)}
@@ -236,7 +236,7 @@ export default function GuidedActivity() {
         >
           <div className="mb-10">
             <h2 className="text-3xl font-black text-slate-900 mb-4 tracking-tight leading-tight">{decodedName}</h2>
-            <p className="text-slate-400 leading-relaxed font-medium text-[16px]">{t("take_a_moment_to_reflect_on_this_activity_use_the_")}</p>
+            <p className="text-slate-400 leading-relaxed font-medium text-[16px]">{(typeof t !== "undefined" ? t : (k) => k)("take_a_moment_to_reflect_on_this_activity_use_the_")}</p>
           </div>
 
           <div className="relative">
@@ -254,8 +254,8 @@ export default function GuidedActivity() {
                     <div className="w-24 h-24 bg-green-50 rounded-full flex items-center justify-center mx-auto mb-6">
                       <CheckCircle2 size={48} className="text-green-500" />
                     </div>
-                    <h3 className="text-2xl font-black text-slate-900">{t("entry_saved")}</h3>
-                    <p className="text-slate-400 mt-2 font-medium">{t("your_progress_is_safely_recorded")}</p>
+                    <h3 className="text-2xl font-black text-slate-900">{(typeof t !== "undefined" ? t : (k) => k)("entry_saved")}</h3>
+                    <p className="text-slate-400 mt-2 font-medium">{(typeof t !== "undefined" ? t : (k) => k)("your_progress_is_safely_recorded")}</p>
                   </div>
                 </motion.div>
               )}
@@ -275,7 +275,7 @@ export default function GuidedActivity() {
               <Loader size={24} color="#ffffff" />
             ) : (
               <>
-                <Send size={20} className="opacity-70" />{t("save_reflection")}</>
+                <Send size={20} className="opacity-70" />{(typeof t !== "undefined" ? t : (k) => k)("save_reflection")}</>
             )}
           </button>
         </motion.div>
@@ -288,7 +288,7 @@ export default function GuidedActivity() {
               animate={{ opacity: 1, y: 0 }}
               className="mt-12"
             >
-              <h3 className="text-[11px] font-black text-slate-400 uppercase tracking-[0.2em] mb-6 px-4">{t("previous_records")}</h3>
+              <h3 className="text-[11px] font-black text-slate-400 uppercase tracking-[0.2em] mb-6 px-4">{(typeof t !== "undefined" ? t : (k) => k)("previous_records")}</h3>
               
               {history.length > 0 ? (
                 <div className="space-y-4">
@@ -312,7 +312,7 @@ export default function GuidedActivity() {
                 </div>
               ) : (
                 <div className="bg-slate-100/30 rounded-[32px] p-12 text-center border border-dashed border-slate-200">
-                  <p className="text-slate-400 text-sm font-bold">{t("no_history_available_yet")}</p>
+                  <p className="text-slate-400 text-sm font-bold">{(typeof t !== "undefined" ? t : (k) => k)("no_history_available_yet")}</p>
                 </div>
               )}
             </motion.div>

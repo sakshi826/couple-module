@@ -10,7 +10,7 @@ interface IntroScreenProps {
 
 const IntroScreen = ({ step, onStart, onHistory }: IntroScreenProps) => {
   const { t } = useTranslation();
-  const description = t("intro.description", { returnObjects: true }) as string[];
+  const description = (typeof t !== "undefined" ? t : (k) => k)("intro.description", { returnObjects: true }) as string[];
 
   return (
     <div className="flex flex-col flex-1 px-6 py-8">
@@ -36,7 +36,7 @@ const IntroScreen = ({ step, onStart, onHistory }: IntroScreenProps) => {
         </div>
 
         <h1 className="text-2xl font-semibold text-foreground mb-6 leading-tight">
-          {t("intro.title")}
+          {(typeof t !== "undefined" ? t : (k) => k)("intro.title")}
         </h1>
 
         <div className="space-y-4 text-muted-foreground leading-relaxed text-[15px] max-w-sm">
@@ -46,7 +46,7 @@ const IntroScreen = ({ step, onStart, onHistory }: IntroScreenProps) => {
         </div>
 
         <p className="text-micro mt-8 italic">
-          {t("intro.notice")}
+          {(typeof t !== "undefined" ? t : (k) => k)("intro.notice")}
         </p>
       </div>
 
@@ -55,7 +55,7 @@ const IntroScreen = ({ step, onStart, onHistory }: IntroScreenProps) => {
         onClick={onStart}
         className="w-full py-4 rounded-2xl bg-primary text-primary-foreground font-medium text-base hover:opacity-90 transition-opacity mt-8"
       >
-        {t("intro.button")}
+        {(typeof t !== "undefined" ? t : (k) => k)("intro.button")}
       </button>
     </div>
   );

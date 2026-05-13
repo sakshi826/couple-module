@@ -93,7 +93,7 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={currentIdx > 0 && screen !== 'closing' ? () => setScreen(screenOrder[currentIdx - 1]) : undefined}
       onReset={currentIdx > 0 && screen !== 'closing' ? resetFlow : undefined}
@@ -122,16 +122,16 @@ const Index = () => {
                 className="w-full flex-1 flex flex-col"
               >
                 <PremiumIntro
-                  title={t("app_title")}
-                  description={t("app_description")}
+                  title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+                  description={(typeof t !== "undefined" ? t : (k) => k)("app_description")}
                   onStart={() => setScreen("gratitude")}
                   icon={<Heart size={32} />}
                   benefits={[
-                    t('intro_text_1'),
-                    t('intro_text_2'),
-                    t('intro_text_3')
+                    (typeof t !== "undefined" ? t : (k) => k)('intro_text_1'),
+                    (typeof t !== "undefined" ? t : (k) => k)('intro_text_2'),
+                    (typeof t !== "undefined" ? t : (k) => k)('intro_text_3')
                   ]}
-                  duration={t('app_duration', "3-5 minutes")}
+                  duration={(typeof t !== "undefined" ? t : (k) => k)('app_duration', "3-5 minutes")}
                 >
                   <div className="mt-10 flex justify-center">
                       <motion.button
@@ -140,7 +140,7 @@ const Index = () => {
                           onClick={() => setScreen("past")}
                           className="flex items-center gap-3 text-slate-400 hover:text-primary font-black text-xs uppercase tracking-[0.2em] transition-all bg-slate-50 px-6 py-3 rounded-2xl border border-slate-100 shadow-sm"
                       >
-                          <Book size={18} />{t("view_past")}</motion.button>
+                          <Book size={18} />{(typeof t !== "undefined" ? t : (k) => k)("view_past")}</motion.button>
                   </div>
                 </PremiumIntro>
               </motion.div>
@@ -188,8 +188,8 @@ const Index = () => {
                 className="w-full flex-1 flex flex-col"
               >
                 <PremiumComplete
-                  title={t("app_title")}
-                  message={t("app_complete_message")}
+                  title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+                  message={(typeof t !== "undefined" ? t : (k) => k)("app_complete_message")}
                   onRestart={resetFlow}
                   icon={<Sparkles size={48} />}
                 >
@@ -200,7 +200,7 @@ const Index = () => {
                             onClick={() => setScreen("past")}
                             className="px-10 py-5 bg-white border-2 border-slate-100 text-slate-400 font-black text-sm uppercase tracking-widest rounded-[2rem] shadow-xl shadow-slate-200/50 hover:text-slate-900 hover:border-slate-200 transition-all flex items-center gap-3"
                         >
-                            <Book size={18} />{t("view_history")}</motion.button>
+                            <Book size={18} />{(typeof t !== "undefined" ? t : (k) => k)("view_history")}</motion.button>
                     </div>
                 </PremiumComplete>
               </motion.div>

@@ -42,7 +42,7 @@ const CircleScreen = ({ names, onNamesChange }: CircleScreenProps) => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const [inputValue, setInputValue] = useState("");
 
-  const PROMPTS = t("circle.prompts", { returnObjects: true }) as string[];
+  const PROMPTS = (typeof t !== "undefined" ? t : (k) => k)("circle.prompts", { returnObjects: true }) as string[];
 
   const handleBubbleTap = useCallback(
     (index: number) => {
@@ -68,8 +68,8 @@ const CircleScreen = ({ names, onNamesChange }: CircleScreenProps) => {
 
   return (
     <PremiumLayout
-      title={t("app_title")}
-      subtitle={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+      subtitle={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       icon={<Users className="w-6 h-6 text-primary" />}
       onBack={() => navigate("../intro", { replace: true })}
     >
@@ -78,17 +78,17 @@ const CircleScreen = ({ names, onNamesChange }: CircleScreenProps) => {
         <div className="mt-4"><ProgressDots current={2} /></div>
 
         <h2 className="text-xl font-semibold text-foreground mt-6 mb-2 text-center">
-          {t("circle.title")}
+          {(typeof t !== "undefined" ? t : (k) => k)("circle.title")}
         </h2>
         <p className="text-sm text-muted-foreground text-center max-w-xs mb-2">
-          {t("circle.desc")}
+          {(typeof t !== "undefined" ? t : (k) => k)("circle.desc")}
         </p>
 
         {/* Instruction bar */}
         <div className="bg-white/80 backdrop-blur-sm rounded-2xl px-4 py-2.5 flex items-center gap-2 max-w-xs mb-6 border border-slate-100 shadow-sm">
           <Info className="w-4 h-4 text-primary flex-shrink-0" />
           <span className="text-xs text-muted-foreground">
-            {t("circle.instruction")}
+            {(typeof t !== "undefined" ? t : (k) => k)("circle.instruction")}
           </span>
         </div>
 
@@ -96,7 +96,7 @@ const CircleScreen = ({ names, onNamesChange }: CircleScreenProps) => {
         <div className="relative w-72 h-72 mx-auto mt-4">
           {/* Center node */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-primary shadow-lg shadow-primary/30 flex items-center justify-center z-10">
-            <span className="text-sm font-semibold text-primary-foreground">{t("circle.center_node")}</span>
+            <span className="text-sm font-semibold text-primary-foreground">{(typeof t !== "undefined" ? t : (k) => k)("circle.center_node")}</span>
           </div>
 
           {/* Floating bubbles */}
@@ -140,14 +140,14 @@ const CircleScreen = ({ names, onNamesChange }: CircleScreenProps) => {
         </div>
 
         <p className="text-xs text-muted-foreground mt-6 italic text-center">
-          {t("circle.italic")}
+          {(typeof t !== "undefined" ? t : (k) => k)("circle.italic")}
         </p>
 
         <button
           onClick={() => navigate("../reflection", { replace: true })}
           className="mt-8 bg-primary text-primary-foreground font-semibold px-12 py-4 rounded-2xl shadow-lg shadow-primary/20 hover:shadow-xl hover:scale-[1.02] transition-all"
         >
-          {t("circle.button")}
+          {(typeof t !== "undefined" ? t : (k) => k)("circle.button")}
         </button>
       </div>
 
@@ -171,7 +171,7 @@ const CircleScreen = ({ names, onNamesChange }: CircleScreenProps) => {
             >
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-base font-bold text-slate-800">
-                  {BUBBLE_EMOJIS[activeIndex]} {t("circle.modal.title")}
+                  {BUBBLE_EMOJIS[activeIndex]} {(typeof t !== "undefined" ? t : (k) => k)("circle.modal.title")}
                 </h3>
                 <button
                   onClick={() => setActiveIndex(null)}
@@ -188,7 +188,7 @@ const CircleScreen = ({ names, onNamesChange }: CircleScreenProps) => {
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
                 onKeyDown={(e) => e.key === "Enter" && handleSave()}
-                placeholder={t("circle.modal.placeholder")}
+                placeholder={(typeof t !== "undefined" ? t : (k) => k)("circle.modal.placeholder")}
                 autoFocus
                 className="w-full bg-slate-50 border-2 border-transparent rounded-2xl px-6 py-4 text-base text-slate-700 placeholder:text-slate-400 outline-none focus:bg-white focus:border-primary/20 transition-all"
               />
@@ -196,7 +196,7 @@ const CircleScreen = ({ names, onNamesChange }: CircleScreenProps) => {
                 onClick={handleSave}
                 className="mt-6 w-full bg-primary text-white font-bold py-4 rounded-2xl shadow-lg shadow-primary/20 hover:opacity-90 transition-opacity"
               >
-                {t("circle.modal.button")}
+                {(typeof t !== "undefined" ? t : (k) => k)("circle.modal.button")}
               </button>
             </motion.div>
           </motion.div>

@@ -32,7 +32,7 @@ const IntroScreen = ({ onNext }: IntroScreenProps) => {
         transition={{ delay: 0.3, duration: 0.5 }}
         className="text-3xl font-semibold text-foreground mb-4"
       >
-        {t("intro.title")}
+        {(typeof t !== "undefined" ? t : (k) => k)("intro.title")}
       </motion.h1>
 
       <motion.p
@@ -41,7 +41,7 @@ const IntroScreen = ({ onNext }: IntroScreenProps) => {
         transition={{ delay: 0.45, duration: 0.5 }}
         className="text-lg text-muted-foreground leading-relaxed mb-3 max-w-xs"
       >
-        {t("intro.description")}
+        {(typeof t !== "undefined" ? t : (k) => k)("intro.description")}
       </motion.p>
 
       <motion.p
@@ -50,7 +50,7 @@ const IntroScreen = ({ onNext }: IntroScreenProps) => {
         transition={{ delay: 0.6, duration: 0.5 }}
         className="text-sm text-muted-foreground mb-10"
       >
-        {t("intro.duration")}
+        {(typeof t !== "undefined" ? t : (k) => k)("intro.duration")}
       </motion.p>
 
       <motion.div
@@ -59,7 +59,7 @@ const IntroScreen = ({ onNext }: IntroScreenProps) => {
         transition={{ delay: 0.75, duration: 0.5 }}
       >
         <Button variant="coral" size="lg" onClick={onNext} className="px-10 py-6 text-lg">
-          {t("intro.button")}
+          {(typeof t !== "undefined" ? t : (k) => k)("intro.button")}
         </Button>
       </motion.div>
     </motion.div>

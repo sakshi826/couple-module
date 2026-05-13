@@ -147,8 +147,8 @@ export function MindfulnessPage() {
                       <MessageCircle className="text-white" size={24} strokeWidth={2} />
                     </div>
                     <div className="text-left">
-                      <h4 className="text-base font-semibold text-white">{t("talk_to_a_therapist")}</h4>
-                      <p className="text-xs mt-1 text-slate-300 font-medium">{t("professional_care_counseling_therapeutic_support")}</p>
+                      <h4 className="text-base font-semibold text-white">{(typeof t !== "undefined" ? t : (k) => k)("talk_to_a_therapist")}</h4>
+                      <p className="text-xs mt-1 text-slate-300 font-medium">{(typeof t !== "undefined" ? t : (k) => k)("professional_care_counseling_therapeutic_support")}</p>
                     </div>
                   </div>
                   <div className="relative z-10 w-10 h-10 bg-white/10 backdrop-blur-sm rounded-[14px] flex items-center justify-center shadow-sm">
@@ -167,8 +167,8 @@ export function MindfulnessPage() {
                       <Sparkles className="text-white" size={24} strokeWidth={2} />
                     </div>
                     <div className="text-left">
-                      <h4 className="text-base font-semibold text-white">{t("self_care_resources_98")}</h4>
-                      <p className="text-xs mt-1 text-slate-400">{t("mindfulness_guided_sessions")}</p>
+                      <h4 className="text-base font-semibold text-white">{(typeof t !== "undefined" ? t : (k) => k)("self_care_resources_98")}</h4>
+                      <p className="text-xs mt-1 text-slate-400">{(typeof t !== "undefined" ? t : (k) => k)("mindfulness_guided_sessions")}</p>
                     </div>
                   </div>
                   <div className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-[14px] flex items-center justify-center flex-shrink-0 shadow-sm">
@@ -196,8 +196,8 @@ export function MindfulnessPage() {
                       <Star className="text-white" size={24} strokeWidth={2} />
                     </div>
                     <div className="text-left">
-                      <h3 className="font-semibold text-base mb-0.5 text-white">{t("today_s_plan")}</h3>
-                      <p className="text-xs md:text-sm text-slate-300">{t("complete_your_daily_wellness_activities")}</p>
+                      <h3 className="font-semibold text-base mb-0.5 text-white">{(typeof t !== "undefined" ? t : (k) => k)("today_s_plan")}</h3>
+                      <p className="text-xs md:text-sm text-slate-300">{(typeof t !== "undefined" ? t : (k) => k)("complete_your_daily_wellness_activities")}</p>
                     </div>
                   </div>
                   <ChevronRight className="text-white flex-shrink-0 group-hover:translate-x-1 transition-transform" size={24} />
@@ -371,11 +371,11 @@ export function MindfulnessPage() {
                 transition={{ duration: 0.5, delay: 0.28 }}
               >
                 <div className="flex items-center justify-between mb-3 md:mb-4">
-                  <h3 className="text-base md:text-lg px-1 text-white">{t("popular_categories")}</h3>
+                  <h3 className="text-base md:text-lg px-1 text-white">{(typeof t !== "undefined" ? t : (k) => k)("popular_categories")}</h3>
                   <button 
                     onClick={() => navigate("/categories")}
                     className="text-xs md:text-sm flex items-center gap-1 px-2 py-1.5 rounded-lg transition-colors text-white/60 hover:text-white hover:bg-white/5"
-                  >{t("common.see_all")}<ChevronRight size={14} />
+                  >{(typeof t !== "undefined" ? t : (k) => k)("common.see_all")}<ChevronRight size={14} />
                   </button>
                 </div>
                 <div className="grid grid-cols-3 md:grid-cols-6 gap-3 md:gap-4">

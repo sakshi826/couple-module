@@ -13,8 +13,8 @@ const Confirmation = ({ onDone, onHistory }: Props) => {
 
   return (
     <PremiumComplete
-        title={t("app_title")}
-        message={t("thankYou")}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+        message={(typeof t !== "undefined" ? t : (k) => k)("thankYou")}
         onRestart={onDone}
         onHome={onDone}
         icon={<Heart size={48} fill="currentColor" className="text-primary" />}
@@ -27,7 +27,7 @@ const Confirmation = ({ onDone, onHistory }: Props) => {
                 className="w-full py-5 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-500 font-black text-sm uppercase tracking-widest shadow-xl shadow-slate-200/50 hover:text-primary hover:border-primary/20 transition-all flex items-center justify-center gap-3"
             >
                 <Clock size={20} />
-                {t("viewHistory")}
+                {(typeof t !== "undefined" ? t : (k) => k)("viewHistory")}
             </motion.button>
         </div>
     </PremiumComplete>

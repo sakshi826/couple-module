@@ -12,10 +12,10 @@ const IntentionScreen = ({ value, onChange, onContinue }: IntentionScreenProps) 
   const { t } = useTranslation();
 
   const options = [
-    { icon: <Lock size={20} />, label: t("intention.options.private"), key: "private" },
-    { icon: <MessageSquare size={20} />, label: t("intention.options.share_part"), key: "share_part" },
-    { icon: <Heart size={20} />, label: t("intention.options.share_full"), key: "share_full" },
-    { icon: <Bookmark size={20} />, label: t("intention.options.save_later"), key: "save_later" },
+    { icon: <Lock size={20} />, label: (typeof t !== "undefined" ? t : (k) => k)("intention.options.private"), key: "private" },
+    { icon: <MessageSquare size={20} />, label: (typeof t !== "undefined" ? t : (k) => k)("intention.options.share_part"), key: "share_part" },
+    { icon: <Heart size={20} />, label: (typeof t !== "undefined" ? t : (k) => k)("intention.options.share_full"), key: "share_full" },
+    { icon: <Bookmark size={20} />, label: (typeof t !== "undefined" ? t : (k) => k)("intention.options.save_later"), key: "save_later" },
   ];
 
   return (
@@ -24,7 +24,7 @@ const IntentionScreen = ({ value, onChange, onContinue }: IntentionScreenProps) 
         <header className="space-y-4">
           <div className="flex items-center justify-between px-2">
             <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">
-              {t("intention.step")}
+              {(typeof t !== "undefined" ? t : (k) => k)("intention.step")}
             </span>
             <div className="flex gap-1.5">
               {Array.from({ length: 4 }).map((_, i) => (
@@ -33,7 +33,7 @@ const IntentionScreen = ({ value, onChange, onContinue }: IntentionScreenProps) 
             </div>
           </div>
           <h2 className="text-3xl font-extrabold text-slate-900 leading-tight">
-            {t("intention.title")}
+            {(typeof t !== "undefined" ? t : (k) => k)("intention.title")}
           </h2>
         </header>
 
@@ -87,7 +87,7 @@ const IntentionScreen = ({ value, onChange, onContinue }: IntentionScreenProps) 
             disabled={!value}
             className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-bold text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3 disabled:opacity-40 disabled:shadow-none"
         >
-            {t("intention.continue")}
+            {(typeof t !== "undefined" ? t : (k) => k)("intention.continue")}
             <ArrowRight size={20} />
         </motion.button>
       </div>

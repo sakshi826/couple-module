@@ -32,24 +32,24 @@ const IntroScreen = () => {
         </motion.span>
 
         <h1 className="text-2xl font-semibold text-foreground mt-2 mb-4 leading-tight">
-          <span className="bg-gradient-to-r from-[hsl(258,52%,58%)] to-[hsl(340,45%,65%)] bg-clip-text text-transparent">{t("intro.title")}</span>
+          <span className="bg-gradient-to-r from-[hsl(258,52%,58%)] to-[hsl(340,45%,65%)] bg-clip-text text-transparent">{(typeof t !== "undefined" ? t : (k) => k)("intro.title")}</span>
         </h1>
 
         <div className="text-muted-foreground text-sm leading-relaxed max-w-xs space-y-3">
-          <p>{t("intro.p1")}</p>
-          <p>{t("intro.p2")}</p>
-          <p>{t("intro.p3")}</p>
+          <p>{(typeof t !== "undefined" ? t : (k) => k)("intro.p1")}</p>
+          <p>{(typeof t !== "undefined" ? t : (k) => k)("intro.p2")}</p>
+          <p>{(typeof t !== "undefined" ? t : (k) => k)("intro.p3")}</p>
         </div>
 
         <p className="text-xs text-muted-foreground mt-6 italic">
-          {t("intro.italic")}
+          {(typeof t !== "undefined" ? t : (k) => k)("intro.italic")}
         </p>
 
         <button
           onClick={() => navigate("../circle", { replace: true })}
           className="mt-10 bg-primary text-primary-foreground font-medium px-8 py-3 rounded-full shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30 hover:scale-[1.02] transition-all duration-200"
         >
-          {t("intro.button")}
+          {(typeof t !== "undefined" ? t : (k) => k)("intro.button")}
         </button>
       </motion.div>
     </div>

@@ -132,7 +132,7 @@ export function MeditationDetailPage() {
                 </div>
                 <button className="px-3 py-1.5 rounded-full bg-white/10 backdrop-blur-sm flex items-center gap-1.5 hover:bg-white/20 transition-colors">
                   <Globe size={16} className="text-white" />
-                  <span className="text-white text-sm font-medium">{t("en")}</span>
+                  <span className="text-white text-sm font-medium">{(typeof t !== "undefined" ? t : (k) => k)("en")}</span>
                 </button>
               </div>
 

@@ -14,12 +14,12 @@ const WelcomeScreen: React.FC<Props> = ({ onBegin, onShowHistory }) => {
   return (
     <div className="py-6">
       <PremiumIntro
-        title={t("app_title")}
-        description={t("app_description")}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+        description={(typeof t !== "undefined" ? t : (k) => k)("app_description")}
         onStart={onBegin}
         icon={<Palette size={32} />}
-        benefits={t("welcome.benefits", { returnObjects: true }) as string[]}
-        duration={t("welcome.duration")}
+        benefits={(typeof t !== "undefined" ? t : (k) => k)("welcome.benefits", { returnObjects: true }) as string[]}
+        duration={(typeof t !== "undefined" ? t : (k) => k)("welcome.duration")}
       >
         <div className="flex justify-center mb-8">
           <WelcomeIllustration />
@@ -30,7 +30,7 @@ const WelcomeScreen: React.FC<Props> = ({ onBegin, onShowHistory }) => {
             className="flex items-center gap-2 text-slate-500 hover:text-primary transition-colors text-sm font-bold uppercase tracking-widest"
           >
             <History size={16} />
-            {t("welcome.view_past")}
+            {(typeof t !== "undefined" ? t : (k) => k)("welcome.view_past")}
           </button>
         </div>
       </PremiumIntro>

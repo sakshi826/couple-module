@@ -14,13 +14,13 @@ export function MobileNav() {
   const userName = user?.name || "User";
 
   const mainNavItems = [
-    { icon: Home,          label: t("nav.home", "Home"),         path: "/dashboard"    },
-    { icon: MessageSquare, label: t("nav.care_team", "Care Team"),     path: "/care-team"    },
-    { icon: Calendar,      label: t("nav.appointments", "Appointments"),  path: "/appointments" },
-    { icon: CheckSquare,   label: t("nav.tasks", "Tasks"),          path: "/tasks"        },
-    { icon: BarChart3,     label: t("nav.insights", "Insights"),       path: "/insights"     },
-    { icon: Receipt,       label: t("nav.billing", "Billing"),        path: "/billing"      },
-    { icon: UserCircle,    label: t("nav.profile", "Profile"),        path: "/profile"      },
+    { icon: Home,          label: (typeof t !== "undefined" ? t : (k) => k)("nav.home", "Home"),         path: "/dashboard"    },
+    { icon: MessageSquare, label: (typeof t !== "undefined" ? t : (k) => k)("nav.care_team", "Care Team"),     path: "/care-team"    },
+    { icon: Calendar,      label: (typeof t !== "undefined" ? t : (k) => k)("nav.appointments", "Appointments"),  path: "/appointments" },
+    { icon: CheckSquare,   label: (typeof t !== "undefined" ? t : (k) => k)("nav.tasks", "Tasks"),          path: "/tasks"        },
+    { icon: BarChart3,     label: (typeof t !== "undefined" ? t : (k) => k)("nav.insights", "Insights"),       path: "/insights"     },
+    { icon: Receipt,       label: (typeof t !== "undefined" ? t : (k) => k)("nav.billing", "Billing"),        path: "/billing"      },
+    { icon: UserCircle,    label: (typeof t !== "undefined" ? t : (k) => k)("nav.profile", "Profile"),        path: "/profile"      },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -52,7 +52,7 @@ export function MobileNav() {
           <div className="w-8 h-8 bg-[#7C3AED] rounded-lg flex items-center justify-center">
             <span className="text-white font-bold text-sm">M</span>
           </div>
-          <span className="text-[#020817] font-bold text-lg">{t("mantracare")}</span>
+          <span className="text-[#020817] font-bold text-lg">{(typeof t !== "undefined" ? t : (k) => k)("mantracare")}</span>
         </div>
         <div className="w-10"></div>
       </div>
@@ -119,7 +119,7 @@ export function MobileNav() {
                   onClick={() => handleNav("/refer")}
                 >
                   <Gift size={20} />
-                  <span className="text-sm font-medium">{t("nav.invite_friend", "Invite a Friend")}</span>
+                  <span className="text-sm font-medium">{(typeof t !== "undefined" ? t : (k) => k)("nav.invite_friend", "Invite a Friend")}</span>
                 </button>
 
                 <div className="my-3 border-t border-[#E2ECF5]" />
@@ -130,14 +130,14 @@ export function MobileNav() {
                     onClick={() => handleNav("/feedback")}
                   >
                     <Lightbulb size={20} />
-                    <span className="text-sm">{t("nav.feedback", "Share Feedback")}</span>
+                    <span className="text-sm">{(typeof t !== "undefined" ? t : (k) => k)("nav.feedback", "Share Feedback")}</span>
                   </button>
                   <button
                     className="w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all text-[#64748B] hover:bg-[#E6F4FF] hover:text-[#020817]"
                     onClick={() => handleNav("/support")}
                   >
                     <HelpCircle size={20} />
-                    <span className="text-sm">{t("nav.support", "Support")}</span>
+                    <span className="text-sm">{(typeof t !== "undefined" ? t : (k) => k)("nav.support", "Support")}</span>
                   </button>
                 </div>
               </nav>
@@ -148,7 +148,7 @@ export function MobileNav() {
                   onClick={handleLogout}
                   className="w-full px-4 py-3 rounded-xl text-sm text-[#64748B] hover:bg-[#EEF4FF] hover:text-[#020817] transition-colors text-left font-medium"
                 >
-                  {t("nav.sign_out", "Sign Out")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("nav.sign_out", "Sign Out")}
                 </button>
               </div>
             </motion.div>

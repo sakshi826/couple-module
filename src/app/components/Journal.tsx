@@ -22,19 +22,19 @@ export function Journal() {
   const [showFilters, setShowFilters] = useState(false);
   
   const moodEmojis = {
-    great: { icon: Smile, label: t("journal.mood.great", "Great"), color: "#10B981" },
-    good: { icon: Sun, label: t("journal.mood.good", "Good"), color: "#3B82F6" },
-    okay: { icon: Meh, label: t("journal.mood.okay", "Okay"), color: "#F59E0B" },
-    sad: { icon: Frown, label: t("journal.mood.sad", "Sad"), color: "#EF4444" },
-    anxious: { icon: Cloud, label: t("journal.mood.anxious", "Anxious"), color: "#8B5CF6" },
+    great: { icon: Smile, label: (typeof t !== "undefined" ? t : (k) => k)("journal.mood.great", "Great"), color: "#10B981" },
+    good: { icon: Sun, label: (typeof t !== "undefined" ? t : (k) => k)("journal.mood.good", "Good"), color: "#3B82F6" },
+    okay: { icon: Meh, label: (typeof t !== "undefined" ? t : (k) => k)("journal.mood.okay", "Okay"), color: "#F59E0B" },
+    sad: { icon: Frown, label: (typeof t !== "undefined" ? t : (k) => k)("journal.mood.sad", "Sad"), color: "#EF4444" },
+    anxious: { icon: Cloud, label: (typeof t !== "undefined" ? t : (k) => k)("journal.mood.anxious", "Anxious"), color: "#8B5CF6" },
   };
 
   const sampleEntries: JournalEntry[] = [
     {
       id: "1",
       date: new Date(2026, 3, 16, 3, 41),
-      title: t("journal.sample.1.title", "Your First Thought"),
-      content: t("journal.sample.1.content", "Start with writing what's on your mind. Journaling is a powerful tool for self-reflection and mental clarity."),
+      title: (typeof t !== "undefined" ? t : (k) => k)("journal.sample.1.title", "Your First Thought"),
+      content: (typeof t !== "undefined" ? t : (k) => k)("journal.sample.1.content", "Start with writing what's on your mind. Journaling is a powerful tool for self-reflection and mental clarity."),
       mood: "great",
       tags: ["reflection", "morning"],
       timeOfDay: "morning"
@@ -57,8 +57,8 @@ export function Journal() {
     const yesterday = new Date(today);
     yesterday.setDate(yesterday.getDate() - 1);
 
-    if (date.toDateString() === today.toDateString()) return t("common.today", "Today");
-    if (date.toDateString() === yesterday.toDateString()) return t("common.yesterday", "Yesterday");
+    if (date.toDateString() === today.toDateString()) return (typeof t !== "undefined" ? t : (k) => k)("common.today", "Today");
+    if (date.toDateString() === yesterday.toDateString()) return (typeof t !== "undefined" ? t : (k) => k)("common.yesterday", "Yesterday");
 
     return date.toLocaleDateString(i18n.language, { month: "short", day: "numeric", year: "numeric" });
   };
@@ -105,9 +105,9 @@ export function Journal() {
                     <Edit2 size={20} className="text-[#1E293B]" strokeWidth={2} />
                   </div>
                   <div className="flex-1">
-                    <h1 className="text-2xl text-[#0f172b] font-medium">{t("journal.title", "Journal")}</h1>
+                    <h1 className="text-2xl text-[#0f172b] font-medium">{(typeof t !== "undefined" ? t : (k) => k)("journal.title", "Journal")}</h1>
                     <p className="text-sm text-[#62748e] font-normal">
-                      {t("journal.subtitle", "Document your thoughts, feelings, and daily experiences")}
+                      {(typeof t !== "undefined" ? t : (k) => k)("journal.subtitle", "Document your thoughts, feelings, and daily experiences")}
                     </p>
                   </div>
                 </div>
@@ -118,7 +118,7 @@ export function Journal() {
                   className="flex items-center gap-2 px-4 py-2.5 bg-[#043570] text-white rounded-xl hover:bg-[#032656] transition-colors shadow-lg shadow-[#043570]/20"
                 >
                   <Plus size={18} />
-                  <span className="hidden sm:inline font-medium text-sm">{t("journal.new_entry", "New Entry")}</span>
+                  <span className="hidden sm:inline font-medium text-sm">{(typeof t !== "undefined" ? t : (k) => k)("journal.new_entry", "New Entry")}</span>
                 </motion.button>
               </div>
 
@@ -129,7 +129,7 @@ export function Journal() {
                   <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-[#94A3B8]" size={20} />
                   <input
                     type="text"
-                    placeholder={t("journal.search_placeholder", "Search your journal entries...")}
+                    placeholder={(typeof t !== "undefined" ? t : (k) => k)("journal.search_placeholder", "Search your journal entries...")}
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     className="w-full pl-12 pr-4 py-3 bg-white border border-[#E2ECF5] rounded-xl text-sm text-[#020817] placeholder:text-[#94A3B8] focus:outline-none focus:ring-2 focus:ring-[#00c0ff] focus:border-transparent"
@@ -146,7 +146,7 @@ export function Journal() {
                   }`}
                 >
                   <Filter size={20} />
-                  <span className="font-medium text-sm">{t("common.filters", "Filters")}</span>
+                  <span className="font-medium text-sm">{(typeof t !== "undefined" ? t : (k) => k)("common.filters", "Filters")}</span>
                   <ChevronDown
                     size={16}
                     className={`transition-transform ${showFilters ? "rotate-180" : ""}`}
@@ -166,7 +166,7 @@ export function Journal() {
                   >
                     <div className="bg-white border border-[#E2ECF5] rounded-xl p-4 mb-6">
                       <label className="block text-sm font-medium text-[#64748B] mb-3">
-                        {t("journal.filter_by_mood", "Filter by mood:")}
+                        {(typeof t !== "undefined" ? t : (k) => k)("journal.filter_by_mood", "Filter by mood:")}
                       </label>
                       <div className="flex flex-wrap gap-2">
                         <button
@@ -177,7 +177,7 @@ export function Journal() {
                               : "bg-[#f3faff] text-[#64748B] hover:bg-[#E2ECF5]"
                           }`}
                         >
-                          {t("journal.all_moods", "All Moods")}
+                          {(typeof t !== "undefined" ? t : (k) => k)("journal.all_moods", "All Moods")}
                         </button>
                         {Object.entries(moodEmojis).map(([key, { icon: Icon, label, color }]) => (
                           <button
@@ -207,18 +207,18 @@ export function Journal() {
                   <div className="w-20 h-20 bg-[#f3faff] rounded-full flex items-center justify-center mx-auto mb-4">
                     <Edit2 size={32} className="text-[#00c0ff]" />
                   </div>
-                  <h3 className="text-xl font-semibold text-[#020817] mb-2">{t("journal.no_entries", "No entries found")}</h3>
+                  <h3 className="text-xl font-semibold text-[#020817] mb-2">{(typeof t !== "undefined" ? t : (k) => k)("journal.no_entries", "No entries found")}</h3>
                   <p className="text-[#64748B] mb-6">
                     {searchQuery || selectedMood
-                      ? t("journal.adjust_search", "Try adjusting your search or filters")
-                      : t("journal.start_journey", "Start your journaling journey today")}
+                      ? (typeof t !== "undefined" ? t : (k) => k)("journal.adjust_search", "Try adjusting your search or filters")
+                      : (typeof t !== "undefined" ? t : (k) => k)("journal.start_journey", "Start your journaling journey today")}
                   </p>
                   <button
                     onClick={() => navigate("/journal-new")}
                     className="px-6 py-3 bg-[#043570] text-white rounded-xl hover:bg-[#032656] transition-colors font-medium inline-flex items-center gap-2"
                   >
                     <Plus size={20} />
-                    {t("journal.write_first", "Write Your First Entry")}
+                    {(typeof t !== "undefined" ? t : (k) => k)("journal.write_first", "Write Your First Entry")}
                   </button>
                 </div>
               ) : (

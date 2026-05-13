@@ -14,19 +14,19 @@ export default function ExitDialog({ onConfirm, onCancel }: Props) {
         style={{ boxShadow: "var(--shadow-lift)" }}
         onClick={(e) => e.stopPropagation()}
         role="alertdialog"
-        aria-label={t("exit_confirmation")}
+        aria-label={(typeof t !== "undefined" ? t : (k) => k)("exit_confirmation")}
       >
-        <h2 className="font-display text-lg font-semibold text-foreground mb-2">{t("are_you_sure_you_want_to_exit")}</h2>
-        <p className="text-sm text-muted-foreground mb-6">{t("your_unsaved_data_will_be_lost")}</p>
+        <h2 className="font-display text-lg font-semibold text-foreground mb-2">{(typeof t !== "undefined" ? t : (k) => k)("are_you_sure_you_want_to_exit")}</h2>
+        <p className="text-sm text-muted-foreground mb-6">{(typeof t !== "undefined" ? t : (k) => k)("your_unsaved_data_will_be_lost")}</p>
         <div className="flex gap-3">
           <button
             onClick={onCancel}
             className="flex-1 py-3 rounded-xl border border-border text-foreground font-medium hover:bg-muted transition-all duration-300"
-          >{t("stay")}</button>
+          >{(typeof t !== "undefined" ? t : (k) => k)("stay")}</button>
           <button
             onClick={onConfirm}
             className="flex-1 py-3 rounded-xl bg-destructive text-destructive-foreground font-medium hover:opacity-90 transition-all duration-300"
-          >{t("exit")}</button>
+          >{(typeof t !== "undefined" ? t : (k) => k)("exit")}</button>
         </div>
       </div>
     </div>

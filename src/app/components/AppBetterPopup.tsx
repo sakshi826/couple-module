@@ -90,13 +90,13 @@ export function AppBetterPopup({ onClose }: AppBetterPopupProps) {
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4 }}
-              >{t("app_is_better")}</motion.h2>
+              >{(typeof t !== "undefined" ? t : (k) => k)("app_is_better")}</motion.h2>
               <motion.p 
                 className="text-[#64748B] text-sm"
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5 }}
-              >{t("get_exclusive_features_better_experience")}</motion.p>
+              >{(typeof t !== "undefined" ? t : (k) => k)("get_exclusive_features_better_experience")}</motion.p>
             </div>
 
             {/* Content */}
@@ -125,7 +125,7 @@ export function AppBetterPopup({ onClose }: AppBetterPopupProps) {
                     </svg>
                   </div>
                   <div className="text-center">
-                    <div className="text-white font-semibold text-sm">{t("android")}</div>
+                    <div className="text-white font-semibold text-sm">{(typeof t !== "undefined" ? t : (k) => k)("android")}</div>
                   </div>
                 </motion.a>
 
@@ -160,11 +160,11 @@ export function AppBetterPopup({ onClose }: AppBetterPopupProps) {
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   className="w-full text-[#64748B] hover:text-[#020817] font-medium transition-colors px-4 py-2 rounded-xl hover:bg-[#E8F4FD] text-sm"
-                >{t("maybe_later")}</motion.button>
+                >{(typeof t !== "undefined" ? t : (k) => k)("maybe_later")}</motion.button>
                 <button
                   onClick={handleDontShowAgain}
                   className="block w-full text-xs text-[#64748B]/50 hover:text-[#64748B] transition-colors py-1"
-                >{t("don_t_show_this_again")}</button>
+                >{(typeof t !== "undefined" ? t : (k) => k)("don_t_show_this_again")}</button>
               </motion.div>
             </div>
           </motion.div>

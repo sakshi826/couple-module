@@ -32,7 +32,7 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       onBack={screen === "story" ? handleBackToStories : (screen === "selection" ? () => setScreen("intro") : undefined)}
       onReset={screen !== 'intro' ? () => setScreen('intro') : undefined}
     >

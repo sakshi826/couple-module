@@ -5,12 +5,12 @@ const Screen4Reflection = () => {
   const { t } = useTranslation();
   const [selected, setSelected] = useState<number | null>(null);
 
-  const options = t("s4.options", { returnObjects: true }) as any[];
+  const options = (typeof t !== "undefined" ? t : (k) => k)("s4.options", { returnObjects: true }) as any[];
 
   return (
     <div className="flex flex-col h-full px-5 py-2 overflow-y-auto" style={{ scrollbarWidth: "none" }}>
       <h1 className="text-lg font-semibold mb-3" style={{ color: "#1a2a4a" }}>
-        {t("s4.title")}
+        {(typeof t !== "undefined" ? t : (k) => k)("s4.title")}
       </h1>
 
       <div className="flex flex-col gap-2 mb-3">
@@ -42,12 +42,12 @@ const Screen4Reflection = () => {
       <div className="takeaway-card p-4 mb-3">
         <span className="text-2xl leading-none" style={{ color: "#a0b0d8", fontFamily: "Georgia, serif" }}>"</span>
         <p className="text-xs italic leading-relaxed mt-1" style={{ color: "#3a4870" }}>
-          {t("s4.quote")}
+          {(typeof t !== "undefined" ? t : (k) => k)("s4.quote")}
         </p>
       </div>
 
       <button className="sleep-cta mt-auto shrink-0">
-        {t("s4.button")}
+        {(typeof t !== "undefined" ? t : (k) => k)("s4.button")}
       </button>
     </div>
   );

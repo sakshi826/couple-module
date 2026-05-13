@@ -13,7 +13,7 @@ const GuidedActionScreen = ({ approach, onComplete }: Props) => {
   const { t } = useTranslation();
   const [revealed, setRevealed] = useState(false);
 
-  const data = t(`guided_action.actions.${approach}`, { returnObjects: true }) as any;
+  const data = (typeof t !== "undefined" ? t : (k) => k)(`guided_action.actions.${approach}`, { returnObjects: true }) as any;
   const emojiMap: Record<string, string> = {
     message: "💬",
     acknowledge: "🫶",
@@ -36,12 +36,12 @@ const GuidedActionScreen = ({ approach, onComplete }: Props) => {
   const handleCopy = () => {
   const { t } = useTranslation();
     navigator.clipboard.writeText(editedMsg);
-    toast.success(t("toasts.copy_success"));
+    toast.success((typeof t !== "undefined" ? t : (k) => k)("toasts.copy_success"));
   };
 
-  const safetyLine = approach === "pause" ? t("guided_action.safety_line_pause") : 
-                    approach === "reflect" ? t("guided_action.safety_line_reflect") : 
-                    t("guided_action.safety_line_default");
+  const safetyLine = approach === "pause" ? (typeof t !== "undefined" ? t : (k) => k)("guided_action.safety_line_pause") : 
+                    approach === "reflect" ? (typeof t !== "undefined" ? t : (k) => k)("guided_action.safety_line_reflect") : 
+                    (typeof t !== "undefined" ? t : (k) => k)("guided_action.safety_line_default");
 
   return (
     <div className="space-y-5">
@@ -76,7 +76,7 @@ const GuidedActionScreen = ({ approach, onComplete }: Props) => {
               exit={{ opacity: 0 }}
               className="font-body text-xs text-primary"
             >
-              {t("guided_action.tap_reveal")}
+              {(typeof t !== "undefined" ? t : (k) => k)("guided_action.tap_reveal")}
             </motion.p>
           ) : (
             <motion.p
@@ -130,14 +130,14 @@ const GuidedActionScreen = ({ approach, onComplete }: Props) => {
             onClick={handleCopy}
             className="flex-1 glass-card py-3 font-heading text-sm font-medium text-foreground hover:scale-[1.02] active:scale-[0.98] transition-all"
           >
-            {t("guided_action.copy_button")}
+            {(typeof t !== "undefined" ? t : (k) => k)("guided_action.copy_button")}
           </button>
         )}
         <button
           onClick={onComplete}
           className="flex-1 btn-gradient py-3 font-heading text-sm font-medium hover:scale-[1.02] active:scale-[0.98] transition-all"
         >
-          {t("guided_action.done_button")}
+          {(typeof t !== "undefined" ? t : (k) => k)("guided_action.done_button")}
         </button>
       </div>
 

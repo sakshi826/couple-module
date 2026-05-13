@@ -30,21 +30,21 @@ const Screen7History = () => {
   return (
     <div className="space-y-6">
       <div className="text-left">
-        <h2 className="text-2xl font-extrabold text-slate-900 mb-1">{t('screens.history.title')}</h2>
-        <p className="text-slate-500 text-sm font-medium">{t("your_progress_over_the_last_7_days")}</p>
+        <h2 className="text-2xl font-extrabold text-slate-900 mb-1">{(typeof t !== "undefined" ? t : (k) => k)('screens.history.title')}</h2>
+        <p className="text-slate-500 text-sm font-medium">{(typeof t !== "undefined" ? t : (k) => k)("your_progress_over_the_last_7_days")}</p>
       </div>
 
       {loading ? (
         <div className="flex flex-col items-center justify-center py-20 gap-4">
           <Loader2 className="h-10 w-10 animate-spin text-primary opacity-20" />
-          <p className="text-slate-400 font-bold text-[10px] uppercase tracking-widest">{t("fetching_data")}</p>
+          <p className="text-slate-400 font-bold text-[10px] uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)("fetching_data")}</p>
         </div>
       ) : (entries && entries.length) === 0 ? (
         <div className="text-center py-16 bg-slate-50 rounded-3xl border-2 border-dashed border-slate-100">
           <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mx-auto mb-4 text-slate-200 shadow-sm">
               <History size={32} />
           </div>
-          <p className="text-slate-400 font-bold text-sm px-8">{t('screens.history.subtitle') || "No entries yet. Start your self-care journey today."}</p>
+          <p className="text-slate-400 font-bold text-sm px-8">{(typeof t !== "undefined" ? t : (k) => k)('screens.history.subtitle') || "No entries yet. Start your self-care journey today."}</p>
         </div>
       ) : (
         <div className="space-y-3">
@@ -71,8 +71,8 @@ const DayCard = ({ entry }: { entry: SelfCareEntry }) => {
   const { t } = useTranslation();
  
   const keyInfo = entry.didSelfCare
-    ? (entry.activities && entry.activities[0] ? t(`data.activities.${entry.activities[0]}`) : t('common.yes'))
-    : (entry.preventionReasons && entry.preventionReasons[0] ? t(`data.reasons.${entry.preventionReasons[0]}`) : t('common.no'));
+    ? (entry.activities && entry.activities[0] ? (typeof t !== "undefined" ? t : (k) => k)(`data.activities.${entry.activities[0]}`) : (typeof t !== "undefined" ? t : (k) => k)('common.yes'))
+    : (entry.preventionReasons && entry.preventionReasons[0] ? (typeof t !== "undefined" ? t : (k) => k)(`data.reasons.${entry.preventionReasons[0]}`) : (typeof t !== "undefined" ? t : (k) => k)('common.no'));
 
   return (
     <div className="group bg-white rounded-[2rem] border-2 border-slate-100 p-6 flex items-center justify-between transition-all hover:border-primary/20 hover:shadow-md">
@@ -95,7 +95,7 @@ const DayCard = ({ entry }: { entry: SelfCareEntry }) => {
           : "bg-slate-100 text-slate-400"
           }`}
       >
-        {entry.didSelfCare ? t('common.yes') : t('common.no')}
+        {entry.didSelfCare ? (typeof t !== "undefined" ? t : (k) => k)('common.yes') : (typeof t !== "undefined" ? t : (k) => k)('common.no')}
       </div>
     </div>
   );

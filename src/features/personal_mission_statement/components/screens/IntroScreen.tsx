@@ -13,12 +13,12 @@ const IntroScreen = ({ onNext, onHistory }: IntroScreenProps) => {
 
   return (
     <PremiumIntro
-      title={t("app_title")}
-      description={t('intro_p1') + " " + t('intro_p2')}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+      description={(typeof t !== "undefined" ? t : (k) => k)('intro_p1') + " " + (typeof t !== "undefined" ? t : (k) => k)('intro_p2')}
       onStart={onNext}
       icon={<Target size={32} />}
-      benefits={[t('intro_p1')]}
-      duration={t('app_duration', "5-10 minutes")}
+      benefits={[(typeof t !== "undefined" ? t : (k) => k)('intro_p1')]}
+      duration={(typeof t !== "undefined" ? t : (k) => k)('app_duration', "5-10 minutes")}
     >
       <div className="mt-8 text-center">
         <motion.button
@@ -28,7 +28,7 @@ const IntroScreen = ({ onNext, onHistory }: IntroScreenProps) => {
           className="inline-flex items-center gap-2 text-slate-500 hover:text-primary font-bold text-sm transition-colors"
         >
           <History size={18} />
-          {t('intro_past_reflections')}
+          {(typeof t !== "undefined" ? t : (k) => k)('intro_past_reflections')}
         </motion.button>
       </div>
     </PremiumIntro>

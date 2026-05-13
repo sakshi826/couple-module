@@ -17,9 +17,9 @@ export const SortThoughts = ({ thoughts: initial, onComplete, onBack }: Props) =
   const [items, setItems] = useState<ThoughtItem[]>(initial);
 
   const buckets: { key: Bucket; icon: React.ReactNode; label: string; desc: string; color: string }[] = [
-    { key: "action", icon: <Inbox size={20} />, label: t("action_needed"), desc: t("action_desc"), color: "#61DAFB" },
-    { key: "later", icon: <Clock size={20} />, label: t("do_later"), desc: t("later_desc"), color: "#FBBF24" },
-    { key: "letgo", icon: <Trash2 size={20} />, label: t("let_it_go"), desc: t("letgo_desc"), color: "#94A3B8" },
+    { key: "action", icon: <Inbox size={20} />, label: (typeof t !== "undefined" ? t : (k) => k)("action_needed"), desc: (typeof t !== "undefined" ? t : (k) => k)("action_desc"), color: "#61DAFB" },
+    { key: "later", icon: <Clock size={20} />, label: (typeof t !== "undefined" ? t : (k) => k)("do_later"), desc: (typeof t !== "undefined" ? t : (k) => k)("later_desc"), color: "#FBBF24" },
+    { key: "letgo", icon: <Trash2 size={20} />, label: (typeof t !== "undefined" ? t : (k) => k)("let_it_go"), desc: (typeof t !== "undefined" ? t : (k) => k)("letgo_desc"), color: "#94A3B8" },
   ];
 
   const sorted = items.filter((i) => i.bucket);
@@ -45,8 +45,8 @@ export const SortThoughts = ({ thoughts: initial, onComplete, onBack }: Props) =
             <ArrowLeft size={20} />
           </motion.button>
           <div className="text-left">
-            <h1 className="text-3xl font-extrabold text-slate-900 mb-1">{t("sort_title")}</h1>
-            <p className="text-slate-500 text-sm leading-tight">{t("sort_desc")}</p>
+            <h1 className="text-3xl font-extrabold text-slate-900 mb-1">{(typeof t !== "undefined" ? t : (k) => k)("sort_title")}</h1>
+            <p className="text-slate-500 text-sm leading-tight">{(typeof t !== "undefined" ? t : (k) => k)("sort_desc")}</p>
           </div>
         </header>
 
@@ -54,7 +54,7 @@ export const SortThoughts = ({ thoughts: initial, onComplete, onBack }: Props) =
         <div className="bg-white rounded-[2rem] border-2 border-slate-100 p-6 shadow-sm">
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-2 font-bold text-slate-700 text-sm">
-              <ListFilter size={18} className="text-primary" />{t("clarity_progress")}</div>
+              <ListFilter size={18} className="text-primary" />{(typeof t !== "undefined" ? t : (k) => k)("clarity_progress")}</div>
             <span className="text-primary font-black text-sm">{Math.round(progress * 100)}%</span>
           </div>
           <div className="h-3 rounded-full bg-slate-50 overflow-hidden">
@@ -79,7 +79,7 @@ export const SortThoughts = ({ thoughts: initial, onComplete, onBack }: Props) =
               <div className="absolute top-0 right-0 p-4 text-primary/10">
                 <Sparkles size={48} />
               </div>
-              <p className="text-slate-400 text-[10px] font-bold uppercase tracking-widest mb-4">{t("sorting_thought")}</p>
+              <p className="text-slate-400 text-[10px] font-bold uppercase tracking-widest mb-4">{(typeof t !== "undefined" ? t : (k) => k)("sorting_thought")}</p>
               <h2 className="text-2xl font-bold text-slate-800 leading-relaxed">
                 {unsorted[0].text}
               </h2>
@@ -93,8 +93,8 @@ export const SortThoughts = ({ thoughts: initial, onComplete, onBack }: Props) =
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4 text-emerald-500 shadow-sm">
                 <CheckCircle2 size={32} />
               </div>
-              <h2 className="text-xl font-bold text-emerald-900 mb-2">{t("all_sorted")}</h2>
-              <p className="text-emerald-600 font-medium">{t("your_mind_is_clear_and_ready_for_the_next_step")}</p>
+              <h2 className="text-xl font-bold text-emerald-900 mb-2">{(typeof t !== "undefined" ? t : (k) => k)("all_sorted")}</h2>
+              <p className="text-emerald-600 font-medium">{(typeof t !== "undefined" ? t : (k) => k)("your_mind_is_clear_and_ready_for_the_next_step")}</p>
             </motion.div>
           )}
         </AnimatePresence>
@@ -162,7 +162,7 @@ export const SortThoughts = ({ thoughts: initial, onComplete, onBack }: Props) =
             disabled={!allSorted}
             className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-bold text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3 disabled:opacity-40 disabled:shadow-none"
           >
-            {t("continue")}
+            {(typeof t !== "undefined" ? t : (k) => k)("continue")}
             <MoveRight size={20} />
           </motion.button>
         </div>

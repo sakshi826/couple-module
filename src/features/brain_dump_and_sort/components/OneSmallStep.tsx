@@ -47,7 +47,7 @@ export const OneSmallStep = ({ thoughts, onComplete, onBack }: Props) => {
       <div className="flex flex-col items-center py-6 pb-24">
         <div className="w-full max-w-lg flex flex-col items-center gap-12">
             <header className="text-center">
-                <h1 className="text-3xl font-extrabold text-slate-900 mb-2 leading-tight">{t("focused_work")}</h1>
+                <h1 className="text-3xl font-extrabold text-slate-900 mb-2 leading-tight">{(typeof t !== "undefined" ? t : (k) => k)("focused_work")}</h1>
                 <p className="text-slate-500 text-sm font-medium">
                     {nextStep || selectedItem?.text}
                 </p>
@@ -91,7 +91,7 @@ export const OneSmallStep = ({ thoughts, onComplete, onBack }: Props) => {
                     <span className="text-5xl font-black text-slate-800 tabular-nums leading-none">
                         {minutes}:{seconds.toString().padStart(2, "0")}
                     </span>
-                    <span className="text-xs font-bold text-slate-400 uppercase tracking-widest mt-2">{t("time_left")}</span>
+                    <span className="text-xs font-bold text-slate-400 uppercase tracking-widest mt-2">{(typeof t !== "undefined" ? t : (k) => k)("time_left")}</span>
                 </div>
             </div>
 
@@ -128,7 +128,7 @@ export const OneSmallStep = ({ thoughts, onComplete, onBack }: Props) => {
                         whileTap={{ scale: 0.98 }}
                         onClick={onComplete}
                         className="flex-1 py-5 rounded-[2rem] bg-primary text-primary-foreground font-bold shadow-xl shadow-primary/20 flex items-center justify-center gap-3"
-                    >{t("i_m_done")}<Check size={20} />
+                    >{(typeof t !== "undefined" ? t : (k) => k)("i_m_done")}<Check size={20} />
                     </motion.button>
                 </div>
             </div>
@@ -150,25 +150,25 @@ export const OneSmallStep = ({ thoughts, onComplete, onBack }: Props) => {
             <ArrowLeft size={20} />
           </motion.button>
           <div className="text-left">
-            <h1 className="text-3xl font-extrabold text-slate-900 mb-1">{t("small_step_title")}</h1>
-            <p className="text-slate-500 text-sm leading-tight">{t("small_step_desc")}</p>
+            <h1 className="text-3xl font-extrabold text-slate-900 mb-1">{(typeof t !== "undefined" ? t : (k) => k)("small_step_title")}</h1>
+            <p className="text-slate-500 text-sm leading-tight">{(typeof t !== "undefined" ? t : (k) => k)("small_step_desc")}</p>
           </div>
         </header>
 
         {thoughts.length === 0 ? (
           <div className="text-center py-20 bg-slate-50 rounded-[2.5rem] border-2 border-dashed border-slate-200">
-            <p className="text-slate-400 font-bold mb-6">{t("no_action_items_found")}</p>
+            <p className="text-slate-400 font-bold mb-6">{(typeof t !== "undefined" ? t : (k) => k)("no_action_items_found")}</p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={onBack}
               className="px-8 py-4 bg-primary text-primary-foreground font-bold rounded-2xl shadow-lg shadow-primary/20"
-            >{t("go_back_sort")}</motion.button>
+            >{(typeof t !== "undefined" ? t : (k) => k)("go_back_sort")}</motion.button>
           </div>
         ) : (
           <div className="space-y-6">
             <div className="flex items-center gap-2 text-slate-400 text-xs font-bold uppercase tracking-widest px-2">
-                <Target size={14} className="text-primary" />{t("pick_one_thing_to_focus_on")}</div>
+                <Target size={14} className="text-primary" />{(typeof t !== "undefined" ? t : (k) => k)("pick_one_thing_to_focus_on")}</div>
             
             <div className="grid gap-3">
               {thoughts.map((t, i) => {
@@ -215,13 +215,13 @@ export const OneSmallStep = ({ thoughts, onComplete, onBack }: Props) => {
                 >
                     <div className="flex items-center gap-2 text-slate-400 text-xs font-bold uppercase tracking-widest px-2">
                         <Sparkles size={14} className="text-primary" />
-                        {t("first_step_placeholder")}
+                        {(typeof t !== "undefined" ? t : (k) => k)("first_step_placeholder")}
                     </div>
                     <input
                         type="text"
                         value={nextStep}
                         onChange={(e) => setNextStep(e.target.value)}
-                        placeholder={t("e_g_open_the_document_tidy_one_corner")}
+                        placeholder={(typeof t !== "undefined" ? t : (k) => k)("e_g_open_the_document_tidy_one_corner")}
                         className="w-full py-5 px-6 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-700 placeholder:text-slate-300 font-medium focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm"
                     />
                 </motion.div>
@@ -240,7 +240,7 @@ export const OneSmallStep = ({ thoughts, onComplete, onBack }: Props) => {
                 onClick={() => setFocusMode(true)}
                 className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-bold text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3"
               >
-                <Clock size={20} />{t("start_3_minute_focus")}</motion.button>
+                <Clock size={20} />{(typeof t !== "undefined" ? t : (k) => k)("start_3_minute_focus")}</motion.button>
             ) : (
                 thoughts.length === 0 && (
                   <motion.button
@@ -249,7 +249,7 @@ export const OneSmallStep = ({ thoughts, onComplete, onBack }: Props) => {
                     onClick={onComplete}
                     className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-bold text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3"
                   >
-                    {t("continue")}
+                    {(typeof t !== "undefined" ? t : (k) => k)("continue")}
                     <ArrowRight size={20} />
                   </motion.button>
                 )

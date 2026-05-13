@@ -15,9 +15,9 @@ const Screen4Mood = ({ onContinue }: Screen4Props) => {
   return (
     <MobileShell step={4} totalSteps={5}>
       <h1 className="font-display text-2xl font-bold tracking-tight">
-        {t('screens.mood.title')}
+        {(typeof t !== "undefined" ? t : (k) => k)('screens.mood.title')}
       </h1>
-      <p className="mt-1 text-sm text-muted-foreground">{t('screens.mood.subtitle') || "Select your current mood (optional)"}</p>
+      <p className="mt-1 text-sm text-muted-foreground">{(typeof t !== "undefined" ? t : (k) => k)('screens.mood.subtitle') || "Select your current mood (optional)"}</p>
 
       <div className="mt-8 grid grid-cols-3 gap-3">
         {MOODS.map((m, i) => (
@@ -30,7 +30,7 @@ const Screen4Mood = ({ onContinue }: Screen4Props) => {
               }`}
           >
             <span className="text-3xl">{m.emoji}</span>
-            <span className="text-xs font-medium text-card-foreground">{t(`data.moods.${m.label}`)}</span>
+            <span className="text-xs font-medium text-card-foreground">{(typeof t !== "undefined" ? t : (k) => k)(`data.moods.${m.label}`)}</span>
           </button>
         ))}
       </div>

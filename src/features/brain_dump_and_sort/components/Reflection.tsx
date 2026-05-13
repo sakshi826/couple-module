@@ -22,8 +22,8 @@ export const Reflection = ({ onComplete, onBack }: Props) => {
 
   return (
     <PremiumComplete
-      title={t("app_title")}
-      message={t("reflection_desc")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+      message={(typeof t !== "undefined" ? t : (k) => k)("reflection_desc")}
       onRestart={() => onComplete(selected || "Finished")}
     >
        <div className="space-y-6 w-full max-w-md mx-auto mt-8">

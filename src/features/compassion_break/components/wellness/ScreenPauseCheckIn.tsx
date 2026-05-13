@@ -13,9 +13,9 @@ const ScreenPauseCheckIn = ({ onContinue, onExit }: Props) => {
 
   const getFeedback = (value: number) => {
   const { t } = useTranslation();
-    if (value <= 3) return t("feedback_calm");
-    if (value <= 6) return t("feedback_noticing");
-    return t("feedback_heavy");
+    if (value <= 3) return (typeof t !== "undefined" ? t : (k) => k)("feedback_calm");
+    if (value <= 6) return (typeof t !== "undefined" ? t : (k) => k)("feedback_noticing");
+    return (typeof t !== "undefined" ? t : (k) => k)("feedback_heavy");
   };
 
   return (
@@ -26,7 +26,7 @@ const ScreenPauseCheckIn = ({ onContinue, onExit }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
-        {t("pause_title")}
+        {(typeof t !== "undefined" ? t : (k) => k)("pause_title")}
       </motion.h1>
 
       <motion.p
@@ -35,7 +35,7 @@ const ScreenPauseCheckIn = ({ onContinue, onExit }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.15, ease: "easeOut" }}
       >
-        {t("pause_description")}
+        {(typeof t !== "undefined" ? t : (k) => k)("pause_description")}
       </motion.p>
 
       <motion.div
@@ -45,7 +45,7 @@ const ScreenPauseCheckIn = ({ onContinue, onExit }: Props) => {
         transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
       >
         <p className="text-sm font-bold text-slate-400 mb-6 uppercase tracking-widest">
-          {t("intensity_label")}
+          {(typeof t !== "undefined" ? t : (k) => k)("intensity_label")}
         </p>
 
         <div className="relative mb-6">
@@ -61,8 +61,8 @@ const ScreenPauseCheckIn = ({ onContinue, onExit }: Props) => {
             }}
           />
           <div className="flex justify-between text-xs font-black text-slate-300 mt-3">
-            <span>{t("label_calm")}</span>
-            <span>{t("label_intense")}</span>
+            <span>{(typeof t !== "undefined" ? t : (k) => k)("label_calm")}</span>
+            <span>{(typeof t !== "undefined" ? t : (k) => k)("label_intense")}</span>
           </div>
         </div>
 
@@ -85,7 +85,7 @@ const ScreenPauseCheckIn = ({ onContinue, onExit }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.5 }}
       >
-        {t("continue_button")}
+        {(typeof t !== "undefined" ? t : (k) => k)("continue_button")}
       </motion.button>
     </div>
   );

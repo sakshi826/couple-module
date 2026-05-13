@@ -81,7 +81,7 @@ const GratitudeHistory = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title")} 
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")} 
       onBack={() => navigate("..", { replace: true })}
     >
       <div className="w-full space-y-8">
@@ -93,7 +93,7 @@ const GratitudeHistory = () => {
               whileTap={{ scale: 0.95 }}
               onClick={() => window.location.reload()}
               className="mt-4 px-6 py-3 bg-primary text-primary-foreground font-black rounded-2xl shadow-xl shadow-primary/20"
-            >{t("retry")}</motion.button>
+            >{(typeof t !== "undefined" ? t : (k) => k)("retry")}</motion.button>
           </div>
         )}
 
@@ -101,10 +101,10 @@ const GratitudeHistory = () => {
           <>
             <header className="flex items-center justify-between">
               <div className="space-y-1">
-                <h2 className="text-2xl font-black text-slate-900 tracking-tight">{t("history.heading")}</h2>
+                <h2 className="text-2xl font-black text-slate-900 tracking-tight">{(typeof t !== "undefined" ? t : (k) => k)("history.heading")}</h2>
                 <div className="flex items-center gap-2 text-primary">
                   <Sparkles size={12} />
-                  <p className="text-[10px] font-black uppercase tracking-widest">{t("relive_your_moments")}</p>
+                  <p className="text-[10px] font-black uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)("relive_your_moments")}</p>
                 </div>
               </div>
               <div className="flex items-center gap-3 bg-slate-50 p-1.5 rounded-2xl border border-slate-100 shadow-sm">
@@ -141,7 +141,7 @@ const GratitudeHistory = () => {
                   <div className="grid grid-cols-7 gap-3 mb-6">
                     {WEEKDAYS.map((d) => (
                       <div key={d} className="text-center text-[10px] font-black text-slate-300 uppercase tracking-widest">
-                        {t(`history.${d.toLowerCase()}`).substring(0, 3)}
+                        {(typeof t !== "undefined" ? t : (k) => k)(`history.${d.toLowerCase()}`).substring(0, 3)}
                       </div>
                     ))}
                   </div>
@@ -203,18 +203,18 @@ const GratitudeHistory = () => {
                     </div>
                     <div className="flex items-center gap-3 bg-primary/10 text-primary px-4 py-2 rounded-2xl">
                       <span className="text-2xl filter drop-shadow-sm">{selectedEntry.mood.emoji}</span>
-                      <span className="text-xs font-black uppercase tracking-widest">{t(`mood.${selectedEntry.mood.label.toLowerCase()}`)}</span>
+                      <span className="text-xs font-black uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)(`mood.${selectedEntry.mood.label.toLowerCase()}`)}</span>
                     </div>
                   </div>
 
                   <div className="space-y-6">
                     <div>
-                      <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-2">{t("review.gratitude1")}</p>
+                      <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-2">{(typeof t !== "undefined" ? t : (k) => k)("review.gratitude1")}</p>
                       <p className="text-slate-700 font-bold text-lg leading-relaxed">{selectedEntry.gratitude1}</p>
                     </div>
                     {selectedEntry.gratitude2 && (
                       <div>
-                        <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-2">{t("review.gratitude2")}</p>
+                        <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-2">{(typeof t !== "undefined" ? t : (k) => k)("review.gratitude2")}</p>
                         <p className="text-slate-700 font-bold text-lg leading-relaxed">{selectedEntry.gratitude2}</p>
                       </div>
                     )}
@@ -225,7 +225,7 @@ const GratitudeHistory = () => {
                   <div className="w-20 h-20 bg-white rounded-3xl flex items-center justify-center mx-auto mb-6 text-slate-100 shadow-sm">
                     <CalendarIcon size={36} />
                   </div>
-                  <p className="text-slate-400 font-black text-xs uppercase tracking-widest">{t("select_a_date_to_relive_gratitude")}</p>
+                  <p className="text-slate-400 font-black text-xs uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)("select_a_date_to_relive_gratitude")}</p>
                 </div>
               )}
             </AnimatePresence>
@@ -236,7 +236,7 @@ const GratitudeHistory = () => {
                 whileTap={{ scale: 0.98 }}
                 onClick={() => navigate("..", { replace: true })}
                 className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3"
-              >{t("create_new_entry")}<Sparkles size={20} />
+              >{(typeof t !== "undefined" ? t : (k) => k)("create_new_entry")}<Sparkles size={20} />
               </motion.button>
             </div>
           </>

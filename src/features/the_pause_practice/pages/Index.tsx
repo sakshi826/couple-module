@@ -34,8 +34,8 @@ const Index = () => {
 
   return (
     <PremiumLayout
-      title={t("app_title")}
-      subtitle={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+      subtitle={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       icon={<Timer className="w-6 h-6 text-primary" />}
       onBack={screen !== "intro" ? () => setScreen("intro") : undefined}
     >

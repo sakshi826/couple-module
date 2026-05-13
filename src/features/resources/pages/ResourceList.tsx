@@ -65,7 +65,7 @@ const ResourceList = () => {
 
   if (loading) {
     return (
-      <PremiumLayout title={t("common.loading")}>
+      <PremiumLayout title={(typeof t !== "undefined" ? t : (k) => k)("common.loading")}>
         <div className="flex items-center justify-center py-32">
           <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin" />
         </div>
@@ -76,7 +76,7 @@ const ResourceList = () => {
   const Icon = ICON_MAP[type || 'tips'] || BookOpen;
   const colorClass = COLOR_MAP[type || 'tips'] || 'text-primary bg-primary/10';
 
-  const title = `${t(`concerns.${concern}`)} ${t(`types.${type}`)}`;
+  const title = `${(typeof t !== "undefined" ? t : (k) => k)(`concerns.${concern}`)} ${(typeof t !== "undefined" ? t : (k) => k)(`types.${type}`)}`;
 
   return (
     <PremiumLayout title={title}>
@@ -118,8 +118,8 @@ const ResourceList = () => {
                 <Icon size={80} strokeWidth={1} />
               </div>
               <div className="space-y-1">
-                <p className="text-slate-900 font-black text-lg">{t('list.empty_title', { type })}</p>
-                <p className="text-slate-400 font-bold text-sm">{t('list.empty_desc')}</p>
+                <p className="text-slate-900 font-black text-lg">{(typeof t !== "undefined" ? t : (k) => k)('list.empty_title', { type })}</p>
+                <p className="text-slate-400 font-bold text-sm">{(typeof t !== "undefined" ? t : (k) => k)('list.empty_desc')}</p>
               </div>
             </div>
           )}
@@ -127,7 +127,7 @@ const ResourceList = () => {
 
         <footer className="pt-12 text-center">
             <p className="text-[10px] font-black text-slate-300 uppercase tracking-[0.3em]">
-                {t('list.footer')}
+                {(typeof t !== "undefined" ? t : (k) => k)('list.footer')}
             </p>
         </footer>
       </div>

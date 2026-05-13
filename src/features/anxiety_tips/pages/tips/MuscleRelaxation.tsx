@@ -6,14 +6,14 @@ const MuscleRelaxation = () => {
 
   return (
     <TipDetailLayout
-      title={t("app_title")}
-      whyItHelps={t("muscle_why")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+      whyItHelps={(typeof t !== "undefined" ? t : (k) => k)("muscle_why")}
       whatYouCanDo={[
-        t("muscle_step1"),
-        t("muscle_step2"),
-        t("muscle_step3"),
-        t("muscle_step4"),
-        t("muscle_step5"),
+        (typeof t !== "undefined" ? t : (k) => k)("muscle_step1"),
+        (typeof t !== "undefined" ? t : (k) => k)("muscle_step2"),
+        (typeof t !== "undefined" ? t : (k) => k)("muscle_step3"),
+        (typeof t !== "undefined" ? t : (k) => k)("muscle_step4"),
+        (typeof t !== "undefined" ? t : (k) => k)("muscle_step5"),
       ]}
     />
   );

@@ -41,7 +41,7 @@ const AngerQuiz = () => {
   const { t } = useTranslation();
   
   // Get questions from translation
-  const quizQuestions = t("questions", { returnObjects: true }) as any[];
+  const quizQuestions = (typeof t !== "undefined" ? t : (k) => k)("questions", { returnObjects: true }) as any[];
   const TOTAL = Array.isArray(quizQuestions) ? quizQuestions.length : 0;
 
   type Screen = "welcome" | "game" | "final" | "complete";
@@ -103,8 +103,8 @@ const AngerQuiz = () => {
   if (screen === "complete") {
     return (
       <PremiumComplete
-        title={t("app_title")}
-        message={t("complete_message", { score, total: TOTAL })}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+        message={(typeof t !== "undefined" ? t : (k) => k)("complete_message", { score, total: TOTAL })}
         onRestart={handleRetry}
       />
     );
@@ -112,8 +112,8 @@ const AngerQuiz = () => {
 
   return (
     <PremiumLayout
-      title={t("app_title")}
-      subtitle={screen === "game" ? t("question_nav", { current: step + 1, total: TOTAL }) : t("knowledge_quiz")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+      subtitle={screen === "game" ? (typeof t !== "undefined" ? t : (k) => k)("question_nav", { current: step + 1, total: TOTAL }) : (typeof t !== "undefined" ? t : (k) => k)("knowledge_quiz")}
       icon={<HelpCircle className="w-6 h-6 text-primary" />}
       onBack={screen !== "welcome" && screen !== "complete" ? handleRetry : undefined}
     >
@@ -134,21 +134,21 @@ const AngerQuiz = () => {
               </div>
               <div className="space-y-6">
                 <h1 className="text-3xl font-black text-slate-800 leading-tight">
-                  {t("welcome_title")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("welcome_title")}
                 </h1>
                 <p className="text-slate-500 font-medium leading-relaxed max-w-xs mx-auto text-base">
-                  {t("welcome_subtitle")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("welcome_subtitle")}
                 </p>
               </div>
               <button
                 onClick={() => setScreen("game")}
                 className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
               >
-                {t("start_quiz")}
+                {(typeof t !== "undefined" ? t : (k) => k)("start_quiz")}
                 <ChevronRight size={20} strokeWidth={3} />
               </button>
               <p className="text-slate-400 text-[10px] font-black uppercase tracking-[0.2em]">
-                {t("questions_count", { count: TOTAL })}
+                {(typeof t !== "undefined" ? t : (k) => k)("questions_count", { count: TOTAL })}
               </p>
             </motion.div>
           )}
@@ -183,13 +183,13 @@ const AngerQuiz = () => {
                       onClick={() => handleAnswer("myth")}
                       className="py-8 rounded-3xl bg-white border-2 border-red-50 text-red-500 font-black text-xl shadow-xl shadow-red-500/5 hover:bg-red-50 transition-all"
                     >
-                      {t("myth_button")}
+                      {(typeof t !== "undefined" ? t : (k) => k)("myth_button")}
                     </button>
                     <button
                       onClick={() => handleAnswer("fact")}
                       className="py-8 rounded-3xl bg-white border-2 border-emerald-50 text-emerald-500 font-black text-xl shadow-xl shadow-emerald-500/5 hover:bg-emerald-50 transition-all"
                     >
-                      {t("fact_button")}
+                      {(typeof t !== "undefined" ? t : (k) => k)("fact_button")}
                     </button>
                   </div>
                 ) : (
@@ -203,7 +203,7 @@ const AngerQuiz = () => {
                         {isCorrect ? <Check size={28} strokeWidth={4} /> : <XIcon size={28} strokeWidth={4} />}
                       </motion.div>
                       <p className={`text-2xl font-black ${isCorrect ? "text-emerald-600" : "text-red-600"}`}>
-                        {isCorrect ? t("correct") : t("incorrect")}
+                        {isCorrect ? (typeof t !== "undefined" ? t : (k) => k)("correct") : (typeof t !== "undefined" ? t : (k) => k)("incorrect")}
                       </p>
                     </div>
 
@@ -216,7 +216,7 @@ const AngerQuiz = () => {
                         >
                           <div className="flex items-center gap-2">
                             <span className={`px-4 py-1.5 rounded-full text-[10px] font-black uppercase tracking-[0.2em] ${current.answer === "myth" ? "bg-red-100 text-red-600" : "bg-emerald-100 text-emerald-600"}`}>
-                              {current.answer === "myth" ? t("its_a_myth") : t("its_a_fact")}
+                              {current.answer === "myth" ? (typeof t !== "undefined" ? t : (k) => k)("its_a_myth") : (typeof t !== "undefined" ? t : (k) => k)("its_a_fact")}
                             </span>
                           </div>
                           <p className="text-slate-700 font-bold text-base leading-relaxed">
@@ -225,7 +225,7 @@ const AngerQuiz = () => {
                           {current.example && (
                             <div className="pt-4 border-t border-slate-50">
                               <p className="text-slate-400 text-xs font-bold italic">
-                                {t("example_label", { example: current.example })}
+                                {(typeof t !== "undefined" ? t : (k) => k)("example_label", { example: current.example })}
                               </p>
                             </div>
                           )}
@@ -238,7 +238,7 @@ const AngerQuiz = () => {
                         onClick={handleNext}
                         className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                       >
-                        {step + 1 === TOTAL ? t("see_results") : t("next_question")}
+                        {step + 1 === TOTAL ? (typeof t !== "undefined" ? t : (k) => k)("see_results") : (typeof t !== "undefined" ? t : (k) => k)("next_question")}
                         <ChevronRight size={20} strokeWidth={3} />
                       </button>
                     )}
@@ -259,12 +259,12 @@ const AngerQuiz = () => {
                 <div className="w-24 h-24 bg-primary/10 rounded-[2.5rem] flex items-center justify-center mx-auto mb-6 text-5xl">
                   🏆
                 </div>
-                <h2 className="text-2xl font-black text-slate-800 mb-2">{t("results_title")}</h2>
+                <h2 className="text-2xl font-black text-slate-800 mb-2">{(typeof t !== "undefined" ? t : (k) => k)("results_title")}</h2>
                 <div className="text-7xl font-black text-slate-900 my-8 tabular-nums">{score}<span className="text-slate-300 text-4xl">/{TOTAL}</span></div>
                 <p className="text-slate-500 font-black text-sm leading-relaxed uppercase tracking-widest">
-                  {score === TOTAL ? t("expert_level") : 
-                   score >= 3 ? t("great_progress") : 
-                   t("learning_journey")}
+                  {score === TOTAL ? (typeof t !== "undefined" ? t : (k) => k)("expert_level") : 
+                   score >= 3 ? (typeof t !== "undefined" ? t : (k) => k)("great_progress") : 
+                   (typeof t !== "undefined" ? t : (k) => k)("learning_journey")}
                 </p>
               </div>
 
@@ -274,14 +274,14 @@ const AngerQuiz = () => {
                   className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                 >
                   <Sparkles size={20} strokeWidth={3} />
-                  {t("finish_activity")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("finish_activity")}
                 </button>
                 <button
                   onClick={handleRetry}
                   className="w-full py-5 rounded-2xl bg-white text-slate-600 font-black text-lg border border-slate-200 hover:bg-slate-50 transition-all flex items-center justify-center gap-3 shadow-sm"
                 >
                   <RotateCcw size={20} strokeWidth={3} />
-                  {t("try_again")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("try_again")}
                 </button>
               </div>
             </motion.div>

@@ -7,7 +7,7 @@ interface Props {
 export default function NavigationDots({ active, onNavigate }: Props) {
   const { t } = useTranslation();
   return (
-    <div className="flex items-center justify-center gap-3 mt-8" role="navigation" aria-label={t("screen_navigation")}>
+    <div className="flex items-center justify-center gap-3 mt-8" role="navigation" aria-label={(typeof t !== "undefined" ? t : (k) => k)("screen_navigation")}>
       {[0, 1, 2, 3].map((i) => (
         <button
           key={i}

@@ -33,7 +33,7 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       icon={<Sparkles className="w-6 h-6 text-primary" />}
       onBack={currentIdx > 0 && screen !== 'complete' ? () => setScreen(screenOrder[currentIdx - 1]) : undefined}
       onReset={currentIdx > 0 && screen !== 'complete' ? () => setScreen('intro') : undefined}
@@ -62,12 +62,12 @@ const Index = () => {
                 className="w-full flex-1 flex flex-col"
               >
                 <PremiumIntro
-                  title={t("app_title")}
-                  description={t("intro.description")}
+                  title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+                  description={(typeof t !== "undefined" ? t : (k) => k)("intro.description")}
                   onStart={handleBegin}
                   icon={<Sparkles size={32} />}
-                  benefits={t('intro.benefits', { returnObjects: true }) as string[]}
-                  duration={t('app_duration', "2-3 minutes")}
+                  benefits={(typeof t !== "undefined" ? t : (k) => k)('intro.benefits', { returnObjects: true }) as string[]}
+                  duration={(typeof t !== "undefined" ? t : (k) => k)('app_duration', "2-3 minutes")}
                 />
               </motion.div>
             )}
@@ -113,8 +113,8 @@ const Index = () => {
                 className="w-full flex-1 flex flex-col"
               >
                 <PremiumComplete
-                  title={t("app_title")}
-                  message={t("app_complete_message")}
+                  title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+                  message={(typeof t !== "undefined" ? t : (k) => k)("app_complete_message")}
                   onRestart={() => setScreen("feelings")}
                   icon={<Sparkles size={48} />}
                 />

@@ -55,10 +55,10 @@ const PastLetters = () => {
 
   if (loading) {
     return (
-      <PremiumLayout title={t("app_title")}>
+      <PremiumLayout title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}>
         <div className="flex flex-col items-center justify-center py-24 gap-4">
           <Loader2 className="w-10 h-10 animate-spin text-primary opacity-20" />
-          <p className="text-slate-400 font-black text-[10px] uppercase tracking-widest">{t("loading_journey")}</p>
+          <p className="text-slate-400 font-black text-[10px] uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)("loading_journey")}</p>
         </div>
       </PremiumLayout>
     );
@@ -66,7 +66,7 @@ const PastLetters = () => {
 
   if (error) {
     return (
-      <PremiumLayout title={t("app_title")}>
+      <PremiumLayout title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}>
         <div className="text-center py-20">
           <p className="text-red-500 font-medium">{error}</p>
           <motion.button
@@ -74,7 +74,7 @@ const PastLetters = () => {
             whileTap={{ scale: 0.95 }}
             onClick={() => window.location.reload()}
             className="mt-4 px-6 py-3 bg-primary text-primary-foreground font-black rounded-2xl shadow-xl shadow-primary/20"
-          >{t("retry")}</motion.button>
+          >{(typeof t !== "undefined" ? t : (k) => k)("retry")}</motion.button>
         </div>
       </PremiumLayout>
     );
@@ -84,7 +84,7 @@ const PastLetters = () => {
   if (selectedEntry) {
     return (
       <PremiumLayout
-        title={t("app_title")}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
         onBack={() => setSelectedEntry(null)}
       >
         <div className="w-full space-y-10 pb-12">
@@ -121,7 +121,7 @@ const PastLetters = () => {
 
             {selectedEntry.emotionalState && (
               <div className="pt-10 border-t border-slate-50 relative z-10">
-                <p className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-4">{t("how_you_felt_after_writing")}</p>
+                <p className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-4">{(typeof t !== "undefined" ? t : (k) => k)("how_you_felt_after_writing")}</p>
                 <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-6 py-3 rounded-full text-sm font-black shadow-sm">
                   <Heart size={16} fill="currentColor" />
                   {selectedEntry.emotionalState}
@@ -134,12 +134,12 @@ const PastLetters = () => {
         <AlertDialog open={!!deleteId} onOpenChange={() => setDeleteId(null)}>
           <AlertDialogContent className="rounded-[3rem] border-4 border-slate-100 p-12 max-w-md">
             <AlertDialogHeader className="space-y-4">
-              <AlertDialogTitle className="text-3xl font-black text-slate-900 leading-tight">{t("delete_letter")}</AlertDialogTitle>
-              <AlertDialogDescription className="text-slate-500 text-lg font-bold leading-relaxed">{t("this_memory_will_be_removed_from_your_journey_this")}</AlertDialogDescription>
+              <AlertDialogTitle className="text-3xl font-black text-slate-900 leading-tight">{(typeof t !== "undefined" ? t : (k) => k)("delete_letter")}</AlertDialogTitle>
+              <AlertDialogDescription className="text-slate-500 text-lg font-bold leading-relaxed">{(typeof t !== "undefined" ? t : (k) => k)("this_memory_will_be_removed_from_your_journey_this")}</AlertDialogDescription>
             </AlertDialogHeader>
             <AlertDialogFooter className="mt-10 gap-4">
-              <AlertDialogCancel className="flex-1 rounded-2xl py-4 border-2 border-slate-100 font-black text-sm uppercase tracking-widest hover:bg-slate-50 transition-all">{t("cancel")}</AlertDialogCancel>
-              <AlertDialogAction onClick={handleDelete} className="flex-1 rounded-2xl py-4 bg-rose-500 hover:bg-rose-600 text-white font-black text-sm uppercase tracking-widest shadow-xl shadow-rose-200 transition-all">{t("delete")}</AlertDialogAction>
+              <AlertDialogCancel className="flex-1 rounded-2xl py-4 border-2 border-slate-100 font-black text-sm uppercase tracking-widest hover:bg-slate-50 transition-all">{(typeof t !== "undefined" ? t : (k) => k)("cancel")}</AlertDialogCancel>
+              <AlertDialogAction onClick={handleDelete} className="flex-1 rounded-2xl py-4 bg-rose-500 hover:bg-rose-600 text-white font-black text-sm uppercase tracking-widest shadow-xl shadow-rose-200 transition-all">{(typeof t !== "undefined" ? t : (k) => k)("delete")}</AlertDialogAction>
             </AlertDialogFooter>
           </AlertDialogContent>
         </AlertDialog>
@@ -149,15 +149,15 @@ const PastLetters = () => {
 
   return (
     <PremiumLayout
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       onBack={() => navigate("..")}
     >
       <div className="w-full space-y-10 pb-12">
         <header className="space-y-4">
           <div className="flex items-center gap-2 text-primary font-black text-[10px] uppercase tracking-[0.2em]">
-            <Sparkles size={16} />{t("your_written_journey")}</div>
-          <h1 className="text-4xl font-black text-slate-900 leading-tight tracking-tight">{t("saved_letters")}</h1>
-          <p className="text-slate-500 text-lg font-bold leading-relaxed max-w-sm">{t("reflect_on_your_growth_through_your_past_words")}</p>
+            <Sparkles size={16} />{(typeof t !== "undefined" ? t : (k) => k)("your_written_journey")}</div>
+          <h1 className="text-4xl font-black text-slate-900 leading-tight tracking-tight">{(typeof t !== "undefined" ? t : (k) => k)("saved_letters")}</h1>
+          <p className="text-slate-500 text-lg font-bold leading-relaxed max-w-sm">{(typeof t !== "undefined" ? t : (k) => k)("reflect_on_your_growth_through_your_past_words")}</p>
         </header>
 
         {(!entries || entries.length === 0) ? (
@@ -166,15 +166,15 @@ const PastLetters = () => {
               <Mail size={48} strokeWidth={1} />
             </div>
             <div className="space-y-2">
-              <p className="text-slate-400 font-black text-xs uppercase tracking-widest">{t("no_letters_found_yet")}</p>
-              <p className="text-slate-300 text-sm font-bold">{t("your_future_self_is_waiting_to_hear_from_you")}</p>
+              <p className="text-slate-400 font-black text-xs uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)("no_letters_found_yet")}</p>
+              <p className="text-slate-300 text-sm font-bold">{(typeof t !== "undefined" ? t : (k) => k)("your_future_self_is_waiting_to_hear_from_you")}</p>
             </div>
             <motion.button
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               onClick={() => navigate("../write")}
               className="px-10 py-5 bg-primary text-white font-black text-lg rounded-[2rem] shadow-xl shadow-primary/20 hover:shadow-2xl transition-all"
-            >{t("write_first_letter")}</motion.button>
+            >{(typeof t !== "undefined" ? t : (k) => k)("write_first_letter")}</motion.button>
           </div>
         ) : (
           <div className="grid grid-cols-1 gap-6">
@@ -204,7 +204,7 @@ const PastLetters = () => {
                   {entry.content}
                 </p>
                 <div className="pt-6 border-t border-slate-50 flex items-center justify-between">
-                  <span className="text-[10px] font-black text-slate-300 uppercase tracking-widest group-hover:text-slate-500 transition-colors">{t("read_full_letter")}</span>
+                  <span className="text-[10px] font-black text-slate-300 uppercase tracking-widest group-hover:text-slate-500 transition-colors">{(typeof t !== "undefined" ? t : (k) => k)("read_full_letter")}</span>
                   <Mail size={16} className="text-slate-200 group-hover:text-primary transition-all" />
                 </div>
               </motion.button>

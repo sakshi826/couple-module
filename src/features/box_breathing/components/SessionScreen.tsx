@@ -105,7 +105,7 @@ const SessionScreen = ({ onComplete, onEnd }: Props) => {
                   exit={{ opacity: 0, y: -5 }}
                   className="text-primary-foreground font-bold text-xl uppercase tracking-widest block"
                 >
-                  {t(phase.label)}
+                  {(typeof t !== "undefined" ? t : (k) => k)(phase.label)}
                 </motion.span>
               </AnimatePresence>
               <span className="text-primary-foreground/70 text-4xl font-light tabular-nums mt-2 block">

@@ -25,11 +25,11 @@ const SleepApp = () => {
     <Screen4Reflection key={3} />,
   ];
 
-  const pillLabels = t("pill_labels", { returnObjects: true }) as string[];
+  const pillLabels = (typeof t !== "undefined" ? t : (k) => k)("pill_labels", { returnObjects: true }) as string[];
 
   return (
     <PremiumLayout
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       subtitle={pillLabels[currentScreen]}
       icon={<Moon className="w-6 h-6 text-primary" />}
       onBack={currentScreen > 0 ? goBack : undefined}

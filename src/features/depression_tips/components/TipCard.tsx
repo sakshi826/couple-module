@@ -34,10 +34,10 @@ export default function TipCard({ tip, index }: { tip: Tip; index: number }) {
       </div>
       <div className="flex-1 min-w-0">
         <h3 className="font-bold text-slate-800 text-base group-hover:text-primary transition-colors">
-          {k ? t(`${k}_title`) : tip.title}
+          {k ? (typeof t !== "undefined" ? t : (k) => k)(`${k}_title`) : tip.title}
         </h3>
         <p className="text-slate-400 text-xs font-medium leading-relaxed mt-1 line-clamp-2">
-          {k ? t(`${k}_preview`) : tip.preview}
+          {k ? (typeof t !== "undefined" ? t : (k) => k)(`${k}_preview`) : tip.preview}
         </p>
       </div>
       <ChevronRight className="w-5 h-5 text-slate-300 group-hover:translate-x-1 transition-transform" />

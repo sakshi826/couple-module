@@ -14,9 +14,9 @@ export const PastEntries = ({ entries, onBack }: Props) => {
     <div className="flex-1 flex flex-col gap-8 py-4" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
       <header className="text-center space-y-2">
         <h2 className="text-3xl font-black text-slate-800 leading-tight">
-          {t("past_entries_title")}
+          {(typeof t !== "undefined" ? t : (k) => k)("past_entries_title")}
         </h2>
-        <p className="text-slate-500 font-medium text-base">{t("past_entries_subtitle")}</p>
+        <p className="text-slate-500 font-medium text-base">{(typeof t !== "undefined" ? t : (k) => k)("past_entries_subtitle")}</p>
       </header>
 
       <div className="flex-1 overflow-y-auto pr-2 space-y-6">
@@ -26,7 +26,7 @@ export const PastEntries = ({ entries, onBack }: Props) => {
               ⏳
             </div>
             <p className="text-slate-500 font-medium text-base leading-relaxed">
-              {t("no_past_entries")}
+              {(typeof t !== "undefined" ? t : (k) => k)("no_past_entries")}
             </p>
           </div>
         ) : (
@@ -60,7 +60,7 @@ export const PastEntries = ({ entries, onBack }: Props) => {
 
                 {entry.smallStep && (
                   <div className="pt-4 border-t border-slate-50">
-                    <p className="text-[10px] font-black text-slate-300 uppercase tracking-[0.2em] mb-2">{t("label_step_preserved")}</p>
+                    <p className="text-[10px] font-black text-slate-300 uppercase tracking-[0.2em] mb-2">{(typeof t !== "undefined" ? t : (k) => k)("label_step_preserved")}</p>
                     <p className="text-slate-500 text-sm font-bold italic">
                       "{entry.smallStep}"
                     </p>
@@ -77,7 +77,7 @@ export const PastEntries = ({ entries, onBack }: Props) => {
         className="w-full bg-white text-slate-600 py-5 rounded-2xl font-black text-lg border border-slate-200 hover:bg-slate-50 transition-all flex items-center justify-center gap-3 shadow-sm"
       >
         <ChevronLeft size={20} strokeWidth={3} />
-        {t("back_to_reflection_button")}
+        {(typeof t !== "undefined" ? t : (k) => k)("back_to_reflection_button")}
       </button>
     </div>
   );

@@ -7,12 +7,12 @@ const IntroScreen = ({ onNext }: { onNext: () => void }) => {
 
   return (
     <PremiumIntro
-      title={t("app_title")}
-      description={t("app_description")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+      description={(typeof t !== "undefined" ? t : (k) => k)("app_description")}
       onStart={onNext}
       icon={<ListChecks size={32} />}
-      benefits={[t('intro_p1'), t('intro_p2'), t('intro_p3')]}
-      duration={t('app_duration', "5 minutes")}
+      benefits={[(typeof t !== "undefined" ? t : (k) => k)('intro_p1'), (typeof t !== "undefined" ? t : (k) => k)('intro_p2'), (typeof t !== "undefined" ? t : (k) => k)('intro_p3')]}
+      duration={(typeof t !== "undefined" ? t : (k) => k)('app_duration', "5 minutes")}
     />
   );
 };

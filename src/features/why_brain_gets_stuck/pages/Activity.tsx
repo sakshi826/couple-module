@@ -13,20 +13,20 @@ const Screen1 = ({ onNext }: { onNext: () => void }) => {
       <div className="relative overflow-hidden rounded-[2.5rem] bg-white border border-slate-100 p-8 shadow-xl shadow-slate-200/50 min-h-[400px] flex flex-col justify-center text-center">
         <div className="text-6xl mb-6 animate-bounce-slow">🧠</div>
         <h1 className="text-2xl font-black text-slate-800 mb-4 leading-tight">
-          {t("s1.title")}
+          {(typeof t !== "undefined" ? t : (k) => k)("s1.title")}
         </h1>
         <p className="text-slate-600 leading-relaxed text-sm mb-6">
-          {t("s1.description")}
+          {(typeof t !== "undefined" ? t : (k) => k)("s1.description")}
         </p>
         <div className="bg-amber-50 rounded-2xl p-6 italic text-amber-900 text-sm leading-relaxed border-l-4 border-amber-400">
-          {t("s1.quote")}
+          {(typeof t !== "undefined" ? t : (k) => k)("s1.quote")}
         </div>
       </div>
       <button
         onClick={onNext}
         className="w-full bg-primary text-white py-5 rounded-[2rem] font-black text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] transition-all flex items-center justify-center gap-3"
       >
-        {t("s1.button")}
+        {(typeof t !== "undefined" ? t : (k) => k)("s1.button")}
         <ChevronRight size={20} />
       </button>
     </div>
@@ -37,7 +37,7 @@ const Screen2 = () => {
   const { t } = useTranslation();
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  const truths_data = t("s2.truths", { returnObjects: true }) as any[];
+  const truths_data = (typeof t !== "undefined" ? t : (k) => k)("s2.truths", { returnObjects: true }) as any[];
   const icons = [
     <Zap className="text-rose-500" />,
     <History className="text-blue-500" />,
@@ -48,9 +48,9 @@ const Screen2 = () => {
     <div className="flex flex-1 flex-col gap-6">
       <div className="relative overflow-hidden rounded-[2.5rem] bg-white border border-slate-100 p-8 shadow-xl shadow-slate-200/50 min-h-[400px]">
         <span className="inline-block rounded-full bg-slate-100 text-slate-600 px-3 py-1 text-[10px] font-black uppercase tracking-widest mb-4">
-          {t("s2.tag")}
+          {(typeof t !== "undefined" ? t : (k) => k)("s2.tag")}
         </span>
-        <h1 className="text-2xl font-black text-slate-800 mb-6">{t("s2.title")}</h1>
+        <h1 className="text-2xl font-black text-slate-800 mb-6">{(typeof t !== "undefined" ? t : (k) => k)("s2.title")}</h1>
 
         <div className="space-y-4">
           {truths_data.map((item, i) => (
@@ -86,7 +86,7 @@ const Screen2 = () => {
       <div className="bg-emerald-50 rounded-[2rem] p-6 flex items-center gap-4 border border-emerald-100">
         <Heart className="text-emerald-500 shrink-0" />
         <p className="text-emerald-900 text-sm font-bold leading-relaxed">
-          {t("s2.healing")}
+          {(typeof t !== "undefined" ? t : (k) => k)("s2.healing")}
         </p>
       </div>
     </div>
@@ -99,8 +99,8 @@ const Activity = () => {
 
   return (
     <PremiumLayout
-      title={t("app_title")}
-      subtitle={t("app_subtitle", { step: screen + 1, total: TOTAL_SCREENS })}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+      subtitle={(typeof t !== "undefined" ? t : (k) => k)("app_subtitle", { step: screen + 1, total: TOTAL_SCREENS })}
       icon={<Brain className="w-6 h-6 text-primary" />}
       onBack={screen > 0 ? () => setScreen(0) : undefined}
     >

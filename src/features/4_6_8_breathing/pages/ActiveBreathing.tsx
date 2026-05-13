@@ -109,11 +109,11 @@ const ActiveBreathing = () => {
   // Build countdown text
   const getCountdownText = () => {
   const { t } = useTranslation();
-    if (status === "idle") return t('ready');
+    if (status === "idle") return (typeof t !== "undefined" ? t : (k) => k)('ready');
     const phaseDuration = PHASE_DURATIONS[phase];
     const elapsed = phaseDuration - countdown + 1;
     const nums = Array.from({ length: Math.min(elapsed, phaseDuration) }, (_, i) => i + 1).join("…");
-    return `${t(phase)}… ${nums}`;
+    return `${(typeof t !== "undefined" ? t : (k) => k)(phase)}… ${nums}`;
   };
 
   // Dynamic transition duration based on phase (in ms)
@@ -127,7 +127,7 @@ const ActiveBreathing = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title")} 
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")} 
       onReset={() => { reset(); navigate("..", { replace: true }); }}
     >
       <div className="flex flex-col items-center gap-10 py-6">
@@ -135,7 +135,7 @@ const ActiveBreathing = () => {
         <div className="text-center space-y-3">
           <div className="flex items-center justify-center gap-2 text-primary font-black text-[10px] uppercase tracking-[0.2em]">
             <Wind size={16} />
-            Phase: {t(phase)}
+            Phase: {(typeof t !== "undefined" ? t : (k) => k)(phase)}
           </div>
           <h2 className="text-3xl font-black text-slate-900 tracking-tight">
             Round {currentRound} of {totalRounds}
@@ -213,7 +213,7 @@ const ActiveBreathing = () => {
             whileTap={{ scale: 0.9 }}
             onClick={reset}
             className="w-16 h-16 bg-slate-50 text-slate-400 rounded-full flex items-center justify-center hover:bg-slate-100 hover:text-slate-600 transition-all border-2 border-slate-100"
-            aria-label={t('reset')}
+            aria-label={(typeof t !== "undefined" ? t : (k) => k)('reset')}
           >
             <RefreshCw size={24} strokeWidth={3} />
           </motion.button>

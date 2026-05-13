@@ -51,9 +51,9 @@ export const BrainDump = ({ onComplete }: Props) => {
     <div className="flex flex-col items-center py-6 pb-24">
       <div className="w-full max-w-lg space-y-8">
         <header className="text-center">
-          <h1 className="text-3xl font-extrabold text-slate-900 mb-2 leading-tight">{t("app_description")}</h1>
+          <h1 className="text-3xl font-extrabold text-slate-900 mb-2 leading-tight">{(typeof t !== "undefined" ? t : (k) => k)("app_description")}</h1>
           <p className="text-slate-500 text-sm">
-            {t("dump_hint")}
+            {(typeof t !== "undefined" ? t : (k) => k)("dump_hint")}
           </p>
         </header>
 
@@ -74,7 +74,7 @@ export const BrainDump = ({ onComplete }: Props) => {
                         value={thought}
                         onChange={(e) => updateThought(index, e.target.value)}
                         onKeyDown={(e) => handleEnter(e, index)}
-                        placeholder={index === 0 ? t("dump_placeholder") : "Type another thought..."}
+                        placeholder={index === 0 ? (typeof t !== "undefined" ? t : (k) => k)("dump_placeholder") : "Type another thought..."}
                         className="w-full py-5 px-6 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-700 placeholder:text-slate-300 font-medium focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm"
                     />
                     {index === 0 && (
@@ -104,7 +104,7 @@ export const BrainDump = ({ onComplete }: Props) => {
             className="flex items-center gap-2 text-primary font-bold text-sm px-6 py-2"
           >
             <Plus size={18} />
-            {t("keep_going")}
+            {(typeof t !== "undefined" ? t : (k) => k)("keep_going")}
           </motion.button>
         </div>
 
@@ -116,11 +116,11 @@ export const BrainDump = ({ onComplete }: Props) => {
             disabled={filledThoughts.length === 0}
             className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-bold text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3 disabled:opacity-40 disabled:shadow-none"
           >
-            {t("finished")}
+            {(typeof t !== "undefined" ? t : (k) => k)("finished")}
             <ArrowRight size={20} />
           </motion.button>
           <p className="text-center text-slate-400 text-[10px] font-bold uppercase tracking-widest mt-4">
-             {t("breathe")}
+             {(typeof t !== "undefined" ? t : (k) => k)("breathe")}
           </p>
         </div>
       </div>

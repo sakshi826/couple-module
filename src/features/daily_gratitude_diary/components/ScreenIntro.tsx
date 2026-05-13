@@ -27,25 +27,25 @@ const ScreenIntro = ({ onStart }: ScreenIntroProps) => {
       </motion.div>
 
       <h1 className="font-heading text-[22px] font-medium text-foreground mb-3">
-        {t('app_title')}
+        {(typeof t !== "undefined" ? t : (k) => k)('app_title')}
       </h1>
 
       <p className="text-muted-foreground text-base mb-8">
-        {t('app_subtitle')}
+        {(typeof t !== "undefined" ? t : (k) => k)('app_subtitle')}
       </p>
 
       <div className="space-y-5 mb-12 w-full">
         <p className="text-foreground leading-[1.7]">
-          {t('intro_text_1')}
+          {(typeof t !== "undefined" ? t : (k) => k)('intro_text_1')}
         </p>
         <p className="text-foreground leading-[1.7]">
-          {t('intro_text_2')}
+          {(typeof t !== "undefined" ? t : (k) => k)('intro_text_2')}
         </p>
         <p className="text-foreground leading-[1.7]">
-          {t('intro_text_3')}
+          {(typeof t !== "undefined" ? t : (k) => k)('intro_text_3')}
         </p>
         <p className="text-muted-foreground leading-[1.7] italic">
-          {t('intro_text_italic')}
+          {(typeof t !== "undefined" ? t : (k) => k)('intro_text_italic')}
         </p>
       </div>
 
@@ -55,7 +55,7 @@ const ScreenIntro = ({ onStart }: ScreenIntroProps) => {
         onClick={onStart}
         className="w-full w-full h-[54px] bg-primary text-primary-foreground rounded-[30px] font-heading font-medium text-base shadow-[0_4px_20px_rgba(195,142,180,0.25)] active:bg-primary-pressed transition-colors duration-150"
       >
-        {t('start_button')}
+        {(typeof t !== "undefined" ? t : (k) => k)('start_button')}
       </motion.button>
     </motion.div>
   );

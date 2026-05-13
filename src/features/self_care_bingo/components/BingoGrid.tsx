@@ -12,31 +12,31 @@ const BingoGrid = ({ onWin }: BingoGridProps) => {
   const { t } = useTranslation();
 
   const BINGO_TILES = useMemo(() => [
-    { emoji: "🚶", text: t('tiles.walk') },
-    { emoji: "💧", text: t('tiles.water') },
-    { emoji: "📞", text: t('tiles.friend') },
-    { emoji: "📝", text: t('tiles.gratitudes') },
-    { emoji: "😴", text: t('tiles.nap') },
-    { emoji: "🧘", text: t('tiles.stretch') },
-    { emoji: "🥗", text: t('tiles.cook') },
-    { emoji: "🎵", text: t('tiles.music') },
-    { emoji: "🌬️", text: t('tiles.breathing') },
-    { emoji: "📖", text: t('tiles.read') },
-    { emoji: "🛁", text: t('tiles.bath') },
-    { emoji: "🌳", text: t('tiles.journal') },
-    { emoji: "⭐", text: t('tiles.free_space') },
-    { emoji: "🧹", text: t('tiles.declutter') },
-    { emoji: "🎨", text: t('tiles.recipe') },
-    { emoji: "🧘‍♀️", text: t('tiles.meditation') },
-    { emoji: "😌", text: t('tiles.mask') },
-    { emoji: "📵", text: t('tiles.unplug') },
-    { emoji: "💬", text: t('tiles.compliment') },
-    { emoji: "💊", text: t('tiles.sunset') },
-    { emoji: "🐱", text: t('tiles.smile') },
-    { emoji: "☕", text: t('tiles.kindness') },
-    { emoji: "📓", text: t('tiles.sleep') },
-    { emoji: "❤️", text: t('tiles.yoga') },
-    { emoji: "💃", text: t('tiles.dance') },
+    { emoji: "🚶", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.walk') },
+    { emoji: "💧", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.water') },
+    { emoji: "📞", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.friend') },
+    { emoji: "📝", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.gratitudes') },
+    { emoji: "😴", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.nap') },
+    { emoji: "🧘", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.stretch') },
+    { emoji: "🥗", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.cook') },
+    { emoji: "🎵", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.music') },
+    { emoji: "🌬️", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.breathing') },
+    { emoji: "📖", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.read') },
+    { emoji: "🛁", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.bath') },
+    { emoji: "🌳", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.journal') },
+    { emoji: "⭐", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.free_space') },
+    { emoji: "🧹", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.declutter') },
+    { emoji: "🎨", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.recipe') },
+    { emoji: "🧘‍♀️", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.meditation') },
+    { emoji: "😌", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.mask') },
+    { emoji: "📵", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.unplug') },
+    { emoji: "💬", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.compliment') },
+    { emoji: "💊", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.sunset') },
+    { emoji: "🐱", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.smile') },
+    { emoji: "☕", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.kindness') },
+    { emoji: "📓", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.sleep') },
+    { emoji: "❤️", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.yoga') },
+    { emoji: "💃", text: (typeof t !== "undefined" ? t : (k) => k)('tiles.dance') },
   ], [t]);
 
   const BINGO_LETTERS = [
@@ -115,15 +115,15 @@ const BingoGrid = ({ onWin }: BingoGridProps) => {
   return (
     <div className="flex flex-col items-center gap-8 py-4" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
       <header className="text-center space-y-2">
-        <h2 className="text-3xl font-black text-slate-800 leading-tight">{t("app_title")}</h2>
-        <p className="text-slate-500 font-medium text-base italic">{t("complete_a_line_of_self_care_to_win")}</p>
+        <h2 className="text-3xl font-black text-slate-800 leading-tight">{(typeof t !== "undefined" ? t : (k) => k)("app_title")}</h2>
+        <p className="text-slate-500 font-medium text-base italic">{(typeof t !== "undefined" ? t : (k) => k)("complete_a_line_of_self_care_to_win")}</p>
       </header>
 
       {/* Progress Section */}
       <div className="w-full bg-white rounded-[2.5rem] border border-slate-100 p-8 shadow-2xl shadow-slate-200/50">
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center gap-3 font-black text-slate-700 text-sm uppercase tracking-widest">
-            <Trophy size={18} className="text-primary" />{t("activities_logged")}</div>
+            <Trophy size={18} className="text-primary" />{(typeof t !== "undefined" ? t : (k) => k)("activities_logged")}</div>
           <span className="text-primary font-black text-lg">{progress}<span className="text-slate-300 text-sm">/25</span></span>
         </div>
         <div className="h-2 rounded-full bg-slate-50 overflow-hidden">
@@ -202,7 +202,7 @@ const BingoGrid = ({ onWin }: BingoGridProps) => {
           className="w-full bg-white text-slate-400 py-5 rounded-2xl font-black text-lg border border-slate-200 hover:bg-slate-50 transition-all flex items-center justify-center gap-3 shadow-sm"
         >
           <RefreshCw size={20} strokeWidth={3} />
-          {t('new_board')}
+          {(typeof t !== "undefined" ? t : (k) => k)('new_board')}
         </button>
       </div>
     </div>

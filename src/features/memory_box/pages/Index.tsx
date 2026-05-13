@@ -58,7 +58,7 @@ const Index = () => {
   const saveMemory = async () => {
     const userId = sessionStorage.getItem("user_id");
     if (!userId || !DATABASE_URL) {
-      toast.error(t("auth_error"));
+      toast.error((typeof t !== "undefined" ? t : (k) => k)("auth_error"));
       return;
     }
 
@@ -76,13 +76,13 @@ const Index = () => {
     try {
       const sql = neon(DATABASE_URL);
       await sql`INSERT INTO memory_box_entries (user_id, memory_data) VALUES (${userId}, ${newMemory})`;
-      toast.success(t("save_success"));
+      toast.success((typeof t !== "undefined" ? t : (k) => k)("save_success"));
       setMemories(prev => [newMemory, ...prev]);
       setLastSaved(newMemory);
       setScreen(3);
     } catch (error) {
       console.error("Failed to save memory:", error);
-      toast.error(t("save_error"));
+      toast.error((typeof t !== "undefined" ? t : (k) => k)("save_error"));
     } finally {
       setIsSaving(false);
     }
@@ -107,18 +107,18 @@ const Index = () => {
   if (screen === 5) {
     return (
       <PremiumComplete
-        title={t("app_title")}
-        message={t("complete_message", { name: name || "your loved one" })}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+        message={(typeof t !== "undefined" ? t : (k) => k)("complete_message", { name: name || "your loved one" })}
         onRestart={resetAll}
       />
     );
   }
 
-  const titles = t("screen_titles", { returnObjects: true }) as string[];
+  const titles = (typeof t !== "undefined" ? t : (k) => k)("screen_titles", { returnObjects: true }) as string[];
 
   return (
     <PremiumLayout
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       subtitle={titles[screen]}
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={screen > 0 ? () => setScreen(prev => prev - 1) : undefined}
@@ -179,7 +179,7 @@ const Index = () => {
                 className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
               >
                 <Save size={20} strokeWidth={3} />
-                {isSaving ? t("preserving") : t("preserve_memory")}
+                {isSaving ? (typeof t !== "undefined" ? t : (k) => k)("preserving") : (typeof t !== "undefined" ? t : (k) => k)("preserve_memory")}
               </button>
             </div>
           )}

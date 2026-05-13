@@ -29,7 +29,7 @@ const Handshake: React.FC<HandshakeProps> = ({ onSuccess }) => {
     return (
         <div className="flex h-[100dvh] w-screen flex-col items-center justify-center bg-[#F8FAFC]">
             <Loader size={45} color={COLORS.blueDark} />
-            <p className="mt-4 text-xs font-semibold text-[#2954a1]/70 tracking-widest animate-pulse uppercase">{t("secure_authentication")}</p>
+            <p className="mt-4 text-xs font-semibold text-[#2954a1]/70 tracking-widest animate-pulse uppercase">{(typeof t !== "undefined" ? t : (k) => k)("secure_authentication")}</p>
             {error && <p className="text-destructive text-xs mt-2">{error}</p>}
         </div>
     );

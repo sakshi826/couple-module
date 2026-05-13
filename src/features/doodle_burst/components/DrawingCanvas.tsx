@@ -158,9 +158,9 @@ const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabl
     <div className="flex flex-col items-stretch gap-3 w-full">
       {/* Tools */}
       <div className="flex justify-center gap-2">
-        <ToolButton icon={<Pen size={18} />} label={t("tool_pen")} active />
-        <ToolButton icon={<Undo2 size={18} />} label={t("tool_undo")} onClick={undo} />
-        <ToolButton icon={<Trash2 size={18} />} label={t("tool_clear")} onClick={clearCanvas} />
+        <ToolButton icon={<Pen size={18} />} label={(typeof t !== "undefined" ? t : (k) => k)("tool_pen")} active />
+        <ToolButton icon={<Undo2 size={18} />} label={(typeof t !== "undefined" ? t : (k) => k)("tool_undo")} onClick={undo} />
+        <ToolButton icon={<Trash2 size={18} />} label={(typeof t !== "undefined" ? t : (k) => k)("tool_clear")} onClick={clearCanvas} />
       </div>
 
       {/* Canvas */}

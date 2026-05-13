@@ -19,13 +19,13 @@ const Screen1 = ({ onNext }: Screen1Props) => {
       <div className="flex flex-col items-center text-center gap-4 flex-1 justify-center">
         <div style={{ fontSize: 62, lineHeight: 1 }}>🌙</div>
         <h1 style={{ fontSize: 20, fontWeight: 600, color: 'var(--sleep-body-color)', lineHeight: 1.35 }}>
-          {t("screen1.title")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screen1.title")}
         </h1>
         <p style={{ fontSize: 13.5, color: 'var(--sleep-sub-color)', lineHeight: 1.65 }}>
-          {t("screen1.p1")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screen1.p1")}
         </p>
         <p style={{ fontSize: 13.5, color: 'var(--sleep-sub-color)', lineHeight: 1.65 }}>
-          {t("screen1.p2")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screen1.p2")}
         </p>
 
         {/* Insight card */}
@@ -38,7 +38,7 @@ const Screen1 = ({ onNext }: Screen1Props) => {
           <div className="flex gap-2 items-start">
             <span style={{ fontSize: 18 }}>💡</span>
             <p style={{ fontSize: 12.5, fontStyle: 'italic', color: 'var(--sleep-sub-color)', lineHeight: 1.6 }}>
-              {t("screen1.insight")}
+              {(typeof t !== "undefined" ? t : (k) => k)("screen1.insight")}
             </p>
           </div>
         </div>
@@ -46,7 +46,7 @@ const Screen1 = ({ onNext }: Screen1Props) => {
         {/* Meta row */}
         <div className="flex items-center gap-2 justify-center">
           <div style={{ width: 5, height: 5, borderRadius: '50%', background: 'var(--sleep-meta-color)' }} />
-          <span style={{ fontSize: 12, color: 'var(--sleep-meta-color)' }}>{t("screen1.meta")}</span>
+          <span style={{ fontSize: 12, color: 'var(--sleep-meta-color)' }}>{(typeof t !== "undefined" ? t : (k) => k)("screen1.meta")}</span>
         </div>
       </div>
 
@@ -56,7 +56,7 @@ const Screen1 = ({ onNext }: Screen1Props) => {
         color: '#fff', fontWeight: 500, fontSize: 15, cursor: 'pointer',
         marginTop: 16,
       }}>
-        {t("screen1.button")}
+        {(typeof t !== "undefined" ? t : (k) => k)("screen1.button")}
       </button>
     </div>
   );

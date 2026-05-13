@@ -49,7 +49,7 @@ export function FullScreenSky({ thought, onNext }: FullScreenSkyProps) {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 0.8 }}
         className="text-[22px] font-medium text-foreground text-center z-10"
-      >{t("place_your_thought_on_a_cloud")}</motion.h2>
+      >{(typeof t !== "undefined" ? t : (k) => k)("place_your_thought_on_a_cloud")}</motion.h2>
 
       {/* Main thought cloud */}
       <motion.div
@@ -72,9 +72,9 @@ export function FullScreenSky({ thought, onNext }: FullScreenSkyProps) {
           transition={{ delay: 1, duration: 1 }}
           className="text-center"
         >
-          <p className="text-base text-foreground/70 text-justify mb-1">{t("watch_the_cloud_move_across_the_sky")}</p>
-          <p className="text-base text-foreground/70 text-justify mb-1">{t("your_thought_is_simply_passing_through")}</p>
-          <p className="text-base text-foreground/60 italic mt-2">{t("you_are_the_sky_observing_it")}</p>
+          <p className="text-base text-foreground/70 text-justify mb-1">{(typeof t !== "undefined" ? t : (k) => k)("watch_the_cloud_move_across_the_sky")}</p>
+          <p className="text-base text-foreground/70 text-justify mb-1">{(typeof t !== "undefined" ? t : (k) => k)("your_thought_is_simply_passing_through")}</p>
+          <p className="text-base text-foreground/60 italic mt-2">{(typeof t !== "undefined" ? t : (k) => k)("you_are_the_sky_observing_it")}</p>
         </motion.div>
         <motion.button
           initial={{ opacity: 0, y: 20 }}
@@ -82,7 +82,7 @@ export function FullScreenSky({ thought, onNext }: FullScreenSkyProps) {
           transition={{ delay: 1.5, duration: 0.6 }}
           onClick={onNext}
           className="w-full max-w-xs py-3 px-6 rounded-lg font-medium text-base bg-primary text-primary-foreground hover:opacity-90 transition-all duration-200"
-        >{t("btn_next")}</motion.button>
+        >{(typeof t !== "undefined" ? t : (k) => k)("btn_next")}</motion.button>
       </div>
     </motion.div>
   );

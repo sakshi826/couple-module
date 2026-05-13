@@ -76,7 +76,7 @@ export default function WindowApp() {
   const handleSave = useCallback(async () => {
     const userId = sessionStorage.getItem("user_id");
     if (!userId || !DATABASE_URL) {
-      toast.error(t("toasts.auth_error"));
+      toast.error((typeof t !== "undefined" ? t : (k) => k)("toasts.auth_error"));
       return;
     }
 
@@ -87,14 +87,14 @@ export default function WindowApp() {
     try {
       const sql = neon(DATABASE_URL);
       await sql`INSERT INTO window_of_tolerance_entries (user_id, check_in_data) VALUES (${userId}, ${checkInData})`;
-      toast.success(t("toasts.save_success"));
+      toast.success((typeof t !== "undefined" ? t : (k) => k)("toasts.save_success"));
       setHistory(prev => [entry, ...prev]);
       setJournal("");
       setSelectedZone(null);
       setScreen(5); // Go to complete
     } catch (error) {
       console.error("Failed to save check-in:", error);
-      toast.error(t("toasts.save_error"));
+      toast.error((typeof t !== "undefined" ? t : (k) => k)("toasts.save_error"));
     } finally {
       setIsSaving(false);
     }
@@ -103,18 +103,18 @@ export default function WindowApp() {
   if (screen === 5) {
     return (
       <PremiumComplete
-        title={t("app_title")}
-        message={t("complete.message")}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+        message={(typeof t !== "undefined" ? t : (k) => k)("complete.message")}
         onRestart={() => setScreen(0)}
       />
     );
   }
 
-  const titles = t("nav", { returnObjects: true }) as string[];
+  const titles = (typeof t !== "undefined" ? t : (k) => k)("nav", { returnObjects: true }) as string[];
 
   return (
     <PremiumLayout
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       subtitle={titles[screen]}
       icon={<Activity className="w-6 h-6 text-primary" />}
       onBack={screen > 0 ? () => setScreen(prev => prev - 1) : undefined}
@@ -184,7 +184,7 @@ export default function WindowApp() {
                   className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                 >
                   <Save size={20} strokeWidth={3} />
-                  {isSaving ? t("screens.toolkit.preserving") : t("screens.toolkit.preserve_button")}
+                  {isSaving ? (typeof t !== "undefined" ? t : (k) => k)("screens.toolkit.preserving") : (typeof t !== "undefined" ? t : (k) => k)("screens.toolkit.preserve_button")}
                 </button>
               </div>
             )}

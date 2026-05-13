@@ -16,16 +16,16 @@ const HistoryView = ({ reflections, onClose }: HistoryViewProps) => {
       <button
         onClick={onClose}
         className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-muted active:bg-muted transition-colors text-foreground"
-        aria-label={t("close_history")}
+        aria-label={(typeof t !== "undefined" ? t : (k) => k)("close_history")}
       >
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m15 18-6-6 6-6"/></svg>
       </button>
-      <h2 className="flex-1 text-center font-heading text-xl text-foreground pr-10">{t("past_reflections")}</h2>
+      <h2 className="flex-1 text-center font-heading text-xl text-foreground pr-10">{(typeof t !== "undefined" ? t : (k) => k)("past_reflections")}</h2>
     </div>
 
     <div className="flex-1 px-6 py-4 space-y-4 overflow-y-auto">
       {reflections.length === 0 ? (
-        <p className="text-center text-muted-foreground font-body mt-20">{t("no_reflections_yet")}<br />{t("your_entries_will_appear_here")}</p>
+        <p className="text-center text-muted-foreground font-body mt-20">{(typeof t !== "undefined" ? t : (k) => k)("no_reflections_yet")}<br />{(typeof t !== "undefined" ? t : (k) => k)("your_entries_will_appear_here")}</p>
       ) : (
         reflections.map((r) => (
           <div key={r.id} className="bg-card rounded-lg p-5 shadow-card animate-fade-in">

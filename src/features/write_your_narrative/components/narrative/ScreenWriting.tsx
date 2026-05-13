@@ -12,7 +12,7 @@ const ScreenWriting = ({ writing, setWriting, onContinue }: Props) => {
   const { t } = useTranslation();
   const [activePrompt, setActivePrompt] = useState<string | null>(null);
 
-  const prompts = t("writing.prompts", { returnObjects: true }) as any[];
+  const prompts = (typeof t !== "undefined" ? t : (k) => k)("writing.prompts", { returnObjects: true }) as any[];
 
   const handlePromptClick = (prompt: string) => {
   const { t } = useTranslation();
@@ -26,14 +26,14 @@ const ScreenWriting = ({ writing, setWriting, onContinue }: Props) => {
     <div className="flex-1 flex flex-col gap-8" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
       <div className="text-center space-y-2">
         <h1 className="text-3xl font-black text-slate-800 leading-tight">
-          {t("writing.title")}
+          {(typeof t !== "undefined" ? t : (k) => k)("writing.title")}
         </h1>
-        <p className="text-slate-500 font-medium text-base italic">{t("writing.subtitle")}</p>
+        <p className="text-slate-500 font-medium text-base italic">{(typeof t !== "undefined" ? t : (k) => k)("writing.subtitle")}</p>
       </div>
 
       <div className="space-y-4">
         <p className="text-center text-slate-400 text-[10px] font-black uppercase tracking-[0.2em]">
-          {t("writing.prompt_label")}
+          {(typeof t !== "undefined" ? t : (k) => k)("writing.prompt_label")}
         </p>
         <div className="flex flex-wrap justify-center gap-3">
           {prompts && prompts.map((p) => (
@@ -72,7 +72,7 @@ const ScreenWriting = ({ writing, setWriting, onContinue }: Props) => {
         <textarea
           value={writing}
           onChange={(e) => setWriting(e.target.value)}
-          placeholder={t("writing.placeholder")}
+          placeholder={(typeof t !== "undefined" ? t : (k) => k)("writing.placeholder")}
           className="relative z-[1] w-full min-h-[350px] bg-transparent pl-16 pr-10 py-8 text-slate-800 text-lg leading-[40px] text-left placeholder:text-slate-200 focus:outline-none resize-none font-medium"
         />
       </div>
@@ -80,14 +80,14 @@ const ScreenWriting = ({ writing, setWriting, onContinue }: Props) => {
       <div className="space-y-6">
         <p className="text-center text-slate-400 text-[13px] flex items-center justify-center gap-2 italic">
           <Sparkles size={14} className="text-primary/40" />
-          {t("writing.notice")}
+          {(typeof t !== "undefined" ? t : (k) => k)("writing.notice")}
         </p>
 
         <button
           onClick={onContinue}
           className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
         >
-          {t("writing.button")}
+          {(typeof t !== "undefined" ? t : (k) => k)("writing.button")}
           <ChevronRight size={20} strokeWidth={3} />
         </button>
       </div>

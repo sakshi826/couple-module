@@ -18,15 +18,15 @@ const MissionScreen = ({ data, onEdit, onHome, onChange }: MissionScreenProps) =
   const { t } = useTranslation();
 
   const valuesText = data.values
-    .map(v => t(v))
+    .map(v => (typeof t !== "undefined" ? t : (k) => k)(v))
     .join(", ")
-    .replace(/, ([^,]*)$/, `${t('mission_and')}$1`) || t('mission_my_values');
+    .replace(/, ([^,]*)$/, `${(typeof t !== "undefined" ? t : (k) => k)('mission_and')}$1`) || (typeof t !== "undefined" ? t : (k) => k)('mission_my_values');
 
   const [statement, setStatement] = useState("");
 
   useEffect(() => {
     setStatement(
-      `${t('mission_i_choose')}${valuesText.toLowerCase()},\n${t('mission_and_to_be')}${data.beingSomeoneWho.toLowerCase()},\n${t('mission_so_my_life')}${data.lifeFeelMore.toLowerCase()}.`
+      `${(typeof t !== "undefined" ? t : (k) => k)('mission_i_choose')}${valuesText.toLowerCase()},\n${(typeof t !== "undefined" ? t : (k) => k)('mission_and_to_be')}${data.beingSomeoneWho.toLowerCase()},\n${(typeof t !== "undefined" ? t : (k) => k)('mission_so_my_life')}${data.lifeFeelMore.toLowerCase()}.`
     );
   }, [t, valuesText, data.beingSomeoneWho, data.lifeFeelMore]);
 
@@ -42,7 +42,7 @@ const MissionScreen = ({ data, onEdit, onHome, onChange }: MissionScreenProps) =
         [userId, statement, data.values]
       );
 
-      toast.success(t('mission_saved'));
+      toast.success((typeof t !== "undefined" ? t : (k) => k)('mission_saved'));
     } catch (error) {
       console.error(error);
       toast.error("Failed to save statement.");
@@ -51,8 +51,8 @@ const MissionScreen = ({ data, onEdit, onHome, onChange }: MissionScreenProps) =
 
   return (
     <PremiumComplete
-      title={t("app_title")}
-      message={t('mission_is_reminder')}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+      message={(typeof t !== "undefined" ? t : (k) => k)('mission_is_reminder')}
       onRestart={onHome}
     >
       <div className="space-y-8 w-full max-w-lg mx-auto mt-8">
@@ -75,8 +75,8 @@ const MissionScreen = ({ data, onEdit, onHome, onChange }: MissionScreenProps) =
         </motion.div>
 
         <div className="space-y-4 text-slate-500 text-sm font-medium leading-relaxed text-center italic">
-          <p>{t('mission_not_rule')}</p>
-          <p>{t('mission_return_whenever')}</p>
+          <p>{(typeof t !== "undefined" ? t : (k) => k)('mission_not_rule')}</p>
+          <p>{(typeof t !== "undefined" ? t : (k) => k)('mission_return_whenever')}</p>
         </div>
 
         <div className="grid grid-cols-2 gap-4">
@@ -87,7 +87,7 @@ const MissionScreen = ({ data, onEdit, onHome, onChange }: MissionScreenProps) =
             className="py-4 bg-primary text-primary-foreground font-bold rounded-2xl flex items-center justify-center gap-2 shadow-lg shadow-primary/20"
           >
             <Save size={18} />
-            {t('mission_save')}
+            {(typeof t !== "undefined" ? t : (k) => k)('mission_save')}
           </motion.button>
           
           <motion.button
@@ -97,7 +97,7 @@ const MissionScreen = ({ data, onEdit, onHome, onChange }: MissionScreenProps) =
             className="py-4 bg-white border-2 border-slate-100 text-slate-600 font-bold rounded-2xl flex items-center justify-center gap-2 hover:bg-slate-50 transition-all shadow-sm"
           >
             <Pencil size={18} />
-            {t('mission_edit')}
+            {(typeof t !== "undefined" ? t : (k) => k)('mission_edit')}
           </motion.button>
         </div>
       </div>

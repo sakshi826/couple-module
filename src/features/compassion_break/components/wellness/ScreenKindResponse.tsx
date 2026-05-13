@@ -18,7 +18,7 @@ const ScreenKindResponse = ({ onContinue }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        {t("kindness_title")}
+        {(typeof t !== "undefined" ? t : (k) => k)("kindness_title")}
       </motion.h1>
 
       <motion.p
@@ -27,7 +27,7 @@ const ScreenKindResponse = ({ onContinue }: Props) => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.15, duration: 0.6 }}
       >
-        {t("kindness_subtitle")}
+        {(typeof t !== "undefined" ? t : (k) => k)("kindness_subtitle")}
       </motion.p>
 
       <motion.div
@@ -36,10 +36,10 @@ const ScreenKindResponse = ({ onContinue }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.35, duration: 0.6 }}
       >
-        <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-4">{t("label_kind_message")}</p>
+        <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-4">{(typeof t !== "undefined" ? t : (k) => k)("label_kind_message")}</p>
         <textarea
           className="w-full bg-slate-50 border-none rounded-2xl p-6 text-center text-lg font-bold text-slate-800 focus:ring-2 focus:ring-primary/20 transition-all shadow-inner resize-none min-h-[160px]"
-          placeholder={t("placeholder_kind_message")}
+          placeholder={(typeof t !== "undefined" ? t : (k) => k)("placeholder_kind_message")}
           value={text}
           onChange={(e) => setText(e.target.value)}
           autoFocus
@@ -54,7 +54,7 @@ const ScreenKindResponse = ({ onContinue }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.55, duration: 0.6 }}
       >
-        {t("continue_button")}
+        {(typeof t !== "undefined" ? t : (k) => k)("continue_button")}
       </motion.button>
     </div>
   );

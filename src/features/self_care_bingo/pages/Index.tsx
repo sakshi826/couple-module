@@ -20,7 +20,7 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title")} 
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")} 
       onReset={screen !== 'intro' ? () => setScreen('intro') : undefined}
     >
       <div className="w-full">
@@ -34,17 +34,17 @@ const Index = () => {
               className="w-full"
             >
               <PremiumIntro
-                title={t("app_title")}
-                description={t("app_description")}
+                title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+                description={(typeof t !== "undefined" ? t : (k) => k)("app_description")}
                 onStart={() => setScreen("game")}
                 icon={<Sparkles size={32} />}
                 benefits={[
-                  t('tip1_title'),
-                  t('tip2_title'),
-                  t('tip3_title'),
-                  t('tip4_title')
+                  (typeof t !== "undefined" ? t : (k) => k)('tip1_title'),
+                  (typeof t !== "undefined" ? t : (k) => k)('tip2_title'),
+                  (typeof t !== "undefined" ? t : (k) => k)('tip3_title'),
+                  (typeof t !== "undefined" ? t : (k) => k)('tip4_title')
                 ]}
-                duration={t('app_duration', "Anytime")}
+                duration={(typeof t !== "undefined" ? t : (k) => k)('app_duration', "Anytime")}
               />
             </motion.div>
           )}
@@ -70,8 +70,8 @@ const Index = () => {
               className="w-full"
             >
               <PremiumComplete
-                title={t("app_title")}
-                message={t("complete_message")}
+                title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+                message={(typeof t !== "undefined" ? t : (k) => k)("complete_message")}
                 onRestart={() => setScreen("intro")}
                 icon={<Trophy size={48} />}
               />

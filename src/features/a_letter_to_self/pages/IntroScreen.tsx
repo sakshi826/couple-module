@@ -10,15 +10,15 @@ const IntroScreen = () => {
   const navigate = useNavigate();
 
   return (
-    <PremiumLayout title={t("app_title")}>
+    <PremiumLayout title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}>
       <div className="w-full">
         <PremiumIntro
-          title={t("app_title")}
-          description={t("app_description")}
+          title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+          description={(typeof t !== "undefined" ? t : (k) => k)("app_description")}
           onStart={() => navigate("./write", { replace: true })}
           icon={<Mail size={32} />}
-          benefits={[t('intro_p1'), t('intro_p2'), t('intro_p3')]}
-          duration={t('app_duration', "10-15 minutes")}
+          benefits={[(typeof t !== "undefined" ? t : (k) => k)('intro_p1'), (typeof t !== "undefined" ? t : (k) => k)('intro_p2'), (typeof t !== "undefined" ? t : (k) => k)('intro_p3')]}
+          duration={(typeof t !== "undefined" ? t : (k) => k)('app_duration', "10-15 minutes")}
         >
           <motion.div
             initial={{ opacity: 0 }}
@@ -31,7 +31,7 @@ const IntroScreen = () => {
               className="inline-flex items-center gap-2 text-slate-400 hover:text-primary font-black text-[10px] uppercase tracking-widest transition-all hover:tracking-widest"
             >
               <History size={16} />
-              {t("view_past_letters")}
+              {(typeof t !== "undefined" ? t : (k) => k)("view_past_letters")}
             </Link>
           </motion.div>
         </PremiumIntro>

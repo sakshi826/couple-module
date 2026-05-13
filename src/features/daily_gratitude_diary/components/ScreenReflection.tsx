@@ -25,15 +25,15 @@ const ScreenReflection = ({ onSave, onBack }: ScreenReflectionProps) => {
             <ArrowLeft size={20} />
           </motion.button>
           <div className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
-            <Sparkles size={12} />{t("reflection")}</div>
+            <Sparkles size={12} />{(typeof t !== "undefined" ? t : (k) => k)("reflection")}</div>
         </header>
 
         <div className="space-y-4">
           <h1 className="text-4xl font-extrabold text-slate-900 leading-tight">
-            {t('reflection_title')}
+            {(typeof t !== "undefined" ? t : (k) => k)('reflection_title')}
           </h1>
           <p className="text-slate-500 text-base font-medium leading-relaxed">
-            {t('reflection_text')}
+            {(typeof t !== "undefined" ? t : (k) => k)('reflection_text')}
           </p>
         </div>
 
@@ -43,12 +43,12 @@ const ScreenReflection = ({ onSave, onBack }: ScreenReflectionProps) => {
             className="p-8 bg-white rounded-[2.5rem] border-2 border-slate-100 shadow-sm space-y-6 hover:border-primary/20 transition-all"
         >
           <div className="flex items-center gap-3 text-primary font-black text-[10px] uppercase tracking-[0.2em] mb-2">
-                <Smile size={14} fill="currentColor" />{t("mood_check")}</div>
+                <Smile size={14} fill="currentColor" />{(typeof t !== "undefined" ? t : (k) => k)("mood_check")}</div>
           <div className="space-y-2">
-            <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-2">{t("how_do_you_feel_after_this")}</label>
+            <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-2">{(typeof t !== "undefined" ? t : (k) => k)("how_do_you_feel_after_this")}</label>
             <input
               type="text"
-              placeholder={t('placeholder_feeling')}
+              placeholder={(typeof t !== "undefined" ? t : (k) => k)('placeholder_feeling')}
               value={feeling}
               onChange={(e) => setFeeling(e.target.value)}
               className="w-full py-5 rounded-2xl bg-slate-50 border-2 border-transparent focus:border-primary/50 focus:bg-white transition-all outline-none px-6 font-bold text-slate-700 placeholder:text-slate-300 shadow-inner"
@@ -62,7 +62,7 @@ const ScreenReflection = ({ onSave, onBack }: ScreenReflectionProps) => {
           onClick={() => onSave(feeling)}
           className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3"
         >
-          {t('save_entry')}
+          {(typeof t !== "undefined" ? t : (k) => k)('save_entry')}
           <ArrowRight size={20} />
         </motion.button>
       </div>

@@ -61,7 +61,7 @@ const Index = () => {
   const saveLetter = useCallback(async () => {
     const userId = sessionStorage.getItem("user_id");
     if (!userId || !DATABASE_URL) {
-      toast.error(t("toasts.auth_error"));
+      toast.error((typeof t !== "undefined" ? t : (k) => k)("toasts.auth_error"));
       return;
     }
 
@@ -69,12 +69,12 @@ const Index = () => {
       try {
         const sql = neon(DATABASE_URL);
         await sql`INSERT INTO unsent_letters (user_id, content) VALUES (${userId}, ${letterContent})`;
-        toast.success(t("toasts.save_success"));
+        toast.success((typeof t !== "undefined" ? t : (k) => k)("toasts.save_success"));
         fetchLetters();
         setLetterContent("");
       } catch (error) {
         console.error("Failed to save letter:", error);
-        toast.error(t("toasts.save_error"));
+        toast.error((typeof t !== "undefined" ? t : (k) => k)("toasts.save_error"));
       }
     }
     setScreen("history");
@@ -85,8 +85,8 @@ const Index = () => {
 
   return (
     <PremiumLayout
-      title={t("app_title")}
-      subtitle={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+      subtitle={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       icon={<Mail className="w-6 h-6 text-primary" />}
     >
       <div className="w-full max-w-md mx-auto min-h-[60vh] flex flex-col relative z-10">

@@ -10,7 +10,7 @@ interface Props {
 
 const ScreenLanding = ({ reflection, setReflection }: Props) => {
   const { t } = useTranslation();
-  const steps = t("landing.steps", { returnObjects: true }) as string[];
+  const steps = (typeof t !== "undefined" ? t : (k) => k)("landing.steps", { returnObjects: true }) as string[];
 
   return (
     <div className="flex-1 flex flex-col gap-8" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
@@ -19,15 +19,15 @@ const ScreenLanding = ({ reflection, setReflection }: Props) => {
           🌿
         </div>
         <h1 className="text-3xl font-black text-slate-800 leading-tight">
-          {t("landing.title")}
+          {(typeof t !== "undefined" ? t : (k) => k)("landing.title")}
         </h1>
-        <p className="text-slate-500 font-medium text-base italic">{t("landing.subtitle")}</p>
+        <p className="text-slate-500 font-medium text-base italic">{(typeof t !== "undefined" ? t : (k) => k)("landing.subtitle")}</p>
       </div>
 
       <div className="bg-white border border-slate-100 rounded-[2.5rem] p-8 shadow-2xl shadow-slate-200/50 space-y-6">
         <div className="flex items-center gap-4 text-slate-800 font-black text-lg">
           <CheckCircle2 className="text-emerald-500" size={24} />
-          {t("landing.settle_title")}
+          {(typeof t !== "undefined" ? t : (k) => k)("landing.settle_title")}
         </div>
         
         <div className="space-y-4">
@@ -44,19 +44,19 @@ const ScreenLanding = ({ reflection, setReflection }: Props) => {
 
       <div className="space-y-3">
         <label className="text-slate-400 text-[10px] font-black uppercase tracking-[0.2em] pl-4">
-          {t("landing.feeling_label")}
+          {(typeof t !== "undefined" ? t : (k) => k)("landing.feeling_label")}
         </label>
         <input
           type="text"
           value={reflection}
           onChange={(e) => setReflection(e.target.value)}
-          placeholder={t("landing.feeling_placeholder")}
+          placeholder={(typeof t !== "undefined" ? t : (k) => k)("landing.feeling_placeholder")}
           className="w-full bg-white border border-slate-100 rounded-3xl px-8 py-5 text-slate-800 text-lg font-black placeholder:text-slate-200 focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all shadow-xl shadow-slate-200/50 text-center"
         />
       </div>
 
       <p className="text-center text-slate-400 text-[13px] leading-relaxed font-medium italic">
-        {t("landing.quote")}
+        {(typeof t !== "undefined" ? t : (k) => k)("landing.quote")}
       </p>
     </div>
   );

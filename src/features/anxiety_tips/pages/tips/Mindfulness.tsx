@@ -6,13 +6,13 @@ const Mindfulness = () => {
 
   return (
     <TipDetailLayout
-      title={t("app_title")}
-      whyItHelps={t("mindfulness_why")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+      whyItHelps={(typeof t !== "undefined" ? t : (k) => k)("mindfulness_why")}
       whatYouCanDo={[
-        t("mindfulness_step1"),
-        t("mindfulness_step2"),
-        t("mindfulness_step3"),
-        t("mindfulness_step4"),
+        (typeof t !== "undefined" ? t : (k) => k)("mindfulness_step1"),
+        (typeof t !== "undefined" ? t : (k) => k)("mindfulness_step2"),
+        (typeof t !== "undefined" ? t : (k) => k)("mindfulness_step3"),
+        (typeof t !== "undefined" ? t : (k) => k)("mindfulness_step4"),
       ]}
     />
   );

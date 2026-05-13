@@ -101,8 +101,8 @@ const GriefActivity = () => {
   if (screen === "complete") {
     return (
       <PremiumComplete
-        title={t("app_title")}
-        message={t("complete_message")}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+        message={(typeof t !== "undefined" ? t : (k) => k)("complete_message")}
         onRestart={() => {
           resetForm();
           setScreen("welcome");
@@ -112,17 +112,17 @@ const GriefActivity = () => {
   }
 
   const titles: Record<string, string> = {
-    welcome: t("nav.welcome"),
-    connection: t("nav.honoring"),
-    carry: t("nav.carry_forward"),
-    reflection: t("nav.reflecting"),
-    complete: t("nav.complete"),
-    past: t("nav.history")
+    welcome: (typeof t !== "undefined" ? t : (k) => k)("nav.welcome"),
+    connection: (typeof t !== "undefined" ? t : (k) => k)("nav.honoring"),
+    carry: (typeof t !== "undefined" ? t : (k) => k)("nav.carry_forward"),
+    reflection: (typeof t !== "undefined" ? t : (k) => k)("nav.reflecting"),
+    complete: (typeof t !== "undefined" ? t : (k) => k)("nav.complete"),
+    past: (typeof t !== "undefined" ? t : (k) => k)("nav.history")
   };
 
   return (
     <PremiumLayout
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       subtitle={titles[screen]}
       icon={<Sparkles className="w-6 h-6 text-primary" />}
       onBack={screen !== "welcome" ? () => setScreen("welcome") : undefined}

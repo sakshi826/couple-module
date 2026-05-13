@@ -15,7 +15,7 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title")} 
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")} 
       onReset={screen !== 'overview' ? () => setScreen('overview') : undefined}
     >
       <div className="w-full">
@@ -29,12 +29,12 @@ const Index = () => {
               className="w-full"
             >
               <PremiumIntro
-                title={t("app_title")}
-                description={t("app_description")}
+                title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+                description={(typeof t !== "undefined" ? t : (k) => k)("app_description")}
                 onStart={() => setScreen("session")}
                 icon={<Wind size={32} />}
-                benefits={[t('intro_p1'), t('intro_p2'), t('intro_p3')]}
-                duration={t('app_duration', "5 minutes")}
+                benefits={[(typeof t !== "undefined" ? t : (k) => k)('intro_p1'), (typeof t !== "undefined" ? t : (k) => k)('intro_p2'), (typeof t !== "undefined" ? t : (k) => k)('intro_p3')]}
+                duration={(typeof t !== "undefined" ? t : (k) => k)('app_duration', "5 minutes")}
               />
             </motion.div>
           )}
@@ -61,8 +61,8 @@ const Index = () => {
               className="w-full"
             >
               <PremiumComplete
-                title={t("app_title")}
-                message={t("app_complete_message")}
+                title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+                message={(typeof t !== "undefined" ? t : (k) => k)("app_complete_message")}
                 onRestart={() => setScreen("session")}
                 icon={<Wind size={48} />}
               />

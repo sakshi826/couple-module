@@ -48,8 +48,8 @@ const DoodleHistory = () => {
     yesterday.setDate(yesterday.getDate() - 1);
     const yesterdayStr = yesterday.toISOString().split("T")[0];
 
-    if (dateStr === todayStr) return t("today");
-    if (dateStr === yesterdayStr) return t("yesterday");
+    if (dateStr === todayStr) return (typeof t !== "undefined" ? t : (k) => k)("today");
+    if (dateStr === yesterdayStr) return (typeof t !== "undefined" ? t : (k) => k)("yesterday");
 
     return d.toLocaleDateString(i18n.language, {
       weekday: "long",
@@ -69,7 +69,7 @@ const DoodleHistory = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title")} 
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")} 
       onBack={() => navigate("..")}
     >
       <div className="w-full space-y-10">
@@ -79,20 +79,20 @@ const DoodleHistory = () => {
             <div className="w-20 h-20 bg-white rounded-3xl flex items-center justify-center mx-auto mb-6 text-slate-100 shadow-sm">
               <ImageIcon size={36} />
             </div>
-            <p className="text-slate-400 font-black text-xs uppercase tracking-widest mb-8 px-10 leading-relaxed">{t("no_doodles")}</p>
+            <p className="text-slate-400 font-black text-xs uppercase tracking-widest mb-8 px-10 leading-relaxed">{(typeof t !== "undefined" ? t : (k) => k)("no_doodles")}</p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => navigate("..")}
               className="px-10 py-5 bg-primary text-primary-foreground font-black rounded-2xl shadow-xl shadow-primary/20"
-            >{t("start_doodling")}</motion.button>
+            >{(typeof t !== "undefined" ? t : (k) => k)("start_doodling")}</motion.button>
           </div>
         )}
 
         {isLoading && (
           <div className="flex flex-col items-center justify-center py-20 gap-4">
             <Loader2 className="w-10 h-10 animate-spin text-primary opacity-20" />
-            <p className="text-slate-400 font-black text-[10px] uppercase tracking-widest">{t("loading_gallery")}</p>
+            <p className="text-slate-400 font-black text-[10px] uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)("loading_gallery")}</p>
           </div>
         )}
 
@@ -104,7 +104,7 @@ const DoodleHistory = () => {
               whileTap={{ scale: 0.95 }}
               onClick={() => window.location.reload()}
               className="mt-4 px-6 py-3 bg-primary text-primary-foreground font-black rounded-2xl shadow-xl shadow-primary/20"
-            >{t("retry")}</motion.button>
+            >{(typeof t !== "undefined" ? t : (k) => k)("retry")}</motion.button>
           </div>
         )}
 
@@ -118,7 +118,7 @@ const DoodleHistory = () => {
                 </h2>
                 <div className="h-0.5 flex-1 bg-slate-100 rounded-full" />
                 <span className="text-[10px] font-black text-slate-300 uppercase tracking-widest">
-                  {grouped[date].length} {grouped[date].length === 1 ? t("doodle") : t("doodles")}
+                  {grouped[date].length} {grouped[date].length === 1 ? (typeof t !== "undefined" ? t : (k) => k)("doodle") : (typeof t !== "undefined" ? t : (k) => k)("doodles")}
                 </span>
               </div>
               <div className="grid grid-cols-2 gap-6">
@@ -209,7 +209,7 @@ const DoodleHistory = () => {
                   className="flex-1 py-4 bg-primary text-primary-foreground font-black text-xs uppercase tracking-widest rounded-2xl flex items-center justify-center gap-2 shadow-xl shadow-primary/20"
                 >
                   <Share2 size={16} />
-                  {t("share_doodle")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("share_doodle")}
                 </motion.button>
                 <motion.button
                   whileHover={{ scale: 1.02 }}
@@ -218,7 +218,7 @@ const DoodleHistory = () => {
                   className="flex-1 py-4 bg-rose-50 text-rose-500 font-black text-xs uppercase tracking-widest rounded-2xl flex items-center justify-center gap-2 hover:bg-rose-100 transition-all"
                 >
                   <Trash2 size={16} />
-                  {t("delete_doodle")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("delete_doodle")}
                 </motion.button>
               </div>
             </motion.div>

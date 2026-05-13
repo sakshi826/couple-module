@@ -21,24 +21,24 @@ const ClosingScreen = ({ onExit }: Props) => {
         🌅
       </motion.div>
 
-      <h2 className="text-2xl font-heading font-semibold text-foreground">{t("before_you_go")}</h2>
+      <h2 className="text-2xl font-heading font-semibold text-foreground">{(typeof t !== "undefined" ? t : (k) => k)("before_you_go")}</h2>
 
       <div className="space-y-4 text-muted-foreground font-body text-base leading-relaxed">
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3 }}
-        >{t("grief_comes_in_waves")}</motion.p>
+        >{(typeof t !== "undefined" ? t : (k) => k)("grief_comes_in_waves")}</motion.p>
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
-        >{t("what_you_re_feeling_matters")}</motion.p>
+        >{(typeof t !== "undefined" ? t : (k) => k)("what_you_re_feeling_matters")}</motion.p>
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.3 }}
-        >{t("be_gentle_with_yourself_today")}</motion.p>
+        >{(typeof t !== "undefined" ? t : (k) => k)("be_gentle_with_yourself_today")}</motion.p>
       </div>
 
       <motion.button
@@ -48,7 +48,7 @@ const ClosingScreen = ({ onExit }: Props) => {
         whileTap={{ scale: 0.97 }}
         onClick={onExit}
         className="w-full py-3.5 rounded-xl bg-primary text-primary-foreground font-body font-semibold text-base shadow-sm hover:shadow-md transition-all duration-300"
-      >{t("save_exit")}</motion.button>
+      >{(typeof t !== "undefined" ? t : (k) => k)("save_exit")}</motion.button>
     </div>
   </ScreenWrapper>
 )

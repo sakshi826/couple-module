@@ -17,9 +17,9 @@ const ShareModal: React.FC<ShareModalProps> = ({ isOpen, onClose, activityName }
   const iosUrl = "https://apps.apple.com/pk/app/therapymantra/id1607643888";
   
   // Use interpolation for activityName and URLs
-  const shareText = t('common.share_text', {
+  const shareText = (typeof t !== "undefined" ? t : (k) => k)('common.share_text', {
     defaultValue: "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
-    activityName: activityName || t('common.this_activity', 'this activity'),
+    activityName: activityName || (typeof t !== "undefined" ? t : (k) => k)('common.this_activity', 'this activity'),
     androidUrl,
     iosUrl
   });
@@ -86,8 +86,8 @@ const ShareModal: React.FC<ShareModalProps> = ({ isOpen, onClose, activityName }
                       <Share2 size={24} />
                     </div>
                     <div>
-                      <h3 className="font-black text-slate-900 text-xl leading-tight">{t('common.share_progress', 'Share Progress')}</h3>
-                      <p className="text-slate-500 text-sm font-bold">{t('common.inspire_others', 'Inspire others today')}</p>
+                      <h3 className="font-black text-slate-900 text-xl leading-tight">{(typeof t !== "undefined" ? t : (k) => k)('common.share_progress', 'Share Progress')}</h3>
+                      <p className="text-slate-500 text-sm font-bold">{(typeof t !== "undefined" ? t : (k) => k)('common.inspire_others', 'Inspire others today')}</p>
                     </div>
                   </div>
                   <button 
@@ -132,12 +132,12 @@ const ShareModal: React.FC<ShareModalProps> = ({ isOpen, onClose, activityName }
                   {copied ? (
                     <>
                       <Check size={20} />
-                      {t('common.copied', 'Copied!')}
+                      {(typeof t !== "undefined" ? t : (k) => k)('common.copied', 'Copied!')}
                     </>
                   ) : (
                     <>
                       <Copy size={20} />
-                      {t('common.copy_message', 'Copy Message')}
+                      {(typeof t !== "undefined" ? t : (k) => k)('common.copy_message', 'Copy Message')}
                     </>
                   )}
                 </button>

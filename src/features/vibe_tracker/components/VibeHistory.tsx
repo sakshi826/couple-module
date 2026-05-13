@@ -40,8 +40,8 @@ const VibeHistory = ({ onBack }: Props) => {
     const yesterday = new Date();
     yesterday.setDate(today.getDate() - 1);
 
-    if (date.toDateString() === today.toDateString()) return t("today", "Today");
-    if (date.toDateString() === yesterday.toDateString()) return t("yesterday", "Yesterday");
+    if (date.toDateString() === today.toDateString()) return (typeof t !== "undefined" ? t : (k) => k)("today", "Today");
+    if (date.toDateString() === yesterday.toDateString()) return (typeof t !== "undefined" ? t : (k) => k)("yesterday", "Yesterday");
 
     return date.toLocaleDateString(i18n.language, {
       weekday: "long",
@@ -76,7 +76,7 @@ const VibeHistory = ({ onBack }: Props) => {
     return (
       <div className="flex flex-col items-center justify-center py-20 space-y-4">
         <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin" />
-        <p className="text-slate-400 font-bold uppercase tracking-widest text-[10px]">{t("rewinding_your_journey")}</p>
+        <p className="text-slate-400 font-bold uppercase tracking-widest text-[10px]">{(typeof t !== "undefined" ? t : (k) => k)("rewinding_your_journey")}</p>
       </div>
     );
   }
@@ -85,12 +85,12 @@ const VibeHistory = ({ onBack }: Props) => {
     <div className="space-y-8">
       <header className="flex items-center justify-end">
         <div className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
-          <Sparkles size={12} />{t("yourJourney")}</div>
+          <Sparkles size={12} />{(typeof t !== "undefined" ? t : (k) => k)("yourJourney")}</div>
       </header>
 
       <div className="space-y-4">
         <h1 className="text-3xl font-extrabold text-slate-900 leading-tight">
-          {t("yourJourney")}
+          {(typeof t !== "undefined" ? t : (k) => k)("yourJourney")}
         </h1>
       </div>
 
@@ -99,14 +99,14 @@ const VibeHistory = ({ onBack }: Props) => {
             <div className="w-20 h-20 bg-slate-50 rounded-full flex items-center justify-center mx-auto text-slate-300">
                 <Calendar size={40} />
             </div>
-            <p className="text-slate-400 font-bold">{t("noVibes")}</p>
+            <p className="text-slate-400 font-bold">{(typeof t !== "undefined" ? t : (k) => k)("noVibes")}</p>
             <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={onBack}
                 className="w-full py-4 rounded-[2rem] bg-primary text-primary-foreground font-black shadow-lg"
             >
-                {t("startFirstCheckIn")}
+                {(typeof t !== "undefined" ? t : (k) => k)("startFirstCheckIn")}
             </motion.button>
         </div>
       ) : (
@@ -133,7 +133,7 @@ const VibeHistory = ({ onBack }: Props) => {
                             </div>
                             <div>
                                 <h4 className="font-black text-slate-800 text-sm uppercase tracking-wider">
-                                    {i18n.exists(`vibes.${entry.vibe}`) ? t(`vibes.${entry.vibe}`) : entry.vibe}
+                                    {i18n.exists(`vibes.${entry.vibe}`) ? (typeof t !== "undefined" ? t : (k) => k)(`vibes.${entry.vibe}`) : entry.vibe}
                                 </h4>
                                 <div className="flex items-center gap-1.5 text-[10px] text-slate-400 font-bold uppercase tracking-widest">
                                     <Clock size={10} />

@@ -16,10 +16,10 @@ export default function TechniqueDetail() {
 
   if (!technique) {
     return (
-      <PremiumLayout title={t("app_title")}>
+      <PremiumLayout title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}>
         <div className="flex flex-col items-center justify-center py-20 gap-4">
           <Loader2 className="w-10 h-10 animate-spin text-primary opacity-20" />
-          <p className="text-slate-400 font-black text-[10px] uppercase tracking-widest">{t("Technique not found")}</p>
+          <p className="text-slate-400 font-black text-[10px] uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)("Technique not found")}</p>
         </div>
       </PremiumLayout>
     );
@@ -32,15 +32,15 @@ export default function TechniqueDetail() {
 
   return (
     <PremiumLayout 
-      title={t("app_title")} 
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")} 
       onBack={() => navigate(`../${langParam}`)}
     >
       <div className="w-full space-y-10 pb-12">
         <div className="space-y-6">
           <div className="flex items-center gap-2 text-primary font-black text-[10px] uppercase tracking-[0.2em]">
-            <Sparkles size={14} />{t("grounding_technique")}</div>
+            <Sparkles size={14} />{(typeof t !== "undefined" ? t : (k) => k)("grounding_technique")}</div>
           <h1 className="text-4xl font-black text-slate-900 leading-tight tracking-tight">
-            {t(technique.title)}
+            {(typeof t !== "undefined" ? t : (k) => k)(technique.title)}
           </h1>
           
           <div className="flex items-center gap-4">
@@ -70,7 +70,7 @@ export default function TechniqueDetail() {
                         <Wind size={48} strokeWidth={1.5} />
                     </div>
                     <p className="text-slate-700 text-2xl font-black leading-tight tracking-tight px-4">
-                        {t(technique.steps[currentStep])}
+                        {(typeof t !== "undefined" ? t : (k) => k)(technique.steps[currentStep])}
                     </p>
                 </motion.div>
             </AnimatePresence>
@@ -106,7 +106,7 @@ export default function TechniqueDetail() {
                     }}
                     className="flex-1 py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3"
                 >
-                    {isLastStep ? t("I Feel More Grounded") : t("Next Step")}
+                    {isLastStep ? (typeof t !== "undefined" ? t : (k) => k)("I Feel More Grounded") : (typeof t !== "undefined" ? t : (k) => k)("Next Step")}
                     {!isLastStep && <ChevronRight size={20} strokeWidth={3} />}
                 </motion.button>
             </div>

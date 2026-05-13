@@ -24,28 +24,28 @@ const Screen3NoSelfCare = ({ onContinue }: Screen3Props) => {
   return (
     <MobileShell step={2} totalSteps={5}>
       <h1 className="font-display text-2xl font-bold tracking-tight">
-        {t('screens.noSelfCare.title')}
+        {(typeof t !== "undefined" ? t : (k) => k)('screens.noSelfCare.title')}
       </h1>
-      <p className="mt-1 text-sm text-muted-foreground">{t('screens.noSelfCare.subtitle') || "Let's understand what happened today."}</p>
+      <p className="mt-1 text-sm text-muted-foreground">{(typeof t !== "undefined" ? t : (k) => k)('screens.noSelfCare.subtitle') || "Let's understand what happened today."}</p>
 
       <div className="mt-6">
         <label className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-          {t('screens.noSelfCare.question1')}
+          {(typeof t !== "undefined" ? t : (k) => k)('screens.noSelfCare.question1')}
         </label>
         <div className="mt-3 flex flex-wrap gap-2">
           {PREVENTION_REASONS.map((r) => (
-            <OptionChip key={r} label={t(`data.reasons.${r}`)} selected={reasons.includes(r)} onToggle={() => toggleReason(r)} />
+            <OptionChip key={r} label={(typeof t !== "undefined" ? t : (k) => k)(`data.reasons.${r}`)} selected={reasons.includes(r)} onToggle={() => toggleReason(r)} />
           ))}
         </div>
       </div>
 
       <div className="mt-8">
         <label className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-          {t('screens.noSelfCare.question2')}
+          {(typeof t !== "undefined" ? t : (k) => k)('screens.noSelfCare.question2')}
         </label>
         <div className="mt-3 flex flex-wrap gap-2">
           {HELPFUL_TYPES.map((ht) => (
-            <OptionChip key={ht} label={t(`data.helpfulTypes.${ht}`)} selected={helpfulType === ht} onToggle={() => setHelpfulType(helpfulType === ht ? "" : ht)} />
+            <OptionChip key={ht} label={(typeof t !== "undefined" ? t : (k) => k)(`data.helpfulTypes.${ht}`)} selected={helpfulType === ht} onToggle={() => setHelpfulType(helpfulType === ht ? "" : ht)} />
           ))}
         </div>
       </div>

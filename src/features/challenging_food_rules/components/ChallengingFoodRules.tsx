@@ -68,7 +68,7 @@ export default function ChallengingFoodRules() {
   const saveRule = async () => {
     const userId = sessionStorage.getItem("user_id");
     if (!userId || !DATABASE_URL) {
-      toast.error(t("auth_error"));
+      toast.error((typeof t !== "undefined" ? t : (k) => k)("auth_error"));
       return;
     }
 
@@ -85,12 +85,12 @@ export default function ChallengingFoodRules() {
     try {
       const sql = neon(DATABASE_URL);
       await sql`INSERT INTO food_rules_entries (user_id, rule_data) VALUES (${userId}, ${ruleData})`;
-      toast.success(t("save_success"));
+      toast.success((typeof t !== "undefined" ? t : (k) => k)("save_success"));
       setHistory(prev => [ruleData, ...prev]);
       setScreen("close");
     } catch (error) {
       console.error("Failed to save rule:", error);
-      toast.error(t("save_error"));
+      toast.error((typeof t !== "undefined" ? t : (k) => k)("save_error"));
     } finally {
       setIsSaving(false);
     }
@@ -110,8 +110,8 @@ export default function ChallengingFoodRules() {
   if (screen === "close") {
     return (
       <PremiumComplete
-        title={t("app_title")}
-        message={t("complete_message")}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+        message={(typeof t !== "undefined" ? t : (k) => k)("complete_message")}
         onRestart={resetFlow}
       />
     );
@@ -121,14 +121,14 @@ export default function ChallengingFoodRules() {
   const selectedFeeling = feeling === "__custom" ? customFeeling : feeling;
   const selectedImpact = impact === "__custom" ? customImpact : impact;
 
-  const reflections: Record<string, string> = t("reflections", { returnObjects: true }) as any;
-  const titles: Record<string, string> = t("screen_titles", { returnObjects: true }) as any;
+  const reflections: Record<string, string> = (typeof t !== "undefined" ? t : (k) => k)("reflections", { returnObjects: true }) as any;
+  const titles: Record<string, string> = (typeof t !== "undefined" ? t : (k) => k)("screen_titles", { returnObjects: true }) as any;
 
   const currentIdx = SCREENS.indexOf(screen);
 
   return (
     <PremiumLayout
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       subtitle={titles[screen]}
       icon={<Utensils className="w-6 h-6 text-primary" />}
       onBack={currentIdx > 0 ? () => setScreen(SCREENS[currentIdx - 1]) : undefined}
@@ -160,17 +160,17 @@ export default function ChallengingFoodRules() {
                     🌿
                   </div>
                   <h1 className="text-3xl font-black text-slate-800 mb-4 leading-tight">
-                    {t("welcome_title")}
+                    {(typeof t !== "undefined" ? t : (k) => k)("welcome_title")}
                   </h1>
                   <p className="text-slate-600 font-medium leading-relaxed text-base">
-                    {t("welcome_subtitle")}
+                    {(typeof t !== "undefined" ? t : (k) => k)("welcome_subtitle")}
                   </p>
                 </div>
                 <button
                   onClick={goNext}
                   className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                 >
-                  {t("begin_button")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("begin_button")}
                   <ChevronRight size={20} strokeWidth={3} />
                 </button>
               </div>
@@ -179,11 +179,11 @@ export default function ChallengingFoodRules() {
             {screen === "identify" && (
               <div className="space-y-8">
                 <header className="text-center space-y-2">
-                  <span className="text-[10px] font-black text-slate-300 uppercase tracking-[0.2em]">{t("rule_label")}</span>
-                  <h2 className="text-2xl font-black text-slate-800">{t("rule_question")}</h2>
+                  <span className="text-[10px] font-black text-slate-300 uppercase tracking-[0.2em]">{(typeof t !== "undefined" ? t : (k) => k)("rule_label")}</span>
+                  <h2 className="text-2xl font-black text-slate-800">{(typeof t !== "undefined" ? t : (k) => k)("rule_question")}</h2>
                 </header>
                 <div className="space-y-4">
-                  {(t("rule_options", { returnObjects: true }) as string[]).map((opt) => (
+                  {((typeof t !== "undefined" ? t : (k) => k)("rule_options", { returnObjects: true }) as string[]).map((opt) => (
                     <button
                       key={opt}
                       onClick={() => setRule(opt)}
@@ -196,13 +196,13 @@ export default function ChallengingFoodRules() {
                     onClick={() => setRule("__custom")}
                     className={`w-full text-left p-6 rounded-2xl border-2 transition-all ${rule === "__custom" ? "bg-primary/5 border-primary text-primary" : "bg-white border-slate-50 text-slate-600 hover:border-slate-200"}`}
                   >
-                    <span className="font-black text-base">{t("rule_something_else")}</span>
+                    <span className="font-black text-base">{(typeof t !== "undefined" ? t : (k) => k)("rule_something_else")}</span>
                   </button>
                 </div>
                 {rule === "__custom" && (
                   <textarea
                     className="w-full bg-white border-2 border-slate-100 rounded-2xl p-6 text-base font-bold min-h-[120px] focus:border-primary/30 outline-none transition-all"
-                    placeholder={t("rule_placeholder")}
+                    placeholder={(typeof t !== "undefined" ? t : (k) => k)("rule_placeholder")}
                     value={customRule}
                     onChange={(e) => setCustomRule(e.target.value)}
                   />
@@ -212,7 +212,7 @@ export default function ChallengingFoodRules() {
                   disabled={!selectedRule}
                   className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all disabled:opacity-20 flex items-center justify-center gap-3"
                 >
-                  {t("continue_button")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("continue_button")}
                   <ChevronRight size={20} strokeWidth={3} />
                 </button>
               </div>
@@ -221,11 +221,11 @@ export default function ChallengingFoodRules() {
             {screen === "feeling" && (
               <div className="space-y-8">
                 <header className="text-center space-y-2">
-                  <span className="text-[10px] font-black text-slate-300 uppercase tracking-[0.2em]">{t("feeling_label")}</span>
-                  <h2 className="text-2xl font-black text-slate-800">{t("feeling_question")}</h2>
+                  <span className="text-[10px] font-black text-slate-300 uppercase tracking-[0.2em]">{(typeof t !== "undefined" ? t : (k) => k)("feeling_label")}</span>
+                  <h2 className="text-2xl font-black text-slate-800">{(typeof t !== "undefined" ? t : (k) => k)("feeling_question")}</h2>
                 </header>
                 <div className="grid grid-cols-2 gap-4">
-                  {(t("feeling_options", { returnObjects: true }) as string[]).map((opt) => (
+                  {((typeof t !== "undefined" ? t : (k) => k)("feeling_options", { returnObjects: true }) as string[]).map((opt) => (
                     <button
                       key={opt}
                       onClick={() => setFeeling(opt)}
@@ -240,7 +240,7 @@ export default function ChallengingFoodRules() {
                   disabled={!selectedFeeling}
                   className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all disabled:opacity-20 flex items-center justify-center gap-3"
                 >
-                  {t("next_button")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("next_button")}
                   <ChevronRight size={20} strokeWidth={3} />
                 </button>
               </div>
@@ -249,8 +249,8 @@ export default function ChallengingFoodRules() {
             {screen === "challenge" && (
               <div className="space-y-8">
                 <header className="text-center space-y-2">
-                  <span className="text-[10px] font-black text-slate-300 uppercase tracking-[0.2em]">{t("challenge_label")}</span>
-                  <h2 className="text-2xl font-black text-slate-800">{t("challenge_question")}</h2>
+                  <span className="text-[10px] font-black text-slate-300 uppercase tracking-[0.2em]">{(typeof t !== "undefined" ? t : (k) => k)("challenge_label")}</span>
+                  <h2 className="text-2xl font-black text-slate-800">{(typeof t !== "undefined" ? t : (k) => k)("challenge_question")}</h2>
                 </header>
                 <div className="space-y-4">
                   {Object.keys(reflections).map((opt) => (
@@ -283,7 +283,7 @@ export default function ChallengingFoodRules() {
                   disabled={!challengeChoice}
                   className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all disabled:opacity-20 flex items-center justify-center gap-3"
                 >
-                  {t("continue_button")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("continue_button")}
                   <ChevronRight size={20} strokeWidth={3} />
                 </button>
               </div>
@@ -297,17 +297,17 @@ export default function ChallengingFoodRules() {
                   </div>
                   <header className="space-y-2">
                     <span className="inline-block rounded-full bg-primary/5 text-primary px-4 py-1.5 text-[10px] font-black uppercase tracking-widest">
-                      {t("your_reflection")}
+                      {(typeof t !== "undefined" ? t : (k) => k)("your_reflection")}
                     </span>
-                    <h3 className="text-2xl font-black text-slate-800">{t("reflection_saved")}</h3>
+                    <h3 className="text-2xl font-black text-slate-800">{(typeof t !== "undefined" ? t : (k) => k)("reflection_saved")}</h3>
                   </header>
                   <div className="space-y-6">
                     <div className="space-y-1">
-                      <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest">{t("label_rule")}</p>
+                      <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)("label_rule")}</p>
                       <p className="text-slate-700 font-bold text-lg">{selectedRule}</p>
                     </div>
                     <div className="space-y-1">
-                      <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest">{t("label_feeling")}</p>
+                      <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)("label_feeling")}</p>
                       <p className="text-slate-700 font-bold text-lg">{selectedFeeling}</p>
                     </div>
                   </div>
@@ -318,7 +318,7 @@ export default function ChallengingFoodRules() {
                   className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                 >
                   <Save size={20} strokeWidth={3} />
-                  {isSaving ? t("preserving") : t("preserve_button")}
+                  {isSaving ? (typeof t !== "undefined" ? t : (k) => k)("preserving") : (typeof t !== "undefined" ? t : (k) => k)("preserve_button")}
                 </button>
               </div>
             )}

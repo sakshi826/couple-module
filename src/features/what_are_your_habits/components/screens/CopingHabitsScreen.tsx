@@ -6,7 +6,7 @@ import { ArrowRight, Sparkles } from "lucide-react";
 
 const CopingHabitsScreen = ({ onNext }: { onNext: () => void }) => {
   const { t } = useTranslation();
-  const options = t('coping_options', { returnObjects: true }) as string[];
+  const options = (typeof t !== "undefined" ? t : (k) => k)('coping_options', { returnObjects: true }) as string[];
   const [selected, setSelected] = useState<string[]>([]);
 
   const toggle = (item: string) =>
@@ -19,8 +19,8 @@ const CopingHabitsScreen = ({ onNext }: { onNext: () => void }) => {
       <div className="w-full max-w-lg space-y-8">
         <header className="space-y-4">
           <div className="flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest">
-            <Sparkles size={14} />{t("coping_mechanisms")}</div>
-          <h2 className="text-4xl font-extrabold text-slate-900 leading-tight">{t('coping_title')}</h2>
+            <Sparkles size={14} />{(typeof t !== "undefined" ? t : (k) => k)("coping_mechanisms")}</div>
+          <h2 className="text-4xl font-extrabold text-slate-900 leading-tight">{(typeof t !== "undefined" ? t : (k) => k)('coping_title')}</h2>
         </header>
 
         <div className="grid gap-3">
@@ -41,7 +41,7 @@ const CopingHabitsScreen = ({ onNext }: { onNext: () => void }) => {
             onClick={onNext}
             className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-bold text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3"
           >
-            {t('continue')}
+            {(typeof t !== "undefined" ? t : (k) => k)('continue')}
             <ArrowRight size={20} />
           </motion.button>
         </div>

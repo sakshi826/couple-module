@@ -23,14 +23,14 @@ const HistoryDrawer: React.FC<Props> = ({ onClose }) => {
       >
         <div className="flex justify-between items-center mb-4">
           <h2 className="font-lora font-semibold text-lg" style={{ color: '#2C2C2A' }}>
-            {t("history.title")}
+            {(typeof t !== "undefined" ? t : (k) => k)("history.title")}
           </h2>
           <button onClick={onClose} className="font-inter text-lg" style={{ color: '#B4B2A9' }}>×</button>
         </div>
 
         {collages.length === 0 ? (
           <p className="font-inter text-sm text-center py-8" style={{ color: '#B4B2A9' }}>
-            {t("history.no_collages")}
+            {(typeof t !== "undefined" ? t : (k) => k)("history.no_collages")}
           </p>
         ) : (
           <div className="flex flex-col gap-3">

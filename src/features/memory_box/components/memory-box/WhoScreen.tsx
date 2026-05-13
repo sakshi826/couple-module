@@ -16,7 +16,7 @@ interface Props {
 
 const WhoScreen = ({ name, setName, relation, setRelation, category, setCategory, onContinue, onBack }: Props) => {
   const { t } = useTranslation();
-  const CATEGORIES = t("who.categories", { returnObjects: true }) as any[];
+  const CATEGORIES = (typeof t !== "undefined" ? t : (k) => k)("who.categories", { returnObjects: true }) as any[];
 
   return (
     <ScreenWrapper>
@@ -32,14 +32,14 @@ const WhoScreen = ({ name, setName, relation, setRelation, category, setCategory
         <div className="space-y-3">
           <input
             type="text"
-            placeholder={t("who.placeholder_name")}
+            placeholder={(typeof t !== "undefined" ? t : (k) => k)("who.placeholder_name")}
             value={name}
             onChange={(e) => setName(e.target.value)}
             className="w-full bg-card border border-border rounded-xl px-4 py-3.5 text-center font-body text-foreground placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all"
           />
           <input
             type="text"
-            placeholder={t("who.placeholder_relation")}
+            placeholder={(typeof t !== "undefined" ? t : (k) => k)("who.placeholder_relation")}
             value={relation}
             onChange={(e) => setRelation(e.target.value)}
             className="w-full bg-card border border-border rounded-xl px-4 py-3 text-center font-body text-sm text-foreground placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all"
@@ -73,7 +73,7 @@ const WhoScreen = ({ name, setName, relation, setRelation, category, setCategory
           disabled={!name.trim() || !category}
           className="w-full py-3.5 rounded-xl bg-primary text-primary-foreground font-body font-semibold text-base shadow-sm hover:shadow-md transition-all duration-300 disabled:opacity-40 disabled:cursor-not-allowed"
         >
-          {t("who.continue")}
+          {(typeof t !== "undefined" ? t : (k) => k)("who.continue")}
         </motion.button>
       </div>
     </ScreenWrapper>

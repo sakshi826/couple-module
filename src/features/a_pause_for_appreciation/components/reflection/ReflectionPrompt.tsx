@@ -21,7 +21,7 @@ const ReflectionPrompt = ({ step, total, prompt, example, value, onChange, onNex
         <header className="space-y-4">
           <div className="flex items-center justify-between px-2">
             <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">
-              {t("reflection.step", { step, total })}
+              {(typeof t !== "undefined" ? t : (k) => k)("reflection.step", { step, total })}
             </span>
             <div className="flex gap-1.5">
               {Array.from({ length: total }).map((_, i) => (
@@ -47,7 +47,7 @@ const ReflectionPrompt = ({ step, total, prompt, example, value, onChange, onNex
 
         <div className="space-y-6">
             <textarea
-                placeholder={t("reflection.placeholder")}
+                placeholder={(typeof t !== "undefined" ? t : (k) => k)("reflection.placeholder")}
                 value={value}
                 onChange={(e) => onChange(e.target.value)}
                 className="w-full min-h-[160px] p-6 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-700 placeholder:text-slate-300 font-medium focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm resize-none"
@@ -60,7 +60,7 @@ const ReflectionPrompt = ({ step, total, prompt, example, value, onChange, onNex
                 disabled={!value.trim()}
                 className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-bold text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3 disabled:opacity-40 disabled:shadow-none"
             >
-                {step === total ? t("reflection.finish") : t("reflection.next")}
+                {step === total ? (typeof t !== "undefined" ? t : (k) => k)("reflection.finish") : (typeof t !== "undefined" ? t : (k) => k)("reflection.next")}
                 <ArrowRight size={20} />
             </motion.button>
         </div>

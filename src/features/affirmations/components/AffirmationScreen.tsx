@@ -62,9 +62,9 @@ const AffirmationScreen: React.FC<AffirmationScreenProps> = ({
       <div className="w-full max-w-lg flex flex-col flex-1">
         {/* Header */}
         <div className="text-center mb-10">
-          <h2 className="text-sm font-bold text-primary tracking-widest uppercase mb-2">{t("affirmation_for")}</h2>
+          <h2 className="text-sm font-bold text-primary tracking-widest uppercase mb-2">{(typeof t !== "undefined" ? t : (k) => k)("affirmation_for")}</h2>
           <h1 className="text-3xl font-extrabold text-slate-900">
-            {t(`feelings.${feelingId}.label`)}
+            {(typeof t !== "undefined" ? t : (k) => k)(`feelings.${feelingId}.label`)}
           </h1>
         </div>
 
@@ -84,7 +84,7 @@ const AffirmationScreen: React.FC<AffirmationScreenProps> = ({
               <div className="absolute bottom-0 left-0 w-24 h-24 bg-primary/10 rounded-full -ml-12 -mb-12 blur-2xl" />
               
               <p className="text-2xl md:text-3xl font-bold text-slate-800 leading-snug relative z-10">
-                {t(`feelings.${feelingId}.affirmations.${currentIndex}`)}
+                {(typeof t !== "undefined" ? t : (k) => k)(`feelings.${feelingId}.affirmations.${currentIndex}`)}
               </p>
             </motion.div>
           </AnimatePresence>
@@ -117,7 +117,7 @@ const AffirmationScreen: React.FC<AffirmationScreenProps> = ({
           </motion.button>
 
           <div className="text-center">
-            <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">{t("affirmation")}</p>
+            <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">{(typeof t !== "undefined" ? t : (k) => k)("affirmation")}</p>
             <p className="text-lg font-extrabold text-slate-900">
               {currentIndex + 1} <span className="text-slate-300 mx-1">/</span> {total}
             </p>
@@ -142,7 +142,7 @@ const AffirmationScreen: React.FC<AffirmationScreenProps> = ({
             className="w-full py-4 rounded-2xl bg-slate-100 text-slate-600 font-bold flex items-center justify-center gap-2 hover:bg-slate-200 transition-all"
           >
             <RotateCcw size={18} />
-            {t("common.chooseAnother")}
+            {(typeof t !== "undefined" ? t : (k) => k)("common.chooseAnother")}
           </motion.button>
         </div>
       </div>

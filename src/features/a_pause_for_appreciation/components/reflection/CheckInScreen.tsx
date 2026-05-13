@@ -12,12 +12,12 @@ const CheckInScreen = ({ value, onChange, onFinish }: CheckInScreenProps) => {
   const { t } = useTranslation();
 
   const statements = [
-    t("checkin.statements.s1"),
-    t("checkin.statements.s2"),
-    t("checkin.statements.s3"),
-    t("checkin.statements.s4"),
-    t("checkin.statements.s5"),
-    t("checkin.statements.s6"),
+    (typeof t !== "undefined" ? t : (k) => k)("checkin.statements.s1"),
+    (typeof t !== "undefined" ? t : (k) => k)("checkin.statements.s2"),
+    (typeof t !== "undefined" ? t : (k) => k)("checkin.statements.s3"),
+    (typeof t !== "undefined" ? t : (k) => k)("checkin.statements.s4"),
+    (typeof t !== "undefined" ? t : (k) => k)("checkin.statements.s5"),
+    (typeof t !== "undefined" ? t : (k) => k)("checkin.statements.s6"),
   ];
 
   return (
@@ -28,9 +28,9 @@ const CheckInScreen = ({ value, onChange, onFinish }: CheckInScreenProps) => {
                 <Sparkles size={32} />
             </div>
             <h2 className="text-3xl font-extrabold text-slate-900 leading-tight">
-                {t("checkin.title")}
+                {(typeof t !== "undefined" ? t : (k) => k)("checkin.title")}
             </h2>
-            <p className="text-slate-500 text-sm font-medium">{t("how_do_you_feel_after_this_reflection")}</p>
+            <p className="text-slate-500 text-sm font-medium">{(typeof t !== "undefined" ? t : (k) => k)("how_do_you_feel_after_this_reflection")}</p>
         </header>
 
         <div className="grid gap-3">
@@ -76,7 +76,7 @@ const CheckInScreen = ({ value, onChange, onFinish }: CheckInScreenProps) => {
             disabled={!value}
             className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-bold text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3 disabled:opacity-40 disabled:shadow-none"
         >
-            {t("checkin.finish")}
+            {(typeof t !== "undefined" ? t : (k) => k)("checkin.finish")}
             <Send size={20} />
         </motion.button>
       </div>

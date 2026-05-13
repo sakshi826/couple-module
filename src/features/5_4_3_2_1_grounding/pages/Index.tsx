@@ -7,7 +7,7 @@ import { Sparkles } from "lucide-react";
 const Index = () => {
   const { t } = useTranslation();
   return (
-    <PremiumLayout title={t("app_title")} icon={<Sparkles className="w-6 h-6 text-primary" />}>
+    <PremiumLayout title={(typeof t !== "undefined" ? t : (k) => k)("app_title")} icon={<Sparkles className="w-6 h-6 text-primary" />}>
       <div className="w-full">
         <GroundingExercise />
       </div>

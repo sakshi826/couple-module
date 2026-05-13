@@ -59,7 +59,7 @@ export const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
         return (
             <div className="flex min-h-screen flex-col items-center justify-center bg-[#F8FAFC]">
                 <Loader size={45} color={COLORS.blueDark} />
-                <p className="mt-4 text-xs font-semibold text-[#2954a1]/70 tracking-widest animate-pulse uppercase">{t("securing_session")}</p>
+                <p className="mt-4 text-xs font-semibold text-[#2954a1]/70 tracking-widest animate-pulse uppercase">{(typeof t !== "undefined" ? t : (k) => k)("securing_session")}</p>
             </div>
         );
     }

@@ -78,13 +78,13 @@ const WritingScreen = () => {
 
   return (
     <PremiumLayout 
-        title={t("app_title")} 
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")} 
         onBack={() => navigate("..", { replace: true })}
     >
       <div className="w-full space-y-10 pb-32">
         <header className="flex items-center justify-between">
           <div className="space-y-1">
-            <h1 className="text-3xl font-black text-slate-900 leading-tight tracking-tight">{t('write_title')}</h1>
+            <h1 className="text-3xl font-black text-slate-900 leading-tight tracking-tight">{(typeof t !== "undefined" ? t : (k) => k)('write_title')}</h1>
             <div className="flex items-center gap-2 text-slate-400 font-black text-[10px] uppercase tracking-widest">
               <Calendar size={14} />
               {currentDate}
@@ -100,12 +100,12 @@ const WritingScreen = () => {
             >
               {saveStatus === "saving" && (
                 <span className="text-primary flex items-center gap-1.5">
-                  <Loader2 size={12} className="animate-spin" /> {t('common.saving', 'Saving...')}
+                  <Loader2 size={12} className="animate-spin" /> {(typeof t !== "undefined" ? t : (k) => k)('common.saving', 'Saving...')}
                 </span>
               )}
               {saveStatus === "saved" && (
                 <span className="text-emerald-500 flex items-center gap-1.5">
-                  <Check size={12} /> {t('common.saved', 'Saved')}
+                  <Check size={12} /> {(typeof t !== "undefined" ? t : (k) => k)('common.saved', 'Saved')}
                 </span>
               )}
             </motion.div>
@@ -124,7 +124,7 @@ const WritingScreen = () => {
               setContent(e.target.value);
               setSaveStatus("idle");
             }}
-            placeholder={t('write_placeholder')}
+            placeholder={(typeof t !== "undefined" ? t : (k) => k)('write_placeholder')}
             className="w-full min-h-[400px] bg-slate-50 border-2 border-transparent focus:bg-white focus:border-primary/30 rounded-[3rem] px-10 py-10 text-xl font-bold leading-relaxed outline-none transition-all resize-none shadow-inner placeholder:text-slate-200"
           />
         </motion.div>
@@ -137,7 +137,7 @@ const WritingScreen = () => {
           >
             <div className="flex items-center gap-3 font-black text-slate-700 uppercase text-xs tracking-widest">
               <Sparkles className="text-primary" size={20} />
-              {t('need_inspiration', 'Need some inspiration?')}
+              {(typeof t !== "undefined" ? t : (k) => k)('need_inspiration', 'Need some inspiration?')}
             </div>
             <motion.div
               animate={{ rotate: inspirationOpen ? 180 : 0 }}
@@ -182,14 +182,14 @@ const WritingScreen = () => {
               onClick={() => doSave(content)}
               className="flex-1 py-5 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-400 font-black text-sm uppercase tracking-widest shadow-xl shadow-slate-200/50 flex items-center justify-center gap-3 hover:text-slate-900 hover:border-slate-200 transition-all"
             >
-              <Save size={20} />{t("common.save")}</motion.button>
+              <Save size={20} />{(typeof t !== "undefined" ? t : (k) => k)("common.save")}</motion.button>
             <motion.button
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               onClick={handleFinish}
               disabled={!content.trim()}
               className="flex-2 py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 flex items-center justify-center gap-3 disabled:opacity-40 disabled:shadow-none"
-            >{t("finish")}<Send size={22} />
+            >{(typeof t !== "undefined" ? t : (k) => k)("finish")}<Send size={22} />
             </motion.button>
           </div>
         </div>

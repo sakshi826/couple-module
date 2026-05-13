@@ -18,13 +18,13 @@ const TipDetailLayout = ({ title, whyItHelps, whatYouCanDo, extra }: TipDetailLa
 
   return (
     <PremiumLayout
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       onBack={() => navigate("..")}
     >
       <div className="w-full space-y-10 pb-12">
         <div className="space-y-4">
           <div className="flex items-center gap-2 text-primary font-black text-[10px] uppercase tracking-[0.2em]">
-            <Sparkles size={14} />{t("daily_guide")}</div>
+            <Sparkles size={14} />{(typeof t !== "undefined" ? t : (k) => k)("daily_guide")}</div>
           <motion.h1
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
@@ -41,7 +41,7 @@ const TipDetailLayout = ({ title, whyItHelps, whatYouCanDo, extra }: TipDetailLa
           transition={{ delay: 0.1 }}
           className="bg-white rounded-[2.5rem] border-2 border-slate-100 p-10 shadow-sm group hover:border-primary/20 transition-all"
         >
-          <h2 className="text-[10px] font-black text-primary uppercase tracking-[0.3em] mb-6">{t("why_it_helps")}</h2>
+          <h2 className="text-[10px] font-black text-primary uppercase tracking-[0.3em] mb-6">{(typeof t !== "undefined" ? t : (k) => k)("why_it_helps")}</h2>
           <p className="text-slate-600 text-lg font-bold leading-relaxed">{whyItHelps}</p>
         </motion.section>
 
@@ -52,7 +52,7 @@ const TipDetailLayout = ({ title, whyItHelps, whatYouCanDo, extra }: TipDetailLa
           transition={{ delay: 0.2 }}
           className="space-y-8"
         >
-          <h2 className="text-xl font-black text-slate-800 tracking-tight px-2">{t("what_you_can_do")}</h2>
+          <h2 className="text-xl font-black text-slate-800 tracking-tight px-2">{(typeof t !== "undefined" ? t : (k) => k)("what_you_can_do")}</h2>
           <div className="grid gap-4">
             {whatYouCanDo.map((item, i) => (
               <motion.div

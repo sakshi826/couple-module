@@ -33,10 +33,10 @@ const ReviewEntry = () => {
 
   if (isLoading) {
     return (
-      <PremiumLayout title={t("app_title")}>
+      <PremiumLayout title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}>
         <div className="flex flex-col items-center justify-center min-h-[40vh] gap-4">
           <Loader2 className="w-10 h-10 animate-spin text-primary opacity-20" />
-          <p className="text-slate-400 font-bold text-[10px] uppercase tracking-widest">{t("loading_entry")}</p>
+          <p className="text-slate-400 font-bold text-[10px] uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)("loading_entry")}</p>
         </div>
       </PremiumLayout>
     );
@@ -59,9 +59,9 @@ const ReviewEntry = () => {
   };
 
   return (
-    <PremiumLayout title={t("app_title")}>
+    <PremiumLayout title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}>
       <PremiumComplete
-        title={t("app_title")}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
         message="Your thoughts have been preserved. Gratitude is a powerful tool for happiness."
         onRestart={() => navigate("..", { replace: true })}
       >
@@ -80,18 +80,18 @@ const ReviewEntry = () => {
               </div>
               <div className="flex items-center gap-3 bg-primary/10 text-primary px-4 py-2 rounded-2xl">
                 <span className="text-2xl filter drop-shadow-sm">{entry.mood.emoji}</span>
-                <span className="text-xs font-black uppercase tracking-widest">{t(`mood.${entry.mood.label.toLowerCase()}`)}</span>
+                <span className="text-xs font-black uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)(`mood.${entry.mood.label.toLowerCase()}`)}</span>
               </div>
             </div>
 
             <div className="space-y-6">
               <div>
-                <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-2">{t("review.gratitude1")}</p>
+                <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-2">{(typeof t !== "undefined" ? t : (k) => k)("review.gratitude1")}</p>
                 <p className="text-slate-700 font-bold text-lg leading-relaxed">{entry.gratitude1}</p>
               </div>
               {entry.gratitude2 && (
                 <div>
-                  <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-2">{t("review.gratitude2")}</p>
+                  <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-2">{(typeof t !== "undefined" ? t : (k) => k)("review.gratitude2")}</p>
                   <p className="text-slate-700 font-bold text-lg leading-relaxed">{entry.gratitude2}</p>
                 </div>
               )}
@@ -106,7 +106,7 @@ const ReviewEntry = () => {
               className="flex-1 py-4 bg-slate-100 text-slate-600 font-black text-xs uppercase tracking-widest rounded-2xl flex items-center justify-center gap-2 hover:bg-slate-200 transition-all"
             >
               <Edit2 size={16} />
-              {t("review.edit")}
+              {(typeof t !== "undefined" ? t : (k) => k)("review.edit")}
             </motion.button>
             
             <motion.button
@@ -116,7 +116,7 @@ const ReviewEntry = () => {
               className="flex-1 py-4 bg-white border-2 border-slate-100 text-slate-500 font-black text-xs uppercase tracking-widest rounded-2xl flex items-center justify-center gap-2 hover:bg-slate-50 transition-all"
             >
               <HistoryIcon size={16} />
-              {t("review.history")}
+              {(typeof t !== "undefined" ? t : (k) => k)("review.history")}
             </motion.button>
           </div>
         </div>

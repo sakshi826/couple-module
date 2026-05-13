@@ -14,10 +14,10 @@ const TipDetail = () => {
 
   if (!tip) {
     return (
-      <PremiumLayout title={t("app_title")}>
+      <PremiumLayout title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}>
         <div className="flex flex-col items-center justify-center py-20 gap-4">
           <Loader2 className="w-10 h-10 animate-spin text-primary opacity-20" />
-          <p className="text-slate-400 font-black text-[10px] uppercase tracking-widest">{t('detail.notFound')}</p>
+          <p className="text-slate-400 font-black text-[10px] uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)('detail.notFound')}</p>
         </div>
       </PremiumLayout>
     );
@@ -25,7 +25,7 @@ const TipDetail = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title")} 
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")} 
       onBack={() => navigate("..")}
     >
       <div className="w-full space-y-10 pb-12">
@@ -38,7 +38,7 @@ const TipDetail = () => {
             animate={{ opacity: 1, x: 0 }}
             className="text-3xl font-black text-slate-900 leading-tight tracking-tight"
           >
-            {t(`tip.${tip.slug}.title`)}
+            {(typeof t !== "undefined" ? t : (k) => k)(`tip.${tip.slug}.title`)}
           </motion.h1>
         </div>
 
@@ -50,7 +50,7 @@ const TipDetail = () => {
             className="p-10 bg-primary/5 rounded-[3rem] border-2 border-primary/10 shadow-sm space-y-6"
           >
             <div className="flex items-center gap-3 text-primary font-black text-[10px] uppercase tracking-[0.3em] mb-2">
-                <Wind size={16} />{t("breathing_guide")}</div>
+                <Wind size={16} />{(typeof t !== "undefined" ? t : (k) => k)("breathing_guide")}</div>
             <BreathingExercise />
           </motion.section>
         )}
@@ -62,9 +62,9 @@ const TipDetail = () => {
             transition={{ delay: 0.1 }}
             className="bg-white rounded-[2.5rem] border-2 border-slate-100 p-10 shadow-sm group hover:border-primary/20 transition-all"
         >
-          <h2 className="text-[10px] font-black text-primary uppercase tracking-[0.3em] mb-6">{t('detail.whyTitle')}</h2>
+          <h2 className="text-[10px] font-black text-primary uppercase tracking-[0.3em] mb-6">{(typeof t !== "undefined" ? t : (k) => k)('detail.whyTitle')}</h2>
           <p className="text-slate-600 text-lg font-bold leading-relaxed">
-            {t(`tip.${tip.slug}.why`)}
+            {(typeof t !== "undefined" ? t : (k) => k)(`tip.${tip.slug}.why`)}
           </p>
         </motion.section>
 
@@ -75,9 +75,9 @@ const TipDetail = () => {
             transition={{ delay: 0.2 }}
             className="space-y-8"
         >
-          <h2 className="text-xl font-black text-slate-800 tracking-tight px-2">{t('detail.doTitle')}</h2>
+          <h2 className="text-xl font-black text-slate-800 tracking-tight px-2">{(typeof t !== "undefined" ? t : (k) => k)('detail.doTitle')}</h2>
           <div className="grid gap-4">
-            {(t(`tip.${tip.slug}.do`, { returnObjects: true }) as string[])?.map((item, i) => (
+            {((typeof t !== "undefined" ? t : (k) => k)(`tip.${tip.slug}.do`, { returnObjects: true }) as string[])?.map((item, i) => (
               <motion.div 
                 key={i} 
                 initial={{ opacity: 0, x: -10 }}
@@ -95,7 +95,7 @@ const TipDetail = () => {
         </motion.section>
 
         {/* CTA Button */}
-        {t(`tip.${tip.slug}.button`) && (
+        {(typeof t !== "undefined" ? t : (k) => k)(`tip.${tip.slug}.button`) && (
           <div className="pt-6">
             <motion.button
               whileHover={{ scale: 1.02 }}
@@ -103,7 +103,7 @@ const TipDetail = () => {
               onClick={() => {}}
               className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3"
             >
-              {t(`tip.${tip.slug}.button`)}
+              {(typeof t !== "undefined" ? t : (k) => k)(`tip.${tip.slug}.button`)}
               <Sparkles size={20} />
             </motion.button>
           </div>

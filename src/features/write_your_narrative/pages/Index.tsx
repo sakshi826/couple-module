@@ -8,7 +8,7 @@ const PlaceholderIndex = () => {
   // The inline background color is intentionally not part of the design system.
   return (
     <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder={t("remove_this")} src="/placeholder.svg" alt="Your app will live here!" />
+      <img data-lovable-blank-page-placeholder={(typeof t !== "undefined" ? t : (k) => k)("remove_this")} src="/placeholder.svg" alt="Your app will live here!" />
     </div>
   );
 };

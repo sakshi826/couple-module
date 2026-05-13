@@ -117,12 +117,12 @@ const Index = () => {
         {screen === "intro" && (
           <motion.div key="intro" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }}>
               <PremiumIntro
-                  title={t("app_title")}
-                  description={t("app_description")}
+                  title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+                  description={(typeof t !== "undefined" ? t : (k) => k)("app_description")}
                   onStart={() => setScreen("choose")}
                   icon={<Brain size={32} />}
                   benefits={[
-                      t('app.description2'),
+                      (typeof t !== "undefined" ? t : (k) => k)('app.description2'),
                   ]}
               >
                   <motion.button
@@ -132,7 +132,7 @@ const Index = () => {
                       className="w-full py-5 rounded-2xl bg-white border-2 border-slate-100 text-slate-500 font-black text-xs uppercase tracking-widest flex items-center justify-center gap-3 mt-4 hover:text-primary hover:border-primary/20 hover:shadow-lg hover:shadow-slate-200/50 transition-all"
                   >
                       <History size={18} strokeWidth={2.5} />
-                      {t('app.viewHistory')}
+                      {(typeof t !== "undefined" ? t : (k) => k)('app.viewHistory')}
                   </motion.button>
               </PremiumIntro>
           </motion.div>
@@ -142,8 +142,8 @@ const Index = () => {
         {screen === "choose" && (
           <motion.div key="choose" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }} className="space-y-8 pb-32">
               <div className="space-y-4">
-                  <h1 className="text-3xl font-extrabold text-slate-900 leading-tight">{t('app.chooseTitle')}</h1>
-                  <p className="text-slate-500 text-base font-medium leading-relaxed">{t('app.chooseDesc')}</p>
+                  <h1 className="text-3xl font-extrabold text-slate-900 leading-tight">{(typeof t !== "undefined" ? t : (k) => k)('app.chooseTitle')}</h1>
+                  <p className="text-slate-500 text-base font-medium leading-relaxed">{(typeof t !== "undefined" ? t : (k) => k)('app.chooseDesc')}</p>
               </div>
 
               <div className="grid grid-cols-2 gap-3">
@@ -151,7 +151,7 @@ const Index = () => {
                       <ValueCard
                       key={v.name}
                       emoji={v.emoji}
-                      name={t(`values.${v.name}`)}
+                      name={(typeof t !== "undefined" ? t : (k) => k)(`values.${v.name}`)}
                       selected={!!selectedValues.find((s) => s.name === v.name)}
                       onClick={() => toggleValue(v)}
                       />
@@ -166,7 +166,7 @@ const Index = () => {
                     onClick={() => setScreen("reflect")}
                     className="w-full max-w-lg py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-lg shadow-lg shadow-primary/20 hover:shadow-xl transition-all flex items-center justify-center gap-3 disabled:opacity-40"
                 >
-                    {t('app.continue')}
+                    {(typeof t !== "undefined" ? t : (k) => k)('app.continue')}
                     <ArrowRight size={20} />
                 </motion.button>
               </div>
@@ -177,8 +177,8 @@ const Index = () => {
         {screen === "reflect" && (
           <motion.div key="reflect" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }} className="space-y-8 pb-32">
               <div className="space-y-4">
-                  <h1 className="text-3xl font-extrabold text-slate-900 leading-tight">{t('app.reflectTitle')}</h1>
-                  <p className="text-slate-500 text-base font-medium leading-relaxed">{t('app.reflectDesc')}</p>
+                  <h1 className="text-3xl font-extrabold text-slate-900 leading-tight">{(typeof t !== "undefined" ? t : (k) => k)('app.reflectTitle')}</h1>
+                  <p className="text-slate-500 text-base font-medium leading-relaxed">{(typeof t !== "undefined" ? t : (k) => k)('app.reflectDesc')}</p>
               </div>
 
               <div className="flex flex-wrap gap-2">
@@ -193,7 +193,7 @@ const Index = () => {
                               : "bg-white text-slate-600 border-2 border-slate-100 hover:border-primary/20"
                               }`}
                       >
-                          {v.emoji} {t(`values.${v.name}`)}
+                          {v.emoji} {(typeof t !== "undefined" ? t : (k) => k)(`values.${v.name}`)}
                       </motion.button>
                   ))}
               </div>
@@ -201,11 +201,11 @@ const Index = () => {
               {chosenValue && (
                   <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
                       <div className="space-y-2">
-                          <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-4">{t('app.reflectQuestion')}</label>
+                          <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-4">{(typeof t !== "undefined" ? t : (k) => k)('app.reflectQuestion')}</label>
                           <textarea
                               value={reflectionText}
                               onChange={(e) => setReflectionText(e.target.value)}
-                              placeholder={t('app.reflectPlaceholder')}
+                              placeholder={(typeof t !== "undefined" ? t : (k) => k)('app.reflectPlaceholder')}
                               className="w-full py-6 rounded-3xl bg-slate-50 border-2 border-transparent focus:border-primary/30 focus:bg-white transition-all outline-none px-8 font-bold text-slate-700 placeholder:text-slate-300 shadow-inner min-h-[150px] resize-none"
                           />
                       </div>
@@ -217,7 +217,7 @@ const Index = () => {
                             onClick={() => setScreen("action")}
                             className="w-full max-w-lg py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-lg shadow-lg shadow-primary/20 hover:shadow-xl transition-all flex items-center justify-center gap-3 disabled:opacity-40"
                         >
-                            {t('app.next')}
+                            {(typeof t !== "undefined" ? t : (k) => k)('app.next')}
                             <ArrowRight size={20} />
                         </motion.button>
                       </div>
@@ -230,22 +230,22 @@ const Index = () => {
         {screen === "action" && chosenValue && (
           <motion.div key="action" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }} className="space-y-8 pb-32">
               <div className="space-y-4">
-                  <h1 className="text-3xl font-extrabold text-slate-900 leading-tight">{t('app.liveTitle')}</h1>
+                  <h1 className="text-3xl font-extrabold text-slate-900 leading-tight">{(typeof t !== "undefined" ? t : (k) => k)('app.liveTitle')}</h1>
                   <div className="flex justify-center">
                       <div className="px-6 py-2 rounded-full bg-primary/10 text-primary font-black text-[10px] uppercase tracking-widest flex items-center gap-2">
-                          {chosenValue.emoji} {t(`values.${chosenValue.name}`)}
+                          {chosenValue.emoji} {(typeof t !== "undefined" ? t : (k) => k)(`values.${chosenValue.name}`)}
                       </div>
                   </div>
-                  <p className="text-slate-500 text-base font-medium leading-relaxed">{t('app.liveDesc')}</p>
+                  <p className="text-slate-500 text-base font-medium leading-relaxed">{(typeof t !== "undefined" ? t : (k) => k)('app.liveDesc')}</p>
               </div>
 
               <div className="space-y-6">
                   <div className="space-y-2">
-                      <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-4">{t('app.liveQuestion')}</label>
+                      <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-4">{(typeof t !== "undefined" ? t : (k) => k)('app.liveQuestion')}</label>
                       <textarea
                           value={actionText}
                           onChange={(e) => setActionText(e.target.value)}
-                          placeholder={t('app.livePlaceholder')}
+                          placeholder={(typeof t !== "undefined" ? t : (k) => k)('app.livePlaceholder')}
                           className="w-full py-6 rounded-3xl bg-slate-50 border-2 border-transparent focus:border-primary/30 focus:bg-white transition-all outline-none px-8 font-bold text-slate-700 placeholder:text-slate-300 shadow-inner min-h-[150px] resize-none"
                       />
                   </div>
@@ -258,7 +258,7 @@ const Index = () => {
                         className="w-full max-w-lg py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-lg shadow-lg shadow-primary/20 hover:shadow-xl transition-all flex items-center justify-center gap-3 disabled:opacity-40"
                     >
                         {isLoading ? <RefreshCw className="animate-spin" /> : <Check size={20} />}
-                        {t('app.saveReflection')}
+                        {(typeof t !== "undefined" ? t : (k) => k)('app.saveReflection')}
                     </motion.button>
                   </div>
               </div>
@@ -269,8 +269,8 @@ const Index = () => {
         {screen === "summary" && savedReflection && (
           <motion.div key="summary" initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 0.98 }}>
               <PremiumComplete
-                  title={t("app_title")}
-                  message={t('app.quote')}
+                  title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+                  message={(typeof t !== "undefined" ? t : (k) => k)('app.quote')}
                   onRestart={resetActivity}
                   icon={<Target size={48} className="text-primary" />}
               >
@@ -280,21 +280,21 @@ const Index = () => {
                               <div className="w-14 h-14 rounded-2xl bg-primary/10 text-primary flex items-center justify-center shrink-0 text-3xl">
                                   {savedReflection.valueEmoji}
                               </div>
-                              <h3 className="font-black text-slate-800 text-lg uppercase tracking-wider">{t(`values.${savedReflection.valueName}`)}</h3>
+                              <h3 className="font-black text-slate-800 text-lg uppercase tracking-wider">{(typeof t !== "undefined" ? t : (k) => k)(`values.${savedReflection.valueName}`)}</h3>
                           </div>
                           
                           <div className="space-y-4">
                               <div className="space-y-1">
-                                  <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{t('app.reflectionLabel')}</p>
+                                  <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)('app.reflectionLabel')}</p>
                                   <p className="text-slate-600 font-bold leading-relaxed">{savedReflection.reflection}</p>
                               </div>
                               <div className="space-y-1">
-                                  <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{t('app.actionLabel')}</p>
+                                  <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)('app.actionLabel')}</p>
                                   <p className="text-slate-600 font-bold leading-relaxed">{savedReflection.action}</p>
                               </div>
                           </div>
                       </div>
-                      <p className="text-center text-slate-300 text-[10px] font-bold italic">— {t('app.quoteAuthor')}</p>
+                      <p className="text-center text-slate-300 text-[10px] font-bold italic">— {(typeof t !== "undefined" ? t : (k) => k)('app.quoteAuthor')}</p>
                   </div>
               </PremiumComplete>
           </motion.div>
@@ -304,8 +304,8 @@ const Index = () => {
         {screen === "history" && (
           <motion.div key="history" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }} className="space-y-8 pb-32">
               <div className="space-y-4">
-                  <h1 className="text-3xl font-extrabold text-slate-900 leading-tight">{t('app.historyTitle')}</h1>
-                  <p className="text-slate-500 text-base font-medium leading-relaxed">{t('app.historyDesc')}</p>
+                  <h1 className="text-3xl font-extrabold text-slate-900 leading-tight">{(typeof t !== "undefined" ? t : (k) => k)('app.historyTitle')}</h1>
+                  <p className="text-slate-500 text-base font-medium leading-relaxed">{(typeof t !== "undefined" ? t : (k) => k)('app.historyDesc')}</p>
               </div>
 
               {history.length === 0 ? (
@@ -313,14 +313,14 @@ const Index = () => {
                       <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mx-auto text-slate-200 shadow-sm">
                           <Calendar size={32} />
                       </div>
-                      <p className="text-slate-400 font-bold">{t('app.noHistory')}</p>
+                      <p className="text-slate-400 font-bold">{(typeof t !== "undefined" ? t : (k) => k)('app.noHistory')}</p>
                       <motion.button
                           whileHover={{ scale: 1.01 }}
                           whileTap={{ scale: 0.99 }}
                           onClick={resetActivity}
                           className="w-full py-4 rounded-2xl bg-primary text-primary-foreground font-black shadow-lg shadow-primary/20"
                       >
-                          {t('app.startActivity')}
+                          {(typeof t !== "undefined" ? t : (k) => k)('app.startActivity')}
                       </motion.button>
                   </div>
               ) : (
@@ -339,7 +339,7 @@ const Index = () => {
                                           {r.valueEmoji}
                                       </div>
                                       <div>
-                                          <h4 className="font-black text-slate-800 text-xs uppercase tracking-wider">{t(`values.${r.valueName}`)}</h4>
+                                          <h4 className="font-black text-slate-800 text-xs uppercase tracking-wider">{(typeof t !== "undefined" ? t : (k) => k)(`values.${r.valueName}`)}</h4>
                                           <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest">{format(new Date(r.date), "MMMM d, yyyy")}</p>
                                       </div>
                                   </div>
@@ -362,7 +362,7 @@ const Index = () => {
                             className="w-full max-w-lg py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-lg shadow-lg shadow-primary/20 hover:shadow-xl transition-all flex items-center justify-center gap-3"
                         >
                             <RefreshCw size={20} />
-                            {t('app.startNew')}
+                            {(typeof t !== "undefined" ? t : (k) => k)('app.startNew')}
                         </motion.button>
                       </div>
                   </div>

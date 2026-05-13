@@ -24,20 +24,20 @@ function Screen1({ onNext }: { onNext: () => void }) {
           🔥
         </div>
         <h1 className="text-3xl font-black text-slate-800 mb-6 leading-tight">
-          {t("screens.s1.title")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screens.s1.title")}
         </h1>
         <p className="text-slate-500 font-medium leading-relaxed text-base mb-8">
-          {t("screens.s1.description")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screens.s1.description")}
         </p>
         <div className="bg-red-50 rounded-3xl p-8 italic text-red-900 text-sm font-bold leading-relaxed border-l-8 border-red-400">
-          {t("screens.s1.quote")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screens.s1.quote")}
         </div>
       </div>
       <button
         onClick={onNext}
         className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
       >
-        {t("screens.s1.button")}
+        {(typeof t !== "undefined" ? t : (k) => k)("screens.s1.button")}
         <ChevronRight size={20} strokeWidth={3} />
       </button>
     </div>
@@ -46,7 +46,7 @@ function Screen1({ onNext }: { onNext: () => void }) {
 
 function Screen2({ onNext }: { onNext: () => void }) {
   const { t } = useTranslation();
-  const nodes_data = t("screens.s2.nodes", { returnObjects: true }) as any[];
+  const nodes_data = (typeof t !== "undefined" ? t : (k) => k)("screens.s2.nodes", { returnObjects: true }) as any[];
   const colors = [
     "text-red-600 bg-red-50",
     "text-indigo-600 bg-indigo-50",
@@ -57,8 +57,8 @@ function Screen2({ onNext }: { onNext: () => void }) {
   return (
     <div className="flex flex-1 flex-col gap-8">
       <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 min-h-[450px]">
-        <Badge className="bg-red-100 text-red-600 mb-6">{t("screens.s2.tag")}</Badge>
-        <h1 className="text-3xl font-black text-slate-800 mb-8">{t("screens.s2.title")}</h1>
+        <Badge className="bg-red-100 text-red-600 mb-6">{(typeof t !== "undefined" ? t : (k) => k)("screens.s2.tag")}</Badge>
+        <h1 className="text-3xl font-black text-slate-800 mb-8">{(typeof t !== "undefined" ? t : (k) => k)("screens.s2.title")}</h1>
         
         <div className="flex flex-col items-center gap-2 mb-8">
           {nodes_data.map((node, i) => (
@@ -82,7 +82,7 @@ function Screen2({ onNext }: { onNext: () => void }) {
         onClick={onNext}
         className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
       >
-        {t("screens.s2.button")}
+        {(typeof t !== "undefined" ? t : (k) => k)("screens.s2.button")}
         <ChevronRight size={20} strokeWidth={3} />
       </button>
     </div>
@@ -94,24 +94,24 @@ function Screen3({ onNext }: { onNext: () => void }) {
   return (
     <div className="flex flex-1 flex-col gap-8">
       <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 min-h-[450px]">
-        <Badge className="bg-indigo-100 text-indigo-600 mb-6">{t("screens.s3.tag")}</Badge>
-        <h1 className="text-3xl font-black text-slate-800 mb-8">{t("screens.s3.title")}</h1>
+        <Badge className="bg-indigo-100 text-indigo-600 mb-6">{(typeof t !== "undefined" ? t : (k) => k)("screens.s3.tag")}</Badge>
+        <h1 className="text-3xl font-black text-slate-800 mb-8">{(typeof t !== "undefined" ? t : (k) => k)("screens.s3.title")}</h1>
 
         <div className="space-y-6">
           <div className="rounded-3xl border border-red-100 bg-red-50/30 p-8">
             <p className="font-black text-red-600 text-sm mb-3 uppercase tracking-[0.2em] flex items-center gap-2">
-              {t("screens.s3.anger.title")}
+              {(typeof t !== "undefined" ? t : (k) => k)("screens.s3.anger.title")}
             </p>
             <p className="text-slate-600 text-base leading-relaxed font-medium">
-              {t("screens.s3.anger.desc")}
+              {(typeof t !== "undefined" ? t : (k) => k)("screens.s3.anger.desc")}
             </p>
           </div>
           <div className="rounded-3xl border border-indigo-100 bg-indigo-50/30 p-8">
             <p className="font-black text-indigo-600 text-sm mb-3 uppercase tracking-[0.2em] flex items-center gap-2">
-              {t("screens.s3.shame.title")}
+              {(typeof t !== "undefined" ? t : (k) => k)("screens.s3.shame.title")}
             </p>
             <p className="text-slate-600 text-base leading-relaxed font-medium">
-              {t("screens.s3.shame.desc")}
+              {(typeof t !== "undefined" ? t : (k) => k)("screens.s3.shame.desc")}
             </p>
           </div>
         </div>
@@ -120,7 +120,7 @@ function Screen3({ onNext }: { onNext: () => void }) {
         onClick={onNext}
         className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
       >
-        {t("screens.s3.button")}
+        {(typeof t !== "undefined" ? t : (k) => k)("screens.s3.button")}
         <ChevronRight size={20} strokeWidth={3} />
       </button>
     </div>
@@ -129,14 +129,14 @@ function Screen3({ onNext }: { onNext: () => void }) {
 
 function Screen4({ onFinish }: { onFinish: () => void }) {
   const { t } = useTranslation();
-  const steps_data = t("screens.s4.steps", { returnObjects: true }) as any[];
+  const steps_data = (typeof t !== "undefined" ? t : (k) => k)("screens.s4.steps", { returnObjects: true }) as any[];
   const emojis = ["🔍", "🤲", "🕊️"];
 
   return (
     <div className="flex flex-1 flex-col gap-8">
       <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 min-h-[450px]">
-        <Badge className="bg-emerald-100 text-emerald-600 mb-6">{t("screens.s4.tag")}</Badge>
-        <h1 className="text-3xl font-black text-slate-800 mb-8">{t("screens.s4.title")}</h1>
+        <Badge className="bg-emerald-100 text-emerald-600 mb-6">{(typeof t !== "undefined" ? t : (k) => k)("screens.s4.tag")}</Badge>
+        <h1 className="text-3xl font-black text-slate-800 mb-8">{(typeof t !== "undefined" ? t : (k) => k)("screens.s4.title")}</h1>
 
         <div className="space-y-8">
           {steps_data.map((step, idx) => (
@@ -159,14 +159,14 @@ function Screen4({ onFinish }: { onFinish: () => void }) {
           <Heart className="text-emerald-500 w-6 h-6" />
         </div>
         <p className="text-emerald-900 text-sm font-black leading-relaxed">
-          {t("screens.s4.notice")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screens.s4.notice")}
         </p>
       </div>
       <button
         onClick={onFinish}
         className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
       >
-        {t("screens.s4.button")}
+        {(typeof t !== "undefined" ? t : (k) => k)("screens.s4.button")}
         <ChevronRight size={20} strokeWidth={3} />
       </button>
     </div>
@@ -180,8 +180,8 @@ export default function AngerShameCycle() {
   if (screen === 4) {
     return (
       <PremiumComplete
-        title={t("app_title")}
-        message={t("complete.message")}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+        message={(typeof t !== "undefined" ? t : (k) => k)("complete.message")}
         onRestart={() => setScreen(0)}
       />
     );
@@ -189,8 +189,8 @@ export default function AngerShameCycle() {
 
   return (
     <PremiumLayout
-      title={t("app_title")}
-      subtitle={t("app_subtitle", { step: screen + 1, total: TOTAL_SCREENS })}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+      subtitle={(typeof t !== "undefined" ? t : (k) => k)("app_subtitle", { step: screen + 1, total: TOTAL_SCREENS })}
       icon={<RefreshCw className="w-6 h-6 text-primary" />}
       onBack={screen > 0 ? () => setScreen(prev => prev - 1) : undefined}
     >

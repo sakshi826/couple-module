@@ -11,20 +11,20 @@ const ChooseAreaScreen = ({ onStart }: ChooseAreaScreenProps) => {
   const { t } = useTranslation();
 
   const areas = [
-    `🖥️ ${t("one_corner_desk")}`,
-    `🛏️ ${t("bedside_table")}`,
-    `🪑 ${t("one_chair")}`,
-    `🧹 ${t("small_section_floor")}`,
+    `🖥️ ${(typeof t !== "undefined" ? t : (k) => k)("one_corner_desk")}`,
+    `🛏️ ${(typeof t !== "undefined" ? t : (k) => k)("bedside_table")}`,
+    `🪑 ${(typeof t !== "undefined" ? t : (k) => k)("one_chair")}`,
+    `🧹 ${(typeof t !== "undefined" ? t : (k) => k)("small_section_floor")}`,
   ];
 
   return (
     <PremiumIntro
-      title={t("app_title")}
-      description={`${t("choose_space")} ${t("not_whole_room")}`}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+      description={`${(typeof t !== "undefined" ? t : (k) => k)("choose_space")} ${(typeof t !== "undefined" ? t : (k) => k)("not_whole_room")}`}
       onStart={onStart}
       icon={<Home size={32} />}
       benefits={areas}
-      duration={t('app_duration')}
+      duration={(typeof t !== "undefined" ? t : (k) => k)('app_duration')}
     />
   );
 };

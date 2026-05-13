@@ -9,14 +9,14 @@ const IntroScreen = () => {
   const navigate = useNavigate();
 
   return (
-    <PremiumLayout title={t("app_title")}>
+    <PremiumLayout title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}>
       <PremiumIntro
-        title={t("app_title")}
-        description={t("app_description")}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+        description={(typeof t !== "undefined" ? t : (k) => k)("app_description")}
         onStart={() => navigate("./breathe", { replace: true })}
         icon={<Wind size={32} />}
-        benefits={[t('intro_p1'), t('intro_p2'), t('intro_p3')]}
-        duration={t('app_duration', "3-5 minutes")}
+        benefits={[(typeof t !== "undefined" ? t : (k) => k)('intro_p1'), (typeof t !== "undefined" ? t : (k) => k)('intro_p2'), (typeof t !== "undefined" ? t : (k) => k)('intro_p3')]}
+        duration={(typeof t !== "undefined" ? t : (k) => k)('app_duration', "3-5 minutes")}
       />
     </PremiumLayout>
   );

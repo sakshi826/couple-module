@@ -55,16 +55,16 @@ const HistoryScreen = ({ onBack }: HistoryScreenProps) => {
         <ScreenWrapper screenKey="history">
             <div className="flex-1 space-y-8">
                 <h1 className="text-[22px] font-heading text-foreground text-center">
-                    {t('history_title')}
+                    {(typeof t !== "undefined" ? t : (k) => k)('history_title')}
                 </h1>
 
                 {missions.length === 0 ? (
                     <div className="space-y-4 text-center">
                         <p className="text-[15px] font-body text-muted-foreground leading-[1.65]">
-                            {t('history_empty')}
+                            {(typeof t !== "undefined" ? t : (k) => k)('history_empty')}
                         </p>
                         <p className="text-[15px] font-body text-muted-foreground leading-[1.65] italic">
-                            {t('history_empty_hint')}
+                            {(typeof t !== "undefined" ? t : (k) => k)('history_empty_hint')}
                         </p>
                     </div>
                 ) : (
@@ -85,7 +85,7 @@ const HistoryScreen = ({ onBack }: HistoryScreenProps) => {
                                     <button
                                         onClick={() => handleDelete(mission.id)}
                                         className="text-muted-foreground/60 hover:text-destructive transition-colors p-1 -mt-1 -mr-1"
-                                        aria-label={t('history_delete_aria')}
+                                        aria-label={(typeof t !== "undefined" ? t : (k) => k)('history_delete_aria')}
                                     >
                                         <Trash2 size={16} />
                                     </button>
@@ -98,7 +98,7 @@ const HistoryScreen = ({ onBack }: HistoryScreenProps) => {
                                                 key={v}
                                                 className="text-[12px] font-body bg-primary/15 text-primary px-3 py-1 rounded-full"
                                             >
-                                                {t(v)}
+                                                {(typeof t !== "undefined" ? t : (k) => k)(v)}
                                             </span>
                                         ))}
                                     </div>
@@ -115,7 +115,7 @@ const HistoryScreen = ({ onBack }: HistoryScreenProps) => {
 
             <div className="pt-8 pb-4">
                 <MissionButton variant="outline" onClick={onBack}>
-                    {t('history_back')}
+                    {(typeof t !== "undefined" ? t : (k) => k)('history_back')}
                 </MissionButton>
             </div>
         </ScreenWrapper>

@@ -19,7 +19,7 @@ const WritingScreen = ({
   onContinue,
 }: WritingScreenProps) => {
   const textareaRef = useRef<HTMLTextAreaElement>(null);
-  const prompts = t("writing.prompts", { returnObjects: true }) as string[];
+  const prompts = (typeof t !== "undefined" ? t : (k) => k)("writing.prompts", { returnObjects: true }) as string[];
 
   const insertPrompt = (prompt: string) => {
   const { t } = useTranslation();
@@ -52,10 +52,10 @@ const WritingScreen = ({
 
       {/* Title */}
       <h1 className="text-xl font-semibold text-foreground mb-2 leading-tight">
-        {t("writing.title")}
+        {(typeof t !== "undefined" ? t : (k) => k)("writing.title")}
       </h1>
       <p className="text-muted-foreground text-sm leading-relaxed mb-5">
-        {t("writing.desc")}
+        {(typeof t !== "undefined" ? t : (k) => k)("writing.desc")}
       </p>
 
       {/* Prompt chips */}
@@ -77,11 +77,11 @@ const WritingScreen = ({
           ref={textareaRef}
           value={content}
           onChange={(e) => onContentChange(e.target.value)}
-          placeholder={t("writing.placeholder")}
+          placeholder={(typeof t !== "undefined" ? t : (k) => k)("writing.placeholder")}
           className="flex-1 w-full resize-none bg-card rounded-2xl p-5 text-foreground text-[15px] leading-relaxed placeholder:text-muted-foreground/50 focus:outline-none focus:ring-2 focus:ring-primary/30 transition-shadow min-h-[280px]"
         />
         <p className="text-micro mt-3 text-center italic">
-          {t("writing.notice")}
+          {(typeof t !== "undefined" ? t : (k) => k)("writing.notice")}
         </p>
       </div>
 
@@ -90,7 +90,7 @@ const WritingScreen = ({
         onClick={onContinue}
         className="w-full py-4 rounded-2xl bg-primary text-primary-foreground font-medium text-base hover:opacity-90 transition-opacity mt-6"
       >
-        {t("writing.button")}
+        {(typeof t !== "undefined" ? t : (k) => k)("writing.button")}
       </button>
     </div>
   );

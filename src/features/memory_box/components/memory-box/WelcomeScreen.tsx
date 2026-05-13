@@ -34,18 +34,18 @@ const WelcomeScreen = ({ onBegin, onHistory }: Props) => {
         </motion.div>
 
         <h1 className="text-3xl font-heading font-semibold text-foreground">
-          {t("welcome.title")}
+          {(typeof t !== "undefined" ? t : (k) => k)("welcome.title")}
         </h1>
 
         <div className="space-y-4 text-muted-foreground font-body text-base leading-relaxed text-center">
-          <p>{t("welcome.subtitle1")}</p>
+          <p>{(typeof t !== "undefined" ? t : (k) => k)("welcome.subtitle1")}</p>
           <p>
-            {t("welcome.subtitle2")}
+            {(typeof t !== "undefined" ? t : (k) => k)("welcome.subtitle2")}
             <br />
-            {t("welcome.subtitle3")}
+            {(typeof t !== "undefined" ? t : (k) => k)("welcome.subtitle3")}
           </p>
-          <p>{t("welcome.subtitle4")}</p>
-          <p>{t("welcome.subtitle5")}</p>
+          <p>{(typeof t !== "undefined" ? t : (k) => k)("welcome.subtitle4")}</p>
+          <p>{(typeof t !== "undefined" ? t : (k) => k)("welcome.subtitle5")}</p>
         </div>
 
         {/* Breathing indicator */}
@@ -61,10 +61,10 @@ const WelcomeScreen = ({ onBegin, onHistory }: Props) => {
             onClick={onBegin}
             className="w-full py-3.5 rounded-xl bg-primary text-primary-foreground font-body font-semibold text-base shadow-sm hover:shadow-md transition-all duration-300"
           >
-            {t("welcome.begin")}
+            {(typeof t !== "undefined" ? t : (k) => k)("welcome.begin")}
           </motion.button>
           <button className="w-full py-3 text-muted-foreground font-body text-sm hover:text-foreground transition-colors duration-300">
-            {t("welcome.later")}
+            {(typeof t !== "undefined" ? t : (k) => k)("welcome.later")}
           </button>
         </div>
       </div>

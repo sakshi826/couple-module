@@ -21,7 +21,7 @@ const HoldScreen = ({ onComplete }: HoldScreenProps) => {
     return 0;
   }
 
-  const microcopy = t("hold.microcopy", { returnObjects: true }) as { at: number; text: string }[];
+  const microcopy = (typeof t !== "undefined" ? t : (k) => k)("hold.microcopy", { returnObjects: true }) as { at: number; text: string }[];
 
   function getMicrocopy(p: number) {
   const { t } = useTranslation();
@@ -82,7 +82,7 @@ const HoldScreen = ({ onComplete }: HoldScreenProps) => {
         transition={{ delay: 0.2 }}
         className="text-2xl font-semibold text-foreground mb-2"
       >
-        {t("hold.title")}
+        {(typeof t !== "undefined" ? t : (k) => k)("hold.title")}
       </motion.h1>
       
       <AnimatePresence mode="wait">
@@ -171,7 +171,7 @@ const HoldScreen = ({ onComplete }: HoldScreenProps) => {
           animate={{ opacity: 0.5 }}
           className="text-sm text-muted-foreground"
         >
-          {t("hold.instructions")}
+          {(typeof t !== "undefined" ? t : (k) => k)("hold.instructions")}
         </motion.p>
       )}
     </motion.div>

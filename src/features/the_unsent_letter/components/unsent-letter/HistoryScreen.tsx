@@ -21,7 +21,7 @@ const HistoryScreen = ({ letters, onBack }: HistoryScreenProps) => {
         >
           <ArrowLeft className="w-5 h-5 text-muted-foreground" />
         </button>
-        <h2 className="text-lg font-semibold text-foreground">{t("history.title")}</h2>
+        <h2 className="text-lg font-semibold text-foreground">{(typeof t !== "undefined" ? t : (k) => k)("history.title")}</h2>
       </div>
 
       {letters.length === 0 ? (
@@ -30,10 +30,10 @@ const HistoryScreen = ({ letters, onBack }: HistoryScreenProps) => {
             <span className="text-2xl">📝</span>
           </div>
           <p className="text-muted-foreground text-sm">
-            {t("history.empty_title")}
+            {(typeof t !== "undefined" ? t : (k) => k)("history.empty_title")}
           </p>
           <p className="text-micro mt-1">
-            {t("history.empty_desc")}
+            {(typeof t !== "undefined" ? t : (k) => k)("history.empty_desc")}
           </p>
         </div>
       ) : (

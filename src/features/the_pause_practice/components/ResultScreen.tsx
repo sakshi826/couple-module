@@ -12,14 +12,14 @@ interface ResultScreenProps {
 const ResultScreen = ({ scenario, onTryAgain, onDone }: ResultScreenProps) => {
   const { t } = useTranslation();
   
-  const scenarioMessages = t("result.scenario_messages", { returnObjects: true }) as Record<string, string>;
+  const scenarioMessages = (typeof t !== "undefined" ? t : (k) => k)("result.scenario_messages", { returnObjects: true }) as Record<string, string>;
   const message = scenarioMessages[scenario] || scenarioMessages.other;
 
   return (
     <div className="w-full">
       <PremiumComplete
-        title={t("app_title")}
-        message={t("result.message")}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+        message={(typeof t !== "undefined" ? t : (k) => k)("result.message")}
         onRestart={onTryAgain}
         onHome={onDone}
         icon={<Sparkles size={48} />}
@@ -34,14 +34,14 @@ const ResultScreen = ({ scenario, onTryAgain, onDone }: ResultScreenProps) => {
             <div className="absolute top-0 right-0 p-8 text-white/5 pointer-events-none group-hover:scale-110 transition-transform">
                 <Sparkles size={120} strokeWidth={1} />
             </div>
-            <p className="text-slate-400 text-[10px] font-black uppercase tracking-[0.3em] mb-4 relative z-10">{t("result.tip_label")}</p>
+            <p className="text-slate-400 text-[10px] font-black uppercase tracking-[0.3em] mb-4 relative z-10">{(typeof t !== "undefined" ? t : (k) => k)("result.tip_label")}</p>
             <p className="text-xl font-bold italic leading-tight relative z-10">
               "{message}"
             </p>
           </motion.div>
           
           <p className="text-slate-400 text-xs font-bold italic text-center">
-            {t("result.italic")}
+            {(typeof t !== "undefined" ? t : (k) => k)("result.italic")}
           </p>
         </div>
       </PremiumComplete>

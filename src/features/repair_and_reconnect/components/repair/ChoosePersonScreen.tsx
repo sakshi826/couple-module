@@ -11,20 +11,20 @@ const ChoosePersonScreen = ({ selected, onSelect, onContinue }: Props) => {
   const { t } = useTranslation();
   
   const options = [
-    { id: "friend", label: t("choose_person.options.friend"), emoji: "🤝" },
-    { id: "family", label: t("choose_person.options.family"), emoji: "🏠" },
-    { id: "colleague", label: t("choose_person.options.colleague"), emoji: "💼" },
-    { id: "other", label: t("choose_person.options.other"), emoji: "👤" },
+    { id: "friend", label: (typeof t !== "undefined" ? t : (k) => k)("choose_person.options.friend"), emoji: "🤝" },
+    { id: "family", label: (typeof t !== "undefined" ? t : (k) => k)("choose_person.options.family"), emoji: "🏠" },
+    { id: "colleague", label: (typeof t !== "undefined" ? t : (k) => k)("choose_person.options.colleague"), emoji: "💼" },
+    { id: "other", label: (typeof t !== "undefined" ? t : (k) => k)("choose_person.options.other"), emoji: "👤" },
   ];
 
   return (
     <div className="glass-card p-8 space-y-6">
       <div className="text-center space-y-2">
         <h1 className="font-heading text-2xl font-semibold text-foreground">
-          {t("choose_person.title")}
+          {(typeof t !== "undefined" ? t : (k) => k)("choose_person.title")}
         </h1>
         <p className="font-body text-sm text-muted-foreground">
-          {t("choose_person.desc")}
+          {(typeof t !== "undefined" ? t : (k) => k)("choose_person.desc")}
         </p>
       </div>
 
@@ -55,7 +55,7 @@ const ChoosePersonScreen = ({ selected, onSelect, onContinue }: Props) => {
         disabled={!selected}
         className="btn-gradient w-full py-3.5 font-heading font-medium text-base transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] disabled:opacity-40 disabled:pointer-events-none mt-4"
       >
-        {t("choose_person.button")}
+        {(typeof t !== "undefined" ? t : (k) => k)("choose_person.button")}
       </button>
     </div>
   );

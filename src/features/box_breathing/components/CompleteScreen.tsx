@@ -16,23 +16,23 @@ const CompleteScreen = ({ onRestart, onBack }: Props) => {
         </div>
 
         <h2 className="text-2xl font-semibold text-foreground mb-2">
-          {t("feeling_calmer")}
+          {(typeof t !== "undefined" ? t : (k) => k)("feeling_calmer")}
         </h2>
         <p className="text-muted-foreground text-center text-[15px] leading-relaxed max-w-xs mb-10">
-          {t("session_complete_msg")}
+          {(typeof t !== "undefined" ? t : (k) => k)("session_complete_msg")}
         </p>
 
         <button
           onClick={onRestart}
           className="w-full max-w-xs py-4 rounded-lg bg-primary text-primary-foreground font-semibold text-base  hover:brightness-105 active:scale-[0.98] transition-all duration-200 mb-3"
         >
-          {t("start_again")}
+          {(typeof t !== "undefined" ? t : (k) => k)("start_again")}
         </button>
         <button
           onClick={onBack}
           className="w-full max-w-xs py-4 rounded-lg bg-transparent text-slate-600 font-medium text-base  hover:bg-muted active:scale-[0.98] transition-all duration-200"
         >
-          {t("back")}
+          {(typeof t !== "undefined" ? t : (k) => k)("back")}
         </button>
       </div>
     </div>

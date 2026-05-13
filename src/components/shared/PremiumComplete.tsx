@@ -25,8 +25,8 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
   const navigate = useNavigate();
   const [isShareOpen, setIsShareOpen] = useState(false);
 
-  const displayTitle = title || t("common.well_done", "Well Done!");
-  const displayMessage = message || t("common.completion_message", "You've successfully completed this activity. Take a moment to appreciate your progress.");
+  const displayTitle = title || (typeof t !== "undefined" ? t : (k) => k)("common.well_done", "Well Done!");
+  const displayMessage = message || (typeof t !== "undefined" ? t : (k) => k)("common.completion_message", "You've successfully completed this activity. Take a moment to appreciate your progress.");
 
   const handleHome = () => {
   const { t } = useTranslation();
@@ -121,7 +121,7 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
                 className="flex-1 py-4.5 rounded-2xl bg-white border border-slate-200 text-slate-600 font-bold flex items-center justify-center gap-3 hover:bg-slate-50 hover:text-slate-900 transition-all shadow-sm"
               >
                 <RotateCcw size={18} strokeWidth={2.5} />
-                {t("common.start_over", "Start Over")}
+                {(typeof t !== "undefined" ? t : (k) => k)("common.start_over", "Start Over")}
               </motion.button>
             )}
             <motion.button
@@ -134,7 +134,7 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
               className="flex-1 py-4.5 rounded-2xl bg-primary/10 border border-primary/20 text-primary font-bold flex items-center justify-center gap-3 hover:bg-primary/20 transition-all shadow-sm"
             >
               <Share2 size={18} strokeWidth={2.5} />
-              {t("common.share", "Share")}
+              {(typeof t !== "undefined" ? t : (k) => k)("common.share", "Share")}
             </motion.button>
           </div>
           <motion.button
@@ -147,7 +147,7 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
             className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
           >
             <Home size={20} strokeWidth={2.5} />
-            {t("common.finish_exit", "Finish & Exit")}
+            {(typeof t !== "undefined" ? t : (k) => k)("common.finish_exit", "Finish & Exit")}
           </motion.button>
         </div>
       </div>

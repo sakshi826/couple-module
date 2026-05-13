@@ -23,14 +23,14 @@ const Screen1CheckIn = ({ date, onDateChange, onContinue }: Screen1Props) => {
   return (
     <MobileShell step={1} totalSteps={5}>
       <h1 className="font-display text-2xl font-bold tracking-tight">
-        {t('screens.checkin.title')}
+        {(typeof t !== "undefined" ? t : (k) => k)('screens.checkin.title')}
       </h1>
-      <p className="mt-1 text-sm text-muted-foreground">{t('screens.checkin.subtitle')}</p>
+      <p className="mt-1 text-sm text-muted-foreground">{(typeof t !== "undefined" ? t : (k) => k)('screens.checkin.subtitle')}</p>
 
       {/* Date */}
       <div className="mt-6">
         <label className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-          {t('common.date')}
+          {(typeof t !== "undefined" ? t : (k) => k)('common.date')}
         </label>
         <Popover>
           <PopoverTrigger asChild>
@@ -59,11 +59,11 @@ const Screen1CheckIn = ({ date, onDateChange, onContinue }: Screen1Props) => {
       {/* Self-care question */}
       <div className="mt-8">
         <label className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-          {t('screens.checkin.question')}
+          {(typeof t !== "undefined" ? t : (k) => k)('screens.checkin.question')}
         </label>
         <div className="mt-3 flex gap-3">
-          <OptionChip label={t('common.yes')} selected={answer === true} onToggle={() => setAnswer(true)} emoji="✅" />
-          <OptionChip label={t('common.no')} selected={answer === false} onToggle={() => setAnswer(false)} emoji="❌" />
+          <OptionChip label={(typeof t !== "undefined" ? t : (k) => k)('common.yes')} selected={answer === true} onToggle={() => setAnswer(true)} emoji="✅" />
+          <OptionChip label={(typeof t !== "undefined" ? t : (k) => k)('common.no')} selected={answer === false} onToggle={() => setAnswer(false)} emoji="❌" />
         </div>
       </div>
 

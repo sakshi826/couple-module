@@ -80,29 +80,29 @@ const TimerScreen = ({ onComplete }: TimerScreenProps) => {
         </div>
 
         <div>
-          <p className="text-xs uppercase tracking-widest text-primary font-semibold mb-1">{t("step_2_of_3")}</p>
+          <p className="text-xs uppercase tracking-widest text-primary font-semibold mb-1">{(typeof t !== "undefined" ? t : (k) => k)("step_2_of_3")}</p>
           <h1 className="text-3xl font-heading font-bold text-foreground">
-            {t("five_min_reset")}
+            {(typeof t !== "undefined" ? t : (k) => k)("five_min_reset")}
           </h1>
         </div>
 
         <div className="bg-transparent rounded-2xl p-5  border border-border space-y-3">
           <p className="text-muted-foreground text-left leading-relaxed text-sm">
-            {t("next_5_minutes")}
+            {(typeof t !== "undefined" ? t : (k) => k)("next_5_minutes")}
           </p>
           <ul className="text-left text-foreground space-y-2 text-sm">
             <li className="flex items-start gap-2">
-              <span className="text-primary mt-0.5">•</span> {t("remove_trash")}
+              <span className="text-primary mt-0.5">•</span> {(typeof t !== "undefined" ? t : (k) => k)("remove_trash")}
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-primary mt-0.5">•</span> {t("put_away_items")}
+              <span className="text-primary mt-0.5">•</span> {(typeof t !== "undefined" ? t : (k) => k)("put_away_items")}
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-primary mt-0.5">•</span> {t("neatly_place_remains")}
+              <span className="text-primary mt-0.5">•</span> {(typeof t !== "undefined" ? t : (k) => k)("neatly_place_remains")}
             </li>
           </ul>
           <p className="text-muted-foreground text-left text-xs italic">
-            {t("not_perfect")}
+            {(typeof t !== "undefined" ? t : (k) => k)("not_perfect")}
           </p>
         </div>
 
@@ -166,7 +166,7 @@ const TimerScreen = ({ onComplete }: TimerScreenProps) => {
         </div>
 
         <p className="text-xs text-muted-foreground">
-          {soundEnabled ? t("chime_done") : t("sound_off")}
+          {soundEnabled ? (typeof t !== "undefined" ? t : (k) => k)("chime_done") : (typeof t !== "undefined" ? t : (k) => k)("sound_off")}
         </p>
 
         {/* Finish Early Button */}
@@ -177,7 +177,7 @@ const TimerScreen = ({ onComplete }: TimerScreenProps) => {
           size="lg"
         >
           <CheckCircle2 className="w-5 h-5" />
-          {t("im_done")}
+          {(typeof t !== "undefined" ? t : (k) => k)("im_done")}
         </Button>
       </div>
     </div>

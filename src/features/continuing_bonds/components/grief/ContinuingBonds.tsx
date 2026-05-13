@@ -13,8 +13,8 @@ const OPTION_EMOJIS = ["🕊️", "🤲", "🌿", "💌", "✨"];
 
 const ContinuingBonds = () => {
   const { t } = useTranslation();
-  const CONNECTION_OPTIONS = t("connection_options", { returnObjects: true }) as any[];
-  const BOND_PROMPTS = t("bond_prompts", { returnObjects: true }) as string[];
+  const CONNECTION_OPTIONS = (typeof t !== "undefined" ? t : (k) => k)("connection_options", { returnObjects: true }) as any[];
+  const BOND_PROMPTS = (typeof t !== "undefined" ? t : (k) => k)("bond_prompts", { returnObjects: true }) as string[];
 
   const [screen, setScreen] = useState<Screen>("welcome");
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
@@ -49,7 +49,7 @@ const ContinuingBonds = () => {
   const handleSaveReflection = async () => {
     const userId = sessionStorage.getItem("user_id");
     if (!userId || !DATABASE_URL) {
-      toast.error(t("auth_error"));
+      toast.error((typeof t !== "undefined" ? t : (k) => k)("auth_error"));
       return;
     }
 
@@ -65,12 +65,12 @@ const ContinuingBonds = () => {
     try {
       const sql = neon(DATABASE_URL);
       await sql`INSERT INTO continuing_bonds_entries (user_id, bond_data) VALUES (${userId}, ${bondData})`;
-      toast.success(t("save_success"));
+      toast.success((typeof t !== "undefined" ? t : (k) => k)("save_success"));
       setReflections(prev => [bondData, ...prev]);
       setScreen("review");
     } catch (error) {
       console.error("Failed to save bond:", error);
-      toast.error(t("save_error"));
+      toast.error((typeof t !== "undefined" ? t : (k) => k)("save_error"));
     } finally {
       setIsSaving(false);
     }
@@ -89,18 +89,18 @@ const ContinuingBonds = () => {
   if (screen === "complete") {
     return (
       <PremiumComplete
-        title={t("app_title")}
-        message={t("complete_message")}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+        message={(typeof t !== "undefined" ? t : (k) => k)("complete_message")}
         onRestart={reset}
       />
     );
   }
 
-  const titles: Record<string, string> = t("screen_titles", { returnObjects: true }) as any;
+  const titles: Record<string, string> = (typeof t !== "undefined" ? t : (k) => k)("screen_titles", { returnObjects: true }) as any;
 
   return (
     <PremiumLayout
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       subtitle={titles[screen]}
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={screen !== "welcome" ? () => setScreen("welcome") : undefined}
@@ -120,17 +120,17 @@ const ContinuingBonds = () => {
               </div>
               <div className="space-y-6">
                 <h1 className="text-3xl font-black text-slate-800 leading-tight">
-                  {t("welcome_title")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("welcome_title")}
                 </h1>
                 <p className="text-slate-500 font-medium leading-relaxed max-w-xs mx-auto text-base">
-                  {t("welcome_subtitle")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("welcome_subtitle")}
                 </p>
               </div>
               <button
                 onClick={() => setScreen("choose")}
                 className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
               >
-                {t("begin_button")}
+                {(typeof t !== "undefined" ? t : (k) => k)("begin_button")}
                 <ChevronRight size={20} strokeWidth={3} />
               </button>
             </motion.div>
@@ -144,7 +144,7 @@ const ContinuingBonds = () => {
               className="flex-1 flex flex-col gap-8"
             >
               <h2 className="text-2xl font-black text-slate-800 text-center">
-                {t("choose_question")}
+                {(typeof t !== "undefined" ? t : (k) => k)("choose_question")}
               </h2>
 
               {selectedOption === null ? (
@@ -171,7 +171,7 @@ const ContinuingBonds = () => {
                     <textarea
                       value={primaryText}
                       onChange={(e) => setPrimaryText(e.target.value)}
-                      placeholder={t("write_heart")}
+                      placeholder={(typeof t !== "undefined" ? t : (k) => k)("write_heart")}
                       className="w-full bg-slate-50 border border-slate-100 rounded-3xl p-6 text-base font-medium min-h-[150px] focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all shadow-inner"
                     />
                   </div>
@@ -181,7 +181,7 @@ const ContinuingBonds = () => {
                     disabled={!primaryText.trim()}
                     className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                   >
-                    {t("continue_button")}
+                    {(typeof t !== "undefined" ? t : (k) => k)("continue_button")}
                     <ChevronRight size={20} strokeWidth={3} />
                   </button>
                 </div>
@@ -198,14 +198,14 @@ const ContinuingBonds = () => {
             >
               <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 flex flex-col items-center text-center">
                 <div className="text-6xl mb-8">🔗</div>
-                <h2 className="text-2xl font-black text-slate-800 mb-4">{t("action_title")}</h2>
+                <h2 className="text-2xl font-black text-slate-800 mb-4">{(typeof t !== "undefined" ? t : (k) => k)("action_title")}</h2>
                 <p className="text-slate-500 font-medium text-base mb-8 leading-relaxed italic">
                   "{bondPrompt}"
                 </p>
                 <textarea
                   value={bondText}
                   onChange={(e) => setBondText(e.target.value)}
-                  placeholder={t("sharing_optional")}
+                  placeholder={(typeof t !== "undefined" ? t : (k) => k)("sharing_optional")}
                   className="w-full bg-slate-50 border border-slate-100 rounded-3xl p-6 text-base font-medium min-h-[150px] focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all shadow-inner"
                 />
               </div>
@@ -216,7 +216,7 @@ const ContinuingBonds = () => {
                 className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
               >
                 <Save size={20} strokeWidth={3} />
-                {isSaving ? t("preserving") : t("preserve_button")}
+                {isSaving ? (typeof t !== "undefined" ? t : (k) => k)("preserving") : (typeof t !== "undefined" ? t : (k) => k)("preserve_button")}
               </button>
             </motion.div>
           )}
@@ -232,9 +232,9 @@ const ContinuingBonds = () => {
                 <div className="w-20 h-20 bg-emerald-50 rounded-[2rem] flex items-center justify-center mx-auto mb-6 text-4xl">
                   📖
                 </div>
-                <h2 className="text-2xl font-black text-slate-800 mb-2">{t("preserved_title")}</h2>
+                <h2 className="text-2xl font-black text-slate-800 mb-2">{(typeof t !== "undefined" ? t : (k) => k)("preserved_title")}</h2>
                 <p className="text-slate-500 font-medium text-sm leading-relaxed mb-8 italic">
-                  {t("preserved_subtitle")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("preserved_subtitle")}
                 </p>
                 <div className="bg-slate-50 rounded-3xl p-8 text-left border border-slate-100">
                   <p className="text-[10px] font-black uppercase tracking-[0.2em] text-primary mb-3">
@@ -251,13 +251,13 @@ const ContinuingBonds = () => {
                   onClick={() => setScreen("closing")}
                   className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                 >
-                  {t("finish_button")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("finish_button")}
                 </button>
                 <button
                   onClick={reset}
                   className="w-full py-5 rounded-2xl bg-white text-slate-600 font-black text-lg border border-slate-200 hover:bg-slate-50 transition-all shadow-sm"
                 >
-                  {t("add_another")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("add_another")}
                 </button>
               </div>
             </motion.div>
@@ -274,15 +274,15 @@ const ContinuingBonds = () => {
                 🕊️
               </div>
               <div className="space-y-8 text-slate-600 font-medium text-base leading-relaxed max-w-xs mx-auto">
-                <p>{t("closing_p1")}</p>
-                <p>{t("closing_p2")}</p>
-                <p>{t("closing_p3")}</p>
+                <p>{(typeof t !== "undefined" ? t : (k) => k)("closing_p1")}</p>
+                <p>{(typeof t !== "undefined" ? t : (k) => k)("closing_p2")}</p>
+                <p>{(typeof t !== "undefined" ? t : (k) => k)("closing_p3")}</p>
               </div>
               <button
                 onClick={() => setScreen("complete")}
                 className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all"
               >
-                {t("save_exit_button")}
+                {(typeof t !== "undefined" ? t : (k) => k)("save_exit_button")}
               </button>
             </motion.div>
           )}

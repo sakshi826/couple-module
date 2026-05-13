@@ -30,25 +30,25 @@ const IntroScreen = ({ onStart, onBack }: Props) => {
       </motion.div>
 
       <h1 className="font-heading text-2xl font-semibold text-foreground">
-        {t("intro.title")}
+        {(typeof t !== "undefined" ? t : (k) => k)("intro.title")}
       </h1>
 
       <p className="font-body text-muted-foreground leading-relaxed">
-        {t("intro.description")}
+        {(typeof t !== "undefined" ? t : (k) => k)("intro.description")}
       </p>
 
       <div className="glass-card p-4">
         <p className="font-body text-sm text-muted-foreground italic">
-          {t("intro.quote")}
+          {(typeof t !== "undefined" ? t : (k) => k)("intro.quote")}
         </p>
       </div>
 
       <p className="font-body text-xs text-muted-foreground">
-        {t("intro.small_efforts")}
+        {(typeof t !== "undefined" ? t : (k) => k)("intro.small_efforts")}
       </p>
 
       <button onClick={onStart} className="btn-gradient w-full py-3.5 font-heading font-medium text-base transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]">
-        {t("intro.button")}
+        {(typeof t !== "undefined" ? t : (k) => k)("intro.button")}
       </button>
     </div>
   );

@@ -12,7 +12,7 @@ const ScenarioScreen = ({ onNext }: ScenarioScreenProps) => {
   const [selected, setSelected] = useState<string | null>(null);
   const [customText, setCustomText] = useState("");
 
-  const scenarios = t("scenario.options", { returnObjects: true }) as any[];
+  const scenarios = (typeof t !== "undefined" ? t : (k) => k)("scenario.options", { returnObjects: true }) as any[];
 
   const handleSelect = (id: string) => {
   const { t } = useTranslation();
@@ -36,7 +36,7 @@ const ScenarioScreen = ({ onNext }: ScenarioScreenProps) => {
         transition={{ delay: 0.15 }}
         className="text-2xl font-semibold text-foreground mb-2 text-center"
       >
-        {t("scenario.title")}
+        {(typeof t !== "undefined" ? t : (k) => k)("scenario.title")}
       </motion.h1>
       <motion.p
         initial={{ opacity: 0 }}
@@ -44,7 +44,7 @@ const ScenarioScreen = ({ onNext }: ScenarioScreenProps) => {
         transition={{ delay: 0.25 }}
         className="text-muted-foreground text-center mb-8"
       >
-        {t("scenario.desc")}
+        {(typeof t !== "undefined" ? t : (k) => k)("scenario.desc")}
       </motion.p>
 
       <div className="w-full max-w-sm space-y-3 mb-10">
@@ -82,7 +82,7 @@ const ScenarioScreen = ({ onNext }: ScenarioScreenProps) => {
         >
           <input
             type="text"
-            placeholder={t("scenario.placeholder")}
+            placeholder={(typeof t !== "undefined" ? t : (k) => k)("scenario.placeholder")}
             value={customText}
             onFocus={() => handleSelect("other")}
             onChange={(e) => {
@@ -106,7 +106,7 @@ const ScenarioScreen = ({ onNext }: ScenarioScreenProps) => {
           onClick={() => selected && onNext(selected)}
           className="px-10 py-6 text-lg"
         >
-          {t("scenario.button")}
+          {(typeof t !== "undefined" ? t : (k) => k)("scenario.button")}
         </Button>
       </motion.div>
     </motion.div>

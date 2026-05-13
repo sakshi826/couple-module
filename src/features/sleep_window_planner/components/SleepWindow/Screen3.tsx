@@ -40,30 +40,30 @@ const Screen3 = ({ bedtime, wakeTime, duration, onReset }: Screen3Props) => {
     setConfettiTrigger(t => t + 1);
   };
 
-  const tips = t("screen3.accordion1.tips", { returnObjects: true }) as any[];
-  const commitments = t("screen3.accordion2.commitments", { returnObjects: true }) as any[];
+  const tips = (typeof t !== "undefined" ? t : (k) => k)("screen3.accordion1.tips", { returnObjects: true }) as any[];
+  const commitments = (typeof t !== "undefined" ? t : (k) => k)("screen3.accordion2.commitments", { returnObjects: true }) as any[];
 
   return (
     <div className="flex flex-col flex-1 px-5 pb-6 overflow-y-auto" style={{ minHeight: 0 }}>
       <h1 style={{ fontSize: 18, fontWeight: 600, color: 'var(--sleep-body-color)', marginBottom: 14 }}>
-        {t("screen3.title")}
+        {(typeof t !== "undefined" ? t : (k) => k)("screen3.title")}
       </h1>
 
       {/* Result Card */}
       <div style={cardStyle} className="mb-3">
         <div className="flex justify-between items-center">
-          <span style={{ fontSize: 13, color: 'var(--sleep-sub-color)' }}>🌙 {t("screen3.result.bedtime")}</span>
+          <span style={{ fontSize: 13, color: 'var(--sleep-sub-color)' }}>🌙 {(typeof t !== "undefined" ? t : (k) => k)("screen3.result.bedtime")}</span>
           <span style={{ fontSize: 15, fontWeight: 500, color: 'var(--sleep-body-color)' }}>{bedtime}</span>
         </div>
         <div style={divider} />
         <div className="flex justify-between items-center">
-          <span style={{ fontSize: 13, color: 'var(--sleep-sub-color)' }}>☀️ {t("screen3.result.waketime")}</span>
+          <span style={{ fontSize: 13, color: 'var(--sleep-sub-color)' }}>☀️ {(typeof t !== "undefined" ? t : (k) => k)("screen3.result.waketime")}</span>
           <span style={{ fontSize: 15, fontWeight: 500, color: 'var(--sleep-body-color)' }}>{wakeTime}</span>
         </div>
         <div style={divider} />
         <div className="flex justify-between items-center">
-          <span style={{ fontSize: 13, color: 'var(--sleep-sub-color)' }}>⏱️ {t("screen3.result.duration")}</span>
-          <span style={{ fontSize: 15, fontWeight: 500, color: 'var(--sleep-body-color)' }}>{t("screen3.result.hours", { hours: duration })}</span>
+          <span style={{ fontSize: 13, color: 'var(--sleep-sub-color)' }}>⏱️ {(typeof t !== "undefined" ? t : (k) => k)("screen3.result.duration")}</span>
+          <span style={{ fontSize: 15, fontWeight: 500, color: 'var(--sleep-body-color)' }}>{(typeof t !== "undefined" ? t : (k) => k)("screen3.result.hours", { hours: duration })}</span>
         </div>
       </div>
 
@@ -75,7 +75,7 @@ const Screen3 = ({ bedtime, wakeTime, duration, onReset }: Screen3Props) => {
           cursor: 'pointer', textAlign: 'left',
         }}>
           <span style={{ width: 28, height: 28, borderRadius: 8, background: '#ddeeff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 14 }}>🛡️</span>
-          <span style={{ flex: 1, fontSize: 13.5, fontWeight: 500, color: 'var(--sleep-body-color)' }}>{t("screen3.accordion1.title")}</span>
+          <span style={{ flex: 1, fontSize: 13.5, fontWeight: 500, color: 'var(--sleep-body-color)' }}>{(typeof t !== "undefined" ? t : (k) => k)("screen3.accordion1.title")}</span>
           <span style={{
             fontSize: 12, color: 'var(--sleep-sub-color)',
             transform: openAccordion === 0 ? 'rotate(90deg)' : 'rotate(0deg)',
@@ -108,7 +108,7 @@ const Screen3 = ({ bedtime, wakeTime, duration, onReset }: Screen3Props) => {
           cursor: 'pointer', textAlign: 'left',
         }}>
           <span style={{ width: 28, height: 28, borderRadius: 8, background: '#e8d8ff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 14 }}>🎯</span>
-          <span style={{ flex: 1, fontSize: 13.5, fontWeight: 500, color: 'var(--sleep-body-color)' }}>{t("screen3.accordion2.title")}</span>
+          <span style={{ flex: 1, fontSize: 13.5, fontWeight: 500, color: 'var(--sleep-body-color)' }}>{(typeof t !== "undefined" ? t : (k) => k)("screen3.accordion2.title")}</span>
           <span style={{
             fontSize: 12, color: 'var(--sleep-sub-color)',
             transform: openAccordion === 1 ? 'rotate(90deg)' : 'rotate(0deg)',
@@ -147,7 +147,7 @@ const Screen3 = ({ bedtime, wakeTime, duration, onReset }: Screen3Props) => {
       }}>
         <div style={{ fontSize: 24, color: '#a0b0d8', marginBottom: 4 }}>"</div>
         <p style={{ fontSize: 12.5, fontStyle: 'italic', color: 'var(--sleep-body-color)', lineHeight: 1.6 }}>
-          {t("screen3.quote")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screen3.quote")}
         </p>
       </div>
 
@@ -164,7 +164,7 @@ const Screen3 = ({ bedtime, wakeTime, duration, onReset }: Screen3Props) => {
         cursor: isSaved ? 'default' : 'pointer',
         transition: 'background 0.3s ease',
       }}>
-        {isSaved ? t("screen3.saved_button") : t("screen3.button")}
+        {isSaved ? (typeof t !== "undefined" ? t : (k) => k)("screen3.saved_button") : (typeof t !== "undefined" ? t : (k) => k)("screen3.button")}
       </button>
     </div>
   );

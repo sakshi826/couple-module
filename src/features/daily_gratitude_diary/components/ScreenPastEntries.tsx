@@ -29,14 +29,14 @@ const ScreenPastEntries = ({ entries, onBack }: ScreenPastEntriesProps) => {
             <ArrowLeft size={20} />
           </motion.button>
           <div className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
-            <Sparkles size={12} />{t("history")}</div>
+            <Sparkles size={12} />{(typeof t !== "undefined" ? t : (k) => k)("history")}</div>
         </header>
 
         <div className="space-y-4">
           <h1 className="text-4xl font-extrabold text-slate-900 leading-tight">
-            {t('past_entries_title')}
+            {(typeof t !== "undefined" ? t : (k) => k)('past_entries_title')}
           </h1>
-          <p className="text-slate-500 text-base font-medium leading-relaxed">{t("relive_your_moments_of_gratitude")}</p>
+          <p className="text-slate-500 text-base font-medium leading-relaxed">{(typeof t !== "undefined" ? t : (k) => k)("relive_your_moments_of_gratitude")}</p>
         </div>
 
         {(!entries || entries.length === 0) ? (
@@ -44,7 +44,7 @@ const ScreenPastEntries = ({ entries, onBack }: ScreenPastEntriesProps) => {
             <div className="w-16 h-16 bg-white rounded-3xl flex items-center justify-center mx-auto mb-4 text-slate-200 shadow-sm">
                 <History size={32} />
             </div>
-            <p className="text-slate-400 font-bold">{t('no_entries')}</p>
+            <p className="text-slate-400 font-bold">{(typeof t !== "undefined" ? t : (k) => k)('no_entries')}</p>
           </div>
         ) : (
           <div className="space-y-6">

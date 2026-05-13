@@ -37,7 +37,7 @@ const FeelingSelector: React.FC<FeelingSelectorProps> = ({ onSelect }) => {
             onClick={() => onSelect(feeling.id, index % FEELING_COLORS.length)}
             className={`w-full p-5 rounded-2xl border-2 text-left transition-all flex items-center justify-between group ${FEELING_COLORS[index % FEELING_COLORS.length]}`}
           >
-            <span className="font-bold text-base">{t(`feelings.${feeling.id}.label`)}</span>
+            <span className="font-bold text-base">{(typeof t !== "undefined" ? t : (k) => k)(`feelings.${feeling.id}.label`)}</span>
             <div className="w-8 h-8 rounded-full bg-white/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                <span className="text-xl font-bold">→</span>
             </div>

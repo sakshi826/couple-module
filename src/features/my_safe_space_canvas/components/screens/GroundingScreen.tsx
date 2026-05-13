@@ -12,8 +12,8 @@ const PHASE_DURATIONS = [4000, 4000, 6000]; // ms
 
 const GroundingScreen: React.FC<Props> = ({ collage, onClose }) => {
   const { t } = useTranslation();
-  const DURATIONS = t("grounding.durations", { returnObjects: true }) as any[];
-  const PHASES = t("grounding.phases", { returnObjects: true }) as string[];
+  const DURATIONS = (typeof t !== "undefined" ? t : (k) => k)("grounding.durations", { returnObjects: true }) as any[];
+  const PHASES = (typeof t !== "undefined" ? t : (k) => k)("grounding.phases", { returnObjects: true }) as string[];
 
   const [selectedDuration, setSelectedDuration] = useState(1); // index
   const [isActive, setIsActive] = useState(false);
@@ -85,7 +85,7 @@ const GroundingScreen: React.FC<Props> = ({ collage, onClose }) => {
 
       {/* Header */}
       <h1 className="font-lora font-semibold text-xl mt-6 mb-1 text-center" style={{ color: '#2C2C2A' }}>
-        {t("grounding.title")}
+        {(typeof t !== "undefined" ? t : (k) => k)("grounding.title")}
       </h1>
       <p className="font-inter text-[13px] mb-4" style={{ color: '#888780' }}>
         {collage.name}
@@ -134,7 +134,7 @@ const GroundingScreen: React.FC<Props> = ({ collage, onClose }) => {
       </div>
 
       <p className="font-inter text-xs mb-6" style={{ color: '#888780' }}>
-        {t("grounding.breathe_info")}
+        {(typeof t !== "undefined" ? t : (k) => k)("grounding.breathe_info")}
       </p>
 
       {/* Duration pills */}
@@ -165,7 +165,7 @@ const GroundingScreen: React.FC<Props> = ({ collage, onClose }) => {
             className="font-lora italic text-sm text-center"
             style={{ color: '#3B6D11' }}
           >
-            {t("grounding.done_message")}
+            {(typeof t !== "undefined" ? t : (k) => k)("grounding.done_message")}
           </motion.p>
         )}
       </AnimatePresence>

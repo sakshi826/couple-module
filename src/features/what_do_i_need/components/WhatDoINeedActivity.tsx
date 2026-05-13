@@ -87,7 +87,7 @@ const WhatDoINeedActivity = () => {
     fetchHistory();
   }, [fetchHistory]);
 
-  const needs_obj = t("needs", { returnObjects: true }) as Record<string, any>;
+  const needs_obj = (typeof t !== "undefined" ? t : (k) => k)("needs", { returnObjects: true }) as Record<string, any>;
   const default_needs = Object.keys(NEED_ICON_MAP);
   
   const current_need_data = needs_obj[primaryNeed] || needs_obj["default"];
@@ -135,7 +135,7 @@ const WhatDoINeedActivity = () => {
   const handleSave = async () => {
     const userId = sessionStorage.getItem("user_id");
     if (!userId || !DATABASE_URL) {
-      toast.error(t("toasts.auth_error"));
+      toast.error((typeof t !== "undefined" ? t : (k) => k)("toasts.auth_error"));
       return;
     }
 
@@ -148,12 +148,12 @@ const WhatDoINeedActivity = () => {
     try {
       const sql = neon(DATABASE_URL);
       await sql`INSERT INTO what_do_i_need_entries (user_id, needs) VALUES (${userId}, ${needsData})`;
-      toast.success(t("toasts.save_success"));
+      toast.success((typeof t !== "undefined" ? t : (k) => k)("toasts.save_success"));
       fetchHistory();
       setScreen(4);
     } catch (error) {
       console.error("Failed to save reflection:", error);
-      toast.error(t("toasts.save_error"));
+      toast.error((typeof t !== "undefined" ? t : (k) => k)("toasts.save_error"));
     }
   };
 
@@ -176,8 +176,8 @@ const WhatDoINeedActivity = () => {
   if (screen === 4) {
     return (
       <PremiumComplete
-        title={t("app_title")}
-        message={t("complete.message", { need: primaryNeed })}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+        message={(typeof t !== "undefined" ? t : (k) => k)("complete.message", { need: primaryNeed })}
         onRestart={() => {
           setScreen(1);
           setSelectedNeeds([]);
@@ -191,12 +191,12 @@ const WhatDoINeedActivity = () => {
 
   const dynamicPrompt = current_need_data.prompt;
   const PrimaryIcon = NEED_ICON_MAP[primaryNeed] || Sparkles;
-  const actions_data = t("actions", { returnObjects: true }) as any[];
+  const actions_data = (typeof t !== "undefined" ? t : (k) => k)("actions", { returnObjects: true }) as any[];
 
   return (
     <PremiumLayout
-      title={t("app_title")}
-      subtitle={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+      subtitle={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={screen === 1 ? undefined : handleBack}
     >
@@ -204,7 +204,7 @@ const WhatDoINeedActivity = () => {
         {/* History Button */}
         {screen === 1 && (
           <div className="absolute top-0 right-0 z-20">
-            <button className="w-10 h-10 rounded-xl bg-white border border-slate-200 shadow-sm flex items-center justify-center hover:bg-slate-50 transition-all" title={t("past_reflections")} onClick={() => setShowHistory(true)}>
+            <button className="w-10 h-10 rounded-xl bg-white border border-slate-200 shadow-sm flex items-center justify-center hover:bg-slate-50 transition-all" title={(typeof t !== "undefined" ? t : (k) => k)("past_reflections")} onClick={() => setShowHistory(true)}>
               <Clock className="w-5 h-5 text-slate-500" />
             </button>
           </div>
@@ -228,7 +228,7 @@ const WhatDoINeedActivity = () => {
                 transition={{ type: "spring", damping: 25, stiffness: 200 }}
               >
                 <div className="flex items-center justify-between mb-8">
-                  <h3 className="text-xl font-black text-slate-900">{t("history.title")}</h3>
+                  <h3 className="text-xl font-black text-slate-900">{(typeof t !== "undefined" ? t : (k) => k)("history.title")}</h3>
                   <button onClick={() => setShowHistory(false)} className="w-10 h-10 rounded-full hover:bg-slate-100 flex items-center justify-center transition-colors">
                     <X className="w-5 h-5 text-slate-400" />
                   </button>
@@ -238,7 +238,7 @@ const WhatDoINeedActivity = () => {
                     <div className="w-16 h-16 bg-slate-50 rounded-full flex items-center justify-center mx-auto text-slate-300">
                       <BookOpen size={32} />
                     </div>
-                    <p className="text-slate-400 font-medium">{t("history.empty")}</p>
+                    <p className="text-slate-400 font-medium">{(typeof t !== "undefined" ? t : (k) => k)("history.empty")}</p>
                   </div>
                 ) : (
                   <div className="space-y-4">
@@ -303,9 +303,9 @@ const WhatDoINeedActivity = () => {
                 </motion.div>
 
                 <div className="space-y-4">
-                  <h1 className="text-3xl font-black text-slate-900 leading-tight">{t("screens.s1.title")}</h1>
+                  <h1 className="text-3xl font-black text-slate-900 leading-tight">{(typeof t !== "undefined" ? t : (k) => k)("screens.s1.title")}</h1>
                   <p className="text-lg text-slate-500 font-medium leading-relaxed max-w-[280px] mx-auto">
-                    {t("screens.s1.description")}
+                    {(typeof t !== "undefined" ? t : (k) => k)("screens.s1.description")}
                   </p>
                 </div>
 
@@ -315,7 +315,7 @@ const WhatDoINeedActivity = () => {
                   onClick={() => setScreen(2)} 
                   className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:bg-slate-800 transition-all mt-4"
                 >
-                  {t("screens.s1.button")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("screens.s1.button")}
                 </motion.button>
               </motion.div>
             )}
@@ -334,7 +334,7 @@ const WhatDoINeedActivity = () => {
                   {step2Phase === "select" && (
                     <motion.div key="s2-select" {...fadeUp} className="w-full space-y-8 flex flex-col items-center">
                       <h2 className="text-2xl font-black text-slate-900 text-center">
-                        {t("screens.s2.select.title")}
+                        {(typeof t !== "undefined" ? t : (k) => k)("screens.s2.select.title")}
                       </h2>
                       <div className="flex flex-wrap justify-center gap-3 w-full">
                         {default_needs.map((label) => (
@@ -363,12 +363,12 @@ const WhatDoINeedActivity = () => {
                           value={customNeed}
                           onChange={(e) => setCustomNeed(e.target.value)}
                           onKeyDown={(e) => e.key === "Enter" && addCustomNeed()}
-                          placeholder={t("screens.s2.select.placeholder")}
+                          placeholder={(typeof t !== "undefined" ? t : (k) => k)("screens.s2.select.placeholder")}
                           className="flex-1 bg-white border border-slate-200 rounded-xl py-3 px-4 text-sm font-bold focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all shadow-sm"
                         />
                         {customNeed.trim() && (
                           <button onClick={addCustomNeed} className="text-sm font-black text-primary uppercase tracking-widest">
-                            {t("screens.s2.select.add_button")}
+                            {(typeof t !== "undefined" ? t : (k) => k)("screens.s2.select.add_button")}
                           </button>
                         )}
                       </div>
@@ -379,7 +379,7 @@ const WhatDoINeedActivity = () => {
                           onClick={goToPrioritize} 
                           className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:bg-slate-800 transition-all"
                         >
-                          {t("screens.s2.select.button")}
+                          {(typeof t !== "undefined" ? t : (k) => k)("screens.s2.select.button")}
                         </motion.button>
                       )}
                     </motion.div>
@@ -388,7 +388,7 @@ const WhatDoINeedActivity = () => {
                   {step2Phase === "prioritize" && (
                     <motion.div key="s2-prioritize" {...fadeUp} className="w-full space-y-8 flex flex-col items-center">
                       <h2 className="text-2xl font-black text-slate-900">
-                        {t("screens.s2.prioritize.title")}
+                        {(typeof t !== "undefined" ? t : (k) => k)("screens.s2.prioritize.title")}
                       </h2>
                       <div className="flex flex-wrap justify-center gap-3 w-full">
                         {selectedNeeds.map((need) => (
@@ -407,7 +407,7 @@ const WhatDoINeedActivity = () => {
                   {step2Phase === "focus" && (
                     <motion.div key="s2-focus" {...fadeUp} className="w-full flex flex-col items-center gap-8 pt-8">
                       <div className="space-y-2 text-center">
-                        <p className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em]">{t("screens.s2.focus.tag")}</p>
+                        <p className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em]">{(typeof t !== "undefined" ? t : (k) => k)("screens.s2.focus.tag")}</p>
                         <motion.div
                           className="w-full p-10 rounded-[3rem] bg-white border border-slate-100 shadow-2xl shadow-primary/5 flex flex-col items-center gap-4"
                           initial={{ scale: 0.9, opacity: 0 }}
@@ -420,7 +420,7 @@ const WhatDoINeedActivity = () => {
                         </motion.div>
                       </div>
                       <button onClick={goToScreen3} className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:bg-slate-800 transition-all">
-                        {t("screens.s2.focus.button")}
+                        {(typeof t !== "undefined" ? t : (k) => k)("screens.s2.focus.button")}
                       </button>
                     </motion.div>
                   )}
@@ -458,7 +458,7 @@ const WhatDoINeedActivity = () => {
                           onClick={goToAction} 
                           className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:bg-slate-800 transition-all"
                         >
-                          {t("screens.s3.reflect.button")}
+                          {(typeof t !== "undefined" ? t : (k) => k)("screens.s3.reflect.button")}
                         </motion.button>
                       )}
                     </motion.div>
@@ -467,7 +467,7 @@ const WhatDoINeedActivity = () => {
                   {step3Phase === "action" && (
                     <motion.div key="s3-action" {...fadeUp} className="w-full space-y-8 flex flex-col items-center">
                       <h2 className="text-2xl font-black text-slate-900 text-center">
-                        {t("screens.s3.action.title")}
+                        {(typeof t !== "undefined" ? t : (k) => k)("screens.s3.action.title")}
                       </h2>
                       <div className="flex flex-wrap justify-center gap-3">
                         {actions_data.map((action) => (
@@ -486,12 +486,12 @@ const WhatDoINeedActivity = () => {
                           setCustomAction(e.target.value);
                           if (e.target.value) setSelectedAction("");
                         }}
-                        placeholder={t("screens.s3.action.placeholder")}
+                        placeholder={(typeof t !== "undefined" ? t : (k) => k)("screens.s3.action.placeholder")}
                         className="w-full p-5 bg-white border border-slate-200 rounded-2xl text-base font-bold focus:outline-none focus:ring-4 focus:ring-primary/10 transition-all shadow-sm"
                       />
                       {(selectedAction || customAction.trim()) && (
                         <button onClick={goToClosing} className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:bg-slate-800 transition-all">
-                          {t("screens.s3.action.button")}
+                          {(typeof t !== "undefined" ? t : (k) => k)("screens.s3.action.button")}
                         </button>
                       )}
                     </motion.div>
@@ -501,7 +501,7 @@ const WhatDoINeedActivity = () => {
                     <motion.div key="s3-closing" {...fadeUp} className="w-full flex flex-col items-center gap-8 pt-4">
                       <div className="w-full p-8 rounded-[2.5rem] bg-white border border-slate-100 shadow-2xl shadow-primary/5 space-y-6">
                         <div className="space-y-1">
-                          <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{t("screens.s3.closing.tag_need")}</p>
+                          <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)("screens.s3.closing.tag_need")}</p>
                           <div className="flex items-center gap-3">
                             <PrimaryIcon size={20} className="text-primary" />
                             <p className="text-xl font-black text-slate-900">{needs_obj[primaryNeed]?.label || primaryNeed}</p>
@@ -509,13 +509,13 @@ const WhatDoINeedActivity = () => {
                         </div>
                         
                         <div className="space-y-1">
-                          <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{t("screens.s3.closing.tag_insight")}</p>
+                          <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)("screens.s3.closing.tag_insight")}</p>
                           <p className="text-base text-slate-600 font-medium italic leading-relaxed">"{reflection}"</p>
                         </div>
 
                         {(selectedAction || customAction) && (
                           <div className="space-y-1">
-                            <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{t("screens.s3.closing.tag_action")}</p>
+                            <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)("screens.s3.closing.tag_action")}</p>
                             <p className="text-base font-bold text-slate-800">{selectedAction || customAction}</p>
                           </div>
                         )}
@@ -526,10 +526,10 @@ const WhatDoINeedActivity = () => {
                           onClick={handleSave}
                           className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-xl shadow-slate-900/20 hover:bg-slate-800 transition-all"
                         >
-                          {t("screens.s3.closing.save_button")}
+                          {(typeof t !== "undefined" ? t : (k) => k)("screens.s3.closing.save_button")}
                         </button>
                         <button onClick={handleFinish} className="w-full py-5 rounded-2xl font-bold text-slate-500 hover:text-slate-900 transition-all">
-                          {t("screens.s3.closing.finish_button")}
+                          {(typeof t !== "undefined" ? t : (k) => k)("screens.s3.closing.finish_button")}
                         </button>
                       </div>
                     </motion.div>

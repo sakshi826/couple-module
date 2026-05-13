@@ -12,8 +12,8 @@ const ClosingScreen = ({ onExit }: ClosingScreenProps) => {
 
   return (
     <PremiumComplete
-      title={t("app_title")}
-      message={t("closing.text1") + " " + t("closing.text2")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+      message={(typeof t !== "undefined" ? t : (k) => k)("closing.text1") + " " + (typeof t !== "undefined" ? t : (k) => k)("closing.text2")}
       onRestart={onExit}
     />
   );

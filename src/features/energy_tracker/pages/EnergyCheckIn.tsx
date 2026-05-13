@@ -14,16 +14,16 @@ const EnergyCheckIn = () => {
   const [showIntro, setShowIntro] = useState(true);
 
   const energyOptions: { level: EnergyLevel; emoji: string; label: string }[] = [
-    { level: "very-low", emoji: "😴", label: t("very_low") },
-    { level: "low", emoji: "😔", label: t("low") },
-    { level: "okay", emoji: "😐", label: t("okay") },
-    { level: "good", emoji: "🙂", label: t("good") },
-    { level: "high", emoji: "⚡", label: t("high") },
+    { level: "very-low", emoji: "😴", label: (typeof t !== "undefined" ? t : (k) => k)("very_low") },
+    { level: "low", emoji: "😔", label: (typeof t !== "undefined" ? t : (k) => k)("low") },
+    { level: "okay", emoji: "😐", label: (typeof t !== "undefined" ? t : (k) => k)("okay") },
+    { level: "good", emoji: "🙂", label: (typeof t !== "undefined" ? t : (k) => k)("good") },
+    { level: "high", emoji: "⚡", label: (typeof t !== "undefined" ? t : (k) => k)("high") },
   ];
 
   return (
     <PremiumLayout 
-      title={t("app_title")} 
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")} 
       onReset={!showIntro ? () => setShowIntro(true) : undefined}
       onBack={!showIntro ? () => setShowIntro(true) : undefined}
       exitOnBack={showIntro}
@@ -48,7 +48,7 @@ const EnergyCheckIn = () => {
           >
             <div className="w-full space-y-10">
               <h2 className="text-center text-3xl font-black text-slate-900 leading-tight">
-                {t("how_is_energy")}
+                {(typeof t !== "undefined" ? t : (k) => k)("how_is_energy")}
               </h2>
 
               <div className="grid grid-cols-1 sm:grid-cols-5 gap-4 w-full">
@@ -84,7 +84,7 @@ const EnergyCheckIn = () => {
                   onClick={() => navigate("factors")}
                   className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3 disabled:opacity-40"
                 >
-                  {t("continue")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("continue")}
                   <Send size={20} />
                 </motion.button>
               </div>

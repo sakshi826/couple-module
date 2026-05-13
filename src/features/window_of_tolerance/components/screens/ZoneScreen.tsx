@@ -11,7 +11,7 @@ export default function ZoneScreen({ zone, onContinue, onBack }: Props) {
   const { t } = useTranslation();
   if (!zone) return null;
 
-  const data = t(`screens.zone.${zone}`, { returnObjects: true }) as any;
+  const data = (typeof t !== "undefined" ? t : (k) => k)(`screens.zone.${zone}`, { returnObjects: true }) as any;
   const colors: Record<string, string> = {
     hyper: "hsl(var(--hyper))",
     safe: "hsl(var(--safe))",
@@ -39,7 +39,7 @@ export default function ZoneScreen({ zone, onContinue, onBack }: Props) {
       <button
         onClick={onBack}
         className="p-2 -ml-2 rounded-full hover:bg-muted transition-colors"
-        aria-label={t("common.back")}
+        aria-label={(typeof t !== "undefined" ? t : (k) => k)("common.back")}
       >
         ← Back
       </button>

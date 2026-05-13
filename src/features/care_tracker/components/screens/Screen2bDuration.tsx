@@ -16,13 +16,13 @@ const Screen2bDuration = ({ onContinue }: Screen2bProps) => {
   return (
     <MobileShell step={3} totalSteps={5}>
       <h1 className="font-display text-2xl font-bold tracking-tight">
-        {t('screens.duration.title')}
+        {(typeof t !== "undefined" ? t : (k) => k)('screens.duration.title')}
       </h1>
-      <p className="mt-1 text-sm text-muted-foreground">{t('screens.duration.subtitle') || "How long for?"}</p>
+      <p className="mt-1 text-sm text-muted-foreground">{(typeof t !== "undefined" ? t : (k) => k)('screens.duration.subtitle') || "How long for?"}</p>
 
       <div className="mt-8 flex flex-wrap gap-2">
         {DURATIONS.map((d) => (
-          <OptionChip key={d} label={t(`data.durations.${d}`)} selected={duration === d} onToggle={() => setDuration(duration === d ? "" : d)} />
+          <OptionChip key={d} label={(typeof t !== "undefined" ? t : (k) => k)(`data.durations.${d}`)} selected={duration === d} onToggle={() => setDuration(duration === d ? "" : d)} />
         ))}
       </div>
 

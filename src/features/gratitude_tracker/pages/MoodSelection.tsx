@@ -50,13 +50,13 @@ const MoodSelection = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title")} 
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")} 
       onBack={() => navigate("..", { state: location.state, replace: true })}
     >
       <div className="w-full space-y-8">
         <header>
           <p className="text-slate-500 text-sm font-medium">
-            {t("mood.subheading")}
+            {(typeof t !== "undefined" ? t : (k) => k)("mood.subheading")}
           </p>
         </header>
 
@@ -81,7 +81,7 @@ const MoodSelection = () => {
                 <div className="flex items-center gap-4">
                   <span className="text-3xl filter drop-shadow-sm group-hover:scale-110 transition-transform">{mood.emoji}</span>
                   <span className={`text-lg font-black ${isSelected ? "text-primary-foreground" : "text-slate-800"}`}>
-                    {t(`mood.${mood.label.toLowerCase()}`)}
+                    {(typeof t !== "undefined" ? t : (k) => k)(`mood.${mood.label.toLowerCase()}`)}
                   </span>
                 </div>
                 <AnimatePresence>
@@ -113,11 +113,11 @@ const MoodSelection = () => {
             {isSaving ? (
               <>
                 <Loader2 size={24} className="animate-spin" />
-                {t("mood.saving", "Saving...")}
+                {(typeof t !== "undefined" ? t : (k) => k)("mood.saving", "Saving...")}
               </>
             ) : (
               <>
-                {t("mood.save")}
+                {(typeof t !== "undefined" ? t : (k) => k)("mood.save")}
                 <Check size={20} />
               </>
             )}

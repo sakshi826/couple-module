@@ -16,7 +16,7 @@ const TopBar = ({ onBack, showHistory }: TopBarProps) => {
       <button
         onClick={onBack ?? (() => navigate(-1))}
         className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-secondary transition-colors"
-        aria-label={t("go_back")}
+        aria-label={(typeof t !== "undefined" ? t : (k) => k)("go_back")}
       >
         <ChevronLeft className="w-5 h-5 text-foreground" />
       </button>
@@ -24,7 +24,7 @@ const TopBar = ({ onBack, showHistory }: TopBarProps) => {
         <button
           onClick={() => navigate("../history")}
           className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-secondary transition-colors"
-          aria-label={t("past_entries")}
+          aria-label={(typeof t !== "undefined" ? t : (k) => k)("past_entries")}
         >
           <Clock className="w-5 h-5 text-foreground" />
         </button>

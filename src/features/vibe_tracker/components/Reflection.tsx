@@ -47,7 +47,7 @@ const Reflection = ({ onComplete }: Props) => {
     <div className="space-y-10">
       <header className="space-y-4 text-center">
         <h1 className="text-3xl font-extrabold text-slate-900 leading-tight">
-          {t("pauseAndReflect")}
+          {(typeof t !== "undefined" ? t : (k) => k)("pauseAndReflect")}
         </h1>
         <div className="flex gap-2 justify-center">
           {shuffledKeys.map((_, i) => (
@@ -73,16 +73,16 @@ const Reflection = ({ onComplete }: Props) => {
             className="space-y-8"
         >
             <p className="text-xl font-bold text-slate-700 text-center leading-relaxed px-4">
-                {t(`prompts.${shuffledKeys[currentIndex]}`)}
+                {(typeof t !== "undefined" ? t : (k) => k)(`prompts.${shuffledKeys[currentIndex]}`)}
             </p>
 
             <div className="space-y-4">
                 <label className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] px-4 block">
-                    {t("typeThoughts")}
+                    {(typeof t !== "undefined" ? t : (k) => k)("typeThoughts")}
                 </label>
                 <textarea
                     className="w-full py-8 rounded-[2.5rem] bg-slate-50 border-2 border-transparent focus:border-primary/50 focus:bg-white transition-all outline-none px-8 font-bold text-slate-700 placeholder:text-slate-300 shadow-inner min-h-[200px] resize-none leading-relaxed"
-                    placeholder={t("type_your_reflection_here")}
+                    placeholder={(typeof t !== "undefined" ? t : (k) => k)("type_your_reflection_here")}
                     value={answer}
                     onChange={(e) => setAnswer(e.target.value)}
                 />
@@ -97,7 +97,7 @@ const Reflection = ({ onComplete }: Props) => {
         onClick={handleNext}
         className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3 disabled:opacity-40"
       >
-        {isLast ? t("submitReflection") : t("next")}
+        {isLast ? (typeof t !== "undefined" ? t : (k) => k)("submitReflection") : (typeof t !== "undefined" ? t : (k) => k)("next")}
         {isLast ? <Check size={20} /> : <ArrowRight size={20} />}
       </motion.button>
     </div>

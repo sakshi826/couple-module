@@ -11,55 +11,55 @@ const Index = () => {
   const tips = [
     {
       id: "seek-support",
-      title: t("tip_seek_support"),
-      preview: t("tip_seek_support_desc"),
+      title: (typeof t !== "undefined" ? t : (k) => k)("tip_seek_support"),
+      preview: (typeof t !== "undefined" ? t : (k) => k)("tip_seek_support_desc"),
       icon: Heart,
     },
     {
       id: "deep-breathing",
-      title: t("tip_deep_breathing"),
-      preview: t("tip_deep_breathing_desc"),
+      title: (typeof t !== "undefined" ? t : (k) => k)("tip_deep_breathing"),
+      preview: (typeof t !== "undefined" ? t : (k) => k)("tip_deep_breathing_desc"),
       icon: Wind,
     },
     {
       id: "mindfulness",
-      title: t("tip_mindfulness"),
-      preview: t("tip_mindfulness_desc"),
+      title: (typeof t !== "undefined" ? t : (k) => k)("tip_mindfulness"),
+      preview: (typeof t !== "undefined" ? t : (k) => k)("tip_mindfulness_desc"),
       icon: Eye,
     },
     {
       id: "muscle-relaxation",
-      title: t("tip_muscle_relaxation"),
-      preview: t("tip_muscle_relaxation_desc"),
+      title: (typeof t !== "undefined" ? t : (k) => k)("tip_muscle_relaxation"),
+      preview: (typeof t !== "undefined" ? t : (k) => k)("tip_muscle_relaxation_desc"),
       icon: Dumbbell,
     },
     {
       id: "positive-self-talk",
-      title: t("tip_positive_self_talk"),
-      preview: t("tip_positive_self_talk_desc"),
+      title: (typeof t !== "undefined" ? t : (k) => k)("tip_positive_self_talk"),
+      preview: (typeof t !== "undefined" ? t : (k) => k)("tip_positive_self_talk_desc"),
       icon: MessageCircleHeart,
     },
   ];
 
   return (
-    <PremiumLayout title={t("app_title")}>
+    <PremiumLayout title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}>
       <div className="w-full space-y-10">
         <header className="space-y-4">
           <div className="flex items-center gap-2 text-primary font-black text-[10px] uppercase tracking-[0.2em]">
             <Sparkles size={14} />
-            {t("slow_down")}
+            {(typeof t !== "undefined" ? t : (k) => k)("slow_down")}
           </div>
           <h1 className="text-4xl font-black text-slate-900 leading-tight tracking-tight">
-            {t("app_title")}
+            {(typeof t !== "undefined" ? t : (k) => k)("app_title")}
           </h1>
           <p className="text-slate-500 text-base font-bold leading-relaxed max-w-md">
-            {t("app_subtitle")}
+            {(typeof t !== "undefined" ? t : (k) => k)("app_subtitle")}
           </p>
         </header>
 
         <div className="space-y-6">
           <h2 className="text-xs font-black text-slate-400 uppercase tracking-[0.2em] px-2">
-            {t("relief_tips")}
+            {(typeof t !== "undefined" ? t : (k) => k)("relief_tips")}
           </h2>
           
           <div className="grid gap-4">
@@ -88,7 +88,7 @@ const Index = () => {
         </div>
 
         <p className="text-center text-slate-300 text-[10px] font-black uppercase tracking-[0.2em] mt-16 px-12 leading-relaxed opacity-60">
-          {t("support_footer")}
+          {(typeof t !== "undefined" ? t : (k) => k)("support_footer")}
         </p>
       </div>
     </PremiumLayout>

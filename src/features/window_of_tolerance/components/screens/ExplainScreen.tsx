@@ -8,20 +8,20 @@ interface Props {
 export default function ExplainScreen({ onBack, onNext }: Props) {
   const { t } = useTranslation();
   return (
-    <section className="space-y-6" aria-label={t("what_is_the_window_of_tolerance")}>
-      <h2 className="font-display text-2xl font-bold text-foreground text-center">{t("screens.explain.title")}</h2>
+    <section className="space-y-6" aria-label={(typeof t !== "undefined" ? t : (k) => k)("what_is_the_window_of_tolerance")}>
+      <h2 className="font-display text-2xl font-bold text-foreground text-center">{(typeof t !== "undefined" ? t : (k) => k)("screens.explain.title")}</h2>
 
       {/* Window Diagram */}
       <div className="flex justify-center">
         <div className="w-[120px] rounded-2xl overflow-hidden border border-border" style={{ boxShadow: "var(--shadow-soft)" }}>
           <div className="h-[80px] flex items-center justify-center text-sm font-medium" style={{ background: "linear-gradient(180deg, hsl(0 55% 66%), hsl(0 55% 72%))", color: "white" }}>
-            {t("screens.explain.zones.hyper.tag")}
+            {(typeof t !== "undefined" ? t : (k) => k)("screens.explain.zones.hyper.tag")}
           </div>
           <div className="h-[80px] flex items-center justify-center text-sm font-medium" style={{ background: "linear-gradient(180deg, hsl(150 20% 48%), hsl(150 20% 55%))", color: "white" }}>
-            {t("screens.explain.zones.safe.tag")}
+            {(typeof t !== "undefined" ? t : (k) => k)("screens.explain.zones.safe.tag")}
           </div>
           <div className="h-[80px] flex items-center justify-center text-sm font-medium" style={{ background: "linear-gradient(180deg, hsl(207 35% 58%), hsl(207 35% 65%))", color: "white" }}>
-            {t("screens.explain.zones.hypo.tag")}
+            {(typeof t !== "undefined" ? t : (k) => k)("screens.explain.zones.hypo.tag")}
           </div>
         </div>
       </div>
@@ -30,28 +30,28 @@ export default function ExplainScreen({ onBack, onNext }: Props) {
         <div className="flex gap-3 items-start">
           <span className="text-lg mt-0.5">🔴</span>
           <div>
-            <p className="font-semibold text-sm text-foreground">{t("screens.explain.zones.hyper.label")}</p>
-            <p className="text-sm text-muted-foreground">{t("screens.explain.zones.hyper.desc")}</p>
+            <p className="font-semibold text-sm text-foreground">{(typeof t !== "undefined" ? t : (k) => k)("screens.explain.zones.hyper.label")}</p>
+            <p className="text-sm text-muted-foreground">{(typeof t !== "undefined" ? t : (k) => k)("screens.explain.zones.hyper.desc")}</p>
           </div>
         </div>
         <div className="flex gap-3 items-start">
           <span className="text-lg mt-0.5">🟢</span>
           <div>
-            <p className="font-semibold text-sm text-foreground">{t("screens.explain.zones.safe.label")}</p>
-            <p className="text-sm text-muted-foreground">{t("screens.explain.zones.safe.desc")}</p>
+            <p className="font-semibold text-sm text-foreground">{(typeof t !== "undefined" ? t : (k) => k)("screens.explain.zones.safe.label")}</p>
+            <p className="text-sm text-muted-foreground">{(typeof t !== "undefined" ? t : (k) => k)("screens.explain.zones.safe.desc")}</p>
           </div>
         </div>
         <div className="flex gap-3 items-start">
           <span className="text-lg mt-0.5">🔵</span>
           <div>
-            <p className="font-semibold text-sm text-foreground">{t("screens.explain.zones.hypo.label")}</p>
-            <p className="text-sm text-muted-foreground">{t("screens.explain.zones.hypo.desc")}</p>
+            <p className="font-semibold text-sm text-foreground">{(typeof t !== "undefined" ? t : (k) => k)("screens.explain.zones.hypo.label")}</p>
+            <p className="text-sm text-muted-foreground">{(typeof t !== "undefined" ? t : (k) => k)("screens.explain.zones.hypo.desc")}</p>
           </div>
         </div>
       </div>
 
       <p className="text-sm text-foreground/80 leading-relaxed text-center">
-        {t("screens.explain.footer")}
+        {(typeof t !== "undefined" ? t : (k) => k)("screens.explain.footer")}
       </p>
 
       <div className="flex gap-3">
@@ -59,13 +59,13 @@ export default function ExplainScreen({ onBack, onNext }: Props) {
           onClick={onBack}
           className="flex-1 py-3.5 rounded-2xl border border-border text-foreground font-medium hover:bg-muted transition-all duration-300 hover:-translate-y-0.5"
         >
-          {t("screens.explain.back")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screens.explain.back")}
         </button>
         <button
           onClick={onNext}
           className="flex-1 py-3.5 rounded-2xl bg-primary text-primary-foreground font-medium hover:opacity-90 transition-all duration-300 hover:-translate-y-0.5"
         >
-          {t("screens.explain.next")}
+          {(typeof t !== "undefined" ? t : (k) => k)("screens.explain.next")}
         </button>
       </div>
     </section>

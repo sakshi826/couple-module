@@ -9,13 +9,13 @@ export default function UnderstandingControl() {
   const { t } = useTranslation();
   const [current, setCurrent] = useState(0);
 
-  const screens_data = t("screens", { returnObjects: true }) as any[];
+  const screens_data = (typeof t !== "undefined" ? t : (k) => k)("screens", { returnObjects: true }) as any[];
 
   if (current === 3) {
     return (
       <PremiumComplete
-        title={t("app_title")}
-        message={t("complete.message")}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+        message={(typeof t !== "undefined" ? t : (k) => k)("complete.message")}
         onRestart={() => setCurrent(0)}
       />
     );
@@ -42,8 +42,8 @@ export default function UnderstandingControl() {
 
   return (
     <PremiumLayout
-      title={t("app_title")}
-      subtitle={t("app_subtitle", { step: current + 1 })}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+      subtitle={(typeof t !== "undefined" ? t : (k) => k)("app_subtitle", { step: current + 1 })}
       icon={<Shield className="w-6 h-6 text-primary" />}
       onBack={current > 0 ? () => setCurrent(prev => prev - 1) : undefined}
     >
@@ -106,7 +106,7 @@ export default function UnderstandingControl() {
                 onClick={() => setCurrent(prev => prev + 1)}
                 className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
               >
-                {screen.cta || t("complete.button_fallback", { defaultValue: "Finish Reading" })}
+                {screen.cta || (typeof t !== "undefined" ? t : (k) => k)("complete.button_fallback", { defaultValue: "Finish Reading" })}
                 <ChevronRight size={20} strokeWidth={3} />
               </button>
             </div>

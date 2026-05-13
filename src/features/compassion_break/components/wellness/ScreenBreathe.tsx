@@ -17,14 +17,14 @@ const ScreenBreathe = ({ onContinue }: Props) => {
   const [scale, setScale] = useState(0.6);
 
   const PHASES = [
-    { label: t("breathe_in"), duration: 4000, scale: 1 },
-    { label: t("hold"), duration: 2000, scale: 1 },
-    { label: t("breathe_out"), duration: 6000, scale: 0.6 },
+    { label: (typeof t !== "undefined" ? t : (k) => k)("breathe_in"), duration: 4000, scale: 1 },
+    { label: (typeof t !== "undefined" ? t : (k) => k)("hold"), duration: 2000, scale: 1 },
+    { label: (typeof t !== "undefined" ? t : (k) => k)("breathe_out"), duration: 6000, scale: 0.6 },
   ];
 
   const OVERLAYS = [
-    t("overlay_1"),
-    t("overlay_2"),
+    (typeof t !== "undefined" ? t : (k) => k)("overlay_1"),
+    (typeof t !== "undefined" ? t : (k) => k)("overlay_2"),
   ];
 
   const advancePhase = useCallback(() => {
@@ -66,7 +66,7 @@ const ScreenBreathe = ({ onContinue }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        {t("breathe_title")}
+        {(typeof t !== "undefined" ? t : (k) => k)("breathe_title")}
       </motion.h1>
 
       <motion.p
@@ -75,7 +75,7 @@ const ScreenBreathe = ({ onContinue }: Props) => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2, duration: 0.6 }}
       >
-        {t("breathe_subtitle")}
+        {(typeof t !== "undefined" ? t : (k) => k)("breathe_subtitle")}
       </motion.p>
 
       {/* Breathing circle */}
@@ -134,7 +134,7 @@ const ScreenBreathe = ({ onContinue }: Props) => {
       </div>
 
       <p className="text-xs font-black text-slate-300 uppercase tracking-widest mb-10">
-        {t("breathe_footer")}
+        {(typeof t !== "undefined" ? t : (k) => k)("breathe_footer")}
       </p>
 
       <AnimatePresence>
@@ -146,7 +146,7 @@ const ScreenBreathe = ({ onContinue }: Props) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            {t("continue_button")}
+            {(typeof t !== "undefined" ? t : (k) => k)("continue_button")}
           </motion.button>
         )}
       </AnimatePresence>

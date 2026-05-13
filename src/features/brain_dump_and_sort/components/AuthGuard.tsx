@@ -29,7 +29,7 @@ export const AuthGuard = ({ children }: AuthGuardProps) => {
             <div className=" flex items-center justify-center gradient-calm">
                 <div className="flex flex-col items-center gap-4">
                     <div className="w-12 h-12 rounded-full border-4 border-primary border-t-transparent animate-spin" />
-                    <p className="text-muted-foreground animate-pulse text-sm">{t("authenticating")}</p>
+                    <p className="text-muted-foreground animate-pulse text-sm">{(typeof t !== "undefined" ? t : (k) => k)("authenticating")}</p>
                 </div>
             </div>
         );

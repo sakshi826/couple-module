@@ -28,18 +28,18 @@ const ScreenClosing = ({ onViewPast, onDone }: ScreenClosingProps) => {
       </motion.div>
 
       <h1 className="font-heading text-[22px] font-medium text-foreground mb-3">
-        {t('closing_title')}
+        {(typeof t !== "undefined" ? t : (k) => k)('closing_title')}
       </h1>
 
       <div className="space-y-5 mb-12 w-full">
         <p className="text-foreground leading-[1.7]">
-          {t('closing_text_1')}
+          {(typeof t !== "undefined" ? t : (k) => k)('closing_text_1')}
         </p>
         <p className="text-foreground leading-[1.7]">
-          {t('closing_text_2')}
+          {(typeof t !== "undefined" ? t : (k) => k)('closing_text_2')}
         </p>
         <p className="text-muted-foreground leading-[1.7] italic">
-          {t('closing_italic')}
+          {(typeof t !== "undefined" ? t : (k) => k)('closing_italic')}
         </p>
       </div>
 
@@ -50,7 +50,7 @@ const ScreenClosing = ({ onViewPast, onDone }: ScreenClosingProps) => {
           onClick={onViewPast}
           className="w-full h-[54px] bg-transparent border-2 border-primary text-primary rounded-[30px] font-heading font-medium text-base transition-colors duration-150"
         >
-          {t('view_past')}
+          {(typeof t !== "undefined" ? t : (k) => k)('view_past')}
         </motion.button>
 
         <motion.button
@@ -59,7 +59,7 @@ const ScreenClosing = ({ onViewPast, onDone }: ScreenClosingProps) => {
           onClick={onDone}
           className="w-full h-[54px] bg-primary text-primary-foreground rounded-[30px] font-heading font-medium text-base shadow-[0_4px_20px_rgba(195,142,180,0.25)] active:bg-primary-pressed transition-colors duration-150"
         >
-          {t('done')}
+          {(typeof t !== "undefined" ? t : (k) => k)('done')}
         </motion.button>
       </div>
     </motion.div>

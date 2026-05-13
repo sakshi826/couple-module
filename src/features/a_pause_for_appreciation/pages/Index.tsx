@@ -27,18 +27,18 @@ const Index = () => {
   const reflectionPrompts = [
     {
       step: 1,
-      prompt: t("reflection.prompts.p1"),
-      example: t("reflection.prompts.p1_ex"),
+      prompt: (typeof t !== "undefined" ? t : (k) => k)("reflection.prompts.p1"),
+      example: (typeof t !== "undefined" ? t : (k) => k)("reflection.prompts.p1_ex"),
     },
     {
       step: 2,
-      prompt: t("reflection.prompts.p2"),
-      example: t("reflection.prompts.p2_ex"),
+      prompt: (typeof t !== "undefined" ? t : (k) => k)("reflection.prompts.p2"),
+      example: (typeof t !== "undefined" ? t : (k) => k)("reflection.prompts.p2_ex"),
     },
     {
       step: 3,
-      prompt: t("reflection.prompts.p3"),
-      example: t("reflection.prompts.p3_ex"),
+      prompt: (typeof t !== "undefined" ? t : (k) => k)("reflection.prompts.p3"),
+      example: (typeof t !== "undefined" ? t : (k) => k)("reflection.prompts.p3_ex"),
     },
   ];
 
@@ -82,7 +82,7 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={currentIdx > 0 && screen !== 'closing' ? () => setScreen(screenOrder[currentIdx - 1]) : undefined}
       onReset={currentIdx > 0 && screen !== 'closing' ? resetFlow : undefined}

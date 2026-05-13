@@ -10,10 +10,10 @@ const TokenPage = () => {
                 <LogIn className="w-10 h-10 text-primary" />
             </div>
             <h1 className="text-2xl font-heading font-semibold text-foreground mb-4">
-                {t("token_required", "Authentication Required")}
+                {(typeof t !== "undefined" ? t : (k) => k)("token_required", "Authentication Required")}
             </h1>
             <p className="text-muted-foreground max-w-xs leading-relaxed">
-                {t("token_message", "Please access this application through the official platform to log in.")}
+                {(typeof t !== "undefined" ? t : (k) => k)("token_message", "Please access this application through the official platform to log in.")}
             </p>
         </div>
     );

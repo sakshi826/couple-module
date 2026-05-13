@@ -35,7 +35,7 @@ const GratitudeEntry = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title")} 
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")} 
       onReset={!showIntro ? () => setShowIntro(true) : undefined}
     >
       <AnimatePresence mode="wait">
@@ -60,12 +60,12 @@ const GratitudeEntry = () => {
               <div className="space-y-6">
                 <div className="space-y-3">
                   <label className="text-sm font-black text-slate-400 uppercase tracking-widest ml-1">
-                    {t("gratitude.item1.label")} <span className="text-primary">*</span>
+                    {(typeof t !== "undefined" ? t : (k) => k)("gratitude.item1.label")} <span className="text-primary">*</span>
                   </label>
                   <textarea
                     value={gratitude1}
                     onChange={(e) => setGratitude1(e.target.value)}
-                    placeholder={t("gratitude.item1.placeholder")}
+                    placeholder={(typeof t !== "undefined" ? t : (k) => k)("gratitude.item1.placeholder")}
                     rows={4}
                     className="w-full bg-slate-50 border-2 border-transparent rounded-[2rem] px-6 py-5 text-base focus:bg-white focus:border-primary/20 outline-none transition-all resize-none shadow-sm font-medium text-slate-700"
                   />
@@ -73,12 +73,12 @@ const GratitudeEntry = () => {
 
                 <div className="space-y-3">
                   <label className="text-sm font-black text-slate-400 uppercase tracking-widest ml-1">
-                    {t("gratitude.item2.label")} <span className="text-slate-300 text-[10px] font-normal">({t("gratitude.optional")})</span>
+                    {(typeof t !== "undefined" ? t : (k) => k)("gratitude.item2.label")} <span className="text-slate-300 text-[10px] font-normal">({(typeof t !== "undefined" ? t : (k) => k)("gratitude.optional")})</span>
                   </label>
                   <textarea
                     value={gratitude2}
                     onChange={(e) => setGratitude2(e.target.value)}
-                    placeholder={t("gratitude.item2.placeholder")}
+                    placeholder={(typeof t !== "undefined" ? t : (k) => k)("gratitude.item2.placeholder")}
                     rows={4}
                     className="w-full bg-slate-50 border-2 border-transparent rounded-[2rem] px-6 py-5 text-base focus:bg-white focus:border-primary/20 outline-none transition-all resize-none shadow-sm font-medium text-slate-700"
                   />
@@ -94,7 +94,7 @@ const GratitudeEntry = () => {
                   disabled={!canContinue}
                   className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3 disabled:opacity-40 disabled:shadow-none"
                 >
-                  {t("common.continue")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("common.continue")}
                   <Send size={20} />
                 </motion.button>
               </div>

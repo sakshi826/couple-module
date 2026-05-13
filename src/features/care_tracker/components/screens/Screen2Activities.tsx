@@ -45,13 +45,13 @@ const Screen2Activities = ({ onContinue }: Screen2Props) => {
   return (
     <MobileShell step={2} totalSteps={5}>
       <h1 className="font-display text-2xl font-bold tracking-tight">
-        {t('screens.activities.title')}
+        {(typeof t !== "undefined" ? t : (k) => k)('screens.activities.title')}
       </h1>
-      <p className="mt-1 text-sm text-muted-foreground">{t('screens.activities.subtitle')}</p>
+      <p className="mt-1 text-sm text-muted-foreground">{(typeof t !== "undefined" ? t : (k) => k)('screens.activities.subtitle')}</p>
 
       <div className="mt-6 flex flex-wrap gap-2">
         {ACTIVITIES.map((a) => (
-          <OptionChip key={a} label={t(`data.activities.${a}`)} selected={selected.includes(a)} onToggle={() => toggle(a)} />
+          <OptionChip key={a} label={(typeof t !== "undefined" ? t : (k) => k)(`data.activities.${a}`)} selected={selected.includes(a)} onToggle={() => toggle(a)} />
         ))}
         {customList.map((a) => (
           <OptionChip key={a} label={a} selected={selected.includes(a)} onToggle={() => toggle(a)} />
@@ -63,7 +63,7 @@ const Screen2Activities = ({ onContinue }: Screen2Props) => {
           value={customActivity}
           onChange={(e) => setCustomActivity(e.target.value)}
           onKeyDown={handleKeyDown}
-          placeholder={t('common.continue')}
+          placeholder={(typeof t !== "undefined" ? t : (k) => k)('common.continue')}
           className="rounded-xl"
         />
         <button

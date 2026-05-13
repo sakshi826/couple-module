@@ -40,7 +40,7 @@ const breathe = {
 function Screen1({ onContinue }: { onContinue: () => void }) {
   const { t } = useTranslation();
   const [feeling, setFeeling] = useState("");
-  const description = t("s1.description", { returnObjects: true }) as string[];
+  const description = (typeof t !== "undefined" ? t : (k) => k)("s1.description", { returnObjects: true }) as string[];
 
   return (
     <motion.div variants={staggerChildren} initial="enter" animate="center" className="flex flex-col items-center text-center gap-10">
@@ -50,7 +50,7 @@ function Screen1({ onContinue }: { onContinue: () => void }) {
 
       <div className="space-y-4">
         <motion.h1 variants={childFade} className="text-3xl font-black text-slate-800 leading-tight">
-          {t("s1.title")}
+          {(typeof t !== "undefined" ? t : (k) => k)("s1.title")}
         </motion.h1>
         <motion.div variants={childFade} className="space-y-4 text-slate-500 font-medium leading-relaxed text-base">
           {description && description.map((line, idx) => (
@@ -61,7 +61,7 @@ function Screen1({ onContinue }: { onContinue: () => void }) {
 
       <motion.div variants={childFade} className="w-full">
         <textarea 
-          placeholder={t("s1.placeholder")} 
+          placeholder={(typeof t !== "undefined" ? t : (k) => k)("s1.placeholder")} 
           value={feeling} 
           onChange={(e) => setFeeling(e.target.value)}
           className="w-full rounded-3xl border-2 border-slate-100 bg-white p-6 text-slate-700 placeholder:text-slate-200 focus:border-primary/30 outline-none transition-all font-bold min-h-[120px] shadow-inner" 
@@ -72,7 +72,7 @@ function Screen1({ onContinue }: { onContinue: () => void }) {
           onClick={onContinue}
           className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
         >
-          {t("s1.button")}
+          {(typeof t !== "undefined" ? t : (k) => k)("s1.button")}
           <ChevronRight size={20} strokeWidth={3} />
         </button>
       </motion.div>
@@ -82,7 +82,7 @@ function Screen1({ onContinue }: { onContinue: () => void }) {
 
 function Screen2({ onContinue }: { onContinue: () => void }) {
   const { t } = useTranslation();
-  const description = t("s2.description", { returnObjects: true }) as string[];
+  const description = (typeof t !== "undefined" ? t : (k) => k)("s2.description", { returnObjects: true }) as string[];
 
   return (
     <motion.div variants={staggerChildren} initial="enter" animate="center" className="flex flex-col items-center text-center gap-10">
@@ -92,7 +92,7 @@ function Screen2({ onContinue }: { onContinue: () => void }) {
 
       <div className="space-y-4">
         <motion.h1 variants={childFade} className="text-3xl font-black text-slate-800 leading-tight">
-          {t("s2.title")}
+          {(typeof t !== "undefined" ? t : (k) => k)("s2.title")}
         </motion.h1>
         <motion.div variants={childFade} className="space-y-4 text-slate-500 font-medium leading-relaxed text-base">
           {description && description.slice(0, 2).map((line, idx) => (
@@ -107,7 +107,7 @@ function Screen2({ onContinue }: { onContinue: () => void }) {
           onClick={onContinue}
           className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
         >
-          {t("s2.button")}
+          {(typeof t !== "undefined" ? t : (k) => k)("s2.button")}
           <ChevronRight size={20} strokeWidth={3} />
         </button>
       </motion.div>
@@ -117,7 +117,7 @@ function Screen2({ onContinue }: { onContinue: () => void }) {
 
 function Screen3({ onContinue }: { onContinue: () => void }) {
   const { t } = useTranslation();
-  const description = t("s3.description", { returnObjects: true }) as string[];
+  const description = (typeof t !== "undefined" ? t : (k) => k)("s3.description", { returnObjects: true }) as string[];
 
   return (
     <motion.div variants={staggerChildren} initial="enter" animate="center" className="flex flex-col items-center text-center gap-10">
@@ -127,7 +127,7 @@ function Screen3({ onContinue }: { onContinue: () => void }) {
 
       <div className="space-y-4">
         <motion.h1 variants={childFade} className="text-3xl font-black text-slate-800 leading-tight">
-          {t("s3.title")}
+          {(typeof t !== "undefined" ? t : (k) => k)("s3.title")}
         </motion.h1>
         <motion.div variants={childFade} className="space-y-4 text-slate-500 font-medium leading-relaxed text-base">
           {description && description.slice(0, 2).map((line, idx) => (
@@ -142,7 +142,7 @@ function Screen3({ onContinue }: { onContinue: () => void }) {
           onClick={onContinue}
           className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
         >
-          {t("s3.button")}
+          {(typeof t !== "undefined" ? t : (k) => k)("s3.button")}
           <ChevronRight size={20} strokeWidth={3} />
         </button>
       </motion.div>
@@ -152,7 +152,7 @@ function Screen3({ onContinue }: { onContinue: () => void }) {
 
 function Screen4({ onContinue }: { onContinue: () => void }) {
   const { t } = useTranslation();
-  const description = t("s4.description", { returnObjects: true }) as string[];
+  const description = (typeof t !== "undefined" ? t : (k) => k)("s4.description", { returnObjects: true }) as string[];
 
   return (
     <motion.div variants={staggerChildren} initial="enter" animate="center" className="flex flex-col items-center text-center gap-10">
@@ -162,7 +162,7 @@ function Screen4({ onContinue }: { onContinue: () => void }) {
 
       <div className="space-y-4">
         <motion.h1 variants={childFade} className="text-3xl font-black text-slate-800 leading-tight">
-          {t("s4.title")}
+          {(typeof t !== "undefined" ? t : (k) => k)("s4.title")}
         </motion.h1>
         <motion.div variants={childFade} className="space-y-4 text-slate-500 font-medium leading-relaxed text-base">
           {description && description.slice(0, 2).map((line, idx) => (
@@ -175,13 +175,13 @@ function Screen4({ onContinue }: { onContinue: () => void }) {
       <motion.div variants={childFade} className="relative flex items-center justify-center my-2">
         <motion.div variants={breathe} animate="animate"
           className="w-24 h-24 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center shadow-inner">
-          <span className="text-[10px] font-black text-primary uppercase tracking-widest">{t("s4.breathe")}</span>
+          <span className="text-[10px] font-black text-primary uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)("s4.breathe")}</span>
         </motion.div>
       </motion.div>
 
       <motion.div variants={childFade} className="bg-slate-50 rounded-3xl p-6 border border-slate-100">
         <p className="text-slate-500 font-bold text-sm italic leading-relaxed">
-          {t("s4.notice")}
+          {(typeof t !== "undefined" ? t : (k) => k)("s4.notice")}
         </p>
       </motion.div>
 
@@ -190,7 +190,7 @@ function Screen4({ onContinue }: { onContinue: () => void }) {
           onClick={onContinue}
           className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
         >
-          {t("s4.button")}
+          {(typeof t !== "undefined" ? t : (k) => k)("s4.button")}
           <ChevronRight size={20} strokeWidth={3} />
         </button>
       </motion.div>
@@ -201,7 +201,7 @@ function Screen4({ onContinue }: { onContinue: () => void }) {
 function Screen5({ onDone }: { onDone: () => void }) {
   const { t } = useTranslation();
   const [reflection, setReflection] = useState("");
-  const description = t("s5.description", { returnObjects: true }) as string[];
+  const description = (typeof t !== "undefined" ? t : (k) => k)("s5.description", { returnObjects: true }) as string[];
 
   return (
     <motion.div variants={staggerChildren} initial="enter" animate="center" className="flex flex-col items-center text-center gap-10">
@@ -211,7 +211,7 @@ function Screen5({ onDone }: { onDone: () => void }) {
 
       <div className="space-y-4">
         <motion.h1 variants={childFade} className="text-3xl font-black text-slate-800 leading-tight">
-          {t("s5.title")}
+          {(typeof t !== "undefined" ? t : (k) => k)("s5.title")}
         </motion.h1>
         <motion.div variants={childFade} className="space-y-4 text-slate-500 font-medium leading-relaxed text-base">
           {description && description.slice(0, 1).map((line, idx) => (
@@ -223,7 +223,7 @@ function Screen5({ onDone }: { onDone: () => void }) {
 
       <motion.div variants={childFade} className="w-full">
         <textarea 
-          placeholder={t("s5.placeholder")} 
+          placeholder={(typeof t !== "undefined" ? t : (k) => k)("s5.placeholder")} 
           value={reflection} 
           onChange={(e) => setReflection(e.target.value)}
           className="w-full rounded-3xl border-2 border-slate-100 bg-white p-6 text-slate-700 placeholder:text-slate-200 focus:border-primary/30 outline-none transition-all font-bold min-h-[120px] shadow-inner" 
@@ -235,7 +235,7 @@ function Screen5({ onDone }: { onDone: () => void }) {
           onClick={onDone}
           className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
         >
-          {t("s5.button")}
+          {(typeof t !== "undefined" ? t : (k) => k)("s5.button")}
           <ChevronRight size={20} strokeWidth={3} />
         </button>
       </motion.div>
@@ -253,18 +253,18 @@ export default function SafePlaceVisualization() {
   if (screen === 5) {
     return (
       <PremiumComplete
-        title={t("app_title")}
-        message={t("complete.message")}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+        message={(typeof t !== "undefined" ? t : (k) => k)("complete.message")}
         onRestart={reset}
       />
     );
   }
 
-  const titles = t("nav", { returnObjects: true }) as string[];
+  const titles = (typeof t !== "undefined" ? t : (k) => k)("nav", { returnObjects: true }) as string[];
 
   return (
     <PremiumLayout
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       subtitle={titles[screen]}
       icon={<Shield className="w-6 h-6 text-primary" />}
       onBack={screen > 0 ? () => setScreen(prev => prev - 1) : undefined}

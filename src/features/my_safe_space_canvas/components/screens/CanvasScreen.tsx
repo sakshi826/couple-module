@@ -30,8 +30,8 @@ const CanvasScreen: React.FC<Props> = ({ promptIndex, canvasRef, onNext, onFinis
   const [customWord, setCustomWord] = useState('');
   const colorInputRef = useRef<HTMLInputElement>(null);
 
-  const PROMPTS = t("canvas.prompts", { returnObjects: true }) as any[];
-  const WORD_CHIPS = t("canvas.word_chips", { returnObjects: true }) as string[];
+  const PROMPTS = (typeof t !== "undefined" ? t : (k) => k)("canvas.prompts", { returnObjects: true }) as any[];
+  const WORD_CHIPS = (typeof t !== "undefined" ? t : (k) => k)("canvas.word_chips", { returnObjects: true }) as string[];
 
   // Initialize canvas once
   useEffect(() => {
@@ -105,7 +105,7 @@ const CanvasScreen: React.FC<Props> = ({ promptIndex, canvasRef, onNext, onFinis
   const { t } = useTranslation();
       if ((opt.target as any)) return;
       const pointer = canvas.getPointer(opt.e);
-      const text = new fabric.IText(t("canvas.type_here"), {
+      const text = new fabric.IText((typeof t !== "undefined" ? t : (k) => k)("canvas.type_here"), {
         left: pointer.x,
         top: pointer.y,
         fontFamily: 'Lora',
@@ -347,7 +347,7 @@ const CanvasScreen: React.FC<Props> = ({ promptIndex, canvasRef, onNext, onFinis
                     type="text"
                     value={customWord}
                     onChange={e => setCustomWord(e.target.value)}
-                    placeholder={t("canvas.custom_word_placeholder")}
+                    placeholder={(typeof t !== "undefined" ? t : (k) => k)("canvas.custom_word_placeholder")}
                     className="font-inter text-xs px-3 py-1.5 rounded-full w-24 outline-none"
                     style={{ border: '0.5px solid #D3D1C7' }}
                     onKeyDown={e => {
@@ -380,7 +380,7 @@ const CanvasScreen: React.FC<Props> = ({ promptIndex, canvasRef, onNext, onFinis
               className="w-full text-center font-inter text-xs mt-1 hover:underline transition-colors"
               style={{ color: '#B4B2A9' }}
             >
-              {t("canvas.skip_prompt")}
+              {(typeof t !== "undefined" ? t : (k) => k)("canvas.skip_prompt")}
             </button>
           </motion.div>
         </AnimatePresence>

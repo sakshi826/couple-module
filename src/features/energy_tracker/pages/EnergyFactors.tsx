@@ -11,16 +11,16 @@ const EnergyFactors = () => {
   const navigate = useNavigate();
 
   const factors = [
-    { id: "Sleep", label: t("sleep") },
-    { id: "Work / Study", label: t("work_study") },
-    { id: "Stress", label: t("stress") },
-    { id: "Exercise", label: t("exercise") },
-    { id: "Socializing", label: t("socializing") },
-    { id: "Screen Time", label: t("screen_time") },
-    { id: "Health", label: t("health") },
-    { id: "Rest", label: t("rest") },
-    { id: "Mood", label: t("mood") },
-    { id: "Anxiety", label: t("anxiety") },
+    { id: "Sleep", label: (typeof t !== "undefined" ? t : (k) => k)("sleep") },
+    { id: "Work / Study", label: (typeof t !== "undefined" ? t : (k) => k)("work_study") },
+    { id: "Stress", label: (typeof t !== "undefined" ? t : (k) => k)("stress") },
+    { id: "Exercise", label: (typeof t !== "undefined" ? t : (k) => k)("exercise") },
+    { id: "Socializing", label: (typeof t !== "undefined" ? t : (k) => k)("socializing") },
+    { id: "Screen Time", label: (typeof t !== "undefined" ? t : (k) => k)("screen_time") },
+    { id: "Health", label: (typeof t !== "undefined" ? t : (k) => k)("health") },
+    { id: "Rest", label: (typeof t !== "undefined" ? t : (k) => k)("rest") },
+    { id: "Mood", label: (typeof t !== "undefined" ? t : (k) => k)("mood") },
+    { id: "Anxiety", label: (typeof t !== "undefined" ? t : (k) => k)("anxiety") },
   ];
 
   const toggleFactor = (fId: string) => {
@@ -39,15 +39,15 @@ const EnergyFactors = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       icon={<Sparkles className="h-6 w-6" />}
       onBack={() => navigate("..")}
     >
       <div className="w-full">
         <h2 className="mb-1 text-xl font-bold text-slate-900">
-          {t("what_affected")}
+          {(typeof t !== "undefined" ? t : (k) => k)("what_affected")}
         </h2>
-        <p className="mb-6 text-sm text-slate-400 font-medium">{t("optional")}</p>
+        <p className="mb-6 text-sm text-slate-400 font-medium">{(typeof t !== "undefined" ? t : (k) => k)("optional")}</p>
 
         <div className="mb-10 grid grid-cols-2 gap-4">
           {factors.map((f, i) => {
@@ -75,12 +75,12 @@ const EnergyFactors = () => {
 
         <div className="space-y-4">
           <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest block">
-            {t("add_note")} <span className="font-normal">({t("optional")})</span>
+            {(typeof t !== "undefined" ? t : (k) => k)("add_note")} <span className="font-normal">({(typeof t !== "undefined" ? t : (k) => k)("optional")})</span>
           </label>
           <textarea
             value={currentNote}
             onChange={(e) => setCurrentNote(e.target.value.slice(0, 120))}
-            placeholder={t("note_placeholder")}
+            placeholder={(typeof t !== "undefined" ? t : (k) => k)("note_placeholder")}
             maxLength={120}
             rows={4}
             className="w-full resize-none rounded-3xl border-2 border-slate-100 bg-white px-6 py-5 text-base text-slate-900 placeholder:text-slate-300 focus:outline-none focus:border-primary transition-all font-medium shadow-sm"
@@ -95,7 +95,7 @@ const EnergyFactors = () => {
                 onClick={handleSave}
                 className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all"
             >
-                {t("save_checkin")}
+                {(typeof t !== "undefined" ? t : (k) => k)("save_checkin")}
             </motion.button>
         </div>
       </div>

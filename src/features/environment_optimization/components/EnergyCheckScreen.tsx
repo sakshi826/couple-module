@@ -20,33 +20,33 @@ const EnergyCheckScreen = ({ onFinish }: EnergyCheckScreenProps) => {
         </div>
 
         <div>
-          <p className="text-xs uppercase tracking-widest text-primary font-semibold mb-1">{t("step_3_of_3")}</p>
+          <p className="text-xs uppercase tracking-widest text-primary font-semibold mb-1">{(typeof t !== "undefined" ? t : (k) => k)("step_3_of_3")}</p>
           <h1 className="text-3xl font-heading font-bold text-foreground">
-            {t("pause_and_notice")}
+            {(typeof t !== "undefined" ? t : (k) => k)("pause_and_notice")}
           </h1>
         </div>
 
         <div className="space-y-6 text-left">
           <p className="text-lg text-foreground leading-relaxed">
-            {t("look_again")}
+            {(typeof t !== "undefined" ? t : (k) => k)("look_again")}
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
-            {t("feel_lighter")}
+            {(typeof t !== "undefined" ? t : (k) => k)("feel_lighter")}
           </p>
 
           <p className="text-foreground leading-relaxed">
-            {t("draining_item")}
+            {(typeof t !== "undefined" ? t : (k) => k)("draining_item")}
           </p>
 
           <p className="text-primary font-medium italic">
-            {t("slow_breath")}
+            {(typeof t !== "undefined" ? t : (k) => k)("slow_breath")}
           </p>
 
           <div className="bg-accent/50 rounded-xl p-5 border border-border">
             <p className="text-foreground font-medium leading-relaxed text-center">
-              {t("reduced_load")}<br />
-              <span className="text-primary font-semibold">{t("that_matters")}</span>
+              {(typeof t !== "undefined" ? t : (k) => k)("reduced_load")}<br />
+              <span className="text-primary font-semibold">{(typeof t !== "undefined" ? t : (k) => k)("that_matters")}</span>
             </p>
           </div>
         </div>
@@ -57,7 +57,7 @@ const EnergyCheckScreen = ({ onFinish }: EnergyCheckScreenProps) => {
           size="lg"
         >
           <Heart className="w-5 h-5" />
-          {t("finish")}
+          {(typeof t !== "undefined" ? t : (k) => k)("finish")}
         </Button>
       </div>
     </div>

@@ -23,14 +23,14 @@ export default function SleepAudit() {
   const [isSaving, setIsSaving] = useState(false);
   const [isLoadingHistory, setIsLoadingHistory] = useState(false);
 
-  const OPTIONS = t("options", { returnObjects: true }) as { emoji: string; text: string }[];
-  const RATING_LABELS = t("rating_labels", { returnObjects: true }) as string[];
+  const OPTIONS = (typeof t !== "undefined" ? t : (k) => k)("options", { returnObjects: true }) as { emoji: string; text: string }[];
+  const RATING_LABELS = (typeof t !== "undefined" ? t : (k) => k)("rating_labels", { returnObjects: true }) as string[];
 
   const getScoreInfo = (score: number) => {
   const { t } = useTranslation();
-    if (score >= 6) return { color: "#1D9E75", status: t("status_labels.track") };
-    if (score >= 4) return { color: "#EF9F27", status: t("status_labels.disruptions") };
-    return { color: "#E24B4A", status: t("status_labels.attention") };
+    if (score >= 6) return { color: "#1D9E75", status: (typeof t !== "undefined" ? t : (k) => k)("status_labels.track") };
+    if (score >= 4) return { color: "#EF9F27", status: (typeof t !== "undefined" ? t : (k) => k)("status_labels.disruptions") };
+    return { color: "#E24B4A", status: (typeof t !== "undefined" ? t : (k) => k)("status_labels.attention") };
   };
 
   const fetchHistory = useCallback(async () => {
@@ -61,7 +61,7 @@ export default function SleepAudit() {
   const handleSave = async () => {
     const userId = sessionStorage.getItem("user_id");
     if (!userId || !DATABASE_URL) {
-      toast.error(t("toasts.auth_error"));
+      toast.error((typeof t !== "undefined" ? t : (k) => k)("toasts.auth_error"));
       return;
     }
 
@@ -72,12 +72,12 @@ export default function SleepAudit() {
     try {
       const sql = neon(DATABASE_URL);
       await sql`INSERT INTO sleep_audit_entries (user_id, audit_data) VALUES (${userId}, ${auditData})`;
-      toast.success(t("toasts.save_success"));
+      toast.success((typeof t !== "undefined" ? t : (k) => k)("toasts.save_success"));
       fetchHistory();
       setScreen(4); // Go to PremiumComplete
     } catch (error) {
       console.error("Failed to save audit:", error);
-      toast.error(t("toasts.save_error"));
+      toast.error((typeof t !== "undefined" ? t : (k) => k)("toasts.save_error"));
     } finally {
       setIsSaving(false);
     }
@@ -89,8 +89,8 @@ export default function SleepAudit() {
   if (screen === 4) {
     return (
       <PremiumComplete
-        title={t("app_title")}
-        message={t("complete.message", { score: scoreValue })}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+        message={(typeof t !== "undefined" ? t : (k) => k)("complete.message", { score: scoreValue })}
         onRestart={() => {
           setScreen(0);
           setSelected(new Set());
@@ -103,8 +103,8 @@ export default function SleepAudit() {
 
   return (
     <PremiumLayout
-      title={t("app_title")}
-      subtitle={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+      subtitle={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       icon={<Moon className="w-6 h-6 text-primary" />}
       onBack={screen === 0 ? undefined : () => setScreen(prev => prev - 1)}
     >
@@ -123,9 +123,9 @@ export default function SleepAudit() {
               <div className="w-24 h-24 bg-white/10 backdrop-blur-md rounded-[2.5rem] border border-white/20 flex items-center justify-center text-6xl shadow-2xl">
                 🌙
               </div>
-              <h1 className="text-3xl font-black text-white">{t("intro.title")}</h1>
+              <h1 className="text-3xl font-black text-white">{(typeof t !== "undefined" ? t : (k) => k)("intro.title")}</h1>
               <p className="text-lg text-slate-300 font-medium leading-relaxed max-w-[280px]">
-                {t("intro.description")}
+                {(typeof t !== "undefined" ? t : (k) => k)("intro.description")}
               </p>
               
               <div className="w-full space-y-4 mt-8">
@@ -133,14 +133,14 @@ export default function SleepAudit() {
                   onClick={() => setScreen(1)}
                   className="w-full bg-white text-slate-900 py-5 rounded-2xl font-black text-lg shadow-2xl hover:scale-[1.02] transition-all"
                 >
-                  {t("intro.start_button")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("intro.start_button")}
                 </button>
                 <button
                   onClick={() => setShowHistory(true)}
                   className="w-full bg-white/10 backdrop-blur-md text-white py-5 rounded-2xl font-black text-lg border border-white/10 hover:bg-white/20 transition-all flex items-center justify-center gap-3"
                 >
                   <History size={20} strokeWidth={2.5} />
-                  {t("intro.history_button")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("intro.history_button")}
                 </button>
               </div>
             </motion.div>
@@ -156,10 +156,10 @@ export default function SleepAudit() {
             >
               <div className="space-y-3">
                 <div className="inline-flex px-4 py-1.5 rounded-full bg-primary/20 text-white text-[10px] font-black uppercase tracking-[0.2em]">
-                  {t("screens.s1.phase")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("screens.s1.phase")}
                 </div>
-                <h2 className="text-2xl font-black text-white">{t("screens.s1.title")}</h2>
-                <p className="text-slate-400 font-medium">{t("screens.s1.desc")}</p>
+                <h2 className="text-2xl font-black text-white">{(typeof t !== "undefined" ? t : (k) => k)("screens.s1.title")}</h2>
+                <p className="text-slate-400 font-medium">{(typeof t !== "undefined" ? t : (k) => k)("screens.s1.desc")}</p>
               </div>
 
               <div className="flex flex-col gap-3">
@@ -195,7 +195,7 @@ export default function SleepAudit() {
                 onClick={() => setScreen(2)}
                 className="w-full bg-white text-slate-900 py-5 rounded-2xl font-black text-lg shadow-2xl mt-4 hover:bg-slate-50 transition-all"
               >
-                {t("buttons.continue")}
+                {(typeof t !== "undefined" ? t : (k) => k)("buttons.continue")}
               </button>
             </motion.div>
           )}
@@ -210,9 +210,9 @@ export default function SleepAudit() {
             >
               <div className="space-y-3">
                 <div className="inline-flex px-4 py-1.5 rounded-full bg-primary/20 text-white text-[10px] font-black uppercase tracking-[0.2em]">
-                  {t("screens.s2.phase")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("screens.s2.phase")}
                 </div>
-                <h2 className="text-2xl font-black text-white">{t("screens.s2.title")}</h2>
+                <h2 className="text-2xl font-black text-white">{(typeof t !== "undefined" ? t : (k) => k)("screens.s2.title")}</h2>
               </div>
 
               <div className="grid grid-cols-5 gap-3">
@@ -236,11 +236,11 @@ export default function SleepAudit() {
               </div>
 
               <div className="space-y-3">
-                <label className="text-xs font-black text-slate-400 uppercase tracking-widest ml-1">{t("screens.s2.label")}</label>
+                <label className="text-xs font-black text-slate-400 uppercase tracking-widest ml-1">{(typeof t !== "undefined" ? t : (k) => k)("screens.s2.label")}</label>
                 <textarea
                   value={note}
                   onChange={e => setNote(e.target.value)}
-                  placeholder={t("screens.s2.placeholder")}
+                  placeholder={(typeof t !== "undefined" ? t : (k) => k)("screens.s2.placeholder")}
                   className="w-full p-6 bg-white/5 border border-white/10 rounded-3xl text-white font-medium outline-none focus:border-white/30 transition-all resize-none shadow-sm placeholder:text-white/20"
                   rows={4}
                 />
@@ -250,7 +250,7 @@ export default function SleepAudit() {
                 onClick={() => setScreen(3)}
                 className="w-full bg-white text-slate-900 py-5 rounded-2xl font-black text-lg shadow-2xl transition-all"
               >
-                {t("buttons.see_results")}
+                {(typeof t !== "undefined" ? t : (k) => k)("buttons.see_results")}
               </button>
             </motion.div>
           )}
@@ -290,15 +290,15 @@ export default function SleepAudit() {
                   </svg>
                   <div className="absolute flex flex-col items-center">
                     <span className="text-5xl font-black" style={{ color: scoreInfo.color }}>{scoreValue}</span>
-                    <span className="text-xs font-black text-slate-400 uppercase tracking-widest">{t("screens.s3.score_label")}</span>
+                    <span className="text-xs font-black text-slate-400 uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)("screens.s3.score_label")}</span>
                   </div>
                 </div>
                 
                 <h3 className="text-2xl font-black mt-8" style={{ color: scoreInfo.color }}>{scoreInfo.status}</h3>
                 <p className="text-base text-slate-500 mt-4 leading-relaxed font-medium italic">
-                  {scoreValue >= 6 ? t("screens.s3.recommendations.solid") : 
-                   scoreValue >= 4 ? t("screens.s3.recommendations.some") : 
-                   t("screens.s3.recommendations.many")}
+                  {scoreValue >= 6 ? (typeof t !== "undefined" ? t : (k) => k)("screens.s3.recommendations.solid") : 
+                   scoreValue >= 4 ? (typeof t !== "undefined" ? t : (k) => k)("screens.s3.recommendations.some") : 
+                   (typeof t !== "undefined" ? t : (k) => k)("screens.s3.recommendations.many")}
                 </p>
               </div>
 
@@ -309,13 +309,13 @@ export default function SleepAudit() {
                   className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                 >
                   <Save size={20} strokeWidth={3} />
-                  {isSaving ? t("buttons.preserving") : t("buttons.preserve")}
+                  {isSaving ? (typeof t !== "undefined" ? t : (k) => k)("buttons.preserving") : (typeof t !== "undefined" ? t : (k) => k)("buttons.preserve")}
                 </button>
                 <button
                   onClick={() => setScreen(0)}
                   className="w-full py-5 rounded-2xl font-bold text-white/60 hover:text-white transition-all"
                 >
-                  {t("buttons.back_to_intro")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("buttons.back_to_intro")}
                 </button>
               </div>
             </motion.div>
@@ -340,7 +340,7 @@ export default function SleepAudit() {
                 onClick={e => e.stopPropagation()}
               >
                 <div className="flex items-center justify-between mb-10">
-                  <h3 className="text-2xl font-black text-slate-900">{t("history.title")}</h3>
+                  <h3 className="text-2xl font-black text-slate-900">{(typeof t !== "undefined" ? t : (k) => k)("history.title")}</h3>
                   <button onClick={() => setShowHistory(false)} className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center">
                     <X size={20} className="text-slate-400" strokeWidth={3} />
                   </button>
@@ -355,7 +355,7 @@ export default function SleepAudit() {
                     <div className="w-16 h-16 bg-slate-50 rounded-full flex items-center justify-center mx-auto text-slate-300">
                       <History size={32} />
                     </div>
-                    <p className="text-slate-400 font-medium">{t("history.no_entries")}</p>
+                    <p className="text-slate-400 font-medium">{(typeof t !== "undefined" ? t : (k) => k)("history.no_entries")}</p>
                   </div>
                 ) : (
                   <div className="space-y-4">
@@ -369,7 +369,7 @@ export default function SleepAudit() {
                           </div>
                           <div className="flex flex-col items-end">
                             <span className="text-3xl font-black" style={{ color: info.color }}>{e.score}</span>
-                            <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{t("history.score_label")}</span>
+                            <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{(typeof t !== "undefined" ? t : (k) => k)("history.score_label")}</span>
                           </div>
                         </div>
                       );

@@ -43,39 +43,39 @@ const Index = () => {
     try {
       const sql = neon(DATABASE_URL);
       await sql`INSERT INTO repair_and_reconnect_entries (user_id, repair_data) VALUES (${userId}, ${repairData})`;
-      toast.success(t("toasts.save_success"));
+      toast.success((typeof t !== "undefined" ? t : (k) => k)("toasts.save_success"));
       setStep(4); // Go to complete
     } catch (error) {
       console.error("Failed to save repair entry:", error);
-      toast.error(t("toasts.save_error"));
+      toast.error((typeof t !== "undefined" ? t : (k) => k)("toasts.save_error"));
     } finally {
       setIsSaving(false);
     }
   };
 
-  const personLabel = person ? (t(`choose_person.options.${person}`) || person) : t("complete.default_person");
+  const personLabel = person ? ((typeof t !== "undefined" ? t : (k) => k)(`choose_person.options.${person}`) || person) : (typeof t !== "undefined" ? t : (k) => k)("complete.default_person");
 
   if (step === 4) {
     return (
       <PremiumComplete
-        title={t("app_title")}
-        message={t("complete.message", { person: personLabel })}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+        message={(typeof t !== "undefined" ? t : (k) => k)("complete.message", { person: personLabel })}
         onRestart={reset}
       />
     );
   }
 
   const titles = [
-    t("steps.welcome"),
-    t("steps.choose_person"),
-    t("steps.choose_approach"),
-    t("steps.guided_action"),
-    t("steps.complete")
+    (typeof t !== "undefined" ? t : (k) => k)("steps.welcome"),
+    (typeof t !== "undefined" ? t : (k) => k)("steps.choose_person"),
+    (typeof t !== "undefined" ? t : (k) => k)("steps.choose_approach"),
+    (typeof t !== "undefined" ? t : (k) => k)("steps.guided_action"),
+    (typeof t !== "undefined" ? t : (k) => k)("steps.complete")
   ];
 
   return (
     <PremiumLayout
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       subtitle={titles[step]} 
       exitOnBack={step === 0}
       icon={<Heart className="w-6 h-6 text-primary" />}
@@ -125,7 +125,7 @@ const Index = () => {
                   className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
                 >
                   <Save size={20} strokeWidth={3} />
-                  {isSaving ? t("toasts.preserving") : t("toasts.complete_button")}
+                  {isSaving ? (typeof t !== "undefined" ? t : (k) => k)("toasts.preserving") : (typeof t !== "undefined" ? t : (k) => k)("toasts.complete_button")}
                 </button>
               </div>
             )}

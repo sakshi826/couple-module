@@ -26,7 +26,7 @@ const ScreenNoticeShift = ({ onContinue }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        {t("shift_title")}
+        {(typeof t !== "undefined" ? t : (k) => k)("shift_title")}
       </motion.h1>
 
       <motion.div
@@ -44,7 +44,7 @@ const ScreenNoticeShift = ({ onContinue }: Props) => {
         )}
 
         <p className="text-sm font-bold text-slate-400 mb-8 uppercase tracking-widest">
-          {t("shift_question")}
+          {(typeof t !== "undefined" ? t : (k) => k)("shift_question")}
         </p>
 
         <input
@@ -59,8 +59,8 @@ const ScreenNoticeShift = ({ onContinue }: Props) => {
           }}
         />
         <div className="flex justify-between text-xs font-black text-slate-300 mt-4">
-          <span>{t("label_calm")}</span>
-          <span>{t("label_intense")}</span>
+          <span>{(typeof t !== "undefined" ? t : (k) => k)("label_calm")}</span>
+          <span>{(typeof t !== "undefined" ? t : (k) => k)("label_intense")}</span>
         </div>
       </motion.div>
 
@@ -71,10 +71,10 @@ const ScreenNoticeShift = ({ onContinue }: Props) => {
         transition={{ delay: 0.4, duration: 0.6 }}
       >
         <p className="text-xs font-black text-slate-400 uppercase tracking-widest mb-4">
-          {t("label_notice_shift")}
+          {(typeof t !== "undefined" ? t : (k) => k)("label_notice_shift")}
         </p>
         <p className="text-slate-700 font-bold italic leading-relaxed">
-          {t("shift_footer")}
+          {(typeof t !== "undefined" ? t : (k) => k)("shift_footer")}
         </p>
       </motion.div>
 
@@ -85,7 +85,7 @@ const ScreenNoticeShift = ({ onContinue }: Props) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 0.6 }}
       >
-        {t("continue_button")}
+        {(typeof t !== "undefined" ? t : (k) => k)("continue_button")}
       </motion.button>
     </div>
   );

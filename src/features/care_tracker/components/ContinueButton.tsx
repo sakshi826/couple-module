@@ -20,7 +20,7 @@ const ContinueButton = ({ onClick, disabled, label }: ContinueButtonProps) => {
         disabled={disabled}
         className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-bold text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3 disabled:opacity-40 disabled:shadow-none"
       >
-        {label || t('common.continue')}
+        {label || (typeof t !== "undefined" ? t : (k) => k)('common.continue')}
         <ArrowRight size={20} />
       </motion.button>
     </div>

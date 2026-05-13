@@ -121,9 +121,9 @@ export function CategoriesPage() {
               <div className="w-9 h-9 rounded-xl flex items-center justify-center shadow-md text-lg flex-shrink-0 bg-[#F59E0B]">
                 🧘
               </div>
-              <h1 className="text-xl md:text-2xl text-white">{t("categories")}</h1>
+              <h1 className="text-xl md:text-2xl text-white">{(typeof t !== "undefined" ? t : (k) => k)("categories")}</h1>
             </div>
-            <p className="text-xs md:text-sm leading-relaxed max-w-xl text-slate-300 pl-[54px]">{t("explore_all_mindfulness_categories_and_subcategori")}</p>
+            <p className="text-xs md:text-sm leading-relaxed max-w-xl text-slate-300 pl-[54px]">{(typeof t !== "undefined" ? t : (k) => k)("explore_all_mindfulness_categories_and_subcategori")}</p>
           </motion.div>
 
           {/* Browse by Category */}

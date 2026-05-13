@@ -53,7 +53,7 @@ const VibeCheckIn = ({ onNext, onHistory }: Props) => {
           >
             <span className="text-3xl mb-2">{vibe.emoji}</span>
             <span className="text-xs font-black uppercase tracking-widest opacity-80">
-              {t(`vibes.${vibe.label}`)}
+              {(typeof t !== "undefined" ? t : (k) => k)(`vibes.${vibe.label}`)}
             </span>
           </motion.button>
         ))}
@@ -61,12 +61,12 @@ const VibeCheckIn = ({ onNext, onHistory }: Props) => {
 
       <div className="space-y-4">
         <label className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] px-4 block">
-            {t("describeOwnVibe")}
+            {(typeof t !== "undefined" ? t : (k) => k)("describeOwnVibe")}
         </label>
         <input
           type="text"
           className="w-full py-6 rounded-[2.5rem] bg-slate-50 border-2 border-transparent focus:border-primary/50 focus:bg-white transition-all outline-none px-8 font-bold text-slate-700 placeholder:text-slate-300 shadow-inner"
-          placeholder={t("rightNowIFeel")}
+          placeholder={(typeof t !== "undefined" ? t : (k) => k)("rightNowIFeel")}
           value={customVibe}
           onChange={(e) => {
             setCustomVibe(e.target.value);
@@ -82,7 +82,7 @@ const VibeCheckIn = ({ onNext, onHistory }: Props) => {
         onClick={() => onNext(currentVibe)}
         className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3 disabled:opacity-40"
       >
-        {t("saveVibe")}
+        {(typeof t !== "undefined" ? t : (k) => k)("saveVibe")}
         <ArrowRight size={20} />
       </motion.button>
     </div>

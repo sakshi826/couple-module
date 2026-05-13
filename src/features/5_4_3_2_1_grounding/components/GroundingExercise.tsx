@@ -26,7 +26,7 @@ const GroundingExercise = () => {
   const [submitted, setSubmitted] = useState(false);
 
   const steps = useMemo(() => {
-    const stepsData = t("steps", { returnObjects: true }) as any[];
+    const stepsData = (typeof t !== "undefined" ? t : (k) => k)("steps", { returnObjects: true }) as any[];
     const config = [
       { inputCount: 0 },
       { inputCount: 5 },
@@ -61,8 +61,8 @@ const GroundingExercise = () => {
   if (submitted) {
     return (
       <PremiumComplete
-        title={t("app_title")}
-        message={t("common.completion_message")}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+        message={(typeof t !== "undefined" ? t : (k) => k)("common.completion_message")}
         onRestart={() => {
           setCurrentStep(0);
           setResponses({});
@@ -72,7 +72,7 @@ const GroundingExercise = () => {
       >
         {reflectionWord && (
           <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm text-center">
-             <p className="text-slate-500 text-sm mb-1">{t("common.you_feel")}</p>
+             <p className="text-slate-500 text-sm mb-1">{(typeof t !== "undefined" ? t : (k) => k)("common.you_feel")}</p>
              <p className="text-2xl font-bold text-primary italic">"{reflectionWord}"</p>
           </div>
         )}
@@ -83,11 +83,11 @@ const GroundingExercise = () => {
   if (currentStep === 0) {
     return (
       <PremiumIntro
-        title={t("app_title")}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
         description={step.body}
         onStart={handleNext}
         icon={stepIcons[0]}
-        benefits={[t('intro_p1'), t('intro_p2'), t('intro_p3')]}
+        benefits={[(typeof t !== "undefined" ? t : (k) => k)('intro_p1'), (typeof t !== "undefined" ? t : (k) => k)('intro_p2'), (typeof t !== "undefined" ? t : (k) => k)('intro_p3')]}
       />
     );
   }
@@ -141,13 +141,13 @@ const GroundingExercise = () => {
           {step.reflectionPrompt && (
             <div className="mb-8 w-full max-w-sm text-left">
               <label className="block text-sm font-bold text-slate-700 mb-3 ml-1">
-                {t("common.reflection_question")}
+                {(typeof t !== "undefined" ? t : (k) => k)("common.reflection_question")}
               </label>
               <input
                 type="text"
                 value={reflectionWord}
                 onChange={(e) => setReflectionWord(e.target.value)}
-                placeholder={t("common.reflection_placeholder")}
+                placeholder={(typeof t !== "undefined" ? t : (k) => k)("common.reflection_placeholder")}
                 className="w-full bg-white border border-slate-200 rounded-2xl px-6 py-4 text-base focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all"
               />
             </div>

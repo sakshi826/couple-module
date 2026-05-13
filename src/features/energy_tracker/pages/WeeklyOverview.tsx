@@ -29,11 +29,11 @@ const WeeklyOverview = () => {
   const navigate = useNavigate();
 
   const numToLabel: Record<number, string> = {
-    1: t("very_low"),
-    2: t("low"),
-    3: t("okay"),
-    4: t("good"),
-    5: t("high"),
+    1: (typeof t !== "undefined" ? t : (k) => k)("very_low"),
+    2: (typeof t !== "undefined" ? t : (k) => k)("low"),
+    3: (typeof t !== "undefined" ? t : (k) => k)("okay"),
+    4: (typeof t !== "undefined" ? t : (k) => k)("good"),
+    5: (typeof t !== "undefined" ? t : (k) => k)("high"),
   };
 
   const today = new Date();
@@ -57,7 +57,7 @@ const WeeklyOverview = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       icon={<History className="h-6 w-6" />}
     >
       <div className="w-full">
@@ -66,7 +66,7 @@ const WeeklyOverview = () => {
           animate={{ opacity: 1 }}
           className="mb-6 text-xl font-bold text-slate-900"
         >
-          {t("your_weekly")}
+          {(typeof t !== "undefined" ? t : (k) => k)("your_weekly")}
         </motion.h2>
 
         <motion.div
@@ -76,7 +76,7 @@ const WeeklyOverview = () => {
         >
           {filledDays.length === 0 ? (
             <p className="py-10 text-center text-sm text-slate-400 font-medium">
-              {t("no_entries")}
+              {(typeof t !== "undefined" ? t : (k) => k)("no_entries")}
             </p>
           ) : (
             <div className="h-[200px] w-full">
@@ -128,14 +128,14 @@ const WeeklyOverview = () => {
             className="bg-primary/5 rounded-3xl p-6 border-2 border-primary/10"
           >
             <h3 className="text-sm font-black text-primary uppercase tracking-widest mb-2">
-              {t("insight")}
+              {(typeof t !== "undefined" ? t : (k) => k)("insight")}
             </h3>
             <p className="text-slate-600 font-bold leading-relaxed">
               {avgValue >= 4
-                ? t("insight_high")
+                ? (typeof t !== "undefined" ? t : (k) => k)("insight_high")
                 : avgValue >= 3
-                  ? t("insight_okay")
-                  : t("insight_low")}
+                  ? (typeof t !== "undefined" ? t : (k) => k)("insight_okay")
+                  : (typeof t !== "undefined" ? t : (k) => k)("insight_low")}
             </p>
           </motion.div>
         ) : filledDays.length > 0 && (
@@ -146,10 +146,10 @@ const WeeklyOverview = () => {
             className="bg-slate-50 rounded-3xl p-6 border-2 border-slate-100"
           >
             <h3 className="text-sm font-black text-slate-400 uppercase tracking-widest mb-2">
-              {t("insight")}
+              {(typeof t !== "undefined" ? t : (k) => k)("insight")}
             </h3>
             <p className="text-slate-500 font-bold leading-relaxed">
-              {t("insight_more_data")}
+              {(typeof t !== "undefined" ? t : (k) => k)("insight_more_data")}
             </p>
           </motion.div>
         )}

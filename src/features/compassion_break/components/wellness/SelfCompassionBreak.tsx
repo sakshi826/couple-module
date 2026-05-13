@@ -53,7 +53,7 @@ const SelfCompassionBreak = () => {
   const handleSave = async () => {
     const userId = sessionStorage.getItem("user_id");
     if (!userId || !DATABASE_URL) {
-      toast.error(t("auth_error"));
+      toast.error((typeof t !== "undefined" ? t : (k) => k)("auth_error"));
       return;
     }
 
@@ -69,24 +69,24 @@ const SelfCompassionBreak = () => {
     try {
       const sql = neon(DATABASE_URL);
       await sql`INSERT INTO compassion_break_entries (user_id, break_data) VALUES (${userId}, ${breakData})`;
-      toast.success(t("save_success"));
+      toast.success((typeof t !== "undefined" ? t : (k) => k)("save_success"));
       setHistory(prev => [breakData, ...prev]);
       setScreen(6); // Go to completion screen
     } catch (error) {
       console.error("Failed to save break:", error);
-      toast.error(t("save_error"));
+      toast.error((typeof t !== "undefined" ? t : (k) => k)("save_error"));
     } finally {
       setIsSaving(false);
     }
   };
 
-  const titles = t("screen_titles", { returnObjects: true }) as string[];
+  const titles = (typeof t !== "undefined" ? t : (k) => k)("screen_titles", { returnObjects: true }) as string[];
 
   if (screen === 6) {
     return (
       <PremiumComplete
-        title={t("app_title")}
-        message={t("complete_message")}
+        title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+        message={(typeof t !== "undefined" ? t : (k) => k)("complete_message")}
         onRestart={reset}
       />
     );
@@ -122,7 +122,7 @@ const SelfCompassionBreak = () => {
 
   return (
     <PremiumLayout
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
       subtitle={titles[screen]}
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={screen > 0 ? () => setScreen(prev => prev - 1) : undefined}

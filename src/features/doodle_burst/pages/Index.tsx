@@ -20,9 +20,9 @@ const Index = () => {
   const [timer, setTimer] = useState(60);
 
   const PROMPTS = [
-    { time: 60, text: t("prompt_1") },
-    { time: 30, text: t("prompt_2") },
-    { time: 10, text: t("prompt_3") },
+    { time: 60, text: (typeof t !== "undefined" ? t : (k) => k)("prompt_1") },
+    { time: 30, text: (typeof t !== "undefined" ? t : (k) => k)("prompt_2") },
+    { time: 10, text: (typeof t !== "undefined" ? t : (k) => k)("prompt_3") },
   ];
 
   const [currentPrompt, setCurrentPrompt] = useState(PROMPTS[0].text);
@@ -61,7 +61,7 @@ const Index = () => {
 
   return (
     <PremiumLayout 
-      title={t("app_title")}
+      title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
     >
       <AnimatePresence mode="wait">
         {screen === "intro" && (
@@ -72,12 +72,12 @@ const Index = () => {
             exit={{ opacity: 0 }}
           >
             <PremiumIntro
-              title={t("app_title")}
-              description={t("intro_reason") + " " + t("intro_benefit")}
+              title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+              description={(typeof t !== "undefined" ? t : (k) => k)("intro_reason") + " " + (typeof t !== "undefined" ? t : (k) => k)("intro_benefit")}
               onStart={startActivity}
               icon={<Palette size={32} />}
-              benefits={[t('intro_p1'), t('intro_p2'), t('intro_p3')]}
-              duration={t('app_duration', "60 seconds")}
+              benefits={[(typeof t !== "undefined" ? t : (k) => k)('intro_p1'), (typeof t !== "undefined" ? t : (k) => k)('intro_p2'), (typeof t !== "undefined" ? t : (k) => k)('intro_p3')]}
+              duration={(typeof t !== "undefined" ? t : (k) => k)('app_duration', "60 seconds")}
             >
               <div className="mt-8 text-center">
                 <Link
@@ -85,7 +85,7 @@ const Index = () => {
                   className="inline-flex items-center gap-2 text-slate-400 hover:text-primary font-black text-xs uppercase tracking-widest transition-colors"
                 >
                   <History size={16} />
-                  {t("view_past_doodles")}
+                  {(typeof t !== "undefined" ? t : (k) => k)("view_past_doodles")}
                 </Link>
               </div>
             </PremiumIntro>
@@ -106,10 +106,10 @@ const Index = () => {
                 <div className="flex items-center gap-5">
                   <div className="w-20 h-20 rounded-3xl bg-primary/10 flex flex-col items-center justify-center text-primary border-2 border-primary/20 shadow-sm">
                     <span className="text-3xl font-black tabular-nums leading-none">{timer}</span>
-                    <span className="text-[10px] font-black uppercase tracking-widest mt-1 opacity-60">{t("sec")}</span>
+                    <span className="text-[10px] font-black uppercase tracking-widest mt-1 opacity-60">{(typeof t !== "undefined" ? t : (k) => k)("sec")}</span>
                   </div>
                   <div className="text-left">
-                    <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-1.5">{t("current_focus")}</p>
+                    <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-1.5">{(typeof t !== "undefined" ? t : (k) => k)("current_focus")}</p>
                     <AnimatePresence mode="wait">
                       <motion.h2
                         key={currentPrompt}
@@ -131,7 +131,7 @@ const Index = () => {
               {/* Instructions */}
               <div className="flex items-center gap-2.5 text-slate-400 text-xs font-black uppercase tracking-widest">
                 <Sparkles size={16} className="text-primary opacity-60" />
-                {t("activity_instructions")}
+                {(typeof t !== "undefined" ? t : (k) => k)("activity_instructions")}
               </div>
 
               <DrawingCanvas ref={canvasRef} />
@@ -147,17 +147,17 @@ const Index = () => {
             exit={{ opacity: 0 }}
           >
             <PremiumComplete
-              title={t("app_title")}
-              message={t("end_saved")}
+              title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
+              message={(typeof t !== "undefined" ? t : (k) => k)("end_saved")}
               onRestart={startActivity}
             >
               <div className="space-y-6 w-full max-w-md mx-auto mt-8">
                 <div className="bg-white rounded-[2.5rem] border-2 border-slate-100 p-8 shadow-sm text-left space-y-6">
-                   <p className="text-slate-500 font-bold text-sm leading-relaxed">{t("end_reset")}</p>
+                   <p className="text-slate-500 font-bold text-sm leading-relaxed">{(typeof t !== "undefined" ? t : (k) => k)("end_reset")}</p>
                    <div className="grid gap-3">
-                     <CheckInItem icon={<Rocket className="text-primary" size={18} />} text={t("checkin_brain")} />
-                     <CheckInItem icon={<Sparkles className="text-primary" size={18} />} text={t("checkin_calmer")} />
-                     <CheckInItem icon={<Check className="text-primary" size={18} />} text={t("checkin_task")} />
+                     <CheckInItem icon={<Rocket className="text-primary" size={18} />} text={(typeof t !== "undefined" ? t : (k) => k)("checkin_brain")} />
+                     <CheckInItem icon={<Sparkles className="text-primary" size={18} />} text={(typeof t !== "undefined" ? t : (k) => k)("checkin_calmer")} />
+                     <CheckInItem icon={<Check className="text-primary" size={18} />} text={(typeof t !== "undefined" ? t : (k) => k)("checkin_task")} />
                    </div>
                 </div>
 
@@ -169,7 +169,7 @@ const Index = () => {
                     className="flex-1 py-4 bg-white border-2 border-slate-100 text-slate-500 font-black text-xs uppercase tracking-widest rounded-2xl flex items-center justify-center gap-2 hover:bg-slate-50 transition-all shadow-sm"
                   >
                     <Share2 size={16} />
-                    {t("share_doodle")}
+                    {(typeof t !== "undefined" ? t : (k) => k)("share_doodle")}
                   </motion.button>
                   
                   <motion.button
@@ -179,7 +179,7 @@ const Index = () => {
                     className="flex-1 py-4 bg-slate-100 text-slate-600 font-black text-xs uppercase tracking-widest rounded-2xl flex items-center justify-center gap-2 hover:bg-slate-200 transition-all"
                   >
                     <History size={16} />
-                    {t("view_history")}
+                    {(typeof t !== "undefined" ? t : (k) => k)("view_history")}
                   </motion.button>
                 </div>
               </div>

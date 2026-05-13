@@ -95,7 +95,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         return (
             <div className="flex min-h-screen flex-col items-center justify-center bg-[#F8FAFC]">
                 <Loader size={45} color={COLORS.blueDark} />
-                <p className="mt-4 text-xs font-semibold text-[#2954a1]/70 tracking-widest animate-pulse uppercase">{t("initializing_session")}</p>
+                <p className="mt-4 text-xs font-semibold text-[#2954a1]/70 tracking-widest animate-pulse uppercase">{(typeof t !== "undefined" ? t : (k) => k)("initializing_session")}</p>
             </div>
         );
     }
