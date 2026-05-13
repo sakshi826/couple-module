@@ -3,12 +3,10 @@ import { Moon, History, Check, X, Save } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
-import { neon } from "@neondatabase/serverless";
 import { toast } from "sonner";
 import StarsCanvas from "./StarsCanvas";
 import { motion, AnimatePresence } from "framer-motion";
-
-const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
+import { fetchSleepHistory, saveSleepAudit, initializeSleepTable } from "../lib/db";
 
 type HistoryEntry = { id: string; date: string; score: number; rating: number };
 
@@ -34,13 +32,12 @@ export default function SleepAudit() {
 
   const fetchHistory = useCallback(async () => {
     const userId = sessionStorage.getItem("user_id");
-    if (!userId || !DATABASE_URL) return;
+    if (!userId) return;
 
     setIsLoadingHistory(true);
     try {
-      const sql = neon(DATABASE_URL);
-      const results = await sql`SELECT id, audit_data, created_at FROM sleep_audit_entries WHERE user_id = ${userId} ORDER BY created_at DESC LIMIT 20`;
-      setHistory(results.map(r => ({
+      const results = await fetchSleepHistory(userId);
+      setHistory(results.map((r: any) => ({
         id: r.id,
         date: new Date(r.created_at).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }),
         score: r.audit_data.score,
@@ -54,12 +51,16 @@ export default function SleepAudit() {
   }, []);
 
   useEffect(() => {
-    fetchHistory();
+    const init = async () => {
+      await initializeSleepTable();
+      fetchHistory();
+    };
+    init();
   }, [fetchHistory]);
 
   const handleSave = async () => {
     const userId = sessionStorage.getItem("user_id");
-    if (!userId || !DATABASE_URL) {
+    if (!userId) {
       toast.error((typeof t !== "undefined" ? t : (k) => k)("toasts.auth_error"));
       return;
     }
@@ -69,8 +70,7 @@ export default function SleepAudit() {
     const auditData = { score, rating, note, selectedIndices: Array.from(selected) };
 
     try {
-      const sql = neon(DATABASE_URL);
-      await sql`INSERT INTO sleep_audit_entries (user_id, audit_data) VALUES (${userId}, ${auditData})`;
+      await saveSleepAudit(userId, auditData);
       toast.success((typeof t !== "undefined" ? t : (k) => k)("toasts.save_success"));
       fetchHistory();
       setScreen(4); // Go to PremiumComplete
