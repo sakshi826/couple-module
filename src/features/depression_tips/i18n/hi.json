@@ -65,6 +65,8 @@
     "yes": "हाँ",
     "no": "नहीं",
     "date": "तारीख",
-    "continue": "जारी रखें"
+    "continue": "जारी रखें",
+    "next": "Next",
+    "previous": "Previous"
   }
 }

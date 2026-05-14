@@ -60,5 +60,9 @@
   "t5_do5": "洗个热水澡",
   "t5_rem": "微小的身体上的关怀就能带来真正的情感改变。",
   "t5_act": "做一件自我关爱的事",
-  "app_title": "Depression Tips"
+  "app_title": "Depression Tips",
+  "common": {
+    "next": "Next",
+    "previous": "Previous"
+  }
 }

@@ -136,10 +136,10 @@
     "this_activity": "اس سرگرمی",
     "copied": "نقل کیا گیا!",
     "copy_message": "پیغام کاپی کریں۔",
-    "yes": "?? ???",
-    "no": "????",
-    "date": "?????",
-    "continue": "???? ?????"
+    "yes": "جی ہاں",
+    "no": "نہیں",
+    "date": "تاریخ",
+    "continue": "جاری رکھیں"
   },
   "app_description": "سلیپ سائیکل گائیڈ",
   "math_min_prev_1_total_screens_1_const_goback_setcu": "ریاضی منٹ (پچھلا + 1، TOTAL_SCREENS - 1))؛\n  const goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0))؛\n\n  const اسکرینز = [",

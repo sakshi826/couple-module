@@ -65,6 +65,8 @@
     "yes": "Sí",
     "no": "No",
     "date": "Fecha",
-    "continue": "Continuar"
+    "continue": "Continuar",
+    "next": "Next",
+    "previous": "Previous"
   }
 }

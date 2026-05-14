@@ -42,7 +42,9 @@
     "inspire_others": "Inspire others",
     "reset_all": "Reset all",
     "copied": "Copied",
-    "copy_message": "Copy message"
+    "copy_message": "Copy message",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity"
   },
   "hub": {
     "back_to_topics": "返回主題",

@@ -1,8 +1,10 @@
 {
   "common": {
-    "yes": "?? ???",
-    "no": "????",
-    "date": "?????",
-    "continue": "???? ?????"
+    "yes": "جی ہاں",
+    "no": "نہیں",
+    "date": "تاریخ",
+    "continue": "جاری رکھیں",
+    "next": "Next",
+    "previous": "Previous"
   }
 }
