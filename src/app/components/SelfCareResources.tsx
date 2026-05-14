@@ -442,6 +442,30 @@ export function SelfCareResources() {
   const navigate = useNavigate();
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
 
+  const prefetchTool = (id: string) => {
+    // Mapping of internal IDs to their feature paths
+    const prefetchMap: Record<string, () => Promise<any>> = {
+      "box-breathing": () => import("../../features/box_breathing"),
+      "gratitude-tracker": () => import("../../features/gratitude_tracker"),
+      "4-6-8-breathing": () => import("../../features/4_6_8_breathing"),
+      "affirmations": () => import("../../features/affirmations"),
+      "joyful-activities": () => import("../../features/joyful_activities"),
+      "a-letter-to-self": () => import("../../features/a_letter_to_self"),
+      "care-tracker": () => import("../../features/care_tracker"),
+      "depression-tips": () => import("../../features/depression_tips"),
+      "anxiety-tips": () => import("../../features/anxiety_tips"),
+      "stress-tips": () => import("../../features/stress_tips"),
+      "5-4-3-2-1-grounding": () => import("../../features/5_4_3_2_1_grounding"),
+      "vibe-tracker": () => import("../../features/vibe_tracker"),
+      "energy-tracker": () => import("../../features/energy_tracker"),
+      "know-your-values": () => import("../../features/know_your_values"),
+    };
+
+    if (prefetchMap[id]) {
+      prefetchMap[id]();
+    }
+  };
+
   useEffect(() => {
     const handlePopState = () => {
       if (selectedTopic === null) {
@@ -542,6 +566,10 @@ export function SelfCareResources() {
                               }
                               ex.url?.startsWith('http') ? window.location.href = ex.url : navigate(ex.url!, { replace: true })
                             }}
+                            onMouseEnter={() => {
+                              const slug = ex.url?.split('/').pop();
+                              if (slug) prefetchTool(slug);
+                            }}
                             className="p-4 bg-white border border-slate-100 rounded-2xl shadow-sm hover:shadow-md transition-all text-left space-y-3"
                           >
                             <div className="w-10 h-10 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
@@ -571,6 +599,10 @@ export function SelfCareResources() {
                               key={i}
                               whileHover={{ x: 4, scale: 1.02 }}
                               onClick={() => todo.url?.startsWith('http') ? (window.location.href = todo.url) : navigate(todo.url!, { replace: true })}
+                              onMouseEnter={() => {
+                                const slug = todo.url?.split('/').pop();
+                                if (slug) prefetchTool(slug);
+                              }}
                               className="p-5 rounded-2xl flex items-center gap-5 transition-all border border-slate-100/50 shadow-sm hover:shadow-xl group"
                               style={{ backgroundColor: color.bg }}
                             >
@@ -679,6 +711,7 @@ export function SelfCareResources() {
                             navigate(tool.url!, { replace: true });
                           }
                         }}
+                        onMouseEnter={() => prefetchTool(tool.id)}
                         className="p-5 rounded-2xl text-white flex flex-col justify-between h-28 shadow-sm relative overflow-hidden group"
                         style={{ background: tool.bgColor }}
                       >

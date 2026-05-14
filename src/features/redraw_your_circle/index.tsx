@@ -34,7 +34,7 @@ const App = () => {
 
   return (
     <I18nextProvider i18n={i18n}>
-      <Suspense fallback={<div className="flex items-center justify-center h-full">{(typeof t !== "undefined" ? t : (k) => k)("common.loading")}</div>}>
+      <Suspense fallback={null}>
         <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />

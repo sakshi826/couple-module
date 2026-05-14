@@ -76,12 +76,19 @@ function ProtectedLayout() {
   );
 }
 
+import { TopLoader } from "../components/TopLoader";
+
 const LoadingFallback = () => {
   const { t } = useTranslation();
   return (
-    <div className="flex min-h-screen items-center justify-center">
-      <div className="h-10 w-10 animate-spin rounded-full border-4 border-primary/20 border-t-primary" aria-hidden="true"></div>
-      <span className="sr-only">{(typeof t !== "undefined" ? t : (k) => k)("loading_0")}</span>
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-white/50 backdrop-blur-[2px]">
+      <TopLoader />
+      <div className="flex flex-col items-center gap-4">
+        <div className="h-10 w-10 animate-spin rounded-full border-4 border-primary/20 border-t-primary" aria-hidden="true"></div>
+        <p className="text-sm font-medium text-slate-500 animate-pulse">
+          {(typeof t !== "undefined" ? t : (k) => k)("loading")}
+        </p>
+      </div>
     </div>
   );
 };
