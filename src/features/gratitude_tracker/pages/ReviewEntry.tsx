@@ -61,7 +61,7 @@ const ReviewEntry = () => {
     <PremiumLayout title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}>
       <PremiumComplete
         title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
-        message="Your thoughts have been preserved. Gratitude is a powerful tool for happiness."
+        message={(typeof t !== "undefined" ? t : (k) => k)("completion_message")}
         onRestart={() => navigate("..", { replace: true })}
       >
         <div className="space-y-6 w-full max-w-md mx-auto">

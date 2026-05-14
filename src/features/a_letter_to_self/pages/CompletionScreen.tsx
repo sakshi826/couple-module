@@ -14,7 +14,7 @@ const CompletionScreen = () => {
       <div className="w-full h-full">
         <PremiumComplete
           title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
-          message="You showed up for yourself today. That matters more than perfection. Your letter has been saved and can be revisited anytime."
+          message={(typeof t !== "undefined" ? t : (k) => k)("completion_message")}
           onRestart={() => navigate("..")}
           icon={<Mail size={48} />}
         >

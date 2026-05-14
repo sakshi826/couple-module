@@ -137,7 +137,7 @@ export default function TipDetail() {
             </div>
             <div className="flex items-center gap-3 text-slate-400 font-black text-[10px] uppercase tracking-[0.3em] relative z-10">
                 <Sparkles size={16} />
-                Gentle Reminder
+                {(typeof t !== "undefined" ? t : (k) => k)("gentleReminder")}
             </div>
             <p className="text-slate-200 text-xl font-bold italic leading-relaxed relative z-10">
               "{k ? (typeof t !== "undefined" ? t : (k) => k)(`${k}_rem`) : tip.gentleReminder}"

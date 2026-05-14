@@ -1,0 +1,405 @@
+{
+  "5_4_3_2_1_grounding": {
+    "zh-TW": [
+      "steps"
+    ]
+  },
+  "affirmations": {
+    "zh-CN": [
+      "feelings.future.affirmations",
+      "feelings.lonely.affirmations",
+      "feelings.terrified.affirmations",
+      "feelings.conflicted.affirmations",
+      "feelings.insignificant.affirmations",
+      "feelings.compare.affirmations",
+      "feelings.unsafe.affirmations",
+      "feelings.hopeless.affirmations",
+      "feelings.pressured.affirmations",
+      "feelings.overwhelmed.affirmations",
+      "feelings.give-up.affirmations",
+      "feelings.self-critical.affirmations",
+      "feelings.stuck.affirmations",
+      "feelings.out-of-place.affirmations",
+      "feelings.face-the-day.affirmations"
+    ],
+    "zh-TW": [
+      "feelings.future.affirmations",
+      "feelings.lonely.affirmations",
+      "feelings.terrified.affirmations",
+      "feelings.conflicted.affirmations",
+      "feelings.insignificant.affirmations",
+      "feelings.compare.affirmations",
+      "feelings.unsafe.affirmations",
+      "feelings.hopeless.affirmations",
+      "feelings.pressured.affirmations",
+      "feelings.overwhelmed.affirmations",
+      "feelings.give-up.affirmations",
+      "feelings.self-critical.affirmations",
+      "feelings.stuck.affirmations",
+      "feelings.out-of-place.affirmations",
+      "feelings.face-the-day.affirmations"
+    ]
+  },
+  "anger_facts_myths": {
+    "zh-CN": [
+      "questions"
+    ],
+    "zh-TW": [
+      "questions"
+    ]
+  },
+  "a_pause_for_appreciation": {
+    "zh-CN": [
+      "history.prompts"
+    ],
+    "zh-TW": [
+      "history.prompts"
+    ]
+  },
+  "care_tracker": {
+    "zh-CN": [
+      "screens.intro.benefits"
+    ],
+    "zh-TW": [
+      "screens.intro.benefits"
+    ]
+  },
+  "challenging_food_rules": {
+    "zh-CN": [
+      "feeling_options",
+      "rule_options"
+    ],
+    "zh-TW": [
+      "feeling_options",
+      "rule_options"
+    ]
+  },
+  "compassion_break": {
+    "zh-CN": [
+      "emotions_list",
+      "screen_titles"
+    ],
+    "zh-TW": [
+      "emotions_list",
+      "screen_titles"
+    ]
+  },
+  "continuing_bonds": {
+    "zh-CN": [
+      "connection_options",
+      "bond_prompts"
+    ],
+    "zh-TW": [
+      "connection_options",
+      "bond_prompts"
+    ]
+  },
+  "food_emotion_map": {
+    "zh-CN": [
+      "emotions_list",
+      "food_responses",
+      "support_options",
+      "screen_titles",
+      "body_sensations"
+    ],
+    "zh-TW": [
+      "emotions_list",
+      "food_responses",
+      "support_options",
+      "screen_titles",
+      "body_sensations"
+    ]
+  },
+  "grief_journey_map": {
+    "zh-CN": [
+      "truths"
+    ],
+    "zh-TW": [
+      "truths"
+    ]
+  },
+  "memory_box": {
+    "zh-CN": [
+      "who.categories",
+      "screen_titles"
+    ],
+    "zh-TW": [
+      "who.categories",
+      "screen_titles"
+    ]
+  },
+  "mind_reading_check": {
+    "zh-CN": [
+      "intro.benefits",
+      "steps.step8.examples",
+      "steps.step6.labels"
+    ],
+    "zh-TW": [
+      "intro.benefits",
+      "steps.step8.examples",
+      "steps.step6.labels"
+    ]
+  },
+  "missing_someone": {
+    "zh-CN": [
+      "subtitles"
+    ],
+    "zh-TW": [
+      "subtitles"
+    ]
+  },
+  "name_your_mind": {
+    "zh-CN": [
+      "intro.benefits",
+      "screens.reflection.options",
+      "screens.input_name.examples"
+    ],
+    "zh-TW": [
+      "intro.benefits",
+      "screens.reflection.options",
+      "screens.input_name.examples"
+    ]
+  },
+  "prediction_vs_reality": {
+    "zh-CN": [
+      "intro.benefits",
+      "emotions",
+      "comparison_options"
+    ],
+    "zh-TW": [
+      "intro.benefits",
+      "emotions",
+      "comparison_options"
+    ]
+  },
+  "real_stories_to_overcome_anxiety": {
+    "zh-CN": [
+      "stories"
+    ],
+    "zh-TW": [
+      "stories"
+    ]
+  },
+  "redraw_your_circle": {
+    "zh-CN": [
+      "reflection.list",
+      "circle.prompts"
+    ],
+    "zh-TW": [
+      "reflection.list",
+      "circle.prompts"
+    ]
+  },
+  "repair_and_reconnect": {
+    "zh-CN": [
+      "guided_action.actions.letgo.prompts",
+      "guided_action.actions.acknowledge.prompts",
+      "guided_action.actions.pause.prompts",
+      "choose_approach.approaches.friend",
+      "guided_action.actions.reflect.prompts",
+      "guided_action.actions.message.prompts",
+      "choose_approach.approaches.colleague",
+      "choose_approach.approaches.family",
+      "choose_approach.approaches.other"
+    ],
+    "zh-TW": [
+      "guided_action.actions.letgo.prompts",
+      "guided_action.actions.acknowledge.prompts",
+      "guided_action.actions.pause.prompts",
+      "choose_approach.approaches.friend",
+      "guided_action.actions.reflect.prompts",
+      "guided_action.actions.message.prompts",
+      "choose_approach.approaches.colleague",
+      "choose_approach.approaches.family",
+      "choose_approach.approaches.other"
+    ]
+  },
+  "safe_space": {
+    "zh-CN": [
+      "s4.description",
+      "s1.description",
+      "nav",
+      "s3.description",
+      "s2.description",
+      "s5.description"
+    ],
+    "zh-TW": [
+      "s4.description",
+      "s1.description",
+      "nav",
+      "s3.description",
+      "s2.description",
+      "s5.description"
+    ]
+  },
+  "sleep_audit": {
+    "zh-CN": [
+      "rating_labels",
+      "options"
+    ],
+    "zh-TW": [
+      "rating_labels",
+      "options"
+    ]
+  },
+  "sleep_cycle_guide": {
+    "zh-CN": [
+      "s3.disruptors",
+      "pill_labels",
+      "s2.stages",
+      "s3.wave.cycles",
+      "s4.options"
+    ],
+    "zh-TW": [
+      "s3.disruptors",
+      "pill_labels",
+      "s2.stages",
+      "s3.wave.cycles",
+      "s4.options"
+    ]
+  },
+  "sleep_window_planner": {
+    "zh-CN": [
+      "screen3.accordion2.commitments",
+      "pill_labels",
+      "screen3.accordion1.tips"
+    ],
+    "zh-TW": [
+      "screen3.accordion2.commitments",
+      "pill_labels",
+      "screen3.accordion1.tips"
+    ]
+  },
+  "stress_tips": {
+    "zh-CN": [
+      "tip.sleep.do",
+      "tip.exercise.do",
+      "tip.planning.do",
+      "tip.breathing.do",
+      "tip.caffeine.do"
+    ],
+    "zh-TW": [
+      "tip.sleep.do",
+      "tip.exercise.do",
+      "tip.planning.do",
+      "tip.breathing.do",
+      "tip.caffeine.do"
+    ]
+  },
+  "the_anger_shame_cycle": {
+    "zh-CN": [
+      "screens.s2.nodes",
+      "screens.s4.steps"
+    ],
+    "zh-TW": [
+      "screens.s2.nodes",
+      "screens.s4.steps"
+    ]
+  },
+  "the_unsent_letter": {
+    "zh-CN": [
+      "intro.description",
+      "writing.prompts",
+      "reflection.description"
+    ],
+    "zh-TW": [
+      "intro.description",
+      "writing.prompts",
+      "reflection.description"
+    ]
+  },
+  "understanding_control": {
+    "zh-CN": [
+      "screens"
+    ],
+    "zh-TW": [
+      "screens"
+    ]
+  },
+  "what_are_your_habits": {
+    "zh-CN": [
+      "suggestions",
+      "coping_options",
+      "body_options",
+      "mind_options"
+    ],
+    "zh-TW": [
+      "suggestions",
+      "coping_options",
+      "body_options",
+      "mind_options"
+    ]
+  },
+  "what_do_i_need": {
+    "zh-CN": [
+      "actions",
+      "needs.Reassurance.hints",
+      "needs.default.hints",
+      "needs.Clarity about relationship.hints",
+      "needs.Space / time for myself.hints",
+      "needs.Emotional support.hints",
+      "needs.Clear communication.hints",
+      "needs.Honesty.hints",
+      "needs.Understanding.hints",
+      "needs.Respect.hints",
+      "needs.Stability.hints"
+    ],
+    "zh-TW": [
+      "actions",
+      "needs.Reassurance.hints",
+      "needs.default.hints",
+      "needs.Clarity about relationship.hints",
+      "needs.Space / time for myself.hints",
+      "needs.Emotional support.hints",
+      "needs.Clear communication.hints",
+      "needs.Honesty.hints",
+      "needs.Understanding.hints",
+      "needs.Respect.hints",
+      "needs.Stability.hints"
+    ]
+  },
+  "why_brain_gets_stuck": {
+    "zh-CN": [
+      "s2.truths"
+    ],
+    "zh-TW": [
+      "s2.truths"
+    ]
+  },
+  "window_of_tolerance": {
+    "zh-CN": [
+      "screens.toolkit.tools_list",
+      "days",
+      "screens.zone.safe.feelings",
+      "screens.zone.safe.tools",
+      "screens.zone.hyper.feelings",
+      "nav",
+      "screens.zone.hypo.tools",
+      "screens.zone.hypo.feelings",
+      "screens.zone.hyper.tools"
+    ],
+    "zh-TW": [
+      "screens.toolkit.tools_list",
+      "days",
+      "screens.zone.safe.feelings",
+      "screens.zone.safe.tools",
+      "screens.zone.hyper.feelings",
+      "nav",
+      "screens.zone.hypo.tools",
+      "screens.zone.hypo.feelings",
+      "screens.zone.hyper.tools"
+    ]
+  },
+  "write_your_narrative": {
+    "zh-CN": [
+      "writing.prompts",
+      "landing.steps",
+      "entry.description"
+    ],
+    "zh-TW": [
+      "writing.prompts",
+      "landing.steps",
+      "entry.description"
+    ]
+  }
+}
