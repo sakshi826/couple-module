@@ -55,7 +55,7 @@ export default function GuidedSeries() {
     const name = activity.name.toLowerCase();
     
     // Existing route mapping
-    if (name.includes('sleep record') || name.includes('sleep audit')) return window.location.href = 'https://web.mantracare.com/app/content/sleep';
+    if (name.includes('sleep record') || name.includes('sleep audit')) return window.location.href = 'https://web.mantracare.com/app/sleep';
     if (name.includes('sleep window')) return navigate('/tools/sleep-window-planner');
     if (name.includes('affirmation')) return navigate('/tools/affirmations');
     if (name.includes('breathing')) return navigate('/exercises/4-6-8-breathing');

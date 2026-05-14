@@ -159,7 +159,7 @@ const topicDetails: Record<string, {
       { titleKey: "exercises.5_4_3_2_1_grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
     ],
     todos: [
-      { titleKey: "tools.sleep-tracker", icon: Moon, url: "https://web.mantracare.com/app/content/sleep" },
+      { titleKey: "tools.sleep-tracker", icon: Moon, url: "https://web.mantracare.com/app/sleep" },
       { titleKey: "trackers.energy_tracker", icon: Zap, url: "/trackers/energy-tracker" },
       { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
       { titleKey: "tools.know_values", icon: Brain, url: "/tools/know-your-values" },

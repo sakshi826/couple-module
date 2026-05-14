@@ -96,7 +96,19 @@ export default function SleepAudit() {
           setRating(5);
           setNote("");
         }}
-      />
+      >
+        <div className="w-full max-w-md mx-auto mt-6">
+          <motion.button
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
+            onClick={() => window.location.href = "https://web.mantracare.com/app/sleep"}
+            className="w-full py-5 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-500 font-black text-sm uppercase tracking-widest shadow-xl shadow-slate-200/50 hover:text-primary hover:border-primary/20 transition-all flex items-center justify-center gap-3"
+          >
+            <Moon size={20} />
+            {(typeof t !== "undefined" ? t : (k) => k)("intro.more_insights", "More Sleep Insights")}
+          </motion.button>
+        </div>
+      </PremiumComplete>
     );
   }
 
@@ -133,6 +145,13 @@ export default function SleepAudit() {
                   className="w-full bg-white text-slate-900 py-5 rounded-2xl font-black text-lg shadow-2xl hover:scale-[1.02] transition-all"
                 >
                   {(typeof t !== "undefined" ? t : (k) => k)("intro.start_button")}
+                </button>
+                <button
+                  onClick={() => window.location.href = "https://web.mantracare.com/app/sleep"}
+                  className="w-full bg-white/10 backdrop-blur-md text-white py-5 rounded-2xl font-black text-lg border border-white/10 hover:bg-white/20 transition-all flex items-center justify-center gap-3"
+                >
+                  <Moon size={20} strokeWidth={2.5} />
+                  {(typeof t !== "undefined" ? t : (k) => k)("intro.more_insights", "More Sleep Insights")}
                 </button>
                 <button
                   onClick={() => setShowHistory(true)}
