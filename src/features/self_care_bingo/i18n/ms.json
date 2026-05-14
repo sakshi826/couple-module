@@ -65,7 +65,11 @@
     "share_text": "Saya telah melakukan {{activityName}} ini dalam TherapyMantra dan sangat menikmatinya, anda juga boleh melakukannya, ikuti sahaja pautan ke aplikasi android {{androidUrl}} atau aplikasi ios {{iosUrl}}",
     "this_activity": "aktiviti ini",
     "copied": "Disalin!",
-    "copy_message": "Salin Mesej"
+    "copy_message": "Salin Mesej",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "complete_title": "Tuan Bingo!",
   "complete_message": "Tahniah! Anda telah berjaya melengkapkan barisan penjagaan diri. Fikiran dan badan anda terima kasih.",

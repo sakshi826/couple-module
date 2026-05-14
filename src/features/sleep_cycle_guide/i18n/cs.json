@@ -135,7 +135,11 @@
     "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu si ji užívám. Můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
     "this_activity": "tato aktivita",
     "copied": "Zkopírováno!",
-    "copy_message": "Kopírovat zprávu"
+    "copy_message": "Kopírovat zprávu",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Průvodce spánkovým cyklem",
   "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(předchozí + 1, CELKEM_OBRAZOVEK - 1));\nconst goBack = () => setCurrentScreen(předchozí => Math.max(předchozí - 1, 0));\n\nconst obrazovky = [",

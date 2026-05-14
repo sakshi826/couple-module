@@ -250,7 +250,11 @@
     "share_text": "Saya telah melakukan {{activityName}} ini dalam TherapyMantra dan sangat menikmatinya, anda juga boleh melakukannya, ikuti sahaja pautan ke aplikasi android {{androidUrl}} atau aplikasi ios {{iosUrl}}",
     "this_activity": "aktiviti ini",
     "copied": "Disalin!",
-    "copy_message": "Salin Mesej"
+    "copy_message": "Salin Mesej",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Pembaikan & Sambungkan Semula",
   "that_s_a_step_forward": "Itu satu langkah ke hadapan",

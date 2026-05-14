@@ -60,5 +60,11 @@
   "t5_do5": "Maligo nang mainit",
   "t5_rem": "Ang maliit na pisikal na pangangalaga ay maaaring lumikha ng tunay na emosyonal na pagbabago.",
   "t5_act": "Gawin ang Isang Pag-aalaga sa Sarili",
-  "app_title": "Depression Tips"
+  "app_title": "Depression Tips",
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
+  }
 }

@@ -237,7 +237,9 @@
       "soundscapes": "Звуковые ландшафты",
       "students": "Студенты",
       "affirmations": "Аффирмации"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "Советы по облегчению депрессии",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "Что вам подсказывал ваш разум?",
   "the_original_thought": "Первоначальная мысль...",
   "the_more_balanced_view": "Более сбалансированная точка зрения...",
-  "start_typing_your_reflection_here": "Начните писать свои размышления здесь..."
+  "start_typing_your_reflection_here": "Начните писать свои размышления здесь...",
+  "guided_series": {}
 }

@@ -135,7 +135,11 @@
     "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
     "this_activity": "this activity",
     "copied": "Copied!",
-    "copy_message": "Copy Message"
+    "copy_message": "Copy Message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Sleep Cycle Guide",
   "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(prev + 1, TOTAL_SCREENS - 1));\n  const goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\n  const screens = [",

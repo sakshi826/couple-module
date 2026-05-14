@@ -60,5 +60,11 @@
   "t5_do5": "গরম পানিতে গোসল করুন।",
   "t5_rem": "সামান্য শারীরিক যত্ন প্রকৃত মানসিক পরিবর্তন আনতে পারে।",
   "t5_act": "একটি স্ব-যত্ন আইন করুন",
-  "app_title": "Depression Tips"
+  "app_title": "Depression Tips",
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
+  }
 }

@@ -52,7 +52,11 @@
     "share_text": "Jag har gjort detta {{activityName}} i TherapyMantra och gillar det verkligen, du kan också göra det, följ bara länken till Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}",
     "this_activity": "den här aktiviteten",
     "copied": "Kopierad!",
-    "copy_message": "Kopiera meddelande"
+    "copy_message": "Kopiera meddelande",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_title": "5-4-3-2-1 Jordning",
   "intro_p1": "Minskar ångest snabbt",

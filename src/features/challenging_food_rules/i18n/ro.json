@@ -70,7 +70,11 @@
     "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, pur și simplu accesează linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
     "this_activity": "această activitate",
     "copied": "Copiat!",
-    "copy_message": "Copiați mesajul"
+    "copy_message": "Copiați mesajul",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Reguli alimentare provocatoare",
   "more": "Mai mult",

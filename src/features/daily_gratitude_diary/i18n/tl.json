@@ -48,7 +48,11 @@
     "share_text": "Ginawa ko na ito {{activityName}} sa TherapyMantra at talagang nasiyahan ako rito. Kaya mo rin itong gawin. Sundan lang ang link papunta sa android app {{androidUrl}} o ios app {{iosUrl}}.",
     "this_activity": "aktibidad na ito",
     "copied": "Kinopya!",
-    "copy_message": "Kopyahin ang Mensahe"
+    "copy_message": "Kopyahin ang Mensahe",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_complete_title": "Nailigtas ang Pasasalamat",
   "app_complete_message": "Ang pagmumuni-muni sa kung ano ang iyong pinasasalamatan ay isang mabisang paraan upang ilipat ang iyong pokus sa positibo.",

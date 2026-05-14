@@ -108,7 +108,11 @@
     "share_text": "Jeg har gjort dette {{activityName}} i TherapyMantra og nyder det virkelig. Du kan også gøre det, bare følg linket til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
     "this_activity": "denne aktivitet",
     "copied": "Kopieret!",
-    "copy_message": "Kopiér besked"
+    "copy_message": "Kopiér besked",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Forstå din hvile",
   "more": "Mere",

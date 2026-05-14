@@ -52,7 +52,11 @@
     "share_text": "Ezt a(z) {{activityName}} tevékenységet csináltam a TherapyMantra-ban, és nagyon élvezem, te is meg tudod csinálni, csak kövesd az {{androidUrl}} androidos vagy {{iosUrl}} iOS-es alkalmazás linkjét.",
     "this_activity": "ez a tevékenység",
     "copied": "Másolva!",
-    "copy_message": "Üzenet másolása"
+    "copy_message": "Üzenet másolása",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_title": "5-4-3-2-1 Földelés",
   "intro_p1": "Gyorsan csökkenti a szorongást",

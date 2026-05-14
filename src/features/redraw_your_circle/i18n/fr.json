@@ -75,7 +75,11 @@
     "share_text": "J'ai réalisé cette activité {{activityName}} sur TherapyMantra et j'ai beaucoup apprécié. Vous pouvez la faire aussi ; il suffit de suivre le lien vers l'application Android {{androidUrl}} ou l'application iOS {{iosUrl}}.",
     "this_activity": "cette activité",
     "copied": "Copié !",
-    "copy_message": "Copier le message"
+    "copy_message": "Copier le message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "intro_p1": "Notre réseau de soutien peut évoluer au fil des périodes de notre vie. 🌱 Parfois, nous nous sentons entourés et soutenus. D'autres fois, les choses peuvent sembler distantes ou floues.",
   "intro_p2": "Cette activité vous offre un moment pour faire une pause, observer les personnes qui vous entourent et comprendre qui se sent actuellement intégré à votre cercle. 💛",

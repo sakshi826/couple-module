@@ -135,7 +135,11 @@
     "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
     "this_activity": "tämä toiminta",
     "copied": "Kopioitu!",
-    "copy_message": "Kopioi viesti"
+    "copy_message": "Kopioi viesti",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Unisyklin opas",
   "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(edellinen + 1, TOTAL_SCREENS - 1));\n\nconst goBack = () => setCurrentScreen(edellinen => Math.max(edellinen - 1, 0));\n\nconst screens = [ ]",

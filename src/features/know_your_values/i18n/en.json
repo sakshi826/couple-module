@@ -60,7 +60,11 @@
     "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
     "this_activity": "this activity",
     "copied": "Copied!",
-    "copy_message": "Copy Message"
+    "copy_message": "Copy Message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_title": "Know Your Values",
   "app_description": "Know Your Values",
@@ -76,5 +80,13 @@
   "go_to_next_page": "Go to next page",
   "toggle_sidebar": "Toggle Sidebar",
   "oops_page_not_found": "Oops! Page not found",
-  "return_to_home": "Return to Home"
+  "return_to_home": "Return to Home",
+  "screens": {
+    "history": {
+      "title": "Weekly History"
+    },
+    "summary": {
+      "title": "Values Summary"
+    }
+  }
 }

@@ -237,7 +237,9 @@
       "soundscapes": "Hangképek",
       "students": "Diákok",
       "affirmations": "Megerősítések"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "Depresszió elleni tippek",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "Mit súgott az eszed?",
   "the_original_thought": "Az eredeti gondolat...",
   "the_more_balanced_view": "A kiegyensúlyozottabb nézőpont...",
-  "start_typing_your_reflection_here": "Kezdd el beírni a tükörképedet ide..."
+  "start_typing_your_reflection_here": "Kezdd el beírni a tükörképedet ide...",
+  "guided_series": {}
 }

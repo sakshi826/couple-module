@@ -237,7 +237,9 @@
       "soundscapes": "音景",
       "students": "學生",
       "affirmations": "肯定句"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "緩解憂鬱症的小貼士",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "當時在想什麼？",
   "the_original_thought": "最初的想法…",
   "the_more_balanced_view": "更平衡的觀點…",
-  "start_typing_your_reflection_here": "請在此開始輸入您的感想…"
+  "start_typing_your_reflection_here": "請在此開始輸入您的感想…",
+  "guided_series": {}
 }

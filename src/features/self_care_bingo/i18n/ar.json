@@ -65,7 +65,11 @@
     "share_text": "لقد قمتُ بهذا النشاط {{activityName}} في تطبيق TherapyMantra واستمتعتُ به حقًا، يمكنك القيام به أيضًا، فقط اتبع الرابط إلى تطبيق أندرويد {{androidUrl}} أو تطبيق iOS {{iosUrl}}",
     "this_activity": "هذا النشاط",
     "copied": "تم النسخ!",
-    "copy_message": "انسخ الرسالة"
+    "copy_message": "انسخ الرسالة",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "complete_title": "بينغو ماستر!",
   "complete_message": "مبروك! لقد أكملت بنجاح خط رعاية ذاتية. عقلك وجسدك شكرا لك.",

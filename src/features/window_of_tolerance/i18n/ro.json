@@ -202,7 +202,11 @@
     "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
     "this_activity": "această activitate",
     "copied": "Copiat!",
-    "copy_message": "Copiați mesajul"
+    "copy_message": "Copiați mesajul",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Fereastra de toleranță",
   "are_you_sure_you_want_to_exit": "Sigur vrei să ieși?",

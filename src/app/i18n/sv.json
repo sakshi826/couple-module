@@ -237,7 +237,9 @@
       "soundscapes": "Ljudlandskap",
       "students": "Studenter",
       "affirmations": "Affirmationer"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "Tips för lindring av depression",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "Vad sa ditt sinne dig?",
   "the_original_thought": "Den ursprungliga tanken...",
   "the_more_balanced_view": "Den mer balanserade synen...",
-  "start_typing_your_reflection_here": "Börja skriva din reflektion här..."
+  "start_typing_your_reflection_here": "Börja skriva din reflektion här...",
+  "guided_series": {}
 }

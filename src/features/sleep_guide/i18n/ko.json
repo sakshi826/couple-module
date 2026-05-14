@@ -35,7 +35,11 @@
     "share_text": "저는 TherapyMantra에서 {{activityName}} 활동을 해봤는데 정말 좋았어요. 여러분도 해보세요. 안드로이드 앱 {{androidUrl}} 또는 iOS 앱 {{iosUrl}} 링크를 따라가시면 됩니다.",
     "this_activity": "이 활동",
     "copied": "복사했어요!",
-    "copy_message": "메시지 복사"
+    "copy_message": "메시지 복사",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "수면 불안 이해하기",
   "this_isn_t_a_weakness_it_s_a_phenomenon_called": "이것은 약점이 아닙니다. 이것은 하나의 현상입니다.",

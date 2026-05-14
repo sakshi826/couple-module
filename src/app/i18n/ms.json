@@ -237,7 +237,9 @@
       "soundscapes": "Landskap bunyi",
       "students": "Pelajar",
       "affirmations": "Pengesahan"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "Petua Melegakan Kemurungan",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "Apa yang fikiran awak beritahu awak?",
   "the_original_thought": "Pemikiran asal...",
   "the_more_balanced_view": "Pandangan yang lebih seimbang...",
-  "start_typing_your_reflection_here": "Mula taip pantulan anda di sini..."
+  "start_typing_your_reflection_here": "Mula taip pantulan anda di sini...",
+  "guided_series": {}
 }

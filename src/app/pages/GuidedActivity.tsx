@@ -129,8 +129,8 @@ export default function GuidedActivity() {
         );
       case 'CHECKLIST':
         const options = decodedName.includes('Postpartum') ? 
-          ['Low mood', 'Anxiety', 'Sleep issues', 'Fatigue', 'Irritability'] :
-          ['Feeling trapped', 'Lack of interest', 'Changes in appetite', 'Sleep disturbance', 'Negative self-talk'];
+          [t('checklist.low_mood', 'Low mood'), t('checklist.anxiety', 'Anxiety'), t('checklist.sleep_issues', 'Sleep issues'), t('checklist.fatigue', 'Fatigue'), t('checklist.irritability', 'Irritability')] :
+          [t('checklist.feeling_trapped', 'Feeling trapped'), t('checklist.lack_of_interest', 'Lack of interest'), t('checklist.changes_in_appetite', 'Changes in appetite'), t('checklist.sleep_disturbance', 'Sleep disturbance'), t('checklist.negative_self_talk', 'Negative self-talk')];
         
         return (
           <div className="space-y-3">
@@ -233,7 +233,7 @@ export default function GuidedActivity() {
           className="bg-white rounded-[40px] p-10 shadow-[0_20px_50px_rgba(0,0,0,0.03)] border border-slate-100"
         >
           <div className="mb-10">
-            <h2 className="text-3xl font-black text-slate-900 mb-4 tracking-tight leading-tight">{decodedName}</h2>
+            <h2 className="text-3xl font-black text-slate-900 mb-4 tracking-tight leading-tight">{t(`guided_series.${decodedName}`, decodedName)}</h2>
             <p className="text-slate-400 leading-relaxed font-medium text-[16px]">{(typeof t !== "undefined" ? t : (k) => k)("take_a_moment_to_reflect_on_this_activity_use_the_")}</p>
           </div>
 

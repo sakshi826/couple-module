@@ -64,7 +64,11 @@
     "share_text": "Ho svolto questa attività {{activityName}} su TherapyMantra e mi è piaciuta molto. Puoi farlo anche tu, basta seguire il link all'app Android {{androidUrl}} o all'app iOS {{iosUrl}}.",
     "this_activity": "questa attività",
     "copied": "Copiato!",
-    "copy_message": "Copia messaggio"
+    "copy_message": "Copia messaggio",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_duration": "5-10 minuti",
   "app_title": "Dichiarazione di missione personale",

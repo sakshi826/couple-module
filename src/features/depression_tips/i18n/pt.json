@@ -60,5 +60,11 @@
   "t5_do5": "Tome um banho quente.",
   "t5_rem": "Pequenos gestos de cuidado físico podem gerar mudanças emocionais reais.",
   "t5_act": "Faça um ato de autocuidado",
-  "app_title": "Depression Tips"
+  "app_title": "Depression Tips",
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
+  }
 }

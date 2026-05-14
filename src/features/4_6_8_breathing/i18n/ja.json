@@ -41,7 +41,11 @@
     "share_text": "私はTherapyMantraで{{activityName}}を試してみましたが、とても楽しかったです。あなたも試せますよ。Androidアプリ{{androidUrl}}またはiOSアプリ{{iosUrl}}へのリンクをクリックしてください。",
     "this_activity": "このアクティビティ",
     "copied": "コピーしました！",
-    "copy_message": "メッセージをコピー"
+    "copy_message": "メッセージをコピー",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_duration": "3～5分",
   "intro_p1": "神経系を落ち着かせる",

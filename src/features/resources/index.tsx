@@ -9,6 +9,14 @@ import './index.css';
 import { useTranslation } from "react-i18next";
 
 const UniversalResourceViewer = () => {
+    const { i18n: globalI18n } = useTranslation();
+  
+  React.useEffect(() => {
+    if (globalI18n.language && globalI18n.language !== i18n.language) {
+      i18n.changeLanguage(globalI18n.language);
+    }
+  }, [globalI18n.language]);
+
   const { t } = useTranslation();
   return (
     <I18nextProvider i18n={i18n}>

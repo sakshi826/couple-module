@@ -60,5 +60,11 @@
   "t5_do5": "Toma una ducha caliente",
   "t5_rem": "Un pequeño cuidado físico puede crear un cambio emocional real.",
   "t5_act": "Realice un acto de autocuidado",
-  "app_title": "Depression Tips"
+  "app_title": "Depression Tips",
+  "common": {
+    "yes": "Sí",
+    "no": "No",
+    "date": "Fecha",
+    "continue": "Continuar"
+  }
 }

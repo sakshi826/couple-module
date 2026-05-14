@@ -237,7 +237,9 @@
       "soundscapes": "Geluidslandschappen",
       "students": "Studenten",
       "affirmations": "Affirmaties"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "Tips voor het verlichten van depressie",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "Wat probeerde je onderbewustzijn je te vertellen?",
   "the_original_thought": "Het oorspronkelijke idee...",
   "the_more_balanced_view": "Een meer evenwichtige kijk...",
-  "start_typing_your_reflection_here": "Begin hier met het typen van je reflectie..."
+  "start_typing_your_reflection_here": "Begin hier met het typen van je reflectie...",
+  "guided_series": {}
 }

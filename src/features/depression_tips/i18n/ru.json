@@ -60,5 +60,11 @@
   "t5_do5": "Примите теплый душ",
   "t5_rem": "Небольшие физические проявления заботы могут привести к реальным эмоциональным переменам.",
   "t5_act": "Сделайте хотя бы один акт заботы о себе.",
-  "app_title": "Depression Tips"
+  "app_title": "Depression Tips",
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
+  }
 }

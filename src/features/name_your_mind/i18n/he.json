@@ -94,7 +94,11 @@
     "share_text": "עשיתי את זה ב-TherapyMantra ואני ממש נהנה מזה, גם אתם יכולים לעשות את זה פשוט עקבו אחר הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
     "this_activity": "פעילות זו",
     "copied": "מוּעֲתָק!",
-    "copy_message": "העתקת הודעה"
+    "copy_message": "העתקת הודעה",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "תן שם לתודעה שלך",
   "when_a_thought_shows_up_it_often_feels_like_it_s": "כשמחשבה עולה, לעתים קרובות היא מרגישה כאילו היא",

@@ -94,7 +94,11 @@
     "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
     "this_activity": "tämä toiminta",
     "copied": "Kopioitu!",
-    "copy_message": "Kopioi viesti"
+    "copy_message": "Kopioi viesti",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Nimeä mielesi",
   "when_a_thought_shows_up_it_often_feels_like_it_s": "Kun ajatus ilmaantuu mieleen, se usein tuntuu siltä kuin se olisi",

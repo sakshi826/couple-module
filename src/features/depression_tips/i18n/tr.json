@@ -60,5 +60,11 @@
   "t5_do5": "Ilık bir duş alın.",
   "t5_rem": "Küçük fiziksel bakım bile gerçek duygusal değişimler yaratabilir.",
   "t5_act": "Kendinize İyi Bakmak İçin Bir Şey Yapın",
-  "app_title": "Depression Tips"
+  "app_title": "Depression Tips",
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
+  }
 }

@@ -60,5 +60,11 @@
   "t5_do5": "Take a warm shower",
   "t5_rem": "Small physical care can create real emotional change.",
   "t5_act": "Do One Self-Care Act",
-  "app_title": "Depression Tips"
+  "app_title": "Depression Tips",
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
+  }
 }

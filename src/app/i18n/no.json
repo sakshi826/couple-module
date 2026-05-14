@@ -237,7 +237,9 @@
       "soundscapes": "Lydlandskap",
       "students": "Studenter",
       "affirmations": "Affirmasjoner"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "Tips til lindring av depresjon",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "Hva fortalte tankene dine deg?",
   "the_original_thought": "Den opprinnelige tanken...",
   "the_more_balanced_view": "Det mer balanserte synet...",
-  "start_typing_your_reflection_here": "Begynn å skrive refleksjonen din her..."
+  "start_typing_your_reflection_here": "Begynn å skrive refleksjonen din her...",
+  "guided_series": {}
 }

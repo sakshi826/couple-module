@@ -237,7 +237,9 @@
       "soundscapes": "Звукові ландшафти",
       "students": "Студенти",
       "affirmations": "Афірмації"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "Поради щодо полегшення депресії",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "Що тобі підказував твій розум?",
   "the_original_thought": "Оригінальна думка...",
   "the_more_balanced_view": "Більш збалансований погляд...",
-  "start_typing_your_reflection_here": "Почніть писати тут своє відображення..."
+  "start_typing_your_reflection_here": "Почніть писати тут своє відображення...",
+  "guided_series": {}
 }

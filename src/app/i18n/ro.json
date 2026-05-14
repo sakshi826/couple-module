@@ -237,7 +237,9 @@
       "soundscapes": "Peisaje sonore",
       "students": "Studenți",
       "affirmations": "Afirmații"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "Sfaturi pentru ameliorarea depresiei",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "Ce-ți spunea mintea?",
   "the_original_thought": "Gândul inițial...",
   "the_more_balanced_view": "O perspectivă mai echilibrată...",
-  "start_typing_your_reflection_here": "Începe să-ți scrii reflecția aici..."
+  "start_typing_your_reflection_here": "Începe să-ți scrii reflecția aici...",
+  "guided_series": {}
 }

@@ -19,6 +19,14 @@ import { useTranslation } from "react-i18next";
 const queryClient = new QueryClient();
 
 const App = () => {
+    const { i18n: globalI18n } = useTranslation();
+  
+  React.useEffect(() => {
+    if (globalI18n.language && globalI18n.language !== i18n.language) {
+      i18n.changeLanguage(globalI18n.language);
+    }
+  }, [globalI18n.language]);
+
   const { t } = useTranslation();
   return (
     <QueryClientProvider client={queryClient}>

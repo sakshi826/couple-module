@@ -75,7 +75,11 @@
     "share_text": "Ik heb deze activiteit {{activityName}} in TherapyMantra gedaan en ik vind het erg leuk. Jij kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of de iOS-app {{iosUrl}}.",
     "this_activity": "deze activiteit",
     "copied": "Gekopieerd!",
-    "copy_message": "Bericht kopiëren"
+    "copy_message": "Bericht kopiëren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "intro_p1": "Op verschillende momenten in ons leven kan ons steunnetwerk veranderen. 🌱 Soms voelen we ons verbonden en gesteund. Andere keren kunnen dingen afstandelijk of onduidelijk aanvoelen.",
   "intro_p2": "Deze activiteit biedt een moment om even stil te staan en naar de mensen om je heen te kijken – en te ontdekken wie zich op dit moment echt onderdeel van jouw kring voelt. 💛",

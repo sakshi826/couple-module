@@ -237,7 +237,9 @@
       "soundscapes": "Mga Soundscape",
       "students": "Mga mag-aaral",
       "affirmations": "Mga Pagpapatibay"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "Mga Tip sa Pag-alis ng Depresyon",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "Ano ang sinasabi ng isip mo?",
   "the_original_thought": "Ang orihinal na kaisipan...",
   "the_more_balanced_view": "Ang mas balanseng pananaw...",
-  "start_typing_your_reflection_here": "Simulan ang pag-type ng iyong repleksyon dito..."
+  "start_typing_your_reflection_here": "Simulan ang pag-type ng iyong repleksyon dito...",
+  "guided_series": {}
 }

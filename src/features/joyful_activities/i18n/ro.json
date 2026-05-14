@@ -59,7 +59,11 @@
     "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
     "this_activity": "această activitate",
     "copied": "Copiat!",
-    "copy_message": "Copiați mesajul"
+    "copy_message": "Copiați mesajul",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_complete_title": "Bucuria Păstrată",
   "app_complete_message": "Ai reușit să-ți amintești și să te conectezi cu o sursă de bucurie. Păstrează acest sentiment cu tine pe parcursul zilei.",

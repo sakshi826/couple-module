@@ -65,7 +65,11 @@
     "share_text": "J'ai réalisé cette activité {{activityName}} sur TherapyMantra et j'ai beaucoup apprécié. Vous pouvez la faire aussi ; il suffit de suivre le lien vers l'application Android {{androidUrl}} ou l'application iOS {{iosUrl}}.",
     "this_activity": "cette activité",
     "copied": "Copié !",
-    "copy_message": "Copier le message"
+    "copy_message": "Copier le message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_page_title": "Conseils pour l’anxiété",
   "app_description": "Des techniques simples pour vous aider à vous sentir ancré et en sécurité.",

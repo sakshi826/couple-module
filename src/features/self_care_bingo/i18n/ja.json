@@ -65,7 +65,11 @@
     "share_text": "私はTherapyMantraで{{activityName}}を試してみましたが、とても楽しかったです。あなたも試せますよ。Androidアプリ{{androidUrl}}またはiOSアプリ{{iosUrl}}へのリンクをクリックしてください。",
     "this_activity": "このアクティビティ",
     "copied": "コピーしました！",
-    "copy_message": "メッセージをコピー"
+    "copy_message": "メッセージをコピー",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "complete_title": "ビンゴマスター!",
   "complete_message": "おめでとうございます!あなたはセルフケアの一筋を成功裏に完成させました。心も体も感謝します。",

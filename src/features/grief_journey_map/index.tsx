@@ -1,3 +1,4 @@
+import React from "react";
 import i18n from "./i18n";
 import { I18nextProvider } from "react-i18next";
 import { Suspense } from 'react';
@@ -14,6 +15,14 @@ import { useTranslation } from "react-i18next";
 const queryClient = new QueryClient();
 
 const App = () => {
+    const { i18n: globalI18n } = useTranslation();
+  
+  React.useEffect(() => {
+    if (globalI18n.language && globalI18n.language !== i18n.language) {
+      i18n.changeLanguage(globalI18n.language);
+    }
+  }, [globalI18n.language]);
+
   const { t } = useTranslation();
   return (
 (

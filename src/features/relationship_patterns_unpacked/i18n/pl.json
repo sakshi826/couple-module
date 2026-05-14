@@ -36,7 +36,11 @@
     "share_text": "Wykonałem tę {{activityName}} w TherapyMantra i bardzo mi się to spodobało. Ty też możesz to zrobić, po prostu kliknij link do aplikacji na Androida {{androidUrl}} lub aplikacji na iOS {{iosUrl}}",
     "this_activity": "ta aktywność",
     "copied": "Skopiowano!",
-    "copy_message": "Kopiuj wiadomość"
+    "copy_message": "Kopiuj wiadomość",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Rozpakowywanie twojego planu",
   "more": "Więcej",

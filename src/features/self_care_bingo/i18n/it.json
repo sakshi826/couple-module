@@ -65,7 +65,11 @@
     "share_text": "Ho svolto questa attività {{activityName}} su TherapyMantra e mi è piaciuta molto. Puoi farlo anche tu, basta seguire il link all'app Android {{androidUrl}} o all'app iOS {{iosUrl}}.",
     "this_activity": "questa attività",
     "copied": "Copiato!",
-    "copy_message": "Copia messaggio"
+    "copy_message": "Copia messaggio",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "complete_title": "Bingo Master!",
   "complete_message": "Congratulazioni! Hai completato con successo una linea di cura di sé. La tua mente e il tuo corpo grazie.",

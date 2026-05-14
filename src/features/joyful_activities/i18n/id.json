@@ -59,7 +59,11 @@
     "share_text": "Saya telah melakukan {{activityName}} ini di TherapyMantra dan sangat menikmatinya, Anda juga bisa melakukannya, cukup ikuti tautan ke aplikasi Android {{androidUrl}} atau aplikasi iOS {{iosUrl}}",
     "this_activity": "aktivitas ini",
     "copied": "Disalin!",
-    "copy_message": "Salin Pesan"
+    "copy_message": "Salin Pesan",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_complete_title": "Kegembiraan Dipertahankan",
   "app_complete_message": "Anda telah berhasil mengingat dan terhubung dengan sumber kegembiraan. Simpan perasaan ini bersama Anda saat Anda menjalani hari Anda.",

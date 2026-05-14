@@ -94,7 +94,11 @@
     "share_text": "我在 TherapyMantra 上完成了这个 {{activityName}} 活动，非常喜欢，你也试试吧，只需点击链接下载安卓应用 {{androidUrl}} 或 iOS 应用 {{iosUrl}}。",
     "this_activity": "这项活动",
     "copied": "已复制！",
-    "copy_message": "复制消息"
+    "copy_message": "复制消息",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "说出你的心声",
   "when_a_thought_shows_up_it_often_feels_like_it_s": "当一个念头出现时，通常感觉就像是……",

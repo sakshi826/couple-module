@@ -108,7 +108,11 @@
     "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
     "this_activity": "this activity",
     "copied": "Copied!",
-    "copy_message": "Copy Message"
+    "copy_message": "Copy Message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_duration": "5-10 minutes",
   "intro_p1": "Real experiences from real people",

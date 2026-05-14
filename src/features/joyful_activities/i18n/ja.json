@@ -59,7 +59,11 @@
     "share_text": "私はTherapyMantraで{{activityName}}を試してみましたが、とても楽しかったです。あなたも試せますよ。Androidアプリ{{androidUrl}}またはiOSアプリ{{iosUrl}}へのリンクをクリックしてください。",
     "this_activity": "このアクティビティ",
     "copied": "コピーしました！",
-    "copy_message": "メッセージをコピー"
+    "copy_message": "メッセージをコピー",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_complete_title": "喜びは守られてる",
   "app_complete_message": "あなたは喜びの源を思い出し、つながることに成功しました。この感覚を一日の中ずっと持ち続けてください。",

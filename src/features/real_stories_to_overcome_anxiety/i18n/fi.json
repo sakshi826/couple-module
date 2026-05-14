@@ -108,7 +108,11 @@
     "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
     "this_activity": "tämä toiminta",
     "copied": "Kopioitu!",
-    "copy_message": "Kopioi viesti"
+    "copy_message": "Kopioi viesti",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_duration": "5–10 minuuttia",
   "app_title": "Tositarinoita ahdistuksen voittamiseksi",

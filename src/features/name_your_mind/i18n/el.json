@@ -94,7 +94,11 @@
     "share_text": "Έχω κάνει αυτό το {{activityName}} στο TherapyMantra και το απολαμβάνω πολύ. Μπορείτε να το κάνετε κι εσείς, απλώς ακολουθήστε τον σύνδεσμο για την εφαρμογή Android {{androidUrl}} ή την εφαρμογή iOS {{iosUrl}}",
     "this_activity": "αυτή η δραστηριότητα",
     "copied": "Αντιγράφηκε!",
-    "copy_message": "Αντιγραφή μηνύματος"
+    "copy_message": "Αντιγραφή μηνύματος",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Ονομάστε το μυαλό σας",
   "when_a_thought_shows_up_it_often_feels_like_it_s": "Όταν εμφανίζεται μια σκέψη, συχνά νιώθεις σαν να είναι",

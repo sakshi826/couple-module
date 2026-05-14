@@ -101,7 +101,11 @@
     "share_text": "저는 TherapyMantra에서 {{activityName}} 활동을 해봤는데 정말 좋았어요. 여러분도 해보세요. 안드로이드 앱 {{androidUrl}} 또는 iOS 앱 {{iosUrl}} 링크를 따라가시면 됩니다.",
     "this_activity": "이 활동",
     "copied": "복사했어요!",
-    "copy_message": "메시지 복사"
+    "copy_message": "메시지 복사",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "음식과 감정 지도",
   "more": "더",

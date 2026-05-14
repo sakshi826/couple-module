@@ -94,7 +94,11 @@
     "share_text": "私はTherapyMantraで{{activityName}}を試してみましたが、とても楽しかったです。あなたも試せますよ。Androidアプリ{{androidUrl}}またはiOSアプリ{{iosUrl}}へのリンクをクリックしてください。",
     "this_activity": "このアクティビティ",
     "copied": "コピーしました！",
-    "copy_message": "メッセージをコピー"
+    "copy_message": "メッセージをコピー",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "あなたの心に名前をつけてください",
   "when_a_thought_shows_up_it_often_feels_like_it_s": "考えが浮かぶと、それは",

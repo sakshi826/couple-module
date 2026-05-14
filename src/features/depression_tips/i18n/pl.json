@@ -60,5 +60,11 @@
   "t5_do5": "Weź ciepły prysznic",
   "t5_rem": "Drobna pomoc fizyczna może wywołać prawdziwą zmianę emocjonalną.",
   "t5_act": "Wykonaj jedną czynność związaną z dbaniem o siebie",
-  "app_title": "Depression Tips"
+  "app_title": "Depression Tips",
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
+  }
 }

@@ -35,7 +35,11 @@
     "share_text": "Eu fiz essa atividade {{activityName}} no TherapyMantra e gostei muito. Você também pode fazer, basta seguir o link para o aplicativo Android {{androidUrl}} ou para o aplicativo iOS {{iosUrl}}.",
     "this_activity": "esta atividade",
     "copied": "Copiado!",
-    "copy_message": "Copiar mensagem"
+    "copy_message": "Copiar mensagem",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_title": "Respiração em Caixa",
   "app_complete_title": "Ótimo trabalho!",

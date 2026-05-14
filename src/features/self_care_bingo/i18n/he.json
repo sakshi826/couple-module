@@ -65,7 +65,11 @@
     "share_text": "עשיתי את זה ב-TherapyMantra ואני ממש נהנה מזה, גם אתם יכולים לעשות את זה פשוט עקבו אחר הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
     "this_activity": "פעילות זו",
     "copied": "מוּעֲתָק!",
-    "copy_message": "העתקת הודעה"
+    "copy_message": "העתקת הודעה",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "complete_title": "בינגו מאסטר!",
   "complete_message": "מזל טוב! השלמת בהצלחה קו של טיפול עצמי. המוח והגוף שלך מודים לך.",

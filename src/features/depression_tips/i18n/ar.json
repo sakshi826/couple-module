@@ -60,5 +60,11 @@
   "t5_do5": "خذ حماماً دافئاً",
   "t5_rem": "يمكن أن تُحدث العناية الجسدية البسيطة تغييراً عاطفياً حقيقياً.",
   "t5_act": "قم بفعل واحد للعناية بنفسك",
-  "app_title": "Depression Tips"
+  "app_title": "Depression Tips",
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
+  }
 }

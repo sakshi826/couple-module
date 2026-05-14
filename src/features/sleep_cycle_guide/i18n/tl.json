@@ -135,7 +135,11 @@
     "share_text": "Ginawa ko na ito {{activityName}} sa TherapyMantra at talagang nasiyahan ako rito. Kaya mo rin itong gawin. Sundan lang ang link papunta sa android app {{androidUrl}} o ios app {{iosUrl}}.",
     "this_activity": "aktibidad na ito",
     "copied": "Kinopya!",
-    "copy_message": "Kopyahin ang Mensahe"
+    "copy_message": "Kopyahin ang Mensahe",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Gabay sa Siklo ng Pagtulog",
   "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(nakaraan + 1, KABUUANG_SCREENS - 1));\n\nconst goBack = () => setCurrentScreen(nakaraan => Math.max(nakaraan - 1, 0));\n\nconst screens = [",

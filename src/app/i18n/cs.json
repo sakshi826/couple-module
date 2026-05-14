@@ -237,7 +237,9 @@
       "soundscapes": "Zvukové krajiny",
       "students": "Studenti",
       "affirmations": "Afirmace"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "Tipy na úlevu od deprese",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "Co ti říkala tvá mysl?",
   "the_original_thought": "Původní myšlenka...",
   "the_more_balanced_view": "Vyváženější pohled...",
-  "start_typing_your_reflection_here": "Začněte zde psát svůj odraz..."
+  "start_typing_your_reflection_here": "Začněte zde psát svůj odraz...",
+  "guided_series": {}
 }

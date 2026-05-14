@@ -60,5 +60,11 @@
   "t5_do5": "อาบน้ำอุ่น",
   "t5_rem": "การดูแลเอาใจใส่ทางกายภาพเล็กๆ น้อยๆ สามารถสร้างการเปลี่ยนแปลงทางอารมณ์ที่แท้จริงได้",
   "t5_act": "ทำกิจกรรมดูแลตัวเองอย่างน้อยหนึ่งอย่าง",
-  "app_title": "Depression Tips"
+  "app_title": "Depression Tips",
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
+  }
 }

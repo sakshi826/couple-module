@@ -237,7 +237,9 @@
       "soundscapes": "Lanskap suara",
       "students": "Siswa",
       "affirmations": "Afirmasi"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "Tips Mengatasi Depresi",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "Apa yang dikatakan pikiranmu padamu?",
   "the_original_thought": "Gagasan awalnya...",
   "the_more_balanced_view": "Pandangan yang lebih seimbang...",
-  "start_typing_your_reflection_here": "Mulailah mengetik refleksi Anda di sini..."
+  "start_typing_your_reflection_here": "Mulailah mengetik refleksi Anda di sini...",
+  "guided_series": {}
 }

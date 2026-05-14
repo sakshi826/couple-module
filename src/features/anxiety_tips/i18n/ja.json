@@ -65,7 +65,11 @@
     "share_text": "私はTherapyMantraで{{activityName}}を試してみましたが、とても楽しかったです。あなたも試せますよ。Androidアプリ{{androidUrl}}またはiOSアプリ{{iosUrl}}へのリンクをクリックしてください。",
     "this_activity": "このアクティビティ",
     "copied": "コピーしました！",
-    "copy_message": "メッセージをコピー"
+    "copy_message": "メッセージをコピー",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_page_title": "不安のヒント",
   "app_description": "地に足が着いた安心感を得るための簡単な方法。",

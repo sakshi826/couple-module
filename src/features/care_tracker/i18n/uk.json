@@ -16,7 +16,11 @@
     "share_text": "Я виконав(-ла) цю активність ({{activityName}}) у TherapyMantra і мені дуже подобається, ви теж можете це зробити, просто перейдіть за посиланням на додаток для Android ({androidUrl}}) або iOS ({iosUrl}}).",
     "this_activity": "ця діяльність",
     "copied": "Скопійовано!",
-    "copy_message": "Копіювати повідомлення"
+    "copy_message": "Копіювати повідомлення",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "screens": {
     "intro": {

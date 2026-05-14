@@ -52,7 +52,11 @@
     "share_text": "Jeg har gjort dette med {{activityName}} i TherapyMantra og liker det veldig godt. Du kan også gjøre det. Bare følg lenken til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
     "this_activity": "denne aktiviteten",
     "copied": "Kopiert!",
-    "copy_message": "Kopier melding"
+    "copy_message": "Kopier melding",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_title": "5-4-3-2-1 Jording",
   "intro_p1": "Reduserer angst raskt",

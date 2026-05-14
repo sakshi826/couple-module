@@ -55,7 +55,8 @@
   ],
   "complete": {
     "title": "Awareness Gained",
-    "message": "Understanding the roots of control is a brave first step toward finding new ways to feel safe and steady."
+    "message": "Understanding the roots of control is a brave first step toward finding new ways to feel safe and steady.",
+    "button_fallback": "Back to Hub"
   },
   "common": {
     "get_started": "Get Started",
@@ -74,7 +75,11 @@
     "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
     "this_activity": "this activity",
     "copied": "Copied!",
-    "copy_message": "Copy Message"
+    "copy_message": "Copy Message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Strategy of Survival • {{step}}/3",
   "more": "More",

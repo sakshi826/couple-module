@@ -75,7 +75,11 @@
     "share_text": "Ginawa ko na ito {{activityName}} sa TherapyMantra at talagang nasiyahan ako rito. Kaya mo rin itong gawin. Sundan lang ang link papunta sa android app {{androidUrl}} o ios app {{iosUrl}}.",
     "this_activity": "aktibidad na ito",
     "copied": "Kinopya!",
-    "copy_message": "Kopyahin ang Mensahe"
+    "copy_message": "Kopyahin ang Mensahe",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "intro_p1": "Sa iba't ibang punto ng buhay, maaaring magbago ang ating sistema ng suporta. 🌱 Minsan, pakiramdam natin ay konektado at sinusuportahan tayo. Sa ibang pagkakataon naman, maaaring parang malayo o hindi malinaw ang mga bagay-bagay.",
   "intro_p2": "Ang aktibidad na ito ay isang lugar para huminto sandali at tingnan ang mga taong nakapaligid sa iyo — at unawain kung sino ang kasalukuyang nakakaramdam na bahagi ka ng iyong bilog. 💛",

@@ -237,7 +237,9 @@
       "soundscapes": "Paisagens sonoras",
       "students": "Alunos",
       "affirmations": "Afirmações"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "Dicas para aliviar a depressão",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "O que sua mente estava lhe dizendo?",
   "the_original_thought": "A ideia original...",
   "the_more_balanced_view": "Uma visão mais equilibrada...",
-  "start_typing_your_reflection_here": "Comece a digitar sua reflexão aqui..."
+  "start_typing_your_reflection_here": "Comece a digitar sua reflexão aqui...",
+  "guided_series": {}
 }

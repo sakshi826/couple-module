@@ -237,7 +237,9 @@
       "soundscapes": "সাউন্ডস্কেপ",
       "students": "ছাত্র",
       "affirmations": "নিশ্চিতকরণ"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "বিষণ্ণতা থেকে মুক্তি পাওয়ার উপায়",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "তোমার মন তোমাকে কী বলছিল?",
   "the_original_thought": "মূল ভাবনা...",
   "the_more_balanced_view": "আরও ভারসাম্যপূর্ণ দৃষ্টিভঙ্গি...",
-  "start_typing_your_reflection_here": "এখানে আপনার ভাবনা টাইপ করা শুরু করুন..."
+  "start_typing_your_reflection_here": "এখানে আপনার ভাবনা টাইপ করা শুরু করুন...",
+  "guided_series": {}
 }

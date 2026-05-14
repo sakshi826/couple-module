@@ -52,7 +52,11 @@
     "share_text": "Ik heb deze activiteit {{activityName}} in TherapyMantra gedaan en ik vind het erg leuk. Jij kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of de iOS-app {{iosUrl}}.",
     "this_activity": "deze activiteit",
     "copied": "Gekopieerd!",
-    "copy_message": "Bericht kopiëren"
+    "copy_message": "Bericht kopiëren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_title": "5-4-3-2-1 Aarding",
   "intro_p1": "Vermindert angst snel",

@@ -237,7 +237,9 @@
       "soundscapes": "ซาวด์สเคป",
       "students": "นักเรียน",
       "affirmations": "การยืนยัน"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "เคล็ดลับบรรเทาอาการซึมเศร้า",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "จิตใจของคุณกำลังบอกอะไรคุณอยู่?",
   "the_original_thought": "ความคิดดั้งเดิม...",
   "the_more_balanced_view": "มุมมองที่สมดุลมากขึ้น...",
-  "start_typing_your_reflection_here": "เริ่มเขียนข้อคิดของคุณได้ที่นี่..."
+  "start_typing_your_reflection_here": "เริ่มเขียนข้อคิดของคุณได้ที่นี่...",
+  "guided_series": {}
 }

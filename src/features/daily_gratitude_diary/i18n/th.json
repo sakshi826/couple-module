@@ -48,7 +48,11 @@
     "share_text": "ฉันได้ทำกิจกรรมนี้ {{activityName}} ใน TherapyMantra แล้วและรู้สึกสนุกมาก คุณก็ลองทำได้เช่นกัน เพียงแค่คลิกลิงก์ไปยังแอป Android {{androidUrl}} หรือแอป iOS {{iosUrl}}",
     "this_activity": "กิจกรรมนี้",
     "copied": "คัดลอกแล้ว!",
-    "copy_message": "คัดลอกข้อความ"
+    "copy_message": "คัดลอกข้อความ",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_complete_title": "บันทึกความกตัญญูกตเวที",
   "app_complete_message": "การไตร่ตรองถึงสิ่งที่คุณรู้สึกขอบคุณเป็นวิธีที่มีประสิทธิภาพในการเปลี่ยนโฟกัสของคุณไปสู่แง่บวก",

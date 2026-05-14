@@ -237,7 +237,9 @@
       "soundscapes": "נופים קוליים",
       "students": "תלמידים",
       "affirmations": "אישורים"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "טיפים להקלה על דיכאון",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "מה אמר לך המחשבה שלך?",
   "the_original_thought": "המחשבה המקורית...",
   "the_more_balanced_view": "הגישה המאוזנת יותר...",
-  "start_typing_your_reflection_here": "התחל לכתוב את ההשתקפות שלך כאן..."
+  "start_typing_your_reflection_here": "התחל לכתוב את ההשתקפות שלך כאן...",
+  "guided_series": {}
 }

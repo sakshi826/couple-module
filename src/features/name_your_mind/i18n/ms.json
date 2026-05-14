@@ -94,7 +94,11 @@
     "share_text": "Saya telah melakukan {{activityName}} ini dalam TherapyMantra dan sangat menikmatinya, anda juga boleh melakukannya, ikuti sahaja pautan ke aplikasi android {{androidUrl}} atau aplikasi ios {{iosUrl}}",
     "this_activity": "aktiviti ini",
     "copied": "Disalin!",
-    "copy_message": "Salin Mesej"
+    "copy_message": "Salin Mesej",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Namakan Minda Anda",
   "when_a_thought_shows_up_it_often_feels_like_it_s": "Apabila sesuatu fikiran muncul, ia sering terasa seperti",

@@ -135,7 +135,11 @@
     "share_text": "Jeg har gjort dette med {{activityName}} i TherapyMantra og liker det veldig godt. Du kan også gjøre det. Bare følg lenken til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
     "this_activity": "denne aktiviteten",
     "copied": "Kopiert!",
-    "copy_message": "Kopier melding"
+    "copy_message": "Kopier melding",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Søvnsyklusguide",
   "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(forrige + 1, TOTAL_SCREENS - 1));\nconst goBack = () => setGjeldendeSkjerm(forrige => Math.max(forrige - 1, 0));\n\nconst screens = [\n]",

@@ -87,7 +87,11 @@
     "share_text": "Tôi đã thực hiện hoạt động này {{activityName}} trên TherapyMantra và thực sự rất thích, bạn cũng có thể làm được, chỉ cần theo liên kết đến ứng dụng Android {{androidUrl}} hoặc ứng dụng iOS {{iosUrl}}.",
     "this_activity": "hoạt động này",
     "copied": "Đã sao chép!",
-    "copy_message": "Sao chép tin nhắn"
+    "copy_message": "Sao chép tin nhắn",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Nắm vững khoảng không gian giữa",
   "more": "Hơn",

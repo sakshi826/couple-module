@@ -60,5 +60,11 @@
   "t5_do5": "Mandilah dengan air hangat.",
   "t5_rem": "Perhatian fisik kecil dapat menciptakan perubahan emosional yang nyata.",
   "t5_act": "Lakukan Satu Tindakan Perawatan Diri",
-  "app_title": "Depression Tips"
+  "app_title": "Depression Tips",
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
+  }
 }

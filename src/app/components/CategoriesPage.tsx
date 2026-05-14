@@ -149,7 +149,7 @@ export function CategoriesPage() {
                       <Icon size={20} className="text-white" strokeWidth={2} />
                     </div>
                     <h3 className="text-base md:text-lg text-white font-semibold">
-                      {category.name}
+                      {t(`mindfulness.category.${category.id}`, category.name)}
                     </h3>
                   </div>
 
@@ -169,7 +169,7 @@ export function CategoriesPage() {
                           className="bg-[#313D57] hover:bg-[#3D4A64] rounded-full py-2.5 px-4 text-xs md:text-sm text-white font-medium transition-all flex items-center gap-2 justify-center"
                         >
                           <SubIcon size={16} className="text-white flex-shrink-0" strokeWidth={2} />
-                          <span>{subcat.name}</span>
+                          <span>{t(`mindfulness.subcategory.${subcat.name.toLowerCase().replace('/', '_').replace(/\s+/g, '_')}`, subcat.name)}</span>
                         </motion.button>
                       );
                     })}

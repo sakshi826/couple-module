@@ -237,7 +237,9 @@
       "soundscapes": "Paysages sonores",
       "students": "Étudiants",
       "affirmations": "Affirmations"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "Conseils pour soulager la dépression",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "Qu'est-ce que votre esprit vous disait ?",
   "the_original_thought": "L'idée originale...",
   "the_more_balanced_view": "Un point de vue plus équilibré...",
-  "start_typing_your_reflection_here": "Commencez à rédiger votre réflexion ici..."
+  "start_typing_your_reflection_here": "Commencez à rédiger votre réflexion ici...",
+  "guided_series": {}
 }

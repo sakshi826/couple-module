@@ -237,7 +237,9 @@
       "soundscapes": "Ses Manzaraları",
       "students": "Öğrenciler",
       "affirmations": "Onaylar"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "Depresyon Giderici İpuçları",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "Zihniniz size ne anlatmaya çalışıyordu?",
   "the_original_thought": "Asıl düşünce...",
   "the_more_balanced_view": "Daha dengeli bakış açısı...",
-  "start_typing_your_reflection_here": "Düşüncelerinizi buraya yazmaya başlayın..."
+  "start_typing_your_reflection_here": "Düşüncelerinizi buraya yazmaya başlayın...",
+  "guided_series": {}
 }

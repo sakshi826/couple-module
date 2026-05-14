@@ -75,7 +75,11 @@
     "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu si ji užívám. Můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
     "this_activity": "tato aktivita",
     "copied": "Zkopírováno!",
-    "copy_message": "Kopírovat zprávu"
+    "copy_message": "Kopírovat zprávu",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "intro_p1": "V různých fázích života se náš systém podpory může změnit. 🌱 Někdy se cítíme propojení a podporovaní. Jindy se nám věci mohou zdát vzdálené nebo nejasné.",
   "intro_p2": "Tato aktivita je prostorem k zastavení se a pohledu na lidi kolem vás – a k pochopení, kdo se momentálně cítí být součástí vašeho kruhu. 💛",

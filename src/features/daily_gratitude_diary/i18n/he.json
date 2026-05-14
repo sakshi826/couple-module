@@ -48,7 +48,11 @@
     "share_text": "עשיתי את זה ב-TherapyMantra ואני ממש נהנה מזה, גם אתם יכולים לעשות את זה פשוט עקבו אחר הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
     "this_activity": "פעילות זו",
     "copied": "מוּעֲתָק!",
-    "copy_message": "העתקת הודעה"
+    "copy_message": "העתקת הודעה",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_complete_title": "תודה שנשמרה",
   "app_complete_message": "להרהר על מה שאתה מודה עליו זו דרך עוצמתית להסיט את המיקוד שלך לחיובי.",

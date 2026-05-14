@@ -67,7 +67,11 @@
     "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
     "this_activity": "this activity",
     "copied": "Copied!",
-    "copy_message": "Copy Message"
+    "copy_message": "Copy Message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_duration": "Anytime",
   "app_description": "Nurture your mind, body, and soul with our interactive self-care activity.\nComplete activities to win and boost your mental wellness! 🧠✨",
@@ -87,5 +91,6 @@
   "go_to_next_page": "Go to next page",
   "toggle_sidebar": "Toggle Sidebar",
   "oops_page_not_found": "Oops! Page not found",
-  "return_to_home": "Return to Home"
+  "return_to_home": "Return to Home",
+  "new_board": "New Bingo Board"
 }

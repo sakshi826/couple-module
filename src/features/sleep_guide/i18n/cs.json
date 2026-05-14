@@ -35,7 +35,11 @@
     "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu mě baví, můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
     "this_activity": "tato aktivita",
     "copied": "Zkopírováno!",
-    "copy_message": "Kopírovat zprávu"
+    "copy_message": "Kopírovat zprávu",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Pochopení úzkosti ze spánku",
   "this_isn_t_a_weakness_it_s_a_phenomenon_called": "To není slabost. Je to jev zvaný",

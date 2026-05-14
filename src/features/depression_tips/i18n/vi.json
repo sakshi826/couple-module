@@ -60,5 +60,11 @@
   "t5_do5": "Tắm nước ấm",
   "t5_rem": "Những cử chỉ chăm sóc thể chất nhỏ cũng có thể tạo ra sự thay đổi tích cực về mặt cảm xúc.",
   "t5_act": "Hãy thực hiện một hành động tự chăm sóc bản thân.",
-  "app_title": "Depression Tips"
+  "app_title": "Depression Tips",
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
+  }
 }

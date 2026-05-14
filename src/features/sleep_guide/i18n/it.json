@@ -35,7 +35,11 @@
     "share_text": "Ho svolto questa attività {{activityName}} su TherapyMantra e mi è piaciuta molto. Puoi farlo anche tu, basta seguire il link all'app Android {{androidUrl}} o all'app iOS {{iosUrl}}.",
     "this_activity": "questa attività",
     "copied": "Copiato!",
-    "copy_message": "Copia messaggio"
+    "copy_message": "Copia messaggio",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Comprendere l'ansia legata al sonno",
   "this_isn_t_a_weakness_it_s_a_phenomenon_called": "Questa non è una debolezza. È un fenomeno chiamato",

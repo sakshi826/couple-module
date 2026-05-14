@@ -62,10 +62,17 @@ export function SubcategoryPage() {
     }
   ];
 
-  const filters = ["All", "Guided", "Yoga", "Beginners", "Sleep", "Focus"];
+  const filters = ["all", "guided", "yoga", "beginners", "sleep", "focus"];
 
   const getSubcategoryTitle = () => {
-    if (!subcategoryId) return "Content";
+    if (!subcategoryId) return t("content", "Content");
+    
+    // Check if we have a direct key for this subcategory ID
+    const key = `mindfulness.subcategory.${subcategoryId.split('-').pop()}`;
+    const translated = t(key);
+    
+    if (translated !== key) return translated;
+
     return subcategoryId
       .split("-")
       .map(word => word.charAt(0).toUpperCase() + word.slice(1))
@@ -122,7 +129,7 @@ export function SubcategoryPage() {
                       : "bg-transparent text-white border border-[#313D57] hover:border-[#4a5568]"
                   }`}
                 >
-                  {filter}
+                  {t(`mindfulness.filters.${filter}`, filter.charAt(0).toUpperCase() + filter.slice(1))}
                 </button>
               ))}
             </div>

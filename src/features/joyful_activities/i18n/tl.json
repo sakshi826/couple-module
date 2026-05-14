@@ -59,7 +59,11 @@
     "share_text": "Ginawa ko na ito {{activityName}} sa TherapyMantra at talagang nasiyahan ako rito. Kaya mo rin itong gawin. Sundan lang ang link papunta sa android app {{androidUrl}} o ios app {{iosUrl}}.",
     "this_activity": "aktibidad na ito",
     "copied": "Kinopya!",
-    "copy_message": "Kopyahin ang Mensahe"
+    "copy_message": "Kopyahin ang Mensahe",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_complete_title": "Napanatili ang Kagalakan",
   "app_complete_message": "Matagumpay mong naalala at nakipag-ugnay sa isang mapagkukunan ng kagalakan. Panatilihin ang damdaming ito sa iyo habang gumagalaw ka sa iyong araw.",

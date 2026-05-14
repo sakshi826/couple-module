@@ -65,7 +65,11 @@
     "share_text": "Tôi đã thực hiện hoạt động này {{activityName}} trên TherapyMantra và thực sự rất thích, bạn cũng có thể làm được, chỉ cần theo liên kết đến ứng dụng Android {{androidUrl}} hoặc ứng dụng iOS {{iosUrl}}.",
     "this_activity": "hoạt động này",
     "copied": "Đã sao chép!",
-    "copy_message": "Sao chép tin nhắn"
+    "copy_message": "Sao chép tin nhắn",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "complete_title": "Bậc thầy chơi lô tô!",
   "complete_message": "Xin chúc mừng! Bạn đã hoàn thành thành công một dòng chăm sóc bản thân. Tâm trí và cơ thể của bạn cảm ơn bạn.",

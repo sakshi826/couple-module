@@ -237,7 +237,9 @@
       "soundscapes": "సౌండ్ స్కేప్ లు",
       "students": "విద్యార్థులు",
       "affirmations": "ధృవీకరణలు"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "డిప్రెషన్ నుండి ఉపశమనం పొందే చిట్కాలు",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "మీ మనసు మీకు ఏమి చెబుతోంది?",
   "the_original_thought": "అసలు ఆలోచన...",
   "the_more_balanced_view": "మరింత సమతుల్య దృక్పథం...",
-  "start_typing_your_reflection_here": "మీ అభిప్రాయాన్ని ఇక్కడ టైప్ చేయడం ప్రారంభించండి..."
+  "start_typing_your_reflection_here": "మీ అభిప్రాయాన్ని ఇక్కడ టైప్ చేయడం ప్రారంభించండి...",
+  "guided_series": {}
 }

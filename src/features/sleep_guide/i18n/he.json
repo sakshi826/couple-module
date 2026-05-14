@@ -35,7 +35,11 @@
     "share_text": "עשיתי את זה ב-TherapyMantra ואני ממש נהנה מזה, גם אתם יכולים לעשות את זה פשוט עקבו אחר הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
     "this_activity": "פעילות זו",
     "copied": "מוּעֲתָק!",
-    "copy_message": "העתקת הודעה"
+    "copy_message": "העתקת הודעה",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "הבנת חרדת שינה",
   "this_isn_t_a_weakness_it_s_a_phenomenon_called": "זו לא חולשה. זוהי תופעה שנקראת",

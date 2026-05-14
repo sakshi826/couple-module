@@ -135,7 +135,11 @@
     "share_text": "Saya telah melakukan {{activityName}} ini dalam TherapyMantra dan sangat menikmatinya, anda juga boleh melakukannya, ikuti sahaja pautan ke aplikasi android {{androidUrl}} atau aplikasi ios {{iosUrl}}",
     "this_activity": "aktiviti ini",
     "copied": "Disalin!",
-    "copy_message": "Salin Mesej"
+    "copy_message": "Salin Mesej",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Panduan Kitaran Tidur",
   "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(sebelumnya + 1, JUMLAH_SKRIN - 1));\nconst goBack = () => setCurrentScreen(sebelumnya => Math.max(sebelumnya - 1, 0));\n\nconst skrin = [",

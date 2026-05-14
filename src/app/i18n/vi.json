@@ -237,7 +237,9 @@
       "soundscapes": "Âm thanh",
       "students": "Sinh viên",
       "affirmations": "Lời khẳng định"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "Mẹo giảm trầm cảm",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "Tâm trí bạn đang mách bảo điều gì?",
   "the_original_thought": "Ý tưởng ban đầu...",
   "the_more_balanced_view": "Quan điểm cân bằng hơn...",
-  "start_typing_your_reflection_here": "Hãy bắt đầu viết suy nghĩ của bạn tại đây..."
+  "start_typing_your_reflection_here": "Hãy bắt đầu viết suy nghĩ của bạn tại đây...",
+  "guided_series": {}
 }

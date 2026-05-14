@@ -94,7 +94,11 @@
     "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
     "this_activity": "această activitate",
     "copied": "Copiat!",
-    "copy_message": "Copiați mesajul"
+    "copy_message": "Copiați mesajul",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Numește-ți mintea",
   "when_a_thought_shows_up_it_often_feels_like_it_s": "Când apare un gând, adesea se simte ca și cum ar fi",

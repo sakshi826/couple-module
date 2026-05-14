@@ -250,7 +250,11 @@
     "share_text": "Έχω κάνει αυτό το {{activityName}} στο TherapyMantra και το απολαμβάνω πολύ. Μπορείτε να το κάνετε κι εσείς, απλώς ακολουθήστε τον σύνδεσμο για την εφαρμογή Android {{androidUrl}} ή την εφαρμογή iOS {{iosUrl}}",
     "this_activity": "αυτή η δραστηριότητα",
     "copied": "Αντιγράφηκε!",
-    "copy_message": "Αντιγραφή μηνύματος"
+    "copy_message": "Αντιγραφή μηνύματος",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Επισκευή & Επανασύνδεση",
   "that_s_a_step_forward": "Αυτό είναι ένα βήμα μπροστά",

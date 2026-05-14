@@ -60,5 +60,11 @@
   "t5_do5": "温かいシャワーを浴びる",
   "t5_rem": "ちょっとした身体的なケアが、本当の感情の変化を生み出すことができます。",
   "t5_act": "セルフケアを一つ行う",
-  "app_title": "Depression Tips"
+  "app_title": "Depression Tips",
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
+  }
 }

@@ -75,7 +75,11 @@
     "share_text": "Ich habe diese Aktivität {{activityName}} in TherapyMantra ausprobiert und finde sie richtig toll. Du kannst das auch machen! Folge einfach dem Link zur Android-App {{androidUrl}} oder zur iOS-App {{iosUrl}}.",
     "this_activity": "diese Aktivität",
     "copied": "Kopiert!",
-    "copy_message": "Nachricht kopieren"
+    "copy_message": "Nachricht kopieren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "intro_p1": "In verschiedenen Lebensphasen kann sich unser soziales Netz verändern. 🌱 Manchmal fühlen wir uns verbunden und unterstützt. Andere Male hingegen erscheint uns alles distanziert oder unklar.",
   "intro_p2": "Diese Aktivität bietet Raum, innezuhalten und die Menschen um sich herum wahrzunehmen – und zu verstehen, wer sich aktuell zu Ihrem Umfeld zählt. 💛",

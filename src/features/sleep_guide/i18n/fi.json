@@ -35,7 +35,11 @@
     "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
     "this_activity": "tämä toiminta",
     "copied": "Kopioitu!",
-    "copy_message": "Kopioi viesti"
+    "copy_message": "Kopioi viesti",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Uniahdistuksen ymmärtäminen",
   "this_isn_t_a_weakness_it_s_a_phenomenon_called": "Tämä ei ole heikkoutta. Se on ilmiö nimeltä",

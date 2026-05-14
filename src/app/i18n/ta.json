@@ -237,7 +237,9 @@
       "soundscapes": "சவுண்ட்ஸ்கேப்ஸ்",
       "students": "மாணவர்கள்",
       "affirmations": "உறுதிமொழிகள்"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "மனச்சோர்வு நிவாரண குறிப்புகள்",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "உங்கள் மனம் உங்களுக்கு என்ன சொல்லிக்கொண்டிருந்தது?",
   "the_original_thought": "அசல் எண்ணம்...",
   "the_more_balanced_view": "மேலும் சமநிலையான பார்வை...",
-  "start_typing_your_reflection_here": "உங்கள் சிந்தனைகளை இங்கே தட்டச்சு செய்யத் தொடங்குங்கள்..."
+  "start_typing_your_reflection_here": "உங்கள் சிந்தனைகளை இங்கே தட்டச்சு செய்யத் தொடங்குங்கள்...",
+  "guided_series": {}
 }

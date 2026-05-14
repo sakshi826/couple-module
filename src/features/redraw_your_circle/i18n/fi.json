@@ -75,7 +75,11 @@
     "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
     "this_activity": "tämä toiminta",
     "copied": "Kopioitu!",
-    "copy_message": "Kopioi viesti"
+    "copy_message": "Kopioi viesti",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "intro_p1": "Elämän eri vaiheissa tukiverkostomme voi muuttua. 🌱 Joskus tunnemme yhteyttä ja saamme tukea. Toisinaan asiat voivat tuntua etäisiltä tai epäselviltä.",
   "intro_p2": "Tämä aktiviteetti on tila pysähtyä ja tarkastella ympärilläsi olevia ihmisiä – ja ymmärtää, ketkä tuntevat tällä hetkellä kuuluvansa piiriisi. 💛",

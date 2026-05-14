@@ -237,7 +237,9 @@
       "soundscapes": "サウンドスケープ",
       "students": "学生",
       "affirmations": "アファメーション"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "うつ病の緩和に関するヒント",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "あなたの心は何を語りかけていましたか？",
   "the_original_thought": "当初の考えは…",
   "the_more_balanced_view": "よりバランスの取れた見方…",
-  "start_typing_your_reflection_here": "ここにあなたの感想を入力してください..."
+  "start_typing_your_reflection_here": "ここにあなたの感想を入力してください...",
+  "guided_series": {}
 }

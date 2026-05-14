@@ -94,7 +94,11 @@
     "share_text": "Bu aktiviteyi ({{activityName}}) TherapyMantra'da yaptım ve gerçekten çok beğendim, siz de yapabilirsiniz, sadece Android uygulamasına ({{androidUrl}}) veya iOS uygulamasına ({{iosUrl}}) giden bağlantıyı takip edin.",
     "this_activity": "bu aktivite",
     "copied": "Kopyalandı!",
-    "copy_message": "Mesajı Kopyala"
+    "copy_message": "Mesajı Kopyala",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Zihninizi Adlandırın",
   "when_a_thought_shows_up_it_often_feels_like_it_s": "Bir düşünce ortaya çıktığında, çoğu zaman sanki...",

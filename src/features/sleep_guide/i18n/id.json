@@ -35,7 +35,11 @@
     "share_text": "Saya telah melakukan {{activityName}} ini di TherapyMantra dan sangat menikmatinya, Anda juga bisa melakukannya, cukup ikuti tautan ke aplikasi Android {{androidUrl}} atau aplikasi iOS {{iosUrl}}",
     "this_activity": "aktivitas ini",
     "copied": "Disalin!",
-    "copy_message": "Salin Pesan"
+    "copy_message": "Salin Pesan",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Memahami kecemasan tidur",
   "this_isn_t_a_weakness_it_s_a_phenomenon_called": "Ini bukanlah kelemahan. Ini adalah sebuah fenomena yang disebut...",

@@ -60,7 +60,7 @@ const Screen2Activities = ({ onContinue }: Screen2Props) => {
           value={customActivity}
           onChange={(e) => setCustomActivity(e.target.value)}
           onKeyDown={handleKeyDown}
-          placeholder={(typeof t !== "undefined" ? t : (k) => k)('common.continue')}
+          placeholder={(typeof t !== "undefined" ? t : (k) => k)('common.add_activity')}
           className="rounded-xl"
         />
         <button

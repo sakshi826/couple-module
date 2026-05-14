@@ -52,7 +52,11 @@
     "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu mě baví, můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
     "this_activity": "tato aktivita",
     "copied": "Zkopírováno!",
-    "copy_message": "Kopírovat zprávu"
+    "copy_message": "Kopírovat zprávu",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_title": "5-4-3-2-1 Uzemnění",
   "intro_p1": "Rychle snižuje úzkost",

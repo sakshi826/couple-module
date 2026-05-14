@@ -105,6 +105,8 @@ async function run() {
                 if (translated) {
                     translatedValues.push(...translated);
                 }
+                // Add delay to avoid rate limits
+                await new Promise(resolve => setTimeout(resolve, 1000));
             }
 
             if (translatedValues.length === missingKeys.length) {

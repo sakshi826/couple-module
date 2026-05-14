@@ -26,7 +26,9 @@
     "concept": "Perspective",
     "input_thought": "Notice",
     "input_name": "Name",
-    "practice": "Practice"
+    "practice": "Practice",
+    "notice": "Notice your thoughts",
+    "name": "Give it a name"
   },
   "screens": {
     "concept": {
@@ -94,7 +96,11 @@
     "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
     "this_activity": "this activity",
     "copied": "Copied!",
-    "copy_message": "Copy Message"
+    "copy_message": "Copy Message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Name Your Mind",
   "when_a_thought_shows_up_it_often_feels_like_it_s": "When a thought shows up, it often feels like it's",

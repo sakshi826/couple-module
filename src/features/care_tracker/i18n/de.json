@@ -16,7 +16,11 @@
     "share_text": "Ich habe diese Aktivität {{activityName}} in TherapyMantra ausprobiert und finde sie richtig toll. Du kannst das auch machen! Folge einfach dem Link zur Android-App {{androidUrl}} oder zur iOS-App {{iosUrl}}.",
     "this_activity": "diese Aktivität",
     "copied": "Kopiert!",
-    "copy_message": "Nachricht kopieren"
+    "copy_message": "Nachricht kopieren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "screens": {
     "intro": {

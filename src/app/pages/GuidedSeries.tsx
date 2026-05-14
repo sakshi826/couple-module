@@ -95,7 +95,7 @@ export default function GuidedSeries() {
         {data.categories.map((category: any, catIndex: number) => (
           <div key={catIndex} className="mb-8">
             <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-4 px-1">
-              {category.name}
+              {t(`guided_series.${category.name}`, category.name)}
             </h2>
             <div className="space-y-3">
               {category.activities.map((activity: any, actIndex: number) => {
@@ -125,10 +125,10 @@ export default function GuidedSeries() {
                     {/* Text Content */}
                     <div className="flex-1 min-w-0">
                       <h3 className="text-[16px] font-bold text-slate-800 mb-0.5 truncate">
-                        {activity.name}
+                        {t(`guided_series.${activity.name}`, activity.name)}
                       </h3>
                       <p className="text-sm text-slate-500 line-clamp-1 leading-relaxed">
-                        {activity.description || "Explore this activity for your wellness."}
+                        {activity.description ? t(`guided_series.${activity.description}`, activity.description) : t("explore_this_activity_for_your_wellness", "Explore this activity for your wellness.")}
                       </p>
                     </div>
 

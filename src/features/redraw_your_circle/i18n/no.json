@@ -75,7 +75,11 @@
     "share_text": "Jeg har gjort dette med {{activityName}} i TherapyMantra og liker det veldig godt. Du kan også gjøre det. Bare følg lenken til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
     "this_activity": "denne aktiviteten",
     "copied": "Kopiert!",
-    "copy_message": "Kopier melding"
+    "copy_message": "Kopier melding",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "intro_p1": "På ulike tidspunkt i livet kan støtteapparatet vårt endre seg. 🌱 Noen ganger føler vi oss knyttet til hverandre og støttet. Andre ganger kan ting føles fjerne eller uklare.",
   "intro_p2": "Denne aktiviteten gir deg muligheten til å stoppe opp og se på menneskene rundt deg – og forstå hvem som for øyeblikket føler seg som en del av sirkelen din. 💛",

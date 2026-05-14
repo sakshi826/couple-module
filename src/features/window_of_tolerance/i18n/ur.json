@@ -202,7 +202,11 @@
     "share_text": "میں نے یہ {{activityName}} TherapyMantra میں کیا ہے اور واقعی اس سے لطف اندوز ہوں آپ بھی کر سکتے ہیں بس android ایپ {{androidUrl}} یا ios ایپ {{iosUrl}} کے لنک پر عمل کریں۔",
     "this_activity": "اس سرگرمی",
     "copied": "نقل کیا گیا!",
-    "copy_message": "پیغام کاپی کریں۔"
+    "copy_message": "پیغام کاپی کریں۔",
+    "yes": "?? ???",
+    "no": "????",
+    "date": "?????",
+    "continue": "???? ?????"
   },
   "app_description": "رواداری کی کھڑکی",
   "are_you_sure_you_want_to_exit": "کیا آپ واقعی باہر نکلنا چاہتے ہیں؟",

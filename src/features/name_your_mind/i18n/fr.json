@@ -94,7 +94,11 @@
     "share_text": "J'ai réalisé cette activité {{activityName}} sur TherapyMantra et j'ai beaucoup apprécié. Vous pouvez la faire aussi ; il suffit de suivre le lien vers l'application Android {{androidUrl}} ou l'application iOS {{iosUrl}}.",
     "this_activity": "cette activité",
     "copied": "Copié !",
-    "copy_message": "Copier le message"
+    "copy_message": "Copier le message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Nommez votre esprit",
   "when_a_thought_shows_up_it_often_feels_like_it_s": "Lorsqu'une pensée surgit, on a souvent l'impression qu'elle est",

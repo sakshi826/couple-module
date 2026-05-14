@@ -35,7 +35,11 @@
     "share_text": "J'ai réalisé cette activité {{activityName}} sur TherapyMantra et j'ai beaucoup apprécié. Vous pouvez la faire aussi ; il suffit de suivre le lien vers l'application Android {{androidUrl}} ou l'application iOS {{iosUrl}}.",
     "this_activity": "cette activité",
     "copied": "Copié !",
-    "copy_message": "Copier le message"
+    "copy_message": "Copier le message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Comprendre l'anxiété liée au sommeil",
   "this_isn_t_a_weakness_it_s_a_phenomenon_called": "Ce n'est pas une faiblesse. C'est un phénomène appelé",

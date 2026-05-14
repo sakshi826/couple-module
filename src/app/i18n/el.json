@@ -237,7 +237,9 @@
       "soundscapes": "Ηχοτοπία",
       "students": "Φοιτητές",
       "affirmations": "Επιβεβαιώσεις"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "Συμβουλές για την ανακούφιση από την κατάθλιψη",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "Τι σου έλεγε το μυαλό σου;",
   "the_original_thought": "Η αρχική σκέψη...",
   "the_more_balanced_view": "Η πιο ισορροπημένη άποψη...",
-  "start_typing_your_reflection_here": "Ξεκινήστε να πληκτρολογείτε την αντανάκλασή σας εδώ..."
+  "start_typing_your_reflection_here": "Ξεκινήστε να πληκτρολογείτε την αντανάκλασή σας εδώ...",
+  "guided_series": {}
 }

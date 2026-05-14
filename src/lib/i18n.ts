@@ -78,6 +78,7 @@ export function createI18nInstance(locales: Record<string, any> = {}) {
       interpolation: {
         escapeValue: false,
       },
+      load: 'languageOnly',
       detection: {
         order: ['querystring', 'navigator'],
         lookupQuerystring: 'lang',

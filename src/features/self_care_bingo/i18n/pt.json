@@ -65,7 +65,11 @@
     "share_text": "Eu fiz essa atividade {{activityName}} no TherapyMantra e gostei muito. Você também pode fazer, basta seguir o link para o aplicativo Android {{androidUrl}} ou para o aplicativo iOS {{iosUrl}}.",
     "this_activity": "esta atividade",
     "copied": "Copiado!",
-    "copy_message": "Copiar mensagem"
+    "copy_message": "Copiar mensagem",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "complete_title": "Mestre do Bingo!",
   "complete_message": "Parabéns! Você completou com sucesso uma linha de autocuidado. Sua mente e corpo, obrigado.",

@@ -75,7 +75,11 @@
     "share_text": "Tôi đã thực hiện hoạt động này {{activityName}} trên TherapyMantra và thực sự rất thích, bạn cũng có thể làm được, chỉ cần theo liên kết đến ứng dụng Android {{androidUrl}} hoặc ứng dụng iOS {{iosUrl}}.",
     "this_activity": "hoạt động này",
     "copied": "Đã sao chép!",
-    "copy_message": "Sao chép tin nhắn"
+    "copy_message": "Sao chép tin nhắn",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "intro_p1": "Ở những thời điểm khác nhau trong cuộc sống, hệ thống hỗ trợ của chúng ta có thể thay đổi. 🌱 Đôi khi chúng ta cảm thấy được kết nối và hỗ trợ. Những lúc khác, mọi thứ có thể trở nên xa cách hoặc không rõ ràng.",
   "intro_p2": "Hoạt động này là khoảng thời gian để bạn tạm dừng và quan sát những người xung quanh — và hiểu xem ai hiện đang cảm thấy mình là một phần trong vòng tròn quan hệ của bạn. 💛",

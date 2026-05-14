@@ -202,7 +202,11 @@
     "share_text": "He realizado esta actividad {{activityName}} en TherapyMantra y me ha gustado mucho. Tú también puedes hacerlo; solo tienes que seguir el enlace a la aplicación para Android {{androidUrl}} o a la aplicación para iOS {{iosUrl}}.",
     "this_activity": "esta actividad",
     "copied": "¡Copiado!",
-    "copy_message": "Copiar mensaje"
+    "copy_message": "Copiar mensaje",
+    "yes": "Sí",
+    "no": "No",
+    "date": "Fecha",
+    "continue": "Continuar"
   },
   "app_description": "Ventana de tolerancia",
   "are_you_sure_you_want_to_exit": "¿Estás seguro de que quieres salir?",

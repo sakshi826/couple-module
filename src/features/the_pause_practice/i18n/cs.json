@@ -87,7 +87,11 @@
     "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu si ji užívám. Můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
     "this_activity": "tato aktivita",
     "copied": "Zkopírováno!",
-    "copy_message": "Kopírovat zprávu"
+    "copy_message": "Kopírovat zprávu",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Ovládněte prostor mezi",
   "more": "Více",

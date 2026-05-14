@@ -65,7 +65,11 @@
     "share_text": "Bu aktiviteyi ({{activityName}}) TherapyMantra'da yaptım ve gerçekten çok beğendim, siz de yapabilirsiniz, sadece Android uygulamasına ({{androidUrl}}) veya iOS uygulamasına ({{iosUrl}}) giden bağlantıyı takip edin.",
     "this_activity": "bu aktivite",
     "copied": "Kopyalandı!",
-    "copy_message": "Mesajı Kopyala"
+    "copy_message": "Mesajı Kopyala",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_page_title": "Anksiyete İpuçları",
   "app_description": "Kendinizi daha dengeli ve güvende hissetmenize yardımcı olacak basit teknikler.",

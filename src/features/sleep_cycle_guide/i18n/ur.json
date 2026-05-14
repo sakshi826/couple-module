@@ -135,7 +135,11 @@
     "share_text": "میں نے یہ {{activityName}} TherapyMantra میں کیا ہے اور واقعی اس سے لطف اندوز ہوں آپ بھی کر سکتے ہیں بس android ایپ {{androidUrl}} یا ios ایپ {{iosUrl}} کے لنک پر عمل کریں۔",
     "this_activity": "اس سرگرمی",
     "copied": "نقل کیا گیا!",
-    "copy_message": "پیغام کاپی کریں۔"
+    "copy_message": "پیغام کاپی کریں۔",
+    "yes": "?? ???",
+    "no": "????",
+    "date": "?????",
+    "continue": "???? ?????"
   },
   "app_description": "سلیپ سائیکل گائیڈ",
   "math_min_prev_1_total_screens_1_const_goback_setcu": "ریاضی منٹ (پچھلا + 1، TOTAL_SCREENS - 1))؛\n  const goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0))؛\n\n  const اسکرینز = [",

@@ -237,7 +237,9 @@
       "soundscapes": "사운드스케이프",
       "students": "학생들",
       "affirmations": "확언"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "우울증 완화 팁",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "당신의 마음은 무엇을 말하고 있었나요?",
   "the_original_thought": "원래 생각은…",
   "the_more_balanced_view": "보다 균형 잡힌 시각...",
-  "start_typing_your_reflection_here": "여기에 여러분의 생각을 입력해 보세요..."
+  "start_typing_your_reflection_here": "여기에 여러분의 생각을 입력해 보세요...",
+  "guided_series": {}
 }

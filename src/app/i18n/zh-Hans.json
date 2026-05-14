@@ -237,7 +237,9 @@
       "soundscapes": "音景",
       "students": "学生",
       "affirmations": "肯定句"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "缓解抑郁症的小贴士",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "你当时在想什么？",
   "the_original_thought": "最初的想法……",
   "the_more_balanced_view": "更平衡的观点……",
-  "start_typing_your_reflection_here": "请在此处开始输入您的感想……"
+  "start_typing_your_reflection_here": "请在此处开始输入您的感想……",
+  "guided_series": {}
 }

@@ -35,7 +35,11 @@
     "share_text": "Έχω κάνει αυτό το {{activityName}} στο TherapyMantra και το απολαμβάνω πολύ. Μπορείτε να το κάνετε κι εσείς, απλώς ακολουθήστε τον σύνδεσμο για την εφαρμογή Android {{androidUrl}} ή την εφαρμογή iOS {{iosUrl}}",
     "this_activity": "αυτή η δραστηριότητα",
     "copied": "Αντιγράφηκε!",
-    "copy_message": "Αντιγραφή μηνύματος"
+    "copy_message": "Αντιγραφή μηνύματος",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Κατανόηση του άγχους ύπνου",
   "this_isn_t_a_weakness_it_s_a_phenomenon_called": "Αυτό δεν είναι αδυναμία. Είναι ένα φαινόμενο που ονομάζεται",

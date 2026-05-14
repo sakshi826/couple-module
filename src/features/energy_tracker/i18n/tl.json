@@ -61,7 +61,11 @@
     "share_text": "Ginawa ko na ito {{activityName}} sa TherapyMantra at talagang nasiyahan ako rito. Kaya mo rin itong gawin. Sundan lang ang link papunta sa android app {{androidUrl}} o ios app {{iosUrl}}.",
     "this_activity": "aktibidad na ito",
     "copied": "Kinopya!",
-    "copy_message": "Kopyahin ang Mensahe"
+    "copy_message": "Kopyahin ang Mensahe",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_duration": "1 minuto",
   "intro_p1": "Tukuyin ang mga pag-agos ng enerhiya",

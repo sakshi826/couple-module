@@ -94,7 +94,11 @@
     "share_text": "Eu fiz essa atividade {{activityName}} no TherapyMantra e gostei muito. Você também pode fazer, basta seguir o link para o aplicativo Android {{androidUrl}} ou para o aplicativo iOS {{iosUrl}}.",
     "this_activity": "esta atividade",
     "copied": "Copiado!",
-    "copy_message": "Copiar mensagem"
+    "copy_message": "Copiar mensagem",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Dê um nome à sua mente",
   "when_a_thought_shows_up_it_often_feels_like_it_s": "Quando um pensamento surge, muitas vezes parece que é",

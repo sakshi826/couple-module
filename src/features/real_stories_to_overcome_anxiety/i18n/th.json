@@ -108,7 +108,11 @@
     "share_text": "ฉันได้ทำกิจกรรมนี้ {{activityName}} ใน TherapyMantra แล้วและรู้สึกสนุกมาก คุณก็ลองทำได้เช่นกัน เพียงแค่คลิกลิงก์ไปยังแอป Android {{androidUrl}} หรือแอป iOS {{iosUrl}}",
     "this_activity": "กิจกรรมนี้",
     "copied": "คัดลอกแล้ว!",
-    "copy_message": "คัดลอกข้อความ"
+    "copy_message": "คัดลอกข้อความ",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_duration": "5-10 นาที",
   "app_title": "เรื่องราวจากประสบการณ์จริงเพื่อเอาชนะความวิตกกังวล",

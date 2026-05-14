@@ -60,5 +60,11 @@
   "t5_do5": "Nimm eine warme Dusche",
   "t5_rem": "Kleine körperliche Zuwendung kann echte emotionale Veränderungen bewirken.",
   "t5_act": "Führe eine Selbstfürsorgemaßnahme durch",
-  "app_title": "Depression Tips"
+  "app_title": "Depression Tips",
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
+  }
 }

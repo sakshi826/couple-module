@@ -237,7 +237,9 @@
       "soundscapes": "Pejzaże dźwiękowe",
       "students": "Studenci",
       "affirmations": "Afirmacje"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "Wskazówki dotyczące łagodzenia depresji",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "Co podpowiadał ci umysł?",
   "the_original_thought": "Oryginalna myśl...",
   "the_more_balanced_view": "Bardziej zrównoważony pogląd...",
-  "start_typing_your_reflection_here": "Zacznij wpisywać tutaj swoje przemyślenia..."
+  "start_typing_your_reflection_here": "Zacznij wpisywać tutaj swoje przemyślenia...",
+  "guided_series": {}
 }

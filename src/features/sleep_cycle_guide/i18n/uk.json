@@ -135,7 +135,11 @@
     "share_text": "Я виконав(-ла) цю активність ({{activityName}}) у TherapyMantra і мені дуже подобається, ви теж можете це зробити, просто перейдіть за посиланням на додаток для Android ({androidUrl}}) або iOS ({iosUrl}}).",
     "this_activity": "ця діяльність",
     "copied": "Скопійовано!",
-    "copy_message": "Копіювати повідомлення"
+    "copy_message": "Копіювати повідомлення",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   },
   "app_description": "Посібник з циклу сну",
   "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(попередній + 1, ЗАГАЛЬНА_КІЛЬКІСТЬ_ЕКРАНІВ - 1));\nconst goBack = () => setCurrentScreen(попередній => Math.max(попередній - 1, 0));\n\nconst екрани = [",

@@ -237,7 +237,9 @@
       "soundscapes": "Klanglandschaften",
       "students": "Schüler",
       "affirmations": "Affirmationen"
-    }
+    },
+    "subcategory": {},
+    "filters": {}
   },
   "tips": {
     "depression_tips": "Tipps zur Linderung von Depressionen",
@@ -404,5 +406,6 @@
   "what_was_your_mind_telling_you": "Was sagte dir dein Verstand?",
   "the_original_thought": "Der ursprüngliche Gedanke...",
   "the_more_balanced_view": "Die ausgewogenere Sichtweise...",
-  "start_typing_your_reflection_here": "Beginnen Sie hier mit dem Schreiben Ihrer Reflexion..."
+  "start_typing_your_reflection_here": "Beginnen Sie hier mit dem Schreiben Ihrer Reflexion...",
+  "guided_series": {}
 }
