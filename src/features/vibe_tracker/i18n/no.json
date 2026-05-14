@@ -41,16 +41,16 @@
     "supported": "Hva ville hjulpet deg til å føle deg støttet i dette øyeblikket?"
   },
   "common": {
-    "get_started": "Kom i gang",
+    "get_started": "Get Started",
     "start_over": "Start på nytt",
     "finish_exit": "Fullfør og avslutt",
-    "well_done": "Bra gjort!",
-    "completion_message": "Du har fullført denne aktiviteten. Ta deg et øyeblikk til å sette pris på fremgangen din.",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
     "time_to_complete": "Tid for å fullføre",
-    "back": "Tilbake",
-    "next": "Neste",
-    "save": "Spare",
-    "loading": "Laster inn...",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
     "share": "Dele",
     "share_progress": "Del fremdrift",
     "inspire_others": "Inspirer andre i dag",
@@ -61,7 +61,13 @@
     "yes": "Yes",
     "no": "No",
     "date": "Date",
-    "continue": "Continue"
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
   },
   "app_duration": "1–2 minutter",
   "intro_p1": "Spor dine emosjonelle mønstre",
@@ -96,5 +102,14 @@
     "reflection": {
       "title": "Pause & Reflect"
     }
-  }
+  },
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
 }

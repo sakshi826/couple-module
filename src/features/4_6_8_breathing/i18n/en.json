@@ -9,7 +9,7 @@
   "exhale": "Exhale",
   "rounds_to_feel_shift": "Complete {{count}} rounds to feel the shift.",
   "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} rounds",
+  "rounds_selector": "{{count}} Rounds",
   "resume": "Resume",
   "start": "Start",
   "pause": "Pause",
@@ -45,7 +45,13 @@
     "yes": "Yes",
     "no": "No",
     "date": "Date",
-    "continue": "Continue"
+    "continue": "Continue",
+    "phase_label": "Phase",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "rounds_selector": "{{count}} Rounds"
   },
   "app_duration": "3-5 minutes",
   "intro_p1": "Calms the nervous system",
@@ -64,5 +70,12 @@
   "go_to_next_page": "Go to next page",
   "toggle_sidebar": "Toggle Sidebar",
   "welcome_to_your_blank_app": "Welcome to Your Blank App",
-  "start_building_your_amazing_project_here": "Start building your amazing project here!"
+  "start_building_your_amazing_project_here": "Start building your amazing project here!",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
 }

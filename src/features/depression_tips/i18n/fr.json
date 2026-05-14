@@ -62,11 +62,32 @@
   "t5_act": "Faites un acte d'autosoins",
   "app_title": "Depression Tips",
   "common": {
-    "yes": "Yes",
-    "no": "No",
+    "yes": "Oui",
+    "no": "Non",
     "date": "Date",
-    "continue": "Continue",
-    "next": "Next",
-    "previous": "Previous"
-  }
+    "continue": "Continuer",
+    "next": "Suivant",
+    "previous": "Previous",
+    "step_of": "Étape {{current}} sur {{total}}",
+    "round_of": "Round {{current}} sur {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+    "instruction_running": "Suivez le cercle pour réguler votre respiration",
+    "back": "Retour",
+    "save": "Enregistrer",
+    "loading": "Chargement...",
+    "get_started": "Commencer",
+    "well_done": "Bien joué !",
+    "completion_message": "Vous avez terminé cette activité avec succès. Prenez un moment pour apprécier vos progrès."
+  },
+  "phase_label": "Phase",
+  "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+  "instruction_running": "Suivez le cercle pour réguler votre respiration",
+  "round_x_of_y": "Round {{current}} sur {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Oui",
+  "no": "Non",
+  "date": "Date",
+  "continue": "Continuer"
 }

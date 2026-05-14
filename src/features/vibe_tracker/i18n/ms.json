@@ -41,16 +41,16 @@
     "supported": "Apakah yang akan membantu anda berasa disokong pada masa ini?"
   },
   "common": {
-    "get_started": "Mulakan",
+    "get_started": "Get Started",
     "start_over": "Mula Semula",
     "finish_exit": "Selesai & Keluar",
-    "well_done": "Bagus!",
-    "completion_message": "Anda telah berjaya menyelesaikan aktiviti ini. Luangkan masa untuk menghargai kemajuan anda.",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
     "time_to_complete": "Masa untuk disiapkan",
-    "back": "Kembali",
-    "next": "Seterusnya",
-    "save": "Simpan",
-    "loading": "Memuatkan...",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
     "share": "Kongsi",
     "share_progress": "Kongsi Kemajuan",
     "inspire_others": "Beri inspirasi kepada orang lain hari ini",
@@ -61,7 +61,13 @@
     "yes": "Yes",
     "no": "No",
     "date": "Date",
-    "continue": "Continue"
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
   },
   "app_duration": "1-2 minit",
   "intro_p1": "Jejaki corak emosi anda",
@@ -96,5 +102,14 @@
     "reflection": {
       "title": "Pause & Reflect"
     }
-  }
+  },
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
 }

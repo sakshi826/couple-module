@@ -41,15 +41,15 @@
     "supported": "¿Qué te ayudaría a sentirte apoyada en este momento?"
   },
   "common": {
-    "get_started": "Comience",
+    "get_started": "Comenzar",
     "start_over": "Volver a empezar",
     "finish_exit": "Finalizar y salir",
     "well_done": "¡Bien hecho!",
     "completion_message": "Has completado esta actividad con éxito. Tómate un momento para apreciar tu progreso.",
     "time_to_complete": "Tiempo para completar",
     "back": "Atrás",
-    "next": "Próximo",
-    "save": "Ahorrar",
+    "next": "Siguiente",
+    "save": "Guardar",
     "loading": "Cargando...",
     "share": "Compartir",
     "share_progress": "Compartir el progreso",
@@ -61,7 +61,13 @@
     "yes": "Sí",
     "no": "No",
     "date": "Fecha",
-    "continue": "Continuar"
+    "continue": "Continuar",
+    "step_of": "Paso {{current}} de {{total}}",
+    "round_of": "Ronda {{current}} de {{total}}",
+    "phase_label": "Fase",
+    "rounds_selector": "{{count}} Rondas",
+    "instruction_ready": "Configura tus rondas y toca play para comenzar",
+    "instruction_running": "Sigue el círculo para regular tu respiración"
   },
   "app_duration": "1-2 minutos",
   "intro_p1": "Haz un seguimiento de tus patrones emocionales",
@@ -96,5 +102,14 @@
     "reflection": {
       "title": "Pause & Reflect"
     }
-  }
+  },
+  "phase_label": "Fase",
+  "instruction_ready": "Configura tus rondas y toca play para comenzar",
+  "instruction_running": "Sigue el círculo para regular tu respiración",
+  "round_x_of_y": "Ronda {{current}} de {{total}}",
+  "rounds_selector": "{{count}} Rondas",
+  "yes": "Sí",
+  "no": "No",
+  "date": "Fecha",
+  "continue": "Continuar"
 }

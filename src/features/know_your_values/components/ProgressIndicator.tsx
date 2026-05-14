@@ -1,13 +1,16 @@
+import { useTranslation } from "react-i18next";
+
 interface ProgressIndicatorProps {
   currentStep: number;
   totalSteps: number;
 }
 
 const ProgressIndicator = ({ currentStep, totalSteps }: ProgressIndicatorProps) => {
+  const { t } = useTranslation();
   return (
     <div className="flex flex-col items-center gap-2 mb-8">
       <p className="text-sm font-medium text-muted-foreground">
-        Step {currentStep} of {totalSteps}
+        {(typeof t !== "undefined" ? t : (k) => k)('common.step_of', { current: currentStep, total: totalSteps, defaultValue: `Step ${currentStep} of ${totalSteps}` })}
       </p>
       <div className="flex gap-2">
         {Array.from({ length: totalSteps }, (_, i) => (

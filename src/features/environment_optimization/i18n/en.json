@@ -53,7 +53,13 @@
     "yes": "Yes",
     "no": "No",
     "date": "Date",
-    "continue": "Continue"
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
   },
   "app_duration": "5 minutes",
   "app_description": "Environment Optimization Exercise",
@@ -68,5 +74,14 @@
   "pagination": "pagination",
   "go_to_previous_page": "Go to previous page",
   "go_to_next_page": "Go to next page",
-  "toggle_sidebar": "Toggle Sidebar"
+  "toggle_sidebar": "Toggle Sidebar",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
 }

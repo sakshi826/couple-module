@@ -47,12 +47,12 @@
     "get_started": "Commencer",
     "start_over": "Recommencer",
     "finish_exit": "Fin et sortie",
-    "well_done": "Bien joué!",
+    "well_done": "Bien joué !",
     "completion_message": "Vous avez terminé cette activité avec succès. Prenez un moment pour apprécier vos progrès.",
     "time_to_complete": "Temps écoulé",
-    "back": "Dos",
+    "back": "Retour",
     "next": "Suivant",
-    "save": "Sauvegarder",
+    "save": "Enregistrer",
     "loading": "Chargement...",
     "share": "Partager",
     "share_progress": "Partager les progrès",
@@ -61,10 +61,16 @@
     "this_activity": "cette activité",
     "copied": "Copié !",
     "copy_message": "Copier le message",
-    "yes": "Yes",
-    "no": "No",
+    "yes": "Oui",
+    "no": "Non",
     "date": "Date",
-    "continue": "Continue"
+    "continue": "Continuer",
+    "phase_label": "Phase",
+    "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+    "instruction_running": "Suivez le cercle pour réguler votre respiration",
+    "step_of": "Étape {{current}} sur {{total}}",
+    "round_of": "Round {{current}} sur {{total}}",
+    "rounds_selector": "{{count}} Rounds"
   },
   "app_title": "Connaissez vos valeurs",
   "app_description": "Connaissez vos valeurs",
@@ -88,5 +94,14 @@
     "summary": {
       "title": "Values Summary"
     }
-  }
+  },
+  "phase_label": "Phase",
+  "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+  "instruction_running": "Suivez le cercle pour réguler votre respiration",
+  "round_x_of_y": "Round {{current}} sur {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Oui",
+  "no": "Non",
+  "date": "Date",
+  "continue": "Continuer"
 }

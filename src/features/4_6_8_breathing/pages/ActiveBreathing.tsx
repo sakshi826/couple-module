@@ -132,10 +132,10 @@ const ActiveBreathing = () => {
         <div className="text-center space-y-3">
           <div className="flex items-center justify-center gap-2 text-primary font-black text-[10px] uppercase tracking-[0.2em]">
             <Wind size={16} />
-            Phase: {(typeof t !== "undefined" ? t : (k) => k)(phase)}
+            {(typeof t !== "undefined" ? t : (k) => k)('phase_label')}: {(typeof t !== "undefined" ? t : (k) => k)(phase)}
           </div>
           <h2 className="text-3xl font-black text-slate-900 tracking-tight">
-            Round {currentRound} of {totalRounds}
+            {(typeof t !== "undefined" ? t : (k) => k)('round_x_of_y', { current: currentRound, total: totalRounds })}
           </h2>
         </div>
 
@@ -184,7 +184,7 @@ const ActiveBreathing = () => {
                     : "text-slate-400 hover:text-slate-600 hover:bg-slate-100"
                   }`}
               >
-                {r} Rounds
+                {(typeof t !== "undefined" ? t : (k) => k)('rounds_selector', { count: r })}
               </button>
             ))}
           </div>
@@ -217,7 +217,9 @@ const ActiveBreathing = () => {
         </div>
 
         <p className="text-slate-400 text-[10px] font-black uppercase tracking-[0.2em] max-w-[200px] text-center leading-relaxed">
-          {status === "idle" ? "Set your rounds and tap play to begin" : "Follow the circle to regulate your breath"}
+          {status === "idle" 
+            ? (typeof t !== "undefined" ? t : (k) => k)("instruction_ready") 
+            : (typeof t !== "undefined" ? t : (k) => k)("instruction_running")}
         </p>
       </div>
     </PremiumLayout>

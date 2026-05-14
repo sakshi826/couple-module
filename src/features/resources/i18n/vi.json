@@ -35,16 +35,16 @@
     }
   },
   "common": {
-    "get_started": "Bắt đầu",
+    "get_started": "Get Started",
     "start_over": "Bắt đầu lại",
     "finish_exit": "Hoàn thành & Lối ra",
-    "well_done": "Làm tốt!",
-    "completion_message": "Bạn đã hoàn thành hoạt động này một cách thành công. Hãy dành chút thời gian để tự hào về những tiến bộ mình đã đạt được.",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
     "time_to_complete": "Đã đến lúc hoàn thành",
-    "back": "Mặt sau",
-    "next": "Kế tiếp",
-    "save": "Cứu",
-    "loading": "Đang tải...",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
     "share": "Chia sẻ",
     "share_progress": "Chia sẻ tiến độ",
     "inspire_others": "Hãy truyền cảm hứng cho người khác ngay hôm nay!",
@@ -55,7 +55,13 @@
     "yes": "Yes",
     "no": "No",
     "date": "Date",
-    "continue": "Continue"
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
   },
   "app_description": "Tài nguyên",
   "concerns": {
@@ -80,5 +86,14 @@
     "articles": "Bài viết",
     "myths": "Những huyền thoại",
     "tips": "Mẹo"
-  }
+  },
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
 }

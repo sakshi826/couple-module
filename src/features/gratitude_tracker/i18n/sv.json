@@ -17,16 +17,16 @@
     "optional": "(valfritt)"
   },
   "common": {
-    "get_started": "Kom igång",
+    "get_started": "Get Started",
     "start_over": "Börja om från början",
     "finish_exit": "Slutför och avsluta",
-    "well_done": "Bra jobbat!",
-    "completion_message": "Du har slutfört den här aktiviteten. Ta en stund för att uppskatta dina framsteg.",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
     "time_to_complete": "Dags att slutföra",
-    "back": "Tillbaka",
-    "next": "Nästa",
-    "save": "Spara",
-    "loading": "Belastning...",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
     "share": "Dela",
     "share_progress": "Dela framsteg",
     "inspire_others": "Inspirera andra idag",
@@ -37,7 +37,13 @@
     "yes": "Yes",
     "no": "No",
     "date": "Date",
-    "continue": "Continue"
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
   },
   "mood": {
     "heading": "Hur mår du?",
@@ -95,5 +101,14 @@
   "create_new_entry": "Skapa ny post",
   "oops_page_not_found": "Hoppsan! Sidan hittades inte",
   "return_to_home": "Återvänd till hemmet",
-  "loading_entry": "Laddar inmatning..."
+  "loading_entry": "Laddar inmatning...",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
 }

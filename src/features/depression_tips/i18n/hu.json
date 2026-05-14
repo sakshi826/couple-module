@@ -5,7 +5,19 @@
     "date": "Date",
     "continue": "Continue",
     "next": "Next",
-    "previous": "Previous"
+    "previous": "Previous",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath",
+    "back": "Back",
+    "save": "Save",
+    "loading": "Loading...",
+    "get_started": "Get Started",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress."
   },
   "notAlone": "You're not alone 💛",
   "supportForLowMood": "Support for Low Mood",
@@ -68,5 +80,14 @@
   "t5_do5": "Take a warm shower",
   "t5_rem": "Small physical care can create real emotional change.",
   "t5_act": "Do One Self-Care Act",
-  "app_title": "Depression Tips"
+  "app_title": "Depression Tips",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
 }

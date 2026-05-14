@@ -17,16 +17,16 @@
     "optional": "(isteğe bağlı)"
   },
   "common": {
-    "get_started": "Başlayın",
+    "get_started": "Get Started",
     "start_over": "Baştan Başla",
     "finish_exit": "Bitir ve Çık",
-    "well_done": "Tebrikler!",
-    "completion_message": "Bu etkinliği başarıyla tamamladınız. İlerlemenizi takdir etmek için bir an ayırın.",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
     "time_to_complete": "Tamamlama süresi",
-    "back": "Geri",
-    "next": "Sonraki",
-    "save": "Kaydetmek",
-    "loading": "Yükleniyor...",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
     "share": "Paylaşmak",
     "share_progress": "İlerlemenizi Paylaşın",
     "inspire_others": "Bugün başkalarına ilham verin.",
@@ -37,7 +37,13 @@
     "yes": "Yes",
     "no": "No",
     "date": "Date",
-    "continue": "Continue"
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
   },
   "mood": {
     "heading": "Nasıl hissediyorsun?",
@@ -95,5 +101,14 @@
   "create_new_entry": "Yeni Giriş Oluştur",
   "oops_page_not_found": "Ups! Sayfa bulunamadı.",
   "return_to_home": "Ana sayfaya dön",
-  "loading_entry": "Giriş yükleniyor..."
+  "loading_entry": "Giriş yükleniyor...",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
 }

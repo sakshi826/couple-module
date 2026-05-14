@@ -1,15 +1,15 @@
 {
   "common": {
-    "get_started": "Kom i gang",
+    "get_started": "Get Started",
     "start_over": "Start forfra",
     "finish_exit": "Afslut og afslut",
-    "well_done": "Godt klaret!",
-    "completion_message": "Du har gennemført denne aktivitet. Brug et øjeblik på at værdsætte dine fremskridt.",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
     "time_to_complete": "Tid til at færdiggøre",
-    "back": "Tilbage",
-    "next": "Næste",
-    "save": "Spare",
-    "loading": "Indlæser...",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
     "share": "Dele",
     "share_progress": "Del fremskridt",
     "inspire_others": "Inspirer andre i dag",
@@ -21,7 +21,13 @@
     "no": "No",
     "date": "Date",
     "continue": "Continue",
-    "chooseAnother": "Choose another feeling"
+    "chooseAnother": "Choose another feeling",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
   },
   "feelings": {
     "lonely": {
@@ -203,5 +209,14 @@
   "go_to_next_page": "Gå til næste side",
   "toggle_sidebar": "Slå sidebjælken til/fra",
   "oops_page_not_found": "Ups! Siden blev ikke fundet",
-  "return_to_home": "Tilbage til hjemmet"
+  "return_to_home": "Tilbage til hjemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
 }

@@ -1,5 +1,6 @@
 import React, { ReactNode } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 interface MobileShellProps {
   children: ReactNode;
@@ -8,13 +9,14 @@ interface MobileShellProps {
 }
 
 const MobileShell = ({ children, step, totalSteps }: MobileShellProps) => {
+  const { t } = useTranslation();
   return (
     <div className="flex flex-col items-center py-6">
       <div className="w-full max-w-lg space-y-8">
         {step && totalSteps && (
           <div className="flex items-center justify-between px-2">
             <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">
-              Step {step} of {totalSteps}
+              {t('common.step_of', { step, total: totalSteps, defaultValue: `Step ${step} of ${totalSteps}` })}
             </span>
             <div className="flex gap-1.5">
               {Array.from({ length: totalSteps }).map((_, i) => (

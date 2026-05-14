@@ -44,16 +44,16 @@
     "Honesty": "Honestidade"
   },
   "common": {
-    "get_started": "Comece agora",
+    "get_started": "Get Started",
     "start_over": "Recomeçar",
     "finish_exit": "Finalizar e sair",
-    "well_done": "Bom trabalho!",
-    "completion_message": "Você concluiu esta atividade com sucesso. Reserve um momento para apreciar seu progresso.",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
     "time_to_complete": "Tempo para concluir",
-    "back": "Voltar",
-    "next": "Próximo",
-    "save": "Salvar",
-    "loading": "Carregando...",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
     "share": "Compartilhar",
     "share_progress": "Compartilhar progresso",
     "inspire_others": "Inspire outras pessoas hoje",
@@ -64,7 +64,13 @@
     "yes": "Yes",
     "no": "No",
     "date": "Date",
-    "continue": "Continue"
+    "continue": "Continue",
+    "phase_label": "Phase",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "rounds_selector": "{{count}} Rounds"
   },
   "app_title": "Conheça seus valores",
   "app_description": "Conheça seus valores",
@@ -88,5 +94,14 @@
     "summary": {
       "title": "Values Summary"
     }
-  }
+  },
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
 }

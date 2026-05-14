@@ -8,8 +8,8 @@
   "hold": "屏息",
   "exhale": "呼气",
   "rounds_to_feel_shift": "完成 {{count}} 回合，感受变化。",
-  "round_x_of_y": "第 {{current}} / {{total}} 轮",
-  "rounds_selector": "{{count}}回合",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
   "resume": "继续",
   "start": "开始",
   "pause": "暂停",
@@ -45,7 +45,13 @@
     "yes": "Yes",
     "no": "No",
     "date": "Date",
-    "continue": "Continue"
+    "continue": "Continue",
+    "phase_label": "Phase",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "rounds_selector": "{{count}} Rounds"
   },
   "app_duration": "3-5 minutes",
   "intro_p1": "Calms the nervous system",
@@ -64,5 +70,12 @@
   "go_to_next_page": "Go to next page",
   "toggle_sidebar": "Toggle Sidebar",
   "welcome_to_your_blank_app": "Welcome to Your Blank App",
-  "start_building_your_amazing_project_here": "Start building your amazing project here!"
+  "start_building_your_amazing_project_here": "Start building your amazing project here!",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
 }

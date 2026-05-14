@@ -17,7 +17,7 @@ interface Screen1Props {
 }
 
 const Screen1CheckIn = ({ date, onDateChange, onContinue }: Screen1Props) => {
-  const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
   const [answer, setAnswer] = useState<boolean | null>(null);
 
   return (
@@ -41,7 +41,7 @@ const Screen1CheckIn = ({ date, onDateChange, onContinue }: Screen1Props) => {
               )}
             >
               <CalendarIcon className="mr-2 h-4 w-4 text-muted-foreground" />
-              {format(date, "PPP")}
+              {new Intl.DateTimeFormat(i18n.language, { dateStyle: 'long' }).format(date)}
             </Button>
           </PopoverTrigger>
           <PopoverContent className="w-auto p-0" align="start">

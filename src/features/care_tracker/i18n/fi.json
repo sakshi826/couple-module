@@ -1,15 +1,15 @@
 {
   "common": {
-    "get_started": "Aloita",
+    "get_started": "Get Started",
     "start_over": "Aloita alusta",
     "finish_exit": "Lopeta ja poistu",
-    "well_done": "Hyvin tehty!",
-    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Käytä hetki aikaa edistymisesi arvostamiseen.",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
     "time_to_complete": "Aikaa valmistua",
-    "back": "Takaisin",
-    "next": "Seuraava",
-    "save": "Tallentaa",
-    "loading": "Ladataan...",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
     "share": "Jakaa",
     "share_progress": "Jaa edistyminen",
     "inspire_others": "Inspiroi muita tänään",
@@ -21,7 +21,13 @@
     "no": "No",
     "date": "Date",
     "continue": "Continue",
-    "add_activity": "Add another activity..."
+    "add_activity": "Add another activity...",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
   },
   "screens": {
     "intro": {
@@ -160,5 +166,14 @@
   "pagination": "sivunumerointi",
   "go_to_previous_page": "Siirry edelliselle sivulle",
   "go_to_next_page": "Siirry seuraavalle sivulle",
-  "toggle_sidebar": "Näytä/piilota sivupalkki"
+  "toggle_sidebar": "Näytä/piilota sivupalkki",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
 }

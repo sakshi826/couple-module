@@ -35,16 +35,16 @@
     }
   },
   "common": {
-    "get_started": "Начать",
+    "get_started": "Get Started",
     "start_over": "Начать заново",
     "finish_exit": "Финиш и выход",
-    "well_done": "Отличная работа!",
-    "completion_message": "Вы успешно выполнили это задание. Уделите немного времени, чтобы оценить свой прогресс.",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
     "time_to_complete": "Время выполнения",
-    "back": "Назад",
-    "next": "Следующий",
-    "save": "Сохранять",
-    "loading": "Загрузка...",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
     "share": "Делиться",
     "share_progress": "Поделиться прогрессом",
     "inspire_others": "Вдохновите других сегодня!",
@@ -55,7 +55,13 @@
     "yes": "Yes",
     "no": "No",
     "date": "Date",
-    "continue": "Continue"
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
   },
   "app_description": "Ресурсы",
   "concerns": {
@@ -80,5 +86,14 @@
     "articles": "Статьи",
     "myths": "Мифы",
     "tips": "Советы"
-  }
+  },
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
 }
