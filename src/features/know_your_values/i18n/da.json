@@ -80,5 +80,13 @@
   "go_to_next_page": "Gå til næste side",
   "toggle_sidebar": "Slå sidebjælken til/fra",
   "oops_page_not_found": "Ups! Siden blev ikke fundet",
-  "return_to_home": "Tilbage til hjemmet"
+  "return_to_home": "Tilbage til hjemmet",
+  "screens": {
+    "history": {
+      "title": "Weekly History"
+    },
+    "summary": {
+      "title": "Values Summary"
+    }
+  }
 }

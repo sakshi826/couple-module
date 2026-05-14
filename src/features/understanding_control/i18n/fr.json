@@ -55,7 +55,8 @@
   ],
   "complete": {
     "title": "Prise de conscience acquise",
-    "message": "Comprendre les racines du contrôle est une première étape courageuse pour trouver de nouvelles façons de se sentir en sécurité et stable."
+    "message": "Comprendre les racines du contrôle est une première étape courageuse pour trouver de nouvelles façons de se sentir en sécurité et stable.",
+    "button_fallback": "Back to Hub"
   },
   "common": {
     "get_started": "Commencer",

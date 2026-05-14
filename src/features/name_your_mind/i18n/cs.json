@@ -26,7 +26,9 @@
     "concept": "Perspektiva",
     "input_thought": "Oznámení",
     "input_name": "Jméno",
-    "practice": "Praxe"
+    "practice": "Praxe",
+    "notice": "Notice your thoughts",
+    "name": "Give it a name"
   },
   "screens": {
     "concept": {

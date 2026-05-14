@@ -26,7 +26,9 @@
     "concept": "פרספקטיבה",
     "input_thought": "הודעה",
     "input_name": "שם",
-    "practice": "פרקטיקה"
+    "practice": "פרקטיקה",
+    "notice": "Notice your thoughts",
+    "name": "Give it a name"
   },
   "screens": {
     "concept": {

@@ -80,5 +80,13 @@
   "go_to_next_page": "Μετάβαση στην επόμενη σελίδα",
   "toggle_sidebar": "Εναλλαγή πλευρικής γραμμής",
   "oops_page_not_found": "Ωχ! Η σελίδα δεν βρέθηκε.",
-  "return_to_home": "Επιστροφή στην Αρχική"
+  "return_to_home": "Επιστροφή στην Αρχική",
+  "screens": {
+    "history": {
+      "title": "Weekly History"
+    },
+    "summary": {
+      "title": "Values Summary"
+    }
+  }
 }

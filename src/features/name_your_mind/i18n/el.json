@@ -26,7 +26,9 @@
     "concept": "Προοπτική",
     "input_thought": "Ειδοποίηση",
     "input_name": "Όνομα",
-    "practice": "Πρακτική"
+    "practice": "Πρακτική",
+    "notice": "Notice your thoughts",
+    "name": "Give it a name"
   },
   "screens": {
     "concept": {

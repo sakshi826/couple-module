@@ -55,7 +55,8 @@
   ],
   "complete": {
     "title": "인식 획득",
-    "message": "통제의 뿌리를 이해하는 것은 안전하고 안정감을 느끼는 새로운 방법을 찾는 용기 있는 첫걸음입니다."
+    "message": "통제의 뿌리를 이해하는 것은 안전하고 안정감을 느끼는 새로운 방법을 찾는 용기 있는 첫걸음입니다.",
+    "button_fallback": "Back to Hub"
   },
   "common": {
     "get_started": "시작하기",

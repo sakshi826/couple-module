@@ -26,7 +26,9 @@
     "concept": "దృక్పథం",
     "input_thought": "నోటీసు",
     "input_name": "పేరు",
-    "practice": "ప్రాక్టీస్"
+    "practice": "ప్రాక్టీస్",
+    "notice": "Notice your thoughts",
+    "name": "Give it a name"
   },
   "screens": {
     "concept": {

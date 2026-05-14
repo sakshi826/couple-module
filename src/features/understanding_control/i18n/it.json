@@ -55,7 +55,8 @@
   ],
   "complete": {
     "title": "Consapevolezza acquisita",
-    "message": "Comprendere le radici del controllo è un primo passo coraggioso per trovare nuovi modi per sentirsi sicuri e stabili."
+    "message": "Comprendere le radici del controllo è un primo passo coraggioso per trovare nuovi modi per sentirsi sicuri e stabili.",
+    "button_fallback": "Back to Hub"
   },
   "common": {
     "get_started": "Inizia subito",

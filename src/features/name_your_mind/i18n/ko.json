@@ -26,7 +26,9 @@
     "concept": "관점",
     "input_thought": "공지",
     "input_name": "이름",
-    "practice": "실무"
+    "practice": "실무",
+    "notice": "Notice your thoughts",
+    "name": "Give it a name"
   },
   "screens": {
     "concept": {

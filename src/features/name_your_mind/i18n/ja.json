@@ -26,7 +26,9 @@
     "concept": "視点",
     "input_thought": "通知",
     "input_name": "名称",
-    "practice": "実践"
+    "practice": "実践",
+    "notice": "Notice your thoughts",
+    "name": "Give it a name"
   },
   "screens": {
     "concept": {

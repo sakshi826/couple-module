@@ -63,6 +63,10 @@
   "app_title": "Depression Tips",
   "common": {
     "next": "Next",
-    "previous": "Previous"
+    "previous": "Previous",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
   }
 }

@@ -85,5 +85,16 @@
   "go_to_next_page": "اگلے صفحے پر جائیں۔",
   "toggle_sidebar": "سائڈبار کو ٹوگل کریں۔",
   "oops_page_not_found": "افوہ! صفحہ نہیں ملا",
-  "return_to_home": "گھر واپس جائیں۔"
+  "return_to_home": "گھر واپس جائیں۔",
+  "screens": {
+    "history": {
+      "title": "Vibe History"
+    },
+    "confirmation": {
+      "title": "Vibe Logged"
+    },
+    "reflection": {
+      "title": "Pause & Reflect"
+    }
+  }
 }

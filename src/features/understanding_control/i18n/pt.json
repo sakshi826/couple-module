@@ -55,7 +55,8 @@
   ],
   "complete": {
     "title": "Conscientização Adquirida",
-    "message": "Compreender as raízes do controle é um primeiro passo corajoso para encontrar novas formas de se sentir seguro e estável."
+    "message": "Compreender as raízes do controle é um primeiro passo corajoso para encontrar novas formas de se sentir seguro e estável.",
+    "button_fallback": "Back to Hub"
   },
   "common": {
     "get_started": "Comece agora",

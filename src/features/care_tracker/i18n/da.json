@@ -20,7 +20,8 @@
     "yes": "Yes",
     "no": "No",
     "date": "Date",
-    "continue": "Continue"
+    "continue": "Continue",
+    "add_activity": "Add another activity..."
   },
   "screens": {
     "intro": {
@@ -128,20 +129,20 @@
       "Tired": "Træt",
       "Neutral": "Neutral"
     },
-    "positiveStatements": [
-      "Du dukkede op for dig selv i dag. Det er stærkt. 🌿",
-      "Egenomsorg er ikke egoistisk — det er essentielt. Godt gået. 💚",
-      "Hver lille omsorgshandling bygger en stærkere dig selv. 🌱",
-      "Du investerede i dig selv i dag. Det betyder noget. ✨",
-      "At tage sig af dig er det bedste, du har gjort i dag. 🍃"
-    ],
-    "supportiveStatements": [
-      "Det er okay. I morgen er en frisk start. Vær blid ved dig selv. 🤍",
-      "Ikke alle dage vil være perfekte, og det er helt i orden. 🕊️",
-      "Du gør dit bedste. Det er altid nok. 💛",
-      "Hvile er også en form for egenomsorg. Vær nådig med dig selv. 🌸",
-      "At anerkende i dag kræver mod. Du vokser allerede. 🌷"
-    ]
+    "positiveStatements": {
+      "0": "Du dukkede op for dig selv i dag. Det er stærkt. 🌿",
+      "1": "Egenomsorg er ikke egoistisk — det er essentielt. Godt gået. 💚",
+      "2": "Hver lille omsorgshandling bygger en stærkere dig selv. 🌱",
+      "3": "Du investerede i dig selv i dag. Det betyder noget. ✨",
+      "4": "At tage sig af dig er det bedste, du har gjort i dag. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "Det er okay. I morgen er en frisk start. Vær blid ved dig selv. 🤍",
+      "1": "Ikke alle dage vil være perfekte, og det er helt i orden. 🕊️",
+      "2": "Du gør dit bedste. Det er altid nok. 💛",
+      "3": "Hvile er også en form for egenomsorg. Vær nådig med dig selv. 🌸",
+      "4": "At anerkende i dag kræver mod. Du vokser allerede. 🌷"
+    }
   },
   "app_title": "Selvplejetracker",
   "app_description": "Hold styr på dine daglige selvplejevaner, og se, hvordan de påvirker dit generelle velbefindende. Konsistens er nøglen til et sundere sind.",

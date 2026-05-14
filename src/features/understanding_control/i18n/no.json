@@ -55,7 +55,8 @@
   ],
   "complete": {
     "title": "Bevissthet oppnådd",
-    "message": "Å forstå røttene til kontroll er et modig første steg mot å finne nye måter å føle seg trygg og stødig på."
+    "message": "Å forstå røttene til kontroll er et modig første steg mot å finne nye måter å føle seg trygg og stødig på.",
+    "button_fallback": "Back to Hub"
   },
   "common": {
     "get_started": "Kom i gang",

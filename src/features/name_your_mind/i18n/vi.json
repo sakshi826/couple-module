@@ -26,7 +26,9 @@
     "concept": "Phối cảnh",
     "input_thought": "Chú ý",
     "input_name": "Tên",
-    "practice": "Thực hành"
+    "practice": "Thực hành",
+    "notice": "Notice your thoughts",
+    "name": "Give it a name"
   },
   "screens": {
     "concept": {

@@ -55,7 +55,8 @@
   ],
   "complete": {
     "title": "Bewusstsein gewonnen",
-    "message": "Das Verständnis der Wurzeln der Kontrolle ist ein mutiger erster Schritt, um neue Wege zu finden, sich sicher und gefestigt zu fühlen."
+    "message": "Das Verständnis der Wurzeln der Kontrolle ist ein mutiger erster Schritt, um neue Wege zu finden, sich sicher und gefestigt zu fühlen.",
+    "button_fallback": "Back to Hub"
   },
   "common": {
     "get_started": "Los geht's",

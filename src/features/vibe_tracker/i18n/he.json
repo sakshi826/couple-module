@@ -85,5 +85,16 @@
   "go_to_next_page": "עבור לעמוד הבא",
   "toggle_sidebar": "הפעלה/כיבוי סרגל צד",
   "oops_page_not_found": "אופס! הדף לא נמצא",
-  "return_to_home": "חזרה לבית"
+  "return_to_home": "חזרה לבית",
+  "screens": {
+    "history": {
+      "title": "Vibe History"
+    },
+    "confirmation": {
+      "title": "Vibe Logged"
+    },
+    "reflection": {
+      "title": "Pause & Reflect"
+    }
+  }
 }

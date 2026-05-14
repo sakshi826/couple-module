@@ -55,7 +55,8 @@
   ],
   "complete": {
     "title": "Nakuha ang Kamalayan",
-    "message": "Ang pag-unawa sa mga ugat ng kontrol ay isang matapang na unang hakbang patungo sa paghahanap ng mga bagong paraan upang makaramdam ng ligtas at matatag."
+    "message": "Ang pag-unawa sa mga ugat ng kontrol ay isang matapang na unang hakbang patungo sa paghahanap ng mga bagong paraan upang makaramdam ng ligtas at matatag.",
+    "button_fallback": "Back to Hub"
   },
   "common": {
     "get_started": "Magsimula",

@@ -26,7 +26,9 @@
     "concept": "Perspektive",
     "input_thought": "Hinweis",
     "input_name": "Name",
-    "practice": "Praxis"
+    "practice": "Praxis",
+    "notice": "Notice your thoughts",
+    "name": "Give it a name"
   },
   "screens": {
     "concept": {

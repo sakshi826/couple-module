@@ -44,6 +44,41 @@
     "back": "後退",
     "next": "下一個",
     "save": "節省",
-    "loading": "載入中..."
+    "loading": "載入中...",
+    "share": "Share",
+    "share_progress": "Share progress",
+    "inspire_others": "Inspire others",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied",
+    "copy_message": "Copy message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue"
+  },
+  "app_description": "Resources",
+  "concerns": {
+    "acceptance": "Acceptance",
+    "adolescent": "Adolescent",
+    "anger": "Anger",
+    "anxiety": "Anxiety",
+    "depression": "Depression",
+    "eating-disorder": "Eating Disorder",
+    "grief": "Grief",
+    "parenting": "Parenting",
+    "postpartum": "Postpartum",
+    "ptsd": "PTSD",
+    "relationship": "Relationship",
+    "sexuality": "Sexuality",
+    "sleep": "睡覺",
+    "stress": "Stress",
+    "workplace": "Workplace"
+  },
+  "types": {
+    "stories": "Stories",
+    "articles": "Articles",
+    "myths": "Myths",
+    "tips": "Tips"
   }
 }

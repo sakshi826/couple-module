@@ -55,7 +55,8 @@
   ],
   "complete": {
     "title": "Nhận thức đạt được",
-    "message": "Hiểu được gốc rễ của sự kiểm soát là bước đầu tiên dũng cảm để tìm ra những cách mới để cảm thấy an toàn và ổn định."
+    "message": "Hiểu được gốc rễ của sự kiểm soát là bước đầu tiên dũng cảm để tìm ra những cách mới để cảm thấy an toàn và ổn định.",
+    "button_fallback": "Back to Hub"
   },
   "common": {
     "get_started": "Bắt đầu",

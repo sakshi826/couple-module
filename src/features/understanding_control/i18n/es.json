@@ -55,7 +55,8 @@
   ],
   "complete": {
     "title": "Conciencia adquirida",
-    "message": "Comprender las raíces del control es un valiente primer paso para encontrar nuevas formas de sentirse seguro y estable."
+    "message": "Comprender las raíces del control es un valiente primer paso para encontrar nuevas formas de sentirse seguro y estable.",
+    "button_fallback": "Back to Hub"
   },
   "common": {
     "get_started": "Comience",

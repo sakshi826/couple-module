@@ -20,7 +20,8 @@
     "yes": "Yes",
     "no": "No",
     "date": "Date",
-    "continue": "Continue"
+    "continue": "Continue",
+    "chooseAnother": "다른 기분 선택하기"
   },
   "feelings": {
     "lonely": {

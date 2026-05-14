@@ -80,5 +80,13 @@
   "go_to_next_page": "Pumunta sa susunod na pahina",
   "toggle_sidebar": "I-toggle ang Sidebar",
   "oops_page_not_found": "Naku! Hindi natagpuan ang pahina",
-  "return_to_home": "Bumalik sa Bahay"
+  "return_to_home": "Bumalik sa Bahay",
+  "screens": {
+    "history": {
+      "title": "Weekly History"
+    },
+    "summary": {
+      "title": "Values Summary"
+    }
+  }
 }

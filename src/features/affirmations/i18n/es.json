@@ -20,7 +20,8 @@
     "yes": "Sí",
     "no": "No",
     "date": "Fecha",
-    "continue": "Continuar"
+    "continue": "Continuar",
+    "chooseAnother": "Elegir otro sentimiento"
   },
   "feelings": {
     "lonely": {

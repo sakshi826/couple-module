@@ -85,5 +85,16 @@
   "go_to_next_page": "Weiter zur nächsten Seite",
   "toggle_sidebar": "Seitenleiste ein-/ausblenden",
   "oops_page_not_found": "Hoppla! Seite nicht gefunden",
-  "return_to_home": "Zurück zur Startseite"
+  "return_to_home": "Zurück zur Startseite",
+  "screens": {
+    "history": {
+      "title": "Vibe History"
+    },
+    "confirmation": {
+      "title": "Vibe Logged"
+    },
+    "reflection": {
+      "title": "Pause & Reflect"
+    }
+  }
 }

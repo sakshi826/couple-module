@@ -47,7 +47,8 @@
     "calm": "Ruhig",
     "neutral": "Neutral",
     "low": "Niedrig",
-    "stressed": "Betont"
+    "stressed": "Betont",
+    "saving": "Saving..."
   },
   "review": {
     "heading": "Ihr Eintrag",

@@ -55,7 +55,8 @@
   ],
   "complete": {
     "title": "意識提升",
-    "message": "了解控制的根源是勇敢的第一步，也是找到獲得安全感和穩定感的新方法的第一步。"
+    "message": "了解控制的根源是勇敢的第一步，也是找到獲得安全感和穩定感的新方法的第一步。",
+    "button_fallback": "Back to Hub"
   },
   "common": {
     "get_started": "開始使用",

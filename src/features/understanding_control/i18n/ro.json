@@ -55,7 +55,8 @@
   ],
   "complete": {
     "title": "Conștientizare dobândită",
-    "message": "Înțelegerea rădăcinilor controlului este un prim pas curajos spre găsirea unor noi modalități de a te simți în siguranță și stabil."
+    "message": "Înțelegerea rădăcinilor controlului este un prim pas curajos spre găsirea unor noi modalități de a te simți în siguranță și stabil.",
+    "button_fallback": "Back to Hub"
   },
   "common": {
     "get_started": "Începeți",

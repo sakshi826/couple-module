@@ -47,7 +47,8 @@
     "calm": "Спокойствие",
     "neutral": "Нейтральный",
     "low": "Низкий",
-    "stressed": "Стресс"
+    "stressed": "Стресс",
+    "saving": "Saving..."
   },
   "review": {
     "heading": "Ваша заявка",

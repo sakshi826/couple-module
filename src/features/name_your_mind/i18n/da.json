@@ -26,7 +26,9 @@
     "concept": "Perspektiv",
     "input_thought": "Bemærk",
     "input_name": "Navn",
-    "practice": "Praksis"
+    "practice": "Praksis",
+    "notice": "Notice your thoughts",
+    "name": "Give it a name"
   },
   "screens": {
     "concept": {

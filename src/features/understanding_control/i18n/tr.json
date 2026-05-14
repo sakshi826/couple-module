@@ -55,7 +55,8 @@
   ],
   "complete": {
     "title": "Farkındalık Kazanıldı",
-    "message": "Kontrolün köklerini anlamak, güvende ve istikrarlı hissetmenin yeni yollarını bulmak için cesur bir ilk adımdır."
+    "message": "Kontrolün köklerini anlamak, güvende ve istikrarlı hissetmenin yeni yollarını bulmak için cesur bir ilk adımdır.",
+    "button_fallback": "Back to Hub"
   },
   "common": {
     "get_started": "Başlayın",

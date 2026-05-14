@@ -47,7 +47,8 @@
     "calm": "Rolig",
     "neutral": "Nøytral",
     "low": "Lavt",
-    "stressed": "Stresset"
+    "stressed": "Stresset",
+    "saving": "Saving..."
   },
   "review": {
     "heading": "Din innføring",

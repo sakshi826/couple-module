@@ -47,7 +47,8 @@
     "calm": "Rustig",
     "neutral": "Neutraal",
     "low": "Laag",
-    "stressed": "Gestrest"
+    "stressed": "Gestrest",
+    "saving": "Saving..."
   },
   "review": {
     "heading": "Uw Inzending",

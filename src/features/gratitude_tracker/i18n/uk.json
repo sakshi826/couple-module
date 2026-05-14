@@ -47,7 +47,8 @@
     "calm": "Спокій",
     "neutral": "Нейтральний",
     "low": "Низький",
-    "stressed": "Стрес"
+    "stressed": "Стрес",
+    "saving": "Saving..."
   },
   "review": {
     "heading": "Ваш запис",

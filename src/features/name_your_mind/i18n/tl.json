@@ -26,7 +26,9 @@
     "concept": "Pananaw",
     "input_thought": "Paunawa",
     "input_name": "Pangalan",
-    "practice": "Pagsasanay"
+    "practice": "Pagsasanay",
+    "notice": "Notice your thoughts",
+    "name": "Give it a name"
   },
   "screens": {
     "concept": {

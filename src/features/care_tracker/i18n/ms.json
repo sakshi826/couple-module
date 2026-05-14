@@ -20,7 +20,8 @@
     "yes": "Yes",
     "no": "No",
     "date": "Date",
-    "continue": "Continue"
+    "continue": "Continue",
+    "add_activity": "Add another activity..."
   },
   "screens": {
     "intro": {
@@ -128,20 +129,20 @@
       "Tired": "Letih",
       "Neutral": "Neutral"
     },
-    "positiveStatements": [
-      "Anda muncul untuk diri sendiri hari ini. Itu berkuasa. 🌿",
-      "Penjagaan diri tidak mementingkan diri sendiri - ia penting. Syabas. 💚",
-      "Setiap tindakan penjagaan kecil membina anda yang lebih kuat. 🌱",
-      "Anda melabur dalam diri anda hari ini. Itu penting. ✨",
-      "Menjaga anda adalah perkara terbaik yang anda lakukan hari ini. 🍃"
-    ],
-    "supportiveStatements": [
-      "Tak mengapa. Esok adalah permulaan yang baru. Bersikap lembut dengan diri sendiri. 🤍",
-      "Tidak setiap hari akan sempurna, dan itu tidak mengapa. 🕊️",
-      "Anda melakukan yang terbaik. Itu sentiasa mencukupi. 💛",
-      "Rehat juga merupakan satu bentuk penjagaan diri. Berikan diri anda rahmat. 🌸",
-      "Mengakui hari ini memerlukan keberanian. Anda sudah berkembang. 🌷"
-    ]
+    "positiveStatements": {
+      "0": "Anda muncul untuk diri sendiri hari ini. Itu berkuasa. 🌿",
+      "1": "Penjagaan diri tidak mementingkan diri sendiri - ia penting. Syabas. 💚",
+      "2": "Setiap tindakan penjagaan kecil membina anda yang lebih kuat. 🌱",
+      "3": "Anda melabur dalam diri anda hari ini. Itu penting. ✨",
+      "4": "Menjaga anda adalah perkara terbaik yang anda lakukan hari ini. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "Tak mengapa. Esok adalah permulaan yang baru. Bersikap lembut dengan diri sendiri. 🤍",
+      "1": "Tidak setiap hari akan sempurna, dan itu tidak mengapa. 🕊️",
+      "2": "Anda melakukan yang terbaik. Itu sentiasa mencukupi. 💛",
+      "3": "Rehat juga merupakan satu bentuk penjagaan diri. Berikan diri anda rahmat. 🌸",
+      "4": "Mengakui hari ini memerlukan keberanian. Anda sudah berkembang. 🌷"
+    }
   },
   "app_title": "Penjejak Penjagaan Diri",
   "app_description": "Jejaki tabiat penjagaan diri harian anda dan lihat bagaimana ia memberi kesan kepada kesejahteraan anda secara keseluruhan. Ketekalan adalah kunci kepada minda yang lebih sihat.",

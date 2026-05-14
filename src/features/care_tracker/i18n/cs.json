@@ -20,7 +20,8 @@
     "yes": "Yes",
     "no": "No",
     "date": "Date",
-    "continue": "Continue"
+    "continue": "Continue",
+    "add_activity": "Add another activity..."
   },
   "screens": {
     "intro": {
@@ -128,20 +129,20 @@
       "Stressed": "Stresovaný",
       "Tired": "Unavený"
     },
-    "positiveStatements": [
-      "Dnes jsi přišel kvůli sobě. To je silné. 🌿",
-      "Péče o sebe není sobecká — je nezbytná. Dobrá práce. 💚",
-      "Každý malý projev péče buduje silnější vás. 🌱",
-      "Dnes jsi investoval do sebe. To je důležité. ✨",
-      "Starat se o tebe je to nejlepší, co jsi dnes udělal. 🍃"
-    ],
-    "supportiveStatements": [
-      "To je v pořádku. Zítra je nový začátek. Buď na sebe laskavý. 🤍",
-      "Ne každý den bude dokonalý, a to je naprosto v pořádku. 🕊️",
-      "Děláš, co můžeš. To je vždycky dost. 💛",
-      "Odpočinek je také formou péče o sebe. Buď k sobě shovívavý. 🌸",
-      "Přiznat dnešek vyžaduje odvahu. Už rosteš. 🌷"
-    ]
+    "positiveStatements": {
+      "0": "Dnes jsi přišel kvůli sobě. To je silné. 🌿",
+      "1": "Péče o sebe není sobecká — je nezbytná. Dobrá práce. 💚",
+      "2": "Každý malý projev péče buduje silnější vás. 🌱",
+      "3": "Dnes jsi investoval do sebe. To je důležité. ✨",
+      "4": "Starat se o tebe je to nejlepší, co jsi dnes udělal. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "To je v pořádku. Zítra je nový začátek. Buď na sebe laskavý. 🤍",
+      "1": "Ne každý den bude dokonalý, a to je naprosto v pořádku. 🕊️",
+      "2": "Děláš, co můžeš. To je vždycky dost. 💛",
+      "3": "Odpočinek je také formou péče o sebe. Buď k sobě shovívavý. 🌸",
+      "4": "Přiznat dnešek vyžaduje odvahu. Už rosteš. 🌷"
+    }
   },
   "app_title": "Sledovač péče o sebe",
   "app_description": "Sledujte své každodenní návyky v péči o sebe a sledujte, jak ovlivňují vaši celkovou pohodu. Důslednost je klíčem ke zdravější mysli.",

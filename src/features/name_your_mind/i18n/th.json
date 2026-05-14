@@ -26,7 +26,9 @@
     "concept": "มุมมอง",
     "input_thought": "แจ้งให้ทราบ",
     "input_name": "ชื่อ",
-    "practice": "ฝึกฝน"
+    "practice": "ฝึกฝน",
+    "notice": "Notice your thoughts",
+    "name": "Give it a name"
   },
   "screens": {
     "concept": {

@@ -55,7 +55,8 @@
   ],
   "complete": {
     "title": "Opnået bevidsthed",
-    "message": "At forstå rødderne til kontrol er et modigt første skridt mod at finde nye måder at føle sig tryg og stabil på."
+    "message": "At forstå rødderne til kontrol er et modigt første skridt mod at finde nye måder at føle sig tryg og stabil på.",
+    "button_fallback": "Back to Hub"
   },
   "common": {
     "get_started": "Kom i gang",

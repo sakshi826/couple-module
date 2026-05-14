@@ -55,7 +55,8 @@
   ],
   "complete": {
     "title": "Tietoisuuden lisääminen",
-    "message": "Kontrollin juurien ymmärtäminen on rohkea ensimmäinen askel kohti uusien tapojen löytämistä tuntea olonsa turvalliseksi ja vakaaksi."
+    "message": "Kontrollin juurien ymmärtäminen on rohkea ensimmäinen askel kohti uusien tapojen löytämistä tuntea olonsa turvalliseksi ja vakaaksi.",
+    "button_fallback": "Back to Hub"
   },
   "common": {
     "get_started": "Aloita",

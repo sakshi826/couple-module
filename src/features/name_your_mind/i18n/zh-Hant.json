@@ -26,7 +26,9 @@
     "concept": "看法",
     "input_thought": "注意",
     "input_name": "姓名",
-    "practice": "實踐"
+    "practice": "實踐",
+    "notice": "Notice your thoughts",
+    "name": "Give it a name"
   },
   "screens": {
     "concept": {

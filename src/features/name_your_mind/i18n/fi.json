@@ -26,7 +26,9 @@
     "concept": "Näkökulma",
     "input_thought": "Ilmoitus",
     "input_name": "Nimi",
-    "practice": "Harjoitukset"
+    "practice": "Harjoitukset",
+    "notice": "Notice your thoughts",
+    "name": "Give it a name"
   },
   "screens": {
     "concept": {

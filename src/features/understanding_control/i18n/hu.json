@@ -55,7 +55,8 @@
   ],
   "complete": {
     "title": "Tudatosság",
-    "message": "Az irányítás gyökereinek megértése bátor első lépés afelé, hogy új módokat találjunk a biztonságban és stabil érzésben."
+    "message": "Az irányítás gyökereinek megértése bátor első lépés afelé, hogy új módokat találjunk a biztonságban és stabil érzésben.",
+    "button_fallback": "Back to Hub"
   },
   "common": {
     "get_started": "Kezdés",

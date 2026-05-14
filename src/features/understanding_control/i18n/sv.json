@@ -55,7 +55,8 @@
   ],
   "complete": {
     "title": "Medvetenhet som uppnåtts",
-    "message": "Att förstå kontrollens rötter är ett modigt första steg mot att hitta nya sätt att känna sig trygg och stadig."
+    "message": "Att förstå kontrollens rötter är ett modigt första steg mot att hitta nya sätt att känna sig trygg och stadig.",
+    "button_fallback": "Back to Hub"
   },
   "common": {
     "get_started": "Kom igång",

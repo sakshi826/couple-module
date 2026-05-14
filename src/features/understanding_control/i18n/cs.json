@@ -55,7 +55,8 @@
   ],
   "complete": {
     "title": "Získané povědomí",
-    "message": "Pochopení kořenů kontroly je odvážný první krok k nalezení nových způsobů, jak se cítit bezpečně a stabilně."
+    "message": "Pochopení kořenů kontroly je odvážný první krok k nalezení nových způsobů, jak se cítit bezpečně a stabilně.",
+    "button_fallback": "Back to Hub"
   },
   "common": {
     "get_started": "Začít",

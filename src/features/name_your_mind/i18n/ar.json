@@ -26,7 +26,9 @@
     "concept": "وجهة نظر",
     "input_thought": "ملاحظة",
     "input_name": "الاسم",
-    "practice": "الممارسة"
+    "practice": "الممارسة",
+    "notice": "Notice your thoughts",
+    "name": "Give it a name"
   },
   "screens": {
     "concept": {

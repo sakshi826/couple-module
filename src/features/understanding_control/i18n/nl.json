@@ -55,7 +55,8 @@
   ],
   "complete": {
     "title": "Bewustwording",
-    "message": "Het begrijpen van de wortels van controle is een moedige eerste stap naar het vinden van nieuwe manieren om je veilig en stabiel te voelen."
+    "message": "Het begrijpen van de wortels van controle is een moedige eerste stap naar het vinden van nieuwe manieren om je veilig en stabiel te voelen.",
+    "button_fallback": "Back to Hub"
   },
   "common": {
     "get_started": "Aan de slag",

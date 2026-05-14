@@ -47,7 +47,8 @@
     "calm": "Rolig",
     "neutral": "Neutral",
     "low": "Lavt",
-    "stressed": "Stresset"
+    "stressed": "Stresset",
+    "saving": "Saving..."
   },
   "review": {
     "heading": "Din Indsendelse",

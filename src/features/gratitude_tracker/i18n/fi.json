@@ -47,7 +47,8 @@
     "calm": "Rauhoitu",
     "neutral": "Neutraali",
     "low": "Matala",
-    "stressed": "Stressaantunut"
+    "stressed": "Stressaantunut",
+    "saving": "Saving..."
   },
   "review": {
     "heading": "Sinun merkintäsi",

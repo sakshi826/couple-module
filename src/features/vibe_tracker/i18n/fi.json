@@ -85,5 +85,16 @@
   "go_to_next_page": "Siirry seuraavalle sivulle",
   "toggle_sidebar": "Näytä/piilota sivupalkki",
   "oops_page_not_found": "Hupsista! Sivua ei löytynyt",
-  "return_to_home": "Palaa kotiin"
+  "return_to_home": "Palaa kotiin",
+  "screens": {
+    "history": {
+      "title": "Vibe History"
+    },
+    "confirmation": {
+      "title": "Vibe Logged"
+    },
+    "reflection": {
+      "title": "Pause & Reflect"
+    }
+  }
 }

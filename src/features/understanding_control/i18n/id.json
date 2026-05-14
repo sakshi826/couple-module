@@ -55,7 +55,8 @@
   ],
   "complete": {
     "title": "Kesadaran yang Diperoleh",
-    "message": "Memahami akar kontrol adalah langkah pertama yang berani untuk menemukan cara baru untuk merasa aman dan mantap."
+    "message": "Memahami akar kontrol adalah langkah pertama yang berani untuk menemukan cara baru untuk merasa aman dan mantap.",
+    "button_fallback": "Back to Hub"
   },
   "common": {
     "get_started": "Mulai",

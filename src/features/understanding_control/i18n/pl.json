@@ -55,7 +55,8 @@
   ],
   "complete": {
     "title": "Zdobyta świadomość",
-    "message": "Zrozumienie korzeni kontroli to odważny pierwszy krok do znalezienia nowych sposobów na poczucie bezpieczeństwa i stabilności."
+    "message": "Zrozumienie korzeni kontroli to odważny pierwszy krok do znalezienia nowych sposobów na poczucie bezpieczeństwa i stabilności.",
+    "button_fallback": "Back to Hub"
   },
   "common": {
     "get_started": "Zacznij",
