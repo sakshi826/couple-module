@@ -26,7 +26,7 @@ const TipDetail = () => {
   return (
     <PremiumLayout 
       title={(typeof t !== "undefined" ? t : (k) => k)("app_title")} 
-      onBack={() => navigate("..")}
+      onBack={() => navigate(-1)}
     >
       <div className="w-full space-y-10 pb-12">
         <div className="flex items-center gap-6">

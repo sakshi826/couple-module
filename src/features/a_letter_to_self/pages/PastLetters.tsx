@@ -150,7 +150,7 @@ const PastLetters = () => {
   return (
     <PremiumLayout
       title={(typeof t !== "undefined" ? t : (k) => k)("app_title")}
-      onBack={() => navigate("..")}
+      onBack={() => navigate(-1)}
     >
       <div className="w-full space-y-10 pb-12">
         <header className="space-y-4">

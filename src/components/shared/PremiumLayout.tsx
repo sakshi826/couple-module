@@ -38,14 +38,22 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
       return;
     }
 
-    // Default behavior if no custom onBack is provided
+    // Exit if we are at the hub root
     const isHub = location.pathname === "/" || location.pathname === "/therapy" || location.pathname === "/therapy/";
-    
+
     if (exitOnBack || isHub) {
       handleExit();
-    } else {
-      navigate(-1);
+      return;
     }
+
+    // Guard: if there is no browser history to go back to, exit the platform
+    // instead of doing a no-op navigate that could cause a loop
+    if (window.history.length <= 1) {
+      handleExit();
+      return;
+    }
+
+    navigate(-1);
   };
 
   return (
