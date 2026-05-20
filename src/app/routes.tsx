@@ -100,6 +100,7 @@ export const router = createBrowserRouter([
     path: "/",
     children: [
       { index: true, element: <SelfCareResources /> },
+      { path: "topics/:topicId", element: <SelfCareResources /> },
       { path: "guided-series/:concern", element: withLoading(<GuidedSeries />) },
       { path: "guided-series/:concern/:activityName", element: withLoading(<GuidedActivity />) },
       { path: "concerns/:concern/:type", element: <StaticContentViewer /> },

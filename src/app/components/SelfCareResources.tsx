@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { handlePlatformExit } from "../../lib/navigation";
 import { useTranslation } from "react-i18next";
@@ -440,7 +440,8 @@ const topicDetails: Record<string, {
 export function SelfCareResources() {
   const { t } = useTranslation();
   const navigate = useNavigate();
-  const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
+  const { topicId } = useParams();
+  const selectedTopic = topicId || null;
 
   const prefetchTool = (id: string) => {
     // Mapping of internal IDs to their feature paths
@@ -468,15 +469,15 @@ export function SelfCareResources() {
 
   useEffect(() => {
     const handlePopState = () => {
-      if (selectedTopic === null) {
+      // If we are currently at the root (no topicId) and the user presses back,
+      // the closure still sees !topicId, so we exit the platform.
+      if (!topicId) {
         handlePlatformExit();
-      } else {
-        setSelectedTopic(null);
       }
     };
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
-  }, [selectedTopic]);
+  }, [topicId]);
 
   const container = {
     hidden: { opacity: 0 },
@@ -512,7 +513,7 @@ export function SelfCareResources() {
                   className="space-y-8"
                 >
                   <button
-                    onClick={() => setSelectedTopic(null)}
+                    onClick={() => navigate("/")}
                     className="flex items-center gap-2 text-[#64748B] hover:text-[#020817] transition-colors group mb-4"
                   >
                     <ChevronLeft size={20} className="group-hover:-translate-x-1 transition-transform" />
@@ -742,7 +743,7 @@ export function SelfCareResources() {
                           } else if (topic.url) {
                             window.location.href = topic.url;
                           } else {
-                            setSelectedTopic(topic.id);
+                            navigate(`/topics/${topic.id}`);
                           }
                         }}
                         className="p-6 bg-white border border-slate-100 rounded-2xl flex flex-col items-center gap-4 transition-all hover:shadow-md"
