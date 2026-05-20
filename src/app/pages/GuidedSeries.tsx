@@ -1,32 +1,33 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { 
-  ChevronLeft, 
-  ChevronRight, 
-  Smile, 
-  Clock, 
-  Activity, 
-  Book, 
-  Target, 
-  Moon, 
-  Cloud, 
-  Wind, 
-  Heart, 
-  Zap, 
-  Users, 
+import {
+  ChevronLeft,
+  ChevronRight,
+  Smile,
+  Clock,
+  Activity,
+  Book,
+  Target,
+  Moon,
+  Cloud,
+  Wind,
+  Heart,
+  Zap,
+  Users,
   Sparkles,
-  Search,
   Star,
   Brain,
   Scale,
-  User
+  User,
+  Search
 } from 'lucide-react';
 import guidedData from '../data/guidedSeries.json';
 import { useTranslation } from "react-i18next";
 
 const iconMap: Record<string, any> = {
-  Smile, Clock, Activity, Book, Target, Moon, Cloud, Wind, Heart, Zap, Users, Sparkles, Star, Brain, Scale, User
+  Smile, Clock, Activity, Book, Target, Moon, Cloud, Wind,
+  Heart, Zap, Users, Sparkles, Star, Brain, Scale, User, Search
 };
 
 export default function GuidedSeries() {
@@ -34,16 +35,15 @@ export default function GuidedSeries() {
   const { concern } = useParams<{ concern: string }>();
   const navigate = useNavigate();
 
-  // Normalize concern name (e.g. "depression" -> "Depression")
-  const normalizedConcern = concern ? concern.charAt(0).toUpperCase() + concern.slice(1).replace(/-/g, ' ') : '';
-  const data = (guidedData as any)[normalizedConcern] || (guidedData as any)["Depression"]; // Fallback
+  // Case-insensitive key lookup so "ptsd" matches "PTSD", etc.
+  const lookupKey = Object.keys(guidedData).find(
+    (k) => k.toLowerCase() === (concern || '').toLowerCase()
+  );
+  const data = lookupKey ? (guidedData as any)[lookupKey] : null;
 
   const containerVariants = {
     hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: { staggerChildren: 0.05 }
-    }
+    visible: { opacity: 1, transition: { staggerChildren: 0.05 } }
   };
 
   const itemVariants = {
@@ -52,94 +52,109 @@ export default function GuidedSeries() {
   };
 
   const handleActivityClick = (activity: any) => {
-    const name = activity.name.toLowerCase();
-    
-    // Existing route mapping
-    if (name.includes('sleep record') || name.includes('sleep audit')) return window.location.href = 'https://web.mantracare.com/app/sleep';
-    if (name.includes('sleep window')) return navigate('/tools/sleep-window-planner');
-    if (name.includes('affirmation')) return navigate('/tools/affirmations');
-    if (name.includes('breathing')) return navigate('/exercises/4-6-8-breathing');
-    if (name.includes('grounding')) return navigate('/exercises/5-4-3-2-1-grounding');
-    if (name.includes('physical activity')) return navigate('/trackers/physical-activity-log');
-    if (name.includes('values')) return navigate('/tools/know-your-values');
-    if (name.includes('letter')) return navigate('/tools/a-letter-to-self');
-    if (name.includes('gratitude')) return navigate('/trackers/gratitude-tracker');
-    if (name.includes('mood') || name.includes('assess your mood')) return navigate('/trackers/vibe-tracker');
-    if (name.includes('energy')) return navigate('/trackers/energy-tracker');
-    if (name.includes('doodle')) return navigate('/tools/doodle-burst');
-    if (name.includes('joyful')) return navigate('/tools/joyful-activities');
-    
-    // Fallback to generic guided activity page (with specialized UI)
+    // Prefer the explicit route field
+    if (activity.route) {
+      if (activity.route.startsWith('http')) {
+        window.location.href = activity.route;
+      } else {
+        navigate(activity.route);
+      }
+      return;
+    }
+    // Fallback: generic guided-activity journal page
     navigate(`/guided-series/${concern}/${encodeURIComponent(activity.name)}`);
   };
+
+  const displayTitle = lookupKey
+    ? lookupKey.charAt(0).toUpperCase() + lookupKey.slice(1)
+    : (concern ? concern.charAt(0).toUpperCase() + concern.slice(1) : '');
 
   return (
     <div className="min-h-screen bg-[#F8FAFC] pb-10">
       {/* Header */}
       <div className="sticky top-0 z-10 bg-white/80 backdrop-blur-md border-b border-slate-100 px-4 py-4 flex items-center gap-4">
-        <button 
+        <button
           onClick={() => navigate(-1)}
           className="p-2 hover:bg-slate-100 rounded-full transition-colors"
         >
           <ChevronLeft size={20} className="text-slate-600" />
         </button>
-        <h1 className="text-lg font-semibold text-slate-800">{(typeof t !== "undefined" ? t : (k) => k)("hub.guided_series")}</h1>
+        <h1 className="text-lg font-semibold text-slate-800">
+          {(typeof t !== 'undefined' ? t : (k: string) => k)('hub.guided_series')}
+        </h1>
       </div>
 
-      <motion.div 
+      <motion.div
         className="max-w-2xl mx-auto px-4 mt-6"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
       >
-        {data.categories.map((category: any, catIndex: number) => (
-          <div key={catIndex} className="mb-8">
-            <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-4 px-1">
-              {t(`guided_series.${category.name}`, category.name)}
-            </h2>
-            <div className="space-y-3">
-              {category.activities.map((activity: any, actIndex: number) => {
-                const Icon = iconMap[activity.icon] || Sparkles;
-                return (
-                  <motion.button
-                    key={actIndex}
-                    variants={itemVariants}
-                    whileHover={{ scale: 1.01 }}
-                    whileTap={{ scale: 0.99 }}
-                    onClick={() => handleActivityClick(activity)}
-                    className="w-full bg-white border border-slate-100 rounded-2xl p-4 flex items-center gap-4 shadow-sm hover:shadow-md hover:border-slate-200 transition-all text-left group"
-                  >
-                    {/* Icon Box */}
-                    <div 
-                      className="w-14 h-14 rounded-2xl flex items-center justify-center flex-shrink-0"
-                      style={{ backgroundColor: `${activity.color}15` }} // 15% opacity
+        {data ? (
+          data.categories.map((category: any, catIndex: number) => (
+            <div key={catIndex} className="mb-8">
+              <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-4 px-1">
+                {category.name}
+              </h2>
+              <div className="space-y-3">
+                {category.activities.map((activity: any, actIndex: number) => {
+                  const Icon = iconMap[activity.icon] || Sparkles;
+                  return (
+                    <motion.button
+                      key={actIndex}
+                      variants={itemVariants}
+                      whileHover={{ scale: 1.01 }}
+                      whileTap={{ scale: 0.99 }}
+                      onClick={() => handleActivityClick(activity)}
+                      className="w-full bg-white border border-slate-100 rounded-2xl p-4 flex items-center gap-4 shadow-sm hover:shadow-md hover:border-slate-200 transition-all text-left group"
                     >
-                      <div 
-                        className="w-10 h-10 rounded-xl flex items-center justify-center"
-                        style={{ border: `2px solid ${activity.color}30` }}
+                      {/* Icon Box */}
+                      <div
+                        className="w-14 h-14 rounded-2xl flex items-center justify-center flex-shrink-0"
+                        style={{ backgroundColor: `${activity.color}18` }}
                       >
-                        <Icon size={24} style={{ color: activity.color }} strokeWidth={2} />
+                        <div
+                          className="w-10 h-10 rounded-xl flex items-center justify-center"
+                          style={{ border: `2px solid ${activity.color}30` }}
+                        >
+                          <Icon size={22} style={{ color: activity.color }} strokeWidth={2} />
+                        </div>
                       </div>
-                    </div>
 
-                    {/* Text Content */}
-                    <div className="flex-1 min-w-0">
-                      <h3 className="text-[16px] font-bold text-slate-800 mb-0.5 truncate">
-                        {t(`guided_series.${activity.name}`, activity.name)}
-                      </h3>
-                      <p className="text-sm text-slate-500 line-clamp-1 leading-relaxed">
-                        {activity.description ? t(`guided_series.${activity.description}`, activity.description) : t("explore_this_activity_for_your_wellness", "Explore this activity for your wellness.")}
-                      </p>
-                    </div>
+                      {/* Text */}
+                      <div className="flex-1 min-w-0">
+                        <h3 className="text-[15px] font-bold text-slate-800 mb-0.5 leading-snug">
+                          {activity.name}
+                        </h3>
+                        <p className="text-sm text-slate-500 line-clamp-1 leading-relaxed">
+                          {activity.description}
+                        </p>
+                      </div>
 
-                    {/* Action */}
-                    <ChevronRight size={20} className="text-slate-300 group-hover:text-slate-400 transition-colors" />
-                  </motion.button>
-                );
-              })}
+                      {/* Arrow */}
+                      <ChevronRight
+                        size={20}
+                        className="text-slate-300 group-hover:text-slate-400 group-hover:translate-x-0.5 transition-all flex-shrink-0"
+                      />
+                    </motion.button>
+                  );
+                })}
+              </div>
             </div>
+          ))
+        ) : (
+          <div className="flex flex-col items-center justify-center py-24 text-center">
+            <div className="w-16 h-16 bg-slate-100 rounded-2xl flex items-center justify-center mb-4">
+              <Sparkles size={28} className="text-slate-400" />
+            </div>
+            <h3 className="text-lg font-bold text-slate-700 mb-2">Coming Soon</h3>
+            <p className="text-sm text-slate-400 max-w-xs">
+              The guided series for{' '}
+              <span className="font-semibold capitalize">{concern}</span> is being
+              prepared. Check back soon!
+            </p>
           </div>
-        ))}
+        )}
       </motion.div>
     </div>
   );

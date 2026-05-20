@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { handlePlatformExit } from "../../lib/navigation";
@@ -78,14 +78,13 @@ const toolCards: TopicCard[] = [
 
 const topicDetails: Record<string, {
   descKey: string;
-  guidedSeriesUrl?: string;
   exercises: { titleKey: string; icon: any; url?: string; action?: string }[];
   todos: { titleKey: string; icon: any; url?: string }[];
   resources: { titleKey: string; count: number; icon: any; url?: string }[];
 }> = {
   depression: {
     descKey: "topics.depression.desc",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/depression/depr-guided-series/",
+
     exercises: [
       { titleKey: "exercises.5_4_3_2_1_grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
       { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
@@ -107,7 +106,7 @@ const topicDetails: Record<string, {
   },
   anxiety: {
     descKey: "topics.anxiety.desc",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/anxiety/anx-guided-series/",
+
     exercises: [
       { titleKey: "tools.box-breathing", icon: Wind, url: "/exercises/box-breathing" },
       { titleKey: "tools.deep-breathing", icon: Play, url: "/exercises/4-6-8-breathing" },
@@ -129,7 +128,7 @@ const topicDetails: Record<string, {
   },
   stress: {
     descKey: "topics.stress.desc",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/stress-home/strs-guided-series/",
+
     exercises: [
       { titleKey: "tools.box-breathing", icon: Wind, url: "/exercises/box-breathing" },
       { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
@@ -151,7 +150,7 @@ const topicDetails: Record<string, {
   },
   sleep: {
     descKey: "topics.sleep.desc",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/sleep/slp-guided-series/",
+
     exercises: [
       { titleKey: "tools.deep-breathing", icon: Play, url: "/exercises/4-6-8-breathing" },
       { titleKey: "tools.box-breathing", icon: Wind, url: "/exercises/box-breathing" },
@@ -173,7 +172,7 @@ const topicDetails: Record<string, {
   },
   adolescent: {
     descKey: "topics.adolescent.desc",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/adolescent/adlscnt-guided-series/",
+
     exercises: [
       { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
       { titleKey: "tools.affirmations", icon: Smile, url: "/tools/affirmations" },
@@ -195,7 +194,7 @@ const topicDetails: Record<string, {
   },
   relationship: {
     descKey: "topics.relationship.desc",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/relationship/rln-guided-series/",
+
     exercises: [
       { titleKey: "tools.letter-to-self", icon: Mail, url: "/tools/a-letter-to-self" },
       { titleKey: "tools.affirmations", icon: Smile, url: "/tools/affirmations" },
@@ -217,7 +216,7 @@ const topicDetails: Record<string, {
   },
   workplace: {
     descKey: "topics.workplace.desc",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/workplace/wrkplc-guided-series/",
+
     exercises: [
       { titleKey: "tools.box-breathing", icon: Wind, url: "/exercises/box-breathing" },
       { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
@@ -239,7 +238,7 @@ const topicDetails: Record<string, {
   },
   parenting: {
     descKey: "topics.parenting.desc",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/parenting/prntng-guided-series/",
+
     exercises: [
       { titleKey: "exercises.pause_appreciation", icon: Pause, url: "/trackers/a-pause-for-appreciation" },
       { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
@@ -261,7 +260,7 @@ const topicDetails: Record<string, {
   },
   anger: {
     descKey: "topics.anger.desc",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/anger/angr-guided-series/",
+
     exercises: [
       { titleKey: "tools.box-breathing", icon: Wind, url: "/exercises/box-breathing" },
       { titleKey: "exercises.5_4_3_2_1_grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
@@ -283,7 +282,7 @@ const topicDetails: Record<string, {
   },
   grief: {
     descKey: "topics.grief.desc",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/grief/grf-guided-series/",
+
     exercises: [
       { titleKey: "tools.letter-to-self", icon: Mail, url: "/tools/a-letter-to-self" },
       { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
@@ -305,7 +304,7 @@ const topicDetails: Record<string, {
   },
   ptsd: {
     descKey: "topics.ptsd.desc",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/ptsd/ptsd-guided-series/",
+
     exercises: [
       { titleKey: "exercises.grounding_technique", icon: Compass, url: "/exercises/grounding-technique" },
       { titleKey: "tools.box-breathing", icon: Wind, url: "/exercises/box-breathing" },
@@ -327,7 +326,7 @@ const topicDetails: Record<string, {
   },
   acceptance: {
     descKey: "topics.acceptance.desc",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/acceptance/accpt-guided-series/",
+
     exercises: [
       { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/exercises/diffusion-technique" },
       { titleKey: "tools.affirmations", icon: Smile, url: "/tools/affirmations" },
@@ -349,7 +348,7 @@ const topicDetails: Record<string, {
   },
   postpartum: {
     descKey: "topics.postpartum.desc",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/postpartum/pstprtm-guided-series/",
+
     exercises: [
       { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
       { titleKey: "tools.affirmations", icon: Smile, url: "/tools/affirmations" },
@@ -371,7 +370,7 @@ const topicDetails: Record<string, {
   },
   sexuality: {
     descKey: "topics.sexuality.desc",
-    guidedSeriesUrl: "https://therapy.mantracare.com/en/therapyapp/sexuality-guided-series/",
+
     exercises: [
       { titleKey: "tools.affirmations", icon: Smile, url: "/tools/affirmations" },
       { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
@@ -393,7 +392,7 @@ const topicDetails: Record<string, {
   },
   "eating-disorder": {
     descKey: "topics.eating-disorder.desc",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/eating-disorder/etn-guided-series/",
+
     exercises: [
       { titleKey: "exercises.5_4_3_2_1_grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
       { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/exercises/diffusion-technique" },
@@ -415,7 +414,7 @@ const topicDetails: Record<string, {
   },
   ocd: {
     descKey: "topics.ocd.desc",
-    guidedSeriesUrl: "https://app.mantracare.com/therapy/ocd/ocd-guided-series/",
+
     exercises: [
       { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/exercises/diffusion-technique" },
       { titleKey: "exercises.grounding_technique", icon: Compass, url: "/exercises/grounding-technique" },
@@ -525,28 +524,26 @@ export function SelfCareResources() {
                     <p className="text-base text-[#64748B] leading-relaxed max-w-2xl">{(typeof t !== "undefined" ? t : (k) => k)(detail.descKey)}</p>
                   </div>
 
-                  {detail.guidedSeriesUrl && (
-                    <div className="space-y-4">
-                      <h2 className="text-xl font-bold text-[#020817]">{(typeof t !== "undefined" ? t : (k) => k)("hub.guided_series")}</h2>
-                      <motion.button
-                        whileHover={{ y: -2 }}
-                        whileTap={{ scale: 0.98 }}
-                        onClick={() => window.location.href = detail.guidedSeriesUrl!}
-                        className="w-full bg-[#F5FBFF] border-2 border-[#E0F2FE] rounded-2xl p-6 flex items-center justify-between hover:border-primary hover:shadow-lg transition-all group"
-                      >
-                        <div className="flex items-center gap-4">
-                          <div className="w-12 h-12 bg-primary rounded-2xl flex items-center justify-center">
-                            <Play size={20} className="text-white fill-current" />
-                          </div>
-                          <div className="text-left">
-                            <span className="block font-bold text-[#020817]">{(typeof t !== "undefined" ? t : (k) => k)("hub.start_guided_series")}</span>
-                            <span className="text-xs text-[#64748B]">{(typeof t !== "undefined" ? t : (k) => k)("hub.guided_series_desc")}</span>
-                          </div>
+                  <div className="space-y-4">
+                    <h2 className="text-xl font-bold text-[#020817]">{(typeof t !== "undefined" ? t : (k) => k)("hub.guided_series")}</h2>
+                    <motion.button
+                      whileHover={{ y: -2 }}
+                      whileTap={{ scale: 0.98 }}
+                      onClick={() => navigate(`/guided-series/${selectedTopic}`)}
+                      className="w-full bg-[#F5FBFF] border-2 border-[#E0F2FE] rounded-2xl p-6 flex items-center justify-between hover:border-primary hover:shadow-lg transition-all group"
+                    >
+                      <div className="flex items-center gap-4">
+                        <div className="w-12 h-12 bg-primary rounded-2xl flex items-center justify-center">
+                          <Play size={20} className="text-white fill-current" />
                         </div>
-                        <ArrowRight size={20} className="text-[#64748B] group-hover:translate-x-1 transition-transform" />
-                      </motion.button>
-                    </div>
-                  )}
+                        <div className="text-left">
+                          <span className="block font-bold text-[#020817]">{(typeof t !== "undefined" ? t : (k) => k)("hub.start_guided_series")}</span>
+                          <span className="text-xs text-[#64748B]">{(typeof t !== "undefined" ? t : (k) => k)("hub.guided_series_desc")}</span>
+                        </div>
+                      </div>
+                      <ArrowRight size={20} className="text-[#64748B] group-hover:translate-x-1 transition-transform" />
+                    </motion.button>
+                  </div>
 
                   {detail.exercises.length > 0 && (
                     <div className="space-y-4">
