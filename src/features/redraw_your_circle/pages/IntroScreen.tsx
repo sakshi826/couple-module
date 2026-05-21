@@ -12,7 +12,7 @@ const IntroScreen = () => {
   return (
     <div className="min-h-screen bg-background flex flex-col relative">
       <BackgroundOrbs />
-      <TopBar onBack={() => navigate("/", { replace: true })} showHistory />
+      <TopBar onBack={() => navigate(-1)} showHistory />
 
       <motion.div
         initial={{ opacity: 0, y: 20 }}
