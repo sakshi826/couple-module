@@ -18,6 +18,7 @@ const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
 const sql = neon(DATABASE_URL);
 
 export const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
+    const { t } = useTranslation();
     const [isAuthorized, setIsAuthorized] = useState(false);
     const [isLoading, setIsLoading] = useState(true);
 

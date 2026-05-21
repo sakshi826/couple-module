@@ -41,7 +41,7 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
     // Exit if we are at the hub root
     const isHub = location.pathname === "/" || location.pathname === "/couple_module" || location.pathname === "/couple_module/";
 
-    if (exitOnBack || isHub) {
+    if (isHub) {
       handleExit();
       return;
     }
