@@ -22,7 +22,7 @@ const WhatDoINeed = React.lazy(() => import("../features/what_do_i_need"));
 const TheUnsentLetter = React.lazy(() => import("../features/the_unsent_letter"));
 const RepairAndReconnect = React.lazy(() => import("../features/repair_and_reconnect"));
 const APauseForAppreciation = React.lazy(() => import("../features/a_pause_for_appreciation"));
-const VibeTracker = React.lazy(() => import("../features/vibe_tracker"));
+import { IframeWrapper } from "../components/shared/IframeWrapper";
 
 function ProtectedLayout() {
   const { t } = useTranslation();
@@ -79,7 +79,7 @@ export const router = createBrowserRouter([
           { path: "tools/the-unsent-letter/*", element: withLoading(<TheUnsentLetter />) },
           { path: "tools/repair-and-reconnect/*", element: withLoading(<RepairAndReconnect />) },
           { path: "trackers/a-pause-for-appreciation/*", element: withLoading(<APauseForAppreciation />) },
-          { path: "trackers/vibe-tracker/*", element: withLoading(<VibeTracker />) }
+          { path: "trackers/vibe-tracker/*", element: <IframeWrapper src="https://platform.mantracare.com/therapy/trackers/vibe-tracker" title="Vibe Tracker" /> }
         ]
       },
       { path: "*", element: <Navigate to="/" replace /> },
