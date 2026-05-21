@@ -1,36 +1,23 @@
-FROM node:20-alpine AS builder
+FROM node:20-alpine  AS builder
 WORKDIR /app
-
-RUN npm install -g pnpm
-
-COPY package.json pnpm-lock.yaml ./
-RUN pnpm install --frozen-lockfile
-
+COPY package*.json ./
+RUN npm i
 COPY . .
+ENV NODE_OPTIONS="--max-old-space-size=8192"
+RUN npm run build
 
-ARG VITE_AUTH_PORTAL_URL
-ENV VITE_AUTH_PORTAL_URL=$VITE_AUTH_PORTAL_URL
 
-ARG VITE_DATABASE_URL
-ENV VITE_DATABASE_URL=$VITE_DATABASE_URL
+FROM nginx:alpine
+WORKDIR /usr/share/nginx/html
 
-RUN pnpm build
+# Copy the static files from the builder stage
+COPY --from=builder /app/dist /usr/share/nginx/html/couple_module
+# Remove default nginx config
+RUN rm /etc/nginx/conf.d/default.conf
+COPY vite-nginx.conf /etc/nginx/conf.d/nginx.conf
 
-# ─────────────────────────────────────────
-FROM nginx:alpine AS runner
-
-# Create the directory structure matching the /therapy subpath
-RUN mkdir -p /usr/share/nginx/html/therapy
-
-# Copy built assets into the subpath
-COPY --from=builder /app/dist /usr/share/nginx/html/therapy
-# Copy static content to the root for legacy links
-COPY --from=builder /app/public/static /usr/share/nginx/html/static
-
-COPY nginx.conf /etc/nginx/conf.d/default.conf
-
-# Ensure nginx can read all files
-RUN chmod -R 755 /usr/share/nginx/html
-
+# Expose the port that Nginx will listen on
 EXPOSE 80
+
+# Command to start Nginx
 CMD ["nginx", "-g", "daemon off;"]

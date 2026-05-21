@@ -211,7 +211,9 @@ export default function GuidedActivity() {
       <div className="sticky top-0 z-10 bg-white/80 backdrop-blur-md border-b border-slate-100 px-6 py-5 flex items-center justify-between">
         <div className="flex items-center gap-4">
           <button 
-            onClick={() => navigate(-1)}
+            onClick={() => {
+              navigate(-1);
+            }}
             className="p-2.5 hover:bg-slate-100 rounded-full transition-colors bg-slate-50"
           >
             <ChevronLeft size={20} className="text-slate-600" />

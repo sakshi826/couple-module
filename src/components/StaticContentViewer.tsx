@@ -7,18 +7,14 @@ export function StaticContentViewer() {
   
   // Normalize concern: replace hyphens with underscores to match folder names (e.g. eating-disorder → eating_disorder)
   const normalizedConcern = (concern || '').replace(/-/g, '_');
-  const src = `/therapy/static/content/${normalizedConcern}_${type}/index.html`;
+  const src = `/couple_module/static/content/${normalizedConcern}_${type}/index.html`;
 
   return (
     <div className="flex flex-col h-screen bg-[#F6F8FB]">
       <header className="flex items-center px-4 h-14 bg-white border-b gap-3">
         <button 
           onClick={() => {
-            if (window.parent !== window) {
-              window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
-            } else {
-              window.location.href = 'https://web.mantracare.com';
-            }
+            navigate(-1);
           }}
           className="p-2 hover:bg-slate-100 rounded-full transition-colors"
         >

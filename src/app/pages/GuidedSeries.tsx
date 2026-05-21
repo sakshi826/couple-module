@@ -74,7 +74,9 @@ export default function GuidedSeries() {
       {/* Header */}
       <div className="sticky top-0 z-10 bg-white/80 backdrop-blur-md border-b border-slate-100 px-4 py-4 flex items-center gap-4">
         <button
-          onClick={() => navigate(-1)}
+          onClick={() => {
+            navigate(-1);
+          }}
           className="p-2 hover:bg-slate-100 rounded-full transition-colors"
         >
           <ChevronLeft size={20} className="text-slate-600" />

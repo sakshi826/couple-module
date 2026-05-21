@@ -39,20 +39,14 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
     }
 
     // Exit if we are at the hub root
-    const isHub = location.pathname === "/" || location.pathname === "/therapy" || location.pathname === "/therapy/";
+    const isHub = location.pathname === "/" || location.pathname === "/couple_module" || location.pathname === "/couple_module/";
 
     if (exitOnBack || isHub) {
       handleExit();
       return;
     }
 
-    // Guard: if there is no browser history to go back to, exit the platform
-    // instead of doing a no-op navigate that could cause a loop
-    if (window.history.length <= 1) {
-      handleExit();
-      return;
-    }
-
+    // Standard back button logic
     navigate(-1);
   };
 
