@@ -17,6 +17,30 @@
     "title": "Earliest relationships become the template for all that follows.",
     "desc": "The way your caregivers responded to your needs quietly shaped how you relate to others as an adult. These are learned responses — and they can be unlearned.",
     "quote": "\"Your pattern made sense once. The question is — does it still serve you now?\"",
+    "button": "Continue Unpacking"
+  },
+  "screen3": {
+    "tag": "The Cycle",
+    "intro": "Why do we keep dancing to the same tune?",
+    "title": "The Dance of Pursuer and Distancer.",
+    "desc": "Often, one partner pulls away when feeling overwhelmed, while the other leans in out of anxiety. Understanding this dynamic is key to breaking the loop.",
+    "quote": "\"True connection requires us to step out of the dance and hear the music.\"",
+    "button": "Keep Going"
+  },
+  "screen4": {
+    "tag": "Communication",
+    "intro": "It's not what you say, it's how you hear it.",
+    "title": "We often listen to reply, not to understand.",
+    "desc": "When conflicts arise, our defenses go up. Recognizing when you're reacting defensively can transform arguments into opportunities for intimacy.",
+    "quote": "\"Vulnerability is the only bridge to genuine understanding.\"",
+    "button": "Next Reflection"
+  },
+  "screen5": {
+    "tag": "Breaking Free",
+    "intro": "The path forward.",
+    "title": "Awareness is the first step of change.",
+    "desc": "You don't have to be a victim of your patterns. By identifying triggers and pausing before reacting, you can consciously choose a new response.",
+    "quote": "\"Between stimulus and response there is a space. In that space is our power to choose our response.\"",
     "button": "Finish Reflection"
   },
   "common": {
