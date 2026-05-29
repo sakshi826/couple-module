@@ -1,133 +1,133 @@
 {
-  "app_title": "What Do I Need?",
-  "app_subtitle": "Check in with yourself",
+  "app_title": "Emotional Needs Mapping",
+  "app_subtitle": "Understand what helps you feel emotionally safe",
   "screens": {
     "s1": {
-      "title": "What Do I Need Right Now?",
-      "description": "A moment to pause and listen to what your heart is asking for.",
-      "button": "Start Check-in"
+      "title": "What do you need right now?",
+      "description": "A quiet space to check in with yourself and identify what you need to feel emotionally safe and connected in your relationship.",
+      "button": "Start Mapping Needs"
     },
     "s2": {
       "select": {
-        "title": "What feels important?",
-        "placeholder": "Something else...",
+        "title": "What feels most important right now?",
+        "placeholder": "Type another need...",
         "add_button": "Add",
         "button": "Continue"
       },
       "prioritize": {
-        "title": "Which one is primary?"
+        "title": "Which need is primary for you today?"
       },
       "focus": {
-        "tag": "Your focus right now",
-        "button": "Continue"
+        "tag": "Your primary focus",
+        "button": "Begin Reflection"
       }
     },
     "s3": {
       "reflect": {
-        "button": "Continue"
+        "button": "Continue to Action"
       },
       "action": {
-        "title": "A small step forward?",
-        "placeholder": "Or write your own...",
+        "title": "A small step toward your partner?",
+        "placeholder": "Or write your own action step...",
         "button": "Review Reflection"
       },
       "closing": {
         "tag_need": "Primary Need",
         "tag_insight": "Your Insight",
-        "tag_action": "Small Action",
-        "save_button": "Save & Finish",
+        "tag_action": "Small Action Step",
+        "save_button": "Save & Complete",
         "finish_button": "Finish without saving"
       }
     }
   },
   "needs": {
     "Emotional support": {
-      "label": "Emotional support",
-      "prompt": "What kind of support would actually help you right now?",
+      "label": "Emotional Connection",
+      "prompt": "What does feeling emotionally connected with your partner look like for you today?",
       "hints": [
-        "I just need someone to...",
-        "It would help if...",
-        "What I really want is..."
+        "I feel closest to you when we...",
+        "I need some dedicated time to...",
+        "It would help me feel safe if we could..."
       ]
     },
     "Space / time for myself": {
-      "label": "Space / time for myself",
-      "prompt": "What would having that space look like for you?",
+      "label": "Self-Regulation Space",
+      "prompt": "When conflict rises, what does taking space to regulate your own emotions look like?",
       "hints": [
-        "I'd use that time to...",
-        "Space would let me...",
-        "I need room to..."
+        "Taking a brief pause helps me avoid...",
+        "I need a quiet moment to process my...",
+        "A healthy, reassuring timeout would sound like..."
       ]
     },
     "Clear communication": {
-      "label": "Clear communication",
-      "prompt": "What would clearer communication look like for you?",
+      "label": "Vulnerable Dialogue",
+      "prompt": "What would sharing your core feelings (rather than blame or criticism) look like?",
       "hints": [
-        "I wish I could say...",
-        "If they really listened, I'd tell them...",
-        "Communication feels hard when..."
+        "Instead of criticizing, I want to say...",
+        "I want to share my underlying fear that...",
+        "It feels safer for me to express..."
       ]
     },
     "Reassurance": {
-      "label": "Reassurance",
-      "prompt": "What kind of reassurance would feel meaningful?",
+      "label": "Reassurance & Safety",
+      "prompt": "What reassurance do you need to hear from your partner when you feel insecure?",
       "hints": [
-        "I need to hear that...",
-        "It would calm me to know...",
-        "I keep worrying that..."
+        "I need to be reminded that we are...",
+        "It calms my fears when you tell me...",
+        "I want to feel reassured about..."
       ]
     },
     "Understanding": {
-      "label": "Understanding",
-      "prompt": "What would feeling truly understood look like?",
+      "label": "Emotional Validation",
+      "prompt": "What does having your partner validate your feelings look like during a disagreement?",
       "hints": [
-        "I wish people knew that...",
-        "What I'm really feeling is...",
-        "Nobody sees that I..."
+        "I want to know you hear my pain, even if you...",
+        "It makes me feel seen when you say...",
+        "I wish you knew that my reaction comes from..."
       ]
     },
     "Stability": {
-      "label": "Stability",
-      "prompt": "What would stability feel like in your life right now?",
+      "label": "Relational Safety",
+      "prompt": "What helps you feel secure and grounded in your relationship commitment?",
       "hints": [
-        "I need things to feel...",
-        "What would ground me is...",
-        "Stability means..."
+        "Safety to me means knowing that we...",
+        "We can build more trust by...",
+        "I feel most secure when we..."
       ]
     },
     "Honesty": {
-      "label": "Honesty",
-      "prompt": "What would more honesty look like in your situation?",
+      "label": "Vulnerability & Trust",
+      "prompt": "What truth or vulnerable feeling is hard for you to share with your partner right now?",
       "hints": [
-        "The truth I need to face is...",
-        "I want to be honest about...",
-        "What's really going on is..."
+        "I've been hesitant to share my feeling of...",
+        "I want to be completely honest about my fear of...",
+        "Vulnerability in this moment looks like..."
       ]
     },
     "Respect": {
-      "label": "Respect",
-      "prompt": "What does respect look like for you right now?",
+      "label": "Mutual Respect",
+      "prompt": "What does respect and care look like during moments of heated disagreement?",
       "hints": [
-        "I deserve to be treated...",
-        "Respect would look like...",
-        "I need people to..."
+        "Even when we disagree, I need us to...",
+        "Respectful listening sounds like...",
+        "I feel respected when you..."
       ]
     },
     "Clarity about relationship": {
-      "label": "Clarity about relationship",
-      "prompt": "What kind of clarity would help you most?",
+      "label": "Relational Clarity",
+      "prompt": "What clarity or alignment about your commitment do you need to talk about?",
       "hints": [
-        "I need to know if...",
-        "What confuses me is...",
-        "I want us to be clear about..."
+        "I need us to align on our shared value of...",
+        "What makes me feel uncertain is...",
+        "I want to clarify our goals regarding..."
       ]
     },
     "default": {
-      "prompt": "What would this look like in a real situation?",
+      "prompt": "What would meeting this need look like in your relationship?",
       "hints": [
         "What comes to mind is...",
-        "Right now I feel...",
-        "If I'm honest with myself..."
+        "If I share this with my partner...",
+        "If I'm honest with myself, I need..."
       ]
     }
   },
@@ -158,8 +158,8 @@
     "auth_error": "Auth session missing or DB not configured"
   },
   "complete": {
-    "title": "Check-in Complete",
-    "message": "You've identified that you need \"{{need}}\". Honoring your needs is a vital form of self-care."
+    "title": "Needs Mapping Complete",
+    "message": "You've identified a primary need for \"{{need}}\". Communicating your needs vulnerably is a vital step toward repair."
   },
   "common": {
     "get_started": "Get Started",

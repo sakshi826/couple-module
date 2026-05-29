@@ -1,39 +1,39 @@
 {
   "app_title": "The Unsent Letter",
-  "app_subtitle": "Release your thoughts safely and privately",
+  "app_subtitle": "Express unresolved feelings in a safe, private space",
   "intro": {
     "title": "The Unsent Letter",
     "description": [
-      "Sometimes, there are things we wish we could say — but never got the chance to.",
-      "This could be because it didn't feel safe, the timing wasn't right, or the words were too hard to express out loud.",
-      "This activity gives you a private space to put those thoughts into words.",
-      "You don't have to send this letter. This is just for you — to express, release, and understand your feelings better."
+      "Sometimes, we carry deep feelings, hurts, or hopes that feel too difficult or scary to express directly to our partner.",
+      "Writing an unsent letter is a powerful therapeutic tool to organize your thoughts, release emotional weight, and find clarity without the fear of escalation.",
+      "This activity provides a completely private, unshared space to pour out your raw emotions honestly.",
+      "Remember: this letter is for your own healing and self-awareness, not for sending."
     ],
-    "notice": "Write freely. No one else will see this.",
-    "button": "Start Writing →"
+    "notice": "Write without filter. This is a secure space for your emotional release.",
+    "button": "Start Writing"
   },
   "writing": {
-    "title": "Write What You've Been Holding In",
-    "desc": "You can write to your partner, ex-partner, or even to the relationship itself. There's no right or wrong way to do this.",
+    "title": "Express What You've Been Holding In",
+    "desc": "Focus on your primary emotions (sadness, longing, hurt, fear) rather than blame. Speak directly to your partner, your ex-partner, or to your relationship itself.",
     "prompts": [
-      "I feel…",
-      "I wish…",
-      "I never said…",
-      "What hurt me…",
-      "What I needed…"
+      "What I find hardest to say is…",
+      "Deep down, the fear I carry is…",
+      "What hurt me most was when…",
+      "I wish you could truly understand…",
+      "What I need most from you is…"
     ],
-    "placeholder": "Dear ____,\nI've been wanting to say…",
+    "placeholder": "Dear ________,\nI want to tell you what I've been holding inside...",
     "notice": "You can pause and come back anytime.",
-    "button": "Continue →"
+    "button": "Continue"
   },
   "reflection": {
-    "title": "Take a Moment With This",
+    "title": "Honor Your Vulnerability",
     "description": [
-      "You've just put your thoughts and feelings into words — that takes courage.",
-      "You might notice a mix of emotions right now, and that's completely okay.",
-      "Before you move on, take a breath and gently check in with yourself."
+      "You've just put deep, perhaps painful, emotions into words. Take a slow, deep breath.",
+      "It is normal to feel a mix of sadness, relief, or exhaustion right now. Let yourself feel whatever is present.",
+      "Acknowledge the courage it took to be honest with yourself today."
     ],
-    "notice": "This was for your healing, not for sending.",
+    "notice": "This was written for your own emotional clarity, not for partner confrontation.",
     "save_button": "Save Letter",
     "finish_button": "Finish"
   },
@@ -76,7 +76,7 @@
     "instruction_ready": "Set your rounds and tap play to begin",
     "instruction_running": "Follow the circle to regulate your breath"
   },
-  "app_description": "Release your thoughts safely and privately",
+  "app_description": "Express unresolved feelings in a safe, private space",
   "more": "More",
   "breadcrumb": "breadcrumb",
   "previous_slide": "Previous slide",

@@ -1,47 +1,47 @@
 {
   "app_title": "Relationship Patterns",
-  "app_subtitle": "Unpacking your blueprint",
-  "complete_title": "Awareness Gained",
-  "complete_message": "Understanding your patterns is the first step toward rewriting them. You carry the power to choose a different path.",
+  "app_subtitle": "Explore recurring conflict cycles and emotional reactions",
+  "complete_title": "Understanding Gained",
+  "complete_message": "Recognizing your cycle is the first step toward changing it. By pausing in the reactive moments, you create space for connection.",
   "screen1": {
-    "tag": "Pattern Discovery",
-    "intro": "Ever felt like you've been here before?",
-    "title": "If your relationships keep ending the same way — it's not bad luck.",
-    "desc": "The relationships we choose follow a blueprint written long before we ever fell in love. Familiarity often feels like safety, even when it leads to the same old arguments.",
-    "quote": "\"We repeat patterns not because we are broken — but because they feel familiar.\"",
-    "button": "Continue Unpacking"
+    "tag": "The Conflict Loop",
+    "intro": "Ever feel trapped in the same argument?",
+    "title": "Conflict cycles are patterns, not personal failures.",
+    "desc": "In couples, arguments often run on autopilot. We get triggered, react defensively, and trigger our partner in return. This loop isn't about lack of love; it's a predictable dance of protection.",
+    "quote": "\"We repeat what we don't resolve — not out of malice, but because the cycle is looking for a new ending.\"",
+    "button": "Explore the Blueprint"
   },
   "screen2": {
-    "tag": "The Template",
-    "intro": "It starts earlier than you think.",
-    "title": "Earliest relationships become the template for all that follows.",
-    "desc": "The way your caregivers responded to your needs quietly shaped how you relate to others as an adult. These are learned responses — and they can be unlearned.",
-    "quote": "\"Your pattern made sense once. The question is — does it still serve you now?\"",
-    "button": "Continue Unpacking"
+    "tag": "Emotional Triggers",
+    "intro": "What lies beneath the reaction?",
+    "title": "Anger is often a shield for deeper vulnerabilities.",
+    "desc": "When we feel unheard, unimportant, or rejected, our instinct is to protect ourselves by criticizing or shutting down. Underneath the surface, both partners are usually asking: 'Are you there for me?'",
+    "quote": "\"An emotional trigger is a map showing where our old wounds meet our current relationship.\"",
+    "button": "Continue Reflecting"
   },
   "screen3": {
-    "tag": "The Cycle",
-    "intro": "Why do we keep dancing to the same tune?",
-    "title": "The Dance of Pursuer and Distancer.",
-    "desc": "Often, one partner pulls away when feeling overwhelmed, while the other leans in out of anxiety. Understanding this dynamic is key to breaking the loop.",
-    "quote": "\"True connection requires us to step out of the dance and hear the music.\"",
-    "button": "Keep Going"
+    "tag": "Pursue & Withdraw",
+    "intro": "Understanding the reactive roles.",
+    "title": "The Pursuer-Withdrawer Cycle.",
+    "desc": "In many couples, one partner pursues (protesting disconnection through criticism or high urgency), while the other withdraws (protecting the bond by shutting down to avoid escalation). The more one pursues, the more the other withdraws.",
+    "quote": "\"Neither role is the villain. The cycle itself is the enemy you both need to face.\"",
+    "button": "Look at Communication"
   },
   "screen4": {
-    "tag": "Communication",
-    "intro": "It's not what you say, it's how you hear it.",
-    "title": "We often listen to reply, not to understand.",
-    "desc": "When conflicts arise, our defenses go up. Recognizing when you're reacting defensively can transform arguments into opportunities for intimacy.",
-    "quote": "\"Vulnerability is the only bridge to genuine understanding.\"",
-    "button": "Next Reflection"
+    "tag": "Unmet Needs",
+    "intro": "What are we actually asking for?",
+    "title": "Every reaction hides a request for safety.",
+    "desc": "When we say 'You never listen,' we are often feeling lonely. When we say 'You're too sensitive,' we are often feeling inadequate. Learning to speak the language of core needs helps defuse the defense systems.",
+    "quote": "\"Behind every difficult behavior is a vulnerable, unspoken emotional need.\"",
+    "button": "Explore Breaking Free"
   },
   "screen5": {
-    "tag": "Breaking Free",
-    "intro": "The path forward.",
-    "title": "Awareness is the first step of change.",
-    "desc": "You don't have to be a victim of your patterns. By identifying triggers and pausing before reacting, you can consciously choose a new response.",
-    "quote": "\"Between stimulus and response there is a space. In that space is our power to choose our response.\"",
-    "button": "Finish Reflection"
+    "tag": "Breaking the Loop",
+    "intro": "The path to repair.",
+    "title": "Choose connection over being right.",
+    "desc": "You cannot change your partner's reactions, but you can change your own. A single partner stepping out of the cycle and sharing their primary emotion (fear, sadness, loneliness) can shift the entire dynamic.",
+    "quote": "\"Between trigger and response lies a choice. In that choice lies the potential for healing.\"",
+    "button": "Complete Pattern Check"
   },
   "common": {
     "get_started": "Get Started",

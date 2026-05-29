@@ -546,21 +546,21 @@
         "activities": [
           {
             "name": "Relationship Patterns Unpacked",
-            "description": "Identify recurring patterns in your relationships",
+            "description": "Explore recurring conflict cycles and emotional reactions",
             "icon": "Users",
             "color": "#EC4899",
             "route": "/tools/relationship-patterns-unpacked"
           },
           {
-            "name": "Redraw Your Circle",
-            "description": "Reflect on who you want in your inner circle",
+            "name": "Relationship Boundaries",
+            "description": "Explore emotional boundaries and expectations in your relationship",
             "icon": "Target",
             "color": "#8B5CF6",
             "route": "/tools/redraw-your-circle"
           },
           {
-            "name": "What Do I Need?",
-            "description": "Get clear on your emotional needs",
+            "name": "Emotional Needs Mapping",
+            "description": "Understand what helps you feel emotionally safe",
             "icon": "Heart",
             "color": "#F59E0B",
             "route": "/tools/what-do-i-need"
@@ -572,21 +572,21 @@
         "activities": [
           {
             "name": "The Unsent Letter",
-            "description": "Say what you couldn't say out loud",
+            "description": "Express unresolved feelings in a safe, private space",
             "icon": "Book",
             "color": "#6366F1",
             "route": "/tools/the-unsent-letter"
           },
           {
             "name": "A Letter to Self",
-            "description": "Reflect on your role in relationships",
+            "description": "Reflect on your patterns and grow toward healthier responses",
             "icon": "Book",
             "color": "#8B5CF6",
             "route": "/tools/a-letter-to-self"
           },
           {
             "name": "Repair & Reconnect",
-            "description": "Take steps to heal a damaged bond",
+            "description": "Rebuild trust and emotional safety after conflict",
             "icon": "Heart",
             "color": "#EC4899",
             "route": "/tools/repair-and-reconnect"
@@ -598,50 +598,24 @@
         "activities": [
           {
             "name": "Diffusion Technique",
-            "description": "Separate yourself from reactive thoughts",
+            "description": "Create space between reactive thoughts and your response",
             "icon": "Cloud",
             "color": "#3B82F6",
             "route": "/exercises/diffusion-technique"
           },
           {
             "name": "A Pause for Appreciation",
-            "description": "Appreciate the good in your relationships",
+            "description": "Notice small positive moments in your relationship",
             "icon": "Star",
             "color": "#F59E0B",
             "route": "/trackers/a-pause-for-appreciation"
           },
           {
-            "name": "Affirmations",
-            "description": "Build confidence and self-worth",
+            "name": "Communication Reset",
+            "description": "Practice calmer and clearer communication",
             "icon": "Star",
             "color": "#10B981",
             "route": "/tools/affirmations"
-          }
-        ]
-      },
-      {
-        "name": "Track & Reflect",
-        "activities": [
-          {
-            "name": "Vibe Tracker",
-            "description": "Track how relationships affect your mood",
-            "icon": "Smile",
-            "color": "#F59E0B",
-            "route": "/trackers/vibe-tracker"
-          },
-          {
-            "name": "Gratitude Tracker",
-            "description": "Notice the positive aspects of your connections",
-            "icon": "Heart",
-            "color": "#EC4899",
-            "route": "/trackers/gratitude-tracker"
-          },
-          {
-            "name": "Know Your Values",
-            "description": "Build relationships aligned with your values",
-            "icon": "Target",
-            "color": "#8B5CF6",
-            "route": "/tools/know-your-values"
           }
         ]
       }

@@ -1,55 +1,55 @@
 {
-  "app_title": "Redraw Your Circle",
+  "app_title": "Relationship Boundaries",
   "intro": {
-    "title": "Redraw Your Circle",
-    "p1": "At different points in life, our support system can shift. 🌱 Sometimes we feel connected and supported. Other times, things may feel distant or unclear.",
-    "p2": "This activity is a space to pause and look at the people around you — and understand who currently feels part of your circle. 💛",
-    "p3": "There's no right or wrong here. Just awareness. ✨",
-    "italic": "🌿 Your circle can change — and that's okay.",
-    "button": "Start →"
+    "title": "Relationship Boundaries",
+    "p1": "Healthy relationships require clear boundaries. Boundaries define where you end and your partner begins, helping preserve your sense of self and mutual respect. 🌱",
+    "p2": "This activity is a space to pause and map the emotional boundaries in your life — understanding who currently holds what level of access, care, and influence.",
+    "p3": "There's no right or wrong here. Just a clear view of your limits. ✨",
+    "italic": "🌿 Boundaries are a bridge to connection, not a wall.",
+    "button": "Start Mapping"
   },
   "circle": {
-    "subtitle": "Who is in your support system?",
-    "title": "Who's In Your Circle Right Now? 🔮",
-    "desc": "Think about the people in your life and where they show up for you.",
-    "instruction": "👆 Tap each bubble and add someone who fits that space in your life.",
+    "subtitle": "Mapping your personal boundaries",
+    "title": "Mapping Your Boundaries 🔮",
+    "desc": "Think about the people in your life and the emotional boundaries you maintain with them.",
+    "instruction": "👆 Tap each bubble and add someone who fits that level of emotional proximity and limit.",
     "center_node": "You",
-    "italic": "🤍 It's okay if your circle feels small.",
-    "button": "Continue →",
+    "italic": "🤍 Honest boundaries protect your emotional energy.",
+    "button": "Continue to Reflection",
     "modal": {
       "title": "Add a name",
       "placeholder": "Enter a name…",
       "button": "Save Name"
     },
     "prompts": [
-      "A person who brings joy",
-      "A person who supports you",
-      "A person you can talk to",
-      "A person you trust",
-      "A person who inspires you"
+      "Partner (Core Intimacy)",
+      "Close Trust & Safety",
+      "Supportive Connection",
+      "Needs Structured Limits",
+      "Needs Clear Distance"
     ]
   },
   "reflection": {
-    "subtitle": "Final reflections",
-    "title": "What Do You Notice?",
-    "p_intro": "Take a moment to look at your circle. You might notice:",
+    "subtitle": "Final boundaries reflection",
+    "title": "What Do You Notice About Your Limits?",
+    "p_intro": "Take a moment to look at your boundary map. You might notice:",
     "list": [
-      "Some people feel closer than others",
-      "Some connections feel strong",
-      "Some feel distant or unclear",
-      "There may be gaps — or just a few meaningful people"
+      "Some relationships have comfortable, mutual boundaries",
+      "Some connections feel like they cross your personal limits",
+      "Some boundaries feel overly rigid, creating emotional distance",
+      "Gaps where you need to communicate your boundaries more clearly"
     ],
-    "italic": "Awareness is the first step toward building the connections you value. 🧘",
-    "label": "💭 Is there anyone you'd like to feel more connected to?",
+    "italic": "Clarifying your boundaries helps you connect deeply without losing yourself. 🧘",
+    "label": "💭 Where do you need to communicate or strengthen a boundary?",
     "placeholder": "Write your thoughts here...",
     "save_button": "Save Reflection",
     "saving_button": "Saving...",
     "skip_button": "Skip & Finish"
   },
   "history": {
-    "title": "Your Circles History",
-    "subtitle": "A record of your support system over time.",
-    "no_entries": "No circles saved yet.",
+    "title": "Boundaries Map History",
+    "subtitle": "A record of your personal boundaries over time.",
+    "no_entries": "No boundary maps saved yet.",
     "reflection_label": "Reflection:",
     "back_button": "Back to Home"
   },
@@ -87,10 +87,10 @@
     "instruction_ready": "Set your rounds and tap play to begin",
     "instruction_running": "Follow the circle to regulate your breath"
   },
-  "intro_p1": "At different points in life, our support system can shift. 🌱 Sometimes we feel connected and supported. Other times, things may feel distant or unclear.",
-  "intro_p2": "This activity is a space to pause and look at the people around you — and understand who currently feels part of your circle. 💛",
-  "intro_p3": "There's no right or wrong here. Just awareness. ✨",
-  "app_description": "Redraw Your Circle",
+  "intro_p1": "Healthy relationships require clear boundaries. Boundaries define where you end and your partner begins, helping preserve your sense of self and mutual respect. 🌱",
+  "intro_p2": "This activity is a space to pause and map the emotional boundaries in your life — understanding who currently holds what level of access, care, and influence.",
+  "intro_p3": "There's no right or wrong here. Just a clear view of your limits. ✨",
+  "app_description": "Explore emotional boundaries and expectations in your relationship",
   "go_back": "Go back",
   "past_entries": "Past entries",
   "more": "More",

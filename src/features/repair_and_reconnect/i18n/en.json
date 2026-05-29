@@ -2,140 +2,140 @@
   "app_title": "Repair & Reconnect",
   "steps": {
     "welcome": "Welcome",
-    "choose_person": "Choose Person",
+    "choose_person": "Choose Relationship",
     "choose_approach": "Choose Approach",
     "guided_action": "Guided Action",
     "complete": "Complete"
   },
   "intro": {
     "title": "Repair & Reconnect",
-    "description": "Anger can create distance between us and the people we care about. But small, gentle steps can help rebuild that connection.",
-    "quote": "\"Repair doesn't mean you were wrong—it means you care enough to try.\"",
-    "small_efforts": "Even small efforts can make a difference.",
-    "button": "Start →"
+    "description": "Conflict can create painful distance between partners. Rebuilding trust and safety doesn't require fixing everything at once — just one intentional step toward repair.",
+    "quote": "\"Repair is the lifeline of a relationship. It's not about never fighting; it's about how you reconnect after.\"",
+    "small_efforts": "Small, vulnerable efforts create the foundation for emotional safety.",
+    "button": "Start Repair"
   },
   "choose_person": {
-    "title": "Who would you like to reconnect with?",
-    "desc": "Thinking about a specific relationship helps make the steps feel real.",
+    "title": "Who would you like to repair with?",
+    "desc": "Focusing on a specific relationship helps ground your steps in real connection.",
     "options": {
-      "friend": "A Friend",
-      "family": "A Family Member",
-      "colleague": "A Colleague",
+      "friend": "Partner",
+      "family": "Ex-Partner",
+      "colleague": "Family Member",
       "other": "Someone Else"
     },
-    "button": "Continue →"
+    "button": "Continue"
   },
   "choose_approach": {
-    "title": "What feels right for you?",
-    "desc": "Pick one small step that feels doable.",
-    "safety": "You don't have to fix everything—just choose one small step.",
-    "button": "Try This →",
+    "title": "What approach feels right for you?",
+    "desc": "Select one gentle action step to begin mending the bond.",
+    "safety": "You don't need to resolve the whole conflict today — focus on one doable step.",
+    "button": "Begin Action Step",
     "approaches": {
       "friend": [
         {
           "id": "message",
-          "label": "Send a casual check-in",
+          "label": "Send a vulnerable check-in",
           "emoji": "💬"
         },
         {
           "id": "acknowledge",
-          "label": "Acknowledge the tension",
+          "label": "Take accountability",
           "emoji": "🫶"
         },
         {
           "id": "pause",
-          "label": "Give each other some space",
+          "label": "Propose a calm pause",
           "emoji": "⏸️"
         },
         {
           "id": "letgo",
-          "label": "Let it go and move on",
+          "label": "Initiate physical reconnection",
           "emoji": "🍃"
         },
         {
           "id": "reflect",
-          "label": "Just reflect on it",
+          "label": "Reflect on core attachment fears",
           "emoji": "🪞"
         }
       ],
       "family": [
         {
           "id": "message",
-          "label": "Send a warm message",
+          "label": "Send a neutral message",
           "emoji": "💬"
         },
         {
           "id": "acknowledge",
-          "label": "Name what happened honestly",
+          "label": "Acknowledge the shared pain",
           "emoji": "🫶"
         },
         {
           "id": "pause",
-          "label": "Commit to pausing next time",
+          "label": "Establish clear boundaries",
           "emoji": "⏸️"
         },
         {
           "id": "letgo",
-          "label": "Choose peace over being right",
+          "label": "Release the need to argue",
           "emoji": "🍃"
         },
         {
           "id": "reflect",
-          "label": "Reflect on what you really need",
+          "label": "Reflect on closure and learning",
           "emoji": "🪞"
         }
       ],
       "colleague": [
         {
           "id": "message",
-          "label": "Send a professional note",
+          "label": "Reach out gently",
           "emoji": "💬"
         },
         {
           "id": "acknowledge",
-          "label": "Address it respectfully",
+          "label": "De-escalate the tension",
           "emoji": "🫶"
         },
         {
           "id": "pause",
-          "label": "Plan a calmer response next time",
+          "label": "Commit to patient listening",
           "emoji": "⏸️"
         },
         {
           "id": "letgo",
-          "label": "Keep it professional and move on",
+          "label": "Let go of past grudges",
           "emoji": "🍃"
         },
         {
           "id": "reflect",
-          "label": "Think about boundaries",
+          "label": "Reflect on family patterns",
           "emoji": "🪞"
         }
       ],
       "other": [
         {
           "id": "message",
-          "label": "Reach out with a simple message",
+          "label": "Reach out with a simple note",
           "emoji": "💬"
         },
         {
           "id": "acknowledge",
-          "label": "Acknowledge what happened",
+          "label": "Acknowledge the distance",
           "emoji": "🫶"
         },
         {
           "id": "pause",
-          "label": "Take a pause next time",
+          "label": "Take a mindful breathing break",
           "emoji": "⏸️"
         },
         {
           "id": "letgo",
-          "label": "Let it go for now",
+          "label": "Let go of the defensive stance",
           "emoji": "🍃"
         },
         {
           "id": "reflect",
-          "label": "Just reflect (no action yet)",
+          "label": "Reflect on your primary triggers",
           "emoji": "🪞"
         }
       ]
@@ -144,94 +144,94 @@
   "guided_action": {
     "tap_reveal": "Tap to see how ✨",
     "copy_button": "📋 Copy Message",
-    "done_button": "I'm Done →",
-    "safety_line_default": "You don't have to send anything right now. 💛",
-    "safety_line_pause": "Take your time—there's no rush. 💛",
-    "safety_line_reflect": "This is just for you—no one else needs to see this. 💛",
+    "done_button": "I'm Done",
+    "safety_line_default": "There is no pressure to send anything. You are writing for your own clarity. 💛",
+    "safety_line_pause": "Take a breath — pace yourself. Reconnection takes time. 💛",
+    "safety_line_reflect": "This reflection is completely private, for your own growth. 💛",
     "actions": {
       "message": {
-        "title": "Send a Simple Message",
-        "why": "A simple message can break the silence and show the other person you still care.",
-        "insight": "Reaching out—even imperfectly—is almost always received better than we expect.",
-        "howTitle": "Start small",
-        "howBody": "You don't need to write an essay. A few honest words can open the door to reconnection.",
+        "title": "Send a vulnerable check-in",
+        "why": "Vulnerable reaching out invites safety, stepping away from defensive posture and showing care.",
+        "insight": "Sharing your own longing or softness is often the quickest way to de-escalate tension.",
+        "howTitle": "Start with vulnerability",
+        "howBody": "Avoid explaining your side or bringing up past mistakes. Share a simple feeling of caring or regret.",
         "prompts": [
-          "Hey, I've been thinking about you. Hope you're doing okay.",
-          "I know things were tense—just wanted to say I care.",
-          "I'm sorry about earlier. Can we talk when you're ready?"
+          "I miss you and hate the distance between us. Can we talk when you're ready?",
+          "I know things got tense. I care about you more than winning the argument.",
+          "I'm sorry for my part in our conflict. I want to listen and hear how you're feeling."
         ],
-        "promptLabel": "Choose a starting point:",
-        "editLabel": "Make it yours:"
+        "promptLabel": "Select a message template:",
+        "editLabel": "Personalize your message:"
       },
       "acknowledge": {
-        "title": "Acknowledge What Happened",
-        "why": "Acknowledging what happened shows maturity and helps the other person feel seen.",
-        "insight": "People don't need you to be perfect—they need to know you noticed.",
-        "howTitle": "Name it gently",
-        "howBody": "You can acknowledge without taking all the blame. Just name what happened honestly.",
+        "title": "Take accountability",
+        "why": "Owning your contribution to the cycle shows maturity and makes your partner feel safe.",
+        "insight": "Acknowledging your part allows your partner to drop their shield and listen.",
+        "howTitle": "Focus on your behavior",
+        "howBody": "Name what you did and how it might have impacted them. Avoid using 'but' or mentioning what they did.",
         "prompts": [
-          "I know things got heated between us. I want you to know I noticed.",
-          "I realize I may have come across harshly. That wasn't my intention.",
-          "I've been reflecting on what happened, and I wish I'd handled it differently."
+          "I realize I reacted defensively and shut down. I'm sorry for closing off.",
+          "I notice I raised my voice and spoke critically. I want to handle our disagreements with more care.",
+          "I was focusing so much on my point that I stopped listening to you. I'm sorry."
         ],
-        "promptLabel": "Choose a starting point:",
-        "editLabel": "Make it yours:"
+        "promptLabel": "Select an accountability statement:",
+        "editLabel": "Write your own statement:"
       },
       "pause": {
-        "title": "Take a Pause Next Time",
-        "why": "Committing to a pause gives you space to respond rather than react.",
-        "insight": "A 6-second pause is often enough to shift from reaction to reflection.",
-        "howTitle": "🧘 Plan your pause",
-        "howBody": "Think of a simple cue—like taking a breath or stepping away briefly—before responding.",
+        "title": "Propose a calm pause",
+        "why": "A structured pause prevents reactive escalations and protects both partners from saying hurtful things.",
+        "insight": "Stepping away only works if you reassure your partner that you will return to finish the conversation.",
+        "howTitle": "🧘 Propose a safe pause",
+        "howBody": "Clearly state that you feel overwhelmed and need time to calm down, but explicitly promise to check back in.",
         "prompts": [
-          "Next time I feel upset, I'll take a deep breath before responding.",
-          "I'll try saying 'Give me a moment' instead of reacting immediately.",
-          "I'll step away for a few minutes to collect my thoughts."
+          "I'm feeling too flooded to hear you clearly right now. Let's take a 20-minute break, and I'll check back in.",
+          "I want to listen to you fully, but I need a moment to regulate. Let's pause and talk after dinner.",
+          "I can feel myself getting defensive. Let's take a pause so I can calm my nervous system before we continue."
         ],
-        "promptLabel": "Pick a commitment that feels right:",
-        "editLabel": "Write your own intention:"
+        "promptLabel": "Choose a pause intention:",
+        "editLabel": "State your pause intention:"
       },
       "letgo": {
-        "title": "Let It Go for Now",
-        "why": "Sometimes the kindest thing you can do is release the weight of the situation.",
-        "insight": "Letting go isn't giving up—it's choosing peace over being right.",
-        "howTitle": "🕊️ Release gently",
-        "howBody": "You don't have to forget. Just decide that this doesn't need to control how you feel anymore.",
+        "title": "Initiate Reconnection",
+        "why": "Actions and presence often speak louder than words in healing attachment wounds.",
+        "insight": "Reconnecting can be non-verbal — a gentle touch, a hug, or just making coffee can signal safety.",
+        "howTitle": "🕊️ Signal emotional warmth",
+        "howBody": "Choose a small, low-demand physical action or gesture that shows you want to connect, not fight.",
         "prompts": [
-          "I'm choosing to let this go—not because it didn't matter, but because my peace matters more.",
-          "I release the need to be right about this. I choose connection.",
-          "This situation doesn't define our relationship. I'm moving forward."
+          "I want to sit next to you quietly, without talk of the argument, just to be close.",
+          "I'm offering a gentle hug or hand-hold to remind us that we are on the same team.",
+          "I'm going to make us a warm drink as a quiet gesture of care."
         ],
-        "promptLabel": "Choose what resonates:",
-        "editLabel": "Write what feels true for you:"
+        "promptLabel": "Choose a gesture of connection:",
+        "editLabel": "Detail your gesture:"
       },
       "reflect": {
-        "title": "Just Reflect",
-        "why": "Reflection builds self-awareness, which is the foundation of every healthy relationship.",
-        "insight": "Journaling or even thinking through what happened helps you process emotions without pressure.",
-        "howTitle": "🔍 Look inward",
-        "howBody": "Ask yourself: What was I really feeling underneath the anger? Often it's hurt, fear, or disappointment.",
+        "title": "Reflect on attachment fears",
+        "why": "Underneath relationship anger is almost always a fear of rejection, abandonment, or inadequacy.",
+        "insight": "Understanding your own triggers helps you speak from vulnerability instead of anger.",
+        "howTitle": "🔍 Look beneath the surface",
+        "howBody": "Reflect on what the argument made you feel about yourself or the relationship. Was it fear of losing them, or feeling not good enough?",
         "prompts": [
-          "Underneath my anger, I think I was feeling hurt.",
-          "I realize I was reacting out of fear of not being heard.",
-          "What I really needed was to feel respected and valued."
+          "When my partner pulled away, I felt panicked and feared they didn't care about me anymore.",
+          "When my partner criticized me, I felt inadequate and like I can never do anything right.",
+          "I realized my reaction was driven by a deep longing to feel secure and valued by my partner."
         ],
-        "promptLabel": "Choose what resonates:",
-        "editLabel": "Write your own reflection:"
+        "promptLabel": "Select a reflection that fits:",
+        "editLabel": "Write your personal reflection:"
       }
     }
   },
   "complete": {
-    "title": "Connection Mended",
-    "message": "You've taken a brave step toward repairing your connection with {{person}}. Small, intentional actions build lasting bridges.",
-    "default_person": "someone important"
+    "title": "Repair Attempt Made",
+    "message": "You've taken a brave step toward emotional repair. Reconnection grows through honesty, care, and mutual accountability.",
+    "default_person": "your partner"
   },
   "toasts": {
-    "save_success": "Repair progress preserved",
-    "save_error": "Failed to preserve reflection",
-    "copy_success": "Message copied!",
+    "save_success": "Repair progress preserved in journal",
+    "save_error": "Failed to preserve progress",
+    "copy_success": "Message copied to clipboard!",
     "preserving": "Preserving...",
-    "complete_button": "Complete & Save"
+    "complete_button": "Save & Complete"
   },
   "common": {
     "get_started": "Get Started",
@@ -262,7 +262,7 @@
     "instruction_ready": "Set your rounds and tap play to begin",
     "instruction_running": "Follow the circle to regulate your breath"
   },
-  "app_description": "Repair & Reconnect",
+  "app_description": "Rebuild trust and emotional safety after conflict",
   "that_s_a_step_forward": "That's a step forward",
   "you_took_a_small_step_toward_repair_and_that_matte": "You took a small step toward repair—and that matters.",
   "try_with_someone_else": "Try with someone else",
