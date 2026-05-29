@@ -594,28 +594,35 @@
         ]
       },
       {
-        "name": "Mindfulness",
+        "name": "Relationship Guidance",
         "activities": [
           {
-            "name": "Diffusion Technique",
-            "description": "Create space between reactive thoughts and your response",
-            "icon": "Cloud",
-            "color": "#3B82F6",
-            "route": "/exercises/diffusion-technique"
-          },
-          {
-            "name": "A Pause for Appreciation",
-            "description": "Notice small positive moments in your relationship",
-            "icon": "Star",
+            "name": "Growing Apart",
+            "description": "Explore signs and solutions when partners drift apart",
+            "icon": "Heart",
             "color": "#F59E0B",
-            "route": "/trackers/a-pause-for-appreciation"
+            "route": "/relationship-guidance/growing-apart"
           },
           {
-            "name": "Communication Reset",
-            "description": "Practice calmer and clearer communication",
-            "icon": "Star",
-            "color": "#10B981",
-            "route": "/tools/affirmations"
+            "name": "Why Small Fights Become Big",
+            "description": "Understand escalation patterns in couple conflicts",
+            "icon": "Flame",
+            "color": "#EF4444",
+            "route": "/relationship-guidance/small-fights"
+          },
+          {
+            "name": "Loving Someone But Feeling Lonely",
+            "description": "Navigate emotional loneliness within a loving relationship",
+            "icon": "UserMinus",
+            "color": "#6B7280",
+            "route": "/relationship-guidance/lonely-love"
+          },
+          {
+            "name": "When Relationships Reach Breaking Point",
+            "description": "Identify critical thresholds and decide next steps",
+            "icon": "AlertCircle",
+            "color": "#DC2626",
+            "route": "/relationship-guidance/breaking-point"
           }
         ]
       }
