@@ -52,7 +52,7 @@
     "guided_series_desc": "Step-by-step therapeutic journey",
     "start_guided_series": "Start guided series",
     "exercises": "Exercises",
-    "todos": "Relationship Guidance",
+    "todos": "Common Relationship Issues",
     "resources": "Resources",
     "view_resource": "View resource",
     "search_placeholder": "Search for topics or activities...",
@@ -184,7 +184,7 @@
       "desc": "Guidance and activities designed for teens navigating growth, identity, and emotional challenges."
     },
     "relationship": {
-      "label": "Relationship",
+      "label": "Couple Therapy",
       "desc": "Tools and insights to strengthen connections, improve communication, and build healthier relationships."
     },
     "workplace": {
