@@ -13,9 +13,9 @@ export interface SelfCareEntry {
 }
 
 export const ACTIVITIES = [
-  "Exercise", "Meditation", "Journaling", "Reading",
-  "Rest / Nap", "Skincare", "Healthy Meal", "Nature / Walk",
-  "Social Time", "Hobby", "Therapy", "Digital Detox",
+  "Deep Conversation", "Shared Meal", "Intimacy / Physical Touch", "Shared Activity / Hobby",
+  "Active Listening / Check-In", "Word of Appreciation", "Small Surprise / Gift", "Outdoor Walk / Outing",
+  "Doing Chores Together", "Quiet Quality Time",
 ];
 
 export const DURATIONS = [
@@ -23,38 +23,37 @@ export const DURATIONS = [
 ];
 
 export const PREVENTION_REASONS = [
-  "Busy schedule", "Low energy", "Stress", "Forgot",
-  "No motivation", "Not feeling well", "Lack of time", "Emotional overwhelm",
+  "Busy work schedule", "Low energy / Fatigue", "Unresolved conflict", "Distractions (phones/TV)",
+  "Kids / Family obligations", "Stress / Overwhelm", "Misaligned schedules",
 ];
 
 export const HELPFUL_TYPES = [
-  "Rest", "Relaxation", "Physical activity",
-  "Talking to someone", "Quiet time", "Creative activity",
+  "A brief phone check-in", "Cooking together", "Shared physical affection",
+  "An evening walk", "Uninterrupted quiet time",
 ];
 
 export const MOODS = [
-  { emoji: "😀", label: "Happy" },
-  { emoji: "😌", label: "Calm" },
-  { emoji: "😐", label: "Neutral" },
-  { emoji: "😔", label: "Low" },
-  { emoji: "😣", label: "Stressed" },
-  { emoji: "😴", label: "Tired" },
+  { emoji: "🥰", label: "Very Close" },
+  { emoji: "😊", label: "Connected" },
+  { emoji: "😐", label: "Neutral / Normal" },
+  { emoji: "😔", label: "Distant" },
+  { emoji: "😢", label: "Lonely / Disconnected" },
 ];
 
 export const POSITIVE_STATEMENTS = [
-  "You showed up for yourself today. That's powerful. 🌿",
-  "Self-care isn't selfish — it's essential. Well done. 💚",
-  "Every small act of care builds a stronger you. 🌱",
-  "You invested in yourself today. That matters. ✨",
-  "Taking care of you is the best thing you did today. 🍃",
+  "Investing in your connection is the heart of a strong relationship. ❤️",
+  "A shared moment of care strengthens your bond. Well done. 🤝",
+  "Every small connection check-in builds lasting emotional safety. 🌱",
+  "You prioritized your partnership today. That matters. ✨",
+  "Fostering intimacy today is the best thing you did for your couple. 🍃",
 ];
 
 export const SUPPORTIVE_STATEMENTS = [
-  "It's okay. Tomorrow is a fresh start. Be gentle with yourself. 🤍",
-  "Not every day will be perfect, and that's perfectly fine. 🕊️",
-  "You're doing your best. That's always enough. 💛",
-  "Rest is also a form of self-care. Give yourself grace. 🌸",
-  "Acknowledging today takes courage. You're already growing. 🌷",
+  "It's okay. Tomorrow offers a new opportunity to reach out. Be gentle with yourselves. 🤍",
+  "Misalignments happen. It's the overall direction of care that matters. 🕊️",
+  "Even a small acknowledgment later today can bridge the gap. 💛",
+  "Resting separately is okay too. Give each other grace. 🌸",
+  "Noticing the disconnect is the first brave step toward reconnection. 🌷",
 ];
 
 /**
