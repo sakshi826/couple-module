@@ -47,12 +47,7 @@ export function SelfCareResources() {
 
   const detail = {
     descKey: "topics.relationship.desc",
-    exercises: [
-      { titleKey: "tools.letter-to-self", icon: Mail, url: "/tools/a-letter-to-self" },
-      { titleKey: "tools.affirmations", icon: Smile, url: "/tools/affirmations" },
-      { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
-      { titleKey: "exercises.diffusion_technique", icon: RefreshCw, url: "/exercises/diffusion-technique" },
-    ],
+    exercises: [],
     todos: [
       { titleKey: "tools.know_values", icon: Target, url: "/tools/know-your-values" },
       { titleKey: "tools.gratitude-tracker", icon: Star, url: "/trackers/gratitude-tracker" },
