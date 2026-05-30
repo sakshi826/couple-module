@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronLeft, Send, CheckCircle2, History, Plus, X } from 'lucide-react';
+import { ChevronLeft, Send, CheckCircle2, History, Plus, X, Book, Target, Smile, Star } from 'lucide-react';
 import { neon } from '@neondatabase/serverless';
 import Loader from '../../components/Loader';
 import { COLORS } from '../../misc/Colors';
@@ -30,6 +30,9 @@ export default function GuidedActivity() {
     if (n.includes('check') || n.includes('signs') || n.includes('checklist')) return 'CHECKLIST';
     if (n.includes('mood') || n.includes('stress') || n.includes('grief')) return 'ASSESSMENT';
     if (n.includes('log') || n.includes('habit')) return 'LOG';
+    // Detect Relationship Guidance activities
+    const guidanceActivities = ['growing-apart', 'growing apart', 'small-fights', 'small fights', 'lonely-love', 'lonely love', 'breaking-point', 'breaking point'];
+    if (guidanceActivities.some(act => n.includes(act))) return 'GUIDANCE';
     return 'DEFAULT';
   };
 
@@ -189,6 +192,69 @@ export default function GuidedActivity() {
               placeholder={(typeof t !== "undefined" ? t : (k) => k)("start_typing_your_reflection_here")} 
               className="w-full p-6 bg-slate-50 border border-slate-100 rounded-3xl outline-none h-40 resize-none text-slate-700"
             />
+          </div>
+        );
+      case 'GUIDANCE':
+        const keyRoot = `guidance.${decodedName.toLowerCase().replace(/ /g, '-')}`;
+        const takeaways: string[] = t(`${keyRoot}.takeaways`, { returnObjects: true }) as any || [];
+        return (
+          <div className="space-y-8 text-left">
+            {/* Education Section */}
+            <div className="bg-blue-50/50 p-6 rounded-[2rem] border border-blue-100">
+              <h3 className="text-blue-900 font-extrabold text-lg mb-2 flex items-center gap-2">
+                <Book size={20} className="text-blue-500" />
+                {t(`${keyRoot}.education_title`)}
+              </h3>
+              <p className="text-slate-600 text-sm font-medium leading-relaxed">
+                {t(`${keyRoot}.education_text`)}
+              </p>
+            </div>
+
+            {/* Exercise Section */}
+            <div className="bg-purple-50/50 p-6 rounded-[2rem] border border-purple-100">
+              <h3 className="text-purple-900 font-extrabold text-lg mb-2 flex items-center gap-2">
+                <Target size={20} className="text-purple-500" />
+                {t(`${keyRoot}.exercise_title`)}
+              </h3>
+              <p className="text-slate-600 text-sm font-medium leading-relaxed">
+                {t(`${keyRoot}.exercise_text`)}
+              </p>
+            </div>
+
+            {/* Reflection Input */}
+            <div className="space-y-3">
+              <h3 className="text-slate-800 font-extrabold text-lg flex items-center gap-2 px-1">
+                <Smile size={20} className="text-slate-500" />
+                {t(`${keyRoot}.reflection_prompt_title`)}
+              </h3>
+              <textarea
+                value={reflection}
+                onChange={(e) => {
+                  setReflection(e.target.value);
+                  setFormData({ ...formData, reflection: e.target.value });
+                }}
+                placeholder={t(`${keyRoot}.reflection_placeholder`)}
+                className="w-full p-6 bg-slate-50 border border-slate-100 rounded-3xl outline-none h-40 focus:bg-white focus:border-blue-400 transition-all resize-none text-slate-700 font-medium"
+              />
+            </div>
+
+            {/* Takeaways Section */}
+            {takeaways.length > 0 && (
+              <div className="bg-slate-50 p-6 rounded-[2rem] border border-slate-100">
+                <h3 className="text-slate-800 font-extrabold text-base mb-4 flex items-center gap-2">
+                  <Star size={18} className="text-yellow-500 fill-yellow-500" />
+                  {t(`${keyRoot}.takeaway_title`)}
+                </h3>
+                <ul className="space-y-2">
+                  {takeaways.map((item, index) => (
+                    <li key={index} className="flex items-start gap-3 text-slate-600 text-sm font-medium">
+                      <span className="w-1.5 h-1.5 rounded-full bg-blue-500 mt-2 shrink-0" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         );
       default:

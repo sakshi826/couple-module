@@ -60,6 +60,7 @@ export const router = createBrowserRouter([
       { path: "topics/:topicId", element: <SelfCareResources /> },
       { path: "guided-series/:concern", element: withLoading(<GuidedSeries />) },
       { path: "guided-series/:concern/:activityName", element: withLoading(<GuidedActivity />) },
+      { path: "relationship-guidance/:activityName", element: withLoading(<GuidedActivity />) },
       { path: "concerns/:concern/:type", element: <StaticContentViewer /> },
 
       {

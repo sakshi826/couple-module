@@ -49,7 +49,6 @@ function App() {
           if (!user_id) throw new Error("API did not return a valid user_id");
 
           sessionStorage.setItem("user_id", user_id.toString());
-          setIsAuthorized(true);
 
           if (DATABASE_URL) {
             initDatabase(user_id.toString()).catch(err => 
@@ -67,8 +66,10 @@ function App() {
           const targetPath = savedRedirectPath || cleanPath;
           if (targetPath === window.location.pathname + window.location.search + window.location.hash) {
             window.history.replaceState(null, "", targetPath);
+            setIsAuthorized(true);
           } else if (targetPath === cleanPath) {
             window.history.replaceState(null, "", cleanPath);
+            setIsAuthorized(true);
           } else {
             window.location.replace(targetPath);
           }

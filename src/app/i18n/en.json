@@ -66,6 +66,68 @@
     "stories": "Stories",
     "myths": "Myths"
   },
+  "guidance": {
+    "growing-apart": {
+      "education_title": "Understanding Growing Apart",
+      "education_text": "Couples may slowly drift as life changes, communication fades, and unmet needs build. Recognizing patterns early helps prevent deeper disconnect.",
+      "reflection_prompt_title": "Reflect on Your Relationship",
+      "reflection_placeholder": "Write what you notice about distance or change in your partnership...",
+      "exercise_title": "Reconnect Exercise",
+      "exercise_text": "Spend 15 minutes each day sharing one positive memory and one current concern, listening without judgment.",
+      "takeaway_title": "Key Takeaways",
+      "takeaways": [
+        "Identify subtle signs of drifting apart",
+        "Prioritize intentional quality time",
+        "Use open, non‑defensive communication",
+        "Schedule regular relationship check‑ins"
+      ]
+    },
+    "small-fights": {
+      "education_title": "Why Small Fights Escalate",
+      "education_text": "Minor disagreements can snowball when underlying emotions remain unaddressed, leading to cycles of resentment.",
+      "reflection_prompt_title": "Explore Triggers",
+      "reflection_placeholder": "Describe a recent small fight and what emotions rose for you...",
+      "exercise_title": "De‑Escalation Practice",
+      "exercise_text": "When tension rises, pause, breathe, and use the phrase ‘I feel … because …’ before responding.",
+      "takeaway_title": "Key Takeaways",
+      "takeaways": [
+        "Recognize early warning signs of escalation",
+        "Practice calm communication techniques",
+        "Validate each other's feelings promptly",
+        "Create a conflict resolution plan"
+      ]
+    },
+    "lonely-love": {
+      "education_title": "Loving Yet Feeling Lonely",
+      "education_text": "Even in close relationships, emotional loneliness can arise from unmet intimacy needs or lack of shared meaning.",
+      "reflection_prompt_title": "Assess Emotional Needs",
+      "reflection_placeholder": "Write about moments you felt alone even when together...",
+      "exercise_title": "Intimacy Building Exercise",
+      "exercise_text": "Set aside a weekly ‘connection ritual’ – a walk, a shared hobby, or a deep conversation without distractions.",
+      "takeaway_title": "Key Takeaways",
+      "takeaways": [
+        "Identify personal intimacy needs",
+        "Communicate those needs clearly",
+        "Create regular shared experiences",
+        "Seek external support if needed"
+      ]
+    },
+    "breaking-point": {
+      "education_title": "Reaching a Breaking Point",
+      "education_text": "When conflict reaches a threshold, couples must decide whether to repair, restructure, or part ways, guided by safety and respect.",
+      "reflection_prompt_title": "Evaluate the Threshold",
+      "reflection_placeholder": "Describe the moment you felt the relationship hit a breaking point...",
+      "exercise_title": "Decision‑Clarity Exercise",
+      "exercise_text": "Write a pros‑and‑cons list for staying together versus moving on, then discuss with a trusted confidante.",
+      "takeaway_title": "Key Takeaways",
+      "takeaways": [
+        "Recognize signs of a breaking point",
+        "Prioritize safety and emotional health",
+        "Explore options: repair, restructure, or separate",
+        "Seek professional guidance when needed"
+      ]
+    }
+  },
   "nav": {
     "home": "Home",
     "care_team": "Care Team",
@@ -172,7 +234,7 @@
   },
   "tools": {
     "box-breathing": "Box Breathing",
-    "gratitude-tracker": "Gratitude Tracker",
+    "gratitude-tracker": "Appreciation Habit",
     "deep-breathing": "Deep Breathing",
     "affirmations": "Affirmations",
     "mindful-space": "Mindful Space",
@@ -182,11 +244,11 @@
     "brain_dump": "Brain Dump and Sort",
     "sleep_window": "Sleep Window Planner",
     "a_letter_to_self": "A Letter to Self",
-    "care_tracker": "Daily Self Care Tracker",
-    "know_values": "Know Your Values",
+    "care_tracker": "Relationship Connection Tracker",
+    "know_values": "Relationship Values Check-In",
     "doodle_burst": "Doodle Burst",
     "environment_optimization": "Environment Optimization",
-    "personal-mission-statement": "Personal Mission Statement",
+    "personal-mission-statement": "Shared Relationship Vision",
     "physical_activity_log": "Physical Activity Log"
   },
   "tips": {

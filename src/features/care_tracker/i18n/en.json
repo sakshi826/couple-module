@@ -31,50 +31,50 @@
   },
   "screens": {
     "intro": {
-      "title": "Self-Care Tracker",
-      "description": "Track your daily self-care habits and see how they impact your overall wellbeing. Consistency is key to a healthier mind.",
+      "title": "Relationship Connection Tracker",
+      "description": "Track meaningful interactions, quality time, and connection habits that help your relationship grow.",
       "benefits": [
-        "Log daily self-care activities",
-        "Track time spent on yourself",
-        "Monitor your mood patterns",
-        "View history and progress"
+        "Log daily couple connection activities",
+        "Track time spent connecting",
+        "Monitor emotional closeness",
+        "View connection history & progress"
       ],
       "duration": "2-3 minutes"
     },
     "checkin": {
-      "title": "Self-Care Check-In 🌿",
-      "subtitle": "How did you care for yourself today?",
-      "question": "Did you practice self-care today? *",
-      "description": "Self-care is any activity that we do deliberately in order to take care of our mental, emotional, and physical health."
+      "title": "Connection Check-In ❤️",
+      "subtitle": "How did you connect with your partner today?",
+      "question": "Did you deliberately connect with your partner today? *",
+      "description": "Relationship connection includes any deliberate interaction or shared experience aimed at fostering closeness, trust, and intimacy."
     },
     "activities": {
-      "title": "Your Activities 🎯",
-      "subtitle": "Which self-care activities did you do today?"
+      "title": "Your Connection Activities 🎯",
+      "subtitle": "Which connection activities did you practice today?"
     },
     "duration": {
-      "title": "Time Spent ⏱️",
-      "subtitle": "How long did you spend on self-care? (optional)"
+      "title": "Time Spent Connecting ⏱️",
+      "subtitle": "How long did you spend actively connecting? (optional)"
     },
     "noSelfCare": {
       "title": "That's okay 💛",
-      "subtitle": "Let's understand what happened today.",
-      "question1": "What prevented self-care today? (optional)",
-      "question2": "What type of self-care would have helped? (optional)"
+      "subtitle": "Let's understand what got in the way today.",
+      "question1": "What prevented connection today? (optional)",
+      "question2": "What connection activity would have helped? (optional)"
     },
     "mood": {
-      "title": "How are you feeling? 🫧",
-      "subtitle": "Select your current mood (optional)"
+      "title": "How close do you feel? 🫧",
+      "subtitle": "Select your level of emotional closeness (optional)"
     },
     "review": {
       "title": "Your Entry 📋",
       "subtitle": "Here's a summary of today's check-in",
-      "didSelfCare": "Did self-care?",
-      "activities": "Activities",
+      "didSelfCare": "Did you connect?",
+      "activities": "Connection Activities",
       "duration": "Duration",
-      "mood": "Mood",
+      "mood": "Closeness",
       "challenges": "Prevented by",
       "whatHelps": "Would've helped",
-      "viewHistory": "Weekly History",
+      "viewHistory": "Connection History",
       "editToday": "Edit Entry",
       "summary": "Summary"
     },
@@ -90,18 +90,16 @@
   },
   "data": {
     "activities": {
-      "Exercise": "Exercise",
-      "Meditation": "Meditation",
-      "Journaling": "Journaling",
-      "Reading": "Reading",
-      "Rest / Nap": "Rest / Nap",
-      "Skincare": "Skincare",
-      "Healthy Meal": "Healthy Meal",
-      "Nature / Walk": "Nature / Walk",
-      "Social Time": "Social Time",
-      "Hobby": "Hobby",
-      "Therapy": "Therapy",
-      "Digital Detox": "Digital Detox"
+      "Deep Conversation": "Deep Conversation",
+      "Shared Meal": "Shared Meal",
+      "Intimacy / Physical Touch": "Intimacy / Physical Touch",
+      "Shared Activity / Hobby": "Shared Activity / Hobby",
+      "Active Listening / Check-In": "Active Listening / Check-In",
+      "Word of Appreciation": "Word of Appreciation",
+      "Small Surprise / Gift": "Small Surprise / Gift",
+      "Outdoor Walk / Outing": "Outdoor Walk / Outing",
+      "Doing Chores Together": "Doing Chores Together",
+      "Quiet Quality Time": "Quiet Quality Time"
     },
     "durations": {
       "< 10 minutes": "< 10 minutes",
@@ -110,44 +108,41 @@
       "1+ hour": "1+ hour"
     },
     "reasons": {
-      "Busy schedule": "Busy schedule",
-      "Low energy": "Low energy",
-      "Stress": "Stress",
-      "Forgot": "Forgot",
-      "No motivation": "No motivation",
-      "Not feeling well": "Not feeling well",
-      "Lack of time": "Lack of time",
-      "Emotional overwhelm": "Emotional overwhelm"
+      "Busy work schedule": "Busy work schedule",
+      "Low energy / Fatigue": "Low energy / Fatigue",
+      "Unresolved conflict": "Unresolved conflict",
+      "Distractions (phones/TV)": "Distractions (phones/TV)",
+      "Kids / Family obligations": "Kids / Family obligations",
+      "Stress / Overwhelm": "Stress / Overwhelm",
+      "Misaligned schedules": "Misaligned schedules"
     },
     "helpfulTypes": {
-      "Rest": "Rest",
-      "Relaxation": "Relaxation",
-      "Physical activity": "Physical activity",
-      "Talking to someone": "Talking to someone",
-      "Quiet time": "Quiet time",
-      "Creative activity": "Creative activity"
+      "A brief phone check-in": "A brief phone check-in",
+      "Cooking together": "Cooking together",
+      "Shared physical affection": "Shared physical affection",
+      "An evening walk": "An evening walk",
+      "Uninterrupted quiet time": "Uninterrupted quiet time"
     },
     "moods": {
-      "Happy": "Happy",
-      "Calm": "Calm",
-      "Neutral": "Neutral",
-      "Low": "Low",
-      "Stressed": "Stressed",
-      "Tired": "Tired"
+      "Very Close": "Very Close",
+      "Connected": "Connected",
+      "Neutral / Normal": "Neutral / Normal",
+      "Distant": "Distant",
+      "Lonely / Disconnected": "Lonely / Disconnected"
     },
     "positiveStatements": {
-      "0": "You showed up for yourself today. That's powerful. 🌿",
-      "1": "Self-care isn't selfish — it's essential. Well done. 💚",
-      "2": "Every small act of care builds a stronger you. 🌱",
-      "3": "You invested in yourself today. That matters. ✨",
-      "4": "Taking care of you is the best thing you did today. 🍃"
+      "0": "Investing in your connection is the heart of a strong relationship. ❤️",
+      "1": "A shared moment of care strengthens your bond. Well done. 🤝",
+      "2": "Every small connection check-in builds lasting emotional safety. 🌱",
+      "3": "You prioritized your partnership today. That matters. ✨",
+      "4": "Fostering intimacy today is the best thing you did for your couple. 🍃"
     },
     "supportiveStatements": {
-      "0": "It's okay. Tomorrow is a fresh start. Be gentle with yourself. 🤍",
-      "1": "Not every day will be perfect, and that's perfectly fine. 🕊️",
-      "2": "You're doing your best. That's always enough. 💛",
-      "3": "Rest is also a form of self-care. Give yourself grace. 🌸",
-      "4": "Acknowledging today takes courage. You're already growing. 🌷"
+      "0": "It's okay. Tomorrow offers a new opportunity to reach out. Be gentle with yourselves. 🤍",
+      "1": "Misalignments happen. It's the overall direction of care that matters. 🕊️",
+      "2": "Even a small acknowledgment later today can bridge the gap. 💛",
+      "3": "Resting separately is okay too. Give each other grace. 🌸",
+      "4": "Noticing the disconnect is the first brave step toward reconnection. 🌷"
     }
   },
   "app_title": "Relationship Connection Tracker",

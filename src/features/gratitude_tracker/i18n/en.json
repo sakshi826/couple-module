@@ -4,15 +4,15 @@
     "description": "Record small moments of appreciation to strengthen connection and positive feelings toward your partner."
   },
   "gratitude": {
-    "heading": "What are you grateful for today?",
-    "subheading": "Take a moment to reflect on the good things, big or small.",
+    "heading": "What did you appreciate about your partner today?",
+    "subheading": "Take a moment to notice and record a supportive or loving gesture from your partner.",
     "item1": {
-      "label": "Gratitude Item 1",
-      "placeholder": "e.g. A warm cup of tea this morning..."
+      "label": "Appreciation 1",
+      "placeholder": "e.g., Thank you for making a warm cup of coffee this morning when I was rushing..."
     },
     "item2": {
-      "label": "Gratitude Item 2",
-      "placeholder": "e.g. A kind word from a friend..."
+      "label": "Appreciation 2",
+      "placeholder": "e.g., I appreciated when you listened attentively while I talked about my stressful workday..."
     },
     "optional": "(optional)"
   },
@@ -46,22 +46,22 @@
     "instruction_running": "Follow the circle to regulate your breath"
   },
   "mood": {
-    "heading": "How are you feeling?",
-    "subheading": "Select the mood that best describes you right now.",
-    "save": "Save Gratitude Entry",
-    "happy": "Happy",
-    "calm": "Calm",
-    "neutral": "Neutral",
-    "low": "Low",
-    "stressed": "Stressed",
+    "heading": "How did this appreciation make you feel?",
+    "subheading": "Notice the positive emotional shift when focusing on gratitude for your partner.",
+    "save": "Save Appreciation Entry",
+    "happy": "Loved",
+    "calm": "Connected",
+    "neutral": "Appreciative",
+    "low": "Warm",
+    "stressed": "Joyful",
     "saving": "Saving..."
   },
   "review": {
     "heading": "Your Entry",
     "date": "Date",
-    "gratitude1": "Gratitude 1",
-    "gratitude2": "Gratitude 2",
-    "mood": "Mood",
+    "gratitude1": "Appreciation 1",
+    "gratitude2": "Appreciation 2",
+    "mood": "Feeling",
     "edit": "Edit Entry",
     "history": "View History"
   },
@@ -78,11 +78,11 @@
     "sat": "Sat"
   },
   "app_duration": "2-3 minutes",
-  "intro_p1": "Improve your emotional wellbeing",
-  "intro_p2": "Focus on the positive things",
-  "intro_p3": "Build a lasting habit of gratitude",
-  "app_title": "Gratitude Journal",
-  "app_description": "Gratitude Journal",
+  "intro_p1": "Strengthen positive feelings toward your partner",
+  "intro_p2": "Notice the small things they do that make you feel loved",
+  "intro_p3": "Build a lasting connection habit together",
+  "app_title": "Appreciation Habit",
+  "app_description": "Record small moments of appreciation to strengthen connection and positive feelings toward your partner.",
   "authenticating": "Authenticating",
   "more": "More",
   "breadcrumb": "breadcrumb",
@@ -96,8 +96,8 @@
   "go_to_next_page": "Go to next page",
   "toggle_sidebar": "Toggle Sidebar",
   "retry": "Retry",
-  "relive_your_moments": "Relive your moments",
-  "select_a_date_to_relive_gratitude": "Select a date to relive gratitude",
+  "relive_your_moments": "Relive your appreciations",
+  "select_a_date_to_relive_gratitude": "Select a date to relive appreciation",
   "create_new_entry": "Create New Entry",
   "oops_page_not_found": "Oops! Page not found",
   "return_to_home": "Return to Home",
