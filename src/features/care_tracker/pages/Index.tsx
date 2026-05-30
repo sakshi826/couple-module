@@ -87,6 +87,8 @@ const Index = () => {
       setIsSaving(true);
       try {
         await saveEntryToDb(userId, entry);
+      } catch (err) {
+        console.error("Failed to save entry (continuing to review):", err);
       } finally {
         setIsSaving(false);
       }

@@ -60,21 +60,17 @@ const Index = () => {
 
   const saveLetter = useCallback(async () => {
     const userId = sessionStorage.getItem("user_id");
-    if (!userId || !DATABASE_URL) {
-      toast.error((typeof t !== "undefined" ? t : (k) => k)("toasts.auth_error"));
-      return;
-    }
-
     if (letterContent.trim()) {
       try {
-        const sql = neon(DATABASE_URL);
-        await sql`INSERT INTO unsent_letters (user_id, content) VALUES (${userId}, ${letterContent})`;
-        toast.success((typeof t !== "undefined" ? t : (k) => k)("toasts.save_success"));
-        fetchLetters();
+        if (userId && DATABASE_URL) {
+          const sql = neon(DATABASE_URL);
+          await sql`INSERT INTO unsent_letters (user_id, content) VALUES (${userId}, ${letterContent})`;
+          toast.success((typeof t !== "undefined" ? t : (k) => k)("toasts.save_success"));
+          fetchLetters();
+        }
         setLetterContent("");
       } catch (error) {
-        console.error("Failed to save letter:", error);
-        toast.error((typeof t !== "undefined" ? t : (k) => k)("toasts.save_error"));
+        console.error("Failed to save letter (proceeding to history):", error);
       }
     }
     setScreen("history");

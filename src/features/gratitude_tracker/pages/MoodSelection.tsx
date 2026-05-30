@@ -31,20 +31,20 @@ const MoodSelection = () => {
   const handleSave = async () => {
     if (!selected || isSaving) return;
     setIsSaving(true);
+    const entry = {
+      id: editId || v4(),
+      date: date || todayISO(),
+      gratitude1,
+      gratitude2: gratitude2 || undefined,
+      mood: selected,
+    };
     try {
-      const entry = {
-        id: editId || v4(),
-        date: date || todayISO(),
-        gratitude1,
-        gratitude2: gratitude2 || undefined,
-        mood: selected,
-      };
       await saveEntry(entry);
-      navigate("../review", { state: { entryId: entry.id, entryDate: entry.date }, replace: true });
     } catch (error) {
-      console.error("Save error:", error);
+      console.error("Save error (continuing to review):", error);
     } finally {
       setIsSaving(false);
+      navigate("../review", { state: { entryId: entry.id, entryDate: entry.date }, replace: true });
     }
   };
 

@@ -9,6 +9,238 @@ import { useTranslation } from "react-i18next";
 
 const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
 
+const GUIDANCE_CONTENT: Record<string, {
+  title: string;
+  sections: Array<{
+    title: string;
+    type: 'text' | 'bullets';
+    content: string | string[];
+    bg: string;
+    border: string;
+    text: string;
+    iconColor: string;
+  }>;
+  takeaway: string;
+}> = {
+  'growing-apart': {
+    title: "Growing Apart",
+    sections: [
+      {
+        title: "Understanding Growing Apart",
+        type: 'text',
+        content: "Most couples don't drift apart overnight. Distance often develops gradually through busy schedules, reduced communication, unresolved disappointments, and fewer shared experiences.",
+        bg: "bg-blue-50/50",
+        border: "border-blue-100",
+        text: "text-blue-900",
+        iconColor: "text-blue-500"
+      },
+      {
+        title: "Common Signs",
+        type: 'bullets',
+        content: [
+          "Conversations become mostly logistical.",
+          "Quality time decreases.",
+          "Partners stop sharing thoughts and feelings.",
+          "Affection and appreciation become less frequent.",
+          "Small misunderstandings feel harder to resolve."
+        ],
+        bg: "bg-slate-50/60",
+        border: "border-slate-100",
+        text: "text-slate-900",
+        iconColor: "text-slate-500"
+      },
+      {
+        title: "Why It Happens",
+        type: 'text',
+        content: "Relationships require ongoing attention. Major life transitions, work stress, parenting responsibilities, and personal challenges can unintentionally reduce connection.",
+        bg: "bg-purple-50/50",
+        border: "border-purple-100",
+        text: "text-purple-900",
+        iconColor: "text-purple-500"
+      },
+      {
+        title: "Rebuilding Connection",
+        type: 'bullets',
+        content: [
+          "Schedule dedicated time together each week.",
+          "Show curiosity about your partner's experiences.",
+          "Share small daily moments, not just major events.",
+          "Express appreciation regularly."
+        ],
+        bg: "bg-emerald-50/50",
+        border: "border-emerald-100",
+        text: "text-emerald-900",
+        iconColor: "text-emerald-500"
+      }
+    ],
+    takeaway: "Growing apart is often a gradual process, which means reconnection can also happen through small, consistent efforts."
+  },
+  'small-fights': {
+    title: "Why Small Fights Become Big",
+    sections: [
+      {
+        title: "Understanding Escalation",
+        type: 'text',
+        content: "Many major conflicts begin with minor frustrations. The issue itself is often less important than the emotions underneath it.",
+        bg: "bg-blue-50/50",
+        border: "border-blue-100",
+        text: "text-blue-900",
+        iconColor: "text-blue-500"
+      },
+      {
+        title: "Common Escalation Patterns",
+        type: 'bullets',
+        content: [
+          "Defensiveness",
+          "Criticism",
+          "Assumptions about intentions",
+          "Bringing up past conflicts",
+          "Refusing to listen"
+        ],
+        bg: "bg-slate-50/60",
+        border: "border-slate-100",
+        text: "text-slate-900",
+        iconColor: "text-slate-500"
+      },
+      {
+        title: "What's Really Happening?",
+        type: 'text',
+        content: "Small disagreements can trigger deeper needs related to feeling respected, understood, valued, or emotionally safe.",
+        bg: "bg-purple-50/50",
+        border: "border-purple-100",
+        text: "text-purple-900",
+        iconColor: "text-purple-500"
+      },
+      {
+        title: "Healthier Conflict Habits",
+        type: 'bullets',
+        content: [
+          "Focus on one issue at a time.",
+          "Listen before responding.",
+          "Use calm and specific language.",
+          "Address concerns early rather than letting resentment build."
+        ],
+        bg: "bg-emerald-50/50",
+        border: "border-emerald-100",
+        text: "text-emerald-900",
+        iconColor: "text-emerald-500"
+      }
+    ],
+    takeaway: "Successful couples are not conflict-free. They learn how to manage disagreements without damaging connection."
+  },
+  'lonely-love': {
+    title: "Loving Someone But Feeling Lonely",
+    sections: [
+      {
+        title: "Understanding Relationship Loneliness",
+        type: 'text',
+        content: "A person can deeply love their partner and still feel emotionally disconnected. Physical presence does not always create emotional closeness.",
+        bg: "bg-blue-50/50",
+        border: "border-blue-100",
+        text: "text-blue-900",
+        iconColor: "text-blue-500"
+      },
+      {
+        title: "Possible Causes",
+        type: 'bullets',
+        content: [
+          "Limited emotional conversations",
+          "Different intimacy needs",
+          "Stress and life pressures",
+          "Feeling misunderstood",
+          "Lack of shared experiences"
+        ],
+        bg: "bg-slate-50/60",
+        border: "border-slate-100",
+        text: "text-slate-900",
+        iconColor: "text-slate-500"
+      },
+      {
+        title: "Signs of Emotional Loneliness",
+        type: 'bullets',
+        content: [
+          "Feeling unseen or unheard",
+          "Hesitating to share feelings",
+          "Missing emotional support",
+          "Feeling disconnected despite spending time together"
+        ],
+        bg: "bg-purple-50/50",
+        border: "border-purple-100",
+        text: "text-purple-900",
+        iconColor: "text-purple-500"
+      },
+      {
+        title: "Strengthening Emotional Intimacy",
+        type: 'bullets',
+        content: [
+          "Create distraction-free time together.",
+          "Discuss feelings, not just events.",
+          "Share personal hopes, fears, and experiences.",
+          "Build rituals of connection."
+        ],
+        bg: "bg-emerald-50/50",
+        border: "border-emerald-100",
+        text: "text-emerald-900",
+        iconColor: "text-emerald-500"
+      }
+    ],
+    takeaway: "Loneliness in relationships is often a signal that emotional connection needs attention, not necessarily that love is absent."
+  },
+  'breaking-point': {
+    title: "When Relationships Reach Breaking Point",
+    sections: [
+      {
+        title: "Understanding Breaking Points",
+        type: 'text',
+        content: "Every relationship faces challenges. A breaking point is reached when ongoing issues overwhelm the couple's ability to feel connected, hopeful, or secure.",
+        bg: "bg-blue-50/50",
+        border: "border-blue-100",
+        text: "text-blue-900",
+        iconColor: "text-blue-500"
+      },
+      {
+        title: "Warning Signs",
+        type: 'bullets',
+        content: [
+          "Constant unresolved conflict",
+          "Loss of trust",
+          "Emotional withdrawal",
+          "Feeling hopeless about improvement",
+          "Repeated cycles of the same problems"
+        ],
+        bg: "bg-slate-50/60",
+        border: "border-slate-100",
+        text: "text-slate-900",
+        iconColor: "text-slate-500"
+      },
+      {
+        title: "Important Considerations",
+        type: 'text',
+        content: "Not every relationship at a breaking point must end. Sometimes couples need new tools, support, boundaries, or a different way of relating.",
+        bg: "bg-purple-50/50",
+        border: "border-purple-100",
+        text: "text-purple-900",
+        iconColor: "text-purple-500"
+      },
+      {
+        title: "Paths Forward",
+        type: 'bullets',
+        content: [
+          "Honest conversations about needs and expectations",
+          "Rebuilding trust through consistent actions",
+          "Establishing healthier boundaries",
+          "Seeking professional support when needed"
+        ],
+        bg: "bg-emerald-50/50",
+        border: "border-emerald-100",
+        text: "text-emerald-900",
+        iconColor: "text-emerald-500"
+      }
+    ],
+    takeaway: "A breaking point can become an opportunity for clarity, growth, and intentional decision-making about the future of the relationship."
+  }
+};
+
 export default function GuidedActivity() {
   const { t } = useTranslation();
   const { concern, activityName } = useParams<{ concern: string; activityName: string }>();
@@ -195,64 +427,47 @@ export default function GuidedActivity() {
           </div>
         );
       case 'GUIDANCE':
-        const keyRoot = `guidance.${decodedName.toLowerCase().replace(/ /g, '-')}`;
-        const takeaways: string[] = t(`${keyRoot}.takeaways`, { returnObjects: true }) as any || [];
+        const normKey = decodedName.toLowerCase().replace(/ /g, '-');
+        const data = GUIDANCE_CONTENT[normKey] || GUIDANCE_CONTENT[Object.keys(GUIDANCE_CONTENT).find(k => normKey.includes(k)) || 'growing-apart'];
+
         return (
           <div className="space-y-8 text-left">
-            {/* Education Section */}
-            <div className="bg-blue-50/50 p-6 rounded-[2rem] border border-blue-100">
-              <h3 className="text-blue-900 font-extrabold text-lg mb-2 flex items-center gap-2">
-                <Book size={20} className="text-blue-500" />
-                {t(`${keyRoot}.education_title`)}
-              </h3>
-              <p className="text-slate-600 text-sm font-medium leading-relaxed">
-                {t(`${keyRoot}.education_text`)}
-              </p>
-            </div>
+            {data.sections.map((sec, index) => {
+              const IconComponent = index === 0 ? Book : (index === 1 ? Target : (index === 2 ? Smile : Star));
+              return (
+                <div key={sec.title} className={`${sec.bg} p-6 rounded-[2rem] border ${sec.border}`}>
+                  <h3 className={`${sec.text} font-extrabold text-lg mb-3 flex items-center gap-2`}>
+                    <IconComponent size={20} className={sec.iconColor} />
+                    {sec.title}
+                  </h3>
+                  {sec.type === 'bullets' && Array.isArray(sec.content) ? (
+                    <ul className="space-y-2">
+                      {sec.content.map((item, idx) => (
+                        <li key={idx} className="flex items-start gap-3 text-slate-600 text-sm font-medium">
+                          <span className="w-1.5 h-1.5 rounded-full bg-blue-500 mt-2 shrink-0" />
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className="text-slate-600 text-sm font-medium leading-relaxed">
+                      {sec.content}
+                    </p>
+                  )}
+                </div>
+              );
+            })}
 
-            {/* Exercise Section */}
-            <div className="bg-purple-50/50 p-6 rounded-[2rem] border border-purple-100">
-              <h3 className="text-purple-900 font-extrabold text-lg mb-2 flex items-center gap-2">
-                <Target size={20} className="text-purple-500" />
-                {t(`${keyRoot}.exercise_title`)}
-              </h3>
-              <p className="text-slate-600 text-sm font-medium leading-relaxed">
-                {t(`${keyRoot}.exercise_text`)}
-              </p>
-            </div>
-
-            {/* Reflection Input */}
-            <div className="space-y-3">
-              <h3 className="text-slate-800 font-extrabold text-lg flex items-center gap-2 px-1">
-                <Smile size={20} className="text-slate-500" />
-                {t(`${keyRoot}.reflection_prompt_title`)}
-              </h3>
-              <textarea
-                value={reflection}
-                onChange={(e) => {
-                  setReflection(e.target.value);
-                  setFormData({ ...formData, reflection: e.target.value });
-                }}
-                placeholder={t(`${keyRoot}.reflection_placeholder`)}
-                className="w-full p-6 bg-slate-50 border border-slate-100 rounded-3xl outline-none h-40 focus:bg-white focus:border-blue-400 transition-all resize-none text-slate-700 font-medium"
-              />
-            </div>
-
-            {/* Takeaways Section */}
-            {takeaways.length > 0 && (
-              <div className="bg-slate-50 p-6 rounded-[2rem] border border-slate-100">
-                <h3 className="text-slate-800 font-extrabold text-base mb-4 flex items-center gap-2">
-                  <Star size={18} className="text-yellow-500 fill-yellow-500" />
-                  {t(`${keyRoot}.takeaway_title`)}
+            {/* Key Takeaway Section */}
+            {data.takeaway && (
+              <div className="bg-amber-50/50 p-6 rounded-[2rem] border border-amber-100">
+                <h3 className="text-amber-900 font-extrabold text-base mb-2 flex items-center gap-2">
+                  <Star size={18} className="text-amber-500 fill-amber-500" />
+                  Key Takeaway
                 </h3>
-                <ul className="space-y-2">
-                  {takeaways.map((item, index) => (
-                    <li key={index} className="flex items-start gap-3 text-slate-600 text-sm font-medium">
-                      <span className="w-1.5 h-1.5 rounded-full bg-blue-500 mt-2 shrink-0" />
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
+                <p className="text-slate-600 text-sm font-medium leading-relaxed">
+                  {data.takeaway}
+                </p>
               </div>
             )}
           </div>
@@ -286,12 +501,14 @@ export default function GuidedActivity() {
           </button>
           <h1 className="text-lg font-bold text-slate-800 truncate max-w-[200px]">{(typeof t !== "undefined" ? t : (k) => k)("hub.guided_series")}</h1>
         </div>
-        <button 
-          onClick={() => setShowHistory(!showHistory)}
-          className="p-2.5 hover:bg-slate-100 rounded-full transition-colors bg-slate-50 relative"
-        >
-          <History size={20} className={showHistory ? "text-blue-500" : "text-slate-400"} />
-        </button>
+        {uiType !== 'GUIDANCE' && (
+          <button 
+            onClick={() => setShowHistory(!showHistory)}
+            className="p-2.5 hover:bg-slate-100 rounded-full transition-colors bg-slate-50 relative"
+          >
+            <History size={20} className={showHistory ? "text-blue-500" : "text-slate-400"} />
+          </button>
+        )}
       </div>
 
       <div className="max-w-2xl mx-auto px-4 mt-8">
@@ -302,7 +519,12 @@ export default function GuidedActivity() {
         >
           <div className="mb-10">
             <h2 className="text-3xl font-black text-slate-900 mb-4 tracking-tight leading-tight">{t(`guided_series.${decodedName}`, decodedName)}</h2>
-            <p className="text-slate-400 leading-relaxed font-medium text-[16px]">{(typeof t !== "undefined" ? t : (k) => k)("take_a_moment_to_reflect_on_this_activity_use_the_")}</p>
+            <p className="text-slate-400 leading-relaxed font-medium text-[16px]">
+              {uiType === 'GUIDANCE' 
+                ? "Read through these relationship insights and guidelines to support your connection."
+                : (typeof t !== "undefined" ? t : (k) => k)("take_a_moment_to_reflect_on_this_activity_use_the_")
+              }
+            </p>
           </div>
 
           <div className="relative">
@@ -328,62 +550,74 @@ export default function GuidedActivity() {
             </AnimatePresence>
           </div>
 
-          <button
-            onClick={handleSave}
-            disabled={isSaving}
-            className={`w-full mt-10 py-6 rounded-[24px] flex items-center justify-center gap-3 text-lg font-black transition-all active:scale-[0.98] ${
-              !isSaving 
-                ? 'bg-slate-900 text-white hover:bg-black shadow-2xl shadow-slate-200' 
-                : 'bg-slate-100 text-slate-300 cursor-not-allowed shadow-none'
-            }`}
-          >
-            {isSaving ? (
-              <Loader size={24} color="#ffffff" />
-            ) : (
-              <>
-                <Send size={20} className="opacity-70" />{(typeof t !== "undefined" ? t : (k) => k)("save_reflection")}</>
-            )}
-          </button>
+          {uiType === 'GUIDANCE' ? (
+            <button
+              onClick={() => navigate(-1)}
+              className="w-full mt-10 py-6 rounded-[24px] flex items-center justify-center gap-3 text-lg font-black transition-all active:scale-[0.98] bg-slate-900 text-white hover:bg-black shadow-2xl shadow-slate-200"
+            >
+              <ChevronLeft size={20} className="opacity-70" />
+              {(typeof t !== "undefined" ? t : (k) => k)("back_to_topics", "Back to Guided Series")}
+            </button>
+          ) : (
+            <button
+              onClick={handleSave}
+              disabled={isSaving}
+              className={`w-full mt-10 py-6 rounded-[24px] flex items-center justify-center gap-3 text-lg font-black transition-all active:scale-[0.98] ${
+                !isSaving 
+                  ? 'bg-slate-900 text-white hover:bg-black shadow-2xl shadow-slate-200' 
+                  : 'bg-slate-100 text-slate-300 cursor-not-allowed shadow-none'
+              }`}
+            >
+              {isSaving ? (
+                <Loader size={24} color="#ffffff" />
+              ) : (
+                <>
+                  <Send size={20} className="opacity-70" />{(typeof t !== "undefined" ? t : (k) => k)("save_reflection")}</>
+              )}
+            </button>
+          )}
         </motion.div>
 
         {/* History Section */}
-        <AnimatePresence>
-          {showHistory && (
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="mt-12"
-            >
-              <h3 className="text-[11px] font-black text-slate-400 uppercase tracking-[0.2em] mb-6 px-4">{(typeof t !== "undefined" ? t : (k) => k)("previous_records")}</h3>
-              
-              {history.length > 0 ? (
-                <div className="space-y-4">
-                  {history.map((entry, idx) => (
-                    <div key={idx} className="bg-white p-8 rounded-[32px] border border-slate-100 shadow-sm">
-                      <div className="flex justify-between items-center mb-6">
-                        <span className="text-[10px] font-black text-blue-600 bg-blue-50 px-3 py-1.5 rounded-full">
-                          {new Date(entry.created_at).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })}
-                        </span>
+        {uiType !== 'GUIDANCE' && (
+          <AnimatePresence>
+            {showHistory && (
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="mt-12"
+              >
+                <h3 className="text-[11px] font-black text-slate-400 uppercase tracking-[0.2em] mb-6 px-4">{(typeof t !== "undefined" ? t : (k) => k)("previous_records")}</h3>
+                
+                {history.length > 0 ? (
+                  <div className="space-y-4">
+                    {history.map((entry, idx) => (
+                      <div key={idx} className="bg-white p-8 rounded-[32px] border border-slate-100 shadow-sm">
+                        <div className="flex justify-between items-center mb-6">
+                          <span className="text-[10px] font-black text-blue-600 bg-blue-50 px-3 py-1.5 rounded-full">
+                            {new Date(entry.created_at).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })}
+                          </span>
+                        </div>
+                        <div className="space-y-3">
+                          {Object.entries(entry.entry_data).map(([key, val]: [string, any]) => (
+                            <div key={key} className="flex flex-col gap-1">
+                              <span className="text-[10px] font-black text-slate-300 uppercase tracking-wider">{key}</span>
+                              <span className="text-slate-700 font-medium leading-relaxed">{val}</span>
+                            </div>
+                          ))}
+                        </div>
                       </div>
-                      <div className="space-y-3">
-                        {Object.entries(entry.entry_data).map(([key, val]: [string, any]) => (
-                          <div key={key} className="flex flex-col gap-1">
-                            <span className="text-[10px] font-black text-slate-300 uppercase tracking-wider">{key}</span>
-                            <span className="text-slate-700 font-medium leading-relaxed">{val}</span>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              ) : (
-                <div className="bg-slate-100/30 rounded-[32px] p-12 text-center border border-dashed border-slate-200">
-                  <p className="text-slate-400 text-sm font-bold">{(typeof t !== "undefined" ? t : (k) => k)("no_history_available_yet")}</p>
-                </div>
-              )}
-            </motion.div>
-          )}
-        </AnimatePresence>
+                    ))}
+                  </div>
+                ) : (
+                  <div className="bg-slate-100/30 rounded-[32px] p-12 text-center border border-dashed border-slate-200">
+                    <p className="text-slate-400 text-sm font-bold">{(typeof t !== "undefined" ? t : (k) => k)("no_history_available_yet")}</p>
+                  </div>
+                )}
+              </motion.div>
+            )}
+          </AnimatePresence>
+        )}
       </div>
     </div>
   );

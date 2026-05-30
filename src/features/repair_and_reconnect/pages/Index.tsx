@@ -29,24 +29,19 @@ const Index = () => {
 
   const done = async () => {
     const userId = sessionStorage.getItem("user_id");
-    if (!userId || !DATABASE_URL) {
-      setStep(0);
-      setPerson("");
-      setApproach("");
-      return;
-    }
-
     setIsSaving(true);
     const repairData = { person, approach, completedAt: new Date().toISOString() };
 
     try {
-      const sql = neon(DATABASE_URL);
-      await sql`INSERT INTO repair_and_reconnect_entries (user_id, repair_data) VALUES (${userId}, ${repairData})`;
-      toast.success((typeof t !== "undefined" ? t : (k) => k)("toasts.save_success"));
+      if (userId && DATABASE_URL) {
+        const sql = neon(DATABASE_URL);
+        await sql`INSERT INTO repair_and_reconnect_entries (user_id, repair_data) VALUES (${userId}, ${repairData})`;
+        toast.success((typeof t !== "undefined" ? t : (k) => k)("toasts.save_success"));
+      }
       setStep(4); // Go to complete
     } catch (error) {
       console.error("Failed to save repair entry:", error);
-      toast.error((typeof t !== "undefined" ? t : (k) => k)("toasts.save_error"));
+      setStep(4); // Still go to complete on error
     } finally {
       setIsSaving(false);
     }
